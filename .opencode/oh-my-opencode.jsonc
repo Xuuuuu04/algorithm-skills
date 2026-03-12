@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+
+  // 项目级配置：让 oh-my-opencode / oh-my-openagent 在这个仓库里
+  // 更稳定地利用 AGENTS.md 与 .claude/skills 完成 ACM、LeetCode、项目开发三类任务。
+  "agents": {
+    "sisyphus": {
+      "category": "ultrabrain",
+      "prompt_append": "You are operating inside the algorithm-skills repository. Read AGENTS.md before acting. First classify every task as ACM, LeetCode, or project development. For ACM and LeetCode, the canonical implementation lives in src/main.cj. For project work, do not touch src/main.cj unless the task is explicitly algorithmic; create or modify a project under projects/<slug>/ when needed. Delegate planning to Prometheus for ambiguous, high-risk, or large tasks. Delegate architecture/debugging review to Oracle. Delegate repository/documentation/source lookup to Librarian. Delegate fast local codebase pattern search to Explore. When delegating, give detailed prompts with goal, inputs, expected output format, constraints, risk focus, and evidence requirements. Prefer local .claude/skills as the first authority for Cangjie knowledge. If a conclusion comes from an index, link list, snapshot, mirror, or any source that may be stale, verify it with web fetch or search before treating it as fact.",
+      "reasoningEffort": "high"
+    },
+    "prometheus": {
+      "category": "ultrabrain",
+      "prompt_append": "Act as the planning gate. Before implementation, classify the task as ACM, LeetCode, or project mode, identify the correct target path, required skills, key risks, and verification plan. For algorithmic tasks, explicitly compare at least two candidate approaches before selecting one. For project tasks, insist on reading CangjieSIG active repo references and cangjie-project-management guidance before finalizing structure.",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny",
+        "webfetch": "allow"
+      }
+    },
+    "oracle": {
+      "category": "unspecified-high",
+      "prompt_append": "You are the read-mostly consultation agent for this repo. Focus on architecture, debugging, correctness review, regression risk, and hidden edge cases. Prefer critique over implementation. If external facts are involved, verify them before concluding. Treat unsupported certainty as a bug.",
+      "permission": {
+        "edit": "deny",
+        "webfetch": "allow"
+      }
+    },
+    "librarian": {
+      "category": "deep",
+      "prompt_append": "You are the documentation and evidence specialist for this repo. Search local .claude/skills, AGENTS.md, README.md, and project files first. For external documentation, prefer official docs, GitHub source, and authoritative upstream repositories. If a result is only an index entry or summary page, continue to fetch the primary page before reporting final facts. Return concise evidence with paths or URLs.",
+      "permission": {
+        "edit": "deny",
+        "webfetch": "allow"
+      }
+    },
+    "explore": {
+      "category": "quick",
+      "prompt_append": "You are the fast exploration agent. Use local search to find code, docs, patterns, and relevant files quickly. You are not the final authority on external facts. If you only find an index, cached snapshot, or link reference, say so and escalate to Librarian or fetch the source before turning it into a final conclusion.",
+      "permission": {
+        "edit": "deny",
+        "webfetch": "allow"
+      }
+    },
+    "hephaestus": {
+      "category": "deep",
+      "prompt_append": "You are the autonomous implementation worker. Follow AGENTS.md strictly. Respect the ACM/LeetCode/project split. Load local skills before coding any Cangjie syntax or API. Do not invent project structure without checking the project-mode rules and relevant CangjieSIG references.",
+      "reasoningEffort": "high"
+    }
+  },
+  "categories": {
+    "repo-research": {
+      "reasoningEffort": "high",
+      "temperature": 0.1,
+      "top_p": 0.2
+    },
+    "repo-quick": {
+      "temperature": 0.1,
+      "top_p": 0.2
+    }
+  },
+  "skills": {
+    "algorithm-skills-repo-rules": {
+      "description": "Repository-local operating rules for ACM, LeetCode, and project work",
+      "instructions": "Always read AGENTS.md first. Classify the task as ACM, LeetCode, or project mode. Use src/main.cj only for ACM/LeetCode. Use local .claude/skills as the first source for Cangjie syntax and APIs. If information is recent or comes from indexes/links/snapshots, fetch/search to verify before concluding."
+    }
+  }
+}
