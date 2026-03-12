@@ -1,0 +1,28 @@
+{
+  "id": "CF-877B",
+  "contest_id": 877,
+  "index": "B",
+  "name": "Nikita and string",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "dp"
+  ],
+  "solved_count": 11756,
+  "problem_url": "https://codeforces.com/problemset/problem/877/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/877/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/877/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=877B%20Nikita%20and%20string%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/877/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 877B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

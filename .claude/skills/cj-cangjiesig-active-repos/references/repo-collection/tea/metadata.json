@@ -1,0 +1,14 @@
+{
+  "name": "tea",
+  "full_name": "cangjielanguage-sig/tea",
+  "html_url": "https://github.com/cangjielanguage-sig/tea",
+  "description": "仓颉语言轻量级的、函数式的、高效的HTTP Web后端框架",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "master",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/tea/master/cjpm.toml"
+}

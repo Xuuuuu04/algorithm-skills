@@ -1,0 +1,38 @@
+{
+  "id": "CF-1242C",
+  "contest_id": 1242,
+  "index": "C",
+  "name": "Sum Balance",
+  "rating": 2400,
+  "tags": [
+    "bitmasks",
+    "dfs and similar",
+    "dp",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1242/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1242/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1242/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1242C%20Sum Balance%20tutorial",
+  "solved_count": 1902,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1242C",
+  "hydro_meta": {
+    "page_title": "Sum Balance - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

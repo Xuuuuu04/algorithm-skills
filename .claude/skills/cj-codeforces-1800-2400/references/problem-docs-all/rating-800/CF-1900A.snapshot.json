@@ -1,0 +1,35 @@
+{
+  "id": "CF-1900A",
+  "contest_id": 1900,
+  "index": "A",
+  "name": "Cover in Water",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 60467,
+  "problem_url": "https://codeforces.com/problemset/problem/1900/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1900/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1900/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1900A%20Cover%20in%20Water%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1900A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cover in Water - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

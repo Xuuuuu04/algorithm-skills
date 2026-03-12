@@ -1,0 +1,34 @@
+{
+  "id": "CF-671D",
+  "contest_id": 671,
+  "index": "D",
+  "name": "Roads in Yusland",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 1300,
+  "problem_url": "https://codeforces.com/problemset/problem/671/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/671/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/671/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=671D%20Roads%20in%20Yusland%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P671D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Roads in Yusland - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-2007C",
+  "contest_id": 2007,
+  "index": "C",
+  "name": "Dora and C++",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 15601,
+  "problem_url": "https://codeforces.com/problemset/problem/2007/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2007/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2007/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2007C%20Dora%20and%20C%2B%2B%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2007C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2007C Dora and C++ - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

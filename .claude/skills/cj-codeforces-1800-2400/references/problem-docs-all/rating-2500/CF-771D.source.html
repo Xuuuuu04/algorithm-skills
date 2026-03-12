@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF771D Bear and Company - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF771D","type":"CF","title":"Bear and Company","difficulty":6,"tags":[],"wantsTranslation":false,"totalSubmit":189,"totalAccepted":120,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Bear and Company","background":null,"description":"\u718a Limak \u6b63\u5728\u4e3a\u4e00\u9879\u7f16\u7a0b\u7ade\u8d5b\u51c6\u5907\u9898\u76ee\u3002\u5f53\u7136\uff0c\u5728\u9898\u9762\u4e2d\u63d0\u53ca\u8d5e\u52a9\u5546\u7684\u540d\u5b57\u662f\u4e0d\u4e13\u4e1a\u7684\u3002Limak \u5341\u5206\u8ba4\u771f\uff0c\u4ed6\u6253\u7b97\u4fee\u6539\u4e00\u4e9b\u5355\u8bcd\u3002\u4e3a\u4e86\u4fdd\u8bc1\u9898\u76ee\u4f9d\u7136\u53ef\u8bfb\uff0c\u4ed6\u4f1a\u5c3d\u91cf\u5c11\u5730\u4fee\u6539\u6bcf\u4e2a\u5355\u8bcd\u3002\n\nLimak \u6709\u4e00\u4e2a\u7531\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002\u5728\u4e00\u6b21\u64cd\u4f5c\u4e2d\uff0c\u4ed6\u53ef\u4ee5\u4ea4\u6362\u5b57\u7b26\u4e32\u4e2d\u76f8\u90bb\u7684\u4e24\u4e2a\u5b57\u6bcd\u3002\u4f8b\u5982\uff0c\u4ed6\u53ef\u4ee5\u5c06\u5b57\u7b26\u4e32 \u201cABBC\u201d \u901a\u8fc7\u4e00\u6b21\u64cd\u4f5c\u53d8\u6210 \u201cBABC\u201d \u6216 \u201cABCB\u201d\u3002\n\nLimak \u5e0c\u671b\u5c06\u5b57\u7b26\u4e32\u53d8\u6210\u4e00\u4e2a\u4e0d\u5305\u542b\u5b50\u4e32 \u201cVK\u201d \u7684\u5b57\u7b26\u4e32\uff08\u5373\u4e0d\u80fd\u51fa\u73b0\u5b57\u6bcd \u2018V\u2019 \u7d27\u8ddf \u2018K\u2019 \u7684\u60c5\u51b5\uff09\u3002\u53ef\u4ee5\u8bc1\u660e\uff0c\u5bf9\u4e8e\u4efb\u610f\u521d\u59cb\u5b57\u7b26\u4e32 $s$\uff0c\u603b\u662f\u6709\u53ef\u80fd\u8fbe\u5230\u8fd9\u4e2a\u76ee\u6807\u3002\n\nLimak \u6700\u5c11\u9700\u8981\u8fdb\u884c\u591a\u5c11\u6b21\u64cd\u4f5c\uff1f","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 75$\uff09\u2014\u2014\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4ec5\u7531\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a Limak \u81f3\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u624d\u80fd\u5f97\u5230\u4e00\u4e2a\u4e0d\u5305\u542b\u5b50\u4e32 \u201cVK\u201d \u7684\u5b57\u7b26\u4e32\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u521d\u59cb\u5b57\u7b26\u4e32\u4e3a \u201cVKVK\u201d\u3002\u6700\u5c11\u9700\u8981 $3$ \u6b21\u64cd\u4f5c\u3002\u4e00\u79cd\u6700\u4f18\u7684\u79fb\u52a8\u65b9\u6848\u5982\u4e0b\uff1a\n\n1. \u4ea4\u6362\u6700\u540e\u4e24\u4e2a\u5b57\u6bcd\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a \u201cVKKV\u201d\u3002\n2. \u4ea4\u6362\u524d\u4e24\u4e2a\u5b57\u6bcd\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a \u201cKVKV\u201d\u3002\n3. \u4ea4\u6362\u7b2c\u4e8c\u548c\u7b2c\u4e09\u4e2a\u5b57\u6bcd\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a \u201cKKVV\u201d\u3002\u6b64\u65f6\u5b57\u7b26\u4e32\u4e2d\u6ca1\u6709\u5b50\u4e32 \u201cVK\u201d\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6709\u4e24\u79cd\u6700\u4f18\u7684\u64cd\u4f5c\u65b9\u6848\u3002\u4e00\u79cd\u662f \u201cBVVKV\u201d $\u2192$ \u201cVBVKV\u201d $\u2192$ \u201cVVBKV\u201d\uff0c\u53e6\u4e00\u79cd\u662f \u201cBVVKV\u201d $\u2192$ \u201cBVKVV\u201d $\u2192$ \u201cBKVVV\u201d\u3002\n\n\u5728\u7b2c\u4e94\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e0d\u9700\u8981\u4efb\u4f55\u4ea4\u6362\u64cd\u4f5c\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Bear and Company","background":"","description":"Bear Limak prepares problems for a programming competition. Of course, it would be unprofessional to mention the sponsor name in the statement. Limak takes it seriously and he is going to change some words. To make it still possible to read, he will try to modify each word as little as possible.\n\nLimak has a string $ s $ that consists of uppercase English letters. In one move he can swap two adjacent letters of the string. For example, he can transform a string \u0022ABBC\u0022 into \u0022BABC\u0022 or \u0022ABCB\u0022 in one move.\n\nLimak wants to obtain a string without a substring \u0022VK\u0022 (i.e. there should be no letter \u0027V\u0027 immediately followed by letter \u0027K\u0027). It can be easily proved that it\u0027s possible for any initial string $ s $ .\n\nWhat is the minimum possible number of moves Limak can do?","formatI":"The first line of the input contains an integer $ n $ ( $ 1\u003C=n\u003C=75 $ ) \u2014 the length of the string.\n\nThe second line contains a string $ s $ , consisting of uppercase English letters. The length of the string is equal to $ n $ .","formatO":"Print one integer, denoting the minimum possible number of moves Limak can do, in order to obtain a string without a substring \u0022VK\u0022.","hint":"In the first sample, the initial string is \u0022VKVK\u0022. The minimum possible number of moves is $ 3 $ . One optimal sequence of moves is:\n\n1. Swap two last letters. The string becomes \u0022VKKV\u0022.\n2. Swap first two letters. The string becomes \u0022KVKV\u0022.\n3. Swap the second and the third letter. The string becomes \u0022KKVV\u0022. Indeed, this string doesn\u0027t have a substring \u0022VK\u0022.\n\nIn the second sample, there are two optimal sequences of moves. One is \u0022BVVKV\u0022 $ \u2192 $ \u0022VBVKV\u0022 $ \u2192 $ \u0022VVBKV\u0022. The other is \u0022BVVKV\u0022 $ \u2192 $ \u0022BVKVV\u0022 $ \u2192 $ \u0022BKVVV\u0022.\n\nIn the fifth sample, no swaps are necessary.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\nVKVK\n","3\n"],["5\nBVVKV\n","2\n"],["7\nVVKEVKK\n","3\n"],["20\nVKVKVVVKVOVKVQKKKVVK\n","8\n"],["5\nLIMAK\n","0\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"771D","link":"https:\/\/codeforces.com\/problemset\/problem\/771\/D"},"translation":"\u8f93\u5165\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u4f60\u53ef\u4ee5\u8fdb\u884c\u4e00\u4e9b\u64cd\u4f5c\uff0c\u6bcf\u6b21\u64cd\u4f5c\u53ef\u4ee5\u4ea4\u6362\u4e24\u4e2a\u76f8\u90bb\u7684\u5b57\u7b26\u3002\u95ee\u81f3\u5c11\u8fdb\u884c\u51e0\u6b21\u64cd\u4f5c\uff0c\u624d\u80fd\u4f7f\u8fd9\u4e2a\u5b57\u7b26\u4e32\u4e0d\u5305\u542b\u5b50\u4e32 VK \u3002\n\u7ffb\u8bd1\u8d21\u732e\u8005UID\uff1a29519"},"translations":{"en":{"name":"Bear and Company","background":"","description":"Bear Limak prepares problems for a programming competition. Of course, it would be unprofessional to mention the sponsor name in the statement. Limak takes it seriously and he is going to change some words. To make it still possible to read, he will try to modify each word as little as possible.\n\nLimak has a string $ s $ that consists of uppercase English letters. In one move he can swap two adjacent letters of the string. For example, he can transform a string \u0022ABBC\u0022 into \u0022BABC\u0022 or \u0022ABCB\u0022 in one move.\n\nLimak wants to obtain a string without a substring \u0022VK\u0022 (i.e. there should be no letter \u0027V\u0027 immediately followed by letter \u0027K\u0027). It can be easily proved that it\u0027s possible for any initial string $ s $ .\n\nWhat is the minimum possible number of moves Limak can do?","formatI":"The first line of the input contains an integer $ n $ ( $ 1\u003C=n\u003C=75 $ ) \u2014 the length of the string.\n\nThe second line contains a string $ s $ , consisting of uppercase English letters. The length of the string is equal to $ n $ .","formatO":"Print one integer, denoting the minimum possible number of moves Limak can do, in order to obtain a string without a substring \u0022VK\u0022.","hint":"In the first sample, the initial string is \u0022VKVK\u0022. The minimum possible number of moves is $ 3 $ . One optimal sequence of moves is:\n\n1. Swap two last letters. The string becomes \u0022VKKV\u0022.\n2. Swap first two letters. The string becomes \u0022KVKV\u0022.\n3. Swap the second and the third letter. The string becomes \u0022KKVV\u0022. Indeed, this string doesn\u0027t have a substring \u0022VK\u0022.\n\nIn the second sample, there are two optimal sequences of moves. One is \u0022BVVKV\u0022 $ \u2192 $ \u0022VBVKV\u0022 $ \u2192 $ \u0022VVBKV\u0022. The other is \u0022BVVKV\u0022 $ \u2192 $ \u0022BVKVV\u0022 $ \u2192 $ \u0022BKVVV\u0022.\n\nIn the fifth sample, no swaps are necessary.","locale":"en"},"zh-CN":{"name":"Bear and Company","background":null,"description":"\u718a Limak \u6b63\u5728\u4e3a\u4e00\u9879\u7f16\u7a0b\u7ade\u8d5b\u51c6\u5907\u9898\u76ee\u3002\u5f53\u7136\uff0c\u5728\u9898\u9762\u4e2d\u63d0\u53ca\u8d5e\u52a9\u5546\u7684\u540d\u5b57\u662f\u4e0d\u4e13\u4e1a\u7684\u3002Limak \u5341\u5206\u8ba4\u771f\uff0c\u4ed6\u6253\u7b97\u4fee\u6539\u4e00\u4e9b\u5355\u8bcd\u3002\u4e3a\u4e86\u4fdd\u8bc1\u9898\u76ee\u4f9d\u7136\u53ef\u8bfb\uff0c\u4ed6\u4f1a\u5c3d\u91cf\u5c11\u5730\u4fee\u6539\u6bcf\u4e2a\u5355\u8bcd\u3002\n\nLimak \u6709\u4e00\u4e2a\u7531\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002\u5728\u4e00\u6b21\u64cd\u4f5c\u4e2d\uff0c\u4ed6\u53ef\u4ee5\u4ea4\u6362\u5b57\u7b26\u4e32\u4e2d\u76f8\u90bb\u7684\u4e24\u4e2a\u5b57\u6bcd\u3002\u4f8b\u5982\uff0c\u4ed6\u53ef\u4ee5\u5c06\u5b57\u7b26\u4e32 \u201cABBC\u201d \u901a\u8fc7\u4e00\u6b21\u64cd\u4f5c\u53d8\u6210 \u201cBABC\u201d \u6216 \u201cABCB\u201d\u3002\n\nLimak \u5e0c\u671b\u5c06\u5b57\u7b26\u4e32\u53d8\u6210\u4e00\u4e2a\u4e0d\u5305\u542b\u5b50\u4e32 \u201cVK\u201d \u7684\u5b57\u7b26\u4e32\uff08\u5373\u4e0d\u80fd\u51fa\u73b0\u5b57\u6bcd \u2018V\u2019 \u7d27\u8ddf \u2018K\u2019 \u7684\u60c5\u51b5\uff09\u3002\u53ef\u4ee5\u8bc1\u660e\uff0c\u5bf9\u4e8e\u4efb\u610f\u521d\u59cb\u5b57\u7b26\u4e32 $s$\uff0c\u603b\u662f\u6709\u53ef\u80fd\u8fbe\u5230\u8fd9\u4e2a\u76ee\u6807\u3002\n\nLimak \u6700\u5c11\u9700\u8981\u8fdb\u884c\u591a\u5c11\u6b21\u64cd\u4f5c\uff1f","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 75$\uff09\u2014\u2014\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4ec5\u7531\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a Limak \u81f3\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u624d\u80fd\u5f97\u5230\u4e00\u4e2a\u4e0d\u5305\u542b\u5b50\u4e32 \u201cVK\u201d \u7684\u5b57\u7b26\u4e32\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u521d\u59cb\u5b57\u7b26\u4e32\u4e3a \u201cVKVK\u201d\u3002\u6700\u5c11\u9700\u8981 $3$ \u6b21\u64cd\u4f5c\u3002\u4e00\u79cd\u6700\u4f18\u7684\u79fb\u52a8\u65b9\u6848\u5982\u4e0b\uff1a\n\n1. \u4ea4\u6362\u6700\u540e\u4e24\u4e2a\u5b57\u6bcd\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a \u201cVKKV\u201d\u3002\n2. \u4ea4\u6362\u524d\u4e24\u4e2a\u5b57\u6bcd\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a \u201cKVKV\u201d\u3002\n3. \u4ea4\u6362\u7b2c\u4e8c\u548c\u7b2c\u4e09\u4e2a\u5b57\u6bcd\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a \u201cKKVV\u201d\u3002\u6b64\u65f6\u5b57\u7b26\u4e32\u4e2d\u6ca1\u6709\u5b50\u4e32 \u201cVK\u201d\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6709\u4e24\u79cd\u6700\u4f18\u7684\u64cd\u4f5c\u65b9\u6848\u3002\u4e00\u79cd\u662f \u201cBVVKV\u201d $\u2192$ \u201cVBVKV\u201d $\u2192$ \u201cVVBKV\u201d\uff0c\u53e6\u4e00\u79cd\u662f \u201cBVVKV\u201d $\u2192$ \u201cBVKVV\u201d $\u2192$ \u201cBKVVV\u201d\u3002\n\n\u5728\u7b2c\u4e94\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e0d\u9700\u8981\u4efb\u4f55\u4ea4\u6362\u64cd\u4f5c\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF771D Bear and Company","type":2,"slug":"CF771D","color":"orange-3"},"discussions":[{"id":34683,"title":"\u9898\u76ee\u5927\u610f","author":{"uid":29519,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/29519.png","name":"qianfujia","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1519291112}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.824349,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF771D Bear and Company","description":"\u718a Limak \u6b63\u5728\u4e3a\u4e00\u9879\u7f16\u7a0b\u7ade\u8d5b\u51c6\u5907\u9898\u76ee\u3002\u5f53\u7136\uff0c\u5728\u9898\u9762\u4e2d\u63d0\u53ca\u8d5e\u52a9\u5546\u7684\u540d\u5b57\u662f\u4e0d\u4e13\u4e1a\u7684\u3002Limak \u5341\u5206\u8ba4\u771f\uff0c\u4ed6\u6253\u7b97\u4fee\u6539\u4e00\u4e9b\u5355\u8bcd\u3002\u4e3a\u4e86\u4fdd\u8bc1\u9898\u76ee\u4f9d\u7136\u53ef\u8bfb\uff0c\u4ed6\u4f1a\u5c3d\u91cf\u5c11\u5730\u4fee\u6539\u6bcf\u4e2a\u5355\u8bcd\u3002\nLimak \u6709\u4e00\u4e2a\u7531\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 s\u3002\u5728\u4e00\u6b21\u64cd\u4f5c\u4e2d\uff0c\u4ed6\u53ef\u4ee5\u4ea4\u6362\u5b57\u7b26\u4e32\u4e2d\u76f8\u90bb\u7684\u4e24\u4e2a\u5b57\u6bcd\u3002\u4f8b\u5982\uff0c\u4ed6\u53ef\u4ee5\u5c06\u5b57\u7b26\u4e32\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF771D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF771D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF771D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF771D Bear and Company" />
+    <meta property="og:description" content="熊 Limak 正在为一项编程竞赛准备题目。当然，在题面中提及赞助商的名字是不专业的。Limak 十分认真，他打算修改一些单词。为了保证题目依然可读，他会尽量少地修改每个单词。
+Limak 有一个由大写英文字母组成的字符串 s。在一次操作中，他可以交换字符串中相邻的两个字母。例如，他可以将字符串…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF771D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF771D Bear and Company</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    熊 Limak 正在为一项编程竞赛准备题目。当然，在题面中提及赞助商的名字是不专业的。Limak 十分认真，他打算修改一些单词。为了保证题目依然可读，他会尽量少地修改每个单词。
+
+Limak 有一个由大写英文字母组成的字符串 $s$。在一次操作中，他可以交换字符串中相邻的两个字母。例如，他可以将字符串 “ABBC” 通过一次操作变成 “BABC” 或 “ABCB”。
+
+Limak 希望将字符串变成一个不包含子串 “VK” 的字符串（即不能出现字母 ‘V’ 紧跟 ‘K’ 的情况）。可以证明，对于任意初始字符串 $s$，总是有可能达到这个目标。
+
+Limak 最少需要进行多少次操作？
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$（$1 \leq n \leq 75$）——字符串的长度。
+
+第二行包含一个长度为 $n$ 的仅由大写英文字母组成的字符串 $s$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示 Limak 至少需要多少次操作，才能得到一个不包含子串 “VK” 的字符串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，初始字符串为 “VKVK”。最少需要 $3$ 次操作。一种最优的移动方案如下：
+
+1. 交换最后两个字母，字符串变为 “VKKV”。
+2. 交换前两个字母，字符串变为 “KVKV”。
+3. 交换第二和第三个字母，字符串变为 “KKVV”。此时字符串中没有子串 “VK”。
+
+在第二个样例中，有两种最优的操作方案。一种是 “BVVKV” $→$ “VBVKV” $→$ “VVBKV”，另一种是 “BVVKV” $→$ “BVKVV” $→$ “BKVVV”。
+
+在第五个样例中，不需要任何交换操作。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

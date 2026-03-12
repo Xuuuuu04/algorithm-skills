@@ -1,0 +1,35 @@
+{
+  "id": "CF-898F",
+  "contest_id": 898,
+  "index": "F",
+  "name": "Restoring the Expression",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "hashing",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/898/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/898/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/898/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=898F%20Restoring the Expression%20tutorial",
+  "solved_count": 1450,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P898F",
+  "hydro_meta": {
+    "page_title": "Restoring the Expression - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "hashing",
+      "math",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

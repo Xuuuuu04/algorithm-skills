@@ -1,0 +1,32 @@
+{
+  "id": "CF-671E",
+  "contest_id": 671,
+  "index": "E",
+  "name": "Organizing a Race",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 484,
+  "problem_url": "https://codeforces.com/problemset/problem/671/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/671/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/671/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=671E%20Organizing%20a%20Race%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P671E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Organizing a Race - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "*3300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-1361F",
+  "contest_id": 1361,
+  "index": "F",
+  "name": "Johnny and New Toy",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "data structures",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 172,
+  "problem_url": "https://codeforces.com/problemset/problem/1361/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1361/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1361/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1361F%20Johnny%20and%20New%20Toy%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1361F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Johnny and New Toy - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "*3300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "15000ms",
+    "memory_limit": "1024MiB"
+  }
+}

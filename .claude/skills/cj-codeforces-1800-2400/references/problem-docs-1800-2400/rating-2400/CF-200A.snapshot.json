@@ -1,0 +1,33 @@
+{
+  "id": "CF-200A",
+  "contest_id": 200,
+  "index": "A",
+  "name": "Cinema",
+  "rating": 2400,
+  "tags": [
+    "brute force",
+    "data structures"
+  ],
+  "url": "https://codeforces.com/problemset/problem/200/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/200/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/200/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=200A%20Cinema%20tutorial",
+  "solved_count": 728,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P200A",
+  "hydro_meta": {
+    "page_title": "Cinema - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

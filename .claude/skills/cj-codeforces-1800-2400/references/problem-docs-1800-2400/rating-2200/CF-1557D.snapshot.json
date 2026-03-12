@@ -1,0 +1,38 @@
+{
+  "id": "CF-1557D",
+  "contest_id": 1557,
+  "index": "D",
+  "name": "Ezzat and Grid",
+  "rating": 2200,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1557/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1557/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1557/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1557D%20Ezzat and Grid%20tutorial",
+  "solved_count": 2945,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1557D",
+  "hydro_meta": {
+    "page_title": "Ezzat and Grid - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-55D",
+  "contest_id": 55,
+  "index": "D",
+  "name": "Beautiful numbers",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "number theory"
+  ],
+  "solved_count": 4574,
+  "problem_url": "https://codeforces.com/problemset/problem/55/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/55/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/55/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=55D%20Beautiful%20numbers%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF55D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF55D Beautiful numbers - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 2263,
+    "mirror_attempt": 8159,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1375I",
+  "contest_id": 1375,
+  "index": "I",
+  "name": "Cubic Lattice",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "geometry",
+    "math",
+    "matrices",
+    "number theory"
+  ],
+  "solved_count": 277,
+  "problem_url": "https://codeforces.com/problemset/problem/1375/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1375/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1375/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1375I%20Cubic%20Lattice%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1375/I",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1375I - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

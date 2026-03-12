@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417190:u6SQtRFFsqMJGuZseV8Bl8vnMoGRm9x7OxAvmk2JA1M=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2047A Alyona and a Square Jigsaw Puzzle - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2047A","type":"CF","title":"Alyona and a Square Jigsaw Puzzle","difficulty":2,"tags":[5],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Alyona and a Square Jigsaw Puzzle","background":"","description":"Alyona \u7ec4\u88c5\u4e86\u4e00\u4e2a\u7279\u6b8a\u7684\u65b9\u5f62\u62fc\u56fe\u3002\u5728 $n$ \u5929\u4e2d\uff0c\u5979\u7684\u7ec4\u88c5\u89c4\u5219\u5982\u4e0b\uff1a\n\n- \u5728\u7b2c\u4e00\u5929\uff0c\u5979\u5c06\u4e2d\u5fc3\u62fc\u56fe\u653e\u5728\u684c\u5b50\u7684\u4e2d\u5fc3\u70b9\u3002\n- \u5728\u63a5\u4e0b\u6765\u7684\u6bcf\u4e00\u5929\uff0c\u5979\u5728\u4e2d\u5fc3\u7684\u5468\u56f4\u987a\u65f6\u9488\u6446\u4e00\u5b9a\u6570\u91cf\u7684\u62fc\u56fe\uff0c\u4e00\u5c42\u62fc\u56fe\u5168\u90e8\u6446\u6ee1\u540e\u624d\u4f1a\u5f00\u59cb\u6446\u65b0\u7684\u4e00\u5c42\u3002\n\n\u4e0b\u56fe\u5c55\u793a\u4e86\u5979\u524d $14$ \u5757\u62fc\u56fe\u7684\u6446\u653e\u65b9\u6cd5\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2047A\/79d4bc6fb70315d8b0bc2f84e7e9b7aaaaa1456d.png)\n\n\u4e0d\u540c\u989c\u8272\u8868\u793a\u4e0d\u540c\u7684\u5c42\uff0c\u7b2c\u4e09\u5c42\u8fd8\u672a\u6446\u6ee1\u3002\u5982\u679c\u5728\u67d0\u4e00\u5929\uff0cAlyona \u6ca1\u6709\u4efb\u4f55\u672a\u6446\u6ee1\u7684\u62fc\u56fe\u5c42\uff0c\u5979\u5c31\u4f1a\u5f88\u5f00\u5fc3\u3002\u7ed9\u51fa Alyona \u6bcf\u5929\u6446\u653e\u62fc\u56fe\u7684\u5757\u6570\uff0c\u6c42 Alyona \u5f00\u5fc3\u7684\u5929\u6570\u3002","formatI":"\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e\u3002\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $t$ ($1\\le t\\le 500$)\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff1a\n\n\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $n$ ($1\\le n\\le 100$)\uff0c\u8868\u793a\u62fc\u56fe\u7684\u5929\u6570\u3002\n\n\u7b2c\u4e8c\u884c\uff0c$n$ \u4e2a\u6574\u6570 $a_1,a_2,\\cdots,a_n$ ($1\\le a_i\\le 100, a_1=1$)\uff0c\u8868\u793a Alyona \u7b2c $i$ \u5929\u62fc\u7684\u62fc\u56fe\u5757\u4e2a\u6570\u3002\n\n\u4fdd\u8bc1\u5728\u6bcf\u7ec4\u6570\u636e\u4e2d\uff0c\u6700\u540e\u4e00\u5929\u7ed3\u675f\u540e\u6ca1\u6709\u672a\u6446\u6ee1\u7684\u5c42\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a Alyona \u5f00\u5fc3\u7684\u5929\u6570\u3002\n\n\u7ffb\u8bd1\uff1a[HYdroKomide](https:\/\/www.luogu.com.cn\/user\/299883)","hint":"","locale":"zh-CN"},"content":{"name":"Alyona and a Square Jigsaw Puzzle","background":"","description":"Alyona assembles an unusual square Jigsaw Puzzle. She does so in $ n $ days in the following manner:\n\n- On the first day, she starts by placing the central piece in the center of the table.\n- On each day after the first one, she places a certain number of pieces around the central piece in clockwise order, always finishing each square layer completely before starting a new one.\n\nFor example, she places the first $ 14 $ pieces in the following order:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2047A\/79d4bc6fb70315d8b0bc2f84e7e9b7aaaaa1456d.png) The colors denote the layers. The third layer is still unfinished.Alyona is happy if at the end of the day the assembled part of the puzzle does not have any started but unfinished layers. Given the number of pieces she assembles on each day, find the number of days Alyona is happy on.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 500 $ ). The description of the test cases follows.\n\nThe first line contains a single integer $ n $ ( $ 1 \\le n \\le 100 $ ), the number of days.\n\nThe second line contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 100 $ , $ a_1 = 1 $ ), where $ a_i $ is the number of pieces Alyona assembles on the $ i $ -th day.\n\nIt is guaranteed in each test case that at the end of the $ n $ days, there are no unfinished layers.","formatO":"For each test case, print a single integer: the number of days when Alyona is happy.","hint":"In the first test case, in the only day Alyona finishes the only layer.\n\nIn the second test case, on the first day, Alyona finishes the first layer, and on the second day, she finishes the second layer.\n\nIn the third test case, she finishes the second layer in a few days.\n\nIn the fourth test case, she finishes the second layer and immediately starts the next one on the same day, therefore, she is not happy on that day. She is only happy on the first and last days.\n\nIn the fifth test case, Alyona is happy on the first, fourth, and last days.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n1\n1\n2\n1 8\n5\n1 3 2 1 2\n7\n1 2 1 10 2 7 2\n14\n1 10 10 100 1 1 10 1 10 2 10 2 10 1","1\n2\n2\n2\n3"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2047A","link":"https:\/\/codeforces.com\/problemset\/problem\/2047\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\nAlyona \u7ec4\u88c5\u4e86\u4e00\u4e2a\u7279\u6b8a\u7684\u65b9\u5f62\u62fc\u56fe\u3002\u5728 $n$ \u5929\u4e2d\uff0c\u5979\u7684\u7ec4\u88c5\u89c4\u5219\u5982\u4e0b\uff1a\n\n- \u5728\u7b2c\u4e00\u5929\uff0c\u5979\u5c06\u4e2d\u5fc3\u62fc\u56fe\u653e\u5728\u684c\u5b50\u7684\u4e2d\u5fc3\u70b9\u3002\n- \u5728\u63a5\u4e0b\u6765\u7684\u6bcf\u4e00\u5929\uff0c\u5979\u5728\u4e2d\u5fc3\u7684\u5468\u56f4\u987a\u65f6\u9488\u6446\u4e00\u5b9a\u6570\u91cf\u7684\u62fc\u56fe\uff0c\u4e00\u5c42\u62fc\u56fe\u5168\u90e8\u6446\u6ee1\u540e\u624d\u4f1a\u5f00\u59cb\u6446\u65b0\u7684\u4e00\u5c42\u3002\n\n\u4e0b\u56fe\u5c55\u793a\u4e86\u5979\u524d $14$ \u5757\u62fc\u56fe\u7684\u6446\u653e\u65b9\u6cd5\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2047A\/79d4bc6fb70315d8b0bc2f84e7e9b7aaaaa1456d.png)\n\n\u4e0d\u540c\u989c\u8272\u8868\u793a\u4e0d\u540c\u7684\u5c42\uff0c\u7b2c\u4e09\u5c42\u8fd8\u672a\u6446\u6ee1\u3002\u5982\u679c\u5728\u67d0\u4e00\u5929\uff0cAlyona \u6ca1\u6709\u4efb\u4f55\u672a\u6446\u6ee1\u7684\u62fc\u56fe\u5c42\uff0c\u5979\u5c31\u4f1a\u5f88\u5f00\u5fc3\u3002\u7ed9\u51fa Alyona \u6bcf\u5929\u6446\u653e\u62fc\u56fe\u7684\u5757\u6570\uff0c\u6c42 Alyona \u5f00\u5fc3\u7684\u5929\u6570\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\n\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e\u3002\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $t$ ($1\\le t\\le 500$)\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff1a\n\n\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $n$ ($1\\le n\\le 100$)\uff0c\u8868\u793a\u62fc\u56fe\u7684\u5929\u6570\u3002\n\n\u7b2c\u4e8c\u884c\uff0c$n$ \u4e2a\u6574\u6570 $a_1,a_2,\\cdots,a_n$ ($1\\le a_i\\le 100, a_1=1$)\uff0c\u8868\u793a Alyona \u7b2c $i$ \u5929\u62fc\u7684\u62fc\u56fe\u5757\u4e2a\u6570\u3002\n\n\u4fdd\u8bc1\u5728\u6bcf\u7ec4\u6570\u636e\u4e2d\uff0c\u6700\u540e\u4e00\u5929\u7ed3\u675f\u540e\u6ca1\u6709\u672a\u6446\u6ee1\u7684\u5c42\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a Alyona \u5f00\u5fc3\u7684\u5929\u6570\u3002\n\n\u7ffb\u8bd1\uff1a[HYdroKomide](https:\/\/www.luogu.com.cn\/user\/299883)"},"translations":{"en":{"name":"Alyona and a Square Jigsaw Puzzle","background":"","description":"Alyona assembles an unusual square Jigsaw Puzzle. She does so in $ n $ days in the following manner:\n\n- On the first day, she starts by placing the central piece in the center of the table.\n- On each day after the first one, she places a certain number of pieces around the central piece in clockwise order, always finishing each square layer completely before starting a new one.\n\nFor example, she places the first $ 14 $ pieces in the following order:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2047A\/79d4bc6fb70315d8b0bc2f84e7e9b7aaaaa1456d.png) The colors denote the layers. The third layer is still unfinished.Alyona is happy if at the end of the day the assembled part of the puzzle does not have any started but unfinished layers. Given the number of pieces she assembles on each day, find the number of days Alyona is happy on.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 500 $ ). The description of the test cases follows.\n\nThe first line contains a single integer $ n $ ( $ 1 \\le n \\le 100 $ ), the number of days.\n\nThe second line contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 100 $ , $ a_1 = 1 $ ), where $ a_i $ is the number of pieces Alyona assembles on the $ i $ -th day.\n\nIt is guaranteed in each test case that at the end of the $ n $ days, there are no unfinished layers.","formatO":"For each test case, print a single integer: the number of days when Alyona is happy.","hint":"In the first test case, in the only day Alyona finishes the only layer.\n\nIn the second test case, on the first day, Alyona finishes the first layer, and on the second day, she finishes the second layer.\n\nIn the third test case, she finishes the second layer in a few days.\n\nIn the fourth test case, she finishes the second layer and immediately starts the next one on the same day, therefore, she is not happy on that day. She is only happy on the first and last days.\n\nIn the fifth test case, Alyona is happy on the first, fourth, and last days.","locale":"en"},"zh-CN":{"name":"Alyona and a Square Jigsaw Puzzle","background":"","description":"Alyona \u7ec4\u88c5\u4e86\u4e00\u4e2a\u7279\u6b8a\u7684\u65b9\u5f62\u62fc\u56fe\u3002\u5728 $n$ \u5929\u4e2d\uff0c\u5979\u7684\u7ec4\u88c5\u89c4\u5219\u5982\u4e0b\uff1a\n\n- \u5728\u7b2c\u4e00\u5929\uff0c\u5979\u5c06\u4e2d\u5fc3\u62fc\u56fe\u653e\u5728\u684c\u5b50\u7684\u4e2d\u5fc3\u70b9\u3002\n- \u5728\u63a5\u4e0b\u6765\u7684\u6bcf\u4e00\u5929\uff0c\u5979\u5728\u4e2d\u5fc3\u7684\u5468\u56f4\u987a\u65f6\u9488\u6446\u4e00\u5b9a\u6570\u91cf\u7684\u62fc\u56fe\uff0c\u4e00\u5c42\u62fc\u56fe\u5168\u90e8\u6446\u6ee1\u540e\u624d\u4f1a\u5f00\u59cb\u6446\u65b0\u7684\u4e00\u5c42\u3002\n\n\u4e0b\u56fe\u5c55\u793a\u4e86\u5979\u524d $14$ \u5757\u62fc\u56fe\u7684\u6446\u653e\u65b9\u6cd5\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2047A\/79d4bc6fb70315d8b0bc2f84e7e9b7aaaaa1456d.png)\n\n\u4e0d\u540c\u989c\u8272\u8868\u793a\u4e0d\u540c\u7684\u5c42\uff0c\u7b2c\u4e09\u5c42\u8fd8\u672a\u6446\u6ee1\u3002\u5982\u679c\u5728\u67d0\u4e00\u5929\uff0cAlyona \u6ca1\u6709\u4efb\u4f55\u672a\u6446\u6ee1\u7684\u62fc\u56fe\u5c42\uff0c\u5979\u5c31\u4f1a\u5f88\u5f00\u5fc3\u3002\u7ed9\u51fa Alyona \u6bcf\u5929\u6446\u653e\u62fc\u56fe\u7684\u5757\u6570\uff0c\u6c42 Alyona \u5f00\u5fc3\u7684\u5929\u6570\u3002","formatI":"\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e\u3002\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $t$ ($1\\le t\\le 500$)\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff1a\n\n\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $n$ ($1\\le n\\le 100$)\uff0c\u8868\u793a\u62fc\u56fe\u7684\u5929\u6570\u3002\n\n\u7b2c\u4e8c\u884c\uff0c$n$ \u4e2a\u6574\u6570 $a_1,a_2,\\cdots,a_n$ ($1\\le a_i\\le 100, a_1=1$)\uff0c\u8868\u793a Alyona \u7b2c $i$ \u5929\u62fc\u7684\u62fc\u56fe\u5757\u4e2a\u6570\u3002\n\n\u4fdd\u8bc1\u5728\u6bcf\u7ec4\u6570\u636e\u4e2d\uff0c\u6700\u540e\u4e00\u5929\u7ed3\u675f\u540e\u6ca1\u6709\u672a\u6446\u6ee1\u7684\u5c42\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a Alyona \u5f00\u5fc3\u7684\u5929\u6570\u3002\n\n\u7ffb\u8bd1\uff1a[HYdroKomide](https:\/\/www.luogu.com.cn\/user\/299883)","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2047A Alyona and a Square Jigsaw Puzzle","type":2,"slug":"CF2047A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330790.80987,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2047A Alyona and a Square Jigsaw Puzzle","description":"Alyona \u7ec4\u88c5\u4e86\u4e00\u4e2a\u7279\u6b8a\u7684\u65b9\u5f62\u62fc\u56fe\u3002\u5728 n \u5929\u4e2d\uff0c\u5979\u7684\u7ec4\u88c5\u89c4\u5219\u5982\u4e0b\uff1a\n\n\u5728\u7b2c\u4e00\u5929\uff0c\u5979\u5c06\u4e2d\u5fc3\u62fc\u56fe\u653e\u5728\u684c\u5b50\u7684\u4e2d\u5fc3\u70b9\u3002\n\u5728\u63a5\u4e0b\u6765\u7684\u6bcf\u4e00\u5929\uff0c\u5979\u5728\u4e2d\u5fc3\u7684\u5468\u56f4\u987a\u65f6\u9488\u6446\u4e00\u5b9a\u6570\u91cf\u7684\u62fc\u56fe\uff0c\u4e00\u5c42\u62fc\u56fe\u5168\u90e8\u6446\u6ee1\u540e\u624d\u4f1a\u5f00\u59cb\u6446\u65b0\u7684\u4e00\u5c42\u3002\n\n\u4e0b\u56fe\u5c55\u793a\u4e86\u5979\u524d 14 \u5757\u62fc\u56fe\u7684\u6446\u653e\u65b9\u6cd5\uff1a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2047A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2047A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2047A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2047A Alyona and a Square Jigsaw Puzzle" />
+    <meta property="og:description" content="Alyona 组装了一个特殊的方形拼图。在 n 天中，她的组装规则如下：
+
+在第一天，她将中心拼图放在桌子的中心点。
+在接下来的每一天，她在中心的周围顺时针摆一定数量的拼图，一层拼图全部摆满后才会开始摆新的一层。
+
+下图展示了她前 14 块拼图的摆放方法：…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2047A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2047A Alyona and a Square Jigsaw Puzzle</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Alyona 组装了一个特殊的方形拼图。在 $n$ 天中，她的组装规则如下：
+
+- 在第一天，她将中心拼图放在桌子的中心点。
+- 在接下来的每一天，她在中心的周围顺时针摆一定数量的拼图，一层拼图全部摆满后才会开始摆新的一层。
+
+下图展示了她前 $14$ 块拼图的摆放方法：
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF2047A/79d4bc6fb70315d8b0bc2f84e7e9b7aaaaa1456d.png)
+
+不同颜色表示不同的层，第三层还未摆满。如果在某一天，Alyona 没有任何未摆满的拼图层，她就会很开心。给出 Alyona 每天摆放拼图的块数，求 Alyona 开心的天数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    本题有多组数据。第一行，一个整数 $t$ ($1\le t\le 500$)，表示数据组数。
+
+对于每组数据：
+
+第一行，一个整数 $n$ ($1\le n\le 100$)，表示拼图的天数。
+
+第二行，$n$ 个整数 $a_1,a_2,\cdots,a_n$ ($1\le a_i\le 100, a_1=1$)，表示 Alyona 第 $i$ 天拼的拼图块个数。
+
+保证在每组数据中，最后一天结束后没有未摆满的层。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组数据，输出一行一个整数，表示 Alyona 开心的天数。
+
+翻译：[HYdroKomide](https://www.luogu.com.cn/user/299883)
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case, in the only day Alyona finishes the only layer.
+
+In the second test case, on the first day, Alyona finishes the first layer, and on the second day, she finishes the second layer.
+
+In the third test case, she finishes the second layer in a few days.
+
+In the fourth test case, she finishes the second layer and immediately starts the next one on the same day, therefore, she is not happy on that day. She is only happy on the first and last days.
+
+In the fifth test case, Alyona is happy on the first, fourth, and last days.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

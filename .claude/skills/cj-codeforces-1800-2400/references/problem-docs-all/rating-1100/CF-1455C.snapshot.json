@@ -1,0 +1,29 @@
+{
+  "id": "CF-1455C",
+  "contest_id": 1455,
+  "index": "C",
+  "name": "Ping-pong",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "games",
+    "math"
+  ],
+  "solved_count": 20388,
+  "problem_url": "https://codeforces.com/problemset/problem/1455/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1455/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1455/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1455C%20Ping-pong%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1455/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1455C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

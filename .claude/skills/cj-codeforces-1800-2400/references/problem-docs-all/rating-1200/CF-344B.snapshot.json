@@ -1,0 +1,34 @@
+{
+  "id": "CF-344B",
+  "contest_id": 344,
+  "index": "B",
+  "name": "Simple Molecules",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "graphs",
+    "math"
+  ],
+  "solved_count": 9513,
+  "problem_url": "https://codeforces.com/problemset/problem/344/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/344/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/344/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=344B%20Simple%20Molecules%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P344B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Simple Molecules - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "graphs",
+      "math",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

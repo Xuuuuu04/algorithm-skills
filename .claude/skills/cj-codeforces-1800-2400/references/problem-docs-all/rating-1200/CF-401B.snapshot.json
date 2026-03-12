@@ -1,0 +1,34 @@
+{
+  "id": "CF-401B",
+  "contest_id": 401,
+  "index": "B",
+  "name": "Sereja and Contests",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 4554,
+  "problem_url": "https://codeforces.com/problemset/problem/401/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/401/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/401/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=401B%20Sereja%20and%20Contests%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P401B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sereja and Contests - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

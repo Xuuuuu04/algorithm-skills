@@ -1,0 +1,34 @@
+{
+  "id": "CF-1858A",
+  "contest_id": 1858,
+  "index": "A",
+  "name": "Buttons",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "games",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 63360,
+  "problem_url": "https://codeforces.com/problemset/problem/1858/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1858/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1858/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1858A%20Buttons%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1858A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Buttons - 题目详情 - Hydro",
+    "mirror_tags": [
+      "games",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 7,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

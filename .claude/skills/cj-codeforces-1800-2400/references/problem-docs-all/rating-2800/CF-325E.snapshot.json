@@ -1,0 +1,38 @@
+{
+  "id": "CF-325E",
+  "contest_id": 325,
+  "index": "E",
+  "name": "The Red Button",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "combinatorics",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 937,
+  "problem_url": "https://codeforces.com/problemset/problem/325/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/325/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/325/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=325E%20The%20Red%20Button%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P325E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Red Button - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

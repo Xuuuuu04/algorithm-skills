@@ -1,0 +1,28 @@
+{
+  "id": "CF-1904A",
+  "contest_id": 1904,
+  "index": "A",
+  "name": "Forked!",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 38485,
+  "problem_url": "https://codeforces.com/problemset/problem/1904/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1904/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1904/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1904A%20Forked%21%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1904A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1904A Forked! - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 157,
+    "mirror_attempt": 220,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

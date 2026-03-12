@@ -1,0 +1,29 @@
+{
+  "id": "CF-1647E",
+  "contest_id": 1647,
+  "index": "E",
+  "name": "Madoka and the Sixth-graders",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "greedy"
+  ],
+  "solved_count": 1094,
+  "problem_url": "https://codeforces.com/problemset/problem/1647/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1647/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1647/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1647E%20Madoka%20and%20the%20Sixth-graders%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1647/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1647E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

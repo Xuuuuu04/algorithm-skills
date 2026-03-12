@@ -1,0 +1,40 @@
+{
+  "id": "CF-1978F",
+  "contest_id": 1978,
+  "index": "F",
+  "name": "Large Graph",
+  "rating": 2400,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "number theory",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1978/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1978/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1978/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1978F%20Large Graph%20tutorial",
+  "solved_count": 1563,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1978F",
+  "hydro_meta": {
+    "page_title": "Large Graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "number theory"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

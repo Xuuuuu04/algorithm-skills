@@ -1,0 +1,30 @@
+{
+  "id": "CF-1101E",
+  "contest_id": 1101,
+  "index": "E",
+  "name": "Polycarp's New Job",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 8231,
+  "problem_url": "https://codeforces.com/problemset/problem/1101/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1101/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1101/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1101E%20Polycarp%27s%20New%20Job%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1101E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Polycarp's New Job - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

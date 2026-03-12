@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1133D Zero Quantity Maximization - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1133D","type":"CF","title":"Zero Quantity Maximization","difficulty":4,"tags":[],"wantsTranslation":false,"totalSubmit":790,"totalAccepted":224,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Zero Quantity Maximization","background":"","description":"# \u96f6\u6570\u6700\u5927\u5316\r\n\u7ed9\u51fa\u4e24\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a,b$\u3002\r\n\r\n\u4f60\u60f3\u8981\u521b\u5efa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $c$\uff0c\u4e14$c_i=d*a_i+b_i,i\\in[1, n]$\uff0c\u8981\u6c42\u4f60\u7ed9 $d$ \u8d4b\u503c\uff0c\u4f7f\u5f97\u6570\u7ec4 $c$ \u4e2d\u7684 $0$ \u7684\u4e2a\u6570\u6700\u591a\u5e76\u8f93\u51fa\u6700\u591a\u7684 $0$ \u7684\u4e2a\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$\uff0c\r\n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570\u4e3a\u6570\u7ec4 $a$\uff0c\r\n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570\u4e3a\u6570\u7ec4 $b$\uff0c","formatO":"\u4e00\u4e2a\u6570\u4e3a\u6570\u7ec4 $c$ \u4e2d\u6700\u591a\u7684 $0$ \u7684\u4e2a\u6570","hint":"","locale":"zh-CN"},"content":{"name":"Zero Quantity Maximization","background":"","description":"You are given two arrays $ a $ and $ b $ , each contains $ n $ integers.\n\nYou want to create a new array $ c $ as follows: choose some real (i.e. not necessarily integer) number $ d $ , and then for every $ i \\in [1, n] $ let $ c_i := d \\cdot a_i + b_i $ .\n\nYour goal is to maximize the number of zeroes in array $ c $ . What is the largest possible answer, if you choose $ d $ optimally?","formatI":"The first line contains one integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of elements in both arrays.\n\nThe second line contains $ n $ integers $ a_1 $ , $ a_2 $ , ..., $ a_n $ ( $ -10^9 \\le a_i \\le 10^9 $ ).\n\nThe third line contains $ n $ integers $ b_1 $ , $ b_2 $ , ..., $ b_n $ ( $ -10^9 \\le b_i \\le 10^9 $ ).","formatO":"Print one integer \u2014 the maximum number of zeroes in array $ c $ , if you choose $ d $ optimally.","hint":"In the first example, we may choose $ d = -2 $ .\n\nIn the second example, we may choose $ d = -\\frac{1}{13} $ .\n\nIn the third example, we cannot obtain any zero in array $ c $ , no matter which $ d $ we choose.\n\nIn the fourth example, we may choose $ d = 6 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n1 2 3 4 5\n2 4 7 11 3\n","2\n"],["3\n13 37 39\n1 2 3\n","2\n"],["4\n0 0 0 0\n1 2 3 4\n","0\n"],["3\n1 2 -1\n-6 -12 6\n","3\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1133D","link":"https:\/\/codeforces.com\/problemset\/problem\/1133\/D"},"translation":"# \u96f6\u6570\u6700\u5927\u5316\r\n## \u9898\u76ee\u63cf\u8ff0\r\n\u7ed9\u51fa\u4e24\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a,b$\u3002\r\n\r\n\u4f60\u60f3\u8981\u521b\u5efa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $c$\uff0c\u4e14$c_i=d*a_i+b_i,i\\in[1, n]$\uff0c\u8981\u6c42\u4f60\u7ed9 $d$ \u8d4b\u503c\uff0c\u4f7f\u5f97\u6570\u7ec4 $c$ \u4e2d\u7684 $0$ \u7684\u4e2a\u6570\u6700\u591a\u5e76\u8f93\u51fa\u6700\u591a\u7684 $0$ \u7684\u4e2a\u6570\u3002\r\n## \u8f93\u5165\u683c\u5f0f\r\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$\uff0c\r\n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570\u4e3a\u6570\u7ec4 $a$\uff0c\r\n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570\u4e3a\u6570\u7ec4 $b$\uff0c\r\n## \u8f93\u51fa\u683c\u5f0f\r\n\u4e00\u4e2a\u6570\u4e3a\u6570\u7ec4 $c$ \u4e2d\u6700\u591a\u7684 $0$ \u7684\u4e2a\u6570"},"translations":{"en":{"name":"Zero Quantity Maximization","background":"","description":"You are given two arrays $ a $ and $ b $ , each contains $ n $ integers.\n\nYou want to create a new array $ c $ as follows: choose some real (i.e. not necessarily integer) number $ d $ , and then for every $ i \\in [1, n] $ let $ c_i := d \\cdot a_i + b_i $ .\n\nYour goal is to maximize the number of zeroes in array $ c $ . What is the largest possible answer, if you choose $ d $ optimally?","formatI":"The first line contains one integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of elements in both arrays.\n\nThe second line contains $ n $ integers $ a_1 $ , $ a_2 $ , ..., $ a_n $ ( $ -10^9 \\le a_i \\le 10^9 $ ).\n\nThe third line contains $ n $ integers $ b_1 $ , $ b_2 $ , ..., $ b_n $ ( $ -10^9 \\le b_i \\le 10^9 $ ).","formatO":"Print one integer \u2014 the maximum number of zeroes in array $ c $ , if you choose $ d $ optimally.","hint":"In the first example, we may choose $ d = -2 $ .\n\nIn the second example, we may choose $ d = -\\frac{1}{13} $ .\n\nIn the third example, we cannot obtain any zero in array $ c $ , no matter which $ d $ we choose.\n\nIn the fourth example, we may choose $ d = 6 $ .","locale":"en"},"zh-CN":{"name":"Zero Quantity Maximization","background":"","description":"# \u96f6\u6570\u6700\u5927\u5316\r\n\u7ed9\u51fa\u4e24\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a,b$\u3002\r\n\r\n\u4f60\u60f3\u8981\u521b\u5efa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $c$\uff0c\u4e14$c_i=d*a_i+b_i,i\\in[1, n]$\uff0c\u8981\u6c42\u4f60\u7ed9 $d$ \u8d4b\u503c\uff0c\u4f7f\u5f97\u6570\u7ec4 $c$ \u4e2d\u7684 $0$ \u7684\u4e2a\u6570\u6700\u591a\u5e76\u8f93\u51fa\u6700\u591a\u7684 $0$ \u7684\u4e2a\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$\uff0c\r\n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570\u4e3a\u6570\u7ec4 $a$\uff0c\r\n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570\u4e3a\u6570\u7ec4 $b$\uff0c","formatO":"\u4e00\u4e2a\u6570\u4e3a\u6570\u7ec4 $c$ \u4e2d\u6700\u591a\u7684 $0$ \u7684\u4e2a\u6570","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1133D Zero Quantity Maximization","type":2,"slug":"CF1133D","color":"orange-3"},"discussions":[{"id":103704,"title":"\u54ed\u51fa\u6765\u4e86","author":{"uid":64500,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/64500.png","name":"Burnside","slogan":"OI\u9009\u624b\u9000\u5f79 | ACM\u9009\u624b\u9000\u5f79 | ACM\u547d\u9898\u4e0e\u8d5b\u4e8b\u627f\u529e\u5728\u804c","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":4,"xcpcLevel":6,"background":""},"time":1552108784}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.215242,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1133D Zero Quantity Maximization","description":"\u96f6\u6570\u6700\u5927\u5316\n\u7ed9\u51fa\u4e24\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a,b\u3002\n\u4f60\u60f3\u8981\u521b\u5efa\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 c\uff0c\u4e14c_i=d*a_i+b_i,i\\in[1, n]\uff0c\u8981\u6c42\u4f60\u7ed9 d \u8d4b\u503c\uff0c\u4f7f\u5f97\u6570\u7ec4 c \u4e2d\u7684 0 \u7684\u4e2a\u6570\u6700\u591a\u5e76\u8f93\u51fa\u6700\u591a\u7684 0 \u7684\u4e2a\u6570\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1133D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1133D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1133D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1133D Zero Quantity Maximization" />
+    <meta property="og:description" content="零数最大化
+给出两个长度为 n 的数组 a,b。
+你想要创建一个长度为 n 的数组 c，且c_i=d*a_i+b_i,i\in[1, n]，要求你给 d 赋值，使得数组 c 中的 0 的个数最多并输出最多的 0 的个数。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1133D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1133D Zero Quantity Maximization</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    # 零数最大化
+给出两个长度为 $n$ 的数组 $a,b$。
+
+你想要创建一个长度为 $n$ 的数组 $c$，且$c_i=d*a_i+b_i,i\in[1, n]$，要求你给 $d$ 赋值，使得数组 $c$ 中的 $0$ 的个数最多并输出最多的 $0$ 的个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个整数 $n$，
+第二行 $n$ 个整数为数组 $a$，
+第二行 $n$ 个整数为数组 $b$，
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    一个数为数组 $c$ 中最多的 $0$ 的个数
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first example, we may choose $ d = -2 $ .
+
+In the second example, we may choose $ d = -\frac{1}{13} $ .
+
+In the third example, we cannot obtain any zero in array $ c $ , no matter which $ d $ we choose.
+
+In the fourth example, we may choose $ d = 6 $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

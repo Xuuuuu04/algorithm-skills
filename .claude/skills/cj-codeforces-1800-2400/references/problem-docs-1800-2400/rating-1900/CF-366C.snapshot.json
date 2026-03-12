@@ -1,0 +1,31 @@
+{
+  "id": "CF-366C",
+  "contest_id": 366,
+  "index": "C",
+  "name": "Dima and Salad",
+  "rating": 1900,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/366/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/366/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/366/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=366C%20Dima and Salad%20tutorial",
+  "solved_count": 5689,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P366C",
+  "hydro_meta": {
+    "page_title": "Dima and Salad - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

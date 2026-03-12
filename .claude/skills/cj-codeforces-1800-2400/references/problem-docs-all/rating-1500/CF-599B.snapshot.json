@@ -1,0 +1,30 @@
+{
+  "id": "CF-599B",
+  "contest_id": 599,
+  "index": "B",
+  "name": "Spongebob and Joke",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 4555,
+  "problem_url": "https://codeforces.com/problemset/problem/599/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/599/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/599/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=599B%20Spongebob%20and%20Joke%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P599B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Spongebob and Joke - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

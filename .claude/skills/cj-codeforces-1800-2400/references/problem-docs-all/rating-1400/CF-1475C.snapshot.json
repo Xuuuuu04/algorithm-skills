@@ -1,0 +1,34 @@
+{
+  "id": "CF-1475C",
+  "contest_id": 1475,
+  "index": "C",
+  "name": "Ball in Berland",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "graphs",
+    "math"
+  ],
+  "solved_count": 26581,
+  "problem_url": "https://codeforces.com/problemset/problem/1475/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1475/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1475/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1475C%20Ball%20in%20Berland%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1475C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ball in Berland - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "graphs",
+      "math",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

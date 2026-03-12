@@ -1,0 +1,34 @@
+{
+  "id": "CF-277E",
+  "contest_id": 277,
+  "index": "E",
+  "name": "Binary Tree on Plane",
+  "rating": 2400,
+  "tags": [
+    "flows",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/277/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/277/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/277/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=277E%20Binary Tree on Plane%20tutorial",
+  "solved_count": 1458,
+  "suggested_patterns": [
+    "网络流（最大流/最小割）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P277E",
+  "hydro_meta": {
+    "page_title": "Binary Tree on Plane - 题目详情 - Hydro",
+    "hydro_tags": [
+      "flows",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

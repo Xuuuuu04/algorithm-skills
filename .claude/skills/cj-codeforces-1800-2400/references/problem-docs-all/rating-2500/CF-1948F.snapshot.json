@@ -1,0 +1,29 @@
+{
+  "id": "CF-1948F",
+  "contest_id": 1948,
+  "index": "F",
+  "name": "Rare Coins",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 1589,
+  "problem_url": "https://codeforces.com/problemset/problem/1948/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1948/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1948/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1948F%20Rare%20Coins%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1948F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1948F Rare Coins - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 163,
+    "mirror_attempt": 431,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

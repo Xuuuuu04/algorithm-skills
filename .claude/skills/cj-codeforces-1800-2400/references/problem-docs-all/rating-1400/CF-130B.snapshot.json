@@ -1,0 +1,29 @@
+{
+  "id": "CF-130B",
+  "contest_id": 130,
+  "index": "B",
+  "name": "Gnikool Ssalg",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 560,
+  "problem_url": "https://codeforces.com/problemset/problem/130/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/130/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/130/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=130B%20Gnikool%20Ssalg%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/130/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 130B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "64 megabytes"
+  }
+}

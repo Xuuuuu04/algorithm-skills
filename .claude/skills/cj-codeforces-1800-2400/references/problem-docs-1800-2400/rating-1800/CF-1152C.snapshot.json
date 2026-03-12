@@ -1,0 +1,36 @@
+{
+  "id": "CF-1152C",
+  "contest_id": 1152,
+  "index": "C",
+  "name": "Neko does Maths",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1152/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1152/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1152/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1152C%20Neko does Maths%20tutorial",
+  "solved_count": 7039,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1152C",
+  "hydro_meta": {
+    "page_title": "Neko does Maths - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1734F",
+  "contest_id": 1734,
+  "index": "F",
+  "name": "Zeros and Ones",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "bitmasks",
+    "divide and conquer",
+    "dp",
+    "math"
+  ],
+  "solved_count": 951,
+  "problem_url": "https://codeforces.com/problemset/problem/1734/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1734/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1734/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1734F%20Zeros%20and%20Ones%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1734/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1734F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

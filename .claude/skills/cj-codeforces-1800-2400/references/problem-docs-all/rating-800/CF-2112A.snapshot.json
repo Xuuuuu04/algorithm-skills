@@ -1,0 +1,28 @@
+{
+  "id": "CF-2112A",
+  "contest_id": 2112,
+  "index": "A",
+  "name": "Race",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 28787,
+  "problem_url": "https://codeforces.com/problemset/problem/2112/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2112/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2112/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2112A%20Race%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2112A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2112A Race - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

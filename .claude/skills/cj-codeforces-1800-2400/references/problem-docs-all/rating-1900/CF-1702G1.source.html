@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415127:RXtlb1fsOVppsr8C/XHvFxRQeN+RZ2tBqzdWVKpA7pI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1702G1 Passable Paths (easy version) - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1702G1","type":"CF","title":"Passable Paths (easy version)","difficulty":4,"tags":[],"wantsTranslation":false,"totalSubmit":561,"totalAccepted":287,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Passable Paths (easy version)","background":"","description":"\u7ed9\u5b9a\u4e00\u68f5\u6811\uff0c\u95ee\u662f\u5426\u80fd\u901a\u8fc7\u4e00\u6761\u7b80\u5355\u8def\u5f84\uff08\u5373\u5728\u6811\u4e0a\u627e\u4e00\u6761\u8def\u5f84\u4e14\u4e0d\u91cd\u590d\u8d70\u4e00\u6761\u8fb9\uff09\uff0c\u4f7f\u5176\u7ecf\u8fc7\u7ed9\u5b9a\u70b9\u96c6\u4e2d\u7684\u6240\u6709\u70b9\u3002","formatI":"\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6570 $n$\uff0c\u8868\u793a\u70b9\u6570\u3002\n\n\u4ee5\u4e0b $n-1$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6570 $u,v$\uff0c\u8868\u793a\u70b9 $u$ \u548c\u70b9 $v$ \u4e4b\u95f4\u6709\u4e00\u6761\u8fb9\u3002\n\n\u63a5\u4e0b\u6765\u662f\u4e00\u4e2a\u6570 $q$\uff0c\u8868\u793a\u8be2\u95ee\u7684\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u8be2\u95ee\uff1a\n+ \u7b2c\u4e00\u884c\u6709\u4e00\u4e2a\u6570 $k$\uff0c\u8868\u793a\u70b9\u96c6\u7684\u5927\u5c0f\u3002\n+ \u7b2c\u4e8c\u884c\u6709 $k$\u4e2a\u6570 $p_1,p_2,...,p_k$\uff0c\u8868\u793a\u8fd9\u4e2a\u70b9\u96c6\u3002","formatO":"\u8f93\u51fa\u5171 $q$ \u884c\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u8f93\u51fa\u4e00\u884c `YES` \u6216\u8005 `NO` \u8868\u793a\u7b54\u6848\uff0c\u5927\u5c0f\u5199\u4e0d\u654f\u611f\u3002","hint":"\u5bf9\u4e8e $100\\%$ \u7684\u6570\u636e\uff1a\n\n+ $1 \\le n \\le 2 \\cdot 10^5$\uff0c$ 1 \\le u, v \\le n$\uff0c$ u \\ne v$\uff1b\n\n+ $ 1 \\le q \\le 5$\uff0c$ 1 \\le k \\le n$\uff0c$ 1 \\le p_i \\le n$\uff0c\u6240\u6709 $k$ \u7684\u548c\u4e0d\u8d85\u8fc7 $2\\cdot10^5$\u3002","locale":"zh-CN"},"content":{"name":"Passable Paths (easy version)","background":"","description":"This is an easy version of the problem. The only difference between an easy and a hard version is in the number of queries.\n\nPolycarp grew a tree from $ n $ vertices. We remind you that a tree of $ n $ vertices is an undirected connected graph of $ n $ vertices and $ n-1 $ edges that does not contain cycles.\n\nHe calls a set of vertices passable if there is such a path in the tree that passes through each vertex of this set without passing through any edge twice. The path can visit other vertices (not from this set).\n\nIn other words, a set of vertices is called passable if there is a simple path that passes through all the vertices of this set (and possibly some other).\n\nFor example, for a tree below sets $ \\{3, 2, 5\\} $ , $ \\{1, 5, 4\\} $ , $ \\{1, 4\\} $ are passable, and $ \\{1, 3, 5\\} $ , $ \\{1, 2, 3, 4, 5\\} $ are not.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1702G1\/0977138472fa4ec56403c02976f275aa67a6c22b.png)Polycarp asks you to answer $ q $ queries. Each query is a set of vertices. For each query, you need to determine whether the corresponding set of vertices is passable.","formatI":"The first line of input contains a single integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 number of vertices.\n\nFollowing $ n - 1 $ lines a description of the tree..\n\nEach line contains two integers $ u $ and $ v $ ( $ 1 \\le u, v \\le n $ , $ u \\ne v $ ) \u2014 indices of vertices connected by an edge.\n\nFollowing line contains single integer $ q $ ( $ 1 \\le q \\le 5 $ ) \u2014 number of queries.\n\nThe following $ 2 \\cdot q $ lines contain descriptions of sets.\n\nThe first line of the description contains an integer $ k $ ( $ 1 \\le k \\le n $ ) \u2014 the size of the set.\n\nThe second line of the description contains $ k $ of distinct integers $ p_1, p_2, \\dots, p_k $ ( $ 1 \\le p_i \\le n $ ) \u2014 indices of the vertices of the set.\n\nIt is guaranteed that the sum of $ k $ values for all queries does not exceed $ 2 \\cdot 10^5 $ .","formatO":"Output $ q $ lines, each of which contains the answer to the corresponding query. As an answer, output \u0022YES\u0022 if the set is passable, and \u0022NO\u0022 otherwise.\n\nYou can output the answer in any case (for example, the strings \u0022yEs\u0022, \u0022yes\u0022, \u0022Yes\u0022 and \u0022YES\u0022 will be recognized as a positive answer).","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n1 2\n2 3\n2 4\n4 5\n5\n3\n3 2 5\n5\n1 2 3 4 5\n2\n1 4\n3\n1 3 5\n3\n1 5 4","YES\nNO\nYES\nNO\nYES"],["5\n1 2\n3 2\n2 4\n5 2\n4\n2\n3 1\n3\n3 4 5\n3\n2 3 5\n1\n1","YES\nNO\nYES\nYES"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1702G1","link":"https:\/\/codeforces.com\/problemset\/problem\/1702\/G1"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\n\u7ed9\u5b9a\u4e00\u68f5\u6811\uff0c\u95ee\u662f\u5426\u80fd\u901a\u8fc7\u4e00\u6761\u7b80\u5355\u8def\u5f84\uff08\u5373\u5728\u6811\u4e0a\u627e\u4e00\u6761\u8def\u5f84\u4e14\u4e0d\u91cd\u590d\u8d70\u4e00\u6761\u8fb9\uff09\uff0c\u4f7f\u5176\u7ecf\u8fc7\u7ed9\u5b9a\u70b9\u96c6\u4e2d\u7684\u6240\u6709\u70b9\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6570 $n$\uff0c\u8868\u793a\u70b9\u6570\u3002\n\n\u4ee5\u4e0b $n-1$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6570 $u,v$\uff0c\u8868\u793a\u70b9 $u$ \u548c\u70b9 $v$ \u4e4b\u95f4\u6709\u4e00\u6761\u8fb9\u3002\n\n\u63a5\u4e0b\u6765\u662f\u4e00\u4e2a\u6570 $q$\uff0c\u8868\u793a\u8be2\u95ee\u7684\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u8be2\u95ee\uff1a\n+ \u7b2c\u4e00\u884c\u6709\u4e00\u4e2a\u6570 $k$\uff0c\u8868\u793a\u70b9\u96c6\u7684\u5927\u5c0f\u3002\n+ \u7b2c\u4e8c\u884c\u6709 $k$\u4e2a\u6570 $p_1,p_2,...,p_k$\uff0c\u8868\u793a\u8fd9\u4e2a\u70b9\u96c6\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u8f93\u51fa\u5171 $q$ \u884c\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u8f93\u51fa\u4e00\u884c `YES` \u6216\u8005 `NO` \u8868\u793a\u7b54\u6848\uff0c\u5927\u5c0f\u5199\u4e0d\u654f\u611f\u3002\n\n### \u6570\u636e\u8303\u56f4\n\n\u5bf9\u4e8e $100\\%$ \u7684\u6570\u636e\uff1a\n\n+ $1 \\le n \\le 2 \\cdot 10^5$\uff0c$ 1 \\le u, v \\le n$\uff0c$ u \\ne v$\uff1b\n\n+ $ 1 \\le q \\le 5$\uff0c$ 1 \\le k \\le n$\uff0c$ 1 \\le p_i \\le n$\uff0c\u6240\u6709 $k$ \u7684\u548c\u4e0d\u8d85\u8fc7 $2\\cdot10^5$\u3002"},"translations":{"en":{"name":"Passable Paths (easy version)","background":"","description":"This is an easy version of the problem. The only difference between an easy and a hard version is in the number of queries.\n\nPolycarp grew a tree from $ n $ vertices. We remind you that a tree of $ n $ vertices is an undirected connected graph of $ n $ vertices and $ n-1 $ edges that does not contain cycles.\n\nHe calls a set of vertices passable if there is such a path in the tree that passes through each vertex of this set without passing through any edge twice. The path can visit other vertices (not from this set).\n\nIn other words, a set of vertices is called passable if there is a simple path that passes through all the vertices of this set (and possibly some other).\n\nFor example, for a tree below sets $ \\{3, 2, 5\\} $ , $ \\{1, 5, 4\\} $ , $ \\{1, 4\\} $ are passable, and $ \\{1, 3, 5\\} $ , $ \\{1, 2, 3, 4, 5\\} $ are not.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1702G1\/0977138472fa4ec56403c02976f275aa67a6c22b.png)Polycarp asks you to answer $ q $ queries. Each query is a set of vertices. For each query, you need to determine whether the corresponding set of vertices is passable.","formatI":"The first line of input contains a single integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 number of vertices.\n\nFollowing $ n - 1 $ lines a description of the tree..\n\nEach line contains two integers $ u $ and $ v $ ( $ 1 \\le u, v \\le n $ , $ u \\ne v $ ) \u2014 indices of vertices connected by an edge.\n\nFollowing line contains single integer $ q $ ( $ 1 \\le q \\le 5 $ ) \u2014 number of queries.\n\nThe following $ 2 \\cdot q $ lines contain descriptions of sets.\n\nThe first line of the description contains an integer $ k $ ( $ 1 \\le k \\le n $ ) \u2014 the size of the set.\n\nThe second line of the description contains $ k $ of distinct integers $ p_1, p_2, \\dots, p_k $ ( $ 1 \\le p_i \\le n $ ) \u2014 indices of the vertices of the set.\n\nIt is guaranteed that the sum of $ k $ values for all queries does not exceed $ 2 \\cdot 10^5 $ .","formatO":"Output $ q $ lines, each of which contains the answer to the corresponding query. As an answer, output \u0022YES\u0022 if the set is passable, and \u0022NO\u0022 otherwise.\n\nYou can output the answer in any case (for example, the strings \u0022yEs\u0022, \u0022yes\u0022, \u0022Yes\u0022 and \u0022YES\u0022 will be recognized as a positive answer).","hint":"","locale":"en"},"zh-CN":{"name":"Passable Paths (easy version)","background":"","description":"\u7ed9\u5b9a\u4e00\u68f5\u6811\uff0c\u95ee\u662f\u5426\u80fd\u901a\u8fc7\u4e00\u6761\u7b80\u5355\u8def\u5f84\uff08\u5373\u5728\u6811\u4e0a\u627e\u4e00\u6761\u8def\u5f84\u4e14\u4e0d\u91cd\u590d\u8d70\u4e00\u6761\u8fb9\uff09\uff0c\u4f7f\u5176\u7ecf\u8fc7\u7ed9\u5b9a\u70b9\u96c6\u4e2d\u7684\u6240\u6709\u70b9\u3002","formatI":"\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6570 $n$\uff0c\u8868\u793a\u70b9\u6570\u3002\n\n\u4ee5\u4e0b $n-1$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6570 $u,v$\uff0c\u8868\u793a\u70b9 $u$ \u548c\u70b9 $v$ \u4e4b\u95f4\u6709\u4e00\u6761\u8fb9\u3002\n\n\u63a5\u4e0b\u6765\u662f\u4e00\u4e2a\u6570 $q$\uff0c\u8868\u793a\u8be2\u95ee\u7684\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u8be2\u95ee\uff1a\n+ \u7b2c\u4e00\u884c\u6709\u4e00\u4e2a\u6570 $k$\uff0c\u8868\u793a\u70b9\u96c6\u7684\u5927\u5c0f\u3002\n+ \u7b2c\u4e8c\u884c\u6709 $k$\u4e2a\u6570 $p_1,p_2,...,p_k$\uff0c\u8868\u793a\u8fd9\u4e2a\u70b9\u96c6\u3002","formatO":"\u8f93\u51fa\u5171 $q$ \u884c\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u8f93\u51fa\u4e00\u884c `YES` \u6216\u8005 `NO` \u8868\u793a\u7b54\u6848\uff0c\u5927\u5c0f\u5199\u4e0d\u654f\u611f\u3002","hint":"\u5bf9\u4e8e $100\\%$ \u7684\u6570\u636e\uff1a\n\n+ $1 \\le n \\le 2 \\cdot 10^5$\uff0c$ 1 \\le u, v \\le n$\uff0c$ u \\ne v$\uff1b\n\n+ $ 1 \\le q \\le 5$\uff0c$ 1 \\le k \\le n$\uff0c$ 1 \\le p_i \\le n$\uff0c\u6240\u6709 $k$ \u7684\u548c\u4e0d\u8d85\u8fc7 $2\\cdot10^5$\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1702G1 Passable Paths (easy version)","type":2,"slug":"CF1702G1","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328727.220452,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1702G1 Passable Paths (easy version)","description":"\u7ed9\u5b9a\u4e00\u68f5\u6811\uff0c\u95ee\u662f\u5426\u80fd\u901a\u8fc7\u4e00\u6761\u7b80\u5355\u8def\u5f84\uff08\u5373\u5728\u6811\u4e0a\u627e\u4e00\u6761\u8def\u5f84\u4e14\u4e0d\u91cd\u590d\u8d70\u4e00\u6761\u8fb9\uff09\uff0c\u4f7f\u5176\u7ecf\u8fc7\u7ed9\u5b9a\u70b9\u96c6\u4e2d\u7684\u6240\u6709\u70b9\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1702G1" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1702G1?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1702G1?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1702G1 Passable Paths (easy version)" />
+    <meta property="og:description" content="给定一棵树，问是否能通过一条简单路径（即在树上找一条路径且不重复走一条边），使其经过给定点集中的所有点。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1702G1" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1702G1 Passable Paths (easy version)</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一棵树，问是否能通过一条简单路径（即在树上找一条路径且不重复走一条边），使其经过给定点集中的所有点。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行，一个数 $n$，表示点数。
+
+以下 $n-1$ 行，每行两个数 $u,v$，表示点 $u$ 和点 $v$ 之间有一条边。
+
+接下来是一个数 $q$，表示询问的组数。
+
+对于每组询问：
++ 第一行有一个数 $k$，表示点集的大小。
++ 第二行有 $k$个数 $p_1,p_2,...,p_k$，表示这个点集。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出共 $q$ 行。
+
+对于每个询问，输出一行 `YES` 或者 `NO` 表示答案，大小写不敏感。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于 $100\%$ 的数据：
+
++ $1 \le n \le 2 \cdot 10^5$，$ 1 \le u, v \le n$，$ u \ne v$；
+
++ $ 1 \le q \le 5$，$ 1 \le k \le n$，$ 1 \le p_i \le n$，所有 $k$ 的和不超过 $2\cdot10^5$。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

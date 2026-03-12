@@ -1,0 +1,34 @@
+{
+  "id": "CF-2094D",
+  "contest_id": 2094,
+  "index": "D",
+  "name": "Tung Tung Sahur",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 23427,
+  "problem_url": "https://codeforces.com/problemset/problem/2094/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2094/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2094/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2094D%20Tung%20Tung%20Sahur%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2094D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Tung Tung Sahur - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "strings",
+      "two pointers",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

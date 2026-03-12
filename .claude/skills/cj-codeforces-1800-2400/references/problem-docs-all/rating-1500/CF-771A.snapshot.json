@@ -1,0 +1,29 @@
+{
+  "id": "CF-771A",
+  "contest_id": 771,
+  "index": "A",
+  "name": "Bear and Friendship Condition",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 17543,
+  "problem_url": "https://codeforces.com/problemset/problem/771/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/771/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/771/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=771A%20Bear%20and%20Friendship%20Condition%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF771A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF771A Bear and Friendship Condition - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 252,
+    "mirror_attempt": 618,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

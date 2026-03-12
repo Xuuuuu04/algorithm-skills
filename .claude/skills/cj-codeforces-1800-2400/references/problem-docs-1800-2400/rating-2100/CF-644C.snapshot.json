@@ -1,0 +1,43 @@
+{
+  "id": "CF-644C",
+  "contest_id": 644,
+  "index": "C",
+  "name": "Hostname Aliases",
+  "rating": 2100,
+  "tags": [
+    "*special",
+    "binary search",
+    "data structures",
+    "implementation",
+    "sortings",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/644/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/644/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/644/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=644C%20Hostname Aliases%20tutorial",
+  "solved_count": 994,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P644C",
+  "hydro_meta": {
+    "page_title": "Hostname Aliases - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "binary search",
+      "data structures",
+      "implementation",
+      "sortings",
+      "strings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

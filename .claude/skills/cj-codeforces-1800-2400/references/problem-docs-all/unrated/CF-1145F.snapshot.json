@@ -1,0 +1,27 @@
+{
+  "id": "CF-1145F",
+  "contest_id": 1145,
+  "index": "F",
+  "name": "Neat Words",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 537,
+  "problem_url": "https://codeforces.com/problemset/problem/1145/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1145/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1145/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1145F%20Neat%20Words%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1145/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1145F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

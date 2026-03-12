@@ -1,0 +1,39 @@
+{
+  "id": "CF-333D",
+  "contest_id": 333,
+  "index": "D",
+  "name": "Characteristics of Rectangles",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "brute force",
+    "implementation",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/333/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/333/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/333/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=333D%20Characteristics of Rectangles%20tutorial",
+  "solved_count": 2222,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P333D",
+  "hydro_meta": {
+    "page_title": "Characteristics of Rectangles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "implementation",
+      "sortings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

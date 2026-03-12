@@ -1,0 +1,38 @@
+{
+  "id": "CF-1794D",
+  "contest_id": 1794,
+  "index": "D",
+  "name": "Counting Factorizations",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "divide and conquer",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 4378,
+  "problem_url": "https://codeforces.com/problemset/problem/1794/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1794/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1794/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1794D%20Counting%20Factorizations%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1794D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Counting Factorizations - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "divide and conquer",
+      "dp",
+      "fft",
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

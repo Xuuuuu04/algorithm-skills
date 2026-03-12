@@ -1,0 +1,29 @@
+{
+  "id": "CF-2066D1",
+  "contest_id": 2066,
+  "index": "D1",
+  "name": "Club of Young Aircraft Builders (easy version)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 1397,
+  "problem_url": "https://codeforces.com/problemset/problem/2066/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2066/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2066/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2066D1%20Club%20of%20Young%20Aircraft%20Builders%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2066/D1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2066D1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

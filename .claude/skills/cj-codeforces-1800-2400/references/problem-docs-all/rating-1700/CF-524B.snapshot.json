@@ -1,0 +1,32 @@
+{
+  "id": "CF-524B",
+  "contest_id": 524,
+  "index": "B",
+  "name": "Фото на память - 2 (round version)",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 1531,
+  "problem_url": "https://codeforces.com/problemset/problem/524/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/524/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/524/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=524B%20%D0%A4%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C%20-%202%20%28round%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P524B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Фото на память - 2 (round version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "ms",
+    "memory_limit": "MiB"
+  }
+}

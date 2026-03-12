@@ -1,0 +1,34 @@
+{
+  "id": "CF-653F",
+  "contest_id": 653,
+  "index": "F",
+  "name": "Paper task",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "data structures",
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 1150,
+  "problem_url": "https://codeforces.com/problemset/problem/653/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/653/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/653/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=653F%20Paper%20task%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P653F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Paper task - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "string suffix structures",
+      "strings",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

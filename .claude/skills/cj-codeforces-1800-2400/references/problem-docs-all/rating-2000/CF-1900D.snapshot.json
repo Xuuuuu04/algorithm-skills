@@ -1,0 +1,31 @@
+{
+  "id": "CF-1900D",
+  "contest_id": 1900,
+  "index": "D",
+  "name": "Small GCD",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 5246,
+  "problem_url": "https://codeforces.com/problemset/problem/1900/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1900/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1900/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1900D%20Small%20GCD%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1900D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1900D Small GCD - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 259,
+    "mirror_attempt": 471,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

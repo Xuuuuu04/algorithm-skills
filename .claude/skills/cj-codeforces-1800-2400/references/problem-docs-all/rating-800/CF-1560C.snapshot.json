@@ -1,0 +1,28 @@
+{
+  "id": "CF-1560C",
+  "contest_id": 1560,
+  "index": "C",
+  "name": "Infinity Table",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 27854,
+  "problem_url": "https://codeforces.com/problemset/problem/1560/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1560/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1560/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1560C%20Infinity%20Table%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1560/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1560C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

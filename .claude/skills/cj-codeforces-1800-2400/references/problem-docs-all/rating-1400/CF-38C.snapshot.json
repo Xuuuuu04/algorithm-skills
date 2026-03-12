@@ -1,0 +1,30 @@
+{
+  "id": "CF-38C",
+  "contest_id": 38,
+  "index": "C",
+  "name": "Blinds",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 2505,
+  "problem_url": "https://codeforces.com/problemset/problem/38/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/38/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/38/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=38C%20Blinds%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P38C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Blinds - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "*1400"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

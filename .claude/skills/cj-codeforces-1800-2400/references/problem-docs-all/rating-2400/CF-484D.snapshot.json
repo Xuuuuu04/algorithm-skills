@@ -1,0 +1,29 @@
+{
+  "id": "CF-484D",
+  "contest_id": 484,
+  "index": "D",
+  "name": "Kindergarten",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 3006,
+  "problem_url": "https://codeforces.com/problemset/problem/484/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/484/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/484/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=484D%20Kindergarten%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/484/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 484D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

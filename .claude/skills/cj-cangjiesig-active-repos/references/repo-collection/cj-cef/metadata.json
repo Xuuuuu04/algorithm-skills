@@ -1,0 +1,14 @@
+{
+  "name": "cj-cef",
+  "full_name": "cangjielanguage-sig/cj-cef",
+  "html_url": "https://github.com/cangjielanguage-sig/cj-cef",
+  "description": "CEF(Chromium Embedded Framework)仓颉端封装扩展。作为仓颉桌面端开发框架， 实现基于html、css、 js和仓颉进行跨平台桌面开发的能力。底层使用C语言对CEF C API封装，天生具备高性能，同时还保留了CEF C API在仓颉端结构和接口的直接映射，可直接在仓颉端扩展CEF功能",
+  "stars": 0,
+  "forks": 0,
+  "language": "C",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.3",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/cj-cef/main/cjpm.toml"
+}

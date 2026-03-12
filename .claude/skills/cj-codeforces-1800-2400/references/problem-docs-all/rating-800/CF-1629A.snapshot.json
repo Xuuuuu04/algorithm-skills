@@ -1,0 +1,29 @@
+{
+  "id": "CF-1629A",
+  "contest_id": 1629,
+  "index": "A",
+  "name": "Download More RAM",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 30816,
+  "problem_url": "https://codeforces.com/problemset/problem/1629/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1629/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1629/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1629A%20Download%20More%20RAM%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1629A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1629A Download More RAM - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 403,
+    "mirror_attempt": 709,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

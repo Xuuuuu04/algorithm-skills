@@ -1,0 +1,34 @@
+{
+  "id": "CF-820B",
+  "contest_id": 820,
+  "index": "B",
+  "name": "Mister B and Angle in Polygon",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "geometry",
+    "math"
+  ],
+  "solved_count": 5485,
+  "problem_url": "https://codeforces.com/problemset/problem/820/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/820/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/820/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=820B%20Mister%20B%20and%20Angle%20in%20Polygon%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P820B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mister B and Angle in Polygon - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "geometry",
+      "math",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF262A Roma and Lucky Numbers - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF262A","type":"CF","title":"Roma and Lucky Numbers","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":91,"totalAccepted":51,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Roma and Lucky Numbers","background":"","description":"\u6709\u4e00\u79cd\u6570\u540d\u53eb lucky number\uff0c\u8fd9\u4e9b\u6570\u90fd\u662f\u6b63\u6574\u6570\uff0c\u4e14\u5176\u5341\u8fdb\u5236\u8868\u793a\u53ea\u5305\u542b lucky digits $4$ \u548c $7$\uff0c\u4e3e\u4e2a\u4f8b\u5b50\uff0c$47$\uff0c$744$\uff0c$4$ \u662f lucky number\uff0c$5$\uff0c$17$\uff0c$467$ \u4e0d\u662f\u3002\n\nRoma \u6709 $n$ \u4e2a\u6570\uff0c\u4ed6\u60f3\uff1a\u6709\u51e0\u4e2a\u6570\u5305\u542b\u7684lucky digits \u4e0d\u8d85\u8fc7 $k$ \u4e2a\uff0c\u5e2e\u52a9\u4ed6\u5199\u4e2a\u7a0b\u5e8f\u89e3\u51b3\u95ee\u9898\u3002","formatI":"\u7b2c\u4e00\u884c\u662f\u6b63\u6574\u6570 $n$\uff0c$k$ $(1 \\leq n,k\\leq 100)$\uff0c\u7b2c\u4e8c\u884c\u6709 $n$ \u4e2a\u6b63\u6574\u6570 $a_i$ $(1\\leq a_i\\leq 10^{9})$ \u662f Roma \u6709\u7684\u6570\u3002\n\n\u4e24\u4e2a\u6570\u4e4b\u95f4\u6709\u4e14\u4ec5\u6709\u4e00\u4e2a\u7a7a\u683c\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6570\u2014\u2014\u95ee\u9898\u7684\u7b54\u6848\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u91cc\uff0c\u6240\u6709\u6570\u5b57\u5305\u542b\u7684 lucky digits \u90fd\u4e0d\u8d85\u8fc7 $4$ \u4e2a\uff0c\u6240\u4ee5\u7b54\u6848\u662f $3$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u91cc\uff0c\u53ea\u6709 $447$ \u5305\u542b\u7684 lucky digits \u8d85\u8fc7\u4e86 $2$ \u4e2a\uff0c\u6240\u4ee5\u7b54\u6848\u662f $2$\u3002","locale":"zh-CN"},"content":{"name":"Roma and Lucky Numbers","background":"","description":"Roma (a popular Russian name that means \u0027Roman\u0027) loves the Little Lvov Elephant\u0027s lucky numbers.\n\nLet us remind you that lucky numbers are positive integers whose decimal representation only contains lucky digits $ 4 $ and $ 7 $ . For example, numbers $ 47 $ , $ 744 $ , $ 4 $ are lucky and $ 5 $ , $ 17 $ , $ 467 $ are not.\n\nRoma\u0027s got $ n $ positive integers. He wonders, how many of those integers have not more than $ k $ lucky digits? Help him, write the program that solves the problem.","formatI":"The first line contains two integers $ n $ , $ k $ $ (1\u003C=n,k\u003C=100) $ . The second line contains $ n $ integers $ a_{i} $ $ (1\u003C=a_{i}\u003C=10^{9}) $ \u2014 the numbers that Roma has.\n\nThe numbers in the lines are separated by single spaces.","formatO":"In a single line print a single integer \u2014 the answer to the problem.","hint":"In the first sample all numbers contain at most four lucky digits, so the answer is $ 3 $ .\n\nIn the second sample number $ 447 $ doesn\u0027t fit in, as it contains more than two lucky digits. All other numbers are fine, so the answer is $ 2 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3 4\n1 2 4\n","3\n"],["3 2\n447 44 77\n","2\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"262A","link":"https:\/\/codeforces.com\/problemset\/problem\/262\/A"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\n\u6709\u4e00\u79cd\u6570\u540d\u53eb lucky number\uff0c\u8fd9\u4e9b\u6570\u90fd\u662f\u6b63\u6574\u6570\uff0c\u4e14\u5176\u5341\u8fdb\u5236\u8868\u793a\u53ea\u5305\u542b lucky digits $4$ \u548c $7$\uff0c\u4e3e\u4e2a\u4f8b\u5b50\uff0c$47$\uff0c$744$\uff0c$4$ \u662f lucky number\uff0c$5$\uff0c$17$\uff0c$467$ \u4e0d\u662f\u3002\n\nRoma \u6709 $n$ \u4e2a\u6570\uff0c\u4ed6\u60f3\uff1a\u6709\u51e0\u4e2a\u6570\u5305\u542b\u7684lucky digits \u4e0d\u8d85\u8fc7 $k$ \u4e2a\uff0c\u5e2e\u52a9\u4ed6\u5199\u4e2a\u7a0b\u5e8f\u89e3\u51b3\u95ee\u9898\u3002\n\n## \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u662f\u6b63\u6574\u6570 $n$\uff0c$k$ $(1 \\leq n,k\\leq 100)$\uff0c\u7b2c\u4e8c\u884c\u6709 $n$ \u4e2a\u6b63\u6574\u6570 $a_i$ $(1\\leq a_i\\leq 10^{9})$ \u662f Roma \u6709\u7684\u6570\u3002\n\n\u4e24\u4e2a\u6570\u4e4b\u95f4\u6709\u4e14\u4ec5\u6709\u4e00\u4e2a\u7a7a\u683c\u3002\n\n## \u8f93\u51fa\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6570\u2014\u2014\u95ee\u9898\u7684\u7b54\u6848\u3002\n\n## \u8bf4\u660e\/\u63d0\u793a\n\n\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u91cc\uff0c\u6240\u6709\u6570\u5b57\u5305\u542b\u7684 lucky digits \u90fd\u4e0d\u8d85\u8fc7 $4$ \u4e2a\uff0c\u6240\u4ee5\u7b54\u6848\u662f $3$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u91cc\uff0c\u53ea\u6709 $447$ \u5305\u542b\u7684 lucky digits \u8d85\u8fc7\u4e86 $2$ \u4e2a\uff0c\u6240\u4ee5\u7b54\u6848\u662f $2$\u3002"},"translations":{"en":{"name":"Roma and Lucky Numbers","background":"","description":"Roma (a popular Russian name that means \u0027Roman\u0027) loves the Little Lvov Elephant\u0027s lucky numbers.\n\nLet us remind you that lucky numbers are positive integers whose decimal representation only contains lucky digits $ 4 $ and $ 7 $ . For example, numbers $ 47 $ , $ 744 $ , $ 4 $ are lucky and $ 5 $ , $ 17 $ , $ 467 $ are not.\n\nRoma\u0027s got $ n $ positive integers. He wonders, how many of those integers have not more than $ k $ lucky digits? Help him, write the program that solves the problem.","formatI":"The first line contains two integers $ n $ , $ k $ $ (1\u003C=n,k\u003C=100) $ . The second line contains $ n $ integers $ a_{i} $ $ (1\u003C=a_{i}\u003C=10^{9}) $ \u2014 the numbers that Roma has.\n\nThe numbers in the lines are separated by single spaces.","formatO":"In a single line print a single integer \u2014 the answer to the problem.","hint":"In the first sample all numbers contain at most four lucky digits, so the answer is $ 3 $ .\n\nIn the second sample number $ 447 $ doesn\u0027t fit in, as it contains more than two lucky digits. All other numbers are fine, so the answer is $ 2 $ .","locale":"en"},"zh-CN":{"name":"Roma and Lucky Numbers","background":"","description":"\u6709\u4e00\u79cd\u6570\u540d\u53eb lucky number\uff0c\u8fd9\u4e9b\u6570\u90fd\u662f\u6b63\u6574\u6570\uff0c\u4e14\u5176\u5341\u8fdb\u5236\u8868\u793a\u53ea\u5305\u542b lucky digits $4$ \u548c $7$\uff0c\u4e3e\u4e2a\u4f8b\u5b50\uff0c$47$\uff0c$744$\uff0c$4$ \u662f lucky number\uff0c$5$\uff0c$17$\uff0c$467$ \u4e0d\u662f\u3002\n\nRoma \u6709 $n$ \u4e2a\u6570\uff0c\u4ed6\u60f3\uff1a\u6709\u51e0\u4e2a\u6570\u5305\u542b\u7684lucky digits \u4e0d\u8d85\u8fc7 $k$ \u4e2a\uff0c\u5e2e\u52a9\u4ed6\u5199\u4e2a\u7a0b\u5e8f\u89e3\u51b3\u95ee\u9898\u3002","formatI":"\u7b2c\u4e00\u884c\u662f\u6b63\u6574\u6570 $n$\uff0c$k$ $(1 \\leq n,k\\leq 100)$\uff0c\u7b2c\u4e8c\u884c\u6709 $n$ \u4e2a\u6b63\u6574\u6570 $a_i$ $(1\\leq a_i\\leq 10^{9})$ \u662f Roma \u6709\u7684\u6570\u3002\n\n\u4e24\u4e2a\u6570\u4e4b\u95f4\u6709\u4e14\u4ec5\u6709\u4e00\u4e2a\u7a7a\u683c\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6570\u2014\u2014\u95ee\u9898\u7684\u7b54\u6848\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u91cc\uff0c\u6240\u6709\u6570\u5b57\u5305\u542b\u7684 lucky digits \u90fd\u4e0d\u8d85\u8fc7 $4$ \u4e2a\uff0c\u6240\u4ee5\u7b54\u6848\u662f $3$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u91cc\uff0c\u53ea\u6709 $447$ \u5305\u542b\u7684 lucky digits \u8d85\u8fc7\u4e86 $2$ \u4e2a\uff0c\u6240\u4ee5\u7b54\u6848\u662f $2$\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF262A Roma and Lucky Numbers","type":2,"slug":"CF262A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.038729,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF262A Roma and Lucky Numbers","description":"\u6709\u4e00\u79cd\u6570\u540d\u53eb lucky number\uff0c\u8fd9\u4e9b\u6570\u90fd\u662f\u6b63\u6574\u6570\uff0c\u4e14\u5176\u5341\u8fdb\u5236\u8868\u793a\u53ea\u5305\u542b lucky digits 4 \u548c 7\uff0c\u4e3e\u4e2a\u4f8b\u5b50\uff0c47\uff0c744\uff0c4 \u662f lucky number\uff0c5\uff0c17\uff0c467 \u4e0d\u662f\u3002\nRoma \u6709 n \u4e2a\u6570\uff0c\u4ed6\u60f3\uff1a\u6709\u51e0\u4e2a\u6570\u5305\u542b\u7684lucky\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF262A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF262A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF262A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF262A Roma and Lucky Numbers" />
+    <meta property="og:description" content="有一种数名叫 lucky number，这些数都是正整数，且其十进制表示只包含 lucky digits 4 和 7，举个例子，47，744，4 是 lucky number，5，17，467 不是。
+Roma 有 n 个数，他想：有几个数包含的lucky…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF262A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF262A Roma and Lucky Numbers</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有一种数名叫 lucky number，这些数都是正整数，且其十进制表示只包含 lucky digits $4$ 和 $7$，举个例子，$47$，$744$，$4$ 是 lucky number，$5$，$17$，$467$ 不是。
+
+Roma 有 $n$ 个数，他想：有几个数包含的lucky digits 不超过 $k$ 个，帮助他写个程序解决问题。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行是正整数 $n$，$k$ $(1 \leq n,k\leq 100)$，第二行有 $n$ 个正整数 $a_i$ $(1\leq a_i\leq 10^{9})$ 是 Roma 有的数。
+
+两个数之间有且仅有一个空格。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    第一行输出一个数——问题的答案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例里，所有数字包含的 lucky digits 都不超过 $4$ 个，所以答案是 $3$。
+
+在第二个样例里，只有 $447$ 包含的 lucky digits 超过了 $2$ 个，所以答案是 $2$。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

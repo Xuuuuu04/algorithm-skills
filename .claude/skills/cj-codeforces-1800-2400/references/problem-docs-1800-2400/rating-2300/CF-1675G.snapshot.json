@@ -1,0 +1,30 @@
+{
+  "id": "CF-1675G",
+  "contest_id": 1675,
+  "index": "G",
+  "name": "Sorting Pancakes",
+  "rating": 2300,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1675/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1675/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1675/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1675G%20Sorting Pancakes%20tutorial",
+  "solved_count": 2094,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1675G",
+  "hydro_meta": {
+    "page_title": "Sorting Pancakes - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

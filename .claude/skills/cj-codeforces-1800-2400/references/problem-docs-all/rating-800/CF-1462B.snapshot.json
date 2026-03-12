@@ -1,0 +1,29 @@
+{
+  "id": "CF-1462B",
+  "contest_id": 1462,
+  "index": "B",
+  "name": "Last Year's Substring",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 29034,
+  "problem_url": "https://codeforces.com/problemset/problem/1462/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1462/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1462/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1462B%20Last%20Year%27s%20Substring%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1462B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1462B Last Year's Substring - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 302,
+    "mirror_attempt": 610,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

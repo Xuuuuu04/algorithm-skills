@@ -1,0 +1,31 @@
+{
+  "id": "CF-1765J",
+  "contest_id": 1765,
+  "index": "J",
+  "name": "Hero to Zero",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "graph matchings",
+    "math"
+  ],
+  "solved_count": 297,
+  "problem_url": "https://codeforces.com/problemset/problem/1765/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/1765/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1765/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1765J%20Hero%20to%20Zero%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1765J",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Hero to Zero - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graph matchings",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-860E",
+  "contest_id": 860,
+  "index": "E",
+  "name": "Arkady and a Nobody-men",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "trees"
+  ],
+  "solved_count": 500,
+  "problem_url": "https://codeforces.com/problemset/problem/860/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/860/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/860/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=860E%20Arkady%20and%20a%20Nobody-men%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF860E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF860E Arkady and a Nobody-men - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 131,
+    "mirror_attempt": 352,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

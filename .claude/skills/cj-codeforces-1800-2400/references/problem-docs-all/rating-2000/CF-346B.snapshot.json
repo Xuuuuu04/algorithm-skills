@@ -1,0 +1,28 @@
+{
+  "id": "CF-346B",
+  "contest_id": 346,
+  "index": "B",
+  "name": "Lucky Common Subsequence",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "strings"
+  ],
+  "solved_count": 4196,
+  "problem_url": "https://codeforces.com/problemset/problem/346/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/346/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/346/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=346B%20Lucky%20Common%20Subsequence%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/346/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 346B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

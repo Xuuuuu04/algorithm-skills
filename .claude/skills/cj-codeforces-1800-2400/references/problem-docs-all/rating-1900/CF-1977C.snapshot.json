@@ -1,0 +1,41 @@
+{
+  "id": "CF-1977C",
+  "contest_id": 1977,
+  "index": "C",
+  "name": "Nikita and LCM",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy",
+    "math",
+    "number theory",
+    "sortings"
+  ],
+  "solved_count": 7933,
+  "problem_url": "https://codeforces.com/problemset/problem/1977/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1977/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1977/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1977C%20Nikita%20and%20LCM%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1977C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nikita and LCM - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "math",
+      "number theory",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "CF-1868B2",
+  "contest_id": 1868,
+  "index": "B2",
+  "name": "Candy Party (Hard Version)",
+  "rating": 2100,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1868/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1868/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1868/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1868B2%20Candy Party (Hard Version)%20tutorial",
+  "solved_count": 2702,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1868B2",
+  "hydro_meta": {
+    "page_title": "Candy Party (Hard Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "combinatorics",
+      "constructive algorithms",
+      "dp",
+      "graphs",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

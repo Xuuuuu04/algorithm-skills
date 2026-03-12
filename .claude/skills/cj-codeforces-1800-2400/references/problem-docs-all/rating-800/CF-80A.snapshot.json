@@ -1,0 +1,30 @@
+{
+  "id": "CF-80A",
+  "contest_id": 80,
+  "index": "A",
+  "name": "Panoramix's Prediction",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 65207,
+  "problem_url": "https://codeforces.com/problemset/problem/80/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/80/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/80/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=80A%20Panoramix%27s%20Prediction%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P80A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Panoramix's Prediction - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

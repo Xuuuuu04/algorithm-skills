@@ -1,0 +1,27 @@
+{
+  "id": "CF-1772A",
+  "contest_id": 1772,
+  "index": "A",
+  "name": "A+B?",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 59336,
+  "problem_url": "https://codeforces.com/problemset/problem/1772/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1772/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1772/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1772A%20A%2BB%3F%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1772A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1772A A+B? - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 2115,
+    "mirror_attempt": 5076,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

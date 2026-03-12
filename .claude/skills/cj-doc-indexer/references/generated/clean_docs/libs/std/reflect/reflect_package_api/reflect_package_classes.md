@@ -1,0 +1,1 @@
+类 class ClassTypeInfo

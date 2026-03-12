@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF55D Beautiful numbers - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF55D","type":"CF","title":"Beautiful numbers","difficulty":5,"tags":[3,141,151],"wantsTranslation":false,"totalSubmit":8159,"totalAccepted":2263,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Beautiful numbers","background":null,"description":"Volodya \u662f\u4e2a\u53e4\u602a\u7684\u7537\u5b69\uff0c\u4ed6\u7684\u5ba1\u7f8e\u4e5f\u5f88\u72ec\u7279\u3002\u4ed6\u8ba4\u4e3a\uff0c\u4e00\u4e2a\u6b63\u6574\u6570\u662f\u201c\u7f8e\u4e3d\u7684\u201d\uff0c\u5f53\u4e14\u4ec5\u5f53\u5b83\u80fd\u88ab\u5176\u6240\u6709\u975e\u96f6\u6570\u5b57\u6574\u9664\u3002\u6211\u4eec\u4e0d\u60f3\u4e0e\u4ed6\u4e89\u8fa9\uff0c\u53ea\u9700\u7edf\u8ba1\u7ed9\u5b9a\u533a\u95f4\u5185\u7f8e\u4e3d\u6570\u7684\u4e2a\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6b63\u6574\u6570 $l_{i}$ \u4e0e $r_{i}$\uff08$1 \\leq l_{i} \\leq r_{i} \\leq 9 \\cdot 10^{18}$\uff09\u3002\n\n\u8bf7\u4e0d\u8981\u5728 C++ \u4e2d\u4f7f\u7528 `%lld` \u8bfb\u5199 64 \u4f4d\u6574\u6570\u3002\u5efa\u8bae\u4f7f\u7528 `cin`\uff08\u4e5f\u53ef\u4ee5\u7528 `%I64d`\uff09\u3002","formatO":"\u8f93\u51fa\u5e94\u5305\u542b $t$ \u4e2a\u6570\u5b57\uff0c\u6bcf\u884c\u4e3a\u4e00\u4e2a\u7b54\u6848\uff0c\u8868\u793a\u5bf9\u5e94\u533a\u95f4\uff08\u4ece $l_{i}$ \u5230 $r_{i}$\uff0c\u5305\u62ec\u7aef\u70b9\uff09\u5185\u7f8e\u4e3d\u6570\u7684\u6570\u91cf\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Beautiful numbers","background":"","description":"Volodya is an odd boy and his taste is strange as well. It seems to him that a positive integer number is beautiful if and only if it is divisible by each of its nonzero digits. We will not argue with this and just count the quantity of beautiful numbers in given ranges.","formatI":"The first line of the input contains the number of cases $ t $ ( $ 1\u003C=t\u003C=10 $ ). Each of the next $ t $ lines contains two natural numbers $ l_{i} $ and $ r_{i} $ ( $ 1\u003C=l_{i}\u003C=r_{i}\u003C=9\u00b710^{18} $ ).\n\nPlease, do not use %lld specificator to read or write 64-bit integers in C++. It is preffered to use cin (also you may use %I64d).","formatO":"Output should contain $ t $ numbers \u2014 answers to the queries, one number per line \u2014 quantities of beautiful numbers in given intervals (from $ l_{i} $ to $ r_{i} $ , inclusively).","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1\n1 9\n","9\n"],["1\n12 15\n","2\n"]],"limits":{"time":[4000],"memory":[256000]},"vjudge":{"id":"55D","link":"https:\/\/codeforces.com\/problemset\/problem\/55\/D"},"translation":"Volodya \u8ba4\u4e3a\u4e00\u4e2a\u6570\u5b57 $x$ \u662f\u7f8e\u4e3d\u7684\uff0c\u5f53\u4e14\u4ec5\u5f53 $x\\in\\mathbb{Z^+}$ \u5e76\u4e14\u5bf9\u4e8e $x$ \u7684\u6bcf\u4e00\u4e2a\u975e\u96f6\u4f4d\u4e0a\u7684\u6570 $y$\uff0c\u90fd\u6709 $y|x$\u3002\n\n\u4f60\u9700\u8981\u5e2e\u52a9\u4ed6\u7b97\u51fa\u5728\u533a\u95f4 $[l,r]$ \u4e2d\u6709\u591a\u5c11\u4e2a\u6570\u662f\u7f8e\u4e3d\u7684\u3002\n\n$t$ \u7ec4\u6570\u636e\u3002\n\n$1\\le t\\le 10,1\\le l\\le r\\le 9\\times 10^{18}$\n\n\u4fdd\u8bc1 $l,r$ \u90fd\u662f\u6574\u6570\u3002"},"translations":{"en":{"name":"Beautiful numbers","background":"","description":"Volodya is an odd boy and his taste is strange as well. It seems to him that a positive integer number is beautiful if and only if it is divisible by each of its nonzero digits. We will not argue with this and just count the quantity of beautiful numbers in given ranges.","formatI":"The first line of the input contains the number of cases $ t $ ( $ 1\u003C=t\u003C=10 $ ). Each of the next $ t $ lines contains two natural numbers $ l_{i} $ and $ r_{i} $ ( $ 1\u003C=l_{i}\u003C=r_{i}\u003C=9\u00b710^{18} $ ).\n\nPlease, do not use %lld specificator to read or write 64-bit integers in C++. It is preffered to use cin (also you may use %I64d).","formatO":"Output should contain $ t $ numbers \u2014 answers to the queries, one number per line \u2014 quantities of beautiful numbers in given intervals (from $ l_{i} $ to $ r_{i} $ , inclusively).","hint":"","locale":"en"},"zh-CN":{"name":"Beautiful numbers","background":null,"description":"Volodya \u662f\u4e2a\u53e4\u602a\u7684\u7537\u5b69\uff0c\u4ed6\u7684\u5ba1\u7f8e\u4e5f\u5f88\u72ec\u7279\u3002\u4ed6\u8ba4\u4e3a\uff0c\u4e00\u4e2a\u6b63\u6574\u6570\u662f\u201c\u7f8e\u4e3d\u7684\u201d\uff0c\u5f53\u4e14\u4ec5\u5f53\u5b83\u80fd\u88ab\u5176\u6240\u6709\u975e\u96f6\u6570\u5b57\u6574\u9664\u3002\u6211\u4eec\u4e0d\u60f3\u4e0e\u4ed6\u4e89\u8fa9\uff0c\u53ea\u9700\u7edf\u8ba1\u7ed9\u5b9a\u533a\u95f4\u5185\u7f8e\u4e3d\u6570\u7684\u4e2a\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6b63\u6574\u6570 $l_{i}$ \u4e0e $r_{i}$\uff08$1 \\leq l_{i} \\leq r_{i} \\leq 9 \\cdot 10^{18}$\uff09\u3002\n\n\u8bf7\u4e0d\u8981\u5728 C++ \u4e2d\u4f7f\u7528 `%lld` \u8bfb\u5199 64 \u4f4d\u6574\u6570\u3002\u5efa\u8bae\u4f7f\u7528 `cin`\uff08\u4e5f\u53ef\u4ee5\u7528 `%I64d`\uff09\u3002","formatO":"\u8f93\u51fa\u5e94\u5305\u542b $t$ \u4e2a\u6570\u5b57\uff0c\u6bcf\u884c\u4e3a\u4e00\u4e2a\u7b54\u6848\uff0c\u8868\u793a\u5bf9\u5e94\u533a\u95f4\uff08\u4ece $l_{i}$ \u5230 $r_{i}$\uff0c\u5305\u62ec\u7aef\u70b9\uff09\u5185\u7f8e\u4e3d\u6570\u7684\u6570\u91cf\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF55D Beautiful numbers","type":2,"slug":"CF55D","color":"orange-3"},"discussions":[{"id":1214770,"title":"if you TLE on #11","author":{"uid":987697,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/987697.png","name":"hezitao","slogan":"\u67f4\u6e7e \u5317\u89d2 \u94dc\u9523\u6e7e \u6e7e\u4ed4 \u4e2d\u73af \u91d1\u949f \u5c16\u6c99\u5480 \u6cb9\u9ebb\u5730 \u65fa\u89d2 \u592a\u5b50 \u4e5d\u9f99\u5858 \u6c99\u7530 \u4e0a\u6c34 \u7f57\u6e56 \u6df1\u5733 \u5e7f\u5dde \u53a6\u95e8 \u53f0\u6e7e \u798f\u5dde \u5357\u4eac \u4e0a\u6d77 \u5317\u4eac \u4e2d\u73af","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":5,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/mbjs7x35.png"},"time":1765528870},{"id":1196196,"title":"\u5173\u4e8e\u5361\u5e38","author":{"uid":752953,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/752953.png","name":"sLMxf","slogan":"\u53f2\u83b1\u59c6\u5148\u950b or \u6b7b\u4e86\u5417\u5c0f\u67ab\uff1f\/\u603b\u4f1a\u6709... \/\u673a\u623f\u98ce\u6c14\u84b8\u84b8\u65e5\u4e0a","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/itud57q4.png"},"time":1762871961},{"id":1056995,"title":"\u5efa\u8bae\u964d\u84dd","author":{"uid":781352,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/781352.png","name":"Sexy_Foxy","slogan":"\u7f8e\u4eba\u82b3\u534e\u4e0d\u518d\uff0c\u738b\u8005\u5f52\u4e8e\u6c38\u5bc2\u3002\u227d^\u2022\u2a4a\u2022^\u227c    ||  \u5c3d\u7ba1\u4e0d\u80fd\u7559\u4f4f\u65f6\u95f4\uff0c\u4f46\u5b83\u63d0\u9192\u4eba\u4eec\u65f6\u95f4\u7684\u8fc7\u53bb\uff0c\u4f7f\u4eba\u4eec\u60f3\u8d77\u8fc7\u53bb\u7f8e\u597d\u7684\u65f6\u5149 \u2014\u2014 CF848E","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/5c0wtz5a.png"},"time":1738916882},{"id":1052186,"title":"TLE #8 \u6c42\u52a9","author":{"uid":1059747,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1059747.png","name":"longlong_int","slogan":"\u003E \u6700\u540e\u5728\u7ebf\u65f6\u95f4\uff1a2026\u5e743\u670812\u65e522\u65f649\u5206 \u003C \u7531 exOIso \u53d1\u9001\u6fc0\u5149","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":4,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/66xulsvp.png"},"time":1738243386},{"id":1035110,"title":"TLE on 11 \u88ab\u5361\u5e38\u6c42\u52a9","author":{"uid":790188,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/790188.png","name":"bsdsdb","slogan":"\u7b97\u6cd5\uff0c\u597d\u597d\u73a9","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":0,"background":""},"time":1736411844},{"id":929195,"title":"\u8bf7\u6c42\u6dfb\u52a0\u9898\u89e3","author":{"uid":563958,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/563958.png","name":"dxrS","slogan":"\u8fd9\u4e2a\u5bb6\u4f19\u5f88\u61d2\uff0c\u4ec0\u4e48\u4e5f\u6ca1\u7559\u4e0b\u5417\uff1f","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/g78iehwt.png"},"time":1726644472}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.262332,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF55D Beautiful numbers","description":"Volodya \u662f\u4e2a\u53e4\u602a\u7684\u7537\u5b69\uff0c\u4ed6\u7684\u5ba1\u7f8e\u4e5f\u5f88\u72ec\u7279\u3002\u4ed6\u8ba4\u4e3a\uff0c\u4e00\u4e2a\u6b63\u6574\u6570\u662f\u201c\u7f8e\u4e3d\u7684\u201d\uff0c\u5f53\u4e14\u4ec5\u5f53\u5b83\u80fd\u88ab\u5176\u6240\u6709\u975e\u96f6\u6570\u5b57\u6574\u9664\u3002\u6211\u4eec\u4e0d\u60f3\u4e0e\u4ed6\u4e89\u8fa9\uff0c\u53ea\u9700\u7edf\u8ba1\u7ed9\u5b9a\u533a\u95f4\u5185\u7f8e\u4e3d\u6570\u7684\u4e2a\u6570\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF55D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF55D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF55D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF55D Beautiful numbers" />
+    <meta property="og:description" content="Volodya 是个古怪的男孩，他的审美也很独特。他认为，一个正整数是“美丽的”，当且仅当它能被其所有非零数字整除。我们不想与他争辩，只需统计给定区间内美丽数的个数。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF55D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF55D Beautiful numbers</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Volodya 是个古怪的男孩，他的审美也很独特。他认为，一个正整数是“美丽的”，当且仅当它能被其所有非零数字整除。我们不想与他争辩，只需统计给定区间内美丽数的个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 10$），表示测试用例的数量。接下来的 $t$ 行，每行包含两个正整数 $l_{i}$ 与 $r_{i}$（$1 \leq l_{i} \leq r_{i} \leq 9 \cdot 10^{18}$）。
+
+请不要在 C++ 中使用 `%lld` 读写 64 位整数。建议使用 `cin`（也可以用 `%I64d`）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出应包含 $t$ 个数字，每行为一个答案，表示对应区间（从 $l_{i}$ 到 $r_{i}$，包括端点）内美丽数的数量。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

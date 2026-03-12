@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1614A Divan and a Store - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1614A","type":"CF","title":"Divan and a Store","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":629,"totalAccepted":418,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Divan and a Store","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4ece\u4e2d\u9009\u51fa\u82e5\u5e72\u4e2a\u5728 $[l,r]$ \u533a\u95f4\u7684\u6570\uff0c\u4f7f\u5f97\u603b\u548c\u4e0d\u5927\u4e8e $k$\u3002\u6c42\u6700\u591a\u4e2a\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a $t$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u4e00\u7ec4\u6570\u636e\u4e2d\uff1a\n\n\u7b2c\u4e00\u884c\u6709\u56db\u4e2a\u6574\u6570  $ n $ , $ l $ , $ r $ , $ k $ ( $ 1 \\le n \\le 100 $ , $ 1 \\le l \\le r \\le 10^9 $ , $ 1 \\le k \\le 10^9 $ )\u3002\n\n\u7b2c\u4e8c\u884c\u6709 $n$ \u4e2a\u6574\u6570\uff0c\u8868\u793a\u6570\u7ec4 $a$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u5927\u4e2a\u6570\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Divan and a Store","background":"","description":"Businessman Divan loves chocolate! Today he came to a store to buy some chocolate. Like all businessmen, Divan knows the value of money, so he will not buy too expensive chocolate. At the same time, too cheap chocolate tastes bad, so he will not buy it as well.\n\nThe store he came to has $ n $ different chocolate bars, and the price of the $ i $ -th chocolate bar is $ a_i $ dollars. Divan considers a chocolate bar too expensive if it costs strictly more than $ r $ dollars. Similarly, he considers a bar of chocolate to be too cheap if it costs strictly less than $ l $ dollars. Divan will not buy too cheap or too expensive bars.\n\nDivan is not going to spend all his money on chocolate bars, so he will spend at most $ k $ dollars on chocolates.\n\nPlease determine the maximum number of chocolate bars Divan can buy.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). Description of the test cases follows.\n\nThe description of each test case consists of two lines. The first line contains integers $ n $ , $ l $ , $ r $ , $ k $ ( $ 1 \\le n \\le 100 $ , $ 1 \\le l \\le r \\le 10^9 $ , $ 1 \\le k \\le 10^9 $ ) \u2014 the lowest acceptable price of a chocolate, the highest acceptable price of a chocolate and Divan\u0027s total budget, respectively.\n\nThe second line contains a sequence $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^9 $ ) integers \u2014 the prices of chocolate bars in the store.","formatO":"For each test case print a single integer \u2014 the maximum number of chocolate bars Divan can buy.","hint":"In the first example Divan can buy chocolate bars $ 1 $ and $ 3 $ and spend $ 100 $ dollars on them.\n\nIn the second example Divan can buy chocolate bars $ 3 $ and $ 4 $ and spend $ 7 $ dollars on them.\n\nIn the third example Divan can buy chocolate bars $ 3 $ , $ 4 $ , and $ 5 $ for $ 12 $ dollars.\n\nIn the fourth example Divan cannot buy any chocolate bar because each of them is either too cheap or too expensive.\n\nIn the fifth example Divan cannot buy any chocolate bar because he considers the first bar too cheap, and has no budget for the second or third.\n\nIn the sixth example Divan can buy all the chocolate bars in the shop.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["8\n3 1 100 100\n50 100 50\n6 3 5 10\n1 2 3 4 5 6\n6 3 5 21\n1 2 3 4 5 6\n10 50 69 100\n20 30 40 77 1 1 12 4 70 10000\n3 50 80 30\n20 60 70\n10 2 7 100\n2 2 2 2 2 7 7 7 7 7\n4 1000000000 1000000000 1000000000\n1000000000 1000000000 1000000000 1000000000\n1 1 1 1\n1","2\n2\n3\n0\n0\n10\n1\n1"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1614A","link":"https:\/\/codeforces.com\/problemset\/problem\/1614\/A"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4ece\u4e2d\u9009\u51fa\u82e5\u5e72\u4e2a\u5728 $[l,r]$ \u533a\u95f4\u7684\u6570\uff0c\u4f7f\u5f97\u603b\u548c\u4e0d\u5927\u4e8e $k$\u3002\u6c42\u6700\u591a\u4e2a\u6570\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a $t$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u4e00\u7ec4\u6570\u636e\u4e2d\uff1a\n\n\u7b2c\u4e00\u884c\u6709\u56db\u4e2a\u6574\u6570  $ n $ , $ l $ , $ r $ , $ k $ ( $ 1 \\le n \\le 100 $ , $ 1 \\le l \\le r \\le 10^9 $ , $ 1 \\le k \\le 10^9 $ )\u3002\n\n\u7b2c\u4e8c\u884c\u6709 $n$ \u4e2a\u6574\u6570\uff0c\u8868\u793a\u6570\u7ec4 $a$\u3002\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u5927\u4e2a\u6570\u3002"},"translations":{"en":{"name":"Divan and a Store","background":"","description":"Businessman Divan loves chocolate! Today he came to a store to buy some chocolate. Like all businessmen, Divan knows the value of money, so he will not buy too expensive chocolate. At the same time, too cheap chocolate tastes bad, so he will not buy it as well.\n\nThe store he came to has $ n $ different chocolate bars, and the price of the $ i $ -th chocolate bar is $ a_i $ dollars. Divan considers a chocolate bar too expensive if it costs strictly more than $ r $ dollars. Similarly, he considers a bar of chocolate to be too cheap if it costs strictly less than $ l $ dollars. Divan will not buy too cheap or too expensive bars.\n\nDivan is not going to spend all his money on chocolate bars, so he will spend at most $ k $ dollars on chocolates.\n\nPlease determine the maximum number of chocolate bars Divan can buy.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). Description of the test cases follows.\n\nThe description of each test case consists of two lines. The first line contains integers $ n $ , $ l $ , $ r $ , $ k $ ( $ 1 \\le n \\le 100 $ , $ 1 \\le l \\le r \\le 10^9 $ , $ 1 \\le k \\le 10^9 $ ) \u2014 the lowest acceptable price of a chocolate, the highest acceptable price of a chocolate and Divan\u0027s total budget, respectively.\n\nThe second line contains a sequence $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^9 $ ) integers \u2014 the prices of chocolate bars in the store.","formatO":"For each test case print a single integer \u2014 the maximum number of chocolate bars Divan can buy.","hint":"In the first example Divan can buy chocolate bars $ 1 $ and $ 3 $ and spend $ 100 $ dollars on them.\n\nIn the second example Divan can buy chocolate bars $ 3 $ and $ 4 $ and spend $ 7 $ dollars on them.\n\nIn the third example Divan can buy chocolate bars $ 3 $ , $ 4 $ , and $ 5 $ for $ 12 $ dollars.\n\nIn the fourth example Divan cannot buy any chocolate bar because each of them is either too cheap or too expensive.\n\nIn the fifth example Divan cannot buy any chocolate bar because he considers the first bar too cheap, and has no budget for the second or third.\n\nIn the sixth example Divan can buy all the chocolate bars in the shop.","locale":"en"},"zh-CN":{"name":"Divan and a Store","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4ece\u4e2d\u9009\u51fa\u82e5\u5e72\u4e2a\u5728 $[l,r]$ \u533a\u95f4\u7684\u6570\uff0c\u4f7f\u5f97\u603b\u548c\u4e0d\u5927\u4e8e $k$\u3002\u6c42\u6700\u591a\u4e2a\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a $t$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u4e00\u7ec4\u6570\u636e\u4e2d\uff1a\n\n\u7b2c\u4e00\u884c\u6709\u56db\u4e2a\u6574\u6570  $ n $ , $ l $ , $ r $ , $ k $ ( $ 1 \\le n \\le 100 $ , $ 1 \\le l \\le r \\le 10^9 $ , $ 1 \\le k \\le 10^9 $ )\u3002\n\n\u7b2c\u4e8c\u884c\u6709 $n$ \u4e2a\u6574\u6570\uff0c\u8868\u793a\u6570\u7ec4 $a$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u5927\u4e2a\u6570\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1614A Divan and a Store","type":2,"slug":"CF1614A","color":"orange-3"},"discussions":[{"id":384778,"title":"\u7ffb\u8bd1","author":{"uid":477258,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/477258.png","name":"charleshe","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":6,"xcpcLevel":0,"background":""},"time":1637987526}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.083068,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1614A Divan and a Store","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u4e3a n \u7684\u6570\u7ec4 a\uff0c\u4ece\u4e2d\u9009\u51fa\u82e5\u5e72\u4e2a\u5728 [l,r] \u533a\u95f4\u7684\u6570\uff0c\u4f7f\u5f97\u603b\u548c\u4e0d\u5927\u4e8e k\u3002\u6c42\u6700\u591a\u4e2a\u6570\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1614A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1614A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1614A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1614A Divan and a Store" />
+    <meta property="og:description" content="给定一个长为 n 的数组 a，从中选出若干个在 [l,r] 区间的数，使得总和不大于 k。求最多个数。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1614A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1614A Divan and a Store</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个长为 $n$ 的数组 $a$，从中选出若干个在 $[l,r]$ 区间的数，使得总和不大于 $k$。求最多个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个 $t$，表示数据组数。
+
+每一组数据中：
+
+第一行有四个整数  $ n $ , $ l $ , $ r $ , $ k $ ( $ 1 \le n \le 100 $ , $ 1 \le l \le r \le 10^9 $ , $ 1 \le k \le 10^9 $ )。
+
+第二行有 $n$ 个整数，表示数组 $a$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每一组数据输出一行一个整数，表示最大个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first example Divan can buy chocolate bars $ 1 $ and $ 3 $ and spend $ 100 $ dollars on them.
+
+In the second example Divan can buy chocolate bars $ 3 $ and $ 4 $ and spend $ 7 $ dollars on them.
+
+In the third example Divan can buy chocolate bars $ 3 $ , $ 4 $ , and $ 5 $ for $ 12 $ dollars.
+
+In the fourth example Divan cannot buy any chocolate bar because each of them is either too cheap or too expensive.
+
+In the fifth example Divan cannot buy any chocolate bar because he considers the first bar too cheap, and has no budget for the second or third.
+
+In the sixth example Divan can buy all the chocolate bars in the shop.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

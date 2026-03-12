@@ -1,0 +1,31 @@
+{
+  "id": "CF-1786B",
+  "contest_id": 1786,
+  "index": "B",
+  "name": "Cake Assembly Line",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "sortings"
+  ],
+  "solved_count": 9775,
+  "problem_url": "https://codeforces.com/problemset/problem/1786/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1786/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1786/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1786B%20Cake%20Assembly%20Line%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1786B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cake Assembly Line - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

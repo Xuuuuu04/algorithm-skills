@@ -1,0 +1,30 @@
+{
+  "id": "CF-986C",
+  "contest_id": 986,
+  "index": "C",
+  "name": "AND Graph",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "bitmasks",
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 2683,
+  "problem_url": "https://codeforces.com/problemset/problem/986/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/986/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/986/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=986C%20AND%20Graph%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF986C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF986C AND Graph - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 491,
+    "mirror_attempt": 1306,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

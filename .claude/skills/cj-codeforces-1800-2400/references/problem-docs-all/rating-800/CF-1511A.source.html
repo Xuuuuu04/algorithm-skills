@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1511A Review Site - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1511A","type":"CF","title":"Review Site","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":291,"totalAccepted":215,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Review Site","background":"","description":"\u4f60\u6709\u4e00\u4e2a\u6295\u7968\u7f51\u7ad9\uff0c\u6bcf\u4e2a\u7528\u6237\u53ef\u4ee5\u6295\u63a8\u8350\u7968\u6216\u8005\u53cd\u5bf9\u7968\u3002\u4f60\u7684\u7f51\u7ad9\u6709\u4e24\u4e2a\u670d\u52a1\u5668\uff0c\u6bcf\u4e2a\u670d\u52a1\u5668\u4e2d\u7684\u7968\u6570\u76f8\u4e92\u72ec\u7acb\u3002\n\n\u6709 $n$ \u4e2a\u4eba\u4f1a\u9010\u4e00\u6765\u4f60\u7684\u7f51\u7ad9\u6295\u7968\uff0c\u8fd9 $n$ \u4e2a\u4eba\u53ef\u4ee5\u88ab\u5206\u4e3a\u4e09\u79cd\u7c7b\u578b\uff1a\n\n- \u7c7b\u578b1\uff1a\u5f80\u6240\u5728\u7684\u670d\u52a1\u5668\u6295\u4e00\u5f20\u63a8\u8350\u7968\uff1b\n- \u7c7b\u578b2\uff1a\u5f80\u6240\u5728\u7684\u670d\u52a1\u5668\u6295\u4e00\u5f20\u53cd\u5bf9\u7968\uff1b\n- \u7c7b\u578b3\uff1a\u82e5\u6240\u5728\u7684\u670d\u52a1\u5668\u4e2d\u53cd\u5bf9\u7968\u6570\u91cf\u5927\u4e8e\u63a8\u8350\u7968\u6570\u91cf\uff0c\u90a3\u4e48\u4ed6\u4f1a\u5728\u6b64\u6295\u4e00\u5f20\u53cd\u5bf9\u7968\uff1b\u5426\u5219\u4ed6\u4f1a\u6295\u4e00\u5f20\u63a8\u8350\u7968\u3002\n\n\u4f60\u73b0\u5728\u5df2\u7ecf\u77e5\u9053\u6bcf\u4f4d\u7528\u6237\u7684\u7c7b\u578b\uff0c\u5e76\u4e14\u53ef\u4ee5\u624b\u52a8\u5c06\u5176\u5206\u914d\u5230\u4efb\u4e00\u670d\u52a1\u5668\uff0c\u6c42\u4e24\u670d\u52a1\u5668\u4e2d\u63a8\u8350\u7968\u6570\u4e4b\u548c\u7684\u6700\u5927\u503c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$ ( $1 \\le t \\le 10^4$ )\uff0c\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u8f93\u5165 $t$ \u7ec4\u6570\u636e\uff0c\u6bcf\u4e00\u7ec4\u6570\u636e\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$ ( $1 \\le n \\le 50$ )\uff0c\u8868\u793a\u7528\u6237\u6570\u91cf\u3002\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6b63\u6574\u6570 $r_1,r_2,...,r_n$ ( $1 \\le r \\le 3$ )\uff0c\u8868\u793a\u6bcf\u4e00\u4f4d\u7528\u6237\u7684\u7c7b\u578b\u3002","formatO":"$t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u5728\u6bcf\u7ec4\u6570\u636e\u79cd\u4f60\u53ef\u4ee5\u83b7\u5f97\u7684\u63a8\u8350\u7968\u4e4b\u548c\u7684\u6700\u5927\u503c\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Review Site","background":"","description":"You are an upcoming movie director, and you have just released your first movie. You have also launched a simple review site with two buttons to press \u2014 upvote and downvote.\n\nHowever, the site is not so simple on the inside. There are two servers, each with its separate counts for the upvotes and the downvotes.\n\n $ n $ reviewers enter the site one by one. Each reviewer is one of the following types:\n\n- type $ 1 $ : a reviewer has watched the movie, and they like it \u2014 they press the upvote button;\n- type $ 2 $ : a reviewer has watched the movie, and they dislike it \u2014 they press the downvote button;\n- type $ 3 $ : a reviewer hasn\u0027t watched the movie \u2014 they look at the current number of upvotes and downvotes of the movie on the server they are in and decide what button to press. If there are more downvotes than upvotes, then a reviewer downvotes the movie. Otherwise, they upvote the movie.\n\nEach reviewer votes on the movie exactly once.\n\nSince you have two servers, you can actually manipulate the votes so that your movie gets as many upvotes as possible. When a reviewer enters a site, you know their type, and you can send them either to the first server or to the second one.\n\nWhat is the maximum total number of upvotes you can gather over both servers if you decide which server to send each reviewer to?","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of testcases.\n\nThen the descriptions of $ t $ testcases follow.\n\nThe first line of each testcase contains a single integer $ n $ ( $ 1 \\le n \\le 50 $ ) \u2014 the number of reviewers.\n\nThe second line of each testcase contains $ n $ integers $ r_1, r_2, \\dots, r_n $ ( $ 1 \\le r_i \\le 3 $ ) \u2014 the types of the reviewers in the same order they enter the site.","formatO":"For each testcase print a single integer \u2014 the maximum total number of upvotes you can gather over both servers if you decide which server to send each reviewer to.","hint":"In the first testcase of the example you can send the only reviewer to either of the servers \u2014 they\u0027ll downvote anyway. The movie won\u0027t receive any upvotes.\n\nIn the second testcase of the example you can send all reviewers to the first server:\n\n- the first reviewer upvotes;\n- the second reviewer downvotes;\n- the last reviewer sees that the number of downvotes is not greater than the number of upvotes \u2014 upvote themselves.\n\nThere are two upvotes in total. Alternatevely, you can send the first and the second reviewers to the first server and the last reviewer \u2014 to the second server:\n\n- the first reviewer upvotes on the first server;\n- the second reviewer downvotes on the first server;\n- the last reviewer sees no upvotes or downvotes on the second server \u2014 upvote themselves.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n1\n2\n3\n1 2 3\n5\n1 1 1 1 1\n3\n3 3 2","0\n2\n5\n2"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1511A","link":"https:\/\/codeforces.com\/problemset\/problem\/1511\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\n\u4f60\u6709\u4e00\u4e2a\u6295\u7968\u7f51\u7ad9\uff0c\u6bcf\u4e2a\u7528\u6237\u53ef\u4ee5\u6295\u63a8\u8350\u7968\u6216\u8005\u53cd\u5bf9\u7968\u3002\u4f60\u7684\u7f51\u7ad9\u6709\u4e24\u4e2a\u670d\u52a1\u5668\uff0c\u6bcf\u4e2a\u670d\u52a1\u5668\u4e2d\u7684\u7968\u6570\u76f8\u4e92\u72ec\u7acb\u3002\n\n\u6709 $n$ \u4e2a\u4eba\u4f1a\u9010\u4e00\u6765\u4f60\u7684\u7f51\u7ad9\u6295\u7968\uff0c\u8fd9 $n$ \u4e2a\u4eba\u53ef\u4ee5\u88ab\u5206\u4e3a\u4e09\u79cd\u7c7b\u578b\uff1a\n\n- \u7c7b\u578b1\uff1a\u5f80\u6240\u5728\u7684\u670d\u52a1\u5668\u6295\u4e00\u5f20\u63a8\u8350\u7968\uff1b\n- \u7c7b\u578b2\uff1a\u5f80\u6240\u5728\u7684\u670d\u52a1\u5668\u6295\u4e00\u5f20\u53cd\u5bf9\u7968\uff1b\n- \u7c7b\u578b3\uff1a\u82e5\u6240\u5728\u7684\u670d\u52a1\u5668\u4e2d\u53cd\u5bf9\u7968\u6570\u91cf\u5927\u4e8e\u63a8\u8350\u7968\u6570\u91cf\uff0c\u90a3\u4e48\u4ed6\u4f1a\u5728\u6b64\u6295\u4e00\u5f20\u53cd\u5bf9\u7968\uff1b\u5426\u5219\u4ed6\u4f1a\u6295\u4e00\u5f20\u63a8\u8350\u7968\u3002\n\n\u4f60\u73b0\u5728\u5df2\u7ecf\u77e5\u9053\u6bcf\u4f4d\u7528\u6237\u7684\u7c7b\u578b\uff0c\u5e76\u4e14\u53ef\u4ee5\u624b\u52a8\u5c06\u5176\u5206\u914d\u5230\u4efb\u4e00\u670d\u52a1\u5668\uff0c\u6c42\u4e24\u670d\u52a1\u5668\u4e2d\u63a8\u8350\u7968\u6570\u4e4b\u548c\u7684\u6700\u5927\u503c\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$ ( $1 \\le t \\le 10^4$ )\uff0c\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u8f93\u5165 $t$ \u7ec4\u6570\u636e\uff0c\u6bcf\u4e00\u7ec4\u6570\u636e\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$ ( $1 \\le n \\le 50$ )\uff0c\u8868\u793a\u7528\u6237\u6570\u91cf\u3002\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6b63\u6574\u6570 $r_1,r_2,...,r_n$ ( $1 \\le r \\le 3$ )\uff0c\u8868\u793a\u6bcf\u4e00\u4f4d\u7528\u6237\u7684\u7c7b\u578b\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n$t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u5728\u6bcf\u7ec4\u6570\u636e\u79cd\u4f60\u53ef\u4ee5\u83b7\u5f97\u7684\u63a8\u8350\u7968\u4e4b\u548c\u7684\u6700\u5927\u503c\u3002"},"translations":{"en":{"name":"Review Site","background":"","description":"You are an upcoming movie director, and you have just released your first movie. You have also launched a simple review site with two buttons to press \u2014 upvote and downvote.\n\nHowever, the site is not so simple on the inside. There are two servers, each with its separate counts for the upvotes and the downvotes.\n\n $ n $ reviewers enter the site one by one. Each reviewer is one of the following types:\n\n- type $ 1 $ : a reviewer has watched the movie, and they like it \u2014 they press the upvote button;\n- type $ 2 $ : a reviewer has watched the movie, and they dislike it \u2014 they press the downvote button;\n- type $ 3 $ : a reviewer hasn\u0027t watched the movie \u2014 they look at the current number of upvotes and downvotes of the movie on the server they are in and decide what button to press. If there are more downvotes than upvotes, then a reviewer downvotes the movie. Otherwise, they upvote the movie.\n\nEach reviewer votes on the movie exactly once.\n\nSince you have two servers, you can actually manipulate the votes so that your movie gets as many upvotes as possible. When a reviewer enters a site, you know their type, and you can send them either to the first server or to the second one.\n\nWhat is the maximum total number of upvotes you can gather over both servers if you decide which server to send each reviewer to?","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of testcases.\n\nThen the descriptions of $ t $ testcases follow.\n\nThe first line of each testcase contains a single integer $ n $ ( $ 1 \\le n \\le 50 $ ) \u2014 the number of reviewers.\n\nThe second line of each testcase contains $ n $ integers $ r_1, r_2, \\dots, r_n $ ( $ 1 \\le r_i \\le 3 $ ) \u2014 the types of the reviewers in the same order they enter the site.","formatO":"For each testcase print a single integer \u2014 the maximum total number of upvotes you can gather over both servers if you decide which server to send each reviewer to.","hint":"In the first testcase of the example you can send the only reviewer to either of the servers \u2014 they\u0027ll downvote anyway. The movie won\u0027t receive any upvotes.\n\nIn the second testcase of the example you can send all reviewers to the first server:\n\n- the first reviewer upvotes;\n- the second reviewer downvotes;\n- the last reviewer sees that the number of downvotes is not greater than the number of upvotes \u2014 upvote themselves.\n\nThere are two upvotes in total. Alternatevely, you can send the first and the second reviewers to the first server and the last reviewer \u2014 to the second server:\n\n- the first reviewer upvotes on the first server;\n- the second reviewer downvotes on the first server;\n- the last reviewer sees no upvotes or downvotes on the second server \u2014 upvote themselves.","locale":"en"},"zh-CN":{"name":"Review Site","background":"","description":"\u4f60\u6709\u4e00\u4e2a\u6295\u7968\u7f51\u7ad9\uff0c\u6bcf\u4e2a\u7528\u6237\u53ef\u4ee5\u6295\u63a8\u8350\u7968\u6216\u8005\u53cd\u5bf9\u7968\u3002\u4f60\u7684\u7f51\u7ad9\u6709\u4e24\u4e2a\u670d\u52a1\u5668\uff0c\u6bcf\u4e2a\u670d\u52a1\u5668\u4e2d\u7684\u7968\u6570\u76f8\u4e92\u72ec\u7acb\u3002\n\n\u6709 $n$ \u4e2a\u4eba\u4f1a\u9010\u4e00\u6765\u4f60\u7684\u7f51\u7ad9\u6295\u7968\uff0c\u8fd9 $n$ \u4e2a\u4eba\u53ef\u4ee5\u88ab\u5206\u4e3a\u4e09\u79cd\u7c7b\u578b\uff1a\n\n- \u7c7b\u578b1\uff1a\u5f80\u6240\u5728\u7684\u670d\u52a1\u5668\u6295\u4e00\u5f20\u63a8\u8350\u7968\uff1b\n- \u7c7b\u578b2\uff1a\u5f80\u6240\u5728\u7684\u670d\u52a1\u5668\u6295\u4e00\u5f20\u53cd\u5bf9\u7968\uff1b\n- \u7c7b\u578b3\uff1a\u82e5\u6240\u5728\u7684\u670d\u52a1\u5668\u4e2d\u53cd\u5bf9\u7968\u6570\u91cf\u5927\u4e8e\u63a8\u8350\u7968\u6570\u91cf\uff0c\u90a3\u4e48\u4ed6\u4f1a\u5728\u6b64\u6295\u4e00\u5f20\u53cd\u5bf9\u7968\uff1b\u5426\u5219\u4ed6\u4f1a\u6295\u4e00\u5f20\u63a8\u8350\u7968\u3002\n\n\u4f60\u73b0\u5728\u5df2\u7ecf\u77e5\u9053\u6bcf\u4f4d\u7528\u6237\u7684\u7c7b\u578b\uff0c\u5e76\u4e14\u53ef\u4ee5\u624b\u52a8\u5c06\u5176\u5206\u914d\u5230\u4efb\u4e00\u670d\u52a1\u5668\uff0c\u6c42\u4e24\u670d\u52a1\u5668\u4e2d\u63a8\u8350\u7968\u6570\u4e4b\u548c\u7684\u6700\u5927\u503c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$ ( $1 \\le t \\le 10^4$ )\uff0c\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u8f93\u5165 $t$ \u7ec4\u6570\u636e\uff0c\u6bcf\u4e00\u7ec4\u6570\u636e\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$ ( $1 \\le n \\le 50$ )\uff0c\u8868\u793a\u7528\u6237\u6570\u91cf\u3002\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6b63\u6574\u6570 $r_1,r_2,...,r_n$ ( $1 \\le r \\le 3$ )\uff0c\u8868\u793a\u6bcf\u4e00\u4f4d\u7528\u6237\u7684\u7c7b\u578b\u3002","formatO":"$t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u5728\u6bcf\u7ec4\u6570\u636e\u79cd\u4f60\u53ef\u4ee5\u83b7\u5f97\u7684\u63a8\u8350\u7968\u4e4b\u548c\u7684\u6700\u5927\u503c\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1511A Review Site","type":2,"slug":"CF1511A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.372803,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1511A Review Site","description":"\u4f60\u6709\u4e00\u4e2a\u6295\u7968\u7f51\u7ad9\uff0c\u6bcf\u4e2a\u7528\u6237\u53ef\u4ee5\u6295\u63a8\u8350\u7968\u6216\u8005\u53cd\u5bf9\u7968\u3002\u4f60\u7684\u7f51\u7ad9\u6709\u4e24\u4e2a\u670d\u52a1\u5668\uff0c\u6bcf\u4e2a\u670d\u52a1\u5668\u4e2d\u7684\u7968\u6570\u76f8\u4e92\u72ec\u7acb\u3002\n\u6709 n \u4e2a\u4eba\u4f1a\u9010\u4e00\u6765\u4f60\u7684\u7f51\u7ad9\u6295\u7968\uff0c\u8fd9 n \u4e2a\u4eba\u53ef\u4ee5\u88ab\u5206\u4e3a\u4e09\u79cd\u7c7b\u578b\uff1a\n\n\u7c7b\u578b1\uff1a\u5f80\u6240\u5728\u7684\u670d\u52a1\u5668\u6295\u4e00\u5f20\u63a8\u8350\u7968\uff1b\n\u7c7b\u578b2\uff1a\u5f80\u6240\u5728\u7684\u670d\u52a1\u5668\u6295\u4e00\u5f20\u53cd\u5bf9\u7968\uff1b\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1511A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1511A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1511A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1511A Review Site" />
+    <meta property="og:description" content="你有一个投票网站，每个用户可以投推荐票或者反对票。你的网站有两个服务器，每个服务器中的票数相互独立。
+有 n 个人会逐一来你的网站投票，这 n 个人可以被分为三种类型：
+
+类型1：往所在的服务器投一张推荐票；
+类型2：往所在的服务器投一张反对票；…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1511A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1511A Review Site</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你有一个投票网站，每个用户可以投推荐票或者反对票。你的网站有两个服务器，每个服务器中的票数相互独立。
+
+有 $n$ 个人会逐一来你的网站投票，这 $n$ 个人可以被分为三种类型：
+
+- 类型1：往所在的服务器投一张推荐票；
+- 类型2：往所在的服务器投一张反对票；
+- 类型3：若所在的服务器中反对票数量大于推荐票数量，那么他会在此投一张反对票；否则他会投一张推荐票。
+
+你现在已经知道每位用户的类型，并且可以手动将其分配到任一服务器，求两服务器中推荐票数之和的最大值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$ ( $1 \le t \le 10^4$ )，表示测试数据的数量。
+
+接下来输入 $t$ 组数据，每一组数据的第一行包含一个整数 $n$ ( $1 \le n \le 50$ )，表示用户数量。第二行包含 $n$ 个正整数 $r_1,r_2,...,r_n$ ( $1 \le r \le 3$ )，表示每一位用户的类型。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    $t$ 行，每行一个正整数，表示在每组数据种你可以获得的推荐票之和的最大值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first testcase of the example you can send the only reviewer to either of the servers — they'll downvote anyway. The movie won't receive any upvotes.
+
+In the second testcase of the example you can send all reviewers to the first server:
+
+- the first reviewer upvotes;
+- the second reviewer downvotes;
+- the last reviewer sees that the number of downvotes is not greater than the number of upvotes — upvote themselves.
+
+There are two upvotes in total. Alternatevely, you can send the first and the second reviewers to the first server and the last reviewer — to the second server:
+
+- the first reviewer upvotes on the first server;
+- the second reviewer downvotes on the first server;
+- the last reviewer sees no upvotes or downvotes on the second server — upvote themselves.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

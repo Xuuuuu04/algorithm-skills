@@ -1,0 +1,32 @@
+{
+  "id": "CF-2026C",
+  "contest_id": 2026,
+  "index": "C",
+  "name": "Action Figures",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 12425,
+  "problem_url": "https://codeforces.com/problemset/problem/2026/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2026/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2026/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2026C%20Action%20Figures%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2026/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2026C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2.5 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

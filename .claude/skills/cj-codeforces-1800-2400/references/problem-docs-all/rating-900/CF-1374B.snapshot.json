@@ -1,0 +1,27 @@
+{
+  "id": "CF-1374B",
+  "contest_id": 1374,
+  "index": "B",
+  "name": "Multiply by 2, divide by 6",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 69508,
+  "problem_url": "https://codeforces.com/problemset/problem/1374/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1374/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1374/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1374B%20Multiply%20by%202%2C%20divide%20by%206%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1374/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1374B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

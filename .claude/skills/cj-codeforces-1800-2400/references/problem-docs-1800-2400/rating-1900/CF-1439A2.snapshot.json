@@ -1,0 +1,39 @@
+{
+  "id": "CF-1439A2",
+  "contest_id": 1439,
+  "index": "A2",
+  "name": "Binary Table (Hard Version)",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1439/A2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1439/problem/A2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1439/problem/A2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1439A2%20Binary Table (Hard Version)%20tutorial",
+  "solved_count": 5380,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1439A2",
+  "hydro_meta": {
+    "page_title": "Binary Table (Hard Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

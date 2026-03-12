@@ -1,0 +1,30 @@
+{
+  "id": "CF-1901A",
+  "contest_id": 1901,
+  "index": "A",
+  "name": "Line Trip",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 71067,
+  "problem_url": "https://codeforces.com/problemset/problem/1901/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1901/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1901/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1901A%20Line%20Trip%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1901A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Line Trip - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

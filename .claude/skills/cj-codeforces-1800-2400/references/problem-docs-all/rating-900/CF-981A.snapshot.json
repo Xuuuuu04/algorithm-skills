@@ -1,0 +1,29 @@
+{
+  "id": "CF-981A",
+  "contest_id": 981,
+  "index": "A",
+  "name": "Antipalindrome",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 10222,
+  "problem_url": "https://codeforces.com/problemset/problem/981/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/981/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/981/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=981A%20Antipalindrome%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/981/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 981A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

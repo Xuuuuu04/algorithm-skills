@@ -1,0 +1,28 @@
+{
+  "id": "CF-1656A",
+  "contest_id": 1656,
+  "index": "A",
+  "name": "Good Pairs",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math",
+    "sortings"
+  ],
+  "solved_count": 20339,
+  "problem_url": "https://codeforces.com/problemset/problem/1656/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1656/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1656/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1656A%20Good%20Pairs%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1656A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1656A Good Pairs - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 219,
+    "mirror_attempt": 360,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

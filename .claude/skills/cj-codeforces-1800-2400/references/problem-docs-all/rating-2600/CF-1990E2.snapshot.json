@@ -1,0 +1,38 @@
+{
+  "id": "CF-1990E2",
+  "contest_id": 1990,
+  "index": "E2",
+  "name": "Catch the Mole(Hard Version)",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dfs and similar",
+    "divide and conquer",
+    "interactive",
+    "trees"
+  ],
+  "solved_count": 1075,
+  "problem_url": "https://codeforces.com/problemset/problem/1990/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1990/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1990/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1990E2%20Catch%20the%20Mole%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1990E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Catch the Mole(Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "interactive",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

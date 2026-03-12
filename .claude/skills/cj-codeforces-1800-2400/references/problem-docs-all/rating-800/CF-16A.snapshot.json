@@ -1,0 +1,27 @@
+{
+  "id": "CF-16A",
+  "contest_id": 16,
+  "index": "A",
+  "name": "Flag",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 16898,
+  "problem_url": "https://codeforces.com/problemset/problem/16/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/16/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/16/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=16A%20Flag%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF16A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF16A Flag - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1657,
+    "mirror_attempt": 3761,
+    "time_limit": "2000 ms",
+    "memory_limit": "64000 KB"
+  }
+}

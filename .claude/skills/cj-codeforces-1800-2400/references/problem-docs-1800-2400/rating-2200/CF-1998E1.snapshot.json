@@ -1,0 +1,41 @@
+{
+  "id": "CF-1998E1",
+  "contest_id": 1998,
+  "index": "E1",
+  "name": "Eliminating Balls With Merging (Easy Version)",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1998/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1998/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1998/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1998E1%20Eliminating Balls With Merging (Easy Version)%20tutorial",
+  "solved_count": 2256,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1998E1",
+  "hydro_meta": {
+    "page_title": "Eliminating Balls With Merging (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "divide and conquer",
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

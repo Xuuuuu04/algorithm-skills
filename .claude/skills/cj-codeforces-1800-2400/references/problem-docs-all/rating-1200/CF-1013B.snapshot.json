@@ -1,0 +1,27 @@
+{
+  "id": "CF-1013B",
+  "contest_id": 1013,
+  "index": "B",
+  "name": "And",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 8238,
+  "problem_url": "https://codeforces.com/problemset/problem/1013/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1013/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1013/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1013B%20And%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1013/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1013B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

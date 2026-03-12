@@ -1,0 +1,30 @@
+{
+  "id": "CF-895C",
+  "contest_id": 895,
+  "index": "C",
+  "name": "Square Subsets",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 7154,
+  "problem_url": "https://codeforces.com/problemset/problem/895/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/895/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/895/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=895C%20Square%20Subsets%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF895C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF895C Square Subsets - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1008,
+    "mirror_attempt": 2469,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

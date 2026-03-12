@@ -1,0 +1,30 @@
+{
+  "id": "CF-2124C",
+  "contest_id": 2124,
+  "index": "C",
+  "name": "Subset Multiplication",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 14182,
+  "problem_url": "https://codeforces.com/problemset/problem/2124/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2124/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2124/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2124C%20Subset%20Multiplication%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2124/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2124C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

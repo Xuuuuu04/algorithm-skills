@@ -1,0 +1,37 @@
+{
+  "id": "CF-1941G",
+  "contest_id": 1941,
+  "index": "G",
+  "name": "Rudolf and Subway",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1941/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1941/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1941/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1941G%20Rudolf and Subway%20tutorial",
+  "solved_count": 4559,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1941G",
+  "hydro_meta": {
+    "page_title": "Rudolf and Subway - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "shortest paths"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

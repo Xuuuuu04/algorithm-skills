@@ -1,0 +1,30 @@
+{
+  "id": "CF-2184B",
+  "contest_id": 2184,
+  "index": "B",
+  "name": "Hourglass",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 23030,
+  "problem_url": "https://codeforces.com/problemset/problem/2184/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2184/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2184/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2184B%20Hourglass%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2184B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Hourglass - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

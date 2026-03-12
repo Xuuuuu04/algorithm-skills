@@ -1,0 +1,28 @@
+{
+  "id": "CF-346C",
+  "contest_id": 346,
+  "index": "C",
+  "name": "Number Transformation II",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 1489,
+  "problem_url": "https://codeforces.com/problemset/problem/346/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/346/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/346/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=346C%20Number%20Transformation%20II%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF346C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF346C Number Transformation II - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 52,
+    "mirror_attempt": 132,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

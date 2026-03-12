@@ -1,0 +1,27 @@
+{
+  "id": "CF-1143A",
+  "contest_id": 1143,
+  "index": "A",
+  "name": "The Doors",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 13686,
+  "problem_url": "https://codeforces.com/problemset/problem/1143/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1143/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1143/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1143A%20The%20Doors%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1143A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1143A The Doors - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 120,
+    "mirror_attempt": 185,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

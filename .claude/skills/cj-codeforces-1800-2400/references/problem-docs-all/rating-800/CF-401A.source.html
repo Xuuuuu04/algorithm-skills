@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417190:u6SQtRFFsqMJGuZseV8Bl8vnMoGRm9x7OxAvmk2JA1M=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF401A Vanya and Cards - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF401A","type":"CF","title":"Vanya and Cards","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":235,"totalAccepted":154,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Vanya and Cards","background":null,"description":"Vanya \u559c\u6b22\u73a9\u724c\u3002\u4ed6\u751a\u81f3\u6709\u4e00\u5957\u7279\u6b8a\u7684\u724c\u6765\u73a9\u3002\u6bcf\u5f20\u724c\u4e0a\u90fd\u6709\u4e00\u4e2a\u6574\u6570\u3002\u724c\u4e0a\u7684\u6570\u53ef\u4ee5\u662f\u6b63\u6570\u3001\u8d1f\u6570\uff0c\u751a\u81f3\u53ef\u4ee5\u662f\u96f6\u3002\u552f\u4e00\u7684\u9650\u5236\u662f\uff0c\u6bcf\u5f20\u724c\u4e0a\u7684\u6570\u7684\u7edd\u5bf9\u503c\u4e0d\u8d85\u8fc7 $x$\u3002\n\nNatasha \u4e0d\u559c\u6b22 Vanya \u73a9\u592a\u4e45\uff0c\u6240\u4ee5\u5979\u628a\u4ed6\u7684\u6240\u6709\u724c\u90fd\u85cf\u4e86\u8d77\u6765\u3002Vanya \u5f88\u96be\u8fc7\uff0c\u5f00\u59cb\u5bfb\u627e\u4ed6\u7684\u724c\uff0c\u4f46\u4ed6\u53ea\u627e\u5230\u4e86 $n$ \u5f20\u3002Vanya \u559c\u6b22\u5e73\u8861\uff0c\u56e0\u6b64\u4ed6\u5e0c\u671b\u6240\u6709\u627e\u5230\u7684\u724c\u4e0a\u7684\u6570\u5b57\u4e4b\u548c\u7b49\u4e8e\u96f6\u3002\u53e6\u4e00\u65b9\u9762\uff0c\u4ed6\u627e\u724c\u5df2\u7ecf\u5f88\u7d2f\u4e86\u3002\u8bf7\u5e2e\u52a9\u8fd9\u4e2a\u7537\u5b69\uff0c\u544a\u8bc9\u4ed6\u4e3a\u4e86\u4f7f\u6240\u6709\u724c\u4e0a\u7684\u6570\u4e4b\u548c\u7b49\u4e8e\u96f6\uff0c\u4ed6\u6700\u5c11\u8fd8\u9700\u8981\u518d\u627e\u5230\u51e0\u5f20\u724c\uff1f\n\n\u4f60\u53ef\u4ee5\u5047\u8bbe Vanya \u6700\u5f00\u59cb\u6bcf\u4e2a\u4ece $-x$ \u5230 $x$ \u7684\u6574\u6570\u7684\u724c\u90fd\u6709\u65e0\u7a77\u591a\u5f20\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 1000$\uff09\u548c $x$\uff08$1 \\leq x \\leq 1000$\uff09\uff0c\u5206\u522b\u8868\u793a\u627e\u5230\u7684\u724c\u7684\u6570\u91cf\u548c\u724c\u4e0a\u6570\u5b57\u7684\u6700\u5927\u7edd\u5bf9\u503c\u3002  \n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570\uff0c\u8868\u793a\u627e\u5230\u7684\u6bcf\u5f20\u724c\u4e0a\u7684\u6570\u5b57\u3002\u4fdd\u8bc1\u8fd9\u4e9b\u6570\u5b57\u7684\u7edd\u5bf9\u503c\u5747\u4e0d\u8d85\u8fc7 $x$\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f\u6240\u6709\u724c\u4e0a\u7684\u6570\u5b57\u4e4b\u548c\u4e3a\u96f6\u6240\u9700\u8981\u518d\u627e\u5230\u7684\u6700\u5c11\u724c\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0cVanya \u53ea\u9700\u8981\u627e\u5230\u4e00\u5f20\u6570\u5b57\u4e3a $-2$ \u7684\u724c\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0cVanya \u9700\u8981\u627e\u5230\u4e24\u5f20\u6570\u5b57\u4e3a $2$ \u7684\u724c\u3002\u4ed6\u4e0d\u80fd\u53ea\u627e\u4e00\u5f20\u6240\u9700\u6570\u5b57\u7684\u724c\uff0c\u56e0\u4e3a\u4e22\u5931\u724c\u7684\u6570\u5b57\u7edd\u5bf9\u503c\u4e0d\u80fd\u8d85\u8fc7 $3$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Vanya and Cards","background":"","description":"Vanya loves playing. He even has a special set of cards to play with. Each card has a single integer. The number on the card can be positive, negative and can even be equal to zero. The only limit is, the number on each card doesn\u0027t exceed $ x $ in the absolute value.\n\nNatasha doesn\u0027t like when Vanya spends a long time playing, so she hid all of his cards. Vanya became sad and started looking for the cards but he only found $ n $ of them. Vanya loves the balance, so he wants the sum of all numbers on found cards equal to zero. On the other hand, he got very tired of looking for cards. Help the boy and say what is the minimum number of cards does he need to find to make the sum equal to zero?\n\nYou can assume that initially Vanya had infinitely many cards with each integer number from $ -x $ to $ x $ .","formatI":"The first line contains two integers: $ n $ $ (1\u003C=n\u003C=1000) $ \u2014 the number of found cards and $ x $ $ (1\u003C=x\u003C=1000) $ \u2014 the maximum absolute value of the number on a card. The second line contains $ n $ space-separated integers \u2014 the numbers on found cards. It is guaranteed that the numbers do not exceed $ x $ in their absolute value.","formatO":"Print a single number \u2014 the answer to the problem.","hint":"In the first sample, Vanya needs to find a single card with number -2.\n\nIn the second sample, Vanya needs to find two cards with number 2. He can\u0027t find a single card with the required number as the numbers on the lost cards do not exceed 3 in their absolute value.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3 2\n-1 1 2\n","1\n"],["2 3\n-2 -2\n","2\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"401A","link":"https:\/\/codeforces.com\/problemset\/problem\/401\/A"},"translation":"Vanya \u73b0\u5728\u6709 $n$ \u5f20\u724c\uff0c\u6bcf\u5f20\u724c\u4e0a\u6709\u4e00\u4e2a\u70b9\u6570 $a_i$\uff0c\u5176\u4e2d $|a_i|\\le x$\u3002\u6c42\u81f3\u5c11\u8981\u518d\u589e\u52a0\u51e0\u5f20\u724c\uff0c\u724c\u7684\u70b9\u6570\u7531\u4f60\u51b3\u5b9a\uff0c\u624d\u80fd\u4f7f Vanya \u6240\u6709\u724c\u7684\u70b9\u6570\u4e4b\u548c $=0$\u3002\n\n$1\\le n,x\\le 10^3$"},"translations":{"en":{"name":"Vanya and Cards","background":"","description":"Vanya loves playing. He even has a special set of cards to play with. Each card has a single integer. The number on the card can be positive, negative and can even be equal to zero. The only limit is, the number on each card doesn\u0027t exceed $ x $ in the absolute value.\n\nNatasha doesn\u0027t like when Vanya spends a long time playing, so she hid all of his cards. Vanya became sad and started looking for the cards but he only found $ n $ of them. Vanya loves the balance, so he wants the sum of all numbers on found cards equal to zero. On the other hand, he got very tired of looking for cards. Help the boy and say what is the minimum number of cards does he need to find to make the sum equal to zero?\n\nYou can assume that initially Vanya had infinitely many cards with each integer number from $ -x $ to $ x $ .","formatI":"The first line contains two integers: $ n $ $ (1\u003C=n\u003C=1000) $ \u2014 the number of found cards and $ x $ $ (1\u003C=x\u003C=1000) $ \u2014 the maximum absolute value of the number on a card. The second line contains $ n $ space-separated integers \u2014 the numbers on found cards. It is guaranteed that the numbers do not exceed $ x $ in their absolute value.","formatO":"Print a single number \u2014 the answer to the problem.","hint":"In the first sample, Vanya needs to find a single card with number -2.\n\nIn the second sample, Vanya needs to find two cards with number 2. He can\u0027t find a single card with the required number as the numbers on the lost cards do not exceed 3 in their absolute value.","locale":"en"},"zh-CN":{"name":"Vanya and Cards","background":null,"description":"Vanya \u559c\u6b22\u73a9\u724c\u3002\u4ed6\u751a\u81f3\u6709\u4e00\u5957\u7279\u6b8a\u7684\u724c\u6765\u73a9\u3002\u6bcf\u5f20\u724c\u4e0a\u90fd\u6709\u4e00\u4e2a\u6574\u6570\u3002\u724c\u4e0a\u7684\u6570\u53ef\u4ee5\u662f\u6b63\u6570\u3001\u8d1f\u6570\uff0c\u751a\u81f3\u53ef\u4ee5\u662f\u96f6\u3002\u552f\u4e00\u7684\u9650\u5236\u662f\uff0c\u6bcf\u5f20\u724c\u4e0a\u7684\u6570\u7684\u7edd\u5bf9\u503c\u4e0d\u8d85\u8fc7 $x$\u3002\n\nNatasha \u4e0d\u559c\u6b22 Vanya \u73a9\u592a\u4e45\uff0c\u6240\u4ee5\u5979\u628a\u4ed6\u7684\u6240\u6709\u724c\u90fd\u85cf\u4e86\u8d77\u6765\u3002Vanya \u5f88\u96be\u8fc7\uff0c\u5f00\u59cb\u5bfb\u627e\u4ed6\u7684\u724c\uff0c\u4f46\u4ed6\u53ea\u627e\u5230\u4e86 $n$ \u5f20\u3002Vanya \u559c\u6b22\u5e73\u8861\uff0c\u56e0\u6b64\u4ed6\u5e0c\u671b\u6240\u6709\u627e\u5230\u7684\u724c\u4e0a\u7684\u6570\u5b57\u4e4b\u548c\u7b49\u4e8e\u96f6\u3002\u53e6\u4e00\u65b9\u9762\uff0c\u4ed6\u627e\u724c\u5df2\u7ecf\u5f88\u7d2f\u4e86\u3002\u8bf7\u5e2e\u52a9\u8fd9\u4e2a\u7537\u5b69\uff0c\u544a\u8bc9\u4ed6\u4e3a\u4e86\u4f7f\u6240\u6709\u724c\u4e0a\u7684\u6570\u4e4b\u548c\u7b49\u4e8e\u96f6\uff0c\u4ed6\u6700\u5c11\u8fd8\u9700\u8981\u518d\u627e\u5230\u51e0\u5f20\u724c\uff1f\n\n\u4f60\u53ef\u4ee5\u5047\u8bbe Vanya \u6700\u5f00\u59cb\u6bcf\u4e2a\u4ece $-x$ \u5230 $x$ \u7684\u6574\u6570\u7684\u724c\u90fd\u6709\u65e0\u7a77\u591a\u5f20\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 1000$\uff09\u548c $x$\uff08$1 \\leq x \\leq 1000$\uff09\uff0c\u5206\u522b\u8868\u793a\u627e\u5230\u7684\u724c\u7684\u6570\u91cf\u548c\u724c\u4e0a\u6570\u5b57\u7684\u6700\u5927\u7edd\u5bf9\u503c\u3002  \n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570\uff0c\u8868\u793a\u627e\u5230\u7684\u6bcf\u5f20\u724c\u4e0a\u7684\u6570\u5b57\u3002\u4fdd\u8bc1\u8fd9\u4e9b\u6570\u5b57\u7684\u7edd\u5bf9\u503c\u5747\u4e0d\u8d85\u8fc7 $x$\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f\u6240\u6709\u724c\u4e0a\u7684\u6570\u5b57\u4e4b\u548c\u4e3a\u96f6\u6240\u9700\u8981\u518d\u627e\u5230\u7684\u6700\u5c11\u724c\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0cVanya \u53ea\u9700\u8981\u627e\u5230\u4e00\u5f20\u6570\u5b57\u4e3a $-2$ \u7684\u724c\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0cVanya \u9700\u8981\u627e\u5230\u4e24\u5f20\u6570\u5b57\u4e3a $2$ \u7684\u724c\u3002\u4ed6\u4e0d\u80fd\u53ea\u627e\u4e00\u5f20\u6240\u9700\u6570\u5b57\u7684\u724c\uff0c\u56e0\u4e3a\u4e22\u5931\u724c\u7684\u6570\u5b57\u7edd\u5bf9\u503c\u4e0d\u80fd\u8d85\u8fc7 $3$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF401A Vanya and Cards","type":2,"slug":"CF401A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330790.822277,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF401A Vanya and Cards","description":"Vanya \u559c\u6b22\u73a9\u724c\u3002\u4ed6\u751a\u81f3\u6709\u4e00\u5957\u7279\u6b8a\u7684\u724c\u6765\u73a9\u3002\u6bcf\u5f20\u724c\u4e0a\u90fd\u6709\u4e00\u4e2a\u6574\u6570\u3002\u724c\u4e0a\u7684\u6570\u53ef\u4ee5\u662f\u6b63\u6570\u3001\u8d1f\u6570\uff0c\u751a\u81f3\u53ef\u4ee5\u662f\u96f6\u3002\u552f\u4e00\u7684\u9650\u5236\u662f\uff0c\u6bcf\u5f20\u724c\u4e0a\u7684\u6570\u7684\u7edd\u5bf9\u503c\u4e0d\u8d85\u8fc7 x\u3002\nNatasha \u4e0d\u559c\u6b22 Vanya \u73a9\u592a\u4e45\uff0c\u6240\u4ee5\u5979\u628a\u4ed6\u7684\u6240\u6709\u724c\u90fd\u85cf\u4e86\u8d77\u6765\u3002Vanya\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF401A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF401A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF401A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF401A Vanya and Cards" />
+    <meta property="og:description" content="Vanya 喜欢玩牌。他甚至有一套特殊的牌来玩。每张牌上都有一个整数。牌上的数可以是正数、负数，甚至可以是零。唯一的限制是，每张牌上的数的绝对值不超过 x。
+Natasha 不喜欢 Vanya 玩太久，所以她把他的所有牌都藏了起来。Vanya…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF401A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF401A Vanya and Cards</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Vanya 喜欢玩牌。他甚至有一套特殊的牌来玩。每张牌上都有一个整数。牌上的数可以是正数、负数，甚至可以是零。唯一的限制是，每张牌上的数的绝对值不超过 $x$。
+
+Natasha 不喜欢 Vanya 玩太久，所以她把他的所有牌都藏了起来。Vanya 很难过，开始寻找他的牌，但他只找到了 $n$ 张。Vanya 喜欢平衡，因此他希望所有找到的牌上的数字之和等于零。另一方面，他找牌已经很累了。请帮助这个男孩，告诉他为了使所有牌上的数之和等于零，他最少还需要再找到几张牌？
+
+你可以假设 Vanya 最开始每个从 $-x$ 到 $x$ 的整数的牌都有无穷多张。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含两个整数 $n$（$1 \leq n \leq 1000$）和 $x$（$1 \leq x \leq 1000$），分别表示找到的牌的数量和牌上数字的最大绝对值。  
+第二行包含 $n$ 个用空格分隔的整数，表示找到的每张牌上的数字。保证这些数字的绝对值均不超过 $x$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示使所有牌上的数字之和为零所需要再找到的最少牌数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，Vanya 只需要找到一张数字为 $-2$ 的牌。
+
+在第二个样例中，Vanya 需要找到两张数字为 $2$ 的牌。他不能只找一张所需数字的牌，因为丢失牌的数字绝对值不能超过 $3$。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

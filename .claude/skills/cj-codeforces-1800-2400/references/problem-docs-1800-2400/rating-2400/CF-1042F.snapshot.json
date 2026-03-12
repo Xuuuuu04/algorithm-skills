@@ -1,0 +1,46 @@
+{
+  "id": "CF-1042F",
+  "contest_id": 1042,
+  "index": "F",
+  "name": "Leaf Sets",
+  "rating": 2400,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1042/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1042/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1042/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1042F%20Leaf Sets%20tutorial",
+  "solved_count": 1450,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1042F",
+  "hydro_meta": {
+    "page_title": "Leaf Sets - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "sortings",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

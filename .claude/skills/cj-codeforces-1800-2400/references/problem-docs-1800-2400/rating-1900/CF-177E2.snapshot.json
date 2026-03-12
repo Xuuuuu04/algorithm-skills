@@ -1,0 +1,31 @@
+{
+  "id": "CF-177E2",
+  "contest_id": 177,
+  "index": "E2",
+  "name": "Space Voyage",
+  "rating": 1900,
+  "tags": [
+    "binary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/177/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/177/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/177/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=177E2%20Space Voyage%20tutorial",
+  "solved_count": 495,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P177E2",
+  "hydro_meta": {
+    "page_title": "Space Voyage - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

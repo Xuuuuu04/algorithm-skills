@@ -1,0 +1,36 @@
+{
+  "id": "CF-78E",
+  "contest_id": 78,
+  "index": "E",
+  "name": "Evacuation",
+  "rating": 2300,
+  "tags": [
+    "flows",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/78/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/78/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/78/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=78E%20Evacuation%20tutorial",
+  "solved_count": 687,
+  "suggested_patterns": [
+    "网络流（最大流/最小割）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P78E",
+  "hydro_meta": {
+    "page_title": "Evacuation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "flows",
+      "graphs",
+      "shortest paths",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

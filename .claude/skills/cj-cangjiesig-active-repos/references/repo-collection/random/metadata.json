@@ -1,0 +1,14 @@
+{
+  "name": "random",
+  "full_name": "cangjielanguage-sig/random",
+  "html_url": "https://github.com/cangjielanguage-sig/random",
+  "description": "高可扩展、强定制化的伪随机数生成器工具库，允许开发者无缝集成自定义伪随机数生成算法，支持主流概率分布的随机数生成，并提供简洁易用的 API ，适用于科研仿真、数据分析、游戏开发、密码学原型验证等多场景需求，兼顾灵活性与实用性。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/random/main/cjpm.toml"
+}

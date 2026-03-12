@@ -1,0 +1,28 @@
+{
+  "id": "CF-1395A",
+  "contest_id": 1395,
+  "index": "A",
+  "name": "Boboniu Likes to Color Balls",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "math"
+  ],
+  "solved_count": 25411,
+  "problem_url": "https://codeforces.com/problemset/problem/1395/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1395/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1395/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1395A%20Boboniu%20Likes%20to%20Color%20Balls%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1395/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1395A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

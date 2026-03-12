@@ -1,0 +1,30 @@
+{
+  "id": "CF-1015C",
+  "contest_id": 1015,
+  "index": "C",
+  "name": "Songs Compression",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "sortings"
+  ],
+  "solved_count": 20221,
+  "problem_url": "https://codeforces.com/problemset/problem/1015/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1015/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1015/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1015C%20Songs%20Compression%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1015C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Songs Compression - 题目详情 - Hydro",
+    "mirror_tags": [
+      "sortings",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-478E",
+  "contest_id": 478,
+  "index": "E",
+  "name": "Wavy numbers",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "meet-in-the-middle",
+    "sortings"
+  ],
+  "solved_count": 251,
+  "problem_url": "https://codeforces.com/problemset/problem/478/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/478/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/478/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=478E%20Wavy%20numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P478E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Wavy numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dfs and similar",
+      "meet-in-the-middle",
+      "sortings",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

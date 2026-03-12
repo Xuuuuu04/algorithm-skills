@@ -1,0 +1,44 @@
+{
+  "id": "CF-2179F",
+  "contest_id": 2179,
+  "index": "F",
+  "name": "Blackslex and Another RGB Walking",
+  "rating": 2000,
+  "tags": [
+    "communication",
+    "constructive algorithms",
+    "graphs",
+    "interactive",
+    "number theory",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2179/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2179/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2179/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2179F%20Blackslex and Another RGB Walking%20tutorial",
+  "solved_count": 2603,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "数论（质因数/同余/逆元）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2179F",
+  "hydro_meta": {
+    "page_title": "Blackslex and Another RGB Walking - 题目详情 - Hydro",
+    "hydro_tags": [
+      "communication",
+      "constructive algorithms",
+      "graphs",
+      "interactive",
+      "number theory",
+      "trees",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

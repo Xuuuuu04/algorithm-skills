@@ -1,0 +1,42 @@
+{
+  "id": "CF-1780F",
+  "contest_id": 1780,
+  "index": "F",
+  "name": "Three Chairs",
+  "rating": 2300,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "combinatorics",
+    "data structures",
+    "dp",
+    "number theory",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1780/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1780/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1780/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1780F%20Three Chairs%20tutorial",
+  "solved_count": 1873,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1780F",
+  "hydro_meta": {
+    "page_title": "Three Chairs - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "combinatorics",
+      "data structures",
+      "number theory",
+      "sortings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

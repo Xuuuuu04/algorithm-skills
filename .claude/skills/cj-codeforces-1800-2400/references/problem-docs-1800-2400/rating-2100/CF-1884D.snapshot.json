@@ -1,0 +1,36 @@
+{
+  "id": "CF-1884D",
+  "contest_id": 1884,
+  "index": "D",
+  "name": "Counting Rhyme",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1884/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1884/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1884/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1884D%20Counting Rhyme%20tutorial",
+  "solved_count": 3985,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1884D",
+  "hydro_meta": {
+    "page_title": "Counting Rhyme - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "math",
+      "number theory"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

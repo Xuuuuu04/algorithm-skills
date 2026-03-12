@@ -1,0 +1,30 @@
+{
+  "id": "CF-2049C",
+  "contest_id": 2049,
+  "index": "C",
+  "name": "MEX Cycle",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 13442,
+  "problem_url": "https://codeforces.com/problemset/problem/2049/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2049/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2049/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2049C%20MEX%20Cycle%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2049/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2049C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1787F",
+  "contest_id": 1787,
+  "index": "F",
+  "name": "Inverse Transformation",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 791,
+  "problem_url": "https://codeforces.com/problemset/problem/1787/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1787/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1787/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1787F%20Inverse%20Transformation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1787/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1787F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

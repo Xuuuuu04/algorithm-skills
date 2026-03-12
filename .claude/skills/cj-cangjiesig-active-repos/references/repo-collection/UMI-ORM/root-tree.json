@@ -1,0 +1,370 @@
+[
+  {
+    "name": ".arts",
+    "path": ".arts",
+    "sha": "ec8d5fd59143720e333c4f4968da70732d48ecef",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.arts?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/.arts",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/ec8d5fd59143720e333c4f4968da70732d48ecef",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.arts?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/ec8d5fd59143720e333c4f4968da70732d48ecef",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/.arts"
+    }
+  },
+  {
+    "name": ".devbrain",
+    "path": ".devbrain",
+    "sha": "da41cc11acc792219fc406215ca110759f0d06a0",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.devbrain?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/.devbrain",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/da41cc11acc792219fc406215ca110759f0d06a0",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.devbrain?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/da41cc11acc792219fc406215ca110759f0d06a0",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/.devbrain"
+    }
+  },
+  {
+    "name": ".env",
+    "path": ".env",
+    "sha": "a2f64d7330363979881a6bb2438e9b0527c33eb6",
+    "size": 48,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.env?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/.env",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/a2f64d7330363979881a6bb2438e9b0527c33eb6",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/.env",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.env?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/a2f64d7330363979881a6bb2438e9b0527c33eb6",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/.env"
+    }
+  },
+  {
+    "name": ".gitattributes",
+    "path": ".gitattributes",
+    "sha": "c75c29c6e753d72731434c6a3029e13df05e9fa2",
+    "size": 1709,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.gitattributes?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/.gitattributes",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/c75c29c6e753d72731434c6a3029e13df05e9fa2",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/.gitattributes",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.gitattributes?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/c75c29c6e753d72731434c6a3029e13df05e9fa2",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/.gitattributes"
+    }
+  },
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "ab4bb8c2f9026f5781eac5e27946e5e7feb6bcac",
+    "size": 1072,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.gitignore?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/.gitignore",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/ab4bb8c2f9026f5781eac5e27946e5e7feb6bcac",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.gitignore?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/ab4bb8c2f9026f5781eac5e27946e5e7feb6bcac",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/.gitignore"
+    }
+  },
+  {
+    "name": ".specify",
+    "path": ".specify",
+    "sha": "52a79efa6fcd0170a23de39b674e43a2614e3e5a",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.specify?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/.specify",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/52a79efa6fcd0170a23de39b674e43a2614e3e5a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/.specify?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/52a79efa6fcd0170a23de39b674e43a2614e3e5a",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/.specify"
+    }
+  },
+  {
+    "name": "AGENTS.md",
+    "path": "AGENTS.md",
+    "sha": "623dd7f148f64826b671386f2aac23c1e1fa3efb",
+    "size": 5423,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/AGENTS.md?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/AGENTS.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/623dd7f148f64826b671386f2aac23c1e1fa3efb",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/AGENTS.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/AGENTS.md?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/623dd7f148f64826b671386f2aac23c1e1fa3efb",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/AGENTS.md"
+    }
+  },
+  {
+    "name": "CHANGELOG.md",
+    "path": "CHANGELOG.md",
+    "sha": "a2b37c5ff03af874f1aac4d4326115d851640699",
+    "size": 181,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/CHANGELOG.md?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/CHANGELOG.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/a2b37c5ff03af874f1aac4d4326115d851640699",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/CHANGELOG.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/CHANGELOG.md?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/a2b37c5ff03af874f1aac4d4326115d851640699",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/CHANGELOG.md"
+    }
+  },
+  {
+    "name": "CODEBUDDY.md",
+    "path": "CODEBUDDY.md",
+    "sha": "ea8a3e73db090f1847c668a3bcf585e235334798",
+    "size": 745,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/CODEBUDDY.md?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/CODEBUDDY.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/ea8a3e73db090f1847c668a3bcf585e235334798",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/CODEBUDDY.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/CODEBUDDY.md?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/ea8a3e73db090f1847c668a3bcf585e235334798",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/CODEBUDDY.md"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "6a997a149ebca5123a1433632644b29216041134",
+    "size": 11338,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/LICENSE?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/LICENSE",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/6a997a149ebca5123a1433632644b29216041134",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/LICENSE?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/6a997a149ebca5123a1433632644b29216041134",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/LICENSE"
+    }
+  },
+  {
+    "name": "QWEN.md",
+    "path": "QWEN.md",
+    "sha": "fb264f00178ced2681ccd8924af175a71057a309",
+    "size": 1579,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/QWEN.md?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/QWEN.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/fb264f00178ced2681ccd8924af175a71057a309",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/QWEN.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/QWEN.md?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/fb264f00178ced2681ccd8924af175a71057a309",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/QWEN.md"
+    }
+  },
+  {
+    "name": "README.OpenSource",
+    "path": "README.OpenSource",
+    "sha": "fe825e04084ab64aca2694afc14aa53f1d505a0b",
+    "size": 365,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/README.OpenSource?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/README.OpenSource",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/fe825e04084ab64aca2694afc14aa53f1d505a0b",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/README.OpenSource",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/README.OpenSource?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/fe825e04084ab64aca2694afc14aa53f1d505a0b",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/README.OpenSource"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "422c50ceaa52219941af452d43998e05f7fafda9",
+    "size": 6612,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/README.md?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/README.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/422c50ceaa52219941af452d43998e05f7fafda9",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/README.md?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/422c50ceaa52219941af452d43998e05f7fafda9",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/README.md"
+    }
+  },
+  {
+    "name": "cangjie_norms_summary.md",
+    "path": "cangjie_norms_summary.md",
+    "sha": "b98ad9225b2e020b6ee7a800bb8e2b73c266a87a",
+    "size": 3888,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/cangjie_norms_summary.md?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/cangjie_norms_summary.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/b98ad9225b2e020b6ee7a800bb8e2b73c266a87a",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/cangjie_norms_summary.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/cangjie_norms_summary.md?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/b98ad9225b2e020b6ee7a800bb8e2b73c266a87a",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/cangjie_norms_summary.md"
+    }
+  },
+  {
+    "name": "cjpm.toml",
+    "path": "cjpm.toml",
+    "sha": "0a5f42de2e67eb9fc7beb9a23c6897848ab6ca5a",
+    "size": 523,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/cjpm.toml?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/cjpm.toml",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/0a5f42de2e67eb9fc7beb9a23c6897848ab6ca5a",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/cjpm.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/cjpm.toml?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/0a5f42de2e67eb9fc7beb9a23c6897848ab6ca5a",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/cjpm.toml"
+    }
+  },
+  {
+    "name": "docs",
+    "path": "docs",
+    "sha": "334b4ecf3b6be1608c81f482904c9f8a9b147ec1",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/docs?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/docs",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/334b4ecf3b6be1608c81f482904c9f8a9b147ec1",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/docs?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/334b4ecf3b6be1608c81f482904c9f8a9b147ec1",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/docs"
+    }
+  },
+  {
+    "name": "examples",
+    "path": "examples",
+    "sha": "c29e3152f69cc42014e8238b728d8d7e412b4386",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/examples?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/examples",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/c29e3152f69cc42014e8238b728d8d7e412b4386",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/examples?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/c29e3152f69cc42014e8238b728d8d7e412b4386",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/examples"
+    }
+  },
+  {
+    "name": "specs",
+    "path": "specs",
+    "sha": "e4ac2a9467d336de631aef4a32b1f4c8ff31f686",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/specs?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/specs",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/e4ac2a9467d336de631aef4a32b1f4c8ff31f686",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/specs?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/e4ac2a9467d336de631aef4a32b1f4c8ff31f686",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/specs"
+    }
+  },
+  {
+    "name": "src",
+    "path": "src",
+    "sha": "971900dffa95e83d56103573db3a61c4062973f2",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/src?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/src",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/971900dffa95e83d56103573db3a61c4062973f2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/src?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/971900dffa95e83d56103573db3a61c4062973f2",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/src"
+    }
+  },
+  {
+    "name": "temp.txt",
+    "path": "temp.txt",
+    "sha": "2aaa753286e52f71c8867d63f7a6914848f275ab",
+    "size": 6583,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/temp.txt?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/temp.txt",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/2aaa753286e52f71c8867d63f7a6914848f275ab",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/temp.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/temp.txt?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/2aaa753286e52f71c8867d63f7a6914848f275ab",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/temp.txt"
+    }
+  },
+  {
+    "name": "temp.txt.bak",
+    "path": "temp.txt.bak",
+    "sha": "3252a37f456ba11eede1dbb0a2fe983e2aeeb124",
+    "size": 6574,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/temp.txt.bak?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/temp.txt.bak",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/3252a37f456ba11eede1dbb0a2fe983e2aeeb124",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/temp.txt.bak",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/temp.txt.bak?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/3252a37f456ba11eede1dbb0a2fe983e2aeeb124",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/temp.txt.bak"
+    }
+  },
+  {
+    "name": "temp_lines.txt",
+    "path": "temp_lines.txt",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/temp_lines.txt?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/temp_lines.txt",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/temp_lines.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/temp_lines.txt?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/blob/001-ai-driven-orm/temp_lines.txt"
+    }
+  },
+  {
+    "name": "tests",
+    "path": "tests",
+    "sha": "4cff19972cd7eef6dbd62cea9abc458540efe90a",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/tests?ref=001-ai-driven-orm",
+    "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/tests",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/4cff19972cd7eef6dbd62cea9abc458540efe90a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/contents/tests?ref=001-ai-driven-orm",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/UMI-ORM/git/trees/4cff19972cd7eef6dbd62cea9abc458540efe90a",
+      "html": "https://github.com/cangjielanguage-sig/UMI-ORM/tree/001-ai-driven-orm/tests"
+    }
+  }
+]

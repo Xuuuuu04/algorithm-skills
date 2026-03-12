@@ -1,0 +1,36 @@
+{
+  "id": "CF-1499F",
+  "contest_id": 1499,
+  "index": "F",
+  "name": "Diameter Cuts",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "dfs and similar",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 1568,
+  "problem_url": "https://codeforces.com/problemset/problem/1499/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1499/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1499/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1499F%20Diameter%20Cuts%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1499F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Diameter Cuts - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dfs and similar",
+      "dp",
+      "trees",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

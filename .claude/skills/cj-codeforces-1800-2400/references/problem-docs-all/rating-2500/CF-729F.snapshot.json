@@ -1,0 +1,27 @@
+{
+  "id": "CF-729F",
+  "contest_id": 729,
+  "index": "F",
+  "name": "Financiers Game",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 1055,
+  "problem_url": "https://codeforces.com/problemset/problem/729/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/729/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/729/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=729F%20Financiers%20Game%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/729/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 729F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1082D",
+  "contest_id": 1082,
+  "index": "D",
+  "name": "Maximum Diameter Graph",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1082/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1082/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1082/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1082D%20Maximum Diameter Graph%20tutorial",
+  "solved_count": 4066,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1082D",
+  "hydro_meta": {
+    "page_title": "Maximum Diameter Graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

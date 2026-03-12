@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1997A Strong Password - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1997A","type":"CF","title":"Strong Password","difficulty":2,"tags":[7,376],"wantsTranslation":false,"totalSubmit":294,"totalAccepted":173,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Strong Password","background":"","description":"\u6709\u4e00\u4e2a\u7531\u5c0f\u5199\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u4f60\u53ef\u4ee5\u5728\u5176\u4efb\u610f\u4f4d\u7f6e\u63d2\u5165\u4e00\u4e2a\u5c0f\u5199\u5b57\u6bcd\uff08\u5305\u62ec\u6700\u524d\u9762\u548c\u6700\u540e\u9762\uff09\uff0c\u8bf7\u6700\u5927\u5316\u5176\u6743\u503c\u3002\u4f60\u53ea\u9700\u8981\u8f93\u51fa\u4efb\u610f\u6743\u503c\u6700\u5927\u7684\u65b0\u5b57\u7b26\u4e32\u3002\n\n\u5176\u4e2d\uff0c\u5b57\u7b26\u4e32\u7684\u6743\u503c\u5b9a\u4e49\u5982\u4e0b\u8ba1\u7b97\uff1a\n\n- \u82e5\u67d0\u4e2a\u5b57\u7b26\u524d\u9762\u6ca1\u6709\u5b57\u7b26\uff0c\u6216\u524d\u9762\u7684\u5b57\u7b26\u4e0e\u5176\u4e0d\u540c\uff0c\u5219\u5176\u4e3a\u5b57\u7b26\u4e32\u8d21\u732e $2$ \u70b9\u6743\u503c\u3002\n\n- \u82e5\u67d0\u4e2a\u5b57\u7b26\u524d\u9762\u7684\u5b57\u7b26\u4e0e\u5176\u76f8\u540c\uff0c\u5219\u5176\u4e3a\u5b57\u7b26\u4e32\u8d21\u732e $1$ \u70b9\u6743\u503c\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e00\u4e2a\u6574\u6570 $t(1\\le t\\le 1000)$\uff0c\u8868\u793a\u6d4b\u8bd5\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32 $s(1\\le\\lvert s\\rvert\\le 10)$\uff0c\u8868\u793a\u5f85\u5904\u7406\u7684\u5b57\u7b26\u4e32\u3002","formatO":"\u8f93\u51fa\u5171 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u7b2c $i$ \u884c\u8f93\u51fa\u7b2c $i$ \u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b54\u6848\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Strong Password","background":"","description":"Monocarp\u0027s current password on Codeforces is a string $ s $ , consisting of lowercase Latin letters. Monocarp thinks that his current password is too weak, so he wants to insert exactly one lowercase Latin letter into the password to make it stronger. Monocarp can choose any letter and insert it anywhere, even before the first character or after the last character.\n\nMonocarp thinks that the password\u0027s strength is proportional to the time it takes him to type the password. The time it takes to type the password is calculated as follows:\n\n- the time to type the first character is $ 2 $ seconds;\n- for each character other than the first, the time it takes to type it is $ 1 $ second if it is the same as the previous character, or $ 2 $ seconds otherwise.\n\nFor example, the time it takes to type the password abacaba is $ 14 $ ; the time it takes to type the password a is $ 2 $ ; the time it takes to type the password aaabacc is $ 11 $ .\n\nYou have to help Monocarp \u2014 insert a lowercase Latin letter into his password so that the resulting password takes the maximum possible amount of time to type.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of one line containing the string $ s $ ( $ 1 \\le |s| \\le 10 $ ), consisting of lowercase Latin letters.","formatO":"For each test case, print one line containing the new password \u2014 a string which can be obtained from $ s $ by inserting one lowercase Latin letter. The string you print should have the maximum possible required time to type it. If there are multiple answers, print any of them.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\na\naaa\nabb\npassword","wa\naada\nabcb\npastsword"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"1997A","link":"https:\/\/codeforces.com\/problemset\/problem\/1997\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\u6709\u4e00\u4e2a\u7531\u5c0f\u5199\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u4f60\u53ef\u4ee5\u5728\u5176\u4efb\u610f\u4f4d\u7f6e\u63d2\u5165\u4e00\u4e2a\u5c0f\u5199\u5b57\u6bcd\uff08\u5305\u62ec\u6700\u524d\u9762\u548c\u6700\u540e\u9762\uff09\uff0c\u8bf7\u6700\u5927\u5316\u5176\u6743\u503c\u3002\u4f60\u53ea\u9700\u8981\u8f93\u51fa\u4efb\u610f\u6743\u503c\u6700\u5927\u7684\u65b0\u5b57\u7b26\u4e32\u3002\n\n\u5176\u4e2d\uff0c\u5b57\u7b26\u4e32\u7684\u6743\u503c\u5b9a\u4e49\u5982\u4e0b\u8ba1\u7b97\uff1a\n\n- \u82e5\u67d0\u4e2a\u5b57\u7b26\u524d\u9762\u6ca1\u6709\u5b57\u7b26\uff0c\u6216\u524d\u9762\u7684\u5b57\u7b26\u4e0e\u5176\u4e0d\u540c\uff0c\u5219\u5176\u4e3a\u5b57\u7b26\u4e32\u8d21\u732e $2$ \u70b9\u6743\u503c\u3002\n\n- \u82e5\u67d0\u4e2a\u5b57\u7b26\u524d\u9762\u7684\u5b57\u7b26\u4e0e\u5176\u76f8\u540c\uff0c\u5219\u5176\u4e3a\u5b57\u7b26\u4e32\u8d21\u732e $1$ \u70b9\u6743\u503c\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\u7b2c\u4e00\u884c\u8f93\u5165\u4e00\u4e2a\u6574\u6570 $t(1\\le t\\le 1000)$\uff0c\u8868\u793a\u6d4b\u8bd5\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32 $s(1\\le\\lvert s\\rvert\\le 10)$\uff0c\u8868\u793a\u5f85\u5904\u7406\u7684\u5b57\u7b26\u4e32\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\u8f93\u51fa\u5171 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u7b2c $i$ \u884c\u8f93\u51fa\u7b2c $i$ \u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b54\u6848\u3002"},"translations":{"en":{"name":"Strong Password","background":"","description":"Monocarp\u0027s current password on Codeforces is a string $ s $ , consisting of lowercase Latin letters. Monocarp thinks that his current password is too weak, so he wants to insert exactly one lowercase Latin letter into the password to make it stronger. Monocarp can choose any letter and insert it anywhere, even before the first character or after the last character.\n\nMonocarp thinks that the password\u0027s strength is proportional to the time it takes him to type the password. The time it takes to type the password is calculated as follows:\n\n- the time to type the first character is $ 2 $ seconds;\n- for each character other than the first, the time it takes to type it is $ 1 $ second if it is the same as the previous character, or $ 2 $ seconds otherwise.\n\nFor example, the time it takes to type the password abacaba is $ 14 $ ; the time it takes to type the password a is $ 2 $ ; the time it takes to type the password aaabacc is $ 11 $ .\n\nYou have to help Monocarp \u2014 insert a lowercase Latin letter into his password so that the resulting password takes the maximum possible amount of time to type.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of one line containing the string $ s $ ( $ 1 \\le |s| \\le 10 $ ), consisting of lowercase Latin letters.","formatO":"For each test case, print one line containing the new password \u2014 a string which can be obtained from $ s $ by inserting one lowercase Latin letter. The string you print should have the maximum possible required time to type it. If there are multiple answers, print any of them.","hint":"","locale":"en"},"zh-CN":{"name":"Strong Password","background":"","description":"\u6709\u4e00\u4e2a\u7531\u5c0f\u5199\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u4f60\u53ef\u4ee5\u5728\u5176\u4efb\u610f\u4f4d\u7f6e\u63d2\u5165\u4e00\u4e2a\u5c0f\u5199\u5b57\u6bcd\uff08\u5305\u62ec\u6700\u524d\u9762\u548c\u6700\u540e\u9762\uff09\uff0c\u8bf7\u6700\u5927\u5316\u5176\u6743\u503c\u3002\u4f60\u53ea\u9700\u8981\u8f93\u51fa\u4efb\u610f\u6743\u503c\u6700\u5927\u7684\u65b0\u5b57\u7b26\u4e32\u3002\n\n\u5176\u4e2d\uff0c\u5b57\u7b26\u4e32\u7684\u6743\u503c\u5b9a\u4e49\u5982\u4e0b\u8ba1\u7b97\uff1a\n\n- \u82e5\u67d0\u4e2a\u5b57\u7b26\u524d\u9762\u6ca1\u6709\u5b57\u7b26\uff0c\u6216\u524d\u9762\u7684\u5b57\u7b26\u4e0e\u5176\u4e0d\u540c\uff0c\u5219\u5176\u4e3a\u5b57\u7b26\u4e32\u8d21\u732e $2$ \u70b9\u6743\u503c\u3002\n\n- \u82e5\u67d0\u4e2a\u5b57\u7b26\u524d\u9762\u7684\u5b57\u7b26\u4e0e\u5176\u76f8\u540c\uff0c\u5219\u5176\u4e3a\u5b57\u7b26\u4e32\u8d21\u732e $1$ \u70b9\u6743\u503c\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e00\u4e2a\u6574\u6570 $t(1\\le t\\le 1000)$\uff0c\u8868\u793a\u6d4b\u8bd5\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32 $s(1\\le\\lvert s\\rvert\\le 10)$\uff0c\u8868\u793a\u5f85\u5904\u7406\u7684\u5b57\u7b26\u4e32\u3002","formatO":"\u8f93\u51fa\u5171 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u7b2c $i$ \u884c\u8f93\u51fa\u7b2c $i$ \u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b54\u6848\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1997A Strong Password","type":2,"slug":"CF1997A","color":"orange-3"},"discussions":[{"id":941660,"title":"CF1997\u8bc4\u7ea7","author":{"uid":569235,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/569235.png","name":"w9095","slogan":"\u4e00\u5ff5\u900d\u9065\u4e4b\u95f4\uff0c\u82e5\u754f\u524d\u7a0b\u8fdc\uff0c\u4fbf\u4e0d\u662f\u771f\u5c11\u5e74\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":""},"time":1727535682}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.314798,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1997A Strong Password","description":"\u6709\u4e00\u4e2a\u7531\u5c0f\u5199\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 s\uff0c\u4f60\u53ef\u4ee5\u5728\u5176\u4efb\u610f\u4f4d\u7f6e\u63d2\u5165\u4e00\u4e2a\u5c0f\u5199\u5b57\u6bcd\uff08\u5305\u62ec\u6700\u524d\u9762\u548c\u6700\u540e\u9762\uff09\uff0c\u8bf7\u6700\u5927\u5316\u5176\u6743\u503c\u3002\u4f60\u53ea\u9700\u8981\u8f93\u51fa\u4efb\u610f\u6743\u503c\u6700\u5927\u7684\u65b0\u5b57\u7b26\u4e32\u3002\n\u5176\u4e2d\uff0c\u5b57\u7b26\u4e32\u7684\u6743\u503c\u5b9a\u4e49\u5982\u4e0b\u8ba1\u7b97\uff1a\n\n\n\u82e5\u67d0\u4e2a\u5b57\u7b26\u524d\u9762\u6ca1\u6709\u5b57\u7b26\uff0c\u6216\u524d\u9762\u7684\u5b57\u7b26\u4e0e\u5176\u4e0d\u540c\uff0c\u5219\u5176\u4e3a\u5b57\u7b26\u4e32\u8d21\u732e\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1997A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1997A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1997A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1997A Strong Password" />
+    <meta property="og:description" content="有一个由小写字母组成的字符串 s，你可以在其任意位置插入一个小写字母（包括最前面和最后面），请最大化其权值。你只需要输出任意权值最大的新字符串。
+其中，字符串的权值定义如下计算：
+
+
+若某个字符前面没有字符，或前面的字符与其不同，则其为字符串贡献…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1997A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1997A Strong Password</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有一个由小写字母组成的字符串 $s$，你可以在其任意位置插入一个小写字母（包括最前面和最后面），请最大化其权值。你只需要输出任意权值最大的新字符串。
+
+其中，字符串的权值定义如下计算：
+
+- 若某个字符前面没有字符，或前面的字符与其不同，则其为字符串贡献 $2$ 点权值。
+
+- 若某个字符前面的字符与其相同，则其为字符串贡献 $1$ 点权值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行输入一个整数 $t(1\le t\le 1000)$，表示测试组数。
+
+接下来 $t$ 行，每行一个字符串 $s(1\le\lvert s\rvert\le 10)$，表示待处理的字符串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出共 $t$ 行，每行一个字符串，第 $i$ 行输出第 $i$ 组测试数据的答案。
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

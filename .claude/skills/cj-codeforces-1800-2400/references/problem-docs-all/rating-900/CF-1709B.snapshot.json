@@ -1,0 +1,29 @@
+{
+  "id": "CF-1709B",
+  "contest_id": 1709,
+  "index": "B",
+  "name": "Also Try Minecraft",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 25642,
+  "problem_url": "https://codeforces.com/problemset/problem/1709/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1709/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1709/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1709B%20Also%20Try%20Minecraft%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1709B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1709B Also Try Minecraft - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 485,
+    "mirror_attempt": 1182,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

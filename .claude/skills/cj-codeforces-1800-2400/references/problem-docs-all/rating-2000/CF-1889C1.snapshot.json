@@ -1,0 +1,31 @@
+{
+  "id": "CF-1889C1",
+  "contest_id": 1889,
+  "index": "C1",
+  "name": "Doremy's Drying Plan (Easy Version)",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 3859,
+  "problem_url": "https://codeforces.com/problemset/problem/1889/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1889/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1889/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1889C1%20Doremy%27s%20Drying%20Plan%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1889/C1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1889C1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

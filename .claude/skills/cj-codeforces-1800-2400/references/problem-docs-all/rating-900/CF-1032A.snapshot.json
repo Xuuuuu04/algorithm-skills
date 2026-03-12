@@ -1,0 +1,27 @@
+{
+  "id": "CF-1032A",
+  "contest_id": 1032,
+  "index": "A",
+  "name": "Kitchen Utensils",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [],
+  "solved_count": 7301,
+  "problem_url": "https://codeforces.com/problemset/problem/1032/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1032/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1032/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1032A%20Kitchen%20Utensils%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1032A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Kitchen Utensils - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

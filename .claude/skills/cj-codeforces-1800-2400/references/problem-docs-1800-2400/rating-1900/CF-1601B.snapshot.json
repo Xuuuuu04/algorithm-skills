@@ -1,0 +1,39 @@
+{
+  "id": "CF-1601B",
+  "contest_id": 1601,
+  "index": "B",
+  "name": "Frog Traveler",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "shortest paths",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1601/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1601/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1601/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1601B%20Frog Traveler%20tutorial",
+  "solved_count": 5460,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1601B",
+  "hydro_meta": {
+    "page_title": "Frog Traveler - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "graphs",
+      "shortest paths"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

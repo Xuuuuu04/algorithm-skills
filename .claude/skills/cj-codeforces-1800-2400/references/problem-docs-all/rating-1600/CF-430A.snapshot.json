@@ -1,0 +1,28 @@
+{
+  "id": "CF-430A",
+  "contest_id": 430,
+  "index": "A",
+  "name": "Points and Segments (easy)",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "sortings"
+  ],
+  "solved_count": 2394,
+  "problem_url": "https://codeforces.com/problemset/problem/430/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/430/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/430/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=430A%20Points%20and%20Segments%20%28easy%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/430/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 430A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

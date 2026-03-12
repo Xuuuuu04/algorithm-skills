@@ -1,0 +1,33 @@
+{
+  "id": "CF-513G2",
+  "contest_id": 513,
+  "index": "G2",
+  "name": "Inversions problem",
+  "rating": 2400,
+  "tags": [
+    "dp",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/513/G2",
+  "answer_index_url": "https://codeforces.com/problemset/status/513/problem/G2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/513/problem/G2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=513G2%20Inversions problem%20tutorial",
+  "solved_count": 720,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P513G2",
+  "hydro_meta": {
+    "page_title": "Inversions problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "probabilities",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

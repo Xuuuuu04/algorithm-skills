@@ -1,0 +1,33 @@
+{
+  "id": "CF-1765L",
+  "contest_id": 1765,
+  "index": "L",
+  "name": "Project Manager",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 660,
+  "problem_url": "https://codeforces.com/problemset/problem/1765/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1765/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1765/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1765L%20Project%20Manager%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1765L",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Project Manager - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

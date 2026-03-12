@@ -1,0 +1,32 @@
+{
+  "id": "CF-279D",
+  "contest_id": 279,
+  "index": "D",
+  "name": "The Minimum Number of Variables",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "bitmasks",
+    "dp"
+  ],
+  "solved_count": 841,
+  "problem_url": "https://codeforces.com/problemset/problem/279/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/279/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/279/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=279D%20The%20Minimum%20Number%20of%20Variables%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P279D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Minimum Number of Variables - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "dp",
+      "*2200"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1793A",
+  "contest_id": 1793,
+  "index": "A",
+  "name": "Yet Another Promotion",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 18769,
+  "problem_url": "https://codeforces.com/problemset/problem/1793/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1793/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1793/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1793A%20Yet%20Another%20Promotion%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1793A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1793A Yet Another Promotion - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 281,
+    "mirror_attempt": 507,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "CF-1938M",
+  "contest_id": 1938,
+  "index": "M",
+  "name": "Zig-zag",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 95,
+  "problem_url": "https://codeforces.com/problemset/problem/1938/M",
+  "answer_index_url": "https://codeforces.com/problemset/status/1938/problem/M",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1938/problem/M?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1938M%20Zig-zag%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1938M",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "__NO_TITLE__ - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

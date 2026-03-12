@@ -1,0 +1,42 @@
+{
+  "id": "CF-1858D",
+  "contest_id": 1858,
+  "index": "D",
+  "name": "Trees and Segments",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1858/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1858/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1858/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1858D%20Trees and Segments%20tutorial",
+  "solved_count": 3157,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1858D",
+  "hydro_meta": {
+    "page_title": "Trees and Segments - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "two pointers",
+      "*2200"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

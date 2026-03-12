@@ -1,0 +1,28 @@
+{
+  "id": "CF-703B",
+  "contest_id": 703,
+  "index": "B",
+  "name": "Mishka and trip",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 5874,
+  "problem_url": "https://codeforces.com/problemset/problem/703/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/703/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/703/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=703B%20Mishka%20and%20trip%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/703/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 703B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

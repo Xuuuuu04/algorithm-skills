@@ -1,0 +1,32 @@
+{
+  "id": "CF-1342C",
+  "contest_id": 1342,
+  "index": "C",
+  "name": "Yet Another Counting Problem",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 14915,
+  "problem_url": "https://codeforces.com/problemset/problem/1342/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1342/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1342/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1342C%20Yet%20Another%20Counting%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1342C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yet Another Counting Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

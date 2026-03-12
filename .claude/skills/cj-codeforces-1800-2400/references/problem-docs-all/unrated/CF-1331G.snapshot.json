@@ -1,0 +1,27 @@
+{
+  "id": "CF-1331G",
+  "contest_id": 1331,
+  "index": "G",
+  "name": "Lingua Romana",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 585,
+  "problem_url": "https://codeforces.com/problemset/problem/1331/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1331/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1331/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1331G%20Lingua%20Romana%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1331/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1331G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

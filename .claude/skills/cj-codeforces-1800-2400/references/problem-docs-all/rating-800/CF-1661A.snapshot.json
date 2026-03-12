@@ -1,0 +1,28 @@
+{
+  "id": "CF-1661A",
+  "contest_id": 1661,
+  "index": "A",
+  "name": "Array Balancing",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 19242,
+  "problem_url": "https://codeforces.com/problemset/problem/1661/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1661/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1661/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1661A%20Array%20Balancing%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1661A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1661A Array Balancing - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 171,
+    "mirror_attempt": 302,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-2109A",
+  "contest_id": 2109,
+  "index": "A",
+  "name": "It's Time To Duel",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 26552,
+  "problem_url": "https://codeforces.com/problemset/problem/2109/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2109/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2109/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2109A%20It%27s%20Time%20To%20Duel%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2109A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "It's Time To Duel - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

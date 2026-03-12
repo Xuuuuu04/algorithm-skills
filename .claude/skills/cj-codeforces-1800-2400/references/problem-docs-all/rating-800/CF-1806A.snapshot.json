@@ -1,0 +1,33 @@
+{
+  "id": "CF-1806A",
+  "contest_id": 1806,
+  "index": "A",
+  "name": "Walking Master",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "geometry",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 41610,
+  "problem_url": "https://codeforces.com/problemset/problem/1806/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1806/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1806/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1806A%20Walking%20Master%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1806A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Walking Master - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

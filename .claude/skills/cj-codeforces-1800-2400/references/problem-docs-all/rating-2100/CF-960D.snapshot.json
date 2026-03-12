@@ -1,0 +1,34 @@
+{
+  "id": "CF-960D",
+  "contest_id": 960,
+  "index": "D",
+  "name": "Full Binary Tree Queries",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 1932,
+  "problem_url": "https://codeforces.com/problemset/problem/960/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/960/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/960/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=960D%20Full%20Binary%20Tree%20Queries%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P960D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Full Binary Tree Queries - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "trees",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

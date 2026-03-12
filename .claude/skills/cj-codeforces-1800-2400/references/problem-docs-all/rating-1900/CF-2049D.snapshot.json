@@ -1,0 +1,32 @@
+{
+  "id": "CF-2049D",
+  "contest_id": 2049,
+  "index": "D",
+  "name": "Shift + Esc",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "brute force",
+    "dp"
+  ],
+  "solved_count": 5862,
+  "problem_url": "https://codeforces.com/problemset/problem/2049/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2049/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2049/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2049D%20Shift%20%2B%20Esc%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2049D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Shift + Esc - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dp",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

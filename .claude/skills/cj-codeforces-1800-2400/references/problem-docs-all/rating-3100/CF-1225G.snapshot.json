@@ -1,0 +1,38 @@
+{
+  "id": "CF-1225G",
+  "contest_id": 1225,
+  "index": "G",
+  "name": "To Make 1",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": 3750.0,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "number theory"
+  ],
+  "solved_count": 655,
+  "problem_url": "https://codeforces.com/problemset/problem/1225/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1225/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1225/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1225G%20To%20Make%201%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1225G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "To Make 1 - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "number theory",
+      "*3100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

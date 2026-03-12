@@ -1,0 +1,31 @@
+{
+  "id": "CF-1799C",
+  "contest_id": 1799,
+  "index": "C",
+  "name": "Double Lexicographically Minimum",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 6860,
+  "problem_url": "https://codeforces.com/problemset/problem/1799/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1799/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1799/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1799C%20Double%20Lexicographically%20Minimum%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1799C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Double Lexicographically Minimum - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2144A Cut the Array - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2144A","type":"CF","title":"Cut the Array","difficulty":2,"tags":[111,254],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Cut the Array","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5305\u542b $n$ \u4e2a\u975e\u8d1f\u6574\u6570\u7684\u6570\u7ec4 $[a_1, a_2, \\dots, a_n]$\u3002\n\n\u4f60\u9700\u8981\u5c06\u5176\u5207\u5206\u4e3a\u4e09\u4e2a\u975e\u7a7a\u90e8\u5206\uff1a\u524d\u7f00\u3001\u4e2d\u95f4\u90e8\u5206\u548c\u540e\u7f00\u3002\u5177\u4f53\u6765\u8bf4\uff0c\u4f60\u9700\u8981\u9009\u62e9\u4e24\u4e2a\u6574\u6570 $l$ \u548c $r$\uff0c\u6ee1\u8db3 $1 \\le l \u003C r \u003C n$\uff0c\u5f97\u5230\u4e09\u90e8\u5206\uff1a\n\n-   \u524d\u7f00\u90e8\u5206\u5305\u542b\u7b2c $1$ \u4e2a\u5230\u7b2c $l$ \u4e2a\u5143\u7d20\uff08\u5373 $[a_1, a_2, \\dots, a_l]$\uff09\uff1b\n-   \u4e2d\u95f4\u90e8\u5206\u5305\u542b\u7b2c $l+1$ \u4e2a\u5230\u7b2c $r$ \u4e2a\u5143\u7d20\uff08\u5373 $[a_{l+1}, a_{l+2}, \\dots, a_r]$\uff09\uff1b\n-   \u540e\u7f00\u90e8\u5206\u5305\u542b\u7b2c $r+1$ \u4e2a\u5230\u7b2c $n$ \u4e2a\u5143\u7d20\uff08\u5373 $[a_{r+1}, a_{r+2}, \\dots, a_n]$\uff09\u3002\n\n\u4ee4 $s_1, s_2, s_3$ \u5206\u522b\u8868\u793a\u4e0a\u8ff0\u4e09\u90e8\u5206\u5143\u7d20\u548c\u5bf9 $3$ \u53d6\u6a21\u7684\u4f59\u6570\uff0c\u5373\uff1a\n\n-   $s_1 = (\\sum\\limits_{i=1}^{l} a_i) \\bmod 3$\uff1b\n-   $s_2 = (\\sum\\limits_{i=l+1}^{r} a_i) \\bmod 3$\uff1b\n-   $s_3 = (\\sum\\limits_{i=r+1}^{n} a_i) \\bmod 3$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u627e\u5230\u4e00\u7ec4 $l$ \u548c $r$\uff0c\u4f7f\u5f97 $s_1, s_2, s_3$ \u8981\u4e48\u5168\u90fd\u4e0d\u540c\uff0c\u8981\u4e48\u5168\u90fd\u76f8\u7b49\u3002","formatI":"\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e24\u884c\uff1a\n\n-   \u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 40$\uff09\uff1b\n-   \u7b2c\u4e8c\u884c\u4e3a $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$0 \\le a_i \\le 40$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u5b58\u5728\u4e00\u7ec4\u5408\u9002\u7684\u6574\u6570 $l$ \u548c $r$\uff08$1 \\leq l \u003C r \u003C n$\uff09\uff0c\u8f93\u51fa\u8fd9\u4e24\u4e2a\u6570\uff08\u5982\u679c\u6709\u591a\u7ec4\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u7ec4\u5373\u53ef\uff09\u3002\u5982\u679c\u4e0d\u5b58\u5728\u5408\u9002\u7684\u5207\u5272\u65b9\u6cd5\uff0c\u5219\u8f93\u51fa\u4e24\u4e2a $0$\u3002","hint":"\u53c2\u8003\u6837\u4f8b\u4e2d\u7684\u8bf4\u660e\uff1a\n\n-   \u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u88ab\u5206\u4e3a $[1, 2, 3]$\u3001$[4, 5]$\u3001$[6]$\uff0c$s_1 = s_2 = s_3 = 0$\uff1b\n-   \u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6ca1\u6709\u6ee1\u8db3\u6761\u4ef6\u7684\u5207\u5272\u65b9\u6cd5\uff1b\n-   \u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u88ab\u5206\u4e3a $[2]$\u3001$[1]$\u3001$[0]$\uff0c$s_1 = 2$\uff0c$s_2 = 1$\uff0c$s_3 = 0$\uff1b\n-   \u5728\u7b2c\u56db\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u88ab\u5206\u4e3a $[7, 2]$\u3001$[6, 2]$\u3001$[4]$\uff0c$s_1 = 0$\uff0c$s_2 = 2$\uff0c$s_3 = 1$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Cut the Array","background":null,"description":"You are given an array of  $ n $  non-negative integers  $ [a_1, a_2, \\dots, a_n] $ .\n\nYour task is to cut it into three non-empty parts: a prefix, a middle part, and a suffix. Formally, you need to choose two integers  $ l $  and  $ r $  such that  $ 1 \\le l \u003C r \u003C n $ , and obtain three parts:\n\n- the prefix up the element at index  $ l $  inclusive (i.e.,  $ [a_1, a_2, \\dots, a_l] $ );\n- the central part from the element at index  $ l+1 $  to the element at index  $ r $  inclusive (i.e.,  $ [a_{l+1}, a_{l+2}, \\dots, a_r] $ );\n- the suffix from the element at index  $ r+1 $  to  $ n $  inclusive (i.e.,  $ [a_{r+1}, a_{r+2}, \\dots, a_n] $ ).\n\nLet  $ s_1, s_2, s_3 $  be the remainders of the sums of these parts modulo  $ 3 $ . In other words:\n\n- $ s_1 = (\\sum\\limits_{i=1}^{l} a_i) \\bmod 3 $ ;\n- $ s_2 = (\\sum\\limits_{i=l+1}^{r} a_i) \\bmod 3 $ ;\n- $ s_3 = (\\sum\\limits_{i=r+1}^{n} a_i) \\bmod 3 $ .\n\nYour task is to find such boundaries  $ l $  and  $ r $  that either all numbers  $ s_1, s_2, s_3 $  are different, or all numbers  $ s_1, s_2, s_3 $  are the same.","formatI":"The first line contains a single integer  $ t $  ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines:\n\n- the first line contains a single integer  $ n $  ( $ 3 \\le n \\le 40 $ );\n- the second line contains  $ n $  integers  $ a_1, a_2, \\dots, a_n $  ( $ 0 \\le a_i \\le 40 $ ).","formatO":"For each test case, if a suitable pair of integers  $ l $  and  $ r $  ( $ 1 \\le l \u003C r \u003C n $ ) exists, output these two integers (if there are multiple suitable pairs, you can output any of them). Otherwise, output two integers equal to  $ 0 $ .","hint":"Consider the examples from the statement:\n\n- in the first example, the array is cut into parts  $ [1, 2, 3] $ ,  $ [4, 5] $ ,  $ [6] $ ;  $ s_1 = s_2 = s_3 = 0 $ ;\n- in the second example, there is no suitable cut;\n- in the third example, the array is cut into parts  $ [2] $ ,  $ [1] $ ,  $ [0] $ ;  $ s_1 = 2 $ ,  $ s_2 = 1 $ ,  $ s_3 = 0 $ ;\n- in the fourth example, the array is cut into parts  $ [7, 2] $ ,  $ [6, 2] $ ,  $ [4] $ ;  $ s_1 = 0 $ ,  $ s_2 = 2 $ ,  $ s_3 = 1 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n6\n1 2 3 4 5 6\n4\n1 3 3 7\n3\n2 1 0\n5\n7 2 6 2 4","3 5\n0 0\n1 2\n2 4"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"2144A","link":"https:\/\/codeforces.com\/problemset\/problem\/2144\/A"},"translation":null},"translations":{"en":{"name":"Cut the Array","background":null,"description":"You are given an array of  $ n $  non-negative integers  $ [a_1, a_2, \\dots, a_n] $ .\n\nYour task is to cut it into three non-empty parts: a prefix, a middle part, and a suffix. Formally, you need to choose two integers  $ l $  and  $ r $  such that  $ 1 \\le l \u003C r \u003C n $ , and obtain three parts:\n\n- the prefix up the element at index  $ l $  inclusive (i.e.,  $ [a_1, a_2, \\dots, a_l] $ );\n- the central part from the element at index  $ l+1 $  to the element at index  $ r $  inclusive (i.e.,  $ [a_{l+1}, a_{l+2}, \\dots, a_r] $ );\n- the suffix from the element at index  $ r+1 $  to  $ n $  inclusive (i.e.,  $ [a_{r+1}, a_{r+2}, \\dots, a_n] $ ).\n\nLet  $ s_1, s_2, s_3 $  be the remainders of the sums of these parts modulo  $ 3 $ . In other words:\n\n- $ s_1 = (\\sum\\limits_{i=1}^{l} a_i) \\bmod 3 $ ;\n- $ s_2 = (\\sum\\limits_{i=l+1}^{r} a_i) \\bmod 3 $ ;\n- $ s_3 = (\\sum\\limits_{i=r+1}^{n} a_i) \\bmod 3 $ .\n\nYour task is to find such boundaries  $ l $  and  $ r $  that either all numbers  $ s_1, s_2, s_3 $  are different, or all numbers  $ s_1, s_2, s_3 $  are the same.","formatI":"The first line contains a single integer  $ t $  ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines:\n\n- the first line contains a single integer  $ n $  ( $ 3 \\le n \\le 40 $ );\n- the second line contains  $ n $  integers  $ a_1, a_2, \\dots, a_n $  ( $ 0 \\le a_i \\le 40 $ ).","formatO":"For each test case, if a suitable pair of integers  $ l $  and  $ r $  ( $ 1 \\le l \u003C r \u003C n $ ) exists, output these two integers (if there are multiple suitable pairs, you can output any of them). Otherwise, output two integers equal to  $ 0 $ .","hint":"Consider the examples from the statement:\n\n- in the first example, the array is cut into parts  $ [1, 2, 3] $ ,  $ [4, 5] $ ,  $ [6] $ ;  $ s_1 = s_2 = s_3 = 0 $ ;\n- in the second example, there is no suitable cut;\n- in the third example, the array is cut into parts  $ [2] $ ,  $ [1] $ ,  $ [0] $ ;  $ s_1 = 2 $ ,  $ s_2 = 1 $ ,  $ s_3 = 0 $ ;\n- in the fourth example, the array is cut into parts  $ [7, 2] $ ,  $ [6, 2] $ ,  $ [4] $ ;  $ s_1 = 0 $ ,  $ s_2 = 2 $ ,  $ s_3 = 1 $ .","locale":"en"},"zh-CN":{"name":"Cut the Array","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5305\u542b $n$ \u4e2a\u975e\u8d1f\u6574\u6570\u7684\u6570\u7ec4 $[a_1, a_2, \\dots, a_n]$\u3002\n\n\u4f60\u9700\u8981\u5c06\u5176\u5207\u5206\u4e3a\u4e09\u4e2a\u975e\u7a7a\u90e8\u5206\uff1a\u524d\u7f00\u3001\u4e2d\u95f4\u90e8\u5206\u548c\u540e\u7f00\u3002\u5177\u4f53\u6765\u8bf4\uff0c\u4f60\u9700\u8981\u9009\u62e9\u4e24\u4e2a\u6574\u6570 $l$ \u548c $r$\uff0c\u6ee1\u8db3 $1 \\le l \u003C r \u003C n$\uff0c\u5f97\u5230\u4e09\u90e8\u5206\uff1a\n\n-   \u524d\u7f00\u90e8\u5206\u5305\u542b\u7b2c $1$ \u4e2a\u5230\u7b2c $l$ \u4e2a\u5143\u7d20\uff08\u5373 $[a_1, a_2, \\dots, a_l]$\uff09\uff1b\n-   \u4e2d\u95f4\u90e8\u5206\u5305\u542b\u7b2c $l+1$ \u4e2a\u5230\u7b2c $r$ \u4e2a\u5143\u7d20\uff08\u5373 $[a_{l+1}, a_{l+2}, \\dots, a_r]$\uff09\uff1b\n-   \u540e\u7f00\u90e8\u5206\u5305\u542b\u7b2c $r+1$ \u4e2a\u5230\u7b2c $n$ \u4e2a\u5143\u7d20\uff08\u5373 $[a_{r+1}, a_{r+2}, \\dots, a_n]$\uff09\u3002\n\n\u4ee4 $s_1, s_2, s_3$ \u5206\u522b\u8868\u793a\u4e0a\u8ff0\u4e09\u90e8\u5206\u5143\u7d20\u548c\u5bf9 $3$ \u53d6\u6a21\u7684\u4f59\u6570\uff0c\u5373\uff1a\n\n-   $s_1 = (\\sum\\limits_{i=1}^{l} a_i) \\bmod 3$\uff1b\n-   $s_2 = (\\sum\\limits_{i=l+1}^{r} a_i) \\bmod 3$\uff1b\n-   $s_3 = (\\sum\\limits_{i=r+1}^{n} a_i) \\bmod 3$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u627e\u5230\u4e00\u7ec4 $l$ \u548c $r$\uff0c\u4f7f\u5f97 $s_1, s_2, s_3$ \u8981\u4e48\u5168\u90fd\u4e0d\u540c\uff0c\u8981\u4e48\u5168\u90fd\u76f8\u7b49\u3002","formatI":"\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e24\u884c\uff1a\n\n-   \u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 40$\uff09\uff1b\n-   \u7b2c\u4e8c\u884c\u4e3a $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$0 \\le a_i \\le 40$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u5b58\u5728\u4e00\u7ec4\u5408\u9002\u7684\u6574\u6570 $l$ \u548c $r$\uff08$1 \\leq l \u003C r \u003C n$\uff09\uff0c\u8f93\u51fa\u8fd9\u4e24\u4e2a\u6570\uff08\u5982\u679c\u6709\u591a\u7ec4\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u7ec4\u5373\u53ef\uff09\u3002\u5982\u679c\u4e0d\u5b58\u5728\u5408\u9002\u7684\u5207\u5272\u65b9\u6cd5\uff0c\u5219\u8f93\u51fa\u4e24\u4e2a $0$\u3002","hint":"\u53c2\u8003\u6837\u4f8b\u4e2d\u7684\u8bf4\u660e\uff1a\n\n-   \u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u88ab\u5206\u4e3a $[1, 2, 3]$\u3001$[4, 5]$\u3001$[6]$\uff0c$s_1 = s_2 = s_3 = 0$\uff1b\n-   \u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6ca1\u6709\u6ee1\u8db3\u6761\u4ef6\u7684\u5207\u5272\u65b9\u6cd5\uff1b\n-   \u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u88ab\u5206\u4e3a $[2]$\u3001$[1]$\u3001$[0]$\uff0c$s_1 = 2$\uff0c$s_2 = 1$\uff0c$s_3 = 0$\uff1b\n-   \u5728\u7b2c\u56db\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u88ab\u5206\u4e3a $[7, 2]$\u3001$[6, 2]$\u3001$[4]$\uff0c$s_1 = 0$\uff0c$s_2 = 2$\uff0c$s_3 = 1$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2144A Cut the Array","type":2,"slug":"CF2144A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.16451,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2144A Cut the Array","description":"\u7ed9\u5b9a\u4e00\u4e2a\u5305\u542b n \u4e2a\u975e\u8d1f\u6574\u6570\u7684\u6570\u7ec4 [a_1, a_2, \\dots, a_n]\u3002\n\u4f60\u9700\u8981\u5c06\u5176\u5207\u5206\u4e3a\u4e09\u4e2a\u975e\u7a7a\u90e8\u5206\uff1a\u524d\u7f00\u3001\u4e2d\u95f4\u90e8\u5206\u548c\u540e\u7f00\u3002\u5177\u4f53\u6765\u8bf4\uff0c\u4f60\u9700\u8981\u9009\u62e9\u4e24\u4e2a\u6574\u6570 l \u548c r\uff0c\u6ee1\u8db3 1 \\le l &lt; r &lt; n\uff0c\u5f97\u5230\u4e09\u90e8\u5206\uff1a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2144A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2144A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2144A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2144A Cut the Array" />
+    <meta property="og:description" content="给定一个包含 n 个非负整数的数组 [a_1, a_2, \dots, a_n]。
+你需要将其切分为三个非空部分：前缀、中间部分和后缀。具体来说，你需要选择两个整数 l 和 r，满足 1 \le l &amp;lt; r &amp;lt; n，得到三部分：…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2144A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2144A Cut the Array</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个包含 $n$ 个非负整数的数组 $[a_1, a_2, \dots, a_n]$。
+
+你需要将其切分为三个非空部分：前缀、中间部分和后缀。具体来说，你需要选择两个整数 $l$ 和 $r$，满足 $1 \le l < r < n$，得到三部分：
+
+-   前缀部分包含第 $1$ 个到第 $l$ 个元素（即 $[a_1, a_2, \dots, a_l]$）；
+-   中间部分包含第 $l+1$ 个到第 $r$ 个元素（即 $[a_{l+1}, a_{l+2}, \dots, a_r]$）；
+-   后缀部分包含第 $r+1$ 个到第 $n$ 个元素（即 $[a_{r+1}, a_{r+2}, \dots, a_n]$）。
+
+令 $s_1, s_2, s_3$ 分别表示上述三部分元素和对 $3$ 取模的余数，即：
+
+-   $s_1 = (\sum\limits_{i=1}^{l} a_i) \bmod 3$；
+-   $s_2 = (\sum\limits_{i=l+1}^{r} a_i) \bmod 3$；
+-   $s_3 = (\sum\limits_{i=r+1}^{n} a_i) \bmod 3$。
+
+你的任务是找到一组 $l$ 和 $r$，使得 $s_1, s_2, s_3$ 要么全都不同，要么全都相等。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行为一个整数 $t$（$1 \le t \le 1000$），表示测试用例的数量。
+
+每个测试用例包含两行：
+
+-   第一行一个整数 $n$（$3 \le n \le 40$）；
+-   第二行为 $n$ 个整数 $a_1, a_2, \dots, a_n$（$0 \le a_i \le 40$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果存在一组合适的整数 $l$ 和 $r$（$1 \leq l < r < n$），输出这两个数（如果有多组解，输出任意一组即可）。如果不存在合适的切割方法，则输出两个 $0$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                参考样例中的说明：
+
+-   在第一个样例中，数组被分为 $[1, 2, 3]$、$[4, 5]$、$[6]$，$s_1 = s_2 = s_3 = 0$；
+-   在第二个样例中，没有满足条件的切割方法；
+-   在第三个样例中，数组被分为 $[2]$、$[1]$、$[0]$，$s_1 = 2$，$s_2 = 1$，$s_3 = 0$；
+-   在第四个样例中，数组被分为 $[7, 2]$、$[6, 2]$、$[4]$，$s_1 = 0$，$s_2 = 2$，$s_3 = 1$。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

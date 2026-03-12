@@ -1,0 +1,29 @@
+{
+  "id": "CF-1368E",
+  "contest_id": 1368,
+  "index": "E",
+  "name": "Ski Accidents",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 2346,
+  "problem_url": "https://codeforces.com/problemset/problem/1368/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1368/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1368/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1368E%20Ski%20Accidents%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1368E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1368E Ski Accidents - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 376,
+    "mirror_attempt": 954,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

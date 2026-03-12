@@ -1,0 +1,36 @@
+{
+  "id": "CF-748E",
+  "contest_id": 748,
+  "index": "E",
+  "name": "Santa Claus and Tangerines",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 1584,
+  "problem_url": "https://codeforces.com/problemset/problem/748/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/748/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/748/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=748E%20Santa%20Claus%20and%20Tangerines%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P748E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Santa Claus and Tangerines - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

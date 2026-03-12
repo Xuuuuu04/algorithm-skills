@@ -1,0 +1,34 @@
+{
+  "id": "CF-323B",
+  "contest_id": 323,
+  "index": "B",
+  "name": "Tournament-graph",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/323/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/323/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/323/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=323B%20Tournament-graph%20tutorial",
+  "solved_count": 461,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P323B",
+  "hydro_meta": {
+    "page_title": "Tournament-graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

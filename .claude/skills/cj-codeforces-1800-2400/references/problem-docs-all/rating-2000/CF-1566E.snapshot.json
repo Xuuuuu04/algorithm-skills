@@ -1,0 +1,36 @@
+{
+  "id": "CF-1566E",
+  "contest_id": 1566,
+  "index": "E",
+  "name": "Buds Re-hanging",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 4426,
+  "problem_url": "https://codeforces.com/problemset/problem/1566/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1566/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1566/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1566E%20Buds%20Re-hanging%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1566E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Buds Re-hanging - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "greedy",
+      "trees"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

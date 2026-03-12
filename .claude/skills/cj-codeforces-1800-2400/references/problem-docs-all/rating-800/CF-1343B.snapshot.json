@@ -1,0 +1,32 @@
+{
+  "id": "CF-1343B",
+  "contest_id": 1343,
+  "index": "B",
+  "name": "Balanced Array",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 64260,
+  "problem_url": "https://codeforces.com/problemset/problem/1343/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1343/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1343/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1343B%20Balanced%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1343B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Balanced Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

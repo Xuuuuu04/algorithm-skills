@@ -1,0 +1,27 @@
+{
+  "id": "CF-2149C",
+  "contest_id": 2149,
+  "index": "C",
+  "name": "MEX rose",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 27411,
+  "problem_url": "https://codeforces.com/problemset/problem/2149/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2149/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2149/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2149C%20MEX%20rose%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2149C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2149C MEX rose - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

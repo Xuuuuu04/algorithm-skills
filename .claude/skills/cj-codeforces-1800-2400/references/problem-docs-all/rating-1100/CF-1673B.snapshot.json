@@ -1,0 +1,33 @@
+{
+  "id": "CF-1673B",
+  "contest_id": 1673,
+  "index": "B",
+  "name": "A Perfectly Balanced String?",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 20954,
+  "problem_url": "https://codeforces.com/problemset/problem/1673/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1673/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1673/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1673B%20A%20Perfectly%20Balanced%20String%3F%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1673B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "A Perfectly Balanced String? - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

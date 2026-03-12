@@ -1,0 +1,34 @@
+{
+  "id": "CF-2084B",
+  "contest_id": 2084,
+  "index": "B",
+  "name": "MIN = GCD",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 16307,
+  "problem_url": "https://codeforces.com/problemset/problem/2084/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2084/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2084/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2084B%20MIN%20%3D%20GCD%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2084B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "MIN = GCD - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

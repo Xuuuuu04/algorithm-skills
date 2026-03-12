@@ -1,0 +1,37 @@
+{
+  "id": "CF-2062E1",
+  "contest_id": 2062,
+  "index": "E1",
+  "name": "The Game (Easy Version)",
+  "rating": 2000,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "games",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2062/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2062/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2062/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2062E1%20The Game (Easy Version)%20tutorial",
+  "solved_count": 4259,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2062E1",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2062E1 The Game (Easy Version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

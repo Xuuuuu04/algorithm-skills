@@ -1,0 +1,38 @@
+{
+  "id": "CF-577B",
+  "contest_id": 577,
+  "index": "B",
+  "name": "Modulo Sum",
+  "rating": 1900,
+  "tags": [
+    "combinatorics",
+    "data structures",
+    "dp",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/577/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/577/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/577/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=577B%20Modulo Sum%20tutorial",
+  "solved_count": 14563,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P577B",
+  "hydro_meta": {
+    "page_title": "Modulo Sum - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "data structures",
+      "dp",
+      "two pointers",
+      "*1900"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 11,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

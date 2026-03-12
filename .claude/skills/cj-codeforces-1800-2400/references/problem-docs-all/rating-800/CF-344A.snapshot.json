@@ -1,0 +1,30 @@
+{
+  "id": "CF-344A",
+  "contest_id": 344,
+  "index": "A",
+  "name": "Magnets",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 149293,
+  "problem_url": "https://codeforces.com/problemset/problem/344/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/344/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/344/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=344A%20Magnets%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P344A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Magnets - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

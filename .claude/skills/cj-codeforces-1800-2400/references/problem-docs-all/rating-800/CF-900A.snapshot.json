@@ -1,0 +1,28 @@
+{
+  "id": "CF-900A",
+  "contest_id": 900,
+  "index": "A",
+  "name": "Find Extra One",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "geometry",
+    "implementation"
+  ],
+  "solved_count": 14853,
+  "problem_url": "https://codeforces.com/problemset/problem/900/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/900/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/900/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=900A%20Find%20Extra%20One%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF900A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF900A Find Extra One - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 920,
+    "mirror_attempt": 1773,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

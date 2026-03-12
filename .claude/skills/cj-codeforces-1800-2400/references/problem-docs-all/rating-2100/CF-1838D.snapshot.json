@@ -1,0 +1,33 @@
+{
+  "id": "CF-1838D",
+  "contest_id": 1838,
+  "index": "D",
+  "name": "Bracket Walk",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 3651,
+  "problem_url": "https://codeforces.com/problemset/problem/1838/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1838/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1838/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1838D%20Bracket%20Walk%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1838D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bracket Walk - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

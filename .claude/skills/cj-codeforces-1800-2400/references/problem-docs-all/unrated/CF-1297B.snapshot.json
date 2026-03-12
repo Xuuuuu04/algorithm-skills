@@ -1,0 +1,29 @@
+{
+  "id": "CF-1297B",
+  "contest_id": 1297,
+  "index": "B",
+  "name": "Cartoons",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 428,
+  "problem_url": "https://codeforces.com/problemset/problem/1297/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1297/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1297/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1297B%20Cartoons%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1297/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1297B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

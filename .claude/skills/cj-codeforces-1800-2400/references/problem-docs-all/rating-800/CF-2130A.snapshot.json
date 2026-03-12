@@ -1,0 +1,28 @@
+{
+  "id": "CF-2130A",
+  "contest_id": 2130,
+  "index": "A",
+  "name": "Submission is All You Need",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 28035,
+  "problem_url": "https://codeforces.com/problemset/problem/2130/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2130/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2130/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2130A%20Submission%20is%20All%20You%20Need%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2130A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2130A Submission is All You Need - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-15C",
+  "contest_id": 15,
+  "index": "C",
+  "name": "Industrial Nim",
+  "rating": 2000,
+  "tags": [
+    "games"
+  ],
+  "url": "https://codeforces.com/problemset/problem/15/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/15/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/15/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=15C%20Industrial Nim%20tutorial",
+  "solved_count": 2793,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P15C",
+  "hydro_meta": {
+    "page_title": "Industrial Nim - 题目详情 - Hydro",
+    "hydro_tags": [
+      "games",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

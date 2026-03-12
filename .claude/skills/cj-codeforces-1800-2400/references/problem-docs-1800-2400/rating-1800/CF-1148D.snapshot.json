@@ -1,0 +1,33 @@
+{
+  "id": "CF-1148D",
+  "contest_id": 1148,
+  "index": "D",
+  "name": "Dirty Deeds Done Dirt Cheap",
+  "rating": 1800,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1148/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1148/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1148/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1148D%20Dirty Deeds Done Dirt Cheap%20tutorial",
+  "solved_count": 5243,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1148D",
+  "hydro_meta": {
+    "page_title": "Dirty Deeds Done Dirt Cheap - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

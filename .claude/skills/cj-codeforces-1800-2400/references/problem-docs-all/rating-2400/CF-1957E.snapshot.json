@@ -1,0 +1,31 @@
+{
+  "id": "CF-1957E",
+  "contest_id": 1957,
+  "index": "E",
+  "name": "Carousel of Combinations",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 1591,
+  "problem_url": "https://codeforces.com/problemset/problem/1957/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1957/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1957/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1957E%20Carousel%20of%20Combinations%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1957/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1957E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

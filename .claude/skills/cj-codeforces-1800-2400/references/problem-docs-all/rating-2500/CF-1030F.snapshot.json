@@ -1,0 +1,27 @@
+{
+  "id": "CF-1030F",
+  "contest_id": 1030,
+  "index": "F",
+  "name": "Putting Boxes Together",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 888,
+  "problem_url": "https://codeforces.com/problemset/problem/1030/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1030/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1030/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1030F%20Putting%20Boxes%20Together%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1030/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1030F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-598E",
+  "contest_id": 598,
+  "index": "E",
+  "name": "Chocolate Bar",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp"
+  ],
+  "solved_count": 6007,
+  "problem_url": "https://codeforces.com/problemset/problem/598/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/598/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/598/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=598E%20Chocolate%20Bar%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF598E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF598E Chocolate Bar - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 339,
+    "mirror_attempt": 620,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

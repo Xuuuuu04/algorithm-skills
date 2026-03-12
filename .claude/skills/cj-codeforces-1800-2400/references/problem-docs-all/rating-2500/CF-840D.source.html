@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF840D Destiny - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF840D","type":"CF","title":"Destiny","difficulty":6,"tags":[],"wantsTranslation":false,"totalSubmit":3179,"totalAccepted":1209,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Destiny","background":null,"description":"\u6709\u4e00\u6b21\uff0cLeha \u5728\u5de6\u8fb9\u53e3\u888b\u91cc\u53d1\u73b0\u4e86\u4e00\u4e2a\u5305\u542b $n$ \u4e2a\u6574\u6570\u7684\u6570\u7ec4\uff0c\u5728\u53f3\u8fb9\u53e3\u888b\u91cc\u53d1\u73b0\u4e86 $q$ \u4e2a\u8be2\u95ee\uff0c\u6bcf\u4e2a\u8be2\u95ee\u7684\u5f62\u5f0f\u4e3a $l$ $r$ $k$\u3002\u5982\u679c\u6709\u8be2\u95ee\uff0c\u90a3\u4e48\u5fc5\u987b\u56de\u7b54\u3002\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u56de\u7b54\u7684\u662f\u6ee1\u8db3\u5728\u533a\u95f4 $l$ \u5230 $r$ \u4e2d\u51fa\u73b0\u6b21\u6570\u4e25\u683c\u5927\u4e8e $\\left\\lfloor \\frac{r-l+1}{k} \\right\\rfloor$ \u6b21\u7684\u6700\u5c0f $x$\uff0c\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u6570\u5b57\uff0c\u8f93\u51fa $-1$\u3002\u8bf7\u5e2e\u52a9 Leha \u5b8c\u6210\u8fd9\u4e2a\u56f0\u96be\u7684\u4efb\u52a1\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $q$\uff08$1 \\leq n, q \\leq 3 \\cdot 10^5$\uff09\uff0c\u5206\u522b\u8868\u793a\u6570\u7ec4\u7684\u5927\u5c0f\u548c\u8be2\u95ee\u7684\u4e2a\u6570\u3002\n\n\u4e0b\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq n$\uff09\uff0c\u8868\u793a Leha \u7684\u6570\u7ec4\u3002\n\n\u63a5\u4e0b\u6765\u7684 $q$ \u884c\u4e2d\uff0c\u6bcf\u884c\u5305\u542b\u4e09\u4e2a\u6574\u6570 $l$\u3001$r$ \u548c $k$\uff08$1 \\leq l \\leq r \\leq n, 2 \\leq k \\leq 5$\uff09\uff0c\u8868\u793a\u6bcf\u4e2a\u8be2\u95ee\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Destiny","background":"","description":"Once, Leha found in the left pocket an array consisting of $ n $ integers, and in the right pocket $ q $ queries of the form $ l $ $ r $ $ k $ . If there are queries, then they must be answered. Answer for the query is minimal $ x $ such that $ x $ occurs in the interval $ l $ $ r $ strictly more than ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF840D\/c2e8ec3f500434412245cc8e8d90787dc635e07f.png) times or $ -1 $ if there is no such number. Help Leha with such a difficult task.","formatI":"First line of input data contains two integers $ n $ and $ q $ ( $ 1\u003C=n,q\u003C=3 \\cdot 10^{5} $ ) \u2014 number of elements in the array and number of queries respectively.\n\nNext line contains $ n $ integers $ a_{1},a_{2},...,a_{n} $ ( $ 1\u003C=a_{i}\u003C=n $ ) \u2014 Leha\u0027s array.\n\nEach of next $ q $ lines contains three integers $ l $ , $ r $ and $ k $ ( $ 1\u003C=l\u003C=r\u003C=n,2\u003C=k\u003C=5 $ ) \u2014 description of the queries.","formatO":"Output answer for each query in new line.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4 2\n1 1 2 2\n1 3 2\n1 4 2\n","1\n-1\n"],["5 3\n1 2 1 3 2\n2 5 3\n1 2 3\n5 5 2\n","2\n1\n2\n"]],"limits":{"time":[2500],"memory":[512000]},"vjudge":{"id":"840D","link":"https:\/\/codeforces.com\/problemset\/problem\/840\/D"},"translation":"\u7ed9\u5b9a $n$ \u4e2a\u5143\u7d20\uff0c$q$ \u6b21\u8be2\u95ee\u3002\n\n\u6bcf\u6b21\u7ed9\u51fa\u4e09\u4e2a\u53c2\u6570 $l, r, k$\uff0c\u8be2\u95ee\u533a\u95f4 $[l, r]$ \u5185\u662f\u5426\u5b58\u5728\u51fa\u73b0\u6b21\u6570\u4e25\u683c\u5927\u4e8e $\\frac{r - l + 1} {k}$ \u7684\u6570\u3002\u5982\u679c\u5b58\u5728\u5c31\u8f93\u51fa\u6700\u5c0f\u7684\u90a3\u4e2a\u6570\uff0c\u5426\u5219\u8f93\u51fa $-1$\u3002\n\n$1\\leq n, q\\leq 3\\times 10 ^ 5$\uff0c$1\\leq a_i\\leq n$\uff0c$2\\leq k\\leq 5$\u3002"},"translations":{"en":{"name":"Destiny","background":"","description":"Once, Leha found in the left pocket an array consisting of $ n $ integers, and in the right pocket $ q $ queries of the form $ l $ $ r $ $ k $ . If there are queries, then they must be answered. Answer for the query is minimal $ x $ such that $ x $ occurs in the interval $ l $ $ r $ strictly more than ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF840D\/c2e8ec3f500434412245cc8e8d90787dc635e07f.png) times or $ -1 $ if there is no such number. Help Leha with such a difficult task.","formatI":"First line of input data contains two integers $ n $ and $ q $ ( $ 1\u003C=n,q\u003C=3 \\cdot 10^{5} $ ) \u2014 number of elements in the array and number of queries respectively.\n\nNext line contains $ n $ integers $ a_{1},a_{2},...,a_{n} $ ( $ 1\u003C=a_{i}\u003C=n $ ) \u2014 Leha\u0027s array.\n\nEach of next $ q $ lines contains three integers $ l $ , $ r $ and $ k $ ( $ 1\u003C=l\u003C=r\u003C=n,2\u003C=k\u003C=5 $ ) \u2014 description of the queries.","formatO":"Output answer for each query in new line.","hint":"","locale":"en"},"zh-CN":{"name":"Destiny","background":null,"description":"\u6709\u4e00\u6b21\uff0cLeha \u5728\u5de6\u8fb9\u53e3\u888b\u91cc\u53d1\u73b0\u4e86\u4e00\u4e2a\u5305\u542b $n$ \u4e2a\u6574\u6570\u7684\u6570\u7ec4\uff0c\u5728\u53f3\u8fb9\u53e3\u888b\u91cc\u53d1\u73b0\u4e86 $q$ \u4e2a\u8be2\u95ee\uff0c\u6bcf\u4e2a\u8be2\u95ee\u7684\u5f62\u5f0f\u4e3a $l$ $r$ $k$\u3002\u5982\u679c\u6709\u8be2\u95ee\uff0c\u90a3\u4e48\u5fc5\u987b\u56de\u7b54\u3002\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u56de\u7b54\u7684\u662f\u6ee1\u8db3\u5728\u533a\u95f4 $l$ \u5230 $r$ \u4e2d\u51fa\u73b0\u6b21\u6570\u4e25\u683c\u5927\u4e8e $\\left\\lfloor \\frac{r-l+1}{k} \\right\\rfloor$ \u6b21\u7684\u6700\u5c0f $x$\uff0c\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u6570\u5b57\uff0c\u8f93\u51fa $-1$\u3002\u8bf7\u5e2e\u52a9 Leha \u5b8c\u6210\u8fd9\u4e2a\u56f0\u96be\u7684\u4efb\u52a1\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $q$\uff08$1 \\leq n, q \\leq 3 \\cdot 10^5$\uff09\uff0c\u5206\u522b\u8868\u793a\u6570\u7ec4\u7684\u5927\u5c0f\u548c\u8be2\u95ee\u7684\u4e2a\u6570\u3002\n\n\u4e0b\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq n$\uff09\uff0c\u8868\u793a Leha \u7684\u6570\u7ec4\u3002\n\n\u63a5\u4e0b\u6765\u7684 $q$ \u884c\u4e2d\uff0c\u6bcf\u884c\u5305\u542b\u4e09\u4e2a\u6574\u6570 $l$\u3001$r$ \u548c $k$\uff08$1 \\leq l \\leq r \\leq n, 2 \\leq k \\leq 5$\uff09\uff0c\u8868\u793a\u6bcf\u4e2a\u8be2\u95ee\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF840D Destiny","type":2,"slug":"CF840D","color":"orange-3"},"discussions":[{"id":1172967,"title":"\u8b66\u793a\u540e\u4eba\uff1a\u6469\u5c14\u6295\u7968 RE on 5","author":{"uid":998906,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/998906.png","name":"Esucu","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/6l2s3jh1.png"},"time":1760450983},{"id":1170454,"title":"\u5982\u679c\u4f60\u5199\u7684\u56de\u6eda\u83ab\u961f\u590d\u6742\u5ea6\u5bf9\u4e86\u4f46\u8fd8\u662fT\u4e86","author":{"uid":1007305,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1007305.png","name":"Terry_RE","slogan":"\u534aAFO | \u65e0\u91d1\u94a9\u4e0d\u6539\u7b7e| \u65e0\u91d1\u94a9\u4e0d\u4eae\u52fe  | \u65e0\u4eba\u6276\u6211\u9752\u4e91\u5fd7\uff0c\u6211\u81ea\u8e0f\u96ea\u81f3\u5c71\u5dc5","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/kd0ablba.png"},"time":1760099199},{"id":1169649,"title":"\u4e94\u500d\u7ecf\u9a8c","author":{"uid":856004,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/856004.png","name":"Grammar_hbw","slogan":"jcer.rp=LONG_LONG_MAX;jcer.rp++; || \u7956\u5b97\u4e24\u884c\u6cea \/discuss\/898803","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1759971755},{"id":1169643,"title":"\u5206\u6cbb\u505a\u6cd5\u6c42\u52a9","author":{"uid":856004,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/856004.png","name":"Grammar_hbw","slogan":"jcer.rp=LONG_LONG_MAX;jcer.rp++; || \u7956\u5b97\u4e24\u884c\u6cea \/discuss\/898803","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1759969701},{"id":1034561,"title":"\u5982\u679c\u4f60\u6839\u53f7\u5206\u6cbbWAon10","author":{"uid":965685,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/965685.png","name":"yyrwlj","slogan":"\u636e\u7edf\u8ba1\uff0c\u6211\u76ee\u524d\u5927\u8d5b\u573a\u5207\u7684\u84dd\u7d2b\u9ed1\u6709\uff1a\u6eda\u6728","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/l8k9lokq.png"},"time":1736306526},{"id":791101,"title":"\u8bf7\u6c42\u6dfb\u52a0\u9898\u89e3","author":{"uid":993404,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/993404.png","name":"harmis_yz","slogan":"beiribaol | rrrrriiiieeee","badge":"","isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/57s2v3ru.png"},"time":1710328771}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.278671,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF840D Destiny","description":"\u6709\u4e00\u6b21\uff0cLeha \u5728\u5de6\u8fb9\u53e3\u888b\u91cc\u53d1\u73b0\u4e86\u4e00\u4e2a\u5305\u542b n \u4e2a\u6574\u6570\u7684\u6570\u7ec4\uff0c\u5728\u53f3\u8fb9\u53e3\u888b\u91cc\u53d1\u73b0\u4e86 q \u4e2a\u8be2\u95ee\uff0c\u6bcf\u4e2a\u8be2\u95ee\u7684\u5f62\u5f0f\u4e3a l r k\u3002\u5982\u679c\u6709\u8be2\u95ee\uff0c\u90a3\u4e48\u5fc5\u987b\u56de\u7b54\u3002\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u56de\u7b54\u7684\u662f\u6ee1\u8db3\u5728\u533a\u95f4 l \u5230 r \u4e2d\u51fa\u73b0\u6b21\u6570\u4e25\u683c\u5927\u4e8e \\left\\lfloor\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF840D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF840D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF840D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF840D Destiny" />
+    <meta property="og:description" content="有一次，Leha 在左边口袋里发现了一个包含 n 个整数的数组，在右边口袋里发现了 q 个询问，每个询问的形式为 l r k。如果有询问，那么必须回答。对于每个询问，回答的是满足在区间 l 到 r 中出现次数严格大于 \left\lfloor…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF840D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF840D Destiny</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有一次，Leha 在左边口袋里发现了一个包含 $n$ 个整数的数组，在右边口袋里发现了 $q$ 个询问，每个询问的形式为 $l$ $r$ $k$。如果有询问，那么必须回答。对于每个询问，回答的是满足在区间 $l$ 到 $r$ 中出现次数严格大于 $\left\lfloor \frac{r-l+1}{k} \right\rfloor$ 次的最小 $x$，如果不存在这样的数字，输出 $-1$。请帮助 Leha 完成这个困难的任务。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含两个整数 $n$ 和 $q$（$1 \leq n, q \leq 3 \cdot 10^5$），分别表示数组的大小和询问的个数。
+
+下一行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$1 \leq a_i \leq n$），表示 Leha 的数组。
+
+接下来的 $q$ 行中，每行包含三个整数 $l$、$r$ 和 $k$（$1 \leq l \leq r \leq n, 2 \leq k \leq 5$），表示每个询问。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个询问，输出一行答案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

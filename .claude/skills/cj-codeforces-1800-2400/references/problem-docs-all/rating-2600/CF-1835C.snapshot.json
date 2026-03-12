@@ -1,0 +1,38 @@
+{
+  "id": "CF-1835C",
+  "contest_id": 1835,
+  "index": "C",
+  "name": "Twin Clusters",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "constructive algorithms",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 1140,
+  "problem_url": "https://codeforces.com/problemset/problem/1835/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1835/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1835/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1835C%20Twin%20Clusters%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1835C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Twin Clusters - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "math",
+      "meet-in-the-middle",
+      "probabilities",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

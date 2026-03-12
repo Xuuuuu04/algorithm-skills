@@ -1,0 +1,43 @@
+{
+  "id": "CF-1968G1",
+  "contest_id": 1968,
+  "index": "G1",
+  "name": "Division + LCP (easy version)",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "hashing",
+    "string suffix structures",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1968/G1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1968/problem/G1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1968/problem/G1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1968G1%20Division + LCP (easy version)%20tutorial",
+  "solved_count": 5187,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1968G1",
+  "hydro_meta": {
+    "page_title": "Division + LCP (easy version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "hashing",
+      "string suffix structures",
+      "strings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

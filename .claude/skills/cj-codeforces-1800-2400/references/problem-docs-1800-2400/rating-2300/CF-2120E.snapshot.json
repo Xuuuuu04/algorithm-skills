@@ -1,0 +1,35 @@
+{
+  "id": "CF-2120E",
+  "contest_id": 2120,
+  "index": "E",
+  "name": "Lanes of Cars",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "dp",
+    "ternary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2120/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2120/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2120/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2120E%20Lanes of Cars%20tutorial",
+  "solved_count": 1785,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2120E",
+  "hydro_meta": {
+    "page_title": "Lanes of Cars - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "ternary search"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

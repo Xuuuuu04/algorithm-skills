@@ -1,0 +1,28 @@
+{
+  "id": "CF-125C",
+  "contest_id": 125,
+  "index": "C",
+  "name": "Hobbits' Party",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 1074,
+  "problem_url": "https://codeforces.com/problemset/problem/125/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/125/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/125/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=125C%20Hobbits%27%20Party%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/125/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 125C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

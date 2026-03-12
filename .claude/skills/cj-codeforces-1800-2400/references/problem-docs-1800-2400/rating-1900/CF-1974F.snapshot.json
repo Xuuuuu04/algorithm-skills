@@ -1,0 +1,42 @@
+{
+  "id": "CF-1974F",
+  "contest_id": 1974,
+  "index": "F",
+  "name": "Cutting Game",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "implementation",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1974/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1974/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1974/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1974F%20Cutting Game%20tutorial",
+  "solved_count": 4337,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1974F",
+  "hydro_meta": {
+    "page_title": "Cutting Game - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

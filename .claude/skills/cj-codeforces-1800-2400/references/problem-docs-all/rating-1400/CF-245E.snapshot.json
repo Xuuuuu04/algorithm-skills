@@ -1,0 +1,28 @@
+{
+  "id": "CF-245E",
+  "contest_id": 245,
+  "index": "E",
+  "name": "Mishap in Club",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 3506,
+  "problem_url": "https://codeforces.com/problemset/problem/245/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/245/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/245/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=245E%20Mishap%20in%20Club%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/245/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 245E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CF-1416B",
+  "contest_id": 1416,
+  "index": "B",
+  "name": "Make Them Equal",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1416/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1416/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1416/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1416B%20Make Them Equal%20tutorial",
+  "solved_count": 6633,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1416B",
+  "hydro_meta": {
+    "page_title": "Make Them Equal - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

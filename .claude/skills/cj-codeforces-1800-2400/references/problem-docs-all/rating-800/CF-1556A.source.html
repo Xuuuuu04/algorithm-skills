@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1556A A Variety of Operations - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1556A","type":"CF","title":"A Variety of Operations","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":320,"totalAccepted":248,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"A Variety of Operations","background":null,"description":"![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1556A\/5428dff7add309271d42dab51ff349469f968da9.png)William \u4e00\u5f00\u59cb\u6709\u4e24\u4e2a\u6570 $a$ \u548c $b$\uff0c\u5b83\u4eec\u7684\u521d\u59cb\u503c\u90fd\u4e3a $0$\u3002William \u5f88\u5feb\u638c\u63e1\u4e86\u5bf9\u8fd9\u4e24\u4e2a\u6570\u8fdb\u884c\u4e09\u79cd\u4e0d\u540c\u64cd\u4f5c\u7684\u65b9\u6cd5\u3002\u5728\u6bcf\u6b21\u64cd\u4f5c\u524d\uff0c\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u6b63\u6574\u6570 $k$\uff0c\u7136\u540e\u7528\u5b83\u8fdb\u884c\u4ee5\u4e0b\u4e09\u79cd\u64cd\u4f5c\u4e4b\u4e00\uff08\u6ce8\u610f\uff0c\u6bcf\u6b21\u64cd\u4f5c\u90fd\u53ef\u4ee5\u9009\u62e9\u65b0\u7684\u6b63\u6574\u6570 $k$\uff09\uff1a\n\n1. \u5c06 $k$ \u52a0\u5230 $a$ \u548c $b$ \u4e0a\uff1b\n2. \u5c06 $k$ \u52a0\u5230 $a$ \u4e0a\uff0c\u540c\u65f6\u4ece $b$ \u4e2d\u51cf\u53bb $k$\uff1b\n3. \u5c06 $k$ \u52a0\u5230 $b$ \u4e0a\uff0c\u540c\u65f6\u4ece $a$ \u4e2d\u51cf\u53bb $k$\u3002\n\n\u6ce8\u610f\uff0c\u64cd\u4f5c\u540e\uff0c$a$ \u548c $b$ \u53ef\u80fd\u53d8\u4e3a\u8d1f\u6570\u3002\n\nWilliam \u60f3\u77e5\u9053\uff0c\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u624d\u80fd\u4f7f $a$ \u53d8\u4e3a\u4ed6\u6700\u559c\u6b22\u7684\u6570\u5b57 $c$\uff0c$b$ \u53d8\u4e3a\u4ed6\u7b2c\u4e8c\u559c\u6b22\u7684\u6570\u5b57 $d$\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5360\u4e00\u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $c$ \u548c $d$\uff08$0 \\le c, d \\le 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a William \u6700\u559c\u6b22\u7684\u6570\u5b57\u548c\u7b2c\u4e8c\u559c\u6b22\u7684\u6570\u5b57\uff0c\u4ed6\u5e0c\u671b\u5c06 $a$ \u548c $b$ \u53d8\u6210\u8fd9\u4e24\u4e2a\u6570\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06 $a$ \u53d8\u4e3a $c$\uff0c$b$ \u53d8\u4e3a $d$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002\u5982\u679c\u65e0\u6cd5\u901a\u8fc7\u4e0a\u8ff0\u64cd\u4f5c\u5b9e\u73b0\uff0c\u8f93\u51fa $-1$\u3002","hint":"\u4e0b\u9762\u6f14\u793a\u4e00\u79cd\u975e\u6700\u4f18\u7684\u5c06 $(0, 0)$ \u53d8\u4e3a $(3, 5)$ \u7684\u65b9\u6848\uff1a\n\n- \u4f7f\u7528\u7b2c\u4e00\u79cd\u64cd\u4f5c\uff0c$k=1$\uff0c\u5f53\u524d\u5bf9\u53d8\u4e3a $(1, 1)$\u3002\n- \u4f7f\u7528\u7b2c\u4e09\u79cd\u64cd\u4f5c\uff0c$k=8$\uff0c\u5f53\u524d\u5bf9\u53d8\u4e3a $(-7, 9)$\u3002\n- \u4f7f\u7528\u7b2c\u4e8c\u79cd\u64cd\u4f5c\uff0c$k=7$\uff0c\u5f53\u524d\u5bf9\u53d8\u4e3a $(0, 2)$\u3002\n- \u4f7f\u7528\u7b2c\u4e00\u79cd\u64cd\u4f5c\uff0c$k=3$\uff0c\u5f53\u524d\u5bf9\u53d8\u4e3a $(3, 5)$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"A Variety of Operations","background":"","description":"![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1556A\/5428dff7add309271d42dab51ff349469f968da9.png)William has two numbers $ a $ and $ b $ initially both equal to zero. William mastered performing three different operations with them quickly. Before performing each operation some positive integer $ k $ is picked, which is then used to perform one of the following operations: (note, that for each operation you can choose a new positive integer $ k $ )\n\n1. add number $ k $ to both $ a $ and $ b $ , or\n2. add number $ k $ to $ a $ and subtract $ k $ from $ b $ , or\n3. add number $ k $ to $ b $ and subtract $ k $ from $ a $ .\n\nNote that after performing operations, numbers $ a $ and $ b $ may become negative as well.\n\nWilliam wants to find out the minimal number of operations he would have to perform to make $ a $ equal to his favorite number $ c $ and $ b $ equal to his second favorite number $ d $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). Description of the test cases follows.\n\nThe only line of each test case contains two integers $ c $ and $ d $ $ (0 \\le c, d \\le 10^9) $ , which are William\u0027s favorite numbers and which he wants $ a $ and $ b $ to be transformed into.","formatO":"For each test case output a single number, which is the minimal number of operations which William would have to perform to make $ a $ equal to $ c $ and $ b $ equal to $ d $ , or $ -1 $ if it is impossible to achieve this using the described operations.","hint":"Let us demonstrate one of the suboptimal ways of getting a pair $ (3, 5) $ :\n\n- Using an operation of the first type with $ k=1 $ , the current pair would be equal to $ (1, 1) $ .\n- Using an operation of the third type with $ k=8 $ , the current pair would be equal to $ (-7, 9) $ .\n- Using an operation of the second type with $ k=7 $ , the current pair would be equal to $ (0, 2) $ .\n- Using an operation of the first type with $ k=3 $ , the current pair would be equal to $ (3, 5) $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n1 2\n3 5\n5 3\n6 6\n8 0\n0 0","-1\n2\n2\n1\n2\n0"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1556A","link":"https:\/\/codeforces.com\/problemset\/problem\/1556\/A"},"translation":"\u6709\u4e24\u4e2a\u6570 $a,b$ \u5728\u4e00\u5f00\u59cb\u5747\u4e3a $0$\u3002\u73b0\u5728\u6bcf\u4e00\u6b65\u4efb\u9009\u6b63\u6574\u6570 $k$ \u8fdb\u884c\u5982\u4e0b\u4e09\u79cd\u64cd\u4f5c\u4e4b\u4e00\uff1a  \n+ \u5c06 $a,b$ \u540c\u65f6\u52a0\u4e0a $k$\n+ \u5c06 $a$ \u52a0\u4e0a $k$\uff0c\u540c\u65f6\u5c06 $b$ \u51cf\u53bb $k$  \n+ \u5c06 $b$ \u52a0\u4e0a $k$\uff0c\u540c\u65f6\u5c06 $a$ \u51cf\u53bb $k$  \n\n\u73b0\u5728\u7ed9\u51fa $t$ \u7ec4\u8be2\u95ee\uff0c\u6bcf\u7ec4\u8be2\u95ee\u7ed9\u51fa $c,d$\uff0c\u6c42\u51fa\u4f7f $a=c$ \u4e14 $b=d$ \u9700\u8981\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\uff0c\u82e5\u4e0d\u53ef\u80fd\u5219\u8f93\u51fa `-1`\u3002"},"translations":{"en":{"name":"A Variety of Operations","background":"","description":"![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1556A\/5428dff7add309271d42dab51ff349469f968da9.png)William has two numbers $ a $ and $ b $ initially both equal to zero. William mastered performing three different operations with them quickly. Before performing each operation some positive integer $ k $ is picked, which is then used to perform one of the following operations: (note, that for each operation you can choose a new positive integer $ k $ )\n\n1. add number $ k $ to both $ a $ and $ b $ , or\n2. add number $ k $ to $ a $ and subtract $ k $ from $ b $ , or\n3. add number $ k $ to $ b $ and subtract $ k $ from $ a $ .\n\nNote that after performing operations, numbers $ a $ and $ b $ may become negative as well.\n\nWilliam wants to find out the minimal number of operations he would have to perform to make $ a $ equal to his favorite number $ c $ and $ b $ equal to his second favorite number $ d $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). Description of the test cases follows.\n\nThe only line of each test case contains two integers $ c $ and $ d $ $ (0 \\le c, d \\le 10^9) $ , which are William\u0027s favorite numbers and which he wants $ a $ and $ b $ to be transformed into.","formatO":"For each test case output a single number, which is the minimal number of operations which William would have to perform to make $ a $ equal to $ c $ and $ b $ equal to $ d $ , or $ -1 $ if it is impossible to achieve this using the described operations.","hint":"Let us demonstrate one of the suboptimal ways of getting a pair $ (3, 5) $ :\n\n- Using an operation of the first type with $ k=1 $ , the current pair would be equal to $ (1, 1) $ .\n- Using an operation of the third type with $ k=8 $ , the current pair would be equal to $ (-7, 9) $ .\n- Using an operation of the second type with $ k=7 $ , the current pair would be equal to $ (0, 2) $ .\n- Using an operation of the first type with $ k=3 $ , the current pair would be equal to $ (3, 5) $ .","locale":"en"},"zh-CN":{"name":"A Variety of Operations","background":null,"description":"![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1556A\/5428dff7add309271d42dab51ff349469f968da9.png)William \u4e00\u5f00\u59cb\u6709\u4e24\u4e2a\u6570 $a$ \u548c $b$\uff0c\u5b83\u4eec\u7684\u521d\u59cb\u503c\u90fd\u4e3a $0$\u3002William \u5f88\u5feb\u638c\u63e1\u4e86\u5bf9\u8fd9\u4e24\u4e2a\u6570\u8fdb\u884c\u4e09\u79cd\u4e0d\u540c\u64cd\u4f5c\u7684\u65b9\u6cd5\u3002\u5728\u6bcf\u6b21\u64cd\u4f5c\u524d\uff0c\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u6b63\u6574\u6570 $k$\uff0c\u7136\u540e\u7528\u5b83\u8fdb\u884c\u4ee5\u4e0b\u4e09\u79cd\u64cd\u4f5c\u4e4b\u4e00\uff08\u6ce8\u610f\uff0c\u6bcf\u6b21\u64cd\u4f5c\u90fd\u53ef\u4ee5\u9009\u62e9\u65b0\u7684\u6b63\u6574\u6570 $k$\uff09\uff1a\n\n1. \u5c06 $k$ \u52a0\u5230 $a$ \u548c $b$ \u4e0a\uff1b\n2. \u5c06 $k$ \u52a0\u5230 $a$ \u4e0a\uff0c\u540c\u65f6\u4ece $b$ \u4e2d\u51cf\u53bb $k$\uff1b\n3. \u5c06 $k$ \u52a0\u5230 $b$ \u4e0a\uff0c\u540c\u65f6\u4ece $a$ \u4e2d\u51cf\u53bb $k$\u3002\n\n\u6ce8\u610f\uff0c\u64cd\u4f5c\u540e\uff0c$a$ \u548c $b$ \u53ef\u80fd\u53d8\u4e3a\u8d1f\u6570\u3002\n\nWilliam \u60f3\u77e5\u9053\uff0c\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u624d\u80fd\u4f7f $a$ \u53d8\u4e3a\u4ed6\u6700\u559c\u6b22\u7684\u6570\u5b57 $c$\uff0c$b$ \u53d8\u4e3a\u4ed6\u7b2c\u4e8c\u559c\u6b22\u7684\u6570\u5b57 $d$\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5360\u4e00\u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $c$ \u548c $d$\uff08$0 \\le c, d \\le 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a William \u6700\u559c\u6b22\u7684\u6570\u5b57\u548c\u7b2c\u4e8c\u559c\u6b22\u7684\u6570\u5b57\uff0c\u4ed6\u5e0c\u671b\u5c06 $a$ \u548c $b$ \u53d8\u6210\u8fd9\u4e24\u4e2a\u6570\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06 $a$ \u53d8\u4e3a $c$\uff0c$b$ \u53d8\u4e3a $d$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002\u5982\u679c\u65e0\u6cd5\u901a\u8fc7\u4e0a\u8ff0\u64cd\u4f5c\u5b9e\u73b0\uff0c\u8f93\u51fa $-1$\u3002","hint":"\u4e0b\u9762\u6f14\u793a\u4e00\u79cd\u975e\u6700\u4f18\u7684\u5c06 $(0, 0)$ \u53d8\u4e3a $(3, 5)$ \u7684\u65b9\u6848\uff1a\n\n- \u4f7f\u7528\u7b2c\u4e00\u79cd\u64cd\u4f5c\uff0c$k=1$\uff0c\u5f53\u524d\u5bf9\u53d8\u4e3a $(1, 1)$\u3002\n- \u4f7f\u7528\u7b2c\u4e09\u79cd\u64cd\u4f5c\uff0c$k=8$\uff0c\u5f53\u524d\u5bf9\u53d8\u4e3a $(-7, 9)$\u3002\n- \u4f7f\u7528\u7b2c\u4e8c\u79cd\u64cd\u4f5c\uff0c$k=7$\uff0c\u5f53\u524d\u5bf9\u53d8\u4e3a $(0, 2)$\u3002\n- \u4f7f\u7528\u7b2c\u4e00\u79cd\u64cd\u4f5c\uff0c$k=3$\uff0c\u5f53\u524d\u5bf9\u53d8\u4e3a $(3, 5)$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1556A A Variety of Operations","type":2,"slug":"CF1556A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.398477,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1556A A Variety of Operations","description":"William \u4e00\u5f00\u59cb\u6709\u4e24\u4e2a\u6570 a \u548c b\uff0c\u5b83\u4eec\u7684\u521d\u59cb\u503c\u90fd\u4e3a 0\u3002William \u5f88\u5feb\u638c\u63e1\u4e86\u5bf9\u8fd9\u4e24\u4e2a\u6570\u8fdb\u884c\u4e09\u79cd\u4e0d\u540c\u64cd\u4f5c\u7684\u65b9\u6cd5\u3002\u5728\u6bcf\u6b21\u64cd\u4f5c\u524d\uff0c\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u6b63\u6574\u6570 k\uff0c\u7136\u540e\u7528\u5b83\u8fdb\u884c\u4ee5\u4e0b\u4e09\u79cd\u64cd\u4f5c\u4e4b\u4e00\uff08\u6ce8\u610f\uff0c\u6bcf\u6b21\u64cd\u4f5c\u90fd\u53ef\u4ee5\u9009\u62e9\u65b0\u7684\u6b63\u6574\u6570 k\uff09\uff1a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1556A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1556A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1556A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1556A A Variety of Operations" />
+    <meta property="og:description" content="William 一开始有两个数 a 和 b，它们的初始值都为 0。William 很快掌握了对这两个数进行三种不同操作的方法。在每次操作前，可以选择一个正整数 k，然后用它进行以下三种操作之一（注意，每次操作都可以选择新的正整数 k）：…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1556A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1556A A Variety of Operations</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    ![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1556A/5428dff7add309271d42dab51ff349469f968da9.png)William 一开始有两个数 $a$ 和 $b$，它们的初始值都为 $0$。William 很快掌握了对这两个数进行三种不同操作的方法。在每次操作前，可以选择一个正整数 $k$，然后用它进行以下三种操作之一（注意，每次操作都可以选择新的正整数 $k$）：
+
+1. 将 $k$ 加到 $a$ 和 $b$ 上；
+2. 将 $k$ 加到 $a$ 上，同时从 $b$ 中减去 $k$；
+3. 将 $k$ 加到 $b$ 上，同时从 $a$ 中减去 $k$。
+
+注意，操作后，$a$ 和 $b$ 可能变为负数。
+
+William 想知道，最少需要多少次操作，才能使 $a$ 变为他最喜欢的数字 $c$，$b$ 变为他第二喜欢的数字 $d$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每组测试数据包含多个测试用例。第一行包含一个整数 $t$（$1 \le t \le 10^4$），表示测试用例的数量。
+
+接下来每个测试用例占一行，每行包含两个整数 $c$ 和 $d$（$0 \le c, d \le 10^9$），分别表示 William 最喜欢的数字和第二喜欢的数字，他希望将 $a$ 和 $b$ 变成这两个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示将 $a$ 变为 $c$，$b$ 变为 $d$ 所需的最少操作次数。如果无法通过上述操作实现，输出 $-1$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                下面演示一种非最优的将 $(0, 0)$ 变为 $(3, 5)$ 的方案：
+
+- 使用第一种操作，$k=1$，当前对变为 $(1, 1)$。
+- 使用第三种操作，$k=8$，当前对变为 $(-7, 9)$。
+- 使用第二种操作，$k=7$，当前对变为 $(0, 2)$。
+- 使用第一种操作，$k=3$，当前对变为 $(3, 5)$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "id": "CF-465A",
+  "contest_id": 465,
+  "index": "A",
+  "name": "inc ARG",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 10396,
+  "problem_url": "https://codeforces.com/problemset/problem/465/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/465/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/465/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=465A%20inc%20ARG%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P465A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "inc ARG - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

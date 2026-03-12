@@ -1,0 +1,28 @@
+{
+  "id": "CF-432E",
+  "contest_id": 432,
+  "index": "E",
+  "name": "Square Tiling",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 790,
+  "problem_url": "https://codeforces.com/problemset/problem/432/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/432/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/432/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=432E%20Square%20Tiling%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/432/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 432E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-712A",
+  "contest_id": 712,
+  "index": "A",
+  "name": "Memory and Crow",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 12536,
+  "problem_url": "https://codeforces.com/problemset/problem/712/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/712/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/712/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=712A%20Memory%20and%20Crow%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF712A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF712A Memory and Crow - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 185,
+    "mirror_attempt": 358,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

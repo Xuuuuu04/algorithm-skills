@@ -1,0 +1,38 @@
+{
+  "id": "CF-754C",
+  "contest_id": 754,
+  "index": "C",
+  "name": "Vladik and chat",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 1071,
+  "problem_url": "https://codeforces.com/problemset/problem/754/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/754/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/754/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=754C%20Vladik%20and%20chat%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P754C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vladik and chat - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "implementation",
+      "strings",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

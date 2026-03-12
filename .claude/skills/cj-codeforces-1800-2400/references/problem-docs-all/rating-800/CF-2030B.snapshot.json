@@ -1,0 +1,30 @@
+{
+  "id": "CF-2030B",
+  "contest_id": 2030,
+  "index": "B",
+  "name": "Minimise Oneness",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "games",
+    "math"
+  ],
+  "solved_count": 23472,
+  "problem_url": "https://codeforces.com/problemset/problem/2030/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2030/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2030/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2030B%20Minimise%20Oneness%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2030/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2030B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-2064C",
+  "contest_id": 2064,
+  "index": "C",
+  "name": "Remove the Ends",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 17475,
+  "problem_url": "https://codeforces.com/problemset/problem/2064/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2064/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2064/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2064C%20Remove%20the%20Ends%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2064/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2064C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

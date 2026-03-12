@@ -1,0 +1,27 @@
+{
+  "id": "CF-1099A",
+  "contest_id": 1099,
+  "index": "A",
+  "name": "Snowball",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 13308,
+  "problem_url": "https://codeforces.com/problemset/problem/1099/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1099/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1099/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1099A%20Snowball%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1099A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1099A Snowball - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 155,
+    "mirror_attempt": 238,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

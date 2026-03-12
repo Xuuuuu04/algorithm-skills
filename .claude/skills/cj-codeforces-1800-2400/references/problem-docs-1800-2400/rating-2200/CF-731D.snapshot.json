@@ -1,0 +1,38 @@
+{
+  "id": "CF-731D",
+  "contest_id": 731,
+  "index": "D",
+  "name": "80-th Level Archeology",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/731/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/731/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/731/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=731D%2080-th Level Archeology%20tutorial",
+  "solved_count": 1265,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P731D",
+  "hydro_meta": {
+    "page_title": "80-th Level Archeology - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "sortings",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

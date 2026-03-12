@@ -1,0 +1,35 @@
+{
+  "id": "CF-1969D",
+  "contest_id": 1969,
+  "index": "D",
+  "name": "Shop Game",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 5626,
+  "problem_url": "https://codeforces.com/problemset/problem/1969/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1969/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1969/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1969D%20Shop%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1969D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Shop Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

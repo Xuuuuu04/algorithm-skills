@@ -1,0 +1,32 @@
+{
+  "id": "CF-710F",
+  "contest_id": 710,
+  "index": "F",
+  "name": "String Set Queries",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "hashing",
+    "interactive",
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 2444,
+  "problem_url": "https://codeforces.com/problemset/problem/710/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/710/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/710/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=710F%20String%20Set%20Queries%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/710/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 710F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "768 megabytes"
+  }
+}

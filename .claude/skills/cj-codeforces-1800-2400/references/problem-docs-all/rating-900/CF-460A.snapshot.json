@@ -1,0 +1,34 @@
+{
+  "id": "CF-460A",
+  "contest_id": 460,
+  "index": "A",
+  "name": "Vasya and Socks",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 51567,
+  "problem_url": "https://codeforces.com/problemset/problem/460/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/460/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/460/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=460A%20Vasya%20and%20Socks%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P460A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vasya and Socks - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CF-1681D",
+  "contest_id": 1681,
+  "index": "D",
+  "name": "Required Length",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "dp",
+    "hashing",
+    "shortest paths"
+  ],
+  "solved_count": 10681,
+  "problem_url": "https://codeforces.com/problemset/problem/1681/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1681/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1681/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1681D%20Required%20Length%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1681D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Required Length - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "hashing",
+      "shortest paths"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "CF-2021E1",
+  "contest_id": 2021,
+  "index": "E1",
+  "name": "Digital Village (Easy Version)",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "dsu",
+    "fft",
+    "graphs",
+    "greedy",
+    "implementation",
+    "math",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2021/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2021/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2021/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2021E1%20Digital Village (Easy Version)%20tutorial",
+  "solved_count": 1891,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2021E1",
+  "hydro_meta": {
+    "page_title": "Digital Village (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "fft",
+      "graphs",
+      "greedy",
+      "implementation",
+      "math",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

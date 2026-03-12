@@ -1,0 +1,28 @@
+{
+  "id": "CF-840D",
+  "contest_id": 840,
+  "index": "D",
+  "name": "Destiny",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "probabilities"
+  ],
+  "solved_count": 3882,
+  "problem_url": "https://codeforces.com/problemset/problem/840/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/840/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/840/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=840D%20Destiny%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF840D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF840D Destiny - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1209,
+    "mirror_attempt": 3179,
+    "time_limit": "2500 ms",
+    "memory_limit": "512000 KB"
+  }
+}

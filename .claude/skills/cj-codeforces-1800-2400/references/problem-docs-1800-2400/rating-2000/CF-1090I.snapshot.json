@@ -1,0 +1,24 @@
+{
+  "id": "CF-1090I",
+  "contest_id": 1090,
+  "index": "I",
+  "name": "Minimal Product",
+  "rating": 2000,
+  "tags": [],
+  "url": "https://codeforces.com/problemset/problem/1090/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1090/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1090/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1090I%20Minimal Product%20tutorial",
+  "solved_count": 1174,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1090I",
+  "hydro_meta": {
+    "page_title": "__NO_TITLE__ - 题目详情 - Hydro",
+    "hydro_tags": [],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-653B",
+  "contest_id": 653,
+  "index": "B",
+  "name": "Bear and Compressing",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "dp",
+    "strings"
+  ],
+  "solved_count": 5304,
+  "problem_url": "https://codeforces.com/problemset/problem/653/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/653/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/653/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=653B%20Bear%20and%20Compressing%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P653B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bear and Compressing - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "strings",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

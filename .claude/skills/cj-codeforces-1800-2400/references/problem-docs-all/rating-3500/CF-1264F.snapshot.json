@@ -1,0 +1,28 @@
+{
+  "id": "CF-1264F",
+  "contest_id": 1264,
+  "index": "F",
+  "name": "Beautiful Fibonacci Problem",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "constructive algorithms",
+    "number theory"
+  ],
+  "solved_count": 1082,
+  "problem_url": "https://codeforces.com/problemset/problem/1264/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1264/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1264/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1264F%20Beautiful%20Fibonacci%20Problem%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1264/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1264F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

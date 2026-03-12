@@ -1,0 +1,34 @@
+{
+  "id": "CF-2050C",
+  "contest_id": 2050,
+  "index": "C",
+  "name": "Uninteresting Number",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp",
+    "math"
+  ],
+  "solved_count": 24622,
+  "problem_url": "https://codeforces.com/problemset/problem/2050/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2050/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2050/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2050C%20Uninteresting%20Number%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2050C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Uninteresting Number - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dp",
+      "math",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

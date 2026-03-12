@@ -1,0 +1,28 @@
+{
+  "id": "CF-2062B",
+  "contest_id": 2062,
+  "index": "B",
+  "name": "Clockwork",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 23396,
+  "problem_url": "https://codeforces.com/problemset/problem/2062/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2062/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2062/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2062B%20Clockwork%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2062/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2062B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

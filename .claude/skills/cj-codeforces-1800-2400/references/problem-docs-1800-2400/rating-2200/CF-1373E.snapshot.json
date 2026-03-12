@@ -1,0 +1,39 @@
+{
+  "id": "CF-1373E",
+  "contest_id": 1373,
+  "index": "E",
+  "name": "Sum of Digits",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1373/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1373/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1373/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1373E%20Sum of Digits%20tutorial",
+  "solved_count": 2927,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1373E",
+  "hydro_meta": {
+    "page_title": "Sum of Digits - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

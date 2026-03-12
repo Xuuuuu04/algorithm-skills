@@ -1,0 +1,36 @@
+{
+  "id": "CF-1092D1",
+  "contest_id": 1092,
+  "index": "D1",
+  "name": "Great Vova Wall (Version 1)",
+  "rating": 2200,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1092/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1092/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1092/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1092D1%20Great Vova Wall (Version 1)%20tutorial",
+  "solved_count": 5583,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1092D1",
+  "hydro_meta": {
+    "page_title": "Great Vova Wall (Version 1) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

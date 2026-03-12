@@ -1,0 +1,32 @@
+{
+  "id": "CF-725E",
+  "contest_id": 725,
+  "index": "E",
+  "name": "Too Much Money",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "brute force",
+    "greedy"
+  ],
+  "solved_count": 704,
+  "problem_url": "https://codeforces.com/problemset/problem/725/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/725/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/725/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=725E%20Too%20Much%20Money%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P725E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Too Much Money - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

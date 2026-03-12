@@ -1,0 +1,27 @@
+{
+  "id": "CF-1106A",
+  "contest_id": 1106,
+  "index": "A",
+  "name": "Lunar New Year and Cross Counting",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 12822,
+  "problem_url": "https://codeforces.com/problemset/problem/1106/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1106/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1106/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1106A%20Lunar%20New%20Year%20and%20Cross%20Counting%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1106A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1106A Lunar New Year and Cross Counting - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 303,
+    "mirror_attempt": 430,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

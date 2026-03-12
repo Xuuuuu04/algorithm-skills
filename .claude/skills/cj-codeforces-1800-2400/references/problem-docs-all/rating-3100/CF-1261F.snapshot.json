@@ -1,0 +1,34 @@
+{
+  "id": "CF-1261F",
+  "contest_id": 1261,
+  "index": "F",
+  "name": "Xor-Set",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks",
+    "divide and conquer",
+    "math"
+  ],
+  "solved_count": 439,
+  "problem_url": "https://codeforces.com/problemset/problem/1261/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1261/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1261/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1261F%20Xor-Set%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1261F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Xor-Set - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "divide and conquer",
+      "math",
+      "*3100"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

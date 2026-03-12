@@ -1,0 +1,27 @@
+{
+  "id": "CF-658A",
+  "contest_id": 658,
+  "index": "A",
+  "name": "Bear and Reverse Radewoosh",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 7618,
+  "problem_url": "https://codeforces.com/problemset/problem/658/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/658/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/658/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=658A%20Bear%20and%20Reverse%20Radewoosh%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF658A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF658A Bear and Reverse Radewoosh - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 74,
+    "mirror_attempt": 149,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

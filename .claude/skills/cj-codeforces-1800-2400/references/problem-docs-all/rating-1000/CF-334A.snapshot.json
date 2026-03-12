@@ -1,0 +1,30 @@
+{
+  "id": "CF-334A",
+  "contest_id": 334,
+  "index": "A",
+  "name": "Candy Bags",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 19929,
+  "problem_url": "https://codeforces.com/problemset/problem/334/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/334/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/334/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=334A%20Candy%20Bags%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P334A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Candy Bags - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

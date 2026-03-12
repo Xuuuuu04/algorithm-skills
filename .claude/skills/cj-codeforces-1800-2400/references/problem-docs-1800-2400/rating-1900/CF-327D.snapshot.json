@@ -1,0 +1,36 @@
+{
+  "id": "CF-327D",
+  "contest_id": 327,
+  "index": "D",
+  "name": "Block Tower",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/327/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/327/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/327/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=327D%20Block Tower%20tutorial",
+  "solved_count": 2485,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P327D",
+  "hydro_meta": {
+    "page_title": "Block Tower - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

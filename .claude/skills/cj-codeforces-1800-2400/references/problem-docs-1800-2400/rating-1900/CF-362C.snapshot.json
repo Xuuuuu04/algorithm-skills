@@ -1,0 +1,39 @@
+{
+  "id": "CF-362C",
+  "contest_id": 362,
+  "index": "C",
+  "name": "Insertion Sort",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "dp",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/362/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/362/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/362/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=362C%20Insertion Sort%20tutorial",
+  "solved_count": 2000,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P362C",
+  "hydro_meta": {
+    "page_title": "Insertion Sort - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

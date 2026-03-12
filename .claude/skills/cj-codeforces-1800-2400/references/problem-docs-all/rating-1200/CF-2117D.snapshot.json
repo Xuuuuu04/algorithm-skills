@@ -1,0 +1,33 @@
+{
+  "id": "CF-2117D",
+  "contest_id": 2117,
+  "index": "D",
+  "name": "Retaliation",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 21652,
+  "problem_url": "https://codeforces.com/problemset/problem/2117/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2117/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2117/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2117D%20Retaliation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2117D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Retaliation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

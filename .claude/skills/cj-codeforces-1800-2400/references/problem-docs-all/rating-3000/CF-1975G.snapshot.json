@@ -1,0 +1,30 @@
+{
+  "id": "CF-1975G",
+  "contest_id": 1975,
+  "index": "G",
+  "name": "Zimpha Fan Club",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "fft",
+    "greedy",
+    "math",
+    "strings"
+  ],
+  "solved_count": 335,
+  "problem_url": "https://codeforces.com/problemset/problem/1975/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1975/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1975/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1975G%20Zimpha%20Fan%20Club%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1975G",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1975G Zimpha Fan Club - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 43,
+    "mirror_attempt": 120,
+    "time_limit": "12000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

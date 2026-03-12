@@ -1,0 +1,37 @@
+{
+  "id": "CF-1948C",
+  "contest_id": 1948,
+  "index": "C",
+  "name": "Arrow Path",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 20704,
+  "problem_url": "https://codeforces.com/problemset/problem/1948/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1948/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1948/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1948C%20Arrow%20Path%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1948C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Arrow Path - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "shortest paths"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

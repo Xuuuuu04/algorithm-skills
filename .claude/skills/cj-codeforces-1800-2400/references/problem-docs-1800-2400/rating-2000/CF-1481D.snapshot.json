@@ -1,0 +1,41 @@
+{
+  "id": "CF-1481D",
+  "contest_id": 1481,
+  "index": "D",
+  "name": "AB Graph",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "graphs",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1481/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1481/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1481/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1481D%20AB Graph%20tutorial",
+  "solved_count": 4828,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1481D",
+  "hydro_meta": {
+    "page_title": "AB Graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

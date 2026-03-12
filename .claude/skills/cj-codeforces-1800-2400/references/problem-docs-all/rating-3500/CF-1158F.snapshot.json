@@ -1,0 +1,28 @@
+{
+  "id": "CF-1158F",
+  "contest_id": 1158,
+  "index": "F",
+  "name": "Density of subarrays",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "dp",
+    "math"
+  ],
+  "solved_count": 497,
+  "problem_url": "https://codeforces.com/problemset/problem/1158/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1158/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1158/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1158F%20Density%20of%20subarrays%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1158/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1158F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "6 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

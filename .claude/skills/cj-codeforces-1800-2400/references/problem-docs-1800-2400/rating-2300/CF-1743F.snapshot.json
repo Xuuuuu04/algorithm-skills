@@ -1,0 +1,39 @@
+{
+  "id": "CF-1743F",
+  "contest_id": 1743,
+  "index": "F",
+  "name": "Intersection and Union",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "dp",
+    "matrices",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1743/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1743/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1743/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1743F%20Intersection and Union%20tutorial",
+  "solved_count": 1775,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1743F",
+  "hydro_meta": {
+    "page_title": "Intersection and Union - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "data structures",
+      "dp",
+      "math",
+      "matrices",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "512MiB"
+  }
+}

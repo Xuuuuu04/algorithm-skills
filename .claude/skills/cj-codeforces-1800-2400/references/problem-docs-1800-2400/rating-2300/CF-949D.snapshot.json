@@ -1,0 +1,38 @@
+{
+  "id": "CF-949D",
+  "contest_id": 949,
+  "index": "D",
+  "name": "Curfew",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "brute force",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/949/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/949/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/949/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=949D%20Curfew%20tutorial",
+  "solved_count": 869,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P949D",
+  "hydro_meta": {
+    "page_title": "Curfew - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "sortings",
+      "*2300"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

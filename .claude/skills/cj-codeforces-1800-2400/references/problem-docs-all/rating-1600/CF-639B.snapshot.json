@@ -1,0 +1,29 @@
+{
+  "id": "CF-639B",
+  "contest_id": 639,
+  "index": "B",
+  "name": "Bear and Forgotten Tree 3",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 6940,
+  "problem_url": "https://codeforces.com/problemset/problem/639/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/639/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/639/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=639B%20Bear%20and%20Forgotten%20Tree%203%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/639/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 639B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

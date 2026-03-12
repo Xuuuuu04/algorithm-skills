@@ -1,0 +1,29 @@
+{
+  "id": "CF-938D",
+  "contest_id": 938,
+  "index": "D",
+  "name": "Buy a Ticket",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 6835,
+  "problem_url": "https://codeforces.com/problemset/problem/938/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/938/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/938/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=938D%20Buy%20a%20Ticket%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF938D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF938D Buy a Ticket - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 967,
+    "mirror_attempt": 3478,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

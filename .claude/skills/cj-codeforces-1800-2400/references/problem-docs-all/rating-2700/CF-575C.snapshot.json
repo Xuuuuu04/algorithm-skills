@@ -1,0 +1,34 @@
+{
+  "id": "CF-575C",
+  "contest_id": 575,
+  "index": "C",
+  "name": "Party",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "graph matchings"
+  ],
+  "solved_count": 231,
+  "problem_url": "https://codeforces.com/problemset/problem/575/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/575/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/575/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=575C%20Party%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P575C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Party - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "graph matchings",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "4MiB"
+  }
+}

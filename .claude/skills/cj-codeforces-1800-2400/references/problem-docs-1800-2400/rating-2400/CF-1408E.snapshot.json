@@ -1,0 +1,44 @@
+{
+  "id": "CF-1408E",
+  "contest_id": 1408,
+  "index": "E",
+  "name": "Avoid Rainbow Cycles",
+  "rating": 2400,
+  "tags": [
+    "data structures",
+    "dsu",
+    "graphs",
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1408/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1408/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1408/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1408E%20Avoid Rainbow Cycles%20tutorial",
+  "solved_count": 2164,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1408E",
+  "hydro_meta": {
+    "page_title": "Avoid Rainbow Cycles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "greedy",
+      "sortings",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

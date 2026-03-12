@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1979A Guess the Maximum - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1979A","type":"CF","title":"Guess the Maximum","difficulty":2,"tags":[7],"wantsTranslation":false,"totalSubmit":312,"totalAccepted":169,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Guess the Maximum","background":"","description":"Alice \u548c Bob \u60f3\u51fa\u4e86\u4e00\u4e2a\u76f8\u5f53\u5947\u602a\u7684\u6e38\u620f\u3002\u4ed6\u4eec\u6709\u4e00\u4e2a\u7531\u6574\u6570 $a_1,a_2,\\cdots,a_n$ \u7ec4\u6210\u7684\u6570\u5217\u3002Alice \u4f1a\u9009\u62e9\u4e00\u4e2a\u786e\u5b9a\u7684\u6574\u6570 $k$ \u5e76\u544a\u8bc9 Bob\uff0c\u63a5\u7740\uff1a\n* Bob \u4f1a\u9009\u62e9\u4e24\u4e2a\u6574\u6570 $i,j(1\\leq i\u003Cj\\leq n)$\uff0c\u7136\u540e\u5728 $a_i,a_{i+1},\\cdots,a_j$ \u4e2d\u5f97\u51fa\u6700\u5927\u7684\u6574\u6570\uff1b\n* \u5982\u679c\u5f97\u51fa\u7684\u6574\u6570**\u4e25\u683c\u5927\u4e8e** $k$\uff0c\u90a3\u4e48 Alice \u83b7\u80dc\uff0c\u5426\u5219 Bob \u83b7\u80dc\u3002\n\n\u8bf7\u5e2e\u52a9 Alice \u627e\u5230\u6574\u6570 $k$ \u7684\u6700\u5927\u503c\uff0c\u4f7f\u5f97\u5979\u4e00\u5b9a\u80fd\u591f\u83b7\u80dc\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u7531\u591a\u7ec4\u6d4b\u8bd5\u7ec4\u6210\u3002\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u8868\u793a\u6d4b\u8bd5\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u7ec4\u6d4b\u8bd5\u7684\u6570\u636e\uff1a\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7684\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $n$\uff0c\u8868\u793a\u6570\u5217\u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7684\u7b2c\u4e8c\u884c\u5305\u62ec $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\cdots, a_n$\uff0c\u8868\u793a\u6570\u5217\u4e2d\u7684\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f Alice \u4e00\u5b9a\u80fd\u591f\u83b7\u80dc\u7684\u6574\u6570 $k$ \u7684\u6700\u5927\u503c\u3002","hint":"$1\\leq i\u003Cj\\leq n\\leq5\\times10^4,\\sum n\\leq5\\times10^4,1\\leq a_i\\leq10^9$\u3002","locale":"zh-CN"},"content":{"name":"Guess the Maximum","background":"","description":"Alice and Bob came up with a rather strange game. They have an array of integers $ a_1, a_2,\\ldots, a_n $ . Alice chooses a certain integer $ k $ and tells it to Bob, then the following happens:\n\n- Bob chooses two integers $ i $ and $ j $ ( $ 1 \\le i \u003C j \\le n $ ), and then finds the maximum among the integers $ a_i, a_{i + 1},\\ldots, a_j $ ;\n- If the obtained maximum is strictly greater than $ k $ , Alice wins, otherwise Bob wins.\n\nHelp Alice find the maximum $ k $ at which she is guaranteed to win.","formatI":"Each test consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. The description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2 \\le n \\le 5 \\cdot 10^4 $ ) \u2014 the number of elements in the array.\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2,\\ldots, a_n $ ( $ 1 \\le a_i \\le 10^9 $ ) \u2014 the elements of the array.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 5 \\cdot 10^4 $ .","formatO":"For each test case, output one integer \u2014 the maximum integer $ k $ at which Alice is guaranteed to win.","hint":"In the first test case, all possible subsegments that Bob can choose look as follows: $ [2, 4], [2, 4, 1], [2, 4, 1, 7], [4, 1], [4, 1, 7], [1, 7] $ . The maximums on the subsegments are respectively equal to $ 4, 4, 7, 4, 7, 7 $ . It can be shown that $ 3 $ is the largest integer such that any of the maximums will be strictly greater than it.\n\nIn the third test case, the only segment that Bob can choose is $ [1, 1] $ . So the answer is $ 0 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n4\n2 4 1 7\n5\n1 2 3 4 5\n2\n1 1\n3\n37 8 16\n5\n10 10 10 10 9\n10\n3 12 9 5 2 3 2 9 8 2","3\n1\n0\n15\n9\n2"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1979A","link":"https:\/\/codeforces.com\/problemset\/problem\/1979\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\nAlice \u548c Bob \u60f3\u51fa\u4e86\u4e00\u4e2a\u76f8\u5f53\u5947\u602a\u7684\u6e38\u620f\u3002\u4ed6\u4eec\u6709\u4e00\u4e2a\u7531\u6574\u6570 $a_1,a_2,\\cdots,a_n$ \u7ec4\u6210\u7684\u6570\u5217\u3002Alice \u4f1a\u9009\u62e9\u4e00\u4e2a\u786e\u5b9a\u7684\u6574\u6570 $k$ \u5e76\u544a\u8bc9 Bob\uff0c\u63a5\u7740\uff1a\n* Bob \u4f1a\u9009\u62e9\u4e24\u4e2a\u6574\u6570 $i,j(1\\leq i\u003Cj\\leq n)$\uff0c\u7136\u540e\u5728 $a_i,a_{i+1},\\cdots,a_j$ \u4e2d\u5f97\u51fa\u6700\u5927\u7684\u6574\u6570\uff1b\n* \u5982\u679c\u5f97\u51fa\u7684\u6574\u6570**\u4e25\u683c\u5927\u4e8e** $k$\uff0c\u90a3\u4e48 Alice \u83b7\u80dc\uff0c\u5426\u5219 Bob \u83b7\u80dc\u3002\n\n\u8bf7\u5e2e\u52a9 Alice \u627e\u5230\u6574\u6570 $k$ \u7684\u6700\u5927\u503c\uff0c\u4f7f\u5f97\u5979\u4e00\u5b9a\u80fd\u591f\u83b7\u80dc\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u7531\u591a\u7ec4\u6d4b\u8bd5\u7ec4\u6210\u3002\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u8868\u793a\u6d4b\u8bd5\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u7ec4\u6d4b\u8bd5\u7684\u6570\u636e\uff1a\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7684\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $n$\uff0c\u8868\u793a\u6570\u5217\u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7684\u7b2c\u4e8c\u884c\u5305\u62ec $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\cdots, a_n$\uff0c\u8868\u793a\u6570\u5217\u4e2d\u7684\u5143\u7d20\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f Alice \u4e00\u5b9a\u80fd\u591f\u83b7\u80dc\u7684\u6574\u6570 $k$ \u7684\u6700\u5927\u503c\u3002\n\n### \u6570\u636e\u8303\u56f4\n$1\\leq i\u003Cj\\leq n\\leq5\\times10^4,\\sum n\\leq5\\times10^4,1\\leq a_i\\leq10^9$\u3002"},"translations":{"en":{"name":"Guess the Maximum","background":"","description":"Alice and Bob came up with a rather strange game. They have an array of integers $ a_1, a_2,\\ldots, a_n $ . Alice chooses a certain integer $ k $ and tells it to Bob, then the following happens:\n\n- Bob chooses two integers $ i $ and $ j $ ( $ 1 \\le i \u003C j \\le n $ ), and then finds the maximum among the integers $ a_i, a_{i + 1},\\ldots, a_j $ ;\n- If the obtained maximum is strictly greater than $ k $ , Alice wins, otherwise Bob wins.\n\nHelp Alice find the maximum $ k $ at which she is guaranteed to win.","formatI":"Each test consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. The description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2 \\le n \\le 5 \\cdot 10^4 $ ) \u2014 the number of elements in the array.\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2,\\ldots, a_n $ ( $ 1 \\le a_i \\le 10^9 $ ) \u2014 the elements of the array.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 5 \\cdot 10^4 $ .","formatO":"For each test case, output one integer \u2014 the maximum integer $ k $ at which Alice is guaranteed to win.","hint":"In the first test case, all possible subsegments that Bob can choose look as follows: $ [2, 4], [2, 4, 1], [2, 4, 1, 7], [4, 1], [4, 1, 7], [1, 7] $ . The maximums on the subsegments are respectively equal to $ 4, 4, 7, 4, 7, 7 $ . It can be shown that $ 3 $ is the largest integer such that any of the maximums will be strictly greater than it.\n\nIn the third test case, the only segment that Bob can choose is $ [1, 1] $ . So the answer is $ 0 $ .","locale":"en"},"zh-CN":{"name":"Guess the Maximum","background":"","description":"Alice \u548c Bob \u60f3\u51fa\u4e86\u4e00\u4e2a\u76f8\u5f53\u5947\u602a\u7684\u6e38\u620f\u3002\u4ed6\u4eec\u6709\u4e00\u4e2a\u7531\u6574\u6570 $a_1,a_2,\\cdots,a_n$ \u7ec4\u6210\u7684\u6570\u5217\u3002Alice \u4f1a\u9009\u62e9\u4e00\u4e2a\u786e\u5b9a\u7684\u6574\u6570 $k$ \u5e76\u544a\u8bc9 Bob\uff0c\u63a5\u7740\uff1a\n* Bob \u4f1a\u9009\u62e9\u4e24\u4e2a\u6574\u6570 $i,j(1\\leq i\u003Cj\\leq n)$\uff0c\u7136\u540e\u5728 $a_i,a_{i+1},\\cdots,a_j$ \u4e2d\u5f97\u51fa\u6700\u5927\u7684\u6574\u6570\uff1b\n* \u5982\u679c\u5f97\u51fa\u7684\u6574\u6570**\u4e25\u683c\u5927\u4e8e** $k$\uff0c\u90a3\u4e48 Alice \u83b7\u80dc\uff0c\u5426\u5219 Bob \u83b7\u80dc\u3002\n\n\u8bf7\u5e2e\u52a9 Alice \u627e\u5230\u6574\u6570 $k$ \u7684\u6700\u5927\u503c\uff0c\u4f7f\u5f97\u5979\u4e00\u5b9a\u80fd\u591f\u83b7\u80dc\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u7531\u591a\u7ec4\u6d4b\u8bd5\u7ec4\u6210\u3002\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u8868\u793a\u6d4b\u8bd5\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u7ec4\u6d4b\u8bd5\u7684\u6570\u636e\uff1a\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7684\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $n$\uff0c\u8868\u793a\u6570\u5217\u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7684\u7b2c\u4e8c\u884c\u5305\u62ec $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\cdots, a_n$\uff0c\u8868\u793a\u6570\u5217\u4e2d\u7684\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f Alice \u4e00\u5b9a\u80fd\u591f\u83b7\u80dc\u7684\u6574\u6570 $k$ \u7684\u6700\u5927\u503c\u3002","hint":"$1\\leq i\u003Cj\\leq n\\leq5\\times10^4,\\sum n\\leq5\\times10^4,1\\leq a_i\\leq10^9$\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1979A Guess the Maximum","type":2,"slug":"CF1979A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.343779,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1979A Guess the Maximum","description":"Alice \u548c Bob \u60f3\u51fa\u4e86\u4e00\u4e2a\u76f8\u5f53\u5947\u602a\u7684\u6e38\u620f\u3002\u4ed6\u4eec\u6709\u4e00\u4e2a\u7531\u6574\u6570 a_1,a_2,\\cdots,a_n \u7ec4\u6210\u7684\u6570\u5217\u3002Alice \u4f1a\u9009\u62e9\u4e00\u4e2a\u786e\u5b9a\u7684\u6574\u6570 k \u5e76\u544a\u8bc9 Bob\uff0c\u63a5\u7740\uff1a\n\nBob \u4f1a\u9009\u62e9\u4e24\u4e2a\u6574\u6570 i,j(1\\leq i&lt;j\\leq\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1979A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1979A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1979A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1979A Guess the Maximum" />
+    <meta property="og:description" content="Alice 和 Bob 想出了一个相当奇怪的游戏。他们有一个由整数 a_1,a_2,\cdots,a_n 组成的数列。Alice 会选择一个确定的整数 k 并告诉 Bob，接着：
+
+Bob 会选择两个整数 i,j(1\leq i&amp;lt;j\leq…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1979A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1979A Guess the Maximum</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Alice 和 Bob 想出了一个相当奇怪的游戏。他们有一个由整数 $a_1,a_2,\cdots,a_n$ 组成的数列。Alice 会选择一个确定的整数 $k$ 并告诉 Bob，接着：
+* Bob 会选择两个整数 $i,j(1\leq i
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试点由多组测试组成。输入的第一行是一个整数 $t$，表示测试组数。接下来是每组测试的数据：
+
+每组测试的第一行是一个整数 $n$，表示数列的元素个数。
+
+每组数据的第二行包括 $n$ 个整数 $a_1, a_2, \cdots, a_n$，表示数列中的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试，输出一个整数，表示使 Alice 一定能够获胜的整数 $k$ 的最大值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                $1\leq i
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

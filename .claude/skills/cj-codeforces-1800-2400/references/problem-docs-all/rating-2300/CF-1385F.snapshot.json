@@ -1,0 +1,36 @@
+{
+  "id": "CF-1385F",
+  "contest_id": 1385,
+  "index": "F",
+  "name": "Removing Leaves",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 2792,
+  "problem_url": "https://codeforces.com/problemset/problem/1385/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1385/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1385/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1385F%20Removing%20Leaves%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1385F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Removing Leaves - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "trees",
+      "*2300"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

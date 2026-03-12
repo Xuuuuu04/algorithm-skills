@@ -1,0 +1,36 @@
+{
+  "id": "CF-1154F",
+  "contest_id": 1154,
+  "index": "F",
+  "name": "Shovels Shop",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1154/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1154/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1154/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1154F%20Shovels Shop%20tutorial",
+  "solved_count": 3217,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1154F",
+  "hydro_meta": {
+    "page_title": "Shovels Shop - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

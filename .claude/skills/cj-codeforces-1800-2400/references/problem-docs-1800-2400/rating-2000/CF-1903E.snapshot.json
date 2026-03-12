@@ -1,0 +1,36 @@
+{
+  "id": "CF-1903E",
+  "contest_id": 1903,
+  "index": "E",
+  "name": "Geo Game",
+  "rating": 2000,
+  "tags": [
+    "greedy",
+    "interactive",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1903/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1903/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1903/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1903E%20Geo Game%20tutorial",
+  "solved_count": 2477,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1903E",
+  "hydro_meta": {
+    "page_title": "Geo Game - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dp",
+      "interactive",
+      "math"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 15,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

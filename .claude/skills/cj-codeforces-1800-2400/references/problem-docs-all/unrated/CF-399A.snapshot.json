@@ -1,0 +1,27 @@
+{
+  "id": "CF-399A",
+  "contest_id": 399,
+  "index": "A",
+  "name": "Pages",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 4212,
+  "problem_url": "https://codeforces.com/problemset/problem/399/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/399/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/399/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=399A%20Pages%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF399A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF399A Pages - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 73,
+    "mirror_attempt": 154,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

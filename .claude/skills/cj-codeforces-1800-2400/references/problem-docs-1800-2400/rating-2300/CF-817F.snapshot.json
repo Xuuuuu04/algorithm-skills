@@ -1,0 +1,37 @@
+{
+  "id": "CF-817F",
+  "contest_id": 817,
+  "index": "F",
+  "name": "MEX Queries",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "data structures",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/817/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/817/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/817/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=817F%20MEX Queries%20tutorial",
+  "solved_count": 3303,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P817F",
+  "hydro_meta": {
+    "page_title": "MEX Queries - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 3,
+    "hydro_attempt": 23,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-364C",
+  "contest_id": 364,
+  "index": "C",
+  "name": "Beautiful Set",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "number theory"
+  ],
+  "solved_count": 639,
+  "problem_url": "https://codeforces.com/problemset/problem/364/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/364/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/364/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=364C%20Beautiful%20Set%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/364/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 364C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

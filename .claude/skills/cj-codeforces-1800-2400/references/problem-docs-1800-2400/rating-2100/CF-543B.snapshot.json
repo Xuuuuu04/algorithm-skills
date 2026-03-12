@@ -1,0 +1,36 @@
+{
+  "id": "CF-543B",
+  "contest_id": 543,
+  "index": "B",
+  "name": "Destroying Roads",
+  "rating": 2100,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/543/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/543/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/543/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=543B%20Destroying Roads%20tutorial",
+  "solved_count": 4551,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P543B",
+  "hydro_meta": {
+    "page_title": "Destroying Roads - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "shortest paths",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

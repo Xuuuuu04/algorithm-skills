@@ -1,0 +1,35 @@
+{
+  "id": "CF-1004D",
+  "contest_id": 1004,
+  "index": "D",
+  "name": "Sonya and Matrix",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1004/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1004/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1004/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1004D%20Sonya and Matrix%20tutorial",
+  "solved_count": 1489,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1004D",
+  "hydro_meta": {
+    "page_title": "Sonya and Matrix - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

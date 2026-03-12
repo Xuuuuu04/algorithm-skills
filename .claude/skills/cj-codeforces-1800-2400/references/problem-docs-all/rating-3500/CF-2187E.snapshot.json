@@ -1,0 +1,29 @@
+{
+  "id": "CF-2187E",
+  "contest_id": 2187,
+  "index": "E",
+  "name": "Doors and Keys",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 275,
+  "problem_url": "https://codeforces.com/problemset/problem/2187/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2187/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2187/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2187E%20Doors%20and%20Keys%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2187/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2187E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1331F",
+  "contest_id": 1331,
+  "index": "F",
+  "name": "Elementary!",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "brute force",
+    "dp",
+    "strings"
+  ],
+  "solved_count": 596,
+  "problem_url": "https://codeforces.com/problemset/problem/1331/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1331/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1331/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1331F%20Elementary%21%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1331/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1331F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-71A",
+  "contest_id": 71,
+  "index": "A",
+  "name": "Way Too Long Words",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 492130,
+  "problem_url": "https://codeforces.com/problemset/problem/71/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/71/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/71/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=71A%20Way%20Too%20Long%20Words%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF71A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF71A Way Too Long Words - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1806,
+    "mirror_attempt": 3486,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

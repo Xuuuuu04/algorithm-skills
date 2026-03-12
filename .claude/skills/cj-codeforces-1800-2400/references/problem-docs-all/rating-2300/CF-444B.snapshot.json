@@ -1,0 +1,30 @@
+{
+  "id": "CF-444B",
+  "contest_id": 444,
+  "index": "B",
+  "name": "DZY Loves FFT",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "probabilities"
+  ],
+  "solved_count": 1148,
+  "problem_url": "https://codeforces.com/problemset/problem/444/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/444/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/444/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=444B%20DZY%20Loves%20FFT%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P444B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "DZY Loves FFT - 题目详情 - Hydro",
+    "mirror_tags": [
+      "probabilities",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

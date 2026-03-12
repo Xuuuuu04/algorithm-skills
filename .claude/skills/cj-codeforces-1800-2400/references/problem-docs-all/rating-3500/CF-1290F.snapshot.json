@@ -1,0 +1,27 @@
+{
+  "id": "CF-1290F",
+  "contest_id": 1290,
+  "index": "F",
+  "name": "Making Shapes",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 585,
+  "problem_url": "https://codeforces.com/problemset/problem/1290/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1290/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1290/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1290F%20Making%20Shapes%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1290/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1290F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "5 seconds",
+    "memory_limit": "768 megabytes"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CF-960D",
+  "contest_id": 960,
+  "index": "D",
+  "name": "Full Binary Tree Queries",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "implementation",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/960/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/960/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/960/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=960D%20Full Binary Tree Queries%20tutorial",
+  "solved_count": 1932,
+  "suggested_patterns": [
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P960D",
+  "hydro_meta": {
+    "page_title": "Full Binary Tree Queries - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "implementation",
+      "trees",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

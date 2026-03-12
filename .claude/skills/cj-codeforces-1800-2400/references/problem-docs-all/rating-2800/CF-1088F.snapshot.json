@@ -1,0 +1,32 @@
+{
+  "id": "CF-1088F",
+  "contest_id": 1088,
+  "index": "F",
+  "name": "Ehab and a weird weight formula",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures",
+    "trees"
+  ],
+  "solved_count": 581,
+  "problem_url": "https://codeforces.com/problemset/problem/1088/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1088/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1088/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1088F%20Ehab%20and%20a%20weird%20weight%20formula%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1088F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ehab and a weird weight formula - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "trees",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

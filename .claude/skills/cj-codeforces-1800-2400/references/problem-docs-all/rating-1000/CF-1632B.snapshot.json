@@ -1,0 +1,28 @@
+{
+  "id": "CF-1632B",
+  "contest_id": 1632,
+  "index": "B",
+  "name": "Roof Construction",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms"
+  ],
+  "solved_count": 30584,
+  "problem_url": "https://codeforces.com/problemset/problem/1632/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1632/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1632/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1632B%20Roof%20Construction%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1632/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1632B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

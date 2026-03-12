@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2008B Square or Not - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2008B","type":"CF","title":"Square or Not","difficulty":2,"tags":[1],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Square or Not","background":"","description":"\u6f02\u4eae\u7684\u4e8c\u8fdb\u5236\u77e9\u9635\u662f\u6307\u5728\u56db\u5468\u8fb9\u7f18\u5168\u4e3a 1 \u800c\u5185\u90e8\u5168\u4e3a 0 \u7684\u77e9\u9635\u3002\n\n\u5982\u4e0b\u56fe\u6240\u793a\u4e3a\u56db\u4e2a\u6f02\u4eae\u7684\u4e8c\u8fdb\u5236\u77e9\u9635\u7684\u793a\u4f8b\u3002\u4eca\u5929\uff0cSakurako \u73a9\u4e86\u4e00\u79cd\u5927\u5c0f\u4e3a $r \\times c$ \u7684\u6f02\u4eae\u4e8c\u8fdb\u5236\u77e9\u9635\uff0c\u5e76\u901a\u8fc7\u4ece\u7b2c\u4e00\u884c\u5230\u7b2c $r$ \u884c\u4f9d\u6b21\u8bb0\u5f55\u6bcf\u4e00\u884c\u7684\u5185\u5bb9\uff0c\u751f\u6210\u4e86\u4e00\u6bb5\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002\u66f4\u5177\u4f53\u5730\uff0c\u7b2c $i$ \u884c\u7b2c $j$ \u5217\u7684\u5143\u7d20\u5bf9\u5e94\u4e8e\u5b57\u7b26\u4e32\u4e2d\u7684\u7b2c $((i-1) \\cdot c + j)$ \u4e2a\u5b57\u7b26\u3002\n\n\u4f60\u9700\u8981\u68c0\u67e5\uff0c\u751f\u6210\u5b57\u7b26\u4e32 $s$ \u7684\u8fd9\u4e2a\u6f02\u4eae\u77e9\u9635\u662f\u5426\u80fd\u6210\u4e3a\u4e00\u4e2a\u65b9\u5f62\u77e9\u9635\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u4f60\u9700\u8981\u5224\u65ad\u5b57\u7b26\u4e32 $s$ \u662f\u5426\u53ef\u4ee5\u7531\u4e00\u4e2a\u8fb9\u957f\u76f8\u7b49\u7684\u6f02\u4eae\u4e8c\u8fdb\u5236\u77e9\u9635\uff08\u5373 $r = c$\uff09\u5f62\u6210\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u7ed9\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\u3002\u8be5\u5b57\u7b26\u4e32\u662f\u7531\u4e00\u4e2a\u6f02\u4eae\u77e9\u9635\u7684\u884c\u5185\u5bb9\u4f9d\u6b21\u62fc\u63a5\u800c\u6210\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d\u5b57\u7b26\u4e32\u957f\u5ea6 $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u539f\u59cb\u77e9\u9635\u53ef\u4ee5\u662f\u65b9\u5f62\u7684\uff0c\u8f93\u51fa \u0022Yes\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022No\u0022\u3002\n\n## \u793a\u4f8b\u4e0e\u63d0\u793a\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32 `1111` \u53ef\u4ee5\u901a\u8fc7\u4ee5\u4e0b\u7684\u77e9\u9635\u5f97\u5230\uff1a\n\n$$\n\\begin{array}{cccc}\n1 \u0026 1 \u0026 1 \u0026 1 \\\\\n\\end{array}\n$$\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32 `111101111` \u53ef\u4ee5\u901a\u8fc7\u4ee5\u4e0b\u7684\u77e9\u9635\u5f97\u5230\uff1a\n\n$$\n\\begin{array}{ccc}\n1 \u0026 1 \u0026 1 \\\\\n1 \u0026 0 \u0026 1 \\\\\n1 \u0026 1 \u0026 1 \\\\\n\\end{array}\n$$\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6ca1\u6709\u4e00\u4e2a\u65b9\u5f62\u77e9\u9635\u80fd\u591f\u751f\u6210\u8be5\u5b57\u7b26\u4e32\u3002\n\n **\u672c\u7ffb\u8bd1\u7531 AI \u81ea\u52a8\u751f\u6210**","hint":"","locale":"zh-CN"},"content":{"name":"Square or Not","background":"","description":"A beautiful binary matrix is a matrix that has ones on its edges and zeros inside.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2008B\/82ff9b44b2f58835e7545bc3f71e9003425cf95f.png) Examples of four beautiful binary matrices.Today, Sakurako was playing with a beautiful binary matrix of size $ r \\times c $ and created a binary string $ s $ by writing down all the rows of the matrix, starting from the first and ending with the $ r $ -th. More formally, the element from the matrix in the $ i $ -th row and $ j $ -th column corresponds to the $ ((i-1)*c+j) $ -th element of the string.\n\nYou need to check whether the beautiful matrix from which the string $ s $ was obtained could be squared. In other words, you need to check whether the string $ s $ could have been build from a square beautiful binary matrix (i.e., one where $ r=c $ ).","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the length of the string.\n\nThe second line of each test case contains the string $ s $ of length $ n $ . The string is always the result of writing out the strings of a beautiful matrix.\n\nIt is guaranteed that the sum of $ n $ across all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"Print \u0022Yes\u0022, if the original matrix could have been square, and \u0022No\u0022 otherwise.","hint":"For the second test case, string 1111 can be obtained from the matrix:\n\n  $ 1 $  $ 1 $  $ 1 $  $ 1 $ For the third test case, string 111101111 can be obtained from the matrix:\n\n  $ 1 $  $ 1 $  $ 1 $  $ 1 $  $ 0 $  $ 1 $  $ 1 $  $ 1 $  $ 1 $ There is no square matrix in the fourth case, such that the string can be obtained from it.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n2\n11\n4\n1111\n9\n111101111\n9\n111111111\n12\n111110011111","No\nYes\nYes\nNo\nNo"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2008B","link":"https:\/\/codeforces.com\/problemset\/problem\/2008\/B"},"translation":""},"translations":{"en":{"name":"Square or Not","background":"","description":"A beautiful binary matrix is a matrix that has ones on its edges and zeros inside.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2008B\/82ff9b44b2f58835e7545bc3f71e9003425cf95f.png) Examples of four beautiful binary matrices.Today, Sakurako was playing with a beautiful binary matrix of size $ r \\times c $ and created a binary string $ s $ by writing down all the rows of the matrix, starting from the first and ending with the $ r $ -th. More formally, the element from the matrix in the $ i $ -th row and $ j $ -th column corresponds to the $ ((i-1)*c+j) $ -th element of the string.\n\nYou need to check whether the beautiful matrix from which the string $ s $ was obtained could be squared. In other words, you need to check whether the string $ s $ could have been build from a square beautiful binary matrix (i.e., one where $ r=c $ ).","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the length of the string.\n\nThe second line of each test case contains the string $ s $ of length $ n $ . The string is always the result of writing out the strings of a beautiful matrix.\n\nIt is guaranteed that the sum of $ n $ across all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"Print \u0022Yes\u0022, if the original matrix could have been square, and \u0022No\u0022 otherwise.","hint":"For the second test case, string 1111 can be obtained from the matrix:\n\n  $ 1 $  $ 1 $  $ 1 $  $ 1 $ For the third test case, string 111101111 can be obtained from the matrix:\n\n  $ 1 $  $ 1 $  $ 1 $  $ 1 $  $ 0 $  $ 1 $  $ 1 $  $ 1 $  $ 1 $ There is no square matrix in the fourth case, such that the string can be obtained from it.","locale":"en"},"zh-CN":{"name":"Square or Not","background":"","description":"\u6f02\u4eae\u7684\u4e8c\u8fdb\u5236\u77e9\u9635\u662f\u6307\u5728\u56db\u5468\u8fb9\u7f18\u5168\u4e3a 1 \u800c\u5185\u90e8\u5168\u4e3a 0 \u7684\u77e9\u9635\u3002\n\n\u5982\u4e0b\u56fe\u6240\u793a\u4e3a\u56db\u4e2a\u6f02\u4eae\u7684\u4e8c\u8fdb\u5236\u77e9\u9635\u7684\u793a\u4f8b\u3002\u4eca\u5929\uff0cSakurako \u73a9\u4e86\u4e00\u79cd\u5927\u5c0f\u4e3a $r \\times c$ \u7684\u6f02\u4eae\u4e8c\u8fdb\u5236\u77e9\u9635\uff0c\u5e76\u901a\u8fc7\u4ece\u7b2c\u4e00\u884c\u5230\u7b2c $r$ \u884c\u4f9d\u6b21\u8bb0\u5f55\u6bcf\u4e00\u884c\u7684\u5185\u5bb9\uff0c\u751f\u6210\u4e86\u4e00\u6bb5\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002\u66f4\u5177\u4f53\u5730\uff0c\u7b2c $i$ \u884c\u7b2c $j$ \u5217\u7684\u5143\u7d20\u5bf9\u5e94\u4e8e\u5b57\u7b26\u4e32\u4e2d\u7684\u7b2c $((i-1) \\cdot c + j)$ \u4e2a\u5b57\u7b26\u3002\n\n\u4f60\u9700\u8981\u68c0\u67e5\uff0c\u751f\u6210\u5b57\u7b26\u4e32 $s$ \u7684\u8fd9\u4e2a\u6f02\u4eae\u77e9\u9635\u662f\u5426\u80fd\u6210\u4e3a\u4e00\u4e2a\u65b9\u5f62\u77e9\u9635\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u4f60\u9700\u8981\u5224\u65ad\u5b57\u7b26\u4e32 $s$ \u662f\u5426\u53ef\u4ee5\u7531\u4e00\u4e2a\u8fb9\u957f\u76f8\u7b49\u7684\u6f02\u4eae\u4e8c\u8fdb\u5236\u77e9\u9635\uff08\u5373 $r = c$\uff09\u5f62\u6210\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u7ed9\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\u3002\u8be5\u5b57\u7b26\u4e32\u662f\u7531\u4e00\u4e2a\u6f02\u4eae\u77e9\u9635\u7684\u884c\u5185\u5bb9\u4f9d\u6b21\u62fc\u63a5\u800c\u6210\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d\u5b57\u7b26\u4e32\u957f\u5ea6 $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u539f\u59cb\u77e9\u9635\u53ef\u4ee5\u662f\u65b9\u5f62\u7684\uff0c\u8f93\u51fa \u0022Yes\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022No\u0022\u3002\n\n## \u793a\u4f8b\u4e0e\u63d0\u793a\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32 `1111` \u53ef\u4ee5\u901a\u8fc7\u4ee5\u4e0b\u7684\u77e9\u9635\u5f97\u5230\uff1a\n\n$$\n\\begin{array}{cccc}\n1 \u0026 1 \u0026 1 \u0026 1 \\\\\n\\end{array}\n$$\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32 `111101111` \u53ef\u4ee5\u901a\u8fc7\u4ee5\u4e0b\u7684\u77e9\u9635\u5f97\u5230\uff1a\n\n$$\n\\begin{array}{ccc}\n1 \u0026 1 \u0026 1 \\\\\n1 \u0026 0 \u0026 1 \\\\\n1 \u0026 1 \u0026 1 \\\\\n\\end{array}\n$$\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6ca1\u6709\u4e00\u4e2a\u65b9\u5f62\u77e9\u9635\u80fd\u591f\u751f\u6210\u8be5\u5b57\u7b26\u4e32\u3002\n\n **\u672c\u7ffb\u8bd1\u7531 AI \u81ea\u52a8\u751f\u6210**","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2008B Square or Not","type":2,"slug":"CF2008B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.299779,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2008B Square or Not","description":"\u6f02\u4eae\u7684\u4e8c\u8fdb\u5236\u77e9\u9635\u662f\u6307\u5728\u56db\u5468\u8fb9\u7f18\u5168\u4e3a 1 \u800c\u5185\u90e8\u5168\u4e3a 0 \u7684\u77e9\u9635\u3002\n\u5982\u4e0b\u56fe\u6240\u793a\u4e3a\u56db\u4e2a\u6f02\u4eae\u7684\u4e8c\u8fdb\u5236\u77e9\u9635\u7684\u793a\u4f8b\u3002\u4eca\u5929\uff0cSakurako \u73a9\u4e86\u4e00\u79cd\u5927\u5c0f\u4e3a r \\times c \u7684\u6f02\u4eae\u4e8c\u8fdb\u5236\u77e9\u9635\uff0c\u5e76\u901a\u8fc7\u4ece\u7b2c\u4e00\u884c\u5230\u7b2c r \u884c\u4f9d\u6b21\u8bb0\u5f55\u6bcf\u4e00\u884c\u7684\u5185\u5bb9\uff0c\u751f\u6210\u4e86\u4e00\u6bb5\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2008B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2008B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2008B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2008B Square or Not" />
+    <meta property="og:description" content="漂亮的二进制矩阵是指在四周边缘全为 1 而内部全为 0 的矩阵。
+如下图所示为四个漂亮的二进制矩阵的示例。今天，Sakurako 玩了一种大小为 r \times c 的漂亮二进制矩阵，并通过从第一行到第 r 行依次记录每一行的内容，生成了一段二进制字符串…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2008B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2008B Square or Not</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    漂亮的二进制矩阵是指在四周边缘全为 1 而内部全为 0 的矩阵。
+
+如下图所示为四个漂亮的二进制矩阵的示例。今天，Sakurako 玩了一种大小为 $r \times c$ 的漂亮二进制矩阵，并通过从第一行到第 $r$ 行依次记录每一行的内容，生成了一段二进制字符串 $s$。更具体地，第 $i$ 行第 $j$ 列的元素对应于字符串中的第 $((i-1) \cdot c + j)$ 个字符。
+
+你需要检查，生成字符串 $s$ 的这个漂亮矩阵是否能成为一个方形矩阵。换句话说，你需要判断字符串 $s$ 是否可以由一个边长相等的漂亮二进制矩阵（即 $r = c$）形成。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 10^4$），表示测试用例的数量。
+
+每个测试用例的第一行包含一个整数 $n$（$2 \le n \le 2 \cdot 10^5$），表示字符串的长度。
+
+每个测试用例的第二行给出一个长度为 $n$ 的字符串 $s$。该字符串是由一个漂亮矩阵的行内容依次拼接而成。
+
+保证所有测试用例中字符串长度 $n$ 的总和不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对每个测试用例，如果原始矩阵可以是方形的，输出 "Yes"；否则输出 "No"。
+
+## 示例与提示
+
+在第二个测试用例中，字符串 `1111` 可以通过以下的矩阵得到：
+
+$$
+\begin{array}{cccc}
+1 & 1 & 1 & 1 \\
+\end{array}
+$$
+
+在第三个测试用例中，字符串 `111101111` 可以通过以下的矩阵得到：
+
+$$
+\begin{array}{ccc}
+1 & 1 & 1 \\
+1 & 0 & 1 \\
+1 & 1 & 1 \\
+\end{array}
+$$
+
+在第四个测试用例中，没有一个方形矩阵能够生成该字符串。
+
+ **本翻译由 AI 自动生成**
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                For the second test case, string 1111 can be obtained from the matrix:
+
+  $ 1 $  $ 1 $  $ 1 $  $ 1 $ For the third test case, string 111101111 can be obtained from the matrix:
+
+  $ 1 $  $ 1 $  $ 1 $  $ 1 $  $ 0 $  $ 1 $  $ 1 $  $ 1 $  $ 1 $ There is no square matrix in the fourth case, such that the string can be obtained from it.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

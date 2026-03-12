@@ -1,0 +1,34 @@
+{
+  "id": "CF-1542E2",
+  "contest_id": 1542,
+  "index": "E2",
+  "name": "Abnormal Permutation Pairs (hard version)",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "fft",
+    "math"
+  ],
+  "solved_count": 1005,
+  "problem_url": "https://codeforces.com/problemset/problem/1542/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1542/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1542/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1542E2%20Abnormal%20Permutation%20Pairs%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1542E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Abnormal Permutation Pairs (hard version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

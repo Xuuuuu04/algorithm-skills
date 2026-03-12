@@ -1,0 +1,32 @@
+{
+  "id": "CF-13D",
+  "contest_id": 13,
+  "index": "D",
+  "name": "Triangles",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "geometry"
+  ],
+  "solved_count": 726,
+  "problem_url": "https://codeforces.com/problemset/problem/13/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/13/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/13/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=13D%20Triangles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P13D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Triangles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "geometry",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

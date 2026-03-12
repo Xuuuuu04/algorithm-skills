@@ -1,0 +1,33 @@
+{
+  "id": "CF-172E",
+  "contest_id": 172,
+  "index": "E",
+  "name": "BHTML+BCSS",
+  "rating": 2200,
+  "tags": [
+    "*special",
+    "dfs and similar",
+    "expression parsing"
+  ],
+  "url": "https://codeforces.com/problemset/problem/172/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/172/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/172/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=172E%20BHTML+BCSS%20tutorial",
+  "solved_count": 281,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P172E",
+  "hydro_meta": {
+    "page_title": "BHTML+BCSS - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "dfs and similar",
+      "expression parsing",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-55C",
+  "contest_id": 55,
+  "index": "C",
+  "name": "Pie or die",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "games"
+  ],
+  "solved_count": 1801,
+  "problem_url": "https://codeforces.com/problemset/problem/55/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/55/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/55/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=55C%20Pie%20or%20die%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P55C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Pie or die - 题目详情 - Hydro",
+    "mirror_tags": [
+      "games",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

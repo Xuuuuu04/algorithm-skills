@@ -1,0 +1,29 @@
+{
+  "id": "CF-291A",
+  "contest_id": 291,
+  "index": "A",
+  "name": "Spyke Talks",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "*special",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 6438,
+  "problem_url": "https://codeforces.com/problemset/problem/291/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/291/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/291/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=291A%20Spyke%20Talks%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/291/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 291A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

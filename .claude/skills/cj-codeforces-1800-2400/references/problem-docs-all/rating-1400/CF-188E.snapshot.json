@@ -1,0 +1,32 @@
+{
+  "id": "CF-188E",
+  "contest_id": 188,
+  "index": "E",
+  "name": "HQ9+",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 528,
+  "problem_url": "https://codeforces.com/problemset/problem/188/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/188/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/188/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=188E%20HQ9%2B%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P188E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "HQ9+ - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "implementation",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

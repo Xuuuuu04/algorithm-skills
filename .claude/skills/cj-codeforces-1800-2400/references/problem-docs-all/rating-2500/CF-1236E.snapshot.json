@@ -1,0 +1,36 @@
+{
+  "id": "CF-1236E",
+  "contest_id": 1236,
+  "index": "E",
+  "name": "Alice and the Unfair Game",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "dsu"
+  ],
+  "solved_count": 729,
+  "problem_url": "https://codeforces.com/problemset/problem/1236/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1236/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1236/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1236E%20Alice%20and%20the%20Unfair%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1236E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Alice and the Unfair Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "dsu",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

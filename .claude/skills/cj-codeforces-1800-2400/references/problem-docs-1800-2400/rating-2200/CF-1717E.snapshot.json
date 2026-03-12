@@ -1,0 +1,34 @@
+{
+  "id": "CF-1717E",
+  "contest_id": 1717,
+  "index": "E",
+  "name": "Madoka and The Best University",
+  "rating": 2200,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1717/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1717/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1717/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1717E%20Madoka and The Best University%20tutorial",
+  "solved_count": 3343,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1717E",
+  "hydro_meta": {
+    "page_title": "Madoka and The Best University - 题目详情 - Hydro",
+    "hydro_tags": [
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

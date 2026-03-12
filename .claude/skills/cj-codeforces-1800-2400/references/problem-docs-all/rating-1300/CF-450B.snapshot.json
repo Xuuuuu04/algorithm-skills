@@ -1,0 +1,32 @@
+{
+  "id": "CF-450B",
+  "contest_id": 450,
+  "index": "B",
+  "name": "Jzzhu and Sequences",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 28615,
+  "problem_url": "https://codeforces.com/problemset/problem/450/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/450/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/450/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=450B%20Jzzhu%20and%20Sequences%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P450B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Jzzhu and Sequences - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

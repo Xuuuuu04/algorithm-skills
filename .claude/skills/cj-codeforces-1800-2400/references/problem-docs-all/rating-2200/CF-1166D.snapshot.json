@@ -1,0 +1,30 @@
+{
+  "id": "CF-1166D",
+  "contest_id": 1166,
+  "index": "D",
+  "name": "Cute Sequences",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 2272,
+  "problem_url": "https://codeforces.com/problemset/problem/1166/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1166/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1166/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1166D%20Cute%20Sequences%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1166D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1166D Cute Sequences - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 98,
+    "mirror_attempt": 238,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

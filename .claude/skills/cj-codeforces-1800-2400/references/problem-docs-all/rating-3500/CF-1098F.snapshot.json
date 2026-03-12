@@ -1,0 +1,28 @@
+{
+  "id": "CF-1098F",
+  "contest_id": 1098,
+  "index": "F",
+  "name": "Ж-function",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 274,
+  "problem_url": "https://codeforces.com/problemset/problem/1098/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1098/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1098/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1098F%20%D0%96-function%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1098/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1098F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "6 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

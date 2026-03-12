@@ -1,0 +1,29 @@
+{
+  "id": "CF-1352F",
+  "contest_id": 1352,
+  "index": "F",
+  "name": "Binary String Reconstruction",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "math"
+  ],
+  "solved_count": 19254,
+  "problem_url": "https://codeforces.com/problemset/problem/1352/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1352/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1352/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1352F%20Binary%20String%20Reconstruction%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1352F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1352F Binary String Reconstruction - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 323,
+    "mirror_attempt": 629,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

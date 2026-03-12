@@ -1,0 +1,30 @@
+{
+  "id": "CF-1003A",
+  "contest_id": 1003,
+  "index": "A",
+  "name": "Polycarp's Pockets",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 29625,
+  "problem_url": "https://codeforces.com/problemset/problem/1003/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1003/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1003/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1003A%20Polycarp%27s%20Pockets%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1003A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Polycarp's Pockets - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

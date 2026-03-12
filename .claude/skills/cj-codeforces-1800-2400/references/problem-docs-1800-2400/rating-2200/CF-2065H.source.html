@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773314058:lwlSh/u3D8QDOSBR/sS7XZMiIlmA09umq6roESFVYuQ=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '3164600a60a16357'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031118'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2065H Bro Thinks He&#039;s Him - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2065H","type":"CF","title":"Bro Thinks He\u0027s Him","difficulty":5,"tags":[3,42,53,149,254],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Bro Thinks He\u0027s Him","background":"","description":"Skibidus \u81ea\u8ba4\u4e3a\u662f\u0022\u5929\u9009\u4e4b\u4eba\u0022\uff01\u4ed6\u901a\u8fc7\u89e3\u51b3\u8fd9\u4e2a\u96be\u9898\u8bc1\u660e\u4e86\u8fd9\u4e00\u70b9\u3002\u4f60\u4e5f\u80fd\u8bc1\u660e\u81ea\u5df1\u5417\uff1f\n\n\u7ed9\u5b9a\u4e00\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $^{\\text{\u2217}}$ $t$\uff0c\u5b9a\u4e49 $f(t)$ \u4e3a\u5c06 $t$ \u5206\u5272\u6210\u7531\u76f8\u540c\u5b57\u7b26\u7ec4\u6210\u7684\u8fde\u7eed\u5b50\u4e32\u7684\u6700\u5c0f\u6570\u91cf\u3002\u4f8b\u5982\uff0c$f(\\texttt{00110001}) = 4$\uff0c\u56e0\u4e3a $t$ \u53ef\u4ee5\u88ab\u5206\u5272\u4e3a $\\texttt{[00][11][000][1]}$\uff0c\u6bcf\u4e2a\u62ec\u53f7\u5185\u7684\u5b50\u4e32\u5747\u7531\u76f8\u540c\u5b57\u7b26\u7ec4\u6210\u3002\n\nSkibidus \u7ed9\u4f60\u4e00\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$ \u548c $q$ \u6b21\u67e5\u8be2\u3002\u6bcf\u6b21\u67e5\u8be2\u4f1a\u7ffb\u8f6c\u5b57\u7b26\u4e32\u4e2d\u7684\u4e00\u4e2a\u5b57\u7b26\uff08\u5373 $\\texttt{0}$ \u53d8\u4e3a $\\texttt{1}$\uff0c$\\texttt{1}$ \u53d8\u4e3a $\\texttt{0}$\uff09\uff0c\u4e14\u4fee\u6539\u4f1a\u4fdd\u7559\u5230\u540e\u7eed\u67e5\u8be2\u3002\u6bcf\u6b21\u67e5\u8be2\u540e\uff0c\u4f60\u9700\u8981\u8f93\u51fa\u6240\u6709\u975e\u7a7a\u5b50\u5e8f\u5217 $^{\\text{\u2020}}$ $b$ \u7684 $f(b)$ \u4e4b\u548c\u6a21 $998\\,244\\,353$ \u7684\u7ed3\u679c\u3002\n\n $^{\\text{\u2217}}$ \u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u4ec5\u5305\u542b\u5b57\u7b26 $\\texttt{0}$ \u548c $\\texttt{1}$\u3002\n\n $^{\\text{\u2020}}$ \u5b57\u7b26\u4e32\u7684\u5b50\u5e8f\u5217\u662f\u6307\u901a\u8fc7\u5220\u9664\u539f\u5b57\u7b26\u4e32\u4e2d\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\uff09\u4e2a\u5b57\u7b26\u5f97\u5230\u7684\u65b0\u5b57\u7b26\u4e32\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\u2014\u2014\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\uff08$1 \\leq |s| \\leq 2 \\cdot 10^5$\uff09\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $q$\uff08$1 \\leq q \\leq 2 \\cdot 10^5$\uff09\u2014\u2014\u67e5\u8be2\u6b21\u6570\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e09\u884c\u5305\u542b $q$ \u4e2a\u6574\u6570 $v_1, v_2, \\ldots, v_q$\uff08$1 \\leq v_i \\leq |s|$\uff09\uff0c\u8868\u793a\u7b2c $i$ \u6b21\u67e5\u8be2\u7ffb\u8f6c $s_{v_i}$ \u5904\u7684\u5b57\u7b26\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $|s|$ \u4e4b\u548c\u4e0e $q$ \u4e4b\u548c\u5747\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5728\u4e00\u884c\u4e2d\u8f93\u51fa $q$ \u4e2a\u6574\u6570\u2014\u2014\u6bcf\u6b21\u67e5\u8be2\u540e\u7684\u7b54\u6848\u6a21 $998\\,244\\,353$\u3002","hint":"\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5728\u7b2c\u4e00\u6b21\u67e5\u8be2\u540e\uff0c$s$ \u53d8\u4e3a $\\texttt{001}$\u3002\u8ba1\u7b97\u6240\u6709\u5b50\u5e8f\u5217\u7684 $f$ \u503c\uff1a\n- $f(s_1) = f(\\texttt{0}) = 1$\n- $f(s_2) = f(\\texttt{0}) = 1$\n- $f(s_3) = f(\\texttt{1}) = 1$\n- $f(s_1 s_2) = f(\\texttt{00}) = 1$\n- $f(s_1 s_3) = f(\\texttt{01}) = 2$\n- $f(s_2 s_3) = f(\\texttt{01}) = 2$\n- $f(s_1 s_2 s_3) = f(\\texttt{001}) = 2$\n\n\u8fd9\u4e9b\u503c\u7684\u603b\u548c\u4e3a $10$\uff0c\u6a21 $998\\,244\\,353$ \u540e\u7ed3\u679c\u4e3a $10$\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"},"content":{"name":"Bro Thinks He\u0027s Him","background":"","description":"Skibidus thinks he\u0027s Him! He proved it by solving this difficult task. Can you also prove yourself?\n\nGiven a binary string $ ^{\\text{\u2217}} $ $ t $ , $ f(t) $ is defined as the minimum number of contiguous substrings, each consisting of identical characters, into which $ t $ can be partitioned. For example, $ f(\\texttt{00110001}) = 4 $ because $ t $ can be partitioned as $ \\texttt{[00][11][000][1]} $ where each bracketed segment consists of identical characters.\n\nSkibidus gives you a binary string $ s $ and $ q $ queries. In each query, a single character of the string is flipped (i.e. $ \\texttt{0} $ changes to $ \\texttt{1} $ and $ \\texttt{1} $ changes to $ \\texttt{0} $ ); changes are saved after the query is processed. After each query, output the sum over all $ f(b) $ where $ b $ is a non-empty subsequence $ ^{\\text{\u2020}} $ of $ s $ , modulo $ 998\\,244\\,353 $ .\n\n $ ^{\\text{\u2217}} $ A binary string consists of only characters $ \\texttt{0} $ and $ \\texttt{1} $ .\n\n $ ^{\\text{\u2020}} $ A subsequence of a string is a string which can be obtained by removing several (possibly zero) characters from the original string.","formatI":"The first line contains an integer $ t $ ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains a binary string $ s $ ( $ 1 \\leq |s| \\leq 2 \\cdot 10^5 $ ).\n\nThe following line of each test case contains an integer $ q $ ( $ 1 \\leq q \\leq 2 \\cdot 10^5 $ ) \u2014 the number of queries.\n\nThe following line contains $ q $ integers $ v_1, v_2, \\ldots, v_q $ ( $ 1 \\leq v_i \\leq |s| $ ), denoting $ s_{v_i} $ is flipped for the $ i $ \u0027th query.\n\nIt is guaranteed that the sum of $ |s| $ and the sum of $ q $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output $ q $ integers on a single line \u2014 the answer after each query modulo $ 998\\,244\\,353 $ .","hint":"In the first test case, $ s $ becomes $ \\texttt{001} $ after the first query. Let\u0027s calculate the answer for each subsequence:\n\n- $ f(s_1) = f(\\texttt{0}) = 1 $\n- $ f(s_2) = f(\\texttt{0}) = 1 $\n- $ f(s_3) = f(\\texttt{1}) = 1 $\n- $ f(s_1 s_2) = f(\\texttt{00}) = 1 $\n- $ f(s_1 s_3) = f(\\texttt{01}) = 2 $\n- $ f(s_2 s_3) = f(\\texttt{01}) = 2 $\n- $ f(s_1 s_2 s_3) = f(\\texttt{001}) = 2 $\n\nThe sum of these values is $ 10 $ , modulo $ 998\\,244\\,353 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n101\n2\n1 3\n10110\n3\n1 2 3\n101110101\n5\n7 2 4 4 1","10 7 \n61 59 67 \n1495 1169 1417 1169 1396"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"2065H","link":"https:\/\/codeforces.com\/problemset\/problem\/2065\/H"},"translation":""},"translations":{"en":{"name":"Bro Thinks He\u0027s Him","background":"","description":"Skibidus thinks he\u0027s Him! He proved it by solving this difficult task. Can you also prove yourself?\n\nGiven a binary string $ ^{\\text{\u2217}} $ $ t $ , $ f(t) $ is defined as the minimum number of contiguous substrings, each consisting of identical characters, into which $ t $ can be partitioned. For example, $ f(\\texttt{00110001}) = 4 $ because $ t $ can be partitioned as $ \\texttt{[00][11][000][1]} $ where each bracketed segment consists of identical characters.\n\nSkibidus gives you a binary string $ s $ and $ q $ queries. In each query, a single character of the string is flipped (i.e. $ \\texttt{0} $ changes to $ \\texttt{1} $ and $ \\texttt{1} $ changes to $ \\texttt{0} $ ); changes are saved after the query is processed. After each query, output the sum over all $ f(b) $ where $ b $ is a non-empty subsequence $ ^{\\text{\u2020}} $ of $ s $ , modulo $ 998\\,244\\,353 $ .\n\n $ ^{\\text{\u2217}} $ A binary string consists of only characters $ \\texttt{0} $ and $ \\texttt{1} $ .\n\n $ ^{\\text{\u2020}} $ A subsequence of a string is a string which can be obtained by removing several (possibly zero) characters from the original string.","formatI":"The first line contains an integer $ t $ ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains a binary string $ s $ ( $ 1 \\leq |s| \\leq 2 \\cdot 10^5 $ ).\n\nThe following line of each test case contains an integer $ q $ ( $ 1 \\leq q \\leq 2 \\cdot 10^5 $ ) \u2014 the number of queries.\n\nThe following line contains $ q $ integers $ v_1, v_2, \\ldots, v_q $ ( $ 1 \\leq v_i \\leq |s| $ ), denoting $ s_{v_i} $ is flipped for the $ i $ \u0027th query.\n\nIt is guaranteed that the sum of $ |s| $ and the sum of $ q $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output $ q $ integers on a single line \u2014 the answer after each query modulo $ 998\\,244\\,353 $ .","hint":"In the first test case, $ s $ becomes $ \\texttt{001} $ after the first query. Let\u0027s calculate the answer for each subsequence:\n\n- $ f(s_1) = f(\\texttt{0}) = 1 $\n- $ f(s_2) = f(\\texttt{0}) = 1 $\n- $ f(s_3) = f(\\texttt{1}) = 1 $\n- $ f(s_1 s_2) = f(\\texttt{00}) = 1 $\n- $ f(s_1 s_3) = f(\\texttt{01}) = 2 $\n- $ f(s_2 s_3) = f(\\texttt{01}) = 2 $\n- $ f(s_1 s_2 s_3) = f(\\texttt{001}) = 2 $\n\nThe sum of these values is $ 10 $ , modulo $ 998\\,244\\,353 $ .","locale":"en"},"zh-CN":{"name":"Bro Thinks He\u0027s Him","background":"","description":"Skibidus \u81ea\u8ba4\u4e3a\u662f\u0022\u5929\u9009\u4e4b\u4eba\u0022\uff01\u4ed6\u901a\u8fc7\u89e3\u51b3\u8fd9\u4e2a\u96be\u9898\u8bc1\u660e\u4e86\u8fd9\u4e00\u70b9\u3002\u4f60\u4e5f\u80fd\u8bc1\u660e\u81ea\u5df1\u5417\uff1f\n\n\u7ed9\u5b9a\u4e00\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $^{\\text{\u2217}}$ $t$\uff0c\u5b9a\u4e49 $f(t)$ \u4e3a\u5c06 $t$ \u5206\u5272\u6210\u7531\u76f8\u540c\u5b57\u7b26\u7ec4\u6210\u7684\u8fde\u7eed\u5b50\u4e32\u7684\u6700\u5c0f\u6570\u91cf\u3002\u4f8b\u5982\uff0c$f(\\texttt{00110001}) = 4$\uff0c\u56e0\u4e3a $t$ \u53ef\u4ee5\u88ab\u5206\u5272\u4e3a $\\texttt{[00][11][000][1]}$\uff0c\u6bcf\u4e2a\u62ec\u53f7\u5185\u7684\u5b50\u4e32\u5747\u7531\u76f8\u540c\u5b57\u7b26\u7ec4\u6210\u3002\n\nSkibidus \u7ed9\u4f60\u4e00\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$ \u548c $q$ \u6b21\u67e5\u8be2\u3002\u6bcf\u6b21\u67e5\u8be2\u4f1a\u7ffb\u8f6c\u5b57\u7b26\u4e32\u4e2d\u7684\u4e00\u4e2a\u5b57\u7b26\uff08\u5373 $\\texttt{0}$ \u53d8\u4e3a $\\texttt{1}$\uff0c$\\texttt{1}$ \u53d8\u4e3a $\\texttt{0}$\uff09\uff0c\u4e14\u4fee\u6539\u4f1a\u4fdd\u7559\u5230\u540e\u7eed\u67e5\u8be2\u3002\u6bcf\u6b21\u67e5\u8be2\u540e\uff0c\u4f60\u9700\u8981\u8f93\u51fa\u6240\u6709\u975e\u7a7a\u5b50\u5e8f\u5217 $^{\\text{\u2020}}$ $b$ \u7684 $f(b)$ \u4e4b\u548c\u6a21 $998\\,244\\,353$ \u7684\u7ed3\u679c\u3002\n\n $^{\\text{\u2217}}$ \u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u4ec5\u5305\u542b\u5b57\u7b26 $\\texttt{0}$ \u548c $\\texttt{1}$\u3002\n\n $^{\\text{\u2020}}$ \u5b57\u7b26\u4e32\u7684\u5b50\u5e8f\u5217\u662f\u6307\u901a\u8fc7\u5220\u9664\u539f\u5b57\u7b26\u4e32\u4e2d\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\uff09\u4e2a\u5b57\u7b26\u5f97\u5230\u7684\u65b0\u5b57\u7b26\u4e32\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\u2014\u2014\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\uff08$1 \\leq |s| \\leq 2 \\cdot 10^5$\uff09\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $q$\uff08$1 \\leq q \\leq 2 \\cdot 10^5$\uff09\u2014\u2014\u67e5\u8be2\u6b21\u6570\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e09\u884c\u5305\u542b $q$ \u4e2a\u6574\u6570 $v_1, v_2, \\ldots, v_q$\uff08$1 \\leq v_i \\leq |s|$\uff09\uff0c\u8868\u793a\u7b2c $i$ \u6b21\u67e5\u8be2\u7ffb\u8f6c $s_{v_i}$ \u5904\u7684\u5b57\u7b26\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $|s|$ \u4e4b\u548c\u4e0e $q$ \u4e4b\u548c\u5747\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5728\u4e00\u884c\u4e2d\u8f93\u51fa $q$ \u4e2a\u6574\u6570\u2014\u2014\u6bcf\u6b21\u67e5\u8be2\u540e\u7684\u7b54\u6848\u6a21 $998\\,244\\,353$\u3002","hint":"\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5728\u7b2c\u4e00\u6b21\u67e5\u8be2\u540e\uff0c$s$ \u53d8\u4e3a $\\texttt{001}$\u3002\u8ba1\u7b97\u6240\u6709\u5b50\u5e8f\u5217\u7684 $f$ \u503c\uff1a\n- $f(s_1) = f(\\texttt{0}) = 1$\n- $f(s_2) = f(\\texttt{0}) = 1$\n- $f(s_3) = f(\\texttt{1}) = 1$\n- $f(s_1 s_2) = f(\\texttt{00}) = 1$\n- $f(s_1 s_3) = f(\\texttt{01}) = 2$\n- $f(s_2 s_3) = f(\\texttt{01}) = 2$\n- $f(s_1 s_2 s_3) = f(\\texttt{001}) = 2$\n\n\u8fd9\u4e9b\u503c\u7684\u603b\u548c\u4e3a $10$\uff0c\u6a21 $998\\,244\\,353$ \u540e\u7ed3\u679c\u4e3a $10$\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2065H Bro Thinks He\u0027s Him","type":2,"slug":"CF2065H","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773227657.947951,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2065H Bro Thinks He's Him","description":"Skibidus \u81ea\u8ba4\u4e3a\u662f&quot;\u5929\u9009\u4e4b\u4eba&quot;\uff01\u4ed6\u901a\u8fc7\u89e3\u51b3\u8fd9\u4e2a\u96be\u9898\u8bc1\u660e\u4e86\u8fd9\u4e00\u70b9\u3002\u4f60\u4e5f\u80fd\u8bc1\u660e\u81ea\u5df1\u5417\uff1f\n\u7ed9\u5b9a\u4e00\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 ^{\\text{\u2217}} t\uff0c\u5b9a\u4e49 f(t) \u4e3a\u5c06 t \u5206\u5272\u6210\u7531\u76f8\u540c\u5b57\u7b26\u7ec4\u6210\u7684\u8fde\u7eed\u5b50\u4e32\u7684\u6700\u5c0f\u6570\u91cf\u3002\u4f8b\u5982\uff0cf(\\texttt{00110001})\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2065H" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2065H?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2065H?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2065H Bro Thinks He&#039;s Him" />
+    <meta property="og:description" content="Skibidus 自认为是&amp;quot;天选之人&amp;quot;！他通过解决这个难题证明了这一点。你也能证明自己吗？
+给定一个二进制字符串 ^{\text{∗}} t，定义 f(t) 为将 t 分割成由相同字符组成的连续子串的最小数量。例如，f(\texttt{00110001})…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2065H" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2065H Bro Thinks He&#039;s Him</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Skibidus 自认为是"天选之人"！他通过解决这个难题证明了这一点。你也能证明自己吗？
+
+给定一个二进制字符串 $^{\text{∗}}$ $t$，定义 $f(t)$ 为将 $t$ 分割成由相同字符组成的连续子串的最小数量。例如，$f(\texttt{00110001}) = 4$，因为 $t$ 可以被分割为 $\texttt{[00][11][000][1]}$，每个括号内的子串均由相同字符组成。
+
+Skibidus 给你一个二进制字符串 $s$ 和 $q$ 次查询。每次查询会翻转字符串中的一个字符（即 $\texttt{0}$ 变为 $\texttt{1}$，$\texttt{1}$ 变为 $\texttt{0}$），且修改会保留到后续查询。每次查询后，你需要输出所有非空子序列 $^{\text{†}}$ $b$ 的 $f(b)$ 之和模 $998\,244\,353$ 的结果。
+
+ $^{\text{∗}}$ 二进制字符串仅包含字符 $\texttt{0}$ 和 $\texttt{1}$。
+
+ $^{\text{†}}$ 字符串的子序列是指通过删除原字符串中若干（可能为零）个字符得到的新字符串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 10^4$）——测试用例数量。
+
+每个测试用例的第一行包含一个二进制字符串 $s$（$1 \leq |s| \leq 2 \cdot 10^5$）。
+
+每个测试用例的第二行包含一个整数 $q$（$1 \leq q \leq 2 \cdot 10^5$）——查询次数。
+
+每个测试用例的第三行包含 $q$ 个整数 $v_1, v_2, \ldots, v_q$（$1 \leq v_i \leq |s|$），表示第 $i$ 次查询翻转 $s_{v_i}$ 处的字符。
+
+保证所有测试用例的 $|s|$ 之和与 $q$ 之和均不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，在一行中输出 $q$ 个整数——每次查询后的答案模 $998\,244\,353$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一个测试用例在第一次查询后，$s$ 变为 $\texttt{001}$。计算所有子序列的 $f$ 值：
+- $f(s_1) = f(\texttt{0}) = 1$
+- $f(s_2) = f(\texttt{0}) = 1$
+- $f(s_3) = f(\texttt{1}) = 1$
+- $f(s_1 s_2) = f(\texttt{00}) = 1$
+- $f(s_1 s_3) = f(\texttt{01}) = 2$
+- $f(s_2 s_3) = f(\texttt{01}) = 2$
+- $f(s_1 s_2 s_3) = f(\texttt{001}) = 2$
+
+这些值的总和为 $10$，模 $998\,244\,353$ 后结果为 $10$。
+
+翻译由 DeepSeek R1 完成
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

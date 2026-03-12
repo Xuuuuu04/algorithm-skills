@@ -1,0 +1,29 @@
+{
+  "id": "CF-1812J",
+  "contest_id": 1812,
+  "index": "J",
+  "name": "Unmysterious Language",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "constructive algorithms",
+    "strings"
+  ],
+  "solved_count": 6242,
+  "problem_url": "https://codeforces.com/problemset/problem/1812/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/1812/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1812/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1812J%20Unmysterious%20Language%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1812/J",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1812J - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

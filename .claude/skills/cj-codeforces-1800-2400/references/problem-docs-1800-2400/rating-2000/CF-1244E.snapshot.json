@@ -1,0 +1,43 @@
+{
+  "id": "CF-1244E",
+  "contest_id": 1244,
+  "index": "E",
+  "name": "Minimizing Difference",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "greedy",
+    "sortings",
+    "ternary search",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1244/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1244/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1244/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1244E%20Minimizing Difference%20tutorial",
+  "solved_count": 6302,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1244E",
+  "hydro_meta": {
+    "page_title": "Minimizing Difference - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "ternary search",
+      "two pointers",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

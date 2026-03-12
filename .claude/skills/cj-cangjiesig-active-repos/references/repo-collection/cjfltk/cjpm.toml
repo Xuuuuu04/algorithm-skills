@@ -1,0 +1,18 @@
+[dependencies]
+
+[package]
+  cjc-version = "1.0.3"
+  compile-option = "--debug-macro --warn-off=unused -Os"
+  description = "nothing here"
+  # link-option = "-L./build/fltk/lib/ -L./build/  -copy-dt-needed-entries -lcfltk2 -lfltk -lfltk_gl -lX11 -lxcb -lfontconfig -lXft -lXrender -lXcursor -lfltk_images -lfltk_gl -ljpeg -lz -lXinerama -lGL -lGLU -lfltk_forms -lcairo -lpango-1.0 -lpangocairo-1.0 -ldbus-1 -ldecor-0 -lwayland-client -lwayland-cursor -lxkbcommon -lxkbregistry"
+  link-option = "-L./build -L./build/fltk/lib -lcfltk2 -lfltk -lfltk_images -lfltk_images -lfltk_forms -lz -ljpeg -lpng -lstdc++ -ldbus-1 -lXinerama -lXcursor -lXfixes -lpangoxft-1.0 -lpangocairo-1.0 -lpangoft2-1.0 -lpango-1.0 -lcairo -lXext -lXft -lXrender -lX11 -lfontconfig -lharfbuzz -lfreetype -lgobject-2.0 -lglib-2.0 -lwayland-cursor -lwayland-client -lm -lxkbcommon -ldecor-0"
+  # link-option = "-L./build -L./build/fltk/lib -lcfltk2 -lfltk -lfltk_images -ldbus-1 -lstdc++ -lz -ljpeg -lpng"
+  name = "cjfltk"
+  output-type = "static"
+  override-compile-option = ""
+  src-dir = ""
+  target-dir = ""
+  version = "1.0.0"
+
+[package.package-configuration."cjfltk.example"]
+  output-type = "executable"

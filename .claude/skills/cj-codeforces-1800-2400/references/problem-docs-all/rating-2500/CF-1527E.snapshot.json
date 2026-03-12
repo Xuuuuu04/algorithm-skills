@@ -1,0 +1,30 @@
+{
+  "id": "CF-1527E",
+  "contest_id": 1527,
+  "index": "E",
+  "name": "Partition Game",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "divide and conquer",
+    "dp"
+  ],
+  "solved_count": 2837,
+  "problem_url": "https://codeforces.com/problemset/problem/1527/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1527/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1527/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1527E%20Partition%20Game%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1527E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1527E Partition Game - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 608,
+    "mirror_attempt": 1235,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

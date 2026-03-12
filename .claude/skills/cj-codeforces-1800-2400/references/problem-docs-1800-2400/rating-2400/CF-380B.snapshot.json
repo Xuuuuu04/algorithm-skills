@@ -1,0 +1,33 @@
+{
+  "id": "CF-380B",
+  "contest_id": 380,
+  "index": "B",
+  "name": "Sereja and Tree",
+  "rating": 2400,
+  "tags": [
+    "graphs",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/380/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/380/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/380/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=380B%20Sereja and Tree%20tutorial",
+  "solved_count": 566,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P380B",
+  "hydro_meta": {
+    "page_title": "Sereja and Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graphs",
+      "implementation",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

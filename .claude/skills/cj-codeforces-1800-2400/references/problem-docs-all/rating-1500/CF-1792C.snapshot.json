@@ -1,0 +1,31 @@
+{
+  "id": "CF-1792C",
+  "contest_id": 1792,
+  "index": "C",
+  "name": "Min Max Sort",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "greedy",
+    "math",
+    "two pointers"
+  ],
+  "solved_count": 16558,
+  "problem_url": "https://codeforces.com/problemset/problem/1792/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1792/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1792/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1792C%20Min%20Max%20Sort%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1792C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1792C Min Max Sort - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 361,
+    "mirror_attempt": 601,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

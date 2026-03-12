@@ -1,0 +1,30 @@
+{
+  "id": "CF-501D",
+  "contest_id": 501,
+  "index": "D",
+  "name": "Misha and Permutations Summation",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 2647,
+  "problem_url": "https://codeforces.com/problemset/problem/501/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/501/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/501/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=501D%20Misha%20and%20Permutations%20Summation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P501D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Misha and Permutations Summation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-844B",
+  "contest_id": 844,
+  "index": "B",
+  "name": "Rectangles",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 8867,
+  "problem_url": "https://codeforces.com/problemset/problem/844/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/844/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/844/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=844B%20Rectangles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P844B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Rectangles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

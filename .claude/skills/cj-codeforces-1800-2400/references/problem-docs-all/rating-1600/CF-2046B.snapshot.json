@@ -1,0 +1,36 @@
+{
+  "id": "CF-2046B",
+  "contest_id": 2046,
+  "index": "B",
+  "name": "Move Back at a Cost",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 10638,
+  "problem_url": "https://codeforces.com/problemset/problem/2046/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2046/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2046/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2046B%20Move%20Back%20at%20a%20Cost%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2046B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Move Back at a Cost - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "sortings",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

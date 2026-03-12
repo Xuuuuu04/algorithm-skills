@@ -1,0 +1,28 @@
+{
+  "id": "CF-1747A",
+  "contest_id": 1747,
+  "index": "A",
+  "name": "Two Groups",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 26405,
+  "problem_url": "https://codeforces.com/problemset/problem/1747/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1747/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1747/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1747A%20Two%20Groups%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1747/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1747A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

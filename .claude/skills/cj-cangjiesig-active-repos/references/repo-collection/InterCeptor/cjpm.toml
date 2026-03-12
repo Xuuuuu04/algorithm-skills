@@ -1,0 +1,16 @@
+[package]
+  cjc-version = "1.0.0"
+  name = "ctl_interceptor"
+  description = "nothing here"
+  version = "1.0.0"
+  target-dir = ""
+  src-dir = ""
+  output-type = "static"
+  compile-option = "-L . -linterceptor -luiohook.1.2.0"
+  override-compile-option = ""
+  link-option = ""
+  package-configuration = {}
+
+[dependencies]
+
+

@@ -1,0 +1,28 @@
+{
+  "id": "CF-2165A",
+  "contest_id": 2165,
+  "index": "A",
+  "name": "Cyclic Merging",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 13471,
+  "problem_url": "https://codeforces.com/problemset/problem/2165/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2165/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2165/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2165A%20Cyclic%20Merging%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2165/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2165A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

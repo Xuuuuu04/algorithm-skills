@@ -1,0 +1,38 @@
+{
+  "id": "CF-788B",
+  "contest_id": 788,
+  "index": "B",
+  "name": "Weird journey",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 2836,
+  "problem_url": "https://codeforces.com/problemset/problem/788/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/788/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/788/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=788B%20Weird%20journey%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P788B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Weird journey - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

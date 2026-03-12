@@ -1,0 +1,42 @@
+{
+  "id": "CF-2189D2",
+  "contest_id": 2189,
+  "index": "D2",
+  "name": "Little String (Hard Version)",
+  "rating": 2200,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2189/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2189/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2189/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2189D2%20Little String (Hard Version)%20tutorial",
+  "solved_count": 1770,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2189D2",
+  "hydro_meta": {
+    "page_title": "Little String (Hard Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "greedy",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

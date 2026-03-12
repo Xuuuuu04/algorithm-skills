@@ -1,0 +1,40 @@
+{
+  "id": "CF-1550D",
+  "contest_id": 1550,
+  "index": "D",
+  "name": "Excellent Arrays",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "combinatorics",
+    "constructive algorithms",
+    "implementation",
+    "math",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 2003,
+  "problem_url": "https://codeforces.com/problemset/problem/1550/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1550/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1550/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1550D%20Excellent%20Arrays%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1550D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Excellent Arrays - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "two pointers",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

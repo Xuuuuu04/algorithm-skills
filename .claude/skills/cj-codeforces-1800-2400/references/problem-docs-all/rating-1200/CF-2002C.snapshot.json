@@ -1,0 +1,30 @@
+{
+  "id": "CF-2002C",
+  "contest_id": 2002,
+  "index": "C",
+  "name": "Black Circles",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "geometry",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 17548,
+  "problem_url": "https://codeforces.com/problemset/problem/2002/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2002/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2002/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2002C%20Black%20Circles%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2002/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2002C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

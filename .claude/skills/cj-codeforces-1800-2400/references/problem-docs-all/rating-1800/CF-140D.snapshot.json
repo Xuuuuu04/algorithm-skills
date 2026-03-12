@@ -1,0 +1,32 @@
+{
+  "id": "CF-140D",
+  "contest_id": 140,
+  "index": "D",
+  "name": "New Year Contest",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 2300,
+  "problem_url": "https://codeforces.com/problemset/problem/140/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/140/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/140/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=140D%20New%20Year%20Contest%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P140D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year Contest - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

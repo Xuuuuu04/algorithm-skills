@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417793:5bmvwLWN/xjRPY2IfEDt75LKh2DoYTRO4wYFuP+Ed5g=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF346C Number Transformation II - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF346C","type":"CF","title":"Number Transformation II","difficulty":5,"tags":[],"wantsTranslation":false,"totalSubmit":132,"totalAccepted":52,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Number Transformation II","background":"","description":"\u7ed9\u5b9a $n$ \u4e2a\u6b63\u6574\u6570 $x_i$ \u548c\u4e24\u4e2a\u975e\u8d1f\u6574\u6570 $a$ \u3001 $b$ \uff0c\uff08 $b\\leq a$ \uff09\uff0c\u4f60\u6bcf\u6b21\u53ef\u4ee5\u8fdb\u884c\u4ee5\u4e0b\u4e24\u64cd\u4f5c\u4e2d\u4efb\u4e00\u4e2a\uff1a\n1. $a=a-1$\n2. $a=a-a\\ mod\\ x_i(1\\leq i\\leq n)$   \n\n\u95ee\u8981\u4f7f $a$ \u53d8\u6210 $b$ \u81f3\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$ \u3002   \n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570 $x_i$ \u3002   \n\u7b2c\u4e09\u884c\u4e24\u4e2a\u6574\u6570 $a$ \u3001 $b$ \u3002","formatO":"\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06 $a$ \u53d8\u6210 $b$ \u7684\u6700\u5c11\u64cd\u4f5c\u6570\u3002\n\n#### \u6570\u636e\u8303\u56f4   \n$1\\leq n\\leq 10^5,2\\leq x_i\\leq 10^9$   \n$0\\leq b\\leq a\\leq 10^9,a-b\\leq 10^6$","hint":"","locale":"zh-CN"},"content":{"name":"Number Transformation II","background":"","description":"You are given a sequence of positive integers $ x_{1},x_{2},...,x_{n} $ and two non-negative integers $ a $ and $ b $ . Your task is to transform $ a $ into $ b $ . To do that, you can perform the following moves:\n\n- subtract 1 from the current $ a $ ;\n- subtract $ a $ mod $ x_{i} $ $ (1\u003C=i\u003C=n) $ from the current $ a $ .\n\nOperation $ a $ mod $ x_{i} $ means taking the remainder after division of number $ a $ by number $ x_{i} $ .\n\nNow you want to know the minimum number of moves needed to transform $ a $ into $ b $ .","formatI":"The first line contains a single integer $ n $ ( $ 1\u003C=n\u003C=10^{5} $ ). The second line contains $ n $ space-separated integers $ x_{1},x_{2},...,x_{n} $ ( $ 2\u003C=x_{i}\u003C=10^{9} $ ). The third line contains two integers $ a $ and $ b $ ( $ 0\u003C=b\u003C=a\u003C=10^{9} $ , $ a-b\u003C=10^{6} $ ).","formatO":"Print a single integer \u2014 the required minimum number of moves needed to transform number $ a $ into number $ b $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3 4 5\n30 17\n","6\n"],["3\n5 6 7\n1000 200\n","206\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"346C","link":"https:\/\/codeforces.com\/problemset\/problem\/346\/C"},"translation":"#### \u9898\u76ee\u63cf\u8ff0   \n\u7ed9\u5b9a $n$ \u4e2a\u6b63\u6574\u6570 $x_i$ \u548c\u4e24\u4e2a\u975e\u8d1f\u6574\u6570 $a$ \u3001 $b$ \uff0c\uff08 $b\\leq a$ \uff09\uff0c\u4f60\u6bcf\u6b21\u53ef\u4ee5\u8fdb\u884c\u4ee5\u4e0b\u4e24\u64cd\u4f5c\u4e2d\u4efb\u4e00\u4e2a\uff1a\n1. $a=a-1$\n2. $a=a-a\\ mod\\ x_i(1\\leq i\\leq n)$   \n\n\u95ee\u8981\u4f7f $a$ \u53d8\u6210 $b$ \u81f3\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\n\n#### \u8f93\u5165\u683c\u5f0f    \n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$ \u3002   \n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570 $x_i$ \u3002   \n\u7b2c\u4e09\u884c\u4e24\u4e2a\u6574\u6570 $a$ \u3001 $b$ \u3002\n\n#### \u8f93\u51fa\u683c\u5f0f   \n\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06 $a$ \u53d8\u6210 $b$ \u7684\u6700\u5c11\u64cd\u4f5c\u6570\u3002\n\n#### \u6570\u636e\u8303\u56f4   \n$1\\leq n\\leq 10^5,2\\leq x_i\\leq 10^9$   \n$0\\leq b\\leq a\\leq 10^9,a-b\\leq 10^6$\n"},"translations":{"en":{"name":"Number Transformation II","background":"","description":"You are given a sequence of positive integers $ x_{1},x_{2},...,x_{n} $ and two non-negative integers $ a $ and $ b $ . Your task is to transform $ a $ into $ b $ . To do that, you can perform the following moves:\n\n- subtract 1 from the current $ a $ ;\n- subtract $ a $ mod $ x_{i} $ $ (1\u003C=i\u003C=n) $ from the current $ a $ .\n\nOperation $ a $ mod $ x_{i} $ means taking the remainder after division of number $ a $ by number $ x_{i} $ .\n\nNow you want to know the minimum number of moves needed to transform $ a $ into $ b $ .","formatI":"The first line contains a single integer $ n $ ( $ 1\u003C=n\u003C=10^{5} $ ). The second line contains $ n $ space-separated integers $ x_{1},x_{2},...,x_{n} $ ( $ 2\u003C=x_{i}\u003C=10^{9} $ ). The third line contains two integers $ a $ and $ b $ ( $ 0\u003C=b\u003C=a\u003C=10^{9} $ , $ a-b\u003C=10^{6} $ ).","formatO":"Print a single integer \u2014 the required minimum number of moves needed to transform number $ a $ into number $ b $ .","hint":"","locale":"en"},"zh-CN":{"name":"Number Transformation II","background":"","description":"\u7ed9\u5b9a $n$ \u4e2a\u6b63\u6574\u6570 $x_i$ \u548c\u4e24\u4e2a\u975e\u8d1f\u6574\u6570 $a$ \u3001 $b$ \uff0c\uff08 $b\\leq a$ \uff09\uff0c\u4f60\u6bcf\u6b21\u53ef\u4ee5\u8fdb\u884c\u4ee5\u4e0b\u4e24\u64cd\u4f5c\u4e2d\u4efb\u4e00\u4e2a\uff1a\n1. $a=a-1$\n2. $a=a-a\\ mod\\ x_i(1\\leq i\\leq n)$   \n\n\u95ee\u8981\u4f7f $a$ \u53d8\u6210 $b$ \u81f3\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$ \u3002   \n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570 $x_i$ \u3002   \n\u7b2c\u4e09\u884c\u4e24\u4e2a\u6574\u6570 $a$ \u3001 $b$ \u3002","formatO":"\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06 $a$ \u53d8\u6210 $b$ \u7684\u6700\u5c11\u64cd\u4f5c\u6570\u3002\n\n#### \u6570\u636e\u8303\u56f4   \n$1\\leq n\\leq 10^5,2\\leq x_i\\leq 10^9$   \n$0\\leq b\\leq a\\leq 10^9,a-b\\leq 10^6$","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF346C Number Transformation II","type":2,"slug":"CF346C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773331393.667092,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF346C Number Transformation II","description":"\u7ed9\u5b9a n \u4e2a\u6b63\u6574\u6570 x_i \u548c\u4e24\u4e2a\u975e\u8d1f\u6574\u6570 a \u3001 b \uff0c\uff08 b\\leq a \uff09\uff0c\u4f60\u6bcf\u6b21\u53ef\u4ee5\u8fdb\u884c\u4ee5\u4e0b\u4e24\u64cd\u4f5c\u4e2d\u4efb\u4e00\u4e2a\uff1a\n\n\na=a-1\n\n\na=a-a\\ mod\\ x_i(1\\leq i\\leq n)\n\n\n\u95ee\u8981\u4f7f a \u53d8\u6210 b \u81f3\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF346C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF346C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF346C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF346C Number Transformation II" />
+    <meta property="og:description" content="给定 n 个正整数 x_i 和两个非负整数 a 、 b ，（ b\leq a ），你每次可以进行以下两操作中任一个：
+
+
+a=a-1
+
+
+a=a-a\ mod\ x_i(1\leq i\leq n)
+
+
+问要使 a 变成 b 至少需要多少次操作" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF346C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF346C Number Transformation II</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定 $n$ 个正整数 $x_i$ 和两个非负整数 $a$ 、 $b$ ，（ $b\leq a$ ），你每次可以进行以下两操作中任一个：
+1. $a=a-1$
+2. $a=a-a\ mod\ x_i(1\leq i\leq n)$   
+
+问要使 $a$ 变成 $b$ 至少需要多少次操作
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个整数 $n$ 。   
+第二行 $n$ 个整数 $x_i$ 。   
+第三行两个整数 $a$ 、 $b$ 。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    一个整数，表示将 $a$ 变成 $b$ 的最少操作数。
+
+#### 数据范围   
+$1\leq n\leq 10^5,2\leq x_i\leq 10^9$   
+$0\leq b\leq a\leq 10^9,a-b\leq 10^6$
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

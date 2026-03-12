@@ -1,0 +1,44 @@
+{
+  "id": "CF-2040E",
+  "contest_id": 2040,
+  "index": "E",
+  "name": "Control of Randomness",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "combinatorics",
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "greedy",
+    "math",
+    "probabilities",
+    "trees"
+  ],
+  "solved_count": 2615,
+  "problem_url": "https://codeforces.com/problemset/problem/2040/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2040/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2040/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2040E%20Control%20of%20Randomness%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2040E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Control of Randomness - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "greedy",
+      "math",
+      "probabilities",
+      "trees",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

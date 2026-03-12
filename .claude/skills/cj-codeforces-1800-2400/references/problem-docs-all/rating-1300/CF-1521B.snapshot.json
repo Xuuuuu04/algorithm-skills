@@ -1,0 +1,34 @@
+{
+  "id": "CF-1521B",
+  "contest_id": 1521,
+  "index": "B",
+  "name": "Nastia and a Good Array",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 22812,
+  "problem_url": "https://codeforces.com/problemset/problem/1521/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1521/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1521/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1521B%20Nastia%20and%20a%20Good%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1521B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nastia and a Good Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

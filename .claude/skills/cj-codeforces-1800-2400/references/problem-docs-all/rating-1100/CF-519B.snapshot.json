@@ -1,0 +1,29 @@
+{
+  "id": "CF-519B",
+  "contest_id": 519,
+  "index": "B",
+  "name": "A and B and Compilation Errors",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "data structures",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 43369,
+  "problem_url": "https://codeforces.com/problemset/problem/519/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/519/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/519/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=519B%20A%20and%20B%20and%20Compilation%20Errors%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/519/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 519B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

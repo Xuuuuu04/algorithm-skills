@@ -1,0 +1,41 @@
+{
+  "id": "CF-1296F",
+  "contest_id": 1296,
+  "index": "F",
+  "name": "Berland Beauty",
+  "rating": 2100,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1296/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1296/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1296/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1296F%20Berland Beauty%20tutorial",
+  "solved_count": 3076,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1296F",
+  "hydro_meta": {
+    "page_title": "Berland Beauty - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "greedy",
+      "sortings",
+      "trees",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1863A",
+  "contest_id": 1863,
+  "index": "A",
+  "name": "Channel",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 18826,
+  "problem_url": "https://codeforces.com/problemset/problem/1863/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1863/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1863/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1863A%20Channel%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1863A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1863A Channel - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 173,
+    "mirror_attempt": 387,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

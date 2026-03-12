@@ -1,0 +1,27 @@
+{
+  "id": "CF-1092B",
+  "contest_id": 1092,
+  "index": "B",
+  "name": "Teams Forming",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "sortings"
+  ],
+  "solved_count": 28754,
+  "problem_url": "https://codeforces.com/problemset/problem/1092/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1092/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1092/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1092B%20Teams%20Forming%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1092B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1092B Teams Forming - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 383,
+    "mirror_attempt": 586,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

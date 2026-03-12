@@ -1,0 +1,33 @@
+{
+  "id": "CF-1949F",
+  "contest_id": 1949,
+  "index": "F",
+  "name": "Dating",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 1392,
+  "problem_url": "https://codeforces.com/problemset/problem/1949/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1949/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1949/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1949F%20Dating%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1949F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Dating - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "CF-1403A",
+  "contest_id": 1403,
+  "index": "A",
+  "name": "The Potion of Great Power",
+  "rating": 2400,
+  "tags": [
+    "*special",
+    "2-sat",
+    "binary search",
+    "data structures",
+    "graphs",
+    "interactive",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1403/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1403/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1403/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1403A%20The Potion of Great Power%20tutorial",
+  "solved_count": 309,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1403A",
+  "hydro_meta": {
+    "page_title": "The Potion of Great Power - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "2-sat",
+      "binary search",
+      "data structures",
+      "graphs",
+      "interactive",
+      "sortings",
+      "two pointers",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

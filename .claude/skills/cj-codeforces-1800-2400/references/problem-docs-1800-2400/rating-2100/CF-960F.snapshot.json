@@ -1,0 +1,37 @@
+{
+  "id": "CF-960F",
+  "contest_id": 960,
+  "index": "F",
+  "name": "Pathwalks",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "dp",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/960/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/960/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/960/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=960F%20Pathwalks%20tutorial",
+  "solved_count": 3360,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P960F",
+  "hydro_meta": {
+    "page_title": "Pathwalks - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

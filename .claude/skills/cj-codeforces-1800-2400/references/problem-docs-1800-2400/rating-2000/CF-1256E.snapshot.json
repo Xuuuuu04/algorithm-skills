@@ -1,0 +1,36 @@
+{
+  "id": "CF-1256E",
+  "contest_id": 1256,
+  "index": "E",
+  "name": "Yet Another Division Into Teams",
+  "rating": 2000,
+  "tags": [
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1256/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1256/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1256/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1256E%20Yet Another Division Into Teams%20tutorial",
+  "solved_count": 4573,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1256E",
+  "hydro_meta": {
+    "page_title": "Yet Another Division Into Teams - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

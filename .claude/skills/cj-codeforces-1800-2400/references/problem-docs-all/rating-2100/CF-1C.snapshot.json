@@ -1,0 +1,32 @@
+{
+  "id": "CF-1C",
+  "contest_id": 1,
+  "index": "C",
+  "name": "Ancient Berland Circus",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "geometry",
+    "math"
+  ],
+  "solved_count": 6403,
+  "problem_url": "https://codeforces.com/problemset/problem/1/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1C%20Ancient%20Berland%20Circus%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ancient Berland Circus - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "math",
+      "*2100"
+    ],
+    "mirror_accepted": 4,
+    "mirror_attempt": 11,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

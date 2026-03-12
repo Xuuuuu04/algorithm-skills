@@ -1,0 +1,29 @@
+{
+  "id": "CF-1208H",
+  "contest_id": 1208,
+  "index": "H",
+  "name": "Red Blue Tree",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3750.0,
+  "tags": [
+    "data structures",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 186,
+  "problem_url": "https://codeforces.com/problemset/problem/1208/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1208/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1208/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1208H%20Red%20Blue%20Tree%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1208/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1208H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

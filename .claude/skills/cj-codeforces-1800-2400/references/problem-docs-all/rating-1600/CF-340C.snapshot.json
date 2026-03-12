@@ -1,0 +1,29 @@
+{
+  "id": "CF-340C",
+  "contest_id": 340,
+  "index": "C",
+  "name": "Tourist Problem",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 4650,
+  "problem_url": "https://codeforces.com/problemset/problem/340/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/340/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/340/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=340C%20Tourist%20Problem%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/340/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 340C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

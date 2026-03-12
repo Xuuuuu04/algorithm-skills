@@ -1,0 +1,36 @@
+{
+  "id": "CF-1510I",
+  "contest_id": 1510,
+  "index": "I",
+  "name": "Is It Rated?",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "interactive",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 574,
+  "problem_url": "https://codeforces.com/problemset/problem/1510/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1510/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1510/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1510I%20Is%20It%20Rated%3F%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1510I",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Is It Rated? - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "interactive",
+      "math",
+      "probabilities",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

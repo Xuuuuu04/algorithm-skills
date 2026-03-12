@@ -1,0 +1,32 @@
+{
+  "id": "CF-2004B",
+  "contest_id": 2004,
+  "index": "B",
+  "name": "Game with Doors",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "greedy"
+  ],
+  "solved_count": 31160,
+  "problem_url": "https://codeforces.com/problemset/problem/2004/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2004/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2004/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2004B%20Game%20with%20Doors%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2004B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Game with Doors - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

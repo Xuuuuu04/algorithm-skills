@@ -1,0 +1,30 @@
+{
+  "id": "CF-456A",
+  "contest_id": 456,
+  "index": "A",
+  "name": "Laptops",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "sortings"
+  ],
+  "solved_count": 55699,
+  "problem_url": "https://codeforces.com/problemset/problem/456/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/456/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/456/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=456A%20Laptops%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P456A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Laptops - 题目详情 - Hydro",
+    "mirror_tags": [
+      "sortings",
+      "*1100"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

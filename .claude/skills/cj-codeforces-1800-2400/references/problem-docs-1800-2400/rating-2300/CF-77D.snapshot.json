@@ -1,0 +1,33 @@
+{
+  "id": "CF-77D",
+  "contest_id": 77,
+  "index": "D",
+  "name": "Domino Carpet",
+  "rating": 2300,
+  "tags": [
+    "dp",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/77/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/77/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/77/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=77D%20Domino Carpet%20tutorial",
+  "solved_count": 361,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P77D",
+  "hydro_meta": {
+    "page_title": "Domino Carpet - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "implementation",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

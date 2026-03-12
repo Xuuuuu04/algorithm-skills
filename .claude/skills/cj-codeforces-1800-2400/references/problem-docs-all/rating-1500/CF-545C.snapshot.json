@@ -1,0 +1,28 @@
+{
+  "id": "CF-545C",
+  "contest_id": 545,
+  "index": "C",
+  "name": "Woodcutters",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 32383,
+  "problem_url": "https://codeforces.com/problemset/problem/545/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/545/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/545/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=545C%20Woodcutters%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF545C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF545C Woodcutters - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1409,
+    "mirror_attempt": 4103,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

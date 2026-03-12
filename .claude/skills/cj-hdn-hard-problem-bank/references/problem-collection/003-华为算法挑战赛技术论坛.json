@@ -1,0 +1,70 @@
+{
+  "source": "public_slot_api",
+  "title": "华为算法挑战赛技术论坛",
+  "url": "https://www.chaspark.com/#/live/1220164990206582784",
+  "difficulty": "Hard",
+  "tags": [
+    "homeRaces"
+  ],
+  "core_idea": "待补充",
+  "pitfalls": "待补充",
+  "raw": {
+    "hwUsers": true,
+    "customCover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1227395727119175680.jpg?state=2",
+    "contentId": "1220164990206582784",
+    "creatorName": "茶思屋直播",
+    "isIntraLink": true,
+    "description": {
+      "en": "This forum, themed \"Technological Foundations and Practical Exploration in the Era of Intelligence,\" brings together outstanding winners from previous competitions, industry experts, and leading figures in the IT sector. You will hear from champion participants on how they achieved key breakthroughs in cutting-edge topics such as memory management in large language models, and engage in in-depth discussions with technical experts to explore the practical applications of advanced technologies like intelligent agents and Ascend AI computing power in industrial scenarios.",
+      "zh": "本次论坛以“智能时代下的技术基础与实践探索”为主题，特邀往期赛事的杰出优胜者、产业赛题专家与各IT行业大咖领袖齐聚一堂。您将聆听到冠军选手如何在大语言模型记忆管理等尖端赛题中实现关键突破，并与技术专家深度对话，共同探讨Agent智能体、昇腾AI算力等前沿技术在工业场景的应用实践。"
+    },
+    "customCoverEn": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1227395751943110656.jpg?state=2",
+    "customTitle": {
+      "en": "Huawei Algorithm Challenge Technical Forum",
+      "zh": "华为算法挑战赛技术论坛"
+    },
+    "videos": [],
+    "creatorNid": "838561656383840257",
+    "title": "华为算法挑战赛技术论坛",
+    "auditState": 2,
+    "isEssence": 0,
+    "actualContentId": "1220164990206582784",
+    "cover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1222368763568361472.jpg?state=2",
+    "columnRoute": "https://www.chaspark.com/#/live",
+    "columnTypeName": "直播",
+    "hasVoice": false,
+    "contentType": 12,
+    "publishTime": "1766043741",
+    "images": [],
+    "creatorType": "2",
+    "totalTime": "9480",
+    "isShowEssence": 1,
+    "domains": [
+      {
+        "isLabel": 0,
+        "domainName": "计算与存储领域",
+        "channel": 0,
+        "domainId": "1141950491274665986"
+      },
+      {
+        "isLabel": 0,
+        "domainName": "人工智能领域",
+        "channel": 0,
+        "domainId": "8"
+      }
+    ],
+    "sort": 563,
+    "columnType": "live",
+    "showTable": [
+      {
+        "showName": "科技赛事",
+        "showLink": ""
+      }
+    ],
+    "slotContentUpdateTime": "1767767676",
+    "slotContentId": "1126592802649463944",
+    "detailUrl": "https://www.chaspark.com/#/live/1220164990206582784",
+    "position": "",
+    "customLink": "https://www.chaspark.com/#/live/1220164990206582784"
+  }
+}

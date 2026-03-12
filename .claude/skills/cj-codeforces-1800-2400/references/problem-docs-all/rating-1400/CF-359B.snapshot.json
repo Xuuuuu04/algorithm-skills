@@ -1,0 +1,29 @@
+{
+  "id": "CF-359B",
+  "contest_id": 359,
+  "index": "B",
+  "name": "Permutation",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "math"
+  ],
+  "solved_count": 8664,
+  "problem_url": "https://codeforces.com/problemset/problem/359/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/359/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/359/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=359B%20Permutation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/359/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 359B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

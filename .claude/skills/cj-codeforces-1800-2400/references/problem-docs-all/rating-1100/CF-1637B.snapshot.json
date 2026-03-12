@@ -1,0 +1,35 @@
+{
+  "id": "CF-1637B",
+  "contest_id": 1637,
+  "index": "B",
+  "name": "MEX and Array",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 15320,
+  "problem_url": "https://codeforces.com/problemset/problem/1637/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1637/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1637/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1637B%20MEX%20and%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1637B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "MEX and Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

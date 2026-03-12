@@ -1,0 +1,36 @@
+{
+  "id": "CF-2066B",
+  "contest_id": 2066,
+  "index": "B",
+  "name": "White Magic",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2066/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2066/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2066/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2066B%20White Magic%20tutorial",
+  "solved_count": 5340,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2066B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2066B White Magic - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1081A",
+  "contest_id": 1081,
+  "index": "A",
+  "name": "Definite Game",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 13155,
+  "problem_url": "https://codeforces.com/problemset/problem/1081/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1081/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1081/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1081A%20Definite%20Game%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1081A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1081A Definite Game - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 224,
+    "mirror_attempt": 352,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

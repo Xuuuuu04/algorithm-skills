@@ -1,0 +1,30 @@
+{
+  "id": "CF-513E2",
+  "contest_id": 513,
+  "index": "E2",
+  "name": "Subarray Cuts",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 12.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 642,
+  "problem_url": "https://codeforces.com/problemset/problem/513/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/513/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/513/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=513E2%20Subarray%20Cuts%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P513E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Subarray Cuts - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

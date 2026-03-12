@@ -1,0 +1,38 @@
+{
+  "id": "CF-982D",
+  "contest_id": 982,
+  "index": "D",
+  "name": "Shark",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dsu",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/982/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/982/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/982/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=982D%20Shark%20tutorial",
+  "solved_count": 2488,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P982D",
+  "hydro_meta": {
+    "page_title": "Shark - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dsu",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

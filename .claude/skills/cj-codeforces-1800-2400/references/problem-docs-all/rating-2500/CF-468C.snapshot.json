@@ -1,0 +1,29 @@
+{
+  "id": "CF-468C",
+  "contest_id": 468,
+  "index": "C",
+  "name": "Hack it!",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 2716,
+  "problem_url": "https://codeforces.com/problemset/problem/468/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/468/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/468/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=468C%20Hack%20it%21%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF468C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF468C Hack it! - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 2003,
+    "mirror_attempt": 4444,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

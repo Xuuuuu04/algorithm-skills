@@ -1,0 +1,42 @@
+{
+  "id": "CF-1895D",
+  "contest_id": 1895,
+  "index": "D",
+  "name": "XOR Construction",
+  "rating": 1900,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "data structures",
+    "math",
+    "string suffix structures",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1895/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1895/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1895/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1895D%20XOR Construction%20tutorial",
+  "solved_count": 7032,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1895D",
+  "hydro_meta": {
+    "page_title": "XOR Construction - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "data structures",
+      "math",
+      "trees"
+    ],
+    "hydro_accepted": 3,
+    "hydro_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

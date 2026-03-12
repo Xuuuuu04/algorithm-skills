@@ -1,0 +1,31 @@
+{
+  "id": "CF-340B",
+  "contest_id": 340,
+  "index": "B",
+  "name": "Maximal Area Quadrilateral",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "geometry"
+  ],
+  "url": "https://codeforces.com/problemset/problem/340/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/340/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/340/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=340B%20Maximal Area Quadrilateral%20tutorial",
+  "solved_count": 2287,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P340B",
+  "hydro_meta": {
+    "page_title": "Maximal Area Quadrilateral - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "geometry",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

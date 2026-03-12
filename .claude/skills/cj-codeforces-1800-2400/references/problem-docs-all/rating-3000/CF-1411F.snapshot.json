@@ -1,0 +1,28 @@
+{
+  "id": "CF-1411F",
+  "contest_id": 1411,
+  "index": "F",
+  "name": "The Thorny Path",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 429,
+  "problem_url": "https://codeforces.com/problemset/problem/1411/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1411/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1411/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1411F%20The%20Thorny%20Path%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1411F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1411F The Thorny Path - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 69,
+    "mirror_attempt": 178,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

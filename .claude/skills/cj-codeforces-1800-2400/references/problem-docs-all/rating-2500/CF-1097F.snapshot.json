@@ -1,0 +1,29 @@
+{
+  "id": "CF-1097F",
+  "contest_id": 1097,
+  "index": "F",
+  "name": "Alex and a TV Show",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "number theory"
+  ],
+  "solved_count": 1464,
+  "problem_url": "https://codeforces.com/problemset/problem/1097/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1097/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1097/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1097F%20Alex%20and%20a%20TV%20Show%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1097/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1097F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CF-2048E",
+  "contest_id": 2048,
+  "index": "E",
+  "name": "Kevin and Bipartite Graph",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2048/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2048/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2048/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2048E%20Kevin and Bipartite Graph%20tutorial",
+  "solved_count": 3411,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2048E",
+  "hydro_meta": {
+    "page_title": "Kevin and Bipartite Graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-72H",
+  "contest_id": 72,
+  "index": "H",
+  "name": "Reverse It!",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 284,
+  "problem_url": "https://codeforces.com/problemset/problem/72/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/72/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/72/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=72H%20Reverse%20It%21%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/72/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 72H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CF-1413C",
+  "contest_id": 1413,
+  "index": "C",
+  "name": "Perform Easily",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "brute force",
+    "dp",
+    "implementation",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1413/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1413/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1413/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1413C%20Perform Easily%20tutorial",
+  "solved_count": 6072,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1413C",
+  "hydro_meta": {
+    "page_title": "Perform Easily - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "dp",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

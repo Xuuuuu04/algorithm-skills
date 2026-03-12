@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1822B Karina and Array - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1822B","type":"CF","title":"Karina and Array","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":273,"totalAccepted":160,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Karina and Array","background":"","description":"Karina \u6709\u4e00\u4e2a $n$ \u4e2a\u6574\u6570\u7684\u6570\u7ec4  $a_1,a_2,a_3,\\cdots,a_n$\u3002\u5979\u8fd8\u559c\u6b22\u5c06\u6570\u5b57\u4e58\u5728\u4e00\u8d77\uff0c\u6240\u4ee5\u5979\u8ba4\u4e3a\u4e00\u5bf9\u6570\u5b57\u7684\u7f8e\u5728\u4e8e\u5b83\u4eec\u7684\u4e58\u79ef\u3002\u6570\u7ec4\u7684\u7f8e\u5c31\u662f\u6570\u7ec4\u4e2d\u76f8\u90bb\u7684\u4e00\u5bf9\u5143\u7d20\u7684\u6700\u5927\u7f8e\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e $n = 4$\uff0c$a =[3,5,7,4]$\uff0c\u6570\u7ec4\u7684\u7f8e\u5999\u4e4b\u5904\u662f $max(3\\times5,5 \\times 7,7 \\times 4) = max (15, 35, 28) = 35$\u3002\n\nKarina \u5e0c\u671b\u5979\u7684\u9635\u5217\u5c3d\u53ef\u80fd\u7684\u6f02\u4eae\u3002\u4e3a\u4e86\u5b9e\u73b0\u5979\u7684\u76ee\u6807\uff0c\u5979\u53ef\u4ee5\u4ece\u6570\u7ec4\u4e2d\u5220\u9664\u4e00\u4e9b\u5143\u7d20\uff08\u53ef\u80fd\u4e3a\u96f6\uff09\u3002\u5728 Karina \u5220\u9664\u5979\u60f3\u8981\u7684\u6240\u6709\u5143\u7d20\u540e\uff0c\u6570\u7ec4\u5fc5\u987b\u5305\u542b\u81f3\u5c11\u4e24\u4e2a\u5143\u7d20\u3002\n\n\u4e0d\u5e78\u7684\u662f\uff0cKarina \u6ca1\u6709\u8db3\u591f\u7684\u65f6\u95f4\u6765\u5b8c\u6210\u5979\u7684\u6240\u6709\u4efb\u52a1\uff0c\u6240\u4ee5\u5979\u8981\u6c42\u4f60\u8ba1\u7b97\u5979\u901a\u8fc7\u5220\u9664\u4efb\u610f\u6570\u91cf\u7684\u5143\u7d20\uff08\u53ef\u80fd\u4e3a\u96f6\uff09\u6240\u80fd\u83b7\u5f97\u7684\u6570\u7ec4\u7684\u6700\u5927\u7f8e\u611f\u3002","formatI":"**\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e**\u3002\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t(1 \\leq t \\leq 10^4)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff1a\n\n\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $n(2 \\times 10^5)$\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1,a_2,a_3,\\cdots,a_n(-10^9 \\leq a_i \\leq 10^9)$\uff0c\u4ee3\u8868\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002\n\n\u6240\u6709\u6d4b\u8bd5\u6570\u636e\u4e2d\u6240\u6709 $n$ \u503c\u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\times 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff1a\n\n\u8f93\u51fa Karina \u53ef\u4ee5\u5f97\u5230\u6570\u7ec4\u7684\u6700\u5927\u7f8e\u611f\u3002\n\n\u611f\u8c22@[ULSG_XBaiC](https:\/\/www.luogu.com.cn\/user\/925577) \u7684\u7ffb\u8bd1\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Karina and Array","background":"","description":"Karina has an array of $ n $ integers $ a_1, a_2, a_3, \\dots, a_n $ . She loves multiplying numbers, so she decided that the beauty of a pair of numbers is their product. And the beauty of an array is the maximum beauty of a pair of adjacent elements in the array.\n\nFor example, for $ n = 4 $ , $ a=[3, 5, 7, 4] $ , the beauty of the array is $ \\max $ ( $ 3 \\cdot 5 $ , $ 5 \\cdot 7 $ , $ 7 \\cdot 4 $ ) = $ \\max $ ( $ 15 $ , $ 35 $ , $ 28 $ ) = $ 35 $ .\n\nKarina wants her array to be as beautiful as possible. In order to achieve her goal, she can remove some elements (possibly zero) from the array. After Karina removes all elements she wants to, the array must contain at least two elements.\n\nUnfortunately, Karina doesn\u0027t have enough time to do all her tasks, so she asks you to calculate the maximum beauty of the array that she can get by removing any number of elements (possibly zero).","formatI":"The first line of the input contains an integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe description of the test cases follows.\n\nThe first line of a test case contains an integer $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the length of the array $ a $ .\n\nThe second line of a test case contains $ n $ integers $ a_1, a_2, a_3, \\dots, a_n $ ( $ -10^9 \\le a_i \\le 10^9 $ ) \u2014 the elements of the array $ a $ .\n\nThe sum of all values of $ n $ across all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"Output $ t $ integers, each of which is the answer to the corresponding test case \u2014 the maximum beauty of the array that Karina can get.","hint":"In the first test case of the example, to get the maximum beauty, you need to remove the $ 2 $ -nd element.\n\nIn the second and third test cases of the example, there is no need to remove any elements to achieve maximum beauty.\n\nIn the fourth test case of the example, you need to leave only the first and last elements.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\n4\n5 0 2 1\n3\n-1 1 0\n5\n2 0 -1 -4 0\n6\n-8 4 3 7 1 -9\n6\n0 3 -2 5 -4 -4\n2\n1000000000 910000000\n7\n-1 -7 -2 -5 -4 -6 -3","10\n0\n4\n72\n16\n910000000000000000\n42"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1822B","link":"https:\/\/codeforces.com\/problemset\/problem\/1822\/B"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\nKarina \u6709\u4e00\u4e2a $n$ \u4e2a\u6574\u6570\u7684\u6570\u7ec4  $a_1,a_2,a_3,\\cdots,a_n$\u3002\u5979\u8fd8\u559c\u6b22\u5c06\u6570\u5b57\u4e58\u5728\u4e00\u8d77\uff0c\u6240\u4ee5\u5979\u8ba4\u4e3a\u4e00\u5bf9\u6570\u5b57\u7684\u7f8e\u5728\u4e8e\u5b83\u4eec\u7684\u4e58\u79ef\u3002\u6570\u7ec4\u7684\u7f8e\u5c31\u662f\u6570\u7ec4\u4e2d\u76f8\u90bb\u7684\u4e00\u5bf9\u5143\u7d20\u7684\u6700\u5927\u7f8e\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e $n = 4$\uff0c$a =[3,5,7,4]$\uff0c\u6570\u7ec4\u7684\u7f8e\u5999\u4e4b\u5904\u662f $max(3\\times5,5 \\times 7,7 \\times 4) = max (15, 35, 28) = 35$\u3002\n\nKarina \u5e0c\u671b\u5979\u7684\u9635\u5217\u5c3d\u53ef\u80fd\u7684\u6f02\u4eae\u3002\u4e3a\u4e86\u5b9e\u73b0\u5979\u7684\u76ee\u6807\uff0c\u5979\u53ef\u4ee5\u4ece\u6570\u7ec4\u4e2d\u5220\u9664\u4e00\u4e9b\u5143\u7d20\uff08\u53ef\u80fd\u4e3a\u96f6\uff09\u3002\u5728 Karina \u5220\u9664\u5979\u60f3\u8981\u7684\u6240\u6709\u5143\u7d20\u540e\uff0c\u6570\u7ec4\u5fc5\u987b\u5305\u542b\u81f3\u5c11\u4e24\u4e2a\u5143\u7d20\u3002\n\n\u4e0d\u5e78\u7684\u662f\uff0cKarina \u6ca1\u6709\u8db3\u591f\u7684\u65f6\u95f4\u6765\u5b8c\u6210\u5979\u7684\u6240\u6709\u4efb\u52a1\uff0c\u6240\u4ee5\u5979\u8981\u6c42\u4f60\u8ba1\u7b97\u5979\u901a\u8fc7\u5220\u9664\u4efb\u610f\u6570\u91cf\u7684\u5143\u7d20\uff08\u53ef\u80fd\u4e3a\u96f6\uff09\u6240\u80fd\u83b7\u5f97\u7684\u6570\u7ec4\u7684\u6700\u5927\u7f8e\u611f\u3002\n\n## \u8f93\u5165\u683c\u5f0f\n\n**\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e**\u3002\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t(1 \\leq t \\leq 10^4)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff1a\n\n\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $n(2 \\times 10^5)$\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1,a_2,a_3,\\cdots,a_n(-10^9 \\leq a_i \\leq 10^9)$\uff0c\u4ee3\u8868\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002\n\n\u6240\u6709\u6d4b\u8bd5\u6570\u636e\u4e2d\u6240\u6709 $n$ \u503c\u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\times 10^5$\u3002\n\n## \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff1a\n\n\u8f93\u51fa Karina \u53ef\u4ee5\u5f97\u5230\u6570\u7ec4\u7684\u6700\u5927\u7f8e\u611f\u3002\n\n\u611f\u8c22@[ULSG_XBaiC](https:\/\/www.luogu.com.cn\/user\/925577) \u7684\u7ffb\u8bd1\u3002"},"translations":{"en":{"name":"Karina and Array","background":"","description":"Karina has an array of $ n $ integers $ a_1, a_2, a_3, \\dots, a_n $ . She loves multiplying numbers, so she decided that the beauty of a pair of numbers is their product. And the beauty of an array is the maximum beauty of a pair of adjacent elements in the array.\n\nFor example, for $ n = 4 $ , $ a=[3, 5, 7, 4] $ , the beauty of the array is $ \\max $ ( $ 3 \\cdot 5 $ , $ 5 \\cdot 7 $ , $ 7 \\cdot 4 $ ) = $ \\max $ ( $ 15 $ , $ 35 $ , $ 28 $ ) = $ 35 $ .\n\nKarina wants her array to be as beautiful as possible. In order to achieve her goal, she can remove some elements (possibly zero) from the array. After Karina removes all elements she wants to, the array must contain at least two elements.\n\nUnfortunately, Karina doesn\u0027t have enough time to do all her tasks, so she asks you to calculate the maximum beauty of the array that she can get by removing any number of elements (possibly zero).","formatI":"The first line of the input contains an integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe description of the test cases follows.\n\nThe first line of a test case contains an integer $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the length of the array $ a $ .\n\nThe second line of a test case contains $ n $ integers $ a_1, a_2, a_3, \\dots, a_n $ ( $ -10^9 \\le a_i \\le 10^9 $ ) \u2014 the elements of the array $ a $ .\n\nThe sum of all values of $ n $ across all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"Output $ t $ integers, each of which is the answer to the corresponding test case \u2014 the maximum beauty of the array that Karina can get.","hint":"In the first test case of the example, to get the maximum beauty, you need to remove the $ 2 $ -nd element.\n\nIn the second and third test cases of the example, there is no need to remove any elements to achieve maximum beauty.\n\nIn the fourth test case of the example, you need to leave only the first and last elements.","locale":"en"},"zh-CN":{"name":"Karina and Array","background":"","description":"Karina \u6709\u4e00\u4e2a $n$ \u4e2a\u6574\u6570\u7684\u6570\u7ec4  $a_1,a_2,a_3,\\cdots,a_n$\u3002\u5979\u8fd8\u559c\u6b22\u5c06\u6570\u5b57\u4e58\u5728\u4e00\u8d77\uff0c\u6240\u4ee5\u5979\u8ba4\u4e3a\u4e00\u5bf9\u6570\u5b57\u7684\u7f8e\u5728\u4e8e\u5b83\u4eec\u7684\u4e58\u79ef\u3002\u6570\u7ec4\u7684\u7f8e\u5c31\u662f\u6570\u7ec4\u4e2d\u76f8\u90bb\u7684\u4e00\u5bf9\u5143\u7d20\u7684\u6700\u5927\u7f8e\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e $n = 4$\uff0c$a =[3,5,7,4]$\uff0c\u6570\u7ec4\u7684\u7f8e\u5999\u4e4b\u5904\u662f $max(3\\times5,5 \\times 7,7 \\times 4) = max (15, 35, 28) = 35$\u3002\n\nKarina \u5e0c\u671b\u5979\u7684\u9635\u5217\u5c3d\u53ef\u80fd\u7684\u6f02\u4eae\u3002\u4e3a\u4e86\u5b9e\u73b0\u5979\u7684\u76ee\u6807\uff0c\u5979\u53ef\u4ee5\u4ece\u6570\u7ec4\u4e2d\u5220\u9664\u4e00\u4e9b\u5143\u7d20\uff08\u53ef\u80fd\u4e3a\u96f6\uff09\u3002\u5728 Karina \u5220\u9664\u5979\u60f3\u8981\u7684\u6240\u6709\u5143\u7d20\u540e\uff0c\u6570\u7ec4\u5fc5\u987b\u5305\u542b\u81f3\u5c11\u4e24\u4e2a\u5143\u7d20\u3002\n\n\u4e0d\u5e78\u7684\u662f\uff0cKarina \u6ca1\u6709\u8db3\u591f\u7684\u65f6\u95f4\u6765\u5b8c\u6210\u5979\u7684\u6240\u6709\u4efb\u52a1\uff0c\u6240\u4ee5\u5979\u8981\u6c42\u4f60\u8ba1\u7b97\u5979\u901a\u8fc7\u5220\u9664\u4efb\u610f\u6570\u91cf\u7684\u5143\u7d20\uff08\u53ef\u80fd\u4e3a\u96f6\uff09\u6240\u80fd\u83b7\u5f97\u7684\u6570\u7ec4\u7684\u6700\u5927\u7f8e\u611f\u3002","formatI":"**\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e**\u3002\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t(1 \\leq t \\leq 10^4)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff1a\n\n\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $n(2 \\times 10^5)$\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1,a_2,a_3,\\cdots,a_n(-10^9 \\leq a_i \\leq 10^9)$\uff0c\u4ee3\u8868\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002\n\n\u6240\u6709\u6d4b\u8bd5\u6570\u636e\u4e2d\u6240\u6709 $n$ \u503c\u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\times 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff1a\n\n\u8f93\u51fa Karina \u53ef\u4ee5\u5f97\u5230\u6570\u7ec4\u7684\u6700\u5927\u7f8e\u611f\u3002\n\n\u611f\u8c22@[ULSG_XBaiC](https:\/\/www.luogu.com.cn\/user\/925577) \u7684\u7ffb\u8bd1\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1822B Karina and Array","type":2,"slug":"CF1822B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.806689,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1822B Karina and Array","description":"Karina \u6709\u4e00\u4e2a n \u4e2a\u6574\u6570\u7684\u6570\u7ec4  a_1,a_2,a_3,\\cdots,a_n\u3002\u5979\u8fd8\u559c\u6b22\u5c06\u6570\u5b57\u4e58\u5728\u4e00\u8d77\uff0c\u6240\u4ee5\u5979\u8ba4\u4e3a\u4e00\u5bf9\u6570\u5b57\u7684\u7f8e\u5728\u4e8e\u5b83\u4eec\u7684\u4e58\u79ef\u3002\u6570\u7ec4\u7684\u7f8e\u5c31\u662f\u6570\u7ec4\u4e2d\u76f8\u90bb\u7684\u4e00\u5bf9\u5143\u7d20\u7684\u6700\u5927\u7f8e\u3002\n\u4f8b\u5982\uff0c\u5bf9\u4e8e n = 4\uff0ca =[3,5,7,4]\uff0c\u6570\u7ec4\u7684\u7f8e\u5999\u4e4b\u5904\u662f\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1822B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1822B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1822B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1822B Karina and Array" />
+    <meta property="og:description" content="Karina 有一个 n 个整数的数组  a_1,a_2,a_3,\cdots,a_n。她还喜欢将数字乘在一起，所以她认为一对数字的美在于它们的乘积。数组的美就是数组中相邻的一对元素的最大美。
+例如，对于 n = 4，a =[3,5,7,4]，数组的美妙之处是…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1822B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1822B Karina and Array</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Karina 有一个 $n$ 个整数的数组  $a_1,a_2,a_3,\cdots,a_n$。她还喜欢将数字乘在一起，所以她认为一对数字的美在于它们的乘积。数组的美就是数组中相邻的一对元素的最大美。
+
+例如，对于 $n = 4$，$a =[3,5,7,4]$，数组的美妙之处是 $max(3\times5,5 \times 7,7 \times 4) = max (15, 35, 28) = 35$。
+
+Karina 希望她的阵列尽可能的漂亮。为了实现她的目标，她可以从数组中删除一些元素（可能为零）。在 Karina 删除她想要的所有元素后，数组必须包含至少两个元素。
+
+不幸的是，Karina 没有足够的时间来完成她的所有任务，所以她要求你计算她通过删除任意数量的元素（可能为零）所能获得的数组的最大美感。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    **本题有多组数据**。
+
+第一行一个整数 $t(1 \leq t \leq 10^4)$，表示数据组数。
+
+对于每组数据：
+
+第一行为一个整数 $n(2 \times 10^5)$，表示数组 $a$ 的长度。
+
+第一行包含 $n$ 个整数 $a_1,a_2,a_3,\cdots,a_n(-10^9 \leq a_i \leq 10^9)$，代表数组 $a$ 的元素。
+
+所有测试数据中所有 $n$ 值的总和不超过 $2 \times 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试数据：
+
+输出 Karina 可以得到数组的最大美感。
+
+感谢@[ULSG_XBaiC](https://www.luogu.com.cn/user/925577) 的翻译。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case of the example, to get the maximum beauty, you need to remove the $ 2 $ -nd element.
+
+In the second and third test cases of the example, there is no need to remove any elements to achieve maximum beauty.
+
+In the fourth test case of the example, you need to leave only the first and last elements.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

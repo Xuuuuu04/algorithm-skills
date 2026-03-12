@@ -1,0 +1,32 @@
+{
+  "id": "CF-2053H",
+  "contest_id": 2053,
+  "index": "H",
+  "name": "Delicate Anti-monotonous Operations",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 72,
+  "problem_url": "https://codeforces.com/problemset/problem/2053/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/2053/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2053/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2053H%20Delicate%20Anti-monotonous%20Operations%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2053H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Delicate Anti-monotonous Operations - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

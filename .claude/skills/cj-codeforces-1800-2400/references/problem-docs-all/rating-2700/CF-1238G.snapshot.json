@@ -1,0 +1,29 @@
+{
+  "id": "CF-1238G",
+  "contest_id": 1238,
+  "index": "G",
+  "name": "Adilbek and the Watering System",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 492,
+  "problem_url": "https://codeforces.com/problemset/problem/1238/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1238/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1238/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1238G%20Adilbek%20and%20the%20Watering%20System%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1238G",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1238G Adilbek and the Watering System - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 69,
+    "mirror_attempt": 197,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

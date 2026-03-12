@@ -1,0 +1,30 @@
+{
+  "id": "CF-2032A",
+  "contest_id": 2032,
+  "index": "A",
+  "name": "Circuit",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 24534,
+  "problem_url": "https://codeforces.com/problemset/problem/2032/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2032/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2032/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2032A%20Circuit%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2032/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2032A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

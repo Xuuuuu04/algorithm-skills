@@ -1,0 +1,28 @@
+{
+  "id": "CF-2040A",
+  "contest_id": 2040,
+  "index": "A",
+  "name": "Game of Division",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "games",
+    "math"
+  ],
+  "solved_count": 24306,
+  "problem_url": "https://codeforces.com/problemset/problem/2040/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2040/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2040/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2040A%20Game%20of%20Division%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2040A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2040A Game of Division - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

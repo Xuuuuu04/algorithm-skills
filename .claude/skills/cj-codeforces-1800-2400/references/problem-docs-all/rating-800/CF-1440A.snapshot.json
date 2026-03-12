@@ -1,0 +1,28 @@
+{
+  "id": "CF-1440A",
+  "contest_id": 1440,
+  "index": "A",
+  "name": "Buy the String",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 20331,
+  "problem_url": "https://codeforces.com/problemset/problem/1440/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1440/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1440/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1440A%20Buy%20the%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1440A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1440A Buy the String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 154,
+    "mirror_attempt": 207,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

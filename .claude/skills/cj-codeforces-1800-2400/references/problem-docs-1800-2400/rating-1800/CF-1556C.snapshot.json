@@ -1,0 +1,29 @@
+{
+  "id": "CF-1556C",
+  "contest_id": 1556,
+  "index": "C",
+  "name": "Compressed Bracket Sequence",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1556/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1556/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1556/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1556C%20Compressed Bracket Sequence%20tutorial",
+  "solved_count": 6112,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1556C",
+  "hydro_meta": {
+    "page_title": "Compressed Bracket Sequence - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

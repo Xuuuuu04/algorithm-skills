@@ -1,0 +1,39 @@
+{
+  "id": "CF-802J3",
+  "contest_id": 802,
+  "index": "J3",
+  "name": "Send the Fool Further! (hard)",
+  "rating": 2400,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "math",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/802/J3",
+  "answer_index_url": "https://codeforces.com/problemset/status/802/problem/J3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/802/problem/J3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=802J3%20Send the Fool Further! (hard)%20tutorial",
+  "solved_count": 365,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P802J3",
+  "hydro_meta": {
+    "page_title": "Send the Fool Further! (hard) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "math",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

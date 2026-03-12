@@ -1,0 +1,41 @@
+{
+  "id": "CF-1847F",
+  "contest_id": 1847,
+  "index": "F",
+  "name": "The Boss's Identity",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "data structures",
+    "dfs and similar",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 1013,
+  "problem_url": "https://codeforces.com/problemset/problem/1847/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1847/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1847/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1847F%20The%20Boss%27s%20Identity%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1847F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Boss's Identity - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "dfs and similar",
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

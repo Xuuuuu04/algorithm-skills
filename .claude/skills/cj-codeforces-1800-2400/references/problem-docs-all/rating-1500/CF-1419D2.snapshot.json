@@ -1,0 +1,32 @@
+{
+  "id": "CF-1419D2",
+  "contest_id": 1419,
+  "index": "D2",
+  "name": "Sage's Birthday (hard version)",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 17296,
+  "problem_url": "https://codeforces.com/problemset/problem/1419/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1419/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1419/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1419D2%20Sage%27s%20Birthday%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1419D2",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1419D2 Sage's Birthday (hard version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 294,
+    "mirror_attempt": 554,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

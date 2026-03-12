@@ -1,0 +1,31 @@
+{
+  "id": "CF-774A",
+  "contest_id": 774,
+  "index": "A",
+  "name": "Amusement Park",
+  "rating": 2100,
+  "tags": [
+    "*special",
+    "ternary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/774/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/774/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/774/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=774A%20Amusement Park%20tutorial",
+  "solved_count": 366,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P774A",
+  "hydro_meta": {
+    "page_title": "Amusement Park - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "ternary search",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

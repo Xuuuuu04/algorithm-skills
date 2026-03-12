@@ -1,0 +1,30 @@
+{
+  "id": "CF-1399D",
+  "contest_id": 1399,
+  "index": "D",
+  "name": "Binary String To Subsequences",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 19778,
+  "problem_url": "https://codeforces.com/problemset/problem/1399/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1399/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1399/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1399D%20Binary%20String%20To%20Subsequences%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1399D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1399D Binary String To Subsequences - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 254,
+    "mirror_attempt": 521,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

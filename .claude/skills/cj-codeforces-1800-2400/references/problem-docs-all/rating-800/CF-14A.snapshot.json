@@ -1,0 +1,27 @@
+{
+  "id": "CF-14A",
+  "contest_id": 14,
+  "index": "A",
+  "name": "Letter",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 12187,
+  "problem_url": "https://codeforces.com/problemset/problem/14/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/14/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/14/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=14A%20Letter%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/14/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 14A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "64 megabytes"
+  }
+}

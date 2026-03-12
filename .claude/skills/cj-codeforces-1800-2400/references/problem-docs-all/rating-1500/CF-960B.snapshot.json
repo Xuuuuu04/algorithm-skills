@@ -1,0 +1,29 @@
+{
+  "id": "CF-960B",
+  "contest_id": 960,
+  "index": "B",
+  "name": "Minimize the error",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 11924,
+  "problem_url": "https://codeforces.com/problemset/problem/960/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/960/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/960/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=960B%20Minimize%20the%20error%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/960/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 960B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1526B",
+  "contest_id": 1526,
+  "index": "B",
+  "name": "I Hate 1111",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 36089,
+  "problem_url": "https://codeforces.com/problemset/problem/1526/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1526/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1526/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1526B%20I%20Hate%201111%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1526/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1526B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

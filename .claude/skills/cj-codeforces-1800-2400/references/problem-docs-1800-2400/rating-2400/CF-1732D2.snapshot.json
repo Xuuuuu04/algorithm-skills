@@ -1,0 +1,34 @@
+{
+  "id": "CF-1732D2",
+  "contest_id": 1732,
+  "index": "D2",
+  "name": "Balance (Hard version)",
+  "rating": 2400,
+  "tags": [
+    "brute force",
+    "data structures",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1732/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1732/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1732/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1732D2%20Balance (Hard version)%20tutorial",
+  "solved_count": 1578,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1732D2",
+  "hydro_meta": {
+    "page_title": "Balance (Hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

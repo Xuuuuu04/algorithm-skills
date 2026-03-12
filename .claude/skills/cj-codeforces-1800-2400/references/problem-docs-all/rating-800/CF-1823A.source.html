@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417190:u6SQtRFFsqMJGuZseV8Bl8vnMoGRm9x7OxAvmk2JA1M=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1823A A-characteristic - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1823A","type":"CF","title":"A-characteristic","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":165,"totalAccepted":125,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"A-characteristic","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u7531 $1$ \u548c $-1$ \u7ec4\u6210\u7684\u6570\u7ec4 $a_1, a_2, \\dots, a_n$\u3002\u5b9a\u4e49\u8be5\u6570\u7ec4\u7684 $A$-\u7279\u5f81\u503c\u4e3a\u6ee1\u8db3 $a_i \\cdot a_j = 1$ \u7684\u4e0b\u6807\u5bf9 $(i, j)$ \u7684\u6570\u91cf\uff0c\u5176\u4e2d $1 \\le i \u003C j \\le n$\u3002\n\n\u8bf7\u4f60\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4f7f\u5176 $A$-\u7279\u5f81\u503c\u7b49\u4e8e\u7ed9\u5b9a\u7684 $k$\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5360\u4e00\u884c\uff0c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$2 \\le n \\le 100$\uff1b$0 \\le k \\le \\frac{(n-1)n}{2}$\uff09\uff0c\u5206\u522b\u8868\u793a\u6240\u9700\u6570\u7ec4\u7684\u957f\u5ea6\u548c\u6240\u9700\u7684 $A$-\u7279\u5f81\u503c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u4e0d\u5b58\u5728\u6ee1\u8db3\u6761\u4ef6\u7684\u6570\u7ec4 $a$\uff0c\u8f93\u51fa NO\u3002\n\n\u5426\u5219\uff0c\u8f93\u51fa YES\uff0c\u5e76\u8f93\u51fa $n$ \u4e2a $1$ \u6216 $-1$\uff0c\u8868\u793a\u6784\u9020\u51fa\u7684\u6570\u7ec4 $a$\u3002\u5982\u679c\u6709\u591a\u79cd\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u4e2d\u53ea\u6709\u4e00\u5bf9\u4e0d\u540c\u7684\u5143\u7d20\uff0c\u5176\u4e58\u79ef\u4e3a $a_1 \\cdot a_2 = -1 \\neq 1$\uff0c\u56e0\u6b64\u5176 $A$-\u7279\u5f81\u503c\u4e3a $0$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u4e2d\u53ea\u6709\u4e00\u5bf9\u76f8\u540c\u7684\u5143\u7d20\uff0c\u5176\u4e58\u79ef\u4e3a $a_1 \\cdot a_2 = 1$\uff0c\u56e0\u6b64\u5176 $A$-\u7279\u5f81\u503c\u4e3a $1$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u4e2d\u6709\u4e09\u5bf9\u4e0d\u540c\u7684\u5143\u7d20\uff0c\u5176\u4e58\u79ef\u5206\u522b\u4e3a\uff1a$a_1 \\cdot a_2 = -1$\uff0c$a_1 \\cdot a_3 = 1$\uff0c$a_2 \\cdot a_3 = -1$\uff0c\u56e0\u6b64\u5176 $A$-\u7279\u5f81\u503c\u4e3a $1$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8bc1\u660e\u4e0d\u5b58\u5728\u957f\u5ea6\u4e3a $3$ \u4e14 $A$-\u7279\u5f81\u503c\u4e3a $2$ \u7684\u6570\u7ec4\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"A-characteristic","background":"","description":"Consider an array $ a_1, a_2, \\dots, a_n $ consisting of numbers $ 1 $ and $ -1 $ . Define $ A $ -characteristic of this array as a number of pairs of indices $ 1 \\le i \u003C j \\le n $ , such that $ a_i \\cdot a_j = 1 $ .\n\nFind any array $ a $ with given length $ n $ with $ A $ -characteristic equal to the given value $ k $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). The description of the test cases follows.\n\nThe only line of each test case contains two integers $ n $ and $ k $ ( $ 2 \\le n \\le 100 $ ; $ 0 \\le k \\le \\frac{(n-1) n}{2} $ ) \u2014 the length of required array and required $ A $ -characteristic.","formatO":"For each test case, if there is no array $ a $ with given $ A $ -characteristic $ k $ , print NO.\n\nOtherwise, print YES and $ n $ numbers $ 1 $ and $ -1 $ , which form the required array $ a $ . If there are multiple answers, print any of them.","hint":"In the first test case, there is only one pair of different elements in the array, and their product is $ a_1 \\cdot a_2 = -1 \\neq 1 $ , hence its $ A $ -characteristic is $ 0 $ .\n\nIn the second test case, there is only one pair of different elements in the array, and their product is $ a_1 \\cdot a_2 = 1 $ , hence its $ A $ -characteristic is $ 1 $ .\n\nIn the third test case, there are three pairs of different elements in the array, and their product are: $ a_1 \\cdot a_2 = -1 $ , $ a_1 \\cdot a_3 = 1 $ , $ a_2 \\cdot a_3 = -1 $ , hence its $ A $ -characteristic is $ 1 $ .\n\nIn the fourth test case, we can show, that there is no array with length $ 3 $ , which $ A $ -characteristic is $ 2 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\n2 0\n2 1\n3 1\n3 2\n3 3\n5 4\n5 5","YES\n1 -1 \nYES\n1 1 \nYES\n1 -1 1 \nNO\nYES\n1 1 1 \nYES\n-1 1 -1 1 1 \nNO"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1823A","link":"https:\/\/codeforces.com\/problemset\/problem\/1823\/A"},"translation":"\u6784\u5efa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4\uff0c\u6570\u7ec4\u5143\u7d20\u53ea\u80fd\u4e3a $1$ \u6216\u8005 $-1$\u3002\n\n\u5b9a\u4e49\u6570\u7ec4\u6bcf\u6ee1\u8db3\u4e00\u5bf9 $a_{i} \\cdot a_{j} = 1$ $( 1 \\leq i \u003C j \\leq n )$ \u4e3a\u6709 $1$ \u4e2a\u7279\u5f81 $A$\u3002\u6c42\u6570\u7ec4\u662f\u5426\u80fd\u6784\u6210\u51fa\u6ee1\u8db3\u521a\u597d $k$ \u4e2a\u7279\u5f81 $A$\u3002\u5982\u679c\u80fd\u6784\u6210\u8be5\u6570\u7ec4\u8f93\u51fa YES \u5e76\u7ed9\u51fa\u6784\u9020\u6570\u7ec4\u3002\u53cd\u4e4b\u53ea\u8f93\u51fa NO\u3002"},"translations":{"en":{"name":"A-characteristic","background":"","description":"Consider an array $ a_1, a_2, \\dots, a_n $ consisting of numbers $ 1 $ and $ -1 $ . Define $ A $ -characteristic of this array as a number of pairs of indices $ 1 \\le i \u003C j \\le n $ , such that $ a_i \\cdot a_j = 1 $ .\n\nFind any array $ a $ with given length $ n $ with $ A $ -characteristic equal to the given value $ k $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). The description of the test cases follows.\n\nThe only line of each test case contains two integers $ n $ and $ k $ ( $ 2 \\le n \\le 100 $ ; $ 0 \\le k \\le \\frac{(n-1) n}{2} $ ) \u2014 the length of required array and required $ A $ -characteristic.","formatO":"For each test case, if there is no array $ a $ with given $ A $ -characteristic $ k $ , print NO.\n\nOtherwise, print YES and $ n $ numbers $ 1 $ and $ -1 $ , which form the required array $ a $ . If there are multiple answers, print any of them.","hint":"In the first test case, there is only one pair of different elements in the array, and their product is $ a_1 \\cdot a_2 = -1 \\neq 1 $ , hence its $ A $ -characteristic is $ 0 $ .\n\nIn the second test case, there is only one pair of different elements in the array, and their product is $ a_1 \\cdot a_2 = 1 $ , hence its $ A $ -characteristic is $ 1 $ .\n\nIn the third test case, there are three pairs of different elements in the array, and their product are: $ a_1 \\cdot a_2 = -1 $ , $ a_1 \\cdot a_3 = 1 $ , $ a_2 \\cdot a_3 = -1 $ , hence its $ A $ -characteristic is $ 1 $ .\n\nIn the fourth test case, we can show, that there is no array with length $ 3 $ , which $ A $ -characteristic is $ 2 $ .","locale":"en"},"zh-CN":{"name":"A-characteristic","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u7531 $1$ \u548c $-1$ \u7ec4\u6210\u7684\u6570\u7ec4 $a_1, a_2, \\dots, a_n$\u3002\u5b9a\u4e49\u8be5\u6570\u7ec4\u7684 $A$-\u7279\u5f81\u503c\u4e3a\u6ee1\u8db3 $a_i \\cdot a_j = 1$ \u7684\u4e0b\u6807\u5bf9 $(i, j)$ \u7684\u6570\u91cf\uff0c\u5176\u4e2d $1 \\le i \u003C j \\le n$\u3002\n\n\u8bf7\u4f60\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4f7f\u5176 $A$-\u7279\u5f81\u503c\u7b49\u4e8e\u7ed9\u5b9a\u7684 $k$\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5360\u4e00\u884c\uff0c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$2 \\le n \\le 100$\uff1b$0 \\le k \\le \\frac{(n-1)n}{2}$\uff09\uff0c\u5206\u522b\u8868\u793a\u6240\u9700\u6570\u7ec4\u7684\u957f\u5ea6\u548c\u6240\u9700\u7684 $A$-\u7279\u5f81\u503c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u4e0d\u5b58\u5728\u6ee1\u8db3\u6761\u4ef6\u7684\u6570\u7ec4 $a$\uff0c\u8f93\u51fa NO\u3002\n\n\u5426\u5219\uff0c\u8f93\u51fa YES\uff0c\u5e76\u8f93\u51fa $n$ \u4e2a $1$ \u6216 $-1$\uff0c\u8868\u793a\u6784\u9020\u51fa\u7684\u6570\u7ec4 $a$\u3002\u5982\u679c\u6709\u591a\u79cd\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u4e2d\u53ea\u6709\u4e00\u5bf9\u4e0d\u540c\u7684\u5143\u7d20\uff0c\u5176\u4e58\u79ef\u4e3a $a_1 \\cdot a_2 = -1 \\neq 1$\uff0c\u56e0\u6b64\u5176 $A$-\u7279\u5f81\u503c\u4e3a $0$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u4e2d\u53ea\u6709\u4e00\u5bf9\u76f8\u540c\u7684\u5143\u7d20\uff0c\u5176\u4e58\u79ef\u4e3a $a_1 \\cdot a_2 = 1$\uff0c\u56e0\u6b64\u5176 $A$-\u7279\u5f81\u503c\u4e3a $1$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u4e2d\u6709\u4e09\u5bf9\u4e0d\u540c\u7684\u5143\u7d20\uff0c\u5176\u4e58\u79ef\u5206\u522b\u4e3a\uff1a$a_1 \\cdot a_2 = -1$\uff0c$a_1 \\cdot a_3 = 1$\uff0c$a_2 \\cdot a_3 = -1$\uff0c\u56e0\u6b64\u5176 $A$-\u7279\u5f81\u503c\u4e3a $1$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8bc1\u660e\u4e0d\u5b58\u5728\u957f\u5ea6\u4e3a $3$ \u4e14 $A$-\u7279\u5f81\u503c\u4e3a $2$ \u7684\u6570\u7ec4\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1823A A-characteristic","type":2,"slug":"CF1823A","color":"orange-3"},"discussions":[{"id":605645,"title":"\u4e0d\u4f1a\u7ffb\u8bd1\u5c31\u522b\u67e0\u6aac\u4e71\u7ffb\u8bd1","author":{"uid":221284,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/221284.png","name":"Ryder00","slogan":"https:\/\/www.ryder.ink\/","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/1v8y0fqv.png"},"time":1683541776}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330790.138156,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1823A A-characteristic","description":"\u7ed9\u5b9a\u4e00\u4e2a\u7531 1 \u548c -1 \u7ec4\u6210\u7684\u6570\u7ec4 a_1, a_2, \\dots, a_n\u3002\u5b9a\u4e49\u8be5\u6570\u7ec4\u7684 A-\u7279\u5f81\u503c\u4e3a\u6ee1\u8db3 a_i \\cdot a_j = 1 \u7684\u4e0b\u6807\u5bf9 (i, j) \u7684\u6570\u91cf\uff0c\u5176\u4e2d 1 \\le i &lt; j \\le n\u3002\n\u8bf7\u4f60\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1823A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1823A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1823A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1823A A-characteristic" />
+    <meta property="og:description" content="给定一个由 1 和 -1 组成的数组 a_1, a_2, \dots, a_n。定义该数组的 A-特征值为满足 a_i \cdot a_j = 1 的下标对 (i, j) 的数量，其中 1 \le i &amp;lt; j \le n。
+请你构造一个长度为…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1823A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1823A A-characteristic</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个由 $1$ 和 $-1$ 组成的数组 $a_1, a_2, \dots, a_n$。定义该数组的 $A$-特征值为满足 $a_i \cdot a_j = 1$ 的下标对 $(i, j)$ 的数量，其中 $1 \le i < j \le n$。
+
+请你构造一个长度为 $n$ 的数组 $a$，使其 $A$-特征值等于给定的 $k$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试点包含多组测试用例。第一行包含一个整数 $t$（$1 \le t \le 100$），表示测试用例的数量。
+
+接下来每个测试用例占一行，包含两个整数 $n$ 和 $k$（$2 \le n \le 100$；$0 \le k \le \frac{(n-1)n}{2}$），分别表示所需数组的长度和所需的 $A$-特征值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果不存在满足条件的数组 $a$，输出 NO。
+
+否则，输出 YES，并输出 $n$ 个 $1$ 或 $-1$，表示构造出的数组 $a$。如果有多种答案，输出任意一种即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，数组中只有一对不同的元素，其乘积为 $a_1 \cdot a_2 = -1 \neq 1$，因此其 $A$-特征值为 $0$。
+
+在第二个测试用例中，数组中只有一对相同的元素，其乘积为 $a_1 \cdot a_2 = 1$，因此其 $A$-特征值为 $1$。
+
+在第三个测试用例中，数组中有三对不同的元素，其乘积分别为：$a_1 \cdot a_2 = -1$，$a_1 \cdot a_3 = 1$，$a_2 \cdot a_3 = -1$，因此其 $A$-特征值为 $1$。
+
+在第四个测试用例中，可以证明不存在长度为 $3$ 且 $A$-特征值为 $2$ 的数组。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

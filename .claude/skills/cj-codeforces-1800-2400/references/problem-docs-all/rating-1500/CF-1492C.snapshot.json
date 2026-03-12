@@ -1,0 +1,31 @@
+{
+  "id": "CF-1492C",
+  "contest_id": 1492,
+  "index": "C",
+  "name": "Maximum width",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 17396,
+  "problem_url": "https://codeforces.com/problemset/problem/1492/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1492/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1492/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1492C%20Maximum%20width%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1492C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1492C Maximum width - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 328,
+    "mirror_attempt": 590,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

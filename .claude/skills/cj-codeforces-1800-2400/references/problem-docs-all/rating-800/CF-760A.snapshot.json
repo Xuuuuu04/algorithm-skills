@@ -1,0 +1,28 @@
+{
+  "id": "CF-760A",
+  "contest_id": 760,
+  "index": "A",
+  "name": "Petr and a calendar",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 8613,
+  "problem_url": "https://codeforces.com/problemset/problem/760/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/760/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/760/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=760A%20Petr%20and%20a%20calendar%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF760A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF760A Petr and a calendar - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 142,
+    "mirror_attempt": 231,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

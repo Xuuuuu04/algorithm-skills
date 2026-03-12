@@ -1,0 +1,31 @@
+{
+  "id": "CF-2141C",
+  "contest_id": 2141,
+  "index": "C",
+  "name": "Minimum on Subarrays",
+  "rating": 1800,
+  "tags": [
+    "*special",
+    "brute force"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2141/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2141/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2141/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2141C%20Minimum on Subarrays%20tutorial",
+  "solved_count": 336,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2141C",
+  "hydro_meta": {
+    "page_title": "Minimum on Subarrays - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "brute force",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

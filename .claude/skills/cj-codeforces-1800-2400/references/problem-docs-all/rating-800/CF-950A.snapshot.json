@@ -1,0 +1,28 @@
+{
+  "id": "CF-950A",
+  "contest_id": 950,
+  "index": "A",
+  "name": "Left-handers, Right-handers and Ambidexters",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 16318,
+  "problem_url": "https://codeforces.com/problemset/problem/950/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/950/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/950/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=950A%20Left-handers%2C%20Right-handers%20and%20Ambidexters%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF950A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF950A Left-handers, Right-handers and Ambidexters - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 278,
+    "mirror_attempt": 538,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1207C",
+  "contest_id": 1207,
+  "index": "C",
+  "name": "Gas Pipeline",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 10371,
+  "problem_url": "https://codeforces.com/problemset/problem/1207/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1207/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1207/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1207C%20Gas%20Pipeline%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1207/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1207C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

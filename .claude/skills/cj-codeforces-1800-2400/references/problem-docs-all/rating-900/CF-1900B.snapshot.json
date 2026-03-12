@@ -1,0 +1,28 @@
+{
+  "id": "CF-1900B",
+  "contest_id": 1900,
+  "index": "B",
+  "name": "Laura and Operations",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "math"
+  ],
+  "solved_count": 20273,
+  "problem_url": "https://codeforces.com/problemset/problem/1900/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1900/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1900/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1900B%20Laura%20and%20Operations%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1900B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1900B Laura and Operations - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 207,
+    "mirror_attempt": 322,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

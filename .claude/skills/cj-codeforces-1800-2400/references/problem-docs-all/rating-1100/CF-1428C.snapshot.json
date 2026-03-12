@@ -1,0 +1,30 @@
+{
+  "id": "CF-1428C",
+  "contest_id": 1428,
+  "index": "C",
+  "name": "ABBB",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 22508,
+  "problem_url": "https://codeforces.com/problemset/problem/1428/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1428/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1428/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1428C%20ABBB%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1428/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1428C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CF-1843F2",
+  "contest_id": 1843,
+  "index": "F2",
+  "name": "Omsk Metro (hard version)",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "divide and conquer",
+    "dp",
+    "math",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1843/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1843/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1843/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1843F2%20Omsk Metro (hard version)%20tutorial",
+  "solved_count": 2043,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1843F2",
+  "hydro_meta": {
+    "page_title": "Omsk Metro (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "math",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

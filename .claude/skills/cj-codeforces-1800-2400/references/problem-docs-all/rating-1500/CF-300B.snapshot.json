@@ -1,0 +1,34 @@
+{
+  "id": "CF-300B",
+  "contest_id": 300,
+  "index": "B",
+  "name": "Coach",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 7065,
+  "problem_url": "https://codeforces.com/problemset/problem/300/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/300/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/300/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=300B%20Coach%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P300B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Coach - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dfs and similar",
+      "graphs",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

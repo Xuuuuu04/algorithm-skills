@@ -1,0 +1,38 @@
+{
+  "id": "CF-2039E",
+  "contest_id": 2039,
+  "index": "E",
+  "name": "Shohag Loves Inversions",
+  "rating": 2200,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2039/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2039/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2039/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2039E%20Shohag Loves Inversions%20tutorial",
+  "solved_count": 2343,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2039E",
+  "hydro_meta": {
+    "page_title": "Shohag Loves Inversions - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "implementation",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

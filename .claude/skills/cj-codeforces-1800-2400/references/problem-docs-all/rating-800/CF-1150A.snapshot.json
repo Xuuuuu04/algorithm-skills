@@ -1,0 +1,32 @@
+{
+  "id": "CF-1150A",
+  "contest_id": 1150,
+  "index": "A",
+  "name": "Stock Arbitraging",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 12441,
+  "problem_url": "https://codeforces.com/problemset/problem/1150/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1150/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1150/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1150A%20Stock%20Arbitraging%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1150A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Stock Arbitraging - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

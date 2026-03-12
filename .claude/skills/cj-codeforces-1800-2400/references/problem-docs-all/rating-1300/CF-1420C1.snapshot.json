@@ -1,0 +1,29 @@
+{
+  "id": "CF-1420C1",
+  "contest_id": 1420,
+  "index": "C1",
+  "name": "Pokémon Army (easy version)",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 18832,
+  "problem_url": "https://codeforces.com/problemset/problem/1420/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1420/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1420/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1420C1%20Pok%C3%A9mon%20Army%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1420/C1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1420C1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

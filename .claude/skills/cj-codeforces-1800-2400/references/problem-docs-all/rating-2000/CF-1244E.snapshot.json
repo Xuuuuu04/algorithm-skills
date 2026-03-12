@@ -1,0 +1,32 @@
+{
+  "id": "CF-1244E",
+  "contest_id": 1244,
+  "index": "E",
+  "name": "Minimizing Difference",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "greedy",
+    "sortings",
+    "ternary search",
+    "two pointers"
+  ],
+  "solved_count": 6302,
+  "problem_url": "https://codeforces.com/problemset/problem/1244/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1244/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1244/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1244E%20Minimizing%20Difference%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1244E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1244E Minimizing Difference - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 327,
+    "mirror_attempt": 729,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

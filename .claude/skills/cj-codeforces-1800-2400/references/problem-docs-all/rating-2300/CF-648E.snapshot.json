@@ -1,0 +1,28 @@
+{
+  "id": "CF-648E",
+  "contest_id": 648,
+  "index": "E",
+  "name": "Собери число",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 157,
+  "problem_url": "https://codeforces.com/problemset/problem/648/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/648/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/648/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=648E%20%D0%A1%D0%BE%D0%B1%D0%B5%D1%80%D0%B8%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/648/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 648E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 секунды",
+    "memory_limit": "256 мегабайт"
+  }
+}

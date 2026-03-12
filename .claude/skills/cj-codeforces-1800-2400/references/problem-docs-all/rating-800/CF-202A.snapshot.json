@@ -1,0 +1,32 @@
+{
+  "id": "CF-202A",
+  "contest_id": 202,
+  "index": "A",
+  "name": "LLPS",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "brute force",
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 19478,
+  "problem_url": "https://codeforces.com/problemset/problem/202/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/202/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/202/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=202A%20LLPS%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF202A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF202A LLPS - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 167,
+    "mirror_attempt": 235,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "CF-2025D",
+  "contest_id": 2025,
+  "index": "D",
+  "name": "Attribute Checks",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "implementation",
+    "math",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2025/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2025/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2025/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2025D%20Attribute Checks%20tutorial",
+  "solved_count": 7737,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2025D",
+  "hydro_meta": {
+    "page_title": "Attribute Checks - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "implementation",
+      "math",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

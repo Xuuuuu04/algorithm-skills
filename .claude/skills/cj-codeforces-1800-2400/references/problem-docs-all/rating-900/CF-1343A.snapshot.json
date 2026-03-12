@@ -1,0 +1,28 @@
+{
+  "id": "CF-1343A",
+  "contest_id": 1343,
+  "index": "A",
+  "name": "Candies",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "math"
+  ],
+  "solved_count": 52934,
+  "problem_url": "https://codeforces.com/problemset/problem/1343/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1343/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1343/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1343A%20Candies%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1343A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1343A Candies - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 187,
+    "mirror_attempt": 292,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

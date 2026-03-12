@@ -1,0 +1,31 @@
+{
+  "id": "CF-2128D",
+  "contest_id": 2128,
+  "index": "D",
+  "name": "Sum of LDS",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 11821,
+  "problem_url": "https://codeforces.com/problemset/problem/2128/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2128/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2128/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2128D%20Sum%20of%20LDS%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2128/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2128D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

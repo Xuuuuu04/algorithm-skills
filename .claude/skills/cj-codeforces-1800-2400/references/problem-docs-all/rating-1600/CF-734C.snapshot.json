@@ -1,0 +1,30 @@
+{
+  "id": "CF-734C",
+  "contest_id": 734,
+  "index": "C",
+  "name": "Anton and Making Potions",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 5664,
+  "problem_url": "https://codeforces.com/problemset/problem/734/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/734/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/734/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=734C%20Anton%20and%20Making%20Potions%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/734/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 734C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1676E",
+  "contest_id": 1676,
+  "index": "E",
+  "name": "Eating Queries",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 32394,
+  "problem_url": "https://codeforces.com/problemset/problem/1676/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1676/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1676/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1676E%20Eating%20Queries%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1676E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Eating Queries - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "sortings"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-818B",
+  "contest_id": 818,
+  "index": "B",
+  "name": "Permutation Game",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 3202,
+  "problem_url": "https://codeforces.com/problemset/problem/818/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/818/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/818/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=818B%20Permutation%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P818B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Permutation Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1730F",
+  "contest_id": 1730,
+  "index": "F",
+  "name": "Almost Sorted",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "bitmasks",
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 721,
+  "problem_url": "https://codeforces.com/problemset/problem/1730/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1730/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1730/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1730F%20Almost%20Sorted%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1730F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Almost Sorted - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "data structures",
+      "dp"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1197C",
+  "contest_id": 1197,
+  "index": "C",
+  "name": "Array Splitting",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 15111,
+  "problem_url": "https://codeforces.com/problemset/problem/1197/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1197/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1197/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1197C%20Array%20Splitting%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1197C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Array Splitting - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

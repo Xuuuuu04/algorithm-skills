@@ -1,0 +1,29 @@
+{
+  "id": "CF-1089H",
+  "contest_id": 1089,
+  "index": "H",
+  "name": "Harder Satisfiability",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "2-sat",
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 126,
+  "problem_url": "https://codeforces.com/problemset/problem/1089/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1089/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1089/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1089H%20Harder%20Satisfiability%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1089H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "__NO_TITLE__ - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

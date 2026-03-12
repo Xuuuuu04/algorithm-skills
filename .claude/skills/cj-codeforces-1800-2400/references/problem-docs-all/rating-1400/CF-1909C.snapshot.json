@@ -1,0 +1,40 @@
+{
+  "id": "CF-1909C",
+  "contest_id": 1909,
+  "index": "C",
+  "name": "Heavy Intervals",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "dsu",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 13003,
+  "problem_url": "https://codeforces.com/problemset/problem/1909/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1909/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1909/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1909C%20Heavy%20Intervals%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1909C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Heavy Intervals - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "dsu",
+      "greedy",
+      "math",
+      "sortings",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

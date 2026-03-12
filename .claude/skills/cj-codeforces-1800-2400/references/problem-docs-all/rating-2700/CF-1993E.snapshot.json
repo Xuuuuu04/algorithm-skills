@@ -1,0 +1,35 @@
+{
+  "id": "CF-1993E",
+  "contest_id": 1993,
+  "index": "E",
+  "name": "Xor-Grid Problem",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 719,
+  "problem_url": "https://codeforces.com/problemset/problem/1993/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1993/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1993/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1993E%20Xor-Grid%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1993E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Xor-Grid Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

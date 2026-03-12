@@ -1,0 +1,29 @@
+{
+  "id": "CF-1096A",
+  "contest_id": 1096,
+  "index": "A",
+  "name": "Find Divisible",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 19541,
+  "problem_url": "https://codeforces.com/problemset/problem/1096/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1096/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1096/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1096A%20Find%20Divisible%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1096A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1096A Find Divisible - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 251,
+    "mirror_attempt": 408,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

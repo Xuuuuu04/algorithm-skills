@@ -1,0 +1,28 @@
+{
+  "id": "CF-1469B",
+  "contest_id": 1469,
+  "index": "B",
+  "name": "Red and Blue",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 30747,
+  "problem_url": "https://codeforces.com/problemset/problem/1469/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1469/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1469/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1469B%20Red%20and%20Blue%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1469/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1469B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

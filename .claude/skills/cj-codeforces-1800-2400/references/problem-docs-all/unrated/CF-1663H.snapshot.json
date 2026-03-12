@@ -1,0 +1,28 @@
+{
+  "id": "CF-1663H",
+  "contest_id": 1663,
+  "index": "H",
+  "name": "Cross-Language Program",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "constructive algorithms"
+  ],
+  "solved_count": 1347,
+  "problem_url": "https://codeforces.com/problemset/problem/1663/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1663/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1663/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1663H%20Cross-Language%20Program%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1663/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1663H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

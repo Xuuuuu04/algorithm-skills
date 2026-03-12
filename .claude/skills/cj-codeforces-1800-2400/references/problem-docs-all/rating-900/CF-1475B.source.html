@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417191:NxWeAfsXscG95PAesLc8m0485ZeYX8wb0ANErixS7Ds=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1475B New Year&#039;s Number - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1475B","type":"CF","title":"New Year\u0027s Number","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":1028,"totalAccepted":539,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"New Year\u0027s Number","background":null,"description":"Polycarp \u8bb0\u5f97 $2020$ \u5e74\uff0c\u5e76\u4e14\u4ed6\u5f88\u9ad8\u5174\u8fce\u6765\u4e86\u65b0\u7684 $2021$ \u5e74\u3002\u4e3a\u4e86\u7eaa\u5ff5\u8fd9\u6837\u7f8e\u597d\u7684\u65f6\u523b\uff0cPolycarp \u60f3\u8981\u5c06\u6570\u5b57 $n$ \u8868\u793a\u4e3a\u82e5\u5e72\u4e2a $2020$ \u548c\u82e5\u5e72\u4e2a $2021$ \u7684\u548c\u3002\n\n\u4f8b\u5982\uff1a\n\n- \u5982\u679c $n=4041$\uff0c\u90a3\u4e48 $n$ \u53ef\u4ee5\u8868\u793a\u4e3a $2020 + 2021$ \u7684\u548c\uff1b\n- \u5982\u679c $n=4042$\uff0c\u90a3\u4e48 $n$ \u53ef\u4ee5\u8868\u793a\u4e3a $2021 + 2021$ \u7684\u548c\uff1b\n- \u5982\u679c $n=8081$\uff0c\u90a3\u4e48 $n$ \u53ef\u4ee5\u8868\u793a\u4e3a $2020 + 2020 + 2020 + 2021$ \u7684\u548c\uff1b\n- \u5982\u679c $n=8079$\uff0c\u90a3\u4e48 $n$ \u4e0d\u80fd\u8868\u793a\u4e3a\u82e5\u5e72\u4e2a $2020$ \u548c\u82e5\u5e72\u4e2a $2021$ \u7684\u548c\u3002\n\n\u8bf7\u5e2e\u52a9 Polycarp \u5224\u65ad\uff0c\u6570\u5b57 $n$ \u662f\u5426\u53ef\u4ee5\u8868\u793a\u4e3a\u82e5\u5e72\u4e2a $2020$ \u548c\u82e5\u5e72\u4e2a $2021$ \u7684\u548c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6709 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 10^6$\uff09\uff0c\u8868\u793a Polycarp \u60f3\u8981\u8868\u793a\u7684\u6570\u5b57\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\uff1a\n\n- \u5982\u679c $n$ \u53ef\u4ee5\u8868\u793a\u4e3a\u82e5\u5e72\u4e2a $2020$ \u548c\u82e5\u5e72\u4e2a $2021$ \u7684\u548c\uff0c\u8f93\u51fa \u0022YES\u0022\uff1b\n- \u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002\n\n\u4f60\u53ef\u4ee5\u4ee5\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa \u0022YES\u0022 \u548c \u0022NO\u0022\uff08\u4f8b\u5982 yEs\u3001yes\u3001Yes \u548c YES \u90fd\u4f1a\u88ab\u8bc6\u522b\u4e3a\u80af\u5b9a\u7b54\u6848\uff09\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"New Year\u0027s Number","background":"","description":"Polycarp remembered the $ 2020 $ -th year, and he is happy with the arrival of the new $ 2021 $ -th year. To remember such a wonderful moment, Polycarp wants to represent the number $ n $ as the sum of a certain number of $ 2020 $ and a certain number of $ 2021 $ .\n\nFor example, if:\n\n- $ n=4041 $ , then the number $ n $ can be represented as the sum $ 2020 + 2021 $ ;\n- $ n=4042 $ , then the number $ n $ can be represented as the sum $ 2021 + 2021 $ ;\n- $ n=8081 $ , then the number $ n $ can be represented as the sum $ 2020 + 2020 + 2020 + 2021 $ ;\n- $ n=8079 $ , then the number $ n $ cannot be represented as the sum of the numbers $ 2020 $ and $ 2021 $ .\n\nHelp Polycarp to find out whether the number $ n $ can be represented as the sum of a certain number of numbers $ 2020 $ and a certain number of numbers $ 2021 $ .","formatI":"The first line contains one integer $ t $ ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nEach test case contains one integer $ n $ ( $ 1 \\leq n \\leq 10^6 $ ) \u2014 the number that Polycarp wants to represent as the sum of the numbers $ 2020 $ and $ 2021 $ .","formatO":"For each test case, output on a separate line:\n\n- \u0022YES\u0022 if the number $ n $ is representable as the sum of a certain number of $ 2020 $ and a certain number of $ 2021 $ ;\n- \u0022NO\u0022 otherwise.\n\nYou can output \u0022YES\u0022 and \u0022NO\u0022 in any case (for example, the strings yEs, yes, Yes and YES will be recognized as positive).","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n1\n4041\n4042\n8081\n8079","NO\nYES\nYES\nYES\nNO"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1475B","link":"https:\/\/codeforces.com\/problemset\/problem\/1475\/B"},"translation":"\u7ed9\u5b9a $n$\uff0c\u5224\u65ad $n$ \u662f\u5426\u80fd\u7531\u82e5\u5e72\u4e2a $2020$ \u548c\u82e5\u5e72\u4e2a $2021$ \u76f8\u52a0\u800c\u6210\u3002"},"translations":{"en":{"name":"New Year\u0027s Number","background":"","description":"Polycarp remembered the $ 2020 $ -th year, and he is happy with the arrival of the new $ 2021 $ -th year. To remember such a wonderful moment, Polycarp wants to represent the number $ n $ as the sum of a certain number of $ 2020 $ and a certain number of $ 2021 $ .\n\nFor example, if:\n\n- $ n=4041 $ , then the number $ n $ can be represented as the sum $ 2020 + 2021 $ ;\n- $ n=4042 $ , then the number $ n $ can be represented as the sum $ 2021 + 2021 $ ;\n- $ n=8081 $ , then the number $ n $ can be represented as the sum $ 2020 + 2020 + 2020 + 2021 $ ;\n- $ n=8079 $ , then the number $ n $ cannot be represented as the sum of the numbers $ 2020 $ and $ 2021 $ .\n\nHelp Polycarp to find out whether the number $ n $ can be represented as the sum of a certain number of numbers $ 2020 $ and a certain number of numbers $ 2021 $ .","formatI":"The first line contains one integer $ t $ ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nEach test case contains one integer $ n $ ( $ 1 \\leq n \\leq 10^6 $ ) \u2014 the number that Polycarp wants to represent as the sum of the numbers $ 2020 $ and $ 2021 $ .","formatO":"For each test case, output on a separate line:\n\n- \u0022YES\u0022 if the number $ n $ is representable as the sum of a certain number of $ 2020 $ and a certain number of $ 2021 $ ;\n- \u0022NO\u0022 otherwise.\n\nYou can output \u0022YES\u0022 and \u0022NO\u0022 in any case (for example, the strings yEs, yes, Yes and YES will be recognized as positive).","hint":"","locale":"en"},"zh-CN":{"name":"New Year\u0027s Number","background":null,"description":"Polycarp \u8bb0\u5f97 $2020$ \u5e74\uff0c\u5e76\u4e14\u4ed6\u5f88\u9ad8\u5174\u8fce\u6765\u4e86\u65b0\u7684 $2021$ \u5e74\u3002\u4e3a\u4e86\u7eaa\u5ff5\u8fd9\u6837\u7f8e\u597d\u7684\u65f6\u523b\uff0cPolycarp \u60f3\u8981\u5c06\u6570\u5b57 $n$ \u8868\u793a\u4e3a\u82e5\u5e72\u4e2a $2020$ \u548c\u82e5\u5e72\u4e2a $2021$ \u7684\u548c\u3002\n\n\u4f8b\u5982\uff1a\n\n- \u5982\u679c $n=4041$\uff0c\u90a3\u4e48 $n$ \u53ef\u4ee5\u8868\u793a\u4e3a $2020 + 2021$ \u7684\u548c\uff1b\n- \u5982\u679c $n=4042$\uff0c\u90a3\u4e48 $n$ \u53ef\u4ee5\u8868\u793a\u4e3a $2021 + 2021$ \u7684\u548c\uff1b\n- \u5982\u679c $n=8081$\uff0c\u90a3\u4e48 $n$ \u53ef\u4ee5\u8868\u793a\u4e3a $2020 + 2020 + 2020 + 2021$ \u7684\u548c\uff1b\n- \u5982\u679c $n=8079$\uff0c\u90a3\u4e48 $n$ \u4e0d\u80fd\u8868\u793a\u4e3a\u82e5\u5e72\u4e2a $2020$ \u548c\u82e5\u5e72\u4e2a $2021$ \u7684\u548c\u3002\n\n\u8bf7\u5e2e\u52a9 Polycarp \u5224\u65ad\uff0c\u6570\u5b57 $n$ \u662f\u5426\u53ef\u4ee5\u8868\u793a\u4e3a\u82e5\u5e72\u4e2a $2020$ \u548c\u82e5\u5e72\u4e2a $2021$ \u7684\u548c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6709 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 10^6$\uff09\uff0c\u8868\u793a Polycarp \u60f3\u8981\u8868\u793a\u7684\u6570\u5b57\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\uff1a\n\n- \u5982\u679c $n$ \u53ef\u4ee5\u8868\u793a\u4e3a\u82e5\u5e72\u4e2a $2020$ \u548c\u82e5\u5e72\u4e2a $2021$ \u7684\u548c\uff0c\u8f93\u51fa \u0022YES\u0022\uff1b\n- \u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002\n\n\u4f60\u53ef\u4ee5\u4ee5\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa \u0022YES\u0022 \u548c \u0022NO\u0022\uff08\u4f8b\u5982 yEs\u3001yes\u3001Yes \u548c YES \u90fd\u4f1a\u88ab\u8bc6\u522b\u4e3a\u80af\u5b9a\u7b54\u6848\uff09\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1475B New Year\u0027s Number","type":2,"slug":"CF1475B","color":"orange-3"},"discussions":[{"id":295144,"title":"\u6c42\u52a9","author":{"uid":275445,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/275445.png","name":"\u6240\u6709\u4eba\u889b\u65f3","slogan":"\u5929\u7a7a\u662f\u851a\u84dd\u8272\uff0c\u7a97\u5916\u6709\u5343\u7eb8\u9e64","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":4,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/ysp6ad13.png"},"time":1612010360}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330791.264062,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1475B New Year's Number","description":"Polycarp \u8bb0\u5f97 2020 \u5e74\uff0c\u5e76\u4e14\u4ed6\u5f88\u9ad8\u5174\u8fce\u6765\u4e86\u65b0\u7684 2021 \u5e74\u3002\u4e3a\u4e86\u7eaa\u5ff5\u8fd9\u6837\u7f8e\u597d\u7684\u65f6\u523b\uff0cPolycarp \u60f3\u8981\u5c06\u6570\u5b57 n \u8868\u793a\u4e3a\u82e5\u5e72\u4e2a 2020 \u548c\u82e5\u5e72\u4e2a 2021 \u7684\u548c\u3002\n\u4f8b\u5982\uff1a\n\n\u5982\u679c n=4041\uff0c\u90a3\u4e48 n \u53ef\u4ee5\u8868\u793a\u4e3a 2020\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1475B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1475B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1475B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1475B New Year&#039;s Number" />
+    <meta property="og:description" content="Polycarp 记得 2020 年，并且他很高兴迎来了新的 2021 年。为了纪念这样美好的时刻，Polycarp 想要将数字 n 表示为若干个 2020 和若干个 2021 的和。
+例如：
+
+如果 n=4041，那么 n 可以表示为 2020…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1475B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1475B New Year&#039;s Number</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Polycarp 记得 $2020$ 年，并且他很高兴迎来了新的 $2021$ 年。为了纪念这样美好的时刻，Polycarp 想要将数字 $n$ 表示为若干个 $2020$ 和若干个 $2021$ 的和。
+
+例如：
+
+- 如果 $n=4041$，那么 $n$ 可以表示为 $2020 + 2021$ 的和；
+- 如果 $n=4042$，那么 $n$ 可以表示为 $2021 + 2021$ 的和；
+- 如果 $n=8081$，那么 $n$ 可以表示为 $2020 + 2020 + 2020 + 2021$ 的和；
+- 如果 $n=8079$，那么 $n$ 不能表示为若干个 $2020$ 和若干个 $2021$ 的和。
+
+请帮助 Polycarp 判断，数字 $n$ 是否可以表示为若干个 $2020$ 和若干个 $2021$ 的和。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 10^4$），表示测试用例的数量。接下来有 $t$ 行，每行包含一个整数 $n$（$1 \leq n \leq 10^6$），表示 Polycarp 想要表示的数字。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一行：
+
+- 如果 $n$ 可以表示为若干个 $2020$ 和若干个 $2021$ 的和，输出 "YES"；
+- 否则输出 "NO"。
+
+你可以以任意大小写输出 "YES" 和 "NO"（例如 yEs、yes、Yes 和 YES 都会被识别为肯定答案）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

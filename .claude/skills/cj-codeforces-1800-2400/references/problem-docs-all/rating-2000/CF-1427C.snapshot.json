@@ -1,0 +1,27 @@
+{
+  "id": "CF-1427C",
+  "contest_id": 1427,
+  "index": "C",
+  "name": "The Hard Work of Paparazzi",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 6032,
+  "problem_url": "https://codeforces.com/problemset/problem/1427/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1427/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1427/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1427C%20The%20Hard%20Work%20of%20Paparazzi%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1427C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1427C The Hard Work of Paparazzi - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 274,
+    "mirror_attempt": 718,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

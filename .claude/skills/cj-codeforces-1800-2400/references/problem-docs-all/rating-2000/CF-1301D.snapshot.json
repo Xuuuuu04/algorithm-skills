@@ -1,0 +1,34 @@
+{
+  "id": "CF-1301D",
+  "contest_id": 1301,
+  "index": "D",
+  "name": "Time to Run",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 4214,
+  "problem_url": "https://codeforces.com/problemset/problem/1301/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1301/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1301/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1301D%20Time%20to%20Run%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1301D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Time to Run - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

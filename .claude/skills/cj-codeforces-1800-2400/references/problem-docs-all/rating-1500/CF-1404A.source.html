@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1404A Balanced Bitstring - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1404A","type":"CF","title":"Balanced Bitstring","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":234,"totalAccepted":181,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Balanced Bitstring","background":null,"description":"\u6bd4\u7279\u4e32\u662f\u4ec5\u7531\u5b57\u7b26 $0$ \u548c $1$ \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002\u5982\u679c\u4e00\u4e2a\u6bd4\u7279\u4e32\u7684\u4efb\u610f\u957f\u5ea6\u4e3a $k$ \u7684\u5b50\u4e32\u4e2d\uff0c$0$ \u548c $1$ \u7684\u6570\u91cf\u90fd\u76f8\u7b49\uff08\u5373\u5404\u6709 $\\frac{k}{2}$ \u4e2a\uff09\uff0c\u5219\u79f0\u8be5\u6bd4\u7279\u4e32\u4e3a $k$-\u5e73\u8861\u6bd4\u7279\u4e32\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u6574\u6570 $k$ \u548c\u4e00\u4e2a\u4ec5\u7531\u5b57\u7b26 $0$\u3001$1$ \u548c $?$ \u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002\u4f60\u9700\u8981\u5224\u65ad\uff0c\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u5c06 $s$ \u4e2d\u7684\u6bcf\u4e2a $?$ \u66ff\u6362\u4e3a $0$ \u6216 $1$\uff0c\u4f7f\u5f97\u6700\u7ec8\u5f97\u5230\u7684\u6bd4\u7279\u4e32\u662f $k$-\u5e73\u8861\u6bd4\u7279\u4e32\u3002\n\n\u5982\u679c\u5b57\u7b26\u4e32 $a$ \u53ef\u4ee5\u901a\u8fc7\u4ece\u5b57\u7b26\u4e32 $b$ \u7684\u5f00\u5934\u5220\u9664\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5b57\u7b26\uff0c\u5e76\u4ece\u7ed3\u5c3e\u5220\u9664\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5b57\u7b26\u5f97\u5230\uff0c\u5219\u79f0 $a$ \u662f $b$ \u7684\u4e00\u4e2a\u5b50\u4e32\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u4e2a\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$2 \\le k \\le n \\le 3 \\cdot 10^5$\uff0c$k$ \u4e3a\u5076\u6570\uff09\uff0c\u5206\u522b\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u548c $k$-\u5e73\u8861\u6bd4\u7279\u4e32\u7684\u53c2\u6570\u3002\n\n\u63a5\u4e0b\u6765\u4e00\u884c\u5305\u542b\u5b57\u7b26\u4e32 $s$\uff08$|s| = n$\uff09\u3002\u4fdd\u8bc1 $s$ \u53ea\u5305\u542b $0$\u3001$1$ \u548c $?$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $3 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u53ef\u4ee5\u5c06 $s$ \u4e2d\u7684\u6240\u6709 $?$ \u66ff\u6362\u4e3a $0$ \u6216 $1$\uff0c\u4f7f\u5f97\u6700\u7ec8\u5f97\u5230\u7684\u6bd4\u7279\u4e32\u662f $k$-\u5e73\u8861\u6bd4\u7279\u4e32\uff0c\u5219\u8f93\u51fa YES\uff1b\u5426\u5219\u8f93\u51fa NO\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5b57\u7b26\u4e32\u672c\u8eab\u5df2\u7ecf\u662f\u4e00\u4e2a $4$-\u5e73\u8861\u6bd4\u7279\u4e32\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5b57\u7b26\u4e32\u53ef\u4ee5\u88ab\u66ff\u6362\u4e3a 101\u3002\n\n\u5bf9\u4e8e\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5b57\u7b26\u4e32\u53ef\u4ee5\u88ab\u66ff\u6362\u4e3a 0110\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e94\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5b57\u7b26\u4e32\u53ef\u4ee5\u88ab\u66ff\u6362\u4e3a 1100110\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Balanced Bitstring","background":"","description":"A bitstring is a string consisting only of the characters 0 and 1. A bitstring is called $ k $ -balanced if every substring of size $ k $ of this bitstring has an equal amount of 0 and 1 characters ( $ \\frac{k}{2} $ of each).\n\nYou are given an integer $ k $ and a string $ s $ which is composed only of characters 0, 1, and ?. You need to determine whether you can make a $ k $ -balanced bitstring by replacing every ? characters in $ s $ with either 0 or 1.\n\nA string $ a $ is a substring of a string $ b $ if $ a $ can be obtained from $ b $ by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). Description of the test cases follows.\n\nThe first line of each test case contains two integers $ n $ and $ k $ ( $ 2 \\le k \\le n \\le 3 \\cdot 10^5 $ , $ k $ is even) \u2014 the length of the string and the parameter for a balanced bitstring.\n\nThe next line contains the string $ s $ ( $ |s| = n $ ). It is given that $ s $ consists of only 0, 1, and ?.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 3 \\cdot 10^5 $ .","formatO":"For each test case, print YES if we can replace every ? in $ s $ with 0 or 1 such that the resulting bitstring is $ k $ -balanced, or NO if it is not possible.","hint":"For the first test case, the string is already a $ 4 $ -balanced bitstring.\n\nFor the second test case, the string can be transformed into 101.\n\nFor the fourth test case, the string can be transformed into 0110.\n\nFor the fifth test case, the string can be transformed into 1100110.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["9\n6 4\n100110\n3 2\n1?1\n3 2\n1?0\n4 4\n????\n7 4\n1?0??1?\n10 10\n11??11??11\n4 2\n1??1\n4 4\n?0?0\n6 2\n????00","YES\nYES\nNO\nYES\nYES\nNO\nNO\nYES\nNO"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1404A","link":"https:\/\/codeforces.com\/problemset\/problem\/1404\/A"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 \u75310,1,?\u7ec4\u6210\u3002\n\n?\u53ef\u4ee5\u662f1\u6216\u80050\uff0c\u7531\u4f60\u81ea\u7531\u9009\u62e9\u3002\n\n\u95ee\u4f60\u662f\u5426\u80fd\u6784\u9020\u51fa\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u4f7f\u5f97\u8fd9\u4e2a\u5b57\u7b26\u4e32\u6bcf\u4e2a\u957f\u5ea6\u4e3ak\u7684\u5b50\u4e32\u4e2d0\u548c1\u7684\u4e2a\u6570\u76f8\u7b49\u3002\u5982\u679c\u53ef\u4ee5\uff0c\u8f93\u51fa\u0022YES\u0022\uff0c\u5426\u5219\u8f93\u51fa\u0022NO\u0022\n\n\u6ce8\uff1aa\u662fb\u7684\u5b50\u4e32\uff0c\u5f53\u4e14\u4ec5\u5f53b\u53ef\u4ee5\u901a\u8fc7 \u4ece\u5934\u5220\u53bb\u82e5\u5e72\u4e2a\u62160\u4e2a\u5b57\u7b26\uff0c\u4ece\u672b\u5c3e\u5220\u53bb\u82e5\u5e72\u4e2a\u62160\u4e2a\u5b57\u7b26\u4e4b\u540e\u53d8\u6210a\u3002"},"translations":{"en":{"name":"Balanced Bitstring","background":"","description":"A bitstring is a string consisting only of the characters 0 and 1. A bitstring is called $ k $ -balanced if every substring of size $ k $ of this bitstring has an equal amount of 0 and 1 characters ( $ \\frac{k}{2} $ of each).\n\nYou are given an integer $ k $ and a string $ s $ which is composed only of characters 0, 1, and ?. You need to determine whether you can make a $ k $ -balanced bitstring by replacing every ? characters in $ s $ with either 0 or 1.\n\nA string $ a $ is a substring of a string $ b $ if $ a $ can be obtained from $ b $ by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). Description of the test cases follows.\n\nThe first line of each test case contains two integers $ n $ and $ k $ ( $ 2 \\le k \\le n \\le 3 \\cdot 10^5 $ , $ k $ is even) \u2014 the length of the string and the parameter for a balanced bitstring.\n\nThe next line contains the string $ s $ ( $ |s| = n $ ). It is given that $ s $ consists of only 0, 1, and ?.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 3 \\cdot 10^5 $ .","formatO":"For each test case, print YES if we can replace every ? in $ s $ with 0 or 1 such that the resulting bitstring is $ k $ -balanced, or NO if it is not possible.","hint":"For the first test case, the string is already a $ 4 $ -balanced bitstring.\n\nFor the second test case, the string can be transformed into 101.\n\nFor the fourth test case, the string can be transformed into 0110.\n\nFor the fifth test case, the string can be transformed into 1100110.","locale":"en"},"zh-CN":{"name":"Balanced Bitstring","background":null,"description":"\u6bd4\u7279\u4e32\u662f\u4ec5\u7531\u5b57\u7b26 $0$ \u548c $1$ \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002\u5982\u679c\u4e00\u4e2a\u6bd4\u7279\u4e32\u7684\u4efb\u610f\u957f\u5ea6\u4e3a $k$ \u7684\u5b50\u4e32\u4e2d\uff0c$0$ \u548c $1$ \u7684\u6570\u91cf\u90fd\u76f8\u7b49\uff08\u5373\u5404\u6709 $\\frac{k}{2}$ \u4e2a\uff09\uff0c\u5219\u79f0\u8be5\u6bd4\u7279\u4e32\u4e3a $k$-\u5e73\u8861\u6bd4\u7279\u4e32\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u6574\u6570 $k$ \u548c\u4e00\u4e2a\u4ec5\u7531\u5b57\u7b26 $0$\u3001$1$ \u548c $?$ \u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002\u4f60\u9700\u8981\u5224\u65ad\uff0c\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u5c06 $s$ \u4e2d\u7684\u6bcf\u4e2a $?$ \u66ff\u6362\u4e3a $0$ \u6216 $1$\uff0c\u4f7f\u5f97\u6700\u7ec8\u5f97\u5230\u7684\u6bd4\u7279\u4e32\u662f $k$-\u5e73\u8861\u6bd4\u7279\u4e32\u3002\n\n\u5982\u679c\u5b57\u7b26\u4e32 $a$ \u53ef\u4ee5\u901a\u8fc7\u4ece\u5b57\u7b26\u4e32 $b$ \u7684\u5f00\u5934\u5220\u9664\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5b57\u7b26\uff0c\u5e76\u4ece\u7ed3\u5c3e\u5220\u9664\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5b57\u7b26\u5f97\u5230\uff0c\u5219\u79f0 $a$ \u662f $b$ \u7684\u4e00\u4e2a\u5b50\u4e32\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u4e2a\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$2 \\le k \\le n \\le 3 \\cdot 10^5$\uff0c$k$ \u4e3a\u5076\u6570\uff09\uff0c\u5206\u522b\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u548c $k$-\u5e73\u8861\u6bd4\u7279\u4e32\u7684\u53c2\u6570\u3002\n\n\u63a5\u4e0b\u6765\u4e00\u884c\u5305\u542b\u5b57\u7b26\u4e32 $s$\uff08$|s| = n$\uff09\u3002\u4fdd\u8bc1 $s$ \u53ea\u5305\u542b $0$\u3001$1$ \u548c $?$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $3 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u53ef\u4ee5\u5c06 $s$ \u4e2d\u7684\u6240\u6709 $?$ \u66ff\u6362\u4e3a $0$ \u6216 $1$\uff0c\u4f7f\u5f97\u6700\u7ec8\u5f97\u5230\u7684\u6bd4\u7279\u4e32\u662f $k$-\u5e73\u8861\u6bd4\u7279\u4e32\uff0c\u5219\u8f93\u51fa YES\uff1b\u5426\u5219\u8f93\u51fa NO\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5b57\u7b26\u4e32\u672c\u8eab\u5df2\u7ecf\u662f\u4e00\u4e2a $4$-\u5e73\u8861\u6bd4\u7279\u4e32\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5b57\u7b26\u4e32\u53ef\u4ee5\u88ab\u66ff\u6362\u4e3a 101\u3002\n\n\u5bf9\u4e8e\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5b57\u7b26\u4e32\u53ef\u4ee5\u88ab\u66ff\u6362\u4e3a 0110\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e94\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5b57\u7b26\u4e32\u53ef\u4ee5\u88ab\u66ff\u6362\u4e3a 1100110\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1404A Balanced Bitstring","type":2,"slug":"CF1404A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.663237,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1404A Balanced Bitstring","description":"\u6bd4\u7279\u4e32\u662f\u4ec5\u7531\u5b57\u7b26 0 \u548c 1 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002\u5982\u679c\u4e00\u4e2a\u6bd4\u7279\u4e32\u7684\u4efb\u610f\u957f\u5ea6\u4e3a k \u7684\u5b50\u4e32\u4e2d\uff0c0 \u548c 1 \u7684\u6570\u91cf\u90fd\u76f8\u7b49\uff08\u5373\u5404\u6709 \\frac{k}{2} \u4e2a\uff09\uff0c\u5219\u79f0\u8be5\u6bd4\u7279\u4e32\u4e3a k-\u5e73\u8861\u6bd4\u7279\u4e32\u3002\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u6574\u6570 k \u548c\u4e00\u4e2a\u4ec5\u7531\u5b57\u7b26 0\u30011 \u548c ? \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1404A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1404A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1404A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1404A Balanced Bitstring" />
+    <meta property="og:description" content="比特串是仅由字符 0 和 1 组成的字符串。如果一个比特串的任意长度为 k 的子串中，0 和 1 的数量都相等（即各有 \frac{k}{2} 个），则称该比特串为 k-平衡比特串。
+现在给定一个整数 k 和一个仅由字符 0、1 和 ? 组成的字符串…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1404A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1404A Balanced Bitstring</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    比特串是仅由字符 $0$ 和 $1$ 组成的字符串。如果一个比特串的任意长度为 $k$ 的子串中，$0$ 和 $1$ 的数量都相等（即各有 $\frac{k}{2}$ 个），则称该比特串为 $k$-平衡比特串。
+
+现在给定一个整数 $k$ 和一个仅由字符 $0$、$1$ 和 $?$ 组成的字符串 $s$。你需要判断，是否可以通过将 $s$ 中的每个 $?$ 替换为 $0$ 或 $1$，使得最终得到的比特串是 $k$-平衡比特串。
+
+如果字符串 $a$ 可以通过从字符串 $b$ 的开头删除若干（可能为零或全部）字符，并从结尾删除若干（可能为零或全部）字符得到，则称 $a$ 是 $b$ 的一个子串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每组测试数据包含多个测试用例。第一行包含测试用例个数 $t$（$1 \le t \le 10^4$）。接下来是每个测试用例的描述。
+
+每个测试用例的第一行包含两个整数 $n$ 和 $k$（$2 \le k \le n \le 3 \cdot 10^5$，$k$ 为偶数），分别表示字符串的长度和 $k$-平衡比特串的参数。
+
+接下来一行包含字符串 $s$（$|s| = n$）。保证 $s$ 只包含 $0$、$1$ 和 $?$。
+
+保证所有测试用例中 $n$ 的总和不超过 $3 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果可以将 $s$ 中的所有 $?$ 替换为 $0$ 或 $1$，使得最终得到的比特串是 $k$-平衡比特串，则输出 YES；否则输出 NO。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于第一个测试用例，字符串本身已经是一个 $4$-平衡比特串。
+
+对于第二个测试用例，字符串可以被替换为 101。
+
+对于第四个测试用例，字符串可以被替换为 0110。
+
+对于第五个测试用例，字符串可以被替换为 1100110。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

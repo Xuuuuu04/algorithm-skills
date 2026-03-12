@@ -1,0 +1,28 @@
+{
+  "id": "CF-746B",
+  "contest_id": 746,
+  "index": "B",
+  "name": "Decoding",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 31636,
+  "problem_url": "https://codeforces.com/problemset/problem/746/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/746/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/746/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=746B%20Decoding%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF746B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF746B Decoding - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 101,
+    "mirror_attempt": 161,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

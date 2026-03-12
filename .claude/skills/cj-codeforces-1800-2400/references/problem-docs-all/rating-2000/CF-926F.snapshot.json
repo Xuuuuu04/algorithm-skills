@@ -1,0 +1,27 @@
+{
+  "id": "CF-926F",
+  "contest_id": 926,
+  "index": "F",
+  "name": "Mobile Communications",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 306,
+  "problem_url": "https://codeforces.com/problemset/problem/926/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/926/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/926/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=926F%20Mobile%20Communications%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P926F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mobile Communications - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 5,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

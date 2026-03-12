@@ -1,0 +1,28 @@
+{
+  "id": "CF-23C",
+  "contest_id": 23,
+  "index": "C",
+  "name": "Oranges and Apples",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "sortings"
+  ],
+  "solved_count": 1678,
+  "problem_url": "https://codeforces.com/problemset/problem/23/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/23/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/23/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=23C%20Oranges%20and%20Apples%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF23C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF23C Oranges and Apples - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 294,
+    "mirror_attempt": 999,
+    "time_limit": "1500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

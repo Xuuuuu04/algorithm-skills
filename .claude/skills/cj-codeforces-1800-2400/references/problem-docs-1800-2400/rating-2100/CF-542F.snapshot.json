@@ -1,0 +1,34 @@
+{
+  "id": "CF-542F",
+  "contest_id": 542,
+  "index": "F",
+  "name": "Quest",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/542/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/542/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/542/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=542F%20Quest%20tutorial",
+  "solved_count": 991,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P542F",
+  "hydro_meta": {
+    "page_title": "Quest - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

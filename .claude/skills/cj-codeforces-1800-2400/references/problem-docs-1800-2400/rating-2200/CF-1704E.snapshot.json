@@ -1,0 +1,41 @@
+{
+  "id": "CF-1704E",
+  "contest_id": 1704,
+  "index": "E",
+  "name": "Count Seconds",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "graphs",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1704/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1704/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1704/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1704E%20Count Seconds%20tutorial",
+  "solved_count": 2658,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1704E",
+  "hydro_meta": {
+    "page_title": "Count Seconds - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "graphs"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

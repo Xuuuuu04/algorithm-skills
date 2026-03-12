@@ -1,0 +1,32 @@
+{
+  "id": "CF-896C",
+  "contest_id": 896,
+  "index": "C",
+  "name": "Willem, Chtholly and Seniorious",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "probabilities"
+  ],
+  "solved_count": 4347,
+  "problem_url": "https://codeforces.com/problemset/problem/896/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/896/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/896/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=896C%20Willem%2C%20Chtholly%20and%20Seniorious%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P896C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Willem, Chtholly and Seniorious - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "probabilities",
+      "*2600"
+    ],
+    "mirror_accepted": 4,
+    "mirror_attempt": 7,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

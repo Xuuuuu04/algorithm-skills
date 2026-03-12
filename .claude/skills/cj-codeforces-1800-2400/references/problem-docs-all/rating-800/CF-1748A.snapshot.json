@@ -1,0 +1,27 @@
+{
+  "id": "CF-1748A",
+  "contest_id": 1748,
+  "index": "A",
+  "name": "The Ultimate Square",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 25241,
+  "problem_url": "https://codeforces.com/problemset/problem/1748/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1748/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1748/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1748A%20The%20Ultimate%20Square%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1748A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1748A The Ultimate Square - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 262,
+    "mirror_attempt": 367,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

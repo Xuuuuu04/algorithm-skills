@@ -1,0 +1,33 @@
+{
+  "id": "CF-201B",
+  "contest_id": 201,
+  "index": "B",
+  "name": "Guess That Car!",
+  "rating": 1800,
+  "tags": [
+    "math",
+    "ternary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/201/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/201/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/201/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=201B%20Guess That Car!%20tutorial",
+  "solved_count": 1377,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P201B",
+  "hydro_meta": {
+    "page_title": "Guess That Car! - 题目详情 - Hydro",
+    "hydro_tags": [
+      "math",
+      "ternary search",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

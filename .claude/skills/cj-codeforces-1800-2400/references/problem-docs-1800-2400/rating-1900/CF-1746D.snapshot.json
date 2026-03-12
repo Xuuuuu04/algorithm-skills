@@ -1,0 +1,41 @@
+{
+  "id": "CF-1746D",
+  "contest_id": 1746,
+  "index": "D",
+  "name": "Paths on the Tree",
+  "rating": 1900,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1746/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1746/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1746/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1746D%20Paths on the Tree%20tutorial",
+  "solved_count": 5062,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1746D",
+  "hydro_meta": {
+    "page_title": "Paths on the Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "sortings",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 4,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

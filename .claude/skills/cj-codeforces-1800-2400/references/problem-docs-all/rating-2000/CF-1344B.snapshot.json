@@ -1,0 +1,30 @@
+{
+  "id": "CF-1344B",
+  "contest_id": 1344,
+  "index": "B",
+  "name": "Monopole Magnets",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 6323,
+  "problem_url": "https://codeforces.com/problemset/problem/1344/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1344/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1344/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1344B%20Monopole%20Magnets%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1344B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1344B Monopole Magnets - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 161,
+    "mirror_attempt": 288,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

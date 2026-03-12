@@ -1,0 +1,38 @@
+{
+  "id": "CF-2143E",
+  "contest_id": 2143,
+  "index": "E",
+  "name": "Make Good",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2143/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2143/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2143/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2143E%20Make Good%20tutorial",
+  "solved_count": 1715,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2143E",
+  "hydro_meta": {
+    "page_title": "Make Good - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "math",
+      "strings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

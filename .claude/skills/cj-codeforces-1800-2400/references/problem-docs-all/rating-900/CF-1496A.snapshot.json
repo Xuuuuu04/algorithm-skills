@@ -1,0 +1,30 @@
+{
+  "id": "CF-1496A",
+  "contest_id": 1496,
+  "index": "A",
+  "name": "Split it!",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 22157,
+  "problem_url": "https://codeforces.com/problemset/problem/1496/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1496/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1496/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1496A%20Split%20it%21%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1496A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1496A Split it! - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 392,
+    "mirror_attempt": 875,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

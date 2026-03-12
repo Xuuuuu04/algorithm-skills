@@ -1,0 +1,33 @@
+{
+  "id": "CF-309B",
+  "contest_id": 309,
+  "index": "B",
+  "name": "Context Advertising",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/309/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/309/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/309/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=309B%20Context Advertising%20tutorial",
+  "solved_count": 805,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P309B",
+  "hydro_meta": {
+    "page_title": "Context Advertising - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

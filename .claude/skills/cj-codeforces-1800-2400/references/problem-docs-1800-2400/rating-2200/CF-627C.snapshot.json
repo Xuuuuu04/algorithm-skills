@@ -1,0 +1,36 @@
+{
+  "id": "CF-627C",
+  "contest_id": 627,
+  "index": "C",
+  "name": "Package Delivery",
+  "rating": 2200,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/627/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/627/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/627/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=627C%20Package Delivery%20tutorial",
+  "solved_count": 1282,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P627C",
+  "hydro_meta": {
+    "page_title": "Package Delivery - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "divide and conquer",
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

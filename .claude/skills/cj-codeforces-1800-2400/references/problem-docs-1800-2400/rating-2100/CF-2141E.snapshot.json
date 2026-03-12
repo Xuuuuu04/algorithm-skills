@@ -1,0 +1,36 @@
+{
+  "id": "CF-2141E",
+  "contest_id": 2141,
+  "index": "E",
+  "name": "Perfect Cut",
+  "rating": 2100,
+  "tags": [
+    "*special",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2141/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2141/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2141/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2141E%20Perfect Cut%20tutorial",
+  "solved_count": 252,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2141E",
+  "hydro_meta": {
+    "page_title": "Perfect Cut - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "dp",
+      "greedy",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

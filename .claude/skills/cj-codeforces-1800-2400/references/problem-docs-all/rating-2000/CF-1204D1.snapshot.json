@@ -1,0 +1,29 @@
+{
+  "id": "CF-1204D1",
+  "contest_id": 1204,
+  "index": "D1",
+  "name": "Kirk and a Binary String (easy version)",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 3191,
+  "problem_url": "https://codeforces.com/problemset/problem/1204/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1204/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1204/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1204D1%20Kirk%20and%20a%20Binary%20String%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1204/D1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1204D1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

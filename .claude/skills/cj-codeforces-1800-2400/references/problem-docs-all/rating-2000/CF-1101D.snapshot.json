@@ -1,0 +1,31 @@
+{
+  "id": "CF-1101D",
+  "contest_id": 1101,
+  "index": "D",
+  "name": "GCD Counting",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "number theory",
+    "trees"
+  ],
+  "solved_count": 5366,
+  "problem_url": "https://codeforces.com/problemset/problem/1101/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1101/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1101/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1101D%20GCD%20Counting%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1101D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1101D GCD Counting - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 732,
+    "mirror_attempt": 2207,
+    "time_limit": "4500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

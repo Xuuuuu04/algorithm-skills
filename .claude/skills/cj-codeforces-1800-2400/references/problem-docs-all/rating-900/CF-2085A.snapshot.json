@@ -1,0 +1,32 @@
+{
+  "id": "CF-2085A",
+  "contest_id": 2085,
+  "index": "A",
+  "name": "Serval and String Theory",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 23131,
+  "problem_url": "https://codeforces.com/problemset/problem/2085/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2085/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2085/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2085A%20Serval%20and%20String%20Theory%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2085A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Serval and String Theory - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "*900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

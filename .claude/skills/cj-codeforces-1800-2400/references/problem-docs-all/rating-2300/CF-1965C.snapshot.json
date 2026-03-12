@@ -1,0 +1,34 @@
+{
+  "id": "CF-1965C",
+  "contest_id": 1965,
+  "index": "C",
+  "name": "Folding Strip",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 2329,
+  "problem_url": "https://codeforces.com/problemset/problem/1965/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1965/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1965/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1965C%20Folding%20Strip%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1965C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Folding Strip - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*2300"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

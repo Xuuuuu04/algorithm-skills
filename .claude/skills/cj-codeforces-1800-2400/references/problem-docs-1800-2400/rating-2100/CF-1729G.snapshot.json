@@ -1,0 +1,40 @@
+{
+  "id": "CF-1729G",
+  "contest_id": 1729,
+  "index": "G",
+  "name": "Cut Substrings",
+  "rating": 2100,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "hashing",
+    "strings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1729/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1729/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1729/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1729G%20Cut Substrings%20tutorial",
+  "solved_count": 2469,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1729G",
+  "hydro_meta": {
+    "page_title": "Cut Substrings - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "hashing",
+      "strings",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

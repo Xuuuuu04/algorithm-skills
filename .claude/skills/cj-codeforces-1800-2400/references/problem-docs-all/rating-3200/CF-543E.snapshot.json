@@ -1,0 +1,32 @@
+{
+  "id": "CF-543E",
+  "contest_id": 543,
+  "index": "E",
+  "name": "Listening to Music",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures"
+  ],
+  "solved_count": 335,
+  "problem_url": "https://codeforces.com/problemset/problem/543/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/543/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/543/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=543E%20Listening%20to%20Music%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P543E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Listening to Music - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "*3200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "7000ms",
+    "memory_limit": "64MiB"
+  }
+}

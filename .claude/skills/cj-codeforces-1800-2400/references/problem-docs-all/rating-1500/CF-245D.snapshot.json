@@ -1,0 +1,32 @@
+{
+  "id": "CF-245D",
+  "contest_id": 245,
+  "index": "D",
+  "name": "Restoring Table",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 2823,
+  "problem_url": "https://codeforces.com/problemset/problem/245/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/245/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/245/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=245D%20Restoring%20Table%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P245D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Restoring Table - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

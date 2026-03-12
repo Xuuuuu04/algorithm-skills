@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415135:sX5B3YYD5l7VhuVYZul+Fv6c2txHaLFHbvnpiocPWp0=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1715D 2+ doors - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1715D","type":"CF","title":"2+ doors","difficulty":5,"tags":[176,314],"wantsTranslation":false,"totalSubmit":645,"totalAccepted":278,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"2+ doors","background":null,"description":"Narrator \u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4f46\u662f\u4ed6\u4f1a\u4ec5\u544a\u8bc9\u4f60 $n$ \u548c $q$ \u6761\u4fe1\u606f\uff0c\u6bcf\u6761\u4fe1\u606f\u90fd\u5305\u542b\u4e09\u4e2a\u6570\u5b57 $i,j,x$\uff0c\u4ee3\u8868 $a_i \\mid a_j = x$\uff0c\u5176\u4e2d $|$ \u662f[\u4e8c\u8fdb\u5236\u6309\u4f4d\u6216\u8fd0\u7b97](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#OR)\u3002\n\n\u8bf7\u627e\u51fa\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4 $a$ \u6ee1\u8db3\u8fd9\u4e9b\u6761\u4ef6\u3002\n\n\u4e00\u4e2a\u6570\u7ec4 $a$ \u5728\u5b57\u5178\u5e8f\u610f\u4e49\u4e0b\u6bd4\u4e00\u4e2a\u6570\u7ec4 $b$ \u5c0f\uff0c\u5f53\u4e14\u4ec5\u5f53\u6ee1\u8db3\u5982\u4e0b\u6761\u4ef6\uff1a\n\n- \u5728 $a$ \u4e2d\u7b2c\u4e00\u4e2a\u548c $b$ \u5143\u7d20\u4e0d\u540c\u7684\u4f4d\u7f6e\u4e2d\uff0c$a$ \u7684\u5143\u7d20\u6bd4 $b$ \u4e2d\u5bf9\u5e94\u4f4d\u7f6e\u7684\u5143\u7d20\u5c0f\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6574\u6570 $n$ \u548c $q$\uff08$1 \\le  n \\le 10^5$\uff0c$0 \\le q \\le 2 \\cdot 10^5$\uff09\u3002\n\n\u63a5\u4e0b\u6765 $q$ \u884c\uff0c\u8bfb\u5165\u4e09\u4e2a\u6574\u6570 $i$\uff0c$j$\uff0c$x$\uff08$1 \\le i, j \\le n $\uff0c$ 0 \\le x \u003C 2^{30} $\uff09\u3002\n\n\u4fdd\u8bc1\u81f3\u5c11\u5b58\u5728\u4e00\u4e2a\u6570\u7ec4 $a$ \u6ee1\u8db3\u6240\u6709 $q$ \u4e2a\u8981\u6c42\u3002","formatO":"\u8f93\u51fa\u4e00\u884c $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\le a_i \u003C 2^{30}$\uff09\u3002","hint":"\u5728\u6837\u4f8b $1$ \u4e2d\uff0c\u4ee5\u4e0b\u8fd9\u4e9b\u6570\u7ec4\u6ee1\u8db3\u6240\u6709\u6761\u4ef6\uff1a\n\n- $ [0, 3, 2, 2] $\uff0c\n- $ [2, 1, 0, 0] $\uff0c\n- $ [2, 1, 0, 2] $\uff0c\n- $ [2, 1, 2, 0] $\uff0c\n- $ [2, 1, 2, 2] $\uff0c\n- $ [2, 3, 0, 0] $\uff0c\n- $ [2, 3, 0, 2] $\uff0c\n- $ [2, 3, 2, 0] $\uff0c\n- $ [2, 3, 2, 2] $\u3002","locale":"zh-CN"},"content":{"name":"2+ doors","background":"","description":"The Narrator has an integer array $ a $ of length $ n $ , but he will only tell you the size $ n $ and $ q $ statements, each of them being three integers $ i, j, x $ , which means that $ a_i \\mid a_j = x $ , where $ | $ denotes the [bitwise OR operation](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#OR).\n\nFind the lexicographically smallest array $ a $ that satisfies all the statements.\n\nAn array $ a $ is lexicographically smaller than an array $ b $ of the same length if and only if the following holds:\n\n- in the first position where $ a $ and $ b $ differ, the array $ a $ has a smaller element than the corresponding element in $ b $ .","formatI":"In the first line you are given with two integers $ n $ and $ q $ ( $ 1 \\le n \\le 10^5 $ , $ 0 \\le q \\le 2 \\cdot 10^5 $ ).\n\nIn the next $ q $ lines you are given with three integers $ i $ , $ j $ , and $ x $ ( $ 1 \\le i, j \\le n $ , $ 0 \\le x \u003C 2^{30} $ ) \u2014 the statements.\n\nIt is guaranteed that all $ q $ statements hold for at least one array.","formatO":"On a single line print $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\le a_i \u003C 2^{30} $ ) \u2014 array $ a $ .","hint":"In the first sample, these are all the arrays satisfying the statements:\n\n- $ [0, 3, 2, 2] $ ,\n- $ [2, 1, 0, 0] $ ,\n- $ [2, 1, 0, 2] $ ,\n- $ [2, 1, 2, 0] $ ,\n- $ [2, 1, 2, 2] $ ,\n- $ [2, 3, 0, 0] $ ,\n- $ [2, 3, 0, 2] $ ,\n- $ [2, 3, 2, 0] $ ,\n- $ [2, 3, 2, 2] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4 3\n1 2 3\n1 3 2\n4 1 2","0 3 2 2"],["1 0","0"],["2 1\n1 1 1073741823","1073741823 0"]],"limits":{"time":[1500],"memory":[256000]},"vjudge":{"id":"1715D","link":"https:\/\/codeforces.com\/problemset\/problem\/1715\/D"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\nNarrator\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6574\u6570\u6570\u7ec4 $a$ \uff0c\u4f46\u662f\u4ed6\u53ea\u4f1a\u544a\u8bc9\u4f60 $n$ \u7684\u5927\u5c0f\u548c $q$ \u4e2a\u8981\u6c42\uff0c\u6bcf\u4e2a\u8981\u6c42\u5305\u62ec\u4e09\u4e2a\u6574\u6570 $i,j,x$ \uff0c\u8981\u6c42\u6ee1\u8db3 $a_i\\mid a_j = x$\uff0c\u5176\u4e2d $|$ \u8868\u793a\u6309\u4f4d\u6216\u8fd0\u7b97\n\n\u627e\u5230\u6ee1\u8db3\u6240\u6709\u8981\u6c42\u7684\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4 $a$ \n\n## \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u8bfb\u5165\u4e24\u4e2a\u6574\u6570 $n$ \u548c $q$ ( $1 \\le  n \\le 10^5$ , $0 \\le q \\le 2 \\cdot 10^5$ )\n\n\u63a5\u4e0b\u6765 $q$ \u884c\uff0c\u8bfb\u5165\u4e09\u4e2a\u6574\u6570 $i$ , $j$ , $x$ ( $1 \\le i, j \\le n $ , $ 0 \\le x \u003C 2^{30} $ )\n\n\u4fdd\u8bc1\u6240\u6709 $q$ \u4e2a\u8981\u6c42\u81f3\u5c11\u6ee1\u8db3\u4e00\u4e2a\u6570\u7ec4 $a$ \n\n## \u8f93\u51fa\u683c\u5f0f\n\n\u4e00\u884c $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$ ( $0 \\le a_i \u003C 2^{30}$ )\n"},"translations":{"en":{"name":"2+ doors","background":"","description":"The Narrator has an integer array $ a $ of length $ n $ , but he will only tell you the size $ n $ and $ q $ statements, each of them being three integers $ i, j, x $ , which means that $ a_i \\mid a_j = x $ , where $ | $ denotes the [bitwise OR operation](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#OR).\n\nFind the lexicographically smallest array $ a $ that satisfies all the statements.\n\nAn array $ a $ is lexicographically smaller than an array $ b $ of the same length if and only if the following holds:\n\n- in the first position where $ a $ and $ b $ differ, the array $ a $ has a smaller element than the corresponding element in $ b $ .","formatI":"In the first line you are given with two integers $ n $ and $ q $ ( $ 1 \\le n \\le 10^5 $ , $ 0 \\le q \\le 2 \\cdot 10^5 $ ).\n\nIn the next $ q $ lines you are given with three integers $ i $ , $ j $ , and $ x $ ( $ 1 \\le i, j \\le n $ , $ 0 \\le x \u003C 2^{30} $ ) \u2014 the statements.\n\nIt is guaranteed that all $ q $ statements hold for at least one array.","formatO":"On a single line print $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\le a_i \u003C 2^{30} $ ) \u2014 array $ a $ .","hint":"In the first sample, these are all the arrays satisfying the statements:\n\n- $ [0, 3, 2, 2] $ ,\n- $ [2, 1, 0, 0] $ ,\n- $ [2, 1, 0, 2] $ ,\n- $ [2, 1, 2, 0] $ ,\n- $ [2, 1, 2, 2] $ ,\n- $ [2, 3, 0, 0] $ ,\n- $ [2, 3, 0, 2] $ ,\n- $ [2, 3, 2, 0] $ ,\n- $ [2, 3, 2, 2] $ .","locale":"en"},"zh-CN":{"name":"2+ doors","background":null,"description":"Narrator \u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4f46\u662f\u4ed6\u4f1a\u4ec5\u544a\u8bc9\u4f60 $n$ \u548c $q$ \u6761\u4fe1\u606f\uff0c\u6bcf\u6761\u4fe1\u606f\u90fd\u5305\u542b\u4e09\u4e2a\u6570\u5b57 $i,j,x$\uff0c\u4ee3\u8868 $a_i \\mid a_j = x$\uff0c\u5176\u4e2d $|$ \u662f[\u4e8c\u8fdb\u5236\u6309\u4f4d\u6216\u8fd0\u7b97](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#OR)\u3002\n\n\u8bf7\u627e\u51fa\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4 $a$ \u6ee1\u8db3\u8fd9\u4e9b\u6761\u4ef6\u3002\n\n\u4e00\u4e2a\u6570\u7ec4 $a$ \u5728\u5b57\u5178\u5e8f\u610f\u4e49\u4e0b\u6bd4\u4e00\u4e2a\u6570\u7ec4 $b$ \u5c0f\uff0c\u5f53\u4e14\u4ec5\u5f53\u6ee1\u8db3\u5982\u4e0b\u6761\u4ef6\uff1a\n\n- \u5728 $a$ \u4e2d\u7b2c\u4e00\u4e2a\u548c $b$ \u5143\u7d20\u4e0d\u540c\u7684\u4f4d\u7f6e\u4e2d\uff0c$a$ \u7684\u5143\u7d20\u6bd4 $b$ \u4e2d\u5bf9\u5e94\u4f4d\u7f6e\u7684\u5143\u7d20\u5c0f\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6574\u6570 $n$ \u548c $q$\uff08$1 \\le  n \\le 10^5$\uff0c$0 \\le q \\le 2 \\cdot 10^5$\uff09\u3002\n\n\u63a5\u4e0b\u6765 $q$ \u884c\uff0c\u8bfb\u5165\u4e09\u4e2a\u6574\u6570 $i$\uff0c$j$\uff0c$x$\uff08$1 \\le i, j \\le n $\uff0c$ 0 \\le x \u003C 2^{30} $\uff09\u3002\n\n\u4fdd\u8bc1\u81f3\u5c11\u5b58\u5728\u4e00\u4e2a\u6570\u7ec4 $a$ \u6ee1\u8db3\u6240\u6709 $q$ \u4e2a\u8981\u6c42\u3002","formatO":"\u8f93\u51fa\u4e00\u884c $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\le a_i \u003C 2^{30}$\uff09\u3002","hint":"\u5728\u6837\u4f8b $1$ \u4e2d\uff0c\u4ee5\u4e0b\u8fd9\u4e9b\u6570\u7ec4\u6ee1\u8db3\u6240\u6709\u6761\u4ef6\uff1a\n\n- $ [0, 3, 2, 2] $\uff0c\n- $ [2, 1, 0, 0] $\uff0c\n- $ [2, 1, 0, 2] $\uff0c\n- $ [2, 1, 2, 0] $\uff0c\n- $ [2, 1, 2, 2] $\uff0c\n- $ [2, 3, 0, 0] $\uff0c\n- $ [2, 3, 0, 2] $\uff0c\n- $ [2, 3, 2, 0] $\uff0c\n- $ [2, 3, 2, 2] $\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1715D 2+ doors","type":2,"slug":"CF1715D","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328735.612084,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1715D 2+ doors","description":"Narrator \u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a\uff0c\u4f46\u662f\u4ed6\u4f1a\u4ec5\u544a\u8bc9\u4f60 n \u548c q \u6761\u4fe1\u606f\uff0c\u6bcf\u6761\u4fe1\u606f\u90fd\u5305\u542b\u4e09\u4e2a\u6570\u5b57 i,j,x\uff0c\u4ee3\u8868 a_i \\mid a_j = x\uff0c\u5176\u4e2d | \u662f\u4e8c\u8fdb\u5236\u6309\u4f4d\u6216\u8fd0\u7b97\u3002\n\u8bf7\u627e\u51fa\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4 a \u6ee1\u8db3\u8fd9\u4e9b\u6761\u4ef6\u3002\n\u4e00\u4e2a\u6570\u7ec4\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1715D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1715D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1715D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1715D 2+ doors" />
+    <meta property="og:description" content="Narrator 有一个长度为 n 的数组 a，但是他会仅告诉你 n 和 q 条信息，每条信息都包含三个数字 i,j,x，代表 a_i \mid a_j = x，其中 | 是二进制按位或运算。
+请找出字典序最小的数组 a 满足这些条件。
+一个数组…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1715D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1715D 2+ doors</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Narrator 有一个长度为 $n$ 的数组 $a$，但是他会仅告诉你 $n$ 和 $q$ 条信息，每条信息都包含三个数字 $i,j,x$，代表 $a_i \mid a_j = x$，其中 $|$ 是[二进制按位或运算](https://en.wikipedia.org/wiki/Bitwise_operation#OR)。
+
+请找出字典序最小的数组 $a$ 满足这些条件。
+
+一个数组 $a$ 在字典序意义下比一个数组 $b$ 小，当且仅当满足如下条件：
+
+- 在 $a$ 中第一个和 $b$ 元素不同的位置中，$a$ 的元素比 $b$ 中对应位置的元素小。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行输入两个整数 $n$ 和 $q$（$1 \le  n \le 10^5$，$0 \le q \le 2 \cdot 10^5$）。
+
+接下来 $q$ 行，读入三个整数 $i$，$j$，$x$（$1 \le i, j \le n $，$ 0 \le x < 2^{30} $）。
+
+保证至少存在一个数组 $a$ 满足所有 $q$ 个要求。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一行 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$0 \le a_i < 2^{30}$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在样例 $1$ 中，以下这些数组满足所有条件：
+
+- $ [0, 3, 2, 2] $，
+- $ [2, 1, 0, 0] $，
+- $ [2, 1, 0, 2] $，
+- $ [2, 1, 2, 0] $，
+- $ [2, 1, 2, 2] $，
+- $ [2, 3, 0, 0] $，
+- $ [2, 3, 0, 2] $，
+- $ [2, 3, 2, 0] $，
+- $ [2, 3, 2, 2] $。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

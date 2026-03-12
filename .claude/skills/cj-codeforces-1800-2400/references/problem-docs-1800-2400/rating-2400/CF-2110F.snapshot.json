@@ -1,0 +1,39 @@
+{
+  "id": "CF-2110F",
+  "contest_id": 2110,
+  "index": "F",
+  "name": "Faculty",
+  "rating": 2400,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2110/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2110/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2110/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2110F%20Faculty%20tutorial",
+  "solved_count": 1854,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2110F",
+  "hydro_meta": {
+    "page_title": "Faculty - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

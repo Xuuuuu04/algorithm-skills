@@ -1,0 +1,36 @@
+{
+  "id": "CF-908C",
+  "contest_id": 908,
+  "index": "C",
+  "name": "New Year and Curling",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "geometry",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 7184,
+  "problem_url": "https://codeforces.com/problemset/problem/908/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/908/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/908/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=908C%20New%20Year%20and%20Curling%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P908C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year and Curling - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "geometry",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

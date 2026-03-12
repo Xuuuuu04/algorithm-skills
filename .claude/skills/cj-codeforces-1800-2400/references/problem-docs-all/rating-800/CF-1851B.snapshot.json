@@ -1,0 +1,29 @@
+{
+  "id": "CF-1851B",
+  "contest_id": 1851,
+  "index": "B",
+  "name": "Parity Sort",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 32224,
+  "problem_url": "https://codeforces.com/problemset/problem/1851/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1851/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1851/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1851B%20Parity%20Sort%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1851B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1851B Parity Sort - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 266,
+    "mirror_attempt": 401,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1663C",
+  "contest_id": 1663,
+  "index": "C",
+  "name": "Pōja Verdon",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 5845,
+  "problem_url": "https://codeforces.com/problemset/problem/1663/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1663/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1663/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1663C%20P%C5%8Dja%20Verdon%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1663/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1663C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

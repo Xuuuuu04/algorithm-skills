@@ -1,0 +1,32 @@
+{
+  "id": "CF-1352C",
+  "contest_id": 1352,
+  "index": "C",
+  "name": "K-th Not Divisible by n",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "math"
+  ],
+  "solved_count": 68358,
+  "problem_url": "https://codeforces.com/problemset/problem/1352/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1352/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1352/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1352C%20K-th%20Not%20Divisible%20by%20n%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1352C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "K-th Not Divisible by n - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "math",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

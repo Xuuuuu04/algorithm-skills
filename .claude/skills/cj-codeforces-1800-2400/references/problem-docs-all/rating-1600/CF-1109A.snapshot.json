@@ -1,0 +1,28 @@
+{
+  "id": "CF-1109A",
+  "contest_id": 1109,
+  "index": "A",
+  "name": "Sasha and a Bit of Relax",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 8964,
+  "problem_url": "https://codeforces.com/problemset/problem/1109/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1109/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1109/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1109A%20Sasha%20and%20a%20Bit%20of%20Relax%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1109/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1109A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

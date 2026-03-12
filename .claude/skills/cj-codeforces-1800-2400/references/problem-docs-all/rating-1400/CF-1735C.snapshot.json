@@ -1,0 +1,32 @@
+{
+  "id": "CF-1735C",
+  "contest_id": 1735,
+  "index": "C",
+  "name": "Phase Shift",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 10857,
+  "problem_url": "https://codeforces.com/problemset/problem/1735/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1735/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1735/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1735C%20Phase%20Shift%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1735/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1735C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

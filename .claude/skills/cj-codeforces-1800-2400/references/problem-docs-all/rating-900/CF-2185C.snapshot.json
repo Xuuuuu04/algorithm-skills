@@ -1,0 +1,28 @@
+{
+  "id": "CF-2185C",
+  "contest_id": 2185,
+  "index": "C",
+  "name": "Shifted MEX",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 26973,
+  "problem_url": "https://codeforces.com/problemset/problem/2185/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2185/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2185/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2185C%20Shifted%20MEX%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2185C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2185C Shifted MEX - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

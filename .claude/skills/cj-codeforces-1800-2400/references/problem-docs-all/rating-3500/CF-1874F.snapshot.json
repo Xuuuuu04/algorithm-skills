@@ -1,0 +1,27 @@
+{
+  "id": "CF-1874F",
+  "contest_id": 1874,
+  "index": "F",
+  "name": "Jellyfish and OEIS",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 416,
+  "problem_url": "https://codeforces.com/problemset/problem/1874/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1874/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1874/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1874F%20Jellyfish%20and%20OEIS%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1874/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1874F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

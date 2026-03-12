@@ -1,0 +1,30 @@
+{
+  "id": "CF-2183H",
+  "contest_id": 2183,
+  "index": "H",
+  "name": "Minimise Cost",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 138,
+  "problem_url": "https://codeforces.com/problemset/problem/2183/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/2183/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2183/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2183H%20Minimise%20Cost%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2183/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2183H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "6 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

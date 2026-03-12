@@ -1,0 +1,38 @@
+{
+  "id": "CF-1335E2",
+  "contest_id": 1335,
+  "index": "E2",
+  "name": "Three Blocks Palindrome (hard version)",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1335/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1335/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1335/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1335E2%20Three Blocks Palindrome (hard version)%20tutorial",
+  "solved_count": 9272,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1335E2",
+  "hydro_meta": {
+    "page_title": "Three Blocks Palindrome (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

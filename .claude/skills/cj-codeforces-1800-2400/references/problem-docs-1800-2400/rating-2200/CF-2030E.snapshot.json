@@ -1,0 +1,44 @@
+{
+  "id": "CF-2030E",
+  "contest_id": 2030,
+  "index": "E",
+  "name": "MEXimize the Score",
+  "rating": 2200,
+  "tags": [
+    "combinatorics",
+    "data structures",
+    "dp",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2030/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2030/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2030/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2030E%20MEXimize the Score%20tutorial",
+  "solved_count": 1925,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2030E",
+  "hydro_meta": {
+    "page_title": "MEXimize the Score - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

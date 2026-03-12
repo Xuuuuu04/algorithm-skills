@@ -1,0 +1,35 @@
+{
+  "id": "CF-1763C",
+  "contest_id": 1763,
+  "index": "C",
+  "name": "Another Array Problem",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1763/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1763/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1763/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1763C%20Another Array Problem%20tutorial",
+  "solved_count": 7676,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1763C",
+  "hydro_meta": {
+    "page_title": "Another Array Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

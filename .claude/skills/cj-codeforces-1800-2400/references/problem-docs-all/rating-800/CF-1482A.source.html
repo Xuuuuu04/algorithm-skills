@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1482A Prison Break - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1482A","type":"CF","title":"Prison Break","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":8,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Prison Break","background":null,"description":"Michael \u88ab\u6307\u63a7\u8fdd\u53cd\u793e\u4ea4\u8ddd\u79bb\u89c4\u5b9a\u5e76\u9020\u6210\u4f20\u64ad\u65b0\u51a0\u75c5\u6bd2\u7684\u98ce\u9669\uff0c\u56e0\u6b64\u88ab\u9001\u8fdb\u4e86\u76d1\u72f1\u3002\u5e78\u8fd0\u7684\u662f\uff0cMichael \u975e\u5e38\u6e05\u695a\u76d1\u72f1\u5185\u90e8\u7684\u6837\u5b50\uff0c\u5c24\u5176\u662f\u56e0\u4e3a\u5b83\u975e\u5e38\u7b80\u5355\u3002\n\n\u76d1\u72f1\u53ef\u4ee5\u8868\u793a\u4e3a\u4e00\u4e2a $a\\times b$ \u7684\u77e9\u5f62\uff0c\u88ab\u5212\u5206\u4e3a $ab$ \u4e2a\u7262\u623f\uff0c\u6bcf\u4e2a\u7262\u623f\u4e4b\u95f4\u6709\u516c\u5171\u7684\u5899\u58c1\uff0c\u77e9\u5f62\u5916\u56f4\u7684\u8fb9\u662f\u901a\u5411\u81ea\u7531\u7684\u5916\u5899\u3002\u5728\u88ab\u5224\u5211\u4e4b\u524d\uff0cMichael \u53ef\u4ee5\u8bf7\u6c42\u4ed6\u5728\u76d1\u72f1\u5de5\u4f5c\u7684\u670b\u53cb\u5728\u4e00\u4e9b\u5899\u4e0a\u6253\u6d1e\uff08\u8fd9\u4e9b\u6d1e\u4f1a\u88ab\u9690\u85cf\u5f97\u5f88\u597d\uff09\uff0c\u5305\u62ec\u7262\u623f\u4e4b\u95f4\u7684\u5899\u548c\u6700\u5916\u5c42\u7684\u5899\u3002Michael \u5e0c\u671b\u65e0\u8bba\u4ed6\u88ab\u5173\u5728\u54ea\u4e2a\u7262\u623f\uff0c\u90fd\u80fd\u6709\u4e00\u6761\u901a\u5411\u5916\u9762\u7684\u8def\u3002\u540c\u65f6\uff0c\u4ed6\u4e5f\u5e0c\u671b\u6253\u7834\u7684\u5899\u5c3d\u53ef\u80fd\u5c11\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u8ba1\u7b97\uff0c\u4e3a\u4e86\u8ba9\u6bcf\u4e2a\u7262\u623f\u90fd\u80fd\u6709\u4e00\u6761\u901a\u5411\u5916\u90e8\u7684\u8def\u5f84\uff0c\u6700\u5c11\u9700\u8981\u6253\u7834\u591a\u5c11\u9762\u5899\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1\\leq t\\leq 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $a$ \u548c $b$\uff08$1\\leq a, b\\leq 100$\uff09\uff0c\u8868\u793a\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u53c2\u6570\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u5c11\u9700\u8981\u6253\u7834\u7684\u5899\u6570\u3002\u6bcf\u4e2a\u7b54\u6848\u5360\u4e00\u884c\u3002","hint":"\u4e0b\u56fe\u5c55\u793a\u4e86\u6837\u4f8b\u6d4b\u8bd5\u7528\u4f8b\u7684\u4e00\u4e9b\u53ef\u80fd\u7684\u9003\u8131\u65b9\u6848\u3002\u88ab\u6253\u7834\u7684\u5899\u7528\u7070\u8272\u8868\u793a\uff0c\u672a\u88ab\u6253\u7834\u7684\u5899\u7528\u9ed1\u8272\u8868\u793a\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1482A\/a4659585fb5a010bae617b961924fcd595e6f78a.png)\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1482A\/4c54b6f42b6a89eb061e6459fc4f87678206d125.png)\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Prison Break","background":"","description":"Michael is accused of violating the social distancing rules and creating a risk of spreading coronavirus. He is now sent to prison. Luckily, Michael knows exactly what the prison looks like from the inside, especially since it\u0027s very simple.\n\nThe prison can be represented as a rectangle $ a\\times b $ which is divided into $ ab $ cells, each representing a prison cell, common sides being the walls between cells, and sides on the perimeter being the walls leading to freedom. Before sentencing, Michael can ask his friends among the prison employees to make (very well hidden) holes in some of the walls (including walls between cells and the outermost walls). Michael wants to be able to get out of the prison after this, no matter which cell he is placed in. However, he also wants to break as few walls as possible.\n\nYour task is to find out the smallest number of walls to be broken so that there is a path to the outside from every cell after this.","formatI":"The first line contains a single integer $ t $ ( $ 1\\leq t\\leq 100 $ ) \u2014 the number of test cases.\n\nEach of the following $ t $ lines contains two integers $ a $ and $ b $ ( $ 1\\leq a, b\\leq 100 $ ), representing a corresponding test case.","formatO":"For each test case print the single integer on a separate line \u2014 the answer to the problem.","hint":"Some possible escape plans for the example test cases are shown below. Broken walls are shown in gray, not broken walls are shown in black.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1482A\/a4659585fb5a010bae617b961924fcd595e6f78a.png)\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1482A\/4c54b6f42b6a89eb061e6459fc4f87678206d125.png)","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n2 2\n1 3","4\n3"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1482A","link":"https:\/\/codeforces.com\/problemset\/problem\/1482\/A"},"translation":"\u73b0\u5728\u6709\u4e00\u4e2a $a*b$ \u7684\u7262\u623f\uff0c\u4f60\u8981\u901a\u8fc7\u6253\u7834\u8fd9\u4e9b\u5899\u58c1\u4e2d\u7684\u67d0\u51e0\u5757\u4f7f\u5728\u6bcf\u4e2a\u7262\u623f\u91cc\u7684\u4eba\u90fd\u80fd\u8d8a\u72f1\u3002\u6c42\u6700\u5c11\u6253\u7834\u591a\u5c11\u5757\u5899\u58c1\uff1f"},"translations":{"en":{"name":"Prison Break","background":"","description":"Michael is accused of violating the social distancing rules and creating a risk of spreading coronavirus. He is now sent to prison. Luckily, Michael knows exactly what the prison looks like from the inside, especially since it\u0027s very simple.\n\nThe prison can be represented as a rectangle $ a\\times b $ which is divided into $ ab $ cells, each representing a prison cell, common sides being the walls between cells, and sides on the perimeter being the walls leading to freedom. Before sentencing, Michael can ask his friends among the prison employees to make (very well hidden) holes in some of the walls (including walls between cells and the outermost walls). Michael wants to be able to get out of the prison after this, no matter which cell he is placed in. However, he also wants to break as few walls as possible.\n\nYour task is to find out the smallest number of walls to be broken so that there is a path to the outside from every cell after this.","formatI":"The first line contains a single integer $ t $ ( $ 1\\leq t\\leq 100 $ ) \u2014 the number of test cases.\n\nEach of the following $ t $ lines contains two integers $ a $ and $ b $ ( $ 1\\leq a, b\\leq 100 $ ), representing a corresponding test case.","formatO":"For each test case print the single integer on a separate line \u2014 the answer to the problem.","hint":"Some possible escape plans for the example test cases are shown below. Broken walls are shown in gray, not broken walls are shown in black.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1482A\/a4659585fb5a010bae617b961924fcd595e6f78a.png)\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1482A\/4c54b6f42b6a89eb061e6459fc4f87678206d125.png)","locale":"en"},"zh-CN":{"name":"Prison Break","background":null,"description":"Michael \u88ab\u6307\u63a7\u8fdd\u53cd\u793e\u4ea4\u8ddd\u79bb\u89c4\u5b9a\u5e76\u9020\u6210\u4f20\u64ad\u65b0\u51a0\u75c5\u6bd2\u7684\u98ce\u9669\uff0c\u56e0\u6b64\u88ab\u9001\u8fdb\u4e86\u76d1\u72f1\u3002\u5e78\u8fd0\u7684\u662f\uff0cMichael \u975e\u5e38\u6e05\u695a\u76d1\u72f1\u5185\u90e8\u7684\u6837\u5b50\uff0c\u5c24\u5176\u662f\u56e0\u4e3a\u5b83\u975e\u5e38\u7b80\u5355\u3002\n\n\u76d1\u72f1\u53ef\u4ee5\u8868\u793a\u4e3a\u4e00\u4e2a $a\\times b$ \u7684\u77e9\u5f62\uff0c\u88ab\u5212\u5206\u4e3a $ab$ \u4e2a\u7262\u623f\uff0c\u6bcf\u4e2a\u7262\u623f\u4e4b\u95f4\u6709\u516c\u5171\u7684\u5899\u58c1\uff0c\u77e9\u5f62\u5916\u56f4\u7684\u8fb9\u662f\u901a\u5411\u81ea\u7531\u7684\u5916\u5899\u3002\u5728\u88ab\u5224\u5211\u4e4b\u524d\uff0cMichael \u53ef\u4ee5\u8bf7\u6c42\u4ed6\u5728\u76d1\u72f1\u5de5\u4f5c\u7684\u670b\u53cb\u5728\u4e00\u4e9b\u5899\u4e0a\u6253\u6d1e\uff08\u8fd9\u4e9b\u6d1e\u4f1a\u88ab\u9690\u85cf\u5f97\u5f88\u597d\uff09\uff0c\u5305\u62ec\u7262\u623f\u4e4b\u95f4\u7684\u5899\u548c\u6700\u5916\u5c42\u7684\u5899\u3002Michael \u5e0c\u671b\u65e0\u8bba\u4ed6\u88ab\u5173\u5728\u54ea\u4e2a\u7262\u623f\uff0c\u90fd\u80fd\u6709\u4e00\u6761\u901a\u5411\u5916\u9762\u7684\u8def\u3002\u540c\u65f6\uff0c\u4ed6\u4e5f\u5e0c\u671b\u6253\u7834\u7684\u5899\u5c3d\u53ef\u80fd\u5c11\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u8ba1\u7b97\uff0c\u4e3a\u4e86\u8ba9\u6bcf\u4e2a\u7262\u623f\u90fd\u80fd\u6709\u4e00\u6761\u901a\u5411\u5916\u90e8\u7684\u8def\u5f84\uff0c\u6700\u5c11\u9700\u8981\u6253\u7834\u591a\u5c11\u9762\u5899\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1\\leq t\\leq 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $a$ \u548c $b$\uff08$1\\leq a, b\\leq 100$\uff09\uff0c\u8868\u793a\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u53c2\u6570\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u5c11\u9700\u8981\u6253\u7834\u7684\u5899\u6570\u3002\u6bcf\u4e2a\u7b54\u6848\u5360\u4e00\u884c\u3002","hint":"\u4e0b\u56fe\u5c55\u793a\u4e86\u6837\u4f8b\u6d4b\u8bd5\u7528\u4f8b\u7684\u4e00\u4e9b\u53ef\u80fd\u7684\u9003\u8131\u65b9\u6848\u3002\u88ab\u6253\u7834\u7684\u5899\u7528\u7070\u8272\u8868\u793a\uff0c\u672a\u88ab\u6253\u7834\u7684\u5899\u7528\u9ed1\u8272\u8868\u793a\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1482A\/a4659585fb5a010bae617b961924fcd595e6f78a.png)\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1482A\/4c54b6f42b6a89eb061e6459fc4f87678206d125.png)\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1482A Prison Break","type":2,"slug":"CF1482A","color":"orange-3"},"discussions":[{"id":305913,"title":"\u9898\u76ee\u5b58\u5728\u95ee\u9898","author":{"uid":195198,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/195198.png","name":"E1_de5truct0r","slogan":"breathe ur carbon monoxide","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/jhe2leqi.png"},"time":1616411324}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.048683,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1482A Prison Break","description":"Michael \u88ab\u6307\u63a7\u8fdd\u53cd\u793e\u4ea4\u8ddd\u79bb\u89c4\u5b9a\u5e76\u9020\u6210\u4f20\u64ad\u65b0\u51a0\u75c5\u6bd2\u7684\u98ce\u9669\uff0c\u56e0\u6b64\u88ab\u9001\u8fdb\u4e86\u76d1\u72f1\u3002\u5e78\u8fd0\u7684\u662f\uff0cMichael \u975e\u5e38\u6e05\u695a\u76d1\u72f1\u5185\u90e8\u7684\u6837\u5b50\uff0c\u5c24\u5176\u662f\u56e0\u4e3a\u5b83\u975e\u5e38\u7b80\u5355\u3002\n\u76d1\u72f1\u53ef\u4ee5\u8868\u793a\u4e3a\u4e00\u4e2a a\\times b \u7684\u77e9\u5f62\uff0c\u88ab\u5212\u5206\u4e3a ab \u4e2a\u7262\u623f\uff0c\u6bcf\u4e2a\u7262\u623f\u4e4b\u95f4\u6709\u516c\u5171\u7684\u5899\u58c1\uff0c\u77e9\u5f62\u5916\u56f4\u7684\u8fb9\u662f\u901a\u5411\u81ea\u7531\u7684\u5916\u5899\u3002\u5728\u88ab\u5224\u5211\u4e4b\u524d\uff0cMichael\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1482A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1482A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1482A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1482A Prison Break" />
+    <meta property="og:description" content="Michael 被指控违反社交距离规定并造成传播新冠病毒的风险，因此被送进了监狱。幸运的是，Michael 非常清楚监狱内部的样子，尤其是因为它非常简单。
+监狱可以表示为一个 a\times b 的矩形，被划分为 ab 个牢房，每个牢房之间有公共的墙壁，矩形外围的边是通向自由的外墙。在被判刑之前，Michael…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1482A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1482A Prison Break</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Michael 被指控违反社交距离规定并造成传播新冠病毒的风险，因此被送进了监狱。幸运的是，Michael 非常清楚监狱内部的样子，尤其是因为它非常简单。
+
+监狱可以表示为一个 $a\times b$ 的矩形，被划分为 $ab$ 个牢房，每个牢房之间有公共的墙壁，矩形外围的边是通向自由的外墙。在被判刑之前，Michael 可以请求他在监狱工作的朋友在一些墙上打洞（这些洞会被隐藏得很好），包括牢房之间的墙和最外层的墙。Michael 希望无论他被关在哪个牢房，都能有一条通向外面的路。同时，他也希望打破的墙尽可能少。
+
+你的任务是计算，为了让每个牢房都能有一条通向外部的路径，最少需要打破多少面墙。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1\leq t\leq 100$），表示测试用例的数量。
+
+接下来的 $t$ 行，每行包含两个整数 $a$ 和 $b$（$1\leq a, b\leq 100$），表示每个测试用例的参数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示最少需要打破的墙数。每个答案占一行。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                下图展示了样例测试用例的一些可能的逃脱方案。被打破的墙用灰色表示，未被打破的墙用黑色表示。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1482A/a4659585fb5a010bae617b961924fcd595e6f78a.png)
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1482A/4c54b6f42b6a89eb061e6459fc4f87678206d125.png)
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

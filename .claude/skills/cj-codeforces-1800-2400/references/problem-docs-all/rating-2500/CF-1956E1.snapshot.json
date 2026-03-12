@@ -1,0 +1,29 @@
+{
+  "id": "CF-1956E1",
+  "contest_id": 1956,
+  "index": "E1",
+  "name": "Nene vs. Monsters (Easy Version)",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 1656,
+  "problem_url": "https://codeforces.com/problemset/problem/1956/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1956/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1956/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1956E1%20Nene%20vs.%20Monsters%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1956/E1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1956E1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

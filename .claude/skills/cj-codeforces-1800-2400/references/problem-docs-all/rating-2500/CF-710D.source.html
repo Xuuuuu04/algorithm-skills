@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF710D Two Arithmetic Progressions - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF710D","type":"CF","title":"Two Arithmetic Progressions","difficulty":5,"tags":[72,242,371],"wantsTranslation":false,"totalSubmit":1318,"totalAccepted":382,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Two Arithmetic Progressions","background":null,"description":"\u7ed9\u4f60\u4e24\u4e2a\u7b49\u5dee\u6570\u5217 $a_1k+b_1$ \u548c $a_2l+b_2$\u3002\u627e\u51fa\u6ee1\u8db3 $L\\le x\\le R$ \u4e14\u5b58\u5728 $k\u0027,l\u0027\\ge0$ \u6ee1\u8db3 $x=a_1k\u0027+b_1=a_2l\u0027+b_2$ \u7684\u6574\u6570 $x$ \u7684\u4e2a\u6570\u3002","formatI":"\u4e00\u884c\u516d\u4e2a\u6574\u6570 $a_1,b_1,a_2,b_2,L,R(0\u003Ca_1,a_2\\le 2\\times 10^9,-2\\times 10^9\\le b_1,b_2,L,R\\le 2\\times 10^9,L\\le R)$\u3002","formatO":"\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6ee1\u8db3\u6761\u4ef6\u7684 $x$ \u7684\u4e2a\u6570\u3002","hint":null,"locale":"zh-CN"},"content":{"name":"Two Arithmetic Progressions","background":"","description":"You are given two arithmetic progressions: $ a_{1}k+b_{1} $ and $ a_{2}l+b_{2} $ . Find the number of integers $ x $ such that $ L\u003C=x\u003C=R $ and $ x=a_{1}k\u0027+b_{1}=a_{2}l\u0027+b_{2} $ , for some integers $ k\u0027,l\u0027\u003E=0 $ .","formatI":"The only line contains six integers $ a_{1},b_{1},a_{2},b_{2},L,R \\, (  0 \\lt a_1,a_2 \\le 2\\times10^9,-2\\times10^9 \\le b_1,b_2,L,R \\le 2\\times10^9,L \\le R)$ .","formatO":"Print the desired number of integers $ x $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2 0 3 3 5 21\n","3\n"],["2 4 3 0 6 17\n","2\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"710D","link":"https:\/\/codeforces.com\/problemset\/problem\/710\/D"},"translation":"\u5df2\u77e5\u4e24\u4e2a\u65e0\u9650\u957f\u7684\u7b49\u5dee\u6570\u5217\uff0c\u9996\u9879\u5206\u522b\u4e3a $b_1, b_2$\uff0c\u516c\u5dee\u5206\u522b\u4e3a $a_1, a_2$\uff0c\u6c42 $[L,R]$ \u4e2d\u6709\u591a\u5c11\u4e2a\u6570\u5728\u4e24\u4e2a\u7b49\u5dee\u6570\u5217\u4e2d\u90fd\u51fa\u73b0\u4e86\u3002"},"translations":{"en":{"name":"Two Arithmetic Progressions","background":"","description":"You are given two arithmetic progressions: $ a_{1}k+b_{1} $ and $ a_{2}l+b_{2} $ . Find the number of integers $ x $ such that $ L\u003C=x\u003C=R $ and $ x=a_{1}k\u0027+b_{1}=a_{2}l\u0027+b_{2} $ , for some integers $ k\u0027,l\u0027\u003E=0 $ .","formatI":"The only line contains six integers $ a_{1},b_{1},a_{2},b_{2},L,R \\, (  0 \\lt a_1,a_2 \\le 2\\times10^9,-2\\times10^9 \\le b_1,b_2,L,R \\le 2\\times10^9,L \\le R)$ .","formatO":"Print the desired number of integers $ x $ .","hint":"","locale":"en"},"zh-CN":{"name":"Two Arithmetic Progressions","background":null,"description":"\u7ed9\u4f60\u4e24\u4e2a\u7b49\u5dee\u6570\u5217 $a_1k+b_1$ \u548c $a_2l+b_2$\u3002\u627e\u51fa\u6ee1\u8db3 $L\\le x\\le R$ \u4e14\u5b58\u5728 $k\u0027,l\u0027\\ge0$ \u6ee1\u8db3 $x=a_1k\u0027+b_1=a_2l\u0027+b_2$ \u7684\u6574\u6570 $x$ \u7684\u4e2a\u6570\u3002","formatI":"\u4e00\u884c\u516d\u4e2a\u6574\u6570 $a_1,b_1,a_2,b_2,L,R(0\u003Ca_1,a_2\\le 2\\times 10^9,-2\\times 10^9\\le b_1,b_2,L,R\\le 2\\times 10^9,L\\le R)$\u3002","formatO":"\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6ee1\u8db3\u6761\u4ef6\u7684 $x$ \u7684\u4e2a\u6570\u3002","hint":null,"locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF710D Two Arithmetic Progressions","type":2,"slug":"CF710D","color":"orange-3"},"discussions":[{"id":1260927,"title":"\u6c42\u52a9","author":{"uid":1276820,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1276820.png","name":"123lusicheng","slogan":"ikun","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":5,"xcpcLevel":0,"background":""},"time":1773321530},{"id":1254599,"title":"\u6839\u53f7\u5206\u6cbb\u6c42\u6761","author":{"uid":771292,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/771292.png","name":"_111zxy_","slogan":"when","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":0,"background":""},"time":1772167123},{"id":945896,"title":"\u8b66\u793a\u540e\u4eba\uff0c\u5982\u679c\u4f60 WA on test 25","author":{"uid":613794,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/613794.png","name":"jianhe","slogan":"AFOed on 2026\/3\/8.","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/m3ol8q4g.png"},"time":1727924001},{"id":905744,"title":"\u89c1\u7956\u5b97\u7684\u65f6\u5019\u53c8\u5230\u4e86","author":{"uid":856004,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/856004.png","name":"Grammar_hbw","slogan":"jcer.rp=LONG_LONG_MAX;jcer.rp++; || \u7956\u5b97\u4e24\u884c\u6cea \/discuss\/898803","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1724397454},{"id":877313,"title":"\u6839\u53f7\u5206\u6cbb\u610f\u4e49\u4f55\u5728\uff1f","author":{"uid":1112113,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1112113.png","name":"q9025715056","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1722608741},{"id":688955,"title":"\u5efa\u8bae\u8bc4\u7eff","author":{"uid":315448,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/315448.png","name":"whdywjd","slogan":"\u540c\u5b66\uff0c\u51fa\u673a\u623f\u8bb0\u5f97\u9501\u53f7\u3002 || 2021.03.12~2022.02  \u51fa\u673a\u623f\u8bb0\u5f97\u9501\u53f7+1.\u2014\u20142025.12.15","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":9,"xcpcLevel":0,"background":""},"time":1694941550}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.245014,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF710D Two Arithmetic Progressions","description":"\u7ed9\u4f60\u4e24\u4e2a\u7b49\u5dee\u6570\u5217 a_1k+b_1 \u548c a_2l+b_2\u3002\u627e\u51fa\u6ee1\u8db3 L\\le x\\le R \u4e14\u5b58\u5728 k',l'\\ge0 \u6ee1\u8db3 x=a_1k'+b_1=a_2l'+b_2 \u7684\u6574\u6570 x \u7684\u4e2a\u6570\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF710D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF710D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF710D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF710D Two Arithmetic Progressions" />
+    <meta property="og:description" content="给你两个等差数列 a_1k+b_1 和 a_2l+b_2。找出满足 L\le x\le R 且存在 k&#039;,l&#039;\ge0 满足 x=a_1k&#039;+b_1=a_2l&#039;+b_2 的整数 x 的个数。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF710D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF710D Two Arithmetic Progressions</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给你两个等差数列 $a_1k+b_1$ 和 $a_2l+b_2$。找出满足 $L\le x\le R$ 且存在 $k',l'\ge0$ 满足 $x=a_1k'+b_1=a_2l'+b_2$ 的整数 $x$ 的个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行六个整数 $a_1,b_1,a_2,b_2,L,R(0
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    一行一个整数，表示满足条件的 $x$ 的个数。
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

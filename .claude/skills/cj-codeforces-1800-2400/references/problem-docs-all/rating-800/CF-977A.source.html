@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414413:uDn7jOuARIZfiLARD/okZCwx+pVDpYPcJABXAm5+/Hk=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF977A Wrong Subtraction - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF977A","type":"CF","title":"Wrong Subtraction","difficulty":1,"tags":[1,2,287],"wantsTranslation":false,"totalSubmit":2045,"totalAccepted":1350,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Wrong Subtraction","background":null,"description":"\u5c0f\u5973\u5b69 Tanya \u6b63\u5728\u5b66\u4e60\u5982\u4f55\u5c06\u4e00\u4e2a\u6570\u51cf\u4e00\uff0c\u4f46\u5f53\u9762\u5bf9\u4e00\u4e2a\u7531\u4e24\u4f4d\u6216\u66f4\u591a\u4f4d\u6570\u5b57\u7ec4\u6210\u7684\u6570\u65f6\uff0c\u5979\u7684\u65b9\u6cd5\u662f\u9519\u8bef\u7684\u3002Tanya \u6309\u7167\u5982\u4e0b\u7b97\u6cd5\u5bf9\u4e00\u4e2a\u6570\u51cf\u4e00\uff1a\n\n- \u5982\u679c\u8be5\u6570\u7684\u6700\u540e\u4e00\u4f4d\u6570\u5b57\u4e0d\u662f\u96f6\uff0c\u5979\u5c31\u5c06\u8be5\u6570\u51cf\u4e00\uff1b\n- \u5982\u679c\u8be5\u6570\u7684\u6700\u540e\u4e00\u4f4d\u6570\u5b57\u662f\u96f6\uff0c\u5979\u5c31\u5c06\u8be5\u6570\u9664\u4ee5 $10$\uff08\u5373\u53bb\u6389\u6700\u540e\u4e00\u4f4d\u6570\u5b57\uff09\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u6574\u6570 $n$\uff0cTanya \u4f1a\u5bf9\u5b83\u8fdb\u884c $k$ \u6b21\u51cf\u4e00\u64cd\u4f5c\u3002\u4f60\u7684\u4efb\u52a1\u662f\u8f93\u51fa\u7ecf\u8fc7 $k$ \u6b21\u64cd\u4f5c\u540e\u7684\u7ed3\u679c\u3002\n\n\u4fdd\u8bc1\u6700\u7ec8\u7ed3\u679c\u4e3a\u6b63\u6574\u6570\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$2 \\leq n \\leq 10^9$\uff0c$1 \\leq k \\leq 50$\uff09\uff0c\u5206\u522b\u8868\u793a\u521d\u59cb\u7684\u6570\u5b57\u548c\u8981\u8fdb\u884c\u7684\u64cd\u4f5c\u6b21\u6570\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u7ecf\u8fc7 $k$ \u6b21\u51cf\u4e00\u64cd\u4f5c\u540e\u7684\u7ed3\u679c\u3002\n\n\u4fdd\u8bc1\u6700\u7ec8\u7ed3\u679c\u4e3a\u6b63\u6574\u6570\u3002","hint":"\u7b2c\u4e00\u4e2a\u6837\u4f8b\u5bf9\u5e94\u7684\u64cd\u4f5c\u5e8f\u5217\u4e3a\uff1a$512 \\rightarrow 511 \\rightarrow 510 \\rightarrow 51 \\rightarrow 50$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Wrong Subtraction","background":"","description":"Little girl Tanya is learning how to decrease a number by one, but she does it wrong with a number consisting of two or more digits. Tanya subtracts one from a number by the following algorithm:\n\n- if the last digit of the number is non-zero, she decreases the number by one;\n- if the last digit of the number is zero, she divides the number by 10 (i.e. removes the last digit).\n\nYou are given an integer number $ n $ . Tanya will subtract one from it $ k $ times. Your task is to print the result after all $ k $ subtractions.\n\nIt is guaranteed that the result will be positive integer number.","formatI":"The first line of the input contains two integer numbers $ n $ and $ k $ ( $ 2 \\le n \\le 10^9 $ , $ 1 \\le k \\le 50 $ ) \u2014 the number from which Tanya will subtract and the number of subtractions correspondingly.","formatO":"Print one integer number \u2014 the result of the decreasing $ n $ by one $ k $ times.\n\nIt is guaranteed that the result will be positive integer number.","hint":"The first example corresponds to the following sequence: $ 512 \\rightarrow 511 \\rightarrow 510 \\rightarrow 51 \\rightarrow 50 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["512 4\n","50\n"],["1000000000 9\n","1\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"977A","link":"https:\/\/codeforces.com\/problemset\/problem\/977\/A"},"translation":"\u5df2\u77e5\u4e00\u4e2a\u6570 $n$ \uff0c\u4f60\u8981\u5bf9\u5b83\u8fdb\u884c $k$ \u6b21\u64cd\u4f5c\u3002\u5bf9\u4e8e\u6bcf\u4e00\u6b21\u64cd\u4f5c\uff0c\u5982\u679c $n$ \u7684\u6700\u540e\u4e00\u4f4d\u6570\u5b57\u4e0d\u4e3a\u96f6\uff0c\u5219\u5c06\u5b83\u51cf1\uff0c\u5426\u5219\u5c06\u5b83\u9664\u4ee510\uff08\u5373\u5220\u9664\u6700\u540e\u4e00\u4f4d\u6570\u5b57\uff09\u3002\n\n\u7ed9\u51fa\u521d\u59cb\u65f6\u7684\u6570 $n$ \u548c\u64cd\u4f5c\u6b21\u6570 $k$ \uff0c\u6c42\u64cd\u4f5c $k$ \u6b21\u540e\u7684\u7ed3\u679c\u3002\n\n\u4fdd\u8bc1\u7ed3\u679c\u662f\u6b63\u6574\u6570\u3002\n\n\u611f\u8c22@bcr_233 \u63d0\u4f9b\u7684\u7ffb\u8bd1"},"translations":{"en":{"name":"Wrong Subtraction","background":"","description":"Little girl Tanya is learning how to decrease a number by one, but she does it wrong with a number consisting of two or more digits. Tanya subtracts one from a number by the following algorithm:\n\n- if the last digit of the number is non-zero, she decreases the number by one;\n- if the last digit of the number is zero, she divides the number by 10 (i.e. removes the last digit).\n\nYou are given an integer number $ n $ . Tanya will subtract one from it $ k $ times. Your task is to print the result after all $ k $ subtractions.\n\nIt is guaranteed that the result will be positive integer number.","formatI":"The first line of the input contains two integer numbers $ n $ and $ k $ ( $ 2 \\le n \\le 10^9 $ , $ 1 \\le k \\le 50 $ ) \u2014 the number from which Tanya will subtract and the number of subtractions correspondingly.","formatO":"Print one integer number \u2014 the result of the decreasing $ n $ by one $ k $ times.\n\nIt is guaranteed that the result will be positive integer number.","hint":"The first example corresponds to the following sequence: $ 512 \\rightarrow 511 \\rightarrow 510 \\rightarrow 51 \\rightarrow 50 $ .","locale":"en"},"zh-CN":{"name":"Wrong Subtraction","background":null,"description":"\u5c0f\u5973\u5b69 Tanya \u6b63\u5728\u5b66\u4e60\u5982\u4f55\u5c06\u4e00\u4e2a\u6570\u51cf\u4e00\uff0c\u4f46\u5f53\u9762\u5bf9\u4e00\u4e2a\u7531\u4e24\u4f4d\u6216\u66f4\u591a\u4f4d\u6570\u5b57\u7ec4\u6210\u7684\u6570\u65f6\uff0c\u5979\u7684\u65b9\u6cd5\u662f\u9519\u8bef\u7684\u3002Tanya \u6309\u7167\u5982\u4e0b\u7b97\u6cd5\u5bf9\u4e00\u4e2a\u6570\u51cf\u4e00\uff1a\n\n- \u5982\u679c\u8be5\u6570\u7684\u6700\u540e\u4e00\u4f4d\u6570\u5b57\u4e0d\u662f\u96f6\uff0c\u5979\u5c31\u5c06\u8be5\u6570\u51cf\u4e00\uff1b\n- \u5982\u679c\u8be5\u6570\u7684\u6700\u540e\u4e00\u4f4d\u6570\u5b57\u662f\u96f6\uff0c\u5979\u5c31\u5c06\u8be5\u6570\u9664\u4ee5 $10$\uff08\u5373\u53bb\u6389\u6700\u540e\u4e00\u4f4d\u6570\u5b57\uff09\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u6574\u6570 $n$\uff0cTanya \u4f1a\u5bf9\u5b83\u8fdb\u884c $k$ \u6b21\u51cf\u4e00\u64cd\u4f5c\u3002\u4f60\u7684\u4efb\u52a1\u662f\u8f93\u51fa\u7ecf\u8fc7 $k$ \u6b21\u64cd\u4f5c\u540e\u7684\u7ed3\u679c\u3002\n\n\u4fdd\u8bc1\u6700\u7ec8\u7ed3\u679c\u4e3a\u6b63\u6574\u6570\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$2 \\leq n \\leq 10^9$\uff0c$1 \\leq k \\leq 50$\uff09\uff0c\u5206\u522b\u8868\u793a\u521d\u59cb\u7684\u6570\u5b57\u548c\u8981\u8fdb\u884c\u7684\u64cd\u4f5c\u6b21\u6570\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u7ecf\u8fc7 $k$ \u6b21\u51cf\u4e00\u64cd\u4f5c\u540e\u7684\u7ed3\u679c\u3002\n\n\u4fdd\u8bc1\u6700\u7ec8\u7ed3\u679c\u4e3a\u6b63\u6574\u6570\u3002","hint":"\u7b2c\u4e00\u4e2a\u6837\u4f8b\u5bf9\u5e94\u7684\u64cd\u4f5c\u5e8f\u5217\u4e3a\uff1a$512 \\rightarrow 511 \\rightarrow 510 \\rightarrow 51 \\rightarrow 50$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF977A Wrong Subtraction","type":2,"slug":"CF977A","color":"orange-3"},"discussions":[{"id":949436,"title":"\u4e0d\u8ba9\u6211\u63d0\u4ea4\u662f\u5427?\uff01","author":{"uid":1023481,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1023481.png","name":"Jasondan","slogan":"\u8fd9\u4e2a\u4eba\u61d2\u5f97\u8981(1+2)*3-5,\u8ba9\u6211\u60f3\u60f3\u7559\u4e0b\u4ec0\u4e48\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1728116604},{"id":43859,"title":"\u7ffb\u8bd1","author":{"uid":38785,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/38785.png","name":"XeCtera","slogan":"\u3055\u3088\u306a\u3089\u3060\u6625\u306e\u5302\u3044","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":6,"background":""},"time":1527304366}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328012.956009,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF977A Wrong Subtraction","description":"\u5c0f\u5973\u5b69 Tanya \u6b63\u5728\u5b66\u4e60\u5982\u4f55\u5c06\u4e00\u4e2a\u6570\u51cf\u4e00\uff0c\u4f46\u5f53\u9762\u5bf9\u4e00\u4e2a\u7531\u4e24\u4f4d\u6216\u66f4\u591a\u4f4d\u6570\u5b57\u7ec4\u6210\u7684\u6570\u65f6\uff0c\u5979\u7684\u65b9\u6cd5\u662f\u9519\u8bef\u7684\u3002Tanya \u6309\u7167\u5982\u4e0b\u7b97\u6cd5\u5bf9\u4e00\u4e2a\u6570\u51cf\u4e00\uff1a\n\n\u5982\u679c\u8be5\u6570\u7684\u6700\u540e\u4e00\u4f4d\u6570\u5b57\u4e0d\u662f\u96f6\uff0c\u5979\u5c31\u5c06\u8be5\u6570\u51cf\u4e00\uff1b\n\u5982\u679c\u8be5\u6570\u7684\u6700\u540e\u4e00\u4f4d\u6570\u5b57\u662f\u96f6\uff0c\u5979\u5c31\u5c06\u8be5\u6570\u9664\u4ee5\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF977A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF977A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF977A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF977A Wrong Subtraction" />
+    <meta property="og:description" content="小女孩 Tanya 正在学习如何将一个数减一，但当面对一个由两位或更多位数字组成的数时，她的方法是错误的。Tanya 按照如下算法对一个数减一：
+
+如果该数的最后一位数字不是零，她就将该数减一；
+如果该数的最后一位数字是零，她就将该数除以…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF977A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF977A Wrong Subtraction</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    小女孩 Tanya 正在学习如何将一个数减一，但当面对一个由两位或更多位数字组成的数时，她的方法是错误的。Tanya 按照如下算法对一个数减一：
+
+- 如果该数的最后一位数字不是零，她就将该数减一；
+- 如果该数的最后一位数字是零，她就将该数除以 $10$（即去掉最后一位数字）。
+
+给定一个整数 $n$，Tanya 会对它进行 $k$ 次减一操作。你的任务是输出经过 $k$ 次操作后的结果。
+
+保证最终结果为正整数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含两个整数 $n$ 和 $k$（$2 \leq n \leq 10^9$，$1 \leq k \leq 50$），分别表示初始的数字和要进行的操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示经过 $k$ 次减一操作后的结果。
+
+保证最终结果为正整数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一个样例对应的操作序列为：$512 \rightarrow 511 \rightarrow 510 \rightarrow 51 \rightarrow 50$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

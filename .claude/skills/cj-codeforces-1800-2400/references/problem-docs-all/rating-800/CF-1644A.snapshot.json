@@ -1,0 +1,27 @@
+{
+  "id": "CF-1644A",
+  "contest_id": 1644,
+  "index": "A",
+  "name": "Doors and Keys",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 28536,
+  "problem_url": "https://codeforces.com/problemset/problem/1644/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1644/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1644/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1644A%20Doors%20and%20Keys%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1644A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1644A Doors and Keys - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 486,
+    "mirror_attempt": 932,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

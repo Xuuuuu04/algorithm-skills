@@ -1,0 +1,37 @@
+{
+  "id": "CF-1216F",
+  "contest_id": 1216,
+  "index": "F",
+  "name": "Wi-Fi",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1216/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1216/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1216/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1216F%20Wi-Fi%20tutorial",
+  "solved_count": 3067,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1216F",
+  "hydro_meta": {
+    "page_title": "Wi-Fi - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

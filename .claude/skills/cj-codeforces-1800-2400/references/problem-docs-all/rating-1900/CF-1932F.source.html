@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415136:nzn7/C15sgvlj5nZyy61rJG7R3kntxiHvonsD8hzKAA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1932F Feed Cats - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1932F","type":"CF","title":"Feed Cats","difficulty":4,"tags":[3,330],"wantsTranslation":false,"totalSubmit":303,"totalAccepted":157,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Feed Cats","background":"","description":"\u4f60\u5728\u73a9\u4e00\u4e2a\u6e38\u620f\uff0c\u8fd9\u4e2a\u6e38\u620f\u6709 $n$ \u6b65\u3002\u4f60\u6709 $m$ \u53ea\u732b\uff0c\u6bcf\u53ea\u732b\u6709\u7279\u5b9a\u7684\u9972\u517b\u65f6\u95f4 $[l_i,r_i]$\u3002\u5982\u679c\u4f60\u5728\u7b2c $x$ \u6b65\u51b3\u5b9a\u9972\u517b\uff0c\u90a3\u4e48\u6240\u6709\u6ee1\u8db3 $l_i\\le x\\le r_i$ \u7684\u732b\u90fd\u4f1a\u88ab\u9972\u517b\uff1b\u6216\u8005\u4f60\u4e0d\u51b3\u5b9a\u9972\u517b\uff0c\u90a3\u4e48\u65e0\u4e8b\u53d1\u751f\u3002\u4f46\u662f\u5982\u679c\u4e00\u53ea\u732b\u88ab\u9972\u517b\u4e86\u4e24\u6b21\u53ca\u4ee5\u4e0a\uff0c\u5b83\u5c31\u4f1a\u6b7b\u4ea1\u3002\u8bf7\u95ee\u5728\u6ca1\u6709\u732b\u6b7b\u4ea1\u7684\u60c5\u51b5\u4e0b\uff0c\u6700\u591a\u6709\u591a\u5c11\u53ea\u732b\u88ab\u9972\u517b\u4e86\u81f3\u5c11\u4e00\u6b21\uff1f","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\u6bcf\u7ec4\u6570\u636e\u683c\u5f0f\u5982\u4e0b\uff1a\n\n\u7b2c\u4e00\u884c\u4e24\u4e2a\u6574\u6570 $n,m$\uff0c\u542b\u4e49\u5982\u4e0a\u3002\n\n\u63a5\u4e0b\u6765 $m$ \u884c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570 $l_i,r_i$\uff0c\u542b\u4e49\u5982\u4e0a\u3002\n\n$1\\le t\\le10^4,1\\le n,\\sum n\\le10^6,1\\le m,\\sum m\\le2\\times10^5,1\\le l_i\\le r_i\\le n$\u3002","formatO":"\u6bcf\u7ec4\u6570\u636e\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u5728\u6ee1\u8db3\u6761\u4ef6\u7684\u60c5\u51b5\u4e0b\u6700\u591a\u6709\u591a\u5c11\u53ea\u732b\u88ab\u9972\u517b\u4e86\u81f3\u5c11\u4e00\u6b21\u3002\n\n\u7ffb\u8bd1 @\\_Sunmoon\\_","hint":"","locale":"zh-CN"},"content":{"name":"Feed Cats","background":"","description":"There is a fun game where you need to feed cats that come and go. The level of the game consists of $ n $ steps. There are $ m $ cats; the cat $ i $ is present in steps from $ l_i $ to $ r_i $ , inclusive. In each step, you can feed all the cats that are currently present or do nothing.\n\nIf you feed the same cat more than once, it will overeat, and you will immediately lose the game. Your goal is to feed as many cats as possible without causing any cat to overeat.\n\nFind the maximum number of cats you can feed.\n\nFormally, you need to select several integer points from the segment from $ 1 $ to $ n $ in such a way that among given segments, none covers two or more of the selected points, and as many segments as possible cover one of the selected points.","formatI":"The first line of input contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. Then the descriptions of the test cases follow.\n\nThe first line of each test case contains two integers $ n $ and $ m $ ( $ 1 \\le n \\le 10^6 $ , $ 1 \\le m\\le 2\\cdot 10^5 $ ).\n\nThe $ i $ -th of the next $ m $ lines contains a pair of integers $ l_i $ and $ r_i $ ( $ 1 \\le l_i \\le r_i \\le n $ ).\n\nThe sum of $ n $ for all tests does not exceed $ 10^6 $ , the sum of $ m $ for all tests does not exceed $ 2\\cdot 10^5 $ .","formatO":"For each test case, print a single integer, the maximum number of cats you can feed.","hint":"In the first example, one of the ways to feed five cats is to feed at steps $ 4 $ and $ 11 $ .\n\n- At step $ 4 $ , cats $ 1 $ , $ 2 $ , and $ 3 $ will be fed.\n- At step $ 11 $ , cats $ 5 $ and $ 6 $ will be fed.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n15 6\n2 10\n3 5\n2 4\n7 7\n8 12\n11 11\n1000 1\n1 1000\n5 10\n1 2\n3 4\n3 4\n3 4\n3 4\n1 1\n1 2\n3 3\n3 4\n3 4","5\n1\n10"]],"limits":{"time":[3000],"memory":[512000]},"vjudge":{"id":"1932F","link":"https:\/\/codeforces.com\/problemset\/problem\/1932\/F"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\n\u4f60\u5728\u73a9\u4e00\u4e2a\u6e38\u620f\uff0c\u8fd9\u4e2a\u6e38\u620f\u6709 $n$ \u6b65\u3002\u4f60\u6709 $m$ \u53ea\u732b\uff0c\u6bcf\u53ea\u732b\u6709\u7279\u5b9a\u7684\u9972\u517b\u65f6\u95f4 $[l_i,r_i]$\u3002\u5982\u679c\u4f60\u5728\u7b2c $x$ \u6b65\u51b3\u5b9a\u9972\u517b\uff0c\u90a3\u4e48\u6240\u6709\u6ee1\u8db3 $l_i\\le x\\le r_i$ \u7684\u732b\u90fd\u4f1a\u88ab\u9972\u517b\uff1b\u6216\u8005\u4f60\u4e0d\u51b3\u5b9a\u9972\u517b\uff0c\u90a3\u4e48\u65e0\u4e8b\u53d1\u751f\u3002\u4f46\u662f\u5982\u679c\u4e00\u53ea\u732b\u88ab\u9972\u517b\u4e86\u4e24\u6b21\u53ca\u4ee5\u4e0a\uff0c\u5b83\u5c31\u4f1a\u6b7b\u4ea1\u3002\u8bf7\u95ee\u5728\u6ca1\u6709\u732b\u6b7b\u4ea1\u7684\u60c5\u51b5\u4e0b\uff0c\u6700\u591a\u6709\u591a\u5c11\u53ea\u732b\u88ab\u9972\u517b\u4e86\u81f3\u5c11\u4e00\u6b21\uff1f\n\n### \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\u6bcf\u7ec4\u6570\u636e\u683c\u5f0f\u5982\u4e0b\uff1a\n\n\u7b2c\u4e00\u884c\u4e24\u4e2a\u6574\u6570 $n,m$\uff0c\u542b\u4e49\u5982\u4e0a\u3002\n\n\u63a5\u4e0b\u6765 $m$ \u884c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570 $l_i,r_i$\uff0c\u542b\u4e49\u5982\u4e0a\u3002\n\n$1\\le t\\le10^4,1\\le n,\\sum n\\le10^6,1\\le m,\\sum m\\le2\\times10^5,1\\le l_i\\le r_i\\le n$\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u6bcf\u7ec4\u6570\u636e\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u5728\u6ee1\u8db3\u6761\u4ef6\u7684\u60c5\u51b5\u4e0b\u6700\u591a\u6709\u591a\u5c11\u53ea\u732b\u88ab\u9972\u517b\u4e86\u81f3\u5c11\u4e00\u6b21\u3002\n\n\u7ffb\u8bd1 @\\_Sunmoon\\_"},"translations":{"en":{"name":"Feed Cats","background":"","description":"There is a fun game where you need to feed cats that come and go. The level of the game consists of $ n $ steps. There are $ m $ cats; the cat $ i $ is present in steps from $ l_i $ to $ r_i $ , inclusive. In each step, you can feed all the cats that are currently present or do nothing.\n\nIf you feed the same cat more than once, it will overeat, and you will immediately lose the game. Your goal is to feed as many cats as possible without causing any cat to overeat.\n\nFind the maximum number of cats you can feed.\n\nFormally, you need to select several integer points from the segment from $ 1 $ to $ n $ in such a way that among given segments, none covers two or more of the selected points, and as many segments as possible cover one of the selected points.","formatI":"The first line of input contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. Then the descriptions of the test cases follow.\n\nThe first line of each test case contains two integers $ n $ and $ m $ ( $ 1 \\le n \\le 10^6 $ , $ 1 \\le m\\le 2\\cdot 10^5 $ ).\n\nThe $ i $ -th of the next $ m $ lines contains a pair of integers $ l_i $ and $ r_i $ ( $ 1 \\le l_i \\le r_i \\le n $ ).\n\nThe sum of $ n $ for all tests does not exceed $ 10^6 $ , the sum of $ m $ for all tests does not exceed $ 2\\cdot 10^5 $ .","formatO":"For each test case, print a single integer, the maximum number of cats you can feed.","hint":"In the first example, one of the ways to feed five cats is to feed at steps $ 4 $ and $ 11 $ .\n\n- At step $ 4 $ , cats $ 1 $ , $ 2 $ , and $ 3 $ will be fed.\n- At step $ 11 $ , cats $ 5 $ and $ 6 $ will be fed.","locale":"en"},"zh-CN":{"name":"Feed Cats","background":"","description":"\u4f60\u5728\u73a9\u4e00\u4e2a\u6e38\u620f\uff0c\u8fd9\u4e2a\u6e38\u620f\u6709 $n$ \u6b65\u3002\u4f60\u6709 $m$ \u53ea\u732b\uff0c\u6bcf\u53ea\u732b\u6709\u7279\u5b9a\u7684\u9972\u517b\u65f6\u95f4 $[l_i,r_i]$\u3002\u5982\u679c\u4f60\u5728\u7b2c $x$ \u6b65\u51b3\u5b9a\u9972\u517b\uff0c\u90a3\u4e48\u6240\u6709\u6ee1\u8db3 $l_i\\le x\\le r_i$ \u7684\u732b\u90fd\u4f1a\u88ab\u9972\u517b\uff1b\u6216\u8005\u4f60\u4e0d\u51b3\u5b9a\u9972\u517b\uff0c\u90a3\u4e48\u65e0\u4e8b\u53d1\u751f\u3002\u4f46\u662f\u5982\u679c\u4e00\u53ea\u732b\u88ab\u9972\u517b\u4e86\u4e24\u6b21\u53ca\u4ee5\u4e0a\uff0c\u5b83\u5c31\u4f1a\u6b7b\u4ea1\u3002\u8bf7\u95ee\u5728\u6ca1\u6709\u732b\u6b7b\u4ea1\u7684\u60c5\u51b5\u4e0b\uff0c\u6700\u591a\u6709\u591a\u5c11\u53ea\u732b\u88ab\u9972\u517b\u4e86\u81f3\u5c11\u4e00\u6b21\uff1f","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\u6bcf\u7ec4\u6570\u636e\u683c\u5f0f\u5982\u4e0b\uff1a\n\n\u7b2c\u4e00\u884c\u4e24\u4e2a\u6574\u6570 $n,m$\uff0c\u542b\u4e49\u5982\u4e0a\u3002\n\n\u63a5\u4e0b\u6765 $m$ \u884c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570 $l_i,r_i$\uff0c\u542b\u4e49\u5982\u4e0a\u3002\n\n$1\\le t\\le10^4,1\\le n,\\sum n\\le10^6,1\\le m,\\sum m\\le2\\times10^5,1\\le l_i\\le r_i\\le n$\u3002","formatO":"\u6bcf\u7ec4\u6570\u636e\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u5728\u6ee1\u8db3\u6761\u4ef6\u7684\u60c5\u51b5\u4e0b\u6700\u591a\u6709\u591a\u5c11\u53ea\u732b\u88ab\u9972\u517b\u4e86\u81f3\u5c11\u4e00\u6b21\u3002\n\n\u7ffb\u8bd1 @\\_Sunmoon\\_","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1932F Feed Cats","type":2,"slug":"CF1932F","color":"orange-3"},"discussions":[{"id":1158470,"title":"TLE on #5","author":{"uid":994729,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/994729.png","name":"Epitome","slogan":"2026 \u7701\u9009\u6ca1\u5206\u7136\u540e\u9000\u5f79\u4e86\u3002","badge":"","isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":""},"time":1758700876},{"id":955701,"title":"\u8fdb\u884c\u4e00\u4e2a\u540e\u4eba\u7684\u8b66\u793a","author":{"uid":536337,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/536337.png","name":"eb0ycn","slogan":"\u6700\u60f3\u8981\u53bb\u7684\u5730\u65b9\uff0c\u600e\u4e48\u80fd\u5728\u534a\u8def\u5c31\u8fd4\u822a\uff1f","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":6,"xcpcLevel":0,"background":""},"time":1728519552}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328736.291317,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1932F Feed Cats","description":"\u4f60\u5728\u73a9\u4e00\u4e2a\u6e38\u620f\uff0c\u8fd9\u4e2a\u6e38\u620f\u6709 n \u6b65\u3002\u4f60\u6709 m \u53ea\u732b\uff0c\u6bcf\u53ea\u732b\u6709\u7279\u5b9a\u7684\u9972\u517b\u65f6\u95f4 [l_i,r_i]\u3002\u5982\u679c\u4f60\u5728\u7b2c x \u6b65\u51b3\u5b9a\u9972\u517b\uff0c\u90a3\u4e48\u6240\u6709\u6ee1\u8db3 l_i\\le x\\le r_i \u7684\u732b\u90fd\u4f1a\u88ab\u9972\u517b\uff1b\u6216\u8005\u4f60\u4e0d\u51b3\u5b9a\u9972\u517b\uff0c\u90a3\u4e48\u65e0\u4e8b\u53d1\u751f\u3002\u4f46\u662f\u5982\u679c\u4e00\u53ea\u732b\u88ab\u9972\u517b\u4e86\u4e24\u6b21\u53ca\u4ee5\u4e0a\uff0c\u5b83\u5c31\u4f1a\u6b7b\u4ea1\u3002\u8bf7\u95ee\u5728\u6ca1\u6709\u732b\u6b7b\u4ea1\u7684\u60c5\u51b5\u4e0b\uff0c\u6700\u591a\u6709\u591a\u5c11\u53ea\u732b\u88ab\u9972\u517b\u4e86\u81f3\u5c11\u4e00\u6b21\uff1f"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1932F" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1932F?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1932F?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1932F Feed Cats" />
+    <meta property="og:description" content="你在玩一个游戏，这个游戏有 n 步。你有 m 只猫，每只猫有特定的饲养时间 [l_i,r_i]。如果你在第 x 步决定饲养，那么所有满足 l_i\le x\le r_i 的猫都会被饲养；或者你不决定饲养，那么无事发生。但是如果一只猫被饲养了两次及以上，它就会死亡。请问在没有猫死亡的情况下，最多有多少只猫被饲养了至少一次？" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1932F" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1932F Feed Cats</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你在玩一个游戏，这个游戏有 $n$ 步。你有 $m$ 只猫，每只猫有特定的饲养时间 $[l_i,r_i]$。如果你在第 $x$ 步决定饲养，那么所有满足 $l_i\le x\le r_i$ 的猫都会被饲养；或者你不决定饲养，那么无事发生。但是如果一只猫被饲养了两次及以上，它就会死亡。请问在没有猫死亡的情况下，最多有多少只猫被饲养了至少一次？
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个整数 $t$，表示数据组数。每组数据格式如下：
+
+第一行两个整数 $n,m$，含义如上。
+
+接下来 $m$ 行每行两个整数 $l_i,r_i$，含义如上。
+
+$1\le t\le10^4,1\le n,\sum n\le10^6,1\le m,\sum m\le2\times10^5,1\le l_i\le r_i\le n$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    每组数据一行一个整数表示在满足条件的情况下最多有多少只猫被饲养了至少一次。
+
+翻译 @\_Sunmoon\_
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first example, one of the ways to feed five cats is to feed at steps $ 4 $ and $ 11 $ .
+
+- At step $ 4 $ , cats $ 1 $ , $ 2 $ , and $ 3 $ will be fed.
+- At step $ 11 $ , cats $ 5 $ and $ 6 $ will be fed.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

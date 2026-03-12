@@ -1,0 +1,32 @@
+{
+  "id": "CF-164C",
+  "contest_id": 164,
+  "index": "C",
+  "name": "Machine Programming",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "flows",
+    "graphs"
+  ],
+  "solved_count": 973,
+  "problem_url": "https://codeforces.com/problemset/problem/164/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/164/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/164/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=164C%20Machine%20Programming%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P164C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Machine Programming - 题目详情 - Hydro",
+    "mirror_tags": [
+      "flows",
+      "graphs",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-2009G1",
+  "contest_id": 2009,
+  "index": "G1",
+  "name": "Yunli's Subarray Queries (easy version)",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "two pointers"
+  ],
+  "solved_count": 5203,
+  "problem_url": "https://codeforces.com/problemset/problem/2009/G1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2009/problem/G1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2009/problem/G1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2009G1%20Yunli%27s%20Subarray%20Queries%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2009G1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yunli's Subarray Queries (easy version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

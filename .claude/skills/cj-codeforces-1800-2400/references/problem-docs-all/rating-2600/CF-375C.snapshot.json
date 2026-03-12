@@ -1,0 +1,32 @@
+{
+  "id": "CF-375C",
+  "contest_id": 375,
+  "index": "C",
+  "name": "Circling Round Treasures",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "bitmasks",
+    "shortest paths"
+  ],
+  "solved_count": 623,
+  "problem_url": "https://codeforces.com/problemset/problem/375/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/375/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/375/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=375C%20Circling%20Round%20Treasures%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P375C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Circling Round Treasures - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "shortest paths",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-2095C",
+  "contest_id": 2095,
+  "index": "C",
+  "name": "Would It Be Unrated?",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "binary search",
+    "brute force"
+  ],
+  "solved_count": 3372,
+  "problem_url": "https://codeforces.com/problemset/problem/2095/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2095/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2095/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2095C%20Would%20It%20Be%20Unrated%3F%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2095/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2095C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

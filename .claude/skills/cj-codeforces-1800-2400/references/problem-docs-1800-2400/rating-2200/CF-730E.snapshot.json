@@ -1,0 +1,33 @@
+{
+  "id": "CF-730E",
+  "contest_id": 730,
+  "index": "E",
+  "name": "Award Ceremony",
+  "rating": 2200,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/730/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/730/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/730/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=730E%20Award Ceremony%20tutorial",
+  "solved_count": 765,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P730E",
+  "hydro_meta": {
+    "page_title": "Award Ceremony - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "implementation",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

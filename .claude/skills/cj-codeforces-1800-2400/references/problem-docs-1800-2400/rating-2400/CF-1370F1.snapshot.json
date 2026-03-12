@@ -1,0 +1,43 @@
+{
+  "id": "CF-1370F1",
+  "contest_id": 1370,
+  "index": "F1",
+  "name": "The Hidden Pair (Easy Version)",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "dfs and similar",
+    "graphs",
+    "interactive",
+    "shortest paths",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1370/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1370/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1370/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1370F1%20The Hidden Pair (Easy Version)%20tutorial",
+  "solved_count": 1770,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1370F1",
+  "hydro_meta": {
+    "page_title": "The Hidden Pair (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dfs and similar",
+      "graphs",
+      "interactive",
+      "shortest paths",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

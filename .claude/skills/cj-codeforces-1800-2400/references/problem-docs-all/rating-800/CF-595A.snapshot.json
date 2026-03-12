@@ -1,0 +1,28 @@
+{
+  "id": "CF-595A",
+  "contest_id": 595,
+  "index": "A",
+  "name": "Vitaly and Night",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 15444,
+  "problem_url": "https://codeforces.com/problemset/problem/595/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/595/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/595/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=595A%20Vitaly%20and%20Night%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF595A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF595A Vitaly and Night - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 166,
+    "mirror_attempt": 308,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

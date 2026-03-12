@@ -1,0 +1,27 @@
+{
+  "id": "CF-465B",
+  "contest_id": 465,
+  "index": "B",
+  "name": "Inbox (100500)",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 10831,
+  "problem_url": "https://codeforces.com/problemset/problem/465/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/465/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/465/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=465B%20Inbox%20%28100500%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF465B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF465B Inbox (100500) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 67,
+    "mirror_attempt": 129,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

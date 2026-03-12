@@ -1,0 +1,40 @@
+{
+  "id": "CF-768F",
+  "contest_id": 768,
+  "index": "F",
+  "name": "Barrels and boxes",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "math",
+    "number theory",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/768/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/768/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/768/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=768F%20Barrels and boxes%20tutorial",
+  "solved_count": 1117,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P768F",
+  "hydro_meta": {
+    "page_title": "Barrels and boxes - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "combinatorics",
+      "math",
+      "number theory",
+      "probabilities",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

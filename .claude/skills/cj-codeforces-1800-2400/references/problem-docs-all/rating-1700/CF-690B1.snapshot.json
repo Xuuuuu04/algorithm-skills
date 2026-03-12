@@ -1,0 +1,27 @@
+{
+  "id": "CF-690B1",
+  "contest_id": 690,
+  "index": "B1",
+  "name": "Recover Polygon (easy)",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 992,
+  "problem_url": "https://codeforces.com/problemset/problem/690/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/690/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/690/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=690B1%20Recover%20Polygon%20%28easy%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P690B1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Recover Polygon (easy) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1270E",
+  "contest_id": 1270,
+  "index": "E",
+  "name": "Divide Points",
+  "rating": 2300,
+  "tags": [
+    "constructive algorithms",
+    "geometry",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1270/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1270/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1270/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1270E%20Divide Points%20tutorial",
+  "solved_count": 2701,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1270E",
+  "hydro_meta": {
+    "page_title": "Divide Points - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "geometry",
+      "math",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

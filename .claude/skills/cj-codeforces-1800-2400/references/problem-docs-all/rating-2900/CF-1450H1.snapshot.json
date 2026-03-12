@@ -1,0 +1,34 @@
+{
+  "id": "CF-1450H1",
+  "contest_id": 1450,
+  "index": "H1",
+  "name": "Multithreading (Easy Version)",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "combinatorics",
+    "fft",
+    "math"
+  ],
+  "solved_count": 502,
+  "problem_url": "https://codeforces.com/problemset/problem/1450/H1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1450/problem/H1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1450/problem/H1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1450H1%20Multithreading%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1450H1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Multithreading (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "fft",
+      "math",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-489D",
+  "contest_id": 489,
+  "index": "D",
+  "name": "Unbearable Controversy of Being",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 7013,
+  "problem_url": "https://codeforces.com/problemset/problem/489/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/489/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/489/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=489D%20Unbearable%20Controversy%20of%20Being%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P489D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Unbearable Controversy of Being - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "combinatorics",
+      "dfs and similar",
+      "graphs",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

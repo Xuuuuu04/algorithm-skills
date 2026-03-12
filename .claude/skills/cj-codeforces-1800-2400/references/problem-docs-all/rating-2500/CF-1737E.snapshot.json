@@ -1,0 +1,30 @@
+{
+  "id": "CF-1737E",
+  "contest_id": 1737,
+  "index": "E",
+  "name": "Ela Goes Hiking",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 1063,
+  "problem_url": "https://codeforces.com/problemset/problem/1737/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1737/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1737/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1737E%20Ela%20Goes%20Hiking%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1737/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1737E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

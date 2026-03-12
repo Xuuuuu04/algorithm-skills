@@ -1,0 +1,43 @@
+{
+  "id": "CF-1635E",
+  "contest_id": 1635,
+  "index": "E",
+  "name": "Cars ",
+  "rating": 2200,
+  "tags": [
+    "2-sat",
+    "constructive algorithms",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1635/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1635/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1635/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1635E%20Cars %20tutorial",
+  "solved_count": 2702,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1635E",
+  "hydro_meta": {
+    "page_title": "Cars - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "sortings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

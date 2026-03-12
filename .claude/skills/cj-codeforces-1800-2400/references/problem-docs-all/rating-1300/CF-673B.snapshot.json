@@ -1,0 +1,28 @@
+{
+  "id": "CF-673B",
+  "contest_id": 673,
+  "index": "B",
+  "name": "Problems for Round",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 3643,
+  "problem_url": "https://codeforces.com/problemset/problem/673/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/673/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/673/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=673B%20Problems%20for%20Round%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/673/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 673B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

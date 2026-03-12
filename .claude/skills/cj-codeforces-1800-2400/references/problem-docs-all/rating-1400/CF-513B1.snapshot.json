@@ -1,0 +1,30 @@
+{
+  "id": "CF-513B1",
+  "contest_id": 513,
+  "index": "B1",
+  "name": "Permutations",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 3.0,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 3818,
+  "problem_url": "https://codeforces.com/problemset/problem/513/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/513/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/513/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=513B1%20Permutations%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P513B1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Permutations - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

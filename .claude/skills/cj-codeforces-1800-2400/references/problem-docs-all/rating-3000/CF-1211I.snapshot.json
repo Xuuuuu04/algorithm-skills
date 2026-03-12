@@ -1,0 +1,32 @@
+{
+  "id": "CF-1211I",
+  "contest_id": 1211,
+  "index": "I",
+  "name": "Unusual Graph",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "graphs"
+  ],
+  "solved_count": 51,
+  "problem_url": "https://codeforces.com/problemset/problem/1211/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1211/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1211/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1211I%20Unusual%20Graph%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1211I",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Unusual Graph - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "graphs",
+      "*3000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

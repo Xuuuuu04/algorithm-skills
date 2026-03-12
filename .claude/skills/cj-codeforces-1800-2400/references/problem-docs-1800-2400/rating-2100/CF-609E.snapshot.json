@@ -1,0 +1,41 @@
+{
+  "id": "CF-609E",
+  "contest_id": 609,
+  "index": "E",
+  "name": "Minimum spanning tree for each edge",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/609/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/609/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/609/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=609E%20Minimum spanning tree for each edge%20tutorial",
+  "solved_count": 10039,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P609E",
+  "hydro_meta": {
+    "page_title": "Minimum spanning tree for each edge - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

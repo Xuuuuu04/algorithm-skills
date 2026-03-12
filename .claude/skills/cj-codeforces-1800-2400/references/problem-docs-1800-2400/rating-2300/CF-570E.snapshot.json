@@ -1,0 +1,33 @@
+{
+  "id": "CF-570E",
+  "contest_id": 570,
+  "index": "E",
+  "name": "Pig and Palindromes",
+  "rating": 2300,
+  "tags": [
+    "combinatorics",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/570/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/570/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/570/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=570E%20Pig and Palindromes%20tutorial",
+  "solved_count": 2076,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P570E",
+  "hydro_meta": {
+    "page_title": "Pig and Palindromes - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 4,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

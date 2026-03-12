@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2203D Divisibility Game - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2203D","type":"CF","title":"Divisibility Game","difficulty":3,"tags":[5,7,13,72],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Divisibility Game","background":null,"description":"Alice \u548c Bob \u6b63\u5728\u73a9\u4e00\u4e2a\u6e38\u620f\u3002\u4ed6\u4eec\u6709\u4e00\u4e2a\u6570\u7ec4 $a$ \u5305\u542b $n$ \u4e2a\u5143\u7d20\uff0c\u8fd8\u6709\u4e00\u4e2a\u6570\u7ec4 $b$ \u5305\u542b $m$ \u4e2a\u5143\u7d20\u3002\n\n\u73a9\u5bb6\u8f6e\u6d41\u884c\u52a8\u3002Alice \u5148\u624b\u3002\u8f6e\u5230\u4e00\u4f4d\u73a9\u5bb6\u65f6\uff0c\u4ed6\u4eec\u4ece\u6570\u7ec4 $a$ \u4e2d\u9009\u62e9\u4e00\u4e2a\u6570\u5b57 $x$\uff0c\u4ece\u6570\u7ec4 $b$ \u4e2d\u9009\u62e9\u4e00\u4e2a\u6570\u5b57 $y$\u3002Alice \u548c Bob \u5404\u81ea\u6709\u81ea\u5df1\u9009\u62e9 $x$ \u548c $y$ \u7684\u89c4\u5219\uff1a\n\n- Alice \u5fc5\u987b\u9009\u62e9 $x$ \u548c $y$\uff0c\u4f7f\u5f97 $y$ \u80fd\u88ab $x$ \u6574\u9664\u3002\n- Bob \u5fc5\u987b\u9009\u62e9 $x$ \u548c $y$\uff0c\u4f7f\u5f97 $y$ \u4e0d\u80fd\u88ab $x$ \u6574\u9664\u3002\n\n\u9009\u62e9 $x$ \u548c $y$ \u4e4b\u540e\uff0c$y$ \u4f1a\u4ece\u6570\u7ec4 $b$ \u4e2d\u79fb\u9664\uff08\u4f46 $x$ \u4fdd\u7559\u5728 $a$ \u4e2d\uff09\u3002\u5f53 $y$ \u4ece $b$ \u4e2d\u79fb\u9664\u65f6\uff0c\u5982\u679c\u5b58\u5728\u591a\u4e2a\u76f8\u540c\u7684 $y$\uff0c\u53ea\u79fb\u9664\u5176\u4e2d\u4e00\u4e2a\u3002\u65e0\u6cd5\u884c\u52a8\u7684\u73a9\u5bb6\u8f93\u6389\u6e38\u620f\u3002\n\n\u5982\u679c\u53cc\u65b9\u90fd\u91c7\u53d6\u6700\u4f18\u7b56\u7565\uff0c\u8c01\u4f1a\u83b7\u80dc\uff1f","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $t$\uff08$1 \\le t \\le 10^4$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\le n, m \\le 10^{6}$\uff09\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_{i}$\uff08$1 \\le a_{i} \\le n + m$\uff09\u2014\u2014\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6700\u540e\u4e00\u884c\u5305\u542b $m$ \u4e2a\u6574\u6570 $b_{i}$\uff08$1 \\le b_{i} \\le n + m$\uff09\u2014\u2014\u6570\u7ec4 $b$ \u7684\u5143\u7d20\u3002\n\n\u8f93\u5165\u7684\u9644\u52a0\u7ea6\u675f\uff1a\n\n- \u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^6$\uff1b\n- \u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $m$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^6$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u5355\u8bcd\uff1a\n\n- \u5982\u679c Alice \u83b7\u80dc\uff0c\u8f93\u51fa `Alice`\uff1b\n- \u5982\u679c Bob \u83b7\u80dc\uff0c\u8f93\u51fa `Bob`\u3002","hint":"\u8003\u8651\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u8ba9\u6211\u4eec\u6f14\u793a Alice \u5982\u4f55\u901a\u8fc7\u64cd\u4f5c\u83b7\u80dc\uff1a\n\n- Alice \u7684\u56de\u5408\uff1a$x = 3, y = 6$\uff08\u6b64\u540e\uff0c$6$ \u5c06\u4ece $b$ \u4e2d\u79fb\u9664\uff0c\u7ed3\u679c\u662f $b = [7, 12]$\uff09\n- Bob \u7684\u56de\u5408\uff1a$x = 3, y = 7$\uff08Bob \u8fd8\u662f\u4f1a\u9009\u62e9 $y = 7$\uff0c\u56e0\u4e3a\u6ca1\u6709 $x$ \u4f7f\u5f97 $y = 12$ \u4e0d\u88ab\u6574\u9664\uff1b\u8fd9\u6b21\u64cd\u4f5c\u540e $b = [12]$\uff09\n- Alice \u7684\u56de\u5408\uff1a$x = 4, y = 12$\uff08\u8fd9\u6b21\u64cd\u4f5c\u540e\uff0c$b$ \u53d8\u4e3a\u7a7a\uff09\n- Bob \u7684\u56de\u5408\uff1aBob \u65e0\u6cd5\u884c\u52a8\uff0c\u8f93\u6389\u6e38\u620f\n\n\u7531 DeepSeek V3.2 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Divisibility Game","background":null,"description":"Alice and Bob are playing a game. They have an array  $ a $  of  $ n $  elements and an array  $ b $  of  $ m $  elements.\n\nThe players take turns. Alice goes first. On their turn, each player chooses a number  $ x $  from array  $ a $  and a number  $ y $  from array  $ b $ . Alice has her own rule for choosing  $ x $  and  $ y $ , and Bob has his:\n\n- Alice must choose  $ x $  and  $ y $  such that  $ y $  is divisible by  $ x $ .\n- Bob must choose  $ x $  and  $ y $  such that  $ y $  is not divisible by  $ x $ .\n\nAfter choosing  $ x $  and  $ y $ ,  $ y $  is removed from the array  $ b $  (but  $ x $  remains in  $ a $ ). When  $ y $  is removed from  $ b $ , if there are multiple occurrences of  $ y $ , only one is removed. The player who cannot make a move loses.\n\nWho will win if both players play optimally?","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains two integers  $ n $  and  $ m $  ( $ 1 \\le n, m \\le 10^{6} $ ).\n\nThe second line of each test case contains  $ n $  integers  $ a_{i} $  ( $ 1 \\le a_{i} \\le n + m $ ) \u2014 the elements of the array  $ a $ .\n\nThe last line of each test case contains  $ m $  integers  $ b_{i} $  ( $ 1 \\le b_{i} \\le n + m $ ) \u2014 the elements of the array  $ b $ .\n\nAdditional constraints on the input:\n\n- the sum of  $ n $  over all test cases does not exceed  $ 10^6 $ ;\n- the sum of  $ m $  over all test cases does not exceed  $ 10^6 $ .","formatO":"For each test case, print one word:\n\n- Alice if Alice wins;\n- Bob if Bob wins.","hint":"Consider the first test case. Let\u0027s show how Alice wins through the moves:\n\n- Alice\u0027s move:  $ x = 3, y = 6 $  (after this,  $ 6 $  will be removed from  $ b $ , resulting in  $ b = [7, 12] $ )\n- Bob\u0027s move:  $ x = 3, y = 7 $  (Bob will choose  $ y = 7 $  on his turn anyway, since there is no  $ x $  that does not divide  $ y = 12 $ , after this move  $ b = [12] $ )\n- Alice\u0027s move:  $ x = 4, y = 12 $  (after this move,  $ b $  becomes empty)\n- Bob\u0027s move: Bob loses, as he cannot make a move","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n9 3\n3 2 4 2 2 4 4 2 4\n6 7 12\n10 3\n3 2 5 4 2 5 3 4 4 4\n10 7 13\n1 5\n1\n1 2 3 4 5","Alice\nBob\nAlice"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"2203D","link":"https:\/\/codeforces.com\/problemset\/problem\/2203\/D"},"translation":null},"translations":{"en":{"name":"Divisibility Game","background":null,"description":"Alice and Bob are playing a game. They have an array  $ a $  of  $ n $  elements and an array  $ b $  of  $ m $  elements.\n\nThe players take turns. Alice goes first. On their turn, each player chooses a number  $ x $  from array  $ a $  and a number  $ y $  from array  $ b $ . Alice has her own rule for choosing  $ x $  and  $ y $ , and Bob has his:\n\n- Alice must choose  $ x $  and  $ y $  such that  $ y $  is divisible by  $ x $ .\n- Bob must choose  $ x $  and  $ y $  such that  $ y $  is not divisible by  $ x $ .\n\nAfter choosing  $ x $  and  $ y $ ,  $ y $  is removed from the array  $ b $  (but  $ x $  remains in  $ a $ ). When  $ y $  is removed from  $ b $ , if there are multiple occurrences of  $ y $ , only one is removed. The player who cannot make a move loses.\n\nWho will win if both players play optimally?","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains two integers  $ n $  and  $ m $  ( $ 1 \\le n, m \\le 10^{6} $ ).\n\nThe second line of each test case contains  $ n $  integers  $ a_{i} $  ( $ 1 \\le a_{i} \\le n + m $ ) \u2014 the elements of the array  $ a $ .\n\nThe last line of each test case contains  $ m $  integers  $ b_{i} $  ( $ 1 \\le b_{i} \\le n + m $ ) \u2014 the elements of the array  $ b $ .\n\nAdditional constraints on the input:\n\n- the sum of  $ n $  over all test cases does not exceed  $ 10^6 $ ;\n- the sum of  $ m $  over all test cases does not exceed  $ 10^6 $ .","formatO":"For each test case, print one word:\n\n- Alice if Alice wins;\n- Bob if Bob wins.","hint":"Consider the first test case. Let\u0027s show how Alice wins through the moves:\n\n- Alice\u0027s move:  $ x = 3, y = 6 $  (after this,  $ 6 $  will be removed from  $ b $ , resulting in  $ b = [7, 12] $ )\n- Bob\u0027s move:  $ x = 3, y = 7 $  (Bob will choose  $ y = 7 $  on his turn anyway, since there is no  $ x $  that does not divide  $ y = 12 $ , after this move  $ b = [12] $ )\n- Alice\u0027s move:  $ x = 4, y = 12 $  (after this move,  $ b $  becomes empty)\n- Bob\u0027s move: Bob loses, as he cannot make a move","locale":"en"},"zh-CN":{"name":"Divisibility Game","background":null,"description":"Alice \u548c Bob \u6b63\u5728\u73a9\u4e00\u4e2a\u6e38\u620f\u3002\u4ed6\u4eec\u6709\u4e00\u4e2a\u6570\u7ec4 $a$ \u5305\u542b $n$ \u4e2a\u5143\u7d20\uff0c\u8fd8\u6709\u4e00\u4e2a\u6570\u7ec4 $b$ \u5305\u542b $m$ \u4e2a\u5143\u7d20\u3002\n\n\u73a9\u5bb6\u8f6e\u6d41\u884c\u52a8\u3002Alice \u5148\u624b\u3002\u8f6e\u5230\u4e00\u4f4d\u73a9\u5bb6\u65f6\uff0c\u4ed6\u4eec\u4ece\u6570\u7ec4 $a$ \u4e2d\u9009\u62e9\u4e00\u4e2a\u6570\u5b57 $x$\uff0c\u4ece\u6570\u7ec4 $b$ \u4e2d\u9009\u62e9\u4e00\u4e2a\u6570\u5b57 $y$\u3002Alice \u548c Bob \u5404\u81ea\u6709\u81ea\u5df1\u9009\u62e9 $x$ \u548c $y$ \u7684\u89c4\u5219\uff1a\n\n- Alice \u5fc5\u987b\u9009\u62e9 $x$ \u548c $y$\uff0c\u4f7f\u5f97 $y$ \u80fd\u88ab $x$ \u6574\u9664\u3002\n- Bob \u5fc5\u987b\u9009\u62e9 $x$ \u548c $y$\uff0c\u4f7f\u5f97 $y$ \u4e0d\u80fd\u88ab $x$ \u6574\u9664\u3002\n\n\u9009\u62e9 $x$ \u548c $y$ \u4e4b\u540e\uff0c$y$ \u4f1a\u4ece\u6570\u7ec4 $b$ \u4e2d\u79fb\u9664\uff08\u4f46 $x$ \u4fdd\u7559\u5728 $a$ \u4e2d\uff09\u3002\u5f53 $y$ \u4ece $b$ \u4e2d\u79fb\u9664\u65f6\uff0c\u5982\u679c\u5b58\u5728\u591a\u4e2a\u76f8\u540c\u7684 $y$\uff0c\u53ea\u79fb\u9664\u5176\u4e2d\u4e00\u4e2a\u3002\u65e0\u6cd5\u884c\u52a8\u7684\u73a9\u5bb6\u8f93\u6389\u6e38\u620f\u3002\n\n\u5982\u679c\u53cc\u65b9\u90fd\u91c7\u53d6\u6700\u4f18\u7b56\u7565\uff0c\u8c01\u4f1a\u83b7\u80dc\uff1f","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $t$\uff08$1 \\le t \\le 10^4$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\le n, m \\le 10^{6}$\uff09\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_{i}$\uff08$1 \\le a_{i} \\le n + m$\uff09\u2014\u2014\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6700\u540e\u4e00\u884c\u5305\u542b $m$ \u4e2a\u6574\u6570 $b_{i}$\uff08$1 \\le b_{i} \\le n + m$\uff09\u2014\u2014\u6570\u7ec4 $b$ \u7684\u5143\u7d20\u3002\n\n\u8f93\u5165\u7684\u9644\u52a0\u7ea6\u675f\uff1a\n\n- \u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^6$\uff1b\n- \u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $m$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^6$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u5355\u8bcd\uff1a\n\n- \u5982\u679c Alice \u83b7\u80dc\uff0c\u8f93\u51fa `Alice`\uff1b\n- \u5982\u679c Bob \u83b7\u80dc\uff0c\u8f93\u51fa `Bob`\u3002","hint":"\u8003\u8651\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u8ba9\u6211\u4eec\u6f14\u793a Alice \u5982\u4f55\u901a\u8fc7\u64cd\u4f5c\u83b7\u80dc\uff1a\n\n- Alice \u7684\u56de\u5408\uff1a$x = 3, y = 6$\uff08\u6b64\u540e\uff0c$6$ \u5c06\u4ece $b$ \u4e2d\u79fb\u9664\uff0c\u7ed3\u679c\u662f $b = [7, 12]$\uff09\n- Bob \u7684\u56de\u5408\uff1a$x = 3, y = 7$\uff08Bob \u8fd8\u662f\u4f1a\u9009\u62e9 $y = 7$\uff0c\u56e0\u4e3a\u6ca1\u6709 $x$ \u4f7f\u5f97 $y = 12$ \u4e0d\u88ab\u6574\u9664\uff1b\u8fd9\u6b21\u64cd\u4f5c\u540e $b = [12]$\uff09\n- Alice \u7684\u56de\u5408\uff1a$x = 4, y = 12$\uff08\u8fd9\u6b21\u64cd\u4f5c\u540e\uff0c$b$ \u53d8\u4e3a\u7a7a\uff09\n- Bob \u7684\u56de\u5408\uff1aBob \u65e0\u6cd5\u884c\u52a8\uff0c\u8f93\u6389\u6e38\u620f\n\n\u7531 DeepSeek V3.2 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2203D Divisibility Game","type":2,"slug":"CF2203D","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.353936,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2203D Divisibility Game","description":"Alice \u548c Bob \u6b63\u5728\u73a9\u4e00\u4e2a\u6e38\u620f\u3002\u4ed6\u4eec\u6709\u4e00\u4e2a\u6570\u7ec4 a \u5305\u542b n \u4e2a\u5143\u7d20\uff0c\u8fd8\u6709\u4e00\u4e2a\u6570\u7ec4 b \u5305\u542b m \u4e2a\u5143\u7d20\u3002\n\u73a9\u5bb6\u8f6e\u6d41\u884c\u52a8\u3002Alice \u5148\u624b\u3002\u8f6e\u5230\u4e00\u4f4d\u73a9\u5bb6\u65f6\uff0c\u4ed6\u4eec\u4ece\u6570\u7ec4 a \u4e2d\u9009\u62e9\u4e00\u4e2a\u6570\u5b57 x\uff0c\u4ece\u6570\u7ec4 b \u4e2d\u9009\u62e9\u4e00\u4e2a\u6570\u5b57 y\u3002Alice\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2203D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2203D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2203D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2203D Divisibility Game" />
+    <meta property="og:description" content="Alice 和 Bob 正在玩一个游戏。他们有一个数组 a 包含 n 个元素，还有一个数组 b 包含 m 个元素。
+玩家轮流行动。Alice 先手。轮到一位玩家时，他们从数组 a 中选择一个数字 x，从数组 b 中选择一个数字 y。Alice…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2203D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2203D Divisibility Game</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Alice 和 Bob 正在玩一个游戏。他们有一个数组 $a$ 包含 $n$ 个元素，还有一个数组 $b$ 包含 $m$ 个元素。
+
+玩家轮流行动。Alice 先手。轮到一位玩家时，他们从数组 $a$ 中选择一个数字 $x$，从数组 $b$ 中选择一个数字 $y$。Alice 和 Bob 各自有自己选择 $x$ 和 $y$ 的规则：
+
+- Alice 必须选择 $x$ 和 $y$，使得 $y$ 能被 $x$ 整除。
+- Bob 必须选择 $x$ 和 $y$，使得 $y$ 不能被 $x$ 整除。
+
+选择 $x$ 和 $y$ 之后，$y$ 会从数组 $b$ 中移除（但 $x$ 保留在 $a$ 中）。当 $y$ 从 $b$ 中移除时，如果存在多个相同的 $y$，只移除其中一个。无法行动的玩家输掉游戏。
+
+如果双方都采取最优策略，谁会获胜？
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试点包含多个测试用例。第一行包含测试用例的数量 $t$（$1 \le t \le 10^4$）。接下来是每个测试用例的描述。
+
+每个测试用例的第一行包含两个整数 $n$ 和 $m$（$1 \le n, m \le 10^{6}$）。
+
+每个测试用例的第二行包含 $n$ 个整数 $a_{i}$（$1 \le a_{i} \le n + m$）——数组 $a$ 的元素。
+
+每个测试用例的最后一行包含 $m$ 个整数 $b_{i}$（$1 \le b_{i} \le n + m$）——数组 $b$ 的元素。
+
+输入的附加约束：
+
+- 所有测试用例中 $n$ 的总和不超过 $10^6$；
+- 所有测试用例中 $m$ 的总和不超过 $10^6$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个单词：
+
+- 如果 Alice 获胜，输出 `Alice`；
+- 如果 Bob 获胜，输出 `Bob`。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                考虑第一个测试用例。让我们演示 Alice 如何通过操作获胜：
+
+- Alice 的回合：$x = 3, y = 6$（此后，$6$ 将从 $b$ 中移除，结果是 $b = [7, 12]$）
+- Bob 的回合：$x = 3, y = 7$（Bob 还是会选择 $y = 7$，因为没有 $x$ 使得 $y = 12$ 不被整除；这次操作后 $b = [12]$）
+- Alice 的回合：$x = 4, y = 12$（这次操作后，$b$ 变为空）
+- Bob 的回合：Bob 无法行动，输掉游戏
+
+由 DeepSeek V3.2 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

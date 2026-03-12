@@ -1,0 +1,29 @@
+{
+  "id": "CF-1676B",
+  "contest_id": 1676,
+  "index": "B",
+  "name": "Equal Candies",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 59563,
+  "problem_url": "https://codeforces.com/problemset/problem/1676/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1676/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1676/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1676B%20Equal%20Candies%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1676B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1676B Equal Candies - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 364,
+    "mirror_attempt": 643,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

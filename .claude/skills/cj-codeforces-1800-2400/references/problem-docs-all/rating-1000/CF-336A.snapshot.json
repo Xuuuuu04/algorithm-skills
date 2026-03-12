@@ -1,0 +1,28 @@
+{
+  "id": "CF-336A",
+  "contest_id": 336,
+  "index": "A",
+  "name": "Vasily the Bear and Triangle",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 10613,
+  "problem_url": "https://codeforces.com/problemset/problem/336/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/336/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/336/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=336A%20Vasily%20the%20Bear%20and%20Triangle%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF336A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF336A Vasily the Bear and Triangle - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 119,
+    "mirror_attempt": 305,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

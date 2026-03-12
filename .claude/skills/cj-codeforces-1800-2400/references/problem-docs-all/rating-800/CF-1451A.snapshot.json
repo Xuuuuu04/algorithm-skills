@@ -1,0 +1,28 @@
+{
+  "id": "CF-1451A",
+  "contest_id": 1451,
+  "index": "A",
+  "name": "Subtract or Divide",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 25212,
+  "problem_url": "https://codeforces.com/problemset/problem/1451/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1451/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1451/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1451A%20Subtract%20or%20Divide%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1451/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1451A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

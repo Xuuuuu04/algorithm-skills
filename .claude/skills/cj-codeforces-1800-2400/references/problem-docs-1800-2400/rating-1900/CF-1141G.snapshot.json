@@ -1,0 +1,45 @@
+{
+  "id": "CF-1141G",
+  "contest_id": 1141,
+  "index": "G",
+  "name": "Privatization of Roads in Treeland",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1141/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1141/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1141/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1141G%20Privatization of Roads in Treeland%20tutorial",
+  "solved_count": 2531,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1141G",
+  "hydro_meta": {
+    "page_title": "Privatization of Roads in Treeland - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

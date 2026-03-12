@@ -1,0 +1,36 @@
+{
+  "id": "CF-873E",
+  "contest_id": 873,
+  "index": "E",
+  "name": "Awards For Contestants",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/873/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/873/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/873/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=873E%20Awards For Contestants%20tutorial",
+  "solved_count": 780,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P873E",
+  "hydro_meta": {
+    "page_title": "Awards For Contestants - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "*2300"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

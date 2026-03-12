@@ -1,0 +1,30 @@
+{
+  "id": "CF-504D",
+  "contest_id": 504,
+  "index": "D",
+  "name": "Misha and XOR",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks"
+  ],
+  "solved_count": 347,
+  "problem_url": "https://codeforces.com/problemset/problem/504/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/504/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/504/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=504D%20Misha%20and%20XOR%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P504D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Misha and XOR - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

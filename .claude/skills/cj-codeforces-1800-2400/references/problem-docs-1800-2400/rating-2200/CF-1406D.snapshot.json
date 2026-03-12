@@ -1,0 +1,40 @@
+{
+  "id": "CF-1406D",
+  "contest_id": 1406,
+  "index": "D",
+  "name": "Three Sequences",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1406/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1406/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1406/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1406D%20Three Sequences%20tutorial",
+  "solved_count": 3785,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1406D",
+  "hydro_meta": {
+    "page_title": "Three Sequences - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

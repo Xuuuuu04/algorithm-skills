@@ -1,0 +1,34 @@
+{
+  "id": "CF-316E2",
+  "contest_id": 316,
+  "index": "E2",
+  "name": "Summer Homework",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/316/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/316/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/316/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=316E2%20Summer Homework%20tutorial",
+  "solved_count": 427,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P316E2",
+  "hydro_meta": {
+    "page_title": "Summer Homework - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "math",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

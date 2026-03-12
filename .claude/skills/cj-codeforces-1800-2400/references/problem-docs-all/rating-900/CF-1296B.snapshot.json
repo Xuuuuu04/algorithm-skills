@@ -1,0 +1,27 @@
+{
+  "id": "CF-1296B",
+  "contest_id": 1296,
+  "index": "B",
+  "name": "Food Buying",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 32510,
+  "problem_url": "https://codeforces.com/problemset/problem/1296/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1296/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1296/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1296B%20Food%20Buying%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1296B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1296B Food Buying - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 313,
+    "mirror_attempt": 542,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

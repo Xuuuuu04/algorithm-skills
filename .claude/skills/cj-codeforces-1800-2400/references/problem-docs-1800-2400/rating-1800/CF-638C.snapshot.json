@@ -1,0 +1,41 @@
+{
+  "id": "CF-638C",
+  "contest_id": 638,
+  "index": "C",
+  "name": "Road Improvement",
+  "rating": 1800,
+  "tags": [
+    "*special",
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/638/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/638/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/638/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=638C%20Road Improvement%20tutorial",
+  "solved_count": 2198,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P638C",
+  "hydro_meta": {
+    "page_title": "Road Improvement - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "trees",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

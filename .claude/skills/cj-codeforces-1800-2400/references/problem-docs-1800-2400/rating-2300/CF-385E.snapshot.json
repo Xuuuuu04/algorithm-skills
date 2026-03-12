@@ -1,0 +1,33 @@
+{
+  "id": "CF-385E",
+  "contest_id": 385,
+  "index": "E",
+  "name": "Bear in the Field",
+  "rating": 2300,
+  "tags": [
+    "math",
+    "matrices"
+  ],
+  "url": "https://codeforces.com/problemset/problem/385/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/385/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/385/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=385E%20Bear in the Field%20tutorial",
+  "solved_count": 653,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P385E",
+  "hydro_meta": {
+    "page_title": "Bear in the Field - 题目详情 - Hydro",
+    "hydro_tags": [
+      "math",
+      "matrices",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

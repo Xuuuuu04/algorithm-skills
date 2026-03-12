@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1721A Image - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1721A","type":"CF","title":"Image","difficulty":2,"tags":[7],"wantsTranslation":false,"totalSubmit":666,"totalAccepted":387,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Image","background":"","description":"\u4f60\u6709\u4e00\u4e2a\u5927\u5c0f\u4e3a $2\u00d72$ \u7684\u56fe\u50cf\u6587\u4ef6\uff0c\u7531 $4$ \u4e2a\u50cf\u7d20\u7ec4\u6210\u3002\u6bcf\u4e2a\u50cf\u7d20\u53ef\u4ee5\u5177\u6709 $26$ \u79cd\u4e0d\u540c\u989c\u8272\u4e2d\u7684\u4e00\u79cd\uff0c\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u8868\u793a\u3002\n\n\n\u4f60\u5e0c\u671b\u5bf9\u56fe\u50cf\u7684\u67d0\u4e9b\u50cf\u7d20\u91cd\u65b0\u7740\u8272\uff0c\u4ee5\u4fbf\u6240\u6709 $4$ \u4e2a\u50cf\u7d20\u5177\u6709\u76f8\u540c\u7684\u989c\u8272\u3002\u5728\u4e00\u6b21\u64cd\u4f5c\u4e2d\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u81f3\u591a\u4e24\u4e2a\u76f8\u540c\u989c\u8272\u7684\u50cf\u7d20\u5e76\u5c06\u5b83\u4eec\u7ed8\u5236\u6210\u5176\u4ed6\u989c\u8272\uff08\u5982\u679c\u9009\u62e9\u4e24\u4e2a\u50cf\u7d20\uff0c\u5219\u5e94\u5c06\u5b83\u4eec\u7ed8\u5236\u4e3a\u76f8\u540c\u989c\u8272\uff09\u3002\n\n\n\u4e3a\u4e86\u5b9e\u73b0\u4f60\u7684\u76ee\u6807\uff0c\u4f60\u5fc5\u987b\u91c7\u53d6\u7684\u6700\u5c11\u884c\u52a8\u6570\u662f\u591a\u5c11\uff1f","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$$(1\\leq t \\leq 1000)$ \u2014\u2014\u8868\u793a\u6d4b\u8bd5\u6837\u4f8b\u7684\u6570\u91cf\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u7531\u4e24\u884c\u7ec4\u6210\u3002\u6bcf\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u6ca1\u6709\u4efb\u4f55\u5206\u9694\u7b26\uff0c\u8868\u793a\u56fe\u50cf\u4e2d\u7684\u4e00\u884c\u50cf\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4f60\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\uff0c\u4ee5\u4f7f\u56fe\u50cf\u76844\u4e2a\u50cf\u7d20\u5177\u6709\u76f8\u540c\u7684\u989c\u8272\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Image","background":"","description":"You have an image file of size $ 2 \\times 2 $ , consisting of $ 4 $ pixels. Each pixel can have one of $ 26 $ different colors, denoted by lowercase Latin letters.\n\nYou want to recolor some of the pixels of the image so that all $ 4 $ pixels have the same color. In one move, you can choose no more than two pixels of the same color and paint them into some other color (if you choose two pixels, both should be painted into the same color).\n\nWhat is the minimum number of moves you have to make in order to fulfill your goal?","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines. Each of these lines contains two lowercase letters of Latin alphabet without any separators, denoting a row of pixels in the image.","formatO":"For each test case, print one integer \u2014 the minimum number of moves you have to make so that all $ 4 $ pixels of the image have the same color.","hint":"Let\u0027s analyze the test cases of the example.\n\nIn the first test case, you can paint the bottom left pixel and the top right pixel (which share the same color) into the color r, so all pixels have this color.\n\nIn the second test case, two moves are enough:\n\n- paint both top pixels, which have the same color c, into the color b;\n- paint the bottom left pixel into the color b.\n\nIn the third test case, all pixels already have the same color.\n\nIn the fourth test case, you may leave any of the pixels unchanged, and paint all three other pixels into the color of that pixel in three moves.\n\nIn the fifth test case, you can paint both top pixels into the color x.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\nrb\nbr\ncc\nwb\naa\naa\nab\ncd\nyy\nxx","1\n2\n0\n3\n1"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"1721A","link":"https:\/\/codeforces.com\/problemset\/problem\/1721\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\n\u4f60\u6709\u4e00\u4e2a\u5927\u5c0f\u4e3a $2\u00d72$ \u7684\u56fe\u50cf\u6587\u4ef6\uff0c\u7531 $4$ \u4e2a\u50cf\u7d20\u7ec4\u6210\u3002\u6bcf\u4e2a\u50cf\u7d20\u53ef\u4ee5\u5177\u6709 $26$ \u79cd\u4e0d\u540c\u989c\u8272\u4e2d\u7684\u4e00\u79cd\uff0c\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u8868\u793a\u3002\n\n\n\u4f60\u5e0c\u671b\u5bf9\u56fe\u50cf\u7684\u67d0\u4e9b\u50cf\u7d20\u91cd\u65b0\u7740\u8272\uff0c\u4ee5\u4fbf\u6240\u6709 $4$ \u4e2a\u50cf\u7d20\u5177\u6709\u76f8\u540c\u7684\u989c\u8272\u3002\u5728\u4e00\u6b21\u64cd\u4f5c\u4e2d\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u81f3\u591a\u4e24\u4e2a\u76f8\u540c\u989c\u8272\u7684\u50cf\u7d20\u5e76\u5c06\u5b83\u4eec\u7ed8\u5236\u6210\u5176\u4ed6\u989c\u8272\uff08\u5982\u679c\u9009\u62e9\u4e24\u4e2a\u50cf\u7d20\uff0c\u5219\u5e94\u5c06\u5b83\u4eec\u7ed8\u5236\u4e3a\u76f8\u540c\u989c\u8272\uff09\u3002\n\n\n\u4e3a\u4e86\u5b9e\u73b0\u4f60\u7684\u76ee\u6807\uff0c\u4f60\u5fc5\u987b\u91c7\u53d6\u7684\u6700\u5c11\u884c\u52a8\u6570\u662f\u591a\u5c11\uff1f\n\n### \u8f93\u5165\u683c\u5f0f\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$$(1\\leq t \\leq 1000)$ \u2014\u2014\u8868\u793a\u6d4b\u8bd5\u6837\u4f8b\u7684\u6570\u91cf\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u7531\u4e24\u884c\u7ec4\u6210\u3002\u6bcf\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u6ca1\u6709\u4efb\u4f55\u5206\u9694\u7b26\uff0c\u8868\u793a\u56fe\u50cf\u4e2d\u7684\u4e00\u884c\u50cf\u7d20\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4f60\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\uff0c\u4ee5\u4f7f\u56fe\u50cf\u76844\u4e2a\u50cf\u7d20\u5177\u6709\u76f8\u540c\u7684\u989c\u8272\u3002"},"translations":{"en":{"name":"Image","background":"","description":"You have an image file of size $ 2 \\times 2 $ , consisting of $ 4 $ pixels. Each pixel can have one of $ 26 $ different colors, denoted by lowercase Latin letters.\n\nYou want to recolor some of the pixels of the image so that all $ 4 $ pixels have the same color. In one move, you can choose no more than two pixels of the same color and paint them into some other color (if you choose two pixels, both should be painted into the same color).\n\nWhat is the minimum number of moves you have to make in order to fulfill your goal?","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines. Each of these lines contains two lowercase letters of Latin alphabet without any separators, denoting a row of pixels in the image.","formatO":"For each test case, print one integer \u2014 the minimum number of moves you have to make so that all $ 4 $ pixels of the image have the same color.","hint":"Let\u0027s analyze the test cases of the example.\n\nIn the first test case, you can paint the bottom left pixel and the top right pixel (which share the same color) into the color r, so all pixels have this color.\n\nIn the second test case, two moves are enough:\n\n- paint both top pixels, which have the same color c, into the color b;\n- paint the bottom left pixel into the color b.\n\nIn the third test case, all pixels already have the same color.\n\nIn the fourth test case, you may leave any of the pixels unchanged, and paint all three other pixels into the color of that pixel in three moves.\n\nIn the fifth test case, you can paint both top pixels into the color x.","locale":"en"},"zh-CN":{"name":"Image","background":"","description":"\u4f60\u6709\u4e00\u4e2a\u5927\u5c0f\u4e3a $2\u00d72$ \u7684\u56fe\u50cf\u6587\u4ef6\uff0c\u7531 $4$ \u4e2a\u50cf\u7d20\u7ec4\u6210\u3002\u6bcf\u4e2a\u50cf\u7d20\u53ef\u4ee5\u5177\u6709 $26$ \u79cd\u4e0d\u540c\u989c\u8272\u4e2d\u7684\u4e00\u79cd\uff0c\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u8868\u793a\u3002\n\n\n\u4f60\u5e0c\u671b\u5bf9\u56fe\u50cf\u7684\u67d0\u4e9b\u50cf\u7d20\u91cd\u65b0\u7740\u8272\uff0c\u4ee5\u4fbf\u6240\u6709 $4$ \u4e2a\u50cf\u7d20\u5177\u6709\u76f8\u540c\u7684\u989c\u8272\u3002\u5728\u4e00\u6b21\u64cd\u4f5c\u4e2d\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u81f3\u591a\u4e24\u4e2a\u76f8\u540c\u989c\u8272\u7684\u50cf\u7d20\u5e76\u5c06\u5b83\u4eec\u7ed8\u5236\u6210\u5176\u4ed6\u989c\u8272\uff08\u5982\u679c\u9009\u62e9\u4e24\u4e2a\u50cf\u7d20\uff0c\u5219\u5e94\u5c06\u5b83\u4eec\u7ed8\u5236\u4e3a\u76f8\u540c\u989c\u8272\uff09\u3002\n\n\n\u4e3a\u4e86\u5b9e\u73b0\u4f60\u7684\u76ee\u6807\uff0c\u4f60\u5fc5\u987b\u91c7\u53d6\u7684\u6700\u5c11\u884c\u52a8\u6570\u662f\u591a\u5c11\uff1f","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$$(1\\leq t \\leq 1000)$ \u2014\u2014\u8868\u793a\u6d4b\u8bd5\u6837\u4f8b\u7684\u6570\u91cf\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u7531\u4e24\u884c\u7ec4\u6210\u3002\u6bcf\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u6ca1\u6709\u4efb\u4f55\u5206\u9694\u7b26\uff0c\u8868\u793a\u56fe\u50cf\u4e2d\u7684\u4e00\u884c\u50cf\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4f60\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\uff0c\u4ee5\u4f7f\u56fe\u50cf\u76844\u4e2a\u50cf\u7d20\u5177\u6709\u76f8\u540c\u7684\u989c\u8272\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1721A Image","type":2,"slug":"CF1721A","color":"orange-3"},"discussions":[{"id":486838,"title":"0\u5206\u6c42\u8c03","author":{"uid":768786,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/768786.png","name":"lol_qwq","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1661832568}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.806191,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1721A Image","description":"\u4f60\u6709\u4e00\u4e2a\u5927\u5c0f\u4e3a 2\u00d72 \u7684\u56fe\u50cf\u6587\u4ef6\uff0c\u7531 4 \u4e2a\u50cf\u7d20\u7ec4\u6210\u3002\u6bcf\u4e2a\u50cf\u7d20\u53ef\u4ee5\u5177\u6709 26 \u79cd\u4e0d\u540c\u989c\u8272\u4e2d\u7684\u4e00\u79cd\uff0c\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u8868\u793a\u3002\n\u4f60\u5e0c\u671b\u5bf9\u56fe\u50cf\u7684\u67d0\u4e9b\u50cf\u7d20\u91cd\u65b0\u7740\u8272\uff0c\u4ee5\u4fbf\u6240\u6709 4 \u4e2a\u50cf\u7d20\u5177\u6709\u76f8\u540c\u7684\u989c\u8272\u3002\u5728\u4e00\u6b21\u64cd\u4f5c\u4e2d\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u81f3\u591a\u4e24\u4e2a\u76f8\u540c\u989c\u8272\u7684\u50cf\u7d20\u5e76\u5c06\u5b83\u4eec\u7ed8\u5236\u6210\u5176\u4ed6\u989c\u8272\uff08\u5982\u679c\u9009\u62e9\u4e24\u4e2a\u50cf\u7d20\uff0c\u5219\u5e94\u5c06\u5b83\u4eec\u7ed8\u5236\u4e3a\u76f8\u540c\u989c\u8272\uff09\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1721A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1721A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1721A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1721A Image" />
+    <meta property="og:description" content="你有一个大小为 2×2 的图像文件，由 4 个像素组成。每个像素可以具有 26 种不同颜色中的一种，由小写拉丁字母表示。
+你希望对图像的某些像素重新着色，以便所有 4 个像素具有相同的颜色。在一次操作中，你可以选择至多两个相同颜色的像素并将它们绘制成其他颜色（如果选择两个像素，则应将它们绘制为相同颜色）。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1721A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1721A Image</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你有一个大小为 $2×2$ 的图像文件，由 $4$ 个像素组成。每个像素可以具有 $26$ 种不同颜色中的一种，由小写拉丁字母表示。
+
+
+你希望对图像的某些像素重新着色，以便所有 $4$ 个像素具有相同的颜色。在一次操作中，你可以选择至多两个相同颜色的像素并将它们绘制成其他颜色（如果选择两个像素，则应将它们绘制为相同颜色）。
+
+
+为了实现你的目标，你必须采取的最少行动数是多少？
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$$(1\leq t \leq 1000)$ ——表示测试样例的数量
+
+每个测试样例由两行组成。每一行包含两个小写拉丁字母，没有任何分隔符，表示图像中的一行像素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试样例，输出一个整数——你最小操作次数，以使图像的4个像素具有相同的颜色。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                Let's analyze the test cases of the example.
+
+In the first test case, you can paint the bottom left pixel and the top right pixel (which share the same color) into the color r, so all pixels have this color.
+
+In the second test case, two moves are enough:
+
+- paint both top pixels, which have the same color c, into the color b;
+- paint the bottom left pixel into the color b.
+
+In the third test case, all pixels already have the same color.
+
+In the fourth test case, you may leave any of the pixels unchanged, and paint all three other pixels into the color of that pixel in three moves.
+
+In the fifth test case, you can paint both top pixels into the color x.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

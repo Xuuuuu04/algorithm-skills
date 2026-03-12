@@ -1,0 +1,27 @@
+{
+  "id": "CF-1930I",
+  "contest_id": 1930,
+  "index": "I",
+  "name": "Counting Is Fun",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 5000.0,
+  "tags": [
+    "combinatorics"
+  ],
+  "solved_count": 98,
+  "problem_url": "https://codeforces.com/problemset/problem/1930/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1930/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1930/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1930I%20Counting%20Is%20Fun%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1930/I",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1930I - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

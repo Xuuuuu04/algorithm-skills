@@ -1,0 +1,31 @@
+{
+  "id": "CF-17D",
+  "contest_id": 17,
+  "index": "D",
+  "name": "Notepad",
+  "rating": 2400,
+  "tags": [
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/17/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/17/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/17/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=17D%20Notepad%20tutorial",
+  "solved_count": 1307,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P17D",
+  "hydro_meta": {
+    "page_title": "Notepad - 题目详情 - Hydro",
+    "hydro_tags": [
+      "number theory",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

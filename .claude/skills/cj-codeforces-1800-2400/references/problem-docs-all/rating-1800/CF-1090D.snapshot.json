@@ -1,0 +1,30 @@
+{
+  "id": "CF-1090D",
+  "contest_id": 1090,
+  "index": "D",
+  "name": "Similar Arrays",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 2348,
+  "problem_url": "https://codeforces.com/problemset/problem/1090/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1090/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1090/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1090D%20Similar%20Arrays%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1090D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Similar Arrays - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

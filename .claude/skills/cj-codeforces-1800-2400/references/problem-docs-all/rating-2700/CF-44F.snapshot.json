@@ -1,0 +1,32 @@
+{
+  "id": "CF-44F",
+  "contest_id": 44,
+  "index": "F",
+  "name": "BerPaint",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "geometry",
+    "graphs"
+  ],
+  "solved_count": 78,
+  "problem_url": "https://codeforces.com/problemset/problem/44/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/44/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/44/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=44F%20BerPaint%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P44F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "BerPaint - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "graphs",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-74C",
+  "contest_id": 74,
+  "index": "C",
+  "name": "Chessboard Billiard",
+  "rating": 2100,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/74/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/74/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/74/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=74C%20Chessboard Billiard%20tutorial",
+  "solved_count": 1404,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P74C",
+  "hydro_meta": {
+    "page_title": "Chessboard Billiard - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "number theory",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

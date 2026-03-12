@@ -1,0 +1,36 @@
+{
+  "id": "CF-1384B1",
+  "contest_id": 1384,
+  "index": "B1",
+  "name": "Koa and the Beach (Easy Version)",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1384/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1384/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1384/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1384B1%20Koa and the Beach (Easy Version)%20tutorial",
+  "solved_count": 4065,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1384B1",
+  "hydro_meta": {
+    "page_title": "Koa and the Beach (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

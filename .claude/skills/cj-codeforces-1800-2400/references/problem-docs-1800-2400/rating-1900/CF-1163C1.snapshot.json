@@ -1,0 +1,31 @@
+{
+  "id": "CF-1163C1",
+  "contest_id": 1163,
+  "index": "C1",
+  "name": "Power Transmission (Easy Edition)",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "geometry"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1163/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1163/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1163/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1163C1%20Power Transmission (Easy Edition)%20tutorial",
+  "solved_count": 3562,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1163C1",
+  "hydro_meta": {
+    "page_title": "Power Transmission (Easy Edition) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "geometry",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

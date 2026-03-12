@@ -1,0 +1,32 @@
+{
+  "id": "CF-1132B",
+  "contest_id": 1132,
+  "index": "B",
+  "name": "Discounts",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 13854,
+  "problem_url": "https://codeforces.com/problemset/problem/1132/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1132/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1132/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1132B%20Discounts%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1132B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Discounts - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings",
+      "*900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

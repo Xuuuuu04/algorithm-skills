@@ -1,0 +1,36 @@
+{
+  "id": "CF-472D",
+  "contest_id": 472,
+  "index": "D",
+  "name": "Design Tutorial: Inverse the Problem",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "shortest paths",
+    "trees"
+  ],
+  "solved_count": 6398,
+  "problem_url": "https://codeforces.com/problemset/problem/472/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/472/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/472/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=472D%20Design%20Tutorial%3A%20Inverse%20the%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P472D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Design Tutorial: Inverse the Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dsu",
+      "shortest paths",
+      "trees",
+      "*1900"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 27,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

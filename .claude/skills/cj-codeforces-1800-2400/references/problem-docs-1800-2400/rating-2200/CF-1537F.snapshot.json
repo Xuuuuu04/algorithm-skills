@@ -1,0 +1,43 @@
+{
+  "id": "CF-1537F",
+  "contest_id": 1537,
+  "index": "F",
+  "name": "Figure Fixing",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1537/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1537/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1537/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1537F%20Figure Fixing%20tutorial",
+  "solved_count": 2774,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1537F",
+  "hydro_meta": {
+    "page_title": "Figure Fixing - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

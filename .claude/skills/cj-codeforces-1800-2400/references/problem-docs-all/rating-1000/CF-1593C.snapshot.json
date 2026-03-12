@@ -1,0 +1,28 @@
+{
+  "id": "CF-1593C",
+  "contest_id": 1593,
+  "index": "C",
+  "name": "Save More Mice",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy"
+  ],
+  "solved_count": 27626,
+  "problem_url": "https://codeforces.com/problemset/problem/1593/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1593/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1593/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1593C%20Save%20More%20Mice%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1593/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1593C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

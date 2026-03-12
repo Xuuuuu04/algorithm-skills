@@ -1,0 +1,36 @@
+{
+  "id": "CF-1198B",
+  "contest_id": 1198,
+  "index": "B",
+  "name": "Welfare State",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "sortings"
+  ],
+  "solved_count": 9907,
+  "problem_url": "https://codeforces.com/problemset/problem/1198/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1198/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1198/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1198B%20Welfare%20State%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1198B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Welfare State - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "sortings",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

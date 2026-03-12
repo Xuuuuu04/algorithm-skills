@@ -1,0 +1,36 @@
+{
+  "id": "CF-1354C1",
+  "contest_id": 1354,
+  "index": "C1",
+  "name": "Simple Polygon Embedding",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "geometry",
+    "math",
+    "ternary search"
+  ],
+  "solved_count": 16309,
+  "problem_url": "https://codeforces.com/problemset/problem/1354/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1354/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1354/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1354C1%20Simple%20Polygon%20Embedding%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1354C1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Simple Polygon Embedding - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "geometry",
+      "math",
+      "ternary search",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

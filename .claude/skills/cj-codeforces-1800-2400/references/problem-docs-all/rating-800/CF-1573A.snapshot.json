@@ -1,0 +1,30 @@
+{
+  "id": "CF-1573A",
+  "contest_id": 1573,
+  "index": "A",
+  "name": "Countdown",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 21893,
+  "problem_url": "https://codeforces.com/problemset/problem/1573/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1573/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1573/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1573A%20Countdown%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1573A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Countdown - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*800"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

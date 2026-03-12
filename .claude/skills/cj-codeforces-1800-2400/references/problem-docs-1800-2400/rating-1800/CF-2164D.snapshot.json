@@ -1,0 +1,38 @@
+{
+  "id": "CF-2164D",
+  "contest_id": 2164,
+  "index": "D",
+  "name": "Copy String",
+  "rating": 1800,
+  "tags": [
+    "greedy",
+    "implementation",
+    "strings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2164/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2164/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2164/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2164D%20Copy String%20tutorial",
+  "solved_count": 4809,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2164D",
+  "hydro_meta": {
+    "page_title": "Copy String - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

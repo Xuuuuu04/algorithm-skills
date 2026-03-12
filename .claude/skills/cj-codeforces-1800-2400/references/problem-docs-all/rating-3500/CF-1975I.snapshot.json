@@ -1,0 +1,27 @@
+{
+  "id": "CF-1975I",
+  "contest_id": 1975,
+  "index": "I",
+  "name": "Mind Bloom",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 6000.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 161,
+  "problem_url": "https://codeforces.com/problemset/problem/1975/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1975/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1975/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1975I%20Mind%20Bloom%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1975/I",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1975I - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "5 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

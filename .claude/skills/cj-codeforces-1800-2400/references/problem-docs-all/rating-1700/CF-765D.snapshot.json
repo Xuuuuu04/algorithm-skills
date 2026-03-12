@@ -1,0 +1,34 @@
+{
+  "id": "CF-765D",
+  "contest_id": 765,
+  "index": "D",
+  "name": "Artsem and Saunders",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "dsu",
+    "math"
+  ],
+  "solved_count": 2587,
+  "problem_url": "https://codeforces.com/problemset/problem/765/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/765/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/765/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=765D%20Artsem%20and%20Saunders%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P765D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Artsem and Saunders - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dsu",
+      "math",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

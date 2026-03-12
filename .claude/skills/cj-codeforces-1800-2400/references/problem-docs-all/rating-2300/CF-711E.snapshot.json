@@ -1,0 +1,34 @@
+{
+  "id": "CF-711E",
+  "contest_id": 711,
+  "index": "E",
+  "name": "ZS and The Birthday Paradox",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "math",
+    "number theory",
+    "probabilities"
+  ],
+  "solved_count": 1351,
+  "problem_url": "https://codeforces.com/problemset/problem/711/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/711/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/711/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=711E%20ZS%20and%20The%20Birthday%20Paradox%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P711E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "ZS and The Birthday Paradox - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "probabilities",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

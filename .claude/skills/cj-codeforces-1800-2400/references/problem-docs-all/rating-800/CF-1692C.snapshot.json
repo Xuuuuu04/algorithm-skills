@@ -1,0 +1,29 @@
+{
+  "id": "CF-1692C",
+  "contest_id": 1692,
+  "index": "C",
+  "name": "Where's the Bishop?",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 38493,
+  "problem_url": "https://codeforces.com/problemset/problem/1692/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1692/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1692/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1692C%20Where%27s%20the%20Bishop%3F%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1692C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Where's the Bishop? - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CF-1732C2",
+  "contest_id": 1732,
+  "index": "C2",
+  "name": "Sheikh (Hard Version)",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "brute force",
+    "greedy",
+    "implementation",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1732/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1732/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1732/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1732C2%20Sheikh (Hard Version)%20tutorial",
+  "solved_count": 3022,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1732C2",
+  "hydro_meta": {
+    "page_title": "Sheikh (Hard Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "bitmasks",
+      "greedy",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

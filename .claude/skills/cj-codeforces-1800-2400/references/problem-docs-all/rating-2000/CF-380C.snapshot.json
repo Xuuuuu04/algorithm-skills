@@ -1,0 +1,28 @@
+{
+  "id": "CF-380C",
+  "contest_id": 380,
+  "index": "C",
+  "name": "Sereja and Brackets",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "schedules"
+  ],
+  "solved_count": 19173,
+  "problem_url": "https://codeforces.com/problemset/problem/380/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/380/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/380/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=380C%20Sereja%20and%20Brackets%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF380C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF380C Sereja and Brackets - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 465,
+    "mirror_attempt": 920,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-784E",
+  "contest_id": 784,
+  "index": "E",
+  "name": "Twisted Circuit",
+  "rating": 2000,
+  "tags": [
+    "*special",
+    "brute force",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/784/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/784/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/784/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=784E%20Twisted Circuit%20tutorial",
+  "solved_count": 2024,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P784E",
+  "hydro_meta": {
+    "page_title": "Twisted Circuit - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "brute force",
+      "implementation",
+      "*2000"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

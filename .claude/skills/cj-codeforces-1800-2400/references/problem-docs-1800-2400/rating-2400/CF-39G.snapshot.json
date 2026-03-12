@@ -1,0 +1,29 @@
+{
+  "id": "CF-39G",
+  "contest_id": 39,
+  "index": "G",
+  "name": "Inverse Function",
+  "rating": 2400,
+  "tags": [
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/39/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/39/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/39/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=39G%20Inverse Function%20tutorial",
+  "solved_count": 158,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P39G",
+  "hydro_meta": {
+    "page_title": "Inverse Function - 题目详情 - Hydro",
+    "hydro_tags": [
+      "implementation",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "64MiB"
+  }
+}

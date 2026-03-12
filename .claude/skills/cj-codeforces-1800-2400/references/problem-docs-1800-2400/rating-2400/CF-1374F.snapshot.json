@@ -1,0 +1,37 @@
+{
+  "id": "CF-1374F",
+  "contest_id": 1374,
+  "index": "F",
+  "name": "Cyclic Shifts Sorting",
+  "rating": 2400,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "implementation",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1374/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1374/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1374/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1374F%20Cyclic Shifts Sorting%20tutorial",
+  "solved_count": 1386,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1374F",
+  "hydro_meta": {
+    "page_title": "Cyclic Shifts Sorting - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "sortings",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

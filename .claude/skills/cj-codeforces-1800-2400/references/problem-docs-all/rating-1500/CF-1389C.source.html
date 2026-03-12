@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414514:iuSEgYqVzju6qdPDui/m10OcFyTdhF8DaSXIIMRMAk4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1389C Good String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1389C","type":"CF","title":"Good String","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":604,"totalAccepted":262,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Good String","background":null,"description":"\u6211\u4eec\u79f0\u4e00\u4e2a\u5b57\u7b26\u4e32 $t_1 t_2 t_3 \\dots t_{n-1} t_n$ \u7684\u5de6\u5faa\u73af\u79fb\u4f4d\u4e3a $t_2 t_3 \\dots t_{n-1} t_n t_1$\u3002\n\n\u7c7b\u4f3c\u5730\uff0c\u6211\u4eec\u79f0\u5b57\u7b26\u4e32 $t$ \u7684\u53f3\u5faa\u73af\u79fb\u4f4d\u4e3a $t_n t_1 t_2 t_3 \\dots t_{n-1}$\u3002\n\n\u5982\u679c\u5b57\u7b26\u4e32 $t$ \u7684\u5de6\u5faa\u73af\u79fb\u4f4d\u7b49\u4e8e\u5176\u53f3\u5faa\u73af\u79fb\u4f4d\uff0c\u6211\u4eec\u79f0\u5b57\u7b26\u4e32 $t$ \u662f\u201c\u597d\u201d\u7684\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u53ea\u5305\u542b\u6570\u5b57 $0$\u2013$9$ \u7684\u5b57\u7b26\u4e32 $s$\u3002\n\n\u4f60\u9700\u8981\u6c42\u51fa\u6700\u5c11\u9700\u8981\u4ece $s$ \u4e2d\u5220\u9664\u591a\u5c11\u4e2a\u5b57\u7b26\uff0c\u4f7f\u5f97\u5269\u4e0b\u7684\u5b57\u7b26\u4e32\u662f\u201c\u597d\u201d\u7684\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\uff08$2 \\le |s| \\le 2 \\cdot 10^5$\uff09\u3002\u6bcf\u4e2a\u5b57\u7b26 $s_i$ \u662f\u6570\u5b57 $0$\u2013$9$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u5b57\u7b26\u4e32\u7684\u603b\u957f\u5ea6\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u5c11\u9700\u8981\u5220\u9664\u591a\u5c11\u4e2a\u5b57\u7b26\u624d\u80fd\u4f7f\u5b57\u7b26\u4e32\u53d8\u4e3a\u201c\u597d\u201d\u7684\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u5220\u9664\u4efb\u610f $3$ \u4e2a\u5b57\u7b26\uff0c\u4f8b\u5982\u7b2c $1$\u3001\u7b2c $3$ \u548c\u7b2c $4$ \u4e2a\u5b57\u7b26\u3002\u5269\u4e0b\u7684\u5b57\u7b26\u4e32\u4e3a 51\uff0c\u5b83\u662f\u201c\u597d\u201d\u7684\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6211\u4eec\u53ef\u4ee5\u5220\u9664\u9664 0 \u4ee5\u5916\u7684\u6240\u6709\u5b57\u7b26\uff0c\u5269\u4e0b\u7684\u5b57\u7b26\u4e32\u4e3a 0000\uff0c\u5b83\u662f\u201c\u597d\u201d\u7684\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u7ed9\u5b9a\u7684\u5b57\u7b26\u4e32 $s$ \u5df2\u7ecf\u662f\u201c\u597d\u201d\u7684\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Good String","background":"","description":"Let\u0027s call left cyclic shift of some string $ t_1 t_2 t_3 \\dots t_{n - 1} t_n $ as string $ t_2 t_3 \\dots t_{n - 1} t_n t_1 $ .\n\nAnalogically, let\u0027s call right cyclic shift of string $ t $ as string $ t_n t_1 t_2       t_3 \\dots t_{n - 1} $ .\n\nLet\u0027s say string $ t $ is good if its left cyclic shift is equal to its right cyclic shift.\n\nYou are given string $ s $ which consists of digits 0\u20139.\n\nWhat is the minimum number of characters you need to erase from $ s $ to make it good?","formatI":"The first line contains single integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases.\n\nNext $ t $ lines contains test cases \u2014 one per line. The first and only line of each test case contains string $ s $ ( $ 2 \\le       |s| \\le 2 \\cdot 10^5 $ ). Each character $ s_i $ is digit 0\u20139.\n\nIt\u0027s guaranteed that the total length of strings doesn\u0027t exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, print the minimum number of characters you need to erase from $ s $ to make it good.","hint":"In the first test case, you can erase any $ 3 $ characters, for example, the $ 1 $ -st, the $ 3 $ -rd, and the $ 4 $ -th. You\u0027ll get string 51 and it is good.\n\nIn the second test case, we can erase all characters except 0: the remaining string is 0000 and it\u0027s good.\n\nIn the third test case, the given string $ s $ is already good.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n95831\n100120013\n252525252525","3\n5\n0"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1389C","link":"https:\/\/codeforces.com\/problemset\/problem\/1389\/C"},"translation":"\u5bf9\u4e8e\u4e00\u4e2a\u5b57\u7b26\u4e32 $t_1,t_2,\\cdots,t_n$\uff0c\n\n\u6211\u4eec\u5b9a\u4e49\u5b83\u7684\u53f3\u79fb\u4e3a $t_n,t_1,\\cdots,t_{n-1}$\uff1b\n\n\u6211\u4eec\u5b9a\u4e49\u5b83\u7684\u5de6\u79fb\u4e3a $t_2,t_3,\\cdots,t_{1}$\u3002\n\n\u73b0\u5728\u8bf7\u95ee\u5bf9\u4e8e\u7ed9\u51fa\u7684\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u6700\u5c11\u5220\u6389\u591a\u5c11\u4e2a\u5b57\u7b26\u624d\u80fd\u662f\u8fd9\u4e2a\u5b57\u7b26\u4e32\u7684\u5de6\u79fb\u548c\u53f3\u79fb\u5b8c\u5168\u76f8\u540c\uff1f\n\n**\u6ce8\u610f\uff1a\u9898\u76ee\u4fdd\u8bc1\u5b57\u7b26\u4e32\u4e2d\u7684\u6240\u6709\u5b57\u7b26\u90fd\u662f\u6570\u5b57\uff0c$t_x \\in [\\mathtt{0},\\mathtt{1},\\cdots,\\mathtt{9}]$**"},"translations":{"en":{"name":"Good String","background":"","description":"Let\u0027s call left cyclic shift of some string $ t_1 t_2 t_3 \\dots t_{n - 1} t_n $ as string $ t_2 t_3 \\dots t_{n - 1} t_n t_1 $ .\n\nAnalogically, let\u0027s call right cyclic shift of string $ t $ as string $ t_n t_1 t_2       t_3 \\dots t_{n - 1} $ .\n\nLet\u0027s say string $ t $ is good if its left cyclic shift is equal to its right cyclic shift.\n\nYou are given string $ s $ which consists of digits 0\u20139.\n\nWhat is the minimum number of characters you need to erase from $ s $ to make it good?","formatI":"The first line contains single integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases.\n\nNext $ t $ lines contains test cases \u2014 one per line. The first and only line of each test case contains string $ s $ ( $ 2 \\le       |s| \\le 2 \\cdot 10^5 $ ). Each character $ s_i $ is digit 0\u20139.\n\nIt\u0027s guaranteed that the total length of strings doesn\u0027t exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, print the minimum number of characters you need to erase from $ s $ to make it good.","hint":"In the first test case, you can erase any $ 3 $ characters, for example, the $ 1 $ -st, the $ 3 $ -rd, and the $ 4 $ -th. You\u0027ll get string 51 and it is good.\n\nIn the second test case, we can erase all characters except 0: the remaining string is 0000 and it\u0027s good.\n\nIn the third test case, the given string $ s $ is already good.","locale":"en"},"zh-CN":{"name":"Good String","background":null,"description":"\u6211\u4eec\u79f0\u4e00\u4e2a\u5b57\u7b26\u4e32 $t_1 t_2 t_3 \\dots t_{n-1} t_n$ \u7684\u5de6\u5faa\u73af\u79fb\u4f4d\u4e3a $t_2 t_3 \\dots t_{n-1} t_n t_1$\u3002\n\n\u7c7b\u4f3c\u5730\uff0c\u6211\u4eec\u79f0\u5b57\u7b26\u4e32 $t$ \u7684\u53f3\u5faa\u73af\u79fb\u4f4d\u4e3a $t_n t_1 t_2 t_3 \\dots t_{n-1}$\u3002\n\n\u5982\u679c\u5b57\u7b26\u4e32 $t$ \u7684\u5de6\u5faa\u73af\u79fb\u4f4d\u7b49\u4e8e\u5176\u53f3\u5faa\u73af\u79fb\u4f4d\uff0c\u6211\u4eec\u79f0\u5b57\u7b26\u4e32 $t$ \u662f\u201c\u597d\u201d\u7684\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u53ea\u5305\u542b\u6570\u5b57 $0$\u2013$9$ \u7684\u5b57\u7b26\u4e32 $s$\u3002\n\n\u4f60\u9700\u8981\u6c42\u51fa\u6700\u5c11\u9700\u8981\u4ece $s$ \u4e2d\u5220\u9664\u591a\u5c11\u4e2a\u5b57\u7b26\uff0c\u4f7f\u5f97\u5269\u4e0b\u7684\u5b57\u7b26\u4e32\u662f\u201c\u597d\u201d\u7684\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\uff08$2 \\le |s| \\le 2 \\cdot 10^5$\uff09\u3002\u6bcf\u4e2a\u5b57\u7b26 $s_i$ \u662f\u6570\u5b57 $0$\u2013$9$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u5b57\u7b26\u4e32\u7684\u603b\u957f\u5ea6\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u5c11\u9700\u8981\u5220\u9664\u591a\u5c11\u4e2a\u5b57\u7b26\u624d\u80fd\u4f7f\u5b57\u7b26\u4e32\u53d8\u4e3a\u201c\u597d\u201d\u7684\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u5220\u9664\u4efb\u610f $3$ \u4e2a\u5b57\u7b26\uff0c\u4f8b\u5982\u7b2c $1$\u3001\u7b2c $3$ \u548c\u7b2c $4$ \u4e2a\u5b57\u7b26\u3002\u5269\u4e0b\u7684\u5b57\u7b26\u4e32\u4e3a 51\uff0c\u5b83\u662f\u201c\u597d\u201d\u7684\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6211\u4eec\u53ef\u4ee5\u5220\u9664\u9664 0 \u4ee5\u5916\u7684\u6240\u6709\u5b57\u7b26\uff0c\u5269\u4e0b\u7684\u5b57\u7b26\u4e32\u4e3a 0000\uff0c\u5b83\u662f\u201c\u597d\u201d\u7684\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u7ed9\u5b9a\u7684\u5b57\u7b26\u4e32 $s$ \u5df2\u7ecf\u662f\u201c\u597d\u201d\u7684\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1389C Good String","type":2,"slug":"CF1389C","color":"orange-3"},"discussions":[{"id":464761,"title":"\u7384\u5b66WA\u7b2c\u4e8c\u4e2a\u70b9\u6c42\u8c03","author":{"uid":590864,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/590864.png","name":"Yizhixiaoyun","slogan":"AFOed on 2023\/10\/21","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/5ttcvkbu.png"},"time":1658579206}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328113.964554,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1389C Good String","description":"\u6211\u4eec\u79f0\u4e00\u4e2a\u5b57\u7b26\u4e32 t_1 t_2 t_3 \\dots t_{n-1} t_n \u7684\u5de6\u5faa\u73af\u79fb\u4f4d\u4e3a t_2 t_3 \\dots t_{n-1} t_n t_1\u3002\n\u7c7b\u4f3c\u5730\uff0c\u6211\u4eec\u79f0\u5b57\u7b26\u4e32 t \u7684\u53f3\u5faa\u73af\u79fb\u4f4d\u4e3a t_n t_1 t_2 t_3 \\dots\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1389C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1389C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1389C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1389C Good String" />
+    <meta property="og:description" content="我们称一个字符串 t_1 t_2 t_3 \dots t_{n-1} t_n 的左循环移位为 t_2 t_3 \dots t_{n-1} t_n t_1。
+类似地，我们称字符串 t 的右循环移位为 t_n t_1 t_2 t_3 \dots…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1389C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1389C Good String</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    我们称一个字符串 $t_1 t_2 t_3 \dots t_{n-1} t_n$ 的左循环移位为 $t_2 t_3 \dots t_{n-1} t_n t_1$。
+
+类似地，我们称字符串 $t$ 的右循环移位为 $t_n t_1 t_2 t_3 \dots t_{n-1}$。
+
+如果字符串 $t$ 的左循环移位等于其右循环移位，我们称字符串 $t$ 是“好”的。
+
+给定一个只包含数字 $0$–$9$ 的字符串 $s$。
+
+你需要求出最少需要从 $s$ 中删除多少个字符，使得剩下的字符串是“好”的。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 1000$），表示测试用例的数量。
+
+接下来的 $t$ 行，每行一个测试用例。每个测试用例包含一个字符串 $s$（$2 \le |s| \le 2 \cdot 10^5$）。每个字符 $s_i$ 是数字 $0$–$9$。
+
+保证所有字符串的总长度不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示最少需要删除多少个字符才能使字符串变为“好”的。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，你可以删除任意 $3$ 个字符，例如第 $1$、第 $3$ 和第 $4$ 个字符。剩下的字符串为 51，它是“好”的。
+
+在第二个测试用例中，我们可以删除除 0 以外的所有字符，剩下的字符串为 0000，它是“好”的。
+
+在第三个测试用例中，给定的字符串 $s$ 已经是“好”的。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

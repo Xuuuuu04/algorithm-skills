@@ -1,0 +1,30 @@
+{
+  "id": "CF-1765N",
+  "contest_id": 1765,
+  "index": "N",
+  "name": "Number Reduction",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 5921,
+  "problem_url": "https://codeforces.com/problemset/problem/1765/N",
+  "answer_index_url": "https://codeforces.com/problemset/status/1765/problem/N",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1765/problem/N?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1765N%20Number%20Reduction%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1765N",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Number Reduction - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

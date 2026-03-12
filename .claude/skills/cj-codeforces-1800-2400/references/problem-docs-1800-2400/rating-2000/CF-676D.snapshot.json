@@ -1,0 +1,35 @@
+{
+  "id": "CF-676D",
+  "contest_id": 676,
+  "index": "D",
+  "name": "Theseus and labyrinth",
+  "rating": 2000,
+  "tags": [
+    "graphs",
+    "implementation",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/676/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/676/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/676/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=676D%20Theseus and labyrinth%20tutorial",
+  "solved_count": 1950,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P676D",
+  "hydro_meta": {
+    "page_title": "Theseus and labyrinth - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graphs",
+      "implementation",
+      "shortest paths",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

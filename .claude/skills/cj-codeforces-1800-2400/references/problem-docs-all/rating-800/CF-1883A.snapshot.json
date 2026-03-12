@@ -1,0 +1,27 @@
+{
+  "id": "CF-1883A",
+  "contest_id": 1883,
+  "index": "A",
+  "name": "Morning",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 28926,
+  "problem_url": "https://codeforces.com/problemset/problem/1883/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1883/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1883/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1883A%20Morning%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1883A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1883A Morning - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 249,
+    "mirror_attempt": 384,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

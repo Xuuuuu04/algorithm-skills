@@ -1,0 +1,38 @@
+{
+  "id": "CF-1213G",
+  "contest_id": 1213,
+  "index": "G",
+  "name": "Path Queries",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "divide and conquer",
+    "dsu",
+    "graphs",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 9244,
+  "problem_url": "https://codeforces.com/problemset/problem/1213/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1213/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1213/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1213G%20Path%20Queries%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1213G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Path Queries - 题目详情 - Hydro",
+    "mirror_tags": [
+      "divide and conquer",
+      "dsu",
+      "graphs",
+      "sortings",
+      "trees",
+      "*1800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

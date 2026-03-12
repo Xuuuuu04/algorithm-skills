@@ -1,0 +1,41 @@
+{
+  "id": "CF-1852B",
+  "contest_id": 1852,
+  "index": "B",
+  "name": "Imbalanced Arrays",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "greedy",
+    "math",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1852/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1852/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1852/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1852B%20Imbalanced Arrays%20tutorial",
+  "solved_count": 5401,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1852B",
+  "hydro_meta": {
+    "page_title": "Imbalanced Arrays - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "two pointers"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

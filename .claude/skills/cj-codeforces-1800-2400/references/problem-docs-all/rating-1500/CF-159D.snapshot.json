@@ -1,0 +1,36 @@
+{
+  "id": "CF-159D",
+  "contest_id": 159,
+  "index": "D",
+  "name": "Palindrome pairs",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "*special",
+    "brute force",
+    "dp",
+    "strings"
+  ],
+  "solved_count": 4656,
+  "problem_url": "https://codeforces.com/problemset/problem/159/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/159/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/159/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=159D%20Palindrome%20pairs%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P159D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Palindrome pairs - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "brute force",
+      "dp",
+      "strings",
+      "*1500"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 5,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

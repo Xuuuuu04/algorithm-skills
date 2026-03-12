@@ -1,0 +1,28 @@
+{
+  "id": "CF-2B",
+  "contest_id": 2,
+  "index": "B",
+  "name": "The least round way",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "math"
+  ],
+  "solved_count": 12750,
+  "problem_url": "https://codeforces.com/problemset/problem/2/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2B%20The%20least%20round%20way%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2B The least round way - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1822,
+    "mirror_attempt": 8630,
+    "time_limit": "2000 ms",
+    "memory_limit": "64000 KB"
+  }
+}

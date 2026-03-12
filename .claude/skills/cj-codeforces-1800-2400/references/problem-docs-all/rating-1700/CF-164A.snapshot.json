@@ -1,0 +1,32 @@
+{
+  "id": "CF-164A",
+  "contest_id": 164,
+  "index": "A",
+  "name": "Variable, or There and Back Again",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 1180,
+  "problem_url": "https://codeforces.com/problemset/problem/164/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/164/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/164/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=164A%20Variable%2C%20or%20There%20and%20Back%20Again%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P164A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Variable, or There and Back Again - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "graphs",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

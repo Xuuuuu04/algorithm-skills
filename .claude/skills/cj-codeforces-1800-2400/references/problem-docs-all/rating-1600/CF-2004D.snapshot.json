@@ -1,0 +1,33 @@
+{
+  "id": "CF-2004D",
+  "contest_id": 2004,
+  "index": "D",
+  "name": "Colored Portals",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "graphs",
+    "greedy",
+    "implementation",
+    "shortest paths"
+  ],
+  "solved_count": 13027,
+  "problem_url": "https://codeforces.com/problemset/problem/2004/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2004/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2004/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2004D%20Colored%20Portals%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2004/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2004D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

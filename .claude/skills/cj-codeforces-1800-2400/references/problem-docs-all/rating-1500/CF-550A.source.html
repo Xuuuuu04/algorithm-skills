@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF550A Two Substrings - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF550A","type":"CF","title":"Two Substrings","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":858,"totalAccepted":251,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Two Substrings","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\u3002\u4f60\u7684\u4efb\u52a1\u662f\u5224\u65ad\u5b57\u7b26\u4e32 $s$ \u662f\u5426\u5305\u542b\u4e24\u4e2a\u4e0d\u91cd\u53e0\u7684\u5b50\u4e32 \u0022AB\u0022 \u548c \u0022BA\u0022\uff08\u8fd9\u4e24\u4e2a\u5b50\u4e32\u7684\u51fa\u73b0\u987a\u5e8f\u53ef\u4ee5\u4efb\u610f\uff09\u3002","formatI":"\u8f93\u5165\u4ec5\u4e00\u884c\uff0c\u4e00\u4e2a\u957f\u5ea6\u5728 $1$ \u5230 $10^{5}$ \u4e4b\u95f4\u3001\u4ec5\u7531\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u5982\u679c\u5b57\u7b26\u4e32 $s$ \u5305\u542b\u4e24\u4e2a\u4e0d\u91cd\u53e0\u7684\u5b50\u4e32 \u0022AB\u0022 \u548c \u0022BA\u0022\uff0c\u8f93\u51fa \u0022YES\u0022\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\uff1b\u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u6d4b\u8bd5\u4e2d\uff0c\u867d\u7136\u5b58\u5728\u5b50\u4e32 \u0022AB\u0022 \u548c \u0022BA\u0022\uff0c\u4f46\u5b83\u4eec\u7684\u4f4d\u7f6e\u6709\u91cd\u53e0\uff0c\u6240\u4ee5\u7b54\u6848\u662f \u0022NO\u0022\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u6d4b\u8bd5\u4e2d\uff0c\u5b58\u5728\u4ee5\u4e0b\u5b50\u4e32\uff1a\u0022BACFAB\u0022\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u6d4b\u8bd5\u4e2d\uff0c\u4e0d\u5b58\u5728 \u0022AB\u0022 \u6216 \u0022BA\u0022 \u5b50\u4e32\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Two Substrings","background":"","description":"You are given string $ s $ . Your task is to determine if the given string $ s $ contains two non-overlapping substrings \u0022AB\u0022 and \u0022BA\u0022 (the substrings can go in any order).","formatI":"The only line of input contains a string $ s $ of length between $ 1 $ and $ 10^{5} $ consisting of uppercase Latin letters.","formatO":"Print \u0022YES\u0022 (without the quotes), if string $ s $ contains two non-overlapping substrings \u0022AB\u0022 and \u0022BA\u0022, and \u0022NO\u0022 otherwise.","hint":"In the first sample test, despite the fact that there are substrings \u0022AB\u0022 and \u0022BA\u0022, their occurrences overlap, so the answer is \u0022NO\u0022.\n\nIn the second sample test there are the following occurrences of the substrings: BACFAB.\n\nIn the third sample test there is no substring \u0022AB\u0022 nor substring \u0022BA\u0022.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["ABA\n","NO\n"],["BACFAB\n","YES\n"],["AXBYBXA\n","NO\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"550A","link":"https:\/\/codeforces.com\/problemset\/problem\/550\/A"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32 $S$\uff08$1 \\leq |S| \\leq 10^4$\uff09\uff0c\u5224\u65ad $S$ \u4e2d\u662f\u5426\u6709\u4e0d\u76f8\u4ea4\u7684 $BA$\uff0c$AB$ \u8fd9\u4e24\u4e2a\u5b50\u4e32\u3002\u5982\u679c\u5b58\u5728\uff0c\u8f93\u51fa `Yes`\uff0c\u5426\u5219\u8f93\u51fa `No`\u3002"},"translations":{"en":{"name":"Two Substrings","background":"","description":"You are given string $ s $ . Your task is to determine if the given string $ s $ contains two non-overlapping substrings \u0022AB\u0022 and \u0022BA\u0022 (the substrings can go in any order).","formatI":"The only line of input contains a string $ s $ of length between $ 1 $ and $ 10^{5} $ consisting of uppercase Latin letters.","formatO":"Print \u0022YES\u0022 (without the quotes), if string $ s $ contains two non-overlapping substrings \u0022AB\u0022 and \u0022BA\u0022, and \u0022NO\u0022 otherwise.","hint":"In the first sample test, despite the fact that there are substrings \u0022AB\u0022 and \u0022BA\u0022, their occurrences overlap, so the answer is \u0022NO\u0022.\n\nIn the second sample test there are the following occurrences of the substrings: BACFAB.\n\nIn the third sample test there is no substring \u0022AB\u0022 nor substring \u0022BA\u0022.","locale":"en"},"zh-CN":{"name":"Two Substrings","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\u3002\u4f60\u7684\u4efb\u52a1\u662f\u5224\u65ad\u5b57\u7b26\u4e32 $s$ \u662f\u5426\u5305\u542b\u4e24\u4e2a\u4e0d\u91cd\u53e0\u7684\u5b50\u4e32 \u0022AB\u0022 \u548c \u0022BA\u0022\uff08\u8fd9\u4e24\u4e2a\u5b50\u4e32\u7684\u51fa\u73b0\u987a\u5e8f\u53ef\u4ee5\u4efb\u610f\uff09\u3002","formatI":"\u8f93\u5165\u4ec5\u4e00\u884c\uff0c\u4e00\u4e2a\u957f\u5ea6\u5728 $1$ \u5230 $10^{5}$ \u4e4b\u95f4\u3001\u4ec5\u7531\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u5982\u679c\u5b57\u7b26\u4e32 $s$ \u5305\u542b\u4e24\u4e2a\u4e0d\u91cd\u53e0\u7684\u5b50\u4e32 \u0022AB\u0022 \u548c \u0022BA\u0022\uff0c\u8f93\u51fa \u0022YES\u0022\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\uff1b\u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u6d4b\u8bd5\u4e2d\uff0c\u867d\u7136\u5b58\u5728\u5b50\u4e32 \u0022AB\u0022 \u548c \u0022BA\u0022\uff0c\u4f46\u5b83\u4eec\u7684\u4f4d\u7f6e\u6709\u91cd\u53e0\uff0c\u6240\u4ee5\u7b54\u6848\u662f \u0022NO\u0022\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u6d4b\u8bd5\u4e2d\uff0c\u5b58\u5728\u4ee5\u4e0b\u5b50\u4e32\uff1a\u0022BACFAB\u0022\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u6d4b\u8bd5\u4e2d\uff0c\u4e0d\u5b58\u5728 \u0022AB\u0022 \u6216 \u0022BA\u0022 \u5b50\u4e32\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF550A Two Substrings","type":2,"slug":"CF550A","color":"orange-3"},"discussions":[{"id":339021,"title":"\u9898\u9762\u9519\u8bef","author":{"uid":326452,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/326452.png","name":"Fearliciz","slogan":"_I\u00b0Fear","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/srdeuu8p.png"},"time":1628647650},{"id":239865,"title":"\u7ffb\u8bd1\u6709\u95ee\u9898","author":{"uid":306443,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/306443.png","name":"\u5085\u5929\u5b87","slogan":"sxyz200404fty","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1595462171},{"id":117752,"title":"\u9898\u9762\u7ffb\u8bd1\u6709\u8bef","author":{"uid":181473,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/181473.png","name":"neil021110","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1559965699},{"id":58484,"title":"\u4f60\u4eec\u600e\u4e48\u505a\u7684\u554a\uff0c\u6211\u505a\u4e0d\u51fa\u6765QWQ","author":{"uid":68163,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/68163.png","name":"LinAPro","slogan":"\u65f6\u95f4\u5df2\u53bb\uff0c\u65af\u4eba\u957f\u5b58","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1534765825},{"id":58477,"title":"\u7ffb\u8bd1(\u7ea2\u9898)","author":{"uid":68163,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/68163.png","name":"LinAPro","slogan":"\u65f6\u95f4\u5df2\u53bb\uff0c\u65af\u4eba\u957f\u5b58","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1534765024}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.512727,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF550A Two Substrings","description":"\u7ed9\u5b9a\u4e00\u4e2a\u5b57\u7b26\u4e32 s\u3002\u4f60\u7684\u4efb\u52a1\u662f\u5224\u65ad\u5b57\u7b26\u4e32 s \u662f\u5426\u5305\u542b\u4e24\u4e2a\u4e0d\u91cd\u53e0\u7684\u5b50\u4e32 &quot;AB&quot; \u548c &quot;BA&quot;\uff08\u8fd9\u4e24\u4e2a\u5b50\u4e32\u7684\u51fa\u73b0\u987a\u5e8f\u53ef\u4ee5\u4efb\u610f\uff09\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF550A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF550A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF550A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF550A Two Substrings" />
+    <meta property="og:description" content="给定一个字符串 s。你的任务是判断字符串 s 是否包含两个不重叠的子串 &amp;quot;AB&amp;quot; 和 &amp;quot;BA&amp;quot;（这两个子串的出现顺序可以任意）。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF550A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF550A Two Substrings</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个字符串 $s$。你的任务是判断字符串 $s$ 是否包含两个不重叠的子串 "AB" 和 "BA"（这两个子串的出现顺序可以任意）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入仅一行，一个长度在 $1$ 到 $10^{5}$ 之间、仅由大写拉丁字母组成的字符串 $s$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    如果字符串 $s$ 包含两个不重叠的子串 "AB" 和 "BA"，输出 "YES"（不带引号）；否则输出 "NO"。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例测试中，虽然存在子串 "AB" 和 "BA"，但它们的位置有重叠，所以答案是 "NO"。
+
+在第二个样例测试中，存在以下子串："BACFAB"。
+
+在第三个样例测试中，不存在 "AB" 或 "BA" 子串。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

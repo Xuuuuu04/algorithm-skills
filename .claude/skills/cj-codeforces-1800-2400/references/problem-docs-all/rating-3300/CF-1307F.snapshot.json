@@ -1,0 +1,34 @@
+{
+  "id": "CF-1307F",
+  "contest_id": 1307,
+  "index": "F",
+  "name": "Cow and Vacation",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "trees"
+  ],
+  "solved_count": 664,
+  "problem_url": "https://codeforces.com/problemset/problem/1307/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1307/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1307/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1307F%20Cow%20and%20Vacation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1307F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cow and Vacation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dsu",
+      "trees",
+      "*3300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

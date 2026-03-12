@@ -1,0 +1,34 @@
+{
+  "id": "CF-44J",
+  "contest_id": 44,
+  "index": "J",
+  "name": "Triminoes",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/44/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/44/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/44/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=44J%20Triminoes%20tutorial",
+  "solved_count": 612,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P44J",
+  "hydro_meta": {
+    "page_title": "Triminoes - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

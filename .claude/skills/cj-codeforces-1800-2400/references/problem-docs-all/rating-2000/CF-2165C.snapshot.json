@@ -1,0 +1,29 @@
+{
+  "id": "CF-2165C",
+  "contest_id": 2165,
+  "index": "C",
+  "name": "Binary Wine",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "bitmasks",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 3275,
+  "problem_url": "https://codeforces.com/problemset/problem/2165/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2165/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2165/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2165C%20Binary%20Wine%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2165/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2165C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

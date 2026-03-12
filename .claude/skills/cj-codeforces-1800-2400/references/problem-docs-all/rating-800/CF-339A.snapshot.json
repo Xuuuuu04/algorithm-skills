@@ -1,0 +1,30 @@
+{
+  "id": "CF-339A",
+  "contest_id": 339,
+  "index": "A",
+  "name": "Helpful Maths",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "sortings",
+    "strings"
+  ],
+  "solved_count": 268329,
+  "problem_url": "https://codeforces.com/problemset/problem/339/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/339/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/339/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=339A%20Helpful%20Maths%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF339A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF339A Helpful Maths - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1066,
+    "mirror_attempt": 1974,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CF-228E",
+  "contest_id": 228,
+  "index": "E",
+  "name": "The Road to Berland is Paved With Good Intentions",
+  "rating": 1900,
+  "tags": [
+    "2-sat",
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/228/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/228/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/228/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=228E%20The Road to Berland is Paved With Good Intentions%20tutorial",
+  "solved_count": 2792,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P228E",
+  "hydro_meta": {
+    "page_title": "The Road to Berland is Paved With Good Intentions - 题目详情 - Hydro",
+    "hydro_tags": [
+      "2-sat",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*1900"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

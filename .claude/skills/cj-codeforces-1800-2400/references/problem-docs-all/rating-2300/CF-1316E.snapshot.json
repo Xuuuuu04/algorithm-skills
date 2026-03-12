@@ -1,0 +1,36 @@
+{
+  "id": "CF-1316E",
+  "contest_id": 1316,
+  "index": "E",
+  "name": "Team Building",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 5242,
+  "problem_url": "https://codeforces.com/problemset/problem/1316/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1316/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1316/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1316E%20Team%20Building%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1316E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Team Building - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "dp",
+      "greedy",
+      "sortings",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

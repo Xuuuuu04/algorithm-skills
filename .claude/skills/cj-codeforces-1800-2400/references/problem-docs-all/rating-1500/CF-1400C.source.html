@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1400C Binary String Reconstruction - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1400C","type":"CF","title":"Binary String Reconstruction","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":376,"totalAccepted":198,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Binary String Reconstruction","background":null,"description":"\u8003\u8651\u5982\u4e0b\u8fc7\u7a0b\u3002\u4f60\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\uff08\u5373\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f $0$ \u6216 $1$\uff09$w$\uff0c\u4ee5\u53ca\u4e00\u4e2a\u6574\u6570 $x$\u3002\u4f60\u9700\u8981\u6784\u9020\u4e00\u4e2a\u65b0\u7684\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002$s$ \u7684\u7b2c $i$ \u4e2a\u5b57\u7b26\u7684\u9009\u62e9\u65b9\u5f0f\u5982\u4e0b\uff1a\n\n- \u5982\u679c $w_{i-x}$ \u5b58\u5728\u4e14\u7b49\u4e8e $1$\uff0c\u90a3\u4e48 $s_i$ \u4e3a $1$\uff08\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5982\u679c $i \u003E x$ \u4e14 $w_{i-x} = 1$\uff0c\u5219 $s_i = 1$\uff09\uff1b\n- \u5982\u679c $w_{i+x}$ \u5b58\u5728\u4e14\u7b49\u4e8e $1$\uff0c\u90a3\u4e48 $s_i$ \u4e3a $1$\uff08\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5982\u679c $i + x \\le n$ \u4e14 $w_{i+x} = 1$\uff0c\u5219 $s_i = 1$\uff09\uff1b\n- \u5982\u679c\u4e0a\u8ff0\u4e24\u4e2a\u6761\u4ef6\u90fd\u4e0d\u6210\u7acb\uff0c\u5219 $s_i$ \u4e3a $0$\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u6574\u6570 $x$ \u548c\u6700\u7ec8\u5f97\u5230\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u8bf7\u4f60\u8fd8\u539f\u539f\u59cb\u5b57\u7b26\u4e32 $w$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e24\u884c\u3002\u7b2c\u4e00\u884c\u662f\u7ed3\u679c\u5b57\u7b26\u4e32 $s$\uff08$2 \\le |s| \\le 10^5$\uff0c$s$ \u7684\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f $0$ \u6216 $1$\uff09\u3002\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $x$\uff08$1 \\le x \\le |s| - 1$\uff09\u3002\n\n\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d\u6240\u6709\u5b57\u7b26\u4e32 $s$ \u7684\u603b\u957f\u5ea6\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\uff1a\n\n- \u5982\u679c\u4e0d\u5b58\u5728\u4efb\u4f55\u5b57\u7b26\u4e32 $w$ \u80fd\u5728\u4e0a\u8ff0\u8fc7\u7a0b\u4e2d\u751f\u6210\u5b57\u7b26\u4e32 $s$\uff0c\u8f93\u51fa $-1$\uff1b\n- \u5426\u5219\uff0c\u8f93\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $|s|$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $w$\u3002\u5982\u679c\u6709\u591a\u79cd\u7b54\u6848\uff0c\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Binary String Reconstruction","background":"","description":"Consider the following process. You have a binary string (a string where each character is either 0 or 1) $ w $ of length $ n $ and an integer $ x $ . You build a new binary string $ s $ consisting of $ n $ characters. The $ i $ -th character of $ s $ is chosen as follows:\n\n- if the character $ w_{i-x} $ exists and is equal to 1, then $ s_i $ is 1 (formally, if $ i         \u003E x $ and $ w_{i-x} =  $ 1, then $ s_i =  $ 1);\n- if the character $ w_{i+x} $ exists and is equal to 1, then $ s_i $ is 1 (formally, if $ i + x \\le         n $ and $ w_{i+x} =  $ 1, then $ s_i =  $ 1);\n- if both of the aforementioned conditions are false, then $ s_i $ is 0.\n\nYou are given the integer $ x $ and the resulting string $ s $ . Reconstruct the original string $ w $ .","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines. The first line contains the resulting string $ s $ ( $ 2 \\le |s| \\le 10^5 $ , each character of $ s $ is either 0 or 1). The second line contains one integer $ x $ ( $ 1 \\le x \\le |s| - 1 $ ).\n\nThe total length of all strings $ s $ in the input does not exceed $ 10^5 $ .","formatO":"For each test case, print the answer on a separate line as follows:\n\n- if no string $ w $ can produce the string $ s $ at the end of the process, print $ -1 $ ;\n- otherwise, print the binary string $ w $ consisting of $ |s| $ characters. If there are multiple answers, print any of them.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n101110\n2\n01\n1\n110\n1","111011\n10\n-1"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1400C","link":"https:\/\/codeforces.com\/problemset\/problem\/1400\/C"},"translation":"\u7ed9\u51fa\u4e00\u79cd01\u4e32\u7684\u53d8\u6362\u65b9\u6cd5\u53ca\u5bf9\u4e00\u4e2a\u4e32\u53d8\u6362\u540e\u7684\u7ed3\u679c\u4e32\uff0c\u6c42\u51fa\u539f\u4e32\uff08\u53ef\u4ee5\u6709\u591a\u79cd\uff09\uff0c\u591a\u7ec4\u8be2\u95ee\u3002\n\n\u53d8\u6362\u65b9\u6cd5\u5982\u4e0b\uff1a\n\n\u539f\u4e32\u4e3a $w$\uff0c\u53d8\u6362\u540e\u7684\u4e32\u4e3a $s$\uff0c\u4e24\u4e32\u957f\u5ea6\u76f8\u7b49\uff1b\u7ed9\u51fa\u4e00\u4e2a\u6574\u6570 $x$\uff1b01\u4e32\u4ece\u4e0b\u6807 $1$\u00a0\u5f00\u59cb\u3002\n\n- \u5982\u679c\u539f\u4e32 $w_{i-x}$ \u8fd9\u4e00\u4f4d\u5b58\u5728\u4e14\u4e3a $\\mathbf{1}$\uff0c\u90a3\u4e48 $s_i$ \u4e3a $\\mathbf1$\uff08\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5982\u679c $i\\gt x$\u00a0\u4e14 $w_{i-x}=\\mathbf1$\uff0c\u90a3\u4e48 $s_i=\\mathbf1$\uff09\u3002\n\n- \u5982\u679c\u539f\u4e32 $w_{i+x}$ \u8fd9\u4e00\u4f4d\u5b58\u5728\u4e14\u4e3a $\\mathbf{1}$\uff0c\u90a3\u4e48 $s_i$ \u4e3a $\\mathbf1$\uff08\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5982\u679c $i+ x\\le n$ \u4e14 $w_{i+x}=\\mathbf1$\uff0c\u90a3\u4e48 $s_i=\\mathbf1$\uff09\u3002\n\n- \u5982\u679c\u4e0a\u8ff0\u4e24\u79cd\u60c5\u51b5\u5747\u4e0d\u6210\u7acb\uff0c\u90a3\u4e48 $s_i=\\mathbf0$\u3002\n\n\u7ed9\u51fa $s$\uff0c\u6c42\u51fa\u4e00\u79cd\u53ef\u80fd\u7684 $w$\uff0c\u82e5\u4e0d\u5b58\u5728\u4efb\u610f\u4e00\u79cd $w$\uff0c\u8f93\u51fa`-1`\u3002\n\n\u4fdd\u8bc1 $s$\u00a0\u7684\u603b\u957f\u5ea6\u4e0d\u8d85\u8fc7 $10^5$\uff0c$t$\uff08\u6570\u636e\u7ec4\u6570\uff09\u4e0d\u8d85\u8fc7 $1000$\u3002"},"translations":{"en":{"name":"Binary String Reconstruction","background":"","description":"Consider the following process. You have a binary string (a string where each character is either 0 or 1) $ w $ of length $ n $ and an integer $ x $ . You build a new binary string $ s $ consisting of $ n $ characters. The $ i $ -th character of $ s $ is chosen as follows:\n\n- if the character $ w_{i-x} $ exists and is equal to 1, then $ s_i $ is 1 (formally, if $ i         \u003E x $ and $ w_{i-x} =  $ 1, then $ s_i =  $ 1);\n- if the character $ w_{i+x} $ exists and is equal to 1, then $ s_i $ is 1 (formally, if $ i + x \\le         n $ and $ w_{i+x} =  $ 1, then $ s_i =  $ 1);\n- if both of the aforementioned conditions are false, then $ s_i $ is 0.\n\nYou are given the integer $ x $ and the resulting string $ s $ . Reconstruct the original string $ w $ .","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines. The first line contains the resulting string $ s $ ( $ 2 \\le |s| \\le 10^5 $ , each character of $ s $ is either 0 or 1). The second line contains one integer $ x $ ( $ 1 \\le x \\le |s| - 1 $ ).\n\nThe total length of all strings $ s $ in the input does not exceed $ 10^5 $ .","formatO":"For each test case, print the answer on a separate line as follows:\n\n- if no string $ w $ can produce the string $ s $ at the end of the process, print $ -1 $ ;\n- otherwise, print the binary string $ w $ consisting of $ |s| $ characters. If there are multiple answers, print any of them.","hint":"","locale":"en"},"zh-CN":{"name":"Binary String Reconstruction","background":null,"description":"\u8003\u8651\u5982\u4e0b\u8fc7\u7a0b\u3002\u4f60\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\uff08\u5373\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f $0$ \u6216 $1$\uff09$w$\uff0c\u4ee5\u53ca\u4e00\u4e2a\u6574\u6570 $x$\u3002\u4f60\u9700\u8981\u6784\u9020\u4e00\u4e2a\u65b0\u7684\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002$s$ \u7684\u7b2c $i$ \u4e2a\u5b57\u7b26\u7684\u9009\u62e9\u65b9\u5f0f\u5982\u4e0b\uff1a\n\n- \u5982\u679c $w_{i-x}$ \u5b58\u5728\u4e14\u7b49\u4e8e $1$\uff0c\u90a3\u4e48 $s_i$ \u4e3a $1$\uff08\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5982\u679c $i \u003E x$ \u4e14 $w_{i-x} = 1$\uff0c\u5219 $s_i = 1$\uff09\uff1b\n- \u5982\u679c $w_{i+x}$ \u5b58\u5728\u4e14\u7b49\u4e8e $1$\uff0c\u90a3\u4e48 $s_i$ \u4e3a $1$\uff08\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5982\u679c $i + x \\le n$ \u4e14 $w_{i+x} = 1$\uff0c\u5219 $s_i = 1$\uff09\uff1b\n- \u5982\u679c\u4e0a\u8ff0\u4e24\u4e2a\u6761\u4ef6\u90fd\u4e0d\u6210\u7acb\uff0c\u5219 $s_i$ \u4e3a $0$\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u6574\u6570 $x$ \u548c\u6700\u7ec8\u5f97\u5230\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u8bf7\u4f60\u8fd8\u539f\u539f\u59cb\u5b57\u7b26\u4e32 $w$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e24\u884c\u3002\u7b2c\u4e00\u884c\u662f\u7ed3\u679c\u5b57\u7b26\u4e32 $s$\uff08$2 \\le |s| \\le 10^5$\uff0c$s$ \u7684\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f $0$ \u6216 $1$\uff09\u3002\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $x$\uff08$1 \\le x \\le |s| - 1$\uff09\u3002\n\n\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d\u6240\u6709\u5b57\u7b26\u4e32 $s$ \u7684\u603b\u957f\u5ea6\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\uff1a\n\n- \u5982\u679c\u4e0d\u5b58\u5728\u4efb\u4f55\u5b57\u7b26\u4e32 $w$ \u80fd\u5728\u4e0a\u8ff0\u8fc7\u7a0b\u4e2d\u751f\u6210\u5b57\u7b26\u4e32 $s$\uff0c\u8f93\u51fa $-1$\uff1b\n- \u5426\u5219\uff0c\u8f93\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $|s|$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $w$\u3002\u5982\u679c\u6709\u591a\u79cd\u7b54\u6848\uff0c\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1400C Binary String Reconstruction","type":2,"slug":"CF1400C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.769213,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1400C Binary String Reconstruction","description":"\u8003\u8651\u5982\u4e0b\u8fc7\u7a0b\u3002\u4f60\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\uff08\u5373\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f 0 \u6216 1\uff09w\uff0c\u4ee5\u53ca\u4e00\u4e2a\u6574\u6570 x\u3002\u4f60\u9700\u8981\u6784\u9020\u4e00\u4e2a\u65b0\u7684\u957f\u5ea6\u4e3a n \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 s\u3002s \u7684\u7b2c i \u4e2a\u5b57\u7b26\u7684\u9009\u62e9\u65b9\u5f0f\u5982\u4e0b\uff1a\n\n\u5982\u679c w_{i-x} \u5b58\u5728\u4e14\u7b49\u4e8e 1\uff0c\u90a3\u4e48 s_i\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1400C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1400C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1400C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1400C Binary String Reconstruction" />
+    <meta property="og:description" content="考虑如下过程。你有一个长度为 n 的二进制字符串（即每个字符都是 0 或 1）w，以及一个整数 x。你需要构造一个新的长度为 n 的二进制字符串 s。s 的第 i 个字符的选择方式如下：
+
+如果 w_{i-x} 存在且等于 1，那么 s_i…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1400C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1400C Binary String Reconstruction</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    考虑如下过程。你有一个长度为 $n$ 的二进制字符串（即每个字符都是 $0$ 或 $1$）$w$，以及一个整数 $x$。你需要构造一个新的长度为 $n$ 的二进制字符串 $s$。$s$ 的第 $i$ 个字符的选择方式如下：
+
+- 如果 $w_{i-x}$ 存在且等于 $1$，那么 $s_i$ 为 $1$（形式化地说，如果 $i > x$ 且 $w_{i-x} = 1$，则 $s_i = 1$）；
+- 如果 $w_{i+x}$ 存在且等于 $1$，那么 $s_i$ 为 $1$（形式化地说，如果 $i + x \le n$ 且 $w_{i+x} = 1$，则 $s_i = 1$）；
+- 如果上述两个条件都不成立，则 $s_i$ 为 $0$。
+
+现在给定整数 $x$ 和最终得到的字符串 $s$，请你还原原始字符串 $w$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 1000$），表示测试用例的数量。
+
+每个测试用例包含两行。第一行是结果字符串 $s$（$2 \le |s| \le 10^5$，$s$ 的每个字符都是 $0$ 或 $1$）。第二行包含一个整数 $x$（$1 \le x \le |s| - 1$）。
+
+所有测试用例中所有字符串 $s$ 的总长度不超过 $10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一行答案：
+
+- 如果不存在任何字符串 $w$ 能在上述过程中生成字符串 $s$，输出 $-1$；
+- 否则，输出一个长度为 $|s|$ 的二进制字符串 $w$。如果有多种答案，输出其中任意一种即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

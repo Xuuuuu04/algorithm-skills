@@ -1,0 +1,39 @@
+{
+  "id": "CF-1965B",
+  "contest_id": 1965,
+  "index": "B",
+  "name": "Missing Subsequence Sum",
+  "rating": 1800,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "greedy",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1965/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1965/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1965/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1965B%20Missing Subsequence Sum%20tutorial",
+  "solved_count": 8017,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1965B",
+  "hydro_meta": {
+    "page_title": "Missing Subsequence Sum - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "number theory",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

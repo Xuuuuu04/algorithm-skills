@@ -1,0 +1,37 @@
+{
+  "id": "CF-1750E",
+  "contest_id": 1750,
+  "index": "E",
+  "name": "Bracket Cost",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "divide and conquer",
+    "dp",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 1641,
+  "problem_url": "https://codeforces.com/problemset/problem/1750/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1750/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1750/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1750E%20Bracket%20Cost%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1750E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bracket Cost - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "divide and conquer",
+      "greedy",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

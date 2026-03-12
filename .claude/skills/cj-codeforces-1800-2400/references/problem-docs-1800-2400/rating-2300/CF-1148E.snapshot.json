@@ -1,0 +1,41 @@
+{
+  "id": "CF-1148E",
+  "contest_id": 1148,
+  "index": "E",
+  "name": "Earth Wind and Fire",
+  "rating": 2300,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1148/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1148/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1148/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1148E%20Earth Wind and Fire%20tutorial",
+  "solved_count": 1809,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1148E",
+  "hydro_meta": {
+    "page_title": "Earth Wind and Fire - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "two pointers",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

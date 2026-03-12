@@ -1,0 +1,35 @@
+{
+  "id": "CF-1799A",
+  "contest_id": 1799,
+  "index": "A",
+  "name": "Recent Actions",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 12270,
+  "problem_url": "https://codeforces.com/problemset/problem/1799/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1799/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1799/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1799A%20Recent%20Actions%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1799A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Recent Actions - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

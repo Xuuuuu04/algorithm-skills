@@ -1,0 +1,34 @@
+{
+  "id": "CF-1833E",
+  "contest_id": 1833,
+  "index": "E",
+  "name": "Round Dance",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 17510,
+  "problem_url": "https://codeforces.com/problemset/problem/1833/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1833/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1833/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1833E%20Round%20Dance%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1833E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Round Dance - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dsu",
+      "graphs",
+      "shortest paths"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

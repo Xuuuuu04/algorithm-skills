@@ -1,0 +1,40 @@
+{
+  "id": "CF-1973B",
+  "contest_id": 1973,
+  "index": "B",
+  "name": "Cat, Fox and the Lonely Array",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "data structures",
+    "greedy",
+    "math",
+    "two pointers"
+  ],
+  "solved_count": 16648,
+  "problem_url": "https://codeforces.com/problemset/problem/1973/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1973/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1973/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1973B%20Cat%2C%20Fox%20and%20the%20Lonely%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1973B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cat, Fox and the Lonely Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "greedy",
+      "math",
+      "two pointers",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

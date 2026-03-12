@@ -1,0 +1,34 @@
+{
+  "id": "CF-2014E",
+  "contest_id": 2014,
+  "index": "E",
+  "name": "Rendez-vous de Marian et Robin",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 8392,
+  "problem_url": "https://codeforces.com/problemset/problem/2014/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2014/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2014/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2014E%20Rendez-vous%20de%20Marian%20et%20Robin%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2014E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Rendez-vous de Marian et Robin - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "graphs",
+      "shortest paths",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-1234A",
+  "contest_id": 1234,
+  "index": "A",
+  "name": "Equalize Prices Again",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 29404,
+  "problem_url": "https://codeforces.com/problemset/problem/1234/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1234/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1234/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1234A%20Equalize%20Prices%20Again%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1234A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1234A Equalize Prices Again - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 306,
+    "mirror_attempt": 501,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

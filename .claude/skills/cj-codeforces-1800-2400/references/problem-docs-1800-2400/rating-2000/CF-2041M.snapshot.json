@@ -1,0 +1,39 @@
+{
+  "id": "CF-2041M",
+  "contest_id": 2041,
+  "index": "M",
+  "name": "Selection Sort",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2041/M",
+  "answer_index_url": "https://codeforces.com/problemset/status/2041/problem/M",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2041/problem/M?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2041M%20Selection Sort%20tutorial",
+  "solved_count": 1286,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2041M",
+  "hydro_meta": {
+    "page_title": "Selection Sort - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

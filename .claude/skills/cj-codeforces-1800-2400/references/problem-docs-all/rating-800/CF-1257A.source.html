@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1257A Two Rival Students - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1257A","type":"CF","title":"Two Rival Students","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":236,"totalAccepted":162,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Two Rival Students","background":null,"description":"\u4f60\u662f\u5b66\u6821\u7684\u4f53\u80b2\u8001\u5e08\u3002\n\n\u6709 $n$ \u540d\u5b66\u751f\u6392\u6210\u4e00\u6392\u3002\u5176\u4e2d\u6709\u4e24\u540d\u4e92\u4e3a\u5bf9\u624b\u7684\u5b66\u751f\u3002\u7b2c\u4e00\u540d\u5b66\u751f\u5728\u7b2c $a$ \u4e2a\u4f4d\u7f6e\uff0c\u7b2c\u4e8c\u540d\u5b66\u751f\u5728\u7b2c $b$ \u4e2a\u4f4d\u7f6e\u3002\u4f4d\u7f6e\u4ece\u5de6\u5230\u53f3\u7f16\u53f7\u4e3a $1$ \u5230 $n$\u3002\n\n\u7531\u4e8e\u4ed6\u4eec\u662f\u5bf9\u624b\uff0c\u4f60\u5e0c\u671b\u8ba9\u4ed6\u4eec\u4e4b\u95f4\u7684\u8ddd\u79bb\u5c3d\u53ef\u80fd\u5927\u3002\u5982\u679c\u4e24\u540d\u5b66\u751f\u5206\u522b\u5728\u4f4d\u7f6e $p$ \u548c $s$\uff0c\u90a3\u4e48\u4ed6\u4eec\u4e4b\u95f4\u7684\u8ddd\u79bb\u4e3a $|p - s|$\u3002\n\n\u4f60\u6700\u591a\u53ef\u4ee5\u8fdb\u884c $x$ \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4e24\u4e2a\u76f8\u90bb\u7684\u5b66\u751f\u5e76\u4ea4\u6362\u4ed6\u4eec\u7684\u4f4d\u7f6e\u3002\n\n\u8bf7\u8ba1\u7b97\u5728\u6700\u591a\u8fdb\u884c $x$ \u6b21\u4ea4\u6362\u540e\uff0c\u8fd9\u4e24\u540d\u5bf9\u624b\u5b66\u751f\u4e4b\u95f4\u53ef\u80fd\u8fbe\u5230\u7684\u6700\u5927\u8ddd\u79bb\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u56db\u4e2a\u6574\u6570 $n$\u3001$x$\u3001$a$ \u548c $b$\uff08$2 \\le n \\le 100$\uff0c$0 \\le x \\le 100$\uff0c$1 \\le a, b \\le n$\uff0c$a \\neq b$\uff09\uff0c\u5206\u522b\u8868\u793a\u5b66\u751f\u603b\u6570\u3001\u6700\u591a\u53ef\u4ea4\u6362\u7684\u6b21\u6570\u3001\u4e24\u540d\u5bf9\u624b\u5b66\u751f\u7684\u4f4d\u7f6e\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5728\u6700\u591a\u8fdb\u884c $x$ \u6b21\u4ea4\u6362\u540e\uff0c\u4e24\u540d\u5bf9\u624b\u5b66\u751f\u4e4b\u95f4\u53ef\u80fd\u8fbe\u5230\u7684\u6700\u5927\u8ddd\u79bb\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u4ea4\u6362\u7b2c $3$ \u4f4d\u548c\u7b2c $4$ \u4f4d\u7684\u5b66\u751f\u3002\u6b64\u65f6\u4e24\u540d\u5bf9\u624b\u4e4b\u95f4\u7684\u8ddd\u79bb\u4e3a $|4 - 2| = 2$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u65e0\u9700\u4ea4\u6362\u5b66\u751f\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u65e0\u6cd5\u4ea4\u6362\u5b66\u751f\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Two Rival Students","background":"","description":"You are the gym teacher in the school.\n\nThere are $ n $ students in the row. And there are two rivalling students among them. The first one is in position $ a $ , the second in position $ b $ . Positions are numbered from $ 1 $ to $ n $ from left to right.\n\nSince they are rivals, you want to maximize the distance between them. If students are in positions $ p $ and $ s $ respectively, then distance between them is $ |p - s| $ .\n\nYou can do the following operation at most $ x $ times: choose two adjacent (neighbouring) students and swap them.\n\nCalculate the maximum distance between two rivalling students after at most $ x $ swaps.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 100 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains four integers $ n $ , $ x $ , $ a $ and $ b $ ( $ 2 \\le n \\le 100 $ , $ 0 \\le x \\le 100 $ , $ 1 \\le a, b \\le n $ , $ a \\neq b $ ) \u2014 the number of students in the row, the number of swaps which you can do, and positions of first and second rivaling students respectively.","formatO":"For each test case print one integer \u2014 the maximum distance between two rivaling students which you can obtain.","hint":"In the first test case you can swap students in positions $ 3 $ and $ 4 $ . And then the distance between the rivals is equal to $ |4 - 2| = 2 $ .\n\nIn the second test case you don\u0027t have to swap students.\n\nIn the third test case you can\u0027t swap students.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n5 1 3 2\n100 33 100 1\n6 0 2 3\n","2\n99\n1\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1257A","link":"https:\/\/codeforces.com\/problemset\/problem\/1257\/A"},"translation":"\u6709\u4e00\u6392\u5b66\u751f\u6392\u6210\u7684\u957f\u5ea6\u4e3a$n$\u7684\u961f\u5217\uff0c\u5176\u4e2d\u6709\u4e24\u4e2a\u7ade\u4e89\u8005\u3002\u7b2c\u4e00\u4e2a\u7ade\u4e89\u8005\u5728$a$\u5904\uff0c\u7b2c\u4e8c\u4e2a\u7ade\u4e89\u8005\u5728$b$\u5904\u3002\n\n\u4e24\u4e2a\u5b66\u751f\u7684\u8ddd\u79bb\u662f\u8fd9\u6837\u5b9a\u4e49\u7684\uff1a\u82e5\u4e24\u5b66\u751f\u5206\u522b\u5728$p$\u5904\u53ca$s$\u5904\uff0c\u90a3\u4e48\u4ed6\u4eec\u4e4b\u95f4\u7684\u8ddd\u79bb\u662f$\u2223p\u2212s\u2223$\u3002\n\n\u4f60\u53ef\u4ee5\u4efb\u610f\u4ea4\u6362\u4e24\u4e2a\u4f4d\u7f6e\u76f8\u90bb\u7684\u5b66\u751f\u6700\u591a$x$\u6b21\u3002\n\n\u8bd5\u8ba1\u7b97\u51fa\u4e24\u4e2a\u5b66\u751f\u5728\u6700\u591a\u4ea4\u6362$x$\u6b21\u4e4b\u540e\u6700\u957f\u7684\u8ddd\u79bb\u3002\n\n$t$ $( 1 \\le t \\le 100 )$ ,\n\n$(2 \\leq n \\leq 100, 0 \\leq x \\leq 100, 1 \\leq a, b \\leq n, a \\neq b)$"},"translations":{"en":{"name":"Two Rival Students","background":"","description":"You are the gym teacher in the school.\n\nThere are $ n $ students in the row. And there are two rivalling students among them. The first one is in position $ a $ , the second in position $ b $ . Positions are numbered from $ 1 $ to $ n $ from left to right.\n\nSince they are rivals, you want to maximize the distance between them. If students are in positions $ p $ and $ s $ respectively, then distance between them is $ |p - s| $ .\n\nYou can do the following operation at most $ x $ times: choose two adjacent (neighbouring) students and swap them.\n\nCalculate the maximum distance between two rivalling students after at most $ x $ swaps.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 100 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains four integers $ n $ , $ x $ , $ a $ and $ b $ ( $ 2 \\le n \\le 100 $ , $ 0 \\le x \\le 100 $ , $ 1 \\le a, b \\le n $ , $ a \\neq b $ ) \u2014 the number of students in the row, the number of swaps which you can do, and positions of first and second rivaling students respectively.","formatO":"For each test case print one integer \u2014 the maximum distance between two rivaling students which you can obtain.","hint":"In the first test case you can swap students in positions $ 3 $ and $ 4 $ . And then the distance between the rivals is equal to $ |4 - 2| = 2 $ .\n\nIn the second test case you don\u0027t have to swap students.\n\nIn the third test case you can\u0027t swap students.","locale":"en"},"zh-CN":{"name":"Two Rival Students","background":null,"description":"\u4f60\u662f\u5b66\u6821\u7684\u4f53\u80b2\u8001\u5e08\u3002\n\n\u6709 $n$ \u540d\u5b66\u751f\u6392\u6210\u4e00\u6392\u3002\u5176\u4e2d\u6709\u4e24\u540d\u4e92\u4e3a\u5bf9\u624b\u7684\u5b66\u751f\u3002\u7b2c\u4e00\u540d\u5b66\u751f\u5728\u7b2c $a$ \u4e2a\u4f4d\u7f6e\uff0c\u7b2c\u4e8c\u540d\u5b66\u751f\u5728\u7b2c $b$ \u4e2a\u4f4d\u7f6e\u3002\u4f4d\u7f6e\u4ece\u5de6\u5230\u53f3\u7f16\u53f7\u4e3a $1$ \u5230 $n$\u3002\n\n\u7531\u4e8e\u4ed6\u4eec\u662f\u5bf9\u624b\uff0c\u4f60\u5e0c\u671b\u8ba9\u4ed6\u4eec\u4e4b\u95f4\u7684\u8ddd\u79bb\u5c3d\u53ef\u80fd\u5927\u3002\u5982\u679c\u4e24\u540d\u5b66\u751f\u5206\u522b\u5728\u4f4d\u7f6e $p$ \u548c $s$\uff0c\u90a3\u4e48\u4ed6\u4eec\u4e4b\u95f4\u7684\u8ddd\u79bb\u4e3a $|p - s|$\u3002\n\n\u4f60\u6700\u591a\u53ef\u4ee5\u8fdb\u884c $x$ \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4e24\u4e2a\u76f8\u90bb\u7684\u5b66\u751f\u5e76\u4ea4\u6362\u4ed6\u4eec\u7684\u4f4d\u7f6e\u3002\n\n\u8bf7\u8ba1\u7b97\u5728\u6700\u591a\u8fdb\u884c $x$ \u6b21\u4ea4\u6362\u540e\uff0c\u8fd9\u4e24\u540d\u5bf9\u624b\u5b66\u751f\u4e4b\u95f4\u53ef\u80fd\u8fbe\u5230\u7684\u6700\u5927\u8ddd\u79bb\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u56db\u4e2a\u6574\u6570 $n$\u3001$x$\u3001$a$ \u548c $b$\uff08$2 \\le n \\le 100$\uff0c$0 \\le x \\le 100$\uff0c$1 \\le a, b \\le n$\uff0c$a \\neq b$\uff09\uff0c\u5206\u522b\u8868\u793a\u5b66\u751f\u603b\u6570\u3001\u6700\u591a\u53ef\u4ea4\u6362\u7684\u6b21\u6570\u3001\u4e24\u540d\u5bf9\u624b\u5b66\u751f\u7684\u4f4d\u7f6e\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5728\u6700\u591a\u8fdb\u884c $x$ \u6b21\u4ea4\u6362\u540e\uff0c\u4e24\u540d\u5bf9\u624b\u5b66\u751f\u4e4b\u95f4\u53ef\u80fd\u8fbe\u5230\u7684\u6700\u5927\u8ddd\u79bb\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u4ea4\u6362\u7b2c $3$ \u4f4d\u548c\u7b2c $4$ \u4f4d\u7684\u5b66\u751f\u3002\u6b64\u65f6\u4e24\u540d\u5bf9\u624b\u4e4b\u95f4\u7684\u8ddd\u79bb\u4e3a $|4 - 2| = 2$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u65e0\u9700\u4ea4\u6362\u5b66\u751f\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u65e0\u6cd5\u4ea4\u6362\u5b66\u751f\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1257A Two Rival Students","type":2,"slug":"CF1257A","color":"orange-3"},"discussions":[{"id":173474,"title":"$\\LaTeX$ \u51fa\u9505","author":{"uid":60990,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/60990.png","name":"Karry5307","slogan":"\u5144\u5f1f\u4f1a\u80cc\u53db\u4f60\uff0c\u5973\u4eba\u4f1a\u79bb\u5f00\u4f60\uff0c\u91d1\u94b1\u4f1a\u8bf1\u60d1\u4f60\uff0c\u751f\u6d3b\u4f1a\u5201\u96be\u4f60\uff0c\u53ea\u6709\u6570\u5b66\u4e0d\u4f1a\uff0c\u4e0d\u4f1a\u5c31\u662f\u4e0d\u4f1a\uff0c\u600e\u4e48\u5b66\u90fd\u4e0d\u4f1a","badge":"Rikka","isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/kzjygeim.png"},"time":1575082013}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.778062,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1257A Two Rival Students","description":"\u4f60\u662f\u5b66\u6821\u7684\u4f53\u80b2\u8001\u5e08\u3002\n\u6709 n \u540d\u5b66\u751f\u6392\u6210\u4e00\u6392\u3002\u5176\u4e2d\u6709\u4e24\u540d\u4e92\u4e3a\u5bf9\u624b\u7684\u5b66\u751f\u3002\u7b2c\u4e00\u540d\u5b66\u751f\u5728\u7b2c a \u4e2a\u4f4d\u7f6e\uff0c\u7b2c\u4e8c\u540d\u5b66\u751f\u5728\u7b2c b \u4e2a\u4f4d\u7f6e\u3002\u4f4d\u7f6e\u4ece\u5de6\u5230\u53f3\u7f16\u53f7\u4e3a 1 \u5230 n\u3002\n\u7531\u4e8e\u4ed6\u4eec\u662f\u5bf9\u624b\uff0c\u4f60\u5e0c\u671b\u8ba9\u4ed6\u4eec\u4e4b\u95f4\u7684\u8ddd\u79bb\u5c3d\u53ef\u80fd\u5927\u3002\u5982\u679c\u4e24\u540d\u5b66\u751f\u5206\u522b\u5728\u4f4d\u7f6e p \u548c\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1257A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1257A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1257A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1257A Two Rival Students" />
+    <meta property="og:description" content="你是学校的体育老师。
+有 n 名学生排成一排。其中有两名互为对手的学生。第一名学生在第 a 个位置，第二名学生在第 b 个位置。位置从左到右编号为 1 到 n。
+由于他们是对手，你希望让他们之间的距离尽可能大。如果两名学生分别在位置 p 和…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1257A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1257A Two Rival Students</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你是学校的体育老师。
+
+有 $n$ 名学生排成一排。其中有两名互为对手的学生。第一名学生在第 $a$ 个位置，第二名学生在第 $b$ 个位置。位置从左到右编号为 $1$ 到 $n$。
+
+由于他们是对手，你希望让他们之间的距离尽可能大。如果两名学生分别在位置 $p$ 和 $s$，那么他们之间的距离为 $|p - s|$。
+
+你最多可以进行 $x$ 次如下操作：选择两个相邻的学生并交换他们的位置。
+
+请计算在最多进行 $x$ 次交换后，这两名对手学生之间可能达到的最大距离。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 100$），表示测试用例的数量。
+
+每个测试用例仅一行，包含四个整数 $n$、$x$、$a$ 和 $b$（$2 \le n \le 100$，$0 \le x \le 100$，$1 \le a, b \le n$，$a \neq b$），分别表示学生总数、最多可交换的次数、两名对手学生的位置。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示在最多进行 $x$ 次交换后，两名对手学生之间可能达到的最大距离。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，你可以交换第 $3$ 位和第 $4$ 位的学生。此时两名对手之间的距离为 $|4 - 2| = 2$。
+
+在第二个测试用例中，你无需交换学生。
+
+在第三个测试用例中，你无法交换学生。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

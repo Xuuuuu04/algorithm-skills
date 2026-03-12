@@ -1,0 +1,34 @@
+{
+  "id": "CF-364B",
+  "contest_id": 364,
+  "index": "B",
+  "name": "Free Market",
+  "rating": 2200,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/364/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/364/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/364/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=364B%20Free Market%20tutorial",
+  "solved_count": 1244,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P364B",
+  "hydro_meta": {
+    "page_title": "Free Market - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

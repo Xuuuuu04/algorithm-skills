@@ -1,0 +1,38 @@
+{
+  "id": "CF-1817B",
+  "contest_id": 1817,
+  "index": "B",
+  "name": "Fish Graph",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1817/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1817/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1817/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1817B%20Fish Graph%20tutorial",
+  "solved_count": 5006,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1817B",
+  "hydro_meta": {
+    "page_title": "Fish Graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

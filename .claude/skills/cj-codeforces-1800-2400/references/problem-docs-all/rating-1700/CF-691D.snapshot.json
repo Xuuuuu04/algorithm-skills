@@ -1,0 +1,34 @@
+{
+  "id": "CF-691D",
+  "contest_id": 691,
+  "index": "D",
+  "name": "Swaps in Permutation",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "math"
+  ],
+  "solved_count": 6417,
+  "problem_url": "https://codeforces.com/problemset/problem/691/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/691/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/691/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=691D%20Swaps%20in%20Permutation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P691D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Swaps in Permutation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dsu",
+      "math",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

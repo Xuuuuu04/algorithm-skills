@@ -1,0 +1,31 @@
+{
+  "id": "CF-617E",
+  "contest_id": 617,
+  "index": "E",
+  "name": "XOR and Favorite Number",
+  "rating": 2200,
+  "tags": [
+    "data structures"
+  ],
+  "url": "https://codeforces.com/problemset/problem/617/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/617/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/617/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=617E%20XOR and Favorite Number%20tutorial",
+  "solved_count": 10349,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P617E",
+  "hydro_meta": {
+    "page_title": "XOR and Favorite Number - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "*2200"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

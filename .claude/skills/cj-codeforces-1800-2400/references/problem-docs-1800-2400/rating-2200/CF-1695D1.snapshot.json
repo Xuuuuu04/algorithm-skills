@@ -1,0 +1,44 @@
+{
+  "id": "CF-1695D1",
+  "contest_id": 1695,
+  "index": "D1",
+  "name": "Tree Queries (Easy Version)",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1695/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1695/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1695/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1695D1%20Tree Queries (Easy Version)%20tutorial",
+  "solved_count": 2419,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1695D1",
+  "hydro_meta": {
+    "page_title": "Tree Queries (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

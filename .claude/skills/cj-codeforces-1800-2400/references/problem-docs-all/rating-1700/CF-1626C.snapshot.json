@@ -1,0 +1,33 @@
+{
+  "id": "CF-1626C",
+  "contest_id": 1626,
+  "index": "C",
+  "name": "Monsters And Spells",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "greedy",
+    "implementation",
+    "math",
+    "two pointers"
+  ],
+  "solved_count": 11663,
+  "problem_url": "https://codeforces.com/problemset/problem/1626/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1626/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1626/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1626C%20Monsters%20And%20Spells%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1626/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1626C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

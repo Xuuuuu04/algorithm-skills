@@ -1,0 +1,30 @@
+{
+  "id": "CF-656D",
+  "contest_id": 656,
+  "index": "D",
+  "name": "Rosetta Problem",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 988,
+  "problem_url": "https://codeforces.com/problemset/problem/656/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/656/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/656/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=656D%20Rosetta%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P656D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Rosetta Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "*2100"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

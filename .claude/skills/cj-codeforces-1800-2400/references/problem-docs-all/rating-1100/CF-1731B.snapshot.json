@@ -1,0 +1,28 @@
+{
+  "id": "CF-1731B",
+  "contest_id": 1731,
+  "index": "B",
+  "name": "Kill Demodogs",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 25881,
+  "problem_url": "https://codeforces.com/problemset/problem/1731/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1731/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1731/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1731B%20Kill%20Demodogs%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1731/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1731B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

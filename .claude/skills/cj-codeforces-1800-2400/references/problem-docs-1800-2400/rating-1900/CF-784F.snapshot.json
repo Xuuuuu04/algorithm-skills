@@ -1,0 +1,31 @@
+{
+  "id": "CF-784F",
+  "contest_id": 784,
+  "index": "F",
+  "name": "Crunching Numbers Just for You",
+  "rating": 1900,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/784/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/784/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/784/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=784F%20Crunching Numbers Just for You%20tutorial",
+  "solved_count": 1134,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P784F",
+  "hydro_meta": {
+    "page_title": "Crunching Numbers Just for You - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 3,
+    "hydro_attempt": 17,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

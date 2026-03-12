@@ -1,0 +1,27 @@
+{
+  "id": "CF-1431A",
+  "contest_id": 1431,
+  "index": "A",
+  "name": "Selling Hamburgers",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 2141,
+  "problem_url": "https://codeforces.com/problemset/problem/1431/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1431/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1431/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1431A%20Selling%20Hamburgers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1431/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1431A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1928F",
+  "contest_id": 1928,
+  "index": "F",
+  "name": "Digital Patterns",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "combinatorics",
+    "data structures",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 341,
+  "problem_url": "https://codeforces.com/problemset/problem/1928/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1928/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1928/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1928F%20Digital%20Patterns%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1928F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Digital Patterns - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "data structures",
+      "implementation",
+      "math",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

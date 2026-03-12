@@ -1,0 +1,38 @@
+{
+  "id": "CF-295C",
+  "contest_id": 295,
+  "index": "C",
+  "name": "Greg and Friends",
+  "rating": 2100,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/295/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/295/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/295/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=295C%20Greg and Friends%20tutorial",
+  "solved_count": 1917,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P295C",
+  "hydro_meta": {
+    "page_title": "Greg and Friends - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "graphs",
+      "shortest paths",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

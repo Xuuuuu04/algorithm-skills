@@ -1,0 +1,37 @@
+{
+  "id": "CF-1632C",
+  "contest_id": 1632,
+  "index": "C",
+  "name": "Strange Test",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "brute force",
+    "dp",
+    "math"
+  ],
+  "solved_count": 13945,
+  "problem_url": "https://codeforces.com/problemset/problem/1632/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1632/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1632/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1632C%20Strange%20Test%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1632C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Strange Test - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-2195G",
+  "contest_id": 2195,
+  "index": "G",
+  "name": "Idiot First Search and Queries",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 921,
+  "problem_url": "https://codeforces.com/problemset/problem/2195/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2195/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2195/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2195G%20Idiot%20First%20Search%20and%20Queries%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2195/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2195G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

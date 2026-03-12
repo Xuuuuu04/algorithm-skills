@@ -1,0 +1,41 @@
+{
+  "id": "CF-1326D2",
+  "contest_id": 1326,
+  "index": "D2",
+  "name": "Prefix-Suffix Palindrome (Hard version)",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "greedy",
+    "hashing",
+    "string suffix structures",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1326/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1326/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1326/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1326D2%20Prefix-Suffix Palindrome (Hard version)%20tutorial",
+  "solved_count": 11534,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1326D2",
+  "hydro_meta": {
+    "page_title": "Prefix-Suffix Palindrome (Hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "greedy",
+      "hashing",
+      "string suffix structures",
+      "strings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

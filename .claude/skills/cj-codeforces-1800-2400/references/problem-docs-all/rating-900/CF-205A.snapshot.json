@@ -1,0 +1,28 @@
+{
+  "id": "CF-205A",
+  "contest_id": 205,
+  "index": "A",
+  "name": "Little Elephant and Rozdil",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 25006,
+  "problem_url": "https://codeforces.com/problemset/problem/205/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/205/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/205/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=205A%20Little%20Elephant%20and%20Rozdil%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/205/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 205A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

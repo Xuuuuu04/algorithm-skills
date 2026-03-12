@@ -1,0 +1,28 @@
+{
+  "id": "CF-1196B",
+  "contest_id": 1196,
+  "index": "B",
+  "name": "Odd Sum Segments",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 17486,
+  "problem_url": "https://codeforces.com/problemset/problem/1196/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1196/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1196/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1196B%20Odd%20Sum%20Segments%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1196/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1196B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

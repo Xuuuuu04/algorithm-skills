@@ -1,0 +1,30 @@
+{
+  "id": "CF-45H",
+  "contest_id": 45,
+  "index": "H",
+  "name": "Road Problem",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "graphs"
+  ],
+  "solved_count": 225,
+  "problem_url": "https://codeforces.com/problemset/problem/45/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/45/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/45/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=45H%20Road%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P45H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Road Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graphs",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

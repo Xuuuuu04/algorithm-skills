@@ -1,0 +1,34 @@
+{
+  "id": "CF-911B",
+  "contest_id": 911,
+  "index": "B",
+  "name": "Two Cakes",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 12728,
+  "problem_url": "https://codeforces.com/problemset/problem/911/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/911/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/911/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=911B%20Two%20Cakes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P911B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Cakes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-1584C",
+  "contest_id": 1584,
+  "index": "C",
+  "name": "Two Arrays",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 17604,
+  "problem_url": "https://codeforces.com/problemset/problem/1584/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1584/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1584/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1584C%20Two%20Arrays%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1584C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Arrays - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 4,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

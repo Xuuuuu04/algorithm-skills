@@ -1,0 +1,29 @@
+{
+  "id": "CF-665C",
+  "contest_id": 665,
+  "index": "C",
+  "name": "Simple Strings",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 16520,
+  "problem_url": "https://codeforces.com/problemset/problem/665/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/665/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/665/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=665C%20Simple%20Strings%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF665C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF665C Simple Strings - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 235,
+    "mirror_attempt": 608,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

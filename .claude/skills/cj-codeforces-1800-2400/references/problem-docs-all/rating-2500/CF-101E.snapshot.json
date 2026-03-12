@@ -1,0 +1,32 @@
+{
+  "id": "CF-101E",
+  "contest_id": 101,
+  "index": "E",
+  "name": "Candies and Stones",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "divide and conquer",
+    "dp"
+  ],
+  "solved_count": 594,
+  "problem_url": "https://codeforces.com/problemset/problem/101/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/101/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/101/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=101E%20Candies%20and%20Stones%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P101E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Candies and Stones - 题目详情 - Hydro",
+    "mirror_tags": [
+      "divide and conquer",
+      "dp",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "7000ms",
+    "memory_limit": "45MiB"
+  }
+}

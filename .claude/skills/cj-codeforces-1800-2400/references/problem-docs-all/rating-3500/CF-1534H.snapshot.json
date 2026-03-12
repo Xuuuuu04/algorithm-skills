@@ -1,0 +1,40 @@
+{
+  "id": "CF-1534H",
+  "contest_id": 1534,
+  "index": "H",
+  "name": "Lost Nodes",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "graphs",
+    "interactive",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 253,
+  "problem_url": "https://codeforces.com/problemset/problem/1534/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1534/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1534/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1534H%20Lost%20Nodes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1534H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Lost Nodes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dp",
+      "graphs",
+      "interactive",
+      "sortings",
+      "trees",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

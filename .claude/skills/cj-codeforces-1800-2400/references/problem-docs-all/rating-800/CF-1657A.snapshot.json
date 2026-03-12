@@ -1,0 +1,28 @@
+{
+  "id": "CF-1657A",
+  "contest_id": 1657,
+  "index": "A",
+  "name": "Integer Moves",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "math"
+  ],
+  "solved_count": 24818,
+  "problem_url": "https://codeforces.com/problemset/problem/1657/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1657/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1657/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1657A%20Integer%20Moves%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1657A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1657A Integer Moves - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 304,
+    "mirror_attempt": 540,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

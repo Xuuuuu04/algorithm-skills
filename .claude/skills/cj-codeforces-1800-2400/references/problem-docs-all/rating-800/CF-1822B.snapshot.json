@@ -1,0 +1,29 @@
+{
+  "id": "CF-1822B",
+  "contest_id": 1822,
+  "index": "B",
+  "name": "Karina and Array",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 26449,
+  "problem_url": "https://codeforces.com/problemset/problem/1822/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1822/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1822/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1822B%20Karina%20and%20Array%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1822B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1822B Karina and Array - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 160,
+    "mirror_attempt": 273,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-813E",
+  "contest_id": 813,
+  "index": "E",
+  "name": "Army Creation",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures"
+  ],
+  "solved_count": 2993,
+  "problem_url": "https://codeforces.com/problemset/problem/813/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/813/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/813/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=813E%20Army%20Creation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P813E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Army Creation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

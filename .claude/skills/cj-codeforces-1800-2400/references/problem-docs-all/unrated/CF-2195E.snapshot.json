@@ -1,0 +1,29 @@
+{
+  "id": "CF-2195E",
+  "contest_id": 2195,
+  "index": "E",
+  "name": "Idiot First Search",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 7272,
+  "problem_url": "https://codeforces.com/problemset/problem/2195/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2195/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2195/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2195E%20Idiot%20First%20Search%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2195E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2195E Idiot First Search - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-933A",
+  "contest_id": 933,
+  "index": "A",
+  "name": "A Twisty Movement",
+  "rating": 1800,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/933/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/933/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/933/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=933A%20A Twisty Movement%20tutorial",
+  "solved_count": 5353,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P933A",
+  "hydro_meta": {
+    "page_title": "A Twisty Movement - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

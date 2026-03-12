@@ -1,0 +1,43 @@
+{
+  "id": "CF-724C",
+  "contest_id": 724,
+  "index": "C",
+  "name": "Ray Tracing",
+  "rating": 1800,
+  "tags": [
+    "greedy",
+    "hashing",
+    "implementation",
+    "math",
+    "number theory",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/724/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/724/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/724/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=724C%20Ray Tracing%20tutorial",
+  "solved_count": 2248,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P724C",
+  "hydro_meta": {
+    "page_title": "Ray Tracing - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "hashing",
+      "implementation",
+      "math",
+      "number theory",
+      "sortings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

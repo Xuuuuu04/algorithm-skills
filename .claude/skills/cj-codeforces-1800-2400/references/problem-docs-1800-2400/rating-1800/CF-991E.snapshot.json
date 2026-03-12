@@ -1,0 +1,35 @@
+{
+  "id": "CF-991E",
+  "contest_id": 991,
+  "index": "E",
+  "name": "Bus Number",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/991/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/991/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/991/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=991E%20Bus Number%20tutorial",
+  "solved_count": 3700,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P991E",
+  "hydro_meta": {
+    "page_title": "Bus Number - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "combinatorics",
+      "math",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

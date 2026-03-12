@@ -1,0 +1,25 @@
+{
+  "id": "CF-1599D",
+  "contest_id": 1599,
+  "index": "D",
+  "name": "Bubble Popping",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 33,
+  "problem_url": "https://codeforces.com/problemset/problem/1599/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1599/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1599/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1599D%20Bubble%20Popping%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1599D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bubble Popping - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

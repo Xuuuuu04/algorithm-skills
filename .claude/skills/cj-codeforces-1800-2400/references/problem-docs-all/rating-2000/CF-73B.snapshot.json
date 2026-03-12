@@ -1,0 +1,34 @@
+{
+  "id": "CF-73B",
+  "contest_id": 73,
+  "index": "B",
+  "name": "Need For Brake",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 540,
+  "problem_url": "https://codeforces.com/problemset/problem/73/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/73/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/73/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=73B%20Need%20For%20Brake%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P73B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Need For Brake - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-2006D",
+  "contest_id": 2006,
+  "index": "D",
+  "name": "Iris and Adjacent Products",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 969,
+  "problem_url": "https://codeforces.com/problemset/problem/2006/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2006/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2006/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2006D%20Iris%20and%20Adjacent%20Products%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2006D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Iris and Adjacent Products - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

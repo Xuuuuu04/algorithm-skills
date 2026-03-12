@@ -1,0 +1,34 @@
+{
+  "id": "CF-229C",
+  "contest_id": 229,
+  "index": "C",
+  "name": "Triangles",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "combinatorics",
+    "graphs",
+    "math"
+  ],
+  "solved_count": 1768,
+  "problem_url": "https://codeforces.com/problemset/problem/229/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/229/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/229/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=229C%20Triangles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P229C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Triangles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "graphs",
+      "math",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417191:NxWeAfsXscG95PAesLc8m0485ZeYX8wb0ANErixS7Ds=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1837B Comparison String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1837B","type":"CF","title":"Comparison String","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":673,"totalAccepted":297,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Comparison String","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u5176\u4e2d\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f \u003C \u6216 \u003E\u3002\n\n\u5982\u679c\u4e00\u4e2a\u5305\u542b $n+1$ \u4e2a\u5143\u7d20\u7684\u6570\u7ec4 $a$ \u6ee1\u8db3\u5bf9\u4e8e\u6bcf\u4e2a $1 \\le i \\le n$\uff0c\u5b57\u7b26 $s_i$ \u8868\u793a $a_i$ \u548c $a_{i+1}$ \u7684\u6bd4\u8f83\u7ed3\u679c\uff0c\u5373\uff1a\n\n- \u5f53\u4e14\u4ec5\u5f53 $a_i \u003C a_{i+1}$ \u65f6\uff0c$s_i$ \u4e3a \u003C\uff1b\n- \u5f53\u4e14\u4ec5\u5f53 $a_i \u003E a_{i+1}$ \u65f6\uff0c$s_i$ \u4e3a \u003E\u3002\n\n\u4f8b\u5982\uff0c\u6570\u7ec4 $[1, 2, 5, 4, 2]$ \u4e0e\u5b57\u7b26\u4e32 \u003C\u003C\u003E\u003E \u517c\u5bb9\u3002\u8fd8\u6709\u5176\u4ed6\u6570\u7ec4\u4e5f\u4e0e\u8be5\u5b57\u7b26\u4e32\u517c\u5bb9\uff0c\u4f8b\u5982 $[13, 37, 42, 37, 13]$\u3002\n\n\u6570\u7ec4\u7684\u4ee3\u4ef7\u5b9a\u4e49\u4e3a\u5176\u4e2d\u4e0d\u540c\u5143\u7d20\u7684\u4e2a\u6570\u3002\u4f8b\u5982\uff0c$[1, 2, 5, 4, 2]$ \u7684\u4ee3\u4ef7\u4e3a $4$\uff0c$[13, 37, 42, 37, 13]$ \u7684\u4ee3\u4ef7\u4e3a $3$\u3002\n\n\u4f60\u9700\u8981\u8ba1\u7b97\u6240\u6709\u4e0e\u7ed9\u5b9a\u5b57\u7b26\u4e32 $s$ \u517c\u5bb9\u7684\u6570\u7ec4\u4e2d\uff0c\u6700\u5c0f\u7684\u4ee3\u4ef7\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 500$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e24\u884c\uff1a\n\n- \u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 100$\uff09\uff1b\n- \u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f \u003C \u6216 \u003E\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6240\u6709\u4e0e\u7ed9\u5b9a\u5b57\u7b26\u4e32 $s$ \u517c\u5bb9\u7684\u6570\u7ec4\u4e2d\u6700\u5c0f\u7684\u4ee3\u4ef7\u3002","hint":"\u5728\u793a\u4f8b\u7684\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u53ef\u4ee5\u4e3a $[13, 37, 42, 37, 13]$\u3002\n\n\u5728\u793a\u4f8b\u7684\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u53ef\u4ee5\u4e3a $[42, 37, 13, 37, 42]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Comparison String","background":"","description":"You are given a string $ s $ of length $ n $ , where each character is either \u0026lt; or \u0026gt;.\n\nAn array $ a $ consisting of $ n+1 $ elements is compatible with the string $ s $ if, for every $ i $ from $ 1 $ to $ n $ , the character $ s_i $ represents the result of comparing $ a_i $ and $ a_{i+1} $ , i. e.:\n\n- $ s_i $ is \u0026lt; if and only if $ a_i \u003C a_{i+1} $ ;\n- $ s_i $ is \u0026gt; if and only if $ a_i \u003E a_{i+1} $ .\n\nFor example, the array $ [1, 2, 5, 4, 2] $ is compatible with the string \u0026lt;\u0026lt;\u0026gt;\u0026gt;. There are other arrays with are compatible with that string, for example, $ [13, 37, 42, 37, 13] $ .\n\nThe cost of the array is the number of different elements in it. For example, the cost of $ [1, 2, 5, 4, 2] $ is $ 4 $ ; the cost of $ [13, 37, 42, 37, 13] $ is $ 3 $ .\n\nYou have to calculate the minimum cost among all arrays which are compatible with the given string $ s $ .","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 500 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines:\n\n- the first line contains one integer $ n $ ( $ 1 \\le n \\le 100 $ );\n- the second line contains the string $ s $ , consisting of $ n $ characters. Each character of $ s $ is either \u0026lt; or \u0026gt;.","formatO":"For each test case, print one integer \u2014 the minimum cost among all arrays which are compatible with the given string $ s $ .","hint":"In the first test case of the example, the array can be $ [13, 37, 42, 37, 13] $ .\n\nIn the second test case of the example, the array can be $ [42, 37, 13, 37, 42] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n4\n\u003C\u003C\u003E\u003E\n4\n\u003E\u003E\u003C\u003C\n5\n\u003E\u003E\u003E\u003E\u003E\n7\n\u003C\u003E\u003C\u003E\u003C\u003E\u003C\n","3\n3\n6\n2"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"1837B","link":"https:\/\/codeforces.com\/problemset\/problem\/1837\/B"},"translation":"- \u7ed9\u4f60\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u7531 \u0026lt; \u548c \u0026gt; \u6784\u6210\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u5982\u679c\u4e00\u4e2a\u6570\u5217 $a$ \u80fd\u6ee1\u8db3\u5c06\u5b57\u7b26\u4e32 $s$ \u7684\u6240\u6709\u5927\u4e8e\u53f7\u548c\u5c0f\u4e8e\u53f7\u6309\u987a\u5e8f\u586b\u5165\u540e\u6ee1\u8db3\u5927\u5c0f\u5173\u7cfb\uff0c\u5219 $a$ \u6570\u5217\u548c $s$ \u5b57\u7b26\u4e32\u662f\u201c\u76f8\u5bb9\u7684\u201d\u3002\n- \u5b9a\u4e49\u4e00\u4e2a\u6570\u5217\u7684\u82b1\u8d39\u662f\u8fd9\u4e2a\u6570\u5217\u4e2d\u4e0d\u540c\u5143\u7d20\u7684\u6570\u91cf\u3002\n- \u5df2\u77e5\u5b57\u7b26\u4e32 $s$\uff0c\u8ba9\u4f60\u6c42\u51fa\u4e0e $s$ \u76f8\u5bb9\u7684\u6240\u6709\u6570\u5217\u4e2d\u82b1\u8d39\u6700\u5c0f\u7684\u6570\u5217\u7684\u82b1\u8d39\u3002\n\n\u7531 [Czy_Lemon](https:\/\/www.luogu.com.cn\/user\/523496) \u7ffb\u8bd1"},"translations":{"en":{"name":"Comparison String","background":"","description":"You are given a string $ s $ of length $ n $ , where each character is either \u0026lt; or \u0026gt;.\n\nAn array $ a $ consisting of $ n+1 $ elements is compatible with the string $ s $ if, for every $ i $ from $ 1 $ to $ n $ , the character $ s_i $ represents the result of comparing $ a_i $ and $ a_{i+1} $ , i. e.:\n\n- $ s_i $ is \u0026lt; if and only if $ a_i \u003C a_{i+1} $ ;\n- $ s_i $ is \u0026gt; if and only if $ a_i \u003E a_{i+1} $ .\n\nFor example, the array $ [1, 2, 5, 4, 2] $ is compatible with the string \u0026lt;\u0026lt;\u0026gt;\u0026gt;. There are other arrays with are compatible with that string, for example, $ [13, 37, 42, 37, 13] $ .\n\nThe cost of the array is the number of different elements in it. For example, the cost of $ [1, 2, 5, 4, 2] $ is $ 4 $ ; the cost of $ [13, 37, 42, 37, 13] $ is $ 3 $ .\n\nYou have to calculate the minimum cost among all arrays which are compatible with the given string $ s $ .","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 500 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines:\n\n- the first line contains one integer $ n $ ( $ 1 \\le n \\le 100 $ );\n- the second line contains the string $ s $ , consisting of $ n $ characters. Each character of $ s $ is either \u0026lt; or \u0026gt;.","formatO":"For each test case, print one integer \u2014 the minimum cost among all arrays which are compatible with the given string $ s $ .","hint":"In the first test case of the example, the array can be $ [13, 37, 42, 37, 13] $ .\n\nIn the second test case of the example, the array can be $ [42, 37, 13, 37, 42] $ .","locale":"en"},"zh-CN":{"name":"Comparison String","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u5176\u4e2d\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f \u003C \u6216 \u003E\u3002\n\n\u5982\u679c\u4e00\u4e2a\u5305\u542b $n+1$ \u4e2a\u5143\u7d20\u7684\u6570\u7ec4 $a$ \u6ee1\u8db3\u5bf9\u4e8e\u6bcf\u4e2a $1 \\le i \\le n$\uff0c\u5b57\u7b26 $s_i$ \u8868\u793a $a_i$ \u548c $a_{i+1}$ \u7684\u6bd4\u8f83\u7ed3\u679c\uff0c\u5373\uff1a\n\n- \u5f53\u4e14\u4ec5\u5f53 $a_i \u003C a_{i+1}$ \u65f6\uff0c$s_i$ \u4e3a \u003C\uff1b\n- \u5f53\u4e14\u4ec5\u5f53 $a_i \u003E a_{i+1}$ \u65f6\uff0c$s_i$ \u4e3a \u003E\u3002\n\n\u4f8b\u5982\uff0c\u6570\u7ec4 $[1, 2, 5, 4, 2]$ \u4e0e\u5b57\u7b26\u4e32 \u003C\u003C\u003E\u003E \u517c\u5bb9\u3002\u8fd8\u6709\u5176\u4ed6\u6570\u7ec4\u4e5f\u4e0e\u8be5\u5b57\u7b26\u4e32\u517c\u5bb9\uff0c\u4f8b\u5982 $[13, 37, 42, 37, 13]$\u3002\n\n\u6570\u7ec4\u7684\u4ee3\u4ef7\u5b9a\u4e49\u4e3a\u5176\u4e2d\u4e0d\u540c\u5143\u7d20\u7684\u4e2a\u6570\u3002\u4f8b\u5982\uff0c$[1, 2, 5, 4, 2]$ \u7684\u4ee3\u4ef7\u4e3a $4$\uff0c$[13, 37, 42, 37, 13]$ \u7684\u4ee3\u4ef7\u4e3a $3$\u3002\n\n\u4f60\u9700\u8981\u8ba1\u7b97\u6240\u6709\u4e0e\u7ed9\u5b9a\u5b57\u7b26\u4e32 $s$ \u517c\u5bb9\u7684\u6570\u7ec4\u4e2d\uff0c\u6700\u5c0f\u7684\u4ee3\u4ef7\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 500$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e24\u884c\uff1a\n\n- \u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 100$\uff09\uff1b\n- \u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f \u003C \u6216 \u003E\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6240\u6709\u4e0e\u7ed9\u5b9a\u5b57\u7b26\u4e32 $s$ \u517c\u5bb9\u7684\u6570\u7ec4\u4e2d\u6700\u5c0f\u7684\u4ee3\u4ef7\u3002","hint":"\u5728\u793a\u4f8b\u7684\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u53ef\u4ee5\u4e3a $[13, 37, 42, 37, 13]$\u3002\n\n\u5728\u793a\u4f8b\u7684\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4\u53ef\u4ee5\u4e3a $[42, 37, 13, 37, 42]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1837B Comparison String","type":2,"slug":"CF1837B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330791.365853,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1837B Comparison String","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u5b57\u7b26\u4e32 s\uff0c\u5176\u4e2d\u6bcf\u4e2a\u5b57\u7b26\u90fd\u662f &lt; \u6216 &gt;\u3002\n\u5982\u679c\u4e00\u4e2a\u5305\u542b n+1 \u4e2a\u5143\u7d20\u7684\u6570\u7ec4 a \u6ee1\u8db3\u5bf9\u4e8e\u6bcf\u4e2a 1 \\le i \\le n\uff0c\u5b57\u7b26 s_i \u8868\u793a a_i \u548c a_{i+1} \u7684\u6bd4\u8f83\u7ed3\u679c\uff0c\u5373\uff1a\n\n\u5f53\u4e14\u4ec5\u5f53 a_i\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1837B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1837B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1837B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1837B Comparison String" />
+    <meta property="og:description" content="给定一个长度为 n 的字符串 s，其中每个字符都是 &amp;lt; 或 &amp;gt;。
+如果一个包含 n+1 个元素的数组 a 满足对于每个 1 \le i \le n，字符 s_i 表示 a_i 和 a_{i+1} 的比较结果，即：
+
+当且仅当 a_i…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1837B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1837B Comparison String</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个长度为 $n$ 的字符串 $s$，其中每个字符都是 < 或 >。
+
+如果一个包含 $n+1$ 个元素的数组 $a$ 满足对于每个 $1 \le i \le n$，字符 $s_i$ 表示 $a_i$ 和 $a_{i+1}$ 的比较结果，即：
+
+- 当且仅当 $a_i < a_{i+1}$ 时，$s_i$ 为  a_{i+1}$ 时，$s_i$ 为 >。
+
+例如，数组 $[1, 2, 5, 4, 2]$ 与字符串  兼容。还有其他数组也与该字符串兼容，例如 $[13, 37, 42, 37, 13]$。
+
+数组的代价定义为其中不同元素的个数。例如，$[1, 2, 5, 4, 2]$ 的代价为 $4$，$[13, 37, 42, 37, 13]$ 的代价为 $3$。
+
+你需要计算所有与给定字符串 $s$ 兼容的数组中，最小的代价。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 500$），表示测试用例的数量。
+
+每个测试用例包含两行：
+
+- 第一行包含一个整数 $n$（$1 \le n \le 100$）；
+- 第二行包含一个长度为 $n$ 的字符串 $s$，每个字符都是 < 或 >。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示所有与给定字符串 $s$ 兼容的数组中最小的代价。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在示例的第一个测试用例中，数组可以为 $[13, 37, 42, 37, 13]$。
+
+在示例的第二个测试用例中，数组可以为 $[42, 37, 13, 37, 42]$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "id": "CF-44I",
+  "contest_id": 44,
+  "index": "I",
+  "name": "Toys",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "combinatorics"
+  ],
+  "url": "https://codeforces.com/problemset/problem/44/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/44/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/44/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=44I%20Toys%20tutorial",
+  "solved_count": 228,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P44I",
+  "hydro_meta": {
+    "page_title": "Toys - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "combinatorics",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

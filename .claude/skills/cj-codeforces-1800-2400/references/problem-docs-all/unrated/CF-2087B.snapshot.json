@@ -1,0 +1,27 @@
+{
+  "id": "CF-2087B",
+  "contest_id": 2087,
+  "index": "B",
+  "name": "Showmatch",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 570,
+  "problem_url": "https://codeforces.com/problemset/problem/2087/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2087/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2087/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2087B%20Showmatch%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2087/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2087B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

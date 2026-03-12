@@ -1,0 +1,41 @@
+{
+  "id": "CF-2176F",
+  "contest_id": 2176,
+  "index": "F",
+  "name": "Omega Numbers",
+  "rating": 2400,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2176/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2176/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2176/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2176F%20Omega Numbers%20tutorial",
+  "solved_count": 1380,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2176F",
+  "hydro_meta": {
+    "page_title": "Omega Numbers - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

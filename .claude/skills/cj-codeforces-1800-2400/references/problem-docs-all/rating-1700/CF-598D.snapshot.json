@@ -1,0 +1,34 @@
+{
+  "id": "CF-598D",
+  "contest_id": 598,
+  "index": "D",
+  "name": "Igor In the Museum",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 12794,
+  "problem_url": "https://codeforces.com/problemset/problem/598/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/598/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/598/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=598D%20Igor%20In%20the%20Museum%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P598D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Igor In the Museum - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "graphs",
+      "shortest paths",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

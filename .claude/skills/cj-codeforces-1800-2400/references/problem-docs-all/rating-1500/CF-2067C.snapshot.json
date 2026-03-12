@@ -1,0 +1,30 @@
+{
+  "id": "CF-2067C",
+  "contest_id": 2067,
+  "index": "C",
+  "name": "Devyatkino",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 12492,
+  "problem_url": "https://codeforces.com/problemset/problem/2067/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2067/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2067/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2067C%20Devyatkino%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2067/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2067C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

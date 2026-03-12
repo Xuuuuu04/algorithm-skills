@@ -1,0 +1,35 @@
+{
+  "id": "CF-1673E",
+  "contest_id": 1673,
+  "index": "E",
+  "name": "Power or XOR?",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 796,
+  "problem_url": "https://codeforces.com/problemset/problem/1673/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1673/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1673/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1673E%20Power%20or%20XOR%3F%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1673E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Power or XOR? - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "combinatorics",
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

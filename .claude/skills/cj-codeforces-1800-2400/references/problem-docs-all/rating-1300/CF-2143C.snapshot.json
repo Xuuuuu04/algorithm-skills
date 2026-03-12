@@ -1,0 +1,34 @@
+{
+  "id": "CF-2143C",
+  "contest_id": 2143,
+  "index": "C",
+  "name": "Max Tree",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 13525,
+  "problem_url": "https://codeforces.com/problemset/problem/2143/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2143/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2143/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2143C%20Max%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2143C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Max Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "graphs",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

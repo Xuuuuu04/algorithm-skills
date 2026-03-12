@@ -1,0 +1,32 @@
+{
+  "id": "CF-509E",
+  "contest_id": 509,
+  "index": "E",
+  "name": "Pretty Song",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "strings"
+  ],
+  "solved_count": 1871,
+  "problem_url": "https://codeforces.com/problemset/problem/509/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/509/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/509/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=509E%20Pretty%20Song%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P509E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Pretty Song - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "strings",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

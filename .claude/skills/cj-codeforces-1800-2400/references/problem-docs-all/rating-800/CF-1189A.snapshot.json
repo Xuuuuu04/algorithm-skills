@@ -1,0 +1,27 @@
+{
+  "id": "CF-1189A",
+  "contest_id": 1189,
+  "index": "A",
+  "name": "Keanu Reeves",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 16056,
+  "problem_url": "https://codeforces.com/problemset/problem/1189/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1189/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1189/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1189A%20Keanu%20Reeves%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1189A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1189A Keanu Reeves - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 174,
+    "mirror_attempt": 267,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-903D",
+  "contest_id": 903,
+  "index": "D",
+  "name": "Almost Difference",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "math"
+  ],
+  "solved_count": 4429,
+  "problem_url": "https://codeforces.com/problemset/problem/903/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/903/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/903/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=903D%20Almost%20Difference%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P903D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Almost Difference - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "math",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

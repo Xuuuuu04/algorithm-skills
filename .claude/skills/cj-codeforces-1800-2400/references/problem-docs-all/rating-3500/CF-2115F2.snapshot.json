@@ -1,0 +1,29 @@
+{
+  "id": "CF-2115F2",
+  "contest_id": 2115,
+  "index": "F2",
+  "name": "Gellyfish and Lycoris Radiata (Hard Version)",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 106,
+  "problem_url": "https://codeforces.com/problemset/problem/2115/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2115/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2115/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2115F2%20Gellyfish%20and%20Lycoris%20Radiata%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2115F2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Gellyfish and Lycoris Radiata (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "1024MiB"
+  }
+}

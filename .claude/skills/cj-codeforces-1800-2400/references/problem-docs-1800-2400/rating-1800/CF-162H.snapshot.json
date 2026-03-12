@@ -1,0 +1,29 @@
+{
+  "id": "CF-162H",
+  "contest_id": 162,
+  "index": "H",
+  "name": "Alternating case",
+  "rating": 1800,
+  "tags": [
+    "*special"
+  ],
+  "url": "https://codeforces.com/problemset/problem/162/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/162/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/162/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=162H%20Alternating case%20tutorial",
+  "solved_count": 226,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P162H",
+  "hydro_meta": {
+    "page_title": "Alternating case - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

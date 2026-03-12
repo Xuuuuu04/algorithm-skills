@@ -1,0 +1,27 @@
+{
+  "id": "CF-958B1",
+  "contest_id": 958,
+  "index": "B1",
+  "name": "Maximum Control (easy)",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 3893,
+  "problem_url": "https://codeforces.com/problemset/problem/958/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/958/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/958/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=958B1%20Maximum%20Control%20%28easy%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/958/B1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 958B1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

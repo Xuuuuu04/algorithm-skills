@@ -1,0 +1,44 @@
+{
+  "id": "CF-2020D",
+  "contest_id": 2020,
+  "index": "D",
+  "name": "Connect the Dots",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "dp",
+    "dsu",
+    "graphs",
+    "math",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2020/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2020/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2020/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2020D%20Connect the Dots%20tutorial",
+  "solved_count": 7312,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2020D",
+  "hydro_meta": {
+    "page_title": "Connect the Dots - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dp",
+      "dsu",
+      "graphs",
+      "math",
+      "trees",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

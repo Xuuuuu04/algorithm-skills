@@ -1,0 +1,34 @@
+{
+  "id": "CF-602B",
+  "contest_id": 602,
+  "index": "B",
+  "name": "Approximating a Constant Range",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 11917,
+  "problem_url": "https://codeforces.com/problemset/problem/602/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/602/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/602/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=602B%20Approximating%20a%20Constant%20Range%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P602B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Approximating a Constant Range - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "implementation",
+      "two pointers",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

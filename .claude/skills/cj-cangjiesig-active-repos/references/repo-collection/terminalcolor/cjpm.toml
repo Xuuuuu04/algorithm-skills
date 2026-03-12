@@ -1,0 +1,13 @@
+[dependencies]
+
+[package]
+cjc-version = "1.0.0"
+compile-option = "-O2"
+description = "(Cangjie) Coloring terminal so simple you already know how to do it !"
+link-option = ""
+name = "terminalcolor"
+output-type = "static"
+src-dir = ""
+target-dir = ""
+version = "0.2.1"
+[package.package-configuration]

@@ -1,0 +1,30 @@
+{
+  "id": "CF-703A",
+  "contest_id": 703,
+  "index": "A",
+  "name": "Mishka and Game",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 65652,
+  "problem_url": "https://codeforces.com/problemset/problem/703/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/703/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/703/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=703A%20Mishka%20and%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P703A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mishka and Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

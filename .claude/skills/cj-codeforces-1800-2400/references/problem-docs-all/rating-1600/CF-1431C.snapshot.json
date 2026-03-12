@@ -1,0 +1,32 @@
+{
+  "id": "CF-1431C",
+  "contest_id": 1431,
+  "index": "C",
+  "name": "Black Friday",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 743,
+  "problem_url": "https://codeforces.com/problemset/problem/1431/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1431/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1431/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1431C%20Black%20Friday%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1431C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Black Friday - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "implementation",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-442C",
+  "contest_id": 442,
+  "index": "C",
+  "name": "Artem and Array ",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 1938,
+  "problem_url": "https://codeforces.com/problemset/problem/442/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/442/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/442/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=442C%20Artem%20and%20Array%20%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF442C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF442C Artem and Array  - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 536,
+    "mirror_attempt": 1413,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

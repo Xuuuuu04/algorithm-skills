@@ -1,0 +1,28 @@
+{
+  "id": "CF-1521C",
+  "contest_id": 1521,
+  "index": "C",
+  "name": "Nastia and a Hidden Permutation",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "interactive"
+  ],
+  "solved_count": 4588,
+  "problem_url": "https://codeforces.com/problemset/problem/1521/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1521/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1521/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1521C%20Nastia%20and%20a%20Hidden%20Permutation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1521/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1521C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

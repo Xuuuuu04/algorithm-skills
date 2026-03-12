@@ -1,0 +1,14 @@
+{
+  "name": "mariadb-driver",
+  "full_name": "cangjielanguage-sig/mariadb-driver",
+  "html_url": "https://github.com/cangjielanguage-sig/mariadb-driver",
+  "description": "MariaDB驱动，适配MySQL、TiDB、OceanBase数据库。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "master",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/mariadb-driver/master/cjpm.toml"
+}

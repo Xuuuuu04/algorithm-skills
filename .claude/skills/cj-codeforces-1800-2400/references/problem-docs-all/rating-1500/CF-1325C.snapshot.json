@@ -1,0 +1,30 @@
+{
+  "id": "CF-1325C",
+  "contest_id": 1325,
+  "index": "C",
+  "name": "Ehab and Path-etic MEXs",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 16736,
+  "problem_url": "https://codeforces.com/problemset/problem/1325/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1325/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1325/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1325C%20Ehab%20and%20Path-etic%20MEXs%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1325C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1325C Ehab and Path-etic MEXs - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 366,
+    "mirror_attempt": 683,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

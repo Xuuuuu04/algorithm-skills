@@ -1,0 +1,35 @@
+{
+  "id": "CF-1949F",
+  "contest_id": 1949,
+  "index": "F",
+  "name": "Dating",
+  "rating": 2200,
+  "tags": [
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1949/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1949/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1949/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1949F%20Dating%20tutorial",
+  "solved_count": 1392,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1949F",
+  "hydro_meta": {
+    "page_title": "Dating - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "sortings",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

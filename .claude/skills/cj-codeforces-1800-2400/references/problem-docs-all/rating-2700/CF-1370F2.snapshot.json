@@ -1,0 +1,40 @@
+{
+  "id": "CF-1370F2",
+  "contest_id": 1370,
+  "index": "F2",
+  "name": "The Hidden Pair (Hard Version)",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "binary search",
+    "dfs and similar",
+    "graphs",
+    "interactive",
+    "shortest paths",
+    "trees"
+  ],
+  "solved_count": 1653,
+  "problem_url": "https://codeforces.com/problemset/problem/1370/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1370/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1370/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1370F2%20The%20Hidden%20Pair%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1370F2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Hidden Pair (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dfs and similar",
+      "graphs",
+      "interactive",
+      "shortest paths",
+      "trees",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

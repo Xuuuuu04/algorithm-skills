@@ -1,0 +1,33 @@
+{
+  "id": "CF-364C",
+  "contest_id": 364,
+  "index": "C",
+  "name": "Beautiful Set",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/364/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/364/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/364/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=364C%20Beautiful Set%20tutorial",
+  "solved_count": 639,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P364C",
+  "hydro_meta": {
+    "page_title": "Beautiful Set - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "number theory",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

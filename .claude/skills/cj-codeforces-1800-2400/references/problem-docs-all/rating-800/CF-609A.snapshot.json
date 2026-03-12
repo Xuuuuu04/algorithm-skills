@@ -1,0 +1,29 @@
+{
+  "id": "CF-609A",
+  "contest_id": 609,
+  "index": "A",
+  "name": "USB Flash Drives",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 19045,
+  "problem_url": "https://codeforces.com/problemset/problem/609/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/609/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/609/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=609A%20USB%20Flash%20Drives%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF609A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF609A USB Flash Drives - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1517,
+    "mirror_attempt": 2865,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

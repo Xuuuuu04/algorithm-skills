@@ -1,0 +1,29 @@
+{
+  "id": "CF-2140F",
+  "contest_id": 2140,
+  "index": "F",
+  "name": "Sum Minimisation",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "number theory"
+  ],
+  "solved_count": 286,
+  "problem_url": "https://codeforces.com/problemset/problem/2140/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2140/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2140/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2140F%20Sum%20Minimisation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2140F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sum Minimisation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "number theory"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

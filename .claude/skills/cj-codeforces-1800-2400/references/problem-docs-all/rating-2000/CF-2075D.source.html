@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2075D Equalization - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2075D","type":"CF","title":"Equalization","difficulty":4,"tags":[3,139],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Equalization","background":"","description":"\u7ed9\u5b9a\u4e24\u4e2a\u975e\u8d1f\u6574\u6570 $x$ \u548c $y$\u3002\n\n\u4f60\u53ef\u4ee5\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\u4efb\u610f\u6b21\u6570\uff08\u5305\u62ec\u96f6\u6b21\uff09\uff1a\u9009\u62e9\u4e00\u4e2a\u6b63\u6574\u6570 $k$\uff0c\u5e76\u5c06 $x$ \u6216 $y$ \u9664\u4ee5 $2^k$\uff08\u5411\u4e0b\u53d6\u6574\uff09\u3002\u6b64\u64cd\u4f5c\u7684\u4ee3\u4ef7\u4e3a $2^k$\u3002\u4f46\u5b58\u5728\u989d\u5916\u7ea6\u675f\uff1a\u6bcf\u4e2a $k$ \u503c\u6700\u591a\u53ea\u80fd\u9009\u62e9\u4e00\u6b21\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u8ba1\u7b97\u4f7f $x$ \u548c $y$ \u76f8\u7b49\u6240\u9700\u7684\u6700\u5c0f\u53ef\u80fd\u4ee3\u4ef7\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^5$\uff09\u2014\u2014\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u552f\u4e00\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $x$ \u548c $y$\uff08$0 \\le x, y \\le 10^{17}$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4f7f $x$ \u548c $y$ \u76f8\u7b49\u6240\u9700\u7684\u6700\u5c0f\u53ef\u80fd\u4ee3\u4ef7\u3002","hint":"\u7b2c\u4e00\u4e2a\u793a\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u6309\u5982\u4e0b\u6b65\u9aa4\u64cd\u4f5c\uff1a\u9009\u62e9 $k=1$ \u5e76\u5c06 $y$ \u9664\u4ee5 $2$\u3002\u4e4b\u540e\uff0c$x$ \u548c $y$ \u5747\u7b49\u4e8e $0$\u3002\n\n\u7b2c\u4e8c\u4e2a\u793a\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u6309\u5982\u4e0b\u6b65\u9aa4\u64cd\u4f5c\uff1a\u9009\u62e9 $k=2$ \u5e76\u5c06 $x$ \u9664\u4ee5 $4$\uff1b\u9009\u62e9 $k=1$ \u5e76\u5c06 $y$ \u9664\u4ee5 $2$\u3002\u4e4b\u540e\uff0c$x$ \u548c $y$ \u5747\u7b49\u4e8e $1$\u3002\n\n\u7b2c\u4e09\u4e2a\u793a\u4f8b\u4e2d\uff0c\u4e24\u6570\u5df2\u7ecf\u76f8\u7b49\uff0c\u65e0\u9700\u64cd\u4f5c\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"},"content":{"name":"Equalization","background":"","description":"You are given two non-negative integers $ x $ and $ y $ .\n\nYou can perform the following operation any number of times (possibly zero): choose a positive integer $ k $ and divide either $ x $ or $ y $ by $ 2^k $ rounding down. The cost of this operation is $ 2^k $ . However, there is an additional constraint: you cannot select the same value of $ k $ more than once.\n\nYour task is to calculate the minimum possible cost in order to make $ x $ equal to $ y $ .","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^5 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains two integers $ x $ and $ y $ ( $ 0 \\le x, y \\le 10^{17} $ ).","formatO":"For each test case, print a single integer \u2014 the minimum possible cost in order to make $ x $ equal to $ y $ .","hint":"In the first example, you can proceed as follows: choose $ k=1 $ and divide $ y $ by $ 2 $ . After that, $ x $ and $ y $ are equal to $ 0 $ .\n\nIn the second example, you can proceed as follows: choose $ k=2 $ and divide $ x $ by $ 4 $ ; choose $ k=1 $ and divide $ y $ by $ 2 $ . After that, $ x $ and $ y $ are equal to $ 1 $ .\n\nIn the third example, numbers already are equal.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n0 1\n6 2\n3 3\n13 37\n4238659325782394 12983091057341925","2\n6\n0\n26\n32764"]],"limits":{"time":[3500],"memory":[256000]},"vjudge":{"id":"2075D","link":"https:\/\/codeforces.com\/problemset\/problem\/2075\/D"},"translation":""},"translations":{"en":{"name":"Equalization","background":"","description":"You are given two non-negative integers $ x $ and $ y $ .\n\nYou can perform the following operation any number of times (possibly zero): choose a positive integer $ k $ and divide either $ x $ or $ y $ by $ 2^k $ rounding down. The cost of this operation is $ 2^k $ . However, there is an additional constraint: you cannot select the same value of $ k $ more than once.\n\nYour task is to calculate the minimum possible cost in order to make $ x $ equal to $ y $ .","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^5 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains two integers $ x $ and $ y $ ( $ 0 \\le x, y \\le 10^{17} $ ).","formatO":"For each test case, print a single integer \u2014 the minimum possible cost in order to make $ x $ equal to $ y $ .","hint":"In the first example, you can proceed as follows: choose $ k=1 $ and divide $ y $ by $ 2 $ . After that, $ x $ and $ y $ are equal to $ 0 $ .\n\nIn the second example, you can proceed as follows: choose $ k=2 $ and divide $ x $ by $ 4 $ ; choose $ k=1 $ and divide $ y $ by $ 2 $ . After that, $ x $ and $ y $ are equal to $ 1 $ .\n\nIn the third example, numbers already are equal.","locale":"en"},"zh-CN":{"name":"Equalization","background":"","description":"\u7ed9\u5b9a\u4e24\u4e2a\u975e\u8d1f\u6574\u6570 $x$ \u548c $y$\u3002\n\n\u4f60\u53ef\u4ee5\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\u4efb\u610f\u6b21\u6570\uff08\u5305\u62ec\u96f6\u6b21\uff09\uff1a\u9009\u62e9\u4e00\u4e2a\u6b63\u6574\u6570 $k$\uff0c\u5e76\u5c06 $x$ \u6216 $y$ \u9664\u4ee5 $2^k$\uff08\u5411\u4e0b\u53d6\u6574\uff09\u3002\u6b64\u64cd\u4f5c\u7684\u4ee3\u4ef7\u4e3a $2^k$\u3002\u4f46\u5b58\u5728\u989d\u5916\u7ea6\u675f\uff1a\u6bcf\u4e2a $k$ \u503c\u6700\u591a\u53ea\u80fd\u9009\u62e9\u4e00\u6b21\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u8ba1\u7b97\u4f7f $x$ \u548c $y$ \u76f8\u7b49\u6240\u9700\u7684\u6700\u5c0f\u53ef\u80fd\u4ee3\u4ef7\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^5$\uff09\u2014\u2014\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u552f\u4e00\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $x$ \u548c $y$\uff08$0 \\le x, y \\le 10^{17}$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4f7f $x$ \u548c $y$ \u76f8\u7b49\u6240\u9700\u7684\u6700\u5c0f\u53ef\u80fd\u4ee3\u4ef7\u3002","hint":"\u7b2c\u4e00\u4e2a\u793a\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u6309\u5982\u4e0b\u6b65\u9aa4\u64cd\u4f5c\uff1a\u9009\u62e9 $k=1$ \u5e76\u5c06 $y$ \u9664\u4ee5 $2$\u3002\u4e4b\u540e\uff0c$x$ \u548c $y$ \u5747\u7b49\u4e8e $0$\u3002\n\n\u7b2c\u4e8c\u4e2a\u793a\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u6309\u5982\u4e0b\u6b65\u9aa4\u64cd\u4f5c\uff1a\u9009\u62e9 $k=2$ \u5e76\u5c06 $x$ \u9664\u4ee5 $4$\uff1b\u9009\u62e9 $k=1$ \u5e76\u5c06 $y$ \u9664\u4ee5 $2$\u3002\u4e4b\u540e\uff0c$x$ \u548c $y$ \u5747\u7b49\u4e8e $1$\u3002\n\n\u7b2c\u4e09\u4e2a\u793a\u4f8b\u4e2d\uff0c\u4e24\u6570\u5df2\u7ecf\u76f8\u7b49\uff0c\u65e0\u9700\u64cd\u4f5c\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2075D Equalization","type":2,"slug":"CF2075D","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.512569,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2075D Equalization","description":"\u7ed9\u5b9a\u4e24\u4e2a\u975e\u8d1f\u6574\u6570 x \u548c y\u3002\n\u4f60\u53ef\u4ee5\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\u4efb\u610f\u6b21\u6570\uff08\u5305\u62ec\u96f6\u6b21\uff09\uff1a\u9009\u62e9\u4e00\u4e2a\u6b63\u6574\u6570 k\uff0c\u5e76\u5c06 x \u6216 y \u9664\u4ee5 2^k\uff08\u5411\u4e0b\u53d6\u6574\uff09\u3002\u6b64\u64cd\u4f5c\u7684\u4ee3\u4ef7\u4e3a 2^k\u3002\u4f46\u5b58\u5728\u989d\u5916\u7ea6\u675f\uff1a\u6bcf\u4e2a k \u503c\u6700\u591a\u53ea\u80fd\u9009\u62e9\u4e00\u6b21\u3002\n\u4f60\u7684\u4efb\u52a1\u662f\u8ba1\u7b97\u4f7f x \u548c y \u76f8\u7b49\u6240\u9700\u7684\u6700\u5c0f\u53ef\u80fd\u4ee3\u4ef7\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2075D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2075D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2075D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2075D Equalization" />
+    <meta property="og:description" content="给定两个非负整数 x 和 y。
+你可以执行以下操作任意次数（包括零次）：选择一个正整数 k，并将 x 或 y 除以 2^k（向下取整）。此操作的代价为 2^k。但存在额外约束：每个 k 值最多只能选择一次。
+你的任务是计算使 x 和 y 相等所需的最小可能代价。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2075D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2075D Equalization</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定两个非负整数 $x$ 和 $y$。
+
+你可以执行以下操作任意次数（包括零次）：选择一个正整数 $k$，并将 $x$ 或 $y$ 除以 $2^k$（向下取整）。此操作的代价为 $2^k$。但存在额外约束：每个 $k$ 值最多只能选择一次。
+
+你的任务是计算使 $x$ 和 $y$ 相等所需的最小可能代价。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 10^5$）——测试用例的数量。
+
+每个测试用例的唯一一行包含两个整数 $x$ 和 $y$（$0 \le x, y \le 10^{17}$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数——使 $x$ 和 $y$ 相等所需的最小可能代价。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一个示例中，可以按如下步骤操作：选择 $k=1$ 并将 $y$ 除以 $2$。之后，$x$ 和 $y$ 均等于 $0$。
+
+第二个示例中，可以按如下步骤操作：选择 $k=2$ 并将 $x$ 除以 $4$；选择 $k=1$ 并将 $y$ 除以 $2$。之后，$x$ 和 $y$ 均等于 $1$。
+
+第三个示例中，两数已经相等，无需操作。
+
+翻译由 DeepSeek R1 完成
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

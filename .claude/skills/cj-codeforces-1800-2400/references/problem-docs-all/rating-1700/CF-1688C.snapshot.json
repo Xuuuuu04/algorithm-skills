@@ -1,0 +1,34 @@
+{
+  "id": "CF-1688C",
+  "contest_id": 1688,
+  "index": "C",
+  "name": "Manipulating History",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 8697,
+  "problem_url": "https://codeforces.com/problemset/problem/1688/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1688/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1688/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1688C%20Manipulating%20History%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1688C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Manipulating History - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

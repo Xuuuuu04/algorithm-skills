@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1462B Last Year&#039;s Substring - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1462B","type":"CF","title":"Last Year\u0027s Substring","difficulty":1,"tags":[2],"wantsTranslation":false,"totalSubmit":610,"totalAccepted":302,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Last Year\u0027s Substring","background":"","description":"\u672c\u9898\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u95ee\u5220\u53bb\u5176\u4e2d\u4e00\u4e2a\u53ef\u4ee5\u4e3a\u7a7a\u7684\u5b57\u4e32\u540e\uff0c\u80fd\u5426\u4f7f\u5176\u53d8\u4e3a\u0022$2020$\u0022\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u4e3a\u6d4b\u8bd5\u6570\u636e\u6570\u91cf\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6570\u636e\uff0c\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u4e3a\u5b57\u7b26\u4e32\u957f\u5ea6\u3002\u7b2c\u4e8c\u884c\u8f93\u5165\u5b57\u7b26\u4e32\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6570\u636e\u70b9\uff0c\u5982\u679c\u53ef\u4ee5\uff0c\u8f93\u51fa$YES$\uff0c\u5426\u5219\u8f93\u51fa$NO$\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Last Year\u0027s Substring","background":"","description":"Polycarp has a string $ s[1 \\dots n] $ of length $ n $ consisting of decimal digits. Polycarp performs the following operation with the string $ s $ no more than once (i.e. he can perform operation $ 0 $ or $ 1 $ time):\n\n- Polycarp selects two numbers $ i $ and $ j $ ( $ 1 \\leq i \\leq j \\leq n $ ) and removes characters from the $ s $ string at the positions $ i, i+1, i+2, \\ldots, j $ (i.e. removes substring $ s[i \\dots j] $ ). More formally, Polycarp turns the string $ s $ into the string $ s_1 s_2 \\ldots s_{i-1} s_{j+1} s_{j+2} \\ldots s_{n} $ .\n\nFor example, the string $ s =  $ \u002220192020\u0022 Polycarp can turn into strings:\n\n- \u00222020\u0022 (in this case $ (i, j)=(3, 6) $ or $ (i, j)=(1, 4) $ );\n- \u00222019220\u0022 (in this case $ (i, j)=(6, 6) $ );\n- \u0022020\u0022 (in this case $ (i, j)=(1, 5) $ );\n- other operations are also possible, only a few of them are listed above.\n\nPolycarp likes the string \u00222020\u0022 very much, so he is wondering if it is possible to turn the string $ s $ into a string \u00222020\u0022 in no more than one operation? Note that you can perform zero operations.","formatI":"The first line contains a positive integer $ t $ ( $ 1 \\leq t \\leq 1000  $ ) \u2014 number of test cases in the test. Then $ t $ test cases follow.\n\nThe first line of each test case contains an integer $ n $ ( $ 4 \\leq n \\leq 200 $ ) \u2014 length of the string $ s $ . The next line contains a string $ s $ of length $ n $ consisting of decimal digits. It is allowed that the string $ s $ starts with digit 0.","formatO":"For each test case, output on a separate line:\n\n- \u0022YES\u0022 if Polycarp can turn the string $ s $ into a string \u00222020\u0022 in no more than one operation (i.e. he can perform $ 0 $ or $ 1 $ operation);\n- \u0022NO\u0022 otherwise.\n\nYou may print every letter of \u0022YES\u0022 and \u0022NO\u0022 in any case you want (so, for example, the strings yEs, yes, Yes and YES will all be recognized as positive answer).","hint":"In the first test case, Polycarp could choose $ i=3 $ and $ j=6 $ .\n\nIn the second test case, Polycarp could choose $ i=2 $ and $ j=5 $ .\n\nIn the third test case, Polycarp did not perform any operations with the string.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n8\n20192020\n8\n22019020\n4\n2020\n5\n20002\n6\n729040\n6\n200200","YES\nYES\nYES\nNO\nNO\nNO"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1462B","link":"https:\/\/codeforces.com\/problemset\/problem\/1462\/B"},"translation":"\u672c\u9898\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u95ee\u5220\u53bb\u5176\u4e2d\u4e00\u4e2a\u53ef\u4ee5\u4e3a\u7a7a\u7684\u5b57\u4e32\u540e\uff0c\u80fd\u5426\u4f7f\u5176\u53d8\u4e3a\u0022$2020$\u0022\u3002\n\n\u8f93\u5165\u683c\u5f0f\uff1a\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u4e3a\u6d4b\u8bd5\u6570\u636e\u6570\u91cf\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6570\u636e\uff0c\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u4e3a\u5b57\u7b26\u4e32\u957f\u5ea6\u3002\u7b2c\u4e8c\u884c\u8f93\u5165\u5b57\u7b26\u4e32\u3002\n\n\u8f93\u51fa\u683c\u5f0f\uff1a\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6570\u636e\u70b9\uff0c\u5982\u679c\u53ef\u4ee5\uff0c\u8f93\u51fa$YES$\uff0c\u5426\u5219\u8f93\u51fa$NO$\u3002"},"translations":{"en":{"name":"Last Year\u0027s Substring","background":"","description":"Polycarp has a string $ s[1 \\dots n] $ of length $ n $ consisting of decimal digits. Polycarp performs the following operation with the string $ s $ no more than once (i.e. he can perform operation $ 0 $ or $ 1 $ time):\n\n- Polycarp selects two numbers $ i $ and $ j $ ( $ 1 \\leq i \\leq j \\leq n $ ) and removes characters from the $ s $ string at the positions $ i, i+1, i+2, \\ldots, j $ (i.e. removes substring $ s[i \\dots j] $ ). More formally, Polycarp turns the string $ s $ into the string $ s_1 s_2 \\ldots s_{i-1} s_{j+1} s_{j+2} \\ldots s_{n} $ .\n\nFor example, the string $ s =  $ \u002220192020\u0022 Polycarp can turn into strings:\n\n- \u00222020\u0022 (in this case $ (i, j)=(3, 6) $ or $ (i, j)=(1, 4) $ );\n- \u00222019220\u0022 (in this case $ (i, j)=(6, 6) $ );\n- \u0022020\u0022 (in this case $ (i, j)=(1, 5) $ );\n- other operations are also possible, only a few of them are listed above.\n\nPolycarp likes the string \u00222020\u0022 very much, so he is wondering if it is possible to turn the string $ s $ into a string \u00222020\u0022 in no more than one operation? Note that you can perform zero operations.","formatI":"The first line contains a positive integer $ t $ ( $ 1 \\leq t \\leq 1000  $ ) \u2014 number of test cases in the test. Then $ t $ test cases follow.\n\nThe first line of each test case contains an integer $ n $ ( $ 4 \\leq n \\leq 200 $ ) \u2014 length of the string $ s $ . The next line contains a string $ s $ of length $ n $ consisting of decimal digits. It is allowed that the string $ s $ starts with digit 0.","formatO":"For each test case, output on a separate line:\n\n- \u0022YES\u0022 if Polycarp can turn the string $ s $ into a string \u00222020\u0022 in no more than one operation (i.e. he can perform $ 0 $ or $ 1 $ operation);\n- \u0022NO\u0022 otherwise.\n\nYou may print every letter of \u0022YES\u0022 and \u0022NO\u0022 in any case you want (so, for example, the strings yEs, yes, Yes and YES will all be recognized as positive answer).","hint":"In the first test case, Polycarp could choose $ i=3 $ and $ j=6 $ .\n\nIn the second test case, Polycarp could choose $ i=2 $ and $ j=5 $ .\n\nIn the third test case, Polycarp did not perform any operations with the string.","locale":"en"},"zh-CN":{"name":"Last Year\u0027s Substring","background":"","description":"\u672c\u9898\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u95ee\u5220\u53bb\u5176\u4e2d\u4e00\u4e2a\u53ef\u4ee5\u4e3a\u7a7a\u7684\u5b57\u4e32\u540e\uff0c\u80fd\u5426\u4f7f\u5176\u53d8\u4e3a\u0022$2020$\u0022\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u4e3a\u6d4b\u8bd5\u6570\u636e\u6570\u91cf\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6570\u636e\uff0c\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u4e3a\u5b57\u7b26\u4e32\u957f\u5ea6\u3002\u7b2c\u4e8c\u884c\u8f93\u5165\u5b57\u7b26\u4e32\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6570\u636e\u70b9\uff0c\u5982\u679c\u53ef\u4ee5\uff0c\u8f93\u51fa$YES$\uff0c\u5426\u5219\u8f93\u51fa$NO$\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1462B Last Year\u0027s Substring","type":2,"slug":"CF1462B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.671188,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1462B Last Year's Substring","description":"\u672c\u9898\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u95ee\u5220\u53bb\u5176\u4e2d\u4e00\u4e2a\u53ef\u4ee5\u4e3a\u7a7a\u7684\u5b57\u4e32\u540e\uff0c\u80fd\u5426\u4f7f\u5176\u53d8\u4e3a&quot;2020&quot;\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1462B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1462B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1462B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1462B Last Year&#039;s Substring" />
+    <meta property="og:description" content="本题给你一个字符串，问删去其中一个可以为空的字串后，能否使其变为&amp;quot;2020&amp;quot;。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1462B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1462B Last Year&#039;s Substring</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    本题给你一个字符串，问删去其中一个可以为空的字串后，能否使其变为"$2020$"。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个整数，为测试数据数量。
+
+对于每个数据，第一行一个整数，为字符串长度。第二行输入字符串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个数据点，如果可以，输出$YES$，否则输出$NO$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case, Polycarp could choose $ i=3 $ and $ j=6 $ .
+
+In the second test case, Polycarp could choose $ i=2 $ and $ j=5 $ .
+
+In the third test case, Polycarp did not perform any operations with the string.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

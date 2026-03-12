@@ -1,0 +1,36 @@
+{
+  "id": "CF-48E",
+  "contest_id": 48,
+  "index": "E",
+  "name": "Ivan the Fool VS Gorynych the Dragon",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "games",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/48/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/48/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/48/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=48E%20Ivan the Fool VS Gorynych the Dragon%20tutorial",
+  "solved_count": 696,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P48E",
+  "hydro_meta": {
+    "page_title": "Ivan the Fool VS Gorynych the Dragon - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "games",
+      "graphs",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414513:LdngN3njn65y/dA8vB8ef3hSuKpNzMUdKSUGkUsbFa4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2202A Parkour Design - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2202A","type":"CF","title":"Parkour Design","difficulty":0,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":null,"content":{"name":"Parkour Design","background":null,"description":"Today, Alex wants to build a parkour course for Steve to train his parkour skills on. A parkour course is a sequence  $ p_0 \\to p_1 \\to \\ldots \\to p_k $  of integer coordinates on the plane. Here, a contiguous pair of coordinates is called a move, denoted as  $ p_{i-1} \\to p_i $ .\n\nAlex knows that Steve can only perform the following types of moves:\n\n- $ (x_i,y_i) \\to (x_i+2,y_i+1) $ ;\n- $ (x_i,y_i) \\to (x_i+3,y_i) $ ;\n- $ (x_i,y_i) \\to (x_i+4,y_i-1) $ .\n\nNote that Steve will not perform any other type of moves. For example, Steve can perform  $ (0,0) \\to (2,1) $  and  $ (2,1) \\to (5,1) $ , but will never perform moves such as  $ (2,1) \\to (3,2) $ ,  $ (3,0) \\to (5,-1) $ , or  $ (4,-1) \\to (6,-1) $  (even though they may look very easy).\n\nYou are given an integer coordinate  $ (x,y) $  on the plane.\n\nPlease determine if it is possible to make a parkour course  $ q_0,q_1,\\ldots,q_k $  that satisfies the following conditions:\n\n- $ q_0=(0,0) $ ;\n- $ q_k=(x,y) $ ;\n- The parkour course only consists of moves that Steve can perform.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^3 $ ). The description of the test cases follows.\n\nThe only line of each test case contains two integers  $ x $  and  $ y $  ( $ 1 \\le x \\le 10^9 $ ,  $ -10^8 \\le y \\le 10^8 $ ).","formatO":"If it is possible to make a parkour course that satisfies the conditions, output \u0022YES\u0022 on a separate line.\n\nIf it is impossible to make a parkour course that satisfies the conditions, output \u0022NO\u0022 on a separate line.\n\nYou can output the answer in any case. For example, the strings \u0022yEs\u0022, \u0022yes\u0022, and \u0022Yes\u0022 will also be recognized as positive responses.","hint":"For the fifth test case, the parkour course must start from  $ (0,0) $  and end on  $ (14,1) $ .\n\nThis can be achieved by the following parkour course.\n\n$$$\n(0,0) \\to (4,-1) \\to (7,-1) \\to (9,0) \\to (12,0) \\to (14,1)\n$$$\n\nNote that the following parkour course does not satisfy the third condition stated above due to the moves highlighted in red.\n\n$$$\n(0,0) \\to \\color{red}{(4,-1) \\to (6,-1)} \\to (8,0) \\to \\color{red}{(11,0) \\to (14,1)}\n$$$","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["11\n2 1\n3 0\n4 -1\n4 1\n14 1\n1 -4\n3 -1\n2 10\n24 -1\n24 -3\n8 4","YES\nYES\nYES\nNO\nYES\nNO\nNO\nNO\nNO\nYES\nYES"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2202A","link":"https:\/\/codeforces.com\/problemset\/problem\/2202\/A"},"translation":null},"translations":{"en":{"name":"Parkour Design","background":null,"description":"Today, Alex wants to build a parkour course for Steve to train his parkour skills on. A parkour course is a sequence  $ p_0 \\to p_1 \\to \\ldots \\to p_k $  of integer coordinates on the plane. Here, a contiguous pair of coordinates is called a move, denoted as  $ p_{i-1} \\to p_i $ .\n\nAlex knows that Steve can only perform the following types of moves:\n\n- $ (x_i,y_i) \\to (x_i+2,y_i+1) $ ;\n- $ (x_i,y_i) \\to (x_i+3,y_i) $ ;\n- $ (x_i,y_i) \\to (x_i+4,y_i-1) $ .\n\nNote that Steve will not perform any other type of moves. For example, Steve can perform  $ (0,0) \\to (2,1) $  and  $ (2,1) \\to (5,1) $ , but will never perform moves such as  $ (2,1) \\to (3,2) $ ,  $ (3,0) \\to (5,-1) $ , or  $ (4,-1) \\to (6,-1) $  (even though they may look very easy).\n\nYou are given an integer coordinate  $ (x,y) $  on the plane.\n\nPlease determine if it is possible to make a parkour course  $ q_0,q_1,\\ldots,q_k $  that satisfies the following conditions:\n\n- $ q_0=(0,0) $ ;\n- $ q_k=(x,y) $ ;\n- The parkour course only consists of moves that Steve can perform.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^3 $ ). The description of the test cases follows.\n\nThe only line of each test case contains two integers  $ x $  and  $ y $  ( $ 1 \\le x \\le 10^9 $ ,  $ -10^8 \\le y \\le 10^8 $ ).","formatO":"If it is possible to make a parkour course that satisfies the conditions, output \u0022YES\u0022 on a separate line.\n\nIf it is impossible to make a parkour course that satisfies the conditions, output \u0022NO\u0022 on a separate line.\n\nYou can output the answer in any case. For example, the strings \u0022yEs\u0022, \u0022yes\u0022, and \u0022Yes\u0022 will also be recognized as positive responses.","hint":"For the fifth test case, the parkour course must start from  $ (0,0) $  and end on  $ (14,1) $ .\n\nThis can be achieved by the following parkour course.\n\n$$$\n(0,0) \\to (4,-1) \\to (7,-1) \\to (9,0) \\to (12,0) \\to (14,1)\n$$$\n\nNote that the following parkour course does not satisfy the third condition stated above due to the moves highlighted in red.\n\n$$$\n(0,0) \\to \\color{red}{(4,-1) \\to (6,-1)} \\to (8,0) \\to \\color{red}{(11,0) \\to (14,1)}\n$$$","locale":"en"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2202A Parkour Design","type":2,"slug":"CF2202A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328112.953376,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2202A Parkour Design","description":"Today, Alex wants to build a parkour course for Steve to train his parkour skills on. A parkour course is a sequence   p_0\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2202A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2202A?lang=en" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2202A Parkour Design" />
+    <meta property="og:description" content="Today, Alex wants to build a parkour course for Steve to train his parkour skills on. A parkour course is a sequence   p_0…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2202A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="en">
+        <h1>CF2202A Parkour Design</h1>
+
+        
+        <section>
+            <h2>Description</h2>
+            <div>
+                                    Today, Alex wants to build a parkour course for Steve to train his parkour skills on. A parkour course is a sequence  $ p_0 \to p_1 \to \ldots \to p_k $  of integer coordinates on the plane. Here, a contiguous pair of coordinates is called a move, denoted as  $ p_{i-1} \to p_i $ .
+
+Alex knows that Steve can only perform the following types of moves:
+
+- $ (x_i,y_i) \to (x_i+2,y_i+1) $ ;
+- $ (x_i,y_i) \to (x_i+3,y_i) $ ;
+- $ (x_i,y_i) \to (x_i+4,y_i-1) $ .
+
+Note that Steve will not perform any other type of moves. For example, Steve can perform  $ (0,0) \to (2,1) $  and  $ (2,1) \to (5,1) $ , but will never perform moves such as  $ (2,1) \to (3,2) $ ,  $ (3,0) \to (5,-1) $ , or  $ (4,-1) \to (6,-1) $  (even though they may look very easy).
+
+You are given an integer coordinate  $ (x,y) $  on the plane.
+
+Please determine if it is possible to make a parkour course  $ q_0,q_1,\ldots,q_k $  that satisfies the following conditions:
+
+- $ q_0=(0,0) $ ;
+- $ q_k=(x,y) $ ;
+- The parkour course only consists of moves that Steve can perform.
+                            </div>
+        </section>
+
+        <section>
+            <h2>Input Format</h2>
+            <div>
+                                    Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \le t \le 10^3 $ ). The description of the test cases follows.
+
+The only line of each test case contains two integers  $ x $  and  $ y $  ( $ 1 \le x \le 10^9 $ ,  $ -10^8 \le y \le 10^8 $ ).
+                            </div>
+        </section>
+
+        <section>
+            <h2>Output Format</h2>
+            <div>
+                                    If it is possible to make a parkour course that satisfies the conditions, output "YES" on a separate line.
+
+If it is impossible to make a parkour course that satisfies the conditions, output "NO" on a separate line.
+
+You can output the answer in any case. For example, the strings "yEs", "yes", and "Yes" will also be recognized as positive responses.
+                            </div>
+        </section>
+
+        <section>
+            <h2>Explanation/Hint</h2>
+            <div>
+                For the fifth test case, the parkour course must start from  $ (0,0) $  and end on  $ (14,1) $ .
+
+This can be achieved by the following parkour course.
+
+$$$
+(0,0) \to (4,-1) \to (7,-1) \to (9,0) \to (12,0) \to (14,1)
+$$$
+
+Note that the following parkour course does not satisfy the third condition stated above due to the moves highlighted in red.
+
+$$$
+(0,0) \to \color{red}{(4,-1) \to (6,-1)} \to (8,0) \to \color{red}{(11,0) \to (14,1)}
+$$$
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

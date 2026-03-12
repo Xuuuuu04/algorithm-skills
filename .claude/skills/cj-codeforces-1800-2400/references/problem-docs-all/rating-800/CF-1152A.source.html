@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1152A Neko Finds Grapes - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1152A","type":"CF","title":"Neko Finds Grapes","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":236,"totalAccepted":139,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Neko Finds Grapes","background":null,"description":"\u67d0\u5929\uff0cNeko \u53d1\u73b0\u4e86 $n$ \u4e2a\u5b9d\u7bb1\u548c $m$ \u628a\u94a5\u5319\u3002\u7b2c $i$ \u4e2a\u5b9d\u7bb1\u4e0a\u5199\u7740\u6574\u6570 $a_i$\uff0c\u7b2c $j$ \u628a\u94a5\u5319\u4e0a\u5199\u7740\u6574\u6570 $b_j$\u3002Neko \u77e5\u9053\u8fd9\u4e9b\u5b9d\u7bb1\u91cc\u88c5\u7740\u795e\u79d8\u5f3a\u5927\u7684\u7eff\u8272\u8461\u8404\uff0c\u56e0\u6b64\u5979\u60f3\u5c3d\u53ef\u80fd\u591a\u5730\u6253\u5f00\u5b9d\u7bb1\u3002\n\n\u7b2c $j$ \u628a\u94a5\u5319\u53ef\u4ee5\u6253\u5f00\u7b2c $i$ \u4e2a\u5b9d\u7bb1\uff0c\u5f53\u4e14\u4ec5\u5f53\u94a5\u5319\u4e0a\u7684\u6570\u5b57\u4e0e\u5b9d\u7bb1\u4e0a\u7684\u6570\u5b57\u4e4b\u548c\u4e3a\u5947\u6570\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5f53 $a_i + b_j \\equiv 1 \\pmod{2}$ \u65f6\u53ef\u4ee5\u6253\u5f00\u3002\u6bcf\u628a\u94a5\u5319\u6700\u591a\u53ea\u80fd\u7528\u6765\u6253\u5f00\u4e00\u4e2a\u5b9d\u7bb1\uff0c\u6bcf\u4e2a\u5b9d\u7bb1\u6700\u591a\u53ea\u80fd\u88ab\u6253\u5f00\u4e00\u6b21\u3002\n\n\u8bf7\u4f60\u6c42\u51fa Neko \u6700\u591a\u80fd\u6253\u5f00\u591a\u5c11\u4e2a\u5b9d\u7bb1\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\leq n, m \\leq 10^5$\uff09\uff0c\u5206\u522b\u8868\u793a\u5b9d\u7bb1\u548c\u94a5\u5319\u7684\u6570\u91cf\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq 10^9$\uff09\uff0c\u8868\u793a\u6bcf\u4e2a\u5b9d\u7bb1\u4e0a\u7684\u6570\u5b57\u3002\n\n\u7b2c\u4e09\u884c\u5305\u542b $m$ \u4e2a\u6574\u6570 $b_1, b_2, \\ldots, b_m$\uff08$1 \\leq b_i \\leq 10^9$\uff09\uff0c\u8868\u793a\u6bcf\u628a\u94a5\u5319\u4e0a\u7684\u6570\u5b57\u3002","formatO":"\u8f93\u51fa Neko \u6700\u591a\u80fd\u6253\u5f00\u7684\u5b9d\u7bb1\u6570\u91cf\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u79cd\u53ef\u4ee5\u6253\u5f00 $3$ \u4e2a\u5b9d\u7bb1\u7684\u65b9\u6cd5\u5982\u4e0b\uff1a\n\n- \u7528\u7b2c\u4e00\u628a\u94a5\u5319\u6253\u5f00\u7b2c\u4e94\u4e2a\u5b9d\u7bb1\uff0c\n- \u7528\u7b2c\u4e09\u628a\u94a5\u5319\u6253\u5f00\u7b2c\u4e8c\u4e2a\u5b9d\u7bb1\uff0c\n- \u7528\u7b2c\u56db\u628a\u94a5\u5319\u6253\u5f00\u7b2c\u4e00\u4e2a\u5b9d\u7bb1\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u7528\u552f\u4e00\u7684\u4e00\u628a\u94a5\u5319\u6253\u5f00\u4efb\u610f\u4e00\u4e2a\u5b9d\u7bb1\uff08\u6ce8\u610f\u6bcf\u628a\u94a5\u5319\u4e0d\u80fd\u91cd\u590d\u4f7f\u7528\uff09\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6ca1\u6709\u94a5\u5319\u53ef\u4ee5\u6253\u5f00\u7ed9\u5b9a\u7684\u5b9d\u7bb1\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Neko Finds Grapes","background":"","description":"On a random day, Neko found $ n $ treasure chests and $ m $ keys. The $ i $ -th chest has an integer $ a_i $ written on it and the $ j $ -th key has an integer $ b_j $ on it. Neko knows those chests contain the powerful mysterious green Grapes, thus Neko wants to open as many treasure chests as possible.\n\nThe $ j $ -th key can be used to unlock the $ i $ -th chest if and only if the sum of the key number and the chest number is an odd number. Formally, $ a_i + b_j \\equiv 1 \\pmod{2} $ . One key can be used to open at most one chest, and one chest can be opened at most once.\n\nFind the maximum number of chests Neko can open.","formatI":"The first line contains integers $ n $ and $ m $ ( $ 1 \\leq n, m \\leq 10^5 $ ) \u2014 the number of chests and the number of keys.\n\nThe second line contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\leq a_i \\leq 10^9 $ ) \u2014 the numbers written on the treasure chests.\n\nThe third line contains $ m $ integers $ b_1, b_2, \\ldots, b_m $ ( $ 1 \\leq b_i \\leq 10^9 $ ) \u2014 the numbers written on the keys.","formatO":"Print the maximum number of chests you can open.","hint":"In the first example, one possible way to unlock $ 3 $ chests is as follows:\n\n- Use first key to unlock the fifth chest,\n- Use third key to unlock the second chest,\n- Use fourth key to unlock the first chest.\n\nIn the second example, you can use the only key to unlock any single chest (note that one key can\u0027t be used twice).\n\nIn the third example, no key can unlock the given chest.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5 4\n9 14 6 2 11\n8 4 7 20\n","3"],["5 1\n2 4 6 8 10\n5\n","1"],["1 4\n10\n20 30 40 50\n","0"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1152A","link":"https:\/\/codeforces.com\/problemset\/problem\/1152\/A"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\nNeko\u6709n\u4e2a\u5b9d\u7bb1\u548cm\u4e2a\u94a5\u5319\uff0c\u7b2ci\u4e2a\u7bb1\u5b50\u4e0a\u5199\u6709\u6574\u6570a$_{i}$\uff0c\u7b2cj\u4e2a\u5b9d\u7bb1\u4e0a\u5199\u6709\u6574\u6570b$_{j}$\uff0cNeko\u60f3\u8981\u6253\u5f00\u5c3d\u91cf\u591a\u7684\u5b9d\u7bb1\u3002\n\n\u7b2cj\u4e2a\u5c0f\u65f6\u53ef\u4ee5\u88ab\u7528\u6765\u6253\u5f00\u7b2ci\u4e2a\u5b9d\u7bb1\u5f53\u4e14\u4ec5\u5f53a$_{i}$\u4e0eb$_{j}$\u7684\u548c\u4e3a\u5947\u6570\u3002\u4e00\u4e2a\u94a5\u5319\u6700\u591a\u4ec5\u80fd\u914d\u5bf9\u4e00\u4e2a\u7bb1\u5b50\uff0c\u4e00\u4e2a\u7bb1\u5b50\u6700\u591a\u88ab\u6253\u5f00\u4e00\u6b21\n\n\u8bf7\u4f60\u544a\u8bc9Neko\u4ed6\u6700\u591a\u80fd\u6253\u5f00\u591a\u5c11\u4e2a\u7bb1\u5b50\u3002\n\n## \u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u5305\u62ec\u6574\u6570n\u548cm\uff0c\u5176\u4e2d(1\u2264n,m\u226410$^{5}$)\n\n\u7b2c\u4e8c\u884c\u5305\u62ecn\u4e2a\u6574\u6570a$_{1}$\n,a$_{2}$\n,a$_{3}$\n......a$_{n}$(1\u2264a$_{i}$\u226410$^{9}$)\n\n\u7b2c\u4e09\u884c\u5305\u62ecm\u4e2a\u6574\u6570b$_{1}$\n,b$_{2}$\n,b$_{3}$\n\n## \u8f93\u51fa\u683c\u5f0f\n\n\u8f93\u51fa\u4f60\u80fd\u6253\u5f00\u7684\u7bb1\u5b50\u7684\u6700\u5927\u6570\n......b$_{n}$(1\u2264b$_{i}$\u226410$^{9}$)\n"},"translations":{"en":{"name":"Neko Finds Grapes","background":"","description":"On a random day, Neko found $ n $ treasure chests and $ m $ keys. The $ i $ -th chest has an integer $ a_i $ written on it and the $ j $ -th key has an integer $ b_j $ on it. Neko knows those chests contain the powerful mysterious green Grapes, thus Neko wants to open as many treasure chests as possible.\n\nThe $ j $ -th key can be used to unlock the $ i $ -th chest if and only if the sum of the key number and the chest number is an odd number. Formally, $ a_i + b_j \\equiv 1 \\pmod{2} $ . One key can be used to open at most one chest, and one chest can be opened at most once.\n\nFind the maximum number of chests Neko can open.","formatI":"The first line contains integers $ n $ and $ m $ ( $ 1 \\leq n, m \\leq 10^5 $ ) \u2014 the number of chests and the number of keys.\n\nThe second line contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\leq a_i \\leq 10^9 $ ) \u2014 the numbers written on the treasure chests.\n\nThe third line contains $ m $ integers $ b_1, b_2, \\ldots, b_m $ ( $ 1 \\leq b_i \\leq 10^9 $ ) \u2014 the numbers written on the keys.","formatO":"Print the maximum number of chests you can open.","hint":"In the first example, one possible way to unlock $ 3 $ chests is as follows:\n\n- Use first key to unlock the fifth chest,\n- Use third key to unlock the second chest,\n- Use fourth key to unlock the first chest.\n\nIn the second example, you can use the only key to unlock any single chest (note that one key can\u0027t be used twice).\n\nIn the third example, no key can unlock the given chest.","locale":"en"},"zh-CN":{"name":"Neko Finds Grapes","background":null,"description":"\u67d0\u5929\uff0cNeko \u53d1\u73b0\u4e86 $n$ \u4e2a\u5b9d\u7bb1\u548c $m$ \u628a\u94a5\u5319\u3002\u7b2c $i$ \u4e2a\u5b9d\u7bb1\u4e0a\u5199\u7740\u6574\u6570 $a_i$\uff0c\u7b2c $j$ \u628a\u94a5\u5319\u4e0a\u5199\u7740\u6574\u6570 $b_j$\u3002Neko \u77e5\u9053\u8fd9\u4e9b\u5b9d\u7bb1\u91cc\u88c5\u7740\u795e\u79d8\u5f3a\u5927\u7684\u7eff\u8272\u8461\u8404\uff0c\u56e0\u6b64\u5979\u60f3\u5c3d\u53ef\u80fd\u591a\u5730\u6253\u5f00\u5b9d\u7bb1\u3002\n\n\u7b2c $j$ \u628a\u94a5\u5319\u53ef\u4ee5\u6253\u5f00\u7b2c $i$ \u4e2a\u5b9d\u7bb1\uff0c\u5f53\u4e14\u4ec5\u5f53\u94a5\u5319\u4e0a\u7684\u6570\u5b57\u4e0e\u5b9d\u7bb1\u4e0a\u7684\u6570\u5b57\u4e4b\u548c\u4e3a\u5947\u6570\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5f53 $a_i + b_j \\equiv 1 \\pmod{2}$ \u65f6\u53ef\u4ee5\u6253\u5f00\u3002\u6bcf\u628a\u94a5\u5319\u6700\u591a\u53ea\u80fd\u7528\u6765\u6253\u5f00\u4e00\u4e2a\u5b9d\u7bb1\uff0c\u6bcf\u4e2a\u5b9d\u7bb1\u6700\u591a\u53ea\u80fd\u88ab\u6253\u5f00\u4e00\u6b21\u3002\n\n\u8bf7\u4f60\u6c42\u51fa Neko \u6700\u591a\u80fd\u6253\u5f00\u591a\u5c11\u4e2a\u5b9d\u7bb1\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\leq n, m \\leq 10^5$\uff09\uff0c\u5206\u522b\u8868\u793a\u5b9d\u7bb1\u548c\u94a5\u5319\u7684\u6570\u91cf\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq 10^9$\uff09\uff0c\u8868\u793a\u6bcf\u4e2a\u5b9d\u7bb1\u4e0a\u7684\u6570\u5b57\u3002\n\n\u7b2c\u4e09\u884c\u5305\u542b $m$ \u4e2a\u6574\u6570 $b_1, b_2, \\ldots, b_m$\uff08$1 \\leq b_i \\leq 10^9$\uff09\uff0c\u8868\u793a\u6bcf\u628a\u94a5\u5319\u4e0a\u7684\u6570\u5b57\u3002","formatO":"\u8f93\u51fa Neko \u6700\u591a\u80fd\u6253\u5f00\u7684\u5b9d\u7bb1\u6570\u91cf\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u79cd\u53ef\u4ee5\u6253\u5f00 $3$ \u4e2a\u5b9d\u7bb1\u7684\u65b9\u6cd5\u5982\u4e0b\uff1a\n\n- \u7528\u7b2c\u4e00\u628a\u94a5\u5319\u6253\u5f00\u7b2c\u4e94\u4e2a\u5b9d\u7bb1\uff0c\n- \u7528\u7b2c\u4e09\u628a\u94a5\u5319\u6253\u5f00\u7b2c\u4e8c\u4e2a\u5b9d\u7bb1\uff0c\n- \u7528\u7b2c\u56db\u628a\u94a5\u5319\u6253\u5f00\u7b2c\u4e00\u4e2a\u5b9d\u7bb1\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u7528\u552f\u4e00\u7684\u4e00\u628a\u94a5\u5319\u6253\u5f00\u4efb\u610f\u4e00\u4e2a\u5b9d\u7bb1\uff08\u6ce8\u610f\u6bcf\u628a\u94a5\u5319\u4e0d\u80fd\u91cd\u590d\u4f7f\u7528\uff09\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6ca1\u6709\u94a5\u5319\u53ef\u4ee5\u6253\u5f00\u7ed9\u5b9a\u7684\u5b9d\u7bb1\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1152A Neko Finds Grapes","type":2,"slug":"CF1152A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.368897,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1152A Neko Finds Grapes","description":"\u67d0\u5929\uff0cNeko \u53d1\u73b0\u4e86 n \u4e2a\u5b9d\u7bb1\u548c m \u628a\u94a5\u5319\u3002\u7b2c i \u4e2a\u5b9d\u7bb1\u4e0a\u5199\u7740\u6574\u6570 a_i\uff0c\u7b2c j \u628a\u94a5\u5319\u4e0a\u5199\u7740\u6574\u6570 b_j\u3002Neko \u77e5\u9053\u8fd9\u4e9b\u5b9d\u7bb1\u91cc\u88c5\u7740\u795e\u79d8\u5f3a\u5927\u7684\u7eff\u8272\u8461\u8404\uff0c\u56e0\u6b64\u5979\u60f3\u5c3d\u53ef\u80fd\u591a\u5730\u6253\u5f00\u5b9d\u7bb1\u3002\n\u7b2c j \u628a\u94a5\u5319\u53ef\u4ee5\u6253\u5f00\u7b2c i \u4e2a\u5b9d\u7bb1\uff0c\u5f53\u4e14\u4ec5\u5f53\u94a5\u5319\u4e0a\u7684\u6570\u5b57\u4e0e\u5b9d\u7bb1\u4e0a\u7684\u6570\u5b57\u4e4b\u548c\u4e3a\u5947\u6570\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5f53\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1152A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1152A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1152A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1152A Neko Finds Grapes" />
+    <meta property="og:description" content="某天，Neko 发现了 n 个宝箱和 m 把钥匙。第 i 个宝箱上写着整数 a_i，第 j 把钥匙上写着整数 b_j。Neko 知道这些宝箱里装着神秘强大的绿色葡萄，因此她想尽可能多地打开宝箱。
+第 j 把钥匙可以打开第 i 个宝箱，当且仅当钥匙上的数字与宝箱上的数字之和为奇数。形式化地说，当…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1152A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1152A Neko Finds Grapes</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    某天，Neko 发现了 $n$ 个宝箱和 $m$ 把钥匙。第 $i$ 个宝箱上写着整数 $a_i$，第 $j$ 把钥匙上写着整数 $b_j$。Neko 知道这些宝箱里装着神秘强大的绿色葡萄，因此她想尽可能多地打开宝箱。
+
+第 $j$ 把钥匙可以打开第 $i$ 个宝箱，当且仅当钥匙上的数字与宝箱上的数字之和为奇数。形式化地说，当 $a_i + b_j \equiv 1 \pmod{2}$ 时可以打开。每把钥匙最多只能用来打开一个宝箱，每个宝箱最多只能被打开一次。
+
+请你求出 Neko 最多能打开多少个宝箱。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含两个整数 $n$ 和 $m$（$1 \leq n, m \leq 10^5$），分别表示宝箱和钥匙的数量。
+
+第二行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$1 \leq a_i \leq 10^9$），表示每个宝箱上的数字。
+
+第三行包含 $m$ 个整数 $b_1, b_2, \ldots, b_m$（$1 \leq b_i \leq 10^9$），表示每把钥匙上的数字。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出 Neko 最多能打开的宝箱数量。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，一种可以打开 $3$ 个宝箱的方法如下：
+
+- 用第一把钥匙打开第五个宝箱，
+- 用第三把钥匙打开第二个宝箱，
+- 用第四把钥匙打开第一个宝箱。
+
+在第二个样例中，你可以用唯一的一把钥匙打开任意一个宝箱（注意每把钥匙不能重复使用）。
+
+在第三个样例中，没有钥匙可以打开给定的宝箱。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "id": "CF-1997D",
+  "contest_id": 1997,
+  "index": "D",
+  "name": "Maximize the Root",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 15629,
+  "problem_url": "https://codeforces.com/problemset/problem/1997/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1997/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1997/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1997D%20Maximize%20the%20Root%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1997D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1997D Maximize the Root - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 195,
+    "mirror_attempt": 444,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

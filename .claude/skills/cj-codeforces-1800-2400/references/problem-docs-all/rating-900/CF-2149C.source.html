@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417192:HRIxmQqXVIxdN1b4LgVjO5SuqrUJ+uwVsY5m278ofAc=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2149C MEX rose - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2149C","type":"CF","title":"MEX rose","difficulty":2,"tags":[7],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"MEX rose","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$ \u548c\u4e00\u4e2a\u6570 $k$\uff0c\u5176\u4e2d $0 \\le k \\le n$\u3002\n\n\u6bcf\u6b21\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4efb\u610f\u4e0b\u6807 $i$\uff08$1 \\le i \\le n$\uff09\uff0c\u5e76\u5c06 $a_i$ \u8d4b\u503c\u4e3a $[0,n]$ \u533a\u95f4\u5185\u7684\u4efb\u610f\u6574\u6570 $x$\u3002\n\n\u8bf7\u4f60\u6c42\u51fa\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u53ef\u4ee5\u4f7f\u5f97 $\\operatorname{MEX}(a) = k$\u3002\n\n$\\operatorname{MEX}$ \u6307\u7684\u662f\u4e00\u7ec4\u6570 $a_1,a_2,\\dots,a_n$ \u7684\u6700\u5c0f\u672a\u51fa\u73b0\u7684\u975e\u8d1f\u6574\u6570\u3002","formatI":"\u6bcf\u7ec4\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$1 \\le n \\le 2 \\cdot 10^5,\\,\\, 0 \\le k \\le n$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u548c\u9700\u8981\u7684 $\\operatorname{MEX}(a)$\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1,a_2,\\dots,a_n$\uff08$0 \\le a_i \\le n$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6ee1\u8db3 $\\operatorname{MEX}(a)=k$ \u6240\u9700\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4 $a=[0]$\uff0c\u6240\u4ee5 $\\operatorname{MEX}=1$\u3002  \n\u5c06 $0$ \u66ff\u6362\u4e3a $[1,n]$ \u95f4\u7684\u4efb\u610f\u6570\uff0c\u53ef\u4f7f $\\operatorname{MEX}=0$\u3002  \n\u56e0\u6b64\uff0c\u6b63\u597d\u9700\u8981\u4e00\u6b21\u64cd\u4f5c\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4 $a$ \u5305\u542b $0,1,2,3,4$\uff0c\u6240\u4ee5\u4e00\u5f00\u59cb\u5c31\u6709 $\\operatorname{MEX}(a)=5$\u3002\n\n\u56e0\u4e3a\u8fd9\u6b63\u597d\u7b49\u4e8e\u8981\u6c42\u7684 $k$\uff0c\u6240\u4ee5\u65e0\u9700\u64cd\u4f5c\uff0c\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u4e3a $0$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"MEX rose","background":null,"description":"You are given an array  $ a $  of length  $ n $  and a number  $ k $ , where  $ 0 \\le k \\le n $ .\n\nIn one operation, you can choose any index  $ i $  ( $ 1 \\le i \\le n $ ) and set  $ a_i $  to any integer value  $ x $  from the range  $ [0,n] $ .\n\nFind the minimum number of such operations required to satisfy the condition:  $ \\operatorname{MEX}(a) $  $ ^{\\text{\u2217}} $  $ =k $\n\n $ ^{\\text{\u2217}} $ The minimum excluded (MEX) of a set of numbers  $ a_1,a_2,\\dots,a_n $  is the smallest non-negative integer  $ x $  that does not appear among the  $ a_i $ .","formatI":"Each test consists of several sets of input data.\n\nThe first line contains one integer  $ t $  ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of sets of input data. The description of the sets of input data follows.\n\nThe first line of each set of input data contains two integers  $ n $  and  $ k $  ( $ 1 \\le n \\le 2 \\cdot 10^5,\\,\\, 0 \\le k \\le n $ ) \u2014 the length of the array  $ a $  and the required  $ \\operatorname{MEX}(a) $ .\n\nThe second line contains  $ n $  integers  $ a_1,a_2,\\dots,a_n $  ( $ 0 \\le a_i \\le n $ ) \u2014 the elements of the array  $ a $ .\n\nIt is guaranteed that the sum of the values of  $ n $  across all sets of input data does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each set of input data, output one integer \u2014 the minimum number of operations required to satisfy the condition  $ \\operatorname{MEX}(a)=k $ .","hint":"In the first set of input data, the array  $ a=[0] $ , so  $ \\operatorname{MEX}=1 $ .  $  \\\\  $  By removing zero (replacing it with any  $ x\\in[1,n] $ ), we get  $ \\operatorname{MEX}=0 $ .  $  \\\\  $  Thus, exactly one operation is required.\n\nIn the third set of input data, the array contains all the numbers  $ 0,1,2,3,4 $ , so  $ \\operatorname{MEX}(a)=5 $  from the start.\n\nSince this matches the required  $ k $ , no changes are needed and the minimum number of operations is  $ 0 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n1 0\n0\n3 1\n0 2 3\n5 5\n0 1 2 3 4\n6 2\n0 3 4 2 6 2\n7 4\n0 1 5 4 4 7 3","1\n0\n0\n2\n2"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2149C","link":"https:\/\/codeforces.com\/problemset\/problem\/2149\/C"},"translation":null},"translations":{"en":{"name":"MEX rose","background":null,"description":"You are given an array  $ a $  of length  $ n $  and a number  $ k $ , where  $ 0 \\le k \\le n $ .\n\nIn one operation, you can choose any index  $ i $  ( $ 1 \\le i \\le n $ ) and set  $ a_i $  to any integer value  $ x $  from the range  $ [0,n] $ .\n\nFind the minimum number of such operations required to satisfy the condition:  $ \\operatorname{MEX}(a) $  $ ^{\\text{\u2217}} $  $ =k $\n\n $ ^{\\text{\u2217}} $ The minimum excluded (MEX) of a set of numbers  $ a_1,a_2,\\dots,a_n $  is the smallest non-negative integer  $ x $  that does not appear among the  $ a_i $ .","formatI":"Each test consists of several sets of input data.\n\nThe first line contains one integer  $ t $  ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of sets of input data. The description of the sets of input data follows.\n\nThe first line of each set of input data contains two integers  $ n $  and  $ k $  ( $ 1 \\le n \\le 2 \\cdot 10^5,\\,\\, 0 \\le k \\le n $ ) \u2014 the length of the array  $ a $  and the required  $ \\operatorname{MEX}(a) $ .\n\nThe second line contains  $ n $  integers  $ a_1,a_2,\\dots,a_n $  ( $ 0 \\le a_i \\le n $ ) \u2014 the elements of the array  $ a $ .\n\nIt is guaranteed that the sum of the values of  $ n $  across all sets of input data does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each set of input data, output one integer \u2014 the minimum number of operations required to satisfy the condition  $ \\operatorname{MEX}(a)=k $ .","hint":"In the first set of input data, the array  $ a=[0] $ , so  $ \\operatorname{MEX}=1 $ .  $  \\\\  $  By removing zero (replacing it with any  $ x\\in[1,n] $ ), we get  $ \\operatorname{MEX}=0 $ .  $  \\\\  $  Thus, exactly one operation is required.\n\nIn the third set of input data, the array contains all the numbers  $ 0,1,2,3,4 $ , so  $ \\operatorname{MEX}(a)=5 $  from the start.\n\nSince this matches the required  $ k $ , no changes are needed and the minimum number of operations is  $ 0 $ .","locale":"en"},"zh-CN":{"name":"MEX rose","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$ \u548c\u4e00\u4e2a\u6570 $k$\uff0c\u5176\u4e2d $0 \\le k \\le n$\u3002\n\n\u6bcf\u6b21\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4efb\u610f\u4e0b\u6807 $i$\uff08$1 \\le i \\le n$\uff09\uff0c\u5e76\u5c06 $a_i$ \u8d4b\u503c\u4e3a $[0,n]$ \u533a\u95f4\u5185\u7684\u4efb\u610f\u6574\u6570 $x$\u3002\n\n\u8bf7\u4f60\u6c42\u51fa\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u53ef\u4ee5\u4f7f\u5f97 $\\operatorname{MEX}(a) = k$\u3002\n\n$\\operatorname{MEX}$ \u6307\u7684\u662f\u4e00\u7ec4\u6570 $a_1,a_2,\\dots,a_n$ \u7684\u6700\u5c0f\u672a\u51fa\u73b0\u7684\u975e\u8d1f\u6574\u6570\u3002","formatI":"\u6bcf\u7ec4\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$1 \\le n \\le 2 \\cdot 10^5,\\,\\, 0 \\le k \\le n$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u548c\u9700\u8981\u7684 $\\operatorname{MEX}(a)$\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1,a_2,\\dots,a_n$\uff08$0 \\le a_i \\le n$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6ee1\u8db3 $\\operatorname{MEX}(a)=k$ \u6240\u9700\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4 $a=[0]$\uff0c\u6240\u4ee5 $\\operatorname{MEX}=1$\u3002  \n\u5c06 $0$ \u66ff\u6362\u4e3a $[1,n]$ \u95f4\u7684\u4efb\u610f\u6570\uff0c\u53ef\u4f7f $\\operatorname{MEX}=0$\u3002  \n\u56e0\u6b64\uff0c\u6b63\u597d\u9700\u8981\u4e00\u6b21\u64cd\u4f5c\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u7ec4 $a$ \u5305\u542b $0,1,2,3,4$\uff0c\u6240\u4ee5\u4e00\u5f00\u59cb\u5c31\u6709 $\\operatorname{MEX}(a)=5$\u3002\n\n\u56e0\u4e3a\u8fd9\u6b63\u597d\u7b49\u4e8e\u8981\u6c42\u7684 $k$\uff0c\u6240\u4ee5\u65e0\u9700\u64cd\u4f5c\uff0c\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u4e3a $0$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2149C MEX rose","type":2,"slug":"CF2149C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330792.822131,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2149C MEX rose","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a \u548c\u4e00\u4e2a\u6570 k\uff0c\u5176\u4e2d 0 \\le k \\le n\u3002\n\u6bcf\u6b21\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4efb\u610f\u4e0b\u6807 i\uff081 \\le i \\le n\uff09\uff0c\u5e76\u5c06 a_i \u8d4b\u503c\u4e3a [0,n] \u533a\u95f4\u5185\u7684\u4efb\u610f\u6574\u6570 x\u3002\n\u8bf7\u4f60\u6c42\u51fa\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u53ef\u4ee5\u4f7f\u5f97\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2149C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2149C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2149C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2149C MEX rose" />
+    <meta property="og:description" content="给定一个长度为 n 的数组 a 和一个数 k，其中 0 \le k \le n。
+每次操作，你可以选择任意下标 i（1 \le i \le n），并将 a_i 赋值为 [0,n] 区间内的任意整数 x。
+请你求出最少需要多少次操作，可以使得…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2149C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2149C MEX rose</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个长度为 $n$ 的数组 $a$ 和一个数 $k$，其中 $0 \le k \le n$。
+
+每次操作，你可以选择任意下标 $i$（$1 \le i \le n$），并将 $a_i$ 赋值为 $[0,n]$ 区间内的任意整数 $x$。
+
+请你求出最少需要多少次操作，可以使得 $\operatorname{MEX}(a) = k$。
+
+$\operatorname{MEX}$ 指的是一组数 $a_1,a_2,\dots,a_n$ 的最小未出现的非负整数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每组数据包含多组测试用例。
+
+第一行包含一个整数 $t$（$1 \le t \le 10^4$），表示测试用例组数。接下来是每组测试数据的描述。
+
+每组测试数据的第一行包含两个整数 $n$ 和 $k$（$1 \le n \le 2 \cdot 10^5,\,\, 0 \le k \le n$），表示数组 $a$ 的长度和需要的 $\operatorname{MEX}(a)$。
+
+第二行包含 $n$ 个整数 $a_1,a_2,\dots,a_n$（$0 \le a_i \le n$），表示数组的元素。
+
+保证所有测试用例中 $n$ 的总和不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试用例，输出一个整数，表示满足 $\operatorname{MEX}(a)=k$ 所需的最小操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，数组 $a=[0]$，所以 $\operatorname{MEX}=1$。  
+将 $0$ 替换为 $[1,n]$ 间的任意数，可使 $\operatorname{MEX}=0$。  
+因此，正好需要一次操作。
+
+在第三个测试用例中，数组 $a$ 包含 $0,1,2,3,4$，所以一开始就有 $\operatorname{MEX}(a)=5$。
+
+因为这正好等于要求的 $k$，所以无需操作，最少操作次数为 $0$。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "id": "CF-652C",
+  "contest_id": 652,
+  "index": "C",
+  "name": "Foe Pairs",
+  "rating": 1800,
+  "tags": [
+    "combinatorics",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/652/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/652/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/652/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=652C%20Foe Pairs%20tutorial",
+  "solved_count": 3713,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P652C",
+  "hydro_meta": {
+    "page_title": "Foe Pairs - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "sortings",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

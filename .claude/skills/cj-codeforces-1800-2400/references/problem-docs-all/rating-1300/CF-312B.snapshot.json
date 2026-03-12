@@ -1,0 +1,32 @@
+{
+  "id": "CF-312B",
+  "contest_id": 312,
+  "index": "B",
+  "name": "Archer",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 13238,
+  "problem_url": "https://codeforces.com/problemset/problem/312/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/312/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/312/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=312B%20Archer%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P312B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Archer - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "probabilities",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

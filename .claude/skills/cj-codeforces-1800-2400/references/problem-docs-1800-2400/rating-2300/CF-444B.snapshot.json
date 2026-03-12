@@ -1,0 +1,29 @@
+{
+  "id": "CF-444B",
+  "contest_id": 444,
+  "index": "B",
+  "name": "DZY Loves FFT",
+  "rating": 2300,
+  "tags": [
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/444/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/444/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/444/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=444B%20DZY Loves FFT%20tutorial",
+  "solved_count": 1148,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P444B",
+  "hydro_meta": {
+    "page_title": "DZY Loves FFT - 题目详情 - Hydro",
+    "hydro_tags": [
+      "probabilities",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

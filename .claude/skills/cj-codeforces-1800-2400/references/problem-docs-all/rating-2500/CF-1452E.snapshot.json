@@ -1,0 +1,31 @@
+{
+  "id": "CF-1452E",
+  "contest_id": 1452,
+  "index": "E",
+  "name": "Two Editorials",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp",
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 1681,
+  "problem_url": "https://codeforces.com/problemset/problem/1452/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1452/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1452/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1452E%20Two%20Editorials%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1452E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1452E Two Editorials - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 201,
+    "mirror_attempt": 355,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1769D3",
+  "contest_id": 1769,
+  "index": "D3",
+  "name": "Игра в Девятку III",
+  "rating": 2300,
+  "tags": [
+    "*special",
+    "brute force"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1769/D3",
+  "answer_index_url": "https://codeforces.com/problemset/status/1769/problem/D3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1769/problem/D3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1769D3%20Игра в Девятку III%20tutorial",
+  "solved_count": 124,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1769D3",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1769D3 Игра в Девятку III - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1,
+    "mirror_attempt": 3,
+    "time_limit": "5000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

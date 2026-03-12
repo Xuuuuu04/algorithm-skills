@@ -1,0 +1,36 @@
+{
+  "id": "CF-1910F",
+  "contest_id": 1910,
+  "index": "F",
+  "name": "Build Railway Stations",
+  "rating": 2000,
+  "tags": [
+    "*special",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1910/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1910/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1910/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1910F%20Build Railway Stations%20tutorial",
+  "solved_count": 215,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1910F",
+  "hydro_meta": {
+    "page_title": "Build Railway Stations - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "greedy",
+      "trees",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

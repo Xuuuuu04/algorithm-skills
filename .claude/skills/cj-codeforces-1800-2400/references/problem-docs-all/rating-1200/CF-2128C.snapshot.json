@@ -1,0 +1,32 @@
+{
+  "id": "CF-2128C",
+  "contest_id": 2128,
+  "index": "C",
+  "name": "Leftmost Below",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 19996,
+  "problem_url": "https://codeforces.com/problemset/problem/2128/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2128/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2128/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2128C%20Leftmost%20Below%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2128C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Leftmost Below - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

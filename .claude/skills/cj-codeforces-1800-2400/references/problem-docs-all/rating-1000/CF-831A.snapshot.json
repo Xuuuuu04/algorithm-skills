@@ -1,0 +1,27 @@
+{
+  "id": "CF-831A",
+  "contest_id": 831,
+  "index": "A",
+  "name": "Unimodal Array",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 10953,
+  "problem_url": "https://codeforces.com/problemset/problem/831/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/831/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/831/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=831A%20Unimodal%20Array%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/831/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 831A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

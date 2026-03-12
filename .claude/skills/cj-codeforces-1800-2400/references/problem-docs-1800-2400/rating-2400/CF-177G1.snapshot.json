@@ -1,0 +1,31 @@
+{
+  "id": "CF-177G1",
+  "contest_id": 177,
+  "index": "G1",
+  "name": "Fibonacci Strings",
+  "rating": 2400,
+  "tags": [
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/177/G1",
+  "answer_index_url": "https://codeforces.com/problemset/status/177/problem/G1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/177/problem/G1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=177G1%20Fibonacci Strings%20tutorial",
+  "solved_count": 219,
+  "suggested_patterns": [
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P177G1",
+  "hydro_meta": {
+    "page_title": "Fibonacci Strings - 题目详情 - Hydro",
+    "hydro_tags": [
+      "strings",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

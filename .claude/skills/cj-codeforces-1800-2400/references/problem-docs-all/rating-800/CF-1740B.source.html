@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1740B Jumbo Extra Cheese 2 - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1740B","type":"CF","title":"Jumbo Extra Cheese 2","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":256,"totalAccepted":159,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Jumbo Extra Cheese 2","background":null,"description":"Pak Chanek \u6709 $n$ \u7247\u4e8c\u7ef4\u5976\u916a\uff0c\u6bcf\u4e00\u7247\u5976\u916a\u53ef\u4ee5\u8868\u793a\u4e3a\u4e00\u4e2a $a_i \\times b_i$ \u7684\u77e9\u5f62\u3002\u6211\u4eec\u5e0c\u671b\u5c06\u5b83\u4eec\u653e\u7f6e\u5728\u4e8c\u7ef4\u5e73\u9762\u4e0a\uff0c\u8981\u6c42\u5982\u4e0b\uff1a\n\n- \u6bcf\u7247\u5976\u916a\u7684\u6bcf\u6761\u8fb9\u90fd\u5e73\u884c\u4e8e $x$ \u8f74\u6216 $y$ \u8f74\u3002\n- \u6bcf\u7247\u5976\u916a\u7684\u5e95\u8fb9\u90fd\u5728 $x$ \u8f74\u4e0a\u3002\n- \u4efb\u610f\u4e24\u7247\u5976\u916a\u4e0d\u80fd\u91cd\u53e0\uff0c\u4f46\u5b83\u4eec\u7684\u8fb9\u53ef\u4ee5\u76f8\u63a5\u3002\n- \u5b83\u4eec\u5fc5\u987b\u7ec4\u6210\u4e00\u4e2a\u8fde\u901a\u7684\u6574\u4f53\u3002\n\n\u6ce8\u610f\uff0c\u6211\u4eec\u53ef\u4ee5\u4ee5\u4efb\u610f\u987a\u5e8f\u6392\u5217\u8fd9\u4e9b\u5976\u916a\uff08\u6700\u5de6\u8fb9\u7684\u5976\u916a\u4e0d\u4e00\u5b9a\u662f\u7b2c\u4e00\u7247\uff09\u3002\u4e5f\u53ef\u4ee5\u4efb\u610f\u65cb\u8f6c\u6bcf\u7247\u5976\u916a\uff0c\u53ea\u8981\u6ee1\u8db3\u4e0a\u8ff0\u6240\u6709\u6761\u4ef6\u3002\n\n\u8bf7\u4f60\u6c42\u51fa\u6240\u6784\u9020\u56fe\u5f62\u7684\u6700\u5c0f\u53ef\u80fd\u5468\u957f\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u591a\u7ec4\u6570\u636e\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 2 \\cdot 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u7684\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u63cf\u8ff0\u5982\u4e0b\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a Pak Chanek \u6709\u591a\u5c11\u7247\u5976\u916a\u3002\n\n\u63a5\u4e0b\u6765\u7684 $n$ \u884c\u4e2d\uff0c\u7b2c $i$ \u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $a_i$ \u548c $b_i$\uff08$1 \\leq a_i, b_i \\leq 10^9$\uff09\uff0c\u8868\u793a\u7b2c $i$ \u7247\u5976\u916a\u7684\u5c3a\u5bf8\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6784\u9020\u51fa\u7684\u56fe\u5f62\u7684\u6700\u5c0f\u53ef\u80fd\u5468\u957f\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e00\u79cd\u83b7\u5f97\u6700\u5c0f\u5468\u957f\u7684\u65b9\u6cd5\u5982\u4e0b\u56fe\u6240\u793a\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/124a798476230843e83c58b72d7569134812e0a0.png)\n\n\u6211\u4eec\u53ef\u4ee5\u8ba1\u7b97\u51fa\u6784\u9020\u51fa\u7684\u56fe\u5f62\u7684\u5468\u957f\u4e3a $2+5+1+1+1+1+3+1+5+1+2+3=26$\u3002\u53ef\u4ee5\u8bc1\u660e\u65e0\u6cd5\u5f97\u5230\u66f4\u5c0f\u7684\u5468\u957f\u3002\n\n\u8003\u8651\u4e0b\u9762\u8fd9\u79cd\u65e0\u6548\u7684\u6446\u653e\u65b9\u5f0f\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/ac493248e90278887f9405686a1510afc79d4355.png)\n\n\u867d\u7136\u4e0a\u56fe\u7684\u5468\u957f\u4e3a $24$\uff0c\u4f46\u5b83\u4e0d\u6ee1\u8db3\u9898\u76ee\u7684\u6240\u6709\u6761\u4ef6\u3002$1 \\times 1$ \u7684\u90a3\u7247\u5976\u916a\u7684\u5e95\u8fb9\u6ca1\u6709\u5728 $x$ \u8f74\u4e0a\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e00\u79cd\u83b7\u5f97\u6700\u5c0f\u5468\u957f\u7684\u65b9\u6cd5\u5982\u4e0b\u56fe\u6240\u793a\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/aa539379b907832e7aaafa1de99c01790fb499b1.png)\n\n\u6211\u4eec\u53ef\u4ee5\u8ba1\u7b97\u51fa\u6784\u9020\u51fa\u7684\u56fe\u5f62\u7684\u5468\u957f\u4e3a $2+2+2+3+2+3+2+2+2+4=24$\u3002\u53ef\u4ee5\u8bc1\u660e\u65e0\u6cd5\u5f97\u5230\u66f4\u5c0f\u7684\u5468\u957f\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Jumbo Extra Cheese 2","background":"","description":"Pak Chanek has $ n $ two-dimensional slices of cheese. The $ i $ -th slice of cheese can be represented as a rectangle of dimensions $ a_i \\times b_i $ . We want to arrange them on the two-dimensional plane such that:\n\n- Each edge of each cheese is parallel to either the x-axis or the y-axis.\n- The bottom edge of each cheese is a segment of the x-axis.\n- No two slices of cheese overlap, but their sides can touch.\n- They form one connected shape.\n\nNote that we can arrange them in any order (the leftmost slice of cheese is not necessarily the first slice of cheese). Also note that we can rotate each slice of cheese in any way as long as all conditions still hold.\n\nFind the minimum possible perimeter of the constructed shape.","formatI":"Each test contains multiple test cases. The first line contains an integer $ t $ ( $ 1 \\leq t \\leq 2 \\cdot 10^4 $ ) \u2014 the number of test cases. The following lines contain the description of each test case.\n\nThe first line of each test case contains an integer $ n $ ( $ 1 \\leq n \\leq 2 \\cdot 10^5 $ ) \u2014 the number of slices of cheese Pak Chanek has.\n\nThe $ i $ -th of the next $ n $ lines of each test case contains two integers $ a_i $ and $ b_i $ ( $ 1 \\leq a_i,b_i \\leq 10^9 $ ) \u2014 the dimensions of the $ i $ -th slice of cheese.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a line containing an integer representing the minimum possible perimeter of the constructed shape.","hint":"In the first test case, a way of getting the minimum possible perimeter is to arrange the slices of cheese as follows.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/124a798476230843e83c58b72d7569134812e0a0.png)\n\nWe can calculate that the perimeter of the constructed shape is $ 2+5+1+1+1+1+3+1+5+1+2+3=26 $ . It can be shown that we cannot get a smaller perimeter.\n\nConsider the following invalid arrangement.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/ac493248e90278887f9405686a1510afc79d4355.png)\n\nEven though the perimeter of the shape above is $ 24 $ , it does not satisfy all conditions of the problem. The bottom edge of the $ 1 \\times 1 $ slice of cheese is not a segment of the x-axis.\n\nIn the second test case, a way of getting the minimum possible perimeter is to arrange the slices of cheese as follows.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/aa539379b907832e7aaafa1de99c01790fb499b1.png)\n\nWe can calculate that the perimeter of the constructed shape is $ 2+2+2+3+2+3+2+2+2+4=24 $ . It can be shown that we cannot get a smaller perimeter.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n4\n4 1\n4 5\n1 1\n2 3\n3\n2 4\n2 6\n2 3\n1\n2 65","26\n24\n134"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1740B","link":"https:\/\/codeforces.com\/problemset\/problem\/1740\/B"},"translation":"\u7ed9\u5b9a $n$ \u4e2a\u77e9\u5f62\uff0c\u7b2c $i$ \u4e2a\u77e9\u5f62\u8868\u793a\u4e3a $a_i \\times b_i$\u3002\n\n\u73b0\u5728\u4f60\u8981\u5c06\u8fd9\u4e9b\u77e9\u5f62\u653e\u5728\u4e00\u4e2a\u5e73\u9762\u76f4\u89d2\u5750\u6807\u7cfb\u4e2d\uff0c\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff1a\n\n1. \u6bcf\u4e2a\u77e9\u5f62\u5747\u6709\u4e00\u6761\u8fb9\u5728 x \u8f74\u4e0a\uff1b\n2. \u4fdd\u8bc1\u8fd9\u4e9b\u77e9\u5f62\u4e92\u4e0d\u76f8\u4ea4\uff0c\u4e14\u4ece\u5de6\u5230\u53f3**\u4e24\u4e24\u76f8\u5207**\u3002 \n\n\u4f60\u53ef\u4ee5\u5c06\u8fd9\u4e9b\u77e9\u5f62\u4ee5\u4efb\u610f\u987a\u5e8f\u6392\u5217\uff0c\u4efb\u610f\u65b9\u5411\u65cb\u8f6c\uff0c\u4f46\u5fc5\u987b\u4fdd\u8bc1\u6ee1\u8db3\u4ee5\u4e0a\u6761\u4ef6\u3002\n\n\u6c42\u51fa\u6240\u6709\u77e9\u5f62\u6240**\u7ec4\u6210\u56fe\u5f62**\u7684\u6700\u5c0f\u5468\u957f\u3002"},"translations":{"en":{"name":"Jumbo Extra Cheese 2","background":"","description":"Pak Chanek has $ n $ two-dimensional slices of cheese. The $ i $ -th slice of cheese can be represented as a rectangle of dimensions $ a_i \\times b_i $ . We want to arrange them on the two-dimensional plane such that:\n\n- Each edge of each cheese is parallel to either the x-axis or the y-axis.\n- The bottom edge of each cheese is a segment of the x-axis.\n- No two slices of cheese overlap, but their sides can touch.\n- They form one connected shape.\n\nNote that we can arrange them in any order (the leftmost slice of cheese is not necessarily the first slice of cheese). Also note that we can rotate each slice of cheese in any way as long as all conditions still hold.\n\nFind the minimum possible perimeter of the constructed shape.","formatI":"Each test contains multiple test cases. The first line contains an integer $ t $ ( $ 1 \\leq t \\leq 2 \\cdot 10^4 $ ) \u2014 the number of test cases. The following lines contain the description of each test case.\n\nThe first line of each test case contains an integer $ n $ ( $ 1 \\leq n \\leq 2 \\cdot 10^5 $ ) \u2014 the number of slices of cheese Pak Chanek has.\n\nThe $ i $ -th of the next $ n $ lines of each test case contains two integers $ a_i $ and $ b_i $ ( $ 1 \\leq a_i,b_i \\leq 10^9 $ ) \u2014 the dimensions of the $ i $ -th slice of cheese.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a line containing an integer representing the minimum possible perimeter of the constructed shape.","hint":"In the first test case, a way of getting the minimum possible perimeter is to arrange the slices of cheese as follows.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/124a798476230843e83c58b72d7569134812e0a0.png)\n\nWe can calculate that the perimeter of the constructed shape is $ 2+5+1+1+1+1+3+1+5+1+2+3=26 $ . It can be shown that we cannot get a smaller perimeter.\n\nConsider the following invalid arrangement.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/ac493248e90278887f9405686a1510afc79d4355.png)\n\nEven though the perimeter of the shape above is $ 24 $ , it does not satisfy all conditions of the problem. The bottom edge of the $ 1 \\times 1 $ slice of cheese is not a segment of the x-axis.\n\nIn the second test case, a way of getting the minimum possible perimeter is to arrange the slices of cheese as follows.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/aa539379b907832e7aaafa1de99c01790fb499b1.png)\n\nWe can calculate that the perimeter of the constructed shape is $ 2+2+2+3+2+3+2+2+2+4=24 $ . It can be shown that we cannot get a smaller perimeter.","locale":"en"},"zh-CN":{"name":"Jumbo Extra Cheese 2","background":null,"description":"Pak Chanek \u6709 $n$ \u7247\u4e8c\u7ef4\u5976\u916a\uff0c\u6bcf\u4e00\u7247\u5976\u916a\u53ef\u4ee5\u8868\u793a\u4e3a\u4e00\u4e2a $a_i \\times b_i$ \u7684\u77e9\u5f62\u3002\u6211\u4eec\u5e0c\u671b\u5c06\u5b83\u4eec\u653e\u7f6e\u5728\u4e8c\u7ef4\u5e73\u9762\u4e0a\uff0c\u8981\u6c42\u5982\u4e0b\uff1a\n\n- \u6bcf\u7247\u5976\u916a\u7684\u6bcf\u6761\u8fb9\u90fd\u5e73\u884c\u4e8e $x$ \u8f74\u6216 $y$ \u8f74\u3002\n- \u6bcf\u7247\u5976\u916a\u7684\u5e95\u8fb9\u90fd\u5728 $x$ \u8f74\u4e0a\u3002\n- \u4efb\u610f\u4e24\u7247\u5976\u916a\u4e0d\u80fd\u91cd\u53e0\uff0c\u4f46\u5b83\u4eec\u7684\u8fb9\u53ef\u4ee5\u76f8\u63a5\u3002\n- \u5b83\u4eec\u5fc5\u987b\u7ec4\u6210\u4e00\u4e2a\u8fde\u901a\u7684\u6574\u4f53\u3002\n\n\u6ce8\u610f\uff0c\u6211\u4eec\u53ef\u4ee5\u4ee5\u4efb\u610f\u987a\u5e8f\u6392\u5217\u8fd9\u4e9b\u5976\u916a\uff08\u6700\u5de6\u8fb9\u7684\u5976\u916a\u4e0d\u4e00\u5b9a\u662f\u7b2c\u4e00\u7247\uff09\u3002\u4e5f\u53ef\u4ee5\u4efb\u610f\u65cb\u8f6c\u6bcf\u7247\u5976\u916a\uff0c\u53ea\u8981\u6ee1\u8db3\u4e0a\u8ff0\u6240\u6709\u6761\u4ef6\u3002\n\n\u8bf7\u4f60\u6c42\u51fa\u6240\u6784\u9020\u56fe\u5f62\u7684\u6700\u5c0f\u53ef\u80fd\u5468\u957f\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u591a\u7ec4\u6570\u636e\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 2 \\cdot 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u7684\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u63cf\u8ff0\u5982\u4e0b\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a Pak Chanek \u6709\u591a\u5c11\u7247\u5976\u916a\u3002\n\n\u63a5\u4e0b\u6765\u7684 $n$ \u884c\u4e2d\uff0c\u7b2c $i$ \u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $a_i$ \u548c $b_i$\uff08$1 \\leq a_i, b_i \\leq 10^9$\uff09\uff0c\u8868\u793a\u7b2c $i$ \u7247\u5976\u916a\u7684\u5c3a\u5bf8\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6784\u9020\u51fa\u7684\u56fe\u5f62\u7684\u6700\u5c0f\u53ef\u80fd\u5468\u957f\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e00\u79cd\u83b7\u5f97\u6700\u5c0f\u5468\u957f\u7684\u65b9\u6cd5\u5982\u4e0b\u56fe\u6240\u793a\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/124a798476230843e83c58b72d7569134812e0a0.png)\n\n\u6211\u4eec\u53ef\u4ee5\u8ba1\u7b97\u51fa\u6784\u9020\u51fa\u7684\u56fe\u5f62\u7684\u5468\u957f\u4e3a $2+5+1+1+1+1+3+1+5+1+2+3=26$\u3002\u53ef\u4ee5\u8bc1\u660e\u65e0\u6cd5\u5f97\u5230\u66f4\u5c0f\u7684\u5468\u957f\u3002\n\n\u8003\u8651\u4e0b\u9762\u8fd9\u79cd\u65e0\u6548\u7684\u6446\u653e\u65b9\u5f0f\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/ac493248e90278887f9405686a1510afc79d4355.png)\n\n\u867d\u7136\u4e0a\u56fe\u7684\u5468\u957f\u4e3a $24$\uff0c\u4f46\u5b83\u4e0d\u6ee1\u8db3\u9898\u76ee\u7684\u6240\u6709\u6761\u4ef6\u3002$1 \\times 1$ \u7684\u90a3\u7247\u5976\u916a\u7684\u5e95\u8fb9\u6ca1\u6709\u5728 $x$ \u8f74\u4e0a\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e00\u79cd\u83b7\u5f97\u6700\u5c0f\u5468\u957f\u7684\u65b9\u6cd5\u5982\u4e0b\u56fe\u6240\u793a\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1740B\/aa539379b907832e7aaafa1de99c01790fb499b1.png)\n\n\u6211\u4eec\u53ef\u4ee5\u8ba1\u7b97\u51fa\u6784\u9020\u51fa\u7684\u56fe\u5f62\u7684\u5468\u957f\u4e3a $2+2+2+3+2+3+2+2+2+4=24$\u3002\u53ef\u4ee5\u8bc1\u660e\u65e0\u6cd5\u5f97\u5230\u66f4\u5c0f\u7684\u5468\u957f\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1740B Jumbo Extra Cheese 2","type":2,"slug":"CF1740B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.69503,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1740B Jumbo Extra Cheese 2","description":"Pak Chanek \u6709 n \u7247\u4e8c\u7ef4\u5976\u916a\uff0c\u6bcf\u4e00\u7247\u5976\u916a\u53ef\u4ee5\u8868\u793a\u4e3a\u4e00\u4e2a a_i \\times b_i \u7684\u77e9\u5f62\u3002\u6211\u4eec\u5e0c\u671b\u5c06\u5b83\u4eec\u653e\u7f6e\u5728\u4e8c\u7ef4\u5e73\u9762\u4e0a\uff0c\u8981\u6c42\u5982\u4e0b\uff1a\n\n\u6bcf\u7247\u5976\u916a\u7684\u6bcf\u6761\u8fb9\u90fd\u5e73\u884c\u4e8e x \u8f74\u6216 y \u8f74\u3002\n\u6bcf\u7247\u5976\u916a\u7684\u5e95\u8fb9\u90fd\u5728 x \u8f74\u4e0a\u3002\n\u4efb\u610f\u4e24\u7247\u5976\u916a\u4e0d\u80fd\u91cd\u53e0\uff0c\u4f46\u5b83\u4eec\u7684\u8fb9\u53ef\u4ee5\u76f8\u63a5\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1740B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1740B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1740B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1740B Jumbo Extra Cheese 2" />
+    <meta property="og:description" content="Pak Chanek 有 n 片二维奶酪，每一片奶酪可以表示为一个 a_i \times b_i 的矩形。我们希望将它们放置在二维平面上，要求如下：
+
+每片奶酪的每条边都平行于 x 轴或 y 轴。
+每片奶酪的底边都在 x 轴上。
+任意两片奶酪不能重叠，但它们的边可以相接。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1740B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1740B Jumbo Extra Cheese 2</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Pak Chanek 有 $n$ 片二维奶酪，每一片奶酪可以表示为一个 $a_i \times b_i$ 的矩形。我们希望将它们放置在二维平面上，要求如下：
+
+- 每片奶酪的每条边都平行于 $x$ 轴或 $y$ 轴。
+- 每片奶酪的底边都在 $x$ 轴上。
+- 任意两片奶酪不能重叠，但它们的边可以相接。
+- 它们必须组成一个连通的整体。
+
+注意，我们可以以任意顺序排列这些奶酪（最左边的奶酪不一定是第一片）。也可以任意旋转每片奶酪，只要满足上述所有条件。
+
+请你求出所构造图形的最小可能周长。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试用例包含多组数据。第一行包含一个整数 $t$（$1 \leq t \leq 2 \cdot 10^4$），表示测试用例的组数。接下来的每组测试用例描述如下。
+
+每组测试用例的第一行包含一个整数 $n$（$1 \leq n \leq 2 \cdot 10^5$），表示 Pak Chanek 有多少片奶酪。
+
+接下来的 $n$ 行中，第 $i$ 行包含两个整数 $a_i$ 和 $b_i$（$1 \leq a_i, b_i \leq 10^9$），表示第 $i$ 片奶酪的尺寸。
+
+保证所有测试用例中 $n$ 的总和不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试用例，输出一行一个整数，表示构造出的图形的最小可能周长。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，一种获得最小周长的方法如下图所示。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1740B/124a798476230843e83c58b72d7569134812e0a0.png)
+
+我们可以计算出构造出的图形的周长为 $2+5+1+1+1+1+3+1+5+1+2+3=26$。可以证明无法得到更小的周长。
+
+考虑下面这种无效的摆放方式。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1740B/ac493248e90278887f9405686a1510afc79d4355.png)
+
+虽然上图的周长为 $24$，但它不满足题目的所有条件。$1 \times 1$ 的那片奶酪的底边没有在 $x$ 轴上。
+
+在第二个测试用例中，一种获得最小周长的方法如下图所示。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1740B/aa539379b907832e7aaafa1de99c01790fb499b1.png)
+
+我们可以计算出构造出的图形的周长为 $2+2+2+3+2+3+2+2+2+4=24$。可以证明无法得到更小的周长。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

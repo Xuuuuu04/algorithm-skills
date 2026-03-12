@@ -1,0 +1,36 @@
+{
+  "id": "CF-916B",
+  "contest_id": 916,
+  "index": "B",
+  "name": "Jamie and Binary Sequence (changed after round)",
+  "rating": 2000,
+  "tags": [
+    "bitmasks",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/916/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/916/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/916/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=916B%20Jamie and Binary Sequence (changed after round)%20tutorial",
+  "solved_count": 2000,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P916B",
+  "hydro_meta": {
+    "page_title": "Jamie and Binary Sequence (changed after round) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "greedy",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

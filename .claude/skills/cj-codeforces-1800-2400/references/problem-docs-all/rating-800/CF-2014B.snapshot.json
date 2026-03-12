@@ -1,0 +1,30 @@
+{
+  "id": "CF-2014B",
+  "contest_id": 2014,
+  "index": "B",
+  "name": "Robin Hood and the Major Oak",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 33006,
+  "problem_url": "https://codeforces.com/problemset/problem/2014/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2014/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2014/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2014B%20Robin%20Hood%20and%20the%20Major%20Oak%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2014B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Robin Hood and the Major Oak - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

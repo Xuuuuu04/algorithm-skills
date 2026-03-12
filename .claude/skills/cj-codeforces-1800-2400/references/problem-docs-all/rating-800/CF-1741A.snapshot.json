@@ -1,0 +1,33 @@
+{
+  "id": "CF-1741A",
+  "contest_id": 1741,
+  "index": "A",
+  "name": "Compare T-Shirt Sizes",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 33585,
+  "problem_url": "https://codeforces.com/problemset/problem/1741/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1741/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1741/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1741A%20Compare%20T-Shirt%20Sizes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1741A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Compare T-Shirt Sizes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "implementation",
+      "strings",
+      "strings"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

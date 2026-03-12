@@ -1,0 +1,27 @@
+{
+  "id": "CF-1322A",
+  "contest_id": 1322,
+  "index": "A",
+  "name": "Unusual Competitions",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 12840,
+  "problem_url": "https://codeforces.com/problemset/problem/1322/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1322/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1322/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1322A%20Unusual%20Competitions%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1322/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1322A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

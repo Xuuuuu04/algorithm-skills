@@ -1,0 +1,30 @@
+{
+  "id": "CF-519C",
+  "contest_id": 519,
+  "index": "C",
+  "name": "A and B and Team Training",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 20629,
+  "problem_url": "https://codeforces.com/problemset/problem/519/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/519/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/519/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=519C%20A%20and%20B%20and%20Team%20Training%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/519/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 519C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

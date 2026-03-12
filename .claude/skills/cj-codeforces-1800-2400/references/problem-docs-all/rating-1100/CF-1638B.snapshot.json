@@ -1,0 +1,33 @@
+{
+  "id": "CF-1638B",
+  "contest_id": 1638,
+  "index": "B",
+  "name": "Odd Swap Sort",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "data structures",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 22339,
+  "problem_url": "https://codeforces.com/problemset/problem/1638/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1638/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1638/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1638B%20Odd%20Swap%20Sort%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1638B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Odd Swap Sort - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "math",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

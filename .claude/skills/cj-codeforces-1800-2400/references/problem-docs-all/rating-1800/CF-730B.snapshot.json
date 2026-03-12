@@ -1,0 +1,32 @@
+{
+  "id": "CF-730B",
+  "contest_id": 730,
+  "index": "B",
+  "name": "Minimum and Maximum",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "interactive"
+  ],
+  "solved_count": 2755,
+  "problem_url": "https://codeforces.com/problemset/problem/730/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/730/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/730/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=730B%20Minimum%20and%20Maximum%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P730B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Minimum and Maximum - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "interactive",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

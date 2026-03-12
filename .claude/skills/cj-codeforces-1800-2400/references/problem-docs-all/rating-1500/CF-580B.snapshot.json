@@ -1,0 +1,29 @@
+{
+  "id": "CF-580B",
+  "contest_id": 580,
+  "index": "B",
+  "name": "Kefa and Company",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "binary search",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 31134,
+  "problem_url": "https://codeforces.com/problemset/problem/580/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/580/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/580/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=580B%20Kefa%20and%20Company%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF580B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF580B Kefa and Company - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 278,
+    "mirror_attempt": 715,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

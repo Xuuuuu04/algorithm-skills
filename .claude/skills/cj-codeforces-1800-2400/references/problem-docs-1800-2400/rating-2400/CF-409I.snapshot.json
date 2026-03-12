@@ -1,0 +1,29 @@
+{
+  "id": "CF-409I",
+  "contest_id": 409,
+  "index": "I",
+  "name": "Feed the Golorp",
+  "rating": 2400,
+  "tags": [
+    "*special"
+  ],
+  "url": "https://codeforces.com/problemset/problem/409/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/409/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/409/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=409I%20Feed the Golorp%20tutorial",
+  "solved_count": 149,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P409I",
+  "hydro_meta": {
+    "page_title": "Feed the Golorp - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

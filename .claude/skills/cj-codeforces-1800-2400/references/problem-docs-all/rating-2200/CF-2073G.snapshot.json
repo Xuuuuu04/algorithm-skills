@@ -1,0 +1,25 @@
+{
+  "id": "CF-2073G",
+  "contest_id": 2073,
+  "index": "G",
+  "name": "Corrupted File",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 912,
+  "problem_url": "https://codeforces.com/problemset/problem/2073/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2073/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2073/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2073G%20Corrupted%20File%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2073G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "__NO_TITLE__ - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

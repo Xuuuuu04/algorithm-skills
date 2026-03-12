@@ -1,0 +1,29 @@
+{
+  "id": "CF-1722G",
+  "contest_id": 1722,
+  "index": "G",
+  "name": "Even-Odd XOR",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 13945,
+  "problem_url": "https://codeforces.com/problemset/problem/1722/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1722/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1722/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1722G%20Even-Odd%20XOR%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1722/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1722G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

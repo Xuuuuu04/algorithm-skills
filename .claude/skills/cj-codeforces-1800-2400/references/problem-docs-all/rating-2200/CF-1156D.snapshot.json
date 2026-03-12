@@ -1,0 +1,38 @@
+{
+  "id": "CF-1156D",
+  "contest_id": 1156,
+  "index": "D",
+  "name": "0-1-Tree",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "divide and conquer",
+    "dp",
+    "dsu",
+    "trees"
+  ],
+  "solved_count": 4599,
+  "problem_url": "https://codeforces.com/problemset/problem/1156/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1156/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1156/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1156D%200-1-Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1156D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "0-1-Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "divide and conquer",
+      "dp",
+      "dsu",
+      "trees",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

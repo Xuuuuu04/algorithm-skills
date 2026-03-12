@@ -1,0 +1,33 @@
+{
+  "id": "CF-1540D",
+  "contest_id": 1540,
+  "index": "D",
+  "name": "Inverse Inversions",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures"
+  ],
+  "solved_count": 383,
+  "problem_url": "https://codeforces.com/problemset/problem/1540/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1540/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1540/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1540D%20Inverse%20Inversions%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1540D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Inverse Inversions - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "data structures"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "5000ms",
+    "memory_limit": "512MiB"
+  }
+}

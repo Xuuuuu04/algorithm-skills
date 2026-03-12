@@ -1,0 +1,36 @@
+{
+  "id": "CF-1401F",
+  "contest_id": 1401,
+  "index": "F",
+  "name": "Reverse and Swap",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "data structures"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1401/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1401/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1401/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1401F%20Reverse and Swap%20tutorial",
+  "solved_count": 1933,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1401F",
+  "hydro_meta": {
+    "page_title": "Reverse and Swap - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

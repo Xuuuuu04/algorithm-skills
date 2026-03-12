@@ -1,0 +1,28 @@
+{
+  "id": "CF-858B",
+  "contest_id": 858,
+  "index": "B",
+  "name": "Which floor?",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 4082,
+  "problem_url": "https://codeforces.com/problemset/problem/858/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/858/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/858/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=858B%20Which%20floor%3F%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/858/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 858B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-223C",
+  "contest_id": 223,
+  "index": "C",
+  "name": "Partial Sums",
+  "rating": 1900,
+  "tags": [
+    "combinatorics",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/223/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/223/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/223/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=223C%20Partial Sums%20tutorial",
+  "solved_count": 1737,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P223C",
+  "hydro_meta": {
+    "page_title": "Partial Sums - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

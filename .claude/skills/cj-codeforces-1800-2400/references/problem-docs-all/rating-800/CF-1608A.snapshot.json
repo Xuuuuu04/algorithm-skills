@@ -1,0 +1,28 @@
+{
+  "id": "CF-1608A",
+  "contest_id": 1608,
+  "index": "A",
+  "name": "Find Array",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 20170,
+  "problem_url": "https://codeforces.com/problemset/problem/1608/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1608/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1608/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1608A%20Find%20Array%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1608A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1608A Find Array - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 311,
+    "mirror_attempt": 444,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

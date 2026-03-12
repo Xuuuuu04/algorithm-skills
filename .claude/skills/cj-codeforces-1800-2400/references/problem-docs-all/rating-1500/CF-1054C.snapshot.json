@@ -1,0 +1,32 @@
+{
+  "id": "CF-1054C",
+  "contest_id": 1054,
+  "index": "C",
+  "name": "Candies Distribution",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 4459,
+  "problem_url": "https://codeforces.com/problemset/problem/1054/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1054/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1054/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1054C%20Candies%20Distribution%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1054C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Candies Distribution - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

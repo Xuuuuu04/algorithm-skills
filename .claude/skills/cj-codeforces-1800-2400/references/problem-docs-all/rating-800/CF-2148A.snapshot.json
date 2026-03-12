@@ -1,0 +1,34 @@
+{
+  "id": "CF-2148A",
+  "contest_id": 2148,
+  "index": "A",
+  "name": "Sublime Sequence",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "hashing",
+    "math"
+  ],
+  "solved_count": 45780,
+  "problem_url": "https://codeforces.com/problemset/problem/2148/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2148/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2148/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2148A%20Sublime%20Sequence%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2148A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sublime Sequence - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "hashing",
+      "math",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

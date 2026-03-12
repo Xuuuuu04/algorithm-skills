@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1900D Small GCD - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1900D","type":"CF","title":"Small GCD","difficulty":5,"tags":[72,241,251],"wantsTranslation":false,"totalSubmit":471,"totalAccepted":259,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Small GCD","background":"","description":"$ a, b, c $ \u4e3a\u6574\u6570\uff0c\u5b9a\u4e49 $ f(a, b, c) $ \u5982\u4e0b:\n\n\u5c06\u4e09\u4e2a\u6570\u6392\u5e8f\uff0c\u4f7f\u5f97 $ a \\le b \\le c $\u3002\u5219\u51fd\u6570\u8fd4\u56de $ \\gcd(a, b) $ , \u8fd9\u91cc $ \\gcd(a, b) $ \u8868\u793a [\u6700\u5927\u516c\u7ea6\u6570 (GCD)](https:\/\/en.wikipedia.org\/wiki\/Greatest_common_divisor) \u3002\u7b80\u800c\u8a00\u4e4b\uff0c\u51fd\u6570\u8fd4\u56de\u8f83\u5c0f\u7684\u4e24\u4e2a\u6570\u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\n\u4f60\u4f1a\u5f97\u5230\u6570\u7ec4 $ a $\uff0c\u5305\u542b $ n $ \u4e2a\u5143\u7d20\u3002\u6c42 $ f(a_i, a_j, a_k) $ \u4e4b\u548c\uff0c\u5176\u4e2d $ 1 \\le i\u003C j \u003C k \\le n $\u3002\n\n\u5f62\u5f0f\u5316\u7684\u8bb2\uff0c\u6c42 $ \\sum_{i = 1}^n \\sum_{j = i+1}^n \\sum_{k =j +1}^n f(a_i, a_j, a_k)$\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $ t \\ ( 1 \\le t \\le 10 )$ \u4e3a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7b2c\u4e00\u884c\u4e3a $ n \\ (3 \\le n \\le 8 \\cdot 10^4) $\uff0c\u7b2c\u4e8c\u884c\u4e3a $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^5 $ )  \u3002\n\n\u6240\u6709\u6570\u636e\u4e2d $ n $ \u7684\u548c\u4e0d\u8d85\u8fc7 $ 8 \\cdot 10^4 $\u3002","formatO":"\u5bf9\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u9898\u4e2d\u8981\u6c42\u8ba1\u7b97\u7684\u6c42\u548c\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Small GCD","background":"","description":"Let $ a $ , $ b $ , and $ c $ be integers. We define function $ f(a, b, c) $ as follows:\n\nOrder the numbers $ a $ , $ b $ , $ c $ in such a way that $ a \\le b \\le c $ . Then return $ \\gcd(a, b) $ , where $ \\gcd(a, b) $ denotes the [greatest common divisor (GCD)](https:\/\/en.wikipedia.org\/wiki\/Greatest_common_divisor) of integers $ a $ and $ b $ .\n\nSo basically, we take the $ \\gcd $ of the $ 2 $ smaller values and ignore the biggest one.\n\nYou are given an array $ a $ of $ n $ elements. Compute the sum of $ f(a_i, a_j, a_k) $ for each $ i $ , $ j $ , $ k $ , such that $ 1 \\le i \u003C j \u003C k \\le n $ .\n\nMore formally, compute $ $$$\\sum_{i = 1}^n \\sum_{j = i+1}^n \\sum_{k =j +1}^n f(a_i, a_j, a_k). $ $$$","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 3 \\le n \\le 8 \\cdot 10^4 $ ) \u2014 length of the array $ a $ .\n\nThe second line of each test case contains $ n $ integers, $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^5 $ ) \u2014 elements of the array $ a $ .\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 8 \\cdot 10^4 $ .","formatO":"For each test case, output a single number \u2014 the sum from the problem statement.","hint":"In the first test case, the values of $ f $ are as follows:\n\n- $ i=1 $ , $ j=2 $ , $ k=3 $ , $ f(a_i,a_j,a_k)=f(2,3,6)=\\gcd(2,3)=1 $ ;\n- $ i=1 $ , $ j=2 $ , $ k=4 $ , $ f(a_i,a_j,a_k)=f(2,3,12)=\\gcd(2,3)=1 $ ;\n- $ i=1 $ , $ j=2 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(2,3,17)=\\gcd(2,3)=1 $ ;\n- $ i=1 $ , $ j=3 $ , $ k=4 $ , $ f(a_i,a_j,a_k)=f(2,6,12)=\\gcd(2,6)=2 $ ;\n- $ i=1 $ , $ j=3 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(2,6,17)=\\gcd(2,6)=2 $ ;\n- $ i=1 $ , $ j=4 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(2,12,17)=\\gcd(2,12)=2 $ ;\n- $ i=2 $ , $ j=3 $ , $ k=4 $ , $ f(a_i,a_j,a_k)=f(3,6,12)=\\gcd(3,6)=3 $ ;\n- $ i=2 $ , $ j=3 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(3,6,17)=\\gcd(3,6)=3 $ ;\n- $ i=2 $ , $ j=4 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(3,12,17)=\\gcd(3,12)=3 $ ;\n- $ i=3 $ , $ j=4 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(6,12,17)=\\gcd(6,12)=6 $ .\n\n The sum over all triples is $ 1+1+1+2+2+2+3+3+3+6=24 $ .In the second test case, there are $ 56 $ ways to choose values of $ i $ , $ j $ , $ k $ . The sum over all $ f(a_i,a_j,a_k) $ is $ 203 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n5\n2 3 6 12 17\n8\n6 12 8 10 15 12 18 16","24\n203"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1900D","link":"https:\/\/codeforces.com\/problemset\/problem\/1900\/D"},"translation":"$ a, b, c $ \u4e3a\u6574\u6570\uff0c\u5b9a\u4e49 $ f(a, b, c) $ \u5982\u4e0b:\n\n\u5c06\u4e09\u4e2a\u6570\u6392\u5e8f\uff0c\u4f7f\u5f97 $ a \\le b \\le c $\u3002\u5219\u51fd\u6570\u8fd4\u56de $ \\gcd(a, b) $ , \u8fd9\u91cc $ \\gcd(a, b) $ \u8868\u793a [\u6700\u5927\u516c\u7ea6\u6570 (GCD)](https:\/\/en.wikipedia.org\/wiki\/Greatest_common_divisor) \u3002\u7b80\u800c\u8a00\u4e4b\uff0c\u51fd\u6570\u8fd4\u56de\u8f83\u5c0f\u7684\u4e24\u4e2a\u6570\u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\n\u4f60\u4f1a\u5f97\u5230\u6570\u7ec4 $ a $\uff0c\u5305\u542b $ n $ \u4e2a\u5143\u7d20\u3002\u6c42 $ f(a_i, a_j, a_k) $ \u4e4b\u548c\uff0c\u5176\u4e2d $ 1 \\le i\u003C j \u003C k \\le n $\u3002\n\n\u5f62\u5f0f\u5316\u7684\u8bb2\uff0c\u6c42 $ \\sum_{i = 1}^n \\sum_{j = i+1}^n \\sum_{k =j +1}^n f(a_i, a_j, a_k)$\u3002\n\n\n\u3010\u8f93\u5165\u683c\u5f0f\u3011\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $ t \\ ( 1 \\le t \\le 10 )$ \u4e3a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7b2c\u4e00\u884c\u4e3a $ n \\ (3 \\le n \\le 8 \\cdot 10^4) $\uff0c\u7b2c\u4e8c\u884c\u4e3a $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^5 $ )  \u3002\n\n\u6240\u6709\u6570\u636e\u4e2d $ n $ \u7684\u548c\u4e0d\u8d85\u8fc7 $ 8 \\cdot 10^4 $\u3002\n\n\u3010\u8f93\u51fa\u683c\u5f0f\u3011\n \n\u5bf9\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u9898\u4e2d\u8981\u6c42\u8ba1\u7b97\u7684\u6c42\u548c\u3002"},"translations":{"en":{"name":"Small GCD","background":"","description":"Let $ a $ , $ b $ , and $ c $ be integers. We define function $ f(a, b, c) $ as follows:\n\nOrder the numbers $ a $ , $ b $ , $ c $ in such a way that $ a \\le b \\le c $ . Then return $ \\gcd(a, b) $ , where $ \\gcd(a, b) $ denotes the [greatest common divisor (GCD)](https:\/\/en.wikipedia.org\/wiki\/Greatest_common_divisor) of integers $ a $ and $ b $ .\n\nSo basically, we take the $ \\gcd $ of the $ 2 $ smaller values and ignore the biggest one.\n\nYou are given an array $ a $ of $ n $ elements. Compute the sum of $ f(a_i, a_j, a_k) $ for each $ i $ , $ j $ , $ k $ , such that $ 1 \\le i \u003C j \u003C k \\le n $ .\n\nMore formally, compute $ $$$\\sum_{i = 1}^n \\sum_{j = i+1}^n \\sum_{k =j +1}^n f(a_i, a_j, a_k). $ $$$","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 3 \\le n \\le 8 \\cdot 10^4 $ ) \u2014 length of the array $ a $ .\n\nThe second line of each test case contains $ n $ integers, $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^5 $ ) \u2014 elements of the array $ a $ .\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 8 \\cdot 10^4 $ .","formatO":"For each test case, output a single number \u2014 the sum from the problem statement.","hint":"In the first test case, the values of $ f $ are as follows:\n\n- $ i=1 $ , $ j=2 $ , $ k=3 $ , $ f(a_i,a_j,a_k)=f(2,3,6)=\\gcd(2,3)=1 $ ;\n- $ i=1 $ , $ j=2 $ , $ k=4 $ , $ f(a_i,a_j,a_k)=f(2,3,12)=\\gcd(2,3)=1 $ ;\n- $ i=1 $ , $ j=2 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(2,3,17)=\\gcd(2,3)=1 $ ;\n- $ i=1 $ , $ j=3 $ , $ k=4 $ , $ f(a_i,a_j,a_k)=f(2,6,12)=\\gcd(2,6)=2 $ ;\n- $ i=1 $ , $ j=3 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(2,6,17)=\\gcd(2,6)=2 $ ;\n- $ i=1 $ , $ j=4 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(2,12,17)=\\gcd(2,12)=2 $ ;\n- $ i=2 $ , $ j=3 $ , $ k=4 $ , $ f(a_i,a_j,a_k)=f(3,6,12)=\\gcd(3,6)=3 $ ;\n- $ i=2 $ , $ j=3 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(3,6,17)=\\gcd(3,6)=3 $ ;\n- $ i=2 $ , $ j=4 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(3,12,17)=\\gcd(3,12)=3 $ ;\n- $ i=3 $ , $ j=4 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(6,12,17)=\\gcd(6,12)=6 $ .\n\n The sum over all triples is $ 1+1+1+2+2+2+3+3+3+6=24 $ .In the second test case, there are $ 56 $ ways to choose values of $ i $ , $ j $ , $ k $ . The sum over all $ f(a_i,a_j,a_k) $ is $ 203 $ .","locale":"en"},"zh-CN":{"name":"Small GCD","background":"","description":"$ a, b, c $ \u4e3a\u6574\u6570\uff0c\u5b9a\u4e49 $ f(a, b, c) $ \u5982\u4e0b:\n\n\u5c06\u4e09\u4e2a\u6570\u6392\u5e8f\uff0c\u4f7f\u5f97 $ a \\le b \\le c $\u3002\u5219\u51fd\u6570\u8fd4\u56de $ \\gcd(a, b) $ , \u8fd9\u91cc $ \\gcd(a, b) $ \u8868\u793a [\u6700\u5927\u516c\u7ea6\u6570 (GCD)](https:\/\/en.wikipedia.org\/wiki\/Greatest_common_divisor) \u3002\u7b80\u800c\u8a00\u4e4b\uff0c\u51fd\u6570\u8fd4\u56de\u8f83\u5c0f\u7684\u4e24\u4e2a\u6570\u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\n\u4f60\u4f1a\u5f97\u5230\u6570\u7ec4 $ a $\uff0c\u5305\u542b $ n $ \u4e2a\u5143\u7d20\u3002\u6c42 $ f(a_i, a_j, a_k) $ \u4e4b\u548c\uff0c\u5176\u4e2d $ 1 \\le i\u003C j \u003C k \\le n $\u3002\n\n\u5f62\u5f0f\u5316\u7684\u8bb2\uff0c\u6c42 $ \\sum_{i = 1}^n \\sum_{j = i+1}^n \\sum_{k =j +1}^n f(a_i, a_j, a_k)$\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $ t \\ ( 1 \\le t \\le 10 )$ \u4e3a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7b2c\u4e00\u884c\u4e3a $ n \\ (3 \\le n \\le 8 \\cdot 10^4) $\uff0c\u7b2c\u4e8c\u884c\u4e3a $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^5 $ )  \u3002\n\n\u6240\u6709\u6570\u636e\u4e2d $ n $ \u7684\u548c\u4e0d\u8d85\u8fc7 $ 8 \\cdot 10^4 $\u3002","formatO":"\u5bf9\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u9898\u4e2d\u8981\u6c42\u8ba1\u7b97\u7684\u6c42\u548c\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1900D Small GCD","type":2,"slug":"CF1900D","color":"orange-3"},"discussions":[{"id":807958,"title":"\u8bf7\u6c42\u6dfb\u52a0\u9898\u89e3","author":{"uid":383395,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/383395.png","name":"WaterSun","slogan":"\u0295\u032f\u2022\u0361\u02d4\u2022\u032f\u1dc5\u0294\u0295\u032f\u2022\u0361\u02d4\u2022\u032f\u1dc5\u0294\u0295\u032f\u2022\u0361\u02d4\u2022\u032f\u1dc5\u0294 | \/cy","badge":"\/cy","isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/axud0i2v.png"},"time":1713167789},{"id":746054,"title":"\u5173\u4e8e\u96be\u5ea6","author":{"uid":676619,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/676619.png","name":"finalSTian","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1702458631}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.416247,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1900D Small GCD","description":"\n\n\u5c06\u4e09\u4e2a\u6570\u6392\u5e8f\uff0c\u4f7f\u5f97 $ a \\le b \\le c $\u3002\u5219\u51fd\u6570\u8fd4\u56de $ \\gcd(a, b) $ , \u8fd9\u91cc $ \\gcd(a, b) $ \u8868\u793a [\u6700\u5927\u516c\u7ea6\u6570 (GCD)](https:\/\/en.wikipedia.org\/wiki\/Greatest_common_divisor)\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1900D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1900D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1900D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1900D Small GCD" />
+    <meta property="og:description" content="
+
+将三个数排序，使得 $ a \le b \le c $。则函数返回 $ \gcd(a, b) $ , 这里 $ \gcd(a, b) $ 表示 [最大公约数 (GCD)](https://en.wikipedia.org/wiki/Greatest_common_divisor)…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1900D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1900D Small GCD</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    $ a, b, c $ 为整数，定义 $ f(a, b, c) $ 如下:
+
+将三个数排序，使得 $ a \le b \le c $。则函数返回 $ \gcd(a, b) $ , 这里 $ \gcd(a, b) $ 表示 [最大公约数 (GCD)](https://en.wikipedia.org/wiki/Greatest_common_divisor) 。简而言之，函数返回较小的两个数的最大公约数。
+
+你会得到数组 $ a $，包含 $ n $ 个元素。求 $ f(a_i, a_j, a_k) $ 之和，其中 $ 1 \le i< j < k \le n $。
+
+形式化的讲，求 $ \sum_{i = 1}^n \sum_{j = i+1}^n \sum_{k =j +1}^n f(a_i, a_j, a_k)$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个整数 $ t \ ( 1 \le t \le 10 )$ 为数据组数。
+
+每组数据第一行为 $ n \ (3 \le n \le 8 \cdot 10^4) $，第二行为 $ a_1, a_2, \ldots, a_n $ ( $ 1 \le a_i \le 10^5 $ )  。
+
+所有数据中 $ n $ 的和不超过 $ 8 \cdot 10^4 $。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对每组数据，输出题中要求计算的求和。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case, the values of $ f $ are as follows:
+
+- $ i=1 $ , $ j=2 $ , $ k=3 $ , $ f(a_i,a_j,a_k)=f(2,3,6)=\gcd(2,3)=1 $ ;
+- $ i=1 $ , $ j=2 $ , $ k=4 $ , $ f(a_i,a_j,a_k)=f(2,3,12)=\gcd(2,3)=1 $ ;
+- $ i=1 $ , $ j=2 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(2,3,17)=\gcd(2,3)=1 $ ;
+- $ i=1 $ , $ j=3 $ , $ k=4 $ , $ f(a_i,a_j,a_k)=f(2,6,12)=\gcd(2,6)=2 $ ;
+- $ i=1 $ , $ j=3 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(2,6,17)=\gcd(2,6)=2 $ ;
+- $ i=1 $ , $ j=4 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(2,12,17)=\gcd(2,12)=2 $ ;
+- $ i=2 $ , $ j=3 $ , $ k=4 $ , $ f(a_i,a_j,a_k)=f(3,6,12)=\gcd(3,6)=3 $ ;
+- $ i=2 $ , $ j=3 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(3,6,17)=\gcd(3,6)=3 $ ;
+- $ i=2 $ , $ j=4 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(3,12,17)=\gcd(3,12)=3 $ ;
+- $ i=3 $ , $ j=4 $ , $ k=5 $ , $ f(a_i,a_j,a_k)=f(6,12,17)=\gcd(6,12)=6 $ .
+
+ The sum over all triples is $ 1+1+1+2+2+2+3+3+3+6=24 $ .In the second test case, there are $ 56 $ ways to choose values of $ i $ , $ j $ , $ k $ . The sum over all $ f(a_i,a_j,a_k) $ is $ 203 $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

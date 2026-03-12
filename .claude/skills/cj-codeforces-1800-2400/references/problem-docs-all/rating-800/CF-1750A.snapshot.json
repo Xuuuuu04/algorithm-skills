@@ -1,0 +1,29 @@
+{
+  "id": "CF-1750A",
+  "contest_id": 1750,
+  "index": "A",
+  "name": "Indirect Sort",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 17765,
+  "problem_url": "https://codeforces.com/problemset/problem/1750/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1750/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1750/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1750A%20Indirect%20Sort%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1750A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1750A Indirect Sort - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 277,
+    "mirror_attempt": 405,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

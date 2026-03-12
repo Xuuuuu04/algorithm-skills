@@ -1,0 +1,29 @@
+{
+  "id": "CF-995B",
+  "contest_id": 995,
+  "index": "B",
+  "name": "Suit and Tie",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 7383,
+  "problem_url": "https://codeforces.com/problemset/problem/995/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/995/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/995/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=995B%20Suit%20and%20Tie%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/995/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 995B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

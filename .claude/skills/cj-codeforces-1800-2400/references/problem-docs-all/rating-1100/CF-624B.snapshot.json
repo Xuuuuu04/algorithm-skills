@@ -1,0 +1,32 @@
+{
+  "id": "CF-624B",
+  "contest_id": 624,
+  "index": "B",
+  "name": "Making a String",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 8347,
+  "problem_url": "https://codeforces.com/problemset/problem/624/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/624/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/624/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=624B%20Making%20a%20String%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P624B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Making a String - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-2034A",
+  "contest_id": 2034,
+  "index": "A",
+  "name": "King Keykhosrow's Mystery",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "chinese remainder theorem",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 18273,
+  "problem_url": "https://codeforces.com/problemset/problem/2034/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2034/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2034/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2034A%20King%20Keykhosrow%27s%20Mystery%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2034A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2034A King Keykhosrow's Mystery - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

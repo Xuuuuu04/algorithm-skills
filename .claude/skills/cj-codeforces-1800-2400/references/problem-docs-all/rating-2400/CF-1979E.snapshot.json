@@ -1,0 +1,39 @@
+{
+  "id": "CF-1979E",
+  "contest_id": 1979,
+  "index": "E",
+  "name": "Manhattan Triangle",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "geometry",
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 1784,
+  "problem_url": "https://codeforces.com/problemset/problem/1979/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1979/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1979/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1979E%20Manhattan%20Triangle%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1979E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Manhattan Triangle - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "geometry",
+      "implementation",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-508D",
+  "contest_id": 508,
+  "index": "D",
+  "name": "Tanya and Password",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 4137,
+  "problem_url": "https://codeforces.com/problemset/problem/508/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/508/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/508/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=508D%20Tanya%20and%20Password%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF508D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF508D Tanya and Password - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 219,
+    "mirror_attempt": 714,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

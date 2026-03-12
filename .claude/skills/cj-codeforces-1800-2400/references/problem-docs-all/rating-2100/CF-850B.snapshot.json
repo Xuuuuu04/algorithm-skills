@@ -1,0 +1,32 @@
+{
+  "id": "CF-850B",
+  "contest_id": 850,
+  "index": "B",
+  "name": "Arpa and a list of numbers",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "number theory"
+  ],
+  "solved_count": 2115,
+  "problem_url": "https://codeforces.com/problemset/problem/850/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/850/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/850/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=850B%20Arpa%20and%20a%20list%20of%20numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P850B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Arpa and a list of numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "number theory",
+      "*2100"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 4,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

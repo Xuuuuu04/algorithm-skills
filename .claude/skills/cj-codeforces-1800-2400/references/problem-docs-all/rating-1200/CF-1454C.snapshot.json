@@ -1,0 +1,32 @@
+{
+  "id": "CF-1454C",
+  "contest_id": 1454,
+  "index": "C",
+  "name": "Sequence Transformation",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 22375,
+  "problem_url": "https://codeforces.com/problemset/problem/1454/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1454/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1454/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1454C%20Sequence%20Transformation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1454C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sequence Transformation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

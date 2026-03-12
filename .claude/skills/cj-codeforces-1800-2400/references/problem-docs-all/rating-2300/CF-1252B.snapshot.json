@@ -1,0 +1,28 @@
+{
+  "id": "CF-1252B",
+  "contest_id": 1252,
+  "index": "B",
+  "name": "Cleaning Robots",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "trees"
+  ],
+  "solved_count": 576,
+  "problem_url": "https://codeforces.com/problemset/problem/1252/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1252/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1252/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1252B%20Cleaning%20Robots%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1252/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1252B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

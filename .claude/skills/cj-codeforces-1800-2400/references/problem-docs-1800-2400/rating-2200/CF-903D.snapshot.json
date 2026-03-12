@@ -1,0 +1,34 @@
+{
+  "id": "CF-903D",
+  "contest_id": 903,
+  "index": "D",
+  "name": "Almost Difference",
+  "rating": 2200,
+  "tags": [
+    "data structures",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/903/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/903/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/903/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=903D%20Almost Difference%20tutorial",
+  "solved_count": 4429,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P903D",
+  "hydro_meta": {
+    "page_title": "Almost Difference - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

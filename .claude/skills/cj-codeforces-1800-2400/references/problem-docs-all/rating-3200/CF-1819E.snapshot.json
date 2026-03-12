@@ -1,0 +1,35 @@
+{
+  "id": "CF-1819E",
+  "contest_id": 1819,
+  "index": "E",
+  "name": "Roads in E City",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "interactive",
+    "math",
+    "probabilities",
+    "trees"
+  ],
+  "solved_count": 371,
+  "problem_url": "https://codeforces.com/problemset/problem/1819/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1819/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1819/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1819E%20Roads%20in%20E%20City%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1819E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Roads in E City - 题目详情 - Hydro",
+    "mirror_tags": [
+      "interactive",
+      "math",
+      "probabilities",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

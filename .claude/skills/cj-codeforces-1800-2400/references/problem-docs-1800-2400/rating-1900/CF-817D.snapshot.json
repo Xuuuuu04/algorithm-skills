@@ -1,0 +1,37 @@
+{
+  "id": "CF-817D",
+  "contest_id": 817,
+  "index": "D",
+  "name": "Imbalanced Array",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "dsu",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/817/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/817/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/817/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=817D%20Imbalanced Array%20tutorial",
+  "solved_count": 6041,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P817D",
+  "hydro_meta": {
+    "page_title": "Imbalanced Array - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "divide and conquer",
+      "dsu",
+      "sortings",
+      "*1900"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

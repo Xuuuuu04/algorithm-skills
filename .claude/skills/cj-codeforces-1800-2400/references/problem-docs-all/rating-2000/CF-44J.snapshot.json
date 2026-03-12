@@ -1,0 +1,32 @@
+{
+  "id": "CF-44J",
+  "contest_id": 44,
+  "index": "J",
+  "name": "Triminoes",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 612,
+  "problem_url": "https://codeforces.com/problemset/problem/44/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/44/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/44/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=44J%20Triminoes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P44J",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Triminoes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

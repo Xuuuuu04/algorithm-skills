@@ -1,0 +1,30 @@
+{
+  "id": "CF-177E2",
+  "contest_id": 177,
+  "index": "E2",
+  "name": "Space Voyage",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 70.0,
+  "tags": [
+    "binary search"
+  ],
+  "solved_count": 495,
+  "problem_url": "https://codeforces.com/problemset/problem/177/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/177/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/177/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=177E2%20Space%20Voyage%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P177E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Space Voyage - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

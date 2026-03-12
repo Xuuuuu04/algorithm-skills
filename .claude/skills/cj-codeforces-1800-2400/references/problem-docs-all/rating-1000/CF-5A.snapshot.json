@@ -1,0 +1,30 @@
+{
+  "id": "CF-5A",
+  "contest_id": 5,
+  "index": "A",
+  "name": "Chat Servers Outgoing Traffic",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 10910,
+  "problem_url": "https://codeforces.com/problemset/problem/5/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/5/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/5/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=5A%20Chat%20Servers%20Outgoing%20Traffic%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P5A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Chat Server's Outgoing Traffic - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1000"
+    ],
+    "mirror_accepted": 5,
+    "mirror_attempt": 10,
+    "time_limit": "1000ms",
+    "memory_limit": "64MiB"
+  }
+}

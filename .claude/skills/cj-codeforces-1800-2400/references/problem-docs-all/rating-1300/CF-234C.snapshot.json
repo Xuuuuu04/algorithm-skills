@@ -1,0 +1,32 @@
+{
+  "id": "CF-234C",
+  "contest_id": 234,
+  "index": "C",
+  "name": "Weather",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 5924,
+  "problem_url": "https://codeforces.com/problemset/problem/234/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/234/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/234/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=234C%20Weather%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P234C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Weather - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "implementation",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

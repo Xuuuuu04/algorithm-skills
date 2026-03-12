@@ -1,0 +1,28 @@
+{
+  "id": "CF-48B",
+  "contest_id": 48,
+  "index": "B",
+  "name": "Land Lot",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 3019,
+  "problem_url": "https://codeforces.com/problemset/problem/48/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/48/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/48/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=48B%20Land%20Lot%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/48/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 48B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

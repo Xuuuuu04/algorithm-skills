@@ -1,0 +1,38 @@
+{
+  "id": "CF-689E",
+  "contest_id": 689,
+  "index": "E",
+  "name": "Mike and Geometry Problem",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "combinatorics",
+    "data structures",
+    "dp",
+    "geometry",
+    "implementation"
+  ],
+  "solved_count": 2101,
+  "problem_url": "https://codeforces.com/problemset/problem/689/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/689/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/689/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=689E%20Mike%20and%20Geometry%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P689E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mike and Geometry Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "data structures",
+      "dp",
+      "geometry",
+      "implementation",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

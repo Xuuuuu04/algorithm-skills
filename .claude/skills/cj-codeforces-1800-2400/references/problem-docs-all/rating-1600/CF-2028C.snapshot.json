@@ -1,0 +1,30 @@
+{
+  "id": "CF-2028C",
+  "contest_id": 2028,
+  "index": "C",
+  "name": "Alice's Adventures in Cutting Cake",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 9791,
+  "problem_url": "https://codeforces.com/problemset/problem/2028/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2028/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2028/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2028C%20Alice%27s%20Adventures%20in%20Cutting%20Cake%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2028/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2028C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

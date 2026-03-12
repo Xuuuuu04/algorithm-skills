@@ -1,0 +1,32 @@
+{
+  "id": "CF-1252E",
+  "contest_id": 1252,
+  "index": "E",
+  "name": "Songwriter",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 1353,
+  "problem_url": "https://codeforces.com/problemset/problem/1252/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1252/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1252/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1252E%20Songwriter%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1252E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Songwriter - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "two pointers",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1158B",
+  "contest_id": 1158,
+  "index": "B",
+  "name": "The minimal unique substring",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "math",
+    "strings"
+  ],
+  "solved_count": 2370,
+  "problem_url": "https://codeforces.com/problemset/problem/1158/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1158/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1158/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1158B%20The%20minimal%20unique%20substring%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1158B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1158B The minimal unique substring - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 174,
+    "mirror_attempt": 280,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

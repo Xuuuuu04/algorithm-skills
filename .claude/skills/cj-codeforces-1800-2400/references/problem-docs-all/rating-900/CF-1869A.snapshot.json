@@ -1,0 +1,27 @@
+{
+  "id": "CF-1869A",
+  "contest_id": 1869,
+  "index": "A",
+  "name": "Make It Zero",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 38402,
+  "problem_url": "https://codeforces.com/problemset/problem/1869/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1869/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1869/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1869A%20Make%20It%20Zero%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1869A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1869A Make It Zero - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 209,
+    "mirror_attempt": 401,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

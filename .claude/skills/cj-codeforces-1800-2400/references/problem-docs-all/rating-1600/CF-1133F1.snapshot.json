@@ -1,0 +1,30 @@
+{
+  "id": "CF-1133F1",
+  "contest_id": 1133,
+  "index": "F1",
+  "name": "Spanning Tree with Maximum Degree",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "graphs"
+  ],
+  "solved_count": 8704,
+  "problem_url": "https://codeforces.com/problemset/problem/1133/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1133/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1133/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1133F1%20Spanning%20Tree%20with%20Maximum%20Degree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1133F1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Spanning Tree with Maximum Degree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graphs",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

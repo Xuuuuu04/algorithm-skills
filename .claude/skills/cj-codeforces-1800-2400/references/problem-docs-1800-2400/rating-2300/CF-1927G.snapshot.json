@@ -1,0 +1,40 @@
+{
+  "id": "CF-1927G",
+  "contest_id": 1927,
+  "index": "G",
+  "name": "Paint Charges",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1927/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1927/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1927/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1927G%20Paint Charges%20tutorial",
+  "solved_count": 1961,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1927G",
+  "hydro_meta": {
+    "page_title": "Paint Charges - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "math",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

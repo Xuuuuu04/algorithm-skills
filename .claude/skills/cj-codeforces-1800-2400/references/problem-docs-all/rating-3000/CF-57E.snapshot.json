@@ -1,0 +1,28 @@
+{
+  "id": "CF-57E",
+  "contest_id": 57,
+  "index": "E",
+  "name": "Chess",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "math",
+    "shortest paths"
+  ],
+  "solved_count": 283,
+  "problem_url": "https://codeforces.com/problemset/problem/57/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/57/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/57/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=57E%20Chess%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF57E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF57E Chess - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 107,
+    "mirror_attempt": 434,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

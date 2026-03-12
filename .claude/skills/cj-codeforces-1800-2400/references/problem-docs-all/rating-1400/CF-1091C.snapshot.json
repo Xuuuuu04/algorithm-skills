@@ -1,0 +1,32 @@
+{
+  "id": "CF-1091C",
+  "contest_id": 1091,
+  "index": "C",
+  "name": "New Year and the Sphere Transmission",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 10489,
+  "problem_url": "https://codeforces.com/problemset/problem/1091/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1091/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1091/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1091C%20New%20Year%20and%20the%20Sphere%20Transmission%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1091C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year and the Sphere Transmission - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

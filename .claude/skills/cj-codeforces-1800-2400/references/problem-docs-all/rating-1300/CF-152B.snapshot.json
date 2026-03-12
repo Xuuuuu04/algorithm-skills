@@ -1,0 +1,32 @@
+{
+  "id": "CF-152B",
+  "contest_id": 152,
+  "index": "B",
+  "name": "Steps",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "implementation"
+  ],
+  "solved_count": 7333,
+  "problem_url": "https://codeforces.com/problemset/problem/152/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/152/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/152/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=152B%20Steps%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P152B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Steps - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "implementation",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

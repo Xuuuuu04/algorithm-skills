@@ -1,0 +1,28 @@
+{
+  "id": "CF-954B",
+  "contest_id": 954,
+  "index": "B",
+  "name": "String Typing",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 7759,
+  "problem_url": "https://codeforces.com/problemset/problem/954/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/954/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/954/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=954B%20String%20Typing%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/954/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 954B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-739B",
+  "contest_id": 739,
+  "index": "B",
+  "name": "Alyona and a tree",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 5022,
+  "problem_url": "https://codeforces.com/problemset/problem/739/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/739/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/739/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=739B%20Alyona%20and%20a%20tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P739B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Alyona and a tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*1900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

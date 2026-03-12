@@ -1,0 +1,30 @@
+{
+  "id": "CF-835B",
+  "contest_id": 835,
+  "index": "B",
+  "name": "The number on the board",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 11386,
+  "problem_url": "https://codeforces.com/problemset/problem/835/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/835/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/835/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=835B%20The%20number%20on%20the%20board%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P835B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The number on the board - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

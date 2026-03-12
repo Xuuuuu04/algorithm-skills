@@ -1,0 +1,35 @@
+{
+  "id": "CF-377C",
+  "contest_id": 377,
+  "index": "C",
+  "name": "Captains Mode",
+  "rating": 2200,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "games"
+  ],
+  "url": "https://codeforces.com/problemset/problem/377/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/377/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/377/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=377C%20Captains Mode%20tutorial",
+  "solved_count": 1228,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P377C",
+  "hydro_meta": {
+    "page_title": "Captains Mode - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "dp",
+      "games",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

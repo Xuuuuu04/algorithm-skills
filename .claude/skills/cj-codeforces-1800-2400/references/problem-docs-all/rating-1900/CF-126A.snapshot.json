@@ -1,0 +1,34 @@
+{
+  "id": "CF-126A",
+  "contest_id": 126,
+  "index": "A",
+  "name": "Hot Bath",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "math"
+  ],
+  "solved_count": 1576,
+  "problem_url": "https://codeforces.com/problemset/problem/126/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/126/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/126/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=126A%20Hot%20Bath%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P126A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Hot Bath - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

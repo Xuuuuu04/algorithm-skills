@@ -1,0 +1,44 @@
+{
+  "id": "CF-1099F",
+  "contest_id": 1099,
+  "index": "F",
+  "name": "Cookies",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "games",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1099/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1099/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1099/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1099F%20Cookies%20tutorial",
+  "solved_count": 1031,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1099F",
+  "hydro_meta": {
+    "page_title": "Cookies - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "games",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-700E",
+  "contest_id": 700,
+  "index": "E",
+  "name": "Cool Slogans",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 1332,
+  "problem_url": "https://codeforces.com/problemset/problem/700/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/700/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/700/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=700E%20Cool%20Slogans%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P700E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cool Slogans - 题目详情 - Hydro",
+    "mirror_tags": [
+      "string suffix structures",
+      "strings",
+      "*3300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

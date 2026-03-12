@@ -1,0 +1,39 @@
+{
+  "id": "CF-436C",
+  "contest_id": 436,
+  "index": "C",
+  "name": "Dungeons and Candies",
+  "rating": 1800,
+  "tags": [
+    "dsu",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/436/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/436/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/436/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=436C%20Dungeons and Candies%20tutorial",
+  "solved_count": 2865,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P436C",
+  "hydro_meta": {
+    "page_title": "Dungeons and Candies - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dsu",
+      "graphs",
+      "greedy",
+      "trees",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1796D",
+  "contest_id": 1796,
+  "index": "D",
+  "name": "Maximum Subarray",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 5351,
+  "problem_url": "https://codeforces.com/problemset/problem/1796/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1796/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1796/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1796D%20Maximum%20Subarray%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1796D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1796D Maximum Subarray - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 236,
+    "mirror_attempt": 689,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

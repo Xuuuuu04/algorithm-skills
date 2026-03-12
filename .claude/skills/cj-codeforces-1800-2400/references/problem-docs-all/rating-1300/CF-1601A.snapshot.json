@@ -1,0 +1,32 @@
+{
+  "id": "CF-1601A",
+  "contest_id": 1601,
+  "index": "A",
+  "name": "Array Elimination",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "bitmasks",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 20450,
+  "problem_url": "https://codeforces.com/problemset/problem/1601/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1601/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1601/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1601A%20Array%20Elimination%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1601A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Array Elimination - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

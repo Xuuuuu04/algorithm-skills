@@ -1,0 +1,34 @@
+{
+  "id": "CF-2045B",
+  "contest_id": 2045,
+  "index": "B",
+  "name": "ICPC Square",
+  "rating": 2000,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2045/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2045/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2045/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2045B%20ICPC Square%20tutorial",
+  "solved_count": 1663,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2045B",
+  "hydro_meta": {
+    "page_title": "ICPC Square - 题目详情 - Hydro",
+    "hydro_tags": [
+      "math",
+      "number theory",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

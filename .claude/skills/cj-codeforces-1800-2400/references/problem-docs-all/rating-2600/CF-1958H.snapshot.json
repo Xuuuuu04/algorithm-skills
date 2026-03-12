@@ -1,0 +1,32 @@
+{
+  "id": "CF-1958H",
+  "contest_id": 1958,
+  "index": "H",
+  "name": "Composite Spells",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "dp"
+  ],
+  "solved_count": 91,
+  "problem_url": "https://codeforces.com/problemset/problem/1958/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1958/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1958/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1958H%20Composite%20Spells%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1958H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Composite Spells - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "dp",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

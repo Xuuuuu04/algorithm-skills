@@ -1,0 +1,42 @@
+{
+  "id": "CF-429C",
+  "contest_id": 429,
+  "index": "C",
+  "name": "Guess the Tree",
+  "rating": 2300,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/429/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/429/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/429/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=429C%20Guess the Tree%20tutorial",
+  "solved_count": 1023,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P429C",
+  "hydro_meta": {
+    "page_title": "Guess the Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-1106D",
+  "contest_id": 1106,
+  "index": "D",
+  "name": "Lunar New Year and a Wander",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "shortest paths"
+  ],
+  "solved_count": 19136,
+  "problem_url": "https://codeforces.com/problemset/problem/1106/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1106/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1106/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1106D%20Lunar%20New%20Year%20and%20a%20Wander%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1106D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1106D Lunar New Year and a Wander - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 499,
+    "mirror_attempt": 972,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

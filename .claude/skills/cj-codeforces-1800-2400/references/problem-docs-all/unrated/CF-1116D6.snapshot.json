@@ -1,0 +1,27 @@
+{
+  "id": "CF-1116D6",
+  "contest_id": 1116,
+  "index": "D6",
+  "name": "Hessenberg matrix",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 81,
+  "problem_url": "https://codeforces.com/problemset/problem/1116/D6",
+  "answer_index_url": "https://codeforces.com/problemset/status/1116/problem/D6",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1116/problem/D6?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1116D6%20Hessenberg%20matrix%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1116D6",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Hessenberg matrix - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

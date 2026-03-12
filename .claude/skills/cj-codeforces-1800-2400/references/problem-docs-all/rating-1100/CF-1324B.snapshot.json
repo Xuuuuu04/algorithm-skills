@@ -1,0 +1,32 @@
+{
+  "id": "CF-1324B",
+  "contest_id": 1324,
+  "index": "B",
+  "name": "Yet Another Palindrome Problem",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "strings"
+  ],
+  "solved_count": 30668,
+  "problem_url": "https://codeforces.com/problemset/problem/1324/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1324/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1324/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1324B%20Yet%20Another%20Palindrome%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1324B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yet Another Palindrome Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "strings",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

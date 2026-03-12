@@ -1,0 +1,32 @@
+{
+  "id": "CF-1342D",
+  "contest_id": 1342,
+  "index": "D",
+  "name": "Multiple Testcases",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 6348,
+  "problem_url": "https://codeforces.com/problemset/problem/1342/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1342/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1342/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1342D%20Multiple%20Testcases%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1342D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1342D Multiple Testcases - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 96,
+    "mirror_attempt": 148,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

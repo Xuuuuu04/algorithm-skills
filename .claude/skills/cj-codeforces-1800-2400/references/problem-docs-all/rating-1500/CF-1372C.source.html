@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1372C Omkar and Baseball - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1372C","type":"CF","title":"Omkar and Baseball","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":356,"totalAccepted":147,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Omkar and Baseball","background":null,"description":"Patrick \u559c\u6b22\u6253\u68d2\u7403\uff0c\u4f46\u6709\u65f6\u5019\u4ed6\u4f1a\u82b1\u592a\u591a\u65f6\u95f4\u51fb\u51fa\u672c\u5792\u6253\uff0c\u5bfc\u81f4\u5934\u8111\u53d8\u5f97\u6a21\u7cca\uff01Patrick \u786e\u4fe1\u4ed6\u5728 $n$ \u573a\u6bd4\u8d5b\u4e2d\u7684\u5f97\u5206\u662f\u4e00\u4e2a\u6052\u7b49\u6392\u5217\uff08\u5373\u7b2c\u4e00\u573a\u5f97 $1$ \u5206\uff0c\u7b2c\u4e8c\u573a\u5f97 $2$ \u5206\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff09\u3002\u7136\u800c\uff0c\u5f53\u4ed6\u56de\u5934\u67e5\u770b\u81ea\u5df1\u7684\u8bb0\u5f55\u65f6\uff0c\u53d1\u73b0\u6240\u6709\u7684\u6570\u5b57\u90fd\u88ab\u6253\u4e71\u4e86\uff01\n\n\u5b9a\u4e49\u4e00\u79cd\u7279\u6b8a\u4ea4\u6362\u5982\u4e0b\uff1a\u9009\u62e9\u5206\u6570\u5e8f\u5217\u7684\u4efb\u610f\u4e00\u4e2a\u5b50\u6570\u7ec4\uff0c\u5e76\u5bf9\u5176\u5143\u7d20\u8fdb\u884c\u6392\u5217\uff0c\u4f7f\u5f97\u5b50\u6570\u7ec4\u4e2d\u7684\u6bcf\u4e2a\u5143\u7d20\u90fd\u4e0d\u80fd\u56de\u5230\u539f\u6765\u7684\u4f4d\u7f6e\u3002\u4f8b\u5982\uff0c\u5bf9 $[1,2,3]$ \u8fdb\u884c\u4e00\u6b21\u7279\u6b8a\u4ea4\u6362\u53ef\u4ee5\u5f97\u5230 $[3,1,2]$\uff0c\u4f46\u4e0d\u80fd\u5f97\u5230 $[3,2,1]$\uff0c\u56e0\u4e3a $2$ \u4ecd\u7136\u5728\u539f\u6765\u7684\u4f4d\u7f6e\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217\uff0c\u8bf7\u5e2e\u52a9 Patrick \u6c42\u51fa\u5c06\u8be5\u6392\u5217\u53d8\u4e3a\u6709\u5e8f\u6240\u9700\u7684\u6700\u5c11\u7279\u6b8a\u4ea4\u6362\u6b21\u6570\uff01\u53ef\u4ee5\u8bc1\u660e\uff0c\u5728\u7ed9\u5b9a\u7684\u7ea6\u675f\u4e0b\uff0c\u8fd9\u4e2a\u6b21\u6570\u4e0d\u4f1a\u8d85\u8fc7 $10^{18}$\u3002\n\n\u5982\u679c\u6570\u7ec4 $a$ \u662f\u6570\u7ec4 $b$ \u7684\u4e00\u4e2a\u5b50\u6570\u7ec4\uff0c\u90a3\u4e48 $a$ \u53ef\u4ee5\u901a\u8fc7\u4ece $b$ \u7684\u5f00\u5934\u5220\u9664\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5143\u7d20\uff0c\u4ee5\u53ca\u4ece\u672b\u5c3e\u5220\u9664\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5143\u7d20\u5f97\u5230\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u4e3a\u6d4b\u8bd5\u7528\u4f8b\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u7ed9\u5b9a\u6392\u5217\u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_{1},a_{2},...,a_{n}$\uff08$1 \\leq a_{i} \\leq n$\uff09\uff0c\u8868\u793a\u521d\u59cb\u6392\u5217\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06\u8be5\u6392\u5217\u53d8\u4e3a\u6709\u5e8f\u6240\u9700\u7684\u6700\u5c11\u7279\u6b8a\u4ea4\u6362\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6392\u5217\u4e2d\uff0c\u5df2\u7ecf\u662f\u6709\u5e8f\u7684\uff0c\u56e0\u6b64\u4e0d\u9700\u8981\u4efb\u4f55\u4ea4\u6362\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u7b2c\u4e8c\u4e2a\u6392\u5217\u81f3\u5c11\u9700\u8981 $2$ \u6b21\u4ea4\u6362\u624d\u80fd\u53d8\u4e3a\u6709\u5e8f\u3002\n\n$[3, 2, 4, 5, 1, 6, 7]$\n\n\u5bf9\u533a\u95f4 $(1, 5)$ \u8fdb\u884c\u4e00\u6b21\u7279\u6b8a\u4ea4\u6362\uff1a\n\n$[4, 1, 2, 3, 5, 6, 7]$\n\n\u5bf9\u533a\u95f4 $(1, 4)$ \u518d\u8fdb\u884c\u4e00\u6b21\u7279\u6b8a\u4ea4\u6362\uff1a\n\n$[1, 2, 3, 4, 5, 6, 7]$\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Omkar and Baseball","background":"","description":"Patrick likes to play baseball, but sometimes he will spend so many hours hitting home runs that his mind starts to get foggy! Patrick is sure that his scores across $ n $ sessions follow the identity permutation (ie. in the first game he scores $ 1 $ point, in the second game he scores $ 2 $ points and so on). However, when he checks back to his record, he sees that all the numbers are mixed up!\n\nDefine a special exchange as the following: choose any subarray of the scores and permute elements such that no element of subarray gets to the same position as it was before the exchange. For example, performing a special exchange on $ [1,2,3] $ can yield $ [3,1,2] $ but it cannot yield $ [3,2,1] $ since the $ 2 $ is in the same position.\n\nGiven a permutation of $ n $ integers, please help Patrick find the minimum number of special exchanges needed to make the permutation sorted! It can be proved that under given constraints this number doesn\u0027t exceed $ 10^{18} $ .\n\nAn array $ a $ is a subarray of an array $ b $ if $ a $ can be obtained from $ b $ by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). Description of the test cases follows.\n\nThe first line of each test case contains integer $ n $ ( $ 1       \\leq n \\leq 2 \\cdot 10^5 $ ) \u2014 the length of the given permutation.\n\nThe second line of each test case contains $ n $ integers $ a_{1},a_{2},...,a_{n} $ ( $ 1 \\leq a_{i} \\leq n $ ) \u2014 the initial permutation.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output one integer: the minimum number of special exchanges needed to sort the permutation.","hint":"In the first permutation, it is already sorted so no exchanges are needed.\n\nIt can be shown that you need at least $ 2 $ exchanges to sort the second permutation.\n\n $ [3, 2, 4, 5, 1, 6, 7] $\n\nPerform special exchange on range ( $ 1, 5 $ )\n\n $ [4, 1, 2, 3, 5, 6, 7] $\n\nPerform special exchange on range ( $ 1, 4 $ )\n\n $ [1, 2, 3, 4, 5, 6, 7] $","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n5\n1 2 3 4 5\n7\n3 2 4 5 1 6 7","0\n2"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1372C","link":"https:\/\/codeforces.com\/problemset\/problem\/1372\/C"},"translation":"\u7ed9\u4f60\u4e00\u4e2a $1$ \u5230 $n$ \u7684\u6392\u5217\u3002\n\n\u5b9a\u4e49```\u7279\u6b8a\u4ea4\u6362```\u4e3a\uff1a\u9009\u62e9\u4e00\u6bb5\u533a\u95f4$[l,r]$ ,\u4f7f\u5f97\u6b64\u6bb5\u533a\u95f4\u4e0a\u7684\u6570\u4ea4\u6362\u540e\u90fd\u4e0d\u5728\u539f\u6765\u7684\u4f4d\u7f6e\u3002\n\n\u95ee\u6700\u5c11\u591a\u5c11\u6b21\u53ef\u4ee5\u5c06\u6b64\u6392\u5217\u53d8\u6210\u5347\u5e8f\u7684\u3002"},"translations":{"en":{"name":"Omkar and Baseball","background":"","description":"Patrick likes to play baseball, but sometimes he will spend so many hours hitting home runs that his mind starts to get foggy! Patrick is sure that his scores across $ n $ sessions follow the identity permutation (ie. in the first game he scores $ 1 $ point, in the second game he scores $ 2 $ points and so on). However, when he checks back to his record, he sees that all the numbers are mixed up!\n\nDefine a special exchange as the following: choose any subarray of the scores and permute elements such that no element of subarray gets to the same position as it was before the exchange. For example, performing a special exchange on $ [1,2,3] $ can yield $ [3,1,2] $ but it cannot yield $ [3,2,1] $ since the $ 2 $ is in the same position.\n\nGiven a permutation of $ n $ integers, please help Patrick find the minimum number of special exchanges needed to make the permutation sorted! It can be proved that under given constraints this number doesn\u0027t exceed $ 10^{18} $ .\n\nAn array $ a $ is a subarray of an array $ b $ if $ a $ can be obtained from $ b $ by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). Description of the test cases follows.\n\nThe first line of each test case contains integer $ n $ ( $ 1       \\leq n \\leq 2 \\cdot 10^5 $ ) \u2014 the length of the given permutation.\n\nThe second line of each test case contains $ n $ integers $ a_{1},a_{2},...,a_{n} $ ( $ 1 \\leq a_{i} \\leq n $ ) \u2014 the initial permutation.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output one integer: the minimum number of special exchanges needed to sort the permutation.","hint":"In the first permutation, it is already sorted so no exchanges are needed.\n\nIt can be shown that you need at least $ 2 $ exchanges to sort the second permutation.\n\n $ [3, 2, 4, 5, 1, 6, 7] $\n\nPerform special exchange on range ( $ 1, 5 $ )\n\n $ [4, 1, 2, 3, 5, 6, 7] $\n\nPerform special exchange on range ( $ 1, 4 $ )\n\n $ [1, 2, 3, 4, 5, 6, 7] $","locale":"en"},"zh-CN":{"name":"Omkar and Baseball","background":null,"description":"Patrick \u559c\u6b22\u6253\u68d2\u7403\uff0c\u4f46\u6709\u65f6\u5019\u4ed6\u4f1a\u82b1\u592a\u591a\u65f6\u95f4\u51fb\u51fa\u672c\u5792\u6253\uff0c\u5bfc\u81f4\u5934\u8111\u53d8\u5f97\u6a21\u7cca\uff01Patrick \u786e\u4fe1\u4ed6\u5728 $n$ \u573a\u6bd4\u8d5b\u4e2d\u7684\u5f97\u5206\u662f\u4e00\u4e2a\u6052\u7b49\u6392\u5217\uff08\u5373\u7b2c\u4e00\u573a\u5f97 $1$ \u5206\uff0c\u7b2c\u4e8c\u573a\u5f97 $2$ \u5206\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff09\u3002\u7136\u800c\uff0c\u5f53\u4ed6\u56de\u5934\u67e5\u770b\u81ea\u5df1\u7684\u8bb0\u5f55\u65f6\uff0c\u53d1\u73b0\u6240\u6709\u7684\u6570\u5b57\u90fd\u88ab\u6253\u4e71\u4e86\uff01\n\n\u5b9a\u4e49\u4e00\u79cd\u7279\u6b8a\u4ea4\u6362\u5982\u4e0b\uff1a\u9009\u62e9\u5206\u6570\u5e8f\u5217\u7684\u4efb\u610f\u4e00\u4e2a\u5b50\u6570\u7ec4\uff0c\u5e76\u5bf9\u5176\u5143\u7d20\u8fdb\u884c\u6392\u5217\uff0c\u4f7f\u5f97\u5b50\u6570\u7ec4\u4e2d\u7684\u6bcf\u4e2a\u5143\u7d20\u90fd\u4e0d\u80fd\u56de\u5230\u539f\u6765\u7684\u4f4d\u7f6e\u3002\u4f8b\u5982\uff0c\u5bf9 $[1,2,3]$ \u8fdb\u884c\u4e00\u6b21\u7279\u6b8a\u4ea4\u6362\u53ef\u4ee5\u5f97\u5230 $[3,1,2]$\uff0c\u4f46\u4e0d\u80fd\u5f97\u5230 $[3,2,1]$\uff0c\u56e0\u4e3a $2$ \u4ecd\u7136\u5728\u539f\u6765\u7684\u4f4d\u7f6e\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217\uff0c\u8bf7\u5e2e\u52a9 Patrick \u6c42\u51fa\u5c06\u8be5\u6392\u5217\u53d8\u4e3a\u6709\u5e8f\u6240\u9700\u7684\u6700\u5c11\u7279\u6b8a\u4ea4\u6362\u6b21\u6570\uff01\u53ef\u4ee5\u8bc1\u660e\uff0c\u5728\u7ed9\u5b9a\u7684\u7ea6\u675f\u4e0b\uff0c\u8fd9\u4e2a\u6b21\u6570\u4e0d\u4f1a\u8d85\u8fc7 $10^{18}$\u3002\n\n\u5982\u679c\u6570\u7ec4 $a$ \u662f\u6570\u7ec4 $b$ \u7684\u4e00\u4e2a\u5b50\u6570\u7ec4\uff0c\u90a3\u4e48 $a$ \u53ef\u4ee5\u901a\u8fc7\u4ece $b$ \u7684\u5f00\u5934\u5220\u9664\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5143\u7d20\uff0c\u4ee5\u53ca\u4ece\u672b\u5c3e\u5220\u9664\u82e5\u5e72\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5143\u7d20\u5f97\u5230\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u4e3a\u6d4b\u8bd5\u7528\u4f8b\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u7ed9\u5b9a\u6392\u5217\u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_{1},a_{2},...,a_{n}$\uff08$1 \\leq a_{i} \\leq n$\uff09\uff0c\u8868\u793a\u521d\u59cb\u6392\u5217\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06\u8be5\u6392\u5217\u53d8\u4e3a\u6709\u5e8f\u6240\u9700\u7684\u6700\u5c11\u7279\u6b8a\u4ea4\u6362\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6392\u5217\u4e2d\uff0c\u5df2\u7ecf\u662f\u6709\u5e8f\u7684\uff0c\u56e0\u6b64\u4e0d\u9700\u8981\u4efb\u4f55\u4ea4\u6362\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u7b2c\u4e8c\u4e2a\u6392\u5217\u81f3\u5c11\u9700\u8981 $2$ \u6b21\u4ea4\u6362\u624d\u80fd\u53d8\u4e3a\u6709\u5e8f\u3002\n\n$[3, 2, 4, 5, 1, 6, 7]$\n\n\u5bf9\u533a\u95f4 $(1, 5)$ \u8fdb\u884c\u4e00\u6b21\u7279\u6b8a\u4ea4\u6362\uff1a\n\n$[4, 1, 2, 3, 5, 6, 7]$\n\n\u5bf9\u533a\u95f4 $(1, 4)$ \u518d\u8fdb\u884c\u4e00\u6b21\u7279\u6b8a\u4ea4\u6362\uff1a\n\n$[1, 2, 3, 4, 5, 6, 7]$\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1372C Omkar and Baseball","type":2,"slug":"CF1372C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.701518,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1372C Omkar and Baseball","description":"Patrick \u559c\u6b22\u6253\u68d2\u7403\uff0c\u4f46\u6709\u65f6\u5019\u4ed6\u4f1a\u82b1\u592a\u591a\u65f6\u95f4\u51fb\u51fa\u672c\u5792\u6253\uff0c\u5bfc\u81f4\u5934\u8111\u53d8\u5f97\u6a21\u7cca\uff01Patrick \u786e\u4fe1\u4ed6\u5728 n \u573a\u6bd4\u8d5b\u4e2d\u7684\u5f97\u5206\u662f\u4e00\u4e2a\u6052\u7b49\u6392\u5217\uff08\u5373\u7b2c\u4e00\u573a\u5f97 1 \u5206\uff0c\u7b2c\u4e8c\u573a\u5f97 2 \u5206\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff09\u3002\u7136\u800c\uff0c\u5f53\u4ed6\u56de\u5934\u67e5\u770b\u81ea\u5df1\u7684\u8bb0\u5f55\u65f6\uff0c\u53d1\u73b0\u6240\u6709\u7684\u6570\u5b57\u90fd\u88ab\u6253\u4e71\u4e86\uff01\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1372C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1372C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1372C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1372C Omkar and Baseball" />
+    <meta property="og:description" content="Patrick 喜欢打棒球，但有时候他会花太多时间击出本垒打，导致头脑变得模糊！Patrick 确信他在 n 场比赛中的得分是一个恒等排列（即第一场得 1 分，第二场得 2 分，依此类推）。然而，当他回头查看自己的记录时，发现所有的数字都被打乱了！…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1372C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1372C Omkar and Baseball</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Patrick 喜欢打棒球，但有时候他会花太多时间击出本垒打，导致头脑变得模糊！Patrick 确信他在 $n$ 场比赛中的得分是一个恒等排列（即第一场得 $1$ 分，第二场得 $2$ 分，依此类推）。然而，当他回头查看自己的记录时，发现所有的数字都被打乱了！
+
+定义一种特殊交换如下：选择分数序列的任意一个子数组，并对其元素进行排列，使得子数组中的每个元素都不能回到原来的位置。例如，对 $[1,2,3]$ 进行一次特殊交换可以得到 $[3,1,2]$，但不能得到 $[3,2,1]$，因为 $2$ 仍然在原来的位置。
+
+给定一个长度为 $n$ 的排列，请帮助 Patrick 求出将该排列变为有序所需的最少特殊交换次数！可以证明，在给定的约束下，这个次数不会超过 $10^{18}$。
+
+如果数组 $a$ 是数组 $b$ 的一个子数组，那么 $a$ 可以通过从 $b$ 的开头删除若干（可能为零或全部）元素，以及从末尾删除若干（可能为零或全部）元素得到。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试包含多个测试用例。第一行为测试用例数 $t$（$1 \le t \le 100$）。接下来是每个测试用例的描述。
+
+每个测试用例的第一行包含一个整数 $n$（$1 \leq n \leq 2 \cdot 10^5$），表示给定排列的长度。
+
+每个测试用例的第二行包含 $n$ 个整数 $a_{1},a_{2},...,a_{n}$（$1 \leq a_{i} \leq n$），表示初始排列。
+
+保证所有测试用例中 $n$ 的总和不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示将该排列变为有序所需的最少特殊交换次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个排列中，已经是有序的，因此不需要任何交换。
+
+可以证明，第二个排列至少需要 $2$ 次交换才能变为有序。
+
+$[3, 2, 4, 5, 1, 6, 7]$
+
+对区间 $(1, 5)$ 进行一次特殊交换：
+
+$[4, 1, 2, 3, 5, 6, 7]$
+
+对区间 $(1, 4)$ 再进行一次特殊交换：
+
+$[1, 2, 3, 4, 5, 6, 7]$
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

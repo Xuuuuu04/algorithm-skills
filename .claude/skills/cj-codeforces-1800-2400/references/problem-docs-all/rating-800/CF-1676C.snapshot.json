@@ -1,0 +1,38 @@
+{
+  "id": "CF-1676C",
+  "contest_id": 1676,
+  "index": "C",
+  "name": "Most Similar Words",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation",
+    "math",
+    "strings"
+  ],
+  "solved_count": 34252,
+  "problem_url": "https://codeforces.com/problemset/problem/1676/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1676/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1676/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1676C%20Most%20Similar%20Words%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1676C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Most Similar Words - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "implementation",
+      "math",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

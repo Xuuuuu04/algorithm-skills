@@ -1,0 +1,32 @@
+{
+  "id": "CF-254C",
+  "contest_id": 254,
+  "index": "C",
+  "name": "Anagram",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 1599,
+  "problem_url": "https://codeforces.com/problemset/problem/254/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/254/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/254/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=254C%20Anagram%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P254C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Anagram - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "strings",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

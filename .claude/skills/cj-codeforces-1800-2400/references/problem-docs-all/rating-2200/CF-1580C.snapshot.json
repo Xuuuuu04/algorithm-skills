@@ -1,0 +1,29 @@
+{
+  "id": "CF-1580C",
+  "contest_id": 1580,
+  "index": "C",
+  "name": "Train Maintenance",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 2195,
+  "problem_url": "https://codeforces.com/problemset/problem/1580/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1580/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1580/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1580C%20Train%20Maintenance%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1580C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1580C Train Maintenance - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 432,
+    "mirror_attempt": 1423,
+    "time_limit": "1000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

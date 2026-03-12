@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1305F Kuroni and the Punishment - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1305F","type":"CF","title":"Kuroni and the Punishment","difficulty":6,"tags":[],"wantsTranslation":false,"totalSubmit":3089,"totalAccepted":809,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Kuroni and the Punishment","background":null,"description":"Kuroni \u5bf9\u5176\u4ed6\u51fa\u9898\u4eba\u7528\u4ed6\u4f5c\u4e3a\u4e3b\u9898\u611f\u5230\u975e\u5e38\u751f\u6c14\uff01\u4f5c\u4e3a\u60e9\u7f5a\uff0c\u4ed6\u5f3a\u8feb\u4ed6\u4eec\u89e3\u51b3\u4ee5\u4e0b\u95ee\u9898\uff1a\n\n\u4f60\u6709\u4e00\u4e2a\u7531 $n$ \u4e2a\u6b63\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4 $a$\u3002\u6bcf\u6b21\u64cd\u4f5c\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u5143\u7d20\uff0c\u5c06\u5176\u52a0 $1$ \u6216\u51cf $1$\uff0c\u4f46\u5143\u7d20\u5fc5\u987b\u4fdd\u6301\u4e3a\u6b63\u6570\u3002\u6211\u4eec\u79f0\u6570\u7ec4\u662f\u201c\u597d\u201d\u7684\uff0c\u5982\u679c\u6240\u6709\u5143\u7d20\u7684\u6700\u5927\u516c\u7ea6\u6570\u4e0d\u4e3a $1$\u3002\u8bf7\u4f60\u6c42\u51fa\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\u624d\u80fd\u4f7f\u6570\u7ec4\u53d8\u4e3a\u201c\u597d\u201d\u7684\u3002\n\n\u51fa\u9898\u4eba\u65e0\u6cd5\u5339\u654c Kuroni \u7684\u667a\u6167\uff0c\u6ca1\u80fd\u89e3\u51b3\u8fd9\u4e2a\u95ee\u9898\u3002\u8bf7\u4f60\u5e2e\u52a9\u4ed6\u4eec\u9003\u8131 Kuroni \u7684\u60e9\u7f5a\uff01","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$1 \\le a_i \\le 10^{12}$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06\u6570\u7ec4\u53d8\u4e3a\u201c\u597d\u201d\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u5df2\u7ecf\u662f\u201c\u597d\u201d\u7684\uff0c\u56e0\u4e3a\u6240\u6709\u5143\u7d20\u7684\u6700\u5927\u516c\u7ea6\u6570\u4e3a $2$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n1. \u5c06\u7b2c\u4e8c\u4e2a\u5143\u7d20\u52a0 $1$\uff0c\u53d8\u4e3a $9$\u3002\n2. \u5c06\u7b2c\u4e09\u4e2a\u5143\u7d20\u51cf $1$\uff0c\u53d8\u4e3a $6$\u3002\n3. \u5c06\u7b2c\u4e94\u4e2a\u5143\u7d20\u52a0 $1$\uff0c\u53d8\u4e3a $2$\u3002\n4. \u518d\u5c06\u7b2c\u4e94\u4e2a\u5143\u7d20\u52a0 $1$\uff0c\u53d8\u4e3a $3$\u3002\n\n\u6b64\u65f6\u6240\u6709\u5143\u7d20\u7684\u6700\u5927\u516c\u7ea6\u6570\u4e3a $3$\uff0c\u6570\u7ec4\u53d8\u4e3a\u201c\u597d\u201d\u7684\u3002\u53ef\u4ee5\u8bc1\u660e\uff0c\u4efb\u4f55\u4e0d\u8d85\u8fc7\u4e09\u6b21\u7684\u64cd\u4f5c\u90fd\u65e0\u6cd5\u4f7f\u6570\u7ec4\u53d8\u4e3a\u201c\u597d\u201d\u7684\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Kuroni and the Punishment","background":"","description":"Kuroni is very angry at the other setters for using him as a theme! As a punishment, he forced them to solve the following problem:\n\nYou have an array $ a $ consisting of $ n $ positive integers. An operation consists of choosing an element and either adding $ 1 $ to it or subtracting $ 1 $ from it, such that the element remains positive. We say the array is good if the greatest common divisor of all its elements is not $ 1 $ . Find the minimum number of operations needed to make the array good.\n\nUnable to match Kuroni\u0027s intellect, the setters failed to solve the problem. Help them escape from Kuroni\u0027s punishment!","formatI":"The first line contains an integer $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of elements in the array.\n\nThe second line contains $ n $ integers $ a_1, a_2, \\dots, a_n $ . ( $ 1 \\le a_i \\le 10^{12} $ ) \u2014 the elements of the array.","formatO":"Print a single integer \u2014 the minimum number of operations required to make the array good.","hint":"In the first example, the first array is already good, since the greatest common divisor of all the elements is $ 2 $ .\n\nIn the second example, we may apply the following operations:\n\n1. Add $ 1 $ to the second element, making it equal to $ 9 $ .\n2. Subtract $ 1 $ from the third element, making it equal to $ 6 $ .\n3. Add $ 1 $ to the fifth element, making it equal to $ 2 $ .\n4. Add $ 1 $ to the fifth element again, making it equal to $ 3 $ .\n\nThe greatest common divisor of all elements will then be equal to $ 3 $ , so the array will be good. It can be shown that no sequence of three or less operations can make the array good.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n6 2 4","0"],["5\n9 8 7 3 1","4"]],"limits":{"time":[2500],"memory":[256000]},"vjudge":{"id":"1305F","link":"https:\/\/codeforces.com\/problemset\/problem\/1305\/F"},"translation":"\u7ed9\u5b9a $n$ \u4e2a\u6570\u3002\u6bcf\u6b21\u53ef\u4ee5\u9009\u62e9\u5c06\u4e00\u4e2a\u6570 $+1$ \u6216 $-1$ \u3002\u6c42\u81f3\u5c11\u591a\u5c11\u6b21\u64cd\u4f5c\u4f7f\u5f97\u6574\u4e2a\u5e8f\u5217\u90fd\u662f\u6b63\u6570\u4e14\u5168\u90e8\u5143\u7d20\u7684 $\\gcd\u003E1$ \u3002\n\n$n\\leq 2\\times10^5,a_i\\leq 10^{12}$ \u3002"},"translations":{"en":{"name":"Kuroni and the Punishment","background":"","description":"Kuroni is very angry at the other setters for using him as a theme! As a punishment, he forced them to solve the following problem:\n\nYou have an array $ a $ consisting of $ n $ positive integers. An operation consists of choosing an element and either adding $ 1 $ to it or subtracting $ 1 $ from it, such that the element remains positive. We say the array is good if the greatest common divisor of all its elements is not $ 1 $ . Find the minimum number of operations needed to make the array good.\n\nUnable to match Kuroni\u0027s intellect, the setters failed to solve the problem. Help them escape from Kuroni\u0027s punishment!","formatI":"The first line contains an integer $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of elements in the array.\n\nThe second line contains $ n $ integers $ a_1, a_2, \\dots, a_n $ . ( $ 1 \\le a_i \\le 10^{12} $ ) \u2014 the elements of the array.","formatO":"Print a single integer \u2014 the minimum number of operations required to make the array good.","hint":"In the first example, the first array is already good, since the greatest common divisor of all the elements is $ 2 $ .\n\nIn the second example, we may apply the following operations:\n\n1. Add $ 1 $ to the second element, making it equal to $ 9 $ .\n2. Subtract $ 1 $ from the third element, making it equal to $ 6 $ .\n3. Add $ 1 $ to the fifth element, making it equal to $ 2 $ .\n4. Add $ 1 $ to the fifth element again, making it equal to $ 3 $ .\n\nThe greatest common divisor of all elements will then be equal to $ 3 $ , so the array will be good. It can be shown that no sequence of three or less operations can make the array good.","locale":"en"},"zh-CN":{"name":"Kuroni and the Punishment","background":null,"description":"Kuroni \u5bf9\u5176\u4ed6\u51fa\u9898\u4eba\u7528\u4ed6\u4f5c\u4e3a\u4e3b\u9898\u611f\u5230\u975e\u5e38\u751f\u6c14\uff01\u4f5c\u4e3a\u60e9\u7f5a\uff0c\u4ed6\u5f3a\u8feb\u4ed6\u4eec\u89e3\u51b3\u4ee5\u4e0b\u95ee\u9898\uff1a\n\n\u4f60\u6709\u4e00\u4e2a\u7531 $n$ \u4e2a\u6b63\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4 $a$\u3002\u6bcf\u6b21\u64cd\u4f5c\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u5143\u7d20\uff0c\u5c06\u5176\u52a0 $1$ \u6216\u51cf $1$\uff0c\u4f46\u5143\u7d20\u5fc5\u987b\u4fdd\u6301\u4e3a\u6b63\u6570\u3002\u6211\u4eec\u79f0\u6570\u7ec4\u662f\u201c\u597d\u201d\u7684\uff0c\u5982\u679c\u6240\u6709\u5143\u7d20\u7684\u6700\u5927\u516c\u7ea6\u6570\u4e0d\u4e3a $1$\u3002\u8bf7\u4f60\u6c42\u51fa\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\u624d\u80fd\u4f7f\u6570\u7ec4\u53d8\u4e3a\u201c\u597d\u201d\u7684\u3002\n\n\u51fa\u9898\u4eba\u65e0\u6cd5\u5339\u654c Kuroni \u7684\u667a\u6167\uff0c\u6ca1\u80fd\u89e3\u51b3\u8fd9\u4e2a\u95ee\u9898\u3002\u8bf7\u4f60\u5e2e\u52a9\u4ed6\u4eec\u9003\u8131 Kuroni \u7684\u60e9\u7f5a\uff01","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$1 \\le a_i \\le 10^{12}$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06\u6570\u7ec4\u53d8\u4e3a\u201c\u597d\u201d\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u5df2\u7ecf\u662f\u201c\u597d\u201d\u7684\uff0c\u56e0\u4e3a\u6240\u6709\u5143\u7d20\u7684\u6700\u5927\u516c\u7ea6\u6570\u4e3a $2$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n1. \u5c06\u7b2c\u4e8c\u4e2a\u5143\u7d20\u52a0 $1$\uff0c\u53d8\u4e3a $9$\u3002\n2. \u5c06\u7b2c\u4e09\u4e2a\u5143\u7d20\u51cf $1$\uff0c\u53d8\u4e3a $6$\u3002\n3. \u5c06\u7b2c\u4e94\u4e2a\u5143\u7d20\u52a0 $1$\uff0c\u53d8\u4e3a $2$\u3002\n4. \u518d\u5c06\u7b2c\u4e94\u4e2a\u5143\u7d20\u52a0 $1$\uff0c\u53d8\u4e3a $3$\u3002\n\n\u6b64\u65f6\u6240\u6709\u5143\u7d20\u7684\u6700\u5927\u516c\u7ea6\u6570\u4e3a $3$\uff0c\u6570\u7ec4\u53d8\u4e3a\u201c\u597d\u201d\u7684\u3002\u53ef\u4ee5\u8bc1\u660e\uff0c\u4efb\u4f55\u4e0d\u8d85\u8fc7\u4e09\u6b21\u7684\u64cd\u4f5c\u90fd\u65e0\u6cd5\u4f7f\u6570\u7ec4\u53d8\u4e3a\u201c\u597d\u201d\u7684\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1305F Kuroni and the Punishment","type":2,"slug":"CF1305F","color":"orange-3"},"discussions":[{"id":1045504,"title":"\u8fdb\u98df\u540e\u4eba","author":{"uid":748700,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/748700.png","name":"IkunTeddy","slogan":"\u819c\u62dcJZP","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":8,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/5edovwej.png"},"time":1737464470},{"id":923154,"title":"\u5173\u4e8e\u968f\u673a\u5316\u7684\u6b63\u786e\u6027\u8bc1\u660e","author":{"uid":609565,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/609565.png","name":"Cryn_Frog195","slogan":"\u5341\u4e07\u5e74\u592a\u4e45\uff0c\u53ea\u4e89\u671d\u5915\u3002\u2014\u2014\u6bdb\u4e3b\u5e2d","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/spj456ox.png"},"time":1725976263},{"id":527545,"title":"\u989d\uff0c\u6709\u4e09\u4e2a\u70b9\u871c\u6c41WA","author":{"uid":251882,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/251882.png","name":"\u849f\u84bb\u4e01","slogan":"\u5927\u5bb6\u8981\u597d\u597d\u5b66\u4e60\u7b97\u6cd5\u7ade\u8d5b\uff0c\u4e0d\u7136\u9ad8\u8003\u5bc4\u4e86\u5c31\u60e8\u4e86","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/339lacum.png"},"time":1668166384}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.312044,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1305F Kuroni and the Punishment","description":"Kuroni \u5bf9\u5176\u4ed6\u51fa\u9898\u4eba\u7528\u4ed6\u4f5c\u4e3a\u4e3b\u9898\u611f\u5230\u975e\u5e38\u751f\u6c14\uff01\u4f5c\u4e3a\u60e9\u7f5a\uff0c\u4ed6\u5f3a\u8feb\u4ed6\u4eec\u89e3\u51b3\u4ee5\u4e0b\u95ee\u9898\uff1a\n\u4f60\u6709\u4e00\u4e2a\u7531 n \u4e2a\u6b63\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4 a\u3002\u6bcf\u6b21\u64cd\u4f5c\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u5143\u7d20\uff0c\u5c06\u5176\u52a0 1 \u6216\u51cf 1\uff0c\u4f46\u5143\u7d20\u5fc5\u987b\u4fdd\u6301\u4e3a\u6b63\u6570\u3002\u6211\u4eec\u79f0\u6570\u7ec4\u662f\u201c\u597d\u201d\u7684\uff0c\u5982\u679c\u6240\u6709\u5143\u7d20\u7684\u6700\u5927\u516c\u7ea6\u6570\u4e0d\u4e3a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1305F" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1305F?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1305F?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1305F Kuroni and the Punishment" />
+    <meta property="og:description" content="Kuroni 对其他出题人用他作为主题感到非常生气！作为惩罚，他强迫他们解决以下问题：
+你有一个由 n 个正整数组成的数组 a。每次操作可以选择一个元素，将其加 1 或减 1，但元素必须保持为正数。我们称数组是“好”的，如果所有元素的最大公约数不为…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1305F" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1305F Kuroni and the Punishment</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Kuroni 对其他出题人用他作为主题感到非常生气！作为惩罚，他强迫他们解决以下问题：
+
+你有一个由 $n$ 个正整数组成的数组 $a$。每次操作可以选择一个元素，将其加 $1$ 或减 $1$，但元素必须保持为正数。我们称数组是“好”的，如果所有元素的最大公约数不为 $1$。请你求出最少需要多少次操作才能使数组变为“好”的。
+
+出题人无法匹敌 Kuroni 的智慧，没能解决这个问题。请你帮助他们逃脱 Kuroni 的惩罚！
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $n$（$2 \le n \le 2 \cdot 10^5$），表示数组的元素个数。
+
+第二行包含 $n$ 个整数 $a_1, a_2, \dots, a_n$（$1 \le a_i \le 10^{12}$），表示数组的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示将数组变为“好”的最少操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，数组已经是“好”的，因为所有元素的最大公约数为 $2$。
+
+在第二个样例中，可以进行如下操作：
+
+1. 将第二个元素加 $1$，变为 $9$。
+2. 将第三个元素减 $1$，变为 $6$。
+3. 将第五个元素加 $1$，变为 $2$。
+4. 再将第五个元素加 $1$，变为 $3$。
+
+此时所有元素的最大公约数为 $3$，数组变为“好”的。可以证明，任何不超过三次的操作都无法使数组变为“好”的。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1806B",
+  "contest_id": 1806,
+  "index": "B",
+  "name": "Mex Master",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 19556,
+  "problem_url": "https://codeforces.com/problemset/problem/1806/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1806/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1806/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1806B%20Mex%20Master%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1806/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1806B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "1024 megabytes"
+  }
+}

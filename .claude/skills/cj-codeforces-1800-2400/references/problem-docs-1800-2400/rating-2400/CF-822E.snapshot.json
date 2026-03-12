@@ -1,0 +1,38 @@
+{
+  "id": "CF-822E",
+  "contest_id": 822,
+  "index": "E",
+  "name": "Liar",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "dp",
+    "hashing",
+    "string suffix structures"
+  ],
+  "url": "https://codeforces.com/problemset/problem/822/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/822/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/822/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=822E%20Liar%20tutorial",
+  "solved_count": 1045,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P822E",
+  "hydro_meta": {
+    "page_title": "Liar - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "hashing",
+      "string suffix structures",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-911A",
+  "contest_id": 911,
+  "index": "A",
+  "name": "Nearest Minimums",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 12196,
+  "problem_url": "https://codeforces.com/problemset/problem/911/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/911/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/911/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=911A%20Nearest%20Minimums%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P911A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nearest Minimums - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

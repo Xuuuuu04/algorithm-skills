@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF432D Prefixes and Suffixes - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF432D","type":"CF","title":"Prefixes and Suffixes","difficulty":5,"tags":[101,235,302,474],"wantsTranslation":false,"totalSubmit":2458,"totalAccepted":1165,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Prefixes and Suffixes","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5b57\u7b26\u4e32 $s = s_{1}s_{2}\\ldots s_{|s|}$\uff0c\u5176\u4e2d $|s|$ \u8868\u793a\u5b57\u7b26\u4e32 $s$ \u7684\u957f\u5ea6\uff0c$s_{i}$ \u8868\u793a\u5b83\u7684\u7b2c $i$ \u4e2a\u5b57\u7b26\u3002\n\n\u6211\u4eec\u5f15\u5165\u4ee5\u4e0b\u51e0\u4e2a\u5b9a\u4e49\uff1a\n\n- \u5b57\u7b26\u4e32 $s$ \u7684\u4e00\u4e2a\u5b50\u4e32 $s[i..j]$ $(1 \\leq i \\leq j \\leq |s|)$ \u6307\u7684\u662f\u5b57\u7b26\u4e32 $s_{i}s_{i+1}\\ldots s_{j}$\u3002\n- \u5b57\u7b26\u4e32 $s$ \u957f\u5ea6\u4e3a $l$ \u7684\u524d\u7f00$(1 \\leq l \\leq |s|)$\u4e3a $s[1..l]$\u3002\n- \u5b57\u7b26\u4e32 $s$ \u957f\u5ea6\u4e3a $l$ \u7684\u540e\u7f00$(1 \\leq l \\leq |s|)$\u4e3a $s[|s|-l+1..|s|]$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\uff0c\u5bf9\u4e8e\u6240\u6709\u524d\u7f00\u7b49\u4e8e\u540e\u7f00\u7684\u957f\u5ea6 $l$\uff0c\u8f93\u51fa\u5b83\u5728\u5b57\u7b26\u4e32 $s$ \u4e2d\u4f5c\u4e3a\u5b50\u4e32\u51fa\u73b0\u7684\u6b21\u6570\u3002","formatI":"\u4e00\u884c\uff0c\u5305\u62ec\u4e00\u4e2a\u53ea\u7531\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$ $(1 \\leq |s| \\leq 10^{5})$\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $k$ $(0 \\leq k \\leq |s|)$\uff0c\u8868\u793a\u6709\u591a\u5c11\u4e2a\u524d\u7f00\u7b49\u4e8e\u540e\u7f00\u3002  \n\u63a5\u4e0b\u6765 $k$ \u884c\uff0c\u6bcf\u884c\u8f93\u51fa\u4e24\u4e2a\u6574\u6570 $l_{i}\\ c_{i}$\uff0c\u8868\u793a\u957f\u5ea6\u4e3a $l_{i}$ \u7684\u524d\u7f00\u4e0e\u540e\u7f00\u76f8\u7b49\uff0c\u5e76\u4e14\u5b83\u5728\u5b57\u7b26\u4e32 $s$ \u4e2d\u4f5c\u4e3a\u5b50\u4e32\u51fa\u73b0\u4e86 $c_{i}$ \u6b21\u3002\u8bf7\u6309\u7167 $l_{i}$ \u9012\u589e\u7684\u987a\u5e8f\u8f93\u51fa\u6bcf\u7ec4\u6570\u636e\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Prefixes and Suffixes","background":"","description":"You have a string $ s=s_{1}s_{2}...s_{|s|} $ , where $ |s| $ is the length of string $ s $ , and $ s_{i} $ its $ i $ -th character.\n\nLet\u0027s introduce several definitions:\n\n- A substring $ s[i..j] $ $ (1\u003C=i\u003C=j\u003C=|s|) $ of string $ s $ is string $ s_{i}s_{i+1}...s_{j} $ .\n- The prefix of string $ s $ of length $ l $ $ (1\u003C=l\u003C=|s|) $ is string $ s[1..l] $ .\n- The suffix of string $ s $ of length $ l $ $ (1\u003C=l\u003C=|s|) $ is string $ s[|s|-l+1..|s|] $ .\n\nYour task is, for any prefix of string $ s $ which matches a suffix of string $ s $ , print the number of times it occurs in string $ s $ as a substring.","formatI":"The single line contains a sequence of characters $ s_{1}s_{2}...s_{|s|} $ $ (1\u003C=|s|\u003C=10^{5}) $ \u2014 string $ s $ . The string only consists of uppercase English letters.","formatO":"In the first line, print integer $ k $ $ (0\u003C=k\u003C=|s|) $ \u2014 the number of prefixes that match a suffix of string $ s $ . Next print $ k $ lines, in each line print two integers $ l_{i} $ $ c_{i} $ . Numbers $ l_{i} $ $ c_{i} $ mean that the prefix of the length $ l_{i} $ matches the suffix of length $ l_{i} $ and occurs in string $ s $ as a substring $ c_{i} $ times. Print pairs $ l_{i} $ $ c_{i} $ in the order of increasing $ l_{i} $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["ABACABA\n","3\n1 4\n3 2\n7 1\n"],["AAA\n","3\n1 3\n2 2\n3 1\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"432D","link":"https:\/\/codeforces.com\/problemset\/problem\/432\/D"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u957f\u5ea6\u4e3an\u7684\u957f\u5b57\u7b26\u4e32\uff0c\u201c\u5b8c\u7f8e\u5b50\u4e32\u201d\u65e2\u662f\u5b83\u7684\u524d\u7f00\u4e5f\u662f\u5b83\u7684\u540e\u7f00\uff0c\u6c42\u201c\u5b8c\u7f8e\u5b50\u4e32\u201d\u7684\u4e2a\u6570\u4e14\u7edf\u8ba1\u8fd9\u4e9b\u5b50\u4e32\u7684\u5728\u957f\u5b57\u7b26\u4e32\u4e2d\u51fa\u73b0\u7684\u6b21\u6570\n\n\u611f\u8c22@\u8f6c\u8eab\u3001\u5df2\u964c\u8def \u63d0\u4f9b\u7684\u7ffb\u8bd1"},"translations":{"en":{"name":"Prefixes and Suffixes","background":"","description":"You have a string $ s=s_{1}s_{2}...s_{|s|} $ , where $ |s| $ is the length of string $ s $ , and $ s_{i} $ its $ i $ -th character.\n\nLet\u0027s introduce several definitions:\n\n- A substring $ s[i..j] $ $ (1\u003C=i\u003C=j\u003C=|s|) $ of string $ s $ is string $ s_{i}s_{i+1}...s_{j} $ .\n- The prefix of string $ s $ of length $ l $ $ (1\u003C=l\u003C=|s|) $ is string $ s[1..l] $ .\n- The suffix of string $ s $ of length $ l $ $ (1\u003C=l\u003C=|s|) $ is string $ s[|s|-l+1..|s|] $ .\n\nYour task is, for any prefix of string $ s $ which matches a suffix of string $ s $ , print the number of times it occurs in string $ s $ as a substring.","formatI":"The single line contains a sequence of characters $ s_{1}s_{2}...s_{|s|} $ $ (1\u003C=|s|\u003C=10^{5}) $ \u2014 string $ s $ . The string only consists of uppercase English letters.","formatO":"In the first line, print integer $ k $ $ (0\u003C=k\u003C=|s|) $ \u2014 the number of prefixes that match a suffix of string $ s $ . Next print $ k $ lines, in each line print two integers $ l_{i} $ $ c_{i} $ . Numbers $ l_{i} $ $ c_{i} $ mean that the prefix of the length $ l_{i} $ matches the suffix of length $ l_{i} $ and occurs in string $ s $ as a substring $ c_{i} $ times. Print pairs $ l_{i} $ $ c_{i} $ in the order of increasing $ l_{i} $ .","hint":"","locale":"en"},"zh-CN":{"name":"Prefixes and Suffixes","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5b57\u7b26\u4e32 $s = s_{1}s_{2}\\ldots s_{|s|}$\uff0c\u5176\u4e2d $|s|$ \u8868\u793a\u5b57\u7b26\u4e32 $s$ \u7684\u957f\u5ea6\uff0c$s_{i}$ \u8868\u793a\u5b83\u7684\u7b2c $i$ \u4e2a\u5b57\u7b26\u3002\n\n\u6211\u4eec\u5f15\u5165\u4ee5\u4e0b\u51e0\u4e2a\u5b9a\u4e49\uff1a\n\n- \u5b57\u7b26\u4e32 $s$ \u7684\u4e00\u4e2a\u5b50\u4e32 $s[i..j]$ $(1 \\leq i \\leq j \\leq |s|)$ \u6307\u7684\u662f\u5b57\u7b26\u4e32 $s_{i}s_{i+1}\\ldots s_{j}$\u3002\n- \u5b57\u7b26\u4e32 $s$ \u957f\u5ea6\u4e3a $l$ \u7684\u524d\u7f00$(1 \\leq l \\leq |s|)$\u4e3a $s[1..l]$\u3002\n- \u5b57\u7b26\u4e32 $s$ \u957f\u5ea6\u4e3a $l$ \u7684\u540e\u7f00$(1 \\leq l \\leq |s|)$\u4e3a $s[|s|-l+1..|s|]$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\uff0c\u5bf9\u4e8e\u6240\u6709\u524d\u7f00\u7b49\u4e8e\u540e\u7f00\u7684\u957f\u5ea6 $l$\uff0c\u8f93\u51fa\u5b83\u5728\u5b57\u7b26\u4e32 $s$ \u4e2d\u4f5c\u4e3a\u5b50\u4e32\u51fa\u73b0\u7684\u6b21\u6570\u3002","formatI":"\u4e00\u884c\uff0c\u5305\u62ec\u4e00\u4e2a\u53ea\u7531\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$ $(1 \\leq |s| \\leq 10^{5})$\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $k$ $(0 \\leq k \\leq |s|)$\uff0c\u8868\u793a\u6709\u591a\u5c11\u4e2a\u524d\u7f00\u7b49\u4e8e\u540e\u7f00\u3002  \n\u63a5\u4e0b\u6765 $k$ \u884c\uff0c\u6bcf\u884c\u8f93\u51fa\u4e24\u4e2a\u6574\u6570 $l_{i}\\ c_{i}$\uff0c\u8868\u793a\u957f\u5ea6\u4e3a $l_{i}$ \u7684\u524d\u7f00\u4e0e\u540e\u7f00\u76f8\u7b49\uff0c\u5e76\u4e14\u5b83\u5728\u5b57\u7b26\u4e32 $s$ \u4e2d\u4f5c\u4e3a\u5b50\u4e32\u51fa\u73b0\u4e86 $c_{i}$ \u6b21\u3002\u8bf7\u6309\u7167 $l_{i}$ \u9012\u589e\u7684\u987a\u5e8f\u8f93\u51fa\u6bcf\u7ec4\u6570\u636e\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF432D Prefixes and Suffixes","type":2,"slug":"CF432D","color":"orange-3"},"discussions":[{"id":930408,"title":"wa on #29","author":{"uid":1088663,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1088663.png","name":"zzzyyyyhhhhh","slogan":"omori will become sunny","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1726751649},{"id":882947,"title":"\u8b66\u949f\u6572\u70c2","author":{"uid":797897,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/797897.png","name":"mhx_zzz","slogan":"ODT","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":6,"xcpcLevel":0,"background":""},"time":1723016201},{"id":736231,"title":"\u5efa\u8bae\u64a4\u4e0b\u9898\u89e3","author":{"uid":482728,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/482728.png","name":"Engulf","slogan":"\u6c17\u3065\u304d\u305f\u304f\u306a\u3044\u306e\u306b","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/jo68y3xn.png"},"time":1700660731},{"id":528963,"title":"\u5173\u4e8e\u8f93\u51fa\u7684\u7ffb\u8bd1","author":{"uid":673643,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/673643.png","name":"GameFreak","slogan":"\u5982\u679c\u897f\u897f\u5f17\u65af\u4e00\u76f4\u5728\u63a8\u77f3\u5934\uff0c\u4e0d\u77e5\u80fd\u5426\u6210\u529f\uff0c\u4e0d\u77e5\u80fd\u5426\u5931\u8d25\uff0c\u4f46\u4e00\u76f4\u6000\u63e3\u5e0c\u671b\u5730\u63a8\u4e0b\u53bb\uff0c\u90a3\u4e48\u8fd9\u662f\u6211\u4eec\u7684\u6545\u4e8b\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":8,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/22ptmg24.png"},"time":1668345204},{"id":387955,"title":"\u6c42\u52a9\uff01","author":{"uid":498102,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/498102.png","name":"Ensfs","slogan":"\u4e00\u5b9a\u4f1a\u542c\u5230Light Of Sanctuary","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/jbhygdyi.png"},"time":1638880834},{"id":179707,"title":"\u6c42\u52a9 \uff01\uff01\uff01\uff0c \u6c42\u52a9\u5927\u4f6c\u8be6\u7ec6\u89e3\u91ca\u8fd9\u4e09\u884c\u4ee3\u7801\u7684\u610f\u601d \uff0c \u611f\u6fc0\uff01\uff01","author":{"uid":153897,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/153897.png","name":"RQ\u3002\u3002\u3002","slogan":"\u4e0d\u77e5\u6240\u8c13","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1577964606}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.341914,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF432D Prefixes and Suffixes","description":"\u7ed9\u5b9a\u4e00\u4e2a\u5b57\u7b26\u4e32 s = s_{1}s_{2}\\ldots s_{|s|}\uff0c\u5176\u4e2d |s| \u8868\u793a\u5b57\u7b26\u4e32 s \u7684\u957f\u5ea6\uff0cs_{i} \u8868\u793a\u5b83\u7684\u7b2c i \u4e2a\u5b57\u7b26\u3002\n\u6211\u4eec\u5f15\u5165\u4ee5\u4e0b\u51e0\u4e2a\u5b9a\u4e49\uff1a\n\n\u5b57\u7b26\u4e32 s \u7684\u4e00\u4e2a\u5b50\u4e32 s[i..j] (1 \\leq i \\leq\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF432D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF432D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF432D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF432D Prefixes and Suffixes" />
+    <meta property="og:description" content="给定一个字符串 s = s_{1}s_{2}\ldots s_{|s|}，其中 |s| 表示字符串 s 的长度，s_{i} 表示它的第 i 个字符。
+我们引入以下几个定义：
+
+字符串 s 的一个子串 s[i..j] (1 \leq i \leq…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF432D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF432D Prefixes and Suffixes</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个字符串 $s = s_{1}s_{2}\ldots s_{|s|}$，其中 $|s|$ 表示字符串 $s$ 的长度，$s_{i}$ 表示它的第 $i$ 个字符。
+
+我们引入以下几个定义：
+
+- 字符串 $s$ 的一个子串 $s[i..j]$ $(1 \leq i \leq j \leq |s|)$ 指的是字符串 $s_{i}s_{i+1}\ldots s_{j}$。
+- 字符串 $s$ 长度为 $l$ 的前缀$(1 \leq l \leq |s|)$为 $s[1..l]$。
+- 字符串 $s$ 长度为 $l$ 的后缀$(1 \leq l \leq |s|)$为 $s[|s|-l+1..|s|]$。
+
+你的任务是，对于所有前缀等于后缀的长度 $l$，输出它在字符串 $s$ 中作为子串出现的次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行，包括一个只由大写英文字母组成的字符串 $s$ $(1 \leq |s| \leq 10^{5})$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    第一行输出一个整数 $k$ $(0 \leq k \leq |s|)$，表示有多少个前缀等于后缀。  
+接下来 $k$ 行，每行输出两个整数 $l_{i}\ c_{i}$，表示长度为 $l_{i}$ 的前缀与后缀相等，并且它在字符串 $s$ 中作为子串出现了 $c_{i}$ 次。请按照 $l_{i}$ 递增的顺序输出每组数据。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

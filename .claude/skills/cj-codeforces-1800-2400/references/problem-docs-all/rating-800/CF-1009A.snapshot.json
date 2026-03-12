@@ -1,0 +1,27 @@
+{
+  "id": "CF-1009A",
+  "contest_id": 1009,
+  "index": "A",
+  "name": "Game Shopping",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 12251,
+  "problem_url": "https://codeforces.com/problemset/problem/1009/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1009/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1009/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1009A%20Game%20Shopping%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1009A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1009A Game Shopping - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 349,
+    "mirror_attempt": 620,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

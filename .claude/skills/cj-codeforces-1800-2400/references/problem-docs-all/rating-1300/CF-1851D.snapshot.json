@@ -1,0 +1,28 @@
+{
+  "id": "CF-1851D",
+  "contest_id": 1851,
+  "index": "D",
+  "name": "Prefix Permutation Sums",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 17141,
+  "problem_url": "https://codeforces.com/problemset/problem/1851/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1851/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1851/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1851D%20Prefix%20Permutation%20Sums%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1851D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1851D Prefix Permutation Sums - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 244,
+    "mirror_attempt": 576,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1721A",
+  "contest_id": 1721,
+  "index": "A",
+  "name": "Image",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 28207,
+  "problem_url": "https://codeforces.com/problemset/problem/1721/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1721/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1721/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1721A%20Image%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1721A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1721A Image - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 387,
+    "mirror_attempt": 666,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-2045I",
+  "contest_id": 2045,
+  "index": "I",
+  "name": "Microwavable Subsequence",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 1339,
+  "problem_url": "https://codeforces.com/problemset/problem/2045/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/2045/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2045/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2045I%20Microwavable%20Subsequence%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2045I",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Microwavable Subsequence - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

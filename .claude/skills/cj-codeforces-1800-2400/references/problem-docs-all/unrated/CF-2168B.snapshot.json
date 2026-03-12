@@ -1,0 +1,32 @@
+{
+  "id": "CF-2168B",
+  "contest_id": 2168,
+  "index": "B",
+  "name": "Locate",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "combinatorics",
+    "communication",
+    "constructive algorithms",
+    "greedy",
+    "interactive"
+  ],
+  "solved_count": 1493,
+  "problem_url": "https://codeforces.com/problemset/problem/2168/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2168/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2168/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2168B%20Locate%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2168/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2168B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

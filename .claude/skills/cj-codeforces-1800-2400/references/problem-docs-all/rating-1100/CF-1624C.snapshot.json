@@ -1,0 +1,31 @@
+{
+  "id": "CF-1624C",
+  "contest_id": 1624,
+  "index": "C",
+  "name": "Division by Two and Permutation",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "flows",
+    "graph matchings",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 26675,
+  "problem_url": "https://codeforces.com/problemset/problem/1624/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1624/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1624/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1624C%20Division%20by%20Two%20and%20Permutation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1624/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1624C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1413A",
+  "contest_id": 1413,
+  "index": "A",
+  "name": "Finding Sasuke",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 15244,
+  "problem_url": "https://codeforces.com/problemset/problem/1413/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1413/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1413/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1413A%20Finding%20Sasuke%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1413A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1413A Finding Sasuke - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 153,
+    "mirror_attempt": 213,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

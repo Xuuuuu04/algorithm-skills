@@ -1,0 +1,34 @@
+{
+  "id": "CF-1860C",
+  "contest_id": 1860,
+  "index": "C",
+  "name": "Game on Permutation",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dp",
+    "games",
+    "greedy"
+  ],
+  "solved_count": 15411,
+  "problem_url": "https://codeforces.com/problemset/problem/1860/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1860/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1860/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1860C%20Game%20on%20Permutation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1860C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Game on Permutation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "games",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-616E",
+  "contest_id": 616,
+  "index": "E",
+  "name": "Sum of Remainders",
+  "rating": 2200,
+  "tags": [
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/616/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/616/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/616/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=616E%20Sum of Remainders%20tutorial",
+  "solved_count": 3452,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P616E",
+  "hydro_meta": {
+    "page_title": "Sum of Remainders - 题目详情 - Hydro",
+    "hydro_tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

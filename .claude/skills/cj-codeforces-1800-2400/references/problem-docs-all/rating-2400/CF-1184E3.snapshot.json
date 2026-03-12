@@ -1,0 +1,36 @@
+{
+  "id": "CF-1184E3",
+  "contest_id": 1184,
+  "index": "E3",
+  "name": "Daleks' Invasion (hard)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dsu",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 655,
+  "problem_url": "https://codeforces.com/problemset/problem/1184/E3",
+  "answer_index_url": "https://codeforces.com/problemset/status/1184/problem/E3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1184/problem/E3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1184E3%20Daleks%27%20Invasion%20%28hard%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1184E3",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Daleks' Invasion (hard) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "10000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1678A Tokitsukaze and All Zero Sequence - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1678A","type":"CF","title":"Tokitsukaze and All Zero Sequence","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":348,"totalAccepted":161,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Tokitsukaze and All Zero Sequence","background":null,"description":"\u65f6\u6d25\u98ce\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5e8f\u5217 $a$\u3002\u6bcf\u6b21\u64cd\u4f5c\uff0c\u5979\u4f1a\u9009\u62e9\u4e24\u4e2a\u6570 $a_i$ \u548c $a_j$\uff08$i \\ne j$\uff0c$1 \\leq i,j \\leq n$\uff09\u3002\n\n- \u5982\u679c $a_i = a_j$\uff0c\u5219\u5c06\u5176\u4e2d\u4e00\u4e2a\u6570\u53d8\u4e3a $0$\u3002\n- \u5426\u5219\uff0c\u5c06\u8fd9\u4e24\u4e2a\u6570\u90fd\u53d8\u4e3a $\\min(a_i, a_j)$\u3002\n\n\u65f6\u6d25\u98ce\u60f3\u77e5\u9053\uff0c\u5c06\u5e8f\u5217\u4e2d\u7684\u6240\u6709\u6570\u90fd\u53d8\u4e3a $0$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002\u53ef\u4ee5\u8bc1\u660e\u7b54\u6848\u4e00\u5b9a\u5b58\u5728\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $t$\uff08$1 \\leq t \\leq 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\leq n \\leq 100$\uff09\uff0c\u8868\u793a\u5e8f\u5217 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\leq a_i \\leq 100$\uff09\uff0c\u8868\u793a\u5e8f\u5217 $a$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06\u5e8f\u5217\u4e2d\u7684\u6240\u6709\u6570\u90fd\u53d8\u4e3a $0$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5c06\u6240\u6709\u6570\u53d8\u4e3a $0$ \u7684\u4e00\u79cd\u53ef\u80fd\u65b9\u5f0f\u5982\u4e0b\uff1a\n\n\u7b2c $1$ \u6b21\u64cd\u4f5c\uff0c$a_1 \u003C a_2$\uff0c\u64cd\u4f5c\u540e $a_2 = a_1 = 1$\u3002\u6b64\u65f6\u5e8f\u5217 $a$ \u53d8\u4e3a $[1,1,3]$\u3002\n\n\u7b2c $2$ \u6b21\u64cd\u4f5c\uff0c$a_1 = a_2 = 1$\uff0c\u64cd\u4f5c\u540e $a_1 = 0$\u3002\u6b64\u65f6\u5e8f\u5217 $a$ \u53d8\u4e3a $[0,1,3]$\u3002\n\n\u7b2c $3$ \u6b21\u64cd\u4f5c\uff0c$a_1 \u003C a_2$\uff0c\u64cd\u4f5c\u540e $a_2 = 0$\u3002\u6b64\u65f6\u5e8f\u5217 $a$ \u53d8\u4e3a $[0,0,3]$\u3002\n\n\u7b2c $4$ \u6b21\u64cd\u4f5c\uff0c$a_2 \u003C a_3$\uff0c\u64cd\u4f5c\u540e $a_3 = 0$\u3002\u6b64\u65f6\u5e8f\u5217 $a$ \u53d8\u4e3a $[0,0,0]$\u3002\n\n\u56e0\u6b64\uff0c\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u4e3a $4$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Tokitsukaze and All Zero Sequence","background":"","description":"Tokitsukaze has a sequence $ a $ of length $ n $ . For each operation, she selects two numbers $ a_i $ and $ a_j $ ( $ i \\ne j $ ; $ 1 \\leq i,j \\leq n $ ).\n\n- If $ a_i = a_j $ , change one of them to $ 0 $ .\n- Otherwise change both of them to $ \\min(a_i, a_j) $ .\n\nTokitsukaze wants to know the minimum number of operations to change all numbers in the sequence to $ 0 $ . It can be proved that the answer always exists.","formatI":"The first line contains a single positive integer $ t $ ( $ 1 \\leq t \\leq 1000 $ ) \u2014 the number of test cases.\n\nFor each test case, the first line contains a single integer $ n $ ( $ 2 \\leq n \\leq 100 $ ) \u2014 the length of the sequence $ a $ .\n\nThe second line contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\leq a_i \\leq 100 $ ) \u2014 the sequence $ a $ .","formatO":"For each test case, print a single integer \u2014 the minimum number of operations to change all numbers in the sequence to $ 0 $ .","hint":"In the first test case, one of the possible ways to change all numbers in the sequence to $ 0 $ :\n\nIn the $ 1 $ -st operation, $ a_1 \u003C a_2 $ , after the operation, $ a_2 = a_1 = 1 $ . Now the sequence $ a $ is $ [1,1,3] $ .\n\nIn the $ 2 $ -nd operation, $ a_1 = a_2 = 1 $ , after the operation, $ a_1 = 0 $ . Now the sequence $ a $ is $ [0,1,3] $ .\n\nIn the $ 3 $ -rd operation, $ a_1 \u003C a_2 $ , after the operation, $ a_2 = 0 $ . Now the sequence $ a $ is $ [0,0,3] $ .\n\nIn the $ 4 $ -th operation, $ a_2 \u003C a_3 $ , after the operation, $ a_3 = 0 $ . Now the sequence $ a $ is $ [0,0,0] $ .\n\nSo the minimum number of operations is $ 4 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3\n1 2 3\n3\n1 2 2\n3\n1 2 0","4\n3\n2"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1678A","link":"https:\/\/codeforces.com\/problemset\/problem\/1678\/A"},"translation":"\u4e00\u5171 $t$ \u7ec4\u6570\u636e\uff0c\u6bcf\u6b21\u7ed9\u4f60 $n$ \u548c\u957f\u5ea6\u4e3a $n$ \u7684\u4e00\u4e32\u6570\u3002\n\n\u5bf9\u4e8e $a_i$ \u548c $a_j$\uff0c\u5982\u679c $a_i=a_j$\uff0c\u53ef\u5c06\u5176\u4e2d\u4e00\u4e2a\u53d8\u4e3a $0$\uff0c\u4e0d\u7136\u53ef\u5c06\u5176\u4e2d\u8f83\u5927\u7684\u4e00\u4e2a\u8d4b\u4e88\u8f83\u5c0f\u7684\u4e00\u4e2a\u7684\u503c\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u6c42\u5c06\u8fd9\u4e32\u6570\u5168\u90e8\u53d8\u4e3a $0$ \u6240\u7528\u7684\u6700\u5c11\u64cd\u4f5c\u6570\u3002"},"translations":{"en":{"name":"Tokitsukaze and All Zero Sequence","background":"","description":"Tokitsukaze has a sequence $ a $ of length $ n $ . For each operation, she selects two numbers $ a_i $ and $ a_j $ ( $ i \\ne j $ ; $ 1 \\leq i,j \\leq n $ ).\n\n- If $ a_i = a_j $ , change one of them to $ 0 $ .\n- Otherwise change both of them to $ \\min(a_i, a_j) $ .\n\nTokitsukaze wants to know the minimum number of operations to change all numbers in the sequence to $ 0 $ . It can be proved that the answer always exists.","formatI":"The first line contains a single positive integer $ t $ ( $ 1 \\leq t \\leq 1000 $ ) \u2014 the number of test cases.\n\nFor each test case, the first line contains a single integer $ n $ ( $ 2 \\leq n \\leq 100 $ ) \u2014 the length of the sequence $ a $ .\n\nThe second line contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\leq a_i \\leq 100 $ ) \u2014 the sequence $ a $ .","formatO":"For each test case, print a single integer \u2014 the minimum number of operations to change all numbers in the sequence to $ 0 $ .","hint":"In the first test case, one of the possible ways to change all numbers in the sequence to $ 0 $ :\n\nIn the $ 1 $ -st operation, $ a_1 \u003C a_2 $ , after the operation, $ a_2 = a_1 = 1 $ . Now the sequence $ a $ is $ [1,1,3] $ .\n\nIn the $ 2 $ -nd operation, $ a_1 = a_2 = 1 $ , after the operation, $ a_1 = 0 $ . Now the sequence $ a $ is $ [0,1,3] $ .\n\nIn the $ 3 $ -rd operation, $ a_1 \u003C a_2 $ , after the operation, $ a_2 = 0 $ . Now the sequence $ a $ is $ [0,0,3] $ .\n\nIn the $ 4 $ -th operation, $ a_2 \u003C a_3 $ , after the operation, $ a_3 = 0 $ . Now the sequence $ a $ is $ [0,0,0] $ .\n\nSo the minimum number of operations is $ 4 $ .","locale":"en"},"zh-CN":{"name":"Tokitsukaze and All Zero Sequence","background":null,"description":"\u65f6\u6d25\u98ce\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5e8f\u5217 $a$\u3002\u6bcf\u6b21\u64cd\u4f5c\uff0c\u5979\u4f1a\u9009\u62e9\u4e24\u4e2a\u6570 $a_i$ \u548c $a_j$\uff08$i \\ne j$\uff0c$1 \\leq i,j \\leq n$\uff09\u3002\n\n- \u5982\u679c $a_i = a_j$\uff0c\u5219\u5c06\u5176\u4e2d\u4e00\u4e2a\u6570\u53d8\u4e3a $0$\u3002\n- \u5426\u5219\uff0c\u5c06\u8fd9\u4e24\u4e2a\u6570\u90fd\u53d8\u4e3a $\\min(a_i, a_j)$\u3002\n\n\u65f6\u6d25\u98ce\u60f3\u77e5\u9053\uff0c\u5c06\u5e8f\u5217\u4e2d\u7684\u6240\u6709\u6570\u90fd\u53d8\u4e3a $0$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002\u53ef\u4ee5\u8bc1\u660e\u7b54\u6848\u4e00\u5b9a\u5b58\u5728\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $t$\uff08$1 \\leq t \\leq 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\leq n \\leq 100$\uff09\uff0c\u8868\u793a\u5e8f\u5217 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\leq a_i \\leq 100$\uff09\uff0c\u8868\u793a\u5e8f\u5217 $a$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06\u5e8f\u5217\u4e2d\u7684\u6240\u6709\u6570\u90fd\u53d8\u4e3a $0$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5c06\u6240\u6709\u6570\u53d8\u4e3a $0$ \u7684\u4e00\u79cd\u53ef\u80fd\u65b9\u5f0f\u5982\u4e0b\uff1a\n\n\u7b2c $1$ \u6b21\u64cd\u4f5c\uff0c$a_1 \u003C a_2$\uff0c\u64cd\u4f5c\u540e $a_2 = a_1 = 1$\u3002\u6b64\u65f6\u5e8f\u5217 $a$ \u53d8\u4e3a $[1,1,3]$\u3002\n\n\u7b2c $2$ \u6b21\u64cd\u4f5c\uff0c$a_1 = a_2 = 1$\uff0c\u64cd\u4f5c\u540e $a_1 = 0$\u3002\u6b64\u65f6\u5e8f\u5217 $a$ \u53d8\u4e3a $[0,1,3]$\u3002\n\n\u7b2c $3$ \u6b21\u64cd\u4f5c\uff0c$a_1 \u003C a_2$\uff0c\u64cd\u4f5c\u540e $a_2 = 0$\u3002\u6b64\u65f6\u5e8f\u5217 $a$ \u53d8\u4e3a $[0,0,3]$\u3002\n\n\u7b2c $4$ \u6b21\u64cd\u4f5c\uff0c$a_2 \u003C a_3$\uff0c\u64cd\u4f5c\u540e $a_3 = 0$\u3002\u6b64\u65f6\u5e8f\u5217 $a$ \u53d8\u4e3a $[0,0,0]$\u3002\n\n\u56e0\u6b64\uff0c\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u4e3a $4$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1678A Tokitsukaze and All Zero Sequence","type":2,"slug":"CF1678A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.41736,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1678A Tokitsukaze and All Zero Sequence","description":"\u65f6\u6d25\u98ce\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u5e8f\u5217 a\u3002\u6bcf\u6b21\u64cd\u4f5c\uff0c\u5979\u4f1a\u9009\u62e9\u4e24\u4e2a\u6570 a_i \u548c a_j\uff08i \\ne j\uff0c1 \\leq i,j \\leq n\uff09\u3002\n\n\u5982\u679c a_i = a_j\uff0c\u5219\u5c06\u5176\u4e2d\u4e00\u4e2a\u6570\u53d8\u4e3a 0\u3002\n\u5426\u5219\uff0c\u5c06\u8fd9\u4e24\u4e2a\u6570\u90fd\u53d8\u4e3a \\min(a_i, a_j)\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1678A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1678A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1678A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1678A Tokitsukaze and All Zero Sequence" />
+    <meta property="og:description" content="时津风有一个长度为 n 的序列 a。每次操作，她会选择两个数 a_i 和 a_j（i \ne j，1 \leq i,j \leq n）。
+
+如果 a_i = a_j，则将其中一个数变为 0。
+否则，将这两个数都变为 \min(a_i, a_j)。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1678A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1678A Tokitsukaze and All Zero Sequence</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    时津风有一个长度为 $n$ 的序列 $a$。每次操作，她会选择两个数 $a_i$ 和 $a_j$（$i \ne j$，$1 \leq i,j \leq n$）。
+
+- 如果 $a_i = a_j$，则将其中一个数变为 $0$。
+- 否则，将这两个数都变为 $\min(a_i, a_j)$。
+
+时津风想知道，将序列中的所有数都变为 $0$ 所需的最少操作次数。可以证明答案一定存在。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个正整数 $t$（$1 \leq t \leq 1000$），表示测试用例的数量。
+
+对于每个测试用例，第一行包含一个整数 $n$（$2 \leq n \leq 100$），表示序列 $a$ 的长度。
+
+第二行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$0 \leq a_i \leq 100$），表示序列 $a$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示将序列中的所有数都变为 $0$ 所需的最少操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，将所有数变为 $0$ 的一种可能方式如下：
+
+第 $1$ 次操作，$a_1 < a_2$，操作后 $a_2 = a_1 = 1$。此时序列 $a$ 变为 $[1,1,3]$。
+
+第 $2$ 次操作，$a_1 = a_2 = 1$，操作后 $a_1 = 0$。此时序列 $a$ 变为 $[0,1,3]$。
+
+第 $3$ 次操作，$a_1 < a_2$，操作后 $a_2 = 0$。此时序列 $a$ 变为 $[0,0,3]$。
+
+第 $4$ 次操作，$a_2 < a_3$，操作后 $a_3 = 0$。此时序列 $a$ 变为 $[0,0,0]$。
+
+因此，最少操作次数为 $4$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

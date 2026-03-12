@@ -1,0 +1,27 @@
+{
+  "id": "CF-1646A",
+  "contest_id": 1646,
+  "index": "A",
+  "name": "Square Counting",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 25258,
+  "problem_url": "https://codeforces.com/problemset/problem/1646/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1646/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1646/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1646A%20Square%20Counting%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1646/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1646A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

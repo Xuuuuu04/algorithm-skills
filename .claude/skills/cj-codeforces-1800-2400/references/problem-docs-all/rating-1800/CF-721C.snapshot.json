@@ -1,0 +1,32 @@
+{
+  "id": "CF-721C",
+  "contest_id": 721,
+  "index": "C",
+  "name": "Journey",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dp",
+    "graphs"
+  ],
+  "solved_count": 6471,
+  "problem_url": "https://codeforces.com/problemset/problem/721/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/721/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/721/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=721C%20Journey%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P721C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Journey - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "graphs",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

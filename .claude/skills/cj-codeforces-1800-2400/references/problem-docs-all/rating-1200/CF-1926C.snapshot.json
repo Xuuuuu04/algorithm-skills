@@ -1,0 +1,31 @@
+{
+  "id": "CF-1926C",
+  "contest_id": 1926,
+  "index": "C",
+  "name": "Vlad and a Sum of Sum of Digits",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 32224,
+  "problem_url": "https://codeforces.com/problemset/problem/1926/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1926/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1926/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1926C%20Vlad%20and%20a%20Sum%20of%20Sum%20of%20Digits%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1926C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vlad and a Sum of Sum of Digits - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

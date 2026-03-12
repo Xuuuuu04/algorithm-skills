@@ -1,0 +1,32 @@
+{
+  "id": "CF-1632D",
+  "contest_id": 1632,
+  "index": "D",
+  "name": "New Year Concert",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy",
+    "math",
+    "number theory",
+    "two pointers"
+  ],
+  "solved_count": 5245,
+  "problem_url": "https://codeforces.com/problemset/problem/1632/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1632/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1632/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1632D%20New%20Year%20Concert%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1632/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1632D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

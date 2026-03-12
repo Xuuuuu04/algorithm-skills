@@ -1,0 +1,40 @@
+{
+  "id": "CF-2148G",
+  "contest_id": 2148,
+  "index": "G",
+  "name": "Farmer John's Last Wish",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "data structures",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2148/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2148/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2148/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2148G%20Farmer John's Last Wish%20tutorial",
+  "solved_count": 4034,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2148G",
+  "hydro_meta": {
+    "page_title": "Farmer John's Last Wish - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

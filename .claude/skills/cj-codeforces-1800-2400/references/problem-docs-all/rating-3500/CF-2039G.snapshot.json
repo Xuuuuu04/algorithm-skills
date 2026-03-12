@@ -1,0 +1,32 @@
+{
+  "id": "CF-2039G",
+  "contest_id": 2039,
+  "index": "G",
+  "name": "Shohag Loves Pebae",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4250.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 81,
+  "problem_url": "https://codeforces.com/problemset/problem/2039/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2039/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2039/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2039G%20Shohag%20Loves%20Pebae%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2039G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Shohag Loves Pebae - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "768MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1166C",
+  "contest_id": 1166,
+  "index": "C",
+  "name": "A Tale of Two Lands",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 10956,
+  "problem_url": "https://codeforces.com/problemset/problem/1166/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1166/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1166/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1166C%20A%20Tale%20of%20Two%20Lands%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1166/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1166C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

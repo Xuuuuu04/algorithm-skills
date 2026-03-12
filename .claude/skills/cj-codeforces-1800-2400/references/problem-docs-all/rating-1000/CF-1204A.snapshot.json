@@ -1,0 +1,30 @@
+{
+  "id": "CF-1204A",
+  "contest_id": 1204,
+  "index": "A",
+  "name": "BowWow and the Timetable",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 22224,
+  "problem_url": "https://codeforces.com/problemset/problem/1204/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1204/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1204/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1204A%20BowWow%20and%20the%20Timetable%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1204A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "BowWow and the Timetable - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

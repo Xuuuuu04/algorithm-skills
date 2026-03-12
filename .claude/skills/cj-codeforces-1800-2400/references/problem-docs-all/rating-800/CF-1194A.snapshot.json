@@ -1,0 +1,27 @@
+{
+  "id": "CF-1194A",
+  "contest_id": 1194,
+  "index": "A",
+  "name": "Remove a Progression",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 17286,
+  "problem_url": "https://codeforces.com/problemset/problem/1194/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1194/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1194/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1194A%20Remove%20a%20Progression%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1194A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1194A Remove a Progression - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 303,
+    "mirror_attempt": 435,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

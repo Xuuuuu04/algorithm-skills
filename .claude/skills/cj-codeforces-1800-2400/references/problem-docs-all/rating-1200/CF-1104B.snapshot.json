@@ -1,0 +1,34 @@
+{
+  "id": "CF-1104B",
+  "contest_id": 1104,
+  "index": "B",
+  "name": "Game with string",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "data structures",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 16630,
+  "problem_url": "https://codeforces.com/problemset/problem/1104/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1104/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1104/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1104B%20Game%20with%20string%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1104B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Game with string - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

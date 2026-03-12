@@ -1,0 +1,41 @@
+{
+  "id": "CF-1697C",
+  "contest_id": 1697,
+  "index": "C",
+  "name": "awoo's Favorite Problem",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "implementation",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 15701,
+  "problem_url": "https://codeforces.com/problemset/problem/1697/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1697/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1697/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1697C%20awoo%27s%20Favorite%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1697C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "awoo's Favorite Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "strings",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

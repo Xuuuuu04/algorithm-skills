@@ -1,0 +1,37 @@
+{
+  "id": "CF-778B",
+  "contest_id": 778,
+  "index": "B",
+  "name": "Bitwise Formula",
+  "rating": 1800,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dfs and similar",
+    "expression parsing",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/778/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/778/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/778/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=778B%20Bitwise Formula%20tutorial",
+  "solved_count": 2511,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P778B",
+  "hydro_meta": {
+    "page_title": "Bitwise Formula - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "brute force",
+      "dfs and similar",
+      "expression parsing",
+      "implementation",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

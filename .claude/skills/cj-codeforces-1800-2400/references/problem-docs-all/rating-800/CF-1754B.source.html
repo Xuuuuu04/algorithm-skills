@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1754B Kevin and Permutation - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1754B","type":"CF","title":"Kevin and Permutation","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":567,"totalAccepted":352,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Kevin and Permutation","background":null,"description":"\u5728\u751f\u65e5\u65f6\uff0cKevin \u6536\u5230\u4e86\u4e00\u4efd\u793c\u7269\uff1a\u7531 $1, 2, 3, \\ldots, n$ \u7ec4\u6210\u7684\u4e24\u4e24\u4e0d\u540c\u7684\u6570\u5b57\u96c6\u5408\u3002\n\n\u4ed6\u6253\u7b97\u5c06\u8fd9\u4e9b\u6570\u5b57\u6392\u5217\uff0c\u4f7f\u5f97\u76f8\u90bb\u4e24\u4e2a\u6570\u5b57\u7684\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c\u5c3d\u53ef\u80fd\u5927\u3002\u66f4\u6b63\u5f0f\u5730\u8bf4\uff0c\u5982\u679c\u4ed6\u5c06\u6570\u5b57\u6309\u987a\u5e8f\u6392\u5217\u4e3a $p_1, p_2, \\ldots, p_n$\uff0c\u4ed6\u5e0c\u671b\u6700\u5927\u5316 $\\min \\limits_{i=1}^{n - 1} \\lvert p_{i + 1} - p_i \\rvert$ \u7684\u503c\uff0c\u5176\u4e2d $|x|$ \u8868\u793a $x$ \u7684\u7edd\u5bf9\u503c\u3002\n\n\u8bf7\u4f60\u5e2e\u52a9 Kevin \u5b9e\u73b0\u8fd9\u4e2a\u76ee\u6807\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\leq 1000$\uff09\uff0c\u8868\u793a\u96c6\u5408\u7684\u5927\u5c0f\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\uff0c\u5305\u542b $n$ \u4e2a\u4e0d\u540c\u7684\u6574\u6570 $p_1, p_2, \\ldots, p_n$\uff08$1 \\le p_i \\le n$\uff09\uff0c\u8868\u793a\u6700\u5927\u5316\u76f8\u90bb\u5143\u7d20\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c\u7684\u6392\u5217\u3002\n\n\u66f4\u6b63\u5f0f\u5730\u8bf4\uff0c\u4f60\u9700\u8981\u8f93\u51fa\u4e00\u4e2a\u6392\u5217 $p$\uff0c\u4f7f\u5f97 $\\min \\limits_{i=1}^{n - 1} \\lvert p_{i + 1} - p_i \\rvert$ \u7684\u503c\u6700\u5927\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u6700\u4f18\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u76f8\u90bb\u5143\u7d20\u7684\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c\u4e3a $\\min \\{\\lvert 4 - 2 \\rvert, \\lvert 1 - 4 \\rvert, \\lvert 3 - 1 \\rvert \\} = \\min \\{2, 3, 2\\} = 2$\u3002\u5f88\u5bb9\u6613\u8bc1\u660e\u8fd9\u4e2a\u7b54\u6848\u662f\u6700\u4f18\u7684\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u5b57 $1, 2, 3$ \u7684\u4efb\u610f\u6392\u5217\u90fd\u662f\u6700\u4f18\u89e3\u3002\u76f8\u90bb\u5143\u7d20\u7684\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c\u4e3a $1$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Kevin and Permutation","background":"","description":"For his birthday, Kevin received the set of pairwise distinct numbers $ 1, 2, 3, \\ldots, n $ as a gift.\n\nHe is going to arrange these numbers in a way such that the minimum absolute difference between two consecutive numbers be maximum possible. More formally, if he arranges numbers in order $ p_1, p_2, \\ldots, p_n $ , he wants to maximize the value $\\min \\limits_{i=1}^{n - 1} \\lvert p_{i + 1} - p_i \\rvert, $   where  $ |x| $  denotes the absolute value of  $ x$.\n\nHelp Kevin to do that.","formatI":"Each test consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 100 $ ) \u2014 the number of test cases. Description of the test cases follows.\n\nThe only line of each test case contains an integer $ n $ ( $ 2 \\le n \\leq 1\\,000 $ ) \u2014 the size of the set.","formatO":"For each test case print a single line containing $ n $ distinct integers $ p_1, p_2, \\ldots, p_n $ ( $ 1 \\le p_i \\le n $ ) describing the arrangement that maximizes the minimum absolute difference of consecutive elements.\n\nFormally, you have to print a permutation $ p $ which maximizes the value $ \\min \\limits_{i=1}^{n - 1} \\lvert p_{i + 1} - p_i \\rvert $ .\n\nIf there are multiple optimal solutions, print any of them.","hint":"In the first test case the minimum absolute difference of consecutive elements equals $ \\min \\{\\lvert 4 - 2 \\rvert, \\lvert 1 - 4 \\rvert, \\lvert 3 - 1 \\rvert \\} = \\min \\{2, 3, 2\\} = 2 $ . It\u0027s easy to prove that this answer is optimal.\n\nIn the second test case each permutation of numbers $ 1, 2, 3 $ is an optimal answer. The minimum absolute difference of consecutive elements equals to $ 1 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n4\n3","2 4 1 3\n1 2 3"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1754B","link":"https:\/\/codeforces.com\/problemset\/problem\/1754\/B"},"translation":"\u6c42\u4e00\u4e2a $1\\sim n$ \u7684\u6392\u5217 $p$\uff0c\u4f7f\u5f97\n\n$$\\min\\limits_{i=1}^{n-1}\\lvert p_{i+1}-p_i\\rvert$$\n\n\u6700\u5927\u3002"},"translations":{"en":{"name":"Kevin and Permutation","background":"","description":"For his birthday, Kevin received the set of pairwise distinct numbers $ 1, 2, 3, \\ldots, n $ as a gift.\n\nHe is going to arrange these numbers in a way such that the minimum absolute difference between two consecutive numbers be maximum possible. More formally, if he arranges numbers in order $ p_1, p_2, \\ldots, p_n $ , he wants to maximize the value $\\min \\limits_{i=1}^{n - 1} \\lvert p_{i + 1} - p_i \\rvert, $   where  $ |x| $  denotes the absolute value of  $ x$.\n\nHelp Kevin to do that.","formatI":"Each test consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 100 $ ) \u2014 the number of test cases. Description of the test cases follows.\n\nThe only line of each test case contains an integer $ n $ ( $ 2 \\le n \\leq 1\\,000 $ ) \u2014 the size of the set.","formatO":"For each test case print a single line containing $ n $ distinct integers $ p_1, p_2, \\ldots, p_n $ ( $ 1 \\le p_i \\le n $ ) describing the arrangement that maximizes the minimum absolute difference of consecutive elements.\n\nFormally, you have to print a permutation $ p $ which maximizes the value $ \\min \\limits_{i=1}^{n - 1} \\lvert p_{i + 1} - p_i \\rvert $ .\n\nIf there are multiple optimal solutions, print any of them.","hint":"In the first test case the minimum absolute difference of consecutive elements equals $ \\min \\{\\lvert 4 - 2 \\rvert, \\lvert 1 - 4 \\rvert, \\lvert 3 - 1 \\rvert \\} = \\min \\{2, 3, 2\\} = 2 $ . It\u0027s easy to prove that this answer is optimal.\n\nIn the second test case each permutation of numbers $ 1, 2, 3 $ is an optimal answer. The minimum absolute difference of consecutive elements equals to $ 1 $ .","locale":"en"},"zh-CN":{"name":"Kevin and Permutation","background":null,"description":"\u5728\u751f\u65e5\u65f6\uff0cKevin \u6536\u5230\u4e86\u4e00\u4efd\u793c\u7269\uff1a\u7531 $1, 2, 3, \\ldots, n$ \u7ec4\u6210\u7684\u4e24\u4e24\u4e0d\u540c\u7684\u6570\u5b57\u96c6\u5408\u3002\n\n\u4ed6\u6253\u7b97\u5c06\u8fd9\u4e9b\u6570\u5b57\u6392\u5217\uff0c\u4f7f\u5f97\u76f8\u90bb\u4e24\u4e2a\u6570\u5b57\u7684\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c\u5c3d\u53ef\u80fd\u5927\u3002\u66f4\u6b63\u5f0f\u5730\u8bf4\uff0c\u5982\u679c\u4ed6\u5c06\u6570\u5b57\u6309\u987a\u5e8f\u6392\u5217\u4e3a $p_1, p_2, \\ldots, p_n$\uff0c\u4ed6\u5e0c\u671b\u6700\u5927\u5316 $\\min \\limits_{i=1}^{n - 1} \\lvert p_{i + 1} - p_i \\rvert$ \u7684\u503c\uff0c\u5176\u4e2d $|x|$ \u8868\u793a $x$ \u7684\u7edd\u5bf9\u503c\u3002\n\n\u8bf7\u4f60\u5e2e\u52a9 Kevin \u5b9e\u73b0\u8fd9\u4e2a\u76ee\u6807\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\leq 1000$\uff09\uff0c\u8868\u793a\u96c6\u5408\u7684\u5927\u5c0f\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\uff0c\u5305\u542b $n$ \u4e2a\u4e0d\u540c\u7684\u6574\u6570 $p_1, p_2, \\ldots, p_n$\uff08$1 \\le p_i \\le n$\uff09\uff0c\u8868\u793a\u6700\u5927\u5316\u76f8\u90bb\u5143\u7d20\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c\u7684\u6392\u5217\u3002\n\n\u66f4\u6b63\u5f0f\u5730\u8bf4\uff0c\u4f60\u9700\u8981\u8f93\u51fa\u4e00\u4e2a\u6392\u5217 $p$\uff0c\u4f7f\u5f97 $\\min \\limits_{i=1}^{n - 1} \\lvert p_{i + 1} - p_i \\rvert$ \u7684\u503c\u6700\u5927\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u6700\u4f18\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u76f8\u90bb\u5143\u7d20\u7684\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c\u4e3a $\\min \\{\\lvert 4 - 2 \\rvert, \\lvert 1 - 4 \\rvert, \\lvert 3 - 1 \\rvert \\} = \\min \\{2, 3, 2\\} = 2$\u3002\u5f88\u5bb9\u6613\u8bc1\u660e\u8fd9\u4e2a\u7b54\u6848\u662f\u6700\u4f18\u7684\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6570\u5b57 $1, 2, 3$ \u7684\u4efb\u610f\u6392\u5217\u90fd\u662f\u6700\u4f18\u89e3\u3002\u76f8\u90bb\u5143\u7d20\u7684\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c\u4e3a $1$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1754B Kevin and Permutation","type":2,"slug":"CF1754B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.177022,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1754B Kevin and Permutation","description":"\u5728\u751f\u65e5\u65f6\uff0cKevin \u6536\u5230\u4e86\u4e00\u4efd\u793c\u7269\uff1a\u7531 1, 2, 3, \\ldots, n \u7ec4\u6210\u7684\u4e24\u4e24\u4e0d\u540c\u7684\u6570\u5b57\u96c6\u5408\u3002\n\u4ed6\u6253\u7b97\u5c06\u8fd9\u4e9b\u6570\u5b57\u6392\u5217\uff0c\u4f7f\u5f97\u76f8\u90bb\u4e24\u4e2a\u6570\u5b57\u7684\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c\u5c3d\u53ef\u80fd\u5927\u3002\u66f4\u6b63\u5f0f\u5730\u8bf4\uff0c\u5982\u679c\u4ed6\u5c06\u6570\u5b57\u6309\u987a\u5e8f\u6392\u5217\u4e3a p_1, p_2, \\ldots,\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1754B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1754B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1754B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1754B Kevin and Permutation" />
+    <meta property="og:description" content="在生日时，Kevin 收到了一份礼物：由 1, 2, 3, \ldots, n 组成的两两不同的数字集合。
+他打算将这些数字排列，使得相邻两个数字的最小绝对差值尽可能大。更正式地说，如果他将数字按顺序排列为 p_1, p_2, \ldots,…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1754B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1754B Kevin and Permutation</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    在生日时，Kevin 收到了一份礼物：由 $1, 2, 3, \ldots, n$ 组成的两两不同的数字集合。
+
+他打算将这些数字排列，使得相邻两个数字的最小绝对差值尽可能大。更正式地说，如果他将数字按顺序排列为 $p_1, p_2, \ldots, p_n$，他希望最大化 $\min \limits_{i=1}^{n - 1} \lvert p_{i + 1} - p_i \rvert$ 的值，其中 $|x|$ 表示 $x$ 的绝对值。
+
+请你帮助 Kevin 实现这个目标。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试点包含多组测试用例。第一行包含一个整数 $t$（$1 \le t \le 100$），表示测试用例的数量。接下来每个测试用例包含一行，一个整数 $n$（$2 \le n \leq 1000$），表示集合的大小。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一行，包含 $n$ 个不同的整数 $p_1, p_2, \ldots, p_n$（$1 \le p_i \le n$），表示最大化相邻元素最小绝对差值的排列。
+
+更正式地说，你需要输出一个排列 $p$，使得 $\min \limits_{i=1}^{n - 1} \lvert p_{i + 1} - p_i \rvert$ 的值最大。
+
+如果有多种最优解，输出任意一种即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，相邻元素的最小绝对差值为 $\min \{\lvert 4 - 2 \rvert, \lvert 1 - 4 \rvert, \lvert 3 - 1 \rvert \} = \min \{2, 3, 2\} = 2$。很容易证明这个答案是最优的。
+
+在第二个测试用例中，数字 $1, 2, 3$ 的任意排列都是最优解。相邻元素的最小绝对差值为 $1$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

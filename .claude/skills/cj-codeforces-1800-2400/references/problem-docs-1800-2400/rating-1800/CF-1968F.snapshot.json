@@ -1,0 +1,33 @@
+{
+  "id": "CF-1968F",
+  "contest_id": 1968,
+  "index": "F",
+  "name": "Equal XOR Segments",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "data structures"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1968/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1968/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1968/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1968F%20Equal XOR Segments%20tutorial",
+  "solved_count": 6797,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1968F",
+  "hydro_meta": {
+    "page_title": "Equal XOR Segments - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

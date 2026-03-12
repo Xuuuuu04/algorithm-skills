@@ -1,0 +1,27 @@
+{
+  "id": "CF-965B",
+  "contest_id": 965,
+  "index": "B",
+  "name": "Battleship",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 4755,
+  "problem_url": "https://codeforces.com/problemset/problem/965/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/965/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/965/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=965B%20Battleship%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/965/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 965B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

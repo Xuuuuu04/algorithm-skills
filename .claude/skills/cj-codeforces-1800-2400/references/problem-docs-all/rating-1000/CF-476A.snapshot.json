@@ -1,0 +1,32 @@
+{
+  "id": "CF-476A",
+  "contest_id": 476,
+  "index": "A",
+  "name": "Dreamoon and Stairs",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 50995,
+  "problem_url": "https://codeforces.com/problemset/problem/476/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/476/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/476/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=476A%20Dreamoon%20and%20Stairs%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P476A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Dreamoon and Stairs - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-839E",
+  "contest_id": 839,
+  "index": "E",
+  "name": "Mother of Dragons",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "brute force",
+    "graphs",
+    "math",
+    "meet-in-the-middle"
+  ],
+  "solved_count": 1002,
+  "problem_url": "https://codeforces.com/problemset/problem/839/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/839/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/839/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=839E%20Mother%20of%20Dragons%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P839E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mother of Dragons - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "graphs",
+      "math",
+      "meet-in-the-middle",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

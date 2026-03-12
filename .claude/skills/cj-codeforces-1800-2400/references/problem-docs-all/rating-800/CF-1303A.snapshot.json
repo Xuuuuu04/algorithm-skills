@@ -1,0 +1,28 @@
+{
+  "id": "CF-1303A",
+  "contest_id": 1303,
+  "index": "A",
+  "name": "Erasing Zeroes",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 36408,
+  "problem_url": "https://codeforces.com/problemset/problem/1303/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1303/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1303/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1303A%20Erasing%20Zeroes%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1303A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1303A Erasing Zeroes - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 324,
+    "mirror_attempt": 610,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

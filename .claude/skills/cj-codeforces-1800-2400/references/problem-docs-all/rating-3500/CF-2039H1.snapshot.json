@@ -1,0 +1,34 @@
+{
+  "id": "CF-2039H1",
+  "contest_id": 2039,
+  "index": "H1",
+  "name": "Cool Swap Walk (Easy Version)",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 101,
+  "problem_url": "https://codeforces.com/problemset/problem/2039/H1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2039/problem/H1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2039/problem/H1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2039H1%20Cool%20Swap%20Walk%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2039H1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cool Swap Walk (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "sortings",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1335E2",
+  "contest_id": 1335,
+  "index": "E2",
+  "name": "Three Blocks Palindrome (hard version)",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "two pointers"
+  ],
+  "solved_count": 9272,
+  "problem_url": "https://codeforces.com/problemset/problem/1335/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1335/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1335/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1335E2%20Three%20Blocks%20Palindrome%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1335E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Three Blocks Palindrome (hard version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "two pointers",
+      "*1800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

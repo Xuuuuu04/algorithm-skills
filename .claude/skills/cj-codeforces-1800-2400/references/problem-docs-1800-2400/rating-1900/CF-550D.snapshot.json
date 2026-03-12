@@ -1,0 +1,36 @@
+{
+  "id": "CF-550D",
+  "contest_id": 550,
+  "index": "D",
+  "name": "Regular Bridge",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/550/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/550/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/550/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=550D%20Regular Bridge%20tutorial",
+  "solved_count": 3761,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P550D",
+  "hydro_meta": {
+    "page_title": "Regular Bridge - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-515D",
+  "contest_id": 515,
+  "index": "D",
+  "name": "Drazil and Tiles",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 2982,
+  "problem_url": "https://codeforces.com/problemset/problem/515/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/515/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/515/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=515D%20Drazil%20and%20Tiles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P515D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Drazil and Tiles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

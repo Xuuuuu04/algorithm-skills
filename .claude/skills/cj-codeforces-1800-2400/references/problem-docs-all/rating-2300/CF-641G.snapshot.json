@@ -1,0 +1,25 @@
+{
+  "id": "CF-641G",
+  "contest_id": 641,
+  "index": "G",
+  "name": "Little Artem and Graph",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [],
+  "solved_count": 104,
+  "problem_url": "https://codeforces.com/problemset/problem/641/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/641/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/641/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=641G%20Little%20Artem%20and%20Graph%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/641/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 641G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "12 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

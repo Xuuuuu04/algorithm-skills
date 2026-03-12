@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1379C Choosing flowers - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1379C","type":"CF","title":"Choosing flowers","difficulty":4,"tags":[7,113],"wantsTranslation":false,"totalSubmit":1335,"totalAccepted":510,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Choosing flowers","background":null,"description":"\u6709 $m$ \u79cd\u7269\u54c1\uff0c\u6bcf\u79cd\u7269\u54c1\u6709\u65e0\u9650\u4e2a\uff0c\u4f60\u53ef\u4ee5\u8d2d\u4e70 $n$ \u4e2a\u7269\u54c1\u3002\n\n\u5bf9\u4e8e\u7b2c $i$ \u79cd\u7269\u54c1\uff1a\n\n\u7b2c\u4e00\u6b21\u4e70\u65f6\u7684\u8d21\u732e\u662f $a_i$ ,\u63a5\u4e0b\u6765\u6bcf\u8d2d\u4e70\u4e00\u4e2a\u7684\u8d21\u732e\u90fd\u662f $b_i$\u3002\u5373\u5f53\u4f60\u4e70\u4e86 $x_i$ \u4e2a\u7b2c $i$ \u79cd\u7269\u54c1\u65f6\uff0c\u8d21\u732e\u662f $a_i+b_i \\times (x_i-1)$\n\n\u73b0\u5728\u8981\u4f60\u6c42\u51fa\u6700\u5927\u8d21\u732e\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a $t (1\u2264t\u226410^4)$\uff0c\u8868\u793a\u6709 $t$ \u7ec4\u6570\u636e\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff1a\n\n\u7b2c\u4e00\u884c$n$ \u548c $m (1\u2264n\u226410^9,1\u2264m\u226410^5)$\n\n\n\u63a5\u4e0b\u6765 $m$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570$a_i$\u548c$b_i(0\u2264a_i,b_i\u226410^9)$\n\n\u6bcf\u7ec4\u6570\u636e\u540e\u6709\u4e00\u4e2a\u7a7a\u884c\u3002\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $m$ \u503c\u603b\u548c\u4e0d\u8d85\u8fc7 $10^5$ \u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u6700\u5927\u7684\u8d21\u732e\u3002","hint":null,"locale":"zh-CN"},"content":{"name":"Choosing flowers","background":"","description":"Vladimir would like to prepare a present for his wife: they have an anniversary! He decided to buy her exactly $ n $ flowers.\n\nVladimir went to a flower shop, and he was amazed to see that there are $ m $ types of flowers being sold there, and there is unlimited supply of flowers of each type. Vladimir wants to choose flowers to maximize the happiness of his wife. He knows that after receiving the first flower of the $ i $ -th type happiness of his wife increases by $ a_i $ and after receiving each consecutive flower of this type her happiness increases by $ b_i $ . That is, if among the chosen flowers there are $ x_i \u003E 0 $ flowers of type $ i $ , his wife gets $ a_i + (x_i - 1) \\cdot b_i $ additional happiness (and if there are no flowers of type $ i $ , she gets nothing for this particular type).\n\nPlease help Vladimir to choose exactly $ n $ flowers to maximize the total happiness of his wife.","formatI":"The first line contains the only integer $ t $ ( $ 1 \\leq t       \\leq 10\\,000 $ ), the number of test cases. It is followed by $ t $ descriptions of the test cases.\n\nEach test case description starts with two integers $ n $ and $ m $ ( $ 1 \\le n \\le 10^9 $ , $ 1 \\le m \\le 100\\,000 $ ), the number of flowers Vladimir needs to choose and the number of types of available flowers.\n\nThe following $ m $ lines describe the types of flowers: each line contains integers $ a_i $ and $ b_i $ ( $ 0 \\le a_i, b_i       \\le 10^9 $ ) for $ i $ -th available type of flowers.\n\nThe test cases are separated by a blank line. It is guaranteed that the sum of values $ m $ among all test cases does not exceed $ 100\\,000 $ .","formatO":"For each test case output a single integer: the maximum total happiness of Vladimir\u0027s wife after choosing exactly $ n $ flowers optimally.","hint":"In the first example case Vladimir can pick 1 flower of the first type and 3 flowers of the second type, in this case the total happiness equals $ 5 + (1 + 2 \\cdot 4) = 14 $ .\n\nIn the second example Vladimir can pick 2 flowers of the first type, 2 flowers of the second type, and 1 flower of the third type, in this case the total happiness equals $ (5 + 1 \\cdot 2) +       (4 + 1 \\cdot 2) + 3 = 16 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n4 3\n5 0\n1 4\n2 2\n\n5 3\n5 2\n4 2\n3 1","14\n16"]],"limits":{"time":[1000],"memory":[512000]},"vjudge":{"id":"1379C","link":"https:\/\/codeforces.com\/problemset\/problem\/1379\/C"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\n\u6709 $m$ \u79cd\u7269\u54c1\uff0c\u6bcf\u79cd\u7269\u54c1\u6709\u65e0\u9650\u4e2a\uff0c\u4f60\u53ef\u4ee5\u8d2d\u4e70 $n$ \u4e2a\u7269\u54c1\u3002\n\n\u5bf9\u4e8e\u7b2c $i$ \u79cd\u7269\u54c1\uff1a\n\n\u7b2c\u4e00\u6b21\u4e70\u65f6\u7684\u8d21\u732e\u662f $a_i$ ,\u63a5\u4e0b\u6765\u6bcf\u8d2d\u4e70\u4e00\u4e2a\u7684\u8d21\u732e\u90fd\u662f $b_i$\u3002\u5373\u5f53\u4f60\u4e70\u4e86 $x_i$ \u4e2a\u7b2c $i$ \u79cd\u7269\u54c1\u65f6\uff0c\u8d21\u732e\u662f $a_i+b_i \\times (x_i-1)$\n\n\u73b0\u5728\u8981\u4f60\u6c42\u51fa\u6700\u5927\u8d21\u732e\u3002\n\n## \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a $t (1\u2264t\u226410^4)$\uff0c\u8868\u793a\u6709 $t$ \u7ec4\u6570\u636e\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff1a\n\n\u7b2c\u4e00\u884c$n$ \u548c $m (1\u2264n\u226410^9,1\u2264m\u226410^5)$\n\n\u63a5\u4e0b\u6765 $m$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570$a_i$\u548c$b_i(0\u2264a_i,b_i\u226410^9)$\n\n\u6bcf\u7ec4\u6570\u636e\u540e\u6709\u4e00\u4e2a\u7a7a\u884c\u3002\n\n## \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u6700\u5927\u7684\u8d21\u732e\u3002"},"translations":{"en":{"name":"Choosing flowers","background":"","description":"Vladimir would like to prepare a present for his wife: they have an anniversary! He decided to buy her exactly $ n $ flowers.\n\nVladimir went to a flower shop, and he was amazed to see that there are $ m $ types of flowers being sold there, and there is unlimited supply of flowers of each type. Vladimir wants to choose flowers to maximize the happiness of his wife. He knows that after receiving the first flower of the $ i $ -th type happiness of his wife increases by $ a_i $ and after receiving each consecutive flower of this type her happiness increases by $ b_i $ . That is, if among the chosen flowers there are $ x_i \u003E 0 $ flowers of type $ i $ , his wife gets $ a_i + (x_i - 1) \\cdot b_i $ additional happiness (and if there are no flowers of type $ i $ , she gets nothing for this particular type).\n\nPlease help Vladimir to choose exactly $ n $ flowers to maximize the total happiness of his wife.","formatI":"The first line contains the only integer $ t $ ( $ 1 \\leq t       \\leq 10\\,000 $ ), the number of test cases. It is followed by $ t $ descriptions of the test cases.\n\nEach test case description starts with two integers $ n $ and $ m $ ( $ 1 \\le n \\le 10^9 $ , $ 1 \\le m \\le 100\\,000 $ ), the number of flowers Vladimir needs to choose and the number of types of available flowers.\n\nThe following $ m $ lines describe the types of flowers: each line contains integers $ a_i $ and $ b_i $ ( $ 0 \\le a_i, b_i       \\le 10^9 $ ) for $ i $ -th available type of flowers.\n\nThe test cases are separated by a blank line. It is guaranteed that the sum of values $ m $ among all test cases does not exceed $ 100\\,000 $ .","formatO":"For each test case output a single integer: the maximum total happiness of Vladimir\u0027s wife after choosing exactly $ n $ flowers optimally.","hint":"In the first example case Vladimir can pick 1 flower of the first type and 3 flowers of the second type, in this case the total happiness equals $ 5 + (1 + 2 \\cdot 4) = 14 $ .\n\nIn the second example Vladimir can pick 2 flowers of the first type, 2 flowers of the second type, and 1 flower of the third type, in this case the total happiness equals $ (5 + 1 \\cdot 2) +       (4 + 1 \\cdot 2) + 3 = 16 $ .","locale":"en"},"zh-CN":{"name":"Choosing flowers","background":null,"description":"\u6709 $m$ \u79cd\u7269\u54c1\uff0c\u6bcf\u79cd\u7269\u54c1\u6709\u65e0\u9650\u4e2a\uff0c\u4f60\u53ef\u4ee5\u8d2d\u4e70 $n$ \u4e2a\u7269\u54c1\u3002\n\n\u5bf9\u4e8e\u7b2c $i$ \u79cd\u7269\u54c1\uff1a\n\n\u7b2c\u4e00\u6b21\u4e70\u65f6\u7684\u8d21\u732e\u662f $a_i$ ,\u63a5\u4e0b\u6765\u6bcf\u8d2d\u4e70\u4e00\u4e2a\u7684\u8d21\u732e\u90fd\u662f $b_i$\u3002\u5373\u5f53\u4f60\u4e70\u4e86 $x_i$ \u4e2a\u7b2c $i$ \u79cd\u7269\u54c1\u65f6\uff0c\u8d21\u732e\u662f $a_i+b_i \\times (x_i-1)$\n\n\u73b0\u5728\u8981\u4f60\u6c42\u51fa\u6700\u5927\u8d21\u732e\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a $t (1\u2264t\u226410^4)$\uff0c\u8868\u793a\u6709 $t$ \u7ec4\u6570\u636e\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff1a\n\n\u7b2c\u4e00\u884c$n$ \u548c $m (1\u2264n\u226410^9,1\u2264m\u226410^5)$\n\n\n\u63a5\u4e0b\u6765 $m$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570$a_i$\u548c$b_i(0\u2264a_i,b_i\u226410^9)$\n\n\u6bcf\u7ec4\u6570\u636e\u540e\u6709\u4e00\u4e2a\u7a7a\u884c\u3002\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $m$ \u503c\u603b\u548c\u4e0d\u8d85\u8fc7 $10^5$ \u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u6700\u5927\u7684\u8d21\u732e\u3002","hint":null,"locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1379C Choosing flowers","type":2,"slug":"CF1379C","color":"orange-3"},"discussions":[{"id":738719,"title":"\u961f\u62cd\u8fd11w\u7ec4\u627e\u4e0d\u5230\u9519\u8bef\uff08\u607c","author":{"uid":220824,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/220824.png","name":"N1K_J","slogan":"\u6211\u5728\u6d4b\u91cf\u8fd9\u4e2a\u4eba\u7684\u5b9e\u529b\u65f6\u8fdd\u89c4\u4f7f\u7528\u4e86\u9053\u5177\u201c\u663e\u5fae\u955c\u201d\uff0c\u4f60\u4e5f\u6765\u8bd5\u8bd5\u5427","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/f7jbn0c5.png"},"time":1701062282},{"id":731249,"title":"\u5173\u4e8e\u524d\u4e24\u7bc7\u9898\u89e3","author":{"uid":787424,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/787424.png","name":"Capoien_xie_bei_Chen","slogan":"AFO","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1699947876},{"id":555791,"title":"\u8fd9\u8f93\u5165\u5c311e9\u4e86\u600e\u4e48\u505a\u9898","author":{"uid":431289,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/431289.png","name":"lalaouye","slogan":"\u661f\u6cb3\u6eda\u70eb\uff0c\u4f60\u662f\u4eba\u95f4\u7406\u60f3\u3002||  \u540c\u6b7b\u751f\uff0c\u8f7b\u53bb\u5c31\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":8,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/hidj0syc.png"},"time":1673336382},{"id":441779,"title":"\u6c42\u7ed3\u8bba\u8bc1\u660e\u6216\u8bc1\u4f2a","author":{"uid":134000,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/134000.png","name":"Plozia","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/wb8wp5jf.png"},"time":1653212917}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.258294,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1379C Choosing flowers","description":"\u6709 m \u79cd\u7269\u54c1\uff0c\u6bcf\u79cd\u7269\u54c1\u6709\u65e0\u9650\u4e2a\uff0c\u4f60\u53ef\u4ee5\u8d2d\u4e70 n \u4e2a\u7269\u54c1\u3002\n\u5bf9\u4e8e\u7b2c i \u79cd\u7269\u54c1\uff1a\n\u7b2c\u4e00\u6b21\u4e70\u65f6\u7684\u8d21\u732e\u662f a_i ,\u63a5\u4e0b\u6765\u6bcf\u8d2d\u4e70\u4e00\u4e2a\u7684\u8d21\u732e\u90fd\u662f b_i\u3002\u5373\u5f53\u4f60\u4e70\u4e86 x_i \u4e2a\u7b2c i \u79cd\u7269\u54c1\u65f6\uff0c\u8d21\u732e\u662f a_i+b_i \\times (x_i-1)\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1379C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1379C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1379C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1379C Choosing flowers" />
+    <meta property="og:description" content="有 m 种物品，每种物品有无限个，你可以购买 n 个物品。
+对于第 i 种物品：
+第一次买时的贡献是 a_i ,接下来每购买一个的贡献都是 b_i。即当你买了 x_i 个第 i 种物品时，贡献是 a_i+b_i \times (x_i-1)…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1379C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1379C Choosing flowers</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有 $m$ 种物品，每种物品有无限个，你可以购买 $n$ 个物品。
+
+对于第 $i$ 种物品：
+
+第一次买时的贡献是 $a_i$ ,接下来每购买一个的贡献都是 $b_i$。即当你买了 $x_i$ 个第 $i$ 种物品时，贡献是 $a_i+b_i \times (x_i-1)$
+
+现在要你求出最大贡献。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个 $t (1≤t≤10^4)$，表示有 $t$ 组数据。
+
+对于每组数据：
+
+第一行$n$ 和 $m (1≤n≤10^9,1≤m≤10^5)$
+
+
+接下来 $m$ 行，每行两个整数$a_i$和$b_i(0≤a_i,b_i≤10^9)$
+
+每组数据后有一个空行。保证所有测试用例的 $m$ 值总和不超过 $10^5$ 。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组数据，输出一行一个整数表示最大的贡献。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first example case Vladimir can pick 1 flower of the first type and 3 flowers of the second type, in this case the total happiness equals $ 5 + (1 + 2 \cdot 4) = 14 $ .
+
+In the second example Vladimir can pick 2 flowers of the first type, 2 flowers of the second type, and 1 flower of the third type, in this case the total happiness equals $ (5 + 1 \cdot 2) +       (4 + 1 \cdot 2) + 3 = 16 $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

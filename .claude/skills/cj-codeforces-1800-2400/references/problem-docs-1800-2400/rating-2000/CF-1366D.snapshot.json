@@ -1,0 +1,37 @@
+{
+  "id": "CF-1366D",
+  "contest_id": 1366,
+  "index": "D",
+  "name": "Two Divisors",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1366/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1366/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1366/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1366D%20Two Divisors%20tutorial",
+  "solved_count": 12186,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1366D",
+  "hydro_meta": {
+    "page_title": "Two Divisors - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

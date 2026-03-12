@@ -1,0 +1,27 @@
+{
+  "id": "CF-1353C",
+  "contest_id": 1353,
+  "index": "C",
+  "name": "Board Moves",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 38640,
+  "problem_url": "https://codeforces.com/problemset/problem/1353/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1353/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1353/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1353C%20Board%20Moves%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1353/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1353C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

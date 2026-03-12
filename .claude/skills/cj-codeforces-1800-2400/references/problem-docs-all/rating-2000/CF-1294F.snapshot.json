@@ -1,0 +1,30 @@
+{
+  "id": "CF-1294F",
+  "contest_id": 1294,
+  "index": "F",
+  "name": "Three Paths on a Tree",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 6742,
+  "problem_url": "https://codeforces.com/problemset/problem/1294/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1294/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1294/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1294F%20Three%20Paths%20on%20a%20Tree%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1294F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1294F Three Paths on a Tree - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 494,
+    "mirror_attempt": 1426,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

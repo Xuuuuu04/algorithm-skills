@@ -1,0 +1,44 @@
+{
+  "id": "CF-1673F",
+  "contest_id": 1673,
+  "index": "F",
+  "name": "Anti-Theft Road Planning",
+  "rating": 2400,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "divide and conquer",
+    "greedy",
+    "interactive",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1673/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1673/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1673/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1673F%20Anti-Theft Road Planning%20tutorial",
+  "solved_count": 943,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1673F",
+  "hydro_meta": {
+    "page_title": "Anti-Theft Road Planning - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "bitmasks",
+      "constructive algorithms",
+      "divide and conquer",
+      "greedy",
+      "hashing",
+      "interactive",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

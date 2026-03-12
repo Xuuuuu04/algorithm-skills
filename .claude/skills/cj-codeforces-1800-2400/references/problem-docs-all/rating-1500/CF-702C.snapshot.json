@@ -1,0 +1,29 @@
+{
+  "id": "CF-702C",
+  "contest_id": 702,
+  "index": "C",
+  "name": "Cellular Network",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 22226,
+  "problem_url": "https://codeforces.com/problemset/problem/702/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/702/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/702/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=702C%20Cellular%20Network%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF702C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF702C Cellular Network - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 675,
+    "mirror_attempt": 1978,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

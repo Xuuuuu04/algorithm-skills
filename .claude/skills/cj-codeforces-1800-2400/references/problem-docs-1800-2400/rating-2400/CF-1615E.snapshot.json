@@ -1,0 +1,45 @@
+{
+  "id": "CF-1615E",
+  "contest_id": 1615,
+  "index": "E",
+  "name": "Purple Crayon",
+  "rating": 2400,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "games",
+    "graphs",
+    "greedy",
+    "math",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1615/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1615/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1615/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1615E%20Purple Crayon%20tutorial",
+  "solved_count": 1663,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1615E",
+  "hydro_meta": {
+    "page_title": "Purple Crayon - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "games",
+      "greedy",
+      "math",
+      "trees"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

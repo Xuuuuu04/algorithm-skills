@@ -1,0 +1,30 @@
+{
+  "id": "CF-1245C",
+  "contest_id": 1245,
+  "index": "C",
+  "name": "Constanze's Machine",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 19607,
+  "problem_url": "https://codeforces.com/problemset/problem/1245/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1245/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1245/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1245C%20Constanze%27s%20Machine%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1245C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Constanze's Machine - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

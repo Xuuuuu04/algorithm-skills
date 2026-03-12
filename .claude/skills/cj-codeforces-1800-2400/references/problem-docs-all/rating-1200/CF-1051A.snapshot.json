@@ -1,0 +1,34 @@
+{
+  "id": "CF-1051A",
+  "contest_id": 1051,
+  "index": "A",
+  "name": "Vasya And Password",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 8852,
+  "problem_url": "https://codeforces.com/problemset/problem/1051/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1051/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1051/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1051A%20Vasya%20And%20Password%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1051A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vasya And Password - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CF-2101B",
+  "contest_id": 2101,
+  "index": "B",
+  "name": "Quartet Swapping",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 6582,
+  "problem_url": "https://codeforces.com/problemset/problem/2101/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2101/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2101/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2101B%20Quartet%20Swapping%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2101B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Quartet Swapping - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

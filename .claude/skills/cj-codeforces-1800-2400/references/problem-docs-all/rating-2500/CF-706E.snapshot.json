@@ -1,0 +1,32 @@
+{
+  "id": "CF-706E",
+  "contest_id": 706,
+  "index": "E",
+  "name": "Working routine",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 1250,
+  "problem_url": "https://codeforces.com/problemset/problem/706/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/706/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/706/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=706E%20Working%20routine%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P706E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Working routine - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "implementation",
+      "*2500"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

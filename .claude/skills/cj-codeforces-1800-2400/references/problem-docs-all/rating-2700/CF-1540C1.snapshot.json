@@ -1,0 +1,31 @@
+{
+  "id": "CF-1540C1",
+  "contest_id": 1540,
+  "index": "C1",
+  "name": "Converging Array (Easy Version)",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dp",
+    "math"
+  ],
+  "solved_count": 732,
+  "problem_url": "https://codeforces.com/problemset/problem/1540/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1540/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1540/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1540C1%20Converging%20Array%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1540C1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Converging Array (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "math"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-867A",
+  "contest_id": 867,
+  "index": "A",
+  "name": "Between the Offices",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 20518,
+  "problem_url": "https://codeforces.com/problemset/problem/867/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/867/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/867/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=867A%20Between%20the%20Offices%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF867A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF867A Between the Offices - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 234,
+    "mirror_attempt": 363,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

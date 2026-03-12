@@ -1,0 +1,29 @@
+{
+  "id": "CF-1461B",
+  "contest_id": 1461,
+  "index": "B",
+  "name": "Find the Spruce",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 13185,
+  "problem_url": "https://codeforces.com/problemset/problem/1461/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1461/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1461/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1461B%20Find%20the%20Spruce%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1461/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1461B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

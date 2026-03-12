@@ -1,0 +1,32 @@
+{
+  "id": "CF-1517H",
+  "contest_id": 1517,
+  "index": "H",
+  "name": "Fly Around the World",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "dp",
+    "geometry"
+  ],
+  "solved_count": 87,
+  "problem_url": "https://codeforces.com/problemset/problem/1517/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1517/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1517/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1517H%20Fly%20Around%20the%20World%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1517H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Fly Around the World - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "geometry",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CF-1603D",
+  "contest_id": 1603,
+  "index": "D",
+  "name": "Artistic Partition",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "divide and conquer",
+    "dp",
+    "number theory"
+  ],
+  "solved_count": 869,
+  "problem_url": "https://codeforces.com/problemset/problem/1603/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1603/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1603/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1603D%20Artistic%20Partition%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1603D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Artistic Partition - 题目详情 - Hydro",
+    "mirror_tags": [
+      "divide and conquer",
+      "dp",
+      "implementation",
+      "number theory",
+      "*3000"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "1024MiB"
+  }
+}

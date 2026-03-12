@@ -1,0 +1,28 @@
+{
+  "id": "CF-859A",
+  "contest_id": 859,
+  "index": "A",
+  "name": "Declined Finalists",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 8414,
+  "problem_url": "https://codeforces.com/problemset/problem/859/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/859/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/859/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=859A%20Declined%20Finalists%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF859A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF859A Declined Finalists - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 472,
+    "mirror_attempt": 724,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

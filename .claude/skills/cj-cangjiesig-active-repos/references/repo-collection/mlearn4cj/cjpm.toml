@@ -1,0 +1,38 @@
+[package]
+  cjc-version = "1.0.4"
+  name = "mlearn4cj"
+  description = "A comprehensive machine learning library for Cangjie. 仓颉语言机器学习库，提供分类、回归、聚类、降维、神经网络等算法。"
+  version = "1.0.0"
+  target-dir = ""
+  src-dir = "src"
+  output-type = "static"
+  compile-option = ""
+  override-compile-option = ""
+  link-option = ""
+  package-configuration = {}
+
+[dependencies]
+
+[target.x86_64-w64-mingw32]
+  [target.x86_64-w64-mingw32.bin-dependencies]
+    path-option = ["${CANGJIE_STDX_PATH}"]
+
+
+# 模块说明:
+# mlearn4cj.core - 核心模块（矩阵运算、线性代数）
+# mlearn4cj.linear_model - 线性模型（线性回归、逻辑回归、岭回归等）
+# mlearn4cj.tree - 决策树（DecisionTreeClassifier, DecisionTreeRegressor）
+# mlearn4cj.ensemble - 集成方法（随机森林、AdaBoost、Bagging等）
+# mlearn4cj.svm - 支持向量机（SVC, SVR, LinearSVC）
+# mlearn4cj.neighbors - 近邻算法（KNN分类器、回归器）
+# mlearn4cj.naive_bayes - 朴素贝叶斯（Gaussian, Multinomial, Bernoulli）
+# mlearn4cj.cluster - 聚类算法（KMeans, DBSCAN, AgglomerativeClustering等）
+# mlearn4cj.decomposition - 降维（PCA, TruncatedSVD, NMF, ICA等）
+# mlearn4cj.neural_network - 神经网络（MLP分类器和回归器）
+# mlearn4cj.gaussian_process - 高斯过程（GP回归和分类）
+# mlearn4cj.manifold - 流形学习（t-SNE, MDS, Isomap, LLE等）
+# mlearn4cj.preprocessing - 预处理（StandardScaler, MinMaxScaler等）
+# mlearn4cj.feature_selection - 特征选择（VarianceThreshold, SelectKBest, RFE等）
+# mlearn4cj.model_selection - 模型选择（KFold, train_test_split等）
+# mlearn4cj.metrics - 评估指标（accuracy, precision, recall, F1, R2等）
+# mlearn4cj.utils - 工具函数（数据生成、数组操作等）

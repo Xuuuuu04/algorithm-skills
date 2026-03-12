@@ -1,0 +1,30 @@
+{
+  "id": "CF-41B",
+  "contest_id": 41,
+  "index": "B",
+  "name": "Martian Dollar",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 4579,
+  "problem_url": "https://codeforces.com/problemset/problem/41/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/41/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/41/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=41B%20Martian%20Dollar%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P41B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Martian Dollar - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

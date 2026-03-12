@@ -1,0 +1,41 @@
+{
+  "id": "CF-1955F",
+  "contest_id": 1955,
+  "index": "F",
+  "name": "Unfair Game",
+  "rating": 1800,
+  "tags": [
+    "dp",
+    "games",
+    "greedy",
+    "math",
+    "schedules"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1955/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1955/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1955/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1955F%20Unfair Game%20tutorial",
+  "solved_count": 8580,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1955F",
+  "hydro_meta": {
+    "page_title": "Unfair Game - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "games",
+      "greedy",
+      "math",
+      "schedules",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

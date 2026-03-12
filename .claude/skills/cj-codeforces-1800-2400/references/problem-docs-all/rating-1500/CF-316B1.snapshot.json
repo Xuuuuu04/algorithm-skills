@@ -1,0 +1,32 @@
+{
+  "id": "CF-316B1",
+  "contest_id": 316,
+  "index": "B1",
+  "name": "EKG",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 30.0,
+  "tags": [
+    "brute force",
+    "dfs and similar"
+  ],
+  "solved_count": 1483,
+  "problem_url": "https://codeforces.com/problemset/problem/316/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/316/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/316/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=316B1%20EKG%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P316B1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "EKG - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dfs and similar",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

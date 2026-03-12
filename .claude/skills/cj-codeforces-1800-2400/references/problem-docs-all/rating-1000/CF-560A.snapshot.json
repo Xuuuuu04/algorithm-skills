@@ -1,0 +1,32 @@
+{
+  "id": "CF-560A",
+  "contest_id": 560,
+  "index": "A",
+  "name": "Currency System in Geraldion",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 18828,
+  "problem_url": "https://codeforces.com/problemset/problem/560/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/560/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/560/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=560A%20Currency%20System%20in%20Geraldion%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P560A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Currency System in Geraldion - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "sortings",
+      "*1000"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

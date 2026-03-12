@@ -1,0 +1,30 @@
+{
+  "id": "CF-1039A",
+  "contest_id": 1039,
+  "index": "A",
+  "name": "Timetable",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 835,
+  "problem_url": "https://codeforces.com/problemset/problem/1039/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1039/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1039/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1039A%20Timetable%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1039/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1039A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

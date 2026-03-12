@@ -1,0 +1,38 @@
+{
+  "id": "CF-840B",
+  "contest_id": 840,
+  "index": "B",
+  "name": "Leha and another game about graph",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "graphs"
+  ],
+  "solved_count": 2757,
+  "problem_url": "https://codeforces.com/problemset/problem/840/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/840/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/840/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=840B%20Leha%20and%20another%20game%20about%20graph%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P840B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Leha and another game about graph - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

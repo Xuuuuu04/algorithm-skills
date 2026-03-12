@@ -1,0 +1,34 @@
+{
+  "id": "CF-1076E",
+  "contest_id": 1076,
+  "index": "E",
+  "name": "Vasya and a Tree",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1076/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1076/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1076/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1076E%20Vasya and a Tree%20tutorial",
+  "solved_count": 4091,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1076E",
+  "hydro_meta": {
+    "page_title": "Vasya and a Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

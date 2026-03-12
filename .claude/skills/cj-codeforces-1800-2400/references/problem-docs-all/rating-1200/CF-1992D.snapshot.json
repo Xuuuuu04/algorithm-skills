@@ -1,0 +1,29 @@
+{
+  "id": "CF-1992D",
+  "contest_id": 1992,
+  "index": "D",
+  "name": "Test of Love",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 23788,
+  "problem_url": "https://codeforces.com/problemset/problem/1992/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1992/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1992/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1992D%20Test%20of%20Love%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1992/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1992D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

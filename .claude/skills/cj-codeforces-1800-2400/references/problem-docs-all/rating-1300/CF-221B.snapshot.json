@@ -1,0 +1,27 @@
+{
+  "id": "CF-221B",
+  "contest_id": 221,
+  "index": "B",
+  "name": "Little Elephant and Numbers",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 4872,
+  "problem_url": "https://codeforces.com/problemset/problem/221/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/221/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/221/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=221B%20Little%20Elephant%20and%20Numbers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/221/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 221B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

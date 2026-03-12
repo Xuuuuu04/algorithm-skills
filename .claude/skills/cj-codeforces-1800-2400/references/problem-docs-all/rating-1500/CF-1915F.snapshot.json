@@ -1,0 +1,29 @@
+{
+  "id": "CF-1915F",
+  "contest_id": 1915,
+  "index": "F",
+  "name": "Greetings",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "sortings"
+  ],
+  "solved_count": 21256,
+  "problem_url": "https://codeforces.com/problemset/problem/1915/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1915/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1915/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1915F%20Greetings%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1915F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1915F Greetings - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 315,
+    "mirror_attempt": 746,
+    "time_limit": "5000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

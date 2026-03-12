@@ -1,0 +1,28 @@
+{
+  "id": "CF-313A",
+  "contest_id": 313,
+  "index": "A",
+  "name": "Ilya and Bank Account",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "number theory"
+  ],
+  "solved_count": 64238,
+  "problem_url": "https://codeforces.com/problemset/problem/313/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/313/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/313/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=313A%20Ilya%20and%20Bank%20Account%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF313A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF313A Ilya and Bank Account - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 160,
+    "mirror_attempt": 306,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

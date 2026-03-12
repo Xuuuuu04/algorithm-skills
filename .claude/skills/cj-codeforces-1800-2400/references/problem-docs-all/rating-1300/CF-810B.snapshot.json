@@ -1,0 +1,32 @@
+{
+  "id": "CF-810B",
+  "contest_id": 810,
+  "index": "B",
+  "name": "Summer sell-off",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 12509,
+  "problem_url": "https://codeforces.com/problemset/problem/810/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/810/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/810/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=810B%20Summer%20sell-off%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P810B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Summer sell-off - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

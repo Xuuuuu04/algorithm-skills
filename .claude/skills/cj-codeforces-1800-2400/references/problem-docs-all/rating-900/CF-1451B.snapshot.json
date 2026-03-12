@@ -1,0 +1,30 @@
+{
+  "id": "CF-1451B",
+  "contest_id": 1451,
+  "index": "B",
+  "name": "Non-Substring Subsequence",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 20130,
+  "problem_url": "https://codeforces.com/problemset/problem/1451/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1451/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1451/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1451B%20Non-Substring%20Subsequence%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1451/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1451B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

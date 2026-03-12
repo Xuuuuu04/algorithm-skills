@@ -1,0 +1,29 @@
+{
+  "id": "CF-1419C",
+  "contest_id": 1419,
+  "index": "C",
+  "name": "Killjoy",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 16242,
+  "problem_url": "https://codeforces.com/problemset/problem/1419/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1419/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1419/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1419C%20Killjoy%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1419C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1419C Killjoy - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 292,
+    "mirror_attempt": 638,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

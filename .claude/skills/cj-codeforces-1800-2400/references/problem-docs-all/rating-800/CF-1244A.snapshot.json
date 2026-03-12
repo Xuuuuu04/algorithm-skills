@@ -1,0 +1,27 @@
+{
+  "id": "CF-1244A",
+  "contest_id": 1244,
+  "index": "A",
+  "name": "Pens and Pencils",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 20021,
+  "problem_url": "https://codeforces.com/problemset/problem/1244/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1244/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1244/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1244A%20Pens%20and%20Pencils%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1244A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1244A Pens and Pencils - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 288,
+    "mirror_attempt": 395,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

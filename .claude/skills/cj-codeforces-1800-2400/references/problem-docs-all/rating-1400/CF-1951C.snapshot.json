@@ -1,0 +1,33 @@
+{
+  "id": "CF-1951C",
+  "contest_id": 1951,
+  "index": "C",
+  "name": "Ticket Hoarding",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 13645,
+  "problem_url": "https://codeforces.com/problemset/problem/1951/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1951/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1951/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1951C%20Ticket%20Hoarding%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1951C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ticket Hoarding - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

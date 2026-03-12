@@ -1,0 +1,33 @@
+{
+  "id": "CF-732F",
+  "contest_id": 732,
+  "index": "F",
+  "name": "Tourist Reform",
+  "rating": 2300,
+  "tags": [
+    "dfs and similar",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/732/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/732/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/732/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=732F%20Tourist Reform%20tutorial",
+  "solved_count": 3183,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P732F",
+  "hydro_meta": {
+    "page_title": "Tourist Reform - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "graphs",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

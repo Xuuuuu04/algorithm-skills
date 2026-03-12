@@ -1,0 +1,32 @@
+{
+  "id": "CF-1729C",
+  "contest_id": 1729,
+  "index": "C",
+  "name": "Jumping on Tiles",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "strings"
+  ],
+  "solved_count": 21487,
+  "problem_url": "https://codeforces.com/problemset/problem/1729/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1729/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1729/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1729C%20Jumping%20on%20Tiles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1729C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Jumping on Tiles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "strings",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

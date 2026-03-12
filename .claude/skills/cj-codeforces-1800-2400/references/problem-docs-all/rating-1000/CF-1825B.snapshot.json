@@ -1,0 +1,33 @@
+{
+  "id": "CF-1825B",
+  "contest_id": 1825,
+  "index": "B",
+  "name": "LuoTianyi and the Table",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 15995,
+  "problem_url": "https://codeforces.com/problemset/problem/1825/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1825/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1825/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1825B%20LuoTianyi%20and%20the%20Table%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1825B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "LuoTianyi and the Table - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-2046A",
+  "contest_id": 2046,
+  "index": "A",
+  "name": "Swap Columns and Find a Path",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 16618,
+  "problem_url": "https://codeforces.com/problemset/problem/2046/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2046/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2046/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2046A%20Swap%20Columns%20and%20Find%20a%20Path%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2046/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2046A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

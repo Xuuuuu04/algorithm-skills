@@ -1,0 +1,35 @@
+{
+  "id": "CF-954F",
+  "contest_id": 954,
+  "index": "F",
+  "name": "Runner's Problem",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "matrices",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/954/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/954/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/954/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=954F%20Runner's Problem%20tutorial",
+  "solved_count": 1359,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P954F",
+  "hydro_meta": {
+    "page_title": "Runner's Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "matrices",
+      "sortings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

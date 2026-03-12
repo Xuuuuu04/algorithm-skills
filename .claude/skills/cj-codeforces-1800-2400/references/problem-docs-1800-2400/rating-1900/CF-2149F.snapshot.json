@@ -1,0 +1,36 @@
+{
+  "id": "CF-2149F",
+  "contest_id": 2149,
+  "index": "F",
+  "name": "Nezuko in the Clearing",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "math",
+    "ternary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2149/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2149/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2149/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2149F%20Nezuko in the Clearing%20tutorial",
+  "solved_count": 4635,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2149F",
+  "hydro_meta": {
+    "page_title": "Nezuko in the Clearing - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "math",
+      "ternary search",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

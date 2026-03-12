@@ -1,0 +1,27 @@
+{
+  "id": "CF-1896A",
+  "contest_id": 1896,
+  "index": "A",
+  "name": "Jagged Swaps",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "sortings"
+  ],
+  "solved_count": 54200,
+  "problem_url": "https://codeforces.com/problemset/problem/1896/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1896/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1896/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1896A%20Jagged%20Swaps%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1896A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1896A Jagged Swaps - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 99,
+    "mirror_attempt": 135,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

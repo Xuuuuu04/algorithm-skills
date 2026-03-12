@@ -1,0 +1,27 @@
+{
+  "id": "CF-1316A",
+  "contest_id": 1316,
+  "index": "A",
+  "name": "Grade Allocation",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 19605,
+  "problem_url": "https://codeforces.com/problemset/problem/1316/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1316/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1316/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1316A%20Grade%20Allocation%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1316A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1316A Grade Allocation - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 150,
+    "mirror_attempt": 228,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

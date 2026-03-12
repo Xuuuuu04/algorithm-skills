@@ -1,0 +1,32 @@
+{
+  "id": "CF-1701D",
+  "contest_id": 1701,
+  "index": "D",
+  "name": "Permutation Restoration",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy",
+    "math",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 6232,
+  "problem_url": "https://codeforces.com/problemset/problem/1701/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1701/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1701/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1701D%20Permutation%20Restoration%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1701D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1701D Permutation Restoration - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 296,
+    "mirror_attempt": 618,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

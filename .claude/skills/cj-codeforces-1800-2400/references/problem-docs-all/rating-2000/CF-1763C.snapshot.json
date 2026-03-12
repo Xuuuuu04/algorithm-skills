@@ -1,0 +1,29 @@
+{
+  "id": "CF-1763C",
+  "contest_id": 1763,
+  "index": "C",
+  "name": "Another Array Problem",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 7676,
+  "problem_url": "https://codeforces.com/problemset/problem/1763/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1763/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1763/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1763C%20Another%20Array%20Problem%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1763C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1763C Another Array Problem - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 344,
+    "mirror_attempt": 827,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

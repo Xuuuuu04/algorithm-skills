@@ -1,0 +1,30 @@
+{
+  "id": "CF-1767C",
+  "contest_id": 1767,
+  "index": "C",
+  "name": "Count Binary Strings",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 2996,
+  "problem_url": "https://codeforces.com/problemset/problem/1767/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1767/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1767/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1767C%20Count%20Binary%20Strings%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1767C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Count Binary Strings - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-220D",
+  "contest_id": 220,
+  "index": "D",
+  "name": "Little Elephant and Triangle",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "geometry",
+    "math"
+  ],
+  "solved_count": 307,
+  "problem_url": "https://codeforces.com/problemset/problem/220/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/220/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/220/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=220D%20Little%20Elephant%20and%20Triangle%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P220D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Little Elephant and Triangle - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "math",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

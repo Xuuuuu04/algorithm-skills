@@ -1,0 +1,34 @@
+{
+  "id": "CF-1119F",
+  "contest_id": 1119,
+  "index": "F",
+  "name": "Niyaz and Small Degrees",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 870,
+  "problem_url": "https://codeforces.com/problemset/problem/1119/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1119/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1119/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1119F%20Niyaz%20and%20Small%20Degrees%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1119F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Niyaz and Small Degrees - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "trees",
+      "*3400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

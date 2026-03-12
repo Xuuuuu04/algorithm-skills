@@ -1,0 +1,27 @@
+{
+  "id": "CF-1649A",
+  "contest_id": 1649,
+  "index": "A",
+  "name": "Game",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 16002,
+  "problem_url": "https://codeforces.com/problemset/problem/1649/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1649/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1649/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1649A%20Game%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1649A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1649A Game - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 224,
+    "mirror_attempt": 391,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

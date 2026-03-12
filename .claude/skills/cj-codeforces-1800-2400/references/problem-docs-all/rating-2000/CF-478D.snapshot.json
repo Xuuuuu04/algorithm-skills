@@ -1,0 +1,27 @@
+{
+  "id": "CF-478D",
+  "contest_id": 478,
+  "index": "D",
+  "name": "Red-Green Towers",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 7045,
+  "problem_url": "https://codeforces.com/problemset/problem/478/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/478/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/478/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=478D%20Red-Green%20Towers%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF478D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF478D Red-Green Towers - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 283,
+    "mirror_attempt": 586,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

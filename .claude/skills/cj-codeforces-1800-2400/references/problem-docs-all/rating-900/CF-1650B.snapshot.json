@@ -1,0 +1,27 @@
+{
+  "id": "CF-1650B",
+  "contest_id": 1650,
+  "index": "B",
+  "name": "DIV + MOD",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 29826,
+  "problem_url": "https://codeforces.com/problemset/problem/1650/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1650/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1650/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1650B%20DIV%20%2B%20MOD%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1650/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1650B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

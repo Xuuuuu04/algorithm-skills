@@ -1,0 +1,29 @@
+{
+  "id": "CF-1104A",
+  "contest_id": 1104,
+  "index": "A",
+  "name": "Splitting into digits",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 15861,
+  "problem_url": "https://codeforces.com/problemset/problem/1104/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1104/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1104/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1104A%20Splitting%20into%20digits%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1104A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1104A Splitting into digits - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 174,
+    "mirror_attempt": 281,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

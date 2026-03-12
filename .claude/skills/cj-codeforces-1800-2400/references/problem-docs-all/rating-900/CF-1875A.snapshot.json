@@ -1,0 +1,28 @@
+{
+  "id": "CF-1875A",
+  "contest_id": 1875,
+  "index": "A",
+  "name": "Jellyfish and Undertale",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "greedy"
+  ],
+  "solved_count": 44911,
+  "problem_url": "https://codeforces.com/problemset/problem/1875/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1875/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1875/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1875A%20Jellyfish%20and%20Undertale%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1875A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1875A Jellyfish and Undertale - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 212,
+    "mirror_attempt": 487,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CF-1982E",
+  "contest_id": 1982,
+  "index": "E",
+  "name": "Number of k-good subarrays",
+  "rating": 2300,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "combinatorics",
+    "divide and conquer",
+    "dp",
+    "math",
+    "meet-in-the-middle"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1982/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1982/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1982/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1982E%20Number of k-good subarrays%20tutorial",
+  "solved_count": 1887,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1982E",
+  "hydro_meta": {
+    "page_title": "Number of k-good subarrays - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "combinatorics",
+      "divide and conquer",
+      "dp",
+      "math",
+      "meet-in-the-middle"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CF-1725C",
+  "contest_id": 1725,
+  "index": "C",
+  "name": "Circular Mirror",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "combinatorics",
+    "geometry",
+    "math",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1725/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1725/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1725/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1725C%20Circular Mirror%20tutorial",
+  "solved_count": 1896,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1725C",
+  "hydro_meta": {
+    "page_title": "Circular Mirror - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "combinatorics",
+      "geometry",
+      "math",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

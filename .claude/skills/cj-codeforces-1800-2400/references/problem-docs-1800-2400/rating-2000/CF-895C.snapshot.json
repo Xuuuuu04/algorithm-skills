@@ -1,0 +1,38 @@
+{
+  "id": "CF-895C",
+  "contest_id": 895,
+  "index": "C",
+  "name": "Square Subsets",
+  "rating": 2000,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/895/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/895/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/895/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=895C%20Square Subsets%20tutorial",
+  "solved_count": 7154,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P895C",
+  "hydro_meta": {
+    "page_title": "Square Subsets - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ansies4cj",
+  "full_name": "cangjielanguage-sig/ansies4cj",
+  "html_url": "https://github.com/cangjielanguage-sig/ansies4cj",
+  "description": "ANSI转义序列生成，以及基于ANSI转义序列的输出文本颜色和样式、光标操作、屏幕擦除等控制。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/ansies4cj/main/cjpm.toml"
+}

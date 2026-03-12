@@ -1,0 +1,34 @@
+{
+  "id": "CF-929C",
+  "contest_id": 929,
+  "index": "C",
+  "name": "Красивая команда",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "*special",
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 1195,
+  "problem_url": "https://codeforces.com/problemset/problem/929/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/929/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/929/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=929C%20%D0%9A%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P929C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Красивая команда - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "combinatorics",
+      "math",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "ms",
+    "memory_limit": "MiB"
+  }
+}

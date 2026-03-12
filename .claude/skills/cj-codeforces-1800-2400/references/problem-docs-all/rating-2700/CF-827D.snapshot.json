@@ -1,0 +1,36 @@
+{
+  "id": "CF-827D",
+  "contest_id": 827,
+  "index": "D",
+  "name": "Best Edge Weight",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 1352,
+  "problem_url": "https://codeforces.com/problemset/problem/827/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/827/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/827/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=827D%20Best%20Edge%20Weight%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P827D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Best Edge Weight - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2700"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

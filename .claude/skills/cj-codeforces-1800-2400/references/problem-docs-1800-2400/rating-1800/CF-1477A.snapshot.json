@@ -1,0 +1,37 @@
+{
+  "id": "CF-1477A",
+  "contest_id": 1477,
+  "index": "A",
+  "name": "Nezzar and Board",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1477/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1477/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1477/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1477A%20Nezzar and Board%20tutorial",
+  "solved_count": 6462,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1477A",
+  "hydro_meta": {
+    "page_title": "Nezzar and Board - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

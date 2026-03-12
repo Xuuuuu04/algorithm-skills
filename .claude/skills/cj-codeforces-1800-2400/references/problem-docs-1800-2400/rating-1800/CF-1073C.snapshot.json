@@ -1,0 +1,33 @@
+{
+  "id": "CF-1073C",
+  "contest_id": 1073,
+  "index": "C",
+  "name": "Vasya and Robot",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1073/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1073/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1073/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1073C%20Vasya and Robot%20tutorial",
+  "solved_count": 5380,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1073C",
+  "hydro_meta": {
+    "page_title": "Vasya and Robot - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

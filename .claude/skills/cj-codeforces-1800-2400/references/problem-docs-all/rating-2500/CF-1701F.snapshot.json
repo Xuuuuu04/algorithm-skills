@@ -1,0 +1,31 @@
+{
+  "id": "CF-1701F",
+  "contest_id": 1701,
+  "index": "F",
+  "name": "Points",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "data structures",
+    "implementation",
+    "math",
+    "matrices"
+  ],
+  "solved_count": 1115,
+  "problem_url": "https://codeforces.com/problemset/problem/1701/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1701/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1701/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1701F%20Points%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1701/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1701F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "6.5 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

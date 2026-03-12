@@ -1,0 +1,34 @@
+{
+  "id": "CF-1736C2",
+  "contest_id": 1736,
+  "index": "C2",
+  "name": "Good Subarrays (Hard Version)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "two pointers"
+  ],
+  "solved_count": 1452,
+  "problem_url": "https://codeforces.com/problemset/problem/1736/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1736/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1736/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1736C2%20Good%20Subarrays%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1736C2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Good Subarrays (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

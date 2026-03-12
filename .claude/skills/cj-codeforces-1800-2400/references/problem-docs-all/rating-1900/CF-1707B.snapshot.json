@@ -1,0 +1,35 @@
+{
+  "id": "CF-1707B",
+  "contest_id": 1707,
+  "index": "B",
+  "name": "Difference Array",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 6348,
+  "problem_url": "https://codeforces.com/problemset/problem/1707/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1707/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1707/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1707B%20Difference%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1707B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Difference Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

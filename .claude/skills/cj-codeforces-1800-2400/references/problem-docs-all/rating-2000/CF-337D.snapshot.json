@@ -1,0 +1,30 @@
+{
+  "id": "CF-337D",
+  "contest_id": 337,
+  "index": "D",
+  "name": "Book of Evil",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dfs and similar",
+    "divide and conquer",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 6824,
+  "problem_url": "https://codeforces.com/problemset/problem/337/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/337/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/337/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=337D%20Book%20of%20Evil%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF337D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF337D Book of Evil - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1090,
+    "mirror_attempt": 2476,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-1192B",
+  "contest_id": 1192,
+  "index": "B",
+  "name": "Dynamic Diameter",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "data structures",
+    "dfs and similar",
+    "divide and conquer",
+    "trees"
+  ],
+  "solved_count": 1518,
+  "problem_url": "https://codeforces.com/problemset/problem/1192/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1192/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1192/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1192B%20Dynamic%20Diameter%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1192/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1192B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "6 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

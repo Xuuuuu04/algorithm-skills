@@ -1,0 +1,32 @@
+{
+  "id": "CF-1101F",
+  "contest_id": 1101,
+  "index": "F",
+  "name": "Trucks and Cities",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "dp"
+  ],
+  "solved_count": 1612,
+  "problem_url": "https://codeforces.com/problemset/problem/1101/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1101/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1101/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1101F%20Trucks%20and%20Cities%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1101F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Trucks and Cities - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dp",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

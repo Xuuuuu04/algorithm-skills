@@ -1,0 +1,28 @@
+{
+  "id": "CF-2192B",
+  "contest_id": 2192,
+  "index": "B",
+  "name": "Flipping Binary String",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "strings"
+  ],
+  "solved_count": 12785,
+  "problem_url": "https://codeforces.com/problemset/problem/2192/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2192/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2192/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2192B%20Flipping%20Binary%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2192B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2192B Flipping Binary String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

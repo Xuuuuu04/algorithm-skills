@@ -1,0 +1,30 @@
+{
+  "id": "CF-11B",
+  "contest_id": 11,
+  "index": "B",
+  "name": "Jumping Jack",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 5634,
+  "problem_url": "https://codeforces.com/problemset/problem/11/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/11/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/11/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=11B%20Jumping%20Jack%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P11B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Jumping Jack - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*1600"
+    ],
+    "mirror_accepted": 3,
+    "mirror_attempt": 6,
+    "time_limit": "1000ms",
+    "memory_limit": "64MiB"
+  }
+}

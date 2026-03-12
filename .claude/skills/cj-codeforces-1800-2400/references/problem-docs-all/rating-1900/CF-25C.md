@@ -1,0 +1,83 @@
+# CF-25C Roads in Berland
+
+## 题面快照
+
+## Description
+
+There are n cities numbered from 1 to n in Berland. Some of them are connected by two-way roads. Each road has its own length — an integer number from 1 to 1000. It is known that from each city it is possible to get to any other city by existing roads. Also for each pair of cities it is known the shortest distance between them. Berland Government plans to build k new roads. For each of the planned road it is known its length, and what cities it will connect. To control the correctness of the construction of new roads, after the opening of another road Berland government wants to check the sum of the shortest distances between all pairs of cities. Help them — for a given matrix of shortest distances on the old roads and plans of all new roads, find out how the sum of the shortest distances between all pairs of cities changes after construction of each road.
+
+The first line contains integer n (2 ≤ n ≤ 300) — amount of cities in Berland. Then there follow n lines with n integer numbers each — the matrix of shortest distances. j-th integer in the i-th row — di, j, the shortest distance between cities i and j. It is guaranteed that di, i = 0, di, j = dj, i, and a given matrix is a matrix of shortest distances for some set of two-way roads with integer lengths from 1 to 1000, such that from each city it is possible to get to any other city using these roads.
+
+Next line contains integer k (1 ≤ k ≤ 300) — amount of planned roads. Following k lines contain the description of the planned roads. Each road is described by three space-separated integers ai, bi, ci (1 ≤ ai, bi ≤ n, ai ≠ bi, 1 ≤ ci ≤ 1000) — ai and bi — pair of cities, which the road connects, ci — the length of the road. It can be several roads between a pair of cities, but no road connects the city with itself.
+
+Output k space-separated integers qi (1 ≤ i ≤ k). qi should be equal to the sum of shortest distances between all pairs of cities after the construction of roads with indexes from 1 to i. Roads are numbered from 1 in the input order. Each pair of cities should be taken into account in the sum exactly once, i. e. we count unordered pairs.
+
+## Input
+
+The first line contains integer n (2 ≤ n ≤ 300) — amount of cities in Berland. Then there follow n lines with n integer numbers each — the matrix of shortest distances. j-th integer in the i-th row — di, j, the shortest distance between cities i and j. It is guaranteed that di, i = 0, di, j = dj, i, and a given matrix is a matrix of shortest distances for some set of two-way roads with integer lengths from 1 to 1000, such that from each city it is possible to get to any other city using these roads.
+
+Next line contains integer k (1 ≤ k ≤ 300) — amount of planned roads. Following k lines contain the description of the planned roads. Each road is described by three space-separated integers ai, bi, ci (1 ≤ ai, bi ≤ n, ai ≠ bi, 1 ≤ ci ≤ 1000) — ai and bi — pair of cities, which the road connects, ci — the length of the road. It can be several roads between a pair of cities, but no road connects the city with itself.
+
+## Output
+
+Output k space-separated integers qi (1 ≤ i ≤ k). qi should be equal to the sum of shortest distances between all pairs of cities after the construction of roads with indexes from 1 to i. Roads are numbered from 1 in the input order. Each pair of cities should be taken into account in the sum exactly once, i. e. we count unordered pairs.
+
+## Samples
+
+```
+2
+0 5
+5 0
+1
+1 2 3
+
+```
+
+```
+3
+
+```
+
+```
+3
+0 4 5
+4 0 9
+5 9 0
+2
+2 3 8
+1 2 1
+
+```
+
+```
+17 12
+
+```
+
+## 元信息
+
+| 字段 | 内容 |
+|---|---|
+| 来源 | Codeforces / Hydro 镜像 |
+| 编号 | CF-25C |
+| Contest | 25 |
+| Index | C |
+| Rating | 1900 |
+| Points | - |
+| Codeforces 标签 | `graphs`、`shortest paths` |
+| 镜像标签 | `graphs`、`shortest paths`、`*1900` |
+| Codeforces 通过次数 | 7788 |
+| 镜像尝试 / 通过 | 1 / 0 |
+| 时限 | 2000ms |
+| 内存限制 | 256MiB |
+
+## 远端入口
+
+- Codeforces 题面：[problem](https://codeforces.com/problemset/problem/25/C)
+- Codeforces 提交列表：[status](https://codeforces.com/problemset/status/25/problem/C)
+- Hydro 镜像：[mirror](https://hydro.ac/p/codeforces-P25C)
+
+## 本地补充位
+
+这里继续补写解题思路、仓颉实现、边界样例和错题复盘。
+

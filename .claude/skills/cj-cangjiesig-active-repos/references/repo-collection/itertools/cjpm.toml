@@ -1,0 +1,13 @@
+[dependencies]
+
+[package]
+  cjc-version = "1.0.4"
+  compile-option = "-Woff unused"
+  description = "Cangjie 惰性迭代器工具库，灵感来自 Rust itertools"
+  link-option = ""
+  name = "itertools"
+  output-type = "static"
+  src-dir = ""
+  target-dir = ""
+  version = "2.0.0"
+  package-configuration = {}

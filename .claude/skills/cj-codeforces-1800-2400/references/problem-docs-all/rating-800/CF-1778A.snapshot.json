@@ -1,0 +1,28 @@
+{
+  "id": "CF-1778A",
+  "contest_id": 1778,
+  "index": "A",
+  "name": "Flip Flop Sum",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 25611,
+  "problem_url": "https://codeforces.com/problemset/problem/1778/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1778/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1778/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1778A%20Flip%20Flop%20Sum%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1778A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1778A Flip Flop Sum - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 210,
+    "mirror_attempt": 373,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

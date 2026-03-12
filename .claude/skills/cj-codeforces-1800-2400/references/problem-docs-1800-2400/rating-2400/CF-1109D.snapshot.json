@@ -1,0 +1,41 @@
+{
+  "id": "CF-1109D",
+  "contest_id": 1109,
+  "index": "D",
+  "name": "Sasha and Interesting Fact from Graph Theory",
+  "rating": 2400,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "dp",
+    "math",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1109/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1109/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1109/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1109D%20Sasha and Interesting Fact from Graph Theory%20tutorial",
+  "solved_count": 1482,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1109D",
+  "hydro_meta": {
+    "page_title": "Sasha and Interesting Fact from Graph Theory - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "combinatorics",
+      "dp",
+      "math",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

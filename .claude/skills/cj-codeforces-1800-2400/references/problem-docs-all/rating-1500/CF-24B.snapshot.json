@@ -1,0 +1,27 @@
+{
+  "id": "CF-24B",
+  "contest_id": 24,
+  "index": "B",
+  "name": "F1 Champions",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 2001,
+  "problem_url": "https://codeforces.com/problemset/problem/24/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/24/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/24/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=24B%20F1%20Champions%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/24/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 24B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

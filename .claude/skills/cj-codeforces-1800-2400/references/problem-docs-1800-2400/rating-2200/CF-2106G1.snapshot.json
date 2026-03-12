@@ -1,0 +1,43 @@
+{
+  "id": "CF-2106G1",
+  "contest_id": 2106,
+  "index": "G1",
+  "name": "Baudelaire (easy version)",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "divide and conquer",
+    "greedy",
+    "interactive",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2106/G1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2106/problem/G1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2106/problem/G1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2106G1%20Baudelaire (easy version)%20tutorial",
+  "solved_count": 1588,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2106G1",
+  "hydro_meta": {
+    "page_title": "Baudelaire (easy version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "divide and conquer",
+      "greedy",
+      "interactive",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

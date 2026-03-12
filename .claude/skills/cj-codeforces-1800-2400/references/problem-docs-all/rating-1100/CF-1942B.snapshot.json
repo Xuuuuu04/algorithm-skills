@@ -1,0 +1,28 @@
+{
+  "id": "CF-1942B",
+  "contest_id": 1942,
+  "index": "B",
+  "name": "Bessie and MEX",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 15407,
+  "problem_url": "https://codeforces.com/problemset/problem/1942/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1942/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1942/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1942B%20Bessie%20and%20MEX%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1942/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1942B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

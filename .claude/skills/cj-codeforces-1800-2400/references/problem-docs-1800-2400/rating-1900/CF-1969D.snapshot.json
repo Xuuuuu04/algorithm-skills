@@ -1,0 +1,38 @@
+{
+  "id": "CF-1969D",
+  "contest_id": 1969,
+  "index": "D",
+  "name": "Shop Game",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1969/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1969/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1969/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1969D%20Shop Game%20tutorial",
+  "solved_count": 5626,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1969D",
+  "hydro_meta": {
+    "page_title": "Shop Game - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

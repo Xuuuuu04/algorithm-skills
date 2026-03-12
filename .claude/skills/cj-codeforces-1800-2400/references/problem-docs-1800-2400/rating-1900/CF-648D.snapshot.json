@@ -1,0 +1,32 @@
+{
+  "id": "CF-648D",
+  "contest_id": 648,
+  "index": "D",
+  "name": "Собачки и миски",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/648/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/648/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/648/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=648D%20Собачки и миски%20tutorial",
+  "solved_count": 346,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/648/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 648D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 секунды",
+    "memory_limit": "256 мегабайт"
+  }
+}

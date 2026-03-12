@@ -1,0 +1,29 @@
+{
+  "id": "CF-1823A",
+  "contest_id": 1823,
+  "index": "A",
+  "name": "A-characteristic",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 17113,
+  "problem_url": "https://codeforces.com/problemset/problem/1823/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1823/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1823/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1823A%20A-characteristic%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1823A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1823A A-characteristic - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 125,
+    "mirror_attempt": 165,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

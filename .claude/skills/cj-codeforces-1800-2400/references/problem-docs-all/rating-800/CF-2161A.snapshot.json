@@ -1,0 +1,30 @@
+{
+  "id": "CF-2161A",
+  "contest_id": 2161,
+  "index": "A",
+  "name": "Round Trip",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "games",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 15389,
+  "problem_url": "https://codeforces.com/problemset/problem/2161/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2161/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2161/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2161A%20Round%20Trip%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2161A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2161A Round Trip - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

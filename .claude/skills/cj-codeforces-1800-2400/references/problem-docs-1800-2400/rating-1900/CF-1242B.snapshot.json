@@ -1,0 +1,37 @@
+{
+  "id": "CF-1242B",
+  "contest_id": 1242,
+  "index": "B",
+  "name": "0-1 MST",
+  "rating": 1900,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1242/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1242/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1242/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1242B%200-1 MST%20tutorial",
+  "solved_count": 9084,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1242B",
+  "hydro_meta": {
+    "page_title": "0-1 MST - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "sortings",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

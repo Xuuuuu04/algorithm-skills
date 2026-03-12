@@ -1,0 +1,35 @@
+{
+  "id": "CF-2038G",
+  "contest_id": 2038,
+  "index": "G",
+  "name": "Guess One Character",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2038/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2038/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2038/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2038G%20Guess One Character%20tutorial",
+  "solved_count": 2899,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2038G",
+  "hydro_meta": {
+    "page_title": "Guess One Character - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "implementation",
+      "interactive",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

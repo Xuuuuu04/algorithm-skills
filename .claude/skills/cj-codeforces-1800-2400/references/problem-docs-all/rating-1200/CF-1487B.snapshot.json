@@ -1,0 +1,32 @@
+{
+  "id": "CF-1487B",
+  "contest_id": 1487,
+  "index": "B",
+  "name": "Cat Cycle",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 27888,
+  "problem_url": "https://codeforces.com/problemset/problem/1487/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1487/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1487/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1487B%20Cat%20Cycle%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1487B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cat Cycle - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

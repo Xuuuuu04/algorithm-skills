@@ -1,0 +1,31 @@
+{
+  "id": "CF-2170A",
+  "contest_id": 2170,
+  "index": "A",
+  "name": "Maximum Neighborhood",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 19303,
+  "problem_url": "https://codeforces.com/problemset/problem/2170/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2170/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2170/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2170A%20Maximum%20Neighborhood%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2170A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2170A Maximum Neighborhood - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CF-1244D",
+  "contest_id": 1244,
+  "index": "D",
+  "name": "Paint the Tree",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "graphs",
+    "implementation",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1244/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1244/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1244/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1244D%20Paint the Tree%20tutorial",
+  "solved_count": 8259,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1244D",
+  "hydro_meta": {
+    "page_title": "Paint the Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "graphs",
+      "implementation",
+      "trees",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

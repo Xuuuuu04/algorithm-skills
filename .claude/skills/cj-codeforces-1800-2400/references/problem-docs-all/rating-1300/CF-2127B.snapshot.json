@@ -1,0 +1,28 @@
+{
+  "id": "CF-2127B",
+  "contest_id": 2127,
+  "index": "B",
+  "name": "Hamiiid, Haaamid... Hamid?",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "games",
+    "greedy"
+  ],
+  "solved_count": 13226,
+  "problem_url": "https://codeforces.com/problemset/problem/2127/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2127/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2127/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2127B%20Hamiiid%2C%20Haaamid...%20Hamid%3F%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2127/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2127B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

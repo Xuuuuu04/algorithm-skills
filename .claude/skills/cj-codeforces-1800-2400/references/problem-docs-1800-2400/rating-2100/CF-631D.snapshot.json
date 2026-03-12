@@ -1,0 +1,40 @@
+{
+  "id": "CF-631D",
+  "contest_id": 631,
+  "index": "D",
+  "name": "Messenger",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "hashing",
+    "implementation",
+    "string suffix structures",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/631/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/631/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/631/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=631D%20Messenger%20tutorial",
+  "solved_count": 2345,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P631D",
+  "hydro_meta": {
+    "page_title": "Messenger - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "hashing",
+      "implementation",
+      "string suffix structures",
+      "strings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

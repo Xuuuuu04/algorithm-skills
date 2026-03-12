@@ -1,0 +1,32 @@
+{
+  "id": "CF-1508F",
+  "contest_id": 1508,
+  "index": "F",
+  "name": "Optimal Encoding",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "brute force",
+    "data structures"
+  ],
+  "solved_count": 150,
+  "problem_url": "https://codeforces.com/problemset/problem/1508/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1508/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1508/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1508F%20Optimal%20Encoding%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1508F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Optimal Encoding - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "7000ms",
+    "memory_limit": "1024MiB"
+  }
+}

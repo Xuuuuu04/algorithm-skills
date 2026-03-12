@@ -1,0 +1,36 @@
+{
+  "id": "CF-1103C",
+  "contest_id": 1103,
+  "index": "C",
+  "name": "Johnny Solving",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "math"
+  ],
+  "solved_count": 936,
+  "problem_url": "https://codeforces.com/problemset/problem/1103/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1103/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1103/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1103C%20Johnny%20Solving%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1103C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Johnny Solving - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "math",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

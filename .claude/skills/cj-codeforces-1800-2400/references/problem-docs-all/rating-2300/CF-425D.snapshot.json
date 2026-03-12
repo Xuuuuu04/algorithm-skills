@@ -1,0 +1,34 @@
+{
+  "id": "CF-425D",
+  "contest_id": 425,
+  "index": "D",
+  "name": "Sereja and Squares",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "hashing"
+  ],
+  "solved_count": 1614,
+  "problem_url": "https://codeforces.com/problemset/problem/425/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/425/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/425/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=425D%20Sereja%20and%20Squares%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P425D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sereja and Squares - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "hashing",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-513F2",
+  "contest_id": 513,
+  "index": "F2",
+  "name": "Scaygerboss",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 6.0,
+  "tags": [
+    "flows"
+  ],
+  "solved_count": 405,
+  "problem_url": "https://codeforces.com/problemset/problem/513/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/513/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/513/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=513F2%20Scaygerboss%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P513F2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Scaygerboss - 题目详情 - Hydro",
+    "mirror_tags": [
+      "flows",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

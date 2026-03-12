@@ -1,0 +1,24 @@
+{
+  "id": "CF-1510G",
+  "contest_id": 1510,
+  "index": "G",
+  "name": "Guide",
+  "rating": 2100,
+  "tags": [],
+  "url": "https://codeforces.com/problemset/problem/1510/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1510/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1510/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1510G%20Guide%20tutorial",
+  "solved_count": 1382,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1510G",
+  "hydro_meta": {
+    "page_title": "__NO_TITLE__ - 题目详情 - Hydro",
+    "hydro_tags": [],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

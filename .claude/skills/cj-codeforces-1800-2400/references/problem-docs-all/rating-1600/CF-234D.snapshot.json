@@ -1,0 +1,27 @@
+{
+  "id": "CF-234D",
+  "contest_id": 234,
+  "index": "D",
+  "name": "Cinema",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 1596,
+  "problem_url": "https://codeforces.com/problemset/problem/234/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/234/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/234/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=234D%20Cinema%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/234/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 234D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

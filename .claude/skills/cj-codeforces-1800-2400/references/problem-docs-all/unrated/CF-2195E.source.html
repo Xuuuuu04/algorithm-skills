@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2195E Idiot First Search - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2195E","type":"CF","title":"Idiot First Search","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":null,"content":{"name":"Idiot First Search","background":null,"description":"There is a binary tree of  $ n+1 $  vertices ( $ n $  is odd), with vertices labeled  $ 0,1,\\ldots,n $ . At most one letter can be written on each vertex of the tree, and all vertices initially have nothing written on them. The root of the tree is vertex  $ 0 $ .\n\nIn the tree, vertex  $ 0 $  is the parent of vertex  $ 1 $ , while all other vertices have either  $ 2 $  children or  $ 0 $  children.\n\nBob is lost in one vertex of the tree and wishes to escape the tree by reaching vertex  $ 0 $ . This is very easy for most people with common sense. However, since Bob is an idiot, he created a new way of traversing the tree; introducing the \u0022Idiot First Search\u0022.\n\nWhen Bob is on vertex  $ v $  ( $ 1 \\le v \\le n $ ), Bob\u0027s movement is determined as follows:\n\n- If vertex  $ v $  is a leaf, Bob always moves to the parent of  $ v $ ; otherwise, check the next few conditions.\n- If nothing is written on vertex  $ v $ , Bob writes \u0027L\u0027 on vertex  $ v $  and moves to the left child of  $ v $ ;\n- If \u0027L\u0027 is written on vertex  $ v $ , Bob overwrites it to \u0027R\u0027 and moves to the right child of  $ v $ ;\n- If \u0027R\u0027 is written on vertex  $ v $ , Bob erases it and moves to the parent of  $ v $ .\n\nIt takes exactly  $ 1 $  second for Bob to move to an adjacent vertex, so Bob will take exactly  $ x $  seconds to perform  $ x $  moves.\n\nIt has been shown that regardless of which vertex Bob starts on, Bob can reach vertex  $ 0 $  in a finite (though possibly inexplicably large) amount of time. We don\u0027t know who proved it; surely it can\u0027t be Bob, but it is definitely proven.\n\nFor each vertex  $ k=1,2,\\ldots,n $ , please determine the total time it takes to reach vertex  $ 0 $  if Bob started on vertex  $ k $ , in seconds. As the values may be huge, you are only asked to compute them modulo  $ 10^9+7 $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer  $ n $  ( $ 1 \\le n \\le 300\\,001 $ ,  $ n $  is odd).\n\nEach of the next  $ n $  lines contains two integers  $ l_i $  and  $ r_i $  denoting the children of vertex  $ i $  ( $ 0 \\le l_i,r_i \\le n $ ).\n\nFor each vertex,  $ l_i=r_i=0 $  is given if the vertex has no children. Otherwise,  $ l_i $  and  $ r_i $  are the left and right children of vertex  $ i $ .\n\nIt is guaranteed that the input defines a valid binary tree satisfying the conditions given in the statement.\n\nIt is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 300\\,001 $ .","formatO":"For each test case, output  $ n $  integers  $ \\tau_1,\\tau_2,\\ldots,\\tau_n $  separated by spaces.\n\nHere,  $ \\tau_k $  denotes the total time it takes to reach vertex  $ 0 $  if Bob started on vertex  $ k $ , modulo  $ 10^9+7 $ .","hint":"On the first test case, there are only two vertices, vertex  $ 0 $  and vertex  $ 1 $ . It takes only  $ 1 $  second for Bob to reach vertex  $ 0 $  from vertex  $ 1 $ .\n\nOn the second test case, the tree is given as follows.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2195E\/b9af4b5eb3881b7f0241a963f67399f1eb870538206138765c87c81f3832a5a6.png)It takes  $ 14 $  seconds for Bob to reach vertex  $ 0 $  from vertex  $ 3 $ . The moves are as follows:\n\n$$$\n3 \\xrightarrow{\\mathtt{L}} 4 \\xrightarrow{\\mathtt{X}} 3 \\xrightarrow{\\mathtt{R}} 5 \\xrightarrow{\\mathtt{X}} 3 \\xrightarrow{\\mathtt{X}} 1 \\xrightarrow{\\mathtt{L}} 2 \\xrightarrow{\\mathtt{X}} 1 \\xrightarrow{\\mathtt{R}} 3 \\xrightarrow{\\mathtt{L}} 4 \\xrightarrow{\\mathtt{X}} 3 \\xrightarrow{\\mathtt{R}} 5 \\xrightarrow{\\mathtt{X}} 3 \\xrightarrow{\\mathtt{X}} 1 \\xrightarrow{\\mathtt{X}} 0\n$$$\n\nHere, the letters above the arrows denote the letter on the vertex before moving to the adjacent vertex, where  $ \\mathtt{X} $  denotes nothing written.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n1\n0 0\n5\n2 3\n0 0\n4 5\n0 0\n0 0\n7\n2 3\n4 5\n0 0\n6 7\n0 0\n0 0\n0 0","1\n9 10 14 15 15\n13 22 14 27 23 28 28"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"2195E","link":"https:\/\/codeforces.com\/problemset\/problem\/2195\/E"},"translation":null},"translations":{"en":{"name":"Idiot First Search","background":null,"description":"There is a binary tree of  $ n+1 $  vertices ( $ n $  is odd), with vertices labeled  $ 0,1,\\ldots,n $ . At most one letter can be written on each vertex of the tree, and all vertices initially have nothing written on them. The root of the tree is vertex  $ 0 $ .\n\nIn the tree, vertex  $ 0 $  is the parent of vertex  $ 1 $ , while all other vertices have either  $ 2 $  children or  $ 0 $  children.\n\nBob is lost in one vertex of the tree and wishes to escape the tree by reaching vertex  $ 0 $ . This is very easy for most people with common sense. However, since Bob is an idiot, he created a new way of traversing the tree; introducing the \u0022Idiot First Search\u0022.\n\nWhen Bob is on vertex  $ v $  ( $ 1 \\le v \\le n $ ), Bob\u0027s movement is determined as follows:\n\n- If vertex  $ v $  is a leaf, Bob always moves to the parent of  $ v $ ; otherwise, check the next few conditions.\n- If nothing is written on vertex  $ v $ , Bob writes \u0027L\u0027 on vertex  $ v $  and moves to the left child of  $ v $ ;\n- If \u0027L\u0027 is written on vertex  $ v $ , Bob overwrites it to \u0027R\u0027 and moves to the right child of  $ v $ ;\n- If \u0027R\u0027 is written on vertex  $ v $ , Bob erases it and moves to the parent of  $ v $ .\n\nIt takes exactly  $ 1 $  second for Bob to move to an adjacent vertex, so Bob will take exactly  $ x $  seconds to perform  $ x $  moves.\n\nIt has been shown that regardless of which vertex Bob starts on, Bob can reach vertex  $ 0 $  in a finite (though possibly inexplicably large) amount of time. We don\u0027t know who proved it; surely it can\u0027t be Bob, but it is definitely proven.\n\nFor each vertex  $ k=1,2,\\ldots,n $ , please determine the total time it takes to reach vertex  $ 0 $  if Bob started on vertex  $ k $ , in seconds. As the values may be huge, you are only asked to compute them modulo  $ 10^9+7 $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer  $ n $  ( $ 1 \\le n \\le 300\\,001 $ ,  $ n $  is odd).\n\nEach of the next  $ n $  lines contains two integers  $ l_i $  and  $ r_i $  denoting the children of vertex  $ i $  ( $ 0 \\le l_i,r_i \\le n $ ).\n\nFor each vertex,  $ l_i=r_i=0 $  is given if the vertex has no children. Otherwise,  $ l_i $  and  $ r_i $  are the left and right children of vertex  $ i $ .\n\nIt is guaranteed that the input defines a valid binary tree satisfying the conditions given in the statement.\n\nIt is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 300\\,001 $ .","formatO":"For each test case, output  $ n $  integers  $ \\tau_1,\\tau_2,\\ldots,\\tau_n $  separated by spaces.\n\nHere,  $ \\tau_k $  denotes the total time it takes to reach vertex  $ 0 $  if Bob started on vertex  $ k $ , modulo  $ 10^9+7 $ .","hint":"On the first test case, there are only two vertices, vertex  $ 0 $  and vertex  $ 1 $ . It takes only  $ 1 $  second for Bob to reach vertex  $ 0 $  from vertex  $ 1 $ .\n\nOn the second test case, the tree is given as follows.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2195E\/b9af4b5eb3881b7f0241a963f67399f1eb870538206138765c87c81f3832a5a6.png)It takes  $ 14 $  seconds for Bob to reach vertex  $ 0 $  from vertex  $ 3 $ . The moves are as follows:\n\n$$$\n3 \\xrightarrow{\\mathtt{L}} 4 \\xrightarrow{\\mathtt{X}} 3 \\xrightarrow{\\mathtt{R}} 5 \\xrightarrow{\\mathtt{X}} 3 \\xrightarrow{\\mathtt{X}} 1 \\xrightarrow{\\mathtt{L}} 2 \\xrightarrow{\\mathtt{X}} 1 \\xrightarrow{\\mathtt{R}} 3 \\xrightarrow{\\mathtt{L}} 4 \\xrightarrow{\\mathtt{X}} 3 \\xrightarrow{\\mathtt{R}} 5 \\xrightarrow{\\mathtt{X}} 3 \\xrightarrow{\\mathtt{X}} 1 \\xrightarrow{\\mathtt{X}} 0\n$$$\n\nHere, the letters above the arrows denote the letter on the vertex before moving to the adjacent vertex, where  $ \\mathtt{X} $  denotes nothing written.","locale":"en"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2195E Idiot First Search","type":2,"slug":"CF2195E","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.306505,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2195E Idiot First Search","description":"There is a binary tree of   n+1   vertices (  n   is odd), with vertices labeled   0,1,\\ldots,n  . At most one letter can\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2195E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2195E?lang=en" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2195E Idiot First Search" />
+    <meta property="og:description" content="There is a binary tree of   n+1   vertices (  n   is odd), with vertices labeled   0,1,\ldots,n  . At most one letter can…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2195E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="en">
+        <h1>CF2195E Idiot First Search</h1>
+
+        
+        <section>
+            <h2>Description</h2>
+            <div>
+                                    There is a binary tree of  $ n+1 $  vertices ( $ n $  is odd), with vertices labeled  $ 0,1,\ldots,n $ . At most one letter can be written on each vertex of the tree, and all vertices initially have nothing written on them. The root of the tree is vertex  $ 0 $ .
+
+In the tree, vertex  $ 0 $  is the parent of vertex  $ 1 $ , while all other vertices have either  $ 2 $  children or  $ 0 $  children.
+
+Bob is lost in one vertex of the tree and wishes to escape the tree by reaching vertex  $ 0 $ . This is very easy for most people with common sense. However, since Bob is an idiot, he created a new way of traversing the tree; introducing the "Idiot First Search".
+
+When Bob is on vertex  $ v $  ( $ 1 \le v \le n $ ), Bob's movement is determined as follows:
+
+- If vertex  $ v $  is a leaf, Bob always moves to the parent of  $ v $ ; otherwise, check the next few conditions.
+- If nothing is written on vertex  $ v $ , Bob writes 'L' on vertex  $ v $  and moves to the left child of  $ v $ ;
+- If 'L' is written on vertex  $ v $ , Bob overwrites it to 'R' and moves to the right child of  $ v $ ;
+- If 'R' is written on vertex  $ v $ , Bob erases it and moves to the parent of  $ v $ .
+
+It takes exactly  $ 1 $  second for Bob to move to an adjacent vertex, so Bob will take exactly  $ x $  seconds to perform  $ x $  moves.
+
+It has been shown that regardless of which vertex Bob starts on, Bob can reach vertex  $ 0 $  in a finite (though possibly inexplicably large) amount of time. We don't know who proved it; surely it can't be Bob, but it is definitely proven.
+
+For each vertex  $ k=1,2,\ldots,n $ , please determine the total time it takes to reach vertex  $ 0 $  if Bob started on vertex  $ k $ , in seconds. As the values may be huge, you are only asked to compute them modulo  $ 10^9+7 $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Input Format</h2>
+            <div>
+                                    Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \le t \le 10^4 $ ). The description of the test cases follows.
+
+The first line of each test case contains a single integer  $ n $  ( $ 1 \le n \le 300\,001 $ ,  $ n $  is odd).
+
+Each of the next  $ n $  lines contains two integers  $ l_i $  and  $ r_i $  denoting the children of vertex  $ i $  ( $ 0 \le l_i,r_i \le n $ ).
+
+For each vertex,  $ l_i=r_i=0 $  is given if the vertex has no children. Otherwise,  $ l_i $  and  $ r_i $  are the left and right children of vertex  $ i $ .
+
+It is guaranteed that the input defines a valid binary tree satisfying the conditions given in the statement.
+
+It is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 300\,001 $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Output Format</h2>
+            <div>
+                                    For each test case, output  $ n $  integers  $ \tau_1,\tau_2,\ldots,\tau_n $  separated by spaces.
+
+Here,  $ \tau_k $  denotes the total time it takes to reach vertex  $ 0 $  if Bob started on vertex  $ k $ , modulo  $ 10^9+7 $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Explanation/Hint</h2>
+            <div>
+                On the first test case, there are only two vertices, vertex  $ 0 $  and vertex  $ 1 $ . It takes only  $ 1 $  second for Bob to reach vertex  $ 0 $  from vertex  $ 1 $ .
+
+On the second test case, the tree is given as follows.
+
+ ![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF2195E/b9af4b5eb3881b7f0241a963f67399f1eb870538206138765c87c81f3832a5a6.png)It takes  $ 14 $  seconds for Bob to reach vertex  $ 0 $  from vertex  $ 3 $ . The moves are as follows:
+
+$$$
+3 \xrightarrow{\mathtt{L}} 4 \xrightarrow{\mathtt{X}} 3 \xrightarrow{\mathtt{R}} 5 \xrightarrow{\mathtt{X}} 3 \xrightarrow{\mathtt{X}} 1 \xrightarrow{\mathtt{L}} 2 \xrightarrow{\mathtt{X}} 1 \xrightarrow{\mathtt{R}} 3 \xrightarrow{\mathtt{L}} 4 \xrightarrow{\mathtt{X}} 3 \xrightarrow{\mathtt{R}} 5 \xrightarrow{\mathtt{X}} 3 \xrightarrow{\mathtt{X}} 1 \xrightarrow{\mathtt{X}} 0
+$$$
+
+Here, the letters above the arrows denote the letter on the vertex before moving to the adjacent vertex, where  $ \mathtt{X} $  denotes nothing written.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1195E",
+  "contest_id": 1195,
+  "index": "E",
+  "name": "OpenStreetMap",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1195/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1195/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1195/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1195E%20OpenStreetMap%20tutorial",
+  "solved_count": 3518,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1195E",
+  "hydro_meta": {
+    "page_title": "OpenStreetMap - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

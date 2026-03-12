@@ -1,0 +1,28 @@
+{
+  "id": "CF-1818A",
+  "contest_id": 1818,
+  "index": "A",
+  "name": "Politics",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 14269,
+  "problem_url": "https://codeforces.com/problemset/problem/1818/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1818/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1818/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1818A%20Politics%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1818A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1818A Politics - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 98,
+    "mirror_attempt": 125,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

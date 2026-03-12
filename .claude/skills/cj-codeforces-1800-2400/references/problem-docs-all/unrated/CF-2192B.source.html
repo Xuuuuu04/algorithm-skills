@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414513:LdngN3njn65y/dA8vB8ef3hSuKpNzMUdKSUGkUsbFa4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2192B Flipping Binary String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2192B","type":"CF","title":"Flipping Binary String","difficulty":0,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":null,"content":{"name":"Flipping Binary String","background":null,"description":"You are given a binary string  $ s $  of length  $ n $ . You can perform the following operation on the string:\n\n- Choose an index  $ i $ , and flip the bit present at all other indices except for the index  $ i $ . In other words, choose an integer  $ i $  ( $ 1 \\le i \\le n $ ), and for all  $ j $  such that  $ 1 \\le j \\le n $  and  $ j \\ne i $ , if  $ s_j = 0 $ , then set  $ s_j:=1 $ , otherwise set  $ s_j:=0 $ .\n\nYou can perform the operation any number of times, but each index can be chosen by at most one operation.\n\nYour task is to make all bits present in the string  $ s $  equal  $ 0 $ , or report that it is impossible to do so. You don\u0027t have to minimize the number of operations.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer  $ n $  ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ).\n\nThe second line of each test case contains the binary string  $ s $  of length  $ n $ .\n\nIt is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output  $ -1 $  if it is impossible to transform all bits to  $ 0 $ . Otherwise, output two lines in the following format:\n\n- In the first line, print the number of operations  $ x $  ( $ 0 \\leq x \\leq n $ ).\n- In the second line of each test case, print  $ x $  numbers \u2013 the indices you select in each operation in order. You should guarantee that each index is chosen at most once.\n\nIf there are multiple possible solutions, you may output any.","hint":"In the first test case, performing the operation on index  $ 2 $  means flipping bits present at index  $ 1 $  and  $ 3 $ . So the new string formed will be  $ 000 $ .\n\nIn the second test case, it can be shown that we cannot make string  $ a $  equal to  $ 000 $  using the described operations.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n3\n101\n3\n100\n4\n0000\n4\n1010","1\n2 \n-1\n0\n2\n1 3"]],"limits":{"time":[1500],"memory":[256000]},"vjudge":{"id":"2192B","link":"https:\/\/codeforces.com\/problemset\/problem\/2192\/B"},"translation":null},"translations":{"en":{"name":"Flipping Binary String","background":null,"description":"You are given a binary string  $ s $  of length  $ n $ . You can perform the following operation on the string:\n\n- Choose an index  $ i $ , and flip the bit present at all other indices except for the index  $ i $ . In other words, choose an integer  $ i $  ( $ 1 \\le i \\le n $ ), and for all  $ j $  such that  $ 1 \\le j \\le n $  and  $ j \\ne i $ , if  $ s_j = 0 $ , then set  $ s_j:=1 $ , otherwise set  $ s_j:=0 $ .\n\nYou can perform the operation any number of times, but each index can be chosen by at most one operation.\n\nYour task is to make all bits present in the string  $ s $  equal  $ 0 $ , or report that it is impossible to do so. You don\u0027t have to minimize the number of operations.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer  $ n $  ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ).\n\nThe second line of each test case contains the binary string  $ s $  of length  $ n $ .\n\nIt is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output  $ -1 $  if it is impossible to transform all bits to  $ 0 $ . Otherwise, output two lines in the following format:\n\n- In the first line, print the number of operations  $ x $  ( $ 0 \\leq x \\leq n $ ).\n- In the second line of each test case, print  $ x $  numbers \u2013 the indices you select in each operation in order. You should guarantee that each index is chosen at most once.\n\nIf there are multiple possible solutions, you may output any.","hint":"In the first test case, performing the operation on index  $ 2 $  means flipping bits present at index  $ 1 $  and  $ 3 $ . So the new string formed will be  $ 000 $ .\n\nIn the second test case, it can be shown that we cannot make string  $ a $  equal to  $ 000 $  using the described operations.","locale":"en"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2192B Flipping Binary String","type":2,"slug":"CF2192B","color":"orange-3"},"discussions":[{"id":1253789,"title":"\u8fd9\u9898\u662f\u4ec0\u4e48\u96be\u5ea6\uff0c\u6c42DALAO\u5224\u65ad\uff08\u7384\u5173\uff09","author":{"uid":972066,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/972066.png","name":"wyc0607","slogan":"\u6211\u4e3a\u81ea\u6211\u800c\u6218\uff0c\u76f4\u81f3\u4e00\u5207\uff0c\u71c3\u70e7\u6b86\u5c3d\uff01|While someone sees crazy ones,we see genius.","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":5,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/l7on6rt7.png"},"time":1772088376}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328113.10148,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2192B Flipping Binary String","description":"You are given a binary string   s   of length   n  . You can perform the following operation on the string:\n\nChoose an index\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2192B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2192B?lang=en" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2192B Flipping Binary String" />
+    <meta property="og:description" content="You are given a binary string   s   of length   n  . You can perform the following operation on the string:
+
+Choose an index…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2192B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="en">
+        <h1>CF2192B Flipping Binary String</h1>
+
+        
+        <section>
+            <h2>Description</h2>
+            <div>
+                                    You are given a binary string  $ s $  of length  $ n $ . You can perform the following operation on the string:
+
+- Choose an index  $ i $ , and flip the bit present at all other indices except for the index  $ i $ . In other words, choose an integer  $ i $  ( $ 1 \le i \le n $ ), and for all  $ j $  such that  $ 1 \le j \le n $  and  $ j \ne i $ , if  $ s_j = 0 $ , then set  $ s_j:=1 $ , otherwise set  $ s_j:=0 $ .
+
+You can perform the operation any number of times, but each index can be chosen by at most one operation.
+
+Your task is to make all bits present in the string  $ s $  equal  $ 0 $ , or report that it is impossible to do so. You don't have to minimize the number of operations.
+                            </div>
+        </section>
+
+        <section>
+            <h2>Input Format</h2>
+            <div>
+                                    Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \le t \le 10^4 $ ). The description of the test cases follows.
+
+The first line of each test case contains a single integer  $ n $  ( $ 1 \le n \le 2 \cdot 10^5 $ ).
+
+The second line of each test case contains the binary string  $ s $  of length  $ n $ .
+
+It is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 2 \cdot 10^5 $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Output Format</h2>
+            <div>
+                                    For each test case, output  $ -1 $  if it is impossible to transform all bits to  $ 0 $ . Otherwise, output two lines in the following format:
+
+- In the first line, print the number of operations  $ x $  ( $ 0 \leq x \leq n $ ).
+- In the second line of each test case, print  $ x $  numbers – the indices you select in each operation in order. You should guarantee that each index is chosen at most once.
+
+If there are multiple possible solutions, you may output any.
+                            </div>
+        </section>
+
+        <section>
+            <h2>Explanation/Hint</h2>
+            <div>
+                In the first test case, performing the operation on index  $ 2 $  means flipping bits present at index  $ 1 $  and  $ 3 $ . So the new string formed will be  $ 000 $ .
+
+In the second test case, it can be shown that we cannot make string  $ a $  equal to  $ 000 $  using the described operations.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

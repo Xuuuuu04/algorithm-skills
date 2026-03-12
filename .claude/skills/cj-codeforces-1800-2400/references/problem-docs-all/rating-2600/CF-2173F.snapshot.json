@@ -1,0 +1,38 @@
+{
+  "id": "CF-2173F",
+  "contest_id": 2173,
+  "index": "F",
+  "name": "Isla's Memory Thresholds",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "math"
+  ],
+  "solved_count": 504,
+  "problem_url": "https://codeforces.com/problemset/problem/2173/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2173/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2173/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2173F%20Isla%27s%20Memory%20Thresholds%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2173F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Isla's Memory Thresholds - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "divide and conquer",
+      "math",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "6000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1889A",
+  "contest_id": 1889,
+  "index": "A",
+  "name": "Qingshan Loves Strings 2",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 15171,
+  "problem_url": "https://codeforces.com/problemset/problem/1889/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1889/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1889/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1889A%20Qingshan%20Loves%20Strings%202%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1889/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1889A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CF-840B",
+  "contest_id": 840,
+  "index": "B",
+  "name": "Leha and another game about graph",
+  "rating": 2100,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/840/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/840/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/840/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=840B%20Leha and another game about graph%20tutorial",
+  "solved_count": 2757,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P840B",
+  "hydro_meta": {
+    "page_title": "Leha and another game about graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

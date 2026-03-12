@@ -1,0 +1,41 @@
+{
+  "id": "CF-2008H",
+  "contest_id": 2008,
+  "index": "H",
+  "name": "Sakurako's Test",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "brute force",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2008/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/2008/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2008/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2008H%20Sakurako's Test%20tutorial",
+  "solved_count": 3545,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2008H",
+  "hydro_meta": {
+    "page_title": "Sakurako's Test - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-301B",
+  "contest_id": 301,
+  "index": "B",
+  "name": "Yaroslav and Time",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 2743,
+  "problem_url": "https://codeforces.com/problemset/problem/301/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/301/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/301/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=301B%20Yaroslav%20and%20Time%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P301B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yaroslav and Time - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "graphs",
+      "shortest paths",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

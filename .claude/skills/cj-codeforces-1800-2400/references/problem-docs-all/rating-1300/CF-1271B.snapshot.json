@@ -1,0 +1,32 @@
+{
+  "id": "CF-1271B",
+  "contest_id": 1271,
+  "index": "B",
+  "name": "Blocks",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 12061,
+  "problem_url": "https://codeforces.com/problemset/problem/1271/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1271/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1271/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1271B%20Blocks%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1271B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Blocks - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

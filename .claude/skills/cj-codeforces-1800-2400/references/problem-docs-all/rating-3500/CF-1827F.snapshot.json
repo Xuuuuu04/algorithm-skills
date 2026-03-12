@@ -1,0 +1,29 @@
+{
+  "id": "CF-1827F",
+  "contest_id": 1827,
+  "index": "F",
+  "name": "Copium Permutation",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 133,
+  "problem_url": "https://codeforces.com/problemset/problem/1827/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1827/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1827/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1827F%20Copium%20Permutation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1827/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1827F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

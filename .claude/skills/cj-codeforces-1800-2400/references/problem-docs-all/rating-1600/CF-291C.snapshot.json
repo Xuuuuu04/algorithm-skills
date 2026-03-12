@@ -1,0 +1,30 @@
+{
+  "id": "CF-291C",
+  "contest_id": 291,
+  "index": "C",
+  "name": "Network Mask",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "*special",
+    "bitmasks",
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 1821,
+  "problem_url": "https://codeforces.com/problemset/problem/291/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/291/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/291/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=291C%20Network%20Mask%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/291/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 291C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

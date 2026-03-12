@@ -1,0 +1,29 @@
+{
+  "id": "CF-1033C",
+  "contest_id": 1033,
+  "index": "C",
+  "name": "Permutation Game",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "games"
+  ],
+  "solved_count": 6153,
+  "problem_url": "https://codeforces.com/problemset/problem/1033/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1033/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1033/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1033C%20Permutation%20Game%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1033/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1033C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1215C",
+  "contest_id": 1215,
+  "index": "C",
+  "name": "Swap Letters",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 11889,
+  "problem_url": "https://codeforces.com/problemset/problem/1215/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1215/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1215/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1215C%20Swap%20Letters%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1215/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1215C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1455B",
+  "contest_id": 1455,
+  "index": "B",
+  "name": "Jumps",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 23130,
+  "problem_url": "https://codeforces.com/problemset/problem/1455/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1455/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1455/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1455B%20Jumps%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1455B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Jumps - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

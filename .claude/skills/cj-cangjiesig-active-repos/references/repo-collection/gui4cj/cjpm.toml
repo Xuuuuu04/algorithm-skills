@@ -1,0 +1,54 @@
+[package]
+  cjc-version = "1.0.3"
+  name = "gui4cj"
+  description = "Cross-platform GUI library for Cangjie, powered by OpenGL"
+  version = "1.0.0"
+  target-dir = "target"
+  src-dir = "src"
+  output-type = "dynamic"
+  compile-option = ""
+  link-option = ""
+  package-configuration = {}
+
+[dependencies]
+
+# ============================================
+# Linux x86_64 配置
+# ============================================
+[target.x86_64-unknown-linux-gnu]
+  compile-option = ""
+  # link-option = "-L./target/release/gui4cj -lgui4cj_native -lGL -lglfw -lpng -lm -ldl -lpthread" #运行测试用例 可以放开
+# ============================================
+# Linux aarch64 配置
+# ============================================
+[target.aarch64-unknown-linux-gnu]
+  compile-option = ""
+  # link-option = "-L./target/release/gui4cj -lgui4cj_native -lGL -lglfw -lpng -lm -ldl -lpthread" #运行测试用例 可以放开
+
+# ============================================
+# macOS x86_64 (Intel) 配置
+# ============================================
+[target.x86_64-apple-darwin]
+  compile-option = ""
+  # link-option = " -L./target/release/gui4cj -lgui4cj_native -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo -lglfw -lpng" #运行测试用例 可以放开
+
+# ============================================
+# macOS ARM64 (Apple Silicon) 配置
+# ============================================
+[target.aarch64-apple-darwin]
+  compile-option = ""
+  # link-option = "-L./target/release/gui4cj -lgui4cj_native -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo -lglfw -lpng" #运行测试用例 可以放开
+
+# ============================================
+# Windows x86_64 (MinGW) 配置
+# ============================================
+[target.x86_64-pc-windows-gnu]
+  compile-option = ""
+  # link-option = "-L./target/release/gui4cj -lgui4cj_native -lopengl32 -lgdi32 -luser32 -lglfw3 -lpng" #运行测试用例 可以放开
+
+# ============================================
+# Windows x86_64 (MSVC) 配置
+# ============================================
+[target.x86_64-pc-windows-msvc]
+  compile-option = ""
+  # link-option = "-L./target/release/gui4cj -lgui4cj_native -lopengl32 -lgdi32 -luser32" #运行测试用例 可以放开

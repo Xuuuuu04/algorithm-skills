@@ -1,0 +1,27 @@
+{
+  "id": "CF-1013A",
+  "contest_id": 1013,
+  "index": "A",
+  "name": "Piles With Stones",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 11664,
+  "problem_url": "https://codeforces.com/problemset/problem/1013/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1013/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1013/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1013A%20Piles%20With%20Stones%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1013A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1013A Piles With Stones - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 448,
+    "mirror_attempt": 765,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

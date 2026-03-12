@@ -1,0 +1,27 @@
+{
+  "id": "CF-119A",
+  "contest_id": 119,
+  "index": "A",
+  "name": "Epic Game",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 29216,
+  "problem_url": "https://codeforces.com/problemset/problem/119/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/119/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/119/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=119A%20Epic%20Game%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF119A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF119A Epic Game - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 901,
+    "mirror_attempt": 1979,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

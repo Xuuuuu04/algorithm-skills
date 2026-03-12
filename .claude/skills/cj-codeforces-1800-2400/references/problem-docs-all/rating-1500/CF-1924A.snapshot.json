@@ -1,0 +1,31 @@
+{
+  "id": "CF-1924A",
+  "contest_id": 1924,
+  "index": "A",
+  "name": "Did We Get Everything Covered?",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "shortest paths",
+    "strings"
+  ],
+  "solved_count": 16533,
+  "problem_url": "https://codeforces.com/problemset/problem/1924/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1924/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1924/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1924A%20Did%20We%20Get%20Everything%20Covered%3F%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1924A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1924A Did We Get Everything Covered? - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 253,
+    "mirror_attempt": 530,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

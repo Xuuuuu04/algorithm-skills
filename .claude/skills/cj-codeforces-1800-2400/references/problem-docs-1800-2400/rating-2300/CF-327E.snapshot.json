@@ -1,0 +1,40 @@
+{
+  "id": "CF-327E",
+  "contest_id": 327,
+  "index": "E",
+  "name": "Axis Walking",
+  "rating": 2300,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "constructive algorithms",
+    "dp",
+    "meet-in-the-middle"
+  ],
+  "url": "https://codeforces.com/problemset/problem/327/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/327/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/327/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=327E%20Axis Walking%20tutorial",
+  "solved_count": 1565,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P327E",
+  "hydro_meta": {
+    "page_title": "Axis Walking - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "combinatorics",
+      "constructive algorithms",
+      "dp",
+      "meet-in-the-middle",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

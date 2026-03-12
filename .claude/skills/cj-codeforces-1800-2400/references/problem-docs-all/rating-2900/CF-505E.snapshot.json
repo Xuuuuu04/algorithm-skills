@@ -1,0 +1,32 @@
+{
+  "id": "CF-505E",
+  "contest_id": 505,
+  "index": "E",
+  "name": "Mr. Kitayuta vs. Bamboos",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "binary search",
+    "greedy"
+  ],
+  "solved_count": 1554,
+  "problem_url": "https://codeforces.com/problemset/problem/505/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/505/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/505/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=505E%20Mr.%20Kitayuta%20vs.%20Bamboos%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P505E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mr - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "*2900"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

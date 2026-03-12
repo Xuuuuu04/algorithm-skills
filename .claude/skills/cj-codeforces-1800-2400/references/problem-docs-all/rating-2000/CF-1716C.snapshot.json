@@ -1,0 +1,37 @@
+{
+  "id": "CF-1716C",
+  "contest_id": 1716,
+  "index": "C",
+  "name": "Robot in a Hallway",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "implementation",
+    "ternary search"
+  ],
+  "solved_count": 4544,
+  "problem_url": "https://codeforces.com/problemset/problem/1716/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1716/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1716/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1716C%20Robot%20in%20a%20Hallway%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1716C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Robot in a Hallway - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

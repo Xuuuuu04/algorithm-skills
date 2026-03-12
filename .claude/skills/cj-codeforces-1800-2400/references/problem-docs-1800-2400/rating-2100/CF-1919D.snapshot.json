@@ -1,0 +1,45 @@
+{
+  "id": "CF-1919D",
+  "contest_id": 1919,
+  "index": "D",
+  "name": "01 Tree",
+  "rating": 2100,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "dsu",
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1919/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1919/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1919/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1919D%2001 Tree%20tutorial",
+  "solved_count": 4512,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1919D",
+  "hydro_meta": {
+    "page_title": "01 Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "data structures",
+      "divide and conquer",
+      "greedy",
+      "implementation",
+      "sortings",
+      "trees",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

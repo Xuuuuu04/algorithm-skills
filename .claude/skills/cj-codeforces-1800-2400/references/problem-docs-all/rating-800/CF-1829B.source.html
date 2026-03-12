@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414415:1QLzL2bKX1ZdJTt2kKlx1OrYHhZKzcqKcZJ7pQu8wPI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1829B Blank Space - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1829B","type":"CF","title":"Blank Space","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":661,"totalAccepted":396,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Blank Space","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u6570\u7ec4 $a$\uff0c\u4e8c\u8fdb\u5236\u6570\u7ec4\u662f\u6307\u53ea\u5305\u542b $0$ \u548c $1$ \u7684\u6570\u7ec4\u3002\n\n\u201c\u7a7a\u767d\u533a\u95f4\u201d\u6307\u7684\u662f\u4e00\u6bb5\u8fde\u7eed\u7684\u3001\u53ea\u5305\u542b $0$ \u7684\u5143\u7d20\u7684\u533a\u95f4\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u627e\u51fa\u6700\u957f\u7a7a\u767d\u533a\u95f4\u7684\u957f\u5ea6\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 100$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570 $a_i$\uff08$0 \\leq a_i \\leq 1$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u957f\u7a7a\u767d\u533a\u95f4\u7684\u957f\u5ea6\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Blank Space","background":"","description":"You are given a binary array $ a $ of $ n $ elements, a binary array is an array consisting only of $ 0 $ s and $ 1 $ s.\n\nA blank space is a segment of consecutive elements consisting of only $ 0 $ s.\n\nYour task is to find the length of the longest blank space.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 1000 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains a single integer $ n $ ( $ 1 \\leq n \\leq 100 $ ) \u2014 the length of the array.\n\nThe second line of each test case contains $ n $ space-separated integers $ a_i $ ( $ 0 \\leq a_i \\leq 1 $ ) \u2014 the elements of the array.","formatO":"For each test case, output a single integer \u2014 the length of the longest blank space.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n5\n1 0 0 1 0\n4\n0 1 1 1\n1\n0\n3\n1 1 1\n9\n1 0 0 0 1 0 0 0 1","2\n1\n1\n0\n3"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1829B","link":"https:\/\/codeforces.com\/problemset\/problem\/1829\/B"},"translation":"# \u9898\u610f\u7b80\u8ff0\n\u672c\u9898\u6709 $t$ \u7ec4\u6570\u636e\u3002\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u5c06\u4f1a\u7ed9\u51fa\u4e00\u4e2a\u6b63\u6574\u6570 $n$ \u548c\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5e8f\u5217 $A$\u3002\n\n\u5e8f\u5217 $A$ \u4e2d\u7684\u6bcf\u4e2a\u6570\u5b57\u53ea\u4f1a\u662f $0$ \u6216 $1$\u3002\n\n\u73b0\u5728\uff0c\u8bf7\u4f60\u6c42\u51fa\u6bcf\u7ec4\u6570\u636e\u4e2d\u7684\u5e8f\u5217 $A$ \u7684\u6700\u957f\u7684\u8fde\u7eed\u7684\u4e00\u6bb5 $0$ \u7684\u957f\u5ea6\u3002\n\nTranslate by @[tianbiandeshenghuo11](\/user\/752485)"},"translations":{"en":{"name":"Blank Space","background":"","description":"You are given a binary array $ a $ of $ n $ elements, a binary array is an array consisting only of $ 0 $ s and $ 1 $ s.\n\nA blank space is a segment of consecutive elements consisting of only $ 0 $ s.\n\nYour task is to find the length of the longest blank space.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 1000 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains a single integer $ n $ ( $ 1 \\leq n \\leq 100 $ ) \u2014 the length of the array.\n\nThe second line of each test case contains $ n $ space-separated integers $ a_i $ ( $ 0 \\leq a_i \\leq 1 $ ) \u2014 the elements of the array.","formatO":"For each test case, output a single integer \u2014 the length of the longest blank space.","hint":"","locale":"en"},"zh-CN":{"name":"Blank Space","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u6570\u7ec4 $a$\uff0c\u4e8c\u8fdb\u5236\u6570\u7ec4\u662f\u6307\u53ea\u5305\u542b $0$ \u548c $1$ \u7684\u6570\u7ec4\u3002\n\n\u201c\u7a7a\u767d\u533a\u95f4\u201d\u6307\u7684\u662f\u4e00\u6bb5\u8fde\u7eed\u7684\u3001\u53ea\u5305\u542b $0$ \u7684\u5143\u7d20\u7684\u533a\u95f4\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u627e\u51fa\u6700\u957f\u7a7a\u767d\u533a\u95f4\u7684\u957f\u5ea6\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 100$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570 $a_i$\uff08$0 \\leq a_i \\leq 1$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u957f\u7a7a\u767d\u533a\u95f4\u7684\u957f\u5ea6\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1829B Blank Space","type":2,"slug":"CF1829B","color":"orange-3"},"discussions":[{"id":605180,"title":"\u8fd9\u6761\u4ee3\u7801\u600e\u4e48\u4f1a\u9519","author":{"uid":857173,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/857173.png","name":"SandWave2023","slogan":"afo. || INFP || ZJ\u751f\u7c73 || \u5df2\u9000\u5f79\uff0c\u4e0d\u5e38\u767b\u5f55","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":3,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/dixyvhlx.png"},"time":1683434038}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328014.939361,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1829B Blank Space","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u4e8c\u8fdb\u5236\u6570\u7ec4 a\uff0c\u4e8c\u8fdb\u5236\u6570\u7ec4\u662f\u6307\u53ea\u5305\u542b 0 \u548c 1 \u7684\u6570\u7ec4\u3002\n\u201c\u7a7a\u767d\u533a\u95f4\u201d\u6307\u7684\u662f\u4e00\u6bb5\u8fde\u7eed\u7684\u3001\u53ea\u5305\u542b 0 \u7684\u5143\u7d20\u7684\u533a\u95f4\u3002\n\u4f60\u7684\u4efb\u52a1\u662f\u627e\u51fa\u6700\u957f\u7a7a\u767d\u533a\u95f4\u7684\u957f\u5ea6\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1829B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1829B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1829B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1829B Blank Space" />
+    <meta property="og:description" content="给定一个长度为 n 的二进制数组 a，二进制数组是指只包含 0 和 1 的数组。
+“空白区间”指的是一段连续的、只包含 0 的元素的区间。
+你的任务是找出最长空白区间的长度。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1829B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1829B Blank Space</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个长度为 $n$ 的二进制数组 $a$，二进制数组是指只包含 $0$ 和 $1$ 的数组。
+
+“空白区间”指的是一段连续的、只包含 $0$ 的元素的区间。
+
+你的任务是找出最长空白区间的长度。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 1000$），表示测试用例的数量。
+
+每个测试用例的第一行包含一个整数 $n$（$1 \leq n \leq 100$），表示数组的长度。
+
+每个测试用例的第二行包含 $n$ 个用空格分隔的整数 $a_i$（$0 \leq a_i \leq 1$），表示数组的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示最长空白区间的长度。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

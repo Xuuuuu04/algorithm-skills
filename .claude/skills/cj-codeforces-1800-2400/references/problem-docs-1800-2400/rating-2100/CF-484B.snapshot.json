@@ -1,0 +1,38 @@
+{
+  "id": "CF-484B",
+  "contest_id": 484,
+  "index": "B",
+  "name": "Maximum Value",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "math",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/484/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/484/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/484/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=484B%20Maximum Value%20tutorial",
+  "solved_count": 7663,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P484B",
+  "hydro_meta": {
+    "page_title": "Maximum Value - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "math",
+      "sortings",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

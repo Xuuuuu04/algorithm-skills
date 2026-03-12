@@ -1,0 +1,29 @@
+{
+  "id": "CF-1355B",
+  "contest_id": 1355,
+  "index": "B",
+  "name": "Young Explorers",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 27247,
+  "problem_url": "https://codeforces.com/problemset/problem/1355/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1355/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1355/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1355B%20Young%20Explorers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1355/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1355B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

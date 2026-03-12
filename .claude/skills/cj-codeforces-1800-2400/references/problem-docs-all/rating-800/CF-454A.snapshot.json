@@ -1,0 +1,27 @@
+{
+  "id": "CF-454A",
+  "contest_id": 454,
+  "index": "A",
+  "name": "Little Pony and Crystal Mine",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 16031,
+  "problem_url": "https://codeforces.com/problemset/problem/454/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/454/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/454/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=454A%20Little%20Pony%20and%20Crystal%20Mine%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF454A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF454A Little Pony and Crystal Mine - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 264,
+    "mirror_attempt": 439,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-1070B",
+  "contest_id": 1070,
+  "index": "B",
+  "name": "Berkomnadzor",
+  "rating": 2400,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1070/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1070/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1070/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1070B%20Berkomnadzor%20tutorial",
+  "solved_count": 677,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1070B",
+  "hydro_meta": {
+    "page_title": "Berkomnadzor - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "greedy",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

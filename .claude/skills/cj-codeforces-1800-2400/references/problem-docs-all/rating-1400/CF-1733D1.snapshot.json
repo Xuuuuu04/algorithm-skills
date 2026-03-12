@@ -1,0 +1,32 @@
+{
+  "id": "CF-1733D1",
+  "contest_id": 1733,
+  "index": "D1",
+  "name": "Zero-One (Easy Version)",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 14920,
+  "problem_url": "https://codeforces.com/problemset/problem/1733/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1733/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1733/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1733D1%20Zero-One%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1733D1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Zero-One (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

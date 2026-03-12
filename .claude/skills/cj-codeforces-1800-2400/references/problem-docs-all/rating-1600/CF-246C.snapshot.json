@@ -1,0 +1,29 @@
+{
+  "id": "CF-246C",
+  "contest_id": 246,
+  "index": "C",
+  "name": "Beauty Pageant",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 2809,
+  "problem_url": "https://codeforces.com/problemset/problem/246/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/246/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/246/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=246C%20Beauty%20Pageant%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/246/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 246C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

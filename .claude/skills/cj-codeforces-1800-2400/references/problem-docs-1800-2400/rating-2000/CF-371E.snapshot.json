@@ -1,0 +1,36 @@
+{
+  "id": "CF-371E",
+  "contest_id": 371,
+  "index": "E",
+  "name": "Subway Innovation",
+  "rating": 2000,
+  "tags": [
+    "greedy",
+    "math",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/371/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/371/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/371/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=371E%20Subway Innovation%20tutorial",
+  "solved_count": 1418,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P371E",
+  "hydro_meta": {
+    "page_title": "Subway Innovation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "math",
+      "two pointers",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

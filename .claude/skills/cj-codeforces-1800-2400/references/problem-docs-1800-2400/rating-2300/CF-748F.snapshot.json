@@ -1,0 +1,39 @@
+{
+  "id": "CF-748F",
+  "contest_id": 748,
+  "index": "F",
+  "name": "Santa Clauses and a Soccer Championship",
+  "rating": 2300,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/748/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/748/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/748/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=748F%20Santa Clauses and a Soccer Championship%20tutorial",
+  "solved_count": 703,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P748F",
+  "hydro_meta": {
+    "page_title": "Santa Clauses and a Soccer Championship - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

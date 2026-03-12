@@ -1,0 +1,31 @@
+{
+  "id": "CF-2026D",
+  "contest_id": 2026,
+  "index": "D",
+  "name": "Sums of Segments",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 5696,
+  "problem_url": "https://codeforces.com/problemset/problem/2026/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2026/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2026/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2026D%20Sums%20of%20Segments%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2026D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2026D Sums of Segments - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1922F",
+  "contest_id": 1922,
+  "index": "F",
+  "name": "Replace on Segment",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "graph matchings"
+  ],
+  "solved_count": 1730,
+  "problem_url": "https://codeforces.com/problemset/problem/1922/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1922/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1922/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1922F%20Replace%20on%20Segment%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1922F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1922F Replace on Segment - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 348,
+    "mirror_attempt": 647,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

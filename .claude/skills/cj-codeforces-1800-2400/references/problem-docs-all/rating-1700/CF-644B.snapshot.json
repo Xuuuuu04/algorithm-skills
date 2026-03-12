@@ -1,0 +1,36 @@
+{
+  "id": "CF-644B",
+  "contest_id": 644,
+  "index": "B",
+  "name": "Processing Queries",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "*special",
+    "constructive algorithms",
+    "data structures",
+    "two pointers"
+  ],
+  "solved_count": 2826,
+  "problem_url": "https://codeforces.com/problemset/problem/644/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/644/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/644/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=644B%20Processing%20Queries%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P644B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Processing Queries - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "constructive algorithms",
+      "data structures",
+      "two pointers",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

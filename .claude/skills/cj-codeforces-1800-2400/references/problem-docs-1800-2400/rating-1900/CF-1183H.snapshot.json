@@ -1,0 +1,34 @@
+{
+  "id": "CF-1183H",
+  "contest_id": 1183,
+  "index": "H",
+  "name": "Subsequences (hard version)",
+  "rating": 1900,
+  "tags": [
+    "dp",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1183/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1183/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1183/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1183H%20Subsequences (hard version)%20tutorial",
+  "solved_count": 3601,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1183H",
+  "hydro_meta": {
+    "page_title": "Subsequences (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "strings",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

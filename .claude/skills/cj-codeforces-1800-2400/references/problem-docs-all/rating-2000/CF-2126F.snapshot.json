@@ -1,0 +1,32 @@
+{
+  "id": "CF-2126F",
+  "contest_id": 2126,
+  "index": "F",
+  "name": "1-1-1, Free Tree!",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "graphs",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 4210,
+  "problem_url": "https://codeforces.com/problemset/problem/2126/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2126/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2126/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2126F%201-1-1%2C%20Free%20Tree%21%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2126/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2126F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

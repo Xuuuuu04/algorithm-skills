@@ -1,0 +1,32 @@
+{
+  "id": "CF-1260B",
+  "contest_id": 1260,
+  "index": "B",
+  "name": "Obtain Two Zeroes",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "math"
+  ],
+  "solved_count": 16609,
+  "problem_url": "https://codeforces.com/problemset/problem/1260/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1260/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1260/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1260B%20Obtain%20Two%20Zeroes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1260B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Obtain Two Zeroes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "math",
+      "*1300"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

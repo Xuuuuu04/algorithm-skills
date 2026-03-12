@@ -1,0 +1,28 @@
+{
+  "id": "CF-486A",
+  "contest_id": 486,
+  "index": "A",
+  "name": "Calculating Function",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 150424,
+  "problem_url": "https://codeforces.com/problemset/problem/486/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/486/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/486/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=486A%20Calculating%20Function%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF486A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF486A Calculating Function - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 655,
+    "mirror_attempt": 1569,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

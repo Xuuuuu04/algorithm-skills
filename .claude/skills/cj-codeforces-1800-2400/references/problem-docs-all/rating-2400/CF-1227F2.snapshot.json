@@ -1,0 +1,28 @@
+{
+  "id": "CF-1227F2",
+  "contest_id": 1227,
+  "index": "F2",
+  "name": "Wrong Answer on test 233 (Hard Version)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 1881,
+  "problem_url": "https://codeforces.com/problemset/problem/1227/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1227/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1227/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1227F2%20Wrong%20Answer%20on%20test%20233%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1227/F2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1227F2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

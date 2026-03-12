@@ -1,0 +1,27 @@
+{
+  "id": "CF-1678A",
+  "contest_id": 1678,
+  "index": "A",
+  "name": "Tokitsukaze and All Zero Sequence",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 18916,
+  "problem_url": "https://codeforces.com/problemset/problem/1678/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1678/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1678/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1678A%20Tokitsukaze%20and%20All%20Zero%20Sequence%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1678A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1678A Tokitsukaze and All Zero Sequence - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 161,
+    "mirror_attempt": 348,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

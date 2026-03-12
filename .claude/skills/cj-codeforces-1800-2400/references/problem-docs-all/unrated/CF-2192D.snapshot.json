@@ -1,0 +1,29 @@
+{
+  "id": "CF-2192D",
+  "contest_id": 2192,
+  "index": "D",
+  "name": "Cost of Tree",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 2916,
+  "problem_url": "https://codeforces.com/problemset/problem/2192/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2192/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2192/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2192D%20Cost%20of%20Tree%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2192/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2192D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

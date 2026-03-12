@@ -1,0 +1,36 @@
+{
+  "id": "CF-457F",
+  "contest_id": 457,
+  "index": "F",
+  "name": "An easy problem about trees",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "dp",
+    "games",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 126,
+  "problem_url": "https://codeforces.com/problemset/problem/457/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/457/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/457/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=457F%20An%20easy%20problem%20about%20trees%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P457F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "An easy problem about trees - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "games",
+      "greedy",
+      "trees",
+      "*3200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

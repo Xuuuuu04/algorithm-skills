@@ -1,0 +1,28 @@
+{
+  "id": "CF-1431D",
+  "contest_id": 1431,
+  "index": "D",
+  "name": "Used Markers",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "greedy"
+  ],
+  "solved_count": 486,
+  "problem_url": "https://codeforces.com/problemset/problem/1431/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1431/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1431/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1431D%20Used%20Markers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1431/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1431D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-2135E1",
+  "contest_id": 2135,
+  "index": "E1",
+  "name": "Beyond the Palindrome (Easy Version)",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 213,
+  "problem_url": "https://codeforces.com/problemset/problem/2135/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2135/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2135/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2135E1%20Beyond%20the%20Palindrome%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2135E1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Beyond the Palindrome (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-1335A",
+  "contest_id": 1335,
+  "index": "A",
+  "name": "Candies and Two Sisters",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 102983,
+  "problem_url": "https://codeforces.com/problemset/problem/1335/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1335/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1335/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1335A%20Candies%20and%20Two%20Sisters%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1335A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1335A Candies and Two Sisters - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 404,
+    "mirror_attempt": 690,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

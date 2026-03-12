@@ -1,0 +1,27 @@
+{
+  "id": "CF-1216D",
+  "contest_id": 1216,
+  "index": "D",
+  "name": "Swords",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 12104,
+  "problem_url": "https://codeforces.com/problemset/problem/1216/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1216/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1216/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1216D%20Swords%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1216/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1216D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-513G2",
+  "contest_id": 513,
+  "index": "G2",
+  "name": "Inversions problem",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 5.0,
+  "tags": [
+    "dp",
+    "probabilities"
+  ],
+  "solved_count": 720,
+  "problem_url": "https://codeforces.com/problemset/problem/513/G2",
+  "answer_index_url": "https://codeforces.com/problemset/status/513/problem/G2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/513/problem/G2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=513G2%20Inversions%20problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P513G2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Inversions problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "probabilities",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

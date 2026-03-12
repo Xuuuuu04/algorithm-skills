@@ -1,0 +1,29 @@
+{
+  "id": "CF-1883F",
+  "contest_id": 1883,
+  "index": "F",
+  "name": "You Are So Beautiful",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 11709,
+  "problem_url": "https://codeforces.com/problemset/problem/1883/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1883/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1883/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1883F%20You%20Are%20So%20Beautiful%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1883F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "You Are So Beautiful - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CF-1257E",
+  "contest_id": 1257,
+  "index": "E",
+  "name": "The Contest",
+  "rating": 2000,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1257/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1257/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1257/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1257E%20The Contest%20tutorial",
+  "solved_count": 4509,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1257E",
+  "hydro_meta": {
+    "page_title": "The Contest - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

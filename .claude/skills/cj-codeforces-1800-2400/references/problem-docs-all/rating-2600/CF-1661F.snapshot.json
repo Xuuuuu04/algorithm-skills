@@ -1,0 +1,30 @@
+{
+  "id": "CF-1661F",
+  "contest_id": 1661,
+  "index": "F",
+  "name": "Teleporters",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy"
+  ],
+  "solved_count": 787,
+  "problem_url": "https://codeforces.com/problemset/problem/1661/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1661/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1661/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1661F%20Teleporters%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1661F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Teleporters - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "7000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-784D",
+  "contest_id": 784,
+  "index": "D",
+  "name": "Touchy-Feely Palindromes",
+  "rating": 1900,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/784/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/784/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/784/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=784D%20Touchy-Feely Palindromes%20tutorial",
+  "solved_count": 498,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P784D",
+  "hydro_meta": {
+    "page_title": "Touchy-Feely Palindromes - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

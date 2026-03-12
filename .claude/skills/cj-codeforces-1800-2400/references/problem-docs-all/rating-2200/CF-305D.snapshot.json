@@ -1,0 +1,32 @@
+{
+  "id": "CF-305D",
+  "contest_id": 305,
+  "index": "D",
+  "name": "Olya and Graph",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 546,
+  "problem_url": "https://codeforces.com/problemset/problem/305/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/305/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/305/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=305D%20Olya%20and%20Graph%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P305D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Olya and Graph - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

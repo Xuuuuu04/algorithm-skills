@@ -1,0 +1,41 @@
+{
+  "id": "CF-765E",
+  "contest_id": 765,
+  "index": "E",
+  "name": "Tree Folding",
+  "rating": 2200,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "implementation",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/765/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/765/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/765/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=765E%20Tree Folding%20tutorial",
+  "solved_count": 1335,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P765E",
+  "hydro_meta": {
+    "page_title": "Tree Folding - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "implementation",
+      "trees",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

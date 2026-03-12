@@ -1,0 +1,29 @@
+{
+  "id": "CF-855B",
+  "contest_id": 855,
+  "index": "B",
+  "name": "Marvolo Gaunt's Ring",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 9829,
+  "problem_url": "https://codeforces.com/problemset/problem/855/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/855/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/855/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=855B%20Marvolo%20Gaunt%27s%20Ring%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/855/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 855B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

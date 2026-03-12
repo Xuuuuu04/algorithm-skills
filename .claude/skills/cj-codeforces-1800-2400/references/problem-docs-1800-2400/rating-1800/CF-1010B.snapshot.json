@@ -1,0 +1,33 @@
+{
+  "id": "CF-1010B",
+  "contest_id": 1010,
+  "index": "B",
+  "name": "Rocket",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1010/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1010/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1010/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1010B%20Rocket%20tutorial",
+  "solved_count": 6294,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1010B",
+  "hydro_meta": {
+    "page_title": "Rocket - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "interactive",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1810D",
+  "contest_id": 1810,
+  "index": "D",
+  "name": "Climbing the Tree",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "binary search",
+    "math"
+  ],
+  "solved_count": 8464,
+  "problem_url": "https://codeforces.com/problemset/problem/1810/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1810/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1810/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1810D%20Climbing%20the%20Tree%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1810D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1810D Climbing the Tree - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 182,
+    "mirror_attempt": 496,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

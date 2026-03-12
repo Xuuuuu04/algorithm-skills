@@ -1,0 +1,28 @@
+{
+  "id": "CF-59E",
+  "contest_id": 59,
+  "index": "E",
+  "name": "Shortest Path",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 4661,
+  "problem_url": "https://codeforces.com/problemset/problem/59/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/59/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/59/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=59E%20Shortest%20Path%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/59/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 59E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

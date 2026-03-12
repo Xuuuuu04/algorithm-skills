@@ -1,0 +1,32 @@
+{
+  "id": "CF-770D",
+  "contest_id": 770,
+  "index": "D",
+  "name": "Draw Brackets!",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 1624,
+  "problem_url": "https://codeforces.com/problemset/problem/770/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/770/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/770/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=770D%20Draw%20Brackets%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P770D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Draw Brackets! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "implementation",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

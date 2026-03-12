@@ -1,0 +1,30 @@
+{
+  "id": "CF-1584D",
+  "contest_id": 1584,
+  "index": "D",
+  "name": "Guess the Permutation",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "combinatorics",
+    "interactive",
+    "math"
+  ],
+  "solved_count": 3963,
+  "problem_url": "https://codeforces.com/problemset/problem/1584/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1584/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1584/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1584D%20Guess%20the%20Permutation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1584/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1584D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-933C",
+  "contest_id": 933,
+  "index": "C",
+  "name": "A Colourful Prospect",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "geometry",
+    "graphs"
+  ],
+  "solved_count": 636,
+  "problem_url": "https://codeforces.com/problemset/problem/933/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/933/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/933/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=933C%20A%20Colourful%20Prospect%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P933C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "A Colourful Prospect - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "graphs",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

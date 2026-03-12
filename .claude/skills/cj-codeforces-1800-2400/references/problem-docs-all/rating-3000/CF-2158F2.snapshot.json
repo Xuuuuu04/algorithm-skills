@@ -1,0 +1,38 @@
+{
+  "id": "CF-2158F2",
+  "contest_id": 2158,
+  "index": "F2",
+  "name": "Distinct GCDs (Hard Version)",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "graphs",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 196,
+  "problem_url": "https://codeforces.com/problemset/problem/2158/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2158/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2158/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2158F2%20Distinct%20GCDs%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2158F2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Distinct GCDs (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "number theory",
+      "*3000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

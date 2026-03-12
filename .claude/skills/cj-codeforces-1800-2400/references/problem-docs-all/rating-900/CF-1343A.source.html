@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417191:NxWeAfsXscG95PAesLc8m0485ZeYX8wb0ANErixS7Ds=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1343A Candies - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1343A","type":"CF","title":"Candies","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":292,"totalAccepted":187,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Candies","background":null,"description":"\u6700\u8fd1 Vova \u627e\u5230\u4e86 $n$ \u4e2a\u7cd6\u679c\u5305\u88c5\u7eb8\u3002\u4ed6\u8bb0\u5f97\u81ea\u5df1\u5728\u7b2c\u4e00\u5929\u4e70\u4e86 $x$ \u4e2a\u7cd6\u679c\uff0c\u7b2c\u4e8c\u5929\u4e70\u4e86 $2x$ \u4e2a\uff0c\u7b2c\u4e09\u5929\u4e70\u4e86 $4x$ \u4e2a\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff0c\u7b2c $k$ \u5929\u4e70\u4e86 $2^{k-1}x$ \u4e2a\u7cd6\u679c\u3002\u4f46\u95ee\u9898\u662f\uff1aVova \u65e2\u4e0d\u8bb0\u5f97 $x$\uff0c\u4e5f\u4e0d\u8bb0\u5f97 $k$\uff0c\u4f46\u4ed6\u786e\u5b9a $x$ \u548c $k$ \u90fd\u662f\u6b63\u6574\u6570\uff0c\u5e76\u4e14 $k \u003E 1$\u3002\n\n\u5982\u679c\u4f60\u80fd\u544a\u8bc9 Vova \u4efb\u610f\u4e00\u4e2a\u6b63\u6574\u6570 $x$\uff0c\u4f7f\u5f97\u5b58\u5728\u6574\u6570 $k\u003E1$ \u6ee1\u8db3 $x + 2x + 4x + \\dots + 2^{k-1}x = n$\uff0c\u4ed6\u5c31\u4f1a\u6ee1\u610f\u3002\u4fdd\u8bc1\u81f3\u5c11\u5b58\u5728\u4e00\u4e2a\u89e3\u3002\u6ce8\u610f $k \u003E 1$\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u7ec4\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 10^9$\uff09\uff0c\u8868\u793a Vova \u627e\u5230\u7684\u7cd6\u679c\u5305\u88c5\u7eb8\u7684\u6570\u91cf\u3002\u4fdd\u8bc1\u5bf9\u4e8e\u6bcf\u4e2a $n$\uff0c\u90fd\u5b58\u5728\u6b63\u6574\u6570 $x$ \u548c\u6574\u6570 $k\u003E1$ \u4f7f\u5f97 $x + 2x + 4x + \\dots + 2^{k-1}x = n$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6b63\u6574\u6570 $x$\uff0c\u4f7f\u5f97\u5b58\u5728\u6574\u6570 $k\u003E1$ \u6ee1\u8db3 $x + 2x + 4x + \\dots + 2^{k-1}x = n$\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=1, k=2$\u3002\u6b64\u65f6 $1 \\cdot 1 + 2 \\cdot 1 = n=3$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=2, k=2$\u3002\u6b64\u65f6 $1 \\cdot 2 + 2 \\cdot 2 = n=6$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=1, k=3$\u3002\u6b64\u65f6 $1 \\cdot 1 + 2 \\cdot 1 + 4 \\cdot 1 = n=7$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=7, k=2$\u3002\u6b64\u65f6 $1 \\cdot 7 + 2 \\cdot 7 = n=21$\u3002\n\n\u5728\u7b2c\u4e94\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=4, k=3$\u3002\u6b64\u65f6 $1 \\cdot 4 + 2 \\cdot 4 + 4 \\cdot 4 = n=28$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Candies","background":"","description":"Recently Vova found $ n $ candy wrappers. He remembers that he bought $ x $ candies during the first day, $ 2x $ candies during the second day, $ 4x $ candies during the third day, $ \\dots $ , $ 2^{k-1} x $ candies during the $ k $ -th day. But there is an issue: Vova remembers neither $ x $ nor $ k $ but he is sure that $ x $ and $ k $ are positive integers and $ k \u003E 1 $ .\n\nVova will be satisfied if you tell him any positive integer $ x $ so there is an integer $ k\u003E1 $ that $ x + 2x + 4x + \\dots +       2^{k-1} x = n $ . It is guaranteed that at least one solution exists. Note that $ k \u003E 1 $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1       \\le t \\le 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe only line of the test case contains one integer $ n $ ( $ 3       \\le n \\le 10^9 $ ) \u2014 the number of candy wrappers Vova found. It is guaranteed that there is some positive integer $ x $ and integer $ k\u003E1 $ that $ x + 2x + 4x + \\dots + 2^{k-1} x = n $ .","formatO":"Print one integer \u2014 any positive integer value of $x$ so there is an integer $k\u003E1$ that $x+2x+4x+\u22ef+2^{k-1}x=n$.","hint":"In the first test case of the example, one of the possible answers is $ x=1, k=2 $ . Then $ 1 \\cdot 1 + 2 \\cdot 1 $ equals $ n=3 $ .\n\nIn the second test case of the example, one of the possible answers is $ x=2, k=2 $ . Then $ 1 \\cdot 2 + 2 \\cdot 2 $ equals $ n=6 $ .\n\nIn the third test case of the example, one of the possible answers is $ x=1, k=3 $ . Then $ 1 \\cdot 1 + 2 \\cdot 1 + 4 \\cdot       1 $ equals $ n=7 $ .\n\nIn the fourth test case of the example, one of the possible answers is $ x=7, k=2 $ . Then $ 1 \\cdot 7 + 2 \\cdot 7 $ equals $ n=21 $ .\n\nIn the fifth test case of the example, one of the possible answers is $ x=4, k=3 $ . Then $ 1 \\cdot 4 + 2 \\cdot 4 + 4 \\cdot       4 $ equals $ n=28 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\n3\n6\n7\n21\n28\n999999999\n999999984","1\n2\n1\n7\n4\n333333333\n333333328"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1343A","link":"https:\/\/codeforces.com\/problemset\/problem\/1343\/A"},"translation":"\u5bf9\u4e8e\u7ed9\u5b9a\u7684 $t$ \u4e2a $n$ \uff0c\u5404\u6c42\u51fa\u4e00\u4e2a\u6b63\u6574\u6570 $x$ \u4f7f\u5f97\u5b58\u5728\u4e00\u4e2a $k\u003E1$ \u6ee1\u8db3 $x + 2x + 4x + \\dots + 2^{k-1}x = n$ \u3002"},"translations":{"en":{"name":"Candies","background":"","description":"Recently Vova found $ n $ candy wrappers. He remembers that he bought $ x $ candies during the first day, $ 2x $ candies during the second day, $ 4x $ candies during the third day, $ \\dots $ , $ 2^{k-1} x $ candies during the $ k $ -th day. But there is an issue: Vova remembers neither $ x $ nor $ k $ but he is sure that $ x $ and $ k $ are positive integers and $ k \u003E 1 $ .\n\nVova will be satisfied if you tell him any positive integer $ x $ so there is an integer $ k\u003E1 $ that $ x + 2x + 4x + \\dots +       2^{k-1} x = n $ . It is guaranteed that at least one solution exists. Note that $ k \u003E 1 $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1       \\le t \\le 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe only line of the test case contains one integer $ n $ ( $ 3       \\le n \\le 10^9 $ ) \u2014 the number of candy wrappers Vova found. It is guaranteed that there is some positive integer $ x $ and integer $ k\u003E1 $ that $ x + 2x + 4x + \\dots + 2^{k-1} x = n $ .","formatO":"Print one integer \u2014 any positive integer value of $x$ so there is an integer $k\u003E1$ that $x+2x+4x+\u22ef+2^{k-1}x=n$.","hint":"In the first test case of the example, one of the possible answers is $ x=1, k=2 $ . Then $ 1 \\cdot 1 + 2 \\cdot 1 $ equals $ n=3 $ .\n\nIn the second test case of the example, one of the possible answers is $ x=2, k=2 $ . Then $ 1 \\cdot 2 + 2 \\cdot 2 $ equals $ n=6 $ .\n\nIn the third test case of the example, one of the possible answers is $ x=1, k=3 $ . Then $ 1 \\cdot 1 + 2 \\cdot 1 + 4 \\cdot       1 $ equals $ n=7 $ .\n\nIn the fourth test case of the example, one of the possible answers is $ x=7, k=2 $ . Then $ 1 \\cdot 7 + 2 \\cdot 7 $ equals $ n=21 $ .\n\nIn the fifth test case of the example, one of the possible answers is $ x=4, k=3 $ . Then $ 1 \\cdot 4 + 2 \\cdot 4 + 4 \\cdot       4 $ equals $ n=28 $ .","locale":"en"},"zh-CN":{"name":"Candies","background":null,"description":"\u6700\u8fd1 Vova \u627e\u5230\u4e86 $n$ \u4e2a\u7cd6\u679c\u5305\u88c5\u7eb8\u3002\u4ed6\u8bb0\u5f97\u81ea\u5df1\u5728\u7b2c\u4e00\u5929\u4e70\u4e86 $x$ \u4e2a\u7cd6\u679c\uff0c\u7b2c\u4e8c\u5929\u4e70\u4e86 $2x$ \u4e2a\uff0c\u7b2c\u4e09\u5929\u4e70\u4e86 $4x$ \u4e2a\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff0c\u7b2c $k$ \u5929\u4e70\u4e86 $2^{k-1}x$ \u4e2a\u7cd6\u679c\u3002\u4f46\u95ee\u9898\u662f\uff1aVova \u65e2\u4e0d\u8bb0\u5f97 $x$\uff0c\u4e5f\u4e0d\u8bb0\u5f97 $k$\uff0c\u4f46\u4ed6\u786e\u5b9a $x$ \u548c $k$ \u90fd\u662f\u6b63\u6574\u6570\uff0c\u5e76\u4e14 $k \u003E 1$\u3002\n\n\u5982\u679c\u4f60\u80fd\u544a\u8bc9 Vova \u4efb\u610f\u4e00\u4e2a\u6b63\u6574\u6570 $x$\uff0c\u4f7f\u5f97\u5b58\u5728\u6574\u6570 $k\u003E1$ \u6ee1\u8db3 $x + 2x + 4x + \\dots + 2^{k-1}x = n$\uff0c\u4ed6\u5c31\u4f1a\u6ee1\u610f\u3002\u4fdd\u8bc1\u81f3\u5c11\u5b58\u5728\u4e00\u4e2a\u89e3\u3002\u6ce8\u610f $k \u003E 1$\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u7ec4\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 10^9$\uff09\uff0c\u8868\u793a Vova \u627e\u5230\u7684\u7cd6\u679c\u5305\u88c5\u7eb8\u7684\u6570\u91cf\u3002\u4fdd\u8bc1\u5bf9\u4e8e\u6bcf\u4e2a $n$\uff0c\u90fd\u5b58\u5728\u6b63\u6574\u6570 $x$ \u548c\u6574\u6570 $k\u003E1$ \u4f7f\u5f97 $x + 2x + 4x + \\dots + 2^{k-1}x = n$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6b63\u6574\u6570 $x$\uff0c\u4f7f\u5f97\u5b58\u5728\u6574\u6570 $k\u003E1$ \u6ee1\u8db3 $x + 2x + 4x + \\dots + 2^{k-1}x = n$\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=1, k=2$\u3002\u6b64\u65f6 $1 \\cdot 1 + 2 \\cdot 1 = n=3$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=2, k=2$\u3002\u6b64\u65f6 $1 \\cdot 2 + 2 \\cdot 2 = n=6$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=1, k=3$\u3002\u6b64\u65f6 $1 \\cdot 1 + 2 \\cdot 1 + 4 \\cdot 1 = n=7$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=7, k=2$\u3002\u6b64\u65f6 $1 \\cdot 7 + 2 \\cdot 7 = n=21$\u3002\n\n\u5728\u7b2c\u4e94\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f $x=4, k=3$\u3002\u6b64\u65f6 $1 \\cdot 4 + 2 \\cdot 4 + 4 \\cdot 4 = n=28$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1343A Candies","type":2,"slug":"CF1343A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330791.370937,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1343A Candies","description":"\u6700\u8fd1 Vova \u627e\u5230\u4e86 n \u4e2a\u7cd6\u679c\u5305\u88c5\u7eb8\u3002\u4ed6\u8bb0\u5f97\u81ea\u5df1\u5728\u7b2c\u4e00\u5929\u4e70\u4e86 x \u4e2a\u7cd6\u679c\uff0c\u7b2c\u4e8c\u5929\u4e70\u4e86 2x \u4e2a\uff0c\u7b2c\u4e09\u5929\u4e70\u4e86 4x \u4e2a\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff0c\u7b2c k \u5929\u4e70\u4e86 2^{k-1}x \u4e2a\u7cd6\u679c\u3002\u4f46\u95ee\u9898\u662f\uff1aVova \u65e2\u4e0d\u8bb0\u5f97 x\uff0c\u4e5f\u4e0d\u8bb0\u5f97 k\uff0c\u4f46\u4ed6\u786e\u5b9a x \u548c\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1343A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1343A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1343A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1343A Candies" />
+    <meta property="og:description" content="最近 Vova 找到了 n 个糖果包装纸。他记得自己在第一天买了 x 个糖果，第二天买了 2x 个，第三天买了 4x 个，依此类推，第 k 天买了 2^{k-1}x 个糖果。但问题是：Vova 既不记得 x，也不记得 k，但他确定 x 和…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1343A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1343A Candies</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    最近 Vova 找到了 $n$ 个糖果包装纸。他记得自己在第一天买了 $x$ 个糖果，第二天买了 $2x$ 个，第三天买了 $4x$ 个，依此类推，第 $k$ 天买了 $2^{k-1}x$ 个糖果。但问题是：Vova 既不记得 $x$，也不记得 $k$，但他确定 $x$ 和 $k$ 都是正整数，并且 $k > 1$。
+
+如果你能告诉 Vova 任意一个正整数 $x$，使得存在整数 $k>1$ 满足 $x + 2x + 4x + \dots + 2^{k-1}x = n$，他就会满意。保证至少存在一个解。注意 $k > 1$。
+
+你需要回答 $t$ 组独立的测试用例。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $t$（$1 \le t \le 10^4$），表示测试用例的数量。接下来 $t$ 行，每行一个整数 $n$（$3 \le n \le 10^9$），表示 Vova 找到的糖果包装纸的数量。保证对于每个 $n$，都存在正整数 $x$ 和整数 $k>1$ 使得 $x + 2x + 4x + \dots + 2^{k-1}x = n$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个正整数 $x$，使得存在整数 $k>1$ 满足 $x + 2x + 4x + \dots + 2^{k-1}x = n$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，一个可能的答案是 $x=1, k=2$。此时 $1 \cdot 1 + 2 \cdot 1 = n=3$。
+
+在第二个样例中，一个可能的答案是 $x=2, k=2$。此时 $1 \cdot 2 + 2 \cdot 2 = n=6$。
+
+在第三个样例中，一个可能的答案是 $x=1, k=3$。此时 $1 \cdot 1 + 2 \cdot 1 + 4 \cdot 1 = n=7$。
+
+在第四个样例中，一个可能的答案是 $x=7, k=2$。此时 $1 \cdot 7 + 2 \cdot 7 = n=21$。
+
+在第五个样例中，一个可能的答案是 $x=4, k=3$。此时 $1 \cdot 4 + 2 \cdot 4 + 4 \cdot 4 = n=28$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

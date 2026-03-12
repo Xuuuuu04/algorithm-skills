@@ -1,0 +1,34 @@
+{
+  "id": "CF-709B",
+  "contest_id": 709,
+  "index": "B",
+  "name": "Checkpoints",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 5001,
+  "problem_url": "https://codeforces.com/problemset/problem/709/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/709/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/709/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=709B%20Checkpoints%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P709B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Checkpoints - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

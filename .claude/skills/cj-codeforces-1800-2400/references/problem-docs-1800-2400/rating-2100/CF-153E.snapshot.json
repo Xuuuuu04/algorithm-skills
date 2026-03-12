@@ -1,0 +1,29 @@
+{
+  "id": "CF-153E",
+  "contest_id": 153,
+  "index": "E",
+  "name": "Euclidean Distance",
+  "rating": 2100,
+  "tags": [
+    "*special"
+  ],
+  "url": "https://codeforces.com/problemset/problem/153/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/153/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/153/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=153E%20Euclidean Distance%20tutorial",
+  "solved_count": 84,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P153E",
+  "hydro_meta": {
+    "page_title": "Euclidean Distance - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

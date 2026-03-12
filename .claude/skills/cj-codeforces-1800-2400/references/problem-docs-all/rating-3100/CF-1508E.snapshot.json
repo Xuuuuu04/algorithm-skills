@@ -1,0 +1,40 @@
+{
+  "id": "CF-1508E",
+  "contest_id": 1508,
+  "index": "E",
+  "name": "Tree Calendar",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "data structures",
+    "dfs and similar",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 387,
+  "problem_url": "https://codeforces.com/problemset/problem/1508/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1508/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1508/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1508E%20Tree%20Calendar%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1508E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Tree Calendar - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "data structures",
+      "dfs and similar",
+      "sortings",
+      "trees",
+      "*3100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

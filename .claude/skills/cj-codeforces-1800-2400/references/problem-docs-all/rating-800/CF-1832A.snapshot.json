@@ -1,0 +1,27 @@
+{
+  "id": "CF-1832A",
+  "contest_id": 1832,
+  "index": "A",
+  "name": "New Palindrome",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 28782,
+  "problem_url": "https://codeforces.com/problemset/problem/1832/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1832/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1832/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1832A%20New%20Palindrome%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1832A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1832A New Palindrome - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 224,
+    "mirror_attempt": 430,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1833C",
+  "contest_id": 1833,
+  "index": "C",
+  "name": "Vlad Building Beautiful Array",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 27780,
+  "problem_url": "https://codeforces.com/problemset/problem/1833/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1833/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1833/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1833C%20Vlad%20Building%20Beautiful%20Array%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1833C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1833C Vlad Building Beautiful Array - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 223,
+    "mirror_attempt": 362,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

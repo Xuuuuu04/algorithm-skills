@@ -1,0 +1,28 @@
+{
+  "id": "CF-835C",
+  "contest_id": 835,
+  "index": "C",
+  "name": "Star sky",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 9235,
+  "problem_url": "https://codeforces.com/problemset/problem/835/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/835/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/835/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=835C%20Star%20sky%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/835/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 835C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

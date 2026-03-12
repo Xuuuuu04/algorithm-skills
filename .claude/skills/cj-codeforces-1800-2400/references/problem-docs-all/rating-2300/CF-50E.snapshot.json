@@ -1,0 +1,30 @@
+{
+  "id": "CF-50E",
+  "contest_id": 50,
+  "index": "E",
+  "name": "Square Equation Roots",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 423,
+  "problem_url": "https://codeforces.com/problemset/problem/50/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/50/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/50/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=50E%20Square%20Equation%20Roots%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P50E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Square Equation Roots - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

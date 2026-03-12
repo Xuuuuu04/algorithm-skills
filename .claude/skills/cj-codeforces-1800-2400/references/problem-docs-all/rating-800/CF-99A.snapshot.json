@@ -1,0 +1,27 @@
+{
+  "id": "CF-99A",
+  "contest_id": 99,
+  "index": "A",
+  "name": "Help Far Away Kingdom",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 7640,
+  "problem_url": "https://codeforces.com/problemset/problem/99/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/99/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/99/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=99A%20Help%20Far%20Away%20Kingdom%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF99A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF99A Help Far Away Kingdom - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 236,
+    "mirror_attempt": 520,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

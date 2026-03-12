@@ -1,0 +1,27 @@
+{
+  "id": "CF-1092A",
+  "contest_id": 1092,
+  "index": "A",
+  "name": "Uniform String",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 17142,
+  "problem_url": "https://codeforces.com/problemset/problem/1092/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1092/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1092/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1092A%20Uniform%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1092A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1092A Uniform String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 226,
+    "mirror_attempt": 346,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

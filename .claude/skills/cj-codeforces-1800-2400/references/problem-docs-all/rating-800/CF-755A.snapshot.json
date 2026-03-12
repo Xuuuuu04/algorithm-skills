@@ -1,0 +1,30 @@
+{
+  "id": "CF-755A",
+  "contest_id": 755,
+  "index": "A",
+  "name": "PolandBall and Hypothesis",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "graphs",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 19642,
+  "problem_url": "https://codeforces.com/problemset/problem/755/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/755/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/755/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=755A%20PolandBall%20and%20Hypothesis%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/755/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 755A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

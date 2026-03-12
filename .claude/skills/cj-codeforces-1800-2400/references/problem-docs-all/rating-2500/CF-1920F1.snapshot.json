@@ -1,0 +1,33 @@
+{
+  "id": "CF-1920F1",
+  "contest_id": 1920,
+  "index": "F1",
+  "name": "Smooth Sailing (Easy Version)",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 1167,
+  "problem_url": "https://codeforces.com/problemset/problem/1920/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1920/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1920/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1920F1%20Smooth%20Sailing%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1920/F1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1920F1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "5 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

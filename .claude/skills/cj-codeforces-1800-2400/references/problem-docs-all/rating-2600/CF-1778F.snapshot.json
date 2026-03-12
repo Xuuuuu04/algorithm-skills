@@ -1,0 +1,36 @@
+{
+  "id": "CF-1778F",
+  "contest_id": 1778,
+  "index": "F",
+  "name": "Maximizing Root",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "math",
+    "number theory",
+    "trees"
+  ],
+  "solved_count": 846,
+  "problem_url": "https://codeforces.com/problemset/problem/1778/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1778/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1778/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1778F%20Maximizing%20Root%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1778F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Maximizing Root - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "graphs"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

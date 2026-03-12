@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415127:RXtlb1fsOVppsr8C/XHvFxRQeN+RZ2tBqzdWVKpA7pI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1739D Reset K Edges - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1739D","type":"CF","title":"Reset K Edges","difficulty":4,"tags":[],"wantsTranslation":false,"totalSubmit":438,"totalAccepted":263,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Reset K Edges","background":"","description":"\u7ed9\u4f60\u4e00\u68f5\u7531 $n$ \u4e2a\u70b9\u7ec4\u6210\u7684\u7f16\u53f7\u4e3a $1 \\sim n$ \u7684\u4ee5 $1$ \u4e3a\u6839\u7684\u6709\u6839\u6811\uff0c\u4f60\u53ef\u4ee5\u8fdb\u884c $k$ \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n- \u65ad\u5f00\u70b9 $u$ \u4e0e\u5176\u7236\u4eb2\u4e4b\u95f4\u7684\u8fb9\uff0c\u5e76\u8fde\u63a5\u70b9 $1$ \u4e0e\u70b9 $u$\u3002\n\n\u5b9a\u4e49\u6811\u7684\u9ad8\u5ea6\u4e3a\u6811\u4e0a\u70b9\u7684\u6df1\u5ea6\u7684\u6700\u5927\u503c\uff0c\u70b9\u7684\u6df1\u5ea6\u4e3a\u70b9\u5230\u6839\u7684\u8def\u5f84\u4e0a\u7ecf\u8fc7\u7684\u8fb9\u7684\u6570\u91cf\uff0c\u95ee $k$ \u6b21\u64cd\u4f5c\u540e\u6811\u7684\u9ad8\u5ea6\u7684\u6700\u5c0f\u503c\u4e3a\u591a\u5c11\u3002","formatI":"**\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e\u3002**  \n\u8f93\u5165\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $T$ \u8868\u793a\u6570\u636e\u7ec4\u6570\u3002  \n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6b63\u6574\u6570 $n$ \u548c $k$\uff0c\u8868\u793a\u6811\u7684\u5927\u5c0f\u548c\u64cd\u4f5c\u6b21\u6570\u3002  \n\u63a5\u4e0b\u4e00\u884c $n-1$ \u4e2a\u6b63\u6574\u6570 $p_2,p_3,\\cdots,p_n$\uff0c\u5176\u4e2d $p_i$ \u8868\u793a\u7b2c $i$ \u4e2a\u70b9\u7684\u7236\u4eb2\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u7b54\u6848\u3002","hint":"\u5bf9\u4e8e $100\\%$ \u7684\u6570\u636e\uff1a\n\n- $1 \\le T \\le 10^4$\n- $2 \\le n \\le 2 \\cdot 10^5,0 \\le k \\le n-1$\n- $\\forall i \\in [2,n],1 \\le p_i \u003C i$\n- \u6bcf\u7ec4\u6570\u636e\u7684 $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$","locale":"zh-CN"},"content":{"name":"Reset K Edges","background":"","description":"You are given a rooted tree, consisting of $ n $ vertices. The vertices are numbered from $ 1 $ to $ n $ , the root is the vertex $ 1 $ .\n\nYou can perform the following operation at most $ k $ times:\n\n- choose an edge $ (v, u) $ of the tree such that $ v $ is a parent of $ u $ ;\n- remove the edge $ (v, u) $ ;\n- add an edge $ (1, u) $ (i. e. make $ u $ with its subtree a child of the root).\n\nThe height of a tree is the maximum depth of its vertices, and the depth of a vertex is the number of edges on the path from the root to it. For example, the depth of vertex $ 1 $ is $ 0 $ , since it\u0027s the root, and the depth of all its children is $ 1 $ .\n\nWhat\u0027s the smallest height of the tree that can be achieved?","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of testcases.\n\nThe first line of each testcase contains two integers $ n $ and $ k $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ; $ 0 \\le k \\le n - 1 $ ) \u2014 the number of vertices in the tree and the maximum number of operations you can perform.\n\nThe second line contains $ n-1 $ integers $ p_2, p_3, \\dots, p_n $ ( $ 1 \\le p_i \u003C i $ ) \u2014 the parent of the $ i $ -th vertex. Vertex $ 1 $ is the root.\n\nThe sum of $ n $ over all testcases doesn\u0027t exceed $ 2 \\cdot 10^5 $ .","formatO":"For each testcase, print a single integer \u2014 the smallest height of the tree that can achieved by performing at most $ k $ operations.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n5 1\n1 1 2 2\n5 2\n1 1 2 2\n6 0\n1 2 3 4 5\n6 1\n1 2 3 4 5\n4 3\n1 1 1","2\n1\n5\n3\n1"]],"limits":{"time":[4000],"memory":[256000]},"vjudge":{"id":"1739D","link":"https:\/\/codeforces.com\/problemset\/problem\/1739\/D"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\n\u7ed9\u4f60\u4e00\u68f5\u7531 $n$ \u4e2a\u70b9\u7ec4\u6210\u7684\u7f16\u53f7\u4e3a $1 \\sim n$ \u7684\u4ee5 $1$ \u4e3a\u6839\u7684\u6709\u6839\u6811\uff0c\u4f60\u53ef\u4ee5\u8fdb\u884c $k$ \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n- \u65ad\u5f00\u70b9 $u$ \u4e0e\u5176\u7236\u4eb2\u4e4b\u95f4\u7684\u8fb9\uff0c\u5e76\u8fde\u63a5\u70b9 $1$ \u4e0e\u70b9 $u$\u3002\n\n\u5b9a\u4e49\u6811\u7684\u9ad8\u5ea6\u4e3a\u6811\u4e0a\u70b9\u7684\u6df1\u5ea6\u7684\u6700\u5927\u503c\uff0c\u70b9\u7684\u6df1\u5ea6\u4e3a\u70b9\u5230\u6839\u7684\u8def\u5f84\u4e0a\u7ecf\u8fc7\u7684\u8fb9\u7684\u6570\u91cf\uff0c\u95ee $k$ \u6b21\u64cd\u4f5c\u540e\u6811\u7684\u9ad8\u5ea6\u7684\u6700\u5c0f\u503c\u4e3a\u591a\u5c11\u3002\n\n## \u8f93\u5165\u683c\u5f0f\n\n**\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e\u3002**  \n\u8f93\u5165\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $T$ \u8868\u793a\u6570\u636e\u7ec4\u6570\u3002  \n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6b63\u6574\u6570 $n$ \u548c $k$\uff0c\u8868\u793a\u6811\u7684\u5927\u5c0f\u548c\u64cd\u4f5c\u6b21\u6570\u3002  \n\u63a5\u4e0b\u4e00\u884c $n-1$ \u4e2a\u6b63\u6574\u6570 $p_2,p_3,\\cdots,p_n$\uff0c\u5176\u4e2d $p_i$ \u8868\u793a\u7b2c $i$ \u4e2a\u70b9\u7684\u7236\u4eb2\u3002\n\n## \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u7b54\u6848\u3002\n\n## \u8bf4\u660e\/\u63d0\u793a\n\n\u5bf9\u4e8e $100\\%$ \u7684\u6570\u636e\uff1a\n\n- $1 \\le T \\le 10^4$\n- $2 \\le n \\le 2 \\cdot 10^5,0 \\le k \\le n-1$\n- $\\forall i \\in [2,n],1 \\le p_i \u003C i$\n- \u6bcf\u7ec4\u6570\u636e\u7684 $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$"},"translations":{"en":{"name":"Reset K Edges","background":"","description":"You are given a rooted tree, consisting of $ n $ vertices. The vertices are numbered from $ 1 $ to $ n $ , the root is the vertex $ 1 $ .\n\nYou can perform the following operation at most $ k $ times:\n\n- choose an edge $ (v, u) $ of the tree such that $ v $ is a parent of $ u $ ;\n- remove the edge $ (v, u) $ ;\n- add an edge $ (1, u) $ (i. e. make $ u $ with its subtree a child of the root).\n\nThe height of a tree is the maximum depth of its vertices, and the depth of a vertex is the number of edges on the path from the root to it. For example, the depth of vertex $ 1 $ is $ 0 $ , since it\u0027s the root, and the depth of all its children is $ 1 $ .\n\nWhat\u0027s the smallest height of the tree that can be achieved?","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of testcases.\n\nThe first line of each testcase contains two integers $ n $ and $ k $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ; $ 0 \\le k \\le n - 1 $ ) \u2014 the number of vertices in the tree and the maximum number of operations you can perform.\n\nThe second line contains $ n-1 $ integers $ p_2, p_3, \\dots, p_n $ ( $ 1 \\le p_i \u003C i $ ) \u2014 the parent of the $ i $ -th vertex. Vertex $ 1 $ is the root.\n\nThe sum of $ n $ over all testcases doesn\u0027t exceed $ 2 \\cdot 10^5 $ .","formatO":"For each testcase, print a single integer \u2014 the smallest height of the tree that can achieved by performing at most $ k $ operations.","hint":"","locale":"en"},"zh-CN":{"name":"Reset K Edges","background":"","description":"\u7ed9\u4f60\u4e00\u68f5\u7531 $n$ \u4e2a\u70b9\u7ec4\u6210\u7684\u7f16\u53f7\u4e3a $1 \\sim n$ \u7684\u4ee5 $1$ \u4e3a\u6839\u7684\u6709\u6839\u6811\uff0c\u4f60\u53ef\u4ee5\u8fdb\u884c $k$ \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n- \u65ad\u5f00\u70b9 $u$ \u4e0e\u5176\u7236\u4eb2\u4e4b\u95f4\u7684\u8fb9\uff0c\u5e76\u8fde\u63a5\u70b9 $1$ \u4e0e\u70b9 $u$\u3002\n\n\u5b9a\u4e49\u6811\u7684\u9ad8\u5ea6\u4e3a\u6811\u4e0a\u70b9\u7684\u6df1\u5ea6\u7684\u6700\u5927\u503c\uff0c\u70b9\u7684\u6df1\u5ea6\u4e3a\u70b9\u5230\u6839\u7684\u8def\u5f84\u4e0a\u7ecf\u8fc7\u7684\u8fb9\u7684\u6570\u91cf\uff0c\u95ee $k$ \u6b21\u64cd\u4f5c\u540e\u6811\u7684\u9ad8\u5ea6\u7684\u6700\u5c0f\u503c\u4e3a\u591a\u5c11\u3002","formatI":"**\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e\u3002**  \n\u8f93\u5165\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $T$ \u8868\u793a\u6570\u636e\u7ec4\u6570\u3002  \n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6b63\u6574\u6570 $n$ \u548c $k$\uff0c\u8868\u793a\u6811\u7684\u5927\u5c0f\u548c\u64cd\u4f5c\u6b21\u6570\u3002  \n\u63a5\u4e0b\u4e00\u884c $n-1$ \u4e2a\u6b63\u6574\u6570 $p_2,p_3,\\cdots,p_n$\uff0c\u5176\u4e2d $p_i$ \u8868\u793a\u7b2c $i$ \u4e2a\u70b9\u7684\u7236\u4eb2\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u7b54\u6848\u3002","hint":"\u5bf9\u4e8e $100\\%$ \u7684\u6570\u636e\uff1a\n\n- $1 \\le T \\le 10^4$\n- $2 \\le n \\le 2 \\cdot 10^5,0 \\le k \\le n-1$\n- $\\forall i \\in [2,n],1 \\le p_i \u003C i$\n- \u6bcf\u7ec4\u6570\u636e\u7684 $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1739D Reset K Edges","type":2,"slug":"CF1739D","color":"orange-3"},"discussions":[{"id":732628,"title":"WA on #2\uff0c50 pts\uff0c\u601d\u8def\u7b80\u5355\uff0c\u6c42\u5927\u4f6c\u8c03\u4ee3\u7801\u3002","author":{"uid":658786,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/658786.png","name":"STUDENT00","slogan":"\u6709\u8d70\u8fc7\u8bb8\u591a\u8def\u7684\u4eba\uff0c\u4e5f\u6709\u8d70\u8fc7\u8bb8\u591a\u4eba\u7684\u8def\u3002\u7136\u800c\u8fd9\u4e8c\u8005\uff0c\u7ec8\u7a76\u662f\u65e0\u6cd5\u6bd4\u62df\u7684\u3002 || \u8d76\u8d81\u98ce\u534e\u6b63\u8302\uff0c\u4e00\u5c55\u9752\u6625\u667a\u8c6a\uff0c\u83ab\u5f85\u5c81\u6708\u5df2\u8001\uff0c\u65b9\u6068\u4eba\u751f\u6f66\u8349\uff01 || \u9893\u9633\u6563\u6492\u5929\u98d8\u96e8\uff0c\u4e2d\u95f4\u591a\u5c11Oler\u6cea\u3002 || \u5bc4\uff01\u6211\u662f\u5927\u611a\u82e5\u667a\u8005\uff01","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/z4mxcc88.png"},"time":1700132054}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328727.156558,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1739D Reset K Edges","description":"\u7ed9\u4f60\u4e00\u68f5\u7531 n \u4e2a\u70b9\u7ec4\u6210\u7684\u7f16\u53f7\u4e3a 1 \\sim n \u7684\u4ee5 1 \u4e3a\u6839\u7684\u6709\u6839\u6811\uff0c\u4f60\u53ef\u4ee5\u8fdb\u884c k \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n\u65ad\u5f00\u70b9 u \u4e0e\u5176\u7236\u4eb2\u4e4b\u95f4\u7684\u8fb9\uff0c\u5e76\u8fde\u63a5\u70b9 1 \u4e0e\u70b9 u\u3002\n\n\u5b9a\u4e49\u6811\u7684\u9ad8\u5ea6\u4e3a\u6811\u4e0a\u70b9\u7684\u6df1\u5ea6\u7684\u6700\u5927\u503c\uff0c\u70b9\u7684\u6df1\u5ea6\u4e3a\u70b9\u5230\u6839\u7684\u8def\u5f84\u4e0a\u7ecf\u8fc7\u7684\u8fb9\u7684\u6570\u91cf\uff0c\u95ee\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1739D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1739D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1739D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1739D Reset K Edges" />
+    <meta property="og:description" content="给你一棵由 n 个点组成的编号为 1 \sim n 的以 1 为根的有根树，你可以进行 k 次如下操作：
+
+断开点 u 与其父亲之间的边，并连接点 1 与点 u。
+
+定义树的高度为树上点的深度的最大值，点的深度为点到根的路径上经过的边的数量，问…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1739D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1739D Reset K Edges</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给你一棵由 $n$ 个点组成的编号为 $1 \sim n$ 的以 $1$ 为根的有根树，你可以进行 $k$ 次如下操作：
+
+- 断开点 $u$ 与其父亲之间的边，并连接点 $1$ 与点 $u$。
+
+定义树的高度为树上点的深度的最大值，点的深度为点到根的路径上经过的边的数量，问 $k$ 次操作后树的高度的最小值为多少。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    **本题有多组数据。**  
+输入第一行一个整数 $T$ 表示数据组数。  
+
+对于每组数据第一行输入两个正整数 $n$ 和 $k$，表示树的大小和操作次数。  
+接下一行 $n-1$ 个正整数 $p_2,p_3,\cdots,p_n$，其中 $p_i$ 表示第 $i$ 个点的父亲。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组数据输出一行一个整数表示答案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于 $100\%$ 的数据：
+
+- $1 \le T \le 10^4$
+- $2 \le n \le 2 \cdot 10^5,0 \le k \le n-1$
+- $\forall i \in [2,n],1 \le p_i < i$
+- 每组数据的 $n$ 的总和不超过 $2 \cdot 10^5$
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

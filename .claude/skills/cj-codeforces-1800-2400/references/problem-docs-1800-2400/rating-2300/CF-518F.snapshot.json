@@ -1,0 +1,40 @@
+{
+  "id": "CF-518F",
+  "contest_id": 518,
+  "index": "F",
+  "name": "Pasha and Pipe",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "brute force",
+    "combinatorics",
+    "dp",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/518/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/518/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/518/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=518F%20Pasha and Pipe%20tutorial",
+  "solved_count": 413,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P518F",
+  "hydro_meta": {
+    "page_title": "Pasha and Pipe - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "implementation",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

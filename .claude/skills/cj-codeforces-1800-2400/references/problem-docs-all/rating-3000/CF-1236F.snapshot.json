@@ -1,0 +1,30 @@
+{
+  "id": "CF-1236F",
+  "contest_id": 1236,
+  "index": "F",
+  "name": "Alice and the Cactus",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 199,
+  "problem_url": "https://codeforces.com/problemset/problem/1236/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1236/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1236/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1236F%20Alice%20and%20the%20Cactus%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1236F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1236F Alice and the Cactus - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 63,
+    "mirror_attempt": 141,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

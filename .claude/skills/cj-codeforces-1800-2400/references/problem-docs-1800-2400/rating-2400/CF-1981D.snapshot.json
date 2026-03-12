@@ -1,0 +1,38 @@
+{
+  "id": "CF-1981D",
+  "contest_id": 1981,
+  "index": "D",
+  "name": "Turtle and Multiplication",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1981/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1981/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1981/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1981D%20Turtle and Multiplication%20tutorial",
+  "solved_count": 2091,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1981D",
+  "hydro_meta": {
+    "page_title": "Turtle and Multiplication - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "number theory"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 4,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

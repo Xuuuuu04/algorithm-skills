@@ -1,0 +1,14 @@
+[dependencies]
+
+[package]
+  cjc-version = "1.0.0"
+  compile-option = ""
+  description = "解析http请求中的multipart部分"
+  link-option = ""
+  name = "multipart"
+  output-type = "static"
+  override-compile-option = ""
+  src-dir = ""
+  target-dir = ""
+  version = "0.1.3"
+  [package.package-configuration]

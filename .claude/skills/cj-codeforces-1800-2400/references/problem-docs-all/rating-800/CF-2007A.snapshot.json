@@ -1,0 +1,29 @@
+{
+  "id": "CF-2007A",
+  "contest_id": 2007,
+  "index": "A",
+  "name": "Dora's Set",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 25125,
+  "problem_url": "https://codeforces.com/problemset/problem/2007/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2007/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2007/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2007A%20Dora%27s%20Set%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2007/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2007A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CF-1720E",
+  "contest_id": 1720,
+  "index": "E",
+  "name": "Misha and Paintings",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 944,
+  "problem_url": "https://codeforces.com/problemset/problem/1720/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1720/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1720/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1720E%20Misha%20and%20Paintings%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1720E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Misha and Paintings - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

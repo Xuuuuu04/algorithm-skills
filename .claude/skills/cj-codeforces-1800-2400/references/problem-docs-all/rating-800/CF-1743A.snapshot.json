@@ -1,0 +1,34 @@
+{
+  "id": "CF-1743A",
+  "contest_id": 1743,
+  "index": "A",
+  "name": "Password",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 29128,
+  "problem_url": "https://codeforces.com/problemset/problem/1743/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1743/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1743/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1743A%20Password%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1743A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Password - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

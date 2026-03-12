@@ -1,0 +1,39 @@
+{
+  "id": "CF-1539D",
+  "contest_id": 1539,
+  "index": "D",
+  "name": "PriceFixed",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "implementation",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 12493,
+  "problem_url": "https://codeforces.com/problemset/problem/1539/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1539/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1539/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1539D%20PriceFixed%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1539D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "PriceFixed - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*1600"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1408F",
+  "contest_id": 1408,
+  "index": "F",
+  "name": "Two Different",
+  "rating": 2300,
+  "tags": [
+    "constructive algorithms",
+    "divide and conquer"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1408/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1408/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1408/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1408F%20Two Different%20tutorial",
+  "solved_count": 2668,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1408F",
+  "hydro_meta": {
+    "page_title": "Two Different - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "divide and conquer",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

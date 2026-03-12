@@ -1,0 +1,33 @@
+{
+  "id": "CF-2108A",
+  "contest_id": 2108,
+  "index": "A",
+  "name": "Permutation Warm-Up",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "combinatorics",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 21937,
+  "problem_url": "https://codeforces.com/problemset/problem/2108/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2108/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2108/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2108A%20Permutation%20Warm-Up%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2108A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Permutation Warm-Up - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

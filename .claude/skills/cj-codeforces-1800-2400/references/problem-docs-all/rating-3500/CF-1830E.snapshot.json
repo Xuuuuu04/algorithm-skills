@@ -1,0 +1,30 @@
+{
+  "id": "CF-1830E",
+  "contest_id": 1830,
+  "index": "E",
+  "name": "Bully Sort",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures",
+    "math"
+  ],
+  "solved_count": 316,
+  "problem_url": "https://codeforces.com/problemset/problem/1830/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1830/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1830/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1830E%20Bully%20Sort%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1830E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bully Sort - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "10000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414522:103a3RtEBJAXnn4Yq8rp92Wm/pnAJD9FCmSSHQYIAkg=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1952B Is it stated? - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1952B","type":"CF","title":"Is it stated?","difficulty":0,"tags":[],"wantsTranslation":false,"totalSubmit":65,"totalAccepted":42,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Is it stated?","background":null,"description":"## \u9898\u76ee\u63cf\u8ff0\n\n#","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e00\u4e2a\u7531\u5c0f\u5199\u82f1\u6587\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32\uff0c\u957f\u5ea6\u4e0d\u8d85\u8fc7 $100$\u3002\n\n#","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c \u0022YES\u0022 \u6216 \u0022NO\u0022\uff0c\u8868\u793a\u7b54\u6848\u3002\n\n#","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Is it stated?","background":"","description":"","formatI":"The first line contains an integer $ t $ ( $ 1 \\leq t \\leq 100 $ ) \u2014 the number of testcases.\n\nThe following $ t $ lines each contain a string of length at most $ 100 $ consisting of lowercase English letters.","formatO":"For each test case, output \u0022YES\u0022 or \u0022NO\u0022, denoting the answer.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["10\nis\nit\nstated\nsubmit\nac\naccepted\nwa\nwronganswer\ntle\ntimelimitexceeded","NO\nYES\nNO\nYES\nNO\nNO\nNO\nNO\nNO\nYES"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1952B","link":"https:\/\/codeforces.com\/problemset\/problem\/1952\/B"},"translation":""},"translations":{"en":{"name":"Is it stated?","background":"","description":"","formatI":"The first line contains an integer $ t $ ( $ 1 \\leq t \\leq 100 $ ) \u2014 the number of testcases.\n\nThe following $ t $ lines each contain a string of length at most $ 100 $ consisting of lowercase English letters.","formatO":"For each test case, output \u0022YES\u0022 or \u0022NO\u0022, denoting the answer.","hint":"","locale":"en"},"zh-CN":{"name":"Is it stated?","background":null,"description":"## \u9898\u76ee\u63cf\u8ff0\n\n#","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e00\u4e2a\u7531\u5c0f\u5199\u82f1\u6587\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32\uff0c\u957f\u5ea6\u4e0d\u8d85\u8fc7 $100$\u3002\n\n#","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c \u0022YES\u0022 \u6216 \u0022NO\u0022\uff0c\u8868\u793a\u7b54\u6848\u3002\n\n#","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1952B Is it stated?","type":2,"slug":"CF1952B","color":"orange-3"},"discussions":[{"id":802684,"title":"\u8bf7\u6c42\u64a4\u4e0b\u6240\u6709\u611a\u4eba\u8282\u9898\u76ee\u7684\u7ffb\u8bd1","author":{"uid":122461,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/122461.png","name":"rui_er","slogan":"\u4e5d\u4e07\u91cc\u98ce\u9e4f\u6b63\u4e3e","badge":"\u5c3a\u5b50","isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":8,"xcpcLevel":8,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/ezmx3njc.png"},"time":1712281697}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328122.388914,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1952B Is it stated?","description":"\u9898\u76ee\u63cf\u8ff0\n#"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1952B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1952B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1952B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1952B Is it stated?" />
+    <meta property="og:description" content="题目描述
+#" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1952B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1952B Is it stated?</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    ## 题目描述
+
+#
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 100$），表示测试用例的数量。
+
+接下来的 $t$ 行，每行包含一个由小写英文字母组成的字符串，长度不超过 $100$。
+
+#
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一行 "YES" 或 "NO"，表示答案。
+
+#
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

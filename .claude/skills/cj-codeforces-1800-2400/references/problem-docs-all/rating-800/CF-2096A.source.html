@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2096A Wonderful Sticks - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2096A","type":"CF","title":"Wonderful Sticks","difficulty":2,"tags":[7],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Wonderful Sticks","background":"","description":"\u4f60\u662f $n$ \u6839\u6728\u68d2\u7684\u9a84\u50b2\u62e5\u6709\u8005\u3002\u6bcf\u6839\u6728\u68d2\u7684\u957f\u5ea6\u90fd\u662f $1$ \u5230 $n$ \u4e4b\u95f4\u7684\u6574\u6570\uff0c\u4e14\u6240\u6709\u6728\u68d2\u7684\u957f\u5ea6\u4e92\u4e0d\u76f8\u540c\u3002\n\n\u4f60\u9700\u8981\u5c06\u8fd9\u4e9b\u6728\u68d2\u6392\u6210\u4e00\u884c\u3002\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n-1$ \u7684\u5b57\u7b26\u4e32 $s$ \u63cf\u8ff0\u4e86\u6392\u5217\u7684\u8981\u6c42\uff1a\n\n\u5177\u4f53\u6765\u8bf4\uff0c\u5bf9\u4e8e\u6bcf\u4e2a $i$\uff08\u4ece $1$ \u5230 $n-1$\uff09\uff1a\n- \u5982\u679c $s_i = \\texttt{\u003C}$\uff0c\u90a3\u4e48\u4f4d\u7f6e $i+1$ \u7684\u6728\u68d2\u957f\u5ea6\u5fc5\u987b\u6bd4\u5b83\u4e4b\u524d\u7684\u6240\u6709\u6728\u68d2\u90fd\u77ed\uff1b\n- \u5982\u679c $s_i = \\texttt{\u003E}$\uff0c\u90a3\u4e48\u4f4d\u7f6e $i+1$ \u7684\u6728\u68d2\u957f\u5ea6\u5fc5\u987b\u6bd4\u5b83\u4e4b\u524d\u7684\u6240\u6709\u6728\u68d2\u90fd\u957f\u3002\n\n\u8bf7\u627e\u51fa\u4efb\u610f\u4e00\u4e2a\u6ee1\u8db3\u6761\u4ef6\u7684\u6728\u68d2\u6392\u5217\u3002\u53ef\u4ee5\u8bc1\u660e\u8fd9\u6837\u7684\u6392\u5217\u603b\u662f\u5b58\u5728\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $t$\uff08$1 \\le t \\le 500$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u5404\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 100$\uff09\u2014\u2014\u6728\u68d2\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n-1$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u7531\u5b57\u7b26 $\\texttt{\u003C}$ \u548c $\\texttt{\u003E}$ \u7ec4\u6210\u2014\u2014\u63cf\u8ff0\u6392\u5217\u7684\u8981\u6c42\u3002\n","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq n$\uff0c\u4e14 $a_i$ \u4e92\u4e0d\u76f8\u540c\uff09\u2014\u2014\u6309\u987a\u5e8f\u6392\u5217\u7684\u6728\u68d2\u957f\u5ea6\u3002\u5982\u679c\u5b58\u5728\u591a\u4e2a\u89e3\uff0c\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u4e2a\u5373\u53ef\u3002\n","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u6392\u5217\u7684\u8981\u6c42\u5982\u4e0b\uff1a\n- $s_1 = \\texttt{\u003C}$\uff0c\u8fd9\u610f\u5473\u7740 $a_2$ \u5fc5\u987b\u6bd4 $a_1$ \u77ed\u3002\n\n\u56e0\u6b64\uff0c\u4e00\u79cd\u53ef\u80fd\u7684\u6392\u5217\u662f $[2, 1]$\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u6392\u5217\u7684\u8981\u6c42\u5982\u4e0b\uff1a\n- $s_1 = \\texttt{\u003C}$\uff0c\u8fd9\u610f\u5473\u7740 $a_2$ \u5fc5\u987b\u6bd4 $a_1$ \u77ed\uff1b\n- $s_2 = \\texttt{\u003C}$\uff0c\u8fd9\u610f\u5473\u7740 $a_3$ \u5fc5\u987b\u6bd4 $a_1$ \u548c $a_2$ \u90fd\u77ed\uff1b\n- $s_3 = \\texttt{\u003E}$\uff0c\u8fd9\u610f\u5473\u7740 $a_4$ \u5fc5\u987b\u6bd4 $a_1$\u3001$a_2$ \u548c $a_3$ \u90fd\u957f\uff1b\n- $s_4 = \\texttt{\u003C}$\uff0c\u8fd9\u610f\u5473\u7740 $a_5$ \u5fc5\u987b\u6bd4 $a_1$\u3001$a_2$\u3001$a_3$ \u548c $a_4$ \u90fd\u77ed\u3002\n\n\u56e0\u6b64\uff0c\u4e00\u79cd\u53ef\u80fd\u7684\u6392\u5217\u662f $[4, 3, 2, 5, 1]$\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek V3 \u5b8c\u6210","locale":"zh-CN"},"content":{"name":"Wonderful Sticks","background":"","description":"You are the proud owner of $ n $ sticks. Each stick has an integer length from $ 1 $ to $ n $ . The lengths of the sticks are distinct.\n\nYou want to arrange the sticks in a row. There is a string $ s $ of length $ n - 1 $ that describes the requirements of the arrangement.\n\nSpecifically, for each $ i $ from $ 1 $ to $ n - 1 $ :\n\n- If $ s_i = \\texttt{\u003C} $ , then the length of the stick at position $ i + 1 $ must be smaller than all sticks before it;\n- If $ s_i = \\texttt{\u003E} $ , then the length of the stick at position $ i + 1 $ must be larger than all sticks before it.\n\nFind any valid arrangement of sticks. We can show that an answer always exists.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 500 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2 \\le n \\le 100 $ ) \u2014 the number of sticks.\n\nThe second line of each test case contains a single string $ s $ of length $ n - 1 $ consisting of characters $ \\texttt{\u003C} $ and $ \\texttt{\u003E} $ \u2014 describing the requirements of the arrangement.","formatO":"For each test case, output $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\leq a_i \\leq n $ , the $ a_i $ are distinct) \u2014 the lengths of the sticks in order. If there are multiple solutions, print any of them.","hint":"For the first test case, the requirements of the arrangement are as follows:\n\n- $ s_1 = \\texttt{\u003C} $ , which means $ a_2 $ is smaller than $ a_1 $ .\n\nThus, one possible arrangement is $ [2, 1] $ .\n\nFor the second test case, the requirements of the arrangement are as follows:\n\n- $ s_1 = \\texttt{\u003C} $ , which means $ a_2 $ is smaller than $ a_1 $ ;\n- $ s_2 = \\texttt{\u003C} $ , which means $ a_3 $ is smaller than $ a_1 $ and $ a_2 $ ;\n- $ s_3 = \\texttt{\u003E} $ , which means $ a_4 $ is larger than $ a_1 $ , $ a_2 $ , and $ a_3 $ ;\n- $ s_4 = \\texttt{\u003C} $ , which means $ a_5 $ is smaller than $ a_1 $ , $ a_2 $ , $ a_3 $ , and $ a_4 $ .\n\nThus, one possible arrangement is $ [4, 3, 2, 5, 1] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n2\n\u003C\n5\n\u003C\u003C\u003E\u003C\n2\n\u003E\n3\n\u003C\u003E\n7\n\u003E\u003C\u003E\u003E\u003E\u003C","2 1 \n4 3 2 5 1 \n1 2 \n2 1 3 \n3 4 2 5 6 7 1"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2096A","link":"https:\/\/codeforces.com\/problemset\/problem\/2096\/A"},"translation":""},"translations":{"en":{"name":"Wonderful Sticks","background":"","description":"You are the proud owner of $ n $ sticks. Each stick has an integer length from $ 1 $ to $ n $ . The lengths of the sticks are distinct.\n\nYou want to arrange the sticks in a row. There is a string $ s $ of length $ n - 1 $ that describes the requirements of the arrangement.\n\nSpecifically, for each $ i $ from $ 1 $ to $ n - 1 $ :\n\n- If $ s_i = \\texttt{\u003C} $ , then the length of the stick at position $ i + 1 $ must be smaller than all sticks before it;\n- If $ s_i = \\texttt{\u003E} $ , then the length of the stick at position $ i + 1 $ must be larger than all sticks before it.\n\nFind any valid arrangement of sticks. We can show that an answer always exists.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 500 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2 \\le n \\le 100 $ ) \u2014 the number of sticks.\n\nThe second line of each test case contains a single string $ s $ of length $ n - 1 $ consisting of characters $ \\texttt{\u003C} $ and $ \\texttt{\u003E} $ \u2014 describing the requirements of the arrangement.","formatO":"For each test case, output $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\leq a_i \\leq n $ , the $ a_i $ are distinct) \u2014 the lengths of the sticks in order. If there are multiple solutions, print any of them.","hint":"For the first test case, the requirements of the arrangement are as follows:\n\n- $ s_1 = \\texttt{\u003C} $ , which means $ a_2 $ is smaller than $ a_1 $ .\n\nThus, one possible arrangement is $ [2, 1] $ .\n\nFor the second test case, the requirements of the arrangement are as follows:\n\n- $ s_1 = \\texttt{\u003C} $ , which means $ a_2 $ is smaller than $ a_1 $ ;\n- $ s_2 = \\texttt{\u003C} $ , which means $ a_3 $ is smaller than $ a_1 $ and $ a_2 $ ;\n- $ s_3 = \\texttt{\u003E} $ , which means $ a_4 $ is larger than $ a_1 $ , $ a_2 $ , and $ a_3 $ ;\n- $ s_4 = \\texttt{\u003C} $ , which means $ a_5 $ is smaller than $ a_1 $ , $ a_2 $ , $ a_3 $ , and $ a_4 $ .\n\nThus, one possible arrangement is $ [4, 3, 2, 5, 1] $ .","locale":"en"},"zh-CN":{"name":"Wonderful Sticks","background":"","description":"\u4f60\u662f $n$ \u6839\u6728\u68d2\u7684\u9a84\u50b2\u62e5\u6709\u8005\u3002\u6bcf\u6839\u6728\u68d2\u7684\u957f\u5ea6\u90fd\u662f $1$ \u5230 $n$ \u4e4b\u95f4\u7684\u6574\u6570\uff0c\u4e14\u6240\u6709\u6728\u68d2\u7684\u957f\u5ea6\u4e92\u4e0d\u76f8\u540c\u3002\n\n\u4f60\u9700\u8981\u5c06\u8fd9\u4e9b\u6728\u68d2\u6392\u6210\u4e00\u884c\u3002\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n-1$ \u7684\u5b57\u7b26\u4e32 $s$ \u63cf\u8ff0\u4e86\u6392\u5217\u7684\u8981\u6c42\uff1a\n\n\u5177\u4f53\u6765\u8bf4\uff0c\u5bf9\u4e8e\u6bcf\u4e2a $i$\uff08\u4ece $1$ \u5230 $n-1$\uff09\uff1a\n- \u5982\u679c $s_i = \\texttt{\u003C}$\uff0c\u90a3\u4e48\u4f4d\u7f6e $i+1$ \u7684\u6728\u68d2\u957f\u5ea6\u5fc5\u987b\u6bd4\u5b83\u4e4b\u524d\u7684\u6240\u6709\u6728\u68d2\u90fd\u77ed\uff1b\n- \u5982\u679c $s_i = \\texttt{\u003E}$\uff0c\u90a3\u4e48\u4f4d\u7f6e $i+1$ \u7684\u6728\u68d2\u957f\u5ea6\u5fc5\u987b\u6bd4\u5b83\u4e4b\u524d\u7684\u6240\u6709\u6728\u68d2\u90fd\u957f\u3002\n\n\u8bf7\u627e\u51fa\u4efb\u610f\u4e00\u4e2a\u6ee1\u8db3\u6761\u4ef6\u7684\u6728\u68d2\u6392\u5217\u3002\u53ef\u4ee5\u8bc1\u660e\u8fd9\u6837\u7684\u6392\u5217\u603b\u662f\u5b58\u5728\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $t$\uff08$1 \\le t \\le 500$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u5404\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 100$\uff09\u2014\u2014\u6728\u68d2\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n-1$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u7531\u5b57\u7b26 $\\texttt{\u003C}$ \u548c $\\texttt{\u003E}$ \u7ec4\u6210\u2014\u2014\u63cf\u8ff0\u6392\u5217\u7684\u8981\u6c42\u3002\n","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq n$\uff0c\u4e14 $a_i$ \u4e92\u4e0d\u76f8\u540c\uff09\u2014\u2014\u6309\u987a\u5e8f\u6392\u5217\u7684\u6728\u68d2\u957f\u5ea6\u3002\u5982\u679c\u5b58\u5728\u591a\u4e2a\u89e3\uff0c\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u4e2a\u5373\u53ef\u3002\n","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u6392\u5217\u7684\u8981\u6c42\u5982\u4e0b\uff1a\n- $s_1 = \\texttt{\u003C}$\uff0c\u8fd9\u610f\u5473\u7740 $a_2$ \u5fc5\u987b\u6bd4 $a_1$ \u77ed\u3002\n\n\u56e0\u6b64\uff0c\u4e00\u79cd\u53ef\u80fd\u7684\u6392\u5217\u662f $[2, 1]$\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u6392\u5217\u7684\u8981\u6c42\u5982\u4e0b\uff1a\n- $s_1 = \\texttt{\u003C}$\uff0c\u8fd9\u610f\u5473\u7740 $a_2$ \u5fc5\u987b\u6bd4 $a_1$ \u77ed\uff1b\n- $s_2 = \\texttt{\u003C}$\uff0c\u8fd9\u610f\u5473\u7740 $a_3$ \u5fc5\u987b\u6bd4 $a_1$ \u548c $a_2$ \u90fd\u77ed\uff1b\n- $s_3 = \\texttt{\u003E}$\uff0c\u8fd9\u610f\u5473\u7740 $a_4$ \u5fc5\u987b\u6bd4 $a_1$\u3001$a_2$ \u548c $a_3$ \u90fd\u957f\uff1b\n- $s_4 = \\texttt{\u003C}$\uff0c\u8fd9\u610f\u5473\u7740 $a_5$ \u5fc5\u987b\u6bd4 $a_1$\u3001$a_2$\u3001$a_3$ \u548c $a_4$ \u90fd\u77ed\u3002\n\n\u56e0\u6b64\uff0c\u4e00\u79cd\u53ef\u80fd\u7684\u6392\u5217\u662f $[4, 3, 2, 5, 1]$\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek V3 \u5b8c\u6210","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2096A Wonderful Sticks","type":2,"slug":"CF2096A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.773977,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2096A Wonderful Sticks","description":"\u4f60\u662f n \u6839\u6728\u68d2\u7684\u9a84\u50b2\u62e5\u6709\u8005\u3002\u6bcf\u6839\u6728\u68d2\u7684\u957f\u5ea6\u90fd\u662f 1 \u5230 n \u4e4b\u95f4\u7684\u6574\u6570\uff0c\u4e14\u6240\u6709\u6728\u68d2\u7684\u957f\u5ea6\u4e92\u4e0d\u76f8\u540c\u3002\n\u4f60\u9700\u8981\u5c06\u8fd9\u4e9b\u6728\u68d2\u6392\u6210\u4e00\u884c\u3002\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a n-1 \u7684\u5b57\u7b26\u4e32 s \u63cf\u8ff0\u4e86\u6392\u5217\u7684\u8981\u6c42\uff1a\n\u5177\u4f53\u6765\u8bf4\uff0c\u5bf9\u4e8e\u6bcf\u4e2a i\uff08\u4ece 1 \u5230 n-1\uff09\uff1a\n\n\u5982\u679c\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2096A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2096A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2096A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2096A Wonderful Sticks" />
+    <meta property="og:description" content="你是 n 根木棒的骄傲拥有者。每根木棒的长度都是 1 到 n 之间的整数，且所有木棒的长度互不相同。
+你需要将这些木棒排成一行。有一个长度为 n-1 的字符串 s 描述了排列的要求：
+具体来说，对于每个 i（从 1 到 n-1）：
+
+如果…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2096A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2096A Wonderful Sticks</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你是 $n$ 根木棒的骄傲拥有者。每根木棒的长度都是 $1$ 到 $n$ 之间的整数，且所有木棒的长度互不相同。
+
+你需要将这些木棒排成一行。有一个长度为 $n-1$ 的字符串 $s$ 描述了排列的要求：
+
+具体来说，对于每个 $i$（从 $1$ 到 $n-1$）：
+- 如果 $s_i = \texttt{}$，那么位置 $i+1$ 的木棒长度必须比它之前的所有木棒都长。
+
+请找出任意一个满足条件的木棒排列。可以证明这样的排列总是存在。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试包含多个测试用例。第一行包含测试用例的数量 $t$（$1 \le t \le 500$）。接下来是各个测试用例的描述。
+
+每个测试用例的第一行包含一个整数 $n$（$2 \le n \le 100$）——木棒的数量。
+
+每个测试用例的第二行包含一个长度为 $n-1$ 的字符串 $s$，由字符 $\texttt{}$ 组成——描述排列的要求。
+
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$1 \leq a_i \leq n$，且 $a_i$ 互不相同）——按顺序排列的木棒长度。如果存在多个解，输出其中任意一个即可。
+
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于第一个测试用例，排列的要求如下：
+- $s_1 = \texttt{
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

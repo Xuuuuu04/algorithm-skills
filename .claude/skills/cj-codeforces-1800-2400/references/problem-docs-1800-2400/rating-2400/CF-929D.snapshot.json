@@ -1,0 +1,26 @@
+{
+  "id": "CF-929D",
+  "contest_id": 929,
+  "index": "D",
+  "name": "Пограничные врата",
+  "rating": 2400,
+  "tags": [],
+  "url": "https://codeforces.com/problemset/problem/929/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/929/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/929/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=929D%20Пограничные врата%20tutorial",
+  "solved_count": 159,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P929D",
+  "hydro_meta": {
+    "page_title": "Пограничные врата - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "ms",
+    "memory_limit": "MiB"
+  }
+}

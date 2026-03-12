@@ -1,0 +1,30 @@
+{
+  "id": "CF-1088D",
+  "contest_id": 1088,
+  "index": "D",
+  "name": "Ehab and another another xor problem",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "implementation",
+    "interactive"
+  ],
+  "solved_count": 3140,
+  "problem_url": "https://codeforces.com/problemset/problem/1088/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1088/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1088/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1088D%20Ehab%20and%20another%20another%20xor%20problem%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1088/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1088D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

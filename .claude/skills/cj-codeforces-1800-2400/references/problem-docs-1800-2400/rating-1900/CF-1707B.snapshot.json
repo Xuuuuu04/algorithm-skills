@@ -1,0 +1,36 @@
+{
+  "id": "CF-1707B",
+  "contest_id": 1707,
+  "index": "B",
+  "name": "Difference Array",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1707/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1707/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1707/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1707B%20Difference Array%20tutorial",
+  "solved_count": 6348,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1707B",
+  "hydro_meta": {
+    "page_title": "Difference Array - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "sortings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

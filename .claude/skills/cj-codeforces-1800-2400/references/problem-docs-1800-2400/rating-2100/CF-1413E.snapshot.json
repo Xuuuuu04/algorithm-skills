@@ -1,0 +1,36 @@
+{
+  "id": "CF-1413E",
+  "contest_id": 1413,
+  "index": "E",
+  "name": "Solo mid Oracle",
+  "rating": 2100,
+  "tags": [
+    "greedy",
+    "math",
+    "ternary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1413/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1413/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1413/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1413E%20Solo mid Oracle%20tutorial",
+  "solved_count": 2156,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1413E",
+  "hydro_meta": {
+    "page_title": "Solo mid Oracle - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "math",
+      "ternary search",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1362B",
+  "contest_id": 1362,
+  "index": "B",
+  "name": "Johnny and His Hobbies",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "bitmasks",
+    "brute force"
+  ],
+  "solved_count": 20886,
+  "problem_url": "https://codeforces.com/problemset/problem/1362/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1362/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1362/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1362B%20Johnny%20and%20His%20Hobbies%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1362/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1362B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

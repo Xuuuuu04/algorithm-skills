@@ -1,0 +1,20 @@
+{
+  "required_sections": [
+    "思路",
+    "复杂度",
+    "正确性要点",
+    "仓颉实现",
+    "边界测试",
+    "风险项",
+    "证据引用"
+  ],
+  "weights": {
+    "sections": 40,
+    "citations": 40,
+    "complexity": 10,
+    "correctness": 10
+  },
+  "citation_target": 3,
+  "pass_threshold": 80,
+  "suite_pass_rate": 0.8
+}

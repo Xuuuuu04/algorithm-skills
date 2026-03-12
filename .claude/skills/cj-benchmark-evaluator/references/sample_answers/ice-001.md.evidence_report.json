@@ -1,0 +1,54 @@
+{
+  "answer_file": "/Users/xushaoyang/Desktop/algorithm-skills/.claude/skills/cj-benchmark-evaluator/references/sample_answers/ice-001.md",
+  "index_file": "/Users/xushaoyang/Desktop/algorithm-skills/.claude/skills/cj-doc-indexer/references/generated/doc_index.jsonl",
+  "strict": true,
+  "required_sections": [
+    "思路",
+    "复杂度",
+    "正确性要点",
+    "仓颉实现",
+    "边界测试",
+    "风险项",
+    "证据引用"
+  ],
+  "found_sections": [
+    "仓颉实现",
+    "复杂度",
+    "思路",
+    "正确性要点",
+    "证据引用",
+    "边界测试",
+    "风险项"
+  ],
+  "missing_sections": [],
+  "citation_total": 3,
+  "citation_valid": 3,
+  "citation_invalid": 0,
+  "citations": [
+    {
+      "line": "- cj-language-core/references/docs/user_manual/basic_data_type/array.md | Array | \"可以使用 Array 类型来构造单一元素类型，有序序列的数据。\"",
+      "valid": true,
+      "path": "- cj-language-core/references/docs/user_manual/basic_data_type/array.md",
+      "anchor": "Array",
+      "quote": "可以使用 Array 类型来构造单一元素类型，有序序列的数据。",
+      "error": ""
+    },
+    {
+      "line": "- cj-std-algo-toolkit/references/docs/std/sort/sort_package_overview.md | sort | \"sort 包提供数组类型的排序函数。\"",
+      "valid": true,
+      "path": "- cj-std-algo-toolkit/references/docs/std/sort/sort_package_overview.md",
+      "anchor": "sort",
+      "quote": "sort 包提供数组类型的排序函数。",
+      "error": ""
+    },
+    {
+      "line": "- cj-std-algo-toolkit/references/docs/std/math/math_package_overview.md | std.math | \"math 包提供常见的数学运算。\"",
+      "valid": true,
+      "path": "- cj-std-algo-toolkit/references/docs/std/math/math_package_overview.md",
+      "anchor": "std.math",
+      "quote": "math 包提供常见的数学运算。",
+      "error": ""
+    }
+  ],
+  "pass": true
+}

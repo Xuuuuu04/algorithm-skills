@@ -1,0 +1,36 @@
+{
+  "id": "CF-2000F",
+  "contest_id": 2000,
+  "index": "F",
+  "name": "Color Rows and Columns",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 6813,
+  "problem_url": "https://codeforces.com/problemset/problem/2000/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2000/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2000/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2000F%20Color%20Rows%20and%20Columns%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2000F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Color Rows and Columns - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

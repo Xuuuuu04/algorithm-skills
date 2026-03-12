@@ -1,0 +1,28 @@
+{
+  "id": "CF-1626A",
+  "contest_id": 1626,
+  "index": "A",
+  "name": "Equidistant Letters",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "sortings"
+  ],
+  "solved_count": 30779,
+  "problem_url": "https://codeforces.com/problemset/problem/1626/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1626/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1626/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1626A%20Equidistant%20Letters%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1626A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1626A Equidistant Letters - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 279,
+    "mirror_attempt": 411,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

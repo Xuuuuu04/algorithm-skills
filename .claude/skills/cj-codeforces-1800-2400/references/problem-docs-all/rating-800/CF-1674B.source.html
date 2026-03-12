@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1674B Dictionary - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1674B","type":"CF","title":"Dictionary","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":481,"totalAccepted":321,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Dictionary","background":null,"description":"Berland \u8bed\u8a00\u7531\u6070\u597d\u4e24\u4e2a\u5b57\u6bcd\u7ec4\u6210\u7684\u5355\u8bcd\u6784\u6210\u3002\u6b64\u5916\uff0c\u4e00\u4e2a\u5355\u8bcd\u7684\u7b2c\u4e00\u4e2a\u5b57\u6bcd\u4e0e\u7b2c\u4e8c\u4e2a\u5b57\u6bcd\u4e0d\u540c\u3002\u4efb\u610f\u4e24\u4e2a\u4e0d\u540c\u7684 Berland \u5b57\u6bcd\uff08\u987a\u4fbf\u8bf4\u4e00\u4e0b\uff0c\u8fd9\u4e9b\u5b57\u6bcd\u4e0e\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u76f8\u540c\uff09\u7684\u7ec4\u5408\uff0c\u90fd\u662f Berland \u8bed\u8a00\u4e2d\u7684\u5408\u6cd5\u5355\u8bcd\u3002\n\nBerland \u5b57\u5178\u5305\u542b\u4e86\u8be5\u8bed\u8a00\u7684\u6240\u6709\u5355\u8bcd\u3002\u5355\u8bcd\u7684\u6392\u5217\u987a\u5e8f\u4e0e\u901a\u5e38\u5b57\u5178\u7684\u6392\u5e8f\u65b9\u5f0f\u76f8\u540c\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5355\u8bcd $a$ \u5728\u5b57\u5178\u4e2d\u6392\u5728\u5355\u8bcd $b$ \u4e4b\u524d\uff0c\u5f53\u4e14\u4ec5\u5f53\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\u4e4b\u4e00\uff1a\n\n- $a$ \u7684\u7b2c\u4e00\u4e2a\u5b57\u6bcd\u5c0f\u4e8e $b$ \u7684\u7b2c\u4e00\u4e2a\u5b57\u6bcd\uff1b\n- $a$ \u548c $b$ \u7684\u7b2c\u4e00\u4e2a\u5b57\u6bcd\u76f8\u540c\uff0c\u4e14 $a$ \u7684\u7b2c\u4e8c\u4e2a\u5b57\u6bcd\u5c0f\u4e8e $b$ \u7684\u7b2c\u4e8c\u4e2a\u5b57\u6bcd\u3002\n\n\u56e0\u6b64\uff0c\u5b57\u5178\u7684\u6392\u5217\u5982\u4e0b\uff1a\n\n- \u5355\u8bcd $1$\uff1aab\n- \u5355\u8bcd $2$\uff1aac\n- ...\n- \u5355\u8bcd $25$\uff1aaz\n- \u5355\u8bcd $26$\uff1aba\n- \u5355\u8bcd $27$\uff1abc\n- ...\n- \u5355\u8bcd $649$\uff1azx\n- \u5355\u8bcd $650$\uff1azy\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a Berland \u8bed\u8a00\u4e2d\u7684\u5355\u8bcd $s$\uff0c\u8bf7\u4f60\u627e\u51fa\u5b83\u5728\u5b57\u5178\u4e2d\u7684\u5e8f\u53f7\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 650$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\uff0c\u5373\u7531\u4e24\u4e2a\u4e0d\u540c\u7684\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32\uff08\u5373 Berland \u8bed\u8a00\u4e2d\u7684\u5408\u6cd5\u5355\u8bcd\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5355\u8bcd $s$ \u5728\u5b57\u5178\u4e2d\u7684\u5e8f\u53f7\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Dictionary","background":"","description":"The Berland language consists of words having exactly two letters. Moreover, the first letter of a word is different from the second letter. Any combination of two different Berland letters (which, by the way, are the same as the lowercase letters of Latin alphabet) is a correct word in Berland language.\n\nThe Berland dictionary contains all words of this language. The words are listed in a way they are usually ordered in dictionaries. Formally, word $ a $ comes earlier than word $ b $ in the dictionary if one of the following conditions hold:\n\n- the first letter of $ a $ is less than the first letter of $ b $ ;\n- the first letters of $ a $ and $ b $ are the same, and the second letter of $ a $ is less than the second letter of $ b $ .\n\nSo, the dictionary looks like that:\n\n- Word $ 1 $ : ab\n- Word $ 2 $ : ac\n- ...\n- Word $ 25 $ : az\n- Word $ 26 $ : ba\n- Word $ 27 $ : bc\n- ...\n- Word $ 649 $ : zx\n- Word $ 650 $ : zy\n\nYou are given a word $ s $ from the Berland language. Your task is to find its index in the dictionary.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 650 $ ) \u2014 the number of test cases.\n\nEach test case consists of one line containing $ s $ \u2014 a string consisting of exactly two different lowercase Latin letters (i. e. a correct word of the Berland language).","formatO":"For each test case, print one integer \u2014 the index of the word $ s $ in the dictionary.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\nab\nac\naz\nba\nbc\nzx\nzy","1\n2\n25\n26\n27\n649\n650"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"1674B","link":"https:\/\/codeforces.com\/problemset\/problem\/1674\/B"},"translation":"\u4e00\u79cd\u8bed\u8a00\u7684\u6240\u6709\u5355\u8bcd\u4ec5\u7531\u4e24\u4e2a\u5b57\u6bcd\u7ec4\u6210\uff0c\u4e14\u8fd9\u4e24\u4e2a\u5b57\u6bcd\u4e0d\u76f8\u540c\u3002\n\n\u56e0\u6b64\uff0c\u8be5\u8bed\u8a00\u7684\u5b57\u5178\u4e3a\uff1a\n\n+ Word 1 : `ab`\n+ Word 2 : `ac`\n+ ...\n+ Word 25 : `az`\n+ Word 26 : `ba`\n+ Word 27 : `bc`\n+ ...\n+ Word 649 : `zx`\n+ Word 650 : `zy`\n\n\u73b0\u5728\u8f93\u5165\u4e00\u4e2a\u5355\u8bcd\uff0c\u8f93\u51fa\u8be5\u5355\u8bcd\u5728\u5b57\u5178\u91cc\u7684\u5e8f\u53f7"},"translations":{"en":{"name":"Dictionary","background":"","description":"The Berland language consists of words having exactly two letters. Moreover, the first letter of a word is different from the second letter. Any combination of two different Berland letters (which, by the way, are the same as the lowercase letters of Latin alphabet) is a correct word in Berland language.\n\nThe Berland dictionary contains all words of this language. The words are listed in a way they are usually ordered in dictionaries. Formally, word $ a $ comes earlier than word $ b $ in the dictionary if one of the following conditions hold:\n\n- the first letter of $ a $ is less than the first letter of $ b $ ;\n- the first letters of $ a $ and $ b $ are the same, and the second letter of $ a $ is less than the second letter of $ b $ .\n\nSo, the dictionary looks like that:\n\n- Word $ 1 $ : ab\n- Word $ 2 $ : ac\n- ...\n- Word $ 25 $ : az\n- Word $ 26 $ : ba\n- Word $ 27 $ : bc\n- ...\n- Word $ 649 $ : zx\n- Word $ 650 $ : zy\n\nYou are given a word $ s $ from the Berland language. Your task is to find its index in the dictionary.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 650 $ ) \u2014 the number of test cases.\n\nEach test case consists of one line containing $ s $ \u2014 a string consisting of exactly two different lowercase Latin letters (i. e. a correct word of the Berland language).","formatO":"For each test case, print one integer \u2014 the index of the word $ s $ in the dictionary.","hint":"","locale":"en"},"zh-CN":{"name":"Dictionary","background":null,"description":"Berland \u8bed\u8a00\u7531\u6070\u597d\u4e24\u4e2a\u5b57\u6bcd\u7ec4\u6210\u7684\u5355\u8bcd\u6784\u6210\u3002\u6b64\u5916\uff0c\u4e00\u4e2a\u5355\u8bcd\u7684\u7b2c\u4e00\u4e2a\u5b57\u6bcd\u4e0e\u7b2c\u4e8c\u4e2a\u5b57\u6bcd\u4e0d\u540c\u3002\u4efb\u610f\u4e24\u4e2a\u4e0d\u540c\u7684 Berland \u5b57\u6bcd\uff08\u987a\u4fbf\u8bf4\u4e00\u4e0b\uff0c\u8fd9\u4e9b\u5b57\u6bcd\u4e0e\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u76f8\u540c\uff09\u7684\u7ec4\u5408\uff0c\u90fd\u662f Berland \u8bed\u8a00\u4e2d\u7684\u5408\u6cd5\u5355\u8bcd\u3002\n\nBerland \u5b57\u5178\u5305\u542b\u4e86\u8be5\u8bed\u8a00\u7684\u6240\u6709\u5355\u8bcd\u3002\u5355\u8bcd\u7684\u6392\u5217\u987a\u5e8f\u4e0e\u901a\u5e38\u5b57\u5178\u7684\u6392\u5e8f\u65b9\u5f0f\u76f8\u540c\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5355\u8bcd $a$ \u5728\u5b57\u5178\u4e2d\u6392\u5728\u5355\u8bcd $b$ \u4e4b\u524d\uff0c\u5f53\u4e14\u4ec5\u5f53\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\u4e4b\u4e00\uff1a\n\n- $a$ \u7684\u7b2c\u4e00\u4e2a\u5b57\u6bcd\u5c0f\u4e8e $b$ \u7684\u7b2c\u4e00\u4e2a\u5b57\u6bcd\uff1b\n- $a$ \u548c $b$ \u7684\u7b2c\u4e00\u4e2a\u5b57\u6bcd\u76f8\u540c\uff0c\u4e14 $a$ \u7684\u7b2c\u4e8c\u4e2a\u5b57\u6bcd\u5c0f\u4e8e $b$ \u7684\u7b2c\u4e8c\u4e2a\u5b57\u6bcd\u3002\n\n\u56e0\u6b64\uff0c\u5b57\u5178\u7684\u6392\u5217\u5982\u4e0b\uff1a\n\n- \u5355\u8bcd $1$\uff1aab\n- \u5355\u8bcd $2$\uff1aac\n- ...\n- \u5355\u8bcd $25$\uff1aaz\n- \u5355\u8bcd $26$\uff1aba\n- \u5355\u8bcd $27$\uff1abc\n- ...\n- \u5355\u8bcd $649$\uff1azx\n- \u5355\u8bcd $650$\uff1azy\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a Berland \u8bed\u8a00\u4e2d\u7684\u5355\u8bcd $s$\uff0c\u8bf7\u4f60\u627e\u51fa\u5b83\u5728\u5b57\u5178\u4e2d\u7684\u5e8f\u53f7\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 650$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\uff0c\u5373\u7531\u4e24\u4e2a\u4e0d\u540c\u7684\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32\uff08\u5373 Berland \u8bed\u8a00\u4e2d\u7684\u5408\u6cd5\u5355\u8bcd\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5355\u8bcd $s$ \u5728\u5b57\u5178\u4e2d\u7684\u5e8f\u53f7\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1674B Dictionary","type":2,"slug":"CF1674B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.697344,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1674B Dictionary","description":"Berland \u8bed\u8a00\u7531\u6070\u597d\u4e24\u4e2a\u5b57\u6bcd\u7ec4\u6210\u7684\u5355\u8bcd\u6784\u6210\u3002\u6b64\u5916\uff0c\u4e00\u4e2a\u5355\u8bcd\u7684\u7b2c\u4e00\u4e2a\u5b57\u6bcd\u4e0e\u7b2c\u4e8c\u4e2a\u5b57\u6bcd\u4e0d\u540c\u3002\u4efb\u610f\u4e24\u4e2a\u4e0d\u540c\u7684 Berland \u5b57\u6bcd\uff08\u987a\u4fbf\u8bf4\u4e00\u4e0b\uff0c\u8fd9\u4e9b\u5b57\u6bcd\u4e0e\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u76f8\u540c\uff09\u7684\u7ec4\u5408\uff0c\u90fd\u662f Berland \u8bed\u8a00\u4e2d\u7684\u5408\u6cd5\u5355\u8bcd\u3002\nBerland \u5b57\u5178\u5305\u542b\u4e86\u8be5\u8bed\u8a00\u7684\u6240\u6709\u5355\u8bcd\u3002\u5355\u8bcd\u7684\u6392\u5217\u987a\u5e8f\u4e0e\u901a\u5e38\u5b57\u5178\u7684\u6392\u5e8f\u65b9\u5f0f\u76f8\u540c\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5355\u8bcd\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1674B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1674B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1674B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1674B Dictionary" />
+    <meta property="og:description" content="Berland 语言由恰好两个字母组成的单词构成。此外，一个单词的第一个字母与第二个字母不同。任意两个不同的 Berland 字母（顺便说一下，这些字母与小写拉丁字母相同）的组合，都是 Berland 语言中的合法单词。
+Berland 字典包含了该语言的所有单词。单词的排列顺序与通常字典的排序方式相同。形式化地说，单词…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1674B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1674B Dictionary</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Berland 语言由恰好两个字母组成的单词构成。此外，一个单词的第一个字母与第二个字母不同。任意两个不同的 Berland 字母（顺便说一下，这些字母与小写拉丁字母相同）的组合，都是 Berland 语言中的合法单词。
+
+Berland 字典包含了该语言的所有单词。单词的排列顺序与通常字典的排序方式相同。形式化地说，单词 $a$ 在字典中排在单词 $b$ 之前，当且仅当满足以下条件之一：
+
+- $a$ 的第一个字母小于 $b$ 的第一个字母；
+- $a$ 和 $b$ 的第一个字母相同，且 $a$ 的第二个字母小于 $b$ 的第二个字母。
+
+因此，字典的排列如下：
+
+- 单词 $1$：ab
+- 单词 $2$：ac
+- ...
+- 单词 $25$：az
+- 单词 $26$：ba
+- 单词 $27$：bc
+- ...
+- 单词 $649$：zx
+- 单词 $650$：zy
+
+现在给定一个 Berland 语言中的单词 $s$，请你找出它在字典中的序号。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 650$），表示测试用例的数量。
+
+每个测试用例包含一行，包含一个字符串 $s$，即由两个不同的小写拉丁字母组成的字符串（即 Berland 语言中的合法单词）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示单词 $s$ 在字典中的序号。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

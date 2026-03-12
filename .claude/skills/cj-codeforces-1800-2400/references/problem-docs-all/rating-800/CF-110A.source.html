@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414411:WhmISrPjxMhk5xXtuLX6Lua8AsEphdUa/isyqnQi83o=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF110A Nearly Lucky Number - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF110A","type":"CF","title":"Nearly Lucky Number","difficulty":1,"tags":[2,266,314],"wantsTranslation":false,"totalSubmit":2545,"totalAccepted":1075,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Nearly Lucky Number","background":"","description":"### \u9898\u76ee\u8981\u6c42\n\u5982\u679c\u4e00\u4e2a\u6570\u4ec5\u5305\u542b4\u548c7\uff0c\u90a3\u4e48\u5b83\u5c31\u662f\u4e00\u4e2a\u0022\u5e78\u8fd0\u6570\u5b57\u0022\u3002\n\u5982\u679c\u4e00\u4e2a\u6570**\u672c\u8eab\u4e0d\u662f**\u5e78\u8fd0\u6570\uff0c\u4f46\u662f\u5b83\u6240\u542b\u6709\u7684\u6570\u5b574\u548c7\u7684\u4e2a\u6570\u4e4b\u548c\u4e3a\u4e00\u4e2a\u0022\u5e78\u8fd0\u6570\u5b57\u0022\uff0c\u90a3\u4e48\u5b83\u5c31\u662f\u4e00\u4e2a\u0022\u7c7b\u5e78\u8fd0\u6570\u5b57\u0022\u3002\n\u7ed9\u60a8\u4e00\u4e2a\u6570\uff0c\u8bf7\u7f16\u7a0b\u5224\u65ad\u5b83\u662f\u4e0d\u662f\u0022\u7c7b\u5e78\u8fd0\u6570\u5b57\u0022\u3002","formatI":"\u4e00\u884c\u4e00\u4e2a\u6574\u6570N(N\u572864\u4f4d\u6574\u6570(long long \/ int64)\u8303\u56f4\u5185)\u3002","formatO":"\u4e00\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u5982\u679cN\u662f\u0022\u7c7b\u5e78\u8fd0\u6570\u5b57\u0022\u5219\u8f93\u51fa\u0022YES\u0022\uff0c\u5426\u5219\u8f93\u51fa\u0022NO\u0022\u3002\n\n\u611f\u8c22@PC_DOS \u63d0\u4f9b\u7ffb\u8bd1","hint":"","locale":"zh-CN"},"content":{"name":"Nearly Lucky Number","background":"","description":"Petya loves lucky numbers. We all know that lucky numbers are the positive integers whose decimal representations contain only the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.\n\nUnfortunately, not all numbers are lucky. Petya calls a number nearly lucky if the number of lucky digits in it is a lucky number. He wonders whether number $ n $ is a nearly lucky number.","formatI":"The only line contains an integer $ n $ ( $ 1\u003C=n\u003C=10^{18} $ ).\n\nPlease do not use the %lld specificator to read or write 64-bit numbers in \u0421++. It is preferred to use the cin, cout streams or the %I64d specificator.","formatO":"Print on the single line \u0022YES\u0022 if $ n $ is a nearly lucky number. Otherwise, print \u0022NO\u0022 (without the quotes).","hint":"In the first sample there are 3 lucky digits (first one and last two), so the answer is \u0022NO\u0022.\n\nIn the second sample there are 7 lucky digits, 7 is lucky number, so the answer is \u0022YES\u0022.\n\nIn the third sample there are no lucky digits, so the answer is \u0022NO\u0022.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["40047\n","NO\n"],["7747774\n","YES\n"],["1000000000000000000\n","NO\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"110A","link":"https:\/\/codeforces.com\/problemset\/problem\/110\/A"},"translation":"### \u9898\u76ee\u8981\u6c42\n\u5982\u679c\u4e00\u4e2a\u6570\u4ec5\u5305\u542b4\u548c7\uff0c\u90a3\u4e48\u5b83\u5c31\u662f\u4e00\u4e2a\u0022\u5e78\u8fd0\u6570\u5b57\u0022\u3002\n\u5982\u679c\u4e00\u4e2a\u6570**\u672c\u8eab\u4e0d\u662f**\u5e78\u8fd0\u6570\uff0c\u4f46\u662f\u5b83\u6240\u542b\u6709\u7684\u6570\u5b574\u548c7\u7684\u4e2a\u6570\u4e4b\u548c\u4e3a\u4e00\u4e2a\u0022\u5e78\u8fd0\u6570\u5b57\u0022\uff0c\u90a3\u4e48\u5b83\u5c31\u662f\u4e00\u4e2a\u0022\u7c7b\u5e78\u8fd0\u6570\u5b57\u0022\u3002\n\u7ed9\u60a8\u4e00\u4e2a\u6570\uff0c\u8bf7\u7f16\u7a0b\u5224\u65ad\u5b83\u662f\u4e0d\u662f\u0022\u7c7b\u5e78\u8fd0\u6570\u5b57\u0022\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\u4e00\u884c\u4e00\u4e2a\u6574\u6570N(N\u572864\u4f4d\u6574\u6570(long long \/ int64)\u8303\u56f4\u5185)\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\u4e00\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u5982\u679cN\u662f\u0022\u7c7b\u5e78\u8fd0\u6570\u5b57\u0022\u5219\u8f93\u51fa\u0022YES\u0022\uff0c\u5426\u5219\u8f93\u51fa\u0022NO\u0022\u3002\n\n\u611f\u8c22@PC_DOS \u63d0\u4f9b\u7ffb\u8bd1"},"translations":{"en":{"name":"Nearly Lucky Number","background":"","description":"Petya loves lucky numbers. We all know that lucky numbers are the positive integers whose decimal representations contain only the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.\n\nUnfortunately, not all numbers are lucky. Petya calls a number nearly lucky if the number of lucky digits in it is a lucky number. He wonders whether number $ n $ is a nearly lucky number.","formatI":"The only line contains an integer $ n $ ( $ 1\u003C=n\u003C=10^{18} $ ).\n\nPlease do not use the %lld specificator to read or write 64-bit numbers in \u0421++. It is preferred to use the cin, cout streams or the %I64d specificator.","formatO":"Print on the single line \u0022YES\u0022 if $ n $ is a nearly lucky number. Otherwise, print \u0022NO\u0022 (without the quotes).","hint":"In the first sample there are 3 lucky digits (first one and last two), so the answer is \u0022NO\u0022.\n\nIn the second sample there are 7 lucky digits, 7 is lucky number, so the answer is \u0022YES\u0022.\n\nIn the third sample there are no lucky digits, so the answer is \u0022NO\u0022.","locale":"en"},"zh-CN":{"name":"Nearly Lucky Number","background":"","description":"### \u9898\u76ee\u8981\u6c42\n\u5982\u679c\u4e00\u4e2a\u6570\u4ec5\u5305\u542b4\u548c7\uff0c\u90a3\u4e48\u5b83\u5c31\u662f\u4e00\u4e2a\u0022\u5e78\u8fd0\u6570\u5b57\u0022\u3002\n\u5982\u679c\u4e00\u4e2a\u6570**\u672c\u8eab\u4e0d\u662f**\u5e78\u8fd0\u6570\uff0c\u4f46\u662f\u5b83\u6240\u542b\u6709\u7684\u6570\u5b574\u548c7\u7684\u4e2a\u6570\u4e4b\u548c\u4e3a\u4e00\u4e2a\u0022\u5e78\u8fd0\u6570\u5b57\u0022\uff0c\u90a3\u4e48\u5b83\u5c31\u662f\u4e00\u4e2a\u0022\u7c7b\u5e78\u8fd0\u6570\u5b57\u0022\u3002\n\u7ed9\u60a8\u4e00\u4e2a\u6570\uff0c\u8bf7\u7f16\u7a0b\u5224\u65ad\u5b83\u662f\u4e0d\u662f\u0022\u7c7b\u5e78\u8fd0\u6570\u5b57\u0022\u3002","formatI":"\u4e00\u884c\u4e00\u4e2a\u6574\u6570N(N\u572864\u4f4d\u6574\u6570(long long \/ int64)\u8303\u56f4\u5185)\u3002","formatO":"\u4e00\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u5982\u679cN\u662f\u0022\u7c7b\u5e78\u8fd0\u6570\u5b57\u0022\u5219\u8f93\u51fa\u0022YES\u0022\uff0c\u5426\u5219\u8f93\u51fa\u0022NO\u0022\u3002\n\n\u611f\u8c22@PC_DOS \u63d0\u4f9b\u7ffb\u8bd1","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF110A Nearly Lucky Number","type":2,"slug":"CF110A","color":"orange-3"},"discussions":[{"id":230614,"title":"\u7ffb\u8bd1\u6709\u8bef","author":{"uid":278521,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/278521.png","name":"questRush","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1591855564},{"id":95713,"title":"\u6211\u8fd8\u6d3b\u7740","author":{"uid":54372,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/54372.png","name":"A_\u0110ark_Horcrux","slogan":"\u300e\u7b11\u3048\u3084\u7b11\u3048 \u8003\u3048\u3066\u3082\u7b54\u3048\u306d\u3047\u300f","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":5,"xcpcLevel":0,"background":""},"time":1548251492},{"id":81308,"title":"\u9898\u610f\u6709\u8bef\uff01\uff01","author":{"uid":138398,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/138398.png","name":"\u6768\u5c0f\u827e","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1541509151},{"id":46158,"title":"\u6837\u4f8b\u4e8c\uff1f\uff1f","author":{"uid":53118,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/53118.png","name":"gzw2005","slogan":"\u4e2a\u4eba\u535a\u5ba2\uff1azuwei.org | \u53ef\u662f\u8fd9\u4e00\u5207\u7684\u5e73\u9759\u3001\u8212\u9002\u548c\u6ee1\u8db3\u90fd\u8981\u6050\u6016\u5730\u7ed3\u675f\uff0c\u90a3\u53ef\u600e\u4e48\u529e\u5462\uff1f","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":8,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/4qe62zqp.png"},"time":1529417315},{"id":45387,"title":"\u9898\u610f\u7b80\u8ff0","author":{"uid":74038,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/74038.png","name":"PC_DOS","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1528675150}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328011.635561,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF110A Nearly Lucky Number","description":"\u9898\u76ee\u8981\u6c42\n\u5982\u679c\u4e00\u4e2a\u6570\u4ec5\u5305\u542b4\u548c7\uff0c\u90a3\u4e48\u5b83\u5c31\u662f\u4e00\u4e2a&quot;\u5e78\u8fd0\u6570\u5b57&quot;\u3002\n\u5982\u679c\u4e00\u4e2a\u6570\u672c\u8eab\u4e0d\u662f\u5e78\u8fd0\u6570\uff0c\u4f46\u662f\u5b83\u6240\u542b\u6709\u7684\u6570\u5b574\u548c7\u7684\u4e2a\u6570\u4e4b\u548c\u4e3a\u4e00\u4e2a&quot;\u5e78\u8fd0\u6570\u5b57&quot;\uff0c\u90a3\u4e48\u5b83\u5c31\u662f\u4e00\u4e2a&quot;\u7c7b\u5e78\u8fd0\u6570\u5b57&quot;\u3002\n\u7ed9\u60a8\u4e00\u4e2a\u6570\uff0c\u8bf7\u7f16\u7a0b\u5224\u65ad\u5b83\u662f\u4e0d\u662f&quot;\u7c7b\u5e78\u8fd0\u6570\u5b57&quot;\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF110A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF110A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF110A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF110A Nearly Lucky Number" />
+    <meta property="og:description" content="题目要求
+如果一个数仅包含4和7，那么它就是一个&amp;quot;幸运数字&amp;quot;。
+如果一个数本身不是幸运数，但是它所含有的数字4和7的个数之和为一个&amp;quot;幸运数字&amp;quot;，那么它就是一个&amp;quot;类幸运数字&amp;quot;。
+给您一个数，请编程判断它是不是&amp;quot;类幸运数字&amp;quot;。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF110A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF110A Nearly Lucky Number</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    ### 题目要求
+如果一个数仅包含4和7，那么它就是一个"幸运数字"。
+如果一个数**本身不是**幸运数，但是它所含有的数字4和7的个数之和为一个"幸运数字"，那么它就是一个"类幸运数字"。
+给您一个数，请编程判断它是不是"类幸运数字"。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行一个整数N(N在64位整数(long long / int64)范围内)。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    一行一个字符串，如果N是"类幸运数字"则输出"YES"，否则输出"NO"。
+
+感谢@PC_DOS 提供翻译
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first sample there are 3 lucky digits (first one and last two), so the answer is "NO".
+
+In the second sample there are 7 lucky digits, 7 is lucky number, so the answer is "YES".
+
+In the third sample there are no lucky digits, so the answer is "NO".
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "id": "CF-1148H",
+  "contest_id": 1148,
+  "index": "H",
+  "name": "Holy Diver ",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 320,
+  "problem_url": "https://codeforces.com/problemset/problem/1148/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1148/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1148/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1148H%20Holy%20Diver%20%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1148/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1148H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1244C",
+  "contest_id": 1244,
+  "index": "C",
+  "name": "The Football Season",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1244/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1244/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1244/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1244C%20The Football Season%20tutorial",
+  "solved_count": 8201,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1244C",
+  "hydro_meta": {
+    "page_title": "The Football Season - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

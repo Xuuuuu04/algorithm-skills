@@ -1,0 +1,29 @@
+{
+  "id": "CF-1207D",
+  "contest_id": 1207,
+  "index": "D",
+  "name": "Number Of Permutations",
+  "rating": 1800,
+  "tags": [
+    "combinatorics"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1207/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1207/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1207/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1207D%20Number Of Permutations%20tutorial",
+  "solved_count": 6653,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1207D",
+  "hydro_meta": {
+    "page_title": "Number Of Permutations - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

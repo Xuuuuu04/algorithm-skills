@@ -1,0 +1,38 @@
+{
+  "id": "CF-1109D",
+  "contest_id": 1109,
+  "index": "D",
+  "name": "Sasha and Interesting Fact from Graph Theory",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "dp",
+    "math",
+    "trees"
+  ],
+  "solved_count": 1482,
+  "problem_url": "https://codeforces.com/problemset/problem/1109/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1109/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1109/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1109D%20Sasha%20and%20Interesting%20Fact%20from%20Graph%20Theory%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1109D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sasha and Interesting Fact from Graph Theory - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "combinatorics",
+      "dp",
+      "math",
+      "trees",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

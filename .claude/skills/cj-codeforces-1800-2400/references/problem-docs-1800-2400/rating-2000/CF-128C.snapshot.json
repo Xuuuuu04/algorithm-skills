@@ -1,0 +1,33 @@
+{
+  "id": "CF-128C",
+  "contest_id": 128,
+  "index": "C",
+  "name": "Games with Rectangle",
+  "rating": 2000,
+  "tags": [
+    "combinatorics",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/128/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/128/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/128/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=128C%20Games with Rectangle%20tutorial",
+  "solved_count": 3218,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P128C",
+  "hydro_meta": {
+    "page_title": "Games with Rectangle - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

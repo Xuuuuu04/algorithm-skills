@@ -1,0 +1,28 @@
+{
+  "id": "CF-264B",
+  "contest_id": 264,
+  "index": "B",
+  "name": "Good Sequences",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "number theory"
+  ],
+  "solved_count": 11877,
+  "problem_url": "https://codeforces.com/problemset/problem/264/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/264/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/264/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=264B%20Good%20Sequences%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/264/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 264B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

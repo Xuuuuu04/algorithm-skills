@@ -1,0 +1,30 @@
+{
+  "id": "CF-1001B",
+  "contest_id": 1001,
+  "index": "B",
+  "name": "Generate Bell state",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 721,
+  "problem_url": "https://codeforces.com/problemset/problem/1001/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1001/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1001/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1001B%20Generate%20Bell%20state%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1001B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Generate Bell state - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

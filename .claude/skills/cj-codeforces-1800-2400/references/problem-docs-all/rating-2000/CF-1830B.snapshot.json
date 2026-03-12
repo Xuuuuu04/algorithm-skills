@@ -1,0 +1,28 @@
+{
+  "id": "CF-1830B",
+  "contest_id": 1830,
+  "index": "B",
+  "name": "The BOSS Can Count Pairs",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "math"
+  ],
+  "solved_count": 5758,
+  "problem_url": "https://codeforces.com/problemset/problem/1830/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1830/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1830/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1830B%20The%20BOSS%20Can%20Count%20Pairs%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1830B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1830B The BOSS Can Count Pairs - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 203,
+    "mirror_attempt": 428,
+    "time_limit": "4000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

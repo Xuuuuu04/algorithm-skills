@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415131:9/KlDoxIFEo27lca3Z/0zIUUHiWBlntj/O14A7ZdFp8=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF665C Simple Strings - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF665C","type":"CF","title":"Simple Strings","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":608,"totalAccepted":235,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Simple Strings","background":null,"description":"zscoder \u559c\u6b22\u7b80\u5355\u4e32\uff01\u5982\u679c\u4e00\u4e2a\u5b57\u7b26\u4e32 $t$ \u7684\u4efb\u610f\u76f8\u90bb\u4e24\u4e2a\u5b57\u7b26\u90fd\u4e0d\u76f8\u540c\uff0c\u5219\u79f0\u5176\u4e3a\u7b80\u5355\u4e32\u3002\u4f8b\u5982\uff0cab\u3001aba\u3001zscoder \u90fd\u662f\u7b80\u5355\u4e32\uff0c\u800c aa\u3001add \u90fd\u4e0d\u662f\u7b80\u5355\u4e32\u3002\n\n\u73b0\u5728 zscoder \u6709\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\u3002\u4ed6\u60f3\u6700\u5c11\u5730\u4fee\u6539\u5b57\u7b26\uff0c\u4f7f\u5f97\u5b57\u7b26\u4e32 $s$ \u53d8\u4e3a\u7b80\u5355\u4e32\u3002\u8bf7\u5e2e\u52a9\u4ed6\u5b8c\u6210\u8fd9\u4e2a\u4efb\u52a1\uff01","formatI":"\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u5b57\u7b26\u4e32 $s$\uff08$1 \\leq |s| \\leq 2 \\cdot 10^{5}$\uff09\u2014\u2014\u8fd9\u662f zscoder \u7ed9\u51fa\u7684\u5b57\u7b26\u4e32\u3002\u5b57\u7b26\u4e32 $s$ \u53ea\u5305\u542b\u5c0f\u5199\u82f1\u6587\u5b57\u6bcd\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u7b80\u5355\u4e32 $s\u0027$ \u2014\u2014 \u8fd9\u662f\u5bf9\u5b57\u7b26\u4e32 $s$ \u7ecf\u8fc7\u6700\u5c11\u4fee\u6539\u540e\u7684\u7ed3\u679c\u3002\u5982\u679c\u5b58\u5728\u591a\u79cd\u65b9\u6848\uff0c\u4f60\u53ef\u4ee5\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u79cd\u3002\n\n\u6ce8\u610f\uff0c\u8f93\u51fa\u7684\u5b57\u7b26\u4e32 $s\u0027$ \u4e5f\u53ea\u80fd\u5305\u542b\u5c0f\u5199\u82f1\u6587\u5b57\u6bcd\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Simple Strings","background":"","description":"zscoder loves simple strings! A string $ t $ is called simple if every pair of adjacent characters are distinct. For example ab, aba, zscoder are simple whereas aa, add are not simple.\n\nzscoder is given a string $ s $ . He wants to change a minimum number of characters so that the string $ s $ becomes simple. Help him with this task!","formatI":"The only line contains the string $ s $ ( $ 1\u003C=|s|\u003C=2\u00b710^{5} $ ) \u2014 the string given to zscoder. The string $ s $ consists of only lowercase English letters.","formatO":"Print the simple string $ s\u0027 $ \u2014 the string $ s $ after the minimal number of changes. If there are multiple solutions, you may output any of them.\n\nNote that the string $ s\u0027 $ should also consist of only lowercase English letters.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["aab\n","bab\n"],["caaab\n","cabab\n"],["zscoder\n","zscoder\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"665C","link":"https:\/\/codeforces.com\/problemset\/problem\/665\/C"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u5b57\u7b26\u4e32t (t\u7684\u957f\u5ea6\u003C2*10^5)\u3002\u6bcf\u6b21\u53ef\u4ee5\u5c06t\u4e2d\u7684\u4efb\u4e00\u5b57\u7b26\u6539\u4e3a\u53e6\u4e00\u5b57\u7b26\uff08a~z\uff09\uff0c\u8981\u6c42\u5728\u6700\u77ed\u7684\u64cd\u4f5c\u540e\uff0ct\u4efb\u610f\u4e24\u4e2a\u76f8\u90bb\u7684\u5b57\u7b26\u4e92\u4e0d\u76f8\u7b49\u3002\n\n\u53ef\u80fd\u6709\u591a\u4e2a\u7b54\u6848\uff0c\u8bf7\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u3002"},"translations":{"en":{"name":"Simple Strings","background":"","description":"zscoder loves simple strings! A string $ t $ is called simple if every pair of adjacent characters are distinct. For example ab, aba, zscoder are simple whereas aa, add are not simple.\n\nzscoder is given a string $ s $ . He wants to change a minimum number of characters so that the string $ s $ becomes simple. Help him with this task!","formatI":"The only line contains the string $ s $ ( $ 1\u003C=|s|\u003C=2\u00b710^{5} $ ) \u2014 the string given to zscoder. The string $ s $ consists of only lowercase English letters.","formatO":"Print the simple string $ s\u0027 $ \u2014 the string $ s $ after the minimal number of changes. If there are multiple solutions, you may output any of them.\n\nNote that the string $ s\u0027 $ should also consist of only lowercase English letters.","hint":"","locale":"en"},"zh-CN":{"name":"Simple Strings","background":null,"description":"zscoder \u559c\u6b22\u7b80\u5355\u4e32\uff01\u5982\u679c\u4e00\u4e2a\u5b57\u7b26\u4e32 $t$ \u7684\u4efb\u610f\u76f8\u90bb\u4e24\u4e2a\u5b57\u7b26\u90fd\u4e0d\u76f8\u540c\uff0c\u5219\u79f0\u5176\u4e3a\u7b80\u5355\u4e32\u3002\u4f8b\u5982\uff0cab\u3001aba\u3001zscoder \u90fd\u662f\u7b80\u5355\u4e32\uff0c\u800c aa\u3001add \u90fd\u4e0d\u662f\u7b80\u5355\u4e32\u3002\n\n\u73b0\u5728 zscoder \u6709\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\u3002\u4ed6\u60f3\u6700\u5c11\u5730\u4fee\u6539\u5b57\u7b26\uff0c\u4f7f\u5f97\u5b57\u7b26\u4e32 $s$ \u53d8\u4e3a\u7b80\u5355\u4e32\u3002\u8bf7\u5e2e\u52a9\u4ed6\u5b8c\u6210\u8fd9\u4e2a\u4efb\u52a1\uff01","formatI":"\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u5b57\u7b26\u4e32 $s$\uff08$1 \\leq |s| \\leq 2 \\cdot 10^{5}$\uff09\u2014\u2014\u8fd9\u662f zscoder \u7ed9\u51fa\u7684\u5b57\u7b26\u4e32\u3002\u5b57\u7b26\u4e32 $s$ \u53ea\u5305\u542b\u5c0f\u5199\u82f1\u6587\u5b57\u6bcd\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u7b80\u5355\u4e32 $s\u0027$ \u2014\u2014 \u8fd9\u662f\u5bf9\u5b57\u7b26\u4e32 $s$ \u7ecf\u8fc7\u6700\u5c11\u4fee\u6539\u540e\u7684\u7ed3\u679c\u3002\u5982\u679c\u5b58\u5728\u591a\u79cd\u65b9\u6848\uff0c\u4f60\u53ef\u4ee5\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u79cd\u3002\n\n\u6ce8\u610f\uff0c\u8f93\u51fa\u7684\u5b57\u7b26\u4e32 $s\u0027$ \u4e5f\u53ea\u80fd\u5305\u542b\u5c0f\u5199\u82f1\u6587\u5b57\u6bcd\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF665C Simple Strings","type":2,"slug":"CF665C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328731.611253,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF665C Simple Strings","description":"zscoder \u559c\u6b22\u7b80\u5355\u4e32\uff01\u5982\u679c\u4e00\u4e2a\u5b57\u7b26\u4e32 t \u7684\u4efb\u610f\u76f8\u90bb\u4e24\u4e2a\u5b57\u7b26\u90fd\u4e0d\u76f8\u540c\uff0c\u5219\u79f0\u5176\u4e3a\u7b80\u5355\u4e32\u3002\u4f8b\u5982\uff0cab\u3001aba\u3001zscoder \u90fd\u662f\u7b80\u5355\u4e32\uff0c\u800c aa\u3001add \u90fd\u4e0d\u662f\u7b80\u5355\u4e32\u3002\n\u73b0\u5728 zscoder \u6709\u4e00\u4e2a\u5b57\u7b26\u4e32 s\u3002\u4ed6\u60f3\u6700\u5c11\u5730\u4fee\u6539\u5b57\u7b26\uff0c\u4f7f\u5f97\u5b57\u7b26\u4e32\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF665C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF665C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF665C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF665C Simple Strings" />
+    <meta property="og:description" content="zscoder 喜欢简单串！如果一个字符串 t 的任意相邻两个字符都不相同，则称其为简单串。例如，ab、aba、zscoder 都是简单串，而 aa、add 都不是简单串。
+现在 zscoder 有一个字符串 s。他想最少地修改字符，使得字符串…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF665C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF665C Simple Strings</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    zscoder 喜欢简单串！如果一个字符串 $t$ 的任意相邻两个字符都不相同，则称其为简单串。例如，ab、aba、zscoder 都是简单串，而 aa、add 都不是简单串。
+
+现在 zscoder 有一个字符串 $s$。他想最少地修改字符，使得字符串 $s$ 变为简单串。请帮助他完成这个任务！
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    仅一行，包含字符串 $s$（$1 \leq |s| \leq 2 \cdot 10^{5}$）——这是 zscoder 给出的字符串。字符串 $s$ 只包含小写英文字母。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个简单串 $s'$ —— 这是对字符串 $s$ 经过最少修改后的结果。如果存在多种方案，你可以输出其中任意一种。
+
+注意，输出的字符串 $s'$ 也只能包含小写英文字母。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

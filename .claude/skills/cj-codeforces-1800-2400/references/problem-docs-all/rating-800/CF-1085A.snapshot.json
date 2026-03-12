@@ -1,0 +1,28 @@
+{
+  "id": "CF-1085A",
+  "contest_id": 1085,
+  "index": "A",
+  "name": "Right-Left Cipher",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 12628,
+  "problem_url": "https://codeforces.com/problemset/problem/1085/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1085/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1085/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1085A%20Right-Left%20Cipher%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1085A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1085A Right-Left Cipher - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 118,
+    "mirror_attempt": 375,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

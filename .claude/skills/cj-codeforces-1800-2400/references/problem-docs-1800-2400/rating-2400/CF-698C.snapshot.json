@@ -1,0 +1,38 @@
+{
+  "id": "CF-698C",
+  "contest_id": 698,
+  "index": "C",
+  "name": "LRU",
+  "rating": 2400,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/698/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/698/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/698/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=698C%20LRU%20tutorial",
+  "solved_count": 1430,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P698C",
+  "hydro_meta": {
+    "page_title": "LRU - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "dp",
+      "math",
+      "probabilities",
+      "*2400"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 6,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

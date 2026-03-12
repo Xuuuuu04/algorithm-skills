@@ -1,0 +1,30 @@
+{
+  "id": "CF-1136D",
+  "contest_id": 1136,
+  "index": "D",
+  "name": "Nastya Is Buying Lunch",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 3979,
+  "problem_url": "https://codeforces.com/problemset/problem/1136/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1136/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1136/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1136D%20Nastya%20Is%20Buying%20Lunch%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1136D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nastya Is Buying Lunch - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

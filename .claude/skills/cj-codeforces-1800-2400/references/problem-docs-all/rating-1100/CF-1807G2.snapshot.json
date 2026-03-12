@@ -1,0 +1,36 @@
+{
+  "id": "CF-1807G2",
+  "contest_id": 1807,
+  "index": "G2",
+  "name": "Subsequence Addition (Hard Version)",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 26959,
+  "problem_url": "https://codeforces.com/problemset/problem/1807/G2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1807/problem/G2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1807/problem/G2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1807G2%20Subsequence%20Addition%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1807G2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Subsequence Addition (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

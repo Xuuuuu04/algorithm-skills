@@ -1,0 +1,34 @@
+{
+  "id": "CF-489C",
+  "contest_id": 489,
+  "index": "C",
+  "name": "Given Length and Sum of Digits...",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 51200,
+  "problem_url": "https://codeforces.com/problemset/problem/489/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/489/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/489/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=489C%20Given%20Length%20and%20Sum%20of%20Digits...%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P489C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Given Length and Sum of Digits... - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

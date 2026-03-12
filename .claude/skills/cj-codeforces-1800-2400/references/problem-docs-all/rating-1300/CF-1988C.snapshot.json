@@ -1,0 +1,29 @@
+{
+  "id": "CF-1988C",
+  "contest_id": 1988,
+  "index": "C",
+  "name": "Increasing Sequence with Fixed OR",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 20083,
+  "problem_url": "https://codeforces.com/problemset/problem/1988/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1988/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1988/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1988C%20Increasing%20Sequence%20with%20Fixed%20OR%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1988/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1988C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

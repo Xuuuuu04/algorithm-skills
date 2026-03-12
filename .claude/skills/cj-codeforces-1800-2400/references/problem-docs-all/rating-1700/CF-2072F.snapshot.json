@@ -1,0 +1,33 @@
+{
+  "id": "CF-2072F",
+  "contest_id": 2072,
+  "index": "F",
+  "name": "Goodbye, Banker Life",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "2-sat",
+    "bitmasks",
+    "combinatorics",
+    "constructive algorithms",
+    "fft",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 8271,
+  "problem_url": "https://codeforces.com/problemset/problem/2072/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2072/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2072/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2072F%20Goodbye%2C%20Banker%20Life%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2072F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2072F Goodbye, Banker Life - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

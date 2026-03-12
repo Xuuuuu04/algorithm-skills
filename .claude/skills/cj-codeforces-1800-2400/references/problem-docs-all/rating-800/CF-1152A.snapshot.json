@@ -1,0 +1,29 @@
+{
+  "id": "CF-1152A",
+  "contest_id": 1152,
+  "index": "A",
+  "name": "Neko Finds Grapes",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 16116,
+  "problem_url": "https://codeforces.com/problemset/problem/1152/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1152/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1152/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1152A%20Neko%20Finds%20Grapes%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1152A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1152A Neko Finds Grapes - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 139,
+    "mirror_attempt": 236,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

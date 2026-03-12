@@ -1,0 +1,39 @@
+{
+  "id": "CF-2092E",
+  "contest_id": 2092,
+  "index": "E",
+  "name": "She knows...",
+  "rating": 2100,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "graphs",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2092/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2092/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2092/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2092E%20She knows...%20tutorial",
+  "solved_count": 3758,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2092E",
+  "hydro_meta": {
+    "page_title": "She knows... - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

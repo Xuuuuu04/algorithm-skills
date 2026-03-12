@@ -1,0 +1,30 @@
+{
+  "id": "CF-1913C",
+  "contest_id": 1913,
+  "index": "C",
+  "name": "Game with Multiset",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "brute force",
+    "greedy"
+  ],
+  "solved_count": 17308,
+  "problem_url": "https://codeforces.com/problemset/problem/1913/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1913/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1913/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1913C%20Game%20with%20Multiset%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1913C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1913C Game with Multiset - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 280,
+    "mirror_attempt": 534,
+    "time_limit": "1500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

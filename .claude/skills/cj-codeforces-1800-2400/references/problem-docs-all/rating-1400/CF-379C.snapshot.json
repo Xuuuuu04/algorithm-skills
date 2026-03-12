@@ -1,0 +1,32 @@
+{
+  "id": "CF-379C",
+  "contest_id": 379,
+  "index": "C",
+  "name": "New Year Ratings Change",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 7024,
+  "problem_url": "https://codeforces.com/problemset/problem/379/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/379/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/379/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=379C%20New%20Year%20Ratings%20Change%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P379C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year Ratings Change - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

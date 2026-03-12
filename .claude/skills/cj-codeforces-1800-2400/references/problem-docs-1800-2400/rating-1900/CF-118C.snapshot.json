@@ -1,0 +1,38 @@
+{
+  "id": "CF-118C",
+  "contest_id": 118,
+  "index": "C",
+  "name": "Fancy Number",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "greedy",
+    "sortings",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/118/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/118/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/118/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=118C%20Fancy Number%20tutorial",
+  "solved_count": 2846,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P118C",
+  "hydro_meta": {
+    "page_title": "Fancy Number - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "strings",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

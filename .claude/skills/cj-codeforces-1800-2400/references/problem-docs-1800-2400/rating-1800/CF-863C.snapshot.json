@@ -1,0 +1,33 @@
+{
+  "id": "CF-863C",
+  "contest_id": 863,
+  "index": "C",
+  "name": "1-2-3",
+  "rating": 1800,
+  "tags": [
+    "graphs",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/863/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/863/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/863/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=863C%201-2-3%20tutorial",
+  "solved_count": 2703,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P863C",
+  "hydro_meta": {
+    "page_title": "1-2-3 - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graphs",
+      "implementation",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

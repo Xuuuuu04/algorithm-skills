@@ -1,0 +1,33 @@
+{
+  "id": "CF-679C",
+  "contest_id": 679,
+  "index": "C",
+  "name": "Bear and Square Grid",
+  "rating": 2400,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/679/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/679/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/679/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=679C%20Bear and Square Grid%20tutorial",
+  "solved_count": 1252,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P679C",
+  "hydro_meta": {
+    "page_title": "Bear and Square Grid - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dsu",
+      "implementation",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

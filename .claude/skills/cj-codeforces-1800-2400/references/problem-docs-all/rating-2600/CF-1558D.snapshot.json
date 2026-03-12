@@ -1,0 +1,31 @@
+{
+  "id": "CF-1558D",
+  "contest_id": 1558,
+  "index": "D",
+  "name": "Top-Notch Insertions",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "data structures"
+  ],
+  "solved_count": 1127,
+  "problem_url": "https://codeforces.com/problemset/problem/1558/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1558/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1558/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1558D%20Top-Notch%20Insertions%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1558D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Top-Notch Insertions - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "data structures"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

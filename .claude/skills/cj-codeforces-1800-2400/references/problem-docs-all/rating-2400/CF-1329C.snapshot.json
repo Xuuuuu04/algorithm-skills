@@ -1,0 +1,36 @@
+{
+  "id": "CF-1329C",
+  "contest_id": 1329,
+  "index": "C",
+  "name": "Drazil Likes Heap",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 1794,
+  "problem_url": "https://codeforces.com/problemset/problem/1329/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1329/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1329/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1329C%20Drazil%20Likes%20Heap%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1329C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Drazil Likes Heap - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

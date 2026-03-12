@@ -1,0 +1,34 @@
+{
+  "id": "CF-1931F",
+  "contest_id": 1931,
+  "index": "F",
+  "name": "Chat Screenshots",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 11502,
+  "problem_url": "https://codeforces.com/problemset/problem/1931/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1931/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1931/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1931F%20Chat%20Screenshots%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1931F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Chat Screenshots - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dfs and similar",
+      "graphs",
+      "*1700"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

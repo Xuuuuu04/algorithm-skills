@@ -1,0 +1,35 @@
+{
+  "id": "CF-121C",
+  "contest_id": 121,
+  "index": "C",
+  "name": "Lucky Permutation",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/121/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/121/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/121/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=121C%20Lucky Permutation%20tutorial",
+  "solved_count": 1413,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P121C",
+  "hydro_meta": {
+    "page_title": "Lucky Permutation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "combinatorics",
+      "number theory",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

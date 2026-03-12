@@ -1,0 +1,29 @@
+{
+  "id": "CF-813F",
+  "contest_id": 813,
+  "index": "F",
+  "name": "Bipartite Checking",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 1676,
+  "problem_url": "https://codeforces.com/problemset/problem/813/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/813/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/813/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=813F%20Bipartite%20Checking%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF813F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF813F Bipartite Checking - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 588,
+    "mirror_attempt": 1119,
+    "time_limit": "6000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

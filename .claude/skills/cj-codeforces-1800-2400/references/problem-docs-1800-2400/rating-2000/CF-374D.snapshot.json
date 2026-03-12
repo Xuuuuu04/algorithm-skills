@@ -1,0 +1,40 @@
+{
+  "id": "CF-374D",
+  "contest_id": 374,
+  "index": "D",
+  "name": "Inna and Sequence ",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/374/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/374/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/374/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=374D%20Inna and Sequence %20tutorial",
+  "solved_count": 973,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P374D",
+  "hydro_meta": {
+    "page_title": "Inna and Sequence - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "trees",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

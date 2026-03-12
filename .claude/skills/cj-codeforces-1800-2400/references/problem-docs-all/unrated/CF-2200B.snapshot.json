@@ -1,0 +1,30 @@
+{
+  "id": "CF-2200B",
+  "contest_id": 2200,
+  "index": "B",
+  "name": "Deletion Sort",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 21383,
+  "problem_url": "https://codeforces.com/problemset/problem/2200/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2200/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2200/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2200B%20Deletion%20Sort%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2200B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2200B 删除排序 - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

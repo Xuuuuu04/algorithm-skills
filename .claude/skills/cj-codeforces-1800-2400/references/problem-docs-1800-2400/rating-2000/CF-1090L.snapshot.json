@@ -1,0 +1,30 @@
+{
+  "id": "CF-1090L",
+  "contest_id": 1090,
+  "index": "L",
+  "name": "Berland University",
+  "rating": 2000,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1090/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1090/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1090/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1090L%20Berland University%20tutorial",
+  "solved_count": 1414,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1090L",
+  "hydro_meta": {
+    "page_title": "__NO_TITLE__ - 题目详情 - Hydro",
+    "hydro_tags": [],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

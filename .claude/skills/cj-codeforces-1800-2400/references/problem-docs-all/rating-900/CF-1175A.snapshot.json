@@ -1,0 +1,28 @@
+{
+  "id": "CF-1175A",
+  "contest_id": 1175,
+  "index": "A",
+  "name": "From Hero to Zero",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 19501,
+  "problem_url": "https://codeforces.com/problemset/problem/1175/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1175/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1175/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1175A%20From%20Hero%20to%20Zero%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1175/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1175A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

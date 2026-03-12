@@ -1,0 +1,29 @@
+{
+  "id": "CF-164B",
+  "contest_id": 164,
+  "index": "B",
+  "name": "Ancient Berland Hieroglyphs",
+  "rating": 2000,
+  "tags": [
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/164/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/164/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/164/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=164B%20Ancient Berland Hieroglyphs%20tutorial",
+  "solved_count": 516,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P164B",
+  "hydro_meta": {
+    "page_title": "Ancient Berland Hieroglyphs - 题目详情 - Hydro",
+    "hydro_tags": [
+      "two pointers",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

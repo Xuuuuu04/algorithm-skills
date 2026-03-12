@@ -1,0 +1,28 @@
+{
+  "id": "CF-1905A",
+  "contest_id": 1905,
+  "index": "A",
+  "name": "Constructive Problems",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 24292,
+  "problem_url": "https://codeforces.com/problemset/problem/1905/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1905/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1905/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1905A%20Constructive%20Problems%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1905/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1905A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-543A",
+  "contest_id": 543,
+  "index": "A",
+  "name": "Writing Code",
+  "rating": 1800,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/543/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/543/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/543/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=543A%20Writing Code%20tutorial",
+  "solved_count": 8767,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P543A",
+  "hydro_meta": {
+    "page_title": "Writing Code - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

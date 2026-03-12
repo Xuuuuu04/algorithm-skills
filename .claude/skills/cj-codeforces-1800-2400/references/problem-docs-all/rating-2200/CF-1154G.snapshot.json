@@ -1,0 +1,36 @@
+{
+  "id": "CF-1154G",
+  "contest_id": 1154,
+  "index": "G",
+  "name": "Minimum Possible LCM",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 3201,
+  "problem_url": "https://codeforces.com/problemset/problem/1154/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1154/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1154/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1154G%20Minimum%20Possible%20LCM%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1154G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Minimum Possible LCM - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "1024MiB"
+  }
+}

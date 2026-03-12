@@ -1,0 +1,29 @@
+{
+  "id": "CF-1972A",
+  "contest_id": 1972,
+  "index": "A",
+  "name": "Contest Proposal",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 25673,
+  "problem_url": "https://codeforces.com/problemset/problem/1972/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1972/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1972/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1972A%20Contest%20Proposal%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1972A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1972A Contest Proposal - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 153,
+    "mirror_attempt": 251,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

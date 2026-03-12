@@ -1,0 +1,36 @@
+{
+  "id": "CF-290C",
+  "contest_id": 290,
+  "index": "C",
+  "name": "WTF?",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "graph matchings",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 1652,
+  "problem_url": "https://codeforces.com/problemset/problem/290/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/290/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/290/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=290C%20WTF%3F%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P290C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "WTF? - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "graph matchings",
+      "implementation",
+      "trees",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

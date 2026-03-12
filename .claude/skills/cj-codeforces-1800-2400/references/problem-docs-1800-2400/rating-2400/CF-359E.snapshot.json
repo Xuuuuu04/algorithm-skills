@@ -1,0 +1,33 @@
+{
+  "id": "CF-359E",
+  "contest_id": 359,
+  "index": "E",
+  "name": "Neatness",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar"
+  ],
+  "url": "https://codeforces.com/problemset/problem/359/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/359/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/359/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=359E%20Neatness%20tutorial",
+  "solved_count": 514,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P359E",
+  "hydro_meta": {
+    "page_title": "Neatness - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

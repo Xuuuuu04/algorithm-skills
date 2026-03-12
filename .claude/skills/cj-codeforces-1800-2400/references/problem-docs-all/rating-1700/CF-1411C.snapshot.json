@@ -1,0 +1,29 @@
+{
+  "id": "CF-1411C",
+  "contest_id": 1411,
+  "index": "C",
+  "name": "Peaceful Rooks",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 8505,
+  "problem_url": "https://codeforces.com/problemset/problem/1411/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1411/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1411/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1411C%20Peaceful%20Rooks%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1411C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1411C Peaceful Rooks - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 203,
+    "mirror_attempt": 323,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

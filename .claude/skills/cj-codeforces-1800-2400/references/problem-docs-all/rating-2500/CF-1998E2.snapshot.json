@@ -1,0 +1,32 @@
+{
+  "id": "CF-1998E2",
+  "contest_id": 1998,
+  "index": "E2",
+  "name": "Eliminating Balls With Merging (Hard Version)",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 887,
+  "problem_url": "https://codeforces.com/problemset/problem/1998/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1998/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1998/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1998E2%20Eliminating%20Balls%20With%20Merging%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1998/E2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1998E2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

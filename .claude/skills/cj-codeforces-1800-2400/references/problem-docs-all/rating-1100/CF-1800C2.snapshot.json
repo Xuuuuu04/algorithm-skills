@@ -1,0 +1,31 @@
+{
+  "id": "CF-1800C2",
+  "contest_id": 1800,
+  "index": "C2",
+  "name": "Powering the Hero (hard version)",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 26603,
+  "problem_url": "https://codeforces.com/problemset/problem/1800/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1800/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1800/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1800C2%20Powering%20the%20Hero%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1800C2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Powering the Hero (hard version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

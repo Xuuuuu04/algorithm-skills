@@ -1,0 +1,33 @@
+{
+  "id": "CF-1627B",
+  "contest_id": 1627,
+  "index": "B",
+  "name": "Not Sitting",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "games",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 17497,
+  "problem_url": "https://codeforces.com/problemset/problem/1627/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1627/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1627/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1627B%20Not%20Sitting%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1627B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Not Sitting - 题目详情 - Hydro",
+    "mirror_tags": [
+      "games",
+      "greedy",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-505A",
+  "contest_id": 505,
+  "index": "A",
+  "name": "Mr. Kitayuta's Gift",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 6904,
+  "problem_url": "https://codeforces.com/problemset/problem/505/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/505/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/505/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=505A%20Mr.%20Kitayuta%27s%20Gift%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P505A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mr - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

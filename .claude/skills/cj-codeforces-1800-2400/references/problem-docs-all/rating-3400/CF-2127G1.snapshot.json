@@ -1,0 +1,30 @@
+{
+  "id": "CF-2127G1",
+  "contest_id": 2127,
+  "index": "G1",
+  "name": "Inter Active (Easy Version)",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "interactive",
+    "probabilities"
+  ],
+  "solved_count": 95,
+  "problem_url": "https://codeforces.com/problemset/problem/2127/G1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2127/problem/G1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2127/problem/G1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2127G1%20Inter%20Active%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2127/G1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2127G1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

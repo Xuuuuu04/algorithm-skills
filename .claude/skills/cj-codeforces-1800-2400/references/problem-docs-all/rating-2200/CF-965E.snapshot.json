@@ -1,0 +1,31 @@
+{
+  "id": "CF-965E",
+  "contest_id": 965,
+  "index": "E",
+  "name": "Short Code",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "strings",
+    "trees"
+  ],
+  "solved_count": 1846,
+  "problem_url": "https://codeforces.com/problemset/problem/965/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/965/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/965/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=965E%20Short%20Code%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF965E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF965E Short Code - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 350,
+    "mirror_attempt": 658,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

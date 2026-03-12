@@ -1,0 +1,39 @@
+{
+  "id": "CF-1201D",
+  "contest_id": 1201,
+  "index": "D",
+  "name": "Treasure Hunting",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1201/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1201/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1201/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1201D%20Treasure Hunting%20tutorial",
+  "solved_count": 2521,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1201D",
+  "hydro_meta": {
+    "page_title": "Treasure Hunting - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

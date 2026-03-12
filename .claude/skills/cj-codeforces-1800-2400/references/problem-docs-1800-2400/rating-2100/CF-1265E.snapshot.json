@@ -1,0 +1,39 @@
+{
+  "id": "CF-1265E",
+  "contest_id": 1265,
+  "index": "E",
+  "name": "Beautiful Mirrors",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1265/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1265/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1265/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1265E%20Beautiful Mirrors%20tutorial",
+  "solved_count": 4408,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1265E",
+  "hydro_meta": {
+    "page_title": "Beautiful Mirrors - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "math",
+      "probabilities",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

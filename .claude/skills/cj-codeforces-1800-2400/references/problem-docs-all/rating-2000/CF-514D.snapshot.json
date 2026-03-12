@@ -1,0 +1,29 @@
+{
+  "id": "CF-514D",
+  "contest_id": 514,
+  "index": "D",
+  "name": "R2D2 and Droid Army",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "two pointers"
+  ],
+  "solved_count": 5255,
+  "problem_url": "https://codeforces.com/problemset/problem/514/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/514/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/514/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=514D%20R2D2%20and%20Droid%20Army%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF514D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF514D R2D2 and Droid Army - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 225,
+    "mirror_attempt": 537,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

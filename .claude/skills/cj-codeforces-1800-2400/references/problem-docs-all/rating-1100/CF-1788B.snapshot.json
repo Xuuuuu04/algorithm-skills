@@ -1,0 +1,36 @@
+{
+  "id": "CF-1788B",
+  "contest_id": 1788,
+  "index": "B",
+  "name": "Sum of Two Numbers",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 22153,
+  "problem_url": "https://codeforces.com/problemset/problem/1788/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1788/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1788/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1788B%20Sum%20of%20Two%20Numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1788B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sum of Two Numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

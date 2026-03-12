@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1338A Powered Addition - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1338A","type":"CF","title":"Powered Addition","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":621,"totalAccepted":304,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Powered Addition","background":null,"description":"\u4f60\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\u3002\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6b63\u6574\u6570 $x$\uff0c\u4f60\u5c06\u5728\u7b2c $x$ \u79d2\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9\u4e00\u4e9b\u4e0d\u540c\u7684\u4e0b\u6807 $i_{1}, i_{2}, \\ldots, i_{k}$\uff08$1 \\le i_j \\le n$\uff09\uff0c\u5e76\u5c06 $2^{x-1}$ \u52a0\u5230 $a$ \u7684\u5bf9\u5e94\u4f4d\u7f6e\u4e0a\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5bf9\u4e8e $j = 1, 2, \\ldots, k$\uff0c\u6709 $a_{i_{j}} := a_{i_{j}} + 2^{x-1}$\u3002\u6ce8\u610f\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e0d\u9009\u4efb\u4f55\u4e0b\u6807\u3002\n\n\u4f60\u9700\u8981\u5c3d\u5feb\u4f7f\u6570\u7ec4 $a$ \u53d8\u4e3a\u975e\u9012\u51cf\u3002\u8bf7\u627e\u51fa\u6700\u5c0f\u7684\u6574\u6570 $T$\uff0c\u4f7f\u5f97\u5728\u6700\u591a $T$ \u79d2\u540e\uff0c\u4f60\u53ef\u4ee5\u5c06\u6570\u7ec4 $a$ \u53d8\u4e3a\u975e\u9012\u51cf\u3002\n\n\u6570\u7ec4 $a$ \u662f\u975e\u9012\u51cf\u7684\uff0c\u5f53\u4e14\u4ec5\u5f53 $a_{1} \\le a_{2} \\le \\ldots \\le a_{n}$\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u7ec4\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^{4}$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 10^{5}$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^{5}$\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_{1}, a_{2}, \\ldots, a_{n}$\uff08$-10^{9} \\le a_{i} \\le 10^{9}$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f\u6570\u7ec4 $a$ \u53d8\u4e3a\u975e\u9012\u51cf\u6240\u9700\u7684\u6700\u5c0f\u79d2\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5982\u679c\u4f60\u5728\u7b2c $1$ \u79d2\u9009\u62e9\u4e0b\u6807 $3, 4$\uff0c\u5728\u7b2c $2$ \u79d2\u9009\u62e9\u4e0b\u6807 $4$\uff0c\u5219 $a$ \u4f1a\u53d8\u4e3a $[1, 7, 7, 8]$\u3002\u8fd8\u6709\u5176\u4ed6\u65b9\u6cd5\u53ef\u4ee5\u5728 $2$ \u79d2\u5185\u4f7f $a$ \u975e\u9012\u51cf\uff0c\u4f46\u65e0\u6cd5\u66f4\u5feb\u5b8c\u6210\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c$a$ \u5df2\u7ecf\u662f\u975e\u9012\u51cf\u7684\uff0c\u6240\u4ee5\u7b54\u6848\u662f $0$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5982\u679c\u4f60\u524d $2$ \u79d2\u4ec0\u4e48\u90fd\u4e0d\u505a\uff0c\u5728\u7b2c $3$ \u79d2\u9009\u62e9\u4e0b\u6807 $2$\uff0c\u5219 $a$ \u4f1a\u53d8\u4e3a $[0, 0]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Powered Addition","background":"","description":"You have an array $ a $ of length $ n $ . For every positive integer $ x $ you are going to perform the following operation during the $ x $ -th second:\n\n- Select some distinct indices $ i_{1}, i_{2}, \\ldots, i_{k} $ which are between $ 1 $ and $ n $ inclusive, and add $ 2^{x-1} $ to each corresponding position of $ a $ . Formally, $ a_{i_{j}} := a_{i_{j}} + 2^{x-1} $ for $ j = 1, 2, \\ldots, k $ . Note that you are allowed to not select any indices at all.\n\nYou have to make $ a $ nondecreasing as fast as possible. Find the smallest number $ T $ such that you can make the array nondecreasing after at most $ T $ seconds.\n\nArray $ a $ is nondecreasing if and only if $ a_{1} \\le a_{2} \\le \\ldots \\le a_{n} $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^{4} $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains single integer $ n $ ( $ 1 \\le n \\le 10^{5} $ ) \u2014 the length of array $ a $ . It is guaranteed that the sum of values of $ n $ over all test cases in the input does not exceed $ 10^{5} $ .\n\nThe second line of each test case contains $ n $ integers $ a_{1}, a_{2}, \\ldots, a_{n} $ ( $ -10^{9} \\le a_{i} \\le 10^{9} $ ).","formatO":"For each test case, print the minimum number of seconds in which you can make $ a $ nondecreasing.","hint":"In the first test case, if you select indices $ 3, 4 $ at the $ 1 $ -st second and $ 4 $ at the $ 2 $ -nd second, then $ a $ will become $ [1, 7, 7, 8] $ . There are some other possible ways to make $ a $ nondecreasing in $ 2 $ seconds, but you can\u0027t do it faster.\n\nIn the second test case, $ a $ is already nondecreasing, so answer is $ 0 $ .\n\nIn the third test case, if you do nothing at first $ 2 $ seconds and select index $ 2 $ at the $ 3 $ -rd second, $ a $ will become $ [0, 0] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n4\n1 7 6 5\n5\n1 2 3 4 5\n2\n0 -4","2\n0\n3"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1338A","link":"https:\/\/codeforces.com\/problemset\/problem\/1338\/A"},"translation":"\u4e00\u4e2a\u6570\u5217\uff0c\u6bcf\u4e2a\u6570\u53ef\u4ee5\u9009\u62e9\u4e00\u4e9b $j$\uff0c\u4f7f\u5f97\u8fd9\u4e2a\u6570\u52a0\u4e0a $\\sum {2^{j-1}}$\uff08$j$ \u4e0d\u4e00\u5b9a\u8981\u8fde\u7eed\uff09\u3002\u5e0c\u671b\u52a0\u4e0a\u8fd9\u4e9b\u503c\u540e\u7684\u6570\u5217\u6210\u4e3a\u4e0d\u964d\u5e8f\u5217\u3002\u6700\u5c0f\u5316\u4f7f\u7528\u5230\u7684\u7684 $j$ \u7684\u6700\u5927\u503c\u3002"},"translations":{"en":{"name":"Powered Addition","background":"","description":"You have an array $ a $ of length $ n $ . For every positive integer $ x $ you are going to perform the following operation during the $ x $ -th second:\n\n- Select some distinct indices $ i_{1}, i_{2}, \\ldots, i_{k} $ which are between $ 1 $ and $ n $ inclusive, and add $ 2^{x-1} $ to each corresponding position of $ a $ . Formally, $ a_{i_{j}} := a_{i_{j}} + 2^{x-1} $ for $ j = 1, 2, \\ldots, k $ . Note that you are allowed to not select any indices at all.\n\nYou have to make $ a $ nondecreasing as fast as possible. Find the smallest number $ T $ such that you can make the array nondecreasing after at most $ T $ seconds.\n\nArray $ a $ is nondecreasing if and only if $ a_{1} \\le a_{2} \\le \\ldots \\le a_{n} $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^{4} $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains single integer $ n $ ( $ 1 \\le n \\le 10^{5} $ ) \u2014 the length of array $ a $ . It is guaranteed that the sum of values of $ n $ over all test cases in the input does not exceed $ 10^{5} $ .\n\nThe second line of each test case contains $ n $ integers $ a_{1}, a_{2}, \\ldots, a_{n} $ ( $ -10^{9} \\le a_{i} \\le 10^{9} $ ).","formatO":"For each test case, print the minimum number of seconds in which you can make $ a $ nondecreasing.","hint":"In the first test case, if you select indices $ 3, 4 $ at the $ 1 $ -st second and $ 4 $ at the $ 2 $ -nd second, then $ a $ will become $ [1, 7, 7, 8] $ . There are some other possible ways to make $ a $ nondecreasing in $ 2 $ seconds, but you can\u0027t do it faster.\n\nIn the second test case, $ a $ is already nondecreasing, so answer is $ 0 $ .\n\nIn the third test case, if you do nothing at first $ 2 $ seconds and select index $ 2 $ at the $ 3 $ -rd second, $ a $ will become $ [0, 0] $ .","locale":"en"},"zh-CN":{"name":"Powered Addition","background":null,"description":"\u4f60\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\u3002\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6b63\u6574\u6570 $x$\uff0c\u4f60\u5c06\u5728\u7b2c $x$ \u79d2\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9\u4e00\u4e9b\u4e0d\u540c\u7684\u4e0b\u6807 $i_{1}, i_{2}, \\ldots, i_{k}$\uff08$1 \\le i_j \\le n$\uff09\uff0c\u5e76\u5c06 $2^{x-1}$ \u52a0\u5230 $a$ \u7684\u5bf9\u5e94\u4f4d\u7f6e\u4e0a\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5bf9\u4e8e $j = 1, 2, \\ldots, k$\uff0c\u6709 $a_{i_{j}} := a_{i_{j}} + 2^{x-1}$\u3002\u6ce8\u610f\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e0d\u9009\u4efb\u4f55\u4e0b\u6807\u3002\n\n\u4f60\u9700\u8981\u5c3d\u5feb\u4f7f\u6570\u7ec4 $a$ \u53d8\u4e3a\u975e\u9012\u51cf\u3002\u8bf7\u627e\u51fa\u6700\u5c0f\u7684\u6574\u6570 $T$\uff0c\u4f7f\u5f97\u5728\u6700\u591a $T$ \u79d2\u540e\uff0c\u4f60\u53ef\u4ee5\u5c06\u6570\u7ec4 $a$ \u53d8\u4e3a\u975e\u9012\u51cf\u3002\n\n\u6570\u7ec4 $a$ \u662f\u975e\u9012\u51cf\u7684\uff0c\u5f53\u4e14\u4ec5\u5f53 $a_{1} \\le a_{2} \\le \\ldots \\le a_{n}$\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u7ec4\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^{4}$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 10^{5}$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^{5}$\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_{1}, a_{2}, \\ldots, a_{n}$\uff08$-10^{9} \\le a_{i} \\le 10^{9}$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f\u6570\u7ec4 $a$ \u53d8\u4e3a\u975e\u9012\u51cf\u6240\u9700\u7684\u6700\u5c0f\u79d2\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5982\u679c\u4f60\u5728\u7b2c $1$ \u79d2\u9009\u62e9\u4e0b\u6807 $3, 4$\uff0c\u5728\u7b2c $2$ \u79d2\u9009\u62e9\u4e0b\u6807 $4$\uff0c\u5219 $a$ \u4f1a\u53d8\u4e3a $[1, 7, 7, 8]$\u3002\u8fd8\u6709\u5176\u4ed6\u65b9\u6cd5\u53ef\u4ee5\u5728 $2$ \u79d2\u5185\u4f7f $a$ \u975e\u9012\u51cf\uff0c\u4f46\u65e0\u6cd5\u66f4\u5feb\u5b8c\u6210\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c$a$ \u5df2\u7ecf\u662f\u975e\u9012\u51cf\u7684\uff0c\u6240\u4ee5\u7b54\u6848\u662f $0$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5982\u679c\u4f60\u524d $2$ \u79d2\u4ec0\u4e48\u90fd\u4e0d\u505a\uff0c\u5728\u7b2c $3$ \u79d2\u9009\u62e9\u4e0b\u6807 $2$\uff0c\u5219 $a$ \u4f1a\u53d8\u4e3a $[0, 0]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1338A Powered Addition","type":2,"slug":"CF1338A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.320865,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1338A Powered Addition","description":"\u4f60\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a\u3002\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6b63\u6574\u6570 x\uff0c\u4f60\u5c06\u5728\u7b2c x \u79d2\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n\u9009\u62e9\u4e00\u4e9b\u4e0d\u540c\u7684\u4e0b\u6807 i_{1}, i_{2}, \\ldots, i_{k}\uff081 \\le i_j \\le n\uff09\uff0c\u5e76\u5c06 2^{x-1} \u52a0\u5230 a \u7684\u5bf9\u5e94\u4f4d\u7f6e\u4e0a\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u5bf9\u4e8e\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1338A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1338A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1338A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1338A Powered Addition" />
+    <meta property="og:description" content="你有一个长度为 n 的数组 a。对于每一个正整数 x，你将在第 x 秒执行以下操作：
+
+选择一些不同的下标 i_{1}, i_{2}, \ldots, i_{k}（1 \le i_j \le n），并将 2^{x-1} 加到 a 的对应位置上。形式化地说，对于…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1338A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1338A Powered Addition</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你有一个长度为 $n$ 的数组 $a$。对于每一个正整数 $x$，你将在第 $x$ 秒执行以下操作：
+
+- 选择一些不同的下标 $i_{1}, i_{2}, \ldots, i_{k}$（$1 \le i_j \le n$），并将 $2^{x-1}$ 加到 $a$ 的对应位置上。形式化地说，对于 $j = 1, 2, \ldots, k$，有 $a_{i_{j}} := a_{i_{j}} + 2^{x-1}$。注意，你可以选择不选任何下标。
+
+你需要尽快使数组 $a$ 变为非递减。请找出最小的整数 $T$，使得在最多 $T$ 秒后，你可以将数组 $a$ 变为非递减。
+
+数组 $a$ 是非递减的，当且仅当 $a_{1} \le a_{2} \le \ldots \le a_{n}$。
+
+你需要回答 $t$ 组独立的测试用例。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 10^{4}$），表示测试用例的数量。
+
+每组测试用例的第一行包含一个整数 $n$（$1 \le n \le 10^{5}$），表示数组 $a$ 的长度。保证所有测试用例中 $n$ 的总和不超过 $10^{5}$。
+
+每组测试用例的第二行包含 $n$ 个整数 $a_{1}, a_{2}, \ldots, a_{n}$（$-10^{9} \le a_{i} \le 10^{9}$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试用例，输出一个整数，表示使数组 $a$ 变为非递减所需的最小秒数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，如果你在第 $1$ 秒选择下标 $3, 4$，在第 $2$ 秒选择下标 $4$，则 $a$ 会变为 $[1, 7, 7, 8]$。还有其他方法可以在 $2$ 秒内使 $a$ 非递减，但无法更快完成。
+
+在第二个测试用例中，$a$ 已经是非递减的，所以答案是 $0$。
+
+在第三个测试用例中，如果你前 $2$ 秒什么都不做，在第 $3$ 秒选择下标 $2$，则 $a$ 会变为 $[0, 0]$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

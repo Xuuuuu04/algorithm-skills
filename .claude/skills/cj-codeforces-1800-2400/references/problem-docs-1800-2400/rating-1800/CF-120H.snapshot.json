@@ -1,0 +1,29 @@
+{
+  "id": "CF-120H",
+  "contest_id": 120,
+  "index": "H",
+  "name": "Brevity is Soul of Wit",
+  "rating": 1800,
+  "tags": [
+    "graph matchings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/120/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/120/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/120/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=120H%20Brevity is Soul of Wit%20tutorial",
+  "solved_count": 1570,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P120H",
+  "hydro_meta": {
+    "page_title": "Brevity is Soul of Wit - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graph matchings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

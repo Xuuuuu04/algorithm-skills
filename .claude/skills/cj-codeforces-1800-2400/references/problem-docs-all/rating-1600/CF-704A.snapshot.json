@@ -1,0 +1,34 @@
+{
+  "id": "CF-704A",
+  "contest_id": 704,
+  "index": "A",
+  "name": "Thor",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 10138,
+  "problem_url": "https://codeforces.com/problemset/problem/704/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/704/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/704/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=704A%20Thor%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P704A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Thor - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

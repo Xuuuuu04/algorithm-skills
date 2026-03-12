@@ -1,0 +1,32 @@
+{
+  "id": "CF-2037G",
+  "contest_id": 2037,
+  "index": "G",
+  "name": "Natlan Exploring",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "data structures",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 3659,
+  "problem_url": "https://codeforces.com/problemset/problem/2037/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2037/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2037/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2037G%20Natlan%20Exploring%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2037/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2037G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

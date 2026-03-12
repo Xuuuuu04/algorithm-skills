@@ -1,0 +1,32 @@
+{
+  "id": "CF-1942E",
+  "contest_id": 1942,
+  "index": "E",
+  "name": "Farm Game",
+  "rating": 2300,
+  "tags": [
+    "combinatorics",
+    "games"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1942/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1942/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1942/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1942E%20Farm Game%20tutorial",
+  "solved_count": 1934,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1942E",
+  "hydro_meta": {
+    "page_title": "Farm Game - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "games",
+      "greedy",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

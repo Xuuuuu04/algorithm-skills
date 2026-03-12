@@ -1,0 +1,29 @@
+{
+  "id": "CF-1450B",
+  "contest_id": 1450,
+  "index": "B",
+  "name": "Balls of Steel",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "geometry",
+    "greedy"
+  ],
+  "solved_count": 15927,
+  "problem_url": "https://codeforces.com/problemset/problem/1450/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1450/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1450/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1450B%20Balls%20of%20Steel%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1450/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1450B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

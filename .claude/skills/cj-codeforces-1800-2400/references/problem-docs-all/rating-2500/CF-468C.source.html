@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF468C Hack it! - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF468C","type":"CF","title":"Hack it!","difficulty":6,"tags":[],"wantsTranslation":false,"totalSubmit":4444,"totalAccepted":2003,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Hack it!","background":"","description":"\u5c0f X \u6700\u8fd1\u9047\u5230\u4e86\u4e0b\u9762\u7684\u95ee\u9898\u3002\n\n\u6211\u4eec\u5b9a\u4e49\u51fd\u6570 $f(x)$ \u4e3a $x$ \u7684\u5404\u4e2a\u6570\u4f4d\u4e4b\u548c\u3002\u6bd4\u5982\u8bf4\uff0c$f(1234)=1+2+3+4=10$\u3002\u4efb\u52a1\u662f\uff0c\u8ba1\u7b97 $\\sum_{i=l}^rf(i)\\operatorname{mod} a$ \u7684\u503c\u3002\n\n\u5c0f X \u5f88\u5feb\u5c31\u89e3\u51b3\u4e86\u8fd9\u4e2a\u95ee\u9898\u3002\u4e8e\u662f\u5c0fX\u9501\u5b9a\u4e86\u8fd9\u9053\u9898\uff0c\u7136\u540e\u5f00\u59cb hack \u522b\u4eba\u3002\u4ed6\u770b\u5230\u4e86\u4e0b\u9762\u8fd9\u6bb5\u4ee3\u7801\uff1a\n\n```cpp\nans = solve(l, r) % a;\nif (ans \u003C= 0) ans += a;\n```\n\n\u663e\u800c\u6613\u89c1\u5730\uff0c\u8fd9\u6bb5\u4ee3\u7801\u4f1a\u5728 $\\sum_{i=l}^rf(i)\\equiv 0 \\pmod a$ \u65f6\u8f93\u51fa\u9519\u8bef\u3002\u5c0f X \u4f1a\u544a\u8bc9\u4f60\u9898\u76ee\u4e2d\u7684 $a$ \u662f\u591a\u5c11\uff0c\u73b0\u5728\u8bf7\u4f60\u4e3a\u5c0f X \u6784\u9020\u4e00\u4e2a hack \u6570\u636e\u3002","formatI":"\u8f93\u5165\u5305\u62ec\u4e00\u884c\uff0c\u5373\u5c0f X \u7ed9\u5b9a\u7684 $a$ \u7684\u503c\uff08$1\\le a\\le 10^{18}$\uff09","formatO":"\u8f93\u51fa\u4e24\u4e2a\u6574\u6570\uff1a$L,R$\uff0c\u6ee1\u8db3 $1\\leq L\\leq R\\leq 10^{200}$\uff0c\u540c\u65f6 $\\sum_{i=l}^rf(i)\\equiv 0 \\pmod a$\uff0c\u5373\u4f60\u6784\u9020\u7684 hack \u6570\u636e\u3002\n\n\u8f93\u5165\u4fdd\u8bc1\u6709\u89e3\u3002\n\n\u611f\u8c22 @mydiplomacy \u63d0\u4f9b\u7684\u7ffb\u8bd1\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Hack it!","background":"","description":"Little X has met the following problem recently.\n\nLet\u0027s define $ f(x) $ as the sum of digits in decimal representation of number $ x $ (for example, $ f(1234)=1+2+3+4 $ ). You are to calculate ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF468C\/fe6ab0bba17a510540bf8e106f0f96dce9cb2f34.png)\n\nOf course Little X has solved this problem quickly, has locked it, and then has tried to hack others. He has seen the following C++ code:\n\n`\u003Cbr\u003E\u003C\/br\u003E    ans = solve(l, r) % a;\u003Cbr\u003E\u003C\/br\u003E    if (ans \u003C= 0)\u003Cbr\u003E\u003C\/br\u003E      ans += a;\u003Cbr\u003E\u003C\/br\u003E\u003Cbr\u003E\u003C\/br\u003E` This code will fail only on the test with ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF468C\/6579a5d2185f1661195234a4c1edbbe014fbef4a.png). You are given number $ a $ , help Little X to find a proper test for hack.","formatI":"The first line contains a single integer $ a\u00a0(1\u003C=a\u003C=10^{18}) $ .","formatO":"Print two integers: $ l,r\u00a0(1\u003C=l\u003C=r\u0026lt;10^{200}) $ \u2014 the required test data. Leading zeros aren\u0027t allowed. It\u0027s guaranteed that the solution exists.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["46\n","1 10\n"],["126444381000032\n","2333333 2333333333333\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"468C","link":"https:\/\/codeforces.com\/problemset\/problem\/468\/C"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\n\u5c0f X \u6700\u8fd1\u9047\u5230\u4e86\u4e0b\u9762\u7684\u95ee\u9898\u3002\n\n\u6211\u4eec\u5b9a\u4e49\u51fd\u6570 $f(x)$ \u4e3a $x$ \u7684\u5404\u4e2a\u6570\u4f4d\u4e4b\u548c\u3002\u6bd4\u5982\u8bf4\uff0c$f(1234)=1+2+3+4=10$\u3002\u4efb\u52a1\u662f\uff0c\u8ba1\u7b97 $\\sum_{i=l}^rf(i)\\operatorname{mod} a$ \u7684\u503c\u3002\n\n\u5c0f X \u5f88\u5feb\u5c31\u89e3\u51b3\u4e86\u8fd9\u4e2a\u95ee\u9898\u3002\u4e8e\u662f\u5c0fX\u9501\u5b9a\u4e86\u8fd9\u9053\u9898\uff0c\u7136\u540e\u5f00\u59cb hack \u522b\u4eba\u3002\u4ed6\u770b\u5230\u4e86\u4e0b\u9762\u8fd9\u6bb5\u4ee3\u7801\uff1a\n\n```cpp\nans = solve(l, r) % a;\nif (ans \u003C= 0) ans += a;\n```\n\n\u663e\u800c\u6613\u89c1\u5730\uff0c\u8fd9\u6bb5\u4ee3\u7801\u4f1a\u5728 $\\sum_{i=l}^rf(i)\\equiv 0 \\pmod a$ \u65f6\u8f93\u51fa\u9519\u8bef\u3002\u5c0f X \u4f1a\u544a\u8bc9\u4f60\u9898\u76ee\u4e2d\u7684 $a$ \u662f\u591a\u5c11\uff0c\u73b0\u5728\u8bf7\u4f60\u4e3a\u5c0f X \u6784\u9020\u4e00\u4e2a hack \u6570\u636e\u3002\n\n## \u8f93\u5165\u683c\u5f0f\n\n\u8f93\u5165\u5305\u62ec\u4e00\u884c\uff0c\u5373\u5c0f X \u7ed9\u5b9a\u7684 $a$ \u7684\u503c\uff08$1\\le a\\le 10^{18}$\uff09\n\n## \u8f93\u51fa\u683c\u5f0f\n\n\u8f93\u51fa\u4e24\u4e2a\u6574\u6570\uff1a$L,R$\uff0c\u6ee1\u8db3 $1\\leq L\\leq R\\leq 10^{200}$\uff0c\u540c\u65f6 $\\sum_{i=l}^rf(i)\\equiv 0 \\pmod a$\uff0c\u5373\u4f60\u6784\u9020\u7684 hack \u6570\u636e\u3002\n\n\u8f93\u5165\u4fdd\u8bc1\u6709\u89e3\u3002\n\n\u611f\u8c22 @mydiplomacy \u63d0\u4f9b\u7684\u7ffb\u8bd1\u3002"},"translations":{"en":{"name":"Hack it!","background":"","description":"Little X has met the following problem recently.\n\nLet\u0027s define $ f(x) $ as the sum of digits in decimal representation of number $ x $ (for example, $ f(1234)=1+2+3+4 $ ). You are to calculate ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF468C\/fe6ab0bba17a510540bf8e106f0f96dce9cb2f34.png)\n\nOf course Little X has solved this problem quickly, has locked it, and then has tried to hack others. He has seen the following C++ code:\n\n`\u003Cbr\u003E\u003C\/br\u003E    ans = solve(l, r) % a;\u003Cbr\u003E\u003C\/br\u003E    if (ans \u003C= 0)\u003Cbr\u003E\u003C\/br\u003E      ans += a;\u003Cbr\u003E\u003C\/br\u003E\u003Cbr\u003E\u003C\/br\u003E` This code will fail only on the test with ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF468C\/6579a5d2185f1661195234a4c1edbbe014fbef4a.png). You are given number $ a $ , help Little X to find a proper test for hack.","formatI":"The first line contains a single integer $ a\u00a0(1\u003C=a\u003C=10^{18}) $ .","formatO":"Print two integers: $ l,r\u00a0(1\u003C=l\u003C=r\u0026lt;10^{200}) $ \u2014 the required test data. Leading zeros aren\u0027t allowed. It\u0027s guaranteed that the solution exists.","hint":"","locale":"en"},"zh-CN":{"name":"Hack it!","background":"","description":"\u5c0f X \u6700\u8fd1\u9047\u5230\u4e86\u4e0b\u9762\u7684\u95ee\u9898\u3002\n\n\u6211\u4eec\u5b9a\u4e49\u51fd\u6570 $f(x)$ \u4e3a $x$ \u7684\u5404\u4e2a\u6570\u4f4d\u4e4b\u548c\u3002\u6bd4\u5982\u8bf4\uff0c$f(1234)=1+2+3+4=10$\u3002\u4efb\u52a1\u662f\uff0c\u8ba1\u7b97 $\\sum_{i=l}^rf(i)\\operatorname{mod} a$ \u7684\u503c\u3002\n\n\u5c0f X \u5f88\u5feb\u5c31\u89e3\u51b3\u4e86\u8fd9\u4e2a\u95ee\u9898\u3002\u4e8e\u662f\u5c0fX\u9501\u5b9a\u4e86\u8fd9\u9053\u9898\uff0c\u7136\u540e\u5f00\u59cb hack \u522b\u4eba\u3002\u4ed6\u770b\u5230\u4e86\u4e0b\u9762\u8fd9\u6bb5\u4ee3\u7801\uff1a\n\n```cpp\nans = solve(l, r) % a;\nif (ans \u003C= 0) ans += a;\n```\n\n\u663e\u800c\u6613\u89c1\u5730\uff0c\u8fd9\u6bb5\u4ee3\u7801\u4f1a\u5728 $\\sum_{i=l}^rf(i)\\equiv 0 \\pmod a$ \u65f6\u8f93\u51fa\u9519\u8bef\u3002\u5c0f X \u4f1a\u544a\u8bc9\u4f60\u9898\u76ee\u4e2d\u7684 $a$ \u662f\u591a\u5c11\uff0c\u73b0\u5728\u8bf7\u4f60\u4e3a\u5c0f X \u6784\u9020\u4e00\u4e2a hack \u6570\u636e\u3002","formatI":"\u8f93\u5165\u5305\u62ec\u4e00\u884c\uff0c\u5373\u5c0f X \u7ed9\u5b9a\u7684 $a$ \u7684\u503c\uff08$1\\le a\\le 10^{18}$\uff09","formatO":"\u8f93\u51fa\u4e24\u4e2a\u6574\u6570\uff1a$L,R$\uff0c\u6ee1\u8db3 $1\\leq L\\leq R\\leq 10^{200}$\uff0c\u540c\u65f6 $\\sum_{i=l}^rf(i)\\equiv 0 \\pmod a$\uff0c\u5373\u4f60\u6784\u9020\u7684 hack \u6570\u636e\u3002\n\n\u8f93\u5165\u4fdd\u8bc1\u6709\u89e3\u3002\n\n\u611f\u8c22 @mydiplomacy \u63d0\u4f9b\u7684\u7ffb\u8bd1\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF468C Hack it!","type":2,"slug":"CF468C","color":"orange-3"},"discussions":[{"id":852646,"title":"\u8bf7\u6c42\u6dfb\u52a0\u9898\u89e3","author":{"uid":365654,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/365654.png","name":"035966_L3","slogan":"","badge":"","isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":8,"xcpcLevel":0,"background":""},"time":1720873445},{"id":836441,"title":"\u9898\u89e3\u6c42\u6dfb\u52a0","author":{"uid":482660,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/482660.png","name":"konyakest","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":9,"xcpcLevel":0,"background":""},"time":1718626318},{"id":691509,"title":"\u9898\u89e3\u6c42\u6dfb\u52a0","author":{"uid":207996,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/207996.png","name":"yzy1","slogan":"\u041c\u0435\u043d\u044f \u043c\u043e\u0435 \u0441\u0435\u0440\u0434\u0446\u0435, \u0432 \u0442\u0440\u0435\u0432\u043e\u0436\u043d\u0443\u044e \u0434\u0430\u043b\u044c \u0437\u043e\u0432\u0451\u0442.","badge":"\u1ebcd\u003C\u00dfDream","isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":9,"xcpcLevel":0,"background":""},"time":1695365647},{"id":664296,"title":"Unknown Error\u672a\u77e5\u9519\u8bef\u6c42\u6551","author":{"uid":977053,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/977053.png","name":"honglixian1118","slogan":"\u65e0\u6761\u4ef6\u4e92\u5173\uff08100%\u56de\u5173\uff08\u5fd8\u5173\u79c1\u4fe1","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1692323289},{"id":557480,"title":"\u8fd9\u9898\u7684SPJ\u600e\u4e48\u5199\u7684\uff1f","author":{"uid":575994,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/575994.png","name":"Hisaishi_Kanade","slogan":"\u77e5\u4e0d\u53ef\u4e4e\u9aa4\u5f97\uff0c\u6258\u9057\u54cd\u4e8e\u60b2\u98ce","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/y2zzfd59.png"},"time":1673584727},{"id":463556,"title":"\u9898\u610f\u7ffb\u8bd1\uff0c\u4f46\u662f\u4fee\u6b63\u4e86\u4e00\u4e0b\u683c\u5f0f","author":{"uid":371818,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/371818.png","name":"juruo999","slogan":"\u201c\u5982\u82e5\u6b64\u540e\u5343\u767e\u5e74\u6765,\u6765\u4eba\u6f2b\u6b65\u4e8e\u7e41\u661f\u8eab\u4fa7,\u4eba\u4eec\u4fbf\u8981\u8d5e\u9882\u5979\u7684\u540d\u3002\u201d","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/wg5b71w8.png"},"time":1658406971}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.311038,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF468C Hack it!","description":"\u5c0f X \u6700\u8fd1\u9047\u5230\u4e86\u4e0b\u9762\u7684\u95ee\u9898\u3002\n\u6211\u4eec\u5b9a\u4e49\u51fd\u6570 f(x) \u4e3a x \u7684\u5404\u4e2a\u6570\u4f4d\u4e4b\u548c\u3002\u6bd4\u5982\u8bf4\uff0cf(1234)=1+2+3+4=10\u3002\u4efb\u52a1\u662f\uff0c\u8ba1\u7b97 \\sum_{i=l}^rf(i)\\operatorname{mod} a \u7684\u503c\u3002\n\u5c0f X \u5f88\u5feb\u5c31\u89e3\u51b3\u4e86\u8fd9\u4e2a\u95ee\u9898\u3002\u4e8e\u662f\u5c0fX\u9501\u5b9a\u4e86\u8fd9\u9053\u9898\uff0c\u7136\u540e\u5f00\u59cb\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF468C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF468C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF468C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF468C Hack it!" />
+    <meta property="og:description" content="小 X 最近遇到了下面的问题。
+我们定义函数 f(x) 为 x 的各个数位之和。比如说，f(1234)=1+2+3+4=10。任务是，计算 \sum_{i=l}^rf(i)\operatorname{mod} a 的值。
+小 X 很快就解决了这个问题。于是小X锁定了这道题，然后开始…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF468C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF468C Hack it!</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    小 X 最近遇到了下面的问题。
+
+我们定义函数 $f(x)$ 为 $x$ 的各个数位之和。比如说，$f(1234)=1+2+3+4=10$。任务是，计算 $\sum_{i=l}^rf(i)\operatorname{mod} a$ 的值。
+
+小 X 很快就解决了这个问题。于是小X锁定了这道题，然后开始 hack 别人。他看到了下面这段代码：
+
+```cpp
+ans = solve(l, r) % a;
+if (ans 
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入包括一行，即小 X 给定的 $a$ 的值（$1\le a\le 10^{18}$）
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出两个整数：$L,R$，满足 $1\leq L\leq R\leq 10^{200}$，同时 $\sum_{i=l}^rf(i)\equiv 0 \pmod a$，即你构造的 hack 数据。
+
+输入保证有解。
+
+感谢 @mydiplomacy 提供的翻译。
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "id": "CF-457E",
+  "contest_id": 457,
+  "index": "E",
+  "name": "Flow Optimality",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "flows",
+    "math"
+  ],
+  "solved_count": 118,
+  "problem_url": "https://codeforces.com/problemset/problem/457/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/457/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/457/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=457E%20Flow%20Optimality%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P457E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Flow Optimality - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "flows",
+      "math",
+      "*3000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

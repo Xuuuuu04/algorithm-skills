@@ -1,0 +1,36 @@
+{
+  "id": "CF-314B",
+  "contest_id": 314,
+  "index": "B",
+  "name": "Sereja and Periods",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "dfs and similar",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/314/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/314/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/314/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=314B%20Sereja and Periods%20tutorial",
+  "solved_count": 1609,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P314B",
+  "hydro_meta": {
+    "page_title": "Sereja and Periods - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dfs and similar",
+      "strings",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

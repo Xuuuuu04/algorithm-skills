@@ -1,0 +1,31 @@
+{
+  "id": "CF-1175F",
+  "contest_id": 1175,
+  "index": "F",
+  "name": "The Number of Subpermutations",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "hashing",
+    "math"
+  ],
+  "solved_count": 2606,
+  "problem_url": "https://codeforces.com/problemset/problem/1175/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1175/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1175/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1175F%20The%20Number%20of%20Subpermutations%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1175F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1175F The Number of Subpermutations - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 619,
+    "mirror_attempt": 1336,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

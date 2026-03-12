@@ -1,0 +1,28 @@
+{
+  "id": "CF-1310F",
+  "contest_id": 1310,
+  "index": "F",
+  "name": "Bad Cryptography",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 100,
+  "problem_url": "https://codeforces.com/problemset/problem/1310/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1310/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1310/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1310F%20Bad%20Cryptography%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1310/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1310F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

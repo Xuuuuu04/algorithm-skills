@@ -1,0 +1,42 @@
+{
+  "id": "CF-1928E",
+  "contest_id": 1928,
+  "index": "E",
+  "name": "Modular Sequence",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "graphs",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 2064,
+  "problem_url": "https://codeforces.com/problemset/problem/1928/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1928/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1928/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1928E%20Modular%20Sequence%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1928E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Modular Sequence - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "graphs",
+      "greedy",
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-2009F",
+  "contest_id": 2009,
+  "index": "F",
+  "name": "Firefly's Queries",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "data structures",
+    "flows",
+    "math"
+  ],
+  "solved_count": 8362,
+  "problem_url": "https://codeforces.com/problemset/problem/2009/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2009/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2009/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2009F%20Firefly%27s%20Queries%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2009F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2009F Firefly's Queries - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

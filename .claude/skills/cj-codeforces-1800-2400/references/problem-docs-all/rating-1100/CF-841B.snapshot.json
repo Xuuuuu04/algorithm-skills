@@ -1,0 +1,32 @@
+{
+  "id": "CF-841B",
+  "contest_id": 841,
+  "index": "B",
+  "name": "Godsend",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "games",
+    "math"
+  ],
+  "solved_count": 13086,
+  "problem_url": "https://codeforces.com/problemset/problem/841/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/841/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/841/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=841B%20Godsend%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P841B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Godsend - 题目详情 - Hydro",
+    "mirror_tags": [
+      "games",
+      "math",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

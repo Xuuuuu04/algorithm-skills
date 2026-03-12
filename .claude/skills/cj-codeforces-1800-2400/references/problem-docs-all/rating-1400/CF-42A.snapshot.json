@@ -1,0 +1,32 @@
+{
+  "id": "CF-42A",
+  "contest_id": 42,
+  "index": "A",
+  "name": "Guilty --- to the kitchen!",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 3141,
+  "problem_url": "https://codeforces.com/problemset/problem/42/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/42/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/42/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=42A%20Guilty%20---%20to%20the%20kitchen%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P42A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Guilty — to the kitchen! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

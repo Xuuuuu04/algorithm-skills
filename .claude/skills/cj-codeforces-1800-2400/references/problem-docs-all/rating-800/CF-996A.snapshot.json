@@ -1,0 +1,32 @@
+{
+  "id": "CF-996A",
+  "contest_id": 996,
+  "index": "A",
+  "name": "Hit the Lottery",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 116057,
+  "problem_url": "https://codeforces.com/problemset/problem/996/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/996/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/996/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=996A%20Hit%20the%20Lottery%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P996A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Hit the Lottery - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

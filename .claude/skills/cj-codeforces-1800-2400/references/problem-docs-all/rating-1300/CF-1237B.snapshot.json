@@ -1,0 +1,34 @@
+{
+  "id": "CF-1237B",
+  "contest_id": 1237,
+  "index": "B",
+  "name": "Balanced Tunnel",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "data structures",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 22049,
+  "problem_url": "https://codeforces.com/problemset/problem/1237/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1237/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1237/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1237B%20Balanced%20Tunnel%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1237B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Balanced Tunnel - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "sortings",
+      "two pointers",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-412E",
+  "contest_id": 412,
+  "index": "E",
+  "name": "E-mail Addresses",
+  "rating": 1900,
+  "tags": [
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/412/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/412/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/412/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=412E%20E-mail Addresses%20tutorial",
+  "solved_count": 931,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P412E",
+  "hydro_meta": {
+    "page_title": "E-mail Addresses - 题目详情 - Hydro",
+    "hydro_tags": [
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

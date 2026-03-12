@@ -1,0 +1,28 @@
+{
+  "id": "CF-2070C",
+  "contest_id": 2070,
+  "index": "C",
+  "name": "Limited Repainting",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy"
+  ],
+  "solved_count": 13511,
+  "problem_url": "https://codeforces.com/problemset/problem/2070/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2070/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2070/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2070C%20Limited%20Repainting%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2070/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2070C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

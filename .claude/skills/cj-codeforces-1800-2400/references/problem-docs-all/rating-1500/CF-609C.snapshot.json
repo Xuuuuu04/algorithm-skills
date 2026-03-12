@@ -1,0 +1,32 @@
+{
+  "id": "CF-609C",
+  "contest_id": 609,
+  "index": "C",
+  "name": "Load Balancing",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 7319,
+  "problem_url": "https://codeforces.com/problemset/problem/609/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/609/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/609/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=609C%20Load%20Balancing%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P609C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Load Balancing - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1012F",
+  "contest_id": 1012,
+  "index": "F",
+  "name": "Passports",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 205,
+  "problem_url": "https://codeforces.com/problemset/problem/1012/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1012/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1012/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1012F%20Passports%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1012F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Passports - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "implementation",
+      "*3400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1936E",
+  "contest_id": 1936,
+  "index": "E",
+  "name": "Yet Yet Another Permutation Problem",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "divide and conquer",
+    "fft",
+    "math"
+  ],
+  "solved_count": 146,
+  "problem_url": "https://codeforces.com/problemset/problem/1936/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1936/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1936/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1936E%20Yet%20Yet%20Another%20Permutation%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1936E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yet Yet Another Permutation Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "divide and conquer",
+      "fft",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "1024MiB"
+  }
+}

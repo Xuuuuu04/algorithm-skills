@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1092A Uniform String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1092A","type":"CF","title":"Uniform String","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":346,"totalAccepted":226,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Uniform String","background":"","description":"```plain\n\n\u7ed9\u4f60\u4e24\u4e2a\u6570, $n$,$k$\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a$n$\u7684\u5b57\u7b26\u4e32 $S$, \u4f7f\u5f97\u82f1\u6587\u5b57\u6bcd\u8868\u4e2d\u524d $k$ \u4e2a\u5b57\u7b26\u5728\u5b57\u7b26\u4e32\u4e2d\u51fa\u73b0\u81f3\u5c11\u4e00\u6b21,\u5e76\u4e14\u4e0d\u51fa\u73b0\u5176\u4ed6\u5b57\u6bcd,\u4f60\u9700\u8981\u6700\u5927\u5316\u51fa\u73b0\u6b21\u6570\u6700\u5c0f\u7684\u5b57\u6bcd\u7684\u51fa\u73b0\u6b21\u6570.\n\n\u4f60\u8981\u56de\u7b54 $t$ \u7ec4\u8be2\u95ee,\u8be2\u95ee\u4e4b\u95f4\u72ec\u7acb.\n\n\n\u7ed9\u4f60\u4e24\u4e2a\u6570, $n$,$k$\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a$n$\u7684\u5b57\u7b26\u4e32 $S$, \u4f7f\u5f97\u82f1\u6587\u5b57\u6bcd\u8868\u4e2d\u524d $k$ \u4e2a\u5b57\u7b26\u5728\u5b57\u7b26\u4e32\u4e2d\u51fa\u73b0\u81f3\u5c11\u4e00\u6b21,\u5e76\u4e14\u4e0d\u51fa\u73b0\u5176\u4ed6\u5b57\u6bcd,\u4f60\u9700\u8981\u6700\u5927\u5316\u51fa\u73b0\u6b21\u6570\u6700\u5c0f\u7684\u5b57\u6bcd\u7684\u51fa\u73b0\u6b21\u6570.\n\n\u4f60\u8981\u56de\u7b54 $t$ \u7ec4\u8be2\u95ee,\u8be2\u95ee\u4e4b\u95f4\u72ec\u7acb.","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6570 $T$\n\n\u63a5\u4e0b\u6765 $T$ \u884c, \u6bcf\u884c\u4e24\u4e2a\u6570 $n$,$k$.\n\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6570 $T$\n\n\u63a5\u4e0b\u6765 $T$ \u884c, \u6bcf\u884c\u4e24\u4e2a\u6570 $n$,$k$.","formatO":"$T$ \u884c,\u7b2c $i$ \u884c\u8f93\u51fa\u8be2\u95ee $i$ \u7684\u7ed3\u679c,**\u82e5\u6709\u591a\u89e3\u5219\u4efb\u610f\u8f93\u51fa**.\n```\n\n\n$T$ \u884c,\u7b2c $i$ \u884c\u8f93\u51fa\u8be2\u95ee $i$ \u7684\u7ed3\u679c,**\u82e5\u6709\u591a\u89e3\u5219\u4efb\u610f\u8f93\u51fa**.","hint":"","locale":"zh-CN"},"content":{"name":"Uniform String","background":"","description":"You are given two integers $ n $ and $ k $ .\n\nYour task is to construct such a string $ s $ of length $ n $ that for each $ i $ from $ 1 $ to $ k $ there is at least one $ i $ -th letter of the Latin alphabet in this string (the first letter is \u0027a\u0027, the second is \u0027b\u0027 and so on) and there are no other letters except these. You have to maximize the minimal frequency of some letter (the frequency of a letter is the number of occurrences of this letter in a string). If there are several possible answers, you can print any.\n\nYou have to answer $ t $ independent queries.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 100 $ ) \u2014 the number of queries.\n\nThe next $ t $ lines are contain queries, one per line. The $ i $ -th line contains two integers $ n_i $ and $ k_i $ ( $ 1 \\le n_i \\le 100, 1 \\le k_i \\le min(n_i, 26) $ ) \u2014 the length of the string in the $ i $ -th query and the number of characters in the $ i $ -th query.","formatO":"Print $ t $ lines. In the $ i $ -th line print the answer to the $ i $ -th query: any string $ s_i $ satisfying the conditions in the problem statement with constraints from the $ i $ -th query.","hint":"In the first example query the maximum possible minimal frequency is $ 2 $ , it can be easily seen that the better answer doesn\u0027t exist. Other examples of correct answers: \u0022cbcabba\u0022, \u0022ccbbaaa\u0022 (any permutation of given answers is also correct).\n\nIn the second example query any permutation of first four letters is acceptable (the maximum minimal frequency is $ 1 $ ).\n\nIn the third example query any permutation of the given answer is acceptable (the maximum minimal frequency is $ 3 $ ).","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n7 3\n4 4\n6 2\n","cbcacab\nabcd\nbaabab\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1092A","link":"https:\/\/codeforces.com\/problemset\/problem\/1092\/A"},"translation":"```plain\n# \u9898\u76ee\u63cf\u8ff0\n\n\u7ed9\u4f60\u4e24\u4e2a\u6570, $n$,$k$\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a$n$\u7684\u5b57\u7b26\u4e32 $S$, \u4f7f\u5f97\u82f1\u6587\u5b57\u6bcd\u8868\u4e2d\u524d $k$ \u4e2a\u5b57\u7b26\u5728\u5b57\u7b26\u4e32\u4e2d\u51fa\u73b0\u81f3\u5c11\u4e00\u6b21,\u5e76\u4e14\u4e0d\u51fa\u73b0\u5176\u4ed6\u5b57\u6bcd,\u4f60\u9700\u8981\u6700\u5927\u5316\u51fa\u73b0\u6b21\u6570\u6700\u5c0f\u7684\u5b57\u6bcd\u7684\u51fa\u73b0\u6b21\u6570.\n\n\u4f60\u8981\u56de\u7b54 $t$ \u7ec4\u8be2\u95ee,\u8be2\u95ee\u4e4b\u95f4\u72ec\u7acb.\n\n# \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6570 $T$\n\n\u63a5\u4e0b\u6765 $T$ \u884c, \u6bcf\u884c\u4e24\u4e2a\u6570 $n$,$k$.\n\n# \u8f93\u51fa\u683c\u5f0f\n\n$T$ \u884c,\u7b2c $i$ \u884c\u8f93\u51fa\u8be2\u95ee $i$ \u7684\u7ed3\u679c,**\u82e5\u6709\u591a\u89e3\u5219\u4efb\u610f\u8f93\u51fa**.\n```\n\n# \u9898\u76ee\u63cf\u8ff0\n\n\u7ed9\u4f60\u4e24\u4e2a\u6570, $n$,$k$\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a$n$\u7684\u5b57\u7b26\u4e32 $S$, \u4f7f\u5f97\u82f1\u6587\u5b57\u6bcd\u8868\u4e2d\u524d $k$ \u4e2a\u5b57\u7b26\u5728\u5b57\u7b26\u4e32\u4e2d\u51fa\u73b0\u81f3\u5c11\u4e00\u6b21,\u5e76\u4e14\u4e0d\u51fa\u73b0\u5176\u4ed6\u5b57\u6bcd,\u4f60\u9700\u8981\u6700\u5927\u5316\u51fa\u73b0\u6b21\u6570\u6700\u5c0f\u7684\u5b57\u6bcd\u7684\u51fa\u73b0\u6b21\u6570.\n\n\u4f60\u8981\u56de\u7b54 $t$ \u7ec4\u8be2\u95ee,\u8be2\u95ee\u4e4b\u95f4\u72ec\u7acb.\n\n# \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6570 $T$\n\n\u63a5\u4e0b\u6765 $T$ \u884c, \u6bcf\u884c\u4e24\u4e2a\u6570 $n$,$k$.\n\n# \u8f93\u51fa\u683c\u5f0f\n\n$T$ \u884c,\u7b2c $i$ \u884c\u8f93\u51fa\u8be2\u95ee $i$ \u7684\u7ed3\u679c,**\u82e5\u6709\u591a\u89e3\u5219\u4efb\u610f\u8f93\u51fa**."},"translations":{"en":{"name":"Uniform String","background":"","description":"You are given two integers $ n $ and $ k $ .\n\nYour task is to construct such a string $ s $ of length $ n $ that for each $ i $ from $ 1 $ to $ k $ there is at least one $ i $ -th letter of the Latin alphabet in this string (the first letter is \u0027a\u0027, the second is \u0027b\u0027 and so on) and there are no other letters except these. You have to maximize the minimal frequency of some letter (the frequency of a letter is the number of occurrences of this letter in a string). If there are several possible answers, you can print any.\n\nYou have to answer $ t $ independent queries.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 100 $ ) \u2014 the number of queries.\n\nThe next $ t $ lines are contain queries, one per line. The $ i $ -th line contains two integers $ n_i $ and $ k_i $ ( $ 1 \\le n_i \\le 100, 1 \\le k_i \\le min(n_i, 26) $ ) \u2014 the length of the string in the $ i $ -th query and the number of characters in the $ i $ -th query.","formatO":"Print $ t $ lines. In the $ i $ -th line print the answer to the $ i $ -th query: any string $ s_i $ satisfying the conditions in the problem statement with constraints from the $ i $ -th query.","hint":"In the first example query the maximum possible minimal frequency is $ 2 $ , it can be easily seen that the better answer doesn\u0027t exist. Other examples of correct answers: \u0022cbcabba\u0022, \u0022ccbbaaa\u0022 (any permutation of given answers is also correct).\n\nIn the second example query any permutation of first four letters is acceptable (the maximum minimal frequency is $ 1 $ ).\n\nIn the third example query any permutation of the given answer is acceptable (the maximum minimal frequency is $ 3 $ ).","locale":"en"},"zh-CN":{"name":"Uniform String","background":"","description":"```plain\n\n\u7ed9\u4f60\u4e24\u4e2a\u6570, $n$,$k$\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a$n$\u7684\u5b57\u7b26\u4e32 $S$, \u4f7f\u5f97\u82f1\u6587\u5b57\u6bcd\u8868\u4e2d\u524d $k$ \u4e2a\u5b57\u7b26\u5728\u5b57\u7b26\u4e32\u4e2d\u51fa\u73b0\u81f3\u5c11\u4e00\u6b21,\u5e76\u4e14\u4e0d\u51fa\u73b0\u5176\u4ed6\u5b57\u6bcd,\u4f60\u9700\u8981\u6700\u5927\u5316\u51fa\u73b0\u6b21\u6570\u6700\u5c0f\u7684\u5b57\u6bcd\u7684\u51fa\u73b0\u6b21\u6570.\n\n\u4f60\u8981\u56de\u7b54 $t$ \u7ec4\u8be2\u95ee,\u8be2\u95ee\u4e4b\u95f4\u72ec\u7acb.\n\n\n\u7ed9\u4f60\u4e24\u4e2a\u6570, $n$,$k$\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a$n$\u7684\u5b57\u7b26\u4e32 $S$, \u4f7f\u5f97\u82f1\u6587\u5b57\u6bcd\u8868\u4e2d\u524d $k$ \u4e2a\u5b57\u7b26\u5728\u5b57\u7b26\u4e32\u4e2d\u51fa\u73b0\u81f3\u5c11\u4e00\u6b21,\u5e76\u4e14\u4e0d\u51fa\u73b0\u5176\u4ed6\u5b57\u6bcd,\u4f60\u9700\u8981\u6700\u5927\u5316\u51fa\u73b0\u6b21\u6570\u6700\u5c0f\u7684\u5b57\u6bcd\u7684\u51fa\u73b0\u6b21\u6570.\n\n\u4f60\u8981\u56de\u7b54 $t$ \u7ec4\u8be2\u95ee,\u8be2\u95ee\u4e4b\u95f4\u72ec\u7acb.","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6570 $T$\n\n\u63a5\u4e0b\u6765 $T$ \u884c, \u6bcf\u884c\u4e24\u4e2a\u6570 $n$,$k$.\n\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6570 $T$\n\n\u63a5\u4e0b\u6765 $T$ \u884c, \u6bcf\u884c\u4e24\u4e2a\u6570 $n$,$k$.","formatO":"$T$ \u884c,\u7b2c $i$ \u884c\u8f93\u51fa\u8be2\u95ee $i$ \u7684\u7ed3\u679c,**\u82e5\u6709\u591a\u89e3\u5219\u4efb\u610f\u8f93\u51fa**.\n```\n\n\n$T$ \u884c,\u7b2c $i$ \u884c\u8f93\u51fa\u8be2\u95ee $i$ \u7684\u7ed3\u679c,**\u82e5\u6709\u591a\u89e3\u5219\u4efb\u610f\u8f93\u51fa**.","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1092A Uniform String","type":2,"slug":"CF1092A","color":"orange-3"},"discussions":[{"id":344535,"title":"\u9898\u76ee\u7ffb\u8bd1\u6709\u9505","author":{"uid":298208,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/298208.png","name":"BorisDimitri","slogan":"AFOed","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":5,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/s74cvkuc.png"},"time":1629604786}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.066576,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1092A Uniform String","description":"\n\n\u7ed9\u4f60\u4e24\u4e2a\u6570, $n$,$k$\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a$n$\u7684\u5b57\u7b26\u4e32 $S$, \u4f7f\u5f97\u82f1\u6587\u5b57\u6bcd\u8868\u4e2d\u524d $k$ \u4e2a\u5b57\u7b26\u5728\u5b57\u7b26\u4e32\u4e2d\u51fa\u73b0\u81f3\u5c11\u4e00\u6b21,\u5e76\u4e14\u4e0d\u51fa\u73b0\u5176\u4ed6\u5b57\u6bcd,\u4f60\u9700\u8981\u6700\u5927\u5316\u51fa\u73b0\u6b21\u6570\u6700\u5c0f\u7684\u5b57\u6bcd\u7684\u51fa\u73b0\u6b21\u6570.\n\n\u4f60\u8981\u56de\u7b54 $t$ \u7ec4\u8be2\u95ee,\u8be2\u95ee\u4e4b\u95f4\u72ec\u7acb.\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1092A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1092A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1092A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1092A Uniform String" />
+    <meta property="og:description" content="
+
+给你两个数, $n$,$k$
+
+你的任务是构造一个长度为$n$的字符串 $S$, 使得英文字母表中前 $k$ 个字符在字符串中出现至少一次,并且不出现其他字母,你需要最大化出现次数最小的字母的出现次数.
+
+你要回答 $t$ 组询问,询问之间独立.…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1092A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1092A Uniform String</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    ```plain
+
+给你两个数, $n$,$k$
+
+你的任务是构造一个长度为$n$的字符串 $S$, 使得英文字母表中前 $k$ 个字符在字符串中出现至少一次,并且不出现其他字母,你需要最大化出现次数最小的字母的出现次数.
+
+你要回答 $t$ 组询问,询问之间独立.
+
+
+给你两个数, $n$,$k$
+
+你的任务是构造一个长度为$n$的字符串 $S$, 使得英文字母表中前 $k$ 个字符在字符串中出现至少一次,并且不出现其他字母,你需要最大化出现次数最小的字母的出现次数.
+
+你要回答 $t$ 组询问,询问之间独立.
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个数 $T$
+
+接下来 $T$ 行, 每行两个数 $n$,$k$.
+
+
+第一行一个数 $T$
+
+接下来 $T$ 行, 每行两个数 $n$,$k$.
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    $T$ 行,第 $i$ 行输出询问 $i$ 的结果,**若有多解则任意输出**.
+```
+
+
+$T$ 行,第 $i$ 行输出询问 $i$ 的结果,**若有多解则任意输出**.
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first example query the maximum possible minimal frequency is $ 2 $ , it can be easily seen that the better answer doesn't exist. Other examples of correct answers: "cbcabba", "ccbbaaa" (any permutation of given answers is also correct).
+
+In the second example query any permutation of first four letters is acceptable (the maximum minimal frequency is $ 1 $ ).
+
+In the third example query any permutation of the given answer is acceptable (the maximum minimal frequency is $ 3 $ ).
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

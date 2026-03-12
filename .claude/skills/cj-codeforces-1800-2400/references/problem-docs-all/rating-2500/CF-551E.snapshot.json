@@ -1,0 +1,29 @@
+{
+  "id": "CF-551E",
+  "contest_id": 551,
+  "index": "E",
+  "name": "GukiZ and GukiZiana",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 2110,
+  "problem_url": "https://codeforces.com/problemset/problem/551/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/551/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/551/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=551E%20GukiZ%20and%20GukiZiana%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF551E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF551E GukiZ and GukiZiana - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 352,
+    "mirror_attempt": 1774,
+    "time_limit": "10000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

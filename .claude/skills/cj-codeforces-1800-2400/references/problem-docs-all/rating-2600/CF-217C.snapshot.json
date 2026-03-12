@@ -1,0 +1,34 @@
+{
+  "id": "CF-217C",
+  "contest_id": 217,
+  "index": "C",
+  "name": "Formurosa",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "divide and conquer",
+    "dp",
+    "expression parsing"
+  ],
+  "solved_count": 361,
+  "problem_url": "https://codeforces.com/problemset/problem/217/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/217/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/217/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=217C%20Formurosa%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P217C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Formurosa - 题目详情 - Hydro",
+    "mirror_tags": [
+      "divide and conquer",
+      "dp",
+      "expression parsing",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

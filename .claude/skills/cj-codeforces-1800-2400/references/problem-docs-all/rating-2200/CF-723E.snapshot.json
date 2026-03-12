@@ -1,0 +1,38 @@
+{
+  "id": "CF-723E",
+  "contest_id": 723,
+  "index": "E",
+  "name": "One-Way Reform",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "flows",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 2228,
+  "problem_url": "https://codeforces.com/problemset/problem/723/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/723/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/723/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=723E%20One-Way%20Reform%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P723E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "One-Way Reform - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "flows",
+      "graphs",
+      "greedy",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-461D",
+  "contest_id": 461,
+  "index": "D",
+  "name": "Appleman and Complicated Task",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dsu",
+    "math"
+  ],
+  "solved_count": 397,
+  "problem_url": "https://codeforces.com/problemset/problem/461/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/461/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/461/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=461D%20Appleman%20and%20Complicated%20Task%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P461D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Appleman and Complicated Task - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dsu",
+      "math",
+      "*2800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 4,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

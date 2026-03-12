@@ -1,0 +1,32 @@
+{
+  "id": "CF-802A3",
+  "contest_id": 802,
+  "index": "A3",
+  "name": "Heidi and Library (hard)",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "flows",
+    "graphs"
+  ],
+  "solved_count": 689,
+  "problem_url": "https://codeforces.com/problemset/problem/802/A3",
+  "answer_index_url": "https://codeforces.com/problemset/status/802/problem/A3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/802/problem/A3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=802A3%20Heidi%20and%20Library%20%28hard%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P802A3",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Heidi and Library (hard) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "flows",
+      "graphs",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-2147I1",
+  "contest_id": 2147,
+  "index": "I1",
+  "name": "Longest Increasing Path (Easy Version)",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 127,
+  "problem_url": "https://codeforces.com/problemset/problem/2147/I1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2147/problem/I1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2147/problem/I1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2147I1%20Longest%20Increasing%20Path%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2147I1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Longest Increasing Path (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math",
+      "*3300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

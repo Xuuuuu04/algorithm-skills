@@ -1,0 +1,31 @@
+{
+  "id": "CF-659E",
+  "contest_id": 659,
+  "index": "E",
+  "name": "New Reform",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 7941,
+  "problem_url": "https://codeforces.com/problemset/problem/659/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/659/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/659/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=659E%20New%20Reform%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/659/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 659E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

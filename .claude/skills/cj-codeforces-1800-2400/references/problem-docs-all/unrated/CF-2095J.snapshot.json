@@ -1,0 +1,29 @@
+{
+  "id": "CF-2095J",
+  "contest_id": 2095,
+  "index": "J",
+  "name": "Premiere at a Wrong Time",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 503,
+  "problem_url": "https://codeforces.com/problemset/problem/2095/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/2095/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2095/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2095J%20Premiere%20at%20a%20Wrong%20Time%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2095J",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Premiere at a Wrong Time - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

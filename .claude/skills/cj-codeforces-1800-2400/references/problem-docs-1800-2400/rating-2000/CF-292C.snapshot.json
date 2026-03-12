@@ -1,0 +1,29 @@
+{
+  "id": "CF-292C",
+  "contest_id": 292,
+  "index": "C",
+  "name": "Beautiful IP Addresses",
+  "rating": 2000,
+  "tags": [
+    "brute force"
+  ],
+  "url": "https://codeforces.com/problemset/problem/292/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/292/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/292/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=292C%20Beautiful IP Addresses%20tutorial",
+  "solved_count": 1304,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P292C",
+  "hydro_meta": {
+    "page_title": "Beautiful IP Addresses - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

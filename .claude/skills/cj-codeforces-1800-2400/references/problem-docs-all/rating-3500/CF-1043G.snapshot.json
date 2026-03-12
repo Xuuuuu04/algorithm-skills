@@ -1,0 +1,31 @@
+{
+  "id": "CF-1043G",
+  "contest_id": 1043,
+  "index": "G",
+  "name": "Speckled Band",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "hashing",
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 317,
+  "problem_url": "https://codeforces.com/problemset/problem/1043/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1043/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1043/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1043G%20Speckled%20Band%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1043/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1043G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "7 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

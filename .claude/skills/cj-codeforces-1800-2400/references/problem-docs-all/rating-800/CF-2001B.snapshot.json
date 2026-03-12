@@ -1,0 +1,27 @@
+{
+  "id": "CF-2001B",
+  "contest_id": 2001,
+  "index": "B",
+  "name": "Generate Permutation",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 25913,
+  "problem_url": "https://codeforces.com/problemset/problem/2001/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2001/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2001/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2001B%20Generate%20Permutation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2001/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2001B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

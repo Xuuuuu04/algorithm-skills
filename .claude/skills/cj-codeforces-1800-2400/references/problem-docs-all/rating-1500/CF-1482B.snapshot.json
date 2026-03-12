@@ -1,0 +1,32 @@
+{
+  "id": "CF-1482B",
+  "contest_id": 1482,
+  "index": "B",
+  "name": "Restore Modulo",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 9566,
+  "problem_url": "https://codeforces.com/problemset/problem/1482/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1482/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1482/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1482B%20Restore%20Modulo%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1482B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Restore Modulo - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

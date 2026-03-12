@@ -1,0 +1,36 @@
+{
+  "id": "CF-1774D",
+  "contest_id": 1774,
+  "index": "D",
+  "name": "Same Count One",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 9104,
+  "problem_url": "https://codeforces.com/problemset/problem/1774/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1774/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1774/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1774D%20Same%20Count%20One%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1774D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Same Count One - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

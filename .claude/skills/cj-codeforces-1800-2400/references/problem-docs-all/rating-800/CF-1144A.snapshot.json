@@ -1,0 +1,28 @@
+{
+  "id": "CF-1144A",
+  "contest_id": 1144,
+  "index": "A",
+  "name": "Diverse Strings",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 20993,
+  "problem_url": "https://codeforces.com/problemset/problem/1144/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1144/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1144/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1144A%20Diverse%20Strings%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1144A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1144A Diverse Strings - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 230,
+    "mirror_attempt": 399,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

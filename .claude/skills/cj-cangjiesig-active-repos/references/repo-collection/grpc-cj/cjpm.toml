@@ -1,0 +1,36 @@
+[package]
+  cjc-version = "1.0.0"
+  compile-option = "-Woff unused"
+  description = "nothing here"
+  link-option = ""
+  name = "grpc"
+  output-type = "static"
+  override-compile-option = ""
+  src-dir = ""
+  target-dir = ""
+  version = "1.0.0"
+
+[dependencies]
+  protobuf = {git = "https://gitcode.com/Yesokim/protobuf-cj.git"}
+[target]
+  [target.x86_64-w64-mingw32]
+    [target.x86_64-w64-mingw32.bin-dependencies]
+      path-option = [ "${CANGJIE_STDX_PATH}" ]
+  [target.x86_64-unknown-linux-gnu]
+    [target.x86_64-unknown-linux-gnu.bin-dependencies]
+      path-option = [ "${CANGJIE_STDX_PATH}" ]
+  [target.x86_64-apple-darwin]
+    [target.x86_64-apple-darwin.bin-dependencies]
+      path-option = [ "${CANGJIE_STDX_PATH}" ]
+  [target.aarch64-unknown-linux-gnu]
+    [target.aarch64-unknown-linux-gnu.bin-dependencies]
+      path-option = [ "${CANGJIE_STDX_PATH}" ]
+
+# [dependencies]
+#   [dependencies.protobuf]
+#     version = "1.0.0"
+#     path = "C:/Users/30247/Desktop/Cangjie/protobuf-cj"
+# [target]
+#   [target.x86_64-w64-mingw32]
+#     [target.x86_64-w64-mingw32.bin-dependencies]
+#       path-option = [ "C:/Users/30247/Desktop/Cangjie/Cangjie-1.0.0/cangjie-stdx-windows-x64-1.0.0.1/windows_x86_64_llvm/static/stdx" ]

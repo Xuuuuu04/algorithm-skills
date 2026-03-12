@@ -1,0 +1,33 @@
+{
+  "id": "CF-1783D",
+  "contest_id": 1783,
+  "index": "D",
+  "name": "Different Arrays",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "dp",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1783/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1783/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1783/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1783D%20Different Arrays%20tutorial",
+  "solved_count": 5219,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1783D",
+  "hydro_meta": {
+    "page_title": "Different Arrays - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dp"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

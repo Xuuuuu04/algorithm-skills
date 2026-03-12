@@ -1,0 +1,27 @@
+{
+  "id": "CF-922B",
+  "contest_id": 922,
+  "index": "B",
+  "name": "Magic Forest",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 9203,
+  "problem_url": "https://codeforces.com/problemset/problem/922/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/922/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/922/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=922B%20Magic%20Forest%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/922/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 922B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

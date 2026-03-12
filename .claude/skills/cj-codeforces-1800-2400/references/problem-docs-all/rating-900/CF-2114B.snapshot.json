@@ -1,0 +1,28 @@
+{
+  "id": "CF-2114B",
+  "contest_id": 2114,
+  "index": "B",
+  "name": "Not Quite a Palindromic String",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 30027,
+  "problem_url": "https://codeforces.com/problemset/problem/2114/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2114/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2114/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2114B%20Not%20Quite%20a%20Palindromic%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2114B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2114B Not Quite a Palindromic String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

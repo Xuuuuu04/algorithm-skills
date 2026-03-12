@@ -1,0 +1,39 @@
+{
+  "id": "CF-208E",
+  "contest_id": 208,
+  "index": "E",
+  "name": "Blood Cousins",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dfs and similar",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/208/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/208/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/208/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=208E%20Blood Cousins%20tutorial",
+  "solved_count": 8692,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P208E",
+  "hydro_meta": {
+    "page_title": "Blood Cousins - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "trees",
+      "*2100"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

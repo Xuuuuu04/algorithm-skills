@@ -1,0 +1,30 @@
+{
+  "id": "CF-868C",
+  "contest_id": 868,
+  "index": "C",
+  "name": "Qualification Rounds",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "constructive algorithms",
+    "dp"
+  ],
+  "solved_count": 4992,
+  "problem_url": "https://codeforces.com/problemset/problem/868/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/868/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/868/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=868C%20Qualification%20Rounds%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/868/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 868C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

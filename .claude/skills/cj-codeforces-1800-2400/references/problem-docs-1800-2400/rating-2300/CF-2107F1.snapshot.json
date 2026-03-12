@@ -1,0 +1,37 @@
+{
+  "id": "CF-2107F1",
+  "contest_id": 2107,
+  "index": "F1",
+  "name": "Cycling (Easy Version)",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "brute force",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2107/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2107/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2107/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2107F1%20Cycling (Easy Version)%20tutorial",
+  "solved_count": 1783,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2107F1",
+  "hydro_meta": {
+    "page_title": "Cycling (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "greedy"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

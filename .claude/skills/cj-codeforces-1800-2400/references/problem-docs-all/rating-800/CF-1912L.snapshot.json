@@ -1,0 +1,27 @@
+{
+  "id": "CF-1912L",
+  "contest_id": 1912,
+  "index": "L",
+  "name": "LOL Lovers",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 8345,
+  "problem_url": "https://codeforces.com/problemset/problem/1912/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1912/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1912/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1912L%20LOL%20Lovers%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1912L",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1912L LOL Lovers - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 198,
+    "mirror_attempt": 464,
+    "time_limit": "3000 ms",
+    "memory_limit": "1024000 KB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-390D",
+  "contest_id": 390,
+  "index": "D",
+  "name": "Inna and Sweet Matrix",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 533,
+  "problem_url": "https://codeforces.com/problemset/problem/390/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/390/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/390/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=390D%20Inna%20and%20Sweet%20Matrix%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/390/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 390D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

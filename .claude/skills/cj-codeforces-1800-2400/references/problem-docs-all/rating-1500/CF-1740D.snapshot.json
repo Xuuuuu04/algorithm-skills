@@ -1,0 +1,33 @@
+{
+  "id": "CF-1740D",
+  "contest_id": 1740,
+  "index": "D",
+  "name": "Knowledge Cards",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures"
+  ],
+  "solved_count": 8999,
+  "problem_url": "https://codeforces.com/problemset/problem/1740/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1740/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1740/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1740D%20Knowledge%20Cards%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1740D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Knowledge Cards - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414513:LdngN3njn65y/dA8vB8ef3hSuKpNzMUdKSUGkUsbFa4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF895C Square Subsets - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF895C","type":"CF","title":"Square Subsets","difficulty":5,"tags":[3,5,151,277,314],"wantsTranslation":false,"totalSubmit":2469,"totalAccepted":1008,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Square Subsets","background":null,"description":"Petya \u4e5f\u56e0\u4e3a\u4e0a\u8bfe\u8fdf\u5230\u53d7\u5230\u4e86\u60e9\u7f5a\u3002\u8001\u5e08\u7ed9\u4e86\u4ed6\u4e00\u4e2a\u989d\u5916\u4efb\u52a1\u3002\u5bf9\u4e8e\u67d0\u4e2a\u6570\u7ec4 $a$\uff0cPetya \u9700\u8981\u627e\u51fa\u6709\u591a\u5c11\u79cd\u4e0d\u540c\u7684\u65b9\u6cd5\u9009\u62e9\u975e\u7a7a\u5b50\u96c6\uff0c\u4f7f\u5f97\u6240\u9009\u5143\u7d20\u7684\u4e58\u79ef\u7b49\u4e8e\u67d0\u4e2a\u6574\u6570\u7684\u5e73\u65b9\u3002\n\n\u5982\u679c\u4e24\u79cd\u9009\u62e9\u65b9\u6cd5\u6240\u9009\u5143\u7d20\u7684\u4e0b\u6807\u96c6\u5408\u4e0d\u540c\uff0c\u5219\u8ba4\u4e3a\u662f\u4e0d\u540c\u7684\u65b9\u6cd5\u3002\n\n\u7531\u4e8e\u7b54\u6848\u53ef\u80fd\u975e\u5e38\u5927\uff0c\u4f60\u9700\u8981\u8f93\u51fa\u7b54\u6848\u5bf9 $10^9+7$ \u53d6\u6a21\u540e\u7684\u7ed3\u679c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 10^5$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_i$\uff08$1 \\le a_i \\le 70$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u9009\u62e9\u82e5\u5e72\u5143\u7d20\u4f7f\u5f97\u4e58\u79ef\u4e3a\u5b8c\u5168\u5e73\u65b9\u6570\u7684\u4e0d\u540c\u65b9\u6cd5\u6570\uff08\u5bf9 $10^9+7$ \u53d6\u6a21\uff09\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u65e0\u8bba\u600e\u6837\u9009\u62e9\u5143\u7d20\uff0c\u6240\u6709\u5143\u7d20\u7684\u4e58\u79ef\u90fd\u662f $1$\uff0c\u800c $1 = 1^2$\u3002\u56e0\u6b64\u7b54\u6848\u4e3a $2^{4}-1=15$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6709\u516d\u79cd\u4e0d\u540c\u7684\u65b9\u6cd5\u53ef\u4ee5\u9009\u62e9\u5143\u7d20\uff0c\u4f7f\u5f97\u5b83\u4eec\u7684\u4e58\u79ef\u4e3a $4$\uff0c\u53ea\u6709\u4e00\u79cd\u65b9\u6cd5\u4f7f\u4e58\u79ef\u4e3a $16$\u3002\u56e0\u6b64\u7b54\u6848\u4e3a $6+1=7$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Square Subsets","background":null,"description":"Petya was late for the lesson too. The teacher gave him an additional task. For some array $ a $ Petya should find the number of different ways to select non-empty subset of elements from it in such a way that their product is equal to a square of some integer.\n\nTwo ways are considered different if sets of indexes of elements chosen by these ways are different.\n\nSince the answer can be very large, you should find the answer modulo $ 10^{9}+7 $ .","formatI":"First line contains one integer $ n $ ( $ 1\\le n\\le10^{5} $ ) \u2014 the number of elements in the array.\n\nSecond line contains $ n $ integers $ a_{i} $ ( $ 1\\le a_{i}\\le70 $ ) \u2014 the elements of the array.","formatO":"Print one integer \u2014 the number of different ways to choose some elements so that their product is a square of a certain integer modulo $ 10^{9}+7 $ .","hint":"In first sample product of elements chosen by any way is $ 1 $ and $ 1=1^{2} $ . So the answer is $ 2^{4}-1=15 $ .\n\nIn second sample there are six different ways to choose elements so that their product is $ 4 $ , and only one way so that their product is $ 16 $ . So the answer is $ 6+1=7 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n1 1 1 1\n","15\n"],["4\n2 2 2 2\n","7\n"],["5\n1 2 4 5 8\n","7\n"]],"limits":{"time":[4000],"memory":[256000]},"vjudge":{"id":"895C","link":"https:\/\/codeforces.com\/problemset\/problem\/895\/C"},"translation":"Petya \u53c8\u8fdf\u5230\u4e86...\u8001\u5e08\u7ed9\u4e86\u4ed6\u989d\u5916\u7684\u4efb\u52a1\u3002\u5bf9\u4e8e\u4e00\u4e9b\u6570\u7ec4 $a$\uff0cPetya \u9700\u8981\u627e\u5230\u4ece\u4e2d\u95f4\u9009\u62e9\u975e\u7a7a\u5b50\u96c6\uff0c\u4f7f\u6240\u6709\u6570\u7684\u4e58\u79ef\u4e3a\u5b8c\u5168\u5e73\u65b9\u6570\u7684\u65b9\u6cd5\u7684\u6570\u91cf\u3002\u5982\u679c\u8fd9\u4e9b\u65b9\u6cd5\u6240\u9009\u62e9\u7684\u5143\u7d20\u7684\u7d22\u5f15\u4e0d\u540c\uff0c\u5219\u8ba4\u4e3a\u8fd9\u4e24\u79cd\u662f\u4e0d\u540c\u7684\u65b9\u6cd5\u3002 \u56e0\u4e3a\u7ed3\u679c\u53ef\u80fd\u5f88\u5927\uff0c\u7ed3\u679c\u9700\u8981 $\\bmod ~ 10^9+7$\u3002\n\n\n\n\u611f\u8c22 @KriaeTh \u63d0\u4f9b\u7684\u7ffb\u8bd1"},"translations":{"en":{"name":"Square Subsets","background":null,"description":"Petya was late for the lesson too. The teacher gave him an additional task. For some array $ a $ Petya should find the number of different ways to select non-empty subset of elements from it in such a way that their product is equal to a square of some integer.\n\nTwo ways are considered different if sets of indexes of elements chosen by these ways are different.\n\nSince the answer can be very large, you should find the answer modulo $ 10^{9}+7 $ .","formatI":"First line contains one integer $ n $ ( $ 1\\le n\\le10^{5} $ ) \u2014 the number of elements in the array.\n\nSecond line contains $ n $ integers $ a_{i} $ ( $ 1\\le a_{i}\\le70 $ ) \u2014 the elements of the array.","formatO":"Print one integer \u2014 the number of different ways to choose some elements so that their product is a square of a certain integer modulo $ 10^{9}+7 $ .","hint":"In first sample product of elements chosen by any way is $ 1 $ and $ 1=1^{2} $ . So the answer is $ 2^{4}-1=15 $ .\n\nIn second sample there are six different ways to choose elements so that their product is $ 4 $ , and only one way so that their product is $ 16 $ . So the answer is $ 6+1=7 $ .","locale":"en"},"zh-CN":{"name":"Square Subsets","background":null,"description":"Petya \u4e5f\u56e0\u4e3a\u4e0a\u8bfe\u8fdf\u5230\u53d7\u5230\u4e86\u60e9\u7f5a\u3002\u8001\u5e08\u7ed9\u4e86\u4ed6\u4e00\u4e2a\u989d\u5916\u4efb\u52a1\u3002\u5bf9\u4e8e\u67d0\u4e2a\u6570\u7ec4 $a$\uff0cPetya \u9700\u8981\u627e\u51fa\u6709\u591a\u5c11\u79cd\u4e0d\u540c\u7684\u65b9\u6cd5\u9009\u62e9\u975e\u7a7a\u5b50\u96c6\uff0c\u4f7f\u5f97\u6240\u9009\u5143\u7d20\u7684\u4e58\u79ef\u7b49\u4e8e\u67d0\u4e2a\u6574\u6570\u7684\u5e73\u65b9\u3002\n\n\u5982\u679c\u4e24\u79cd\u9009\u62e9\u65b9\u6cd5\u6240\u9009\u5143\u7d20\u7684\u4e0b\u6807\u96c6\u5408\u4e0d\u540c\uff0c\u5219\u8ba4\u4e3a\u662f\u4e0d\u540c\u7684\u65b9\u6cd5\u3002\n\n\u7531\u4e8e\u7b54\u6848\u53ef\u80fd\u975e\u5e38\u5927\uff0c\u4f60\u9700\u8981\u8f93\u51fa\u7b54\u6848\u5bf9 $10^9+7$ \u53d6\u6a21\u540e\u7684\u7ed3\u679c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 10^5$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_i$\uff08$1 \\le a_i \\le 70$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u9009\u62e9\u82e5\u5e72\u5143\u7d20\u4f7f\u5f97\u4e58\u79ef\u4e3a\u5b8c\u5168\u5e73\u65b9\u6570\u7684\u4e0d\u540c\u65b9\u6cd5\u6570\uff08\u5bf9 $10^9+7$ \u53d6\u6a21\uff09\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u65e0\u8bba\u600e\u6837\u9009\u62e9\u5143\u7d20\uff0c\u6240\u6709\u5143\u7d20\u7684\u4e58\u79ef\u90fd\u662f $1$\uff0c\u800c $1 = 1^2$\u3002\u56e0\u6b64\u7b54\u6848\u4e3a $2^{4}-1=15$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6709\u516d\u79cd\u4e0d\u540c\u7684\u65b9\u6cd5\u53ef\u4ee5\u9009\u62e9\u5143\u7d20\uff0c\u4f7f\u5f97\u5b83\u4eec\u7684\u4e58\u79ef\u4e3a $4$\uff0c\u53ea\u6709\u4e00\u79cd\u65b9\u6cd5\u4f7f\u4e58\u79ef\u4e3a $16$\u3002\u56e0\u6b64\u7b54\u6848\u4e3a $6+1=7$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF895C Square Subsets","type":2,"slug":"CF895C","color":"orange-3"},"discussions":[{"id":876402,"title":"WA #10 \u73842\u5173 \u849f\u84bbdp\u6c42\u8c03","author":{"uid":784614,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/784614.png","name":"yujiahaoa","slogan":"Talk is cheap,show me the code!","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/wks30vn9.png"},"time":1722569925},{"id":826424,"title":"WA on #14 \u6c42\u52a9","author":{"uid":807826,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/807826.png","name":"zjpwdyf","slogan":"OI\uff082022.6.18 ~ 2026.3.8\uff09","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/qcuz3i8j.png"},"time":1716630553},{"id":706687,"title":"\u5efa\u8bae\u4fee\u6539\u7ffb\u8bd1","author":{"uid":414231,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/414231.png","name":"_Fatalis_","slogan":"\u50d5\u3089\u306e\u624b\u306b\u306f\u4f55\u3082\u306a\u3044\u3051\u3069 \/ \u304b\u308f\u308a\u306b \u3064\u306a\u304e\u3042\u3048\u308b\u304b\u3089 \/ \u3072\u3068\u308a\u304d\u308a\u3067 \u8ff7\u308f\u306a\u3044\u3067 \/ \u3069\u3093\u306a\u65e5\u3082\u3053\u306e\u624b\u3092\u96e2\u3055\u306a\u3044\u304b\u3089","badge":"","isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/wvsz4ljl.png"},"time":1697079800},{"id":438847,"title":"\u6c42\u52a9\u7ebf\u6027\u57fa\uff0c\u7b2c\u4e03\u4e2a\u6d4b\u8bd5\u70b9 WA","author":{"uid":648933,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/648933.png","name":"HarmonicQuadrilatera","slogan":"\u66fe\u7528\u540d\uff1aflorrio | \u5927\u53f7\uff1ayizcdl2357","badge":"","isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/or4v8upf.png"},"time":1652447018},{"id":32855,"title":"\u7ffb\u8bd1","author":{"uid":63667,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/63667.png","name":"kririae","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1517639872}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328113.019146,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF895C Square Subsets","description":"Petya \u4e5f\u56e0\u4e3a\u4e0a\u8bfe\u8fdf\u5230\u53d7\u5230\u4e86\u60e9\u7f5a\u3002\u8001\u5e08\u7ed9\u4e86\u4ed6\u4e00\u4e2a\u989d\u5916\u4efb\u52a1\u3002\u5bf9\u4e8e\u67d0\u4e2a\u6570\u7ec4 a\uff0cPetya \u9700\u8981\u627e\u51fa\u6709\u591a\u5c11\u79cd\u4e0d\u540c\u7684\u65b9\u6cd5\u9009\u62e9\u975e\u7a7a\u5b50\u96c6\uff0c\u4f7f\u5f97\u6240\u9009\u5143\u7d20\u7684\u4e58\u79ef\u7b49\u4e8e\u67d0\u4e2a\u6574\u6570\u7684\u5e73\u65b9\u3002\n\u5982\u679c\u4e24\u79cd\u9009\u62e9\u65b9\u6cd5\u6240\u9009\u5143\u7d20\u7684\u4e0b\u6807\u96c6\u5408\u4e0d\u540c\uff0c\u5219\u8ba4\u4e3a\u662f\u4e0d\u540c\u7684\u65b9\u6cd5\u3002\n\u7531\u4e8e\u7b54\u6848\u53ef\u80fd\u975e\u5e38\u5927\uff0c\u4f60\u9700\u8981\u8f93\u51fa\u7b54\u6848\u5bf9\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF895C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF895C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF895C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF895C Square Subsets" />
+    <meta property="og:description" content="Petya 也因为上课迟到受到了惩罚。老师给了他一个额外任务。对于某个数组 a，Petya 需要找出有多少种不同的方法选择非空子集，使得所选元素的乘积等于某个整数的平方。
+如果两种选择方法所选元素的下标集合不同，则认为是不同的方法。
+由于答案可能非常大，你需要输出答案对…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF895C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF895C Square Subsets</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Petya 也因为上课迟到受到了惩罚。老师给了他一个额外任务。对于某个数组 $a$，Petya 需要找出有多少种不同的方法选择非空子集，使得所选元素的乘积等于某个整数的平方。
+
+如果两种选择方法所选元素的下标集合不同，则认为是不同的方法。
+
+由于答案可能非常大，你需要输出答案对 $10^9+7$ 取模后的结果。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $n$（$1 \le n \le 10^5$），表示数组的元素个数。
+
+第二行包含 $n$ 个整数 $a_i$（$1 \le a_i \le 70$），表示数组的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示选择若干元素使得乘积为完全平方数的不同方法数（对 $10^9+7$ 取模）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，无论怎样选择元素，所有元素的乘积都是 $1$，而 $1 = 1^2$。因此答案为 $2^{4}-1=15$。
+
+在第二个样例中，有六种不同的方法可以选择元素，使得它们的乘积为 $4$，只有一种方法使乘积为 $16$。因此答案为 $6+1=7$。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

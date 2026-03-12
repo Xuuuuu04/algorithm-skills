@@ -1,0 +1,32 @@
+{
+  "id": "CF-91B",
+  "contest_id": 91,
+  "index": "B",
+  "name": "Queue",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "data structures"
+  ],
+  "solved_count": 7579,
+  "problem_url": "https://codeforces.com/problemset/problem/91/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/91/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/91/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=91B%20Queue%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P91B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Queue - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "*1500"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

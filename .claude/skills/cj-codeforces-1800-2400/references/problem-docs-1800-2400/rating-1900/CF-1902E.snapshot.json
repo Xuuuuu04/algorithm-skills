@@ -1,0 +1,37 @@
+{
+  "id": "CF-1902E",
+  "contest_id": 1902,
+  "index": "E",
+  "name": "Collapsing Strings",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "strings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1902/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1902/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1902/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1902E%20Collapsing Strings%20tutorial",
+  "solved_count": 5456,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "字符串（KMP/哈希/自动机）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1902E",
+  "hydro_meta": {
+    "page_title": "Collapsing Strings - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "strings",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

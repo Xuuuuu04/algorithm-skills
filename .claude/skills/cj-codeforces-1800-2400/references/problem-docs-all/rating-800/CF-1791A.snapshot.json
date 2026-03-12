@@ -1,0 +1,28 @@
+{
+  "id": "CF-1791A",
+  "contest_id": 1791,
+  "index": "A",
+  "name": "Codeforces Checking",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 78855,
+  "problem_url": "https://codeforces.com/problemset/problem/1791/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1791/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1791/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1791A%20Codeforces%20Checking%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1791A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1791A Codeforces Checking - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 320,
+    "mirror_attempt": 474,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

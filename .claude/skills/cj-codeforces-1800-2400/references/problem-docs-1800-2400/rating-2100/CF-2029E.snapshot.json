@@ -1,0 +1,39 @@
+{
+  "id": "CF-2029E",
+  "contest_id": 2029,
+  "index": "E",
+  "name": "Common Generator",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2029/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2029/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2029/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2029E%20Common Generator%20tutorial",
+  "solved_count": 3491,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2029E",
+  "hydro_meta": {
+    "page_title": "Common Generator - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

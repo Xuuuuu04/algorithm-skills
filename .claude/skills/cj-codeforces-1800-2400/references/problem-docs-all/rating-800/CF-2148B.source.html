@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2148B Lasers - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2148B","type":"CF","title":"Lasers","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Lasers","background":null,"description":"\u5728\u4e00\u4e2a\u4e8c\u7ef4\u5750\u6807\u5e73\u9762\u4e0a\uff0c\u5750\u6807\u8303\u56f4\u4e3a $$(0,0)$$ \u5230 $$(x, y)$$\u3002\u4f60\u4f4d\u4e8e $$(0,0)$$\uff0c\u76ee\u6807\u662f\u5230\u8fbe $$(x, y)$$\u3002\n\n\u4f46\u662f\uff0c\u5e73\u9762\u4e0a\u6709 $n$ \u6761\u6c34\u5e73\u6fc0\u5149\uff0c\u7b2c $i$ \u6761\u6fc0\u5149\u4ece $$(0, a_i)$$ \u5230 $$(x, a_i)$$\uff0c\u8fd8\u5b58\u5728 $m$ \u6761\u7ad6\u76f4\u6fc0\u5149\uff0c\u7b2c $i$ \u6761\u6fc0\u5149\u4ece $$(b_i, 0)$$ \u5230 $$(b_i, y)$$\u3002\n\n\u4f60\u53ef\u4ee5\u6cbf\u4efb\u610f\u65b9\u5411\u79fb\u52a8\u4ee5\u5230\u8fbe $$(x, y)$$\uff0c\u4f46\u4f60\u7684\u8fd0\u52a8\u8f68\u8ff9\u5fc5\u987b\u662f\u5e73\u9762\u5185\u7684\u4e00\u6761\u8fde\u7eed\u66f2\u7ebf\u3002\u6bcf\u5f53\u4f60\u7a7f\u8d8a\u4e00\u6761\u6c34\u5e73\u6216\u4e00\u6761\u7ad6\u76f4\u6fc0\u5149\uff0c\u8ba1\u4e3a\u4e00\u6b21\u7a7f\u8d8a\u3002\u7279\u522b\u5730\uff0c\u5982\u679c\u4f60\u7ecf\u8fc7\u4e24\u6761\u6fc0\u5149\u7684\u4ea4\u70b9\uff0c\u5219\u8ba1\u4e3a\u4e24\u6b21\u7a7f\u8d8a\u3002\n\n\u4f8b\u5982\uff0c\u82e5 $x = y = 2$\uff0c$n = m = 1$\uff0c$a = [1]$\uff0c$b = [1]$\uff0c\u8fd0\u52a8\u65b9\u5f0f\u5982\u4e0b\u6240\u793a\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2148B\/8d441f4a52108d770b9c5aaf1633354818f3462ad36cb4b6b4b3be462e809ad7.png)\n\n\u95ee\u6700\u5c11\u9700\u8981\u7a7f\u8d8a\u591a\u5c11\u6b21\u6fc0\u5149\u624d\u80fd\u5230\u8fbe $$(x, y)$$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b2c\u4e00\u884c\u5305\u542b\u56db\u4e2a\u6574\u6570 $n$\u3001$m$\u3001$x$ \u548c $y$\uff08$1 \\leq n, m \\leq 2 \\times 10^5,\\ 2 \\leq x ,y \\leq 10^9$\uff09\u3002\n\n\u63a5\u4e0b\u6765\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \u003C a_i \u003C y$\uff09\uff0c\u8868\u793a\u6240\u6709\u6c34\u5e73\u6fc0\u5149\u7684 $y$ \u5750\u6807\u3002\u4fdd\u8bc1\u5bf9\u4e8e\u6240\u6709 $i \u003E 1$\uff0c\u6709 $a_i \u003E a_{i-1}$\u3002\n\n\u63a5\u4e0b\u6765\u4e00\u884c\u5305\u542b $m$ \u4e2a\u6574\u6570 $b_1, b_2, \\ldots, b_m$\uff08$0 \u003C b_i \u003C x$\uff09\uff0c\u8868\u793a\u6240\u6709\u7ad6\u76f4\u6fc0\u5149\u7684 $x$ \u5750\u6807\u3002\u4fdd\u8bc1\u5bf9\u4e8e\u6240\u6709 $i \u003E 1$\uff0c\u6709 $b_i \u003E b_{i-1}$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u548c $m$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $2 \\times 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u8f93\u51fa\u5230\u8fbe $$(x, y)$$ \u6240\u9700\u7a7f\u8d8a\u6fc0\u5149\u7684\u6700\u5c0f\u6b21\u6570\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Lasers","background":null,"description":"There is a 2D-coordinate plane that ranges from  $ (0,0) $  to  $ (x, y) $ . You are located at  $ (0,0) $  and want to head to  $ (x, y) $ .\n\nHowever, there are  $ n $  horizontal lasers, with the  $ i $ -th laser continuously spanning  $ (0, a_i) $  to  $ (x, a_i) $ . Additionally, there are also  $ m $  vertical lasers, with the  $ i $ -th laser continuously spanning  $ (b_i, 0) $  to  $ (b_i, y) $ .\n\nYou may move in any direction to reach  $ (x, y) $ , but your movement must be a continuous curve that lies inside the plane. Every time you cross a vertical or a horizontal laser, it counts as one crossing. Particularly, if you pass through an intersection point between two lasers, it counts as two crossings.\n\nFor example, if  $ x = y = 2 $ ,  $ n = m = 1 $ ,  $ a = [1] $ ,  $ b = [1] $ , the movement can be as follows:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2148B\/8d441f4a52108d770b9c5aaf1633354818f3462ad36cb4b6b4b3be462e809ad7.png)What is the minimum number of crossings necessary to reach  $ (x, y) $ ?","formatI":"The first line contains  $ t $  ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains four integers  $ n $ ,  $ m $ ,  $ x $ , and  $ y $  ( $ 1 \\leq n, m \\leq 2 \\cdot 10^5, 2 \\leq x ,y \\leq 10^9 $ ).\n\nThe following line contains  $ n $  integers  $ a_1, a_2, \\ldots, a_n $  ( $ 0 \u003C a_i \u003C y $ ) \u2014 the y-coordinates of the horizontal lasers. It is guaranteed that  $ a_i \u003E a_{i-1} $  for all  $ i \u003E 1 $ .\n\nThe following line contains  $ m $  integers  $ b_1, b_2, \\ldots, b_m $  ( $ 0 \u003C b_i \u003C x $ ) \u2014 the x-coordinates of the vertical lasers. It is guaranteed that  $ b_i \u003E b_{i-1} $  for all  $ i \u003E 1 $ .\n\nIt is guaranteed that the sum of  $ n $  and  $ m $  over all test cases does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output the minimum number of crossings necessary to reach  $ (x, y) $ .","hint":null,"locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n1 1 2 2\n1\n1\n2 1 100000 100000\n42 58\n32","2\n3"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2148B","link":"https:\/\/codeforces.com\/problemset\/problem\/2148\/B"},"translation":null},"translations":{"en":{"name":"Lasers","background":null,"description":"There is a 2D-coordinate plane that ranges from  $ (0,0) $  to  $ (x, y) $ . You are located at  $ (0,0) $  and want to head to  $ (x, y) $ .\n\nHowever, there are  $ n $  horizontal lasers, with the  $ i $ -th laser continuously spanning  $ (0, a_i) $  to  $ (x, a_i) $ . Additionally, there are also  $ m $  vertical lasers, with the  $ i $ -th laser continuously spanning  $ (b_i, 0) $  to  $ (b_i, y) $ .\n\nYou may move in any direction to reach  $ (x, y) $ , but your movement must be a continuous curve that lies inside the plane. Every time you cross a vertical or a horizontal laser, it counts as one crossing. Particularly, if you pass through an intersection point between two lasers, it counts as two crossings.\n\nFor example, if  $ x = y = 2 $ ,  $ n = m = 1 $ ,  $ a = [1] $ ,  $ b = [1] $ , the movement can be as follows:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2148B\/8d441f4a52108d770b9c5aaf1633354818f3462ad36cb4b6b4b3be462e809ad7.png)What is the minimum number of crossings necessary to reach  $ (x, y) $ ?","formatI":"The first line contains  $ t $  ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains four integers  $ n $ ,  $ m $ ,  $ x $ , and  $ y $  ( $ 1 \\leq n, m \\leq 2 \\cdot 10^5, 2 \\leq x ,y \\leq 10^9 $ ).\n\nThe following line contains  $ n $  integers  $ a_1, a_2, \\ldots, a_n $  ( $ 0 \u003C a_i \u003C y $ ) \u2014 the y-coordinates of the horizontal lasers. It is guaranteed that  $ a_i \u003E a_{i-1} $  for all  $ i \u003E 1 $ .\n\nThe following line contains  $ m $  integers  $ b_1, b_2, \\ldots, b_m $  ( $ 0 \u003C b_i \u003C x $ ) \u2014 the x-coordinates of the vertical lasers. It is guaranteed that  $ b_i \u003E b_{i-1} $  for all  $ i \u003E 1 $ .\n\nIt is guaranteed that the sum of  $ n $  and  $ m $  over all test cases does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output the minimum number of crossings necessary to reach  $ (x, y) $ .","hint":null,"locale":"en"},"zh-CN":{"name":"Lasers","background":null,"description":"\u5728\u4e00\u4e2a\u4e8c\u7ef4\u5750\u6807\u5e73\u9762\u4e0a\uff0c\u5750\u6807\u8303\u56f4\u4e3a $$(0,0)$$ \u5230 $$(x, y)$$\u3002\u4f60\u4f4d\u4e8e $$(0,0)$$\uff0c\u76ee\u6807\u662f\u5230\u8fbe $$(x, y)$$\u3002\n\n\u4f46\u662f\uff0c\u5e73\u9762\u4e0a\u6709 $n$ \u6761\u6c34\u5e73\u6fc0\u5149\uff0c\u7b2c $i$ \u6761\u6fc0\u5149\u4ece $$(0, a_i)$$ \u5230 $$(x, a_i)$$\uff0c\u8fd8\u5b58\u5728 $m$ \u6761\u7ad6\u76f4\u6fc0\u5149\uff0c\u7b2c $i$ \u6761\u6fc0\u5149\u4ece $$(b_i, 0)$$ \u5230 $$(b_i, y)$$\u3002\n\n\u4f60\u53ef\u4ee5\u6cbf\u4efb\u610f\u65b9\u5411\u79fb\u52a8\u4ee5\u5230\u8fbe $$(x, y)$$\uff0c\u4f46\u4f60\u7684\u8fd0\u52a8\u8f68\u8ff9\u5fc5\u987b\u662f\u5e73\u9762\u5185\u7684\u4e00\u6761\u8fde\u7eed\u66f2\u7ebf\u3002\u6bcf\u5f53\u4f60\u7a7f\u8d8a\u4e00\u6761\u6c34\u5e73\u6216\u4e00\u6761\u7ad6\u76f4\u6fc0\u5149\uff0c\u8ba1\u4e3a\u4e00\u6b21\u7a7f\u8d8a\u3002\u7279\u522b\u5730\uff0c\u5982\u679c\u4f60\u7ecf\u8fc7\u4e24\u6761\u6fc0\u5149\u7684\u4ea4\u70b9\uff0c\u5219\u8ba1\u4e3a\u4e24\u6b21\u7a7f\u8d8a\u3002\n\n\u4f8b\u5982\uff0c\u82e5 $x = y = 2$\uff0c$n = m = 1$\uff0c$a = [1]$\uff0c$b = [1]$\uff0c\u8fd0\u52a8\u65b9\u5f0f\u5982\u4e0b\u6240\u793a\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2148B\/8d441f4a52108d770b9c5aaf1633354818f3462ad36cb4b6b4b3be462e809ad7.png)\n\n\u95ee\u6700\u5c11\u9700\u8981\u7a7f\u8d8a\u591a\u5c11\u6b21\u6fc0\u5149\u624d\u80fd\u5230\u8fbe $$(x, y)$$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b2c\u4e00\u884c\u5305\u542b\u56db\u4e2a\u6574\u6570 $n$\u3001$m$\u3001$x$ \u548c $y$\uff08$1 \\leq n, m \\leq 2 \\times 10^5,\\ 2 \\leq x ,y \\leq 10^9$\uff09\u3002\n\n\u63a5\u4e0b\u6765\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \u003C a_i \u003C y$\uff09\uff0c\u8868\u793a\u6240\u6709\u6c34\u5e73\u6fc0\u5149\u7684 $y$ \u5750\u6807\u3002\u4fdd\u8bc1\u5bf9\u4e8e\u6240\u6709 $i \u003E 1$\uff0c\u6709 $a_i \u003E a_{i-1}$\u3002\n\n\u63a5\u4e0b\u6765\u4e00\u884c\u5305\u542b $m$ \u4e2a\u6574\u6570 $b_1, b_2, \\ldots, b_m$\uff08$0 \u003C b_i \u003C x$\uff09\uff0c\u8868\u793a\u6240\u6709\u7ad6\u76f4\u6fc0\u5149\u7684 $x$ \u5750\u6807\u3002\u4fdd\u8bc1\u5bf9\u4e8e\u6240\u6709 $i \u003E 1$\uff0c\u6709 $b_i \u003E b_{i-1}$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u548c $m$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $2 \\times 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u8f93\u51fa\u5230\u8fbe $$(x, y)$$ \u6240\u9700\u7a7f\u8d8a\u6fc0\u5149\u7684\u6700\u5c0f\u6b21\u6570\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2148B Lasers","type":2,"slug":"CF2148B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.354647,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2148B Lasers","description":"\u5728\u4e00\u4e2a\u4e8c\u7ef4\u5750\u6807\u5e73\u9762\u4e0a\uff0c\u5750\u6807\u8303\u56f4\u4e3a (0,0) \u5230 (x, y)\u3002\u4f60\u4f4d\u4e8e (0,0)\uff0c\u76ee\u6807\u662f\u5230\u8fbe (x, y)\u3002\n\u4f46\u662f\uff0c\u5e73\u9762\u4e0a\u6709 n \u6761\u6c34\u5e73\u6fc0\u5149\uff0c\u7b2c i \u6761\u6fc0\u5149\u4ece (0, a_i) \u5230 (x, a_i)\uff0c\u8fd8\u5b58\u5728 m \u6761\u7ad6\u76f4\u6fc0\u5149\uff0c\u7b2c i \u6761\u6fc0\u5149\u4ece\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2148B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2148B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2148B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2148B Lasers" />
+    <meta property="og:description" content="在一个二维坐标平面上，坐标范围为 (0,0) 到 (x, y)。你位于 (0,0)，目标是到达 (x, y)。
+但是，平面上有 n 条水平激光，第 i 条激光从 (0, a_i) 到 (x, a_i)，还存在 m 条竖直激光，第 i 条激光从…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2148B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2148B Lasers</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    在一个二维坐标平面上，坐标范围为 $$(0,0)$$ 到 $$(x, y)$$。你位于 $$(0,0)$$，目标是到达 $$(x, y)$$。
+
+但是，平面上有 $n$ 条水平激光，第 $i$ 条激光从 $$(0, a_i)$$ 到 $$(x, a_i)$$，还存在 $m$ 条竖直激光，第 $i$ 条激光从 $$(b_i, 0)$$ 到 $$(b_i, y)$$。
+
+你可以沿任意方向移动以到达 $$(x, y)$$，但你的运动轨迹必须是平面内的一条连续曲线。每当你穿越一条水平或一条竖直激光，计为一次穿越。特别地，如果你经过两条激光的交点，则计为两次穿越。
+
+例如，若 $x = y = 2$，$n = m = 1$，$a = [1]$，$b = [1]$，运动方式如下所示：
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF2148B/8d441f4a52108d770b9c5aaf1633354818f3462ad36cb4b6b4b3be462e809ad7.png)
+
+问最少需要穿越多少次激光才能到达 $$(x, y)$$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 10^4$），表示测试用例数量。
+
+每组测试数据的第一行包含四个整数 $n$、$m$、$x$ 和 $y$（$1 \leq n, m \leq 2 \times 10^5,\ 2 \leq x ,y \leq 10^9$）。
+
+接下来一行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$0 < a_i < y$），表示所有水平激光的 $y$ 坐标。保证对于所有 $i > 1$，有 $a_i > a_{i-1}$。
+
+接下来一行包含 $m$ 个整数 $b_1, b_2, \ldots, b_m$（$0 < b_i < x$），表示所有竖直激光的 $x$ 坐标。保证对于所有 $i > 1$，有 $b_i > b_{i-1}$。
+
+保证所有测试用例的 $n$ 和 $m$ 之和不超过 $2 \times 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试数据，输出到达 $$(x, y)$$ 所需穿越激光的最小次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

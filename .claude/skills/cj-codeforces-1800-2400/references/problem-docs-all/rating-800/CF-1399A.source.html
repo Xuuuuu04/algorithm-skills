@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414414:u8rO5ZSLB+Wz86zPLGTgcbGVXGU8/qDp+8AIijm4iX4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1399A Remove Smallest - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1399A","type":"CF","title":"Remove Smallest","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":841,"totalAccepted":449,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Remove Smallest","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u7531 $n$ \u4e2a\u6b63\u6574\u6570\uff08\u5927\u4e8e\u96f6\uff09\u7ec4\u6210\u7684\u6570\u7ec4 $a$\u3002\n\n\u6bcf\u6b21\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e24\u4e2a\u4e0b\u6807 $i$ \u548c $j$\uff08$i \\ne j$\uff09\uff0c\u4f7f\u5f97 $a_i$ \u548c $a_j$ \u7684\u7edd\u5bf9\u5dee\u4e0d\u8d85\u8fc7 $1$\uff08\u5373 $|a_i - a_j| \\le 1$\uff09\uff0c\u7136\u540e\u79fb\u9664\u8fd9\u4e24\u4e2a\u5143\u7d20\u4e2d\u8f83\u5c0f\u7684\u4e00\u4e2a\u3002\u5982\u679c\u4e24\u4e2a\u5143\u7d20\u76f8\u7b49\uff0c\u4f60\u53ef\u4ee5\u79fb\u9664\u5176\u4e2d\u4efb\u610f\u4e00\u4e2a\uff08\u4f46\u53ea\u80fd\u79fb\u9664\u4e00\u4e2a\uff09\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u5224\u65ad\uff0c\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\uff08\u53ef\u80fd\u4e3a\u96f6\u6b21\uff09\u4e0a\u8ff0\u64cd\u4f5c\uff0c\u5c06\u6570\u7ec4\u53d8\u4e3a\u53ea\u5269\u4e0b\u4e00\u4e2a\u5143\u7d20\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u7ec4\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u662f $t$ \u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 50$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$1 \\le a_i \\le 100$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5404\u4e2a\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\uff1a\u5982\u679c\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\u64cd\u4f5c\u5c06\u6570\u7ec4\u53d8\u4e3a\u53ea\u5269\u4e0b\u4e00\u4e2a\u5143\u7d20\uff0c\u8f93\u51fa \u0022YES\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002","hint":"\u5728\u793a\u4f8b\u7684\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6211\u4eec\u53ef\u4ee5\u6309\u5982\u4e0b\u987a\u5e8f\u8fdb\u884c\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9 $i=1$ \u548c $j=3$\uff0c\u79fb\u9664 $a_i$\uff08\u6b64\u65f6 $a$ \u53d8\u4e3a $[2, 2]$\uff09\uff1b\n- \u9009\u62e9 $i=1$ \u548c $j=2$\uff0c\u79fb\u9664 $a_j$\uff08\u6b64\u65f6 $a$ \u53d8\u4e3a $[2]$\uff09\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u4efb\u610f\u9009\u62e9 $i$ \u548c $j$ \u8fdb\u884c\u64cd\u4f5c\uff0c\u79fb\u9664\u54ea\u4e2a\u5143\u7d20\u90fd\u65e0\u6240\u8c13\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u65e0\u6cd5\u6d88\u9664 $2$ \u548c $4$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Remove Smallest","background":"","description":"You are given the array $ a $ consisting of $ n $ positive (greater than zero) integers.\n\nIn one move, you can choose two indices $ i $ and $ j $ ( $ i       \\ne j $ ) such that the absolute difference between $ a_i $ and $ a_j $ is no more than one ( $ |a_i - a_j| \\le 1 $ ) and remove the smallest of these two elements. If two elements are equal, you can remove any of them (but exactly one).\n\nYour task is to find if it is possible to obtain the array consisting of only one element using several (possibly, zero) such moves or not.\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1       \\le t \\le 1000 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe first line of the test case contains one integer $ n $ ( $ 1 \\le n \\le 50 $ ) \u2014 the length of $ a $ . The second line of the test case contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ 1 \\le a_i \\le 100 $ ), where $ a_i $ is the $ i $ -th element of $ a $ .","formatO":"For each test case, print the answer: \u0022YES\u0022 if it is possible to obtain the array consisting of only one element using several (possibly, zero) moves described in the problem statement, or \u0022NO\u0022 otherwise.","hint":"In the first test case of the example, we can perform the following sequence of moves:\n\n- choose $ i=1 $ and $ j=3 $ and remove $ a_i $ (so $ a $ becomes $ [2; 2] $ );\n- choose $ i=1 $ and $ j=2 $ and remove $ a_j $ (so $ a $ becomes $ [2] $ ).\n\nIn the second test case of the example, we can choose any possible $ i $ and $ j $ any move and it doesn\u0027t matter which element we remove.\n\nIn the third test case of the example, there is no way to get rid of $ 2 $ and $ 4 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n3\n1 2 2\n4\n5 5 5 5\n3\n1 2 4\n4\n1 3 4 4\n1\n100","YES\nYES\nNO\nNO\nYES"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1399A","link":"https:\/\/codeforces.com\/problemset\/problem\/1399\/A"},"translation":"\u7ed9\u4f60\u4e00\u4e2a $n$ \u4e2a\u6574\u6570\u7684\u6570\u5217\uff0c\u4f60\u53ef\u4ee5\u6bcf\u6b21\u9009\u62e9\u6ee1\u8db3\u4e00\u4e0b\u6761\u4ef6\u7684\u4e24\u4e2a\u4f4d\u7f6e $i,j$ \uff1a\n\n- $i\u2260j$\n- $|a_i-a_j| \\le 1$\n\n\u7136\u540e\u5220\u9664 $a_i,a_j$ \u4e2d\u8f83\u5c0f\u7684\u90a3\u4e00\u4e2a\u3002\n\n\u95ee\u80fd\u5426\u901a\u8fc7\u82e5\u5e72\u6b21\u64cd\u4f5c\u5c06\u6570\u5217\u5220\u9664\u5230\u53ea\u5269\u4e00\u4e2a\u6570\u3002"},"translations":{"en":{"name":"Remove Smallest","background":"","description":"You are given the array $ a $ consisting of $ n $ positive (greater than zero) integers.\n\nIn one move, you can choose two indices $ i $ and $ j $ ( $ i       \\ne j $ ) such that the absolute difference between $ a_i $ and $ a_j $ is no more than one ( $ |a_i - a_j| \\le 1 $ ) and remove the smallest of these two elements. If two elements are equal, you can remove any of them (but exactly one).\n\nYour task is to find if it is possible to obtain the array consisting of only one element using several (possibly, zero) such moves or not.\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1       \\le t \\le 1000 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe first line of the test case contains one integer $ n $ ( $ 1 \\le n \\le 50 $ ) \u2014 the length of $ a $ . The second line of the test case contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ 1 \\le a_i \\le 100 $ ), where $ a_i $ is the $ i $ -th element of $ a $ .","formatO":"For each test case, print the answer: \u0022YES\u0022 if it is possible to obtain the array consisting of only one element using several (possibly, zero) moves described in the problem statement, or \u0022NO\u0022 otherwise.","hint":"In the first test case of the example, we can perform the following sequence of moves:\n\n- choose $ i=1 $ and $ j=3 $ and remove $ a_i $ (so $ a $ becomes $ [2; 2] $ );\n- choose $ i=1 $ and $ j=2 $ and remove $ a_j $ (so $ a $ becomes $ [2] $ ).\n\nIn the second test case of the example, we can choose any possible $ i $ and $ j $ any move and it doesn\u0027t matter which element we remove.\n\nIn the third test case of the example, there is no way to get rid of $ 2 $ and $ 4 $ .","locale":"en"},"zh-CN":{"name":"Remove Smallest","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u7531 $n$ \u4e2a\u6b63\u6574\u6570\uff08\u5927\u4e8e\u96f6\uff09\u7ec4\u6210\u7684\u6570\u7ec4 $a$\u3002\n\n\u6bcf\u6b21\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e24\u4e2a\u4e0b\u6807 $i$ \u548c $j$\uff08$i \\ne j$\uff09\uff0c\u4f7f\u5f97 $a_i$ \u548c $a_j$ \u7684\u7edd\u5bf9\u5dee\u4e0d\u8d85\u8fc7 $1$\uff08\u5373 $|a_i - a_j| \\le 1$\uff09\uff0c\u7136\u540e\u79fb\u9664\u8fd9\u4e24\u4e2a\u5143\u7d20\u4e2d\u8f83\u5c0f\u7684\u4e00\u4e2a\u3002\u5982\u679c\u4e24\u4e2a\u5143\u7d20\u76f8\u7b49\uff0c\u4f60\u53ef\u4ee5\u79fb\u9664\u5176\u4e2d\u4efb\u610f\u4e00\u4e2a\uff08\u4f46\u53ea\u80fd\u79fb\u9664\u4e00\u4e2a\uff09\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u5224\u65ad\uff0c\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\uff08\u53ef\u80fd\u4e3a\u96f6\u6b21\uff09\u4e0a\u8ff0\u64cd\u4f5c\uff0c\u5c06\u6570\u7ec4\u53d8\u4e3a\u53ea\u5269\u4e0b\u4e00\u4e2a\u5143\u7d20\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u7ec4\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u662f $t$ \u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 50$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$1 \\le a_i \\le 100$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5404\u4e2a\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\uff1a\u5982\u679c\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\u64cd\u4f5c\u5c06\u6570\u7ec4\u53d8\u4e3a\u53ea\u5269\u4e0b\u4e00\u4e2a\u5143\u7d20\uff0c\u8f93\u51fa \u0022YES\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002","hint":"\u5728\u793a\u4f8b\u7684\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6211\u4eec\u53ef\u4ee5\u6309\u5982\u4e0b\u987a\u5e8f\u8fdb\u884c\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9 $i=1$ \u548c $j=3$\uff0c\u79fb\u9664 $a_i$\uff08\u6b64\u65f6 $a$ \u53d8\u4e3a $[2, 2]$\uff09\uff1b\n- \u9009\u62e9 $i=1$ \u548c $j=2$\uff0c\u79fb\u9664 $a_j$\uff08\u6b64\u65f6 $a$ \u53d8\u4e3a $[2]$\uff09\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u4efb\u610f\u9009\u62e9 $i$ \u548c $j$ \u8fdb\u884c\u64cd\u4f5c\uff0c\u79fb\u9664\u54ea\u4e2a\u5143\u7d20\u90fd\u65e0\u6240\u8c13\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u65e0\u6cd5\u6d88\u9664 $2$ \u548c $4$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1399A Remove Smallest","type":2,"slug":"CF1399A","color":"orange-3"},"discussions":[{"id":602802,"title":"0\u5206\u6c42\u52a9","author":{"uid":663215,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/663215.png","name":"LE020I2","slogan":"\u5feb\u5feb\u628a.com.cn\u6539\u6210.me\u53bb\u770b\u6211\u4e3b\u9875\u55b5~","badge":"","isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/llhjq6k3.png"},"time":1682929822}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328014.664191,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1399A Remove Smallest","description":"\u7ed9\u5b9a\u4e00\u4e2a\u7531 n \u4e2a\u6b63\u6574\u6570\uff08\u5927\u4e8e\u96f6\uff09\u7ec4\u6210\u7684\u6570\u7ec4 a\u3002\n\u6bcf\u6b21\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e24\u4e2a\u4e0b\u6807 i \u548c j\uff08i \\ne j\uff09\uff0c\u4f7f\u5f97 a_i \u548c a_j \u7684\u7edd\u5bf9\u5dee\u4e0d\u8d85\u8fc7 1\uff08\u5373 |a_i - a_j| \\le 1\uff09\uff0c\u7136\u540e\u79fb\u9664\u8fd9\u4e24\u4e2a\u5143\u7d20\u4e2d\u8f83\u5c0f\u7684\u4e00\u4e2a\u3002\u5982\u679c\u4e24\u4e2a\u5143\u7d20\u76f8\u7b49\uff0c\u4f60\u53ef\u4ee5\u79fb\u9664\u5176\u4e2d\u4efb\u610f\u4e00\u4e2a\uff08\u4f46\u53ea\u80fd\u79fb\u9664\u4e00\u4e2a\uff09\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1399A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1399A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1399A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1399A Remove Smallest" />
+    <meta property="og:description" content="给定一个由 n 个正整数（大于零）组成的数组 a。
+每次操作，你可以选择两个下标 i 和 j（i \ne j），使得 a_i 和 a_j 的绝对差不超过 1（即 |a_i - a_j| \le 1），然后移除这两个元素中较小的一个。如果两个元素相等，你可以移除其中任意一个（但只能移除一个）。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1399A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1399A Remove Smallest</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个由 $n$ 个正整数（大于零）组成的数组 $a$。
+
+每次操作，你可以选择两个下标 $i$ 和 $j$（$i \ne j$），使得 $a_i$ 和 $a_j$ 的绝对差不超过 $1$（即 $|a_i - a_j| \le 1$），然后移除这两个元素中较小的一个。如果两个元素相等，你可以移除其中任意一个（但只能移除一个）。
+
+你的任务是判断，是否可以通过若干次（可能为零次）上述操作，将数组变为只剩下一个元素。
+
+你需要回答 $t$ 组独立的测试用例。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $t$（$1 \le t \le 1000$），表示测试用例的数量。接下来是 $t$ 组测试用例。
+
+每组测试用例的第一行包含一个整数 $n$（$1 \le n \le 50$），表示数组 $a$ 的长度。第二行包含 $n$ 个整数 $a_1, a_2, \dots, a_n$（$1 \le a_i \le 100$），表示数组 $a$ 的各个元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试用例，输出一行答案：如果可以通过若干次操作将数组变为只剩下一个元素，输出 "YES"；否则输出 "NO"。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在示例的第一个测试用例中，我们可以按如下顺序进行操作：
+
+- 选择 $i=1$ 和 $j=3$，移除 $a_i$（此时 $a$ 变为 $[2, 2]$）；
+- 选择 $i=1$ 和 $j=2$，移除 $a_j$（此时 $a$ 变为 $[2]$）。
+
+在第二个测试用例中，可以任意选择 $i$ 和 $j$ 进行操作，移除哪个元素都无所谓。
+
+在第三个测试用例中，无法消除 $2$ 和 $4$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

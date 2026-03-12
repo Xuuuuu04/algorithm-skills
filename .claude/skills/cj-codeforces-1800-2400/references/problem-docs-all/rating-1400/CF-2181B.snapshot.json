@@ -1,0 +1,29 @@
+{
+  "id": "CF-2181B",
+  "contest_id": 2181,
+  "index": "B",
+  "name": "Battle of Arrays",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "games",
+    "greedy"
+  ],
+  "solved_count": 5014,
+  "problem_url": "https://codeforces.com/problemset/problem/2181/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2181/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2181/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2181B%20Battle%20of%20Arrays%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2181/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2181B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

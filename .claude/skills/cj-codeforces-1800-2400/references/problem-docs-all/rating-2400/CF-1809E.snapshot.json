@@ -1,0 +1,35 @@
+{
+  "id": "CF-1809E",
+  "contest_id": 1809,
+  "index": "E",
+  "name": "Two Tanks",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "dp",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 1051,
+  "problem_url": "https://codeforces.com/problemset/problem/1809/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1809/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1809/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1809E%20Two%20Tanks%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1809E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Tanks - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dp",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

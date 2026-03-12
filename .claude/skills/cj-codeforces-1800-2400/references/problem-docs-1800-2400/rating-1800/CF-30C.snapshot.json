@@ -1,0 +1,33 @@
+{
+  "id": "CF-30C",
+  "contest_id": 30,
+  "index": "C",
+  "name": "Shooting Gallery",
+  "rating": 1800,
+  "tags": [
+    "dp",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/30/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/30/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/30/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=30C%20Shooting Gallery%20tutorial",
+  "solved_count": 2342,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P30C",
+  "hydro_meta": {
+    "page_title": "Shooting Gallery - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "probabilities",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

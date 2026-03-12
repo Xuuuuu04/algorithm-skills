@@ -1,0 +1,34 @@
+{
+  "id": "CF-427D",
+  "contest_id": 427,
+  "index": "D",
+  "name": "Match & Catch",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 2403,
+  "problem_url": "https://codeforces.com/problemset/problem/427/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/427/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/427/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=427D%20Match%20%26%20Catch%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P427D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Match &amp; Catch - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "string suffix structures",
+      "strings",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

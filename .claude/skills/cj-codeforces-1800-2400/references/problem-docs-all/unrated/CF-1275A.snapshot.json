@@ -1,0 +1,29 @@
+{
+  "id": "CF-1275A",
+  "contest_id": 1275,
+  "index": "A",
+  "name": "Скрытый друг",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 890,
+  "problem_url": "https://codeforces.com/problemset/problem/1275/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1275/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1275/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1275A%20%D0%A1%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9%20%D0%B4%D1%80%D1%83%D0%B3%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1275A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Скрытый друг - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "ms",
+    "memory_limit": "MiB"
+  }
+}

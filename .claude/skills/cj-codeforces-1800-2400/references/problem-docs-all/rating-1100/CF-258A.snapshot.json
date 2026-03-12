@@ -1,0 +1,32 @@
+{
+  "id": "CF-258A",
+  "contest_id": 258,
+  "index": "A",
+  "name": "Little Elephant and Bits",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 26179,
+  "problem_url": "https://codeforces.com/problemset/problem/258/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/258/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/258/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=258A%20Little%20Elephant%20and%20Bits%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P258A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Little Elephant and Bits - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

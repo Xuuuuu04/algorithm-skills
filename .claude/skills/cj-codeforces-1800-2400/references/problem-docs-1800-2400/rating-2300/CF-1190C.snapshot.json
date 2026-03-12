@@ -1,0 +1,35 @@
+{
+  "id": "CF-1190C",
+  "contest_id": 1190,
+  "index": "C",
+  "name": "Tokitsukaze and Duel",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "games",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1190/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1190/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1190/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1190C%20Tokitsukaze and Duel%20tutorial",
+  "solved_count": 2193,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1190C",
+  "hydro_meta": {
+    "page_title": "Tokitsukaze and Duel - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "games",
+      "greedy",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

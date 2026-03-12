@@ -1,0 +1,29 @@
+{
+  "id": "CF-19C",
+  "contest_id": 19,
+  "index": "C",
+  "name": "Deletion of Repeats",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "hashing",
+    "string suffix structures"
+  ],
+  "solved_count": 1302,
+  "problem_url": "https://codeforces.com/problemset/problem/19/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/19/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/19/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=19C%20Deletion%20of%20Repeats%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF19C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF19C Deletion of Repeats - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 176,
+    "mirror_attempt": 484,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

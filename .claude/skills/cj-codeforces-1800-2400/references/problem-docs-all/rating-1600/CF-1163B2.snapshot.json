@@ -1,0 +1,28 @@
+{
+  "id": "CF-1163B2",
+  "contest_id": 1163,
+  "index": "B2",
+  "name": "Cat Party (Hard Edition)",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 7588,
+  "problem_url": "https://codeforces.com/problemset/problem/1163/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1163/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1163/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1163B2%20Cat%20Party%20%28Hard%20Edition%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1163/B2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1163B2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

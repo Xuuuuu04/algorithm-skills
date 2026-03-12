@@ -1,0 +1,27 @@
+{
+  "id": "CF-1632A",
+  "contest_id": 1632,
+  "index": "A",
+  "name": "ABC",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 30935,
+  "problem_url": "https://codeforces.com/problemset/problem/1632/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1632/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1632/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1632A%20ABC%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1632A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1632A ABC - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 344,
+    "mirror_attempt": 567,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

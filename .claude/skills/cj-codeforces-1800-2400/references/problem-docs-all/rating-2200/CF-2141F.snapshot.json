@@ -1,0 +1,32 @@
+{
+  "id": "CF-2141F",
+  "contest_id": 2141,
+  "index": "F",
+  "name": "Array Reduction",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "greedy"
+  ],
+  "solved_count": 134,
+  "problem_url": "https://codeforces.com/problemset/problem/2141/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2141/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2141/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2141F%20Array%20Reduction%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2141F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Array Reduction - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "greedy",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

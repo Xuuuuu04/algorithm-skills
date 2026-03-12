@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2207A 1-1 - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2207A","type":"CF","title":"1-1","difficulty":0,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":null,"content":{"name":"1-1","background":null,"description":" [Good Egg Galaxy \u2014 Koji Kondo, Super Mario Galaxy ](https:\/\/www.youtube.com\/watch?v=56TfZJoZxv8) ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2207A\/5cdecef6c743cf0650a07d44bbc3029bf61799bff89a263437ef9a9d468c13fb.png)Let  $ n $  be a positive integer. Mario has a binary string $ ^{\\text{\u2217}} $   $ s $  of length  $ n $ . In one move, he can choose any position  $ i $  ( $ 2 \\leq i \\leq n-1 $ ) such that it\u0027s between two 1\u0027s, i.e.,  $ s_{i-1} = s_{i+1} = \\texttt{1} $ , and then set  $ s_i $  to either 0 or 1.\n\nMario can perform this operation as many times as he wants (possibly zero). What\u0027s the minimum and maximum number of 1\u0027s that can be in the resulting string?\n\n $ ^{\\text{\u2217}} $ A binary string is a string whose characters are either 0 or 1.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 500 $ ). The description of the test cases follows.\n\nThe first line of each test case contains an integer  $ n $  ( $ 3 \\leq n \\leq 100 $ ) \u2014 the length of the string.\n\nThe second line of each test case contains a string  $ s $  of length  $ n $  consisting of characters 0 or 1.","formatO":"For each test case, output two integers \u2014 the minimum and maximum number of 1\u0027s in the resulting string after some number of moves.","hint":"In the first test case, the minimum number of 1\u0027s that can be in the resulting string is  $ 2 $ . This is done by transforming the string as follows: $$$\n\\mathtt{1}\\underline{\\mathtt{1}}\\mathtt{1} \\to \\mathtt{101}.\n$$$ The maximum number of 1\u0027s that can be in the resulting string is  $ 3 $ , by doing nothing.\n\nIn the second test case, the minimum number of 1\u0027s that can be in the resulting string is  $ 3 $ . This is done by transforming the string as follows: $$$\n\\mathtt{011}\\underline{\\mathtt{0}}\\mathtt{11} \\to \\mathtt{01}\\underline{\\mathtt{1}}\\mathtt{111} \\to \\mathtt{0101}\\underline{\\mathtt{1}}\\mathtt{1} \\to \\mathtt{010101}.\n$$$ The maximum number of 1\u0027s that can be in the resulting string is  $ 5 $ . This is done by transforming the string as follows: $$$\n\\mathtt{011}\\underline{\\mathtt{0}}\\mathtt{11} \\to \\mathtt{011111}.\n$$$","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n3\n111\n6\n011011\n7\n1011101\n9\n100101101","2 3\n3 5\n4 7\n5 7"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2207A","link":"https:\/\/codeforces.com\/problemset\/problem\/2207\/A"},"translation":null},"translations":{"en":{"name":"1-1","background":null,"description":" [Good Egg Galaxy \u2014 Koji Kondo, Super Mario Galaxy ](https:\/\/www.youtube.com\/watch?v=56TfZJoZxv8) ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2207A\/5cdecef6c743cf0650a07d44bbc3029bf61799bff89a263437ef9a9d468c13fb.png)Let  $ n $  be a positive integer. Mario has a binary string $ ^{\\text{\u2217}} $   $ s $  of length  $ n $ . In one move, he can choose any position  $ i $  ( $ 2 \\leq i \\leq n-1 $ ) such that it\u0027s between two 1\u0027s, i.e.,  $ s_{i-1} = s_{i+1} = \\texttt{1} $ , and then set  $ s_i $  to either 0 or 1.\n\nMario can perform this operation as many times as he wants (possibly zero). What\u0027s the minimum and maximum number of 1\u0027s that can be in the resulting string?\n\n $ ^{\\text{\u2217}} $ A binary string is a string whose characters are either 0 or 1.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 500 $ ). The description of the test cases follows.\n\nThe first line of each test case contains an integer  $ n $  ( $ 3 \\leq n \\leq 100 $ ) \u2014 the length of the string.\n\nThe second line of each test case contains a string  $ s $  of length  $ n $  consisting of characters 0 or 1.","formatO":"For each test case, output two integers \u2014 the minimum and maximum number of 1\u0027s in the resulting string after some number of moves.","hint":"In the first test case, the minimum number of 1\u0027s that can be in the resulting string is  $ 2 $ . This is done by transforming the string as follows: $$$\n\\mathtt{1}\\underline{\\mathtt{1}}\\mathtt{1} \\to \\mathtt{101}.\n$$$ The maximum number of 1\u0027s that can be in the resulting string is  $ 3 $ , by doing nothing.\n\nIn the second test case, the minimum number of 1\u0027s that can be in the resulting string is  $ 3 $ . This is done by transforming the string as follows: $$$\n\\mathtt{011}\\underline{\\mathtt{0}}\\mathtt{11} \\to \\mathtt{01}\\underline{\\mathtt{1}}\\mathtt{111} \\to \\mathtt{0101}\\underline{\\mathtt{1}}\\mathtt{1} \\to \\mathtt{010101}.\n$$$ The maximum number of 1\u0027s that can be in the resulting string is  $ 5 $ . This is done by transforming the string as follows: $$$\n\\mathtt{011}\\underline{\\mathtt{0}}\\mathtt{11} \\to \\mathtt{011111}.\n$$$","locale":"en"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2207A 1-1","type":2,"slug":"CF2207A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.241089,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2207A 1-1","description":"Good Egg Galaxy \u2014 Koji Kondo, Super Mario Galaxy  Let   n   be a positive integer. Mario has a binary string  ^{\\text{\u2217}}\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2207A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2207A?lang=en" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2207A 1-1" />
+    <meta property="og:description" content="Good Egg Galaxy — Koji Kondo, Super Mario Galaxy  Let   n   be a positive integer. Mario has a binary string  ^{\text{∗}}…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2207A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="en">
+        <h1>CF2207A 1-1</h1>
+
+        
+        <section>
+            <h2>Description</h2>
+            <div>
+                                     [Good Egg Galaxy — Koji Kondo, Super Mario Galaxy ](https://www.youtube.com/watch?v=56TfZJoZxv8) ![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF2207A/5cdecef6c743cf0650a07d44bbc3029bf61799bff89a263437ef9a9d468c13fb.png)Let  $ n $  be a positive integer. Mario has a binary string $ ^{\text{∗}} $   $ s $  of length  $ n $ . In one move, he can choose any position  $ i $  ( $ 2 \leq i \leq n-1 $ ) such that it's between two 1's, i.e.,  $ s_{i-1} = s_{i+1} = \texttt{1} $ , and then set  $ s_i $  to either 0 or 1.
+
+Mario can perform this operation as many times as he wants (possibly zero). What's the minimum and maximum number of 1's that can be in the resulting string?
+
+ $ ^{\text{∗}} $ A binary string is a string whose characters are either 0 or 1.
+                            </div>
+        </section>
+
+        <section>
+            <h2>Input Format</h2>
+            <div>
+                                    Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \le t \le 500 $ ). The description of the test cases follows.
+
+The first line of each test case contains an integer  $ n $  ( $ 3 \leq n \leq 100 $ ) — the length of the string.
+
+The second line of each test case contains a string  $ s $  of length  $ n $  consisting of characters 0 or 1.
+                            </div>
+        </section>
+
+        <section>
+            <h2>Output Format</h2>
+            <div>
+                                    For each test case, output two integers — the minimum and maximum number of 1's in the resulting string after some number of moves.
+                            </div>
+        </section>
+
+        <section>
+            <h2>Explanation/Hint</h2>
+            <div>
+                In the first test case, the minimum number of 1's that can be in the resulting string is  $ 2 $ . This is done by transforming the string as follows: $$$
+\mathtt{1}\underline{\mathtt{1}}\mathtt{1} \to \mathtt{101}.
+$$$ The maximum number of 1's that can be in the resulting string is  $ 3 $ , by doing nothing.
+
+In the second test case, the minimum number of 1's that can be in the resulting string is  $ 3 $ . This is done by transforming the string as follows: $$$
+\mathtt{011}\underline{\mathtt{0}}\mathtt{11} \to \mathtt{01}\underline{\mathtt{1}}\mathtt{111} \to \mathtt{0101}\underline{\mathtt{1}}\mathtt{1} \to \mathtt{010101}.
+$$$ The maximum number of 1's that can be in the resulting string is  $ 5 $ . This is done by transforming the string as follows: $$$
+\mathtt{011}\underline{\mathtt{0}}\mathtt{11} \to \mathtt{011111}.
+$$$
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

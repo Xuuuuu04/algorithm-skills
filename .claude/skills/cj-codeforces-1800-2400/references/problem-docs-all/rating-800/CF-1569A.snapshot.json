@@ -1,0 +1,27 @@
+{
+  "id": "CF-1569A",
+  "contest_id": 1569,
+  "index": "A",
+  "name": "Balanced Substring",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 26425,
+  "problem_url": "https://codeforces.com/problemset/problem/1569/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1569/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1569/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1569A%20Balanced%20Substring%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1569/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1569A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

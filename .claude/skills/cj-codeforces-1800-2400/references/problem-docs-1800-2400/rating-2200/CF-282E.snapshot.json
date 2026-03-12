@@ -1,0 +1,36 @@
+{
+  "id": "CF-282E",
+  "contest_id": 282,
+  "index": "E",
+  "name": "Sausage Maximization",
+  "rating": 2200,
+  "tags": [
+    "bitmasks",
+    "data structures",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/282/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/282/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/282/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=282E%20Sausage Maximization%20tutorial",
+  "solved_count": 4244,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P282E",
+  "hydro_meta": {
+    "page_title": "Sausage Maximization - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "data structures",
+      "trees",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

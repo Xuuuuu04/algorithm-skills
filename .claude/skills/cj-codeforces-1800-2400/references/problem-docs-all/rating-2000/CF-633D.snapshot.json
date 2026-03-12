@@ -1,0 +1,38 @@
+{
+  "id": "CF-633D",
+  "contest_id": 633,
+  "index": "D",
+  "name": "Fibonacci-ish",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "hashing",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 3037,
+  "problem_url": "https://codeforces.com/problemset/problem/633/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/633/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/633/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=633D%20Fibonacci-ish%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P633D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Fibonacci-ish - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dp",
+      "hashing",
+      "implementation",
+      "math",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

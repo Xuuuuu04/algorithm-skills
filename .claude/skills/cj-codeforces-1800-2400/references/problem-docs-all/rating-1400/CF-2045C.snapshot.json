@@ -1,0 +1,32 @@
+{
+  "id": "CF-2045C",
+  "contest_id": 2045,
+  "index": "C",
+  "name": "Saraga",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 7008,
+  "problem_url": "https://codeforces.com/problemset/problem/2045/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2045/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2045/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2045C%20Saraga%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2045C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Saraga - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "strings",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

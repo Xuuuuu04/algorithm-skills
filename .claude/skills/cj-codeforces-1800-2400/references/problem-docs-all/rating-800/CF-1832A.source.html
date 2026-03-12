@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1832A New Palindrome - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1832A","type":"CF","title":"New Palindrome","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":430,"totalAccepted":224,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"New Palindrome","background":null,"description":"\u56de\u6587\u4e32\u662f\u6307\u4ece\u5de6\u5230\u53f3\u548c\u4ece\u53f3\u5230\u5de6\u8bfb\u90fd\u76f8\u540c\u7684\u5b57\u7b26\u4e32\u3002\u4f8b\u5982\uff0cabacaba\u3001aaaa\u3001abba\u3001racecar \u90fd\u662f\u56de\u6587\u4e32\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002\u5b57\u7b26\u4e32 $s$ \u662f\u4e00\u4e2a\u56de\u6587\u4e32\u3002\n\n\u4f60\u9700\u8981\u5224\u65ad\u662f\u5426\u53ef\u4ee5\u91cd\u65b0\u6392\u5217 $s$ \u4e2d\u7684\u5b57\u6bcd\uff0c\u4f7f\u5176\u53d8\u6210\u53e6\u4e00\u4e2a\u56de\u6587\u4e32\uff08\u4e0e\u7ed9\u5b9a\u7684\u5b57\u7b26\u4e32 $s$ \u4e0d\u76f8\u540c\uff09\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u5305\u542b\u4e00\u884c\u5b57\u7b26\u4e32 $s$\uff08$2 \\le |s| \\le 50$\uff09\uff0c\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u3002\u8be5\u5b57\u7b26\u4e32\u662f\u4e00\u4e2a\u56de\u6587\u4e32\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u53ef\u4ee5\u91cd\u65b0\u6392\u5217\u7ed9\u5b9a\u5b57\u7b26\u4e32\u4e2d\u7684\u5b57\u6bcd\uff0c\u5f97\u5230\u53e6\u4e00\u4e2a\u4e0d\u540c\u4e8e\u539f\u5b57\u7b26\u4e32\u7684\u56de\u6587\u4e32\uff0c\u5219\u8f93\u51fa YES\u3002\u5426\u5219\u8f93\u51fa NO\u3002\n\n\u4f60\u53ef\u4ee5\u4ee5\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa\u7b54\u6848\uff08YES\u3001yes\u3001Yes \u90fd\u89c6\u4e3a\u6b63\u89e3\uff0cNO\u3001no\u3001nO \u90fd\u89c6\u4e3a\u8d1f\u89e3\uff09\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u5c06\u56de\u6587\u4e32 codedoc \u91cd\u65b0\u6392\u5217\u4e3a ocdedco\uff0c\u8fd9\u4e2a\u5b57\u7b26\u4e32\u4e0d\u540c\u4e8e\u539f\u5b57\u7b26\u4e32\uff0c\u4f46\u540c\u6837\u662f\u56de\u6587\u4e32\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"New Palindrome","background":"","description":"A palindrome is a string that reads the same from left to right as from right to left. For example, abacaba, aaaa, abba, racecar are palindromes.\n\nYou are given a string $ s $ consisting of lowercase Latin letters. The string $ s $ is a palindrome.\n\nYou have to check whether it is possible to rearrange the letters in it to get another palindrome (not equal to the given string $ s $ ).","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains a string $ s $ ( $ 2 \\le |s| \\le 50 $ ) consisting of lowercase Latin letters. This string is a palindrome.","formatO":"For each test case, print YES if it is possible to rearrange the letters in the given string to get another palindrome. Otherwise, print NO.\n\nYou may print each letter in any case (YES, yes, Yes will all be recognized as positive answer, NO, no and nO will all be recognized as negative answer).","hint":"In the first test case, it is possible to rearrange the letters in the palindrome codedoc to obtain the string ocdedco, which is different from the given string, but also a palindrome.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\ncodedoc\ngg\naabaa","YES\nNO\nNO"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1832A","link":"https:\/\/codeforces.com\/problemset\/problem\/1832\/A"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u7531\u5c0f\u5199\u5b57\u6bcd\u7ec4\u6210\u7684\u56de\u6587\u5b57\u7b26\u4e32\uff0c\u95ee\u4f60\u662f\u5426\u80fd\u5728\u91cd\u6392\u5176\u4e4b\u540e\u6784\u9020\u51fa\u53e6\u4e00\u4e2a\u4e0e\u539f\u4e32\u4e0d\u540c\u7684\u56de\u6587\u5b57\u7b26\u4e32\u3002\n\nTranslated by @[zhuweiqi](https:\/\/www.luogu.com.cn\/user\/909294)\u3002"},"translations":{"en":{"name":"New Palindrome","background":"","description":"A palindrome is a string that reads the same from left to right as from right to left. For example, abacaba, aaaa, abba, racecar are palindromes.\n\nYou are given a string $ s $ consisting of lowercase Latin letters. The string $ s $ is a palindrome.\n\nYou have to check whether it is possible to rearrange the letters in it to get another palindrome (not equal to the given string $ s $ ).","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains a string $ s $ ( $ 2 \\le |s| \\le 50 $ ) consisting of lowercase Latin letters. This string is a palindrome.","formatO":"For each test case, print YES if it is possible to rearrange the letters in the given string to get another palindrome. Otherwise, print NO.\n\nYou may print each letter in any case (YES, yes, Yes will all be recognized as positive answer, NO, no and nO will all be recognized as negative answer).","hint":"In the first test case, it is possible to rearrange the letters in the palindrome codedoc to obtain the string ocdedco, which is different from the given string, but also a palindrome.","locale":"en"},"zh-CN":{"name":"New Palindrome","background":null,"description":"\u56de\u6587\u4e32\u662f\u6307\u4ece\u5de6\u5230\u53f3\u548c\u4ece\u53f3\u5230\u5de6\u8bfb\u90fd\u76f8\u540c\u7684\u5b57\u7b26\u4e32\u3002\u4f8b\u5982\uff0cabacaba\u3001aaaa\u3001abba\u3001racecar \u90fd\u662f\u56de\u6587\u4e32\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002\u5b57\u7b26\u4e32 $s$ \u662f\u4e00\u4e2a\u56de\u6587\u4e32\u3002\n\n\u4f60\u9700\u8981\u5224\u65ad\u662f\u5426\u53ef\u4ee5\u91cd\u65b0\u6392\u5217 $s$ \u4e2d\u7684\u5b57\u6bcd\uff0c\u4f7f\u5176\u53d8\u6210\u53e6\u4e00\u4e2a\u56de\u6587\u4e32\uff08\u4e0e\u7ed9\u5b9a\u7684\u5b57\u7b26\u4e32 $s$ \u4e0d\u76f8\u540c\uff09\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u5305\u542b\u4e00\u884c\u5b57\u7b26\u4e32 $s$\uff08$2 \\le |s| \\le 50$\uff09\uff0c\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u3002\u8be5\u5b57\u7b26\u4e32\u662f\u4e00\u4e2a\u56de\u6587\u4e32\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u53ef\u4ee5\u91cd\u65b0\u6392\u5217\u7ed9\u5b9a\u5b57\u7b26\u4e32\u4e2d\u7684\u5b57\u6bcd\uff0c\u5f97\u5230\u53e6\u4e00\u4e2a\u4e0d\u540c\u4e8e\u539f\u5b57\u7b26\u4e32\u7684\u56de\u6587\u4e32\uff0c\u5219\u8f93\u51fa YES\u3002\u5426\u5219\u8f93\u51fa NO\u3002\n\n\u4f60\u53ef\u4ee5\u4ee5\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa\u7b54\u6848\uff08YES\u3001yes\u3001Yes \u90fd\u89c6\u4e3a\u6b63\u89e3\uff0cNO\u3001no\u3001nO \u90fd\u89c6\u4e3a\u8d1f\u89e3\uff09\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u5c06\u56de\u6587\u4e32 codedoc \u91cd\u65b0\u6392\u5217\u4e3a ocdedco\uff0c\u8fd9\u4e2a\u5b57\u7b26\u4e32\u4e0d\u540c\u4e8e\u539f\u5b57\u7b26\u4e32\uff0c\u4f46\u540c\u6837\u662f\u56de\u6587\u4e32\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1832A New Palindrome","type":2,"slug":"CF1832A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.373854,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1832A New Palindrome","description":"\u56de\u6587\u4e32\u662f\u6307\u4ece\u5de6\u5230\u53f3\u548c\u4ece\u53f3\u5230\u5de6\u8bfb\u90fd\u76f8\u540c\u7684\u5b57\u7b26\u4e32\u3002\u4f8b\u5982\uff0cabacaba\u3001aaaa\u3001abba\u3001racecar \u90fd\u662f\u56de\u6587\u4e32\u3002\n\u7ed9\u5b9a\u4e00\u4e2a\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 s\u3002\u5b57\u7b26\u4e32 s \u662f\u4e00\u4e2a\u56de\u6587\u4e32\u3002\n\u4f60\u9700\u8981\u5224\u65ad\u662f\u5426\u53ef\u4ee5\u91cd\u65b0\u6392\u5217 s \u4e2d\u7684\u5b57\u6bcd\uff0c\u4f7f\u5176\u53d8\u6210\u53e6\u4e00\u4e2a\u56de\u6587\u4e32\uff08\u4e0e\u7ed9\u5b9a\u7684\u5b57\u7b26\u4e32\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1832A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1832A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1832A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1832A New Palindrome" />
+    <meta property="og:description" content="回文串是指从左到右和从右到左读都相同的字符串。例如，abacaba、aaaa、abba、racecar 都是回文串。
+给定一个仅由小写拉丁字母组成的字符串 s。字符串 s 是一个回文串。
+你需要判断是否可以重新排列 s 中的字母，使其变成另一个回文串（与给定的字符串…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1832A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1832A New Palindrome</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    回文串是指从左到右和从右到左读都相同的字符串。例如，abacaba、aaaa、abba、racecar 都是回文串。
+
+给定一个仅由小写拉丁字母组成的字符串 $s$。字符串 $s$ 是一个回文串。
+
+你需要判断是否可以重新排列 $s$ 中的字母，使其变成另一个回文串（与给定的字符串 $s$ 不相同）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 1000$），表示测试用例的数量。
+
+每个测试用例仅包含一行字符串 $s$（$2 \le |s| \le 50$），由小写拉丁字母组成。该字符串是一个回文串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果可以重新排列给定字符串中的字母，得到另一个不同于原字符串的回文串，则输出 YES。否则输出 NO。
+
+你可以以任意大小写输出答案（YES、yes、Yes 都视为正解，NO、no、nO 都视为负解）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，可以将回文串 codedoc 重新排列为 ocdedco，这个字符串不同于原字符串，但同样是回文串。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

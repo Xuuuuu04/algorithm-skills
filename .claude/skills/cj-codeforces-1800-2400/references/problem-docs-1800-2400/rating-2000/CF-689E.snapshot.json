@@ -1,0 +1,40 @@
+{
+  "id": "CF-689E",
+  "contest_id": 689,
+  "index": "E",
+  "name": "Mike and Geometry Problem",
+  "rating": 2000,
+  "tags": [
+    "combinatorics",
+    "data structures",
+    "dp",
+    "geometry",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/689/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/689/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/689/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=689E%20Mike and Geometry Problem%20tutorial",
+  "solved_count": 2101,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P689E",
+  "hydro_meta": {
+    "page_title": "Mike and Geometry Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "data structures",
+      "dp",
+      "geometry",
+      "implementation",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

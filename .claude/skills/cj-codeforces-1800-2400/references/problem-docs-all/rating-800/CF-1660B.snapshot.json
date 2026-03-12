@@ -1,0 +1,27 @@
+{
+  "id": "CF-1660B",
+  "contest_id": 1660,
+  "index": "B",
+  "name": "Vlad and Candies",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 29626,
+  "problem_url": "https://codeforces.com/problemset/problem/1660/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1660/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1660/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1660B%20Vlad%20and%20Candies%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1660B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1660B Vlad and Candies - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 402,
+    "mirror_attempt": 824,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-2031B",
+  "contest_id": 2031,
+  "index": "B",
+  "name": "Penchick and Satay Sticks",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 20576,
+  "problem_url": "https://codeforces.com/problemset/problem/2031/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2031/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2031/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2031B%20Penchick%20and%20Satay%20Sticks%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2031/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2031B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

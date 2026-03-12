@@ -1,0 +1,29 @@
+{
+  "id": "CF-383C",
+  "contest_id": 383,
+  "index": "C",
+  "name": "Propagating tree",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "trees"
+  ],
+  "solved_count": 7432,
+  "problem_url": "https://codeforces.com/problemset/problem/383/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/383/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/383/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=383C%20Propagating%20tree%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF383C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF383C Propagating tree - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1357,
+    "mirror_attempt": 2611,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

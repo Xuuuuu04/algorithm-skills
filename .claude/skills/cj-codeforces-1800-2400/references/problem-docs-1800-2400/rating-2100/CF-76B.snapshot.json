@@ -1,0 +1,33 @@
+{
+  "id": "CF-76B",
+  "contest_id": 76,
+  "index": "B",
+  "name": "Mice",
+  "rating": 2100,
+  "tags": [
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/76/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/76/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/76/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=76B%20Mice%20tutorial",
+  "solved_count": 797,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P76B",
+  "hydro_meta": {
+    "page_title": "Mice - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

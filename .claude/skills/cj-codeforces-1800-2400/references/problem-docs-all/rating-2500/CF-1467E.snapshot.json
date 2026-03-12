@@ -1,0 +1,30 @@
+{
+  "id": "CF-1467E",
+  "contest_id": 1467,
+  "index": "E",
+  "name": "Distinctive Roots in a Tree",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 1716,
+  "problem_url": "https://codeforces.com/problemset/problem/1467/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1467/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1467/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1467E%20Distinctive%20Roots%20in%20a%20Tree%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1467E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1467E Distinctive Roots in a Tree - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 253,
+    "mirror_attempt": 597,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CF-1400D",
+  "contest_id": 1400,
+  "index": "D",
+  "name": "Zigzags",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "data structures",
+    "math",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1400/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1400/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1400/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1400D%20Zigzags%20tutorial",
+  "solved_count": 11264,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1400D",
+  "hydro_meta": {
+    "page_title": "Zigzags - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "combinatorics",
+      "data structures",
+      "math",
+      "two pointers",
+      "*1900"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-1162A",
+  "contest_id": 1162,
+  "index": "A",
+  "name": "Zoning Restrictions Again",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 8711,
+  "problem_url": "https://codeforces.com/problemset/problem/1162/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1162/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1162/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1162A%20Zoning%20Restrictions%20Again%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1162A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1162A Zoning Restrictions Again - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 206,
+    "mirror_attempt": 370,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

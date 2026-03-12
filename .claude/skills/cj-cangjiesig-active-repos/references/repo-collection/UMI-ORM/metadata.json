@@ -1,0 +1,14 @@
+{
+  "name": "UMI-ORM",
+  "full_name": "cangjielanguage-sig/UMI-ORM",
+  "html_url": "https://github.com/cangjielanguage-sig/UMI-ORM",
+  "description": "",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "001-ai-driven-orm",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.4",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/UMI-ORM/001-ai-driven-orm/cjpm.toml"
+}

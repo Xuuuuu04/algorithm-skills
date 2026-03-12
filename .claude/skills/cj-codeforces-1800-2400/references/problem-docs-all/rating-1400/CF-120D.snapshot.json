@@ -1,0 +1,27 @@
+{
+  "id": "CF-120D",
+  "contest_id": 120,
+  "index": "D",
+  "name": "Three Sons",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 2088,
+  "problem_url": "https://codeforces.com/problemset/problem/120/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/120/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/120/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=120D%20Three%20Sons%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/120/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 120D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

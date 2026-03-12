@@ -1,0 +1,14 @@
+[package]
+  cjc-version = "1.0.3"
+  name = "dcmtkcj"
+  description = "dcmtk interface for cangjie"
+  version = "1.0.0"
+  target-dir = ""
+  src-dir = ""
+  output-type = "dynamic"
+  compile-option = "-LC:\\DCMTK\\bin -ldcmtkcj-wrapper"
+  override-compile-option = ""
+  link-option = ""
+
+[package.package-configuration."dcmtkcj.demo"]
+  output-type = "executable"

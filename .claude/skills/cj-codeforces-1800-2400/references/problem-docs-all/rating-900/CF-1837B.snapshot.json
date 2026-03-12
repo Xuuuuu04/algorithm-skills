@@ -1,0 +1,27 @@
+{
+  "id": "CF-1837B",
+  "contest_id": 1837,
+  "index": "B",
+  "name": "Comparison String",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 48174,
+  "problem_url": "https://codeforces.com/problemset/problem/1837/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1837/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1837/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1837B%20Comparison%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1837B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1837B Comparison String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 297,
+    "mirror_attempt": 673,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

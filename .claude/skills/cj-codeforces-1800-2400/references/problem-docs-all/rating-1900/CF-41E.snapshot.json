@@ -1,0 +1,34 @@
+{
+  "id": "CF-41E",
+  "contest_id": 41,
+  "index": "E",
+  "name": "3-cycles",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 2207,
+  "problem_url": "https://codeforces.com/problemset/problem/41/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/41/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/41/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=41E%203-cycles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P41E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "3-cycles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

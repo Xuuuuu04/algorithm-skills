@@ -1,0 +1,32 @@
+{
+  "id": "CF-570E",
+  "contest_id": 570,
+  "index": "E",
+  "name": "Pig and Palindromes",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "combinatorics",
+    "dp"
+  ],
+  "solved_count": 2076,
+  "problem_url": "https://codeforces.com/problemset/problem/570/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/570/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/570/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=570E%20Pig%20and%20Palindromes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P570E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Pig and Palindromes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 4,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

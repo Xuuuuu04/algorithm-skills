@@ -1,0 +1,31 @@
+{
+  "id": "CF-2020A",
+  "contest_id": 2020,
+  "index": "A",
+  "name": "Find Minimum Operations",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 25708,
+  "problem_url": "https://codeforces.com/problemset/problem/2020/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2020/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2020/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2020A%20Find%20Minimum%20Operations%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2020/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2020A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

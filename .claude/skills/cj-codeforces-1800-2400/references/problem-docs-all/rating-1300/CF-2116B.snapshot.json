@@ -1,0 +1,29 @@
+{
+  "id": "CF-2116B",
+  "contest_id": 2116,
+  "index": "B",
+  "name": "Gellyfish and Baby's Breath",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 17151,
+  "problem_url": "https://codeforces.com/problemset/problem/2116/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2116/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2116/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2116B%20Gellyfish%20and%20Baby%27s%20Breath%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2116/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2116B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

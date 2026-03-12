@@ -1,0 +1,14 @@
+{
+  "name": "cjnum",
+  "full_name": "cangjielanguage-sig/cjnum",
+  "html_url": "https://github.com/cangjielanguage-sig/cjnum",
+  "description": "这是一个用于 Cangjie 语言的数值计算库，提供了广泛的数学、科学计算和数值分析功能。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "master",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/cjnum/master/cjpm.toml"
+}

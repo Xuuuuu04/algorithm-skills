@@ -1,0 +1,36 @@
+{
+  "id": "CF-825F",
+  "contest_id": 825,
+  "index": "F",
+  "name": "String Compression",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "hashing",
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 1921,
+  "problem_url": "https://codeforces.com/problemset/problem/825/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/825/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/825/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=825F%20String%20Compression%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P825F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "String Compression - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "hashing",
+      "string suffix structures",
+      "strings",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

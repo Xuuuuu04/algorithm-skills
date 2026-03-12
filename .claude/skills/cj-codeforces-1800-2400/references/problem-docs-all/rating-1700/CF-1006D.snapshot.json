@@ -1,0 +1,30 @@
+{
+  "id": "CF-1006D",
+  "contest_id": 1006,
+  "index": "D",
+  "name": "Two Strings Swaps",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 6420,
+  "problem_url": "https://codeforces.com/problemset/problem/1006/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1006/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1006/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1006D%20Two%20Strings%20Swaps%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1006D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Strings Swaps - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1700"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

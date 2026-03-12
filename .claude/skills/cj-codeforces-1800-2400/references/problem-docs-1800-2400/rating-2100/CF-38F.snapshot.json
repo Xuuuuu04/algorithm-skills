@@ -1,0 +1,36 @@
+{
+  "id": "CF-38F",
+  "contest_id": 38,
+  "index": "F",
+  "name": "Smart Boy",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "games",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/38/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/38/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/38/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=38F%20Smart Boy%20tutorial",
+  "solved_count": 440,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P38F",
+  "hydro_meta": {
+    "page_title": "Smart Boy - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "games",
+      "strings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

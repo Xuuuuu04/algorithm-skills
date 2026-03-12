@@ -1,0 +1,27 @@
+{
+  "id": "CF-2145A",
+  "contest_id": 2145,
+  "index": "A",
+  "name": "Candies for Nephews",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 29809,
+  "problem_url": "https://codeforces.com/problemset/problem/2145/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2145/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2145/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2145A%20Candies%20for%20Nephews%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2145A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2145A Candies for Nephews - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

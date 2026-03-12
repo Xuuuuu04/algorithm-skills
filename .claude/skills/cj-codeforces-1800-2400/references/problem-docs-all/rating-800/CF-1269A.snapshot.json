@@ -1,0 +1,28 @@
+{
+  "id": "CF-1269A",
+  "contest_id": 1269,
+  "index": "A",
+  "name": "Equation",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "math"
+  ],
+  "solved_count": 23813,
+  "problem_url": "https://codeforces.com/problemset/problem/1269/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1269/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1269/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1269A%20Equation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1269/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1269A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

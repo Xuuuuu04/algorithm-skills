@@ -1,0 +1,30 @@
+{
+  "id": "CF-1129B",
+  "contest_id": 1129,
+  "index": "B",
+  "name": "Wrong Answer",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 2311,
+  "problem_url": "https://codeforces.com/problemset/problem/1129/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1129/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1129/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1129B%20Wrong%20Answer%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1129B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Wrong Answer - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

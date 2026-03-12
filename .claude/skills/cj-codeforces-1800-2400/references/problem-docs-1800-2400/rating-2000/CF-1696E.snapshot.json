@@ -1,0 +1,33 @@
+{
+  "id": "CF-1696E",
+  "contest_id": 1696,
+  "index": "E",
+  "name": "Placing Jinas",
+  "rating": 2000,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1696/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1696/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1696/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1696E%20Placing Jinas%20tutorial",
+  "solved_count": 4833,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1696E",
+  "hydro_meta": {
+    "page_title": "Placing Jinas - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

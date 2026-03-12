@@ -1,0 +1,30 @@
+{
+  "id": "CF-1148A",
+  "contest_id": 1148,
+  "index": "A",
+  "name": "Another One Bites The Dust",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 15481,
+  "problem_url": "https://codeforces.com/problemset/problem/1148/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1148/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1148/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1148A%20Another%20One%20Bites%20The%20Dust%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1148A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Another One Bites The Dust - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-1958F",
+  "contest_id": 1958,
+  "index": "F",
+  "name": "Narrow Paths",
+  "rating": 2000,
+  "tags": [
+    "*special",
+    "combinatorics"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1958/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1958/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1958/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1958F%20Narrow Paths%20tutorial",
+  "solved_count": 249,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1958F",
+  "hydro_meta": {
+    "page_title": "Narrow Paths - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "combinatorics",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

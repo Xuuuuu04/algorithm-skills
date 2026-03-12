@@ -1,0 +1,38 @@
+{
+  "id": "CF-1954D",
+  "contest_id": 1954,
+  "index": "D",
+  "name": "Colored Balls",
+  "rating": 1800,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1954/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1954/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1954/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1954D%20Colored Balls%20tutorial",
+  "solved_count": 7864,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1954D",
+  "hydro_meta": {
+    "page_title": "Colored Balls - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "sortings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

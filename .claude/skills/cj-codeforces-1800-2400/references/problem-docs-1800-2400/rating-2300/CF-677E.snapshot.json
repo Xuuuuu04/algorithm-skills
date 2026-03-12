@@ -1,0 +1,38 @@
+{
+  "id": "CF-677E",
+  "contest_id": 677,
+  "index": "E",
+  "name": "Vanya and Balloons",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "brute force",
+    "dp",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/677/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/677/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/677/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=677E%20Vanya and Balloons%20tutorial",
+  "solved_count": 744,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P677E",
+  "hydro_meta": {
+    "page_title": "Vanya and Balloons - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "dp",
+      "implementation",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

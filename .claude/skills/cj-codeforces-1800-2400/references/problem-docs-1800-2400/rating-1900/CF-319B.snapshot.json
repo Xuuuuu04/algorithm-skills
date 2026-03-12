@@ -1,0 +1,33 @@
+{
+  "id": "CF-319B",
+  "contest_id": 319,
+  "index": "B",
+  "name": "Psychos in a Line",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/319/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/319/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/319/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=319B%20Psychos in a Line%20tutorial",
+  "solved_count": 4697,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P319B",
+  "hydro_meta": {
+    "page_title": "Psychos in a Line - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-2089C2",
+  "contest_id": 2089,
+  "index": "C2",
+  "name": "Key of Like (Hard Version)",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 245,
+  "problem_url": "https://codeforces.com/problemset/problem/2089/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2089/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2089/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2089C2%20Key%20of%20Like%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2089C2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Key of Like (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*3100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

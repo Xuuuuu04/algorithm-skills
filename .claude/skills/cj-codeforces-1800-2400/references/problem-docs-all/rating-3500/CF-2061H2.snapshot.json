@@ -1,0 +1,28 @@
+{
+  "id": "CF-2061H2",
+  "contest_id": 2061,
+  "index": "H2",
+  "name": "Kevin and Stones (Hard Version)",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 5000.0,
+  "tags": [
+    "flows",
+    "graphs"
+  ],
+  "solved_count": 59,
+  "problem_url": "https://codeforces.com/problemset/problem/2061/H2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2061/problem/H2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2061/problem/H2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2061H2%20Kevin%20and%20Stones%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2061/H2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2061H2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

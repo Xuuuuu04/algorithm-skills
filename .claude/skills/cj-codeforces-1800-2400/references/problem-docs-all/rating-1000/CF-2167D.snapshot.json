@@ -1,0 +1,36 @@
+{
+  "id": "CF-2167D",
+  "contest_id": 2167,
+  "index": "D",
+  "name": "Yet Another Array Problem",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 29050,
+  "problem_url": "https://codeforces.com/problemset/problem/2167/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2167/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2167/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2167D%20Yet%20Another%20Array%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2167D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yet Another Array Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

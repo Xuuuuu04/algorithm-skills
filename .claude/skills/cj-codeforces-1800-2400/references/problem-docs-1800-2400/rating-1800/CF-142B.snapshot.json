@@ -1,0 +1,36 @@
+{
+  "id": "CF-142B",
+  "contest_id": 142,
+  "index": "B",
+  "name": "Help General",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/142/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/142/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/142/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=142B%20Help General%20tutorial",
+  "solved_count": 2379,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P142B",
+  "hydro_meta": {
+    "page_title": "Help General - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

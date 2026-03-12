@@ -1,0 +1,40 @@
+{
+  "id": "CF-1737D",
+  "contest_id": 1737,
+  "index": "D",
+  "name": "Ela and the Wiring Wizard",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "dp",
+    "graphs",
+    "greedy",
+    "implementation",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1737/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1737/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1737/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1737D%20Ela and the Wiring Wizard%20tutorial",
+  "solved_count": 2093,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1737D",
+  "hydro_meta": {
+    "page_title": "Ela and the Wiring Wizard - 题目详情 - Hydro",
+    "hydro_tags": [
+      "flows",
+      "graphs",
+      "greedy",
+      "shortest paths"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

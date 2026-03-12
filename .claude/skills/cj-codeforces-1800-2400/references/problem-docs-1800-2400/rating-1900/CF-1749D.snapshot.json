@@ -1,0 +1,36 @@
+{
+  "id": "CF-1749D",
+  "contest_id": 1749,
+  "index": "D",
+  "name": "Counting Arrays",
+  "rating": 1900,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1749/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1749/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1749/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1749D%20Counting Arrays%20tutorial",
+  "solved_count": 6298,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1749D",
+  "hydro_meta": {
+    "page_title": "Counting Arrays - 题目详情 - Hydro",
+    "hydro_tags": [
+      "math",
+      "number theory"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

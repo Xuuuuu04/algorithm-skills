@@ -1,0 +1,37 @@
+{
+  "id": "CF-653D",
+  "contest_id": 653,
+  "index": "D",
+  "name": "Delivery Bears",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "flows",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/653/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/653/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/653/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=653D%20Delivery Bears%20tutorial",
+  "solved_count": 2888,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "网络流（最大流/最小割）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P653D",
+  "hydro_meta": {
+    "page_title": "Delivery Bears - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "flows",
+      "graphs",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

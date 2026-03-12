@@ -1,0 +1,32 @@
+{
+  "id": "CF-1354F",
+  "contest_id": 1354,
+  "index": "F",
+  "name": "Summoning Minions",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "flows",
+    "graph matchings",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 1459,
+  "problem_url": "https://codeforces.com/problemset/problem/1354/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1354/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1354/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1354F%20Summoning%20Minions%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1354/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1354F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "6 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1239B",
+  "contest_id": 1239,
+  "index": "B",
+  "name": "The World Is Just a Programming Task (Hard Version)",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 1104,
+  "problem_url": "https://codeforces.com/problemset/problem/1239/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1239/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1239/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1239B%20The%20World%20Is%20Just%20a%20Programming%20Task%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1239B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The World Is Just a Programming Task (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

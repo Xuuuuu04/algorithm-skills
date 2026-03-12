@@ -1,0 +1,31 @@
+{
+  "id": "CF-1712E2",
+  "contest_id": 1712,
+  "index": "E2",
+  "name": "LCM Sum (hard version)",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "math",
+    "number theory",
+    "two pointers"
+  ],
+  "solved_count": 1596,
+  "problem_url": "https://codeforces.com/problemset/problem/1712/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1712/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1712/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1712E2%20LCM%20Sum%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1712E2",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1712E2 LCM Sum (hard version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 240,
+    "mirror_attempt": 373,
+    "time_limit": "3500 ms",
+    "memory_limit": "512000 KB"
+  }
+}

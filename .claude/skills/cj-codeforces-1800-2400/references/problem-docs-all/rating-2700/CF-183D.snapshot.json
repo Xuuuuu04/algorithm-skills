@@ -1,0 +1,29 @@
+{
+  "id": "CF-183D",
+  "contest_id": 183,
+  "index": "D",
+  "name": "T-shirt",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "probabilities"
+  ],
+  "solved_count": 478,
+  "problem_url": "https://codeforces.com/problemset/problem/183/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/183/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/183/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=183D%20T-shirt%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF183D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF183D T-shirt - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 186,
+    "mirror_attempt": 464,
+    "time_limit": "5000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-2066C",
+  "contest_id": 2066,
+  "index": "C",
+  "name": "Bitwise Slides",
+  "rating": 2300,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2066/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2066/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2066/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2066C%20Bitwise Slides%20tutorial",
+  "solved_count": 2410,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2066C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2066C Bitwise Slides - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

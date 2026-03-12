@@ -1,0 +1,36 @@
+{
+  "id": "CF-2014D",
+  "contest_id": 2014,
+  "index": "D",
+  "name": "Robert Hood and Mrs Hood",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 15598,
+  "problem_url": "https://codeforces.com/problemset/problem/2014/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2014/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2014/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2014D%20Robert%20Hood%20and%20Mrs%20Hood%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2014D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Robert Hood and Mrs Hood - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

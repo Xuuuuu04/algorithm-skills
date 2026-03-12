@@ -1,0 +1,28 @@
+{
+  "id": "CF-1681A",
+  "contest_id": 1681,
+  "index": "A",
+  "name": "Game with Cards",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "games",
+    "greedy"
+  ],
+  "solved_count": 21631,
+  "problem_url": "https://codeforces.com/problemset/problem/1681/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1681/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1681/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1681A%20Game%20with%20Cards%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1681A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1681A Game with Cards - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 135,
+    "mirror_attempt": 219,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1547B",
+  "contest_id": 1547,
+  "index": "B",
+  "name": "Alphabetical Strings",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 27731,
+  "problem_url": "https://codeforces.com/problemset/problem/1547/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1547/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1547/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1547B%20Alphabetical%20Strings%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1547B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1547B Alphabetical Strings - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 290,
+    "mirror_attempt": 480,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

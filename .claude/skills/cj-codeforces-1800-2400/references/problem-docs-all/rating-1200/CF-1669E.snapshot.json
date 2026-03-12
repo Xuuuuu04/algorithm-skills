@@ -1,0 +1,34 @@
+{
+  "id": "CF-1669E",
+  "contest_id": 1669,
+  "index": "E",
+  "name": "2-Letter Strings",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "math",
+    "strings"
+  ],
+  "solved_count": 20924,
+  "problem_url": "https://codeforces.com/problemset/problem/1669/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1669/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1669/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1669E%202-Letter%20Strings%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1669E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "2-Letter Strings - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "math",
+      "strings",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

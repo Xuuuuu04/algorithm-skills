@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1398A Bad Triangle - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1398A","type":"CF","title":"Bad Triangle","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":591,"totalAccepted":276,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Bad Triangle","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6309\u975e\u9012\u51cf\u987a\u5e8f\u6392\u5e8f\u7684\u6570\u7ec4 $a_1, a_2, \\dots, a_n$\uff08\u5373 $a_i \\le a_{i+1}$\uff09\u3002\n\n\u8bf7\u4f60\u627e\u5230\u4e09\u4e2a\u4e0b\u6807 $i$\u3001$j$\u3001$k$\uff0c\u6ee1\u8db3 $1 \\le i \u003C j \u003C k \\le n$\uff0c\u5e76\u4e14\u65e0\u6cd5\u7528 $a_i$\u3001$a_j$ \u548c $a_k$ \u4f5c\u4e3a\u8fb9\u957f\u6784\u6210\u4e00\u4e2a\u975e\u9000\u5316\u4e09\u89d2\u5f62\uff08\u5373\u9762\u79ef\u4e0d\u4e3a\u96f6\u7684\u4e09\u89d2\u5f62\uff09\u3002\u4f8b\u5982\uff0c\u8fb9\u957f\u4e3a $3$\u3001$4$ \u548c $5$ \u53ef\u4ee5\u6784\u6210\u975e\u9000\u5316\u4e09\u89d2\u5f62\uff0c\u4f46\u8fb9\u957f\u4e3a $3$\u3001$4$ \u548c $7$ \u5219\u4e0d\u884c\u3002\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u4e09\u5143\u7ec4\uff0c\u8bf7\u8f93\u51fa -1\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 5 \\cdot 10^4$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$1 \\le a_i \\le 10^9$\uff0c$a_{i-1} \\le a_i$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\u3002\n\n\u5982\u679c\u5b58\u5728\u4e00\u7ec4\u4e09\u5143\u7ec4\u4e0b\u6807 $i$\u3001$j$\u3001$k$\uff08$i \u003C j \u003C k$\uff09\uff0c\u4f7f\u5f97\u65e0\u6cd5\u7528 $a_i$\u3001$a_j$ \u548c $a_k$ \u6784\u6210\u975e\u9000\u5316\u4e09\u89d2\u5f62\uff0c\u8f93\u51fa\u8fd9\u4e09\u4e2a\u4e0b\u6807\uff0c\u6309\u5347\u5e8f\u6392\u5217\u3002\u5982\u679c\u6709\u591a\u7ec4\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u7ec4\u5373\u53ef\u3002\n\n\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u4e09\u5143\u7ec4\uff0c\u8f93\u51fa -1\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u8fb9\u957f\u4e3a $6$\u3001$11$ \u548c $18$ \u65f6\u65e0\u6cd5\u6784\u6210\u975e\u9000\u5316\u4e09\u89d2\u5f62\u3002\u6ce8\u610f\uff0c\u8fd9\u5e76\u4e0d\u662f\u552f\u4e00\u7684\u6b63\u786e\u7b54\u6848\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u603b\u662f\u53ef\u4ee5\u6784\u6210\u975e\u9000\u5316\u4e09\u89d2\u5f62\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Bad Triangle","background":"","description":"You are given an array $ a_1, a_2, \\dots , a_n $ , which is sorted in non-decreasing order ( $ a_i \\le a_{i + 1}) $ .\n\nFind three indices $ i $ , $ j $ , $ k $ such that $ 1 \\le i       \u003C j \u003C k \\le n $ and it is impossible to construct a non-degenerate triangle (a triangle with nonzero area) having sides equal to $ a_i $ , $ a_j $ and $ a_k $ (for example it is possible to construct a non-degenerate triangle with sides $ 3 $ , $ 4 $ and $ 5 $ but impossible with sides $ 3 $ , $ 4 $ and $ 7 $ ). If it is impossible to find such triple, report it.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains one integer $ n $ ( $ 3 \\le n \\le 5 \\cdot 10^4 $ ) \u2014 the length of the array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\dots , a_n $ ( $ 1 \\le a_i \\le 10^9 $ ; $ a_{i -       1} \\le a_i $ ) \u2014 the array $ a $ .\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 10^5 $ .","formatO":"For each test case print the answer to it in one line.\n\nIf there is a triple of indices $ i $ , $ j $ , $ k $ ( $ i       \u003C j \u003C k $ ) such that it is impossible to construct a non-degenerate triangle having sides equal to $ a_i $ , $ a_j $ and $ a_k $ , print that three indices in ascending order. If there are multiple answers, print any of them.\n\nOtherwise, print -1.","hint":"In the first test case it is impossible with sides $ 6 $ , $ 11 $ and $ 18 $ . Note, that this is not the only correct answer.\n\nIn the second test case you always can construct a non-degenerate triangle.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n7\n4 6 11 11 15 18 20\n4\n10 10 10 11\n3\n1 1 1000000000","2 3 6\n-1\n1 2 3"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1398A","link":"https:\/\/codeforces.com\/problemset\/problem\/1398\/A"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\u7ed9\u51fa\u4e00\u4e2a\u6570\u7ec4 $a_1, a_2, \\dots, a_n$ , \u5b83\u662f\u5355\u8c03\u4e0d\u964d\u7684 $(a_i \\leq a_{i+1})$ \u3002\n\n\u8ba9\u4f60\u627e\u51fa\u4efb\u610f $ i, j, k.(1 \\leq i \u003C j \u003C k \\leq n) $ \u6ee1\u8db3 $a_i, a_j, a_k$ \u4e0d\u80fd\u7ec4\u6210\u4e00\u4e2a\u4e09\u89d2\u5f62\uff0c \u8f93\u51fa $i, j, k$ \u3002\n\n\u5982\u679c\u4efb\u610f\u7684\u4e09\u5143\u7ec4 $ (a_i, a_j, a_k) $ \u90fd\u80fd\u7ec4\u6210\u4e00\u4e2a\u4e09\u89d2\u5f62\uff0c\u90a3\u4e48\u8bf7\u8f93\u51fa `-1` \u3002"},"translations":{"en":{"name":"Bad Triangle","background":"","description":"You are given an array $ a_1, a_2, \\dots , a_n $ , which is sorted in non-decreasing order ( $ a_i \\le a_{i + 1}) $ .\n\nFind three indices $ i $ , $ j $ , $ k $ such that $ 1 \\le i       \u003C j \u003C k \\le n $ and it is impossible to construct a non-degenerate triangle (a triangle with nonzero area) having sides equal to $ a_i $ , $ a_j $ and $ a_k $ (for example it is possible to construct a non-degenerate triangle with sides $ 3 $ , $ 4 $ and $ 5 $ but impossible with sides $ 3 $ , $ 4 $ and $ 7 $ ). If it is impossible to find such triple, report it.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains one integer $ n $ ( $ 3 \\le n \\le 5 \\cdot 10^4 $ ) \u2014 the length of the array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\dots , a_n $ ( $ 1 \\le a_i \\le 10^9 $ ; $ a_{i -       1} \\le a_i $ ) \u2014 the array $ a $ .\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 10^5 $ .","formatO":"For each test case print the answer to it in one line.\n\nIf there is a triple of indices $ i $ , $ j $ , $ k $ ( $ i       \u003C j \u003C k $ ) such that it is impossible to construct a non-degenerate triangle having sides equal to $ a_i $ , $ a_j $ and $ a_k $ , print that three indices in ascending order. If there are multiple answers, print any of them.\n\nOtherwise, print -1.","hint":"In the first test case it is impossible with sides $ 6 $ , $ 11 $ and $ 18 $ . Note, that this is not the only correct answer.\n\nIn the second test case you always can construct a non-degenerate triangle.","locale":"en"},"zh-CN":{"name":"Bad Triangle","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6309\u975e\u9012\u51cf\u987a\u5e8f\u6392\u5e8f\u7684\u6570\u7ec4 $a_1, a_2, \\dots, a_n$\uff08\u5373 $a_i \\le a_{i+1}$\uff09\u3002\n\n\u8bf7\u4f60\u627e\u5230\u4e09\u4e2a\u4e0b\u6807 $i$\u3001$j$\u3001$k$\uff0c\u6ee1\u8db3 $1 \\le i \u003C j \u003C k \\le n$\uff0c\u5e76\u4e14\u65e0\u6cd5\u7528 $a_i$\u3001$a_j$ \u548c $a_k$ \u4f5c\u4e3a\u8fb9\u957f\u6784\u6210\u4e00\u4e2a\u975e\u9000\u5316\u4e09\u89d2\u5f62\uff08\u5373\u9762\u79ef\u4e0d\u4e3a\u96f6\u7684\u4e09\u89d2\u5f62\uff09\u3002\u4f8b\u5982\uff0c\u8fb9\u957f\u4e3a $3$\u3001$4$ \u548c $5$ \u53ef\u4ee5\u6784\u6210\u975e\u9000\u5316\u4e09\u89d2\u5f62\uff0c\u4f46\u8fb9\u957f\u4e3a $3$\u3001$4$ \u548c $7$ \u5219\u4e0d\u884c\u3002\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u4e09\u5143\u7ec4\uff0c\u8bf7\u8f93\u51fa -1\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 5 \\cdot 10^4$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$1 \\le a_i \\le 10^9$\uff0c$a_{i-1} \\le a_i$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\u3002\n\n\u5982\u679c\u5b58\u5728\u4e00\u7ec4\u4e09\u5143\u7ec4\u4e0b\u6807 $i$\u3001$j$\u3001$k$\uff08$i \u003C j \u003C k$\uff09\uff0c\u4f7f\u5f97\u65e0\u6cd5\u7528 $a_i$\u3001$a_j$ \u548c $a_k$ \u6784\u6210\u975e\u9000\u5316\u4e09\u89d2\u5f62\uff0c\u8f93\u51fa\u8fd9\u4e09\u4e2a\u4e0b\u6807\uff0c\u6309\u5347\u5e8f\u6392\u5217\u3002\u5982\u679c\u6709\u591a\u7ec4\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u7ec4\u5373\u53ef\u3002\n\n\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u4e09\u5143\u7ec4\uff0c\u8f93\u51fa -1\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u8fb9\u957f\u4e3a $6$\u3001$11$ \u548c $18$ \u65f6\u65e0\u6cd5\u6784\u6210\u975e\u9000\u5316\u4e09\u89d2\u5f62\u3002\u6ce8\u610f\uff0c\u8fd9\u5e76\u4e0d\u662f\u552f\u4e00\u7684\u6b63\u786e\u7b54\u6848\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u603b\u662f\u53ef\u4ee5\u6784\u6210\u975e\u9000\u5316\u4e09\u89d2\u5f62\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1398A Bad Triangle","type":2,"slug":"CF1398A","color":"orange-3"},"discussions":[{"id":248848,"title":"\u7ffb\u8bd1","author":{"uid":307453,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/307453.png","name":"\u4e91\u6d45\u77e5\u5904","slogan":"\u55b5","badge":"\u306f\u306a\u3073","isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":10,"xcpcLevel":8,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/njlsrgt6.png"},"time":1597472446}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.347467,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1398A Bad Triangle","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6309\u975e\u9012\u51cf\u987a\u5e8f\u6392\u5e8f\u7684\u6570\u7ec4 a_1, a_2, \\dots, a_n\uff08\u5373 a_i \\le a_{i+1}\uff09\u3002\n\u8bf7\u4f60\u627e\u5230\u4e09\u4e2a\u4e0b\u6807 i\u3001j\u3001k\uff0c\u6ee1\u8db3 1 \\le i &lt; j &lt; k \\le n\uff0c\u5e76\u4e14\u65e0\u6cd5\u7528 a_i\u3001a_j \u548c a_k\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1398A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1398A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1398A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1398A Bad Triangle" />
+    <meta property="og:description" content="给定一个按非递减顺序排序的数组 a_1, a_2, \dots, a_n（即 a_i \le a_{i+1}）。
+请你找到三个下标 i、j、k，满足 1 \le i &amp;lt; j &amp;lt; k \le n，并且无法用 a_i、a_j 和 a_k…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1398A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1398A Bad Triangle</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个按非递减顺序排序的数组 $a_1, a_2, \dots, a_n$（即 $a_i \le a_{i+1}$）。
+
+请你找到三个下标 $i$、$j$、$k$，满足 $1 \le i < j < k \le n$，并且无法用 $a_i$、$a_j$ 和 $a_k$ 作为边长构成一个非退化三角形（即面积不为零的三角形）。例如，边长为 $3$、$4$ 和 $5$ 可以构成非退化三角形，但边长为 $3$、$4$ 和 $7$ 则不行。如果不存在这样的三元组，请输出 -1。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 1000$），表示测试用例的数量。
+
+每个测试用例的第一行包含一个整数 $n$（$3 \le n \le 5 \cdot 10^4$），表示数组 $a$ 的长度。
+
+每个测试用例的第二行包含 $n$ 个整数 $a_1, a_2, \dots, a_n$（$1 \le a_i \le 10^9$，$a_{i-1} \le a_i$），表示数组 $a$。
+
+保证所有测试用例中 $n$ 的总和不超过 $10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一行答案。
+
+如果存在一组三元组下标 $i$、$j$、$k$（$i < j < k$），使得无法用 $a_i$、$a_j$ 和 $a_k$ 构成非退化三角形，输出这三个下标，按升序排列。如果有多组答案，输出任意一组即可。
+
+如果不存在这样的三元组，输出 -1。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，边长为 $6$、$11$ 和 $18$ 时无法构成非退化三角形。注意，这并不是唯一的正确答案。
+
+在第二个测试用例中，总是可以构成非退化三角形。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

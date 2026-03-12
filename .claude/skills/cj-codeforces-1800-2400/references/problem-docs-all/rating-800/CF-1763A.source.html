@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1763A Absolute Maximization - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1763A","type":"CF","title":"Absolute Maximization","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":216,"totalAccepted":150,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Absolute Maximization","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\u3002\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u82e5\u5e72\u6b21\uff08\u4e5f\u53ef\u4ee5\u4e00\u6b21\u90fd\u4e0d\u8fdb\u884c\uff09\uff1a\n\n- \u9009\u62e9 $i$\u3001$j$\u3001$b$\uff1a\u4ea4\u6362 $a_i$ \u548c $a_j$ \u7684\u4e8c\u8fdb\u5236\u8868\u793a\u4e2d\u7684\u7b2c $b$ \u4f4d\u3002\n\n\u8bf7\u4f60\u6c42\u51fa $\\max(a) - \\min(a)$ \u7684\u6700\u5927\u53ef\u80fd\u503c\u3002\n\n\u5728\u4e8c\u8fdb\u5236\u8868\u793a\u4e2d\uff0c\u4f4d\u4ece\u53f3\uff08\u6700\u4f4e\u4f4d\uff09\u5230\u5de6\uff08\u6700\u9ad8\u4f4d\uff09\u7f16\u53f7\u3002\u5047\u8bbe\u4efb\u610f\u4e8c\u8fdb\u5236\u8868\u793a\u7684\u5f00\u5934\u90fd\u6709\u65e0\u9650\u591a\u4e2a\u524d\u5bfc\u96f6\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e $4=100_2$ \u548c $3=11_2$\uff0c\u4ea4\u6362\u7b2c $0$ \u4f4d\u540e\uff0c\u5f97\u5230 $101_2=5$ \u548c $10_2=2$\u3002\u4ea4\u6362\u7b2c $2$ \u4f4d\u540e\uff0c\u5f97\u5230 $000_2=0$ \u548c $111_2=7$\u3002\n\n\u8fd9\u91cc\uff0c$\\max(a)$ \u8868\u793a\u6570\u7ec4 $a$ \u7684\u6700\u5927\u5143\u7d20\uff0c$\\min(a)$ \u8868\u793a\u6570\u7ec4 $a$ \u7684\u6700\u5c0f\u5143\u7d20\u3002\n\n$x$ \u7684\u4e8c\u8fdb\u5236\u8868\u793a\u662f $x$ \u7528 $2$ \u8fdb\u5236\u8868\u793a\u7684\u7ed3\u679c\u3002\u4f8b\u5982\uff0c$9$ \u548c $6$ \u7684\u4e8c\u8fdb\u5236\u5206\u522b\u4e3a $1001$ \u548c $110$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 128$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 512$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\le a_i \u003C 1024$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $512$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a $\\max(a) - \\min(a)$ \u7684\u6700\u5927\u53ef\u80fd\u503c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8bc1\u660e\u4e0d\u9700\u8981\u8fdb\u884c\u4efb\u4f55\u64cd\u4f5c\uff0c$\\max(a) - \\min(a)$ \u7684\u6700\u5927\u503c\u4e3a $1 - 0 = 1$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u65e0\u6cd5\u901a\u8fc7\u64cd\u4f5c\u6539\u53d8\u6570\u7ec4\uff0c$\\max(a) - \\min(a)$ \u7684\u6700\u5927\u503c\u4e3a $5 - 5 = 0$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u521d\u59cb $a = [1, 2, 3, 4, 5]$\uff0c\u53ef\u4ee5\u8fdb\u884c\u4e00\u6b21\u64cd\u4f5c\uff0c\u9009\u62e9 $i = 2$\uff0c$j = 5$\uff0c$b = 1$\u3002\u6b64\u65f6\u6570\u7ec4\u53d8\u4e3a $a = [1, 0, 3, 4, 7]$\u3002\u53ef\u4ee5\u8bc1\u660e\uff0c\u4efb\u4f55\u8fdb\u4e00\u6b65\u7684\u64cd\u4f5c\u90fd\u65e0\u6cd5\u5f97\u5230\u66f4\u4f18\u7684\u7b54\u6848\uff0c\u56e0\u6b64\u7b54\u6848\u4e3a $\\max(a) - \\min(a) = 7 - 0 = 7$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Absolute Maximization","background":"","description":"You are given an array $ a $ of length $ n $ . You can perform the following operation several (possibly, zero) times:\n\n- Choose $ i $ , $ j $ , $ b $ : Swap the $ b $ -th digit in the binary representation of $ a_i $ and $ a_j $ .\n\nFind the maximum possible value of $ \\max(a) - \\min(a) $ .\n\nIn a binary representation, bits are numbered from right (least significant) to left (most significant). Consider that there are an infinite number of leading zero bits at the beginning of any binary representation.\n\nFor example, swap the $ 0 $ -th bit for $ 4=100_2 $ and $ 3=11_2 $ will result $ 101_2=5 $ and $ 10_2=2 $ . Swap the $ 2 $ -nd bit for $ 4=100_2 $ and $ 3=11_2 $ will result $ 000_2=0_2=0 $ and $ 111_2=7 $ .\n\nHere, $ \\max(a) $ denotes the maximum element of array $ a $ and $ \\min(a) $ denotes the minimum element of array $ a $ .\n\nThe binary representation of $ x $ is $ x $ written in base $ 2 $ . For example, $ 9 $ and $ 6 $ written in base $ 2 $ are $ 1001 $ and $ 110 $ , respectively.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 128 $ ) \u2014 the number of testcases.\n\nThe first line of each test case contains a single integer $ n $ ( $ 3 \\le n \\le 512 $ ) \u2014 the length of array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\le a_i \u003C 1024 $ ) \u2014 the elements of array $ a $ .\n\nIt\u0027s guaranteed that the sum of $ n $ over all testcases does not exceed $ 512 $ .","formatO":"For each testcase, print one integer \u2014 the maximum possible value of $ \\max(a) - \\min(a) $ .","hint":"In the first example, it can be shown that we do not need to perform any operations \u2014 the maximum value of $ \\max(a) - \\min(a) $ is $ 1 - 0 = 1 $ .\n\nIn the second example, no operation can change the array \u2014 the maximum value of $ \\max(a) - \\min(a) $ is $ 5 - 5 = 0 $ .\n\nIn the third example, initially $ a = [1, 2, 3, 4, 5] $ , we can perform one operation taking $ i = 2 $ , $ j = 5 $ , $ b = 1 $ . The array now becomes $ a = [1, 0, 3, 4, 7] $ . It can be shown that any further operations do not lead to a better answer \u2014 therefore the answer is $ \\max(a) - \\min(a) = 7 - 0 = 7 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n3\n1 0 1\n4\n5 5 5 5\n5\n1 2 3 4 5\n7\n20 85 100 41 76 49 36","1\n0\n7\n125"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1763A","link":"https:\/\/codeforces.com\/problemset\/problem\/1763\/A"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4f60\u53ef\u4ee5\u6267\u884c\u4e00\u79cd\u64cd\u4f5c\uff1a\n\n\u9009\u62e9 $i, j, b$\uff0c\u4ea4\u6362 $a_i$ \u548c $a_j$ \u4e8c\u8fdb\u5236\u8868\u793a\u4e0a\u7684\u7b2c $k$ \u4f4d\u3002\n\n\u8981\u6c42\u7ecf\u8fc7\u82e5\u5e72\u6b21\u64cd\u4f5c\u540e\uff0c\u6700\u5927\u5316 $a$ \u6570\u7ec4\u4e2d\u6700\u5927\u503c\u51cf\u53bb\u6700\u5c0f\u503c\u7684\u503c\uff0c\u8bf7\u8f93\u51fa\u8fd9\u4e2a\u503c\u3002\n\nBy @hswfwkj"},"translations":{"en":{"name":"Absolute Maximization","background":"","description":"You are given an array $ a $ of length $ n $ . You can perform the following operation several (possibly, zero) times:\n\n- Choose $ i $ , $ j $ , $ b $ : Swap the $ b $ -th digit in the binary representation of $ a_i $ and $ a_j $ .\n\nFind the maximum possible value of $ \\max(a) - \\min(a) $ .\n\nIn a binary representation, bits are numbered from right (least significant) to left (most significant). Consider that there are an infinite number of leading zero bits at the beginning of any binary representation.\n\nFor example, swap the $ 0 $ -th bit for $ 4=100_2 $ and $ 3=11_2 $ will result $ 101_2=5 $ and $ 10_2=2 $ . Swap the $ 2 $ -nd bit for $ 4=100_2 $ and $ 3=11_2 $ will result $ 000_2=0_2=0 $ and $ 111_2=7 $ .\n\nHere, $ \\max(a) $ denotes the maximum element of array $ a $ and $ \\min(a) $ denotes the minimum element of array $ a $ .\n\nThe binary representation of $ x $ is $ x $ written in base $ 2 $ . For example, $ 9 $ and $ 6 $ written in base $ 2 $ are $ 1001 $ and $ 110 $ , respectively.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 128 $ ) \u2014 the number of testcases.\n\nThe first line of each test case contains a single integer $ n $ ( $ 3 \\le n \\le 512 $ ) \u2014 the length of array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\le a_i \u003C 1024 $ ) \u2014 the elements of array $ a $ .\n\nIt\u0027s guaranteed that the sum of $ n $ over all testcases does not exceed $ 512 $ .","formatO":"For each testcase, print one integer \u2014 the maximum possible value of $ \\max(a) - \\min(a) $ .","hint":"In the first example, it can be shown that we do not need to perform any operations \u2014 the maximum value of $ \\max(a) - \\min(a) $ is $ 1 - 0 = 1 $ .\n\nIn the second example, no operation can change the array \u2014 the maximum value of $ \\max(a) - \\min(a) $ is $ 5 - 5 = 0 $ .\n\nIn the third example, initially $ a = [1, 2, 3, 4, 5] $ , we can perform one operation taking $ i = 2 $ , $ j = 5 $ , $ b = 1 $ . The array now becomes $ a = [1, 0, 3, 4, 7] $ . It can be shown that any further operations do not lead to a better answer \u2014 therefore the answer is $ \\max(a) - \\min(a) = 7 - 0 = 7 $ .","locale":"en"},"zh-CN":{"name":"Absolute Maximization","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\u3002\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u82e5\u5e72\u6b21\uff08\u4e5f\u53ef\u4ee5\u4e00\u6b21\u90fd\u4e0d\u8fdb\u884c\uff09\uff1a\n\n- \u9009\u62e9 $i$\u3001$j$\u3001$b$\uff1a\u4ea4\u6362 $a_i$ \u548c $a_j$ \u7684\u4e8c\u8fdb\u5236\u8868\u793a\u4e2d\u7684\u7b2c $b$ \u4f4d\u3002\n\n\u8bf7\u4f60\u6c42\u51fa $\\max(a) - \\min(a)$ \u7684\u6700\u5927\u53ef\u80fd\u503c\u3002\n\n\u5728\u4e8c\u8fdb\u5236\u8868\u793a\u4e2d\uff0c\u4f4d\u4ece\u53f3\uff08\u6700\u4f4e\u4f4d\uff09\u5230\u5de6\uff08\u6700\u9ad8\u4f4d\uff09\u7f16\u53f7\u3002\u5047\u8bbe\u4efb\u610f\u4e8c\u8fdb\u5236\u8868\u793a\u7684\u5f00\u5934\u90fd\u6709\u65e0\u9650\u591a\u4e2a\u524d\u5bfc\u96f6\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e $4=100_2$ \u548c $3=11_2$\uff0c\u4ea4\u6362\u7b2c $0$ \u4f4d\u540e\uff0c\u5f97\u5230 $101_2=5$ \u548c $10_2=2$\u3002\u4ea4\u6362\u7b2c $2$ \u4f4d\u540e\uff0c\u5f97\u5230 $000_2=0$ \u548c $111_2=7$\u3002\n\n\u8fd9\u91cc\uff0c$\\max(a)$ \u8868\u793a\u6570\u7ec4 $a$ \u7684\u6700\u5927\u5143\u7d20\uff0c$\\min(a)$ \u8868\u793a\u6570\u7ec4 $a$ \u7684\u6700\u5c0f\u5143\u7d20\u3002\n\n$x$ \u7684\u4e8c\u8fdb\u5236\u8868\u793a\u662f $x$ \u7528 $2$ \u8fdb\u5236\u8868\u793a\u7684\u7ed3\u679c\u3002\u4f8b\u5982\uff0c$9$ \u548c $6$ \u7684\u4e8c\u8fdb\u5236\u5206\u522b\u4e3a $1001$ \u548c $110$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 128$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 512$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\le a_i \u003C 1024$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $512$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a $\\max(a) - \\min(a)$ \u7684\u6700\u5927\u53ef\u80fd\u503c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8bc1\u660e\u4e0d\u9700\u8981\u8fdb\u884c\u4efb\u4f55\u64cd\u4f5c\uff0c$\\max(a) - \\min(a)$ \u7684\u6700\u5927\u503c\u4e3a $1 - 0 = 1$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u65e0\u6cd5\u901a\u8fc7\u64cd\u4f5c\u6539\u53d8\u6570\u7ec4\uff0c$\\max(a) - \\min(a)$ \u7684\u6700\u5927\u503c\u4e3a $5 - 5 = 0$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u521d\u59cb $a = [1, 2, 3, 4, 5]$\uff0c\u53ef\u4ee5\u8fdb\u884c\u4e00\u6b21\u64cd\u4f5c\uff0c\u9009\u62e9 $i = 2$\uff0c$j = 5$\uff0c$b = 1$\u3002\u6b64\u65f6\u6570\u7ec4\u53d8\u4e3a $a = [1, 0, 3, 4, 7]$\u3002\u53ef\u4ee5\u8bc1\u660e\uff0c\u4efb\u4f55\u8fdb\u4e00\u6b65\u7684\u64cd\u4f5c\u90fd\u65e0\u6cd5\u5f97\u5230\u66f4\u4f18\u7684\u7b54\u6848\uff0c\u56e0\u6b64\u7b54\u6848\u4e3a $\\max(a) - \\min(a) = 7 - 0 = 7$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1763A Absolute Maximization","type":2,"slug":"CF1763A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.685727,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1763A Absolute Maximization","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a\u3002\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u82e5\u5e72\u6b21\uff08\u4e5f\u53ef\u4ee5\u4e00\u6b21\u90fd\u4e0d\u8fdb\u884c\uff09\uff1a\n\n\u9009\u62e9 i\u3001j\u3001b\uff1a\u4ea4\u6362 a_i \u548c a_j \u7684\u4e8c\u8fdb\u5236\u8868\u793a\u4e2d\u7684\u7b2c b \u4f4d\u3002\n\n\u8bf7\u4f60\u6c42\u51fa \\max(a) - \\min(a) \u7684\u6700\u5927\u53ef\u80fd\u503c\u3002\n\u5728\u4e8c\u8fdb\u5236\u8868\u793a\u4e2d\uff0c\u4f4d\u4ece\u53f3\uff08\u6700\u4f4e\u4f4d\uff09\u5230\u5de6\uff08\u6700\u9ad8\u4f4d\uff09\u7f16\u53f7\u3002\u5047\u8bbe\u4efb\u610f\u4e8c\u8fdb\u5236\u8868\u793a\u7684\u5f00\u5934\u90fd\u6709\u65e0\u9650\u591a\u4e2a\u524d\u5bfc\u96f6\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1763A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1763A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1763A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1763A Absolute Maximization" />
+    <meta property="og:description" content="给定一个长度为 n 的数组 a。你可以进行如下操作若干次（也可以一次都不进行）：
+
+选择 i、j、b：交换 a_i 和 a_j 的二进制表示中的第 b 位。
+
+请你求出 \max(a) - \min(a) 的最大可能值。
+在二进制表示中，位从右（最低位）到左（最高位）编号。假设任意二进制表示的开头都有无限多个前导零。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1763A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1763A Absolute Maximization</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个长度为 $n$ 的数组 $a$。你可以进行如下操作若干次（也可以一次都不进行）：
+
+- 选择 $i$、$j$、$b$：交换 $a_i$ 和 $a_j$ 的二进制表示中的第 $b$ 位。
+
+请你求出 $\max(a) - \min(a)$ 的最大可能值。
+
+在二进制表示中，位从右（最低位）到左（最高位）编号。假设任意二进制表示的开头都有无限多个前导零。
+
+例如，对于 $4=100_2$ 和 $3=11_2$，交换第 $0$ 位后，得到 $101_2=5$ 和 $10_2=2$。交换第 $2$ 位后，得到 $000_2=0$ 和 $111_2=7$。
+
+这里，$\max(a)$ 表示数组 $a$ 的最大元素，$\min(a)$ 表示数组 $a$ 的最小元素。
+
+$x$ 的二进制表示是 $x$ 用 $2$ 进制表示的结果。例如，$9$ 和 $6$ 的二进制分别为 $1001$ 和 $110$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 128$），表示测试用例的数量。
+
+每个测试用例的第一行包含一个整数 $n$（$3 \le n \le 512$），表示数组 $a$ 的长度。
+
+每个测试用例的第二行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$0 \le a_i < 1024$），表示数组 $a$ 的元素。
+
+保证所有测试用例中 $n$ 的总和不超过 $512$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示 $\max(a) - \min(a)$ 的最大可能值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，可以证明不需要进行任何操作，$\max(a) - \min(a)$ 的最大值为 $1 - 0 = 1$。
+
+在第二个样例中，无法通过操作改变数组，$\max(a) - \min(a)$ 的最大值为 $5 - 5 = 0$。
+
+在第三个样例中，初始 $a = [1, 2, 3, 4, 5]$，可以进行一次操作，选择 $i = 2$，$j = 5$，$b = 1$。此时数组变为 $a = [1, 0, 3, 4, 7]$。可以证明，任何进一步的操作都无法得到更优的答案，因此答案为 $\max(a) - \min(a) = 7 - 0 = 7$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

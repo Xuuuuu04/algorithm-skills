@@ -1,0 +1,38 @@
+{
+  "id": "CF-327E",
+  "contest_id": 327,
+  "index": "E",
+  "name": "Axis Walking",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "constructive algorithms",
+    "dp",
+    "meet-in-the-middle"
+  ],
+  "solved_count": 1565,
+  "problem_url": "https://codeforces.com/problemset/problem/327/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/327/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/327/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=327E%20Axis%20Walking%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P327E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Axis Walking - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "combinatorics",
+      "constructive algorithms",
+      "dp",
+      "meet-in-the-middle",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

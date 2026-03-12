@@ -1,0 +1,33 @@
+{
+  "id": "CF-1718A1",
+  "contest_id": 1718,
+  "index": "A1",
+  "name": "Burenka and Traditions (easy version)",
+  "rating": 1800,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1718/A1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1718/problem/A1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1718/problem/A1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1718A1%20Burenka and Traditions (easy version)%20tutorial",
+  "solved_count": 6362,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1718A1",
+  "hydro_meta": {
+    "page_title": "Burenka and Traditions (easy version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

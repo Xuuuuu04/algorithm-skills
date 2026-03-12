@@ -1,0 +1,34 @@
+{
+  "id": "CF-925B",
+  "contest_id": 925,
+  "index": "B",
+  "name": "Resource Distribution",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 2326,
+  "problem_url": "https://codeforces.com/problemset/problem/925/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/925/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/925/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=925B%20Resource%20Distribution%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P925B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Resource Distribution - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "implementation",
+      "sortings",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

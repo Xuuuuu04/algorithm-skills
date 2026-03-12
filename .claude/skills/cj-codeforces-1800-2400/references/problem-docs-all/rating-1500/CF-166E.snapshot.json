@@ -1,0 +1,29 @@
+{
+  "id": "CF-166E",
+  "contest_id": 166,
+  "index": "E",
+  "name": "Tetrahedron",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "math",
+    "matrices"
+  ],
+  "solved_count": 25032,
+  "problem_url": "https://codeforces.com/problemset/problem/166/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/166/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/166/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=166E%20Tetrahedron%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/166/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 166E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

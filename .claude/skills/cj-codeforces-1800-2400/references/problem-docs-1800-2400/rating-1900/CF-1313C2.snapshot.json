@@ -1,0 +1,37 @@
+{
+  "id": "CF-1313C2",
+  "contest_id": 1313,
+  "index": "C2",
+  "name": "Skyscrapers (hard version)",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1313/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1313/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1313/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1313C2%20Skyscrapers (hard version)%20tutorial",
+  "solved_count": 7129,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1313C2",
+  "hydro_meta": {
+    "page_title": "Skyscrapers (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

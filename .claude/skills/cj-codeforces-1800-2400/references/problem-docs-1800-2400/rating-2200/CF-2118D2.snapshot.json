@@ -1,0 +1,49 @@
+{
+  "id": "CF-2118D2",
+  "contest_id": 2118,
+  "index": "D2",
+  "name": "Red Light, Green Light (Hard version)",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2118/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2118/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2118/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2118D2%20Red Light, Green Light (Hard version)%20tutorial",
+  "solved_count": 2421,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2118D2",
+  "hydro_meta": {
+    "page_title": "Red Light, Green Light (Hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "graphs",
+      "implementation",
+      "number theory"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

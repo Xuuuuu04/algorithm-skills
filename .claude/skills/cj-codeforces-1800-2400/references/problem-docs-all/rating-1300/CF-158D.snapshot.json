@@ -1,0 +1,34 @@
+{
+  "id": "CF-158D",
+  "contest_id": 158,
+  "index": "D",
+  "name": "Ice Sculptures",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "*special",
+    "brute force",
+    "number theory"
+  ],
+  "solved_count": 6469,
+  "problem_url": "https://codeforces.com/problemset/problem/158/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/158/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/158/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=158D%20Ice%20Sculptures%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P158D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ice Sculptures - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "brute force",
+      "number theory",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

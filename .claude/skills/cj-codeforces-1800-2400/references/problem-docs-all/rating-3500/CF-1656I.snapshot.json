@@ -1,0 +1,28 @@
+{
+  "id": "CF-1656I",
+  "contest_id": 1656,
+  "index": "I",
+  "name": "Neighbour Ordering",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4500.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs"
+  ],
+  "solved_count": 154,
+  "problem_url": "https://codeforces.com/problemset/problem/1656/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1656/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1656/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1656I%20Neighbour%20Ordering%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1656/I",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1656I - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

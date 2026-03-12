@@ -1,0 +1,38 @@
+{
+  "id": "CF-840A",
+  "contest_id": 840,
+  "index": "A",
+  "name": "Leha and Function",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "combinatorics",
+    "greedy",
+    "math",
+    "number theory",
+    "sortings"
+  ],
+  "solved_count": 7393,
+  "problem_url": "https://codeforces.com/problemset/problem/840/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/840/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/840/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=840A%20Leha%20and%20Function%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P840A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Leha and Function - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "greedy",
+      "math",
+      "number theory",
+      "sortings",
+      "*1300"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

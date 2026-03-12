@@ -1,0 +1,34 @@
+{
+  "id": "CF-679C",
+  "contest_id": 679,
+  "index": "C",
+  "name": "Bear and Square Grid",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "implementation"
+  ],
+  "solved_count": 1252,
+  "problem_url": "https://codeforces.com/problemset/problem/679/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/679/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/679/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=679C%20Bear%20and%20Square%20Grid%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P679C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bear and Square Grid - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dsu",
+      "implementation",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

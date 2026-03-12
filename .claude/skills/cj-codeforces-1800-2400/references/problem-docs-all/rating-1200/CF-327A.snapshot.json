@@ -1,0 +1,29 @@
+{
+  "id": "CF-327A",
+  "contest_id": 327,
+  "index": "A",
+  "name": "Flipping Game",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 49052,
+  "problem_url": "https://codeforces.com/problemset/problem/327/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/327/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/327/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=327A%20Flipping%20Game%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/327/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 327A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

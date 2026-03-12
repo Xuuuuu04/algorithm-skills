@@ -1,0 +1,37 @@
+{
+  "id": "CF-1891D",
+  "contest_id": 1891,
+  "index": "D",
+  "name": "Suspicious logarithms",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "brute force",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1891/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1891/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1891/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1891D%20Suspicious logarithms%20tutorial",
+  "solved_count": 4513,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1891D",
+  "hydro_meta": {
+    "page_title": "Suspicious logarithms - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "math",
+      "number theory"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

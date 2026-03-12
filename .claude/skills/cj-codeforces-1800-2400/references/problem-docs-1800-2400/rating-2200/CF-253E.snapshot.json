@@ -1,0 +1,38 @@
+{
+  "id": "CF-253E",
+  "contest_id": 253,
+  "index": "E",
+  "name": "Printer",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "data structures",
+    "implementation",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/253/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/253/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/253/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=253E%20Printer%20tutorial",
+  "solved_count": 580,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P253E",
+  "hydro_meta": {
+    "page_title": "Printer - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "sortings",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

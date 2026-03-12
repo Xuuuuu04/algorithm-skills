@@ -1,0 +1,38 @@
+{
+  "id": "CF-1320A",
+  "contest_id": 1320,
+  "index": "A",
+  "name": "Journey Planning",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 21068,
+  "problem_url": "https://codeforces.com/problemset/problem/1320/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1320/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1320/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1320A%20Journey%20Planning%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1320A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Journey Planning - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "math",
+      "sortings",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

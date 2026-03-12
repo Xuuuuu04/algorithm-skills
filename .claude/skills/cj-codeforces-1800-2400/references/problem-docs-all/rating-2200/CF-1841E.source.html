@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415130:lsoZs5YGB8q2T7h2YXC9tR/8+uOl1JXLph0Z5+9C9fg=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1841E Fill the Matrix - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1841E","type":"CF","title":"Fill the Matrix","difficulty":5,"tags":[],"wantsTranslation":false,"totalSubmit":362,"totalAccepted":174,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Fill the Matrix","background":null,"description":"\u6709\u4e00\u4e2a\u65b9\u9635\uff0c\u7531 $n$ \u884c $n$ \u5217\u7684\u683c\u5b50\u7ec4\u6210\uff0c\u884c\u548c\u5217\u90fd\u4ece $1$ \u5230 $n$ \u7f16\u53f7\u3002\u6bcf\u4e2a\u683c\u5b50\u88ab\u6d82\u6210\u9ed1\u8272\u6216\u767d\u8272\u3002\u5728\u7b2c $i$ \u5217\u4e2d\uff0c\u4ece\u7b2c $1$ \u884c\u5230\u7b2c $a_i$ \u884c\u7684\u683c\u5b50\u662f\u9ed1\u8272\u7684\uff0c\u4ece\u7b2c $a_i+1$ \u884c\u5230\u7b2c $n$ \u884c\u7684\u683c\u5b50\u662f\u767d\u8272\u7684\u3002\n\n\u4f60\u9700\u8981\u5728\u77e9\u9635\u4e2d\u653e\u5165 $m$ \u4e2a\u6574\u6570\uff0c\u5206\u522b\u4e3a $1$ \u5230 $m$\u3002\u6709\u4ee5\u4e0b\u4e24\u4e2a\u89c4\u5219\uff1a\n\n- \u6bcf\u4e2a\u683c\u5b50\u6700\u591a\u53ea\u80fd\u653e\u4e00\u4e2a\u6574\u6570\uff1b\n- \u9ed1\u8272\u683c\u5b50\u4e0d\u80fd\u653e\u6574\u6570\u3002\n\n\u77e9\u9635\u7684\u7f8e\u4e3d\u503c\u5b9a\u4e49\u4e3a\uff1a\u6709\u591a\u5c11\u4e2a $j$ \u6ee1\u8db3 $j+1$ \u88ab\u653e\u5728\u4e0e $j$ \u540c\u4e00\u884c\u3001\u76f8\u90bb\u7684\u53f3\u4fa7\u5217\uff08\u5373\u53f3\u8fb9\u76f8\u90bb\u7684\u683c\u5b50\uff09\u3002\n\n\u8bf7\u95ee\uff0c\u77e9\u9635\u7684\u6700\u5927\u7f8e\u4e3d\u503c\u662f\u591a\u5c11\uff1f","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u77e9\u9635\u7684\u5927\u5c0f\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$0 \\le a_i \\le n$\uff09\uff0c\u8868\u793a\u6bcf\u4e00\u5217\u4e2d\u9ed1\u8272\u683c\u5b50\u7684\u6570\u91cf\u3002\n\n\u7b2c\u4e09\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $m$\uff08$0 \\le m \\le \\sum\\limits_{i=1}^n n - a_i$\uff09\uff0c\u8868\u793a\u4f60\u9700\u8981\u5728\u77e9\u9635\u4e2d\u653e\u5165\u7684\u6574\u6570\u6570\u91cf\u3002\u6ce8\u610f\uff0c\u8fd9\u4e2a\u6570\u53ef\u80fd\u65e0\u6cd5\u7528 32 \u4f4d\u6574\u6570\u7c7b\u578b\u5b58\u50a8\u3002\n\n\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5728\u653e\u5165\u6240\u6709 $m$ \u4e2a\u6574\u6570\u540e\uff0c\u77e9\u9635\u7684\u6700\u5927\u7f8e\u4e3d\u503c\u3002\u4fdd\u8bc1\u767d\u8272\u683c\u5b50\u7684\u6570\u91cf\u4e0d\u5c11\u4e8e $m$\uff0c\u5373\u4e00\u5b9a\u6709\u89e3\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Fill the Matrix","background":"","description":"There is a square matrix, consisting of $ n $ rows and $ n $ columns of cells, both numbered from $ 1 $ to $ n $ . The cells are colored white or black. Cells from $ 1 $ to $ a_i $ are black, and cells from $ a_i+1 $ to $ n $ are white, in the $ i $ -th column.\n\nYou want to place $ m $ integers in the matrix, from $ 1 $ to $ m $ . There are two rules:\n\n- each cell should contain at most one integer;\n- black cells should not contain integers.\n\nThe beauty of the matrix is the number of such $ j $ that $ j+1 $ is written in the same row, in the next column as $ j $ (in the neighbouring cell to the right).\n\nWhat\u0027s the maximum possible beauty of the matrix?","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of testcases.\n\nThe first line of each testcase contains a single integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the size of the matrix.\n\nThe second line contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ 0 \\le a_i \\le n $ ) \u2014 the number of black cells in each column.\n\nThe third line contains a single integer $ m $ ( $ 0 \\le m \\le \\sum \\limits_{i=1}^n n - a_i $ ) \u2014 the number of integers you have to write in the matrix. Note that this number might not fit into a 32-bit integer data type.\n\nThe sum of $ n $ over all testcases doesn\u0027t exceed $ 2 \\cdot 10^5 $ .","formatO":"For each testcase, print a single integer \u2014 the maximum beauty of the matrix after you write all $ m $ integers in it. Note that there are no more integers than the white cells, so the answer always exists.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n3\n0 0 0\n9\n4\n2 0 3 1\n5\n4\n2 0 3 1\n6\n4\n2 0 3 1\n10\n10\n0 2 2 1 5 10 3 4 1 1\n20\n1\n1\n0","6\n3\n4\n4\n16\n0"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1841E","link":"https:\/\/codeforces.com\/problemset\/problem\/1841\/E"},"translation":"\u6709\u4e00\u4e2a $n$ \u884c $n$ \u5217\u7684\u77e9\u9635\uff0c\u884c\u548c\u5217\u90fd\u4ece $1$ \u5230 $n$ \u7f16\u53f7\u3002\u5bf9\u4e8e\u7b2c $i$ **\u5217**\uff0c\u7b2c $1 \\sim a_i$ \u4e2a\u683c\u5b50\u662f\u9ed1\u8272\u7684\uff0c\u5176\u4f59\u683c\u5b50\u662f\u767d\u8272\u7684\u3002\n\n\u4f60\u53ef\u4ee5\u628a $1 \\sim m$ \u5171 $m$ \u4e2a\u6574\u6570\u653e\u5230\u77e9\u9635\u91cc\uff0c\u6ee1\u8db3\u4e24\u6761\u89c4\u5219\uff1a\n\n1. \u6bcf\u4e2a\u683c\u5b50\u5305\u542b\u81f3\u591a\u4e00\u4e2a\u6574\u6570\u3002\n2. \u9ed1\u8272\u683c\u5b50\u4e0d\u80fd\u5305\u542b\u6574\u6570\u3002\n\n\u4e00\u4e2a\u77e9\u9635\u7684\u7f8e\u4e3d\u7a0b\u5ea6\u662f\u6ee1\u8db3\u8fd9\u6837\u7684\u683c\u5b50\u4e2a\u6570\uff1a\u8be5\u683c\u5b50\u81ea\u8eab\u5305\u542b\u4e00\u4e2a\u6570 $j$\uff0c\u4e14\u5b83\u53f3\u8fb9\u4e0e\u5b83\u76f8\u90bb\u7684\u683c\u5b50\u5305\u542b\u7684\u6570\u4e3a $j + 1$\u3002\n\n\u8bf7\u6c42\u51fa\u77e9\u9635\u7684\u6700\u5927\u7f8e\u4e3d\u503c\u3002\n\n\u591a\u7ec4\u6570\u636e\uff0c$n$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $2 \\times 10^5$\uff0c\u8bf7\u6ce8\u610f $m$ \u7684\u5927\u5c0f\u53ef\u80fd\u8d85\u8fc7 32 \u4f4d\u6574\u6570\u6240\u5b58\u50a8\u7684\u8303\u56f4\u3002\n\nTranslated by \u4e00\u6276\u82cf\u4e00"},"translations":{"en":{"name":"Fill the Matrix","background":"","description":"There is a square matrix, consisting of $ n $ rows and $ n $ columns of cells, both numbered from $ 1 $ to $ n $ . The cells are colored white or black. Cells from $ 1 $ to $ a_i $ are black, and cells from $ a_i+1 $ to $ n $ are white, in the $ i $ -th column.\n\nYou want to place $ m $ integers in the matrix, from $ 1 $ to $ m $ . There are two rules:\n\n- each cell should contain at most one integer;\n- black cells should not contain integers.\n\nThe beauty of the matrix is the number of such $ j $ that $ j+1 $ is written in the same row, in the next column as $ j $ (in the neighbouring cell to the right).\n\nWhat\u0027s the maximum possible beauty of the matrix?","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of testcases.\n\nThe first line of each testcase contains a single integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the size of the matrix.\n\nThe second line contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ 0 \\le a_i \\le n $ ) \u2014 the number of black cells in each column.\n\nThe third line contains a single integer $ m $ ( $ 0 \\le m \\le \\sum \\limits_{i=1}^n n - a_i $ ) \u2014 the number of integers you have to write in the matrix. Note that this number might not fit into a 32-bit integer data type.\n\nThe sum of $ n $ over all testcases doesn\u0027t exceed $ 2 \\cdot 10^5 $ .","formatO":"For each testcase, print a single integer \u2014 the maximum beauty of the matrix after you write all $ m $ integers in it. Note that there are no more integers than the white cells, so the answer always exists.","hint":"","locale":"en"},"zh-CN":{"name":"Fill the Matrix","background":null,"description":"\u6709\u4e00\u4e2a\u65b9\u9635\uff0c\u7531 $n$ \u884c $n$ \u5217\u7684\u683c\u5b50\u7ec4\u6210\uff0c\u884c\u548c\u5217\u90fd\u4ece $1$ \u5230 $n$ \u7f16\u53f7\u3002\u6bcf\u4e2a\u683c\u5b50\u88ab\u6d82\u6210\u9ed1\u8272\u6216\u767d\u8272\u3002\u5728\u7b2c $i$ \u5217\u4e2d\uff0c\u4ece\u7b2c $1$ \u884c\u5230\u7b2c $a_i$ \u884c\u7684\u683c\u5b50\u662f\u9ed1\u8272\u7684\uff0c\u4ece\u7b2c $a_i+1$ \u884c\u5230\u7b2c $n$ \u884c\u7684\u683c\u5b50\u662f\u767d\u8272\u7684\u3002\n\n\u4f60\u9700\u8981\u5728\u77e9\u9635\u4e2d\u653e\u5165 $m$ \u4e2a\u6574\u6570\uff0c\u5206\u522b\u4e3a $1$ \u5230 $m$\u3002\u6709\u4ee5\u4e0b\u4e24\u4e2a\u89c4\u5219\uff1a\n\n- \u6bcf\u4e2a\u683c\u5b50\u6700\u591a\u53ea\u80fd\u653e\u4e00\u4e2a\u6574\u6570\uff1b\n- \u9ed1\u8272\u683c\u5b50\u4e0d\u80fd\u653e\u6574\u6570\u3002\n\n\u77e9\u9635\u7684\u7f8e\u4e3d\u503c\u5b9a\u4e49\u4e3a\uff1a\u6709\u591a\u5c11\u4e2a $j$ \u6ee1\u8db3 $j+1$ \u88ab\u653e\u5728\u4e0e $j$ \u540c\u4e00\u884c\u3001\u76f8\u90bb\u7684\u53f3\u4fa7\u5217\uff08\u5373\u53f3\u8fb9\u76f8\u90bb\u7684\u683c\u5b50\uff09\u3002\n\n\u8bf7\u95ee\uff0c\u77e9\u9635\u7684\u6700\u5927\u7f8e\u4e3d\u503c\u662f\u591a\u5c11\uff1f","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u77e9\u9635\u7684\u5927\u5c0f\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$0 \\le a_i \\le n$\uff09\uff0c\u8868\u793a\u6bcf\u4e00\u5217\u4e2d\u9ed1\u8272\u683c\u5b50\u7684\u6570\u91cf\u3002\n\n\u7b2c\u4e09\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $m$\uff08$0 \\le m \\le \\sum\\limits_{i=1}^n n - a_i$\uff09\uff0c\u8868\u793a\u4f60\u9700\u8981\u5728\u77e9\u9635\u4e2d\u653e\u5165\u7684\u6574\u6570\u6570\u91cf\u3002\u6ce8\u610f\uff0c\u8fd9\u4e2a\u6570\u53ef\u80fd\u65e0\u6cd5\u7528 32 \u4f4d\u6574\u6570\u7c7b\u578b\u5b58\u50a8\u3002\n\n\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5728\u653e\u5165\u6240\u6709 $m$ \u4e2a\u6574\u6570\u540e\uff0c\u77e9\u9635\u7684\u6700\u5927\u7f8e\u4e3d\u503c\u3002\u4fdd\u8bc1\u767d\u8272\u683c\u5b50\u7684\u6570\u91cf\u4e0d\u5c11\u4e8e $m$\uff0c\u5373\u4e00\u5b9a\u6709\u89e3\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1841E Fill the Matrix","type":2,"slug":"CF1841E","color":"orange-3"},"discussions":[{"id":822638,"title":"\u7533\u8bf7\u64a4\u4e0b\u9898\u89e3","author":{"uid":1039406,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1039406.png","name":"mayike","slogan":"\u52aa\u529b+\u79ef\u5fb7\uff0c\u65e9\u7761","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/icq04q59.png"},"time":1715958184},{"id":619819,"title":"\u6c42\u52a9\u5355\u8c03\u6808","author":{"uid":406941,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/406941.png","name":"Register_int","slogan":"(2020.10.14,2026.3.8)\u2286OI","badge":"-std=c++14","isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":8,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/43c674bx.png"},"time":1686989468}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328730.826906,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1841E Fill the Matrix","description":"\u6709\u4e00\u4e2a\u65b9\u9635\uff0c\u7531 n \u884c n \u5217\u7684\u683c\u5b50\u7ec4\u6210\uff0c\u884c\u548c\u5217\u90fd\u4ece 1 \u5230 n \u7f16\u53f7\u3002\u6bcf\u4e2a\u683c\u5b50\u88ab\u6d82\u6210\u9ed1\u8272\u6216\u767d\u8272\u3002\u5728\u7b2c i \u5217\u4e2d\uff0c\u4ece\u7b2c 1 \u884c\u5230\u7b2c a_i \u884c\u7684\u683c\u5b50\u662f\u9ed1\u8272\u7684\uff0c\u4ece\u7b2c a_i+1 \u884c\u5230\u7b2c n \u884c\u7684\u683c\u5b50\u662f\u767d\u8272\u7684\u3002\n\u4f60\u9700\u8981\u5728\u77e9\u9635\u4e2d\u653e\u5165 m \u4e2a\u6574\u6570\uff0c\u5206\u522b\u4e3a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1841E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1841E?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1841E?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1841E Fill the Matrix" />
+    <meta property="og:description" content="有一个方阵，由 n 行 n 列的格子组成，行和列都从 1 到 n 编号。每个格子被涂成黑色或白色。在第 i 列中，从第 1 行到第 a_i 行的格子是黑色的，从第 a_i+1 行到第 n 行的格子是白色的。
+你需要在矩阵中放入 m 个整数，分别为…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1841E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1841E Fill the Matrix</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有一个方阵，由 $n$ 行 $n$ 列的格子组成，行和列都从 $1$ 到 $n$ 编号。每个格子被涂成黑色或白色。在第 $i$ 列中，从第 $1$ 行到第 $a_i$ 行的格子是黑色的，从第 $a_i+1$ 行到第 $n$ 行的格子是白色的。
+
+你需要在矩阵中放入 $m$ 个整数，分别为 $1$ 到 $m$。有以下两个规则：
+
+- 每个格子最多只能放一个整数；
+- 黑色格子不能放整数。
+
+矩阵的美丽值定义为：有多少个 $j$ 满足 $j+1$ 被放在与 $j$ 同一行、相邻的右侧列（即右边相邻的格子）。
+
+请问，矩阵的最大美丽值是多少？
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 10^4$），表示测试用例的数量。
+
+每个测试用例的第一行包含一个整数 $n$（$1 \le n \le 2 \cdot 10^5$），表示矩阵的大小。
+
+第二行包含 $n$ 个整数 $a_1, a_2, \dots, a_n$（$0 \le a_i \le n$），表示每一列中黑色格子的数量。
+
+第三行包含一个整数 $m$（$0 \le m \le \sum\limits_{i=1}^n n - a_i$），表示你需要在矩阵中放入的整数数量。注意，这个数可能无法用 32 位整数类型存储。
+
+所有测试用例中 $n$ 的总和不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示在放入所有 $m$ 个整数后，矩阵的最大美丽值。保证白色格子的数量不少于 $m$，即一定有解。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1431J",
+  "contest_id": 1431,
+  "index": "J",
+  "name": "Zero-XOR Array",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "dp"
+  ],
+  "solved_count": 51,
+  "problem_url": "https://codeforces.com/problemset/problem/1431/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/1431/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1431/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1431J%20Zero-XOR%20Array%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1431/J",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1431J - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "6 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

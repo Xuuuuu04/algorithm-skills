@@ -1,0 +1,32 @@
+{
+  "id": "CF-297B",
+  "contest_id": 297,
+  "index": "B",
+  "name": "Fish Weight",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 3741,
+  "problem_url": "https://codeforces.com/problemset/problem/297/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/297/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/297/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=297B%20Fish%20Weight%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P297B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Fish Weight - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

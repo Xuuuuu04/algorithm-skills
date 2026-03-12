@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1132F Clear the String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1132F","type":"CF","title":"Clear the String","difficulty":5,"tags":[3,144],"wantsTranslation":false,"totalSubmit":3086,"totalAccepted":1427,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Clear the String","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u8be5\u5b57\u7b26\u4e32\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u3002\u4f60\u53ef\u4ee5\u5bf9\u8be5\u5b57\u7b26\u4e32\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u6bcf\u6b21\u64cd\u4f5c\u53ef\u4ee5\u5220\u9664\u4e00\u4e2a\u8fde\u7eed\u7684\u5b50\u4e32\uff0c\u524d\u63d0\u662f\u8be5\u5b50\u4e32\u4e2d\u7684\u6240\u6709\u5b57\u6bcd\u90fd\u76f8\u540c\u3002\u4f8b\u5982\uff0c\u4ece\u5b57\u7b26\u4e32 abbbbaccdd \u5220\u9664\u5b50\u4e32 bbbb \u540e\uff0c\u5f97\u5230\u5b57\u7b26\u4e32 aaccdd\u3002\n\n\u8bf7\u8ba1\u7b97\u5220\u9664\u6574\u4e2a\u5b57\u7b26\u4e32 $s$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 500$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32 $s$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u5b57\u7b26\u4e32 $s$\uff08$|s| = n$\uff09\uff0c\u8be5\u5b57\u7b26\u4e32\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5220\u9664\u5b57\u7b26\u4e32 $s$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Clear the String","background":"","description":"You are given a string $ s $ of length $ n $ consisting of lowercase Latin letters. You may apply some operations to this string: in one operation you can delete some contiguous substring of this string, if all letters in the substring you delete are equal. For example, after deleting substring bbbb from string abbbbaccdd we get the string aaccdd.\n\nCalculate the minimum number of operations to delete the whole string $ s $ .","formatI":"The first line contains one integer $ n $ ( $ 1 \\le n \\le 500 $ ) \u2014 the length of string $ s $ .\n\nThe second line contains the string $ s $ ( $ |s| = n $ ) consisting of lowercase Latin letters.","formatO":"Output a single integer \u2014 the minimal number of operation to delete string $ s $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\nabaca\n","3\n"],["8\nabcddcba\n","4\n"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"1132F","link":"https:\/\/codeforces.com\/problemset\/problem\/1132\/F"},"translation":"\n\n\u7ed9\u4f60\u4e00\u4e2a\u4e32$s$\uff0c\u6bcf\u6b21\u53ef\u4ee5\u82b1\u8d39 $1$ \u7684\u4ee3\u4ef7\u5220\u53bb\u4e00\u4e2a\u5b50\u4e32\uff0c\u8981\u6c42\u5b50\u4e32\u7684\u6bcf\u4e00\u4f4d\u4e3a\u540c\u4e00\u4e2a\u5b57\u7b26\u3002\n\n\u6c42\u5220\u53bb\u6574\u4e2a\u4e32\u7684\u6700\u5c0f\u4ee3\u4ef7\u3002\n\n$1\\le |s|\\le 500$\n\n"},"translations":{"en":{"name":"Clear the String","background":"","description":"You are given a string $ s $ of length $ n $ consisting of lowercase Latin letters. You may apply some operations to this string: in one operation you can delete some contiguous substring of this string, if all letters in the substring you delete are equal. For example, after deleting substring bbbb from string abbbbaccdd we get the string aaccdd.\n\nCalculate the minimum number of operations to delete the whole string $ s $ .","formatI":"The first line contains one integer $ n $ ( $ 1 \\le n \\le 500 $ ) \u2014 the length of string $ s $ .\n\nThe second line contains the string $ s $ ( $ |s| = n $ ) consisting of lowercase Latin letters.","formatO":"Output a single integer \u2014 the minimal number of operation to delete string $ s $ .","hint":"","locale":"en"},"zh-CN":{"name":"Clear the String","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u8be5\u5b57\u7b26\u4e32\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u3002\u4f60\u53ef\u4ee5\u5bf9\u8be5\u5b57\u7b26\u4e32\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u6bcf\u6b21\u64cd\u4f5c\u53ef\u4ee5\u5220\u9664\u4e00\u4e2a\u8fde\u7eed\u7684\u5b50\u4e32\uff0c\u524d\u63d0\u662f\u8be5\u5b50\u4e32\u4e2d\u7684\u6240\u6709\u5b57\u6bcd\u90fd\u76f8\u540c\u3002\u4f8b\u5982\uff0c\u4ece\u5b57\u7b26\u4e32 abbbbaccdd \u5220\u9664\u5b50\u4e32 bbbb \u540e\uff0c\u5f97\u5230\u5b57\u7b26\u4e32 aaccdd\u3002\n\n\u8bf7\u8ba1\u7b97\u5220\u9664\u6574\u4e2a\u5b57\u7b26\u4e32 $s$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 500$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32 $s$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u5b57\u7b26\u4e32 $s$\uff08$|s| = n$\uff09\uff0c\u8be5\u5b57\u7b26\u4e32\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5220\u9664\u5b57\u7b26\u4e32 $s$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1132F Clear the String","type":2,"slug":"CF1132F","color":"orange-3"},"discussions":[{"id":897867,"title":"\u8bf7\u6c42\u5347\u84dd","author":{"uid":716006,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/716006.png","name":"Yamchip","slogan":":D","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/jzyrt4np.png"},"time":1723903134},{"id":874827,"title":"\u8bf7\u6c42\u5347\u7d2b","author":{"uid":1025891,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1025891.png","name":"XiaoYiii","slogan":"\u8fd9\u4e2a\u4eba\u4ee5\u4e3a\u81ea\u5df1\u4e0d\u61d2\uff0c\u6240\u4ee5\u4ec0\u4e48\u90fd\u6ca1\u6709\u7559\u4e0b","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/p7etwoym.png"},"time":1722431283},{"id":859008,"title":"\u849f\u84bb\u6c42\u52a9","author":{"uid":749219,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/749219.png","name":"Eva_twowo2","slogan":"\u6de1\u6de1\u7684\u5c31\u4f1a\u987a\u987a\u7684\uff61\u25d5\u1d17\u25d5\uff61||\u8d44\u74f7\u4e92\u5173||(2026)CSP\u0026NOIP\uff08NGOI\uff09rp++\uff01||\u5e0c\u671b\u4e0d\u8981\u9876\u7740\u7eff\u221a\u9000\u5f79\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":5,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/hb9gc1n2.png"},"time":1721302115},{"id":732938,"title":"\u53cc\u500d\u7ecf\u9a8c","author":{"uid":536534,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/536534.png","name":"another_world","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/3r5ummzs.png"},"time":1700183445},{"id":649921,"title":"\u9ebb\u70e6\u5927\u4f6c\u770b\u4e0b\u8fd9\u9898\u610f\u7ffb\u8bd1\u662f\u4e0d\u662f\u6709\u9505","author":{"uid":717063,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/717063.png","name":"qiliu","slogan":"\u6211\u6240\u656c\u4ef0\u7684\uff0c\u6c42\u800c\u4e0d\u5f97\u7684\uff0c\u60f3\u5fc5\u4e5f\u662f\u4ed6\u4eba\u65e9\u5df2\u89c1\u60ef\u7684\u5427\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":5,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/z2covzm0.png"},"time":1691045191},{"id":641293,"title":"CF\u8bc4\u6d4b\u673a\u51fa\u95ee\u9898\u4e86\uff1f","author":{"uid":794579,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/794579.png","name":"Clay_L","slogan":"\u6211\u662f endswitch \u7238","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":5,"xcpcLevel":0,"background":""},"time":1690095997}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.283552,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1132F Clear the String","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u5b57\u7b26\u4e32 s\uff0c\u8be5\u5b57\u7b26\u4e32\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u3002\u4f60\u53ef\u4ee5\u5bf9\u8be5\u5b57\u7b26\u4e32\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u6bcf\u6b21\u64cd\u4f5c\u53ef\u4ee5\u5220\u9664\u4e00\u4e2a\u8fde\u7eed\u7684\u5b50\u4e32\uff0c\u524d\u63d0\u662f\u8be5\u5b50\u4e32\u4e2d\u7684\u6240\u6709\u5b57\u6bcd\u90fd\u76f8\u540c\u3002\u4f8b\u5982\uff0c\u4ece\u5b57\u7b26\u4e32 abbbbaccdd \u5220\u9664\u5b50\u4e32 bbbb \u540e\uff0c\u5f97\u5230\u5b57\u7b26\u4e32 aaccdd\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1132F" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1132F?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1132F?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1132F Clear the String" />
+    <meta property="og:description" content="给定一个长度为 n 的字符串 s，该字符串仅由小写拉丁字母组成。你可以对该字符串进行如下操作：每次操作可以删除一个连续的子串，前提是该子串中的所有字母都相同。例如，从字符串 abbbbaccdd 删除子串 bbbb 后，得到字符串 aaccdd。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1132F" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1132F Clear the String</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个长度为 $n$ 的字符串 $s$，该字符串仅由小写拉丁字母组成。你可以对该字符串进行如下操作：每次操作可以删除一个连续的子串，前提是该子串中的所有字母都相同。例如，从字符串 abbbbaccdd 删除子串 bbbb 后，得到字符串 aaccdd。
+
+请计算删除整个字符串 $s$ 所需的最少操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $n$（$1 \le n \le 500$），表示字符串 $s$ 的长度。
+
+第二行包含字符串 $s$（$|s| = n$），该字符串仅由小写拉丁字母组成。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示删除字符串 $s$ 所需的最少操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

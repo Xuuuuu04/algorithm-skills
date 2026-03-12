@@ -1,0 +1,28 @@
+{
+  "id": "CF-1475A",
+  "contest_id": 1475,
+  "index": "A",
+  "name": "Odd Divisor",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 84280,
+  "problem_url": "https://codeforces.com/problemset/problem/1475/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1475/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1475/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1475A%20Odd%20Divisor%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1475A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1475A Odd Divisor - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 546,
+    "mirror_attempt": 1326,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

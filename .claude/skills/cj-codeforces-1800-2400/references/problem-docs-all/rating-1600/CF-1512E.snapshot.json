@@ -1,0 +1,29 @@
+{
+  "id": "CF-1512E",
+  "contest_id": 1512,
+  "index": "E",
+  "name": "Permutation by Sum",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 11305,
+  "problem_url": "https://codeforces.com/problemset/problem/1512/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1512/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1512/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1512E%20Permutation%20by%20Sum%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1512/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1512E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

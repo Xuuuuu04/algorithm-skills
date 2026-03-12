@@ -1,0 +1,36 @@
+{
+  "id": "CF-1562D2",
+  "contest_id": 1562,
+  "index": "D2",
+  "name": "Two Hundred Twenty One (hard version)",
+  "rating": 2200,
+  "tags": [
+    "data structures",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1562/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1562/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1562/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1562D2%20Two Hundred Twenty One (hard version)%20tutorial",
+  "solved_count": 2231,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1562D2",
+  "hydro_meta": {
+    "page_title": "Two Hundred Twenty One (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

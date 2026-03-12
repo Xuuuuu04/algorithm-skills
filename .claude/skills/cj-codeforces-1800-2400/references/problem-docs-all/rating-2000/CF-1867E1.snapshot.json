@@ -1,0 +1,29 @@
+{
+  "id": "CF-1867E1",
+  "contest_id": 1867,
+  "index": "E1",
+  "name": "Salyg1n and Array (simple version)",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "interactive",
+    "math"
+  ],
+  "solved_count": 4290,
+  "problem_url": "https://codeforces.com/problemset/problem/1867/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1867/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1867/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1867E1%20Salyg1n%20and%20Array%20%28simple%20version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1867/E1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1867E1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

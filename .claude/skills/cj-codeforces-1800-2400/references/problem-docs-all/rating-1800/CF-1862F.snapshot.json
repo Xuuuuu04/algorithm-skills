@@ -1,0 +1,35 @@
+{
+  "id": "CF-1862F",
+  "contest_id": 1862,
+  "index": "F",
+  "name": "Magic Will Save the World",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "brute force",
+    "dp"
+  ],
+  "solved_count": 7448,
+  "problem_url": "https://codeforces.com/problemset/problem/1862/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1862/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1862/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1862F%20Magic%20Will%20Save%20the%20World%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1862F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Magic Will Save the World - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "dp"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF348C Subset Sums - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF348C","type":"CF","title":"Subset Sums","difficulty":6,"tags":[],"wantsTranslation":false,"totalSubmit":860,"totalAccepted":256,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Subset Sums","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a $n$ \u4e2a\u6570\u7684\u5e8f\u5217 $a$ \u4e0e $m$ \u4e2a\u4e0b\u6807\u96c6\u5408\uff0c\u8bb0\u4e3a $S_{k}=\\{S_{k,i}\\}$\u3002\n\n\u73b0\u6709\u4e24\u79cd\u64cd\u4f5c\uff1a\n1. `? k`\uff1a\u6c42\u96c6\u5408 $S_k$ \u4e2d\u6240\u6709\u4e0b\u6807\u5bf9\u5e94\u7684\u5e8f\u5217\u5143\u7d20\u7684\u548c\u3002\n2. `+ k w`\uff1a\u4ee4\u96c6\u5408 $S_k$ \u4e2d\u6240\u6709\u4e0b\u6807\u5bf9\u5e94\u7684\u5e8f\u5217\u5143\u7d20\u52a0\u4e0a $w$\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u64cd\u4f5c 1\uff0c\u8f93\u51fa\u7ed3\u679c\u3002","formatI":"\u7b2c\u4e00\u884c\u4e09\u4e2a\u6574\u6570 $n$\uff0c$m$ \u548c $q$\u3002\n\n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570 $a_1,a_2,\\dots,a_n$ \u8868\u793a\u6570\u7ec4 $a$\u3002\n\n\u63a5\u4e0b\u6765 $m$ \u884c\uff0c\u6bcf\u884c\u63cf\u8ff0\u4e86\u4e00\u4e2a\u96c6\u5408\u3002\u7b2c $k$ \u884c\u9996\u5148\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $x$ \u8868\u793a $S_k$ \u7684\u5927\u5c0f\uff0c\u63a5\u4e0b\u6765 $x$ \u4e2a\u6570\u8868\u793a $S_k$ \u4e2d\u7684\u5143\u7d20\u3002\n\n\u63a5\u4e0b\u6765 $q$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u64cd\u4f5c\uff0c\u5f62\u5982 `? k` \u6216 `+ k w`\uff0c\u542b\u4e49\u89c1\u9898\u9762\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u64cd\u4f5c 1\uff0c\u8f93\u51fa\u7ed3\u679c\u3002\n\n\u6ce8\u610f\uff1a\u56e0\u4e3a\u8bc4\u6d4b\u673a\u7684\u5e73\u53f0\u539f\u56e0\uff0c\u8bf7\u4f7f\u7528 `cin`\uff0c`cout` \u6216 `%I64d` \u8f93\u5165\u8f93\u51fa 64 \u4f4d\u6574\u6570\u3002","hint":"\u5bf9\u4e8e\u6240\u6709\u6570\u636e\uff0c$1\\le n,m,q\\le 10^5,\\sum|S_k|\\le 10^5,|a_i|\\le 10^8$\uff0c\u5bf9\u4e8e\u6240\u6709\u64cd\u4f5c\uff0c\u4fdd\u8bc1 $1\\le k\\le m,|x|\\le 10^8$\u3002","locale":"zh-CN"},"content":{"name":"Subset Sums","background":"","description":"You are given an array $ a_{1},a_{2},...,a_{n} $ and $ m $ sets $ S_{1},S_{2},...,S_{m} $ of indices of elements of this array. Let\u0027s denote $ S_{k}={S_{k,i}}\u00a0(1\u003C=i\u003C=|S_{k}|) $ . In other words, $ S_{k,i} $ is some element from set $ S_{k} $ .\n\nIn this problem you have to answer $ q $ queries of the two types:\n\n1. Find the sum of elements with indices from set $ S_{k} $ : ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF348C\/b362cd2153c6c0b48250fc2b666a4c233257f4d7.png). The query format is \u0022? k\u0022.\n2. Add number $ x $ to all elements at indices from set $ S_{k} $ : $ a_{Sk,i} $ is replaced by $ a_{Sk,i}+x $ for all $ i $ $ (1\u003C=i\u003C=|S_{k}|) $ . The query format is \u0022+ k x\u0022.\n\nAfter each first type query print the required sum.","formatI":"The first line contains integers $ n,m,q $ $ (1\u003C=n,m,q\u003C=10^{5}) $ . The second line contains $ n $ integers $ a_{1},a_{2},...,a_{n} $ $ (|a_{i}|\u003C=10^{8}) $ \u2014 elements of array $ a $ .\n\nEach of the following $ m $ lines describes one set of indices. The $ k $ -th line first contains a positive integer, representing the number of elements in set ( $ |S_{k}| $ ), then follow $ |S_{k}| $ distinct integers $ S_{k,1},S_{k,2},...,S_{k,|Sk}| $ $ (1\u003C=S_{k,i}\u003C=n) $ \u2014 elements of set $ S_{k} $ .\n\nThe next $ q $ lines contain queries. Each query looks like either \u0022? k\u0022 or \u0022+ k x\u0022 and sits on a single line. For all queries the following limits are held: $ 1\u003C=k\u003C=m $ , $ |x|\u003C=10^{8} $ . The queries are given in order they need to be answered.\n\nIt is guaranteed that the sum of sizes of all sets $ S_{k} $ doesn\u0027t exceed $ 10^{5} $ .","formatO":"After each first type query print the required sum on a single line.\n\nPlease, do not write the %lld specifier to read or write 64-bit integers in \u0421++. It is preferred to use the cin, cout streams or the %I64d specifier.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5 3 5\n5 -5 5 1 -4\n2 1 2\n4 2 1 4 5\n2 2 5\n? 2\n+ 3 4\n? 1\n+ 2 1\n? 2\n","-3\n4\n9\n"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"348C","link":"https:\/\/codeforces.com\/problemset\/problem\/348\/C"},"translation":"\u7ed9\u5b9a\u4e00\u4e2an\u4e2a\u6570\u7684\u5e8f\u5217a\uff0cm\u4e2a\u4e0b\u6807\u96c6\u5408\uff0c\u8bb0\n$S_{k}=\\{S_{k,i}\\}$\u3002\n\u4e24\u79cd\u64cd\u4f5c\uff1a\n\n$1. $? k \u6c42\u96c6\u5408k\u7684\u548c\uff0c\u5373\n\u6c42\u96c6\u5408k \u6240\u6709\u5143\u7d20\u505a\u539f\u6570\u7ec4\u4e0b\u6807\u7684\u548c\n\n$2.$ + k w \u7ed9\u96c6\u5408k\u7684\u6240\u6709\u4e0b\u6807\u4ee3\u8868\u7684\u6570\u52a0w\u3002\n\n## \u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n### \u8f93\u5165\u683c\u5f0f\n\n\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u62ec\u4e09\u4e2a\u6574\u6570  $n$ ,  $m$  \u548c  $q$   $( 1\u003C=n, m, q\u003C=10^5 )$ \u3002\u7b2c\u4e8c\u884c\u5305\u62ecn\u4e2a\u6574\u6570  $ a_1, a_2, ..., a_n $ \uff0c \u8868\u793a\u6570\u7ec4  $a$  \u3002\n\n\u63a5\u4e0b\u6765\u7684  $m$  \u884c\uff0c\u6bcf\u884c\u63cf\u8ff0\u4e86\u4e00\u4e2a\u96c6\u5408\u3002\u7b2c  $k$  \u884c\u9996\u5148\u5305\u62ec\u4e00\u4e2a\u6b63\u6574\u6570  $x$  \uff0c\u8868\u793a\u96c6\u5408  $S_k$  \u7684\u5927\u5c0f\u3002\u63a5\u4e0b\u6765\u662f  $x$  \u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u96c6\u5408  $S_k$  \u7684\u5143\u7d20\u6240\u5904\u7684\u4e0b\u6807\u3002\n\n\u63a5\u4e0b\u6765\u7684  $q$  \u884c\u662f\u5c06\u8981\u8fdb\u884c\u7684\u64cd\u4f5c\u3002\u6bcf\u79cd\u64cd\u4f5c\u5360\u4e00\u884c\u3002\u7b2c\u4e00\u79cd\u64cd\u4f5c\u5f62\u5982 `? k` \uff0c\u8868\u793a\u8be2\u95ee\u96c6\u5408  $S_k$  \u4e2d\u6240\u6709\u5143\u7d20\u7684\u548c\u3002\u7b2c\u4e8c\u79cd\u64cd\u4f5c\u5f62\u5982 `+ k x`\uff0c \u8868\u793a\u5c06\u96c6\u5408 $S_k$ \u4e2d**\u6240\u6709\u4e0b\u6807\u4ee3\u8868\u7684\u6570**\u52a0\u4e0a $x$\u3002\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u90fd\u6709  $( 1\u003C=k\u003C=m, |x|\u003C=10^8 )$ \u3002\n\n\u4fdd\u8bc1\u6240\u6709\u96c6\u5408\u7684\u5143\u7d20\u6570\u91cf\u548c\u4e0d\u8d85\u8fc7  $10^5$  \u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u4e2a `? k` \u64cd\u4f5c\uff0c\u8bf7\u8f93\u51fa\u96c6\u5408  $S_k$  \u7684\u5143\u7d20\u4e4b\u548c\u3002\n\n\u6ce8\u610f\uff1a\u56e0\u4e3a\u8bc4\u6d4b\u673a\u7684\u5e73\u53f0\u539f\u56e0\uff0c\u8bf7\u4f7f\u7528 `cin` `cout` \u6216 `%I64d` \u8f93\u5165\u8f93\u51fa64\u4f4d\u6574\u6570\u3002 \n\n\u611f\u8c22@elijahqi  @\u661f\u70c1\u6676\u71a0\u8f89  \u63d0\u4f9b\u7684\u7ffb\u8bd1"},"translations":{"en":{"name":"Subset Sums","background":"","description":"You are given an array $ a_{1},a_{2},...,a_{n} $ and $ m $ sets $ S_{1},S_{2},...,S_{m} $ of indices of elements of this array. Let\u0027s denote $ S_{k}={S_{k,i}}\u00a0(1\u003C=i\u003C=|S_{k}|) $ . In other words, $ S_{k,i} $ is some element from set $ S_{k} $ .\n\nIn this problem you have to answer $ q $ queries of the two types:\n\n1. Find the sum of elements with indices from set $ S_{k} $ : ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF348C\/b362cd2153c6c0b48250fc2b666a4c233257f4d7.png). The query format is \u0022? k\u0022.\n2. Add number $ x $ to all elements at indices from set $ S_{k} $ : $ a_{Sk,i} $ is replaced by $ a_{Sk,i}+x $ for all $ i $ $ (1\u003C=i\u003C=|S_{k}|) $ . The query format is \u0022+ k x\u0022.\n\nAfter each first type query print the required sum.","formatI":"The first line contains integers $ n,m,q $ $ (1\u003C=n,m,q\u003C=10^{5}) $ . The second line contains $ n $ integers $ a_{1},a_{2},...,a_{n} $ $ (|a_{i}|\u003C=10^{8}) $ \u2014 elements of array $ a $ .\n\nEach of the following $ m $ lines describes one set of indices. The $ k $ -th line first contains a positive integer, representing the number of elements in set ( $ |S_{k}| $ ), then follow $ |S_{k}| $ distinct integers $ S_{k,1},S_{k,2},...,S_{k,|Sk}| $ $ (1\u003C=S_{k,i}\u003C=n) $ \u2014 elements of set $ S_{k} $ .\n\nThe next $ q $ lines contain queries. Each query looks like either \u0022? k\u0022 or \u0022+ k x\u0022 and sits on a single line. For all queries the following limits are held: $ 1\u003C=k\u003C=m $ , $ |x|\u003C=10^{8} $ . The queries are given in order they need to be answered.\n\nIt is guaranteed that the sum of sizes of all sets $ S_{k} $ doesn\u0027t exceed $ 10^{5} $ .","formatO":"After each first type query print the required sum on a single line.\n\nPlease, do not write the %lld specifier to read or write 64-bit integers in \u0421++. It is preferred to use the cin, cout streams or the %I64d specifier.","hint":"","locale":"en"},"zh-CN":{"name":"Subset Sums","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a $n$ \u4e2a\u6570\u7684\u5e8f\u5217 $a$ \u4e0e $m$ \u4e2a\u4e0b\u6807\u96c6\u5408\uff0c\u8bb0\u4e3a $S_{k}=\\{S_{k,i}\\}$\u3002\n\n\u73b0\u6709\u4e24\u79cd\u64cd\u4f5c\uff1a\n1. `? k`\uff1a\u6c42\u96c6\u5408 $S_k$ \u4e2d\u6240\u6709\u4e0b\u6807\u5bf9\u5e94\u7684\u5e8f\u5217\u5143\u7d20\u7684\u548c\u3002\n2. `+ k w`\uff1a\u4ee4\u96c6\u5408 $S_k$ \u4e2d\u6240\u6709\u4e0b\u6807\u5bf9\u5e94\u7684\u5e8f\u5217\u5143\u7d20\u52a0\u4e0a $w$\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u64cd\u4f5c 1\uff0c\u8f93\u51fa\u7ed3\u679c\u3002","formatI":"\u7b2c\u4e00\u884c\u4e09\u4e2a\u6574\u6570 $n$\uff0c$m$ \u548c $q$\u3002\n\n\u7b2c\u4e8c\u884c $n$ \u4e2a\u6574\u6570 $a_1,a_2,\\dots,a_n$ \u8868\u793a\u6570\u7ec4 $a$\u3002\n\n\u63a5\u4e0b\u6765 $m$ \u884c\uff0c\u6bcf\u884c\u63cf\u8ff0\u4e86\u4e00\u4e2a\u96c6\u5408\u3002\u7b2c $k$ \u884c\u9996\u5148\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $x$ \u8868\u793a $S_k$ \u7684\u5927\u5c0f\uff0c\u63a5\u4e0b\u6765 $x$ \u4e2a\u6570\u8868\u793a $S_k$ \u4e2d\u7684\u5143\u7d20\u3002\n\n\u63a5\u4e0b\u6765 $q$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u64cd\u4f5c\uff0c\u5f62\u5982 `? k` \u6216 `+ k w`\uff0c\u542b\u4e49\u89c1\u9898\u9762\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u64cd\u4f5c 1\uff0c\u8f93\u51fa\u7ed3\u679c\u3002\n\n\u6ce8\u610f\uff1a\u56e0\u4e3a\u8bc4\u6d4b\u673a\u7684\u5e73\u53f0\u539f\u56e0\uff0c\u8bf7\u4f7f\u7528 `cin`\uff0c`cout` \u6216 `%I64d` \u8f93\u5165\u8f93\u51fa 64 \u4f4d\u6574\u6570\u3002","hint":"\u5bf9\u4e8e\u6240\u6709\u6570\u636e\uff0c$1\\le n,m,q\\le 10^5,\\sum|S_k|\\le 10^5,|a_i|\\le 10^8$\uff0c\u5bf9\u4e8e\u6240\u6709\u64cd\u4f5c\uff0c\u4fdd\u8bc1 $1\\le k\\le m,|x|\\le 10^8$\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF348C Subset Sums","type":2,"slug":"CF348C","color":"orange-3"},"discussions":[{"id":924469,"title":"\u7ffb\u8bd1\u6709\u6bd2","author":{"uid":613794,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/613794.png","name":"jianhe","slogan":"AFOed on 2026\/3\/8.","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/m3ol8q4g.png"},"time":1726187631},{"id":48358,"title":"\u8f93\u5165\u8f93\u51fa\u683c\u5f0f","author":{"uid":54160,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/54160.png","name":"Prurite","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":0,"background":""},"time":1531273829},{"id":35595,"title":"\u9898\u610f\u7b80\u8ff0","author":{"uid":5037,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/5037.png","name":"elijahqi","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":8,"xcpcLevel":0,"background":""},"time":1519960067}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.25134,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF348C Subset Sums","description":"\u7ed9\u5b9a\u4e00\u4e2a n \u4e2a\u6570\u7684\u5e8f\u5217 a \u4e0e m \u4e2a\u4e0b\u6807\u96c6\u5408\uff0c\u8bb0\u4e3a S_{k}=\\{S_{k,i}\\}\u3002\n\u73b0\u6709\u4e24\u79cd\u64cd\u4f5c\uff1a\n\n? k\uff1a\u6c42\u96c6\u5408 S_k \u4e2d\u6240\u6709\u4e0b\u6807\u5bf9\u5e94\u7684\u5e8f\u5217\u5143\u7d20\u7684\u548c\u3002\n+ k w\uff1a\u4ee4\u96c6\u5408 S_k \u4e2d\u6240\u6709\u4e0b\u6807\u5bf9\u5e94\u7684\u5e8f\u5217\u5143\u7d20\u52a0\u4e0a w\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u64cd\u4f5c\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF348C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF348C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF348C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF348C Subset Sums" />
+    <meta property="og:description" content="给定一个 n 个数的序列 a 与 m 个下标集合，记为 S_{k}=\{S_{k,i}\}。
+现有两种操作：
+
+? k：求集合 S_k 中所有下标对应的序列元素的和。
++ k w：令集合 S_k 中所有下标对应的序列元素加上 w。
+
+对于每个操作…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF348C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF348C Subset Sums</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个 $n$ 个数的序列 $a$ 与 $m$ 个下标集合，记为 $S_{k}=\{S_{k,i}\}$。
+
+现有两种操作：
+1. `? k`：求集合 $S_k$ 中所有下标对应的序列元素的和。
+2. `+ k w`：令集合 $S_k$ 中所有下标对应的序列元素加上 $w$。
+
+对于每个操作 1，输出结果。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行三个整数 $n$，$m$ 和 $q$。
+
+第二行 $n$ 个整数 $a_1,a_2,\dots,a_n$ 表示数组 $a$。
+
+接下来 $m$ 行，每行描述了一个集合。第 $k$ 行首先包含一个正整数 $x$ 表示 $S_k$ 的大小，接下来 $x$ 个数表示 $S_k$ 中的元素。
+
+接下来 $q$ 行，每行一个操作，形如 `? k` 或 `+ k w`，含义见题面。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个操作 1，输出结果。
+
+注意：因为评测机的平台原因，请使用 `cin`，`cout` 或 `%I64d` 输入输出 64 位整数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于所有数据，$1\le n,m,q\le 10^5,\sum|S_k|\le 10^5,|a_i|\le 10^8$，对于所有操作，保证 $1\le k\le m,|x|\le 10^8$。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

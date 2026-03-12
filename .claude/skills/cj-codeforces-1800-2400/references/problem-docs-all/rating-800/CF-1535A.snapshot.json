@@ -1,0 +1,28 @@
+{
+  "id": "CF-1535A",
+  "contest_id": 1535,
+  "index": "A",
+  "name": "Fair Playoff",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 56550,
+  "problem_url": "https://codeforces.com/problemset/problem/1535/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1535/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1535/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1535A%20Fair%20Playoff%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1535A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1535A Fair Playoff - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 362,
+    "mirror_attempt": 572,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CF-2154D",
+  "contest_id": 2154,
+  "index": "D",
+  "name": "Catshock",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "trees",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2154/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2154/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2154/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2154D%20Catshock%20tutorial",
+  "solved_count": 4591,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2154D",
+  "hydro_meta": {
+    "page_title": "Catshock - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "two pointers",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

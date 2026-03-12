@@ -1,0 +1,34 @@
+{
+  "id": "CF-1548D1",
+  "contest_id": 1548,
+  "index": "D1",
+  "name": "Gregor and the Odd Cows (Easy)",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "bitmasks",
+    "geometry",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 1605,
+  "problem_url": "https://codeforces.com/problemset/problem/1548/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1548/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1548/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1548D1%20Gregor%20and%20the%20Odd%20Cows%20%28Easy%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1548D1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Gregor and the Odd Cows (Easy) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "6000ms",
+    "memory_limit": "256MiB"
+  }
+}

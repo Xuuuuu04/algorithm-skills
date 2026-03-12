@@ -1,0 +1,34 @@
+{
+  "id": "CF-1267L",
+  "contest_id": 1267,
+  "index": "L",
+  "name": "Lexicography",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1267/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1267/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1267/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1267L%20Lexicography%20tutorial",
+  "solved_count": 3340,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1267L",
+  "hydro_meta": {
+    "page_title": "Lexicography - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "strings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

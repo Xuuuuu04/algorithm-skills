@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1375E Inversion SwapSort - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1375E","type":"CF","title":"Inversion SwapSort","difficulty":5,"tags":[7,113,318],"wantsTranslation":false,"totalSubmit":1363,"totalAccepted":659,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Inversion SwapSort","background":null,"description":"Madeline \u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6574\u6570\u6570\u7ec4 $a$\u3002\u5982\u679c\u4e00\u5bf9\u6574\u6570 $(u, v)$ \u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff0c\u5219\u79f0\u5176\u5728 $a$ \u4e2d\u5f62\u6210\u4e00\u4e2a\u9006\u5e8f\u5bf9\uff1a\n\n- $1 \\le u \u003C v \\le n$\u3002\n- $a_u \u003E a_v$\u3002\n\nMadeline \u6700\u8fd1\u53d1\u73b0\u4e86\u4e00\u5f20\u795e\u5947\u7684\u7eb8\uff0c\u53ef\u4ee5\u8ba9\u5979\u5199\u4e0b\u4e24\u4e2a\u4e0b\u6807 $u$ \u548c $v$\uff0c\u5e76\u4ea4\u6362 $a_u$ \u548c $a_v$ \u7684\u503c\u3002\u611f\u5230\u65e0\u804a\u7684\u5979\u51b3\u5b9a\u5199\u4e0b\u4e00\u4e2a\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\u7684\u4e0b\u6807\u5bf9\u5217\u8868 $(u_i, v_i)$\uff1a\n\n- \u5217\u8868\u4e2d\u7684\u6240\u6709\u5bf9\u90fd\u662f\u4e0d\u540c\u7684\uff0c\u5e76\u4e14\u5728 $a$ \u4e2d\u5f62\u6210\u9006\u5e8f\u5bf9\u3002\n- $a$ \u4e2d\u6240\u6709\u5f62\u6210\u9006\u5e8f\u5bf9\u7684\u4e0b\u6807\u5bf9\u90fd\u5728\u5217\u8868\u4e2d\u3002\n- \u4ece\u7ed9\u5b9a\u6570\u7ec4\u51fa\u53d1\uff0c\u4f9d\u6b21\u6309\u5217\u8868\u987a\u5e8f\u4ea4\u6362 $u_1$ \u548c $v_1$ \u5904\u7684\u503c\uff0c\u518d\u4ea4\u6362 $u_2$ \u548c $v_2$ \u5904\u7684\u503c\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff0c\u6700\u7ec8\u6570\u7ec4 $a$ \u4f1a\u53d8\u4e3a\u975e\u9012\u51cf\u6709\u5e8f\u3002\n\n\u8bf7\u6784\u9020\u8fd9\u6837\u4e00\u4e2a\u5217\u8868\uff0c\u6216\u8005\u5224\u65ad\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u5217\u8868\u3002\u5982\u679c\u6709\u591a\u79cd\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 1000$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u957f\u5ea6\u3002\n\n\u4e0b\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\le a_i \\le 10^9$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002","formatO":"\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u5217\u8868\uff0c\u8f93\u51fa $-1$\u3002\u5426\u5219\uff0c\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $m$\uff08$0 \\le m \\le \\dfrac{n(n-1)}{2}$\uff09\uff0c\u8868\u793a\u5217\u8868\u4e2d\u7684\u5bf9\u6570\u3002\n\n\u63a5\u4e0b\u6765\u7684 $m$ \u884c\uff0c\u6bcf\u884c\u8f93\u51fa\u4e24\u4e2a\u6574\u6570 $u_i, v_i$\uff08$1 \\le u_i \u003C v_i \\le n$\uff09\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u53d8\u5316\u8fc7\u7a0b\u4e3a $[3,1,2] \\rightarrow [2,1,3] \\rightarrow [1,2,3]$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53d8\u5316\u8fc7\u7a0b\u4e3a $[1,8,1,6] \\rightarrow [1,6,1,8] \\rightarrow [1,1,6,8]$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u5df2\u7ecf\u662f\u6709\u5e8f\u7684\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Inversion SwapSort","background":"","description":"Madeline has an array $ a $ of $ n $ integers. A pair $ (u,       v) $ of integers forms an inversion in $ a $ if:\n\n- $ 1 \\le u \u003C v \\le n $ .\n- $ a_u \u003E a_v $ .\n\nMadeline recently found a magical paper, which allows her to write two indices $ u $ and $ v $ and swap the values $ a_u $ and $ a_v $ . Being bored, she decided to write a list of pairs $ (u_i, v_i) $ with the following conditions:\n\n- all the pairs in the list are distinct and form an inversion in $ a $ .\n- all the pairs that form an inversion in $ a $ are in the list.\n- Starting from the given array, if you swap the values at indices $ u_1 $ and $ v_1 $ , then the values at indices $ u_2 $ and $ v_2 $ and so on, then after all pairs are processed, the array $ a $ will be sorted in non-decreasing order.\n\nConstruct such a list or determine that no such list exists. If there are multiple possible answers, you may find any of them.","formatI":"The first line of the input contains a single integer $ n $ ( $ 1 \\le n \\le 1000 $ ) \u2014 the length of the array.\n\nNext line contains $ n $ integers $ a_1,a_2,...,a_n $ $ (1       \\le a_i \\le 10^9) $ \u2014 elements of the array.","formatO":"Print -1 if no such list exists. Otherwise in the first line you should print a single integer $ m $ ( $ 0 \\le m \\le \\dfrac{n(n-1)}{2} $ ) \u2014 number of pairs in the list.\n\nThe $ i $ -th of the following $ m $ lines should contain two integers $ u_i, v_i $ ( $ 1 \\le u_i \u003C v_i\\le n $ ).\n\nIf there are multiple possible answers, you may find any of them.","hint":"In the first sample test case the array will change in this order $ [3,1,2] \\rightarrow [2,1,3] \\rightarrow [1,2,3] $ .\n\nIn the second sample test case it will be $ [1,8,1,6]       \\rightarrow [1,6,1,8] \\rightarrow [1,1,6,8] $ .\n\nIn the third sample test case the array is already sorted.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3 1 2","2\n1 3\n1 2"],["4\n1 8 1 6","2\n2 4\n2 3"],["5\n1 1 1 2 2","0"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1375E","link":"https:\/\/codeforces.com\/problemset\/problem\/1375\/E"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5e8f\u5217 $a$\uff0c\u6c42 $a$ \u4e2d\u7684\u6240\u6709\u9006\u5e8f\u5bf9 $(i_1, j_1), (i_2, j_2), \\cdots, (i_m, j_m)$ \u7684\u4e00\u4e2a\u6392\u5217 $p$\uff0c\n\n\u4f7f\u5f97\u4f9d\u6b21\u4ea4\u6362 $(a_{i_{p_1}}, a_{j_{p_1}}), (a_{i_{p_2}}, a_{j_{p_2}}), \\cdots, (a_{i_{p_m}}, a_{j_{p_m}})$ \u540e\u5e8f\u5217\u5355\u8c03\u4e0d\u964d\u3002\n\n$1 \\le n \\le 10^3$\uff0c$1 \\le a_i \\le 10^9$\u3002"},"translations":{"en":{"name":"Inversion SwapSort","background":"","description":"Madeline has an array $ a $ of $ n $ integers. A pair $ (u,       v) $ of integers forms an inversion in $ a $ if:\n\n- $ 1 \\le u \u003C v \\le n $ .\n- $ a_u \u003E a_v $ .\n\nMadeline recently found a magical paper, which allows her to write two indices $ u $ and $ v $ and swap the values $ a_u $ and $ a_v $ . Being bored, she decided to write a list of pairs $ (u_i, v_i) $ with the following conditions:\n\n- all the pairs in the list are distinct and form an inversion in $ a $ .\n- all the pairs that form an inversion in $ a $ are in the list.\n- Starting from the given array, if you swap the values at indices $ u_1 $ and $ v_1 $ , then the values at indices $ u_2 $ and $ v_2 $ and so on, then after all pairs are processed, the array $ a $ will be sorted in non-decreasing order.\n\nConstruct such a list or determine that no such list exists. If there are multiple possible answers, you may find any of them.","formatI":"The first line of the input contains a single integer $ n $ ( $ 1 \\le n \\le 1000 $ ) \u2014 the length of the array.\n\nNext line contains $ n $ integers $ a_1,a_2,...,a_n $ $ (1       \\le a_i \\le 10^9) $ \u2014 elements of the array.","formatO":"Print -1 if no such list exists. Otherwise in the first line you should print a single integer $ m $ ( $ 0 \\le m \\le \\dfrac{n(n-1)}{2} $ ) \u2014 number of pairs in the list.\n\nThe $ i $ -th of the following $ m $ lines should contain two integers $ u_i, v_i $ ( $ 1 \\le u_i \u003C v_i\\le n $ ).\n\nIf there are multiple possible answers, you may find any of them.","hint":"In the first sample test case the array will change in this order $ [3,1,2] \\rightarrow [2,1,3] \\rightarrow [1,2,3] $ .\n\nIn the second sample test case it will be $ [1,8,1,6]       \\rightarrow [1,6,1,8] \\rightarrow [1,1,6,8] $ .\n\nIn the third sample test case the array is already sorted.","locale":"en"},"zh-CN":{"name":"Inversion SwapSort","background":null,"description":"Madeline \u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6574\u6570\u6570\u7ec4 $a$\u3002\u5982\u679c\u4e00\u5bf9\u6574\u6570 $(u, v)$ \u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff0c\u5219\u79f0\u5176\u5728 $a$ \u4e2d\u5f62\u6210\u4e00\u4e2a\u9006\u5e8f\u5bf9\uff1a\n\n- $1 \\le u \u003C v \\le n$\u3002\n- $a_u \u003E a_v$\u3002\n\nMadeline \u6700\u8fd1\u53d1\u73b0\u4e86\u4e00\u5f20\u795e\u5947\u7684\u7eb8\uff0c\u53ef\u4ee5\u8ba9\u5979\u5199\u4e0b\u4e24\u4e2a\u4e0b\u6807 $u$ \u548c $v$\uff0c\u5e76\u4ea4\u6362 $a_u$ \u548c $a_v$ \u7684\u503c\u3002\u611f\u5230\u65e0\u804a\u7684\u5979\u51b3\u5b9a\u5199\u4e0b\u4e00\u4e2a\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\u7684\u4e0b\u6807\u5bf9\u5217\u8868 $(u_i, v_i)$\uff1a\n\n- \u5217\u8868\u4e2d\u7684\u6240\u6709\u5bf9\u90fd\u662f\u4e0d\u540c\u7684\uff0c\u5e76\u4e14\u5728 $a$ \u4e2d\u5f62\u6210\u9006\u5e8f\u5bf9\u3002\n- $a$ \u4e2d\u6240\u6709\u5f62\u6210\u9006\u5e8f\u5bf9\u7684\u4e0b\u6807\u5bf9\u90fd\u5728\u5217\u8868\u4e2d\u3002\n- \u4ece\u7ed9\u5b9a\u6570\u7ec4\u51fa\u53d1\uff0c\u4f9d\u6b21\u6309\u5217\u8868\u987a\u5e8f\u4ea4\u6362 $u_1$ \u548c $v_1$ \u5904\u7684\u503c\uff0c\u518d\u4ea4\u6362 $u_2$ \u548c $v_2$ \u5904\u7684\u503c\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff0c\u6700\u7ec8\u6570\u7ec4 $a$ \u4f1a\u53d8\u4e3a\u975e\u9012\u51cf\u6709\u5e8f\u3002\n\n\u8bf7\u6784\u9020\u8fd9\u6837\u4e00\u4e2a\u5217\u8868\uff0c\u6216\u8005\u5224\u65ad\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u5217\u8868\u3002\u5982\u679c\u6709\u591a\u79cd\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 1000$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u957f\u5ea6\u3002\n\n\u4e0b\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\le a_i \\le 10^9$\uff09\uff0c\u8868\u793a\u6570\u7ec4\u7684\u5143\u7d20\u3002","formatO":"\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u5217\u8868\uff0c\u8f93\u51fa $-1$\u3002\u5426\u5219\uff0c\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $m$\uff08$0 \\le m \\le \\dfrac{n(n-1)}{2}$\uff09\uff0c\u8868\u793a\u5217\u8868\u4e2d\u7684\u5bf9\u6570\u3002\n\n\u63a5\u4e0b\u6765\u7684 $m$ \u884c\uff0c\u6bcf\u884c\u8f93\u51fa\u4e24\u4e2a\u6574\u6570 $u_i, v_i$\uff08$1 \\le u_i \u003C v_i \\le n$\uff09\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u53d8\u5316\u8fc7\u7a0b\u4e3a $[3,1,2] \\rightarrow [2,1,3] \\rightarrow [1,2,3]$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53d8\u5316\u8fc7\u7a0b\u4e3a $[1,8,1,6] \\rightarrow [1,6,1,8] \\rightarrow [1,1,6,8]$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6570\u7ec4\u5df2\u7ecf\u662f\u6709\u5e8f\u7684\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1375E Inversion SwapSort","type":2,"slug":"CF1375E","color":"orange-3"},"discussions":[{"id":300100,"title":"\u4e00\u4e2a\u6709\u8da3\u7684\u95ee\u9898","author":{"uid":138349,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/138349.png","name":"\u94f6\u7ffc\u7684\u9b54\u672f\u5e08","slogan":"\u4e0d\u89c1\u4e94\u9675\u8c6a\u6770\u5893\uff0c\u65e0\u82b1\u65e0\u9152\u9504\u4f5c\u7530","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":6,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/v2n2eo5x.png"},"time":1613741304}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.2737,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1375E Inversion SwapSort","description":"Madeline \u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6574\u6570\u6570\u7ec4 a\u3002\u5982\u679c\u4e00\u5bf9\u6574\u6570 (u, v) \u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff0c\u5219\u79f0\u5176\u5728 a \u4e2d\u5f62\u6210\u4e00\u4e2a\u9006\u5e8f\u5bf9\uff1a\n\n\n\n\n\n\n\n\nMadeline \u6700\u8fd1\u53d1\u73b0\u4e86\u4e00\u5f20\u795e\u5947\u7684\u7eb8\uff0c\u53ef\u4ee5\u8ba9\u5979\u5199\u4e0b\u4e24\u4e2a\u4e0b\u6807 u \u548c v\uff0c\u5e76\u4ea4\u6362 a_u \u548c\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1375E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1375E?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1375E?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1375E Inversion SwapSort" />
+    <meta property="og:description" content="Madeline 有一个长度为 n 的整数数组 a。如果一对整数 (u, v) 满足以下条件，则称其在 a 中形成一个逆序对：
+
+
+
+
+
+
+
+
+Madeline 最近发现了一张神奇的纸，可以让她写下两个下标 u 和 v，并交换 a_u 和…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1375E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1375E Inversion SwapSort</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Madeline 有一个长度为 $n$ 的整数数组 $a$。如果一对整数 $(u, v)$ 满足以下条件，则称其在 $a$ 中形成一个逆序对：
+
+- $1 \le u < v \le n$。
+- $a_u > a_v$。
+
+Madeline 最近发现了一张神奇的纸，可以让她写下两个下标 $u$ 和 $v$，并交换 $a_u$ 和 $a_v$ 的值。感到无聊的她决定写下一个满足以下条件的下标对列表 $(u_i, v_i)$：
+
+- 列表中的所有对都是不同的，并且在 $a$ 中形成逆序对。
+- $a$ 中所有形成逆序对的下标对都在列表中。
+- 从给定数组出发，依次按列表顺序交换 $u_1$ 和 $v_1$ 处的值，再交换 $u_2$ 和 $v_2$ 处的值，依此类推，最终数组 $a$ 会变为非递减有序。
+
+请构造这样一个列表，或者判断不存在这样的列表。如果有多种答案，输出任意一种即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$（$1 \le n \le 1000$），表示数组的长度。
+
+下一行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$1 \le a_i \le 10^9$），表示数组的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    如果不存在这样的列表，输出 $-1$。否则，第一行输出一个整数 $m$（$0 \le m \le \dfrac{n(n-1)}{2}$），表示列表中的对数。
+
+接下来的 $m$ 行，每行输出两个整数 $u_i, v_i$（$1 \le u_i < v_i \le n$）。
+
+如果有多种答案，输出任意一种即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，数组变化过程为 $[3,1,2] \rightarrow [2,1,3] \rightarrow [1,2,3]$。
+
+在第二个样例中，变化过程为 $[1,8,1,6] \rightarrow [1,6,1,8] \rightarrow [1,1,6,8]$。
+
+在第三个样例中，数组已经是有序的。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

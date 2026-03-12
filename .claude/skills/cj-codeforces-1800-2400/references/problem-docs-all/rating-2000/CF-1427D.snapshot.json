@@ -1,0 +1,28 @@
+{
+  "id": "CF-1427D",
+  "contest_id": 1427,
+  "index": "D",
+  "name": "Unshuffling a Deck",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 3681,
+  "problem_url": "https://codeforces.com/problemset/problem/1427/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1427/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1427/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1427D%20Unshuffling%20a%20Deck%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1427/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1427D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

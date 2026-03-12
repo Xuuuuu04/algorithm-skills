@@ -1,0 +1,33 @@
+{
+  "id": "CF-1718F",
+  "contest_id": 1718,
+  "index": "F",
+  "name": "Burenka, an Array and Queries",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "data structures",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 203,
+  "problem_url": "https://codeforces.com/problemset/problem/1718/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1718/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1718/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1718F%20Burenka%2C%20an%20Array%20and%20Queries%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1718F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Burenka, an Array and Queries - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

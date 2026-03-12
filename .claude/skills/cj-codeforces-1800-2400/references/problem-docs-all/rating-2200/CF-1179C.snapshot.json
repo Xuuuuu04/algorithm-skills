@@ -1,0 +1,33 @@
+{
+  "id": "CF-1179C",
+  "contest_id": 1179,
+  "index": "C",
+  "name": "Serge and Dining Room",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "graph matchings",
+    "greedy",
+    "implementation",
+    "math",
+    "trees"
+  ],
+  "solved_count": 2406,
+  "problem_url": "https://codeforces.com/problemset/problem/1179/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1179/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1179/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1179C%20Serge%20and%20Dining%20Room%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1179C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1179C Serge and Dining Room - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 193,
+    "mirror_attempt": 313,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1575D",
+  "contest_id": 1575,
+  "index": "D",
+  "name": "Divisible by Twenty-Five",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "dp"
+  ],
+  "solved_count": 2842,
+  "problem_url": "https://codeforces.com/problemset/problem/1575/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1575/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1575/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1575D%20Divisible%20by%20Twenty-Five%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1575D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Divisible by Twenty-Five - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dfs and similar",
+      "dp"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

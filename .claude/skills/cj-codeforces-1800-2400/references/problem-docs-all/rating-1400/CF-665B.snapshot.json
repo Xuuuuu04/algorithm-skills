@@ -1,0 +1,27 @@
+{
+  "id": "CF-665B",
+  "contest_id": 665,
+  "index": "B",
+  "name": "Shopping",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 3873,
+  "problem_url": "https://codeforces.com/problemset/problem/665/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/665/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/665/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=665B%20Shopping%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/665/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 665B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

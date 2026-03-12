@@ -1,0 +1,33 @@
+{
+  "id": "CF-524D",
+  "contest_id": 524,
+  "index": "D",
+  "name": "Social Network",
+  "rating": 2100,
+  "tags": [
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/524/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/524/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/524/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=524D%20Social Network%20tutorial",
+  "solved_count": 988,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P524D",
+  "hydro_meta": {
+    "page_title": "Social Network - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

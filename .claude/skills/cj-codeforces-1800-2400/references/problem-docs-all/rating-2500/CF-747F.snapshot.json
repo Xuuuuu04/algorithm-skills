@@ -1,0 +1,36 @@
+{
+  "id": "CF-747F",
+  "contest_id": 747,
+  "index": "F",
+  "name": "Igor and Interesting Numbers",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 473,
+  "problem_url": "https://codeforces.com/problemset/problem/747/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/747/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/747/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=747F%20Igor%20and%20Interesting%20Numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P747F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Igor and Interesting Numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

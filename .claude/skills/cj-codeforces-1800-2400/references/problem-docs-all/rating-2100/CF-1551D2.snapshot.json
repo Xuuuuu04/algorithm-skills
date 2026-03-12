@@ -1,0 +1,33 @@
+{
+  "id": "CF-1551D2",
+  "contest_id": 1551,
+  "index": "D2",
+  "name": "Domino (hard version)",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 2961,
+  "problem_url": "https://codeforces.com/problemset/problem/1551/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1551/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1551/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1551D2%20Domino%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1551D2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Domino (hard version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

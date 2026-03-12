@@ -1,0 +1,32 @@
+{
+  "id": "CF-1654H",
+  "contest_id": 1654,
+  "index": "H",
+  "name": "Three Minimums",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "divide and conquer",
+    "dp",
+    "fft",
+    "math"
+  ],
+  "solved_count": 100,
+  "problem_url": "https://codeforces.com/problemset/problem/1654/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1654/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1654/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1654H%20Three%20Minimums%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1654/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1654H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "8 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

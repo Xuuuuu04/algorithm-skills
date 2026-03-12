@@ -1,0 +1,32 @@
+{
+  "id": "CF-500F",
+  "contest_id": 500,
+  "index": "F",
+  "name": "New Year Shopping",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "divide and conquer",
+    "dp"
+  ],
+  "solved_count": 818,
+  "problem_url": "https://codeforces.com/problemset/problem/500/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/500/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/500/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=500F%20New%20Year%20Shopping%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P500F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year Shopping - 题目详情 - Hydro",
+    "mirror_tags": [
+      "divide and conquer",
+      "dp",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

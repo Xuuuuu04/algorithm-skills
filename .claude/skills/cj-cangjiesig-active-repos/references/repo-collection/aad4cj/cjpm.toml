@@ -1,0 +1,13 @@
+[dependencies]
+
+[package]
+  cjc-version = "1.0.0"
+  compile-option = ""
+  description = "AAC音频码流解析与处理组件库，基于仓颉语言实现，提供ADTS帧解析和位流处理"
+  link-option = ""
+  name = "aad4cj"
+  output-type = "static"
+  src-dir = "src"
+  target-dir = "target"
+  version = "1.0.0"
+  package-configuration = {}

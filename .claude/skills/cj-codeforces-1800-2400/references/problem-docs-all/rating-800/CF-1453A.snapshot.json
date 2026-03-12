@@ -1,0 +1,27 @@
+{
+  "id": "CF-1453A",
+  "contest_id": 1453,
+  "index": "A",
+  "name": "Cancel the Trains",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 24009,
+  "problem_url": "https://codeforces.com/problemset/problem/1453/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1453/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1453/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1453A%20Cancel%20the%20Trains%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1453/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1453A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

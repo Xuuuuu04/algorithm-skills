@@ -1,0 +1,28 @@
+{
+  "id": "CF-1792A",
+  "contest_id": 1792,
+  "index": "A",
+  "name": "GamingForces",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 30706,
+  "problem_url": "https://codeforces.com/problemset/problem/1792/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1792/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1792/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1792A%20GamingForces%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1792A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1792A GamingForces - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 321,
+    "mirror_attempt": 426,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

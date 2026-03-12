@@ -1,0 +1,30 @@
+{
+  "id": "CF-1975A",
+  "contest_id": 1975,
+  "index": "A",
+  "name": "Bazoka and Mocha's Array",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 20601,
+  "problem_url": "https://codeforces.com/problemset/problem/1975/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1975/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1975/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1975A%20Bazoka%20and%20Mocha%27s%20Array%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1975A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1975A Bazoka and Mocha's Array - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 131,
+    "mirror_attempt": 249,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

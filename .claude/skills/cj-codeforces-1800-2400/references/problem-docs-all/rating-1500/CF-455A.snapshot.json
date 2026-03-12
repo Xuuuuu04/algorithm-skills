@@ -1,0 +1,27 @@
+{
+  "id": "CF-455A",
+  "contest_id": 455,
+  "index": "A",
+  "name": "Boredom",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 70444,
+  "problem_url": "https://codeforces.com/problemset/problem/455/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/455/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/455/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=455A%20Boredom%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF455A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF455A Boredom - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1141,
+    "mirror_attempt": 2986,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

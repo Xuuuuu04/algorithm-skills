@@ -1,0 +1,39 @@
+{
+  "id": "CF-1986D",
+  "contest_id": 1986,
+  "index": "D",
+  "name": "Mathematical Problem",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp",
+    "greedy",
+    "implementation",
+    "math",
+    "two pointers"
+  ],
+  "solved_count": 17788,
+  "problem_url": "https://codeforces.com/problemset/problem/1986/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1986/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1986/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1986D%20Mathematical%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1986D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mathematical Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "implementation",
+      "math",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1996F",
+  "contest_id": 1996,
+  "index": "F",
+  "name": "Bomb",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 6208,
+  "problem_url": "https://codeforces.com/problemset/problem/1996/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1996/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1996/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1996F%20Bomb%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1996F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1996F Bomb - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 107,
+    "mirror_attempt": 216,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

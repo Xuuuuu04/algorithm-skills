@@ -1,0 +1,37 @@
+{
+  "id": "CF-27D",
+  "contest_id": 27,
+  "index": "D",
+  "name": "Ring Road 2",
+  "rating": 2200,
+  "tags": [
+    "2-sat",
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/27/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/27/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/27/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=27D%20Ring Road 2%20tutorial",
+  "solved_count": 3059,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P27D",
+  "hydro_meta": {
+    "page_title": "Ring Road 2 - 题目详情 - Hydro",
+    "hydro_tags": [
+      "2-sat",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2200"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

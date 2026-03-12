@@ -1,0 +1,36 @@
+{
+  "id": "CF-1343D",
+  "contest_id": 1343,
+  "index": "D",
+  "name": "Constant Palindrome Sum",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 13446,
+  "problem_url": "https://codeforces.com/problemset/problem/1343/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1343/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1343/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1343D%20Constant%20Palindrome%20Sum%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1343D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Constant Palindrome Sum - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*1700"
+    ],
+    "mirror_accepted": 3,
+    "mirror_attempt": 13,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

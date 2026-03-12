@@ -1,0 +1,45 @@
+{
+  "id": "CF-1709F",
+  "contest_id": 1709,
+  "index": "F",
+  "name": "Multiset of Strings",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dp",
+    "fft",
+    "flows",
+    "graphs",
+    "math",
+    "meet-in-the-middle",
+    "trees"
+  ],
+  "solved_count": 668,
+  "problem_url": "https://codeforces.com/problemset/problem/1709/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1709/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1709/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1709F%20Multiset%20of%20Strings%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1709F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Multiset of Strings - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "fft",
+      "flows",
+      "graphs",
+      "math",
+      "meet-in-the-middle",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "6000ms",
+    "memory_limit": "512MiB"
+  }
+}

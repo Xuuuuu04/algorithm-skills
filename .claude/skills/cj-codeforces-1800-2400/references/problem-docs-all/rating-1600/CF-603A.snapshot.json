@@ -1,0 +1,29 @@
+{
+  "id": "CF-603A",
+  "contest_id": 603,
+  "index": "A",
+  "name": "Alternative Thinking",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 8201,
+  "problem_url": "https://codeforces.com/problemset/problem/603/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/603/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/603/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=603A%20Alternative%20Thinking%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/603/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 603A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-1343E",
+  "contest_id": 1343,
+  "index": "E",
+  "name": "Weights Distributing",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "graphs",
+    "greedy",
+    "shortest paths",
+    "sortings"
+  ],
+  "solved_count": 5684,
+  "problem_url": "https://codeforces.com/problemset/problem/1343/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1343/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1343/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1343E%20Weights%20Distributing%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1343E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Weights Distributing - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "sortings",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

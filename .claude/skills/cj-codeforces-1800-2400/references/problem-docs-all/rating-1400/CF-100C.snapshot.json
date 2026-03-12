@@ -1,0 +1,28 @@
+{
+  "id": "CF-100C",
+  "contest_id": 100,
+  "index": "C",
+  "name": "A+B",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 620,
+  "problem_url": "https://codeforces.com/problemset/problem/100/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/100/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/100/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=100C%20A%2BB%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/100/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 100C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "64 megabytes"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1863F",
+  "contest_id": 1863,
+  "index": "F",
+  "name": "Divide, XOR, and Conquer",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "math"
+  ],
+  "solved_count": 1339,
+  "problem_url": "https://codeforces.com/problemset/problem/1863/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1863/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1863/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1863F%20Divide%2C%20XOR%2C%20and%20Conquer%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1863F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Divide, XOR, and Conquer - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "dp",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

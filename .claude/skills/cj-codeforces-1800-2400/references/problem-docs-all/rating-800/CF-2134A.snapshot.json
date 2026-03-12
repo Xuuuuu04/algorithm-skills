@@ -1,0 +1,29 @@
+{
+  "id": "CF-2134A",
+  "contest_id": 2134,
+  "index": "A",
+  "name": "Painting With Two Colors",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 26101,
+  "problem_url": "https://codeforces.com/problemset/problem/2134/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2134/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2134/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2134A%20Painting%20With%20Two%20Colors%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2134/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2134A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

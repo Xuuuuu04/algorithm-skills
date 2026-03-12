@@ -1,0 +1,32 @@
+{
+  "id": "CF-2187A",
+  "contest_id": 2187,
+  "index": "A",
+  "name": "Restricted Sorting",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 14868,
+  "problem_url": "https://codeforces.com/problemset/problem/2187/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2187/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2187/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2187A%20Restricted%20Sorting%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2187A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Restricted Sorting - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

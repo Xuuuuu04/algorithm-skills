@@ -1,0 +1,27 @@
+{
+  "id": "CF-178E3",
+  "contest_id": 178,
+  "index": "E3",
+  "name": "The Beaver's Problem - 2",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 50.0,
+  "tags": [],
+  "solved_count": 212,
+  "problem_url": "https://codeforces.com/problemset/problem/178/E3",
+  "answer_index_url": "https://codeforces.com/problemset/status/178/problem/E3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/178/problem/E3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=178E3%20The%20Beaver%27s%20Problem%20-%202%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P178E3",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Beaver's Problem - 2 - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

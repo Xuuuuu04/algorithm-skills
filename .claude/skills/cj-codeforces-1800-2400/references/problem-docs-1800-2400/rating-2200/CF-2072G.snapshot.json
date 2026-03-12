@@ -1,0 +1,43 @@
+{
+  "id": "CF-2072G",
+  "contest_id": 2072,
+  "index": "G",
+  "name": "I've Been Flipping Numbers for 300 Years and Calculated the Sum",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "brute force",
+    "combinatorics",
+    "divide and conquer",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2072/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2072/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2072/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2072G%20I've Been Flipping Numbers for 300 Years and Calculated the Sum%20tutorial",
+  "solved_count": 2118,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2072G",
+  "hydro_meta": {
+    "page_title": "I've Been Flipping Numbers for 300 Years and Calculated the Sum - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "divide and conquer",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

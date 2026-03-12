@@ -1,0 +1,32 @@
+{
+  "id": "CF-1230A",
+  "contest_id": 1230,
+  "index": "A",
+  "name": "Dawid and Bags of Candies",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 22808,
+  "problem_url": "https://codeforces.com/problemset/problem/1230/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1230/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1230/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1230A%20Dawid%20and%20Bags%20of%20Candies%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1230A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Dawid and Bags of Candies - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

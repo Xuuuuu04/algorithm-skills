@@ -1,0 +1,35 @@
+{
+  "id": "CF-1490C",
+  "contest_id": 1490,
+  "index": "C",
+  "name": "Sum of Cubes",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "math"
+  ],
+  "solved_count": 38356,
+  "problem_url": "https://codeforces.com/problemset/problem/1490/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1490/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1490/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1490C%20Sum%20of%20Cubes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1490C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sum of Cubes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "brute force",
+      "math",
+      "*1100"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

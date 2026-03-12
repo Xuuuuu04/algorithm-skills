@@ -1,0 +1,46 @@
+{
+  "id": "CF-2115B",
+  "contest_id": 2115,
+  "index": "B",
+  "name": "Gellyfish and Camellia Japonica",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2115/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2115/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2115/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2115B%20Gellyfish and Camellia Japonica%20tutorial",
+  "solved_count": 3860,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2115B",
+  "hydro_meta": {
+    "page_title": "Gellyfish and Camellia Japonica - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "greedy",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

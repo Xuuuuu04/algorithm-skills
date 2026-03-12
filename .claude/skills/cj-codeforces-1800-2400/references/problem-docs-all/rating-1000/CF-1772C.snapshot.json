@@ -1,0 +1,29 @@
+{
+  "id": "CF-1772C",
+  "contest_id": 1772,
+  "index": "C",
+  "name": "Different Differences",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 25907,
+  "problem_url": "https://codeforces.com/problemset/problem/1772/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1772/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1772/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1772C%20Different%20Differences%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1772/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1772C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

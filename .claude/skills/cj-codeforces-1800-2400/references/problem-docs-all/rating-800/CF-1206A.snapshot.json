@@ -1,0 +1,28 @@
+{
+  "id": "CF-1206A",
+  "contest_id": 1206,
+  "index": "A",
+  "name": "Choose Two Numbers",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math",
+    "sortings"
+  ],
+  "solved_count": 25924,
+  "problem_url": "https://codeforces.com/problemset/problem/1206/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1206/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1206/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1206A%20Choose%20Two%20Numbers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1206/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1206A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

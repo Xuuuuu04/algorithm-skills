@@ -1,0 +1,36 @@
+{
+  "id": "CF-2043D",
+  "contest_id": 2043,
+  "index": "D",
+  "name": "Problem about GCD",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "flows",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 7521,
+  "problem_url": "https://codeforces.com/problemset/problem/2043/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2043/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2043/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2043D%20Problem%20about%20GCD%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2043D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Problem about GCD - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "flows",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

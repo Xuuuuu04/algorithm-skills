@@ -1,0 +1,28 @@
+{
+  "id": "CF-1404A",
+  "contest_id": 1404,
+  "index": "A",
+  "name": "Balanced Bitstring",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 18942,
+  "problem_url": "https://codeforces.com/problemset/problem/1404/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1404/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1404/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1404A%20Balanced%20Bitstring%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1404A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1404A Balanced Bitstring - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 181,
+    "mirror_attempt": 234,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

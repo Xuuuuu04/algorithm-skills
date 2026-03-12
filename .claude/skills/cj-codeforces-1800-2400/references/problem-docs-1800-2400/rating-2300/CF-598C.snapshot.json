@@ -1,0 +1,31 @@
+{
+  "id": "CF-598C",
+  "contest_id": 598,
+  "index": "C",
+  "name": "Nearest vectors",
+  "rating": 2300,
+  "tags": [
+    "geometry",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/598/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/598/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/598/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=598C%20Nearest vectors%20tutorial",
+  "solved_count": 5260,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P598C",
+  "hydro_meta": {
+    "page_title": "Nearest vectors - 题目详情 - Hydro",
+    "hydro_tags": [
+      "geometry",
+      "sortings",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,14 @@
+[dependencies]
+
+[package]
+  cjc-version = "1.0.0"
+  compile-option = ""
+  description = "restful路径解析工具"
+  link-option = ""
+  name = "http_router"
+  output-type = "executable"
+  override-compile-option = ""
+  src-dir = ""
+  target-dir = ""
+  version = "0.1.1"
+  package-configuration = {}

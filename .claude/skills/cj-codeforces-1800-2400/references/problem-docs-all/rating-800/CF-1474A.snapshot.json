@@ -1,0 +1,30 @@
+{
+  "id": "CF-1474A",
+  "contest_id": 1474,
+  "index": "A",
+  "name": "Puzzle From the Future",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 23301,
+  "problem_url": "https://codeforces.com/problemset/problem/1474/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1474/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1474/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1474A%20Puzzle%20From%20the%20Future%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1474A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Puzzle From the Future - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*800"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

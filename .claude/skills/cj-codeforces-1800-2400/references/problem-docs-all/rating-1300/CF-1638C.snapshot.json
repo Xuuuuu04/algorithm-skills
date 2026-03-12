@@ -1,0 +1,30 @@
+{
+  "id": "CF-1638C",
+  "contest_id": 1638,
+  "index": "C",
+  "name": "Inversion Graph",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "data structures",
+    "dsu",
+    "graphs",
+    "math"
+  ],
+  "solved_count": 15805,
+  "problem_url": "https://codeforces.com/problemset/problem/1638/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1638/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1638/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1638C%20Inversion%20Graph%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1638C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1638C Inversion Graph - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 365,
+    "mirror_attempt": 714,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

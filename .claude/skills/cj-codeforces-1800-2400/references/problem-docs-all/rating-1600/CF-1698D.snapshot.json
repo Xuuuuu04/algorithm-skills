@@ -1,0 +1,29 @@
+{
+  "id": "CF-1698D",
+  "contest_id": 1698,
+  "index": "D",
+  "name": "Fixed Point Guessing",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "interactive"
+  ],
+  "solved_count": 11788,
+  "problem_url": "https://codeforces.com/problemset/problem/1698/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1698/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1698/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1698D%20Fixed%20Point%20Guessing%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1698/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1698D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

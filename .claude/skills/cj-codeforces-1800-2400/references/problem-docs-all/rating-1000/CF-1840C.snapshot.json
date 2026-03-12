@@ -1,0 +1,33 @@
+{
+  "id": "CF-1840C",
+  "contest_id": 1840,
+  "index": "C",
+  "name": "Ski Resort",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "math",
+    "two pointers"
+  ],
+  "solved_count": 45497,
+  "problem_url": "https://codeforces.com/problemset/problem/1840/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1840/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1840/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1840C%20Ski%20Resort%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1840C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ski Resort - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

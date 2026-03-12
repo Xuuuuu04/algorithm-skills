@@ -1,0 +1,33 @@
+{
+  "id": "CF-1473E",
+  "contest_id": 1473,
+  "index": "E",
+  "name": "Minimum Path",
+  "rating": 2400,
+  "tags": [
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1473/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1473/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1473/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1473E%20Minimum Path%20tutorial",
+  "solved_count": 4609,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1473E",
+  "hydro_meta": {
+    "page_title": "Minimum Path - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graphs",
+      "shortest paths",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

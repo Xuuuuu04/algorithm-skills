@@ -1,0 +1,32 @@
+{
+  "id": "CF-552A",
+  "contest_id": 552,
+  "index": "A",
+  "name": "Vanya and Table",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 10101,
+  "problem_url": "https://codeforces.com/problemset/problem/552/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/552/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/552/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=552A%20Vanya%20and%20Table%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P552A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vanya and Table - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1952B",
+  "contest_id": 1952,
+  "index": "B",
+  "name": "Is it stated?",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "strings"
+  ],
+  "solved_count": 12182,
+  "problem_url": "https://codeforces.com/problemset/problem/1952/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1952/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1952/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1952B%20Is%20it%20stated%3F%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1952B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1952B Is it stated? - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 42,
+    "mirror_attempt": 65,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

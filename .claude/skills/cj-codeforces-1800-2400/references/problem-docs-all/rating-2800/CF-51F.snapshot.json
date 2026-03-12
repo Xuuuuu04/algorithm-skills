@@ -1,0 +1,36 @@
+{
+  "id": "CF-51F",
+  "contest_id": 51,
+  "index": "F",
+  "name": "Caterpillar",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 800,
+  "problem_url": "https://codeforces.com/problemset/problem/51/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/51/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/51/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=51F%20Caterpillar%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P51F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Caterpillar - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "trees",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

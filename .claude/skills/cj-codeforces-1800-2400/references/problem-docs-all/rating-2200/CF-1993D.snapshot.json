@@ -1,0 +1,33 @@
+{
+  "id": "CF-1993D",
+  "contest_id": 1993,
+  "index": "D",
+  "name": "Med-imize",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 4428,
+  "problem_url": "https://codeforces.com/problemset/problem/1993/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1993/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1993/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1993D%20Med-imize%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1993D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Med-imize - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dp",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

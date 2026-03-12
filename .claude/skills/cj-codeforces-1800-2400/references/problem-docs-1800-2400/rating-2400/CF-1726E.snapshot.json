@@ -1,0 +1,34 @@
+{
+  "id": "CF-1726E",
+  "contest_id": 1726,
+  "index": "E",
+  "name": "Almost Perfect",
+  "rating": 2400,
+  "tags": [
+    "combinatorics",
+    "fft",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1726/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1726/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1726/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1726E%20Almost Perfect%20tutorial",
+  "solved_count": 1687,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1726E",
+  "hydro_meta": {
+    "page_title": "Almost Perfect - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "fft",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

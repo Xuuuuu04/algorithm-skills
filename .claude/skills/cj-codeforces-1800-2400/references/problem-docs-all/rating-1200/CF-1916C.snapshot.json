@@ -1,0 +1,38 @@
+{
+  "id": "CF-1916C",
+  "contest_id": 1916,
+  "index": "C",
+  "name": "Training Before the Olympiad",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "games",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 19745,
+  "problem_url": "https://codeforces.com/problemset/problem/1916/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1916/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1916/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1916C%20Training%20Before%20the%20Olympiad%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1916C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Training Before the Olympiad - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "games",
+      "greedy",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

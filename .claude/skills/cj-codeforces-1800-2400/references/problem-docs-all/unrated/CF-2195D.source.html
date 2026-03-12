@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2195D Absolute Cinema - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2195D","type":"CF","title":"Absolute Cinema","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":null,"content":{"name":"Absolute Cinema","background":null,"description":"There is a hidden sequence  $ a_1,a_2,\\ldots,a_n $  of  $ n $  integers ( $ n \\ge 2 $ ). It is guaranteed that  $ |a_i| \\le 1000 $  for all  $ 1 \\le i \\le n $ .\n\nLet\u0027s define a function  $ f(x) $  as follows:\n\n$$$\nf(x)=\\sum_{i=1}^n a_i \\cdot |i-x|\n$$$\n\nGiven  $ n $  values  $ f(1),f(2),\\ldots,f(n) $ , please determine the values of  $ a_1,a_2,\\ldots,a_n $ .\n\nIt is guaranteed that the values  $ a_1,a_2,\\ldots,a_n $  can be determined uniquely.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer  $ n $  ( $ \\color{red}{2} \\le n \\le 300\\,000 $ ).\n\nThe second line of each test case contains  $ n $  integers  $ f(1),f(2),\\ldots,f(n) $  ( $ -10^{14} \\le f(i) \\le 10^{14} $ ).\n\nIt is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 300\\,000 $ .","formatO":"For each test case, output  $ n $  integers  $ a_1,a_2,\\ldots,a_n $  on a separate line ( $ |a_i| \\le 1000 $ ).\n\nIt is guaranteed that the values  $ a_1,a_2,\\ldots,a_n $  can be determined uniquely.","hint":"In the first test case, the hidden sequence is  $ a=[1,4,2,3] $ .\n\nThe values  $ f(1),f(2),\\ldots,f(n) $  are as follows:\n\n- $ f(1) = 1 \\cdot |1-1| + 4 \\cdot |2-1| + 2 \\cdot |3-1| + 3 \\cdot |4-1| = 0+4+4+9 = 17 $ ;\n- $ f(2) = 1 \\cdot |1-2| + 4 \\cdot |2-2| + 2 \\cdot |3-2| + 3 \\cdot |4-2| = 1+0+2+6 = 9 $ ;\n- $ f(3) = 1 \\cdot |1-3| + 4 \\cdot |2-3| + 2 \\cdot |3-3| + 3 \\cdot |4-3| = 2+4+0+3 = 9 $ ;\n- $ f(4) = 1 \\cdot |1-4| + 4 \\cdot |2-4| + 2 \\cdot |3-4| + 3 \\cdot |4-4| = 3+8+2+0 = 13 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n4\n17 9 9 13\n6\n-37 -32 -15 4 27 42\n5\n-26 -32 -24 -4 2\n2\n420 -69","1 4 2 3\n3 6 1 2 -4 -7\n-6 7 6 -7 -6\n-69 420"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2195D","link":"https:\/\/codeforces.com\/problemset\/problem\/2195\/D"},"translation":null},"translations":{"en":{"name":"Absolute Cinema","background":null,"description":"There is a hidden sequence  $ a_1,a_2,\\ldots,a_n $  of  $ n $  integers ( $ n \\ge 2 $ ). It is guaranteed that  $ |a_i| \\le 1000 $  for all  $ 1 \\le i \\le n $ .\n\nLet\u0027s define a function  $ f(x) $  as follows:\n\n$$$\nf(x)=\\sum_{i=1}^n a_i \\cdot |i-x|\n$$$\n\nGiven  $ n $  values  $ f(1),f(2),\\ldots,f(n) $ , please determine the values of  $ a_1,a_2,\\ldots,a_n $ .\n\nIt is guaranteed that the values  $ a_1,a_2,\\ldots,a_n $  can be determined uniquely.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer  $ n $  ( $ \\color{red}{2} \\le n \\le 300\\,000 $ ).\n\nThe second line of each test case contains  $ n $  integers  $ f(1),f(2),\\ldots,f(n) $  ( $ -10^{14} \\le f(i) \\le 10^{14} $ ).\n\nIt is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 300\\,000 $ .","formatO":"For each test case, output  $ n $  integers  $ a_1,a_2,\\ldots,a_n $  on a separate line ( $ |a_i| \\le 1000 $ ).\n\nIt is guaranteed that the values  $ a_1,a_2,\\ldots,a_n $  can be determined uniquely.","hint":"In the first test case, the hidden sequence is  $ a=[1,4,2,3] $ .\n\nThe values  $ f(1),f(2),\\ldots,f(n) $  are as follows:\n\n- $ f(1) = 1 \\cdot |1-1| + 4 \\cdot |2-1| + 2 \\cdot |3-1| + 3 \\cdot |4-1| = 0+4+4+9 = 17 $ ;\n- $ f(2) = 1 \\cdot |1-2| + 4 \\cdot |2-2| + 2 \\cdot |3-2| + 3 \\cdot |4-2| = 1+0+2+6 = 9 $ ;\n- $ f(3) = 1 \\cdot |1-3| + 4 \\cdot |2-3| + 2 \\cdot |3-3| + 3 \\cdot |4-3| = 2+4+0+3 = 9 $ ;\n- $ f(4) = 1 \\cdot |1-4| + 4 \\cdot |2-4| + 2 \\cdot |3-4| + 3 \\cdot |4-4| = 3+8+2+0 = 13 $ .","locale":"en"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2195D Absolute Cinema","type":2,"slug":"CF2195D","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.786072,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2195D Absolute Cinema","description":"There is a hidden sequence   a_1,a_2,\\ldots,a_n   of   n   integers (  n \\ge 2  ). It is guaranteed that   |a_i| \\le 1000\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2195D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2195D?lang=en" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2195D Absolute Cinema" />
+    <meta property="og:description" content="There is a hidden sequence   a_1,a_2,\ldots,a_n   of   n   integers (  n \ge 2  ). It is guaranteed that   |a_i| \le 1000…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2195D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="en">
+        <h1>CF2195D Absolute Cinema</h1>
+
+        
+        <section>
+            <h2>Description</h2>
+            <div>
+                                    There is a hidden sequence  $ a_1,a_2,\ldots,a_n $  of  $ n $  integers ( $ n \ge 2 $ ). It is guaranteed that  $ |a_i| \le 1000 $  for all  $ 1 \le i \le n $ .
+
+Let's define a function  $ f(x) $  as follows:
+
+$$$
+f(x)=\sum_{i=1}^n a_i \cdot |i-x|
+$$$
+
+Given  $ n $  values  $ f(1),f(2),\ldots,f(n) $ , please determine the values of  $ a_1,a_2,\ldots,a_n $ .
+
+It is guaranteed that the values  $ a_1,a_2,\ldots,a_n $  can be determined uniquely.
+                            </div>
+        </section>
+
+        <section>
+            <h2>Input Format</h2>
+            <div>
+                                    Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \le t \le 10^4 $ ). The description of the test cases follows.
+
+The first line of each test case contains a single integer  $ n $  ( $ \color{red}{2} \le n \le 300\,000 $ ).
+
+The second line of each test case contains  $ n $  integers  $ f(1),f(2),\ldots,f(n) $  ( $ -10^{14} \le f(i) \le 10^{14} $ ).
+
+It is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 300\,000 $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Output Format</h2>
+            <div>
+                                    For each test case, output  $ n $  integers  $ a_1,a_2,\ldots,a_n $  on a separate line ( $ |a_i| \le 1000 $ ).
+
+It is guaranteed that the values  $ a_1,a_2,\ldots,a_n $  can be determined uniquely.
+                            </div>
+        </section>
+
+        <section>
+            <h2>Explanation/Hint</h2>
+            <div>
+                In the first test case, the hidden sequence is  $ a=[1,4,2,3] $ .
+
+The values  $ f(1),f(2),\ldots,f(n) $  are as follows:
+
+- $ f(1) = 1 \cdot |1-1| + 4 \cdot |2-1| + 2 \cdot |3-1| + 3 \cdot |4-1| = 0+4+4+9 = 17 $ ;
+- $ f(2) = 1 \cdot |1-2| + 4 \cdot |2-2| + 2 \cdot |3-2| + 3 \cdot |4-2| = 1+0+2+6 = 9 $ ;
+- $ f(3) = 1 \cdot |1-3| + 4 \cdot |2-3| + 2 \cdot |3-3| + 3 \cdot |4-3| = 2+4+0+3 = 9 $ ;
+- $ f(4) = 1 \cdot |1-4| + 4 \cdot |2-4| + 2 \cdot |3-4| + 3 \cdot |4-4| = 3+8+2+0 = 13 $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

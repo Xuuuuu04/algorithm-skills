@@ -1,0 +1,37 @@
+{
+  "id": "CF-1152D",
+  "contest_id": 1152,
+  "index": "D",
+  "name": "Neko and Aki's Prank",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1152/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1152/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1152/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1152D%20Neko and Aki's Prank%20tutorial",
+  "solved_count": 2563,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1152D",
+  "hydro_meta": {
+    "page_title": "Neko and Aki's Prank - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "trees",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

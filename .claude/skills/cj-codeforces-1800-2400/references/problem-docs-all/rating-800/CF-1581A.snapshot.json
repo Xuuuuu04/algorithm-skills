@@ -1,0 +1,29 @@
+{
+  "id": "CF-1581A",
+  "contest_id": 1581,
+  "index": "A",
+  "name": "CQXYM Count Permutations",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "combinatorics",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 14202,
+  "problem_url": "https://codeforces.com/problemset/problem/1581/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1581/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1581/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1581A%20CQXYM%20Count%20Permutations%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1581A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1581A CQXYM Count Permutations - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 291,
+    "mirror_attempt": 408,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

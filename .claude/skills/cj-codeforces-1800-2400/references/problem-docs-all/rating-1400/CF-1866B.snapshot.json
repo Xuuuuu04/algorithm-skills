@@ -1,0 +1,33 @@
+{
+  "id": "CF-1866B",
+  "contest_id": 1866,
+  "index": "B",
+  "name": "Battling with Numbers",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 9060,
+  "problem_url": "https://codeforces.com/problemset/problem/1866/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1866/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1866/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1866B%20Battling%20with%20Numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1866B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Battling with Numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

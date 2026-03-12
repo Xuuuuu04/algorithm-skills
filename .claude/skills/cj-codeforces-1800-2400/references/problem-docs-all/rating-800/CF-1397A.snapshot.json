@@ -1,0 +1,32 @@
+{
+  "id": "CF-1397A",
+  "contest_id": 1397,
+  "index": "A",
+  "name": "Juggling Letters",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 29732,
+  "problem_url": "https://codeforces.com/problemset/problem/1397/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1397/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1397/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1397A%20Juggling%20Letters%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1397A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Juggling Letters - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1440A Buy the String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1440A","type":"CF","title":"Buy the String","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":207,"totalAccepted":154,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Buy the String","background":null,"description":"\u7ed9\u5b9a\u56db\u4e2a\u6574\u6570 $n$\u3001$c_0$\u3001$c_1$ \u548c $h$\uff0c\u4ee5\u53ca\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002\n\n\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u662f\u4ec5\u7531\u5b57\u7b26 $0$ \u548c $1$ \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002\n\n\u4f60\u53ef\u4ee5\u5c06\u5b57\u7b26\u4e32 $s$ \u4e2d\u7684\u4efb\u610f\u5b57\u7b26\u8fdb\u884c\u66f4\u6539\uff08\u66f4\u6539\u540e\u5b57\u7b26\u4e32\u4ecd\u9700\u4e3a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\uff09\u3002\u6bcf\u66f4\u6539\u4e00\u4e2a\u5b57\u7b26\u9700\u8981\u652f\u4ed8 $h$ \u4e2a\u786c\u5e01\u3002\n\n\u5728\u8fdb\u884c\u82e5\u5e72\u6b21\uff08\u4e5f\u53ef\u4ee5\u4e0d\u8fdb\u884c\uff09\u66f4\u6539\u540e\uff0c\u4f60\u9700\u8981\u8d2d\u4e70\u6574\u4e2a\u5b57\u7b26\u4e32\u3002\u8d2d\u4e70\u5b57\u7b26\u4e32\u65f6\uff0c\u4f60\u9700\u8981\u8d2d\u4e70\u5176\u4e2d\u7684\u6bcf\u4e00\u4e2a\u5b57\u7b26\u3002\u8d2d\u4e70\u5b57\u7b26 $0$ \u9700\u8981\u652f\u4ed8 $c_0$ \u4e2a\u786c\u5e01\uff0c\u8d2d\u4e70\u5b57\u7b26 $1$ \u9700\u8981\u652f\u4ed8 $c_1$ \u4e2a\u786c\u5e01\u3002\n\n\u8bf7\u4f60\u8ba1\u7b97\uff0c\u8d2d\u4e70\u8be5\u5b57\u7b26\u4e32\u6240\u9700\u652f\u4ed8\u7684\u6700\u5c11\u786c\u5e01\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u7684 $2t$ \u884c\u63cf\u8ff0\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u56db\u4e2a\u6574\u6570 $n$\u3001$c_0$\u3001$c_1$\u3001$h$\uff08$1 \\leq n, c_0, c_1, h \\leq 1000$\uff09\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u8d2d\u4e70\u8be5\u5b57\u7b26\u4e32\u6240\u9700\u652f\u4ed8\u7684\u6700\u5c11\u786c\u5e01\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u76f4\u63a5\u8d2d\u4e70\u6240\u6709\u5b57\u7b26\u5e76\u652f\u4ed8 $3$ \u4e2a\u786c\u5e01\uff0c\u56e0\u4e3a\u5b57\u7b26 $0$ \u548c $1$ \u7684\u4ef7\u683c\u90fd\u662f $1$ \u4e2a\u786c\u5e01\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u5148\u5c06\u7b2c $2$ \u4e2a\u548c\u7b2c $4$ \u4e2a\u5b57\u7b26\u4ece $1$ \u6539\u4e3a $0$\uff0c\u4e3a\u6b64\u652f\u4ed8 $2$ \u4e2a\u786c\u5e01\u3002\u6b64\u65f6\u5b57\u7b26\u4e32\u53d8\u4e3a $00000$\u3002\u7136\u540e\u4f60\u53ef\u4ee5\u8d2d\u4e70\u8be5\u5b57\u7b26\u4e32\uff0c\u652f\u4ed8 $5 \\times 10 = 50$ \u4e2a\u786c\u5e01\u3002\u603b\u5171\u9700\u8981\u652f\u4ed8 $2 + 50 = 52$ \u4e2a\u786c\u5e01\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Buy the String","background":"","description":"You are given four integers $ n $ , $ c_0 $ , $ c_1 $ and $ h $ and a binary string $ s $ of length $ n $ .\n\nA binary string is a string consisting of characters $ 0 $ and $ 1 $ .\n\nYou can change any character of the string $ s $ (the string should be still binary after the change). You should pay $ h $ coins for each change.\n\nAfter some changes (possibly zero) you want to buy the string. To buy the string you should buy all its characters. To buy the character $ 0 $ you should pay $ c_0 $ coins, to buy the character $ 1 $ you should pay $ c_1 $ coins.\n\nFind the minimum number of coins needed to buy the string.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 10 $ ) \u2014 the number of test cases. Next $ 2t $ lines contain descriptions of test cases.\n\nThe first line of the description of each test case contains four integers $ n $ , $ c_{0} $ , $ c_{1} $ , $ h $ ( $ 1 \\leq n, c_{0}, c_{1}, h \\leq 1000 $ ).\n\nThe second line of the description of each test case contains the binary string $ s $ of length $ n $ .","formatO":"For each test case print a single integer \u2014 the minimum number of coins needed to buy the string.","hint":"In the first test case, you can buy all characters and pay $ 3 $ coins, because both characters $ 0 $ and $ 1 $ costs $ 1 $ coin.\n\nIn the second test case, you can firstly change $ 2 $ -nd and $ 4 $ -th symbols of the string from $ 1 $ to $ 0 $ and pay $ 2 $ coins for that. Your string will be $ 00000 $ . After that, you can buy the string and pay $ 5 \\cdot 10 = 50 $ coins for that. The total number of coins paid will be $ 2 + 50 = 52 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n3 1 1 1\n100\n5 10 100 1\n01010\n5 10 1 1\n11111\n5 1 10 1\n11111\n12 2 1 10\n101110110101\n2 100 1 10\n00","3\n52\n5\n10\n16\n22"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1440A","link":"https:\/\/codeforces.com\/problemset\/problem\/1440\/A"},"translation":"\u7ed9\u51fa\u56db\u4e2a\u6574\u6570 $n,c_0,c_1$ \u548c $h$ \uff0c\u4ee5\u53ca\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$ \uff0c\u4e14 $s$ \u4ec5\u7531 $0$ \u548c $1$ \u7ec4\u6210\u3002\u4f60\u53ef\u4ee5\u6bcf\u6b21\u4ee5 $h$ \u7684\u82b1\u8d39\u4fee\u6539\u5b57\u7b26\u4e32\u4e2d\u7684\u4e00\u4e2a\u5b57\u7b26\u3002\u5728\u7ecf\u8fc7\u4e00\u4e9b\u4fee\u6539\u540e\uff0c\u4f60\u9700\u8981\u4e70\u4e0b\u8fd9\u4e2a\u5b57\u7b26\u4e32\uff0c\u5176\u4e2d\u5b57\u7b26 $0$ \u9700\u8981\u82b1\u8d39 $c_0$ \uff0c\u5b57\u7b26 $1$ \u9700\u8981\u82b1\u8d39 $c_1$ \u3002\u6c42\u6700\u5c0f\u82b1\u8d39\u3002"},"translations":{"en":{"name":"Buy the String","background":"","description":"You are given four integers $ n $ , $ c_0 $ , $ c_1 $ and $ h $ and a binary string $ s $ of length $ n $ .\n\nA binary string is a string consisting of characters $ 0 $ and $ 1 $ .\n\nYou can change any character of the string $ s $ (the string should be still binary after the change). You should pay $ h $ coins for each change.\n\nAfter some changes (possibly zero) you want to buy the string. To buy the string you should buy all its characters. To buy the character $ 0 $ you should pay $ c_0 $ coins, to buy the character $ 1 $ you should pay $ c_1 $ coins.\n\nFind the minimum number of coins needed to buy the string.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 10 $ ) \u2014 the number of test cases. Next $ 2t $ lines contain descriptions of test cases.\n\nThe first line of the description of each test case contains four integers $ n $ , $ c_{0} $ , $ c_{1} $ , $ h $ ( $ 1 \\leq n, c_{0}, c_{1}, h \\leq 1000 $ ).\n\nThe second line of the description of each test case contains the binary string $ s $ of length $ n $ .","formatO":"For each test case print a single integer \u2014 the minimum number of coins needed to buy the string.","hint":"In the first test case, you can buy all characters and pay $ 3 $ coins, because both characters $ 0 $ and $ 1 $ costs $ 1 $ coin.\n\nIn the second test case, you can firstly change $ 2 $ -nd and $ 4 $ -th symbols of the string from $ 1 $ to $ 0 $ and pay $ 2 $ coins for that. Your string will be $ 00000 $ . After that, you can buy the string and pay $ 5 \\cdot 10 = 50 $ coins for that. The total number of coins paid will be $ 2 + 50 = 52 $ .","locale":"en"},"zh-CN":{"name":"Buy the String","background":null,"description":"\u7ed9\u5b9a\u56db\u4e2a\u6574\u6570 $n$\u3001$c_0$\u3001$c_1$ \u548c $h$\uff0c\u4ee5\u53ca\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002\n\n\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u662f\u4ec5\u7531\u5b57\u7b26 $0$ \u548c $1$ \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002\n\n\u4f60\u53ef\u4ee5\u5c06\u5b57\u7b26\u4e32 $s$ \u4e2d\u7684\u4efb\u610f\u5b57\u7b26\u8fdb\u884c\u66f4\u6539\uff08\u66f4\u6539\u540e\u5b57\u7b26\u4e32\u4ecd\u9700\u4e3a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\uff09\u3002\u6bcf\u66f4\u6539\u4e00\u4e2a\u5b57\u7b26\u9700\u8981\u652f\u4ed8 $h$ \u4e2a\u786c\u5e01\u3002\n\n\u5728\u8fdb\u884c\u82e5\u5e72\u6b21\uff08\u4e5f\u53ef\u4ee5\u4e0d\u8fdb\u884c\uff09\u66f4\u6539\u540e\uff0c\u4f60\u9700\u8981\u8d2d\u4e70\u6574\u4e2a\u5b57\u7b26\u4e32\u3002\u8d2d\u4e70\u5b57\u7b26\u4e32\u65f6\uff0c\u4f60\u9700\u8981\u8d2d\u4e70\u5176\u4e2d\u7684\u6bcf\u4e00\u4e2a\u5b57\u7b26\u3002\u8d2d\u4e70\u5b57\u7b26 $0$ \u9700\u8981\u652f\u4ed8 $c_0$ \u4e2a\u786c\u5e01\uff0c\u8d2d\u4e70\u5b57\u7b26 $1$ \u9700\u8981\u652f\u4ed8 $c_1$ \u4e2a\u786c\u5e01\u3002\n\n\u8bf7\u4f60\u8ba1\u7b97\uff0c\u8d2d\u4e70\u8be5\u5b57\u7b26\u4e32\u6240\u9700\u652f\u4ed8\u7684\u6700\u5c11\u786c\u5e01\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u7684 $2t$ \u884c\u63cf\u8ff0\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u56db\u4e2a\u6574\u6570 $n$\u3001$c_0$\u3001$c_1$\u3001$h$\uff08$1 \\leq n, c_0, c_1, h \\leq 1000$\uff09\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u8d2d\u4e70\u8be5\u5b57\u7b26\u4e32\u6240\u9700\u652f\u4ed8\u7684\u6700\u5c11\u786c\u5e01\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u76f4\u63a5\u8d2d\u4e70\u6240\u6709\u5b57\u7b26\u5e76\u652f\u4ed8 $3$ \u4e2a\u786c\u5e01\uff0c\u56e0\u4e3a\u5b57\u7b26 $0$ \u548c $1$ \u7684\u4ef7\u683c\u90fd\u662f $1$ \u4e2a\u786c\u5e01\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u5148\u5c06\u7b2c $2$ \u4e2a\u548c\u7b2c $4$ \u4e2a\u5b57\u7b26\u4ece $1$ \u6539\u4e3a $0$\uff0c\u4e3a\u6b64\u652f\u4ed8 $2$ \u4e2a\u786c\u5e01\u3002\u6b64\u65f6\u5b57\u7b26\u4e32\u53d8\u4e3a $00000$\u3002\u7136\u540e\u4f60\u53ef\u4ee5\u8d2d\u4e70\u8be5\u5b57\u7b26\u4e32\uff0c\u652f\u4ed8 $5 \\times 10 = 50$ \u4e2a\u786c\u5e01\u3002\u603b\u5171\u9700\u8981\u652f\u4ed8 $2 + 50 = 52$ \u4e2a\u786c\u5e01\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1440A Buy the String","type":2,"slug":"CF1440A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.844842,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1440A Buy the String","description":"\u7ed9\u5b9a\u56db\u4e2a\u6574\u6570 n\u3001c_0\u3001c_1 \u548c h\uff0c\u4ee5\u53ca\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 s\u3002\n\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u662f\u4ec5\u7531\u5b57\u7b26 0 \u548c 1 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002\n\u4f60\u53ef\u4ee5\u5c06\u5b57\u7b26\u4e32 s \u4e2d\u7684\u4efb\u610f\u5b57\u7b26\u8fdb\u884c\u66f4\u6539\uff08\u66f4\u6539\u540e\u5b57\u7b26\u4e32\u4ecd\u9700\u4e3a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\uff09\u3002\u6bcf\u66f4\u6539\u4e00\u4e2a\u5b57\u7b26\u9700\u8981\u652f\u4ed8 h\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1440A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1440A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1440A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1440A Buy the String" />
+    <meta property="og:description" content="给定四个整数 n、c_0、c_1 和 h，以及一个长度为 n 的二进制字符串 s。
+二进制字符串是仅由字符 0 和 1 组成的字符串。
+你可以将字符串 s 中的任意字符进行更改（更改后字符串仍需为二进制字符串）。每更改一个字符需要支付 h…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1440A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1440A Buy the String</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定四个整数 $n$、$c_0$、$c_1$ 和 $h$，以及一个长度为 $n$ 的二进制字符串 $s$。
+
+二进制字符串是仅由字符 $0$ 和 $1$ 组成的字符串。
+
+你可以将字符串 $s$ 中的任意字符进行更改（更改后字符串仍需为二进制字符串）。每更改一个字符需要支付 $h$ 个硬币。
+
+在进行若干次（也可以不进行）更改后，你需要购买整个字符串。购买字符串时，你需要购买其中的每一个字符。购买字符 $0$ 需要支付 $c_0$ 个硬币，购买字符 $1$ 需要支付 $c_1$ 个硬币。
+
+请你计算，购买该字符串所需支付的最少硬币数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 10$），表示测试用例的数量。接下来的 $2t$ 行描述每个测试用例。
+
+每个测试用例的第一行包含四个整数 $n$、$c_0$、$c_1$、$h$（$1 \leq n, c_0, c_1, h \leq 1000$）。
+
+每个测试用例的第二行包含一个长度为 $n$ 的二进制字符串 $s$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示购买该字符串所需支付的最少硬币数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，你可以直接购买所有字符并支付 $3$ 个硬币，因为字符 $0$ 和 $1$ 的价格都是 $1$ 个硬币。
+
+在第二个测试用例中，你可以先将第 $2$ 个和第 $4$ 个字符从 $1$ 改为 $0$，为此支付 $2$ 个硬币。此时字符串变为 $00000$。然后你可以购买该字符串，支付 $5 \times 10 = 50$ 个硬币。总共需要支付 $2 + 50 = 52$ 个硬币。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

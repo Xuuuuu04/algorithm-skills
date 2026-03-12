@@ -1,0 +1,36 @@
+{
+  "id": "CF-750G",
+  "contest_id": 750,
+  "index": "G",
+  "name": "New Year and Binary Tree Paths",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "combinatorics",
+    "dp"
+  ],
+  "solved_count": 525,
+  "problem_url": "https://codeforces.com/problemset/problem/750/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/750/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/750/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=750G%20New%20Year%20and%20Binary%20Tree%20Paths%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P750G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year and Binary Tree Paths - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "*3200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

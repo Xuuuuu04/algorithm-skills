@@ -1,0 +1,30 @@
+{
+  "id": "CF-1313C1",
+  "contest_id": 1313,
+  "index": "C1",
+  "name": "Skyscrapers (easy version)",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 10982,
+  "problem_url": "https://codeforces.com/problemset/problem/1313/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1313/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1313/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1313C1%20Skyscrapers%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1313/C1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1313C1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

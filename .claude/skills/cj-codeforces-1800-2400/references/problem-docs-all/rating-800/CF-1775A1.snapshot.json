@@ -1,0 +1,33 @@
+{
+  "id": "CF-1775A1",
+  "contest_id": 1775,
+  "index": "A1",
+  "name": "Gardener and the Capybaras (easy version)",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 20358,
+  "problem_url": "https://codeforces.com/problemset/problem/1775/A1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1775/problem/A1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1775/problem/A1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1775A1%20Gardener%20and%20the%20Capybaras%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1775A1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Gardener and the Capybaras (easy version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

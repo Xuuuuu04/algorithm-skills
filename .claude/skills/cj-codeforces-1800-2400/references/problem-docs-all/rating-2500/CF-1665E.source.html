@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1665E MinimizOR - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1665E","type":"CF","title":"MinimizOR","difficulty":6,"tags":[],"wantsTranslation":false,"totalSubmit":831,"totalAccepted":358,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"MinimizOR","background":"","description":"\u7ed9\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u975e\u8d1f\u6574\u6570\u6570\u5217 $a$\uff0c\u4e0b\u6807\u7f16\u53f7\u4ece $1$ \u5230 $n$\u3002\n\n\u5b9a\u4e49\u4e00\u4e2a\u6570\u5217 $a$ \u7684\u4ee3\u4ef7\u4e3a $\\min\\limits_{i\\neq j} a_i|a_j$\uff0c\u5176\u4e2d $|$ \u8868\u793a [\u6309\u4f4d\u6216](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#OR) \u8fd0\u7b97\u3002\n\n$q$ \u4e2a\u8be2\u95ee\uff0c\u6bcf\u4e2a\u8be2\u95ee\u7ed9\u51fa\u4e24\u4e2a\u6574\u6570 $l,r\\ (l\u003Cr)$\uff0c\u6c42\u6570\u5217 $a_l,a_{l+1},\\dots,a_r$ \u7684\u6700\u5c0f\u4ee3\u4ef7\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u6709\u591a\u7ec4\u6570\u636e\u3002\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $t\\ (1\\leq t\\leq 10^4)$ \u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7684\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $n\\ (2\\leq n\\leq 10^5)$ \u8868\u793a\u6570\u5217 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u4e3a $n$ \u4e2a\u6574\u6570 $a_1,a_2,\\dots,a_n\\ (0\\leq a_i\u003C 2^{30})$\u3002\n\n\u7b2c\u4e09\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $q\\ (1\\leq q\\leq 10^5)$ \u8868\u793a\u8be2\u95ee\u4e2a\u6570\u3002\n\n\u4e0b\u9762 $q$ \u884c\u6bcf\u884c\u4e3a\u4e24\u4e2a\u6574\u6570 $l_j,r_j\\ (1\\leq l_j\u003Cr_j\\leq n)$ \u8868\u793a\u7b2c $j$ \u4e2a\u8be2\u95ee\u7684 $l,r$\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u7684\u6570\u636e\u4fdd\u8bc1 $\\sum n,\\sum q\\leq 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6570\u636e\u8f93\u51fa $q$ \u4e2a\u6574\u6570\uff0c\u7b2c $j$ \u4e2a\u6570\u8868\u793a\u6570\u5217 $a_{l_j},a_{l_j+1},\\dots,a_{r_j}$ \u7684\u4ee3\u4ef7\u3002","hint":"","locale":"zh-CN"},"content":{"name":"MinimizOR","background":"","description":"You are given an array $ a $ of $ n $ non-negative integers, numbered from $ 1 $ to $ n $ .\n\nLet\u0027s define the cost of the array $ a $ as $ \\displaystyle \\min_{i \\neq j} a_i | a_j $ , where $ | $ denotes the [bitwise OR operation](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#OR).\n\nThere are $ q $ queries. For each query you are given two integers $ l $ and $ r $ ( $ l \u003C r $ ). For each query you should find the cost of the subarray $ a_{l}, a_{l + 1}, \\ldots, a_{r} $ .","formatI":"Each test case consists of several test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains an integer $ n $ ( $ 2 \\le n \\le 10^5 $ ) \u2014 the length array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\le a_i \u003C 2^{30} $ ) \u2014 the elements of $ a $ .\n\nThe third line of each test case contains an integer $ q $ ( $ 1 \\le q \\le 10^5 $ ) \u2014 the number of queries.\n\nEach of the next $ q $ lines contains two integers $ l_j $ , $ r_j $ ( $ 1 \\le l_j \u003C r_j \\le n $ ) \u2014 the description of the $ j $ -th query.\n\nIt is guaranteed that the sum of $ n $ and the sum of $ q $ over all test cases do not exceed $ 10^5 $ .","formatO":"For each test case print $ q $ numbers, where the $ j $ -th number is the cost of array $ a_{l_j}, a_{l_j + 1}, \\ldots, a_{r_j} $ .","hint":"In the first test case the array $ a $ is\n\n $ 110_2, 001_2, 011_2, 010_2, 001_2 $ .\n\nThat\u0027s why the answers for the queries are:\n\n- $ [1; 2] $ : $ a_1 | a_2 = 110_2 | 001_2 = 111_2 = 7 $ ;\n- $ [2; 3] $ : $ a_2 | a_3 = 001_2 | 011_2 = 011_2 = 3 $ ;\n- $ [2; 4] $ : $ a_2 | a_3 = a_3 | a_4 = a_2 | a_4 = 011_2 = 3 $ ;\n- $ [2; 5] $ : $ a_2 | a_5 = 001_2 = 1 $ .\n\nIn the second test case the array $ a $ is\n\n $ 00_2, 10_2, 01_2, \\underbrace{11\\ldots 1_2}_{30} $ ( $ a_4 = 2^{30} - 1 $ ).\n\nThat\u0027s why the answers for the queries are:\n\n- $ [1; 2] $ : $ a_1 | a_2 = 10_2 = 2 $ ;\n- $ [2; 3] $ : $ a_2 | a_3 = 11_2 = 3 $ ;\n- $ [1; 3] $ : $ a_1 | a_3 = 01_2 = 1 $ ;\n- $ [3; 4] $ : $ a_3 | a_4 = 01_2 | \\underbrace{11\\ldots 1_2}_{30} = 2^{30} - 1 = 1073741823 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n5\n6 1 3 2 1\n4\n1 2\n2 3\n2 4\n2 5\n4\n0 2 1 1073741823\n4\n1 2\n2 3\n1 3\n3 4","7\n3\n3\n1\n2\n3\n1\n1073741823"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"1665E","link":"https:\/\/codeforces.com\/problemset\/problem\/1665\/E"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\n\u7ed9\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u975e\u8d1f\u6574\u6570\u6570\u5217 $a$\uff0c\u4e0b\u6807\u7f16\u53f7\u4ece $1$ \u5230 $n$\u3002\n\n\u5b9a\u4e49\u4e00\u4e2a\u6570\u5217 $a$ \u7684\u4ee3\u4ef7\u4e3a $\\min\\limits_{i\\neq j} a_i|a_j$\uff0c\u5176\u4e2d $|$ \u8868\u793a [\u6309\u4f4d\u6216](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#OR) \u8fd0\u7b97\u3002\n\n$q$ \u4e2a\u8be2\u95ee\uff0c\u6bcf\u4e2a\u8be2\u95ee\u7ed9\u51fa\u4e24\u4e2a\u6574\u6570 $l,r\\ (l\u003Cr)$\uff0c\u6c42\u6570\u5217 $a_l,a_{l+1},\\dots,a_r$ \u7684\u6700\u5c0f\u4ee3\u4ef7\u3002 \n\n### \u8f93\u5165\u683c\u5f0f\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u6709\u591a\u7ec4\u6570\u636e\u3002\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $t\\ (1\\leq t\\leq 10^4)$ \u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7684\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $n\\ (2\\leq n\\leq 10^5)$ \u8868\u793a\u6570\u5217 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u4e3a $n$ \u4e2a\u6574\u6570 $a_1,a_2,\\dots,a_n\\ (0\\leq a_i\u003C 2^{30})$\u3002\n\n\u7b2c\u4e09\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $q\\ (1\\leq q\\leq 10^5)$ \u8868\u793a\u8be2\u95ee\u4e2a\u6570\u3002\n\n\u4e0b\u9762 $q$ \u884c\u6bcf\u884c\u4e3a\u4e24\u4e2a\u6574\u6570 $l_j,r_j\\ (1\\leq l_j\u003Cr_j\\leq n)$ \u8868\u793a\u7b2c $j$ \u4e2a\u8be2\u95ee\u7684 $l,r$\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u7684\u6570\u636e\u4fdd\u8bc1 $\\sum n,\\sum q\\leq 10^5$\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6570\u636e\u8f93\u51fa $q$ \u4e2a\u6574\u6570\uff0c\u7b2c $j$ \u4e2a\u6570\u8868\u793a\u6570\u5217 $a_{l_j},a_{l_j+1},\\dots,a_{r_j}$ \u7684\u4ee3\u4ef7\u3002"},"translations":{"en":{"name":"MinimizOR","background":"","description":"You are given an array $ a $ of $ n $ non-negative integers, numbered from $ 1 $ to $ n $ .\n\nLet\u0027s define the cost of the array $ a $ as $ \\displaystyle \\min_{i \\neq j} a_i | a_j $ , where $ | $ denotes the [bitwise OR operation](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#OR).\n\nThere are $ q $ queries. For each query you are given two integers $ l $ and $ r $ ( $ l \u003C r $ ). For each query you should find the cost of the subarray $ a_{l}, a_{l + 1}, \\ldots, a_{r} $ .","formatI":"Each test case consists of several test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains an integer $ n $ ( $ 2 \\le n \\le 10^5 $ ) \u2014 the length array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\le a_i \u003C 2^{30} $ ) \u2014 the elements of $ a $ .\n\nThe third line of each test case contains an integer $ q $ ( $ 1 \\le q \\le 10^5 $ ) \u2014 the number of queries.\n\nEach of the next $ q $ lines contains two integers $ l_j $ , $ r_j $ ( $ 1 \\le l_j \u003C r_j \\le n $ ) \u2014 the description of the $ j $ -th query.\n\nIt is guaranteed that the sum of $ n $ and the sum of $ q $ over all test cases do not exceed $ 10^5 $ .","formatO":"For each test case print $ q $ numbers, where the $ j $ -th number is the cost of array $ a_{l_j}, a_{l_j + 1}, \\ldots, a_{r_j} $ .","hint":"In the first test case the array $ a $ is\n\n $ 110_2, 001_2, 011_2, 010_2, 001_2 $ .\n\nThat\u0027s why the answers for the queries are:\n\n- $ [1; 2] $ : $ a_1 | a_2 = 110_2 | 001_2 = 111_2 = 7 $ ;\n- $ [2; 3] $ : $ a_2 | a_3 = 001_2 | 011_2 = 011_2 = 3 $ ;\n- $ [2; 4] $ : $ a_2 | a_3 = a_3 | a_4 = a_2 | a_4 = 011_2 = 3 $ ;\n- $ [2; 5] $ : $ a_2 | a_5 = 001_2 = 1 $ .\n\nIn the second test case the array $ a $ is\n\n $ 00_2, 10_2, 01_2, \\underbrace{11\\ldots 1_2}_{30} $ ( $ a_4 = 2^{30} - 1 $ ).\n\nThat\u0027s why the answers for the queries are:\n\n- $ [1; 2] $ : $ a_1 | a_2 = 10_2 = 2 $ ;\n- $ [2; 3] $ : $ a_2 | a_3 = 11_2 = 3 $ ;\n- $ [1; 3] $ : $ a_1 | a_3 = 01_2 = 1 $ ;\n- $ [3; 4] $ : $ a_3 | a_4 = 01_2 | \\underbrace{11\\ldots 1_2}_{30} = 2^{30} - 1 = 1073741823 $ .","locale":"en"},"zh-CN":{"name":"MinimizOR","background":"","description":"\u7ed9\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u975e\u8d1f\u6574\u6570\u6570\u5217 $a$\uff0c\u4e0b\u6807\u7f16\u53f7\u4ece $1$ \u5230 $n$\u3002\n\n\u5b9a\u4e49\u4e00\u4e2a\u6570\u5217 $a$ \u7684\u4ee3\u4ef7\u4e3a $\\min\\limits_{i\\neq j} a_i|a_j$\uff0c\u5176\u4e2d $|$ \u8868\u793a [\u6309\u4f4d\u6216](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#OR) \u8fd0\u7b97\u3002\n\n$q$ \u4e2a\u8be2\u95ee\uff0c\u6bcf\u4e2a\u8be2\u95ee\u7ed9\u51fa\u4e24\u4e2a\u6574\u6570 $l,r\\ (l\u003Cr)$\uff0c\u6c42\u6570\u5217 $a_l,a_{l+1},\\dots,a_r$ \u7684\u6700\u5c0f\u4ee3\u4ef7\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u6709\u591a\u7ec4\u6570\u636e\u3002\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $t\\ (1\\leq t\\leq 10^4)$ \u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7684\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $n\\ (2\\leq n\\leq 10^5)$ \u8868\u793a\u6570\u5217 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u4e3a $n$ \u4e2a\u6574\u6570 $a_1,a_2,\\dots,a_n\\ (0\\leq a_i\u003C 2^{30})$\u3002\n\n\u7b2c\u4e09\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $q\\ (1\\leq q\\leq 10^5)$ \u8868\u793a\u8be2\u95ee\u4e2a\u6570\u3002\n\n\u4e0b\u9762 $q$ \u884c\u6bcf\u884c\u4e3a\u4e24\u4e2a\u6574\u6570 $l_j,r_j\\ (1\\leq l_j\u003Cr_j\\leq n)$ \u8868\u793a\u7b2c $j$ \u4e2a\u8be2\u95ee\u7684 $l,r$\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u7684\u6570\u636e\u4fdd\u8bc1 $\\sum n,\\sum q\\leq 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6570\u636e\u8f93\u51fa $q$ \u4e2a\u6574\u6570\uff0c\u7b2c $j$ \u4e2a\u6570\u8868\u793a\u6570\u5217 $a_{l_j},a_{l_j+1},\\dots,a_{r_j}$ \u7684\u4ee3\u4ef7\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1665E MinimizOR","type":2,"slug":"CF1665E","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.282391,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1665E MinimizOR","description":"\u7ed9\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u975e\u8d1f\u6574\u6570\u6570\u5217 a\uff0c\u4e0b\u6807\u7f16\u53f7\u4ece 1 \u5230 n\u3002\n\u5b9a\u4e49\u4e00\u4e2a\u6570\u5217 a \u7684\u4ee3\u4ef7\u4e3a \\min\\limits_{i\\neq j} a_i|a_j\uff0c\u5176\u4e2d | \u8868\u793a \u6309\u4f4d\u6216 \u8fd0\u7b97\u3002\n"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1665E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1665E?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1665E?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1665E MinimizOR" />
+    <meta property="og:description" content="给出一个长度为 n 的非负整数数列 a，下标编号从 1 到 n。
+定义一个数列 a 的代价为 \min\limits_{i\neq j} a_i|a_j，其中 | 表示 按位或 运算。
+" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1665E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1665E MinimizOR</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给出一个长度为 $n$ 的非负整数数列 $a$，下标编号从 $1$ 到 $n$。
+
+定义一个数列 $a$ 的代价为 $\min\limits_{i\neq j} a_i|a_j$，其中 $|$ 表示 [按位或](https://en.wikipedia.org/wiki/Bitwise_operation#OR) 运算。
+
+$q$ 个询问，每个询问给出两个整数 $l,r\ (l
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试点有多组数据。输入的第一行为一个整数 $t\ (1\leq t\leq 10^4)$ 表示数据组数。
+
+每组数据的第一行为一个整数 $n\ (2\leq n\leq 10^5)$ 表示数列 $a$ 的长度。
+
+第二行为 $n$ 个整数 $a_1,a_2,\dots,a_n\ (0\leq a_i< 2^{30})$。
+
+第三行为一个整数 $q\ (1\leq q\leq 10^5)$ 表示询问个数。
+
+下面 $q$ 行每行为两个整数 $l_j,r_j\ (1\leq l_j
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试数据输出 $q$ 个整数，第 $j$ 个数表示数列 $a_{l_j},a_{l_j+1},\dots,a_{r_j}$ 的代价。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case the array $ a $ is
+
+ $ 110_2, 001_2, 011_2, 010_2, 001_2 $ .
+
+That's why the answers for the queries are:
+
+- $ [1; 2] $ : $ a_1 | a_2 = 110_2 | 001_2 = 111_2 = 7 $ ;
+- $ [2; 3] $ : $ a_2 | a_3 = 001_2 | 011_2 = 011_2 = 3 $ ;
+- $ [2; 4] $ : $ a_2 | a_3 = a_3 | a_4 = a_2 | a_4 = 011_2 = 3 $ ;
+- $ [2; 5] $ : $ a_2 | a_5 = 001_2 = 1 $ .
+
+In the second test case the array $ a $ is
+
+ $ 00_2, 10_2, 01_2, \underbrace{11\ldots 1_2}_{30} $ ( $ a_4 = 2^{30} - 1 $ ).
+
+That's why the answers for the queries are:
+
+- $ [1; 2] $ : $ a_1 | a_2 = 10_2 = 2 $ ;
+- $ [2; 3] $ : $ a_2 | a_3 = 11_2 = 3 $ ;
+- $ [1; 3] $ : $ a_1 | a_3 = 01_2 = 1 $ ;
+- $ [3; 4] $ : $ a_3 | a_4 = 01_2 | \underbrace{11\ldots 1_2}_{30} = 2^{30} - 1 = 1073741823 $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "id": "CF-1165F2",
+  "contest_id": 1165,
+  "index": "F2",
+  "name": "Microtransactions (hard version)",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 2431,
+  "problem_url": "https://codeforces.com/problemset/problem/1165/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1165/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1165/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1165F2%20Microtransactions%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1165F2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Microtransactions (hard version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

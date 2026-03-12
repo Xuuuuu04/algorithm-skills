@@ -1,0 +1,32 @@
+{
+  "id": "CF-540D",
+  "contest_id": 540,
+  "index": "D",
+  "name": "Bad Luck Island",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "probabilities"
+  ],
+  "solved_count": 6408,
+  "problem_url": "https://codeforces.com/problemset/problem/540/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/540/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/540/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=540D%20Bad%20Luck%20Island%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P540D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bad Luck Island - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "probabilities",
+      "*1900"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

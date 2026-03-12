@@ -1,0 +1,35 @@
+{
+  "id": "CF-1624F",
+  "contest_id": 1624,
+  "index": "F",
+  "name": "Interacdive Problem",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1624/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1624/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1624/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1624F%20Interacdive Problem%20tutorial",
+  "solved_count": 3757,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1624F",
+  "hydro_meta": {
+    "page_title": "Interacdive Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "interactive"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

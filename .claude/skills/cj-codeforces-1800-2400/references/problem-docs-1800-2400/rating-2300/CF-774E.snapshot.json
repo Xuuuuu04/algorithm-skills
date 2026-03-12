@@ -1,0 +1,36 @@
+{
+  "id": "CF-774E",
+  "contest_id": 774,
+  "index": "E",
+  "name": "Big Number and Remainder",
+  "rating": 2300,
+  "tags": [
+    "*special",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/774/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/774/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/774/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=774E%20Big Number and Remainder%20tutorial",
+  "solved_count": 248,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P774E",
+  "hydro_meta": {
+    "page_title": "Big Number and Remainder - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

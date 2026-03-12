@@ -1,0 +1,38 @@
+{
+  "id": "CF-1525C",
+  "contest_id": 1525,
+  "index": "C",
+  "name": "Robot Collisions",
+  "rating": 2000,
+  "tags": [
+    "data structures",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1525/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1525/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1525/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1525C%20Robot Collisions%20tutorial",
+  "solved_count": 4782,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1525C",
+  "hydro_meta": {
+    "page_title": "Robot Collisions - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

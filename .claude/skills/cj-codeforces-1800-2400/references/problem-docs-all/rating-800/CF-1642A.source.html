@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1642A Hard Way - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1642A","type":"CF","title":"Hard Way","difficulty":1,"tags":[8],"wantsTranslation":false,"totalSubmit":315,"totalAccepted":200,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Hard Way","background":"","description":"# \u9898\u9762\u7b80\u8ff0\n\nSam \u4f4f\u5728 Awesomeburg\uff0c\u5176\u5e02\u4e2d\u5fc3\u4e3a\u4e09\u89d2\u5f62\u3002 \u6b64\u5916\uff0c\u4e09\u89d2\u5f62\u6ee1\u8db3\uff1a\n\n- \u5b83\u7684\u9876\u70b9\u5177\u6709\u6574\u6570\u5750\u6807\u3002\n- \u5b83\u7684\u9876\u70b9\u5177\u6709\u975e\u8d1f\u5750\u6807\u3002\n- \u5b83\u7684\u9876\u70b9\u4e0d\u4f1a\u5171\u7ebf\u3002\n\n\u5982\u679c\u4ed6\u53ef\u4ee5\u4ece X \u8f74\u7684\u81f3\u5c11\u4e00\u4e2a\u70b9\u6cbf\u7740\u67d0\u6761\u76f4\u7ebf\u884c\u8d70\u800c\u4e0d\u7a7f\u8fc7\u4e09\u89d2\u5f62\u7684\u5185\u90e8\uff0c\u4ed6\u5c31\u79f0\u5e02\u4e2d\u5fc3\u8fb9\u754c\u4e0a\u7684\u4e00\u4e2a\u70b9\uff08\u5373\u4e09\u89d2\u5f62\u7684\u8fb9\u754c\uff09\u662f\u5b89\u5168\u7684\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1642A\/e2013fd23336b6f6190b1c93f2f1758325693e6d.png)\n\n\u5728\u56fe\u7247\u4e2d\uff0c\u5e02\u4e2d\u5fc3\u7528\u7070\u8272\u6807\u8bb0\u3002\n\n\u7b2c\u4e00\u6761\u8def\u5f84\u65e0\u6548\uff0c\u56e0\u4e3a\u5b83\u4e0d\u6cbf\u7740\u76f4\u7ebf\u8d70\u3002\n\n\u7b2c\u4e8c\u6761\u8def\u5f84\u65e0\u6548\uff0c\u56e0\u4e3a\u5b83\u4e0e\u5e02\u4e2d\u5fc3\u7684\u5185\u90e8\u76f8\u4ea4\u3002\n\n\u7b2c\u4e09\u6761\u548c\u7b2c\u56db\u6761\u8def\u5f84\u662f\u6b63\u786e\u7684\u3002\n\n\u6c42\u5e02\u533a\u8fb9\u754c\u4e0d\u5b89\u5168\u90e8\u5206\u7684\u603b\u957f\u5ea6\u3002 \u53ef\u4ee5\u8bc1\u660e\uff0c\u8fd9\u4e9b\u90e8\u5206\u662f\u6bb5\uff0c\u5b83\u4eec\u7684\u6570\u91cf\u662f\u6709\u9650\u7684\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002 \u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000 $\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u6bcf\u4e00\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u5982\u4e0b\uff1a\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e09\u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $x, y$\uff08$0 \\le x_i, y_i \\le 10^9$\uff09\uff0c\u8868\u793a\u5e02\u4e2d\u5fc3\u8fb9\u754c\u9876\u70b9\u7684\u5750\u6807\u3002","formatO":"\u4e3a\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u8f93\u51fa\u95ee\u9898\u7684\u7b54\u6848\u3002\n\n\u5982\u679c\u7edd\u5bf9\u6216\u76f8\u5bf9\u8bef\u5dee\u4e0d\u8d85\u8fc7 $10^{-9}$\uff0c\u5219\u60a8\u7684\u7b54\u6848\u5c06\u88ab\u89c6\u4e3a\u6b63\u786e\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Hard Way","background":"","description":"Sam lives in Awesomeburg, its downtown has a triangular shape. Also, the following is true about the triangle:\n\n- its vertices have integer coordinates,\n- the coordinates of vertices are non-negative, and\n- its vertices are not on a single line.\n\nHe calls a point on the downtown\u0027s border (that is the border of the triangle) safe if he can reach this point from at least one point of the line $ y = 0 $ walking along some straight line, without crossing the interior of the triangle.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1642A\/e2013fd23336b6f6190b1c93f2f1758325693e6d.png)In the picture the downtown is marked with grey color. The first path is invalid because it does not go along a straight line. The second path is invalid because it intersects with the interior of the downtown. The third and fourth paths are correct.Find the total length of the unsafe parts of the downtown border. It can be proven that these parts are segments and their number is finite.","formatI":"Each test contains multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases. Description of the test cases follows.\n\nEach test case contains three lines, each of them contains two integers $ x_i $ , $ y_i $ ( $ 0 \\le x_i, y_i \\le 10^9 $ ) \u2014 coordinates of the vertices of the downtown\u0027s border.","formatO":"For each test case print a single number \u2014 the answer to the problem.\n\nYour answer will be considered correct if its absolute or relative error does not exceed $ 10^{-9} $ . Formally let your answer be $ a $ , jury answer be $ b $ . Your answer will be considered correct if $ \\frac{|a - b|}{\\max{(1, |b|)}} \\le 10^{-9} $ .","hint":"In the picture, the downtowns of the first three test cases are illustrated. Triangles are enumerated according to the indices of test cases they belong to.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1642A\/97925eac9d0b542d0fbf94894a34867df09a7fd0.png)In the first two test cases, all points on the borders of the downtowns are safe, thus the answers are $ 0 $ .\n\nIn the following picture unsafe points for the third test case are marked with black color:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1642A\/bd252d53633e695cb006d77cf34133cf6ce27f27.png)In the fourth test case, all points on the border of the downtown are safe.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n8 10\n10 4\n6 2\n4 6\n0 1\n4 2\n14 1\n11 2\n13 2\n0 0\n4 0\n2 4\n0 1\n1 1\n0 0","0.0000000\n0\n2.0000\n0.00\n1"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1642A","link":"https:\/\/codeforces.com\/problemset\/problem\/1642\/A"},"translation":"# \u9898\u9762\u7b80\u8ff0\n\nSam \u4f4f\u5728 Awesomeburg\uff0c\u5176\u5e02\u4e2d\u5fc3\u4e3a\u4e09\u89d2\u5f62\u3002 \u6b64\u5916\uff0c\u4e09\u89d2\u5f62\u6ee1\u8db3\uff1a\n\n- \u5b83\u7684\u9876\u70b9\u5177\u6709\u6574\u6570\u5750\u6807\u3002\n- \u5b83\u7684\u9876\u70b9\u5177\u6709\u975e\u8d1f\u5750\u6807\u3002\n- \u5b83\u7684\u9876\u70b9\u4e0d\u4f1a\u5171\u7ebf\u3002\n\n\u5982\u679c\u4ed6\u53ef\u4ee5\u4ece X \u8f74\u7684\u81f3\u5c11\u4e00\u4e2a\u70b9\u6cbf\u7740\u67d0\u6761\u76f4\u7ebf\u884c\u8d70\u800c\u4e0d\u7a7f\u8fc7\u4e09\u89d2\u5f62\u7684\u5185\u90e8\uff0c\u4ed6\u5c31\u79f0\u5e02\u4e2d\u5fc3\u8fb9\u754c\u4e0a\u7684\u4e00\u4e2a\u70b9\uff08\u5373\u4e09\u89d2\u5f62\u7684\u8fb9\u754c\uff09\u662f\u5b89\u5168\u7684\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1642A\/e2013fd23336b6f6190b1c93f2f1758325693e6d.png)\n\n\u5728\u56fe\u7247\u4e2d\uff0c\u5e02\u4e2d\u5fc3\u7528\u7070\u8272\u6807\u8bb0\u3002\n\n\u7b2c\u4e00\u6761\u8def\u5f84\u65e0\u6548\uff0c\u56e0\u4e3a\u5b83\u4e0d\u6cbf\u7740\u76f4\u7ebf\u8d70\u3002\n\n\u7b2c\u4e8c\u6761\u8def\u5f84\u65e0\u6548\uff0c\u56e0\u4e3a\u5b83\u4e0e\u5e02\u4e2d\u5fc3\u7684\u5185\u90e8\u76f8\u4ea4\u3002\n\n\u7b2c\u4e09\u6761\u548c\u7b2c\u56db\u6761\u8def\u5f84\u662f\u6b63\u786e\u7684\u3002\n\n\u6c42\u5e02\u533a\u8fb9\u754c\u4e0d\u5b89\u5168\u90e8\u5206\u7684\u603b\u957f\u5ea6\u3002 \u53ef\u4ee5\u8bc1\u660e\uff0c\u8fd9\u4e9b\u90e8\u5206\u662f\u6bb5\uff0c\u5b83\u4eec\u7684\u6570\u91cf\u662f\u6709\u9650\u7684\u3002\n\n# \u8f93\u5165\u683c\u5f0f\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002 \u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000 $\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u6bcf\u4e00\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u5982\u4e0b\uff1a\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e09\u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $x, y$\uff08$0 \\le x_i, y_i \\le 10^9$\uff09\uff0c\u8868\u793a\u5e02\u4e2d\u5fc3\u8fb9\u754c\u9876\u70b9\u7684\u5750\u6807\u3002\n\n# \u8f93\u51fa\u683c\u5f0f\n\n\u4e3a\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u8f93\u51fa\u95ee\u9898\u7684\u7b54\u6848\u3002\n\n\u5982\u679c\u7edd\u5bf9\u6216\u76f8\u5bf9\u8bef\u5dee\u4e0d\u8d85\u8fc7 $10^{-9}$\uff0c\u5219\u60a8\u7684\u7b54\u6848\u5c06\u88ab\u89c6\u4e3a\u6b63\u786e\u3002"},"translations":{"en":{"name":"Hard Way","background":"","description":"Sam lives in Awesomeburg, its downtown has a triangular shape. Also, the following is true about the triangle:\n\n- its vertices have integer coordinates,\n- the coordinates of vertices are non-negative, and\n- its vertices are not on a single line.\n\nHe calls a point on the downtown\u0027s border (that is the border of the triangle) safe if he can reach this point from at least one point of the line $ y = 0 $ walking along some straight line, without crossing the interior of the triangle.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1642A\/e2013fd23336b6f6190b1c93f2f1758325693e6d.png)In the picture the downtown is marked with grey color. The first path is invalid because it does not go along a straight line. The second path is invalid because it intersects with the interior of the downtown. The third and fourth paths are correct.Find the total length of the unsafe parts of the downtown border. It can be proven that these parts are segments and their number is finite.","formatI":"Each test contains multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases. Description of the test cases follows.\n\nEach test case contains three lines, each of them contains two integers $ x_i $ , $ y_i $ ( $ 0 \\le x_i, y_i \\le 10^9 $ ) \u2014 coordinates of the vertices of the downtown\u0027s border.","formatO":"For each test case print a single number \u2014 the answer to the problem.\n\nYour answer will be considered correct if its absolute or relative error does not exceed $ 10^{-9} $ . Formally let your answer be $ a $ , jury answer be $ b $ . Your answer will be considered correct if $ \\frac{|a - b|}{\\max{(1, |b|)}} \\le 10^{-9} $ .","hint":"In the picture, the downtowns of the first three test cases are illustrated. Triangles are enumerated according to the indices of test cases they belong to.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1642A\/97925eac9d0b542d0fbf94894a34867df09a7fd0.png)In the first two test cases, all points on the borders of the downtowns are safe, thus the answers are $ 0 $ .\n\nIn the following picture unsafe points for the third test case are marked with black color:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1642A\/bd252d53633e695cb006d77cf34133cf6ce27f27.png)In the fourth test case, all points on the border of the downtown are safe.","locale":"en"},"zh-CN":{"name":"Hard Way","background":"","description":"# \u9898\u9762\u7b80\u8ff0\n\nSam \u4f4f\u5728 Awesomeburg\uff0c\u5176\u5e02\u4e2d\u5fc3\u4e3a\u4e09\u89d2\u5f62\u3002 \u6b64\u5916\uff0c\u4e09\u89d2\u5f62\u6ee1\u8db3\uff1a\n\n- \u5b83\u7684\u9876\u70b9\u5177\u6709\u6574\u6570\u5750\u6807\u3002\n- \u5b83\u7684\u9876\u70b9\u5177\u6709\u975e\u8d1f\u5750\u6807\u3002\n- \u5b83\u7684\u9876\u70b9\u4e0d\u4f1a\u5171\u7ebf\u3002\n\n\u5982\u679c\u4ed6\u53ef\u4ee5\u4ece X \u8f74\u7684\u81f3\u5c11\u4e00\u4e2a\u70b9\u6cbf\u7740\u67d0\u6761\u76f4\u7ebf\u884c\u8d70\u800c\u4e0d\u7a7f\u8fc7\u4e09\u89d2\u5f62\u7684\u5185\u90e8\uff0c\u4ed6\u5c31\u79f0\u5e02\u4e2d\u5fc3\u8fb9\u754c\u4e0a\u7684\u4e00\u4e2a\u70b9\uff08\u5373\u4e09\u89d2\u5f62\u7684\u8fb9\u754c\uff09\u662f\u5b89\u5168\u7684\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1642A\/e2013fd23336b6f6190b1c93f2f1758325693e6d.png)\n\n\u5728\u56fe\u7247\u4e2d\uff0c\u5e02\u4e2d\u5fc3\u7528\u7070\u8272\u6807\u8bb0\u3002\n\n\u7b2c\u4e00\u6761\u8def\u5f84\u65e0\u6548\uff0c\u56e0\u4e3a\u5b83\u4e0d\u6cbf\u7740\u76f4\u7ebf\u8d70\u3002\n\n\u7b2c\u4e8c\u6761\u8def\u5f84\u65e0\u6548\uff0c\u56e0\u4e3a\u5b83\u4e0e\u5e02\u4e2d\u5fc3\u7684\u5185\u90e8\u76f8\u4ea4\u3002\n\n\u7b2c\u4e09\u6761\u548c\u7b2c\u56db\u6761\u8def\u5f84\u662f\u6b63\u786e\u7684\u3002\n\n\u6c42\u5e02\u533a\u8fb9\u754c\u4e0d\u5b89\u5168\u90e8\u5206\u7684\u603b\u957f\u5ea6\u3002 \u53ef\u4ee5\u8bc1\u660e\uff0c\u8fd9\u4e9b\u90e8\u5206\u662f\u6bb5\uff0c\u5b83\u4eec\u7684\u6570\u91cf\u662f\u6709\u9650\u7684\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002 \u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000 $\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u6bcf\u4e00\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u5982\u4e0b\uff1a\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e09\u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $x, y$\uff08$0 \\le x_i, y_i \\le 10^9$\uff09\uff0c\u8868\u793a\u5e02\u4e2d\u5fc3\u8fb9\u754c\u9876\u70b9\u7684\u5750\u6807\u3002","formatO":"\u4e3a\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u8f93\u51fa\u95ee\u9898\u7684\u7b54\u6848\u3002\n\n\u5982\u679c\u7edd\u5bf9\u6216\u76f8\u5bf9\u8bef\u5dee\u4e0d\u8d85\u8fc7 $10^{-9}$\uff0c\u5219\u60a8\u7684\u7b54\u6848\u5c06\u88ab\u89c6\u4e3a\u6b63\u786e\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1642A Hard Way","type":2,"slug":"CF1642A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.1158,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1642A Hard Way","description":"\u9898\u9762\u7b80\u8ff0\nSam \u4f4f\u5728 Awesomeburg\uff0c\u5176\u5e02\u4e2d\u5fc3\u4e3a\u4e09\u89d2\u5f62\u3002 \u6b64\u5916\uff0c\u4e09\u89d2\u5f62\u6ee1\u8db3\uff1a\n\n\u5b83\u7684\u9876\u70b9\u5177\u6709\u6574\u6570\u5750\u6807\u3002\n\u5b83\u7684\u9876\u70b9\u5177\u6709\u975e\u8d1f\u5750\u6807\u3002\n\u5b83\u7684\u9876\u70b9\u4e0d\u4f1a\u5171\u7ebf\u3002\n\n\u5982\u679c\u4ed6\u53ef\u4ee5\u4ece X \u8f74\u7684\u81f3\u5c11\u4e00\u4e2a\u70b9\u6cbf\u7740\u67d0\u6761\u76f4\u7ebf\u884c\u8d70\u800c\u4e0d\u7a7f\u8fc7\u4e09\u89d2\u5f62\u7684\u5185\u90e8\uff0c\u4ed6\u5c31\u79f0\u5e02\u4e2d\u5fc3\u8fb9\u754c\u4e0a\u7684\u4e00\u4e2a\u70b9\uff08\u5373\u4e09\u89d2\u5f62\u7684\u8fb9\u754c\uff09\u662f\u5b89\u5168\u7684\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1642A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1642A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1642A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1642A Hard Way" />
+    <meta property="og:description" content="题面简述
+Sam 住在 Awesomeburg，其市中心为三角形。 此外，三角形满足：
+
+它的顶点具有整数坐标。
+它的顶点具有非负坐标。
+它的顶点不会共线。
+
+如果他可以从 X 轴的至少一个点沿着某条直线行走而不穿过三角形的内部，他就称市中心边界上的一个点（即三角形的边界）是安全的。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1642A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1642A Hard Way</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    # 题面简述
+
+Sam 住在 Awesomeburg，其市中心为三角形。 此外，三角形满足：
+
+- 它的顶点具有整数坐标。
+- 它的顶点具有非负坐标。
+- 它的顶点不会共线。
+
+如果他可以从 X 轴的至少一个点沿着某条直线行走而不穿过三角形的内部，他就称市中心边界上的一个点（即三角形的边界）是安全的。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1642A/e2013fd23336b6f6190b1c93f2f1758325693e6d.png)
+
+在图片中，市中心用灰色标记。
+
+第一条路径无效，因为它不沿着直线走。
+
+第二条路径无效，因为它与市中心的内部相交。
+
+第三条和第四条路径是正确的。
+
+求市区边界不安全部分的总长度。 可以证明，这些部分是段，它们的数量是有限的。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试包含多个测试用例。 第一行包含一个整数 $t$（$1 \le t \le 1000 $），表示测试用例的数量。每一组测试用例的描述如下：
+
+每个测试用例包含三行，每行包含两个整数 $x, y$（$0 \le x_i, y_i \le 10^9$），表示市中心边界顶点的坐标。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    为每个测试用例输出问题的答案。
+
+如果绝对或相对误差不超过 $10^{-9}$，则您的答案将被视为正确。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the picture, the downtowns of the first three test cases are illustrated. Triangles are enumerated according to the indices of test cases they belong to.
+
+ ![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1642A/97925eac9d0b542d0fbf94894a34867df09a7fd0.png)In the first two test cases, all points on the borders of the downtowns are safe, thus the answers are $ 0 $ .
+
+In the following picture unsafe points for the third test case are marked with black color:
+
+ ![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1642A/bd252d53633e695cb006d77cf34133cf6ce27f27.png)In the fourth test case, all points on the border of the downtown are safe.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

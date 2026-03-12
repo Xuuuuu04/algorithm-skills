@@ -1,0 +1,27 @@
+{
+  "id": "CF-1906C",
+  "contest_id": 1906,
+  "index": "C",
+  "name": "Cursed Game",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "interactive"
+  ],
+  "solved_count": 260,
+  "problem_url": "https://codeforces.com/problemset/problem/1906/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1906/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1906/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1906C%20Cursed%20Game%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1906C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1906C Cursed Game - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 34,
+    "mirror_attempt": 67,
+    "time_limit": "1000 ms",
+    "memory_limit": "1024000 KB"
+  }
+}

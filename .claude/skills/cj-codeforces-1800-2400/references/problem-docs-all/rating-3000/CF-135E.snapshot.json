@@ -1,0 +1,27 @@
+{
+  "id": "CF-135E",
+  "contest_id": 135,
+  "index": "E",
+  "name": "Weak Subsequence",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "combinatorics"
+  ],
+  "solved_count": 345,
+  "problem_url": "https://codeforces.com/problemset/problem/135/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/135/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/135/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=135E%20Weak%20Subsequence%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF135E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF135E Weak Subsequence - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 54,
+    "mirror_attempt": 121,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

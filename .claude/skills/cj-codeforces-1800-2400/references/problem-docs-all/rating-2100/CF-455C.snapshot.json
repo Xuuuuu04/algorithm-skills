@@ -1,0 +1,38 @@
+{
+  "id": "CF-455C",
+  "contest_id": 455,
+  "index": "C",
+  "name": "Civilization",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "dsu",
+    "ternary search",
+    "trees"
+  ],
+  "solved_count": 6384,
+  "problem_url": "https://codeforces.com/problemset/problem/455/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/455/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/455/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=455C%20Civilization%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P455C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Civilization - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "ternary search",
+      "trees",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 4,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

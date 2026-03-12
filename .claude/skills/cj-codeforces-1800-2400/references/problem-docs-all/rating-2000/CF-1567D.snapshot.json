@@ -1,0 +1,36 @@
+{
+  "id": "CF-1567D",
+  "contest_id": 1567,
+  "index": "D",
+  "name": "Expression Evaluation Error",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 4764,
+  "problem_url": "https://codeforces.com/problemset/problem/1567/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1567/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1567/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1567D%20Expression%20Evaluation%20Error%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1567D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Expression Evaluation Error - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

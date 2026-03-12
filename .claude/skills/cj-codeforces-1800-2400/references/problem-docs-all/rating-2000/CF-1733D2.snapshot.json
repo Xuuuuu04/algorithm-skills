@@ -1,0 +1,28 @@
+{
+  "id": "CF-1733D2",
+  "contest_id": 1733,
+  "index": "D2",
+  "name": "Zero-One (Hard Version)",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 4685,
+  "problem_url": "https://codeforces.com/problemset/problem/1733/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1733/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1733/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1733D2%20Zero-One%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1733/D2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1733D2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

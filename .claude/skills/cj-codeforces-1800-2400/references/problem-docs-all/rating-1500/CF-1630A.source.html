@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1630A And Matching - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1630A","type":"CF","title":"And Matching","difficulty":4,"tags":[],"wantsTranslation":false,"totalSubmit":608,"totalAccepted":307,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"And Matching","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5305\u542b $n$ \u4e2a\u5143\u7d20\u7684\u96c6\u5408\uff08$n$ \u603b\u662f $2$ \u7684\u5e42\uff09\uff0c\u8be5\u96c6\u5408\u6070\u597d\u5305\u542b\u6240\u6709\u6574\u6570 $0, 1, 2, \\ldots, n-1$\u3002\n\n\u8bf7\u5c06\u8fd9\u4e9b\u5143\u7d20\u5206\u6210 $\\frac{n}{2}$ \u5bf9\uff0c\u4f7f\u5f97\uff1a\n\n- \u96c6\u5408\u4e2d\u7684\u6bcf\u4e2a\u5143\u7d20\u6070\u597d\u5c5e\u4e8e\u4e00\u5bf9\u3002\n- \u6240\u6709\u5bf9\u4e2d\u5143\u7d20\u6309\u4f4d\u4e0e\u7684\u548c\u6070\u597d\u7b49\u4e8e $k$\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u82e5\u7b2c $i$ \u5bf9\u4e3a $a_i$ \u548c $b_i$\uff0c\u5219\u9700\u6ee1\u8db3\uff1a$$\\sum_{i=1}^{n\/2}{a_i \\\u0026 b_i} = k$$\uff0c\u5176\u4e2d $\\,\\\u0026\\,$ \u8868\u793a\u6309\u4f4d\u4e0e\u8fd0\u7b97\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u65b9\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u3002\u5982\u679c\u65e0\u89e3\uff0c\u5219\u8f93\u51fa $-1$\u3002","formatI":"\u8f93\u5165\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 400$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u4e00\u884c\uff0c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$4 \\leq n \\leq 2^{16}$\uff0c$n$ \u662f $2$ \u7684\u5e42\uff0c$0 \\leq k \\leq n-1$\uff09\u3002\n\n\u6240\u6709\u6d4b\u8bd5\u6570\u636e\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2^{16}$\u3002\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5747\u4e0d\u76f8\u540c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u5982\u679c\u65e0\u89e3\uff0c\u8f93\u51fa\u4e00\u884c $-1$\u3002\n\n\u5426\u5219\uff0c\u8f93\u51fa $\\frac{n}{2}$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570 $a_i$ \u548c $b_i$\uff0c\u8868\u793a\u4e00\u5bf9\u5143\u7d20\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u65b9\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u3002\u5bf9\u7684\u987a\u5e8f\u548c\u5bf9\u5185\u5143\u7d20\u987a\u5e8f\u5747\u4e0d\u9650\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u4e2d\uff0c$(0\\\u00263)+(1\\\u00262)=0$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u4e2d\uff0c$(0\\\u00262)+(1\\\u00263)=1$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u4e2d\uff0c$(0\\\u00261)+(2\\\u00263)=2$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u4e2d\uff0c\u65e0\u89e3\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"And Matching","background":"","description":"You are given a set of $ n $ ( $ n $ is always a power of $ 2 $ ) elements containing all integers $ 0, 1, 2, \\ldots, n-1 $ exactly once.\n\nFind $ \\frac{n}{2} $ pairs of elements such that:\n\n- Each element in the set is in exactly one pair.\n- The sum over all pairs of the [bitwise AND](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#AND) of its elements must be exactly equal to $ k $ . Formally, if $ a_i $ and $ b_i $ are the elements of the $ i $ -th pair, then the following must hold: $ $$$\\sum_{i=1}^{n\/2}{a_i \\\u0026 b_i} = k, $ $  where  $ \\\\\u0026amp; $  denotes the bitwise AND operation. \u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003EIf there are many solutions, print any of them, if there is no solution, print  $ -1$$$ instead.","formatI":"The input consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 400 $ ) \u2014 the number of test cases. Description of the test cases follows.\n\nEach test case consists of a single line with two integers $ n $ and $ k $ ( $ 4 \\leq n \\leq 2^{16} $ , $ n $ is a power of $ 2 $ , $ 0 \\leq k \\leq n-1 $ ).\n\nThe sum of $ n $ over all test cases does not exceed $ 2^{16} $ . All test cases in each individual input will be pairwise different.","formatO":"For each test case, if there is no solution, print a single line with the integer $ -1 $ .\n\nOtherwise, print $ \\frac{n}{2} $ lines, the $ i $ -th of them must contain $ a_i $ and $ b_i $ , the elements in the $ i $ -th pair.\n\nIf there are many solutions, print any of them. Print the pairs and the elements in the pairs in any order.","hint":"In the first test, $ (0\\\u00263)+(1\\\u00262) = 0 $ .\n\nIn the second test, $ (0\\\u00262)+(1\\\u00263) = 1 $ .\n\nIn the third test, $ (0\\\u00261)+(2\\\u00263) = 2 $ .\n\nIn the fourth test, there is no solution.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n4 0\n4 1\n4 2\n4 3","0 3\n1 2\n0 2\n1 3\n0 1\n2 3\n-1"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1630A","link":"https:\/\/codeforces.com\/problemset\/problem\/1630\/A"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u5bf9\u4e8e\u6240\u6709\u7684 $1\\leqslant i\\leqslant n$\uff0c$a_i=i-1$\u3002\u4f60\u9700\u8981\u5229\u7528 $a$ \u6570\u7ec4\u4e2d\u7684\u6240\u6709\u5143\u7d20\u7ec4\u6210 $\\frac n2$ \u4e2a\u6570\u5bf9 $(p_1,q_1),(p_2,q_2),\\dots,(p_n,q_n)$\uff0c\u4f7f\u5f97 $\\sum\\limits_{i=1}^\\frac n2 p_i\\operatorname{and}q_i=k$\u3002\u5224\u65ad\u662f\u5426\u53ef\u80fd\u6784\u9020\u51fa\u8fd9\u6837\u7684 $\\frac n2$ \u4e2a\u6570\u5bf9\uff0c\u5982\u679c\u53ef\u80fd\uff0c\u8bf7\u6784\u9020\u51fa\u4e00\u7ec4\u53ef\u80fd\u7684 $\\frac n2$ \u4e2a\u6570\u5bf9\uff0c\u5426\u5219\u8f93\u51fa `-1`\u3002\n\n\u6570\u636e\u8303\u56f4\uff1a\n\n- $t$ \u7ec4\u6570\u636e\uff0c$1\\leqslant t\\leqslant 400$\u3002\n- $4\\leqslant n,\\sum n\\leqslant 2^{16}$\uff0c$0\\leqslant k\\leqslant n-1$\u3002\n- **\u4fdd\u8bc1 $n=2^x(x\\in\\mathbb N^*)$\uff0c\u5373 $n$ \u662f $2$ \u7684\u6b21\u5e42**\u3002\n\nTranslated by Eason_AC  \n2022.1.28"},"translations":{"en":{"name":"And Matching","background":"","description":"You are given a set of $ n $ ( $ n $ is always a power of $ 2 $ ) elements containing all integers $ 0, 1, 2, \\ldots, n-1 $ exactly once.\n\nFind $ \\frac{n}{2} $ pairs of elements such that:\n\n- Each element in the set is in exactly one pair.\n- The sum over all pairs of the [bitwise AND](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#AND) of its elements must be exactly equal to $ k $ . Formally, if $ a_i $ and $ b_i $ are the elements of the $ i $ -th pair, then the following must hold: $ $$$\\sum_{i=1}^{n\/2}{a_i \\\u0026 b_i} = k, $ $  where  $ \\\\\u0026amp; $  denotes the bitwise AND operation. \u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003EIf there are many solutions, print any of them, if there is no solution, print  $ -1$$$ instead.","formatI":"The input consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 400 $ ) \u2014 the number of test cases. Description of the test cases follows.\n\nEach test case consists of a single line with two integers $ n $ and $ k $ ( $ 4 \\leq n \\leq 2^{16} $ , $ n $ is a power of $ 2 $ , $ 0 \\leq k \\leq n-1 $ ).\n\nThe sum of $ n $ over all test cases does not exceed $ 2^{16} $ . All test cases in each individual input will be pairwise different.","formatO":"For each test case, if there is no solution, print a single line with the integer $ -1 $ .\n\nOtherwise, print $ \\frac{n}{2} $ lines, the $ i $ -th of them must contain $ a_i $ and $ b_i $ , the elements in the $ i $ -th pair.\n\nIf there are many solutions, print any of them. Print the pairs and the elements in the pairs in any order.","hint":"In the first test, $ (0\\\u00263)+(1\\\u00262) = 0 $ .\n\nIn the second test, $ (0\\\u00262)+(1\\\u00263) = 1 $ .\n\nIn the third test, $ (0\\\u00261)+(2\\\u00263) = 2 $ .\n\nIn the fourth test, there is no solution.","locale":"en"},"zh-CN":{"name":"And Matching","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5305\u542b $n$ \u4e2a\u5143\u7d20\u7684\u96c6\u5408\uff08$n$ \u603b\u662f $2$ \u7684\u5e42\uff09\uff0c\u8be5\u96c6\u5408\u6070\u597d\u5305\u542b\u6240\u6709\u6574\u6570 $0, 1, 2, \\ldots, n-1$\u3002\n\n\u8bf7\u5c06\u8fd9\u4e9b\u5143\u7d20\u5206\u6210 $\\frac{n}{2}$ \u5bf9\uff0c\u4f7f\u5f97\uff1a\n\n- \u96c6\u5408\u4e2d\u7684\u6bcf\u4e2a\u5143\u7d20\u6070\u597d\u5c5e\u4e8e\u4e00\u5bf9\u3002\n- \u6240\u6709\u5bf9\u4e2d\u5143\u7d20\u6309\u4f4d\u4e0e\u7684\u548c\u6070\u597d\u7b49\u4e8e $k$\u3002\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u82e5\u7b2c $i$ \u5bf9\u4e3a $a_i$ \u548c $b_i$\uff0c\u5219\u9700\u6ee1\u8db3\uff1a$$\\sum_{i=1}^{n\/2}{a_i \\\u0026 b_i} = k$$\uff0c\u5176\u4e2d $\\,\\\u0026\\,$ \u8868\u793a\u6309\u4f4d\u4e0e\u8fd0\u7b97\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u65b9\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u3002\u5982\u679c\u65e0\u89e3\uff0c\u5219\u8f93\u51fa $-1$\u3002","formatI":"\u8f93\u5165\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 400$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u4e00\u884c\uff0c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$4 \\leq n \\leq 2^{16}$\uff0c$n$ \u662f $2$ \u7684\u5e42\uff0c$0 \\leq k \\leq n-1$\uff09\u3002\n\n\u6240\u6709\u6d4b\u8bd5\u6570\u636e\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2^{16}$\u3002\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5747\u4e0d\u76f8\u540c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u5982\u679c\u65e0\u89e3\uff0c\u8f93\u51fa\u4e00\u884c $-1$\u3002\n\n\u5426\u5219\uff0c\u8f93\u51fa $\\frac{n}{2}$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570 $a_i$ \u548c $b_i$\uff0c\u8868\u793a\u4e00\u5bf9\u5143\u7d20\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u65b9\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u3002\u5bf9\u7684\u987a\u5e8f\u548c\u5bf9\u5185\u5143\u7d20\u987a\u5e8f\u5747\u4e0d\u9650\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u4e2d\uff0c$(0\\\u00263)+(1\\\u00262)=0$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u4e2d\uff0c$(0\\\u00262)+(1\\\u00263)=1$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u4e2d\uff0c$(0\\\u00261)+(2\\\u00263)=2$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u4e2d\uff0c\u65e0\u89e3\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1630A And Matching","type":2,"slug":"CF1630A","color":"orange-3"},"discussions":[{"id":456739,"title":"\u6d1b\u8c37ide\u6837\u4f8b\u8fd0\u884c\u6b63\u786e\uff0cCF WA#1\uff08\u6837\u4f8b\uff09\u6c42\u52a9","author":{"uid":592895,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/592895.png","name":"y_kx_b","slogan":"\u6e05\u65b0\u9898\u76ee\u4eca\u4f55\u5728 \uff5e Lunatic Probrems Everywhere","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":3,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/d1q82x9i.png"},"time":1657553773}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.15226,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1630A And Matching","description":"\u7ed9\u5b9a\u4e00\u4e2a\u5305\u542b n \u4e2a\u5143\u7d20\u7684\u96c6\u5408\uff08n \u603b\u662f 2 \u7684\u5e42\uff09\uff0c\u8be5\u96c6\u5408\u6070\u597d\u5305\u542b\u6240\u6709\u6574\u6570 0, 1, 2, \\ldots, n-1\u3002\n\u8bf7\u5c06\u8fd9\u4e9b\u5143\u7d20\u5206\u6210 \\frac{n}{2} \u5bf9\uff0c\u4f7f\u5f97\uff1a\n\n\u96c6\u5408\u4e2d\u7684\u6bcf\u4e2a\u5143\u7d20\u6070\u597d\u5c5e\u4e8e\u4e00\u5bf9\u3002\n\u6240\u6709\u5bf9\u4e2d\u5143\u7d20\u6309\u4f4d\u4e0e\u7684\u548c\u6070\u597d\u7b49\u4e8e\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1630A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1630A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1630A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1630A And Matching" />
+    <meta property="og:description" content="给定一个包含 n 个元素的集合（n 总是 2 的幂），该集合恰好包含所有整数 0, 1, 2, \ldots, n-1。
+请将这些元素分成 \frac{n}{2} 对，使得：
+
+集合中的每个元素恰好属于一对。
+所有对中元素按位与的和恰好等于…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1630A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1630A And Matching</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个包含 $n$ 个元素的集合（$n$ 总是 $2$ 的幂），该集合恰好包含所有整数 $0, 1, 2, \ldots, n-1$。
+
+请将这些元素分成 $\frac{n}{2}$ 对，使得：
+
+- 集合中的每个元素恰好属于一对。
+- 所有对中元素按位与的和恰好等于 $k$。形式化地说，若第 $i$ 对为 $a_i$ 和 $b_i$，则需满足：$$\sum_{i=1}^{n/2}{a_i \& b_i} = k$$，其中 $\,\&\,$ 表示按位与运算。
+
+如果有多种方案，输出任意一种。如果无解，则输出 $-1$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入包含多组测试数据。第一行包含一个整数 $t$（$1 \leq t \leq 400$），表示测试数据组数。接下来每组测试数据一行，包含两个整数 $n$ 和 $k$（$4 \leq n \leq 2^{16}$，$n$ 是 $2$ 的幂，$0 \leq k \leq n-1$）。
+
+所有测试数据中 $n$ 的总和不超过 $2^{16}$。每组测试数据均不相同。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试数据，如果无解，输出一行 $-1$。
+
+否则，输出 $\frac{n}{2}$ 行，每行两个整数 $a_i$ 和 $b_i$，表示一对元素。
+
+如果有多种方案，输出任意一种。对的顺序和对内元素顺序均不限。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试样例中，$(0\&3)+(1\&2)=0$。
+
+在第二个测试样例中，$(0\&2)+(1\&3)=1$。
+
+在第三个测试样例中，$(0\&1)+(2\&3)=2$。
+
+在第四个测试样例中，无解。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

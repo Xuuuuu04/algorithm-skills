@@ -1,0 +1,32 @@
+{
+  "id": "CF-1732D2",
+  "contest_id": 1732,
+  "index": "D2",
+  "name": "Balance (Hard version)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "number theory"
+  ],
+  "solved_count": 1578,
+  "problem_url": "https://codeforces.com/problemset/problem/1732/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1732/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1732/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1732D2%20Balance%20%28Hard%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1732D2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Balance (Hard version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

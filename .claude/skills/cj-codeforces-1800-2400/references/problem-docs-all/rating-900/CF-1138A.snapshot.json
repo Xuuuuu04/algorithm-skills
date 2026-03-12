@@ -1,0 +1,29 @@
+{
+  "id": "CF-1138A",
+  "contest_id": 1138,
+  "index": "A",
+  "name": "Sushi for Two",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 21616,
+  "problem_url": "https://codeforces.com/problemset/problem/1138/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1138/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1138/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1138A%20Sushi%20for%20Two%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1138A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1138A Sushi for Two - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 158,
+    "mirror_attempt": 297,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

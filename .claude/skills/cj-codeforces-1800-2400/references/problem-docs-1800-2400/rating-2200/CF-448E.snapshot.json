@@ -1,0 +1,37 @@
+{
+  "id": "CF-448E",
+  "contest_id": 448,
+  "index": "E",
+  "name": "Divisors",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "implementation",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/448/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/448/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/448/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=448E%20Divisors%20tutorial",
+  "solved_count": 1616,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P448E",
+  "hydro_meta": {
+    "page_title": "Divisors - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dfs and similar",
+      "implementation",
+      "number theory",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

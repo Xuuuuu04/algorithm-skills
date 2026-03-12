@@ -1,0 +1,37 @@
+{
+  "id": "CF-1924B",
+  "contest_id": 1924,
+  "index": "B",
+  "name": "Space Harbour",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "implementation",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1924/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1924/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1924/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1924B%20Space Harbour%20tutorial",
+  "solved_count": 3198,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1924B",
+  "hydro_meta": {
+    "page_title": "Space Harbour - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 6,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

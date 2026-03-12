@@ -1,0 +1,28 @@
+{
+  "id": "CF-1744B",
+  "contest_id": 1744,
+  "index": "B",
+  "name": "Even-Odd Increments ",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 24801,
+  "problem_url": "https://codeforces.com/problemset/problem/1744/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1744/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1744/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1744B%20Even-Odd%20Increments%20%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1744B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1744B Even-Odd Increments - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 451,
+    "mirror_attempt": 1134,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

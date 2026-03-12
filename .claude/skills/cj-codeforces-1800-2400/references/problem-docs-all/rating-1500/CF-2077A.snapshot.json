@@ -1,0 +1,35 @@
+{
+  "id": "CF-2077A",
+  "contest_id": 2077,
+  "index": "A",
+  "name": "Breach of Faith",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 14159,
+  "problem_url": "https://codeforces.com/problemset/problem/2077/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2077/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2077/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2077A%20Breach%20of%20Faith%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2077A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Breach of Faith - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1159A",
+  "contest_id": 1159,
+  "index": "A",
+  "name": "A pile of stones",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 13351,
+  "problem_url": "https://codeforces.com/problemset/problem/1159/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1159/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1159/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1159A%20A%20pile%20of%20stones%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1159A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1159A A pile of stones - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 246,
+    "mirror_attempt": 486,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

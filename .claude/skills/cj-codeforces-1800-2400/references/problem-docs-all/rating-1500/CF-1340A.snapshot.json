@@ -1,0 +1,30 @@
+{
+  "id": "CF-1340A",
+  "contest_id": 1340,
+  "index": "A",
+  "name": "Nastya and Strange Generator",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 13666,
+  "problem_url": "https://codeforces.com/problemset/problem/1340/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1340/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1340/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1340A%20Nastya%20and%20Strange%20Generator%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1340/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1340A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

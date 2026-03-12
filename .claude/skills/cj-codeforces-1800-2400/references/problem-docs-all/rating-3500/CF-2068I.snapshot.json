@@ -1,0 +1,31 @@
+{
+  "id": "CF-2068I",
+  "contest_id": 2068,
+  "index": "I",
+  "name": "Pinball",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 61,
+  "problem_url": "https://codeforces.com/problemset/problem/2068/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/2068/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2068/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2068I%20Pinball%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2068I",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Pinball - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graphs",
+      "shortest paths"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "1024MiB"
+  }
+}

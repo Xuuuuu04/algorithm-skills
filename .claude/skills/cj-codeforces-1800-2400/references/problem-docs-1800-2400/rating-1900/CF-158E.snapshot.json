@@ -1,0 +1,35 @@
+{
+  "id": "CF-158E",
+  "contest_id": 158,
+  "index": "E",
+  "name": "Phone Talks",
+  "rating": 1900,
+  "tags": [
+    "*special",
+    "dp",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/158/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/158/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/158/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=158E%20Phone Talks%20tutorial",
+  "solved_count": 1532,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P158E",
+  "hydro_meta": {
+    "page_title": "Phone Talks - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "dp",
+      "sortings",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

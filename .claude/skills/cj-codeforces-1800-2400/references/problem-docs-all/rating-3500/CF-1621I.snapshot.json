@@ -1,0 +1,29 @@
+{
+  "id": "CF-1621I",
+  "contest_id": 1621,
+  "index": "I",
+  "name": "Two Sequences",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4500.0,
+  "tags": [
+    "data structures",
+    "hashing",
+    "string suffix structures"
+  ],
+  "solved_count": 144,
+  "problem_url": "https://codeforces.com/problemset/problem/1621/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1621/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1621/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1621I%20Two%20Sequences%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1621/I",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1621I - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "8 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

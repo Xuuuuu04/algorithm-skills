@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1846B Rudolph and Tic-Tac-Toe - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1846B","type":"CF","title":"Rudolph and Tic-Tac-Toe","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":395,"totalAccepted":218,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Rudolph and Tic-Tac-Toe","background":null,"description":"\u9c81\u9053\u592b\u53d1\u660e\u4e86\u4e00\u79cd\u4e09\u4eba\u4e95\u5b57\u68cb\u6e38\u620f\u3002\u5b83\u7684\u89c4\u5219\u4e0e\u7ecf\u5178\u4e95\u5b57\u68cb\u76f8\u540c\uff0c\u53ea\u662f\u7b2c\u4e09\u4f4d\u73a9\u5bb6\u4f7f\u7528\u52a0\u53f7\u3002\u9c81\u9053\u592b\u6709\u4e00\u4e2a $3 \\times 3$ \u7684\u68cb\u76d8\u2014\u2014\u8fd9\u662f\u5df2\u7ecf\u5b8c\u6210\u7684\u6e38\u620f\u7ed3\u679c\u3002\u6bcf\u4e2a\u683c\u5b50\u4e2d\u8981\u4e48\u662f\u53c9\u53f7\uff0c\u8981\u4e48\u662f\u5708\u53f7\uff0c\u8981\u4e48\u662f\u52a0\u53f7\uff0c\u8981\u4e48\u662f\u7a7a\u7684\u3002\u7b2c\u4e00\u4e2a\u5728\u6a2a\u5411\u3001\u7eb5\u5411\u6216\u5bf9\u89d2\u7ebf\u4e0a\u8fde\u6210 $3$ \u4e2a\u81ea\u5df1\u7b26\u53f7\u7684\u73a9\u5bb6\u83b7\u80dc\u3002\n\n\u9c81\u9053\u592b\u60f3\u8981\u5224\u65ad\u8fd9\u5c40\u6e38\u620f\u7684\u7ed3\u679c\u3002\u8981\u4e48\u6070\u597d\u6709\u4e00\u4f4d\u73a9\u5bb6\u83b7\u80dc\uff0c\u8981\u4e48\u662f\u5e73\u5c40\u3002\u4fdd\u8bc1\u4e0d\u4f1a\u6709\u591a\u540d\u73a9\u5bb6\u540c\u65f6\u83b7\u80dc\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e09\u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e09\u4e2a\u5b57\u7b26\u3002\u6bcf\u4e2a\u5b57\u7b26\u53ef\u4ee5\u662f\u4ee5\u4e0b\u56db\u79cd\u4e4b\u4e00\uff1a\u0022X\u0022 \u8868\u793a\u53c9\u53f7\uff0c\u0022O\u0022 \u8868\u793a\u5708\u53f7\uff0c\u0022+\u0022 \u8868\u793a\u52a0\u53f7\uff0c\u0022.\u0022 \u8868\u793a\u7a7a\u683c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u5b57\u7b26\u4e32\u3002\u5982\u679c\u53c9\u53f7\u83b7\u80dc\uff0c\u8f93\u51fa \u0022X\u0022\uff1b\u5982\u679c\u5708\u53f7\u83b7\u80dc\uff0c\u8f93\u51fa \u0022O\u0022\uff1b\u5982\u679c\u52a0\u53f7\u83b7\u80dc\uff0c\u8f93\u51fa \u0022+\u0022\uff1b\u5982\u679c\u662f\u5e73\u5c40\uff0c\u8f93\u51fa \u0022DRAW\u0022\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Rudolph and Tic-Tac-Toe","background":"","description":"Rudolph invented the game of tic-tac-toe for three players. It has classic rules, except for the third player who plays with pluses. Rudolf has a $ 3 \\times 3 $ field \u2014 the result of the completed game. Each field cell contains either a cross, or a nought, or a plus sign, or nothing. The game is won by the player who makes a horizontal, vertical or diagonal row of $ 3 $ \u0027s of their symbols.\n\nRudolph wants to find the result of the game. Either exactly one of the three players won or it ended in a draw. It is guaranteed that multiple players cannot win at the same time.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nEach test case consists of three lines, each of which consists of three characters. The symbol can be one of four: \u0022X\u0022 means a cross, \u0022O\u0022 means a nought, \u0022+\u0022 means a plus, \u0022.\u0022 means an empty cell.","formatO":"For each test case, print the string \u0022X\u0022 if the crosses won, \u0022O\u0022 if the noughts won, \u0022+\u0022 if the pluses won, \u0022DRAW\u0022 if there was a draw.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n+X+\nOXO\nOX.\nO+.\n+OX\nX+O\n.XO\nOX.\n+++\nO.+\nX.O\n+..\n.++\nX.O\n+..","X\nO\n+\nDRAW\nDRAW"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1846B","link":"https:\/\/codeforces.com\/problemset\/problem\/1846\/B"},"translation":"\u7ed9\u51fa\u4e00\u4e2a $3\\times 3$ \u7684\u65b9\u683c\uff0c\u4e0a\u9762\u653e\u6709 `X`\uff0c`O`\uff0c`+` \u4e09\u79cd\u68cb\uff0c\u53ef\u80fd\u8fd8\u6709\u65b9\u683c\u6ca1\u6709\u653e\u4efb\u4f55\u68cb\uff0c\u6807\u8bb0\u4e3a `.`\u3002\n\n\u89c4\u5219\u548c[\u4e09\u5b50\u68cb](https:\/\/baike.baidu.com\/item\/%E4%BA%95%E5%AD%97%E6%A3%8B?fromModule=lemma_search-box)\uff08\u4e95\u5b57\u68cb\uff09\u4e00\u6837\u3002\u8f93\u51fa\u54ea\u79cd\u68cb\u4f1a\u8d62\uff0c\u82e5\u6ca1\u6709\u8d62\u5bb6\u8f93\u51fa `DRAW`\n\u3002"},"translations":{"en":{"name":"Rudolph and Tic-Tac-Toe","background":"","description":"Rudolph invented the game of tic-tac-toe for three players. It has classic rules, except for the third player who plays with pluses. Rudolf has a $ 3 \\times 3 $ field \u2014 the result of the completed game. Each field cell contains either a cross, or a nought, or a plus sign, or nothing. The game is won by the player who makes a horizontal, vertical or diagonal row of $ 3 $ \u0027s of their symbols.\n\nRudolph wants to find the result of the game. Either exactly one of the three players won or it ended in a draw. It is guaranteed that multiple players cannot win at the same time.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nEach test case consists of three lines, each of which consists of three characters. The symbol can be one of four: \u0022X\u0022 means a cross, \u0022O\u0022 means a nought, \u0022+\u0022 means a plus, \u0022.\u0022 means an empty cell.","formatO":"For each test case, print the string \u0022X\u0022 if the crosses won, \u0022O\u0022 if the noughts won, \u0022+\u0022 if the pluses won, \u0022DRAW\u0022 if there was a draw.","hint":"","locale":"en"},"zh-CN":{"name":"Rudolph and Tic-Tac-Toe","background":null,"description":"\u9c81\u9053\u592b\u53d1\u660e\u4e86\u4e00\u79cd\u4e09\u4eba\u4e95\u5b57\u68cb\u6e38\u620f\u3002\u5b83\u7684\u89c4\u5219\u4e0e\u7ecf\u5178\u4e95\u5b57\u68cb\u76f8\u540c\uff0c\u53ea\u662f\u7b2c\u4e09\u4f4d\u73a9\u5bb6\u4f7f\u7528\u52a0\u53f7\u3002\u9c81\u9053\u592b\u6709\u4e00\u4e2a $3 \\times 3$ \u7684\u68cb\u76d8\u2014\u2014\u8fd9\u662f\u5df2\u7ecf\u5b8c\u6210\u7684\u6e38\u620f\u7ed3\u679c\u3002\u6bcf\u4e2a\u683c\u5b50\u4e2d\u8981\u4e48\u662f\u53c9\u53f7\uff0c\u8981\u4e48\u662f\u5708\u53f7\uff0c\u8981\u4e48\u662f\u52a0\u53f7\uff0c\u8981\u4e48\u662f\u7a7a\u7684\u3002\u7b2c\u4e00\u4e2a\u5728\u6a2a\u5411\u3001\u7eb5\u5411\u6216\u5bf9\u89d2\u7ebf\u4e0a\u8fde\u6210 $3$ \u4e2a\u81ea\u5df1\u7b26\u53f7\u7684\u73a9\u5bb6\u83b7\u80dc\u3002\n\n\u9c81\u9053\u592b\u60f3\u8981\u5224\u65ad\u8fd9\u5c40\u6e38\u620f\u7684\u7ed3\u679c\u3002\u8981\u4e48\u6070\u597d\u6709\u4e00\u4f4d\u73a9\u5bb6\u83b7\u80dc\uff0c\u8981\u4e48\u662f\u5e73\u5c40\u3002\u4fdd\u8bc1\u4e0d\u4f1a\u6709\u591a\u540d\u73a9\u5bb6\u540c\u65f6\u83b7\u80dc\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e09\u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e09\u4e2a\u5b57\u7b26\u3002\u6bcf\u4e2a\u5b57\u7b26\u53ef\u4ee5\u662f\u4ee5\u4e0b\u56db\u79cd\u4e4b\u4e00\uff1a\u0022X\u0022 \u8868\u793a\u53c9\u53f7\uff0c\u0022O\u0022 \u8868\u793a\u5708\u53f7\uff0c\u0022+\u0022 \u8868\u793a\u52a0\u53f7\uff0c\u0022.\u0022 \u8868\u793a\u7a7a\u683c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u5b57\u7b26\u4e32\u3002\u5982\u679c\u53c9\u53f7\u83b7\u80dc\uff0c\u8f93\u51fa \u0022X\u0022\uff1b\u5982\u679c\u5708\u53f7\u83b7\u80dc\uff0c\u8f93\u51fa \u0022O\u0022\uff1b\u5982\u679c\u52a0\u53f7\u83b7\u80dc\uff0c\u8f93\u51fa \u0022+\u0022\uff1b\u5982\u679c\u662f\u5e73\u5c40\uff0c\u8f93\u51fa \u0022DRAW\u0022\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1846B Rudolph and Tic-Tac-Toe","type":2,"slug":"CF1846B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.339573,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1846B Rudolph and Tic-Tac-Toe","description":"\u9c81\u9053\u592b\u53d1\u660e\u4e86\u4e00\u79cd\u4e09\u4eba\u4e95\u5b57\u68cb\u6e38\u620f\u3002\u5b83\u7684\u89c4\u5219\u4e0e\u7ecf\u5178\u4e95\u5b57\u68cb\u76f8\u540c\uff0c\u53ea\u662f\u7b2c\u4e09\u4f4d\u73a9\u5bb6\u4f7f\u7528\u52a0\u53f7\u3002\u9c81\u9053\u592b\u6709\u4e00\u4e2a 3 \\times 3 \u7684\u68cb\u76d8\u2014\u2014\u8fd9\u662f\u5df2\u7ecf\u5b8c\u6210\u7684\u6e38\u620f\u7ed3\u679c\u3002\u6bcf\u4e2a\u683c\u5b50\u4e2d\u8981\u4e48\u662f\u53c9\u53f7\uff0c\u8981\u4e48\u662f\u5708\u53f7\uff0c\u8981\u4e48\u662f\u52a0\u53f7\uff0c\u8981\u4e48\u662f\u7a7a\u7684\u3002\u7b2c\u4e00\u4e2a\u5728\u6a2a\u5411\u3001\u7eb5\u5411\u6216\u5bf9\u89d2\u7ebf\u4e0a\u8fde\u6210\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1846B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1846B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1846B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1846B Rudolph and Tic-Tac-Toe" />
+    <meta property="og:description" content="鲁道夫发明了一种三人井字棋游戏。它的规则与经典井字棋相同，只是第三位玩家使用加号。鲁道夫有一个 3 \times 3 的棋盘——这是已经完成的游戏结果。每个格子中要么是叉号，要么是圈号，要么是加号，要么是空的。第一个在横向、纵向或对角线上连成…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1846B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1846B Rudolph and Tic-Tac-Toe</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    鲁道夫发明了一种三人井字棋游戏。它的规则与经典井字棋相同，只是第三位玩家使用加号。鲁道夫有一个 $3 \times 3$ 的棋盘——这是已经完成的游戏结果。每个格子中要么是叉号，要么是圈号，要么是加号，要么是空的。第一个在横向、纵向或对角线上连成 $3$ 个自己符号的玩家获胜。
+
+鲁道夫想要判断这局游戏的结果。要么恰好有一位玩家获胜，要么是平局。保证不会有多名玩家同时获胜。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 10^4$），表示测试用例的数量。
+
+每个测试用例包含三行，每行包含三个字符。每个字符可以是以下四种之一："X" 表示叉号，"O" 表示圈号，"+" 表示加号，"." 表示空格。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一行字符串。如果叉号获胜，输出 "X"；如果圈号获胜，输出 "O"；如果加号获胜，输出 "+"；如果是平局，输出 "DRAW"。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

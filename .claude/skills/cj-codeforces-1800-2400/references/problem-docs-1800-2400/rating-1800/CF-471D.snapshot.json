@@ -1,0 +1,33 @@
+{
+  "id": "CF-471D",
+  "contest_id": 471,
+  "index": "D",
+  "name": "MUH and Cube Walls",
+  "rating": 1800,
+  "tags": [
+    "string suffix structures",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/471/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/471/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/471/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=471D%20MUH and Cube Walls%20tutorial",
+  "solved_count": 10089,
+  "suggested_patterns": [
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P471D",
+  "hydro_meta": {
+    "page_title": "MUH and Cube Walls - 题目详情 - Hydro",
+    "hydro_tags": [
+      "string suffix structures",
+      "strings",
+      "*1800"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-142C",
+  "contest_id": 142,
+  "index": "C",
+  "name": "Help Caretaker",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "dp"
+  ],
+  "solved_count": 984,
+  "problem_url": "https://codeforces.com/problemset/problem/142/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/142/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/142/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=142C%20Help%20Caretaker%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/142/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 142C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

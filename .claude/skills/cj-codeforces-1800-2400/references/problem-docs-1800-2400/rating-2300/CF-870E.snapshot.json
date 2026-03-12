@@ -1,0 +1,38 @@
+{
+  "id": "CF-870E",
+  "contest_id": 870,
+  "index": "E",
+  "name": "Points, Lines and Ready-made Titles",
+  "rating": 2300,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/870/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/870/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/870/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=870E%20Points, Lines and Ready-made Titles%20tutorial",
+  "solved_count": 1303,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P870E",
+  "hydro_meta": {
+    "page_title": "Points, Lines and Ready-made Titles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 5,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

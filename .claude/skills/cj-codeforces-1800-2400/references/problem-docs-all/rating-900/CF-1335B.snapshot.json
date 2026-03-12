@@ -1,0 +1,27 @@
+{
+  "id": "CF-1335B",
+  "contest_id": 1335,
+  "index": "B",
+  "name": "Construct the String",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 42306,
+  "problem_url": "https://codeforces.com/problemset/problem/1335/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1335/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1335/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1335B%20Construct%20the%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1335B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1335B Construct the String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 225,
+    "mirror_attempt": 349,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

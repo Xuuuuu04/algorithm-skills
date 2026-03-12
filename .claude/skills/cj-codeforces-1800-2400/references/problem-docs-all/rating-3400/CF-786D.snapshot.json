@@ -1,0 +1,38 @@
+{
+  "id": "CF-786D",
+  "contest_id": 786,
+  "index": "D",
+  "name": "Rap God",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "hashing",
+    "strings",
+    "trees"
+  ],
+  "solved_count": 156,
+  "problem_url": "https://codeforces.com/problemset/problem/786/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/786/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/786/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=786D%20Rap%20God%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P786D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Rap God - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "hashing",
+      "strings",
+      "trees",
+      "*3400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "7000ms",
+    "memory_limit": "256MiB"
+  }
+}

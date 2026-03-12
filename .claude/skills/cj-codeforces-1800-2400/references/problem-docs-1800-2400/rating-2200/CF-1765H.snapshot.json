@@ -1,0 +1,38 @@
+{
+  "id": "CF-1765H",
+  "contest_id": 1765,
+  "index": "H",
+  "name": "Hospital Queue",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "graphs",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1765/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1765/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1765/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1765H%20Hospital Queue%20tutorial",
+  "solved_count": 1523,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1765H",
+  "hydro_meta": {
+    "page_title": "Hospital Queue - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "graphs",
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

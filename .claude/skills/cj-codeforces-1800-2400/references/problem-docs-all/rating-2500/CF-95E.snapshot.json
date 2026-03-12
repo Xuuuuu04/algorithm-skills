@@ -1,0 +1,34 @@
+{
+  "id": "CF-95E",
+  "contest_id": 95,
+  "index": "E",
+  "name": "Lucky Country",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dp",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 1827,
+  "problem_url": "https://codeforces.com/problemset/problem/95/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/95/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/95/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=95E%20Lucky%20Country%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P95E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Lucky Country - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "dsu",
+      "graphs",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

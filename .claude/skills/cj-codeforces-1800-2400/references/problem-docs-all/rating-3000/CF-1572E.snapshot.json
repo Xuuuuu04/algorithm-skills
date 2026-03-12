@@ -1,0 +1,33 @@
+{
+  "id": "CF-1572E",
+  "contest_id": 1572,
+  "index": "E",
+  "name": "Polygon",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "dp",
+    "geometry"
+  ],
+  "solved_count": 360,
+  "problem_url": "https://codeforces.com/problemset/problem/1572/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1572/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1572/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1572E%20Polygon%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1572E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Polygon - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dp",
+      "*3000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1331B",
+  "contest_id": 1331,
+  "index": "B",
+  "name": "Limericks",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 7120,
+  "problem_url": "https://codeforces.com/problemset/problem/1331/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1331/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1331/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1331B%20Limericks%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1331B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1331B Limericks - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 193,
+    "mirror_attempt": 297,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

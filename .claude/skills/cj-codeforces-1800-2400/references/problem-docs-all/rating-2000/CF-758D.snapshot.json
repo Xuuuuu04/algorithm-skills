@@ -1,0 +1,38 @@
+{
+  "id": "CF-758D",
+  "contest_id": 758,
+  "index": "D",
+  "name": "Ability To Convert",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "math",
+    "strings"
+  ],
+  "solved_count": 2921,
+  "problem_url": "https://codeforces.com/problemset/problem/758/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/758/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/758/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=758D%20Ability%20To%20Convert%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P758D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ability To Convert - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "math",
+      "strings",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

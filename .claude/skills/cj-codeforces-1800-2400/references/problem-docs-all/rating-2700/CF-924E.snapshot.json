@@ -1,0 +1,28 @@
+{
+  "id": "CF-924E",
+  "contest_id": 924,
+  "index": "E",
+  "name": "Wardrobe",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 555,
+  "problem_url": "https://codeforces.com/problemset/problem/924/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/924/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/924/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=924E%20Wardrobe%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF924E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF924E Wardrobe - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 50,
+    "mirror_attempt": 77,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

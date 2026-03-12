@@ -1,0 +1,29 @@
+{
+  "id": "CF-854A",
+  "contest_id": 854,
+  "index": "A",
+  "name": "Fraction",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 14449,
+  "problem_url": "https://codeforces.com/problemset/problem/854/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/854/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/854/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=854A%20Fraction%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/854/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 854A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

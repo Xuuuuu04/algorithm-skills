@@ -1,0 +1,29 @@
+{
+  "id": "CF-417C",
+  "contest_id": 417,
+  "index": "C",
+  "name": "Football",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 5008,
+  "problem_url": "https://codeforces.com/problemset/problem/417/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/417/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/417/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=417C%20Football%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/417/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 417C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

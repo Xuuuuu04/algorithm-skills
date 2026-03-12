@@ -1,0 +1,36 @@
+{
+  "id": "CF-877F",
+  "contest_id": 877,
+  "index": "F",
+  "name": "Ann and Books",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "flows",
+    "hashing"
+  ],
+  "url": "https://codeforces.com/problemset/problem/877/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/877/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/877/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=877F%20Ann and Books%20tutorial",
+  "solved_count": 2255,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "网络流（最大流/最小割）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P877F",
+  "hydro_meta": {
+    "page_title": "Ann and Books - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "flows",
+      "hashing",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

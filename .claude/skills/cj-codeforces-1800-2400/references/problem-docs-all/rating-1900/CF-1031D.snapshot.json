@@ -1,0 +1,30 @@
+{
+  "id": "CF-1031D",
+  "contest_id": 1031,
+  "index": "D",
+  "name": "Minimum path",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 2957,
+  "problem_url": "https://codeforces.com/problemset/problem/1031/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1031/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1031/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1031D%20Minimum%20path%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1031D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Minimum path - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

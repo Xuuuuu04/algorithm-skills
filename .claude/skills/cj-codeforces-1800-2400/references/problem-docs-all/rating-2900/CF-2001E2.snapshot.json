@@ -1,0 +1,35 @@
+{
+  "id": "CF-2001E2",
+  "contest_id": 2001,
+  "index": "E2",
+  "name": "Deterministic Heap (Hard Version)",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 283,
+  "problem_url": "https://codeforces.com/problemset/problem/2001/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2001/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2001/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2001E2%20Deterministic%20Heap%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2001E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Deterministic Heap (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "data structures",
+      "dp",
+      "trees",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

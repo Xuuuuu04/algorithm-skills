@@ -1,0 +1,27 @@
+{
+  "id": "CF-1243A",
+  "contest_id": 1243,
+  "index": "A",
+  "name": "Maximum Square",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 16297,
+  "problem_url": "https://codeforces.com/problemset/problem/1243/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1243/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1243/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1243A%20Maximum%20Square%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1243A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1243A Maximum Square - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 159,
+    "mirror_attempt": 246,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

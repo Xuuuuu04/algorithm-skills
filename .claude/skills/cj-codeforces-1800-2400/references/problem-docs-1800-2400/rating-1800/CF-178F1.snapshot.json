@@ -1,0 +1,26 @@
+{
+  "id": "CF-178F1",
+  "contest_id": 178,
+  "index": "F1",
+  "name": "Representative Sampling",
+  "rating": 1800,
+  "tags": [],
+  "url": "https://codeforces.com/problemset/problem/178/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/178/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/178/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=178F1%20Representative Sampling%20tutorial",
+  "solved_count": 451,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P178F1",
+  "hydro_meta": {
+    "page_title": "Representative Sampling - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

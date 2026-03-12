@@ -1,0 +1,28 @@
+{
+  "id": "CF-888F",
+  "contest_id": 888,
+  "index": "F",
+  "name": "Connecting Vertices",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "graphs"
+  ],
+  "solved_count": 1045,
+  "problem_url": "https://codeforces.com/problemset/problem/888/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/888/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/888/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=888F%20Connecting%20Vertices%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/888/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 888F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

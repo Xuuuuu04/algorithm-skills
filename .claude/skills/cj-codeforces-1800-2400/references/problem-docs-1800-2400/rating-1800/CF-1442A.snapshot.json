@@ -1,0 +1,37 @@
+{
+  "id": "CF-1442A",
+  "contest_id": 1442,
+  "index": "A",
+  "name": "Extreme Subtraction",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1442/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1442/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1442/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1442A%20Extreme Subtraction%20tutorial",
+  "solved_count": 9554,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1442A",
+  "hydro_meta": {
+    "page_title": "Extreme Subtraction - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "*1800"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

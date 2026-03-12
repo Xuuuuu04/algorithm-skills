@@ -1,0 +1,33 @@
+{
+  "id": "CF-5D",
+  "contest_id": 5,
+  "index": "D",
+  "name": "Follow Traffic Rules",
+  "rating": 2100,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/5/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/5/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/5/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=5D%20Follow Traffic Rules%20tutorial",
+  "solved_count": 1902,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P5D",
+  "hydro_meta": {
+    "page_title": "Follow Traffic Rules - 题目详情 - Hydro",
+    "hydro_tags": [
+      "implementation",
+      "math",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "64MiB"
+  }
+}

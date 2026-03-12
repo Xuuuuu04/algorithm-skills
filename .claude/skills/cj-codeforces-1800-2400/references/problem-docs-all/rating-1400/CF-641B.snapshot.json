@@ -1,0 +1,27 @@
+{
+  "id": "CF-641B",
+  "contest_id": 641,
+  "index": "B",
+  "name": "Little Artem and Matrix",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 4286,
+  "problem_url": "https://codeforces.com/problemset/problem/641/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/641/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/641/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=641B%20Little%20Artem%20and%20Matrix%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/641/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 641B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

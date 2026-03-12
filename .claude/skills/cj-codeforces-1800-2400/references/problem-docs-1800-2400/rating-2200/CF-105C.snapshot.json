@@ -1,0 +1,33 @@
+{
+  "id": "CF-105C",
+  "contest_id": 105,
+  "index": "C",
+  "name": "Item World",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "implementation",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/105/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/105/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/105/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=105C%20Item World%20tutorial",
+  "solved_count": 384,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P105C",
+  "hydro_meta": {
+    "page_title": "Item World - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "implementation",
+      "sortings",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

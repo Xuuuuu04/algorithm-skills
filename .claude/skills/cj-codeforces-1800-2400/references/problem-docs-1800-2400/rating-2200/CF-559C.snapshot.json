@@ -1,0 +1,39 @@
+{
+  "id": "CF-559C",
+  "contest_id": 559,
+  "index": "C",
+  "name": "Gerald and Giant Chess",
+  "rating": 2200,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/559/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/559/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/559/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=559C%20Gerald and Giant Chess%20tutorial",
+  "solved_count": 7897,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P559C",
+  "hydro_meta": {
+    "page_title": "Gerald and Giant Chess - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 10,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

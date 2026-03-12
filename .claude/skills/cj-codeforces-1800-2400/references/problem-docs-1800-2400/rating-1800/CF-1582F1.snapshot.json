@@ -1,0 +1,33 @@
+{
+  "id": "CF-1582F1",
+  "contest_id": 1582,
+  "index": "F1",
+  "name": "Korney Korneevich and XOR (easy version)",
+  "rating": 1800,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1582/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1582/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1582/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1582F1%20Korney Korneevich and XOR (easy version)%20tutorial",
+  "solved_count": 6489,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1582F1",
+  "hydro_meta": {
+    "page_title": "Korney Korneevich and XOR (easy version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

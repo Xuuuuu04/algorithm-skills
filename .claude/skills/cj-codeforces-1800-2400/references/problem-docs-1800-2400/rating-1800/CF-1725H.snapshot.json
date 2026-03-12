@@ -1,0 +1,33 @@
+{
+  "id": "CF-1725H",
+  "contest_id": 1725,
+  "index": "H",
+  "name": "Hot Black Hot White",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1725/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1725/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1725/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1725H%20Hot Black Hot White%20tutorial",
+  "solved_count": 2992,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1725H",
+  "hydro_meta": {
+    "page_title": "Hot Black Hot White - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

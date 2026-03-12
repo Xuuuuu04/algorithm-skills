@@ -1,0 +1,1 @@
+mock 框架入门 使用 mock 框架 mock 框架本身是仓颉标准库中**单元测试** 的一部分。使用 mock 框架前，需将 `unittest.mock.*` 和 `unittest.mock.mockmacro.*` 导入到测试文件中。 如果使用 **cjpm** 工具，仅需运行 `cjpm test` 命令即可自动启用 mock 框架。 如果直接使用 **cjc** ，参见[使用 cjc](./mock_framework_basics.html#%E4%BD%BF%E7%94%A8-cjc-%E7%BC%96%E8%AF%91)。 示例 常见 mock 测试用例：

@@ -1,0 +1,34 @@
+{
+  "id": "CF-883D",
+  "contest_id": 883,
+  "index": "D",
+  "name": "Packmen Strike Back",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "dp",
+    "math"
+  ],
+  "solved_count": 486,
+  "problem_url": "https://codeforces.com/problemset/problem/883/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/883/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/883/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=883D%20Packmen%20Strike%20Back%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P883D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Packmen Strike Back - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dp",
+      "math",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CF-729E",
+  "contest_id": 729,
+  "index": "E",
+  "name": "Subordinates",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "graphs",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/729/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/729/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/729/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=729E%20Subordinates%20tutorial",
+  "solved_count": 2369,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P729E",
+  "hydro_meta": {
+    "page_title": "Subordinates - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "data structures",
+      "graphs",
+      "greedy",
+      "sortings",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

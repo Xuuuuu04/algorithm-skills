@@ -1,0 +1,30 @@
+{
+  "id": "CF-1283A",
+  "contest_id": 1283,
+  "index": "A",
+  "name": "Minutes Before the New Year",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 60565,
+  "problem_url": "https://codeforces.com/problemset/problem/1283/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1283/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1283/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1283A%20Minutes%20Before%20the%20New%20Year%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1283A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Minutes Before the New Year - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

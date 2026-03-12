@@ -1,0 +1,28 @@
+{
+  "id": "CF-2075A",
+  "contest_id": 2075,
+  "index": "A",
+  "name": "To Zero",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 27632,
+  "problem_url": "https://codeforces.com/problemset/problem/2075/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2075/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2075/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2075A%20To%20Zero%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2075A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2075A To Zero - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

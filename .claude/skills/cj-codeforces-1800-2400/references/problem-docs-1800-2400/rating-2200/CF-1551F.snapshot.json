@@ -1,0 +1,38 @@
+{
+  "id": "CF-1551F",
+  "contest_id": 1551,
+  "index": "F",
+  "name": "Equidistant Vertices",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "dfs and similar",
+    "dp",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1551/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1551/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1551/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1551F%20Equidistant Vertices%20tutorial",
+  "solved_count": 2089,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1551F",
+  "hydro_meta": {
+    "page_title": "Equidistant Vertices - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dfs and similar",
+      "dp",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

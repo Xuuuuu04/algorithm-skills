@@ -1,0 +1,40 @@
+{
+  "id": "CF-1364D",
+  "contest_id": 1364,
+  "index": "D",
+  "name": "Ehab's Last Corollary",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 4880,
+  "problem_url": "https://codeforces.com/problemset/problem/1364/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1364/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1364/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1364D%20Ehab%27s%20Last%20Corollary%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1364D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ehab's Last Corollary - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "implementation",
+      "trees",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

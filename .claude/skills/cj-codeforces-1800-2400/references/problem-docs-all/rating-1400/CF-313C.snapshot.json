@@ -1,0 +1,30 @@
+{
+  "id": "CF-313C",
+  "contest_id": 313,
+  "index": "C",
+  "name": "Ilya and Matrix",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 5909,
+  "problem_url": "https://codeforces.com/problemset/problem/313/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/313/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/313/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=313C%20Ilya%20and%20Matrix%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/313/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 313C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

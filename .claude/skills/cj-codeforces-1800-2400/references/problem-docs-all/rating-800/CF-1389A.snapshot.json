@@ -1,0 +1,36 @@
+{
+  "id": "CF-1389A",
+  "contest_id": 1389,
+  "index": "A",
+  "name": "LCM Problem",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 49165,
+  "problem_url": "https://codeforces.com/problemset/problem/1389/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1389/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1389/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1389A%20LCM%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1389A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "LCM Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

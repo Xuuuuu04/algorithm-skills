@@ -1,0 +1,43 @@
+{
+  "id": "CF-1635D",
+  "contest_id": 1635,
+  "index": "D",
+  "name": "Infinite Set",
+  "rating": 1800,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "math",
+    "matrices",
+    "number theory",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1635/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1635/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1635/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1635D%20Infinite Set%20tutorial",
+  "solved_count": 7002,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1635D",
+  "hydro_meta": {
+    "page_title": "Infinite Set - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "dp",
+      "math",
+      "matrices",
+      "number theory",
+      "strings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

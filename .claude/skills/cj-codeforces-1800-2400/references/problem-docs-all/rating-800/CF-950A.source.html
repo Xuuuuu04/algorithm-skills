@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF950A Left-handers, Right-handers and Ambidexters - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF950A","type":"CF","title":"Left-handers, Right-handers and Ambidexters","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":538,"totalAccepted":278,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Left-handers, Right-handers and Ambidexters","background":"","description":"\u4f60\u73b0\u5728\u5728\u4e00\u4e2a\u8fd0\u52a8\u961f\u91cc\u3002\n\n\u8fd9\u4e2a\u961f\u91cc\u6709l \u4e2a\u4eba\u53ea\u80fd\u7528\u4ed6\u7684\u5de6\u624b\u8bad\u7ec3\uff08\u5de6\u6487\u5b50\uff09\uff0c\u53e6\u5916\u6709r \u4e2a\u4eba\u53ea\u80fd\u7528\u53f3\u624b\u8bad\u7ec3\uff08\u53f3\u6487\u5b50\uff09\uff0c\u8fd8\u6709a \u4e2a\u4e24\u53ea\u624b\u90fd\u53ef\u4ee5\u8bad\u7ec3\u7684\u4eba\uff08\u65e2\u4e0d\u662f\u5de6\u6487\u5b50\u4e5f\u4e0d\u662f\u53f3\u6487\u5b50\uff0c\u4f46\u53ea\u80fd\u7528\u4e00\u53ea\u624b\uff09\u3002\n\n\u4f60\u4eec\u7684\u6559\u7ec3\u51b3\u5b9a\u7ec4\u5efa\u4e00\u652f\u961f\u4f0d\uff0c\u4f46\u8981\u4fdd\u8bc1\u961f\u4f0d\u91cc\u7528\u5de6\u624b\u8bad\u7ec3\u7684\u4eba\u548c\u7528\u53f3\u624b\u8bad\u7ec3\u7684\u4eba\u4e00\u6837\u591a\u3002 \u4f60\u7684\u4efb\u52a1\u662f\u627e\u5230\u8fd9\u4e2a\u56e2\u961f\u91cc\u6700\u591a\u80fd\u6709\u591a\u5c11\u4e2a\u4eba\u3002","formatI":"\u8f93\u5165\u7684\u662f3\u4e2a\u6574\u6570l,r,a(0\u003C=l,r,a\u003C=100)\uff0c\u4ee3\u8868\u5de6\u6487\u5b50\uff0c\u53f3\u6487\u5b50\u548c\u65e2\u4e0d\u662f\u5de6\u6487\u5b50\u4e5f\u4e0d\u662f\u53f3\u6487\u5b50\u7684\u4eba\u6570\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u4ee3\u8868\u8fd9\u4e2a\u961f\u4f0d\u91cc\u6700\u591a\u6709\u591a\u5c11\u4eba\uff0c\u5982\u679c\u7ec4\u4e0d\u6210\u8fd9\u6837\u7684\u961f\u4f0d\uff0c\u5219\u8f93\u51fa0 .\n\nTranslated by @cn\uff1a\u82cf\u537f\u5ff5","hint":"","locale":"zh-CN"},"content":{"name":"Left-handers, Right-handers and Ambidexters","background":"","description":"You are at a water bowling training. There are $ l $ people who play with their left hand, $ r $ people, who play with their right hand, and $ a $ ambidexters, who can play with left or right hand.\n\nThe coach decided to form a team of even number of players, exactly half of the players should play with their right hand, and exactly half of the players should play with their left hand. One player should use only on of his hands.\n\nAmbidexters play as well with their right hand as with their left hand. In the team, an ambidexter can play with their left hand, or with their right hand.\n\nPlease find the maximum possible size of the team, where equal number of players use their left and right hands, respectively.","formatI":"The only line contains three integers $ l $ , $ r $ and $ a $ ( $ 0\u003C=l,r,a\u003C=100 $ ) \u2014 the number of left-handers, the number of right-handers and the number of ambidexters at the training.","formatO":"Print a single even integer \u2014 the maximum number of players in the team. It is possible that the team can only have zero number of players.","hint":"In the first example you can form a team of $ 6 $ players. You should take the only left-hander and two ambidexters to play with left hand, and three right-handers to play with right hand. The only person left can\u0027t be taken into the team.\n\nIn the second example you can form a team of $ 14 $ people. You have to take all five left-handers, all five right-handers, two ambidexters to play with left hand and two ambidexters to play with right hand.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1 4 2\n","6\n"],["5 5 5\n","14\n"],["0 2 0\n","0\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"950A","link":"https:\/\/codeforces.com\/problemset\/problem\/950\/A"},"translation":"\u3010\u9898\u76ee\u63cf\u8ff0\u3011\n\n\u4f60\u73b0\u5728\u5728\u4e00\u4e2a\u8fd0\u52a8\u961f\u91cc\u3002\n\n\u8fd9\u4e2a\u961f\u91cc\u6709l \u4e2a\u4eba\u53ea\u80fd\u7528\u4ed6\u7684\u5de6\u624b\u8bad\u7ec3\uff08\u5de6\u6487\u5b50\uff09\uff0c\u53e6\u5916\u6709r \u4e2a\u4eba\u53ea\u80fd\u7528\u53f3\u624b\u8bad\u7ec3\uff08\u53f3\u6487\u5b50\uff09\uff0c\u8fd8\u6709a \u4e2a\u4e24\u53ea\u624b\u90fd\u53ef\u4ee5\u8bad\u7ec3\u7684\u4eba\uff08\u65e2\u4e0d\u662f\u5de6\u6487\u5b50\u4e5f\u4e0d\u662f\u53f3\u6487\u5b50\uff0c\u4f46\u53ea\u80fd\u7528\u4e00\u53ea\u624b\uff09\u3002\n\n\u4f60\u4eec\u7684\u6559\u7ec3\u51b3\u5b9a\u7ec4\u5efa\u4e00\u652f\u961f\u4f0d\uff0c\u4f46\u8981\u4fdd\u8bc1\u961f\u4f0d\u91cc\u7528\u5de6\u624b\u8bad\u7ec3\u7684\u4eba\u548c\u7528\u53f3\u624b\u8bad\u7ec3\u7684\u4eba\u4e00\u6837\u591a\u3002 \u4f60\u7684\u4efb\u52a1\u662f\u627e\u5230\u8fd9\u4e2a\u56e2\u961f\u91cc\u6700\u591a\u80fd\u6709\u591a\u5c11\u4e2a\u4eba\u3002\n\n\u3010\u8f93\u5165\u683c\u5f0f\u3011\n\n\u8f93\u5165\u7684\u662f3\u4e2a\u6574\u6570l,r,a(0\u003C=l,r,a\u003C=100)\uff0c\u4ee3\u8868\u5de6\u6487\u5b50\uff0c\u53f3\u6487\u5b50\u548c\u65e2\u4e0d\u662f\u5de6\u6487\u5b50\u4e5f\u4e0d\u662f\u53f3\u6487\u5b50\u7684\u4eba\u6570\u3002\n\n\u3010\u8f93\u51fa\u683c\u5f0f\u3011\n\n\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u4ee3\u8868\u8fd9\u4e2a\u961f\u4f0d\u91cc\u6700\u591a\u6709\u591a\u5c11\u4eba\uff0c\u5982\u679c\u7ec4\u4e0d\u6210\u8fd9\u6837\u7684\u961f\u4f0d\uff0c\u5219\u8f93\u51fa0 .\n\nTranslated by @cn\uff1a\u82cf\u537f\u5ff5 "},"translations":{"en":{"name":"Left-handers, Right-handers and Ambidexters","background":"","description":"You are at a water bowling training. There are $ l $ people who play with their left hand, $ r $ people, who play with their right hand, and $ a $ ambidexters, who can play with left or right hand.\n\nThe coach decided to form a team of even number of players, exactly half of the players should play with their right hand, and exactly half of the players should play with their left hand. One player should use only on of his hands.\n\nAmbidexters play as well with their right hand as with their left hand. In the team, an ambidexter can play with their left hand, or with their right hand.\n\nPlease find the maximum possible size of the team, where equal number of players use their left and right hands, respectively.","formatI":"The only line contains three integers $ l $ , $ r $ and $ a $ ( $ 0\u003C=l,r,a\u003C=100 $ ) \u2014 the number of left-handers, the number of right-handers and the number of ambidexters at the training.","formatO":"Print a single even integer \u2014 the maximum number of players in the team. It is possible that the team can only have zero number of players.","hint":"In the first example you can form a team of $ 6 $ players. You should take the only left-hander and two ambidexters to play with left hand, and three right-handers to play with right hand. The only person left can\u0027t be taken into the team.\n\nIn the second example you can form a team of $ 14 $ people. You have to take all five left-handers, all five right-handers, two ambidexters to play with left hand and two ambidexters to play with right hand.","locale":"en"},"zh-CN":{"name":"Left-handers, Right-handers and Ambidexters","background":"","description":"\u4f60\u73b0\u5728\u5728\u4e00\u4e2a\u8fd0\u52a8\u961f\u91cc\u3002\n\n\u8fd9\u4e2a\u961f\u91cc\u6709l \u4e2a\u4eba\u53ea\u80fd\u7528\u4ed6\u7684\u5de6\u624b\u8bad\u7ec3\uff08\u5de6\u6487\u5b50\uff09\uff0c\u53e6\u5916\u6709r \u4e2a\u4eba\u53ea\u80fd\u7528\u53f3\u624b\u8bad\u7ec3\uff08\u53f3\u6487\u5b50\uff09\uff0c\u8fd8\u6709a \u4e2a\u4e24\u53ea\u624b\u90fd\u53ef\u4ee5\u8bad\u7ec3\u7684\u4eba\uff08\u65e2\u4e0d\u662f\u5de6\u6487\u5b50\u4e5f\u4e0d\u662f\u53f3\u6487\u5b50\uff0c\u4f46\u53ea\u80fd\u7528\u4e00\u53ea\u624b\uff09\u3002\n\n\u4f60\u4eec\u7684\u6559\u7ec3\u51b3\u5b9a\u7ec4\u5efa\u4e00\u652f\u961f\u4f0d\uff0c\u4f46\u8981\u4fdd\u8bc1\u961f\u4f0d\u91cc\u7528\u5de6\u624b\u8bad\u7ec3\u7684\u4eba\u548c\u7528\u53f3\u624b\u8bad\u7ec3\u7684\u4eba\u4e00\u6837\u591a\u3002 \u4f60\u7684\u4efb\u52a1\u662f\u627e\u5230\u8fd9\u4e2a\u56e2\u961f\u91cc\u6700\u591a\u80fd\u6709\u591a\u5c11\u4e2a\u4eba\u3002","formatI":"\u8f93\u5165\u7684\u662f3\u4e2a\u6574\u6570l,r,a(0\u003C=l,r,a\u003C=100)\uff0c\u4ee3\u8868\u5de6\u6487\u5b50\uff0c\u53f3\u6487\u5b50\u548c\u65e2\u4e0d\u662f\u5de6\u6487\u5b50\u4e5f\u4e0d\u662f\u53f3\u6487\u5b50\u7684\u4eba\u6570\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u4ee3\u8868\u8fd9\u4e2a\u961f\u4f0d\u91cc\u6700\u591a\u6709\u591a\u5c11\u4eba\uff0c\u5982\u679c\u7ec4\u4e0d\u6210\u8fd9\u6837\u7684\u961f\u4f0d\uff0c\u5219\u8f93\u51fa0 .\n\nTranslated by @cn\uff1a\u82cf\u537f\u5ff5","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF950A Left-handers, Right-handers and Ambidexters","type":2,"slug":"CF950A","color":"orange-3"},"discussions":[{"id":37169,"title":"\u7ffb\u8bd1","author":{"uid":57699,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/57699.png","name":"Arcturus1350","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1521539314}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.350333,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF950A Left-handers, Right-handers and Ambidexters","description":"\u4f60\u73b0\u5728\u5728\u4e00\u4e2a\u8fd0\u52a8\u961f\u91cc\u3002\n\u8fd9\u4e2a\u961f\u91cc\u6709l \u4e2a\u4eba\u53ea\u80fd\u7528\u4ed6\u7684\u5de6\u624b\u8bad\u7ec3\uff08\u5de6\u6487\u5b50\uff09\uff0c\u53e6\u5916\u6709r \u4e2a\u4eba\u53ea\u80fd\u7528\u53f3\u624b\u8bad\u7ec3\uff08\u53f3\u6487\u5b50\uff09\uff0c\u8fd8\u6709a \u4e2a\u4e24\u53ea\u624b\u90fd\u53ef\u4ee5\u8bad\u7ec3\u7684\u4eba\uff08\u65e2\u4e0d\u662f\u5de6\u6487\u5b50\u4e5f\u4e0d\u662f\u53f3\u6487\u5b50\uff0c\u4f46\u53ea\u80fd\u7528\u4e00\u53ea\u624b\uff09\u3002\n\u4f60\u4eec\u7684\u6559\u7ec3\u51b3\u5b9a\u7ec4\u5efa\u4e00\u652f\u961f\u4f0d\uff0c\u4f46\u8981\u4fdd\u8bc1\u961f\u4f0d\u91cc\u7528\u5de6\u624b\u8bad\u7ec3\u7684\u4eba\u548c\u7528\u53f3\u624b\u8bad\u7ec3\u7684\u4eba\u4e00\u6837\u591a\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF950A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF950A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF950A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF950A Left-handers, Right-handers and Ambidexters" />
+    <meta property="og:description" content="你现在在一个运动队里。
+这个队里有l 个人只能用他的左手训练（左撇子），另外有r 个人只能用右手训练（右撇子），还有a 个两只手都可以训练的人（既不是左撇子也不是右撇子，但只能用一只手）。
+你们的教练决定组建一支队伍，但要保证队伍里用左手训练的人和用右手训练的人一样多。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF950A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF950A Left-handers, Right-handers and Ambidexters</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你现在在一个运动队里。
+
+这个队里有l 个人只能用他的左手训练（左撇子），另外有r 个人只能用右手训练（右撇子），还有a 个两只手都可以训练的人（既不是左撇子也不是右撇子，但只能用一只手）。
+
+你们的教练决定组建一支队伍，但要保证队伍里用左手训练的人和用右手训练的人一样多。 你的任务是找到这个团队里最多能有多少个人。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的是3个整数l,r,a(0
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，代表这个队伍里最多有多少人，如果组不成这样的队伍，则输出0 .
+
+Translated by @cn：苏卿念
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first example you can form a team of $ 6 $ players. You should take the only left-hander and two ambidexters to play with left hand, and three right-handers to play with right hand. The only person left can't be taken into the team.
+
+In the second example you can form a team of $ 14 $ people. You have to take all five left-handers, all five right-handers, two ambidexters to play with left hand and two ambidexters to play with right hand.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

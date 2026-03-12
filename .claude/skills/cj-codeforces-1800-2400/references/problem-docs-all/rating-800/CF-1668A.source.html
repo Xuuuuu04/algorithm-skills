@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1668A Direction Change - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1668A","type":"CF","title":"Direction Change","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":252,"totalAccepted":141,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Direction Change","background":"","description":"\u6709\u4e00\u4e2a $n \\times m$ \u7684\u77e9\u9635\uff0c\u73b0\u5728\u4f60\u5728 $( 1,1 )$\uff0c\u4f60\u53ef\u4ee5\u671d\u4e0a\u3001\u4e0b\u3001\u5de6\u3001\u53f3\u56db\u4e2a\u65b9\u5411\u79fb\u52a8\uff0c\u4f46\u4e0d\u53ef\u4ee5\u8fde\u7eed\u671d\u67d0\u4e2a\u65b9\u5411\u79fb\u52a8\uff0c\u95ee\u6700\u5c11\u9700\u8981\u79fb\u52a8\u51e0\u6b21\u4f60\u624d\u53ef\u4ee5\u5230\u8fbe $( n,m )$\uff0c\u5982\u679c\u65e0\u6cd5\u5230\u8fbe $( n,m )$\uff0c\u8f93\u51fa $-1$\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t ( 1\\le t \\le 10^3 )$\uff0c\u8868\u793a\u6709 $t$ \u7ec4\u8be2\u95ee\u3002\n\n\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570\uff0c\u8868\u793a $n$ \u548c $m ( 1\\le n,m \\le 10^9 )$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u8be2\u95ee\uff0c\u8f93\u51fa\u5bf9\u5e94\u7684\u7b54\u6848\u3002","hint":"\u6837\u4f8b\u7b2c\u4e00\u7ec4\u8be2\u95ee\uff1a\u4e0d\u9700\u8981\u79fb\u52a8\u3002\n\n\u6837\u4f8b\u7b2c\u4e8c\u7ec4\u8be2\u95ee\uff1a\u5411\u4e0b\u79fb\u52a8\u4e00\u6b21\u3002\n\n\u6837\u4f8b\u7b2c\u4e09\u7ec4\u8be2\u95ee\uff1a\u4e0d\u80fd\u5230\u8fbe\u3002\n\n\u6837\u4f8b\u7b2c\u56db\u7ec4\u8be2\u95ee\uff1a\u6709\u4e00\u79cd\u53ef\u884c\u7684\u89e3\u6cd5\u4e3a $(1,1)\\to(1,2)\\to(2,2)\\to(2,1)\\to(3,1)\\to(3,2)\\to(4,2)$\uff0c\u5171 $6$ \u6b65\u3002","locale":"zh-CN"},"content":{"name":"Direction Change","background":"","description":"You are given a grid with $ n $ rows and $ m $ columns. Rows and columns are numbered from $ 1 $ to $ n $ , and from $ 1 $ to $ m $ . The intersection of the $ a $ -th row and $ b $ -th column is denoted by $ (a, b) $ .\n\nInitially, you are standing in the top left corner $ (1, 1) $ . Your goal is to reach the bottom right corner $ (n, m) $ .\n\nYou can move in four directions from $ (a, b) $ : up to $ (a-1, b) $ , down to $ (a+1, b) $ , left to $ (a, b-1) $ or right to $ (a, b+1) $ .\n\nYou cannot move in the same direction in two consecutive moves, and you cannot leave the grid. What is the minimum number of moves to reach $ (n, m) $ ?","formatI":"The input consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^3 $ ) \u2014 the number of the test cases. The description of the test cases follows.\n\nThe first line of each test case contains two integers $ n $ and $ m $ ( $ 1 \\le n, m \\le 10^9 $ ) \u2014 the size of the grid.","formatO":"For each test case, print a single integer: $ -1 $ if it is impossible to reach $ (n, m) $ under the given conditions, otherwise the minimum number of moves.","hint":"Test case $ 1 $ : $ n=1 $ , $ m=1 $ , and initially you are standing in $ (1, 1) $ so $ 0 $ move is required to reach $ (n, m) = (1, 1) $ .\n\nTest case $ 2 $ : you should go down to reach $ (2, 1) $ .\n\nTest case $ 3 $ : it is impossible to reach $ (1, 3) $ without moving right two consecutive times, or without leaving the grid.\n\nTest case $ 4 $ : an optimal moving sequence could be: $ (1, 1) \\to (1, 2) \\to (2, 2) \\to (2, 1) \\to (3, 1) \\to (3, 2) \\to (4, 2) $ . It can be proved that this is the optimal solution. So the answer is $ 6 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n1 1\n2 1\n1 3\n4 2\n4 6\n10 5","0\n1\n-1\n6\n10\n17"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1668A","link":"https:\/\/codeforces.com\/problemset\/problem\/1668\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\uff1a\n\n\u6709\u4e00\u4e2a $n \\times m$ \u7684\u77e9\u9635\uff0c\u73b0\u5728\u4f60\u5728 $( 1,1 )$\uff0c\u4f60\u53ef\u4ee5\u671d\u4e0a\u3001\u4e0b\u3001\u5de6\u3001\u53f3\u56db\u4e2a\u65b9\u5411\u79fb\u52a8\uff0c\u4f46\u4e0d\u53ef\u4ee5\u8fde\u7eed\u671d\u67d0\u4e2a\u65b9\u5411\u79fb\u52a8\uff0c\u95ee\u6700\u5c11\u9700\u8981\u79fb\u52a8\u51e0\u6b21\u4f60\u624d\u53ef\u4ee5\u5230\u8fbe $( n,m )$\uff0c\u5982\u679c\u65e0\u6cd5\u5230\u8fbe $( n,m )$\uff0c\u8f93\u51fa $-1$\u3002\n\n### \u8f93\u5165\u683c\u5f0f\uff1a\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t ( 1\\le t \\le 10^3 )$\uff0c\u8868\u793a\u6709 $t$ \u7ec4\u8be2\u95ee\u3002\n\n\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570\uff0c\u8868\u793a $n$ \u548c $m ( 1\\le n,m \\le 10^9 )$\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\uff1a\n\n\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u8be2\u95ee\uff0c\u8f93\u51fa\u5bf9\u5e94\u7684\u7b54\u6848\u3002\n\n### \u8bf4\u660e\/\u63d0\u793a\n\n\u6837\u4f8b\u7b2c\u4e00\u7ec4\u8be2\u95ee\uff1a\u4e0d\u9700\u8981\u79fb\u52a8\u3002\n\n\u6837\u4f8b\u7b2c\u4e8c\u7ec4\u8be2\u95ee\uff1a\u5411\u4e0b\u79fb\u52a8\u4e00\u6b21\u3002\n\n\u6837\u4f8b\u7b2c\u4e09\u7ec4\u8be2\u95ee\uff1a\u4e0d\u80fd\u5230\u8fbe\u3002\n\n\u6837\u4f8b\u7b2c\u56db\u7ec4\u8be2\u95ee\uff1a\u6709\u4e00\u79cd\u53ef\u884c\u7684\u89e3\u6cd5\u4e3a $(1,1)\\to(1,2)\\to(2,2)\\to(2,1)\\to(3,1)\\to(3,2)\\to(4,2)$\uff0c\u5171 $6$ \u6b65\u3002"},"translations":{"en":{"name":"Direction Change","background":"","description":"You are given a grid with $ n $ rows and $ m $ columns. Rows and columns are numbered from $ 1 $ to $ n $ , and from $ 1 $ to $ m $ . The intersection of the $ a $ -th row and $ b $ -th column is denoted by $ (a, b) $ .\n\nInitially, you are standing in the top left corner $ (1, 1) $ . Your goal is to reach the bottom right corner $ (n, m) $ .\n\nYou can move in four directions from $ (a, b) $ : up to $ (a-1, b) $ , down to $ (a+1, b) $ , left to $ (a, b-1) $ or right to $ (a, b+1) $ .\n\nYou cannot move in the same direction in two consecutive moves, and you cannot leave the grid. What is the minimum number of moves to reach $ (n, m) $ ?","formatI":"The input consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^3 $ ) \u2014 the number of the test cases. The description of the test cases follows.\n\nThe first line of each test case contains two integers $ n $ and $ m $ ( $ 1 \\le n, m \\le 10^9 $ ) \u2014 the size of the grid.","formatO":"For each test case, print a single integer: $ -1 $ if it is impossible to reach $ (n, m) $ under the given conditions, otherwise the minimum number of moves.","hint":"Test case $ 1 $ : $ n=1 $ , $ m=1 $ , and initially you are standing in $ (1, 1) $ so $ 0 $ move is required to reach $ (n, m) = (1, 1) $ .\n\nTest case $ 2 $ : you should go down to reach $ (2, 1) $ .\n\nTest case $ 3 $ : it is impossible to reach $ (1, 3) $ without moving right two consecutive times, or without leaving the grid.\n\nTest case $ 4 $ : an optimal moving sequence could be: $ (1, 1) \\to (1, 2) \\to (2, 2) \\to (2, 1) \\to (3, 1) \\to (3, 2) \\to (4, 2) $ . It can be proved that this is the optimal solution. So the answer is $ 6 $ .","locale":"en"},"zh-CN":{"name":"Direction Change","background":"","description":"\u6709\u4e00\u4e2a $n \\times m$ \u7684\u77e9\u9635\uff0c\u73b0\u5728\u4f60\u5728 $( 1,1 )$\uff0c\u4f60\u53ef\u4ee5\u671d\u4e0a\u3001\u4e0b\u3001\u5de6\u3001\u53f3\u56db\u4e2a\u65b9\u5411\u79fb\u52a8\uff0c\u4f46\u4e0d\u53ef\u4ee5\u8fde\u7eed\u671d\u67d0\u4e2a\u65b9\u5411\u79fb\u52a8\uff0c\u95ee\u6700\u5c11\u9700\u8981\u79fb\u52a8\u51e0\u6b21\u4f60\u624d\u53ef\u4ee5\u5230\u8fbe $( n,m )$\uff0c\u5982\u679c\u65e0\u6cd5\u5230\u8fbe $( n,m )$\uff0c\u8f93\u51fa $-1$\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t ( 1\\le t \\le 10^3 )$\uff0c\u8868\u793a\u6709 $t$ \u7ec4\u8be2\u95ee\u3002\n\n\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570\uff0c\u8868\u793a $n$ \u548c $m ( 1\\le n,m \\le 10^9 )$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u8be2\u95ee\uff0c\u8f93\u51fa\u5bf9\u5e94\u7684\u7b54\u6848\u3002","hint":"\u6837\u4f8b\u7b2c\u4e00\u7ec4\u8be2\u95ee\uff1a\u4e0d\u9700\u8981\u79fb\u52a8\u3002\n\n\u6837\u4f8b\u7b2c\u4e8c\u7ec4\u8be2\u95ee\uff1a\u5411\u4e0b\u79fb\u52a8\u4e00\u6b21\u3002\n\n\u6837\u4f8b\u7b2c\u4e09\u7ec4\u8be2\u95ee\uff1a\u4e0d\u80fd\u5230\u8fbe\u3002\n\n\u6837\u4f8b\u7b2c\u56db\u7ec4\u8be2\u95ee\uff1a\u6709\u4e00\u79cd\u53ef\u884c\u7684\u89e3\u6cd5\u4e3a $(1,1)\\to(1,2)\\to(2,2)\\to(2,1)\\to(3,1)\\to(3,2)\\to(4,2)$\uff0c\u5171 $6$ \u6b65\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1668A Direction Change","type":2,"slug":"CF1668A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.625869,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1668A Direction Change","description":"\u6709\u4e00\u4e2a n \\times m \u7684\u77e9\u9635\uff0c\u73b0\u5728\u4f60\u5728 ( 1,1 )\uff0c\u4f60\u53ef\u4ee5\u671d\u4e0a\u3001\u4e0b\u3001\u5de6\u3001\u53f3\u56db\u4e2a\u65b9\u5411\u79fb\u52a8\uff0c\u4f46\u4e0d\u53ef\u4ee5\u8fde\u7eed\u671d\u67d0\u4e2a\u65b9\u5411\u79fb\u52a8\uff0c\u95ee\u6700\u5c11\u9700\u8981\u79fb\u52a8\u51e0\u6b21\u4f60\u624d\u53ef\u4ee5\u5230\u8fbe ( n,m )\uff0c\u5982\u679c\u65e0\u6cd5\u5230\u8fbe ( n,m )\uff0c\u8f93\u51fa -1\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1668A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1668A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1668A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1668A Direction Change" />
+    <meta property="og:description" content="有一个 n \times m 的矩阵，现在你在 ( 1,1 )，你可以朝上、下、左、右四个方向移动，但不可以连续朝某个方向移动，问最少需要移动几次你才可以到达 ( n,m )，如果无法到达 ( n,m )，输出 -1。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1668A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1668A Direction Change</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有一个 $n \times m$ 的矩阵，现在你在 $( 1,1 )$，你可以朝上、下、左、右四个方向移动，但不可以连续朝某个方向移动，问最少需要移动几次你才可以到达 $( n,m )$，如果无法到达 $( n,m )$，输出 $-1$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个整数 $t ( 1\le t \le 10^3 )$，表示有 $t$ 组询问。
+
+接下来 $t$ 行，每行两个整数，表示 $n$ 和 $m ( 1\le n,m \le 10^9 )$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每一组询问，输出对应的答案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                样例第一组询问：不需要移动。
+
+样例第二组询问：向下移动一次。
+
+样例第三组询问：不能到达。
+
+样例第四组询问：有一种可行的解法为 $(1,1)\to(1,2)\to(2,2)\to(2,1)\to(3,1)\to(3,2)\to(4,2)$，共 $6$ 步。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

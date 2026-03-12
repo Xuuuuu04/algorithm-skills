@@ -1,0 +1,38 @@
+{
+  "id": "CF-1416D",
+  "contest_id": 1416,
+  "index": "D",
+  "name": "Graph and Queries",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dsu",
+    "graphs",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 2642,
+  "problem_url": "https://codeforces.com/problemset/problem/1416/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1416/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1416/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1416D%20Graph%20and%20Queries%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1416D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Graph and Queries - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "implementation",
+      "trees",
+      "*2600"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

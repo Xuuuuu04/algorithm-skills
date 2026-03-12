@@ -1,0 +1,29 @@
+{
+  "id": "CF-578C",
+  "contest_id": 578,
+  "index": "C",
+  "name": "Weakness and Poorness",
+  "rating": 2000,
+  "tags": [
+    "ternary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/578/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/578/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/578/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=578C%20Weakness and Poorness%20tutorial",
+  "solved_count": 5092,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P578C",
+  "hydro_meta": {
+    "page_title": "Weakness and Poorness - 题目详情 - Hydro",
+    "hydro_tags": [
+      "ternary search",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

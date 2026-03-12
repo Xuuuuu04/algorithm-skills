@@ -1,0 +1,31 @@
+{
+  "id": "CF-767E",
+  "contest_id": 767,
+  "index": "E",
+  "name": "Change-free",
+  "rating": 2400,
+  "tags": [
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/767/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/767/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/767/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=767E%20Change-free%20tutorial",
+  "solved_count": 1069,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P767E",
+  "hydro_meta": {
+    "page_title": "Change-free - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

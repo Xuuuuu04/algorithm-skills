@@ -1,0 +1,36 @@
+{
+  "id": "CF-1299C",
+  "contest_id": 1299,
+  "index": "C",
+  "name": "Water Balance",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "geometry",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1299/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1299/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1299/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1299C%20Water Balance%20tutorial",
+  "solved_count": 4288,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1299C",
+  "hydro_meta": {
+    "page_title": "Water Balance - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "geometry",
+      "greedy",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

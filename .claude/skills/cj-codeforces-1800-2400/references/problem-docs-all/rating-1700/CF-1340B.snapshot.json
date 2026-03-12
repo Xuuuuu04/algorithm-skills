@@ -1,0 +1,30 @@
+{
+  "id": "CF-1340B",
+  "contest_id": 1340,
+  "index": "B",
+  "name": "Nastya and Scoreboard",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 8286,
+  "problem_url": "https://codeforces.com/problemset/problem/1340/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1340/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1340/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1340B%20Nastya%20and%20Scoreboard%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1340B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1340B Nastya and Scoreboard - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 152,
+    "mirror_attempt": 283,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

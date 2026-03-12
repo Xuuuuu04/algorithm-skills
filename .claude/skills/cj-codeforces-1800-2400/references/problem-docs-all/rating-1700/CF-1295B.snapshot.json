@@ -1,0 +1,32 @@
+{
+  "id": "CF-1295B",
+  "contest_id": 1295,
+  "index": "B",
+  "name": "Infinite Prefixes",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "strings"
+  ],
+  "solved_count": 9812,
+  "problem_url": "https://codeforces.com/problemset/problem/1295/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1295/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1295/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1295B%20Infinite%20Prefixes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1295B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Infinite Prefixes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "strings",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

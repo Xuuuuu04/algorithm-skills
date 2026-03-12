@@ -1,0 +1,30 @@
+{
+  "id": "CF-1452G",
+  "contest_id": 1452,
+  "index": "G",
+  "name": "Game On Tree",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 548,
+  "problem_url": "https://codeforces.com/problemset/problem/1452/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1452/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1452/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1452G%20Game%20On%20Tree%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1452G",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1452G Game On Tree - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 184,
+    "mirror_attempt": 411,
+    "time_limit": "3000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

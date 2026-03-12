@@ -1,0 +1,30 @@
+{
+  "id": "CF-1470F",
+  "contest_id": 1470,
+  "index": "F",
+  "name": "Strange Covering",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "divide and conquer"
+  ],
+  "solved_count": 161,
+  "problem_url": "https://codeforces.com/problemset/problem/1470/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1470/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1470/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1470F%20Strange%20Covering%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1470F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Strange Covering - 题目详情 - Hydro",
+    "mirror_tags": [
+      "divide and conquer",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "6000ms",
+    "memory_limit": "256MiB"
+  }
+}

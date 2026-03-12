@@ -1,0 +1,13 @@
+[dependencies]
+
+[package]
+  cjc-version = "1.0.1"
+  compile-option = ""
+  description = "cangjie libbpf bindings"
+  link-option = "-L /usr/lib/x86_64-linux-gnu -l bpf"
+  name = "cangjie_libbpf"
+  output-type = "dynamic"
+  src-dir = ""
+  target-dir = ""
+  version = "0.9.1"
+  package-configuration = {}

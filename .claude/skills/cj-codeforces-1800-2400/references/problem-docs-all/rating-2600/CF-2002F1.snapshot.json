@@ -1,0 +1,38 @@
+{
+  "id": "CF-2002F1",
+  "contest_id": 2002,
+  "index": "F1",
+  "name": "Court Blue (Easy Version)",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 994,
+  "problem_url": "https://codeforces.com/problemset/problem/2002/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2002/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2002/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2002F1%20Court%20Blue%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2002F1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Court Blue (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "math",
+      "number theory",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

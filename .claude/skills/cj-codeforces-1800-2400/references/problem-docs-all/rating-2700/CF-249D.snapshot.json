@@ -1,0 +1,38 @@
+{
+  "id": "CF-249D",
+  "contest_id": 249,
+  "index": "D",
+  "name": "Donkey and Stars",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "geometry",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 499,
+  "problem_url": "https://codeforces.com/problemset/problem/249/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/249/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/249/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=249D%20Donkey%20and%20Stars%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P249D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Donkey and Stars - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "geometry",
+      "math",
+      "sortings",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

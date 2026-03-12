@@ -1,0 +1,32 @@
+{
+  "id": "CF-2165F",
+  "contest_id": 2165,
+  "index": "F",
+  "name": "Arctic Acquisition",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 176,
+  "problem_url": "https://codeforces.com/problemset/problem/2165/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2165/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2165/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2165F%20Arctic%20Acquisition%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2165F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Arctic Acquisition - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "1024MiB"
+  }
+}

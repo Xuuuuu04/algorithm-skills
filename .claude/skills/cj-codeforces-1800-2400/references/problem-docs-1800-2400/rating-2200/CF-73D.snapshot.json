@@ -1,0 +1,36 @@
+{
+  "id": "CF-73D",
+  "contest_id": 73,
+  "index": "D",
+  "name": "FreeDiv",
+  "rating": 2200,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/73/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/73/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/73/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=73D%20FreeDiv%20tutorial",
+  "solved_count": 742,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P73D",
+  "hydro_meta": {
+    "page_title": "FreeDiv - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

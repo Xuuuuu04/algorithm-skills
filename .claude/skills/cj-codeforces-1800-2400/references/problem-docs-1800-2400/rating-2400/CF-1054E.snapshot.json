@@ -1,0 +1,36 @@
+{
+  "id": "CF-1054E",
+  "contest_id": 1054,
+  "index": "E",
+  "name": "Chips Puzzle",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1054/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1054/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1054/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1054E%20Chips Puzzle%20tutorial",
+  "solved_count": 512,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1054E",
+  "hydro_meta": {
+    "page_title": "Chips Puzzle - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

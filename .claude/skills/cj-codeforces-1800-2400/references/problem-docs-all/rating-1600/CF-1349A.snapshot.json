@@ -1,0 +1,34 @@
+{
+  "id": "CF-1349A",
+  "contest_id": 1349,
+  "index": "A",
+  "name": "Orac and LCM",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "data structures",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 21126,
+  "problem_url": "https://codeforces.com/problemset/problem/1349/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1349/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1349/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1349A%20Orac%20and%20LCM%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1349A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Orac and LCM - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

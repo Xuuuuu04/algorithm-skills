@@ -1,0 +1,30 @@
+{
+  "id": "CF-1741F",
+  "contest_id": 1741,
+  "index": "F",
+  "name": "Multi-Colored Segments",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 2858,
+  "problem_url": "https://codeforces.com/problemset/problem/1741/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1741/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1741/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1741F%20Multi-Colored%20Segments%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1741/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1741F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

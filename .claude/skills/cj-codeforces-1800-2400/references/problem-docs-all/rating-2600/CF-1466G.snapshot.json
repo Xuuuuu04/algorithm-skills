@@ -1,0 +1,40 @@
+{
+  "id": "CF-1466G",
+  "contest_id": 1466,
+  "index": "G",
+  "name": "Song of the Sirens",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "combinatorics",
+    "divide and conquer",
+    "hashing",
+    "math",
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 995,
+  "problem_url": "https://codeforces.com/problemset/problem/1466/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1466/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1466/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1466G%20Song%20of%20the%20Sirens%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1466G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Song of the Sirens - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "divide and conquer",
+      "hashing",
+      "math",
+      "string suffix structures",
+      "strings",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

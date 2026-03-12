@@ -1,0 +1,36 @@
+{
+  "id": "CF-1073F",
+  "contest_id": 1073,
+  "index": "F",
+  "name": "Choosing Two Paths",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 582,
+  "problem_url": "https://codeforces.com/problemset/problem/1073/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1073/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1073/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1073F%20Choosing%20Two%20Paths%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1073F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Choosing Two Paths - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

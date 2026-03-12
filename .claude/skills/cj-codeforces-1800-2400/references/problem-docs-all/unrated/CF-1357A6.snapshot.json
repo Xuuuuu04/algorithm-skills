@@ -1,0 +1,27 @@
+{
+  "id": "CF-1357A6",
+  "contest_id": 1357,
+  "index": "A6",
+  "name": "Distinguish four Pauli gates",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 170,
+  "problem_url": "https://codeforces.com/problemset/problem/1357/A6",
+  "answer_index_url": "https://codeforces.com/problemset/status/1357/problem/A6",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1357/problem/A6?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1357A6%20Distinguish%20four%20Pauli%20gates%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1357A6",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Distinguish four Pauli gates - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

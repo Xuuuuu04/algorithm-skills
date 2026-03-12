@@ -1,0 +1,22 @@
+[dependencies]
+
+[package]
+  cjc-version = "1.0.3"
+  compile-option = ""
+  description = "nothing here"
+  link-option = ""
+  name = "cef"
+  output-type = "static"
+  override-compile-option = ""
+  src-dir = ""
+  target-dir = ""
+  version = "0.0.1"
+  package-configuration = {}
+
+[ffi.c]
+  cef_c_wrapper = { path = "./lib/cef/" }
+
+
+[target.x86_64-w64-mingw32]                                                     # 系统架构和 OS 信息
+  [target.x86_64-w64-mingw32.bin-dependencies]
+    path-option = ["C:\\software\\Cangjie\\cangjie-stdx-windows-x64-1.0.3.1\\windows_x86_64_llvm\\dynamic\\stdx"] # stdx 路径根据实际情况配置

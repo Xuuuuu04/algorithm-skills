@@ -1,0 +1,28 @@
+{
+  "id": "CF-1736B",
+  "contest_id": 1736,
+  "index": "B",
+  "name": "Playing with GCD",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 20007,
+  "problem_url": "https://codeforces.com/problemset/problem/1736/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1736/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1736/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1736B%20Playing%20with%20GCD%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1736/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1736B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

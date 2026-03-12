@@ -1,0 +1,29 @@
+{
+  "id": "CF-1846B",
+  "contest_id": 1846,
+  "index": "B",
+  "name": "Rudolph and Tic-Tac-Toe",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 28774,
+  "problem_url": "https://codeforces.com/problemset/problem/1846/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1846/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1846/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1846B%20Rudolph%20and%20Tic-Tac-Toe%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1846B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1846B Rudolph and Tic-Tac-Toe - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 218,
+    "mirror_attempt": 395,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

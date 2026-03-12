@@ -1,0 +1,38 @@
+{
+  "id": "CF-401D",
+  "contest_id": 401,
+  "index": "D",
+  "name": "Roman and Numbers",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "combinatorics",
+    "dp",
+    "number theory"
+  ],
+  "solved_count": 4522,
+  "problem_url": "https://codeforces.com/problemset/problem/401/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/401/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/401/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=401D%20Roman%20and%20Numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P401D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Roman and Numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "number theory",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

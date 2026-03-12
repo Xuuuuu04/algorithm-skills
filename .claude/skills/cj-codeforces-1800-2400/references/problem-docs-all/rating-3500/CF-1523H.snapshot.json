@@ -1,0 +1,28 @@
+{
+  "id": "CF-1523H",
+  "contest_id": 1523,
+  "index": "H",
+  "name": "Hopping Around the Array ",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 440,
+  "problem_url": "https://codeforces.com/problemset/problem/1523/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1523/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1523/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1523H%20Hopping%20Around%20the%20Array%20%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1523/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1523H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

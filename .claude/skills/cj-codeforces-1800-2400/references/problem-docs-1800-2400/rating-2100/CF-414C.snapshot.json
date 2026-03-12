@@ -1,0 +1,31 @@
+{
+  "id": "CF-414C",
+  "contest_id": 414,
+  "index": "C",
+  "name": "Mashmokh and Reverse Operation",
+  "rating": 2100,
+  "tags": [
+    "combinatorics",
+    "divide and conquer"
+  ],
+  "url": "https://codeforces.com/problemset/problem/414/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/414/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/414/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=414C%20Mashmokh and Reverse Operation%20tutorial",
+  "solved_count": 2343,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P414C",
+  "hydro_meta": {
+    "page_title": "Mashmokh and Reverse Operation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "divide and conquer",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CF-1485D",
+  "contest_id": 1485,
+  "index": "D",
+  "name": "Multiples and Power Differences",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1485/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1485/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1485/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1485D%20Multiples and Power Differences%20tutorial",
+  "solved_count": 5591,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1485D",
+  "hydro_meta": {
+    "page_title": "Multiples and Power Differences - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

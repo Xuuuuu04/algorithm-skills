@@ -1,0 +1,29 @@
+{
+  "id": "CF-554A",
+  "contest_id": 554,
+  "index": "A",
+  "name": "Kyoya and Photobooks",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "brute force",
+    "math",
+    "strings"
+  ],
+  "solved_count": 14429,
+  "problem_url": "https://codeforces.com/problemset/problem/554/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/554/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/554/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=554A%20Kyoya%20and%20Photobooks%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/554/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 554A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

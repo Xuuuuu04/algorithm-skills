@@ -1,0 +1,27 @@
+{
+  "id": "CF-1642A",
+  "contest_id": 1642,
+  "index": "A",
+  "name": "Hard Way",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "geometry"
+  ],
+  "solved_count": 16688,
+  "problem_url": "https://codeforces.com/problemset/problem/1642/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1642/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1642/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1642A%20Hard%20Way%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1642A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1642A Hard Way - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 200,
+    "mirror_attempt": 315,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

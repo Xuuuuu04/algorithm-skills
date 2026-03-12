@@ -1,0 +1,35 @@
+{
+  "id": "CF-913E",
+  "contest_id": 913,
+  "index": "E",
+  "name": "Logical Expression",
+  "rating": 2400,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/913/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/913/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/913/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=913E%20Logical Expression%20tutorial",
+  "solved_count": 872,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P913E",
+  "hydro_meta": {
+    "page_title": "Logical Expression - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "dp",
+      "shortest paths",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

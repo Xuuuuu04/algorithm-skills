@@ -1,0 +1,32 @@
+{
+  "id": "CF-404D",
+  "contest_id": 404,
+  "index": "D",
+  "name": "Minesweeper 1D",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 2428,
+  "problem_url": "https://codeforces.com/problemset/problem/404/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/404/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/404/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=404D%20Minesweeper%201D%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P404D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Minesweeper 1D - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "implementation",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

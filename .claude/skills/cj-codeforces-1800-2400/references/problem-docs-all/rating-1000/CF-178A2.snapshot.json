@@ -1,0 +1,30 @@
+{
+  "id": "CF-178A2",
+  "contest_id": 178,
+  "index": "A2",
+  "name": "Educational Game",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 30.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 1833,
+  "problem_url": "https://codeforces.com/problemset/problem/178/A2",
+  "answer_index_url": "https://codeforces.com/problemset/status/178/problem/A2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/178/problem/A2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=178A2%20Educational%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P178A2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Educational Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

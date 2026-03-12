@@ -1,0 +1,32 @@
+{
+  "id": "CF-282D",
+  "contest_id": 282,
+  "index": "D",
+  "name": "Yet Another Number Game",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "games"
+  ],
+  "solved_count": 1592,
+  "problem_url": "https://codeforces.com/problemset/problem/282/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/282/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/282/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=282D%20Yet%20Another%20Number%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P282D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yet Another Number Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "games",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

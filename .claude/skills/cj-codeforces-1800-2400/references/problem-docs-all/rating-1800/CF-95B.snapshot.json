@@ -1,0 +1,32 @@
+{
+  "id": "CF-95B",
+  "contest_id": 95,
+  "index": "B",
+  "name": "Lucky Numbers",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 1378,
+  "problem_url": "https://codeforces.com/problemset/problem/95/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/95/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/95/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=95B%20Lucky%20Numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P95B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Lucky Numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-677A",
+  "contest_id": 677,
+  "index": "A",
+  "name": "Vanya and Fence",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 176703,
+  "problem_url": "https://codeforces.com/problemset/problem/677/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/677/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/677/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=677A%20Vanya%20and%20Fence%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P677A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vanya and Fence - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

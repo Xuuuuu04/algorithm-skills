@@ -1,0 +1,38 @@
+{
+  "id": "CF-920C",
+  "contest_id": 920,
+  "index": "C",
+  "name": "Swap Adjacent Elements",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "greedy",
+    "math",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 9912,
+  "problem_url": "https://codeforces.com/problemset/problem/920/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/920/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/920/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=920C%20Swap%20Adjacent%20Elements%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P920C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Swap Adjacent Elements - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "greedy",
+      "math",
+      "sortings",
+      "two pointers",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1770H",
+  "contest_id": 1770,
+  "index": "H",
+  "name": "Koxia, Mahiru and Winter Festival",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 161,
+  "problem_url": "https://codeforces.com/problemset/problem/1770/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1770/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1770/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1770H%20Koxia%2C%20Mahiru%20and%20Winter%20Festival%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1770H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Koxia, Mahiru and Winter Festival - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

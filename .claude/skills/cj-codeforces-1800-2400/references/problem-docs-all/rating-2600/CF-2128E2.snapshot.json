@@ -1,0 +1,38 @@
+{
+  "id": "CF-2128E2",
+  "contest_id": 2128,
+  "index": "E2",
+  "name": "Submedians (Hard Version)",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "math",
+    "two pointers"
+  ],
+  "solved_count": 773,
+  "problem_url": "https://codeforces.com/problemset/problem/2128/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2128/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2128/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2128E2%20Submedians%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2128E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Submedians (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "math",
+      "two pointers",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

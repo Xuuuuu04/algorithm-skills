@@ -1,0 +1,40 @@
+{
+  "id": "CF-2114G",
+  "contest_id": 2114,
+  "index": "G",
+  "name": "Build an Array",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 1983,
+  "problem_url": "https://codeforces.com/problemset/problem/2114/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2114/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2114/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2114G%20Build%20an%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2114G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Build an Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

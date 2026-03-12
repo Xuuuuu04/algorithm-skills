@@ -1,0 +1,34 @@
+{
+  "id": "CF-762F",
+  "contest_id": 762,
+  "index": "F",
+  "name": "Tree nesting",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 476,
+  "problem_url": "https://codeforces.com/problemset/problem/762/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/762/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/762/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=762F%20Tree%20nesting%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P762F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Tree nesting - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "graphs",
+      "trees",
+      "*2800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

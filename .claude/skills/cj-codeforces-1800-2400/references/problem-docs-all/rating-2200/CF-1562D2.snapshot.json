@@ -1,0 +1,28 @@
+{
+  "id": "CF-1562D2",
+  "contest_id": 1562,
+  "index": "D2",
+  "name": "Two Hundred Twenty One (hard version)",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "data structures",
+    "math"
+  ],
+  "solved_count": 2231,
+  "problem_url": "https://codeforces.com/problemset/problem/1562/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1562/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1562/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1562D2%20Two%20Hundred%20Twenty%20One%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1562D2",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1562D2 Two Hundred Twenty One (hard version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 200,
+    "mirror_attempt": 484,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

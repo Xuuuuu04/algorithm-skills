@@ -1,0 +1,32 @@
+{
+  "id": "CF-371C",
+  "contest_id": 371,
+  "index": "C",
+  "name": "Hamburgers",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "brute force"
+  ],
+  "solved_count": 33462,
+  "problem_url": "https://codeforces.com/problemset/problem/371/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/371/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/371/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=371C%20Hamburgers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P371C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Hamburgers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "*1600"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

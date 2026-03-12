@@ -1,0 +1,32 @@
+{
+  "id": "CF-1797B",
+  "contest_id": 1797,
+  "index": "B",
+  "name": "Li Hua and Pattern",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 23691,
+  "problem_url": "https://codeforces.com/problemset/problem/1797/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1797/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1797/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1797B%20Li%20Hua%20and%20Pattern%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1797B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Li Hua and Pattern - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

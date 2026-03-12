@@ -1,0 +1,32 @@
+{
+  "id": "CF-484A",
+  "contest_id": 484,
+  "index": "A",
+  "name": "Bits",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms"
+  ],
+  "solved_count": 13174,
+  "problem_url": "https://codeforces.com/problemset/problem/484/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/484/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/484/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=484A%20Bits%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P484A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bits - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

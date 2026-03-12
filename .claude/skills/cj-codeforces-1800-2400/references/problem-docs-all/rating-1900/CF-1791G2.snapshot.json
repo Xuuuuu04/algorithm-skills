@@ -1,0 +1,29 @@
+{
+  "id": "CF-1791G2",
+  "contest_id": 1791,
+  "index": "G2",
+  "name": "Teleporters (Hard Version)",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 5795,
+  "problem_url": "https://codeforces.com/problemset/problem/1791/G2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1791/problem/G2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1791/problem/G2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1791G2%20Teleporters%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1791G2",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1791G2 Teleporters (Hard Version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 238,
+    "mirror_attempt": 468,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

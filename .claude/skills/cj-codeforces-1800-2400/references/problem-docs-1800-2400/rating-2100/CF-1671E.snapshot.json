@@ -1,0 +1,44 @@
+{
+  "id": "CF-1671E",
+  "contest_id": 1671,
+  "index": "E",
+  "name": "Preorder",
+  "rating": 2100,
+  "tags": [
+    "combinatorics",
+    "divide and conquer",
+    "dp",
+    "dsu",
+    "hashing",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1671/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1671/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1671/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1671E%20Preorder%20tutorial",
+  "solved_count": 3129,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1671E",
+  "hydro_meta": {
+    "page_title": "Preorder - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "divide and conquer",
+      "dp",
+      "dsu",
+      "hashing",
+      "sortings",
+      "trees",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

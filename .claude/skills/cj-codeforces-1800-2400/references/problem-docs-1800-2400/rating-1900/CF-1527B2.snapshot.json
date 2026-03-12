@@ -1,0 +1,33 @@
+{
+  "id": "CF-1527B2",
+  "contest_id": 1527,
+  "index": "B2",
+  "name": "Palindrome Game (hard version)",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "games"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1527/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1527/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1527/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1527B2%20Palindrome Game (hard version)%20tutorial",
+  "solved_count": 8620,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1527B2",
+  "hydro_meta": {
+    "page_title": "Palindrome Game (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "games",
+      "*1900"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

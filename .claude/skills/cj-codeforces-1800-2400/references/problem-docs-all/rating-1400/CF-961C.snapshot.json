@@ -1,0 +1,29 @@
+{
+  "id": "CF-961C",
+  "contest_id": 961,
+  "index": "C",
+  "name": "Chessboard",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 5609,
+  "problem_url": "https://codeforces.com/problemset/problem/961/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/961/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/961/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=961C%20Chessboard%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/961/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 961C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

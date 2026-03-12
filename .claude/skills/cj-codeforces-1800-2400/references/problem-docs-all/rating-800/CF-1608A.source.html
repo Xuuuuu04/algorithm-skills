@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1608A Find Array - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1608A","type":"CF","title":"Find Array","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":444,"totalAccepted":311,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Find Array","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6574\u6570 $n$ \uff0c\u8981\u6c42\u6784\u9020\u4e00\u4e2a\u6574\u6570\u6570\u7ec4 $a_{1},a_{2},...,a_{n}$ \uff0c\u4f7f\u5f97\u4ee5\u4e0b\u6761\u4ef6\u6210\u7acb\uff1a\n\n- $1 \\le a_{i} \\le 10^9$\n- $a_{1}\u003Ca_{2}\u003C...\u003Ca_{n}$ \n- $a_{i}$ \u4e0d\u80fd\u591f\u88ab $a_{i-1}$ \u6574\u9664\n\n\u53ef\u4ee5\u8bc1\u660e\u8fd9\u6837\u7684\u6570\u7ec4\u5728\u95ee\u9898\u7684\u7ea6\u675f\u4e0b\u603b\u662f\u5b58\u5728\u7684\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $t$ \uff08 $1 \\le t \\le 100$ \uff09\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u53ea\u6709\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$ \uff08 $1 \\le n \\le 1000$ \uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u6837\u4f8b\u4e2d\u7684 $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^4$","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u8f93\u51fa $n$ \u4e2a\u6574\u6570 $a_{1},a_{2},...,a_{n}$ \u2014\u2014\u4f60\u627e\u5230\u7684\u6570\u7ec4\u3002\u5982\u679c\u6709\u591a\u4e2a\u6570\u7ec4\u6ee1\u8db3\u6240\u6709\u6761\u4ef6\uff0c\u5219\u8f93\u51fa\u5176\u4e2d\u4efb\u4f55\u4e00\u4e2a\u5373\u53ef\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Find Array","background":"","description":"Given $ n $ , find any array $ a_1, a_2, \\ldots, a_n $ of integers such that all of the following conditions hold:\n\n- $ 1 \\le a_i \\le 10^9 $ for every $ i $ from $ 1 $ to $ n $ .\n- $ a_1 \u003C a_2 \u003C \\ldots \u003Ca_n $\n- For every $ i $ from $ 2 $ to $ n $ , $ a_i $ isn\u0027t divisible by $ a_{i-1} $\n\nIt can be shown that such an array always exists under the constraints of the problem.","formatI":"The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). Description of the test cases follows.\n\nThe only line of each test case contains a single integer $ n $ ( $ 1 \\le n \\le 1000 $ ).\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 10^4 $ .","formatO":"For each test case print $ n $ integers $ a_1, a_2, \\ldots, a_n $ \u2014 the array you found. If there are multiple arrays satisfying all the conditions, print any of them.","hint":"In the first test case, array $ [1] $ satisfies all the conditions.\n\nIn the second test case, array $ [2, 3] $ satisfies all the conditions, as $ 2\u003C3 $ and $ 3 $ is not divisible by $ 2 $ .\n\nIn the third test case, array $ [111, 1111, 11111, 111111, 1111111, 11111111, 111111111] $ satisfies all the conditions, as it\u0027s increasing and $ a_i $ isn\u0027t divisible by $ a_{i-1} $ for any $ i $ from $ 2 $ to $ 7 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n1\n2\n7","1\n2 3\n111 1111 11111 111111 1111111 11111111 111111111"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1608A","link":"https:\/\/codeforces.com\/problemset\/problem\/1608\/A"},"translation":"# \u9898\u76ee\u63cf\u8ff0\n\n\u7ed9\u5b9a\u4e00\u4e2a\u6574\u6570 $n$ \uff0c\u8981\u6c42\u6784\u9020\u4e00\u4e2a\u6574\u6570\u6570\u7ec4 $a_{1},a_{2},...,a_{n}$ \uff0c\u4f7f\u5f97\u4ee5\u4e0b\u6761\u4ef6\u6210\u7acb\uff1a\n\n- $1 \\le a_{i} \\le 10^9$\n- $a_{1}\u003Ca_{2}\u003C...\u003Ca_{n}$ \n- $a_{i}$ \u4e0d\u80fd\u591f\u88ab $a_{i-1}$ \u6574\u9664\n\n\u53ef\u4ee5\u8bc1\u660e\u8fd9\u6837\u7684\u6570\u7ec4\u5728\u95ee\u9898\u7684\u7ea6\u675f\u4e0b\u603b\u662f\u5b58\u5728\u7684\u3002\n\n# \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $t$ \uff08 $1 \\le t \\le 100$ \uff09\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u53ea\u6709\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$ \uff08 $1 \\le n \\le 1000$ \uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u6837\u4f8b\u4e2d\u7684 $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^4$\n\n# \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u8f93\u51fa $n$ \u4e2a\u6574\u6570 $a_{1},a_{2},...,a_{n}$ \u2014\u2014\u4f60\u627e\u5230\u7684\u6570\u7ec4\u3002\u5982\u679c\u6709\u591a\u4e2a\u6570\u7ec4\u6ee1\u8db3\u6240\u6709\u6761\u4ef6\uff0c\u5219\u8f93\u51fa\u5176\u4e2d\u4efb\u4f55\u4e00\u4e2a\u5373\u53ef\u3002"},"translations":{"en":{"name":"Find Array","background":"","description":"Given $ n $ , find any array $ a_1, a_2, \\ldots, a_n $ of integers such that all of the following conditions hold:\n\n- $ 1 \\le a_i \\le 10^9 $ for every $ i $ from $ 1 $ to $ n $ .\n- $ a_1 \u003C a_2 \u003C \\ldots \u003Ca_n $\n- For every $ i $ from $ 2 $ to $ n $ , $ a_i $ isn\u0027t divisible by $ a_{i-1} $\n\nIt can be shown that such an array always exists under the constraints of the problem.","formatI":"The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). Description of the test cases follows.\n\nThe only line of each test case contains a single integer $ n $ ( $ 1 \\le n \\le 1000 $ ).\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 10^4 $ .","formatO":"For each test case print $ n $ integers $ a_1, a_2, \\ldots, a_n $ \u2014 the array you found. If there are multiple arrays satisfying all the conditions, print any of them.","hint":"In the first test case, array $ [1] $ satisfies all the conditions.\n\nIn the second test case, array $ [2, 3] $ satisfies all the conditions, as $ 2\u003C3 $ and $ 3 $ is not divisible by $ 2 $ .\n\nIn the third test case, array $ [111, 1111, 11111, 111111, 1111111, 11111111, 111111111] $ satisfies all the conditions, as it\u0027s increasing and $ a_i $ isn\u0027t divisible by $ a_{i-1} $ for any $ i $ from $ 2 $ to $ 7 $ .","locale":"en"},"zh-CN":{"name":"Find Array","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6574\u6570 $n$ \uff0c\u8981\u6c42\u6784\u9020\u4e00\u4e2a\u6574\u6570\u6570\u7ec4 $a_{1},a_{2},...,a_{n}$ \uff0c\u4f7f\u5f97\u4ee5\u4e0b\u6761\u4ef6\u6210\u7acb\uff1a\n\n- $1 \\le a_{i} \\le 10^9$\n- $a_{1}\u003Ca_{2}\u003C...\u003Ca_{n}$ \n- $a_{i}$ \u4e0d\u80fd\u591f\u88ab $a_{i-1}$ \u6574\u9664\n\n\u53ef\u4ee5\u8bc1\u660e\u8fd9\u6837\u7684\u6570\u7ec4\u5728\u95ee\u9898\u7684\u7ea6\u675f\u4e0b\u603b\u662f\u5b58\u5728\u7684\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $t$ \uff08 $1 \\le t \\le 100$ \uff09\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u53ea\u6709\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$ \uff08 $1 \\le n \\le 1000$ \uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u6837\u4f8b\u4e2d\u7684 $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^4$","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6d4b\u8bd5\u6837\u4f8b\u8f93\u51fa $n$ \u4e2a\u6574\u6570 $a_{1},a_{2},...,a_{n}$ \u2014\u2014\u4f60\u627e\u5230\u7684\u6570\u7ec4\u3002\u5982\u679c\u6709\u591a\u4e2a\u6570\u7ec4\u6ee1\u8db3\u6240\u6709\u6761\u4ef6\uff0c\u5219\u8f93\u51fa\u5176\u4e2d\u4efb\u4f55\u4e00\u4e2a\u5373\u53ef\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1608A Find Array","type":2,"slug":"CF1608A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.791667,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1608A Find Array","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6574\u6570 n \uff0c\u8981\u6c42\u6784\u9020\u4e00\u4e2a\u6574\u6570\u6570\u7ec4 a_{1},a_{2},...,a_{n} \uff0c\u4f7f\u5f97\u4ee5\u4e0b\u6761\u4ef6\u6210\u7acb\uff1a\n\n\n1 \\le a_{i} \\le 10^9\n\n\na_{1}&lt;a_{2}&lt;...&lt;a_{n}\n\n\n\n\n\n\u53ef\u4ee5\u8bc1\u660e\u8fd9\u6837\u7684\u6570\u7ec4\u5728\u95ee\u9898\u7684\u7ea6\u675f\u4e0b\u603b\u662f\u5b58\u5728\u7684\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1608A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1608A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1608A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1608A Find Array" />
+    <meta property="og:description" content="给定一个整数 n ，要求构造一个整数数组 a_{1},a_{2},...,a_{n} ，使得以下条件成立：
+
+
+1 \le a_{i} \le 10^9
+
+
+a_{1}&amp;lt;a_{2}&amp;lt;...&amp;lt;a_{n}
+
+
+
+
+
+可以证明这样的数组在问题的约束下总是存在的。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1608A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1608A Find Array</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个整数 $n$ ，要求构造一个整数数组 $a_{1},a_{2},...,a_{n}$ ，使得以下条件成立：
+
+- $1 \le a_{i} \le 10^9$
+- $a_{1}
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含测试用例的数量 $t$ （ $1 \le t \le 100$ ）。
+
+每个测试用例只有一行，包含一个整数 $n$ （ $1 \le n \le 1000$ ）。
+
+保证所有测试样例中的 $n$ 的总和不超过 $10^4$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每一个测试样例输出 $n$ 个整数 $a_{1},a_{2},...,a_{n}$ ——你找到的数组。如果有多个数组满足所有条件，则输出其中任何一个即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case, array $ [1] $ satisfies all the conditions.
+
+In the second test case, array $ [2, 3] $ satisfies all the conditions, as $ 2
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

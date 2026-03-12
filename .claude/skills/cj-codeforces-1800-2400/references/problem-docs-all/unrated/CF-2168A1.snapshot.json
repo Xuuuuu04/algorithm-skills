@@ -1,0 +1,29 @@
+{
+  "id": "CF-2168A1",
+  "contest_id": 2168,
+  "index": "A1",
+  "name": "Encode and Decode (Easy Version)",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "communication",
+    "constructive algorithms",
+    "interactive"
+  ],
+  "solved_count": 4869,
+  "problem_url": "https://codeforces.com/problemset/problem/2168/A1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2168/problem/A1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2168/problem/A1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2168A1%20Encode%20and%20Decode%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2168A1",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2168A1 Encode and Decode (Easy Version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

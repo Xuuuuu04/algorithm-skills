@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417192:HRIxmQqXVIxdN1b4LgVjO5SuqrUJ+uwVsY5m278ofAc=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF977B Two-gram - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF977B","type":"CF","title":"Two-gram","difficulty":2,"tags":[2,111],"wantsTranslation":false,"totalSubmit":1255,"totalAccepted":528,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Two-gram","background":null,"description":"Two-gram \u662f\u7531\u4e24\u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u6709\u5e8f\u5bf9\uff08\u5373\u957f\u5ea6\u4e3a $2$ \u7684\u5b57\u7b26\u4e32\uff09\u3002\u4f8b\u5982\uff0c\u201cAZ\u201d\u3001\u201cAA\u201d\u3001\u201cZA\u201d\u662f\u4e09\u4e2a\u4e0d\u540c\u7684 two-gram\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u7531 $n$ \u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u4f60\u7684\u4efb\u52a1\u662f\u627e\u51fa\u5728\u8be5\u5b57\u7b26\u4e32\u4e2d\u4f5c\u4e3a\u5b50\u4e32\uff08\u5373\u5b57\u7b26\u4e32\u4e2d\u8fde\u7eed\u7684\u4e24\u4e2a\u5b57\u7b26\uff09\u51fa\u73b0\u6b21\u6570\u6700\u591a\u7684\u4efb\u610f\u4e00\u4e2a two-gram\u3002\u4f8b\u5982\uff0c\u5bf9\u4e8e\u5b57\u7b26\u4e32 $s = \\text{BBAABBBA}$\uff0c\u7b54\u6848\u662f two-gram \u201cBB\u201d\uff0c\u5b83\u5728 $s$ \u4e2d\u51fa\u73b0\u4e86\u4e09\u6b21\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u627e\u51fa\u51fa\u73b0\u6b21\u6570\u6700\u591a\u7684\u4efb\u610f\u4e00\u4e2a two-gram\u3002\n\n\u6ce8\u610f\uff0ctwo-gram \u7684\u51fa\u73b0\u53ef\u4ee5\u76f8\u4e92\u91cd\u53e0\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32 $s$ \u7684\u957f\u5ea6\u3002\u7b2c\u4e8c\u884c\u5305\u542b\u7531 $n$ \u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u8f93\u51fa\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u6070\u597d\u4e24\u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u8868\u793a\u5728\u7ed9\u5b9a\u5b57\u7b26\u4e32 $s$ \u4e2d\u4f5c\u4e3a\u5b50\u4e32\uff08\u5373\u8fde\u7eed\u7684\u4e24\u4e2a\u5b57\u7b26\uff09\u51fa\u73b0\u6b21\u6570\u6700\u591a\u7684\u4efb\u610f\u4e00\u4e2a two-gram\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u201cBA\u201d \u4e5f\u662f\u4e00\u4e2a\u5408\u6cd5\u7b54\u6848\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u552f\u4e00\u7684 two-gram \u201cZZ\u201d \u53ef\u4ee5\u88ab\u8f93\u51fa\uff0c\u56e0\u4e3a\u5b83\u5728\u5b57\u7b26\u4e32 \u201cZZZAA\u201d \u4e2d\u51fa\u73b0\u4e86\u4e24\u6b21\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Two-gram","background":"","description":"Two-gram is an ordered pair (i.e. string of length two) of capital Latin letters. For example, \u0022AZ\u0022, \u0022AA\u0022, \u0022ZA\u0022 \u2014 three distinct two-grams.\n\nYou are given a string $ s $ consisting of $ n $ capital Latin letters. Your task is to find any two-gram contained in the given string as a substring (i.e. two consecutive characters of the string) maximal number of times. For example, for string $ s $ = \u0022BBAABBBA\u0022 the answer is two-gram \u0022BB\u0022, which contained in $ s $ three times. In other words, find any most frequent two-gram.\n\nNote that occurrences of the two-gram can overlap with each other.","formatI":"The first line of the input contains integer number $ n $ ( $ 2 \\le n \\le 100 $ ) \u2014 the length of string $ s $ . The second line of the input contains the string $ s $ consisting of $ n $ capital Latin letters.","formatO":"Print the only line containing exactly two capital Latin letters \u2014 any two-gram contained in the given string $ s $ as a substring (i.e. two consecutive characters of the string) maximal number of times.","hint":"In the first example \u0022BA\u0022 is also valid answer.\n\nIn the second example the only two-gram \u0022ZZ\u0022 can be printed because it contained in the string \u0022ZZZAA\u0022 two times.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\nABACABA\n","AB\n"],["5\nZZZAA\n","ZZ\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"977B","link":"https:\/\/codeforces.com\/problemset\/problem\/977\/B"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u627e\u51fa\u73b0\u6b21\u6570\u6700\u591a\u7684\u957f\u5ea6\u4e3a2\u7684\u5b50\u4e32\u3002\n\n\u5b57\u4e32\uff1a\u4e32\u4e2d\u4efb\u610f\u4e2a\u8fde\u7eed\u7684\u5b57\u7b26\u7ec4\u6210\u7684\u5b50\u5e8f\u5217\u79f0\u4e3a\u8be5\u4e32\u7684\u5b50\u4e32\u3002\n\n\u4f8b\u5982\uff1a\u5b57\u7b26\u4e32 `ABC` \u4e2d\u6709 6 \u4e2a\u5b50\u4e32\uff0c\u5206\u522b\u4e3a `A`,`B`,`C`,`AB`,`BC`,`ABC`\u3002"},"translations":{"en":{"name":"Two-gram","background":"","description":"Two-gram is an ordered pair (i.e. string of length two) of capital Latin letters. For example, \u0022AZ\u0022, \u0022AA\u0022, \u0022ZA\u0022 \u2014 three distinct two-grams.\n\nYou are given a string $ s $ consisting of $ n $ capital Latin letters. Your task is to find any two-gram contained in the given string as a substring (i.e. two consecutive characters of the string) maximal number of times. For example, for string $ s $ = \u0022BBAABBBA\u0022 the answer is two-gram \u0022BB\u0022, which contained in $ s $ three times. In other words, find any most frequent two-gram.\n\nNote that occurrences of the two-gram can overlap with each other.","formatI":"The first line of the input contains integer number $ n $ ( $ 2 \\le n \\le 100 $ ) \u2014 the length of string $ s $ . The second line of the input contains the string $ s $ consisting of $ n $ capital Latin letters.","formatO":"Print the only line containing exactly two capital Latin letters \u2014 any two-gram contained in the given string $ s $ as a substring (i.e. two consecutive characters of the string) maximal number of times.","hint":"In the first example \u0022BA\u0022 is also valid answer.\n\nIn the second example the only two-gram \u0022ZZ\u0022 can be printed because it contained in the string \u0022ZZZAA\u0022 two times.","locale":"en"},"zh-CN":{"name":"Two-gram","background":null,"description":"Two-gram \u662f\u7531\u4e24\u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u6709\u5e8f\u5bf9\uff08\u5373\u957f\u5ea6\u4e3a $2$ \u7684\u5b57\u7b26\u4e32\uff09\u3002\u4f8b\u5982\uff0c\u201cAZ\u201d\u3001\u201cAA\u201d\u3001\u201cZA\u201d\u662f\u4e09\u4e2a\u4e0d\u540c\u7684 two-gram\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u7531 $n$ \u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u4f60\u7684\u4efb\u52a1\u662f\u627e\u51fa\u5728\u8be5\u5b57\u7b26\u4e32\u4e2d\u4f5c\u4e3a\u5b50\u4e32\uff08\u5373\u5b57\u7b26\u4e32\u4e2d\u8fde\u7eed\u7684\u4e24\u4e2a\u5b57\u7b26\uff09\u51fa\u73b0\u6b21\u6570\u6700\u591a\u7684\u4efb\u610f\u4e00\u4e2a two-gram\u3002\u4f8b\u5982\uff0c\u5bf9\u4e8e\u5b57\u7b26\u4e32 $s = \\text{BBAABBBA}$\uff0c\u7b54\u6848\u662f two-gram \u201cBB\u201d\uff0c\u5b83\u5728 $s$ \u4e2d\u51fa\u73b0\u4e86\u4e09\u6b21\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u627e\u51fa\u51fa\u73b0\u6b21\u6570\u6700\u591a\u7684\u4efb\u610f\u4e00\u4e2a two-gram\u3002\n\n\u6ce8\u610f\uff0ctwo-gram \u7684\u51fa\u73b0\u53ef\u4ee5\u76f8\u4e92\u91cd\u53e0\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32 $s$ \u7684\u957f\u5ea6\u3002\u7b2c\u4e8c\u884c\u5305\u542b\u7531 $n$ \u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u8f93\u51fa\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u6070\u597d\u4e24\u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u8868\u793a\u5728\u7ed9\u5b9a\u5b57\u7b26\u4e32 $s$ \u4e2d\u4f5c\u4e3a\u5b50\u4e32\uff08\u5373\u8fde\u7eed\u7684\u4e24\u4e2a\u5b57\u7b26\uff09\u51fa\u73b0\u6b21\u6570\u6700\u591a\u7684\u4efb\u610f\u4e00\u4e2a two-gram\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u201cBA\u201d \u4e5f\u662f\u4e00\u4e2a\u5408\u6cd5\u7b54\u6848\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u552f\u4e00\u7684 two-gram \u201cZZ\u201d \u53ef\u4ee5\u88ab\u8f93\u51fa\uff0c\u56e0\u4e3a\u5b83\u5728\u5b57\u7b26\u4e32 \u201cZZZAA\u201d \u4e2d\u51fa\u73b0\u4e86\u4e24\u6b21\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF977B Two-gram","type":2,"slug":"CF977B","color":"orange-3"},"discussions":[{"id":726687,"title":"\u4e00\u4e2aset\u7684\u7591\u95ee","author":{"uid":421291,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/421291.png","name":"Noble_Wolf","slogan":"\u773c\u6cea\u6210\u8bd7","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":0,"background":""},"time":1699271178}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330792.179711,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF977B Two-gram","description":"Two-gram \u662f\u7531\u4e24\u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u6709\u5e8f\u5bf9\uff08\u5373\u957f\u5ea6\u4e3a 2 \u7684\u5b57\u7b26\u4e32\uff09\u3002\u4f8b\u5982\uff0c\u201cAZ\u201d\u3001\u201cAA\u201d\u3001\u201cZA\u201d\u662f\u4e09\u4e2a\u4e0d\u540c\u7684 two-gram\u3002\n\u7ed9\u5b9a\u4e00\u4e2a\u7531 n \u4e2a\u5927\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 s\uff0c\u4f60\u7684\u4efb\u52a1\u662f\u627e\u51fa\u5728\u8be5\u5b57\u7b26\u4e32\u4e2d\u4f5c\u4e3a\u5b50\u4e32\uff08\u5373\u5b57\u7b26\u4e32\u4e2d\u8fde\u7eed\u7684\u4e24\u4e2a\u5b57\u7b26\uff09\u51fa\u73b0\u6b21\u6570\u6700\u591a\u7684\u4efb\u610f\u4e00\u4e2a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF977B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF977B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF977B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF977B Two-gram" />
+    <meta property="og:description" content="Two-gram 是由两个大写拉丁字母组成的有序对（即长度为 2 的字符串）。例如，“AZ”、“AA”、“ZA”是三个不同的 two-gram。
+给定一个由 n 个大写拉丁字母组成的字符串 s，你的任务是找出在该字符串中作为子串（即字符串中连续的两个字符）出现次数最多的任意一个…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF977B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF977B Two-gram</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Two-gram 是由两个大写拉丁字母组成的有序对（即长度为 $2$ 的字符串）。例如，“AZ”、“AA”、“ZA”是三个不同的 two-gram。
+
+给定一个由 $n$ 个大写拉丁字母组成的字符串 $s$，你的任务是找出在该字符串中作为子串（即字符串中连续的两个字符）出现次数最多的任意一个 two-gram。例如，对于字符串 $s = \text{BBAABBBA}$，答案是 two-gram “BB”，它在 $s$ 中出现了三次。换句话说，找出出现次数最多的任意一个 two-gram。
+
+注意，two-gram 的出现可以相互重叠。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$（$2 \le n \le 100$），表示字符串 $s$ 的长度。第二行包含由 $n$ 个大写拉丁字母组成的字符串 $s$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出仅一行，包含恰好两个大写拉丁字母，表示在给定字符串 $s$ 中作为子串（即连续的两个字符）出现次数最多的任意一个 two-gram。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，“BA” 也是一个合法答案。
+
+在第二个样例中，唯一的 two-gram “ZZ” 可以被输出，因为它在字符串 “ZZZAA” 中出现了两次。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

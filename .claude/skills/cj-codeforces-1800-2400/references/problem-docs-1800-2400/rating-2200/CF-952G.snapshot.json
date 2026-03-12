@@ -1,0 +1,32 @@
+{
+  "id": "CF-952G",
+  "contest_id": 952,
+  "index": "G",
+  "name": "Puzzling Language",
+  "rating": 2200,
+  "tags": [
+    "*special",
+    "constructive algorithms"
+  ],
+  "url": "https://codeforces.com/problemset/problem/952/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/952/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/952/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=952G%20Puzzling Language%20tutorial",
+  "solved_count": 252,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P952G",
+  "hydro_meta": {
+    "page_title": "Puzzling Language - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

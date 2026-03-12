@@ -1,0 +1,41 @@
+{
+  "id": "CF-1720D1",
+  "contest_id": 1720,
+  "index": "D1",
+  "name": "Xor-Subsequence (easy version)",
+  "rating": 1800,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dp",
+    "strings",
+    "trees",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1720/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1720/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1720/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1720D1%20Xor-Subsequence (easy version)%20tutorial",
+  "solved_count": 6646,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1720D1",
+  "hydro_meta": {
+    "page_title": "Xor-Subsequence (easy version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "strings",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

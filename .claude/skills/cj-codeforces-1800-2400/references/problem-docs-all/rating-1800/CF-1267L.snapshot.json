@@ -1,0 +1,32 @@
+{
+  "id": "CF-1267L",
+  "contest_id": 1267,
+  "index": "L",
+  "name": "Lexicography",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "strings"
+  ],
+  "solved_count": 3340,
+  "problem_url": "https://codeforces.com/problemset/problem/1267/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1267/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1267/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1267L%20Lexicography%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1267L",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Lexicography - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "strings",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

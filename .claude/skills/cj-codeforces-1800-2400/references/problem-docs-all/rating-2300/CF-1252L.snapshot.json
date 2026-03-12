@@ -1,0 +1,28 @@
+{
+  "id": "CF-1252L",
+  "contest_id": 1252,
+  "index": "L",
+  "name": "Road Construction",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "flows",
+    "graphs"
+  ],
+  "solved_count": 636,
+  "problem_url": "https://codeforces.com/problemset/problem/1252/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1252/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1252/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1252L%20Road%20Construction%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1252/L",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1252L - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

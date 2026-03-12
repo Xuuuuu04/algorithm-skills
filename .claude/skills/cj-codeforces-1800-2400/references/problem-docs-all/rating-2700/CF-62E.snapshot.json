@@ -1,0 +1,32 @@
+{
+  "id": "CF-62E",
+  "contest_id": 62,
+  "index": "E",
+  "name": "World Evil",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dp",
+    "flows"
+  ],
+  "solved_count": 274,
+  "problem_url": "https://codeforces.com/problemset/problem/62/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/62/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/62/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=62E%20World%20Evil%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P62E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "World Evil - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "flows",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

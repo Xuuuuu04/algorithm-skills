@@ -1,0 +1,27 @@
+{
+  "id": "CF-1184C3",
+  "contest_id": 1184,
+  "index": "C3",
+  "name": "Heidi and the Turing Test (Hard)",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 44,
+  "problem_url": "https://codeforces.com/problemset/problem/1184/C3",
+  "answer_index_url": "https://codeforces.com/problemset/status/1184/problem/C3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1184/problem/C3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1184C3%20Heidi%20and%20the%20Turing%20Test%20%28Hard%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1184C3",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Heidi and the Turing Test (Hard) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*3200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "15000ms",
+    "memory_limit": "256MiB"
+  }
+}

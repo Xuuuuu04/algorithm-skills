@@ -1,0 +1,36 @@
+{
+  "id": "CF-1361D",
+  "contest_id": 1361,
+  "index": "D",
+  "name": "Johnny and James",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math",
+    "trees"
+  ],
+  "solved_count": 339,
+  "problem_url": "https://codeforces.com/problemset/problem/1361/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1361/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1361/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1361D%20Johnny%20and%20James%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1361D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Johnny and James - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "trees",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

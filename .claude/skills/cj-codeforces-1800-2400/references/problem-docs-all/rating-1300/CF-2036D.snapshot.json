@@ -1,0 +1,29 @@
+{
+  "id": "CF-2036D",
+  "contest_id": 2036,
+  "index": "D",
+  "name": "I Love 1543",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation",
+    "matrices"
+  ],
+  "solved_count": 15800,
+  "problem_url": "https://codeforces.com/problemset/problem/2036/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2036/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2036/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2036D%20I%20Love%201543%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2036D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2036D I Love 1543 - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1426D Non-zero Segments - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1426D","type":"CF","title":"Non-zero Segments","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":612,"totalAccepted":274,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Non-zero Segments","background":null,"description":"Kolya \u5f97\u5230\u4e00\u4e2a\u6574\u6570\u6570\u7ec4 $a_1, a_2, \\dots, a_n$\u3002\u8be5\u6570\u7ec4\u53ef\u4ee5\u5305\u542b\u6b63\u6574\u6570\u548c\u8d1f\u6574\u6570\uff0c\u4f46 Kolya \u4e0d\u559c\u6b22 $0$\uff0c\u6240\u4ee5\u6570\u7ec4\u4e2d\u4e0d\u5305\u542b\u4efb\u4f55 $0$\u3002\n\nKolya \u4e0d\u559c\u6b22\u4ed6\u7684\u6570\u7ec4\u4e2d\u67d0\u4e9b\u5b50\u6bb5\u7684\u548c\u4e3a $0$\u3002\u5b50\u6bb5\u662f\u6570\u7ec4\u4e2d\u4e00\u6bb5\u8fde\u7eed\u7684\u5143\u7d20\u3002\n\n\u4f60\u9700\u8981\u5e2e\u52a9 Kolya \u4fee\u6539\u4ed6\u7684\u6570\u7ec4\uff0c\u4f7f\u5f97\u6570\u7ec4\u4e2d\u4e0d\u5305\u542b\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\u3002\u4e3a\u6b64\uff0c\u4f60\u53ef\u4ee5\u5728\u6570\u7ec4\u4e2d\u4efb\u610f\u4e00\u5bf9\u76f8\u90bb\u5143\u7d20\u4e4b\u95f4\u63d2\u5165\u4efb\u610f\u6574\u6570\uff08\u8fd9\u4e9b\u6574\u6570\u53ef\u4ee5\u662f\u6b63\u6570\u3001\u8d1f\u6570\u3001$0$\uff0c\u7edd\u5bf9\u503c\u53ef\u4ee5\u4efb\u610f\u5927\uff0c\u751a\u81f3\u5927\u5230\u5927\u591a\u6570\u6807\u51c6\u7f16\u7a0b\u8bed\u8a00\u65e0\u6cd5\u8868\u793a\uff09\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\uff0c\u4e3a\u4e86\u4f7f\u6700\u7ec8\u6570\u7ec4\u4e2d\u4e0d\u5305\u542b\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\uff0c\u6700\u5c11\u9700\u8981\u63d2\u5165\u591a\u5c11\u4e2a\u6574\u6570\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 200\\,000$\uff09\uff0c\u8868\u793a Kolya \u7684\u6570\u7ec4\u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$-10^{9} \\le a_i \\le 10^{9},\\ a_i \\neq 0$\uff09\uff0c\u8868\u793a Kolya \u7684\u6570\u7ec4\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4e3a\u4e86\u4f7f\u6700\u7ec8\u6570\u7ec4\u4e2d\u4e0d\u5305\u542b\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\uff0c\u6700\u5c11\u9700\u8981\u63d2\u5165\u591a\u5c11\u4e2a\u6574\u6570\u3002","hint":"\u8003\u8651\u7b2c\u4e00\u4e2a\u6837\u4f8b\u3002\u53ea\u6709\u4e00\u4e2a\u5b50\u6bb5\u7684\u548c\u4e3a $0$\uff0c\u5b83\u4ece\u7b2c\u4e8c\u4e2a\u5143\u7d20\u5f00\u59cb\uff0c\u5230\u7b2c\u56db\u4e2a\u5143\u7d20\u7ed3\u675f\u3002\u53ea\u9700\u63d2\u5165\u4e00\u4e2a\u5143\u7d20\u5373\u53ef\u4f7f\u6570\u7ec4\u4e0d\u5305\u542b\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\u3002\u4f8b\u5982\uff0c\u53ef\u4ee5\u5728\u6570\u7ec4\u7684\u7b2c\u4e8c\u4e2a\u548c\u7b2c\u4e09\u4e2a\u5143\u7d20\u4e4b\u95f4\u63d2\u5165\u6574\u6570 $1$\u3002\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\u6ca1\u6709\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\uff0c\u56e0\u6b64\u65e0\u9700\u8fdb\u884c\u4efb\u4f55\u64cd\u4f5c\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Non-zero Segments","background":"","description":"Kolya got an integer array $ a_1, a_2, \\dots, a_n $ . The array can contain both positive and negative integers, but Kolya doesn\u0027t like $ 0 $ , so the array doesn\u0027t contain any zeros.\n\nKolya doesn\u0027t like that the sum of some subsegments of his array can be $ 0 $ . The subsegment is some consecutive segment of elements of the array.\n\nYou have to help Kolya and change his array in such a way that it doesn\u0027t contain any subsegments with the sum $ 0 $ . To reach this goal, you can insert any integers between any pair of adjacent elements of the array (integers can be really any: positive, negative, $ 0 $ , any by absolute value, even such a huge that they can\u0027t be represented in most standard programming languages).\n\nYour task is to find the minimum number of integers you have to insert into Kolya\u0027s array in such a way that the resulting array doesn\u0027t contain any subsegments with the sum $ 0 $ .","formatI":"The first line of the input contains one integer $ n $ ( $ 2 \\le n \\le 200\\,000 $ ) \u2014 the number of elements in Kolya\u0027s array.\n\nThe second line of the input contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ -10^{9} \\le a_i \\le 10^{9}, a_i \\neq 0 $ ) \u2014 the description of Kolya\u0027s array.","formatO":"Print the minimum number of integers you have to insert into Kolya\u0027s array in such a way that the resulting array doesn\u0027t contain any subsegments with the sum $ 0 $ .","hint":"Consider the first example. There is only one subsegment with the sum $ 0 $ . It starts in the second element and ends in the fourth element. It\u0027s enough to insert one element so the array doesn\u0027t contain any subsegments with the sum equal to zero. For example, it is possible to insert the integer $ 1 $ between second and third elements of the array.\n\nThere are no subsegments having sum $ 0 $ in the second example so you don\u0027t need to do anything.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n1 -5 3 2","1"],["5\n4 -2 3 -9 2","0"],["9\n-1 1 -1 1 -1 1 1 -1 -1","6"],["8\n16 -5 -11 -15 10 5 4 -4","3"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1426D","link":"https:\/\/codeforces.com\/problemset\/problem\/1426\/D"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u5e8f\u5217,\u6c42\u6700\u5c11\u63d2\u5165\u591a\u5c11\u6570,\u624d\u80fd\u4f7f\u6b64\u5e8f\u5217\u4efb\u610f\u5b50\u6bb5\u548c\u5747\u4e0d\u4e3a $0$ .\n\n\u63d2\u5165\u7684\u6570\u5b57\u53ef\u4ee5\u662f\u4f60\u80fd\u60f3\u5230\u7684\u6240\u6709\u6574\u6570,\u6bd4\u5982\u8bf4 $\\pi^0$ ,$114514^{1919810}$."},"translations":{"en":{"name":"Non-zero Segments","background":"","description":"Kolya got an integer array $ a_1, a_2, \\dots, a_n $ . The array can contain both positive and negative integers, but Kolya doesn\u0027t like $ 0 $ , so the array doesn\u0027t contain any zeros.\n\nKolya doesn\u0027t like that the sum of some subsegments of his array can be $ 0 $ . The subsegment is some consecutive segment of elements of the array.\n\nYou have to help Kolya and change his array in such a way that it doesn\u0027t contain any subsegments with the sum $ 0 $ . To reach this goal, you can insert any integers between any pair of adjacent elements of the array (integers can be really any: positive, negative, $ 0 $ , any by absolute value, even such a huge that they can\u0027t be represented in most standard programming languages).\n\nYour task is to find the minimum number of integers you have to insert into Kolya\u0027s array in such a way that the resulting array doesn\u0027t contain any subsegments with the sum $ 0 $ .","formatI":"The first line of the input contains one integer $ n $ ( $ 2 \\le n \\le 200\\,000 $ ) \u2014 the number of elements in Kolya\u0027s array.\n\nThe second line of the input contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ -10^{9} \\le a_i \\le 10^{9}, a_i \\neq 0 $ ) \u2014 the description of Kolya\u0027s array.","formatO":"Print the minimum number of integers you have to insert into Kolya\u0027s array in such a way that the resulting array doesn\u0027t contain any subsegments with the sum $ 0 $ .","hint":"Consider the first example. There is only one subsegment with the sum $ 0 $ . It starts in the second element and ends in the fourth element. It\u0027s enough to insert one element so the array doesn\u0027t contain any subsegments with the sum equal to zero. For example, it is possible to insert the integer $ 1 $ between second and third elements of the array.\n\nThere are no subsegments having sum $ 0 $ in the second example so you don\u0027t need to do anything.","locale":"en"},"zh-CN":{"name":"Non-zero Segments","background":null,"description":"Kolya \u5f97\u5230\u4e00\u4e2a\u6574\u6570\u6570\u7ec4 $a_1, a_2, \\dots, a_n$\u3002\u8be5\u6570\u7ec4\u53ef\u4ee5\u5305\u542b\u6b63\u6574\u6570\u548c\u8d1f\u6574\u6570\uff0c\u4f46 Kolya \u4e0d\u559c\u6b22 $0$\uff0c\u6240\u4ee5\u6570\u7ec4\u4e2d\u4e0d\u5305\u542b\u4efb\u4f55 $0$\u3002\n\nKolya \u4e0d\u559c\u6b22\u4ed6\u7684\u6570\u7ec4\u4e2d\u67d0\u4e9b\u5b50\u6bb5\u7684\u548c\u4e3a $0$\u3002\u5b50\u6bb5\u662f\u6570\u7ec4\u4e2d\u4e00\u6bb5\u8fde\u7eed\u7684\u5143\u7d20\u3002\n\n\u4f60\u9700\u8981\u5e2e\u52a9 Kolya \u4fee\u6539\u4ed6\u7684\u6570\u7ec4\uff0c\u4f7f\u5f97\u6570\u7ec4\u4e2d\u4e0d\u5305\u542b\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\u3002\u4e3a\u6b64\uff0c\u4f60\u53ef\u4ee5\u5728\u6570\u7ec4\u4e2d\u4efb\u610f\u4e00\u5bf9\u76f8\u90bb\u5143\u7d20\u4e4b\u95f4\u63d2\u5165\u4efb\u610f\u6574\u6570\uff08\u8fd9\u4e9b\u6574\u6570\u53ef\u4ee5\u662f\u6b63\u6570\u3001\u8d1f\u6570\u3001$0$\uff0c\u7edd\u5bf9\u503c\u53ef\u4ee5\u4efb\u610f\u5927\uff0c\u751a\u81f3\u5927\u5230\u5927\u591a\u6570\u6807\u51c6\u7f16\u7a0b\u8bed\u8a00\u65e0\u6cd5\u8868\u793a\uff09\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\uff0c\u4e3a\u4e86\u4f7f\u6700\u7ec8\u6570\u7ec4\u4e2d\u4e0d\u5305\u542b\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\uff0c\u6700\u5c11\u9700\u8981\u63d2\u5165\u591a\u5c11\u4e2a\u6574\u6570\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 200\\,000$\uff09\uff0c\u8868\u793a Kolya \u7684\u6570\u7ec4\u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$-10^{9} \\le a_i \\le 10^{9},\\ a_i \\neq 0$\uff09\uff0c\u8868\u793a Kolya \u7684\u6570\u7ec4\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4e3a\u4e86\u4f7f\u6700\u7ec8\u6570\u7ec4\u4e2d\u4e0d\u5305\u542b\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\uff0c\u6700\u5c11\u9700\u8981\u63d2\u5165\u591a\u5c11\u4e2a\u6574\u6570\u3002","hint":"\u8003\u8651\u7b2c\u4e00\u4e2a\u6837\u4f8b\u3002\u53ea\u6709\u4e00\u4e2a\u5b50\u6bb5\u7684\u548c\u4e3a $0$\uff0c\u5b83\u4ece\u7b2c\u4e8c\u4e2a\u5143\u7d20\u5f00\u59cb\uff0c\u5230\u7b2c\u56db\u4e2a\u5143\u7d20\u7ed3\u675f\u3002\u53ea\u9700\u63d2\u5165\u4e00\u4e2a\u5143\u7d20\u5373\u53ef\u4f7f\u6570\u7ec4\u4e0d\u5305\u542b\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\u3002\u4f8b\u5982\uff0c\u53ef\u4ee5\u5728\u6570\u7ec4\u7684\u7b2c\u4e8c\u4e2a\u548c\u7b2c\u4e09\u4e2a\u5143\u7d20\u4e4b\u95f4\u63d2\u5165\u6574\u6570 $1$\u3002\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\u6ca1\u6709\u4efb\u4f55\u548c\u4e3a $0$ \u7684\u5b50\u6bb5\uff0c\u56e0\u6b64\u65e0\u9700\u8fdb\u884c\u4efb\u4f55\u64cd\u4f5c\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1426D Non-zero Segments","type":2,"slug":"CF1426D","color":"orange-3"},"discussions":[{"id":260035,"title":"\u9898\u610f\u7ffb\u8bd1\u592a\u81ed\u5566\uff01\uff01\uff01","author":{"uid":306443,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/306443.png","name":"\u5085\u5929\u5b87","slogan":"sxyz200404fty","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1601356302}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.369859,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1426D Non-zero Segments","description":"Kolya \u5f97\u5230\u4e00\u4e2a\u6574\u6570\u6570\u7ec4 a_1, a_2, \\dots, a_n\u3002\u8be5\u6570\u7ec4\u53ef\u4ee5\u5305\u542b\u6b63\u6574\u6570\u548c\u8d1f\u6574\u6570\uff0c\u4f46 Kolya \u4e0d\u559c\u6b22 0\uff0c\u6240\u4ee5\u6570\u7ec4\u4e2d\u4e0d\u5305\u542b\u4efb\u4f55 0\u3002\nKolya \u4e0d\u559c\u6b22\u4ed6\u7684\u6570\u7ec4\u4e2d\u67d0\u4e9b\u5b50\u6bb5\u7684\u548c\u4e3a 0\u3002\u5b50\u6bb5\u662f\u6570\u7ec4\u4e2d\u4e00\u6bb5\u8fde\u7eed\u7684\u5143\u7d20\u3002\n\u4f60\u9700\u8981\u5e2e\u52a9\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1426D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1426D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1426D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1426D Non-zero Segments" />
+    <meta property="og:description" content="Kolya 得到一个整数数组 a_1, a_2, \dots, a_n。该数组可以包含正整数和负整数，但 Kolya 不喜欢 0，所以数组中不包含任何 0。
+Kolya 不喜欢他的数组中某些子段的和为 0。子段是数组中一段连续的元素。
+你需要帮助…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1426D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1426D Non-zero Segments</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Kolya 得到一个整数数组 $a_1, a_2, \dots, a_n$。该数组可以包含正整数和负整数，但 Kolya 不喜欢 $0$，所以数组中不包含任何 $0$。
+
+Kolya 不喜欢他的数组中某些子段的和为 $0$。子段是数组中一段连续的元素。
+
+你需要帮助 Kolya 修改他的数组，使得数组中不包含任何和为 $0$ 的子段。为此，你可以在数组中任意一对相邻元素之间插入任意整数（这些整数可以是正数、负数、$0$，绝对值可以任意大，甚至大到大多数标准编程语言无法表示）。
+
+你的任务是求出，为了使最终数组中不包含任何和为 $0$ 的子段，最少需要插入多少个整数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$（$2 \le n \le 200\,000$），表示 Kolya 的数组的元素个数。
+
+第二行包含 $n$ 个整数 $a_1, a_2, \dots, a_n$（$-10^{9} \le a_i \le 10^{9},\ a_i \neq 0$），表示 Kolya 的数组。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示为了使最终数组中不包含任何和为 $0$ 的子段，最少需要插入多少个整数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                考虑第一个样例。只有一个子段的和为 $0$，它从第二个元素开始，到第四个元素结束。只需插入一个元素即可使数组不包含任何和为 $0$ 的子段。例如，可以在数组的第二个和第三个元素之间插入整数 $1$。
+
+第二个样例中没有任何和为 $0$ 的子段，因此无需进行任何操作。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

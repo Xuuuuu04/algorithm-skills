@@ -1,0 +1,30 @@
+{
+  "id": "CF-1198C",
+  "contest_id": 1198,
+  "index": "C",
+  "name": "Matching vs  Independent Set",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 4017,
+  "problem_url": "https://codeforces.com/problemset/problem/1198/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1198/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1198/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1198C%20Matching%20vs%20%20Independent%20Set%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1198/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1198C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-1921G",
+  "contest_id": 1921,
+  "index": "G",
+  "name": "Mischievous Shooter",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 1439,
+  "problem_url": "https://codeforces.com/problemset/problem/1921/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1921/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1921/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1921G%20Mischievous%20Shooter%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1921G",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1921G Mischievous Shooter - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 83,
+    "mirror_attempt": 292,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

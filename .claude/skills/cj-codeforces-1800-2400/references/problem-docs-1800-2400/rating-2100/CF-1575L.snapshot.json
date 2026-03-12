@@ -1,0 +1,36 @@
+{
+  "id": "CF-1575L",
+  "contest_id": 1575,
+  "index": "L",
+  "name": "Longest Array Deconstruction",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "dp",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1575/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1575/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1575/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1575L%20Longest Array Deconstruction%20tutorial",
+  "solved_count": 1685,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1575L",
+  "hydro_meta": {
+    "page_title": "Longest Array Deconstruction - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "divide and conquer",
+      "dp"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

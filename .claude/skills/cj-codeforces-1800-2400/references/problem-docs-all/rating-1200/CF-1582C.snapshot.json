@@ -1,0 +1,34 @@
+{
+  "id": "CF-1582C",
+  "contest_id": 1582,
+  "index": "C",
+  "name": "Grandma Capa Knits a Scarf",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 22829,
+  "problem_url": "https://codeforces.com/problemset/problem/1582/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1582/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1582/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1582C%20Grandma%20Capa%20Knits%20a%20Scarf%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1582C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Grandma Capa Knits a Scarf - 题目详情 - Hydro",
+    "mirror_tags": [
+      "strings",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

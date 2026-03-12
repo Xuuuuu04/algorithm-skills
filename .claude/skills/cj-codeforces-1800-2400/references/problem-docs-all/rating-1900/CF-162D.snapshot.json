@@ -1,0 +1,30 @@
+{
+  "id": "CF-162D",
+  "contest_id": 162,
+  "index": "D",
+  "name": "Remove digits",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 232,
+  "problem_url": "https://codeforces.com/problemset/problem/162/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/162/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/162/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=162D%20Remove%20digits%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P162D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Remove digits - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

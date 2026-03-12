@@ -1,0 +1,32 @@
+{
+  "id": "CF-631A",
+  "contest_id": 631,
+  "index": "A",
+  "name": "Interview",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 9703,
+  "problem_url": "https://codeforces.com/problemset/problem/631/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/631/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/631/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=631A%20Interview%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P631A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Interview - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "*900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

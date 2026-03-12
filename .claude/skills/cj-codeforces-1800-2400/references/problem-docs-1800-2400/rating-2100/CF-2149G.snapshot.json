@@ -1,0 +1,40 @@
+{
+  "id": "CF-2149G",
+  "contest_id": 2149,
+  "index": "G",
+  "name": "Buratsuta 3",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2149/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2149/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2149/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2149G%20Buratsuta 3%20tutorial",
+  "solved_count": 2522,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2149G",
+  "hydro_meta": {
+    "page_title": "Buratsuta 3 - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "divide and conquer",
+      "probabilities",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

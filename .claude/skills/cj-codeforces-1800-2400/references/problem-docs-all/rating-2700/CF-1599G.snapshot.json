@@ -1,0 +1,30 @@
+{
+  "id": "CF-1599G",
+  "contest_id": 1599,
+  "index": "G",
+  "name": "Shortest path",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "geometry",
+    "math",
+    "shortest paths"
+  ],
+  "solved_count": 406,
+  "problem_url": "https://codeforces.com/problemset/problem/1599/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1599/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1599/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1599G%20Shortest%20path%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1599G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Shortest path - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

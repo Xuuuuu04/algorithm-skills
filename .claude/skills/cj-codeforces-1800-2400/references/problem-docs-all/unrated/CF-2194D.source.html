@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2194D Table Cut - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2194D","type":"CF","title":"Table Cut","difficulty":4,"tags":[5,7,318],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Table Cut","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5927\u5c0f\u4e3a $n \\times m$ \u7684\u8868\u683c\uff0c\u5176\u4e2d\u6bcf\u4e2a\u5355\u5143\u683c\u4e2d\u8981\u4e48\u662f $0$\uff0c\u8981\u4e48\u662f $1$\u3002\u4f60\u7684\u4efb\u52a1\u662f\u7528\u4e00\u6761\u4ece\u5de6\u4e0a\u89d2\u5230\u53f3\u4e0b\u89d2\u7684\u8def\u5f84\u5c06\u5176\u5206\u4e3a\u4e24\u90e8\u5206\u3002\u5207\u5272\u8def\u5f84\u53ea\u80fd\u5411\u53f3\u6216\u5411\u4e0b\u79fb\u52a8\u3002\n\n\u5207\u5272\u540e\uff0c\u4ee4 $a$ \u4e3a\u8868\u683c\u4e00\u90e8\u5206\u4e2d $1$ \u7684\u4e2a\u6570\uff0c$b$ \u4e3a\u53e6\u4e00\u90e8\u5206\u4e2d $1$ \u7684\u4e2a\u6570\u3002\u4f60\u7684\u76ee\u6807\u662f\u6700\u5927\u5316 $a \\cdot b$ \u7684\u503c\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf $t$\uff08$1 \\leq t \\leq 10^4$\uff09\u3002\u968f\u540e\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7b2c\u4e00\u884c\u4e3a\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\leq n, m \\leq 3 \\times 10^5$\uff0c$2 \\leq n \\cdot m \\leq 3 \\times 10^5$\uff09\u2014\u2014\u8868\u683c\u7684\u884c\u6570\u548c\u5217\u6570\u3002\n\n\u63a5\u4e0b\u6765\u7684 $n$ \u884c\u4e2d\uff0c\u6bcf\u884c\u6709 $m$ \u4e2a\u6574\u6570\uff0c\u7b2c $i$ \u884c\u7b2c $j$ \u4e2a\u6570\u5b57\u4ee3\u8868 $a_{i, j}$\uff08$0 \\leq a_{i, j} \\leq 1$\uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n \\cdot m$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $3 \\times 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e24\u884c\u3002\n\n\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u5373\u6700\u5927\u7684\u4e58\u79ef\u503c\u3002\n\n\u7b2c\u4e8c\u884c\u8f93\u51fa\u4e00\u4e2a\u7531 $n$ \u4e2a\u5b57\u7b26 \u0027D\u0027 \u548c $m$ \u4e2a\u5b57\u7b26 \u0027R\u0027 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\uff0c\u8868\u793a\u5207\u5272\u8def\u5f84\u7684\u8d70\u6cd5\uff0c\u5176\u4e2d \u0027D\u0027 \u8868\u793a\u5411\u4e0b\u8d70\u4e00\u6b65\uff0c\u0027R\u0027 \u8868\u793a\u5411\u53f3\u8d70\u4e00\u6b65\u3002","hint":"\u4e0b\u65b9\u6240\u793a\u56fe\u7247\u4e3a\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u524d\u4e24\u7ec4\u6570\u636e\u7684\u6700\u4f73\u5207\u5272\uff0c\u5747\u80fd\u83b7\u5f97\u6700\u5927\u4e58\u79ef\u503c\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2194D\/68507944970a46e40e4f5d7e2865b75baa1b3ac59d1215c06cd6f419ddbe860b.png) ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2194D\/8c42600d149c381fa5519e8bdabe7d1b0aded40a7b7bbcedc8ff50df4f9821b1.png)\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Table Cut","background":null,"description":"Given a table of size  $ n \\times m $ , where each cell contains either  $ 0 $  or  $ 1 $ . The task is to divide it into two parts with a cut that goes from the top left corner to the bottom right corner. The cut lines can only go right or down.\n\nLet  $ a $  be the number of ones in one part of the table after the cut, and  $ b $  be the number of ones in the other part of the table. The goal is to maximize the value of  $ a \\cdot b $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains two integers  $ n $  and  $ m $  ( $ 1 \\leq n, m \\leq 3 \\cdot 10^{5} $ ,  $ 2 \\leq n \\cdot m \\leq 3 \\cdot 10^{5} $ ) \u2014 the number of rows and columns in the table, respectively.\n\nEach of the following  $ n $  lines contains  $ m $  integers, where the  $ j $ -th number in the  $ i $ -th line corresponds to the value  $ a_{i, j} $  ( $ 0 \\leq a_{i, j} \\leq 1 $ ).\n\nIt is guaranteed that the sum of  $ n \\cdot m $  across all test cases does not exceed  $ 3 \\cdot 10^{5} $ .","formatO":"For each test case, output a single number in the first line of the output data \u2014 the maximum value of the product.\n\nIn the second line, output a string consisting of  $ n $  characters \u0027D\u0027 and  $ m $  characters \u0027R\u0027, representing the direction of the next cut, where \u0027D\u0027 means a cut downwards, and \u0027R\u0027 \u2014 a cut to the right.","hint":"The images show the correct cuts for each of the first and second test cases, at which the maximum value of the product is achieved.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2194D\/68507944970a46e40e4f5d7e2865b75baa1b3ac59d1215c06cd6f419ddbe860b.png) ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2194D\/8c42600d149c381fa5519e8bdabe7d1b0aded40a7b7bbcedc8ff50df4f9821b1.png)","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n5 5\n1 0 1 1 0\n0 1 0 1 1\n1 0 1 0 0\n0 1 0 1 0\n0 0 0 0 1\n5 4\n0 0 1 0\n0 1 1 1\n1 0 0 1\n0 1 0 1\n0 0 1 0\n3 2\n1 0\n0 1\n1 1","30\nRDRDRDRDDR\n20\nDRRDRDDDR\n4\nDRDRD"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2194D","link":"https:\/\/codeforces.com\/problemset\/problem\/2194\/D"},"translation":null},"translations":{"en":{"name":"Table Cut","background":null,"description":"Given a table of size  $ n \\times m $ , where each cell contains either  $ 0 $  or  $ 1 $ . The task is to divide it into two parts with a cut that goes from the top left corner to the bottom right corner. The cut lines can only go right or down.\n\nLet  $ a $  be the number of ones in one part of the table after the cut, and  $ b $  be the number of ones in the other part of the table. The goal is to maximize the value of  $ a \\cdot b $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains two integers  $ n $  and  $ m $  ( $ 1 \\leq n, m \\leq 3 \\cdot 10^{5} $ ,  $ 2 \\leq n \\cdot m \\leq 3 \\cdot 10^{5} $ ) \u2014 the number of rows and columns in the table, respectively.\n\nEach of the following  $ n $  lines contains  $ m $  integers, where the  $ j $ -th number in the  $ i $ -th line corresponds to the value  $ a_{i, j} $  ( $ 0 \\leq a_{i, j} \\leq 1 $ ).\n\nIt is guaranteed that the sum of  $ n \\cdot m $  across all test cases does not exceed  $ 3 \\cdot 10^{5} $ .","formatO":"For each test case, output a single number in the first line of the output data \u2014 the maximum value of the product.\n\nIn the second line, output a string consisting of  $ n $  characters \u0027D\u0027 and  $ m $  characters \u0027R\u0027, representing the direction of the next cut, where \u0027D\u0027 means a cut downwards, and \u0027R\u0027 \u2014 a cut to the right.","hint":"The images show the correct cuts for each of the first and second test cases, at which the maximum value of the product is achieved.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2194D\/68507944970a46e40e4f5d7e2865b75baa1b3ac59d1215c06cd6f419ddbe860b.png) ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2194D\/8c42600d149c381fa5519e8bdabe7d1b0aded40a7b7bbcedc8ff50df4f9821b1.png)","locale":"en"},"zh-CN":{"name":"Table Cut","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u5927\u5c0f\u4e3a $n \\times m$ \u7684\u8868\u683c\uff0c\u5176\u4e2d\u6bcf\u4e2a\u5355\u5143\u683c\u4e2d\u8981\u4e48\u662f $0$\uff0c\u8981\u4e48\u662f $1$\u3002\u4f60\u7684\u4efb\u52a1\u662f\u7528\u4e00\u6761\u4ece\u5de6\u4e0a\u89d2\u5230\u53f3\u4e0b\u89d2\u7684\u8def\u5f84\u5c06\u5176\u5206\u4e3a\u4e24\u90e8\u5206\u3002\u5207\u5272\u8def\u5f84\u53ea\u80fd\u5411\u53f3\u6216\u5411\u4e0b\u79fb\u52a8\u3002\n\n\u5207\u5272\u540e\uff0c\u4ee4 $a$ \u4e3a\u8868\u683c\u4e00\u90e8\u5206\u4e2d $1$ \u7684\u4e2a\u6570\uff0c$b$ \u4e3a\u53e6\u4e00\u90e8\u5206\u4e2d $1$ \u7684\u4e2a\u6570\u3002\u4f60\u7684\u76ee\u6807\u662f\u6700\u5927\u5316 $a \\cdot b$ \u7684\u503c\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf $t$\uff08$1 \\leq t \\leq 10^4$\uff09\u3002\u968f\u540e\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7b2c\u4e00\u884c\u4e3a\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\leq n, m \\leq 3 \\times 10^5$\uff0c$2 \\leq n \\cdot m \\leq 3 \\times 10^5$\uff09\u2014\u2014\u8868\u683c\u7684\u884c\u6570\u548c\u5217\u6570\u3002\n\n\u63a5\u4e0b\u6765\u7684 $n$ \u884c\u4e2d\uff0c\u6bcf\u884c\u6709 $m$ \u4e2a\u6574\u6570\uff0c\u7b2c $i$ \u884c\u7b2c $j$ \u4e2a\u6570\u5b57\u4ee3\u8868 $a_{i, j}$\uff08$0 \\leq a_{i, j} \\leq 1$\uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n \\cdot m$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $3 \\times 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e24\u884c\u3002\n\n\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u5373\u6700\u5927\u7684\u4e58\u79ef\u503c\u3002\n\n\u7b2c\u4e8c\u884c\u8f93\u51fa\u4e00\u4e2a\u7531 $n$ \u4e2a\u5b57\u7b26 \u0027D\u0027 \u548c $m$ \u4e2a\u5b57\u7b26 \u0027R\u0027 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\uff0c\u8868\u793a\u5207\u5272\u8def\u5f84\u7684\u8d70\u6cd5\uff0c\u5176\u4e2d \u0027D\u0027 \u8868\u793a\u5411\u4e0b\u8d70\u4e00\u6b65\uff0c\u0027R\u0027 \u8868\u793a\u5411\u53f3\u8d70\u4e00\u6b65\u3002","hint":"\u4e0b\u65b9\u6240\u793a\u56fe\u7247\u4e3a\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u524d\u4e24\u7ec4\u6570\u636e\u7684\u6700\u4f73\u5207\u5272\uff0c\u5747\u80fd\u83b7\u5f97\u6700\u5927\u4e58\u79ef\u503c\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2194D\/68507944970a46e40e4f5d7e2865b75baa1b3ac59d1215c06cd6f419ddbe860b.png) ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2194D\/8c42600d149c381fa5519e8bdabe7d1b0aded40a7b7bbcedc8ff50df4f9821b1.png)\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2194D Table Cut","type":2,"slug":"CF2194D","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.351671,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2194D Table Cut","description":"\u7ed9\u5b9a\u4e00\u4e2a\u5927\u5c0f\u4e3a n \\times m \u7684\u8868\u683c\uff0c\u5176\u4e2d\u6bcf\u4e2a\u5355\u5143\u683c\u4e2d\u8981\u4e48\u662f 0\uff0c\u8981\u4e48\u662f 1\u3002\u4f60\u7684\u4efb\u52a1\u662f\u7528\u4e00\u6761\u4ece\u5de6\u4e0a\u89d2\u5230\u53f3\u4e0b\u89d2\u7684\u8def\u5f84\u5c06\u5176\u5206\u4e3a\u4e24\u90e8\u5206\u3002\u5207\u5272\u8def\u5f84\u53ea\u80fd\u5411\u53f3\u6216\u5411\u4e0b\u79fb\u52a8\u3002\n\u5207\u5272\u540e\uff0c\u4ee4 a \u4e3a\u8868\u683c\u4e00\u90e8\u5206\u4e2d 1 \u7684\u4e2a\u6570\uff0cb \u4e3a\u53e6\u4e00\u90e8\u5206\u4e2d 1 \u7684\u4e2a\u6570\u3002\u4f60\u7684\u76ee\u6807\u662f\u6700\u5927\u5316\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2194D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2194D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2194D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2194D Table Cut" />
+    <meta property="og:description" content="给定一个大小为 n \times m 的表格，其中每个单元格中要么是 0，要么是 1。你的任务是用一条从左上角到右下角的路径将其分为两部分。切割路径只能向右或向下移动。
+切割后，令 a 为表格一部分中 1 的个数，b 为另一部分中 1 的个数。你的目标是最大化…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2194D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2194D Table Cut</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个大小为 $n \times m$ 的表格，其中每个单元格中要么是 $0$，要么是 $1$。你的任务是用一条从左上角到右下角的路径将其分为两部分。切割路径只能向右或向下移动。
+
+切割后，令 $a$ 为表格一部分中 $1$ 的个数，$b$ 为另一部分中 $1$ 的个数。你的目标是最大化 $a \cdot b$ 的值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试包含多组测试数据。第一行包含测试用例数量 $t$（$1 \leq t \leq 10^4$）。随后是每个测试用例的描述。
+
+每个测试用例第一行为两个整数 $n$ 和 $m$（$1 \leq n, m \leq 3 \times 10^5$，$2 \leq n \cdot m \leq 3 \times 10^5$）——表格的行数和列数。
+
+接下来的 $n$ 行中，每行有 $m$ 个整数，第 $i$ 行第 $j$ 个数字代表 $a_{i, j}$（$0 \leq a_{i, j} \leq 1$）。
+
+保证所有测试用例中 $n \cdot m$ 的总和不超过 $3 \times 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出两行。
+
+第一行输出一个整数，即最大的乘积值。
+
+第二行输出一个由 $n$ 个字符 'D' 和 $m$ 个字符 'R' 组成的字符串，表示切割路径的走法，其中 'D' 表示向下走一步，'R' 表示向右走一步。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                下方所示图片为每个测试用例前两组数据的最佳切割，均能获得最大乘积值。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF2194D/68507944970a46e40e4f5d7e2865b75baa1b3ac59d1215c06cd6f419ddbe860b.png) ![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF2194D/8c42600d149c381fa5519e8bdabe7d1b0aded40a7b7bbcedc8ff50df4f9821b1.png)
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

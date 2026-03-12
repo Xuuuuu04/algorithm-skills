@@ -1,0 +1,34 @@
+{
+  "id": "CF-166A",
+  "contest_id": 166,
+  "index": "A",
+  "name": "Rank List",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "binary search",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 20469,
+  "problem_url": "https://codeforces.com/problemset/problem/166/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/166/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/166/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=166A%20Rank%20List%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P166A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Rank List - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

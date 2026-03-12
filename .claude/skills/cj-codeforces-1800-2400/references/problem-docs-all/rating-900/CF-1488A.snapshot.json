@@ -1,0 +1,28 @@
+{
+  "id": "CF-1488A",
+  "contest_id": 1488,
+  "index": "A",
+  "name": "From Zero To Y",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "math"
+  ],
+  "solved_count": 1773,
+  "problem_url": "https://codeforces.com/problemset/problem/1488/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1488/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1488/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1488A%20From%20Zero%20To%20Y%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1488/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1488A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

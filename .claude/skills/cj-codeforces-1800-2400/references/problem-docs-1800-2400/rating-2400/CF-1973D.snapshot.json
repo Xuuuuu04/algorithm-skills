@@ -1,0 +1,35 @@
+{
+  "id": "CF-1973D",
+  "contest_id": 1973,
+  "index": "D",
+  "name": "Cat, Fox and Maximum Array Split",
+  "rating": 2400,
+  "tags": [
+    "brute force",
+    "interactive",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1973/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1973/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1973/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1973D%20Cat, Fox and Maximum Array Split%20tutorial",
+  "solved_count": 2220,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1973D",
+  "hydro_meta": {
+    "page_title": "Cat, Fox and Maximum Array Split - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "interactive",
+      "math",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

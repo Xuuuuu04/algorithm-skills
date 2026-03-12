@@ -1,0 +1,27 @@
+{
+  "id": "CF-1064B",
+  "contest_id": 1064,
+  "index": "B",
+  "name": "Equations of Mathematical Magic",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 7899,
+  "problem_url": "https://codeforces.com/problemset/problem/1064/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1064/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1064/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1064B%20Equations%20of%20Mathematical%20Magic%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1064/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1064B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

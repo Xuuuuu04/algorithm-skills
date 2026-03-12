@@ -1,0 +1,28 @@
+{
+  "id": "CF-1296E2",
+  "contest_id": 1296,
+  "index": "E2",
+  "name": "String Coloring (hard version)",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 5407,
+  "problem_url": "https://codeforces.com/problemset/problem/1296/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1296/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1296/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1296E2%20String%20Coloring%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1296E2",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1296E2 String Coloring (hard version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 303,
+    "mirror_attempt": 479,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

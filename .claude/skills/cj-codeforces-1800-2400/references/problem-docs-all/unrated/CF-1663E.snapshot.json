@@ -1,0 +1,28 @@
+{
+  "id": "CF-1663E",
+  "contest_id": 1663,
+  "index": "E",
+  "name": "Are You Safe?",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 584,
+  "problem_url": "https://codeforces.com/problemset/problem/1663/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1663/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1663/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1663E%20Are%20You%20Safe%3F%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1663/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1663E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

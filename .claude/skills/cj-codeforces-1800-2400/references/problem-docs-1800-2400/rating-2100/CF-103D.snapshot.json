@@ -1,0 +1,35 @@
+{
+  "id": "CF-103D",
+  "contest_id": 103,
+  "index": "D",
+  "name": "Time to Raid Cowavans",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "data structures",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/103/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/103/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/103/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=103D%20Time to Raid Cowavans%20tutorial",
+  "solved_count": 2491,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P103D",
+  "hydro_meta": {
+    "page_title": "Time to Raid Cowavans - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "sortings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "70MiB"
+  }
+}

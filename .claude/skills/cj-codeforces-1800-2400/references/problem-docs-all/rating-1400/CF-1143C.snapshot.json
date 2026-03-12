@@ -1,0 +1,32 @@
+{
+  "id": "CF-1143C",
+  "contest_id": 1143,
+  "index": "C",
+  "name": "Queen",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dfs and similar",
+    "trees"
+  ],
+  "solved_count": 17120,
+  "problem_url": "https://codeforces.com/problemset/problem/1143/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1143/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1143/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1143C%20Queen%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1143C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Queen - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "trees",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

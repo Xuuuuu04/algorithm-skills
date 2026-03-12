@@ -1,0 +1,27 @@
+{
+  "id": "CF-1794A",
+  "contest_id": 1794,
+  "index": "A",
+  "name": "Prefix and Suffix Array",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 18736,
+  "problem_url": "https://codeforces.com/problemset/problem/1794/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1794/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1794/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1794A%20Prefix%20and%20Suffix%20Array%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1794A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1794A Prefix and Suffix Array - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 63,
+    "mirror_attempt": 84,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

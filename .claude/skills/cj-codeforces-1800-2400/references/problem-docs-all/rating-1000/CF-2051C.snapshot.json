@@ -1,0 +1,28 @@
+{
+  "id": "CF-2051C",
+  "contest_id": 2051,
+  "index": "C",
+  "name": "Preparing for the Exam",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 27677,
+  "problem_url": "https://codeforces.com/problemset/problem/2051/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2051/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2051/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2051C%20Preparing%20for%20the%20Exam%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2051/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2051C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

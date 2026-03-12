@@ -1,0 +1,40 @@
+{
+  "id": "CF-633D",
+  "contest_id": 633,
+  "index": "D",
+  "name": "Fibonacci-ish",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "dp",
+    "hashing",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/633/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/633/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/633/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=633D%20Fibonacci-ish%20tutorial",
+  "solved_count": 3037,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P633D",
+  "hydro_meta": {
+    "page_title": "Fibonacci-ish - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dp",
+      "hashing",
+      "implementation",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1666E",
+  "contest_id": 1666,
+  "index": "E",
+  "name": "Even Split",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 875,
+  "problem_url": "https://codeforces.com/problemset/problem/1666/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1666/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1666/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1666E%20Even%20Split%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1666/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1666E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

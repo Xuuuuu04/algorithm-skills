@@ -1,0 +1,38 @@
+{
+  "id": "CF-547A",
+  "contest_id": 547,
+  "index": "A",
+  "name": "Mike and Frog",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/547/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/547/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/547/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=547A%20Mike and Frog%20tutorial",
+  "solved_count": 2718,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P547A",
+  "hydro_meta": {
+    "page_title": "Mike and Frog - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-501C",
+  "contest_id": 501,
+  "index": "C",
+  "name": "Misha and Forest",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 6041,
+  "problem_url": "https://codeforces.com/problemset/problem/501/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/501/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/501/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=501C%20Misha%20and%20Forest%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P501C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Misha and Forest - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "sortings",
+      "trees",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

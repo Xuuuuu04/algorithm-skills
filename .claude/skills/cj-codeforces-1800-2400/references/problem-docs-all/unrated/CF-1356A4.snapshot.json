@@ -1,0 +1,29 @@
+{
+  "id": "CF-1356A4",
+  "contest_id": 1356,
+  "index": "A4",
+  "name": "Distinguish I ⊗ X from CNOT",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 461,
+  "problem_url": "https://codeforces.com/problemset/problem/1356/A4",
+  "answer_index_url": "https://codeforces.com/problemset/status/1356/problem/A4",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1356/problem/A4?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1356A4%20Distinguish%20I%20%E2%8A%97%20X%20from%20CNOT%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1356A4",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Distinguish I ⊗ X from CNOT - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

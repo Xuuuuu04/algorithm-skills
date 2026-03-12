@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417191:NxWeAfsXscG95PAesLc8m0485ZeYX8wb0ANErixS7Ds=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1056A Determine Line - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1056A","type":"CF","title":"Determine Line","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":236,"totalAccepted":145,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Determine Line","background":"","description":"Arkady\u534a\u68a6\u534a\u9192\u5750\u4e0a\u4e86\u4e00\u8d9f\u7535\u8f66\uff0c\u5728\u4ed6\u4e0b\u4e86\u7535\u8f66\u540e\uff0c\u53d1\u73b0\u4ed6\u4e0d\u77e5\u9053\u81ea\u5df1\u5750\u7684\u662f\u51e0\u53f7\u7535\u8f66\u3002\n\n\u5728\u4ed6\u7684\u65c5\u7a0b\u4e2d\uff0c\u4ed6\u9192\u4e86\u51e0\u6b21\uff0c\u6bcf\u6b21\u90fd\u770b\u5230\u7535\u8f66\u505c\u9760\u5728\u67d0\u4e2a\u7ad9\u70b9\uff0c\u5e76\u4e14\u4ed6\u77e5\u9053\u5728\u8fd9\u4e2a\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u90fd\u6709\u54ea\u4e9b\u3002\n\n\u4ed6\u60f3\u8ba9\u4f60\u5e2e\u4ed6\u786e\u8ba4\u4ed6\u53ef\u80fd\u5750\u7684\u662f\u51e0\u53f7\u7535\u8f66\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a$n$\uff08$1\\le n\\le 100$\uff09\uff0c\u4ed6\u4e00\u5171\u770b\u5230\u505c\u9760\u4e86\u51e0\u6b21\u3002\n\n\u4ee5\u4e0b$n$\u884c\uff0c\u6bcf\u884c\u7b2c\u4e00\u4e2a\u6570$r$\uff08$1\\le r\\le 100$\uff09,\u8868\u793a\u5728\u8be5\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u6709\u591a\u5c11\u4e2a\u3002\n\n\u63a5\u4e0b\u6765\u7684$r$\u4e2a\u6570\uff0c\u8868\u793a\u5728\u8be5\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u7f16\u53f7\u3002\n\n\u7535\u8f66\u7f16\u53f7\u5728$1$\u5230$100$\u4e4b\u95f4\u3002","formatO":"\u4ee5\u4efb\u610f\u987a\u5e8f\u8f93\u51fa\u4ed6\u6240\u6709\u53ef\u80fd\u4e58\u5750\u7684\u7535\u8f66\u7f16\u53f7\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Determine Line","background":"","description":"Arkady\u0027s morning seemed to be straight of his nightmare. He overslept through the whole morning and, still half-asleep, got into the tram that arrived the first. Some time after, leaving the tram, he realized that he was not sure about the line number of the tram he was in.\n\nDuring his ride, Arkady woke up several times and each time he saw the tram stopping at some stop. For each stop he knows which lines of tram stop there. Given this information, can you help Arkady determine what are the possible lines of the tram he was in?","formatI":"The first line contains a single integer $ n $ ( $ 2 \\le n \\le 100 $ ) \u2014 the number of stops Arkady saw.\n\nThe next $ n $ lines describe the stops. Each of them starts with a single integer $ r $ ( $ 1 \\le r \\le 100 $ ) \u2014 the number of tram lines that stop there. $ r $ distinct integers follow, each one between $ 1 $ and $ 100 $ , inclusive, \u2014 the line numbers. They can be in arbitrary order.\n\nIt is guaranteed that Arkady\u0027s information is consistent, i.e. there is at least one tram line that Arkady could take.","formatO":"Print all tram lines that Arkady could be in, in arbitrary order.","hint":"Consider the first example. Arkady woke up three times. The first time he saw a stop with lines $ 1 $ , $ 4 $ , $ 6 $ . The second time he saw a stop with lines $ 1 $ , $ 4 $ . The third time he saw a stop with lines $ 10 $ , $ 5 $ , $ 6 $ , $ 4 $ and $ 1 $ . He can be in a tram of one of two lines: $ 1 $ or $ 4 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3 1 4 6\n2 1 4\n5 10 5 6 4 1\n","1 4 \n"],["5\n1 1\n10 10 9 8 7 100 5 4 3 99 1\n5 1 2 3 4 5\n5 4 1 3 2 5\n4 10 1 5 3\n","1 \n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1056A","link":"https:\/\/codeforces.com\/problemset\/problem\/1056\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\nArkady\u534a\u68a6\u534a\u9192\u5750\u4e0a\u4e86\u4e00\u8d9f\u7535\u8f66\uff0c\u5728\u4ed6\u4e0b\u4e86\u7535\u8f66\u540e\uff0c\u53d1\u73b0\u4ed6\u4e0d\u77e5\u9053\u81ea\u5df1\u5750\u7684\u662f\u51e0\u53f7\u7535\u8f66\u3002\n\n\u5728\u4ed6\u7684\u65c5\u7a0b\u4e2d\uff0c\u4ed6\u9192\u4e86\u51e0\u6b21\uff0c\u6bcf\u6b21\u90fd\u770b\u5230\u7535\u8f66\u505c\u9760\u5728\u67d0\u4e2a\u7ad9\u70b9\uff0c\u5e76\u4e14\u4ed6\u77e5\u9053\u5728\u8fd9\u4e2a\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u90fd\u6709\u54ea\u4e9b\u3002\n\n\u4ed6\u60f3\u8ba9\u4f60\u5e2e\u4ed6\u786e\u8ba4\u4ed6\u53ef\u80fd\u5750\u7684\u662f\u51e0\u53f7\u7535\u8f66\u3002\n\n### \u8f93\u5165\u683c\u5f0f:\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a$n$\uff08$1\\le n\\le 100$\uff09\uff0c\u4ed6\u4e00\u5171\u770b\u5230\u505c\u9760\u4e86\u51e0\u6b21\u3002\n\n\u4ee5\u4e0b$n$\u884c\uff0c\u6bcf\u884c\u7b2c\u4e00\u4e2a\u6570$r$\uff08$1\\le r\\le 100$\uff09,\u8868\u793a\u5728\u8be5\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u6709\u591a\u5c11\u4e2a\u3002\n\n\u63a5\u4e0b\u6765\u7684$r$\u4e2a\u6570\uff0c\u8868\u793a\u5728\u8be5\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u7f16\u53f7\u3002\n\n\u7535\u8f66\u7f16\u53f7\u5728$1$\u5230$100$\u4e4b\u95f4\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u4ee5\u4efb\u610f\u987a\u5e8f\u8f93\u51fa\u4ed6\u6240\u6709\u53ef\u80fd\u4e58\u5750\u7684\u7535\u8f66\u7f16\u53f7\u3002"},"translations":{"en":{"name":"Determine Line","background":"","description":"Arkady\u0027s morning seemed to be straight of his nightmare. He overslept through the whole morning and, still half-asleep, got into the tram that arrived the first. Some time after, leaving the tram, he realized that he was not sure about the line number of the tram he was in.\n\nDuring his ride, Arkady woke up several times and each time he saw the tram stopping at some stop. For each stop he knows which lines of tram stop there. Given this information, can you help Arkady determine what are the possible lines of the tram he was in?","formatI":"The first line contains a single integer $ n $ ( $ 2 \\le n \\le 100 $ ) \u2014 the number of stops Arkady saw.\n\nThe next $ n $ lines describe the stops. Each of them starts with a single integer $ r $ ( $ 1 \\le r \\le 100 $ ) \u2014 the number of tram lines that stop there. $ r $ distinct integers follow, each one between $ 1 $ and $ 100 $ , inclusive, \u2014 the line numbers. They can be in arbitrary order.\n\nIt is guaranteed that Arkady\u0027s information is consistent, i.e. there is at least one tram line that Arkady could take.","formatO":"Print all tram lines that Arkady could be in, in arbitrary order.","hint":"Consider the first example. Arkady woke up three times. The first time he saw a stop with lines $ 1 $ , $ 4 $ , $ 6 $ . The second time he saw a stop with lines $ 1 $ , $ 4 $ . The third time he saw a stop with lines $ 10 $ , $ 5 $ , $ 6 $ , $ 4 $ and $ 1 $ . He can be in a tram of one of two lines: $ 1 $ or $ 4 $ .","locale":"en"},"zh-CN":{"name":"Determine Line","background":"","description":"Arkady\u534a\u68a6\u534a\u9192\u5750\u4e0a\u4e86\u4e00\u8d9f\u7535\u8f66\uff0c\u5728\u4ed6\u4e0b\u4e86\u7535\u8f66\u540e\uff0c\u53d1\u73b0\u4ed6\u4e0d\u77e5\u9053\u81ea\u5df1\u5750\u7684\u662f\u51e0\u53f7\u7535\u8f66\u3002\n\n\u5728\u4ed6\u7684\u65c5\u7a0b\u4e2d\uff0c\u4ed6\u9192\u4e86\u51e0\u6b21\uff0c\u6bcf\u6b21\u90fd\u770b\u5230\u7535\u8f66\u505c\u9760\u5728\u67d0\u4e2a\u7ad9\u70b9\uff0c\u5e76\u4e14\u4ed6\u77e5\u9053\u5728\u8fd9\u4e2a\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u90fd\u6709\u54ea\u4e9b\u3002\n\n\u4ed6\u60f3\u8ba9\u4f60\u5e2e\u4ed6\u786e\u8ba4\u4ed6\u53ef\u80fd\u5750\u7684\u662f\u51e0\u53f7\u7535\u8f66\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a$n$\uff08$1\\le n\\le 100$\uff09\uff0c\u4ed6\u4e00\u5171\u770b\u5230\u505c\u9760\u4e86\u51e0\u6b21\u3002\n\n\u4ee5\u4e0b$n$\u884c\uff0c\u6bcf\u884c\u7b2c\u4e00\u4e2a\u6570$r$\uff08$1\\le r\\le 100$\uff09,\u8868\u793a\u5728\u8be5\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u6709\u591a\u5c11\u4e2a\u3002\n\n\u63a5\u4e0b\u6765\u7684$r$\u4e2a\u6570\uff0c\u8868\u793a\u5728\u8be5\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u7f16\u53f7\u3002\n\n\u7535\u8f66\u7f16\u53f7\u5728$1$\u5230$100$\u4e4b\u95f4\u3002","formatO":"\u4ee5\u4efb\u610f\u987a\u5e8f\u8f93\u51fa\u4ed6\u6240\u6709\u53ef\u80fd\u4e58\u5750\u7684\u7535\u8f66\u7f16\u53f7\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1056A Determine Line","type":2,"slug":"CF1056A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330791.082649,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1056A Determine Line","description":"Arkady\u534a\u68a6\u534a\u9192\u5750\u4e0a\u4e86\u4e00\u8d9f\u7535\u8f66\uff0c\u5728\u4ed6\u4e0b\u4e86\u7535\u8f66\u540e\uff0c\u53d1\u73b0\u4ed6\u4e0d\u77e5\u9053\u81ea\u5df1\u5750\u7684\u662f\u51e0\u53f7\u7535\u8f66\u3002\n\u5728\u4ed6\u7684\u65c5\u7a0b\u4e2d\uff0c\u4ed6\u9192\u4e86\u51e0\u6b21\uff0c\u6bcf\u6b21\u90fd\u770b\u5230\u7535\u8f66\u505c\u9760\u5728\u67d0\u4e2a\u7ad9\u70b9\uff0c\u5e76\u4e14\u4ed6\u77e5\u9053\u5728\u8fd9\u4e2a\u7ad9\u70b9\u505c\u9760\u7684\u7535\u8f66\u90fd\u6709\u54ea\u4e9b\u3002\n\u4ed6\u60f3\u8ba9\u4f60\u5e2e\u4ed6\u786e\u8ba4\u4ed6\u53ef\u80fd\u5750\u7684\u662f\u51e0\u53f7\u7535\u8f66\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1056A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1056A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1056A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1056A Determine Line" />
+    <meta property="og:description" content="Arkady半梦半醒坐上了一趟电车，在他下了电车后，发现他不知道自己坐的是几号电车。
+在他的旅程中，他醒了几次，每次都看到电车停靠在某个站点，并且他知道在这个站点停靠的电车都有哪些。
+他想让你帮他确认他可能坐的是几号电车。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1056A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1056A Determine Line</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Arkady半梦半醒坐上了一趟电车，在他下了电车后，发现他不知道自己坐的是几号电车。
+
+在他的旅程中，他醒了几次，每次都看到电车停靠在某个站点，并且他知道在这个站点停靠的电车都有哪些。
+
+他想让你帮他确认他可能坐的是几号电车。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个$n$（$1\le n\le 100$），他一共看到停靠了几次。
+
+以下$n$行，每行第一个数$r$（$1\le r\le 100$）,表示在该站点停靠的电车有多少个。
+
+接下来的$r$个数，表示在该站点停靠的电车编号。
+
+电车编号在$1$到$100$之间。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    以任意顺序输出他所有可能乘坐的电车编号。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                Consider the first example. Arkady woke up three times. The first time he saw a stop with lines $ 1 $ , $ 4 $ , $ 6 $ . The second time he saw a stop with lines $ 1 $ , $ 4 $ . The third time he saw a stop with lines $ 10 $ , $ 5 $ , $ 6 $ , $ 4 $ and $ 1 $ . He can be in a tram of one of two lines: $ 1 $ or $ 4 $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

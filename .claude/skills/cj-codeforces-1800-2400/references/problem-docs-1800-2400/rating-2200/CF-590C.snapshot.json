@@ -1,0 +1,35 @@
+{
+  "id": "CF-590C",
+  "contest_id": 590,
+  "index": "C",
+  "name": "Three States",
+  "rating": 2200,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/590/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/590/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/590/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=590C%20Three States%20tutorial",
+  "solved_count": 3425,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P590C",
+  "hydro_meta": {
+    "page_title": "Three States - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "graphs",
+      "shortest paths",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "512MiB"
+  }
+}

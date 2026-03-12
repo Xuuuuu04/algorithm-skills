@@ -1,0 +1,29 @@
+{
+  "id": "CF-1082E",
+  "contest_id": 1082,
+  "index": "E",
+  "name": "Increasing Frequency",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 6166,
+  "problem_url": "https://codeforces.com/problemset/problem/1082/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1082/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1082/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1082E%20Increasing%20Frequency%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1082E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1082E Increasing Frequency - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 517,
+    "mirror_attempt": 1056,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

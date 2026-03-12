@@ -1,0 +1,36 @@
+{
+  "id": "CF-1152E",
+  "contest_id": 1152,
+  "index": "E",
+  "name": "Neko and Flashback",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1152/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1152/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1152/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1152E%20Neko and Flashback%20tutorial",
+  "solved_count": 1114,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1152E",
+  "hydro_meta": {
+    "page_title": "Neko and Flashback - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CF-1129C",
+  "contest_id": 1129,
+  "index": "C",
+  "name": "Morse Code",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "hashing",
+    "sortings",
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 993,
+  "problem_url": "https://codeforces.com/problemset/problem/1129/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1129/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1129/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1129C%20Morse%20Code%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1129C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Morse Code - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "hashing",
+      "sortings",
+      "string suffix structures",
+      "strings",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

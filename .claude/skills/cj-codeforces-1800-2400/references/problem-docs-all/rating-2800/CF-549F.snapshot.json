@@ -1,0 +1,32 @@
+{
+  "id": "CF-549F",
+  "contest_id": 549,
+  "index": "F",
+  "name": "Yura and Developers",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures",
+    "divide and conquer"
+  ],
+  "solved_count": 1013,
+  "problem_url": "https://codeforces.com/problemset/problem/549/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/549/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/549/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=549F%20Yura%20and%20Developers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P549F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yura and Developers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "divide and conquer",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

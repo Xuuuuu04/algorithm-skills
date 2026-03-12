@@ -1,0 +1,32 @@
+{
+  "id": "CF-1739D",
+  "contest_id": 1739,
+  "index": "D",
+  "name": "Reset K Edges",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 6131,
+  "problem_url": "https://codeforces.com/problemset/problem/1739/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1739/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1739/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1739D%20Reset%20K%20Edges%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1739D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1739D Reset K Edges - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 263,
+    "mirror_attempt": 438,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

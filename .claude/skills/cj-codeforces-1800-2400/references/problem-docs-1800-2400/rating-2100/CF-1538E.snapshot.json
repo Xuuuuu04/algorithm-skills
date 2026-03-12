@@ -1,0 +1,40 @@
+{
+  "id": "CF-1538E",
+  "contest_id": 1538,
+  "index": "E",
+  "name": "Funny Substrings",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "hashing",
+    "implementation",
+    "matrices",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1538/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1538/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1538/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1538E%20Funny Substrings%20tutorial",
+  "solved_count": 3194,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1538E",
+  "hydro_meta": {
+    "page_title": "Funny Substrings - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "hashing",
+      "implementation",
+      "matrices",
+      "strings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

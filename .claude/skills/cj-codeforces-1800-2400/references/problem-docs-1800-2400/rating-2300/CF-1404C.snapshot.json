@@ -1,0 +1,42 @@
+{
+  "id": "CF-1404C",
+  "contest_id": 1404,
+  "index": "C",
+  "name": "Fixed Point Removal",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1404/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1404/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1404/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1404C%20Fixed Point Removal%20tutorial",
+  "solved_count": 3022,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1404C",
+  "hydro_meta": {
+    "page_title": "Fixed Point Removal - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

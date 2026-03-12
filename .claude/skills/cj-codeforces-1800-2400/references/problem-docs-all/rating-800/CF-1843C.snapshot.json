@@ -1,0 +1,30 @@
+{
+  "id": "CF-1843C",
+  "contest_id": 1843,
+  "index": "C",
+  "name": "Sum in Binary Tree",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "math",
+    "trees"
+  ],
+  "solved_count": 39038,
+  "problem_url": "https://codeforces.com/problemset/problem/1843/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1843/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1843/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1843C%20Sum%20in%20Binary%20Tree%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1843C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1843C Sum in Binary Tree - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 344,
+    "mirror_attempt": 559,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

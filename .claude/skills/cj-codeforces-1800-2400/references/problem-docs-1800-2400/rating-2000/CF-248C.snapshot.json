@@ -1,0 +1,33 @@
+{
+  "id": "CF-248C",
+  "contest_id": 248,
+  "index": "C",
+  "name": "Robo-Footballer",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "geometry"
+  ],
+  "url": "https://codeforces.com/problemset/problem/248/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/248/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/248/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=248C%20Robo-Footballer%20tutorial",
+  "solved_count": 895,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P248C",
+  "hydro_meta": {
+    "page_title": "Robo-Footballer - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "geometry",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

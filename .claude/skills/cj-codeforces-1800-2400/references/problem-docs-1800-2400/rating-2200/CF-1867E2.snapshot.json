@@ -1,0 +1,32 @@
+{
+  "id": "CF-1867E2",
+  "contest_id": 1867,
+  "index": "E2",
+  "name": "Salyg1n and Array (hard version)",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1867/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1867/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1867/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1867E2%20Salyg1n and Array (hard version)%20tutorial",
+  "solved_count": 3718,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1867E2",
+  "hydro_meta": {
+    "page_title": "Salyg1n and Array (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "interactive"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

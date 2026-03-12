@@ -1,0 +1,36 @@
+{
+  "id": "CF-1909B",
+  "contest_id": 1909,
+  "index": "B",
+  "name": "Make Almost Equal With Mod",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 29590,
+  "problem_url": "https://codeforces.com/problemset/problem/1909/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1909/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1909/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1909B%20Make%20Almost%20Equal%20With%20Mod%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1909B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Make Almost Equal With Mod - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

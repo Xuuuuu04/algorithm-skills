@@ -1,0 +1,30 @@
+{
+  "id": "CF-1548C",
+  "contest_id": 1548,
+  "index": "C",
+  "name": "The Three Little Pigs",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "fft",
+    "math"
+  ],
+  "solved_count": 1995,
+  "problem_url": "https://codeforces.com/problemset/problem/1548/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1548/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1548/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1548C%20The%20Three%20Little%20Pigs%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1548C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1548C The Three Little Pigs - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 320,
+    "mirror_attempt": 638,
+    "time_limit": "1000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

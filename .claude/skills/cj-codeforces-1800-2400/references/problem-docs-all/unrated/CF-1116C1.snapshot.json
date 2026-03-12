@@ -1,0 +1,27 @@
+{
+  "id": "CF-1116C1",
+  "contest_id": 1116,
+  "index": "C1",
+  "name": "Alternating bits oracle",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 267,
+  "problem_url": "https://codeforces.com/problemset/problem/1116/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1116/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1116/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1116C1%20Alternating%20bits%20oracle%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1116C1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Alternating bits oracle - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-1305G",
+  "contest_id": 1305,
+  "index": "G",
+  "name": "Kuroni and Antihype",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dp",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 1357,
+  "problem_url": "https://codeforces.com/problemset/problem/1305/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1305/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1305/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1305G%20Kuroni%20and%20Antihype%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1305/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1305G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

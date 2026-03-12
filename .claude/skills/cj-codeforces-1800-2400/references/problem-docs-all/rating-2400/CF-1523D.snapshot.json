@@ -1,0 +1,30 @@
+{
+  "id": "CF-1523D",
+  "contest_id": 1523,
+  "index": "D",
+  "name": "Love-Hate",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dp",
+    "probabilities"
+  ],
+  "solved_count": 2455,
+  "problem_url": "https://codeforces.com/problemset/problem/1523/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1523/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1523/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1523D%20Love-Hate%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1523/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1523D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

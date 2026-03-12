@@ -1,0 +1,28 @@
+{
+  "id": "CF-1513A",
+  "contest_id": 1513,
+  "index": "A",
+  "name": "Array and Peaks",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 19981,
+  "problem_url": "https://codeforces.com/problemset/problem/1513/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1513/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1513/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1513A%20Array%20and%20Peaks%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1513A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1513A Array and Peaks - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 184,
+    "mirror_attempt": 311,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

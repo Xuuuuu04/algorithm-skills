@@ -1,0 +1,30 @@
+{
+  "id": "CF-926J",
+  "contest_id": 926,
+  "index": "J",
+  "name": "Segments",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 548,
+  "problem_url": "https://codeforces.com/problemset/problem/926/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/926/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/926/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=926J%20Segments%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P926J",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Segments - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

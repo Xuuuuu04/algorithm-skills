@@ -1,0 +1,31 @@
+{
+  "id": "CF-1728E",
+  "contest_id": 1728,
+  "index": "E",
+  "name": "Red-Black Pepper",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 2006,
+  "problem_url": "https://codeforces.com/problemset/problem/1728/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1728/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1728/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1728E%20Red-Black%20Pepper%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1728E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1728E Red-Black Pepper - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 209,
+    "mirror_attempt": 520,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

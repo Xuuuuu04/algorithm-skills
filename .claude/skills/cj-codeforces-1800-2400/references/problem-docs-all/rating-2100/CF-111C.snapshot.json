@@ -1,0 +1,34 @@
+{
+  "id": "CF-111C",
+  "contest_id": 111,
+  "index": "C",
+  "name": "Petya and Spiders",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "dsu"
+  ],
+  "solved_count": 1563,
+  "problem_url": "https://codeforces.com/problemset/problem/111/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/111/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/111/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=111C%20Petya%20and%20Spiders%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P111C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Petya and Spiders - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "dp",
+      "dsu",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

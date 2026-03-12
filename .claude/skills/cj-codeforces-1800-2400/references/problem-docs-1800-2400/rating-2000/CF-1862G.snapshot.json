@@ -1,0 +1,38 @@
+{
+  "id": "CF-1862G",
+  "contest_id": 1862,
+  "index": "G",
+  "name": "The Great Equalizer",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "data structures",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1862/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1862/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1862/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1862G%20The Great Equalizer%20tutorial",
+  "solved_count": 3386,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1862G",
+  "hydro_meta": {
+    "page_title": "The Great Equalizer - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "math",
+      "sortings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

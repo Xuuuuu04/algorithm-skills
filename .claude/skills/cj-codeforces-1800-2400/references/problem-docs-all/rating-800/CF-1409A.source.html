@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414414:u8rO5ZSLB+Wz86zPLGTgcbGVXGU8/qDp+8AIijm4iX4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1409A Yet Another Two Integers Problem - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1409A","type":"CF","title":"Yet Another Two Integers Problem","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":913,"totalAccepted":517,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Yet Another Two Integers Problem","background":null,"description":"\u7ed9\u5b9a\u4e24\u4e2a\u6574\u6570 $a$ \u548c $b$\u3002\n\n\u6bcf\u4e00\u6b65\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u6574\u6570 $k$\uff0c\u5176\u4e2d $1 \\leq k \\leq 10$\uff0c\u7136\u540e\u5c06 $k$ \u52a0\u5230 $a$ \u4e0a\uff0c\u6216\u8005\u4ece $a$ \u4e2d\u51cf\u53bb $k$\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u6574\u6570 $k \\in [1, 10]$\uff0c\u6267\u884c $a := a + k$ \u6216 $a := a - k$\u3002\u5728\u4e0d\u540c\u7684\u64cd\u4f5c\u4e2d\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e0d\u540c\u7684 $k$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\u5c06 $a$ \u53d8\u4e3a $b$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u7ec4\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 2 \\times 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6709 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $a$ \u548c $b$\uff08$1 \\leq a, b \\leq 10^9$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u7b54\u6848\uff1a\u5c06 $a$ \u53d8\u4e3a $b$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f60\u65e0\u9700\u8fdb\u884c\u4efb\u4f55\u64cd\u4f5c\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u6309\u5982\u4e0b\u987a\u5e8f\u64cd\u4f5c\uff1a$13 \\rightarrow 23 \\rightarrow 32 \\rightarrow 42$\uff08\u52a0 $10$\uff0c\u52a0 $9$\uff0c\u52a0 $10$\uff09\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u6309\u5982\u4e0b\u987a\u5e8f\u64cd\u4f5c\uff1a$18 \\rightarrow 10 \\rightarrow 4$\uff08\u51cf $8$\uff0c\u51cf $6$\uff09\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Yet Another Two Integers Problem","background":"","description":"You are given two integers $ a $ and $ b $ .\n\nIn one move, you can choose some integer $ k $ from $ 1 $ to $ 10 $ and add it to $ a $ or subtract it from $ a $ . In other words, you choose an integer $ k \\in [1; 10] $ and perform $ a := a + k $ or $ a := a - k $ . You may use different values of $ k $ in different moves.\n\nYour task is to find the minimum number of moves required to obtain $ b $ from $ a $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 2 \\cdot 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe only line of the test case contains two integers $ a $ and $ b $ ( $ 1 \\le a, b \\le 10^9 $ ).","formatO":"For each test case, print the answer: the minimum number of moves required to obtain $ b $ from $ a $ .","hint":"In the first test case of the example, you don\u0027t need to do anything.\n\nIn the second test case of the example, the following sequence of moves can be applied: $ 13 \\rightarrow 23 \\rightarrow 32 \\rightarrow 42 $ (add $ 10 $ , add $ 9 $ , add $ 10 $ ).\n\nIn the third test case of the example, the following sequence of moves can be applied: $ 18 \\rightarrow 10 \\rightarrow 4 $ (subtract $ 8 $ , subtract $ 6 $ ).","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n5 5\n13 42\n18 4\n1337 420\n123456789 1000000000\n100500 9000","0\n3\n2\n92\n87654322\n9150"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1409A","link":"https:\/\/codeforces.com\/problemset\/problem\/1409\/A"},"translation":"\u7ed9\u5b9a\u4e24\u4e2a\u6574\u6570$a,b$,\u6bcf\u6b21\u53ef\u4ee5\u628a$a$\u53d8\u6210$a+k$\u6216$a-k$$(k\\in [1,10])$\uff0c\u6c42\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\u53ef\u4ee5\u628a$a$\u53d8\u6210$b$"},"translations":{"en":{"name":"Yet Another Two Integers Problem","background":"","description":"You are given two integers $ a $ and $ b $ .\n\nIn one move, you can choose some integer $ k $ from $ 1 $ to $ 10 $ and add it to $ a $ or subtract it from $ a $ . In other words, you choose an integer $ k \\in [1; 10] $ and perform $ a := a + k $ or $ a := a - k $ . You may use different values of $ k $ in different moves.\n\nYour task is to find the minimum number of moves required to obtain $ b $ from $ a $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 2 \\cdot 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe only line of the test case contains two integers $ a $ and $ b $ ( $ 1 \\le a, b \\le 10^9 $ ).","formatO":"For each test case, print the answer: the minimum number of moves required to obtain $ b $ from $ a $ .","hint":"In the first test case of the example, you don\u0027t need to do anything.\n\nIn the second test case of the example, the following sequence of moves can be applied: $ 13 \\rightarrow 23 \\rightarrow 32 \\rightarrow 42 $ (add $ 10 $ , add $ 9 $ , add $ 10 $ ).\n\nIn the third test case of the example, the following sequence of moves can be applied: $ 18 \\rightarrow 10 \\rightarrow 4 $ (subtract $ 8 $ , subtract $ 6 $ ).","locale":"en"},"zh-CN":{"name":"Yet Another Two Integers Problem","background":null,"description":"\u7ed9\u5b9a\u4e24\u4e2a\u6574\u6570 $a$ \u548c $b$\u3002\n\n\u6bcf\u4e00\u6b65\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u6574\u6570 $k$\uff0c\u5176\u4e2d $1 \\leq k \\leq 10$\uff0c\u7136\u540e\u5c06 $k$ \u52a0\u5230 $a$ \u4e0a\uff0c\u6216\u8005\u4ece $a$ \u4e2d\u51cf\u53bb $k$\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u6574\u6570 $k \\in [1, 10]$\uff0c\u6267\u884c $a := a + k$ \u6216 $a := a - k$\u3002\u5728\u4e0d\u540c\u7684\u64cd\u4f5c\u4e2d\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e0d\u540c\u7684 $k$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\u5c06 $a$ \u53d8\u4e3a $b$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u7ec4\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 2 \\times 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6709 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $a$ \u548c $b$\uff08$1 \\leq a, b \\leq 10^9$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u7b54\u6848\uff1a\u5c06 $a$ \u53d8\u4e3a $b$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f60\u65e0\u9700\u8fdb\u884c\u4efb\u4f55\u64cd\u4f5c\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u6309\u5982\u4e0b\u987a\u5e8f\u64cd\u4f5c\uff1a$13 \\rightarrow 23 \\rightarrow 32 \\rightarrow 42$\uff08\u52a0 $10$\uff0c\u52a0 $9$\uff0c\u52a0 $10$\uff09\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u6309\u5982\u4e0b\u987a\u5e8f\u64cd\u4f5c\uff1a$18 \\rightarrow 10 \\rightarrow 4$\uff08\u51cf $8$\uff0c\u51cf $6$\uff09\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1409A Yet Another Two Integers Problem","type":2,"slug":"CF1409A","color":"orange-3"},"discussions":[{"id":256246,"title":"AC \u540e\u601d\u8003\u7684\u95ee\u9898","author":{"uid":114914,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/114914.png","name":"\u4e00\u53ea\u4e66\u866b\u4ed4","slogan":"End.","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/lxnz5mtl.png"},"time":1599873320}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328014.714652,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1409A Yet Another Two Integers Problem","description":"\u7ed9\u5b9a\u4e24\u4e2a\u6574\u6570 a \u548c b\u3002\n\u6bcf\u4e00\u6b65\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u6574\u6570 k\uff0c\u5176\u4e2d 1 \\leq k \\leq 10\uff0c\u7136\u540e\u5c06 k \u52a0\u5230 a \u4e0a\uff0c\u6216\u8005\u4ece a \u4e2d\u51cf\u53bb k\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u4f60\u53ef\u4ee5\u9009\u62e9\u4e00\u4e2a\u6574\u6570 k \\in [1, 10]\uff0c\u6267\u884c a := a + k\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1409A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1409A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1409A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1409A Yet Another Two Integers Problem" />
+    <meta property="og:description" content="给定两个整数 a 和 b。
+每一步操作，你可以选择一个整数 k，其中 1 \leq k \leq 10，然后将 k 加到 a 上，或者从 a 中减去 k。换句话说，你可以选择一个整数 k \in [1, 10]，执行 a := a + k…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1409A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1409A Yet Another Two Integers Problem</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定两个整数 $a$ 和 $b$。
+
+每一步操作，你可以选择一个整数 $k$，其中 $1 \leq k \leq 10$，然后将 $k$ 加到 $a$ 上，或者从 $a$ 中减去 $k$。换句话说，你可以选择一个整数 $k \in [1, 10]$，执行 $a := a + k$ 或 $a := a - k$。在不同的操作中，你可以选择不同的 $k$。
+
+你的任务是求出将 $a$ 变为 $b$ 所需的最少操作次数。
+
+你需要回答 $t$ 组独立的测试用例。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $t$（$1 \leq t \leq 2 \times 10^4$），表示测试用例的数量。接下来有 $t$ 行，每行包含两个整数 $a$ 和 $b$（$1 \leq a, b \leq 10^9$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个答案：将 $a$ 变为 $b$ 所需的最少操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，你无需进行任何操作。
+
+在第二个样例中，可以按如下顺序操作：$13 \rightarrow 23 \rightarrow 32 \rightarrow 42$（加 $10$，加 $9$，加 $10$）。
+
+在第三个样例中，可以按如下顺序操作：$18 \rightarrow 10 \rightarrow 4$（减 $8$，减 $6$）。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

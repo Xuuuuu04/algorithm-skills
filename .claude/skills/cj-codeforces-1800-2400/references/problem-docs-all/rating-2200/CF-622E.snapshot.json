@@ -1,0 +1,30 @@
+{
+  "id": "CF-622E",
+  "contest_id": 622,
+  "index": "E",
+  "name": "Ants in Leaves",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 2427,
+  "problem_url": "https://codeforces.com/problemset/problem/622/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/622/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/622/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=622E%20Ants%20in%20Leaves%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF622E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF622E Ants in Leaves - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 198,
+    "mirror_attempt": 321,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

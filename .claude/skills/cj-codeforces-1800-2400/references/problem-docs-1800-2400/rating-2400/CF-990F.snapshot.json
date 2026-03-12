@@ -1,0 +1,39 @@
+{
+  "id": "CF-990F",
+  "contest_id": 990,
+  "index": "F",
+  "name": "Flow Control",
+  "rating": 2400,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/990/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/990/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/990/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=990F%20Flow Control%20tutorial",
+  "solved_count": 1046,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P990F",
+  "hydro_meta": {
+    "page_title": "Flow Control - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

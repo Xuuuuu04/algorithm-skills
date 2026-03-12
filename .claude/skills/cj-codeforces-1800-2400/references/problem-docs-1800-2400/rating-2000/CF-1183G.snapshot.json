@@ -1,0 +1,35 @@
+{
+  "id": "CF-1183G",
+  "contest_id": 1183,
+  "index": "G",
+  "name": "Candy Box (hard version)",
+  "rating": 2000,
+  "tags": [
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1183/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1183/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1183/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1183G%20Candy Box (hard version)%20tutorial",
+  "solved_count": 2641,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1183G",
+  "hydro_meta": {
+    "page_title": "Candy Box (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

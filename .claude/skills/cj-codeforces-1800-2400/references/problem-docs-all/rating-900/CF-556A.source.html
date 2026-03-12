@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417192:HRIxmQqXVIxdN1b4LgVjO5SuqrUJ+uwVsY5m278ofAc=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF556A Case of the Zeros and Ones - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF556A","type":"CF","title":"Case of the Zeros and Ones","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":362,"totalAccepted":186,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Case of the Zeros and Ones","background":null,"description":"Android \u4fa6\u63a2 Andrewid \u662f\u4e00\u4e2a\u95fb\u540d\u94f6\u6cb3\u7684\u4fa6\u63a2\u3002\u4ed6\u5728\u7a7a\u95f2\u65f6\u95f4\u559c\u6b22\u601d\u8003\u53ea\u5305\u542b 0 \u548c 1 \u7684\u5b57\u7b26\u4e32\u3002\n\n\u6709\u4e00\u6b21\u4ed6\u8003\u8651\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$\u3001\u4ec5\u5305\u542b 0 \u548c 1 \u7684\u5b57\u7b26\u4e32\u3002\u6211\u4eec\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4efb\u610f\u4e24\u4e2a\u76f8\u90bb\u7684\u4f4d\u7f6e\uff0c\u5982\u679c\u5176\u4e2d\u4e00\u4e2a\u4e3a 0\uff0c\u53e6\u4e00\u4e2a\u4e3a 1\uff0c\u5219\u53ef\u4ee5\u5c06\u8fd9\u4e24\u4e2a\u6570\u5b57\u4ece\u5b57\u7b26\u4e32\u4e2d\u5220\u9664\uff0c\u5f97\u5230\u4e00\u4e2a\u957f\u5ea6\u4e3a $n-2$ \u7684\u65b0\u5b57\u7b26\u4e32\u3002\n\n\u73b0\u5728 Andrewid \u60f3\u77e5\u9053\uff0c\u7ecf\u8fc7\u82e5\u5e72\u6b21\u4e0a\u8ff0\u64cd\u4f5c\uff08\u53ef\u4ee5\u4e00\u6b21\u4e5f\u4e0d\u64cd\u4f5c\uff09\uff0c\u8be5\u5b57\u7b26\u4e32\u53ef\u80fd\u5269\u4e0b\u7684\u6700\u5c0f\u957f\u5ea6\u662f\u591a\u5c11\uff1f\u8bf7\u4f60\u5e2e\u4ed6\u8ba1\u7b97\u8fd9\u4e2a\u6570\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2 \\cdot 10^{5}$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u3001\u53ea\u7531 0 \u548c 1 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002","formatO":"\u8f93\u51fa\u7ecf\u8fc7\u82e5\u5e72\u6b21\u4e0a\u8ff0\u64cd\u4f5c\u540e\uff0c\u5b57\u7b26\u4e32\u53ef\u80fd\u5269\u4e0b\u7684\u6700\u5c0f\u957f\u5ea6\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8fd9\u6837\u6539\u53d8\u5b57\u7b26\u4e32\uff1a![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/e043b6ec2c3e4a6d1dc601a796867b6d8b674d68.png)\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8fd9\u6837\u6539\u53d8\u5b57\u7b26\u4e32\uff1a![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/30be4362dc7c1bb4a027298eec85cb98382f032a.png)\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8fd9\u6837\u6539\u53d8\u5b57\u7b26\u4e32\uff1a![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/0236dc192d0b4a8b370a137592d21fbb4adabaef.png)\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Case of the Zeros and Ones","background":"","description":"Andrewid the Android is a galaxy-famous detective. In his free time he likes to think about strings containing zeros and ones.\n\nOnce he thought about a string of length $ n $ consisting of zeroes and ones. Consider the following operation: we choose any two adjacent positions in the string, and if one them contains 0, and the other contains 1, then we are allowed to remove these two digits from the string, obtaining a string of length $ n-2 $ as a result.\n\nNow Andreid thinks about what is the minimum length of the string that can remain after applying the described operation several times (possibly, zero)? Help him to calculate this number.","formatI":"First line of the input contains a single integer $ n $ ( $ 1\u003C=n\u003C=2\u00b710^{5} $ ), the length of the string that Andreid has.\n\nThe second line contains the string of length $ n $ consisting only from zeros and ones.","formatO":"Output the minimum length of the string that may remain after applying the described operations several times.","hint":"In the first sample test it is possible to change the string like the following: ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/e043b6ec2c3e4a6d1dc601a796867b6d8b674d68.png).\n\nIn the second sample test it is possible to change the string like the following: ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/30be4362dc7c1bb4a027298eec85cb98382f032a.png).\n\nIn the third sample test it is possible to change the string like the following: ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/0236dc192d0b4a8b370a137592d21fbb4adabaef.png).","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n1100\n","0\n"],["5\n01010\n","1\n"],["8\n11101111\n","6\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"556A","link":"https:\/\/codeforces.com\/problemset\/problem\/556\/A"},"translation":"# \u9898\u76ee\u63cf\u8ff0\n\u5b89\u5fb7\u9c81\u5fb7\u662f\u4e00\u4f4d\u94f6\u6cb3\u8457\u540d\u7684\u4fa6\u63a2\u3002 \u5728\u7a7a\u95f2\u65f6\u95f4\uff0c\u4ed6\u559c\u6b22\u601d\u8003\u5305\u542b\u96f6\u548c\u5b57\u7b26\u4e32\u7684\u5b57\u7b26\u4e32\u3002\n\n\u6709\u4e00\u6b21\uff0c\u4ed6\u60f3\u5230\u4e86\u4e00\u4e32\u7531\u96f6\u548c\u4e00\u7ec4\u6210\u7684\u957f\u5ea6\u4e3an\u7684\u5b57\u7b26\u4e32\u3002 \u8003\u8651\u4ee5\u4e0b\u64cd\u4f5c\uff1a\u6211\u4eec\u5728\u5b57\u7b26\u4e32\u4e2d\u9009\u62e9\u4efb\u610f\u4e24\u4e2a\u76f8\u90bb\u7684\u4f4d\u7f6e\uff0c\u5982\u679c\u5176\u4e2d\u4e00\u4e2a\u5305\u542b0\uff0c\u53e6\u4e00\u4e2a\u5305\u542b1\uff0c\u5219\u5141\u8bb8\u4ece\u5b57\u7b26\u4e32\u4e2d\u79fb\u9664\u8fd9\u4e24\u4e2a\u6570\u5b57\uff0c\u4ece\u800c\u83b7\u5f97\u957f\u5ea6\u4e3an - 2\u7684\u5b57\u7b26\u4e32\uff0c\u4f5c\u4e3a \u7ed3\u679c\u3002\n\n\u73b0\u5728\uff0c\u5b89\u5fb7\u9c81\u5fb7\u8003\u8651\u4e86\u591a\u6b21\u5e94\u7528\u6240\u63cf\u8ff0\u7684\u64cd\u4f5c\uff08\u53ef\u80fd\u662f\u96f6\uff09\u540e\u53ef\u4ee5\u4fdd\u7559\u7684\u5b57\u7b26\u4e32\u7684\u6700\u5c0f\u957f\u5ea6\u662f\u591a\u5c11\uff1f \u5e2e\u52a9\u4ed6\u8ba1\u7b97\u8fd9\u4e2a\u6570\u5b57\u3002\n\n# \u8f93\u5165\n\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570n\uff081\u2264n\u22642.105\uff09\uff0c\u5373Andreid\u6240\u5177\u6709\u7684\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u957f\u5ea6\u4e3an\u7684\u5b57\u7b26\u4e32\uff0c\u4ec5\u75310\u548c1\u7ec4\u6210\u3002\n\n# \u8f93\u51fa\n\u8f93\u51fa\u591a\u6b21\u5e94\u7528\u63cf\u8ff0\u7684\u64cd\u4f5c\u540e\u53ef\u80fd\u4fdd\u7559\u7684\u5b57\u7b26\u4e32\u7684\u6700\u5c0f\u957f\u5ea6\u3002\n\n\u611f\u8c22@HNYLMS_MuQiuFeng \u63d0\u4f9b\u7684\u7ffb\u8bd1"},"translations":{"en":{"name":"Case of the Zeros and Ones","background":"","description":"Andrewid the Android is a galaxy-famous detective. In his free time he likes to think about strings containing zeros and ones.\n\nOnce he thought about a string of length $ n $ consisting of zeroes and ones. Consider the following operation: we choose any two adjacent positions in the string, and if one them contains 0, and the other contains 1, then we are allowed to remove these two digits from the string, obtaining a string of length $ n-2 $ as a result.\n\nNow Andreid thinks about what is the minimum length of the string that can remain after applying the described operation several times (possibly, zero)? Help him to calculate this number.","formatI":"First line of the input contains a single integer $ n $ ( $ 1\u003C=n\u003C=2\u00b710^{5} $ ), the length of the string that Andreid has.\n\nThe second line contains the string of length $ n $ consisting only from zeros and ones.","formatO":"Output the minimum length of the string that may remain after applying the described operations several times.","hint":"In the first sample test it is possible to change the string like the following: ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/e043b6ec2c3e4a6d1dc601a796867b6d8b674d68.png).\n\nIn the second sample test it is possible to change the string like the following: ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/30be4362dc7c1bb4a027298eec85cb98382f032a.png).\n\nIn the third sample test it is possible to change the string like the following: ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/0236dc192d0b4a8b370a137592d21fbb4adabaef.png).","locale":"en"},"zh-CN":{"name":"Case of the Zeros and Ones","background":null,"description":"Android \u4fa6\u63a2 Andrewid \u662f\u4e00\u4e2a\u95fb\u540d\u94f6\u6cb3\u7684\u4fa6\u63a2\u3002\u4ed6\u5728\u7a7a\u95f2\u65f6\u95f4\u559c\u6b22\u601d\u8003\u53ea\u5305\u542b 0 \u548c 1 \u7684\u5b57\u7b26\u4e32\u3002\n\n\u6709\u4e00\u6b21\u4ed6\u8003\u8651\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$\u3001\u4ec5\u5305\u542b 0 \u548c 1 \u7684\u5b57\u7b26\u4e32\u3002\u6211\u4eec\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4efb\u610f\u4e24\u4e2a\u76f8\u90bb\u7684\u4f4d\u7f6e\uff0c\u5982\u679c\u5176\u4e2d\u4e00\u4e2a\u4e3a 0\uff0c\u53e6\u4e00\u4e2a\u4e3a 1\uff0c\u5219\u53ef\u4ee5\u5c06\u8fd9\u4e24\u4e2a\u6570\u5b57\u4ece\u5b57\u7b26\u4e32\u4e2d\u5220\u9664\uff0c\u5f97\u5230\u4e00\u4e2a\u957f\u5ea6\u4e3a $n-2$ \u7684\u65b0\u5b57\u7b26\u4e32\u3002\n\n\u73b0\u5728 Andrewid \u60f3\u77e5\u9053\uff0c\u7ecf\u8fc7\u82e5\u5e72\u6b21\u4e0a\u8ff0\u64cd\u4f5c\uff08\u53ef\u4ee5\u4e00\u6b21\u4e5f\u4e0d\u64cd\u4f5c\uff09\uff0c\u8be5\u5b57\u7b26\u4e32\u53ef\u80fd\u5269\u4e0b\u7684\u6700\u5c0f\u957f\u5ea6\u662f\u591a\u5c11\uff1f\u8bf7\u4f60\u5e2e\u4ed6\u8ba1\u7b97\u8fd9\u4e2a\u6570\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2 \\cdot 10^{5}$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u3001\u53ea\u7531 0 \u548c 1 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002","formatO":"\u8f93\u51fa\u7ecf\u8fc7\u82e5\u5e72\u6b21\u4e0a\u8ff0\u64cd\u4f5c\u540e\uff0c\u5b57\u7b26\u4e32\u53ef\u80fd\u5269\u4e0b\u7684\u6700\u5c0f\u957f\u5ea6\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8fd9\u6837\u6539\u53d8\u5b57\u7b26\u4e32\uff1a![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/e043b6ec2c3e4a6d1dc601a796867b6d8b674d68.png)\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8fd9\u6837\u6539\u53d8\u5b57\u7b26\u4e32\uff1a![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/30be4362dc7c1bb4a027298eec85cb98382f032a.png)\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u8fd9\u6837\u6539\u53d8\u5b57\u7b26\u4e32\uff1a![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF556A\/0236dc192d0b4a8b370a137592d21fbb4adabaef.png)\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF556A Case of the Zeros and Ones","type":2,"slug":"CF556A","color":"orange-3"},"discussions":[{"id":45515,"title":"CF556A\u7ffb\u8bd1","author":{"uid":90444,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/90444.png","name":"HNYLMS_MuQiuFeng","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1528792865}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330792.732679,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF556A Case of the Zeros and Ones","description":"Android \u4fa6\u63a2 Andrewid \u662f\u4e00\u4e2a\u95fb\u540d\u94f6\u6cb3\u7684\u4fa6\u63a2\u3002\u4ed6\u5728\u7a7a\u95f2\u65f6\u95f4\u559c\u6b22\u601d\u8003\u53ea\u5305\u542b 0 \u548c 1 \u7684\u5b57\u7b26\u4e32\u3002\n\u6709\u4e00\u6b21\u4ed6\u8003\u8651\u4e00\u4e2a\u957f\u5ea6\u4e3a n\u3001\u4ec5\u5305\u542b 0 \u548c 1 \u7684\u5b57\u7b26\u4e32\u3002\u6211\u4eec\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4efb\u610f\u4e24\u4e2a\u76f8\u90bb\u7684\u4f4d\u7f6e\uff0c\u5982\u679c\u5176\u4e2d\u4e00\u4e2a\u4e3a 0\uff0c\u53e6\u4e00\u4e2a\u4e3a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF556A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF556A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF556A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF556A Case of the Zeros and Ones" />
+    <meta property="og:description" content="Android 侦探 Andrewid 是一个闻名银河的侦探。他在空闲时间喜欢思考只包含 0 和 1 的字符串。
+有一次他考虑一个长度为 n、仅包含 0 和 1 的字符串。我们可以进行如下操作：选择任意两个相邻的位置，如果其中一个为 0，另一个为…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF556A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF556A Case of the Zeros and Ones</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Android 侦探 Andrewid 是一个闻名银河的侦探。他在空闲时间喜欢思考只包含 0 和 1 的字符串。
+
+有一次他考虑一个长度为 $n$、仅包含 0 和 1 的字符串。我们可以进行如下操作：选择任意两个相邻的位置，如果其中一个为 0，另一个为 1，则可以将这两个数字从字符串中删除，得到一个长度为 $n-2$ 的新字符串。
+
+现在 Andrewid 想知道，经过若干次上述操作（可以一次也不操作），该字符串可能剩下的最小长度是多少？请你帮他计算这个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$（$1 \leq n \leq 2 \cdot 10^{5}$），表示字符串的长度。
+
+第二行包含一个长度为 $n$ 的、只由 0 和 1 组成的字符串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出经过若干次上述操作后，字符串可能剩下的最小长度。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，可以这样改变字符串：![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF556A/e043b6ec2c3e4a6d1dc601a796867b6d8b674d68.png)。
+
+在第二个样例中，可以这样改变字符串：![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF556A/30be4362dc7c1bb4a027298eec85cb98382f032a.png)。
+
+在第三个样例中，可以这样改变字符串：![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF556A/0236dc192d0b4a8b370a137592d21fbb4adabaef.png)。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

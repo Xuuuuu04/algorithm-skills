@@ -1,0 +1,36 @@
+{
+  "id": "CF-2173C",
+  "contest_id": 2173,
+  "index": "C",
+  "name": "Kanade's Perfect Multiples",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "number theory"
+  ],
+  "solved_count": 11627,
+  "problem_url": "https://codeforces.com/problemset/problem/2173/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2173/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2173/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2173C%20Kanade%27s%20Perfect%20Multiples%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2173C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Kanade's Perfect Multiples - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "number theory",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

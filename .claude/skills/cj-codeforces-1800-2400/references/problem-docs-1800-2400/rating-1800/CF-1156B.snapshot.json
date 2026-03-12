@@ -1,0 +1,40 @@
+{
+  "id": "CF-1156B",
+  "contest_id": 1156,
+  "index": "B",
+  "name": "Ugly Pairs",
+  "rating": 1800,
+  "tags": [
+    "dfs and similar",
+    "greedy",
+    "implementation",
+    "sortings",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1156/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1156/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1156/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1156B%20Ugly Pairs%20tutorial",
+  "solved_count": 6543,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1156B",
+  "hydro_meta": {
+    "page_title": "Ugly Pairs - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "greedy",
+      "implementation",
+      "sortings",
+      "strings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

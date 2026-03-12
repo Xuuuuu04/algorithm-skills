@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415131:9/KlDoxIFEo27lca3Z/0zIUUHiWBlntj/O14A7ZdFp8=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1249C1 Good Numbers (easy version) - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1249C1","type":"CF","title":"Good Numbers (easy version)","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":283,"totalAccepted":210,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Good Numbers (easy version)","background":"","description":"\u7b80\u5355\u96be\u5ea6\u4e0e\u56f0\u96be\u96be\u5ea6\u7684\u552f\u4e00\u5dee\u522b\u662f$n$\u7684\u53d6\u503c\u8303\u56f4\n\n\u73b0\u5728\u7ed9\u51fa\u4e00\u4e2a\u5b9a\u4e49\uff1aGood Number\uff08\u4e0b\u6587\u4ee5\u597d\u6570\u4ee3\u66ff\uff09\uff0c\u597d\u6570\u662f\u6307\u53ef\u4ee5\u53d8\u6210$3$\u7684**\u4e0d\u540c**\u6b21\u5e42\u7684\u52a0\u548c\u7684\u6570\n\n\u4f8b\u5982\uff1a\n\n$30$ \u662f\u597d\u6570 $30=3^3+3^1$\n\n$1$ \u662f\u597d\u6570 $1=3^0$\n\n$12$ \u662f\u597d\u6570 $12=3^2+3^1$\n\n$2$ \u4e0d\u662f\u597d\u6570\uff0c\u56e0\u4e3a$2=3^0+3^0$\uff0c\u4e0d\u7b26\u5408\u4e0d\u540c\u6b21\u5e42\u7684\u6761\u4ef6\n\n$19$ \u4e0d\u662f\u597d\u6570\uff0c\u4f8b\u5982$19=3^2+3^2+3^0=3^2+3^1+3^1+3^1+3^0$\uff0c\u4e0d\u7b26\u5408\u4e0d\u540c\u6b21\u5e42\u7684\u6761\u4ef6\n\n$20$\u4e0d\u662f\u597d\u6570\uff0c\u540c\u7406\u4e0d\u7b26\u5408\u4e0d\u540c\u6b21\u5e42\u7684\u6761\u4ef6\uff0c\u65e0\u6cd5\u628a$20$\u5206\u4e3a$3$\u7684\u4e0d\u540c\u6b21\u5e42\u7684\u52a0\u548c\n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e9b\u6b63\u6574\u6570$n$\uff0c\u5bf9\u4e8e\u6bcf\u4e2a$n$\u8bf7\u4f60\u7ed9\u51fa\u4e00\u4e2a\u6700\u5c0f\u7684$m$\u6ee1\u8db3\uff1a\u2460$m$\u662f\u597d\u6570 \u2461$n\u2264m$","formatI":"\u8f93\u5165\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6b63\u6574\u6570$q(1\u2264q\u2264500)$\uff0c\u8868\u793a\u6709$q$\u4e2a\u6837\u4f8b\n\n\u7136\u540e\u6709$q$\u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6b63\u6574\u6570$n(1\u2264n\u226410^4)$","formatO":"\u5bf9\u4e8e\u6bcf\u4e2annn\uff0c\u8f93\u51fa\u6700\u5c0f\u7684$m$\u6ee1\u8db3\uff1a\u2460$m$\u662f\u597d\u6570 \u2461$n\u2264m$\u3002\u6bcf\u4e2a\u8f93\u51fa\u5360\u4e00\u884c","hint":"","locale":"zh-CN"},"content":{"name":"Good Numbers (easy version)","background":"","description":"The only difference between easy and hard versions is the maximum value of $ n $ .\n\nYou are given a positive integer number $ n $ . You really love good numbers so you want to find the smallest good number greater than or equal to $ n $ .\n\nThe positive integer is called good if it can be represented as a sum of distinct powers of $ 3 $ (i.e. no duplicates of powers of $ 3 $ are allowed).\n\nFor example:\n\n- $ 30 $ is a good number: $ 30 = 3^3 + 3^1 $ ,\n- $ 1 $ is a good number: $ 1 = 3^0 $ ,\n- $ 12 $ is a good number: $ 12 = 3^2 + 3^1 $ ,\n- but $ 2 $ is not a good number: you can\u0027t represent it as a sum of distinct powers of $ 3 $ ( $ 2 = 3^0 + 3^0 $ ),\n- $ 19 $ is not a good number: you can\u0027t represent it as a sum of distinct powers of $ 3 $ (for example, the representations $ 19 = 3^2 + 3^2 + 3^0 = 3^2 + 3^1 + 3^1 + 3^1 + 3^0 $ are invalid),\n- $ 20 $ is also not a good number: you can\u0027t represent it as a sum of distinct powers of $ 3 $ (for example, the representation $ 20 = 3^2 + 3^2 + 3^0 + 3^0 $ is invalid).\n\nNote, that there exist other representations of $ 19 $ and $ 20 $ as sums of powers of $ 3 $ but none of them consists of distinct powers of $ 3 $ .\n\nFor the given positive integer $ n $ find such smallest $ m $ ( $ n \\le m $ ) that $ m $ is a good number.\n\nYou have to answer $ q $ independent queries.","formatI":"The first line of the input contains one integer $ q $ ( $ 1 \\le q \\le 500 $ ) \u2014 the number of queries. Then $ q $ queries follow.\n\nThe only line of the query contains one integer $ n $ ( $ 1 \\le n \\le 10^4 $ ).","formatO":"For each query, print such smallest integer $ m $ (where $ n \\le m $ ) that $ m $ is a good number.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\n1\n2\n6\n13\n14\n3620\n10000\n","1\n3\n9\n13\n27\n6561\n19683\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1249C1","link":"https:\/\/codeforces.com\/problemset\/problem\/1249\/C1"},"translation":"\u7b80\u5355\u96be\u5ea6\u4e0e\u56f0\u96be\u96be\u5ea6\u7684\u552f\u4e00\u5dee\u522b\u662f$n$\u7684\u53d6\u503c\u8303\u56f4\n\n\u73b0\u5728\u7ed9\u51fa\u4e00\u4e2a\u5b9a\u4e49\uff1aGood Number\uff08\u4e0b\u6587\u4ee5\u597d\u6570\u4ee3\u66ff\uff09\uff0c\u597d\u6570\u662f\u6307\u53ef\u4ee5\u53d8\u6210$3$\u7684**\u4e0d\u540c**\u6b21\u5e42\u7684\u52a0\u548c\u7684\u6570\n\n\u4f8b\u5982\uff1a\n\n$30$ \u662f\u597d\u6570 $30=3^3+3^1$\n\n$1$ \u662f\u597d\u6570 $1=3^0$\n\n$12$ \u662f\u597d\u6570 $12=3^2+3^1$\n\n$2$ \u4e0d\u662f\u597d\u6570\uff0c\u56e0\u4e3a$2=3^0+3^0$\uff0c\u4e0d\u7b26\u5408\u4e0d\u540c\u6b21\u5e42\u7684\u6761\u4ef6\n\n$19$ \u4e0d\u662f\u597d\u6570\uff0c\u4f8b\u5982$19=3^2+3^2+3^0=3^2+3^1+3^1+3^1+3^0$\uff0c\u4e0d\u7b26\u5408\u4e0d\u540c\u6b21\u5e42\u7684\u6761\u4ef6\n\n$20$\u4e0d\u662f\u597d\u6570\uff0c\u540c\u7406\u4e0d\u7b26\u5408\u4e0d\u540c\u6b21\u5e42\u7684\u6761\u4ef6\uff0c\u65e0\u6cd5\u628a$20$\u5206\u4e3a$3$\u7684\u4e0d\u540c\u6b21\u5e42\u7684\u52a0\u548c\n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e9b\u6b63\u6574\u6570$n$\uff0c\u5bf9\u4e8e\u6bcf\u4e2a$n$\u8bf7\u4f60\u7ed9\u51fa\u4e00\u4e2a\u6700\u5c0f\u7684$m$\u6ee1\u8db3\uff1a\u2460$m$\u662f\u597d\u6570 \u2461$n\u2264m$\n\n### \u8f93\u5165\u683c\u5f0f\n\u8f93\u5165\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6b63\u6574\u6570$q(1\u2264q\u2264500)$\uff0c\u8868\u793a\u6709$q$\u4e2a\u6837\u4f8b\n\n\u7136\u540e\u6709$q$\u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6b63\u6574\u6570$n(1\u2264n\u226410^4)$\n### \u8f93\u51fa\u683c\u5f0f\n\u5bf9\u4e8e\u6bcf\u4e2annn\uff0c\u8f93\u51fa\u6700\u5c0f\u7684$m$\u6ee1\u8db3\uff1a\u2460$m$\u662f\u597d\u6570 \u2461$n\u2264m$\u3002\u6bcf\u4e2a\u8f93\u51fa\u5360\u4e00\u884c"},"translations":{"en":{"name":"Good Numbers (easy version)","background":"","description":"The only difference between easy and hard versions is the maximum value of $ n $ .\n\nYou are given a positive integer number $ n $ . You really love good numbers so you want to find the smallest good number greater than or equal to $ n $ .\n\nThe positive integer is called good if it can be represented as a sum of distinct powers of $ 3 $ (i.e. no duplicates of powers of $ 3 $ are allowed).\n\nFor example:\n\n- $ 30 $ is a good number: $ 30 = 3^3 + 3^1 $ ,\n- $ 1 $ is a good number: $ 1 = 3^0 $ ,\n- $ 12 $ is a good number: $ 12 = 3^2 + 3^1 $ ,\n- but $ 2 $ is not a good number: you can\u0027t represent it as a sum of distinct powers of $ 3 $ ( $ 2 = 3^0 + 3^0 $ ),\n- $ 19 $ is not a good number: you can\u0027t represent it as a sum of distinct powers of $ 3 $ (for example, the representations $ 19 = 3^2 + 3^2 + 3^0 = 3^2 + 3^1 + 3^1 + 3^1 + 3^0 $ are invalid),\n- $ 20 $ is also not a good number: you can\u0027t represent it as a sum of distinct powers of $ 3 $ (for example, the representation $ 20 = 3^2 + 3^2 + 3^0 + 3^0 $ is invalid).\n\nNote, that there exist other representations of $ 19 $ and $ 20 $ as sums of powers of $ 3 $ but none of them consists of distinct powers of $ 3 $ .\n\nFor the given positive integer $ n $ find such smallest $ m $ ( $ n \\le m $ ) that $ m $ is a good number.\n\nYou have to answer $ q $ independent queries.","formatI":"The first line of the input contains one integer $ q $ ( $ 1 \\le q \\le 500 $ ) \u2014 the number of queries. Then $ q $ queries follow.\n\nThe only line of the query contains one integer $ n $ ( $ 1 \\le n \\le 10^4 $ ).","formatO":"For each query, print such smallest integer $ m $ (where $ n \\le m $ ) that $ m $ is a good number.","hint":"","locale":"en"},"zh-CN":{"name":"Good Numbers (easy version)","background":"","description":"\u7b80\u5355\u96be\u5ea6\u4e0e\u56f0\u96be\u96be\u5ea6\u7684\u552f\u4e00\u5dee\u522b\u662f$n$\u7684\u53d6\u503c\u8303\u56f4\n\n\u73b0\u5728\u7ed9\u51fa\u4e00\u4e2a\u5b9a\u4e49\uff1aGood Number\uff08\u4e0b\u6587\u4ee5\u597d\u6570\u4ee3\u66ff\uff09\uff0c\u597d\u6570\u662f\u6307\u53ef\u4ee5\u53d8\u6210$3$\u7684**\u4e0d\u540c**\u6b21\u5e42\u7684\u52a0\u548c\u7684\u6570\n\n\u4f8b\u5982\uff1a\n\n$30$ \u662f\u597d\u6570 $30=3^3+3^1$\n\n$1$ \u662f\u597d\u6570 $1=3^0$\n\n$12$ \u662f\u597d\u6570 $12=3^2+3^1$\n\n$2$ \u4e0d\u662f\u597d\u6570\uff0c\u56e0\u4e3a$2=3^0+3^0$\uff0c\u4e0d\u7b26\u5408\u4e0d\u540c\u6b21\u5e42\u7684\u6761\u4ef6\n\n$19$ \u4e0d\u662f\u597d\u6570\uff0c\u4f8b\u5982$19=3^2+3^2+3^0=3^2+3^1+3^1+3^1+3^0$\uff0c\u4e0d\u7b26\u5408\u4e0d\u540c\u6b21\u5e42\u7684\u6761\u4ef6\n\n$20$\u4e0d\u662f\u597d\u6570\uff0c\u540c\u7406\u4e0d\u7b26\u5408\u4e0d\u540c\u6b21\u5e42\u7684\u6761\u4ef6\uff0c\u65e0\u6cd5\u628a$20$\u5206\u4e3a$3$\u7684\u4e0d\u540c\u6b21\u5e42\u7684\u52a0\u548c\n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e9b\u6b63\u6574\u6570$n$\uff0c\u5bf9\u4e8e\u6bcf\u4e2a$n$\u8bf7\u4f60\u7ed9\u51fa\u4e00\u4e2a\u6700\u5c0f\u7684$m$\u6ee1\u8db3\uff1a\u2460$m$\u662f\u597d\u6570 \u2461$n\u2264m$","formatI":"\u8f93\u5165\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6b63\u6574\u6570$q(1\u2264q\u2264500)$\uff0c\u8868\u793a\u6709$q$\u4e2a\u6837\u4f8b\n\n\u7136\u540e\u6709$q$\u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6b63\u6574\u6570$n(1\u2264n\u226410^4)$","formatO":"\u5bf9\u4e8e\u6bcf\u4e2annn\uff0c\u8f93\u51fa\u6700\u5c0f\u7684$m$\u6ee1\u8db3\uff1a\u2460$m$\u662f\u597d\u6570 \u2461$n\u2264m$\u3002\u6bcf\u4e2a\u8f93\u51fa\u5360\u4e00\u884c","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1249C1 Good Numbers (easy version)","type":2,"slug":"CF1249C1","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328731.645819,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1249C1 Good Numbers (easy version)","description":"\u7b80\u5355\u96be\u5ea6\u4e0e\u56f0\u96be\u96be\u5ea6\u7684\u552f\u4e00\u5dee\u522b\u662fn\u7684\u53d6\u503c\u8303\u56f4\n\u73b0\u5728\u7ed9\u51fa\u4e00\u4e2a\u5b9a\u4e49\uff1aGood Number\uff08\u4e0b\u6587\u4ee5\u597d\u6570\u4ee3\u66ff\uff09\uff0c\u597d\u6570\u662f\u6307\u53ef\u4ee5\u53d8\u62103\u7684\u4e0d\u540c\u6b21\u5e42\u7684\u52a0\u548c\u7684\u6570\n\u4f8b\u5982\uff1a\n30$ \u662f\u597d\u6570 $30=3^3+3^1\n1$ \u662f\u597d\u6570 $1=3^0\n12$ \u662f\u597d\u6570 $12=3^2+3^1\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1249C1" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1249C1?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1249C1?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1249C1 Good Numbers (easy version)" />
+    <meta property="og:description" content="简单难度与困难难度的唯一差别是n的取值范围
+现在给出一个定义：Good Number（下文以好数代替），好数是指可以变成3的不同次幂的加和的数
+例如：
+30$ 是好数 $30=3^3+3^1
+1$ 是好数 $1=3^0
+12$ 是好数 $12=3^2+3^1…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1249C1" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1249C1 Good Numbers (easy version)</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    简单难度与困难难度的唯一差别是$n$的取值范围
+
+现在给出一个定义：Good Number（下文以好数代替），好数是指可以变成$3$的**不同**次幂的加和的数
+
+例如：
+
+$30$ 是好数 $30=3^3+3^1$
+
+$1$ 是好数 $1=3^0$
+
+$12$ 是好数 $12=3^2+3^1$
+
+$2$ 不是好数，因为$2=3^0+3^0$，不符合不同次幂的条件
+
+$19$ 不是好数，例如$19=3^2+3^2+3^0=3^2+3^1+3^1+3^1+3^0$，不符合不同次幂的条件
+
+$20$不是好数，同理不符合不同次幂的条件，无法把$20$分为$3$的不同次幂的加和
+
+现在给你一些正整数$n$，对于每个$n$请你给出一个最小的$m$满足：①$m$是好数 ②$n≤m$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入第一行为一个正整数$q(1≤q≤500)$，表示有$q$个样例
+
+然后有$q$行，每行一个正整数$n(1≤n≤10^4)$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个nnn，输出最小的$m$满足：①$m$是好数 ②$n≤m$。每个输出占一行
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

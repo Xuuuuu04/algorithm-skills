@@ -1,0 +1,30 @@
+{
+  "id": "CF-776D",
+  "contest_id": 776,
+  "index": "D",
+  "name": "The Door Problem",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "2-sat",
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 6085,
+  "problem_url": "https://codeforces.com/problemset/problem/776/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/776/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/776/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=776D%20The%20Door%20Problem%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF776D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF776D The Door Problem - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 271,
+    "mirror_attempt": 602,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

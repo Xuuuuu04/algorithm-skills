@@ -1,0 +1,33 @@
+{
+  "id": "CF-507D",
+  "contest_id": 507,
+  "index": "D",
+  "name": "The Maths Lecture",
+  "rating": 2200,
+  "tags": [
+    "dp",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/507/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/507/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/507/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=507D%20The Maths Lecture%20tutorial",
+  "solved_count": 2096,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P507D",
+  "hydro_meta": {
+    "page_title": "The Maths Lecture - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "implementation",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

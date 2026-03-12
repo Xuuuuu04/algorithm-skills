@@ -1,0 +1,27 @@
+{
+  "id": "CF-834A",
+  "contest_id": 834,
+  "index": "A",
+  "name": "The Useless Toy",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 9043,
+  "problem_url": "https://codeforces.com/problemset/problem/834/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/834/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/834/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=834A%20The%20Useless%20Toy%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/834/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 834A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

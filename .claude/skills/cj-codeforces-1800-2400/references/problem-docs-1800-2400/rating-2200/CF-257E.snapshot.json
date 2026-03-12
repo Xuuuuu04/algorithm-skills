@@ -1,0 +1,33 @@
+{
+  "id": "CF-257E",
+  "contest_id": 257,
+  "index": "E",
+  "name": "Greedy Elevator",
+  "rating": 2200,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/257/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/257/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/257/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=257E%20Greedy Elevator%20tutorial",
+  "solved_count": 339,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P257E",
+  "hydro_meta": {
+    "page_title": "Greedy Elevator - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "implementation",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

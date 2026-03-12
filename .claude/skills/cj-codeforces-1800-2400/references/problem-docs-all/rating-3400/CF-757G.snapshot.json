@@ -1,0 +1,36 @@
+{
+  "id": "CF-757G",
+  "contest_id": 757,
+  "index": "G",
+  "name": "Can Bash Save the Day?",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 625,
+  "problem_url": "https://codeforces.com/problemset/problem/757/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/757/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/757/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=757G%20Can%20Bash%20Save%20the%20Day%3F%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P757G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Can Bash Save the Day? - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "divide and conquer",
+      "graphs",
+      "trees",
+      "*3400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "768MiB"
+  }
+}

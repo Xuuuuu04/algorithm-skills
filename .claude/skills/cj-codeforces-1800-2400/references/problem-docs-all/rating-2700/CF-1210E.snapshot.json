@@ -1,0 +1,27 @@
+{
+  "id": "CF-1210E",
+  "contest_id": 1210,
+  "index": "E",
+  "name": "Wojtek and Card Tricks",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 432,
+  "problem_url": "https://codeforces.com/problemset/problem/1210/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1210/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1210/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1210E%20Wojtek%20and%20Card%20Tricks%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1210E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1210E Wojtek and Card Tricks - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

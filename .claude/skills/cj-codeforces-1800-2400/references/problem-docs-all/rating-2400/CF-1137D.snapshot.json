@@ -1,0 +1,29 @@
+{
+  "id": "CF-1137D",
+  "contest_id": 1137,
+  "index": "D",
+  "name": "Cooperative Game",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "constructive algorithms",
+    "interactive",
+    "number theory"
+  ],
+  "solved_count": 2102,
+  "problem_url": "https://codeforces.com/problemset/problem/1137/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1137/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1137/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1137D%20Cooperative%20Game%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1137/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1137D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

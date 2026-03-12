@@ -1,0 +1,38 @@
+{
+  "id": "CF-711D",
+  "contest_id": 711,
+  "index": "D",
+  "name": "Directed Roads",
+  "rating": 1900,
+  "tags": [
+    "combinatorics",
+    "dfs and similar",
+    "graphs",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/711/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/711/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/711/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=711D%20Directed Roads%20tutorial",
+  "solved_count": 4918,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P711D",
+  "hydro_meta": {
+    "page_title": "Directed Roads - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dfs and similar",
+      "graphs",
+      "math",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

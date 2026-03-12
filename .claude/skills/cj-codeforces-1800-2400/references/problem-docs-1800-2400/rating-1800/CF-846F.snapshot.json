@@ -1,0 +1,38 @@
+{
+  "id": "CF-846F",
+  "contest_id": 846,
+  "index": "F",
+  "name": "Random Query",
+  "rating": 1800,
+  "tags": [
+    "data structures",
+    "math",
+    "probabilities",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/846/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/846/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/846/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=846F%20Random Query%20tutorial",
+  "solved_count": 2626,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P846F",
+  "hydro_meta": {
+    "page_title": "Random Query - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "math",
+      "probabilities",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

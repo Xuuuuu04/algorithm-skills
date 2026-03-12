@@ -1,0 +1,35 @@
+{
+  "id": "CF-1971F",
+  "contest_id": 1971,
+  "index": "F",
+  "name": "Circle Perimeter",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "dfs and similar",
+    "geometry",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 12291,
+  "problem_url": "https://codeforces.com/problemset/problem/1971/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1971/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1971/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1971F%20Circle%20Perimeter%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1971F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Circle Perimeter - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "implementation"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

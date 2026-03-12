@@ -1,0 +1,33 @@
+{
+  "id": "CF-958F2",
+  "contest_id": 958,
+  "index": "F2",
+  "name": "Lightsabers (medium)",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/958/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/958/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/958/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=958F2%20Lightsabers (medium)%20tutorial",
+  "solved_count": 1430,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P958F2",
+  "hydro_meta": {
+    "page_title": "Lightsabers (medium) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

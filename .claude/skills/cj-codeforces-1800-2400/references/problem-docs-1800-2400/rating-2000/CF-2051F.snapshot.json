@@ -1,0 +1,38 @@
+{
+  "id": "CF-2051F",
+  "contest_id": 2051,
+  "index": "F",
+  "name": "Joker",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2051/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2051/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2051/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2051F%20Joker%20tutorial",
+  "solved_count": 3948,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2051F",
+  "hydro_meta": {
+    "page_title": "Joker - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

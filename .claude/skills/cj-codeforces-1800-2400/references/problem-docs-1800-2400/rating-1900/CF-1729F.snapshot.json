@@ -1,0 +1,33 @@
+{
+  "id": "CF-1729F",
+  "contest_id": 1729,
+  "index": "F",
+  "name": "Kirei and the Linear Function",
+  "rating": 1900,
+  "tags": [
+    "hashing",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1729/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1729/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1729/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1729F%20Kirei and the Linear Function%20tutorial",
+  "solved_count": 4504,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1729F",
+  "hydro_meta": {
+    "page_title": "Kirei and the Linear Function - 题目详情 - Hydro",
+    "hydro_tags": [
+      "hashing",
+      "math",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

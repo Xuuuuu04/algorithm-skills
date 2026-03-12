@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415135:sX5B3YYD5l7VhuVYZul+Fv6c2txHaLFHbvnpiocPWp0=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2072F Goodbye, Banker Life - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2072F","type":"CF","title":"Goodbye, Banker Life","difficulty":4,"tags":[253,314],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Goodbye, Banker Life","background":"","description":"\u602a\u7269\u6b63\u5728\u903c\u8fd1\u57ce\u5e02\uff0c\u4e3a\u4e86\u4fdd\u62a4\u5b83\uff0cAkito \u5fc5\u987b\u5728\u57ce\u5e02\u5468\u56f4\u521b\u5efa\u4e00\u4e2a\u9632\u62a4\u573a\u3002\u4f17\u6240\u5468\u77e5\uff0c\u9632\u62a4\u573a\u6709\u4e0d\u540c\u7684\u7b49\u7ea7\u3002Akito \u9009\u62e9\u4e86\u7b49\u7ea7\u4e3a $n$ \u7684\u9632\u62a4\u573a\u3002\u4e3a\u4e86\u6784\u5efa\u8fd9\u4e2a\u9632\u62a4\u573a\uff0c\u9700\u8981\u4e00\u4e2a\u7279\u6b8a\u5492\u8bed\uff0c\u5373\u4f1f\u5927\u9b54\u6cd5\u4e09\u89d2\uff08\u8868\u793a\u4e3a\u4e8c\u7ef4\u6570\u7ec4 $T$\uff09\u7684\u7b2c $n$ \u884c\u3002\u6211\u4eec\u5c06\u8fd9\u4e2a\u6570\u7ec4\u79f0\u4e3a $T$\u3002\n\n\u9b54\u6cd5\u4e09\u89d2\u7684\u5b9a\u4e49\u5982\u4e0b\uff1a\n\n- \u7b2c $i$ \u884c\u5305\u542b $i$ \u4e2a\u6574\u6570\u3002\n- \u7b2c\u4e00\u884c\u552f\u4e00\u7684\u6574\u6570\u662f $k$\u3002\n- \u8bbe\u7b2c $i$ \u884c\u7b2c $j$ \u4e2a\u5143\u7d20\u4e3a $T_{i,j}$\uff0c\u5219\uff1a\n\n$$\nT_{i,j} = \\begin{cases} \nT_{i-1,j-1} \\oplus T_{i-1,j}, \u0026 \\text{if } 1 \u003C j \u003C i \\\\ \nT_{i-1,j}, \u0026 \\text{if } j = 1 \\\\ \nT_{i-1,j-1}, \u0026 \\text{if } j = i \n\\end{cases}\n$$\n\n\u5176\u4e2d $a \\oplus b$ \u8868\u793a\u6574\u6570 $a$ \u548c $b$ \u7684\u6309\u4f4d\u5f02\u6216\u8fd0\u7b97\u3002\n\n\u8bf7\u5e2e\u52a9 Akito \u5728\u602a\u7269\u62b5\u8fbe\u57ce\u5e02\u524d\u627e\u5230\u8fd9\u4e2a\u65e0\u9650\u9b54\u6cd5\u4e09\u89d2\u7684\u7b2c $n$ \u884c\u6574\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\u2014\u2014\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u552f\u4e00\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$1 \\le n \\le 10^6$\uff0c$1 \\le k \u003C 2^{31}$\uff09\u2014\u2014\u5206\u522b\u8868\u793a Akito \u9700\u8981\u7684\u884c\u7d22\u5f15\u548c\u4f1f\u5927\u9b54\u6cd5\u4e09\u89d2\u7b2c\u4e00\u884c\u7684\u6574\u6570\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $10^6$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa $n$ \u4e2a\u6574\u6570\u2014\u2014\u4f1f\u5927\u9b54\u6cd5\u4e09\u89d2\u7b2c $n$ \u884c\u7684\u5143\u7d20\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u793a\u4f8b\u4e2d\uff0c\u6839\u636e\u5b9a\u4e49\uff0c\u4f1f\u5927\u9b54\u6cd5\u4e09\u89d2\u7684\u7b2c\u4e00\u884c\u4e3a $[5]$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u793a\u4f8b\u4e2d\uff0c$T_{2,1} = T_{1,1} = 10$ \u4e14 $T_{2,2} = T_{1,1} = 10$\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"},"content":{"name":"Goodbye, Banker Life","background":"","description":"Monsters are approaching the city, and to protect it, Akito must create a protective field around the city. As everyone knows, protective fields come in various levels. Akito has chosen the field of level $ n $ . To construct the field, a special phrase is required, which is the $ n $ -th row of the Great Magical Triangle, represented as a two-dimensional array. We will call this array $ T $ .\n\nThe triangle is defined as follows:\n\n- In the $ i $ -th row, there are $ i $ integers.\n- The single integer in the first row is $ k $ .\n- Let the $ j $ -th element of the $ i $ -th row be denoted as $ T_{i,j} $ . Then $ $$$T_{i,j} = \\begin{cases} T_{i-1,j-1} \\oplus T_{i-1,j}, \u0026\\textrm{if } 1 \u003C j \u003C i \\\\ T_{i-1,j}, \u0026\\textrm{if } j = 1 \\\\ T_{i-1,j-1}, \u0026\\textrm{if } j = i \\end{cases} $ $  \u003C\/li\u003E\u003C\/ul\u003E where  $ a \\\\oplus b $  is the bitwise \u003Ca href=\u0022https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#XOR\u0022\u003Eexclusive \u0022OR\u0022\u003C\/a\u003E(\u003Cspan class=\u0022tex-font-style-tt\u0022\u003EXOR\u003C\/span\u003E) of the integers  $ a $  and  $ b $ .\u003Cp\u003EHelp Akito find the integers in the  $ n$$$-th row of the infinite triangle before the monsters reach the city.","formatI":"The first line contains the integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nIn the only line of each test case, there are two integers $ n $ and $ k $ ( $ 1 \\le n \\le 10^6,\\ 1 \\le k \u003C 2^{31} $ ) \u2014 the row index that Akito needs and the integer in the first row of the Great Magical Triangle, respectively.\n\nIt is guaranteed that the sum of $ n $ across all test cases does not exceed $ 10^6 $ .","formatO":"For each test case, output $ n $ integers \u2014 the elements of the $ n $ -th row of the Great Magical Triangle.","hint":"In the first example, the first row of the Great Magical Triangle is $ [5] $ by definition.\n\nIn the second example, $ T_{2,1} = T_{1,1} = 10 $ and $ T_{2,2} = T_{1, 1} = 10 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n1 5\n2 10\n3 16\n9 1\n1 52","5\n10 10\n16 0 16\n1 0 0 0 0 0 0 0 1\n52"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"2072F","link":"https:\/\/codeforces.com\/problemset\/problem\/2072\/F"},"translation":""},"translations":{"en":{"name":"Goodbye, Banker Life","background":"","description":"Monsters are approaching the city, and to protect it, Akito must create a protective field around the city. As everyone knows, protective fields come in various levels. Akito has chosen the field of level $ n $ . To construct the field, a special phrase is required, which is the $ n $ -th row of the Great Magical Triangle, represented as a two-dimensional array. We will call this array $ T $ .\n\nThe triangle is defined as follows:\n\n- In the $ i $ -th row, there are $ i $ integers.\n- The single integer in the first row is $ k $ .\n- Let the $ j $ -th element of the $ i $ -th row be denoted as $ T_{i,j} $ . Then $ $$$T_{i,j} = \\begin{cases} T_{i-1,j-1} \\oplus T_{i-1,j}, \u0026\\textrm{if } 1 \u003C j \u003C i \\\\ T_{i-1,j}, \u0026\\textrm{if } j = 1 \\\\ T_{i-1,j-1}, \u0026\\textrm{if } j = i \\end{cases} $ $  \u003C\/li\u003E\u003C\/ul\u003E where  $ a \\\\oplus b $  is the bitwise \u003Ca href=\u0022https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#XOR\u0022\u003Eexclusive \u0022OR\u0022\u003C\/a\u003E(\u003Cspan class=\u0022tex-font-style-tt\u0022\u003EXOR\u003C\/span\u003E) of the integers  $ a $  and  $ b $ .\u003Cp\u003EHelp Akito find the integers in the  $ n$$$-th row of the infinite triangle before the monsters reach the city.","formatI":"The first line contains the integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nIn the only line of each test case, there are two integers $ n $ and $ k $ ( $ 1 \\le n \\le 10^6,\\ 1 \\le k \u003C 2^{31} $ ) \u2014 the row index that Akito needs and the integer in the first row of the Great Magical Triangle, respectively.\n\nIt is guaranteed that the sum of $ n $ across all test cases does not exceed $ 10^6 $ .","formatO":"For each test case, output $ n $ integers \u2014 the elements of the $ n $ -th row of the Great Magical Triangle.","hint":"In the first example, the first row of the Great Magical Triangle is $ [5] $ by definition.\n\nIn the second example, $ T_{2,1} = T_{1,1} = 10 $ and $ T_{2,2} = T_{1, 1} = 10 $ .","locale":"en"},"zh-CN":{"name":"Goodbye, Banker Life","background":"","description":"\u602a\u7269\u6b63\u5728\u903c\u8fd1\u57ce\u5e02\uff0c\u4e3a\u4e86\u4fdd\u62a4\u5b83\uff0cAkito \u5fc5\u987b\u5728\u57ce\u5e02\u5468\u56f4\u521b\u5efa\u4e00\u4e2a\u9632\u62a4\u573a\u3002\u4f17\u6240\u5468\u77e5\uff0c\u9632\u62a4\u573a\u6709\u4e0d\u540c\u7684\u7b49\u7ea7\u3002Akito \u9009\u62e9\u4e86\u7b49\u7ea7\u4e3a $n$ \u7684\u9632\u62a4\u573a\u3002\u4e3a\u4e86\u6784\u5efa\u8fd9\u4e2a\u9632\u62a4\u573a\uff0c\u9700\u8981\u4e00\u4e2a\u7279\u6b8a\u5492\u8bed\uff0c\u5373\u4f1f\u5927\u9b54\u6cd5\u4e09\u89d2\uff08\u8868\u793a\u4e3a\u4e8c\u7ef4\u6570\u7ec4 $T$\uff09\u7684\u7b2c $n$ \u884c\u3002\u6211\u4eec\u5c06\u8fd9\u4e2a\u6570\u7ec4\u79f0\u4e3a $T$\u3002\n\n\u9b54\u6cd5\u4e09\u89d2\u7684\u5b9a\u4e49\u5982\u4e0b\uff1a\n\n- \u7b2c $i$ \u884c\u5305\u542b $i$ \u4e2a\u6574\u6570\u3002\n- \u7b2c\u4e00\u884c\u552f\u4e00\u7684\u6574\u6570\u662f $k$\u3002\n- \u8bbe\u7b2c $i$ \u884c\u7b2c $j$ \u4e2a\u5143\u7d20\u4e3a $T_{i,j}$\uff0c\u5219\uff1a\n\n$$\nT_{i,j} = \\begin{cases} \nT_{i-1,j-1} \\oplus T_{i-1,j}, \u0026 \\text{if } 1 \u003C j \u003C i \\\\ \nT_{i-1,j}, \u0026 \\text{if } j = 1 \\\\ \nT_{i-1,j-1}, \u0026 \\text{if } j = i \n\\end{cases}\n$$\n\n\u5176\u4e2d $a \\oplus b$ \u8868\u793a\u6574\u6570 $a$ \u548c $b$ \u7684\u6309\u4f4d\u5f02\u6216\u8fd0\u7b97\u3002\n\n\u8bf7\u5e2e\u52a9 Akito \u5728\u602a\u7269\u62b5\u8fbe\u57ce\u5e02\u524d\u627e\u5230\u8fd9\u4e2a\u65e0\u9650\u9b54\u6cd5\u4e09\u89d2\u7684\u7b2c $n$ \u884c\u6574\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\u2014\u2014\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u552f\u4e00\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$1 \\le n \\le 10^6$\uff0c$1 \\le k \u003C 2^{31}$\uff09\u2014\u2014\u5206\u522b\u8868\u793a Akito \u9700\u8981\u7684\u884c\u7d22\u5f15\u548c\u4f1f\u5927\u9b54\u6cd5\u4e09\u89d2\u7b2c\u4e00\u884c\u7684\u6574\u6570\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $10^6$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa $n$ \u4e2a\u6574\u6570\u2014\u2014\u4f1f\u5927\u9b54\u6cd5\u4e09\u89d2\u7b2c $n$ \u884c\u7684\u5143\u7d20\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u793a\u4f8b\u4e2d\uff0c\u6839\u636e\u5b9a\u4e49\uff0c\u4f1f\u5927\u9b54\u6cd5\u4e09\u89d2\u7684\u7b2c\u4e00\u884c\u4e3a $[5]$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u793a\u4f8b\u4e2d\uff0c$T_{2,1} = T_{1,1} = 10$ \u4e14 $T_{2,2} = T_{1,1} = 10$\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2072F Goodbye, Banker Life","type":2,"slug":"CF2072F","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328735.329427,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2072F Goodbye, Banker Life","description":"\u602a\u7269\u6b63\u5728\u903c\u8fd1\u57ce\u5e02\uff0c\u4e3a\u4e86\u4fdd\u62a4\u5b83\uff0cAkito \u5fc5\u987b\u5728\u57ce\u5e02\u5468\u56f4\u521b\u5efa\u4e00\u4e2a\u9632\u62a4\u573a\u3002\u4f17\u6240\u5468\u77e5\uff0c\u9632\u62a4\u573a\u6709\u4e0d\u540c\u7684\u7b49\u7ea7\u3002Akito \u9009\u62e9\u4e86\u7b49\u7ea7\u4e3a n \u7684\u9632\u62a4\u573a\u3002\u4e3a\u4e86\u6784\u5efa\u8fd9\u4e2a\u9632\u62a4\u573a\uff0c\u9700\u8981\u4e00\u4e2a\u7279\u6b8a\u5492\u8bed\uff0c\u5373\u4f1f\u5927\u9b54\u6cd5\u4e09\u89d2\uff08\u8868\u793a\u4e3a\u4e8c\u7ef4\u6570\u7ec4 T\uff09\u7684\u7b2c n \u884c\u3002\u6211\u4eec\u5c06\u8fd9\u4e2a\u6570\u7ec4\u79f0\u4e3a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2072F" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2072F?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2072F?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2072F Goodbye, Banker Life" />
+    <meta property="og:description" content="怪物正在逼近城市，为了保护它，Akito 必须在城市周围创建一个防护场。众所周知，防护场有不同的等级。Akito 选择了等级为 n 的防护场。为了构建这个防护场，需要一个特殊咒语，即伟大魔法三角（表示为二维数组 T）的第 n 行。我们将这个数组称为…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2072F" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2072F Goodbye, Banker Life</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    怪物正在逼近城市，为了保护它，Akito 必须在城市周围创建一个防护场。众所周知，防护场有不同的等级。Akito 选择了等级为 $n$ 的防护场。为了构建这个防护场，需要一个特殊咒语，即伟大魔法三角（表示为二维数组 $T$）的第 $n$ 行。我们将这个数组称为 $T$。
+
+魔法三角的定义如下：
+
+- 第 $i$ 行包含 $i$ 个整数。
+- 第一行唯一的整数是 $k$。
+- 设第 $i$ 行第 $j$ 个元素为 $T_{i,j}$，则：
+
+$$
+T_{i,j} = \begin{cases} 
+T_{i-1,j-1} \oplus T_{i-1,j}, & \text{if } 1 < j < i \\ 
+T_{i-1,j}, & \text{if } j = 1 \\ 
+T_{i-1,j-1}, & \text{if } j = i 
+\end{cases}
+$$
+
+其中 $a \oplus b$ 表示整数 $a$ 和 $b$ 的按位异或运算。
+
+请帮助 Akito 在怪物抵达城市前找到这个无限魔法三角的第 $n$ 行整数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含整数 $t$（$1 \le t \le 10^4$）——测试用例的数量。
+
+每个测试用例的唯一一行包含两个整数 $n$ 和 $k$（$1 \le n \le 10^6$，$1 \le k < 2^{31}$）——分别表示 Akito 需要的行索引和伟大魔法三角第一行的整数。
+
+保证所有测试用例的 $n$ 之和不超过 $10^6$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出 $n$ 个整数——伟大魔法三角第 $n$ 行的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个示例中，根据定义，伟大魔法三角的第一行为 $[5]$。
+
+在第二个示例中，$T_{2,1} = T_{1,1} = 10$ 且 $T_{2,2} = T_{1,1} = 10$。
+
+翻译由 DeepSeek R1 完成
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "id": "CF-607B",
+  "contest_id": 607,
+  "index": "B",
+  "name": "Zuma",
+  "rating": 1900,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/607/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/607/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/607/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=607B%20Zuma%20tutorial",
+  "solved_count": 15820,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P607B",
+  "hydro_meta": {
+    "page_title": "Zuma - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*1900"
+    ],
+    "hydro_accepted": 6,
+    "hydro_attempt": 16,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

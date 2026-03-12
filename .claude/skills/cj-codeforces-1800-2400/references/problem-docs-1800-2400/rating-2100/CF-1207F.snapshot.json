@@ -1,0 +1,35 @@
+{
+  "id": "CF-1207F",
+  "contest_id": 1207,
+  "index": "F",
+  "name": "Remainder Problem",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1207/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1207/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1207/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1207F%20Remainder Problem%20tutorial",
+  "solved_count": 6646,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1207F",
+  "hydro_meta": {
+    "page_title": "Remainder Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 3,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

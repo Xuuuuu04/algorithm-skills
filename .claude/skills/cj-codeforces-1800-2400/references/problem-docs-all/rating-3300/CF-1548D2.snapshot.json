@@ -1,0 +1,35 @@
+{
+  "id": "CF-1548D2",
+  "contest_id": 1548,
+  "index": "D2",
+  "name": "Gregor and the Odd Cows (Hard)",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "geometry",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 281,
+  "problem_url": "https://codeforces.com/problemset/problem/1548/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1548/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1548/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1548D2%20Gregor%20and%20the%20Odd%20Cows%20%28Hard%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1548D2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Gregor and the Odd Cows (Hard) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "geometry",
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "6000ms",
+    "memory_limit": "256MiB"
+  }
+}

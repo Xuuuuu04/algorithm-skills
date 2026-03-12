@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415133:77WrpHPfNc3E5px/xwMen+dHnuF7f+g4qSA0C+DV6Fo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2026B Black Cells - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2026B","type":"CF","title":"Black Cells","difficulty":2,"tags":[7,45],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Black Cells","background":null,"description":"\u7ed9\u4f60\u4e00\u6761\u88ab\u5206\u6210\u82e5\u5e72\u683c\u5b50\u7684\u5e26\u5b50\uff0c\u8fd9\u4e9b\u683c\u5b50\u4ece\u5de6\u5230\u53f3\u7f16\u53f7\u4e3a $0$ \u5230 $10^{18}$\u3002\u6700\u521d\uff0c\u6240\u6709\u683c\u5b50\u90fd\u662f\u767d\u8272\u7684\u3002\n\n\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4e24\u4e2a\u767d\u8272\u683c\u5b50 $i$ \u548c $j$\uff0c\u8981\u6c42 $i \\ne j$ \u4e14 $|i - j| \\le k$\uff0c\u7136\u540e\u5c06\u5b83\u4eec\u6d82\u6210\u9ed1\u8272\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u5217\u8868 $a$\uff0c\u5176\u4e2d\u7684\u6240\u6709\u683c\u5b50\u90fd\u5fc5\u987b\u88ab\u6d82\u6210\u9ed1\u8272\u3002\u6b64\u5916\uff0c\u6700\u591a\u8fd8\u53ef\u4ee5\u6709\u4e00\u4e2a\u4e0d\u5728\u8be5\u5217\u8868\u4e2d\u7684\u683c\u5b50\u4e5f\u88ab\u6d82\u6210\u9ed1\u8272\u3002\u4f60\u7684\u4efb\u52a1\u662f\u786e\u5b9a\u6700\u5c0f\u7684 $k$ \u503c\uff0c\u4f7f\u5f97\u53ef\u4ee5\u5b8c\u6210\u4e0a\u8ff0\u8981\u6c42\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 500$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 2000$\uff09\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$0 \u003C a_i \u003C 10^{18}$\uff1b$a_i \u003C a_{i + 1}$\uff09\u3002\n\n\u8f93\u5165\u7684\u989d\u5916\u7ea6\u675f\uff1a\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2000$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u80fd\u591f\u5b8c\u6210\u8981\u6c42\u7684\u6700\u5c0f $k$ \u503c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5f53 $k=1$ \u65f6\uff0c\u53ef\u4ee5\u6d82\u9ed1\u683c\u5b50 $(1, 2)$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5f53 $k=1$ \u65f6\uff0c\u53ef\u4ee5\u6d82\u9ed1\u683c\u5b50 $(7, 8)$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5f53 $k=2$ \u65f6\uff0c\u53ef\u4ee5\u6d82\u9ed1\u683c\u5b50 $(2, 4)$ \u548c $(8, 9)$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5f53 $k=3$ \u65f6\uff0c\u53ef\u4ee5\u6d82\u9ed1\u683c\u5b50 $(0, 1)$\u3001$(5, 8)$ \u548c $(10, 13)$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Black Cells","background":"","description":"You are given a strip divided into cells, numbered from left to right from $ 0 $ to $ 10^{18} $ . Initially, all cells are white.\n\nYou can perform the following operation: choose two white cells $ i $ and $ j $ , such that $ i \\ne j $ and $ |i - j| \\le k $ , and paint them black.\n\nA list $ a $ is given. All cells from this list must be painted black. Additionally, at most one cell that is not in this list can also be painted black. Your task is to determine the minimum value of $ k $ for which this is possible.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 500 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains a single integer $ n $ ( $ 1 \\le n \\le 2000 $ ).\n\nThe second line contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ 0 \u003C a_i \u003C 10^{18} $ ; $ a_i \u003C a_{i + 1} $ ).\n\nAdditional constraint on the input: the sum of $ n $ across all test cases does not exceed $ 2000 $ .","formatO":"For each test case, print a single integer \u2014 the minimum value of $ k $ for which it is possible to paint all the given cells black.","hint":"In the first example, with $ k=1 $ , it is possible to paint the cells $ (1, 2) $ .\n\nIn the second example, with $ k=1 $ , it is possible to paint the cells $ (7, 8) $ .\n\nIn the third example, with $ k=2 $ , it is possible to paint the cells $ (2, 4) $ and $ (8, 9) $ .\n\nIn the fourth example, with $ k=3 $ , it is possible to paint the cells $ (0, 1) $ , $ (5, 8) $ and $ (10, 13) $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n2\n1 2\n1\n7\n3\n2 4 9\n5\n1 5 8 10 13","1\n1\n2\n3"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2026B","link":"https:\/\/codeforces.com\/problemset\/problem\/2026\/B"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u7531\u5355\u5143\u683c\u7ec4\u6210\u7684\u6761\u5e26\uff0c\u5355\u5143\u683c\u4ece\u5de6\u5230\u53f3\u7f16\u53f7\uff0c\u7f16\u53f7\u4ece $ 0 $ \u5230 $ 10^{18} $\u3002\u6700\u5f00\u59cb\uff0c\u6240\u6709\u5355\u5143\u683c\u90fd\u662f\u767d\u8272\u7684\u3002\n\n\u4f60\u53ef\u4ee5\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4e24\u4e2a **\u767d\u8272\u5355\u5143\u683c** $ i $ \u548c $ j $\uff0c\u6ee1\u8db3 $ i \\ne j $ \u4e14 $ |i - j| \\le k $\uff0c\u5e76\u5c06\u5b83\u4eec\u6d82\u6210\u9ed1\u8272\u3002\n\n\u540c\u65f6\u7ed9\u5b9a\u4e86\u4e00\u4e2a\u5217\u8868 $ a $\u3002\u5176\u4e2d\u5217\u8868\u4e2d\u7684\u6240\u6709\u5355\u5143\u683c\u5c06\u5fc5\u987b\u88ab\u6d82\u6210\u9ed1\u8272\u3002\u6b64\u5916\uff0c\u8fd8\u53ef\u4ee5\u5c06\u81f3\u591a\u4e00\u4e2a\u4e0d\u5728\u6b64\u5217\u8868\u4e2d\u7684\u5355\u5143\u683c\u6d82\u6210\u9ed1\u8272\u3002\u4f60\u7684\u4efb\u52a1\u662f\u786e\u5b9a\u4f7f\u5f97\u8fd9\u4e00\u5207\u80fd\u591f\u5b9e\u73b0\u7684\u6700\u5c0f $ k $ \u503c\u3002\n\n**\u8f93\u5165**\n\n\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $ t $\uff08$ 1 \\le t \\le 500 $\uff09\u2014\u2014 \u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $ n $\uff08$ 1 \\le n \\le 2000 $\uff09\u3002\n\n\u7b2c\u4e8c\u884c\u662f $ n $ \u4e2a\u6574\u6570 $ a_1, a_2, \\dots, a_n $\uff08$ 0 \u003C a_i \u003C 10^{18} $\uff1b$ a_i \u003C a_{i + 1} $\uff09\u3002\n\n\u8f93\u5165\u7684\u9644\u52a0\u7ea6\u675f\uff1a\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d\u7684 $ n $ \u603b\u548c\u4e0d\u8d85\u8fc7 $ 2000 $\u3002\n\n**\u8f93\u51fa**\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4f7f\u5f97\u6240\u6709\u7ed9\u5b9a\u5355\u5143\u683c\u90fd\u80fd\u591f\u6d82\u6210\u9ed1\u8272\u7684\u6700\u5c0f $ k $ \u503c\u3002"},"translations":{"en":{"name":"Black Cells","background":"","description":"You are given a strip divided into cells, numbered from left to right from $ 0 $ to $ 10^{18} $ . Initially, all cells are white.\n\nYou can perform the following operation: choose two white cells $ i $ and $ j $ , such that $ i \\ne j $ and $ |i - j| \\le k $ , and paint them black.\n\nA list $ a $ is given. All cells from this list must be painted black. Additionally, at most one cell that is not in this list can also be painted black. Your task is to determine the minimum value of $ k $ for which this is possible.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 500 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains a single integer $ n $ ( $ 1 \\le n \\le 2000 $ ).\n\nThe second line contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ 0 \u003C a_i \u003C 10^{18} $ ; $ a_i \u003C a_{i + 1} $ ).\n\nAdditional constraint on the input: the sum of $ n $ across all test cases does not exceed $ 2000 $ .","formatO":"For each test case, print a single integer \u2014 the minimum value of $ k $ for which it is possible to paint all the given cells black.","hint":"In the first example, with $ k=1 $ , it is possible to paint the cells $ (1, 2) $ .\n\nIn the second example, with $ k=1 $ , it is possible to paint the cells $ (7, 8) $ .\n\nIn the third example, with $ k=2 $ , it is possible to paint the cells $ (2, 4) $ and $ (8, 9) $ .\n\nIn the fourth example, with $ k=3 $ , it is possible to paint the cells $ (0, 1) $ , $ (5, 8) $ and $ (10, 13) $ .","locale":"en"},"zh-CN":{"name":"Black Cells","background":null,"description":"\u7ed9\u4f60\u4e00\u6761\u88ab\u5206\u6210\u82e5\u5e72\u683c\u5b50\u7684\u5e26\u5b50\uff0c\u8fd9\u4e9b\u683c\u5b50\u4ece\u5de6\u5230\u53f3\u7f16\u53f7\u4e3a $0$ \u5230 $10^{18}$\u3002\u6700\u521d\uff0c\u6240\u6709\u683c\u5b50\u90fd\u662f\u767d\u8272\u7684\u3002\n\n\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4e24\u4e2a\u767d\u8272\u683c\u5b50 $i$ \u548c $j$\uff0c\u8981\u6c42 $i \\ne j$ \u4e14 $|i - j| \\le k$\uff0c\u7136\u540e\u5c06\u5b83\u4eec\u6d82\u6210\u9ed1\u8272\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u5217\u8868 $a$\uff0c\u5176\u4e2d\u7684\u6240\u6709\u683c\u5b50\u90fd\u5fc5\u987b\u88ab\u6d82\u6210\u9ed1\u8272\u3002\u6b64\u5916\uff0c\u6700\u591a\u8fd8\u53ef\u4ee5\u6709\u4e00\u4e2a\u4e0d\u5728\u8be5\u5217\u8868\u4e2d\u7684\u683c\u5b50\u4e5f\u88ab\u6d82\u6210\u9ed1\u8272\u3002\u4f60\u7684\u4efb\u52a1\u662f\u786e\u5b9a\u6700\u5c0f\u7684 $k$ \u503c\uff0c\u4f7f\u5f97\u53ef\u4ee5\u5b8c\u6210\u4e0a\u8ff0\u8981\u6c42\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 500$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 2000$\uff09\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff08$0 \u003C a_i \u003C 10^{18}$\uff1b$a_i \u003C a_{i + 1}$\uff09\u3002\n\n\u8f93\u5165\u7684\u989d\u5916\u7ea6\u675f\uff1a\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2000$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u80fd\u591f\u5b8c\u6210\u8981\u6c42\u7684\u6700\u5c0f $k$ \u503c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5f53 $k=1$ \u65f6\uff0c\u53ef\u4ee5\u6d82\u9ed1\u683c\u5b50 $(1, 2)$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5f53 $k=1$ \u65f6\uff0c\u53ef\u4ee5\u6d82\u9ed1\u683c\u5b50 $(7, 8)$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5f53 $k=2$ \u65f6\uff0c\u53ef\u4ee5\u6d82\u9ed1\u683c\u5b50 $(2, 4)$ \u548c $(8, 9)$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5f53 $k=3$ \u65f6\uff0c\u53ef\u4ee5\u6d82\u9ed1\u683c\u5b50 $(0, 1)$\u3001$(5, 8)$ \u548c $(10, 13)$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2026B Black Cells","type":2,"slug":"CF2026B","color":"orange-3"},"discussions":[{"id":1010999,"title":"\u662f\u4e0d\u662f\u80fd O(n) \u505a","author":{"uid":1281794,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1281794.png","name":"postpone","slogan":"\u52a0\u8bad","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":0,"xcpcLevel":6,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/87stan4w.png"},"time":1732981627},{"id":1001358,"title":"\u8bf7\u6c42\u64a4\u4e0b\u9898\u89e3","author":{"uid":559919,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/559919.png","name":"FQR_","slogan":"\u4e0d\u62ff\u003E=9\u7ea7\u94a9\u4e0d\u6539\u4e2a\u7b7e | CF\u4e0d\u4e0aGM\u4e0d\u6539\u4e2a\u7b7e | https:\/\/fqr-qwq.cn\/","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":8,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/ee7uh8xx.png"},"time":1732191875}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328733.372481,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2026B Black Cells","description":"\u7ed9\u4f60\u4e00\u6761\u88ab\u5206\u6210\u82e5\u5e72\u683c\u5b50\u7684\u5e26\u5b50\uff0c\u8fd9\u4e9b\u683c\u5b50\u4ece\u5de6\u5230\u53f3\u7f16\u53f7\u4e3a 0 \u5230 10^{18}\u3002\u6700\u521d\uff0c\u6240\u6709\u683c\u5b50\u90fd\u662f\u767d\u8272\u7684\u3002\n\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4e24\u4e2a\u767d\u8272\u683c\u5b50 i \u548c j\uff0c\u8981\u6c42 i \\ne j \u4e14 |i - j| \\le k\uff0c\u7136\u540e\u5c06\u5b83\u4eec\u6d82\u6210\u9ed1\u8272\u3002\n\u7ed9\u5b9a\u4e00\u4e2a\u5217\u8868\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2026B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2026B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2026B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2026B Black Cells" />
+    <meta property="og:description" content="给你一条被分成若干格子的带子，这些格子从左到右编号为 0 到 10^{18}。最初，所有格子都是白色的。
+你可以进行如下操作：选择两个白色格子 i 和 j，要求 i \ne j 且 |i - j| \le k，然后将它们涂成黑色。
+给定一个列表…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2026B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2026B Black Cells</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给你一条被分成若干格子的带子，这些格子从左到右编号为 $0$ 到 $10^{18}$。最初，所有格子都是白色的。
+
+你可以进行如下操作：选择两个白色格子 $i$ 和 $j$，要求 $i \ne j$ 且 $|i - j| \le k$，然后将它们涂成黑色。
+
+给定一个列表 $a$，其中的所有格子都必须被涂成黑色。此外，最多还可以有一个不在该列表中的格子也被涂成黑色。你的任务是确定最小的 $k$ 值，使得可以完成上述要求。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 500$），表示测试用例的数量。
+
+每个测试用例的第一行包含一个整数 $n$（$1 \le n \le 2000$）。
+
+第二行包含 $n$ 个整数 $a_1, a_2, \dots, a_n$（$0 < a_i < 10^{18}$；$a_i < a_{i + 1}$）。
+
+输入的额外约束：所有测试用例中 $n$ 的总和不超过 $2000$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示能够完成要求的最小 $k$ 值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，当 $k=1$ 时，可以涂黑格子 $(1, 2)$。
+
+在第二个样例中，当 $k=1$ 时，可以涂黑格子 $(7, 8)$。
+
+在第三个样例中，当 $k=2$ 时，可以涂黑格子 $(2, 4)$ 和 $(8, 9)$。
+
+在第四个样例中，当 $k=3$ 时，可以涂黑格子 $(0, 1)$、$(5, 8)$ 和 $(10, 13)$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

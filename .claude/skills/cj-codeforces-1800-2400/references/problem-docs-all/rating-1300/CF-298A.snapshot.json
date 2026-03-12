@@ -1,0 +1,32 @@
+{
+  "id": "CF-298A",
+  "contest_id": 298,
+  "index": "A",
+  "name": "Snow Footprints",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 11603,
+  "problem_url": "https://codeforces.com/problemset/problem/298/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/298/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/298/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=298A%20Snow%20Footprints%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P298A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Snow Footprints - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

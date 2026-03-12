@@ -1,0 +1,44 @@
+{
+  "id": "CF-1801D",
+  "contest_id": 1801,
+  "index": "D",
+  "name": "The way home",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "graphs",
+    "greedy",
+    "shortest paths",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1801/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1801/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1801/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1801D%20The way home%20tutorial",
+  "solved_count": 2799,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1801D",
+  "hydro_meta": {
+    "page_title": "The way home - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "sortings"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

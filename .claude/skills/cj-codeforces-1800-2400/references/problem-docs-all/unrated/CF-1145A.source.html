@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1145A Thanos Sort - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1145A","type":"CF","title":"Thanos Sort","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":643,"totalAccepted":323,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Thanos Sort","background":"","description":"[\u706d\u9738\u6392\u5e8f](https:\/\/codegolf.stackexchange.com\/questions\/182221\/implement-the-thanos-sorting-algorithm)\u662f\u4e00\u79cd\u8d85\u7ea7\u53cd\u6d3e\u6392\u5e8f\u7b97\u6cd5\u3002\n\n\u5b83\u662f\u8fd9\u6837\u8fd0\u884c\u7684\uff1a  \n\u5bf9\u4e8e\u4e00\u4e2a\u5e8f\u5217$a$,\u6ee1\u8db3$\\forall i\u003Cj,a_i\\le a_j$\uff0c\u5c31\u505c\u6b62\u6392\u5e8f\uff1b  \n\u5426\u5219\u5220\u6389\u8fd9\u4e2a\u5e8f\u5217\u7684\u5de6\u534a\u8fb9\u6216\u53f3\u534a\u8fb9\u3002   \n\u6309\u6b64\u89c4\u5219\u91cd\u590d\u6267\u884c\uff0c\u76f4\u5230\u6ee1\u8db3\u4e0a\u8ff0\u6761\u4ef6\u3002  \n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u5e8f\u5217\uff0c\u5bf9\u5176\u8fdb\u884c\u8fd9\u79cd\u6392\u5e8f\u7b97\u6cd5\u540e\uff0c\u6700\u5927\u957f\u5ea6\u4f1a\u662f\u591a\u5c11\u5462\uff1f","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6b63\u6574\u6570$n$  \n\u4e0b\u9762\u4e00\u884c$n$\u4e2a\u6b63\u6574\u6570$a_i$\uff0c\u8868\u793a\u5e8f\u5217$a$\u7684\u7b2c$i$\u9879\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u6392\u5e8f\u540e\u5e8f\u5217$a$\u7684\u6700\u5927\u957f\u5ea6\u3002","hint":"$n\\in\\{1,2,4,8,16\\}$  \n$1\\le a_i\\le 100$","locale":"zh-CN"},"content":{"name":"Thanos Sort","background":"","description":"[Thanos sort](https:\/\/codegolf.stackexchange.com\/questions\/182221\/implement-the-thanos-sorting-algorithm) is a supervillain sorting algorithm, which works as follows: if the array is not sorted, snap your fingers\\* to remove the first or the second half of the items, and repeat the process.\n\nGiven an input array, what is the size of the longest sorted array you can obtain from it using Thanos sort?\n\n\\*Infinity Gauntlet required.","formatI":"The first line of input contains a single number $ n $ ( $ 1 \\le n \\le 16 $ ) \u2014 the size of the array. $ n $ is guaranteed to be a power of 2.\n\nThe second line of input contains $ n $ space-separated integers $ a_i $ ( $ 1 \\le a_i \\le 100 $ ) \u2014 the elements of the array.","formatO":"Return the maximal length of a sorted array you can obtain using Thanos sort. The elements of the array have to be sorted in non-decreasing order.","hint":"In the first example the array is already sorted, so no finger snaps are required.\n\nIn the second example the array actually has a subarray of 4 sorted elements, but you can not remove elements from different sides of the array in one finger snap. Each time you have to remove either the whole first half or the whole second half, so you\u0027ll have to snap your fingers twice to get to a 2-element sorted array.\n\nIn the third example the array is sorted in decreasing order, so you can only save one element from the ultimate destruction.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n1 2 2 4\n","4\n"],["8\n11 12 1 2 13 14 3 4\n","2\n"],["4\n7 6 5 4\n","1\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1145A","link":"https:\/\/codeforces.com\/problemset\/problem\/1145\/A"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n[\u706d\u9738\u6392\u5e8f](https:\/\/codegolf.stackexchange.com\/questions\/182221\/implement-the-thanos-sorting-algorithm)\u662f\u4e00\u79cd\u8d85\u7ea7\u53cd\u6d3e\u6392\u5e8f\u7b97\u6cd5\u3002\n\n\u5b83\u662f\u8fd9\u6837\u8fd0\u884c\u7684\uff1a  \n\u5bf9\u4e8e\u4e00\u4e2a\u5e8f\u5217$a$,\u6ee1\u8db3$\\forall i\u003Cj,a_i\\le a_j$\uff0c\u5c31\u505c\u6b62\u6392\u5e8f\uff1b  \n\u5426\u5219\u5220\u6389\u8fd9\u4e2a\u5e8f\u5217\u7684\u5de6\u534a\u8fb9\u6216\u53f3\u534a\u8fb9\u3002   \n\u6309\u6b64\u89c4\u5219\u91cd\u590d\u6267\u884c\uff0c\u76f4\u5230\u6ee1\u8db3\u4e0a\u8ff0\u6761\u4ef6\u3002  \n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u5e8f\u5217\uff0c\u5bf9\u5176\u8fdb\u884c\u8fd9\u79cd\u6392\u5e8f\u7b97\u6cd5\u540e\uff0c\u6700\u5927\u957f\u5ea6\u4f1a\u662f\u591a\u5c11\u5462\uff1f  \n## \u8f93\u5165\u8f93\u51fa\u683c\u5f0f  \n### \u8f93\u5165\u683c\u5f0f\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6b63\u6574\u6570$n$  \n\u4e0b\u9762\u4e00\u884c$n$\u4e2a\u6b63\u6574\u6570$a_i$\uff0c\u8868\u793a\u5e8f\u5217$a$\u7684\u7b2c$i$\u9879\u3002    \n### \u8f93\u51fa\u683c\u5f0f  \n\u8f93\u51fa\u4e00\u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u6392\u5e8f\u540e\u5e8f\u5217$a$\u7684\u6700\u5927\u957f\u5ea6\u3002\n## \u8bf4\u660e  \n### \u6570\u636e\u8303\u56f4\uff1a  \n$n\\in\\{1,2,4,8,16\\}$  \n$1\\le a_i\\le 100$"},"translations":{"en":{"name":"Thanos Sort","background":"","description":"[Thanos sort](https:\/\/codegolf.stackexchange.com\/questions\/182221\/implement-the-thanos-sorting-algorithm) is a supervillain sorting algorithm, which works as follows: if the array is not sorted, snap your fingers\\* to remove the first or the second half of the items, and repeat the process.\n\nGiven an input array, what is the size of the longest sorted array you can obtain from it using Thanos sort?\n\n\\*Infinity Gauntlet required.","formatI":"The first line of input contains a single number $ n $ ( $ 1 \\le n \\le 16 $ ) \u2014 the size of the array. $ n $ is guaranteed to be a power of 2.\n\nThe second line of input contains $ n $ space-separated integers $ a_i $ ( $ 1 \\le a_i \\le 100 $ ) \u2014 the elements of the array.","formatO":"Return the maximal length of a sorted array you can obtain using Thanos sort. The elements of the array have to be sorted in non-decreasing order.","hint":"In the first example the array is already sorted, so no finger snaps are required.\n\nIn the second example the array actually has a subarray of 4 sorted elements, but you can not remove elements from different sides of the array in one finger snap. Each time you have to remove either the whole first half or the whole second half, so you\u0027ll have to snap your fingers twice to get to a 2-element sorted array.\n\nIn the third example the array is sorted in decreasing order, so you can only save one element from the ultimate destruction.","locale":"en"},"zh-CN":{"name":"Thanos Sort","background":"","description":"[\u706d\u9738\u6392\u5e8f](https:\/\/codegolf.stackexchange.com\/questions\/182221\/implement-the-thanos-sorting-algorithm)\u662f\u4e00\u79cd\u8d85\u7ea7\u53cd\u6d3e\u6392\u5e8f\u7b97\u6cd5\u3002\n\n\u5b83\u662f\u8fd9\u6837\u8fd0\u884c\u7684\uff1a  \n\u5bf9\u4e8e\u4e00\u4e2a\u5e8f\u5217$a$,\u6ee1\u8db3$\\forall i\u003Cj,a_i\\le a_j$\uff0c\u5c31\u505c\u6b62\u6392\u5e8f\uff1b  \n\u5426\u5219\u5220\u6389\u8fd9\u4e2a\u5e8f\u5217\u7684\u5de6\u534a\u8fb9\u6216\u53f3\u534a\u8fb9\u3002   \n\u6309\u6b64\u89c4\u5219\u91cd\u590d\u6267\u884c\uff0c\u76f4\u5230\u6ee1\u8db3\u4e0a\u8ff0\u6761\u4ef6\u3002  \n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u5e8f\u5217\uff0c\u5bf9\u5176\u8fdb\u884c\u8fd9\u79cd\u6392\u5e8f\u7b97\u6cd5\u540e\uff0c\u6700\u5927\u957f\u5ea6\u4f1a\u662f\u591a\u5c11\u5462\uff1f","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6b63\u6574\u6570$n$  \n\u4e0b\u9762\u4e00\u884c$n$\u4e2a\u6b63\u6574\u6570$a_i$\uff0c\u8868\u793a\u5e8f\u5217$a$\u7684\u7b2c$i$\u9879\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u6392\u5e8f\u540e\u5e8f\u5217$a$\u7684\u6700\u5927\u957f\u5ea6\u3002","hint":"$n\\in\\{1,2,4,8,16\\}$  \n$1\\le a_i\\le 100$","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1145A Thanos Sort","type":2,"slug":"CF1145A","color":"orange-3"},"discussions":[{"id":133882,"title":"\u6c42\u52a9\u4e3a\u4ec0\u4e48RE","author":{"uid":152652,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/152652.png","name":"AndyChen2005121","slogan":"\u4f2a\u6280\u672f\u5b85\/macOS + Ubuntu\/OIer\/0.25\u4e2aLoveLiver\/\u5730\u94c1\u8ff7","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":3,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/nau23q73.png"},"time":1565438159},{"id":131570,"title":"\u600e\u4e48\u8fd9\u9898\u4ece\u7d2b\u9898\u53d8\u6210\u6a59\u9898\uff0c\u53c8\u53d8\u56de\u7d2b\u9898\u4e86\uff1f","author":{"uid":69288,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/69288.png","name":"zuytong","slogan":"\u4e14\u5c06\u65b0\u706b\u8bd5\u65b0\u8336\uff0c\u8bd7\u9152\u8d81\u5e74\u534e","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/xfx45110.png"},"time":1565047542},{"id":110314,"title":"\u95ee\u4e2a\u95ee\u9898","author":{"uid":87799,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/87799.png","name":"xh39","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1555469825},{"id":108691,"title":"Why?????????????????????????????????","author":{"uid":110663,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/110663.png","name":"fzfnf","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1554568300},{"id":108687,"title":"\u7ffb\u8bd1\u6709\u8bef\uff0c\u6b64\u5904\u63d0\u4f9b\u6b63\u786e\u7ffb\u8bd1","author":{"uid":115864,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/115864.png","name":"NaCly_Fish","slogan":"\u5317\u6d77\u867d\u8d4a\uff0c\u6276\u6447\u53ef\u63a5\u3002","badge":"\u7ed2\u5e03\u7403","isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/gc0n2r47.png"},"time":1554563795}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.25617,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1145A Thanos Sort","description":"\u706d\u9738\u6392\u5e8f\u662f\u4e00\u79cd\u8d85\u7ea7\u53cd\u6d3e\u6392\u5e8f\u7b97\u6cd5\u3002\n\u5b83\u662f\u8fd9\u6837\u8fd0\u884c\u7684\uff1a\n\u5bf9\u4e8e\u4e00\u4e2a\u5e8f\u5217a,\u6ee1\u8db3\\forall i&lt;j,a_i\\le a_j\uff0c\u5c31\u505c\u6b62\u6392\u5e8f\uff1b\n\u5426\u5219\u5220\u6389\u8fd9\u4e2a\u5e8f\u5217\u7684\u5de6\u534a\u8fb9\u6216\u53f3\u534a\u8fb9\u3002\n\u6309\u6b64\u89c4\u5219\u91cd\u590d\u6267\u884c\uff0c\u76f4\u5230\u6ee1\u8db3\u4e0a\u8ff0\u6761\u4ef6\u3002  \n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u5e8f\u5217\uff0c\u5bf9\u5176\u8fdb\u884c\u8fd9\u79cd\u6392\u5e8f\u7b97\u6cd5\u540e\uff0c\u6700\u5927\u957f\u5ea6\u4f1a\u662f\u591a\u5c11\u5462\uff1f"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1145A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1145A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1145A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1145A Thanos Sort" />
+    <meta property="og:description" content="灭霸排序是一种超级反派排序算法。
+它是这样运行的：
+对于一个序列a,满足\forall i&amp;lt;j,a_i\le a_j，就停止排序；
+否则删掉这个序列的左半边或右半边。
+按此规则重复执行，直到满足上述条件。  
+现在给你一个序列，对其进行这种排序算法后，最大长度会是多少呢？" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1145A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1145A Thanos Sort</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    [灭霸排序](https://codegolf.stackexchange.com/questions/182221/implement-the-thanos-sorting-algorithm)是一种超级反派排序算法。
+
+它是这样运行的：  
+对于一个序列$a$,满足$\forall i
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个正整数$n$  
+下面一行$n$个正整数$a_i$，表示序列$a$的第$i$项。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个正整数，表示排序后序列$a$的最大长度。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                $n\in\{1,2,4,8,16\}$  
+$1\le a_i\le 100$
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

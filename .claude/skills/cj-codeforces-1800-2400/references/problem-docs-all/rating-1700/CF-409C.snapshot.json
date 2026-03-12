@@ -1,0 +1,30 @@
+{
+  "id": "CF-409C",
+  "contest_id": 409,
+  "index": "C",
+  "name": "Magnum Opus",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 2089,
+  "problem_url": "https://codeforces.com/problemset/problem/409/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/409/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/409/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=409C%20Magnum%20Opus%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P409C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Magnum Opus - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "*1700"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

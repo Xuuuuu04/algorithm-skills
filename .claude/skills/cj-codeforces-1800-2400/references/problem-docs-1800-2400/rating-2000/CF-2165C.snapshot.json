@@ -1,0 +1,36 @@
+{
+  "id": "CF-2165C",
+  "contest_id": 2165,
+  "index": "C",
+  "name": "Binary Wine",
+  "rating": 2000,
+  "tags": [
+    "bitmasks",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2165/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2165/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2165/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2165C%20Binary Wine%20tutorial",
+  "solved_count": 3275,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2165C",
+  "hydro_meta": {
+    "page_title": "Binary Wine - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "greedy",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

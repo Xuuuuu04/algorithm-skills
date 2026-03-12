@@ -1,0 +1,36 @@
+{
+  "id": "CF-2004E",
+  "contest_id": 2004,
+  "index": "E",
+  "name": "Not a Nim Problem",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "games",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 4981,
+  "problem_url": "https://codeforces.com/problemset/problem/2004/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2004/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2004/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2004E%20Not%20a%20Nim%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2004E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Not a Nim Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "games",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

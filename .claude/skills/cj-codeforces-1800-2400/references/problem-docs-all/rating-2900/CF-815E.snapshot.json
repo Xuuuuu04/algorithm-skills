@@ -1,0 +1,34 @@
+{
+  "id": "CF-815E",
+  "contest_id": 815,
+  "index": "E",
+  "name": "Karen and Neighborhood",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 241,
+  "problem_url": "https://codeforces.com/problemset/problem/815/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/815/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/815/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=815E%20Karen%20and%20Neighborhood%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P815E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Karen and Neighborhood - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "constructive algorithms",
+      "implementation",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

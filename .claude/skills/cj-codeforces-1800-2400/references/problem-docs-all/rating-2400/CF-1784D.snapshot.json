@@ -1,0 +1,31 @@
+{
+  "id": "CF-1784D",
+  "contest_id": 1784,
+  "index": "D",
+  "name": "Wooden Spoon",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "dp"
+  ],
+  "solved_count": 1278,
+  "problem_url": "https://codeforces.com/problemset/problem/1784/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1784/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1784/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1784D%20Wooden%20Spoon%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1784D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Wooden Spoon - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

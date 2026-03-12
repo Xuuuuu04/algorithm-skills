@@ -1,0 +1,38 @@
+{
+  "id": "CF-245F",
+  "contest_id": 245,
+  "index": "F",
+  "name": "Log Stream Analysis",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/245/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/245/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/245/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=245F%20Log Stream Analysis%20tutorial",
+  "solved_count": 967,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P245F",
+  "hydro_meta": {
+    "page_title": "Log Stream Analysis - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "strings",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

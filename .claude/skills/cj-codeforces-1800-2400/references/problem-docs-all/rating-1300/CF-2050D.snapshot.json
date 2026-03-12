@@ -1,0 +1,36 @@
+{
+  "id": "CF-2050D",
+  "contest_id": 2050,
+  "index": "D",
+  "name": "Digital string maximization",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math",
+    "strings"
+  ],
+  "solved_count": 18717,
+  "problem_url": "https://codeforces.com/problemset/problem/2050/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2050/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2050/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2050D%20Digital%20string%20maximization%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2050D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Digital string maximization - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "strings",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

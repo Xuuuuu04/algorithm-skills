@@ -1,0 +1,32 @@
+{
+  "id": "CF-1909H",
+  "contest_id": 1909,
+  "index": "H",
+  "name": "Parallel Swaps Sort",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 6000.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures"
+  ],
+  "solved_count": 108,
+  "problem_url": "https://codeforces.com/problemset/problem/1909/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1909/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1909/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1909H%20Parallel%20Swaps%20Sort%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1909H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Parallel Swaps Sort - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "7000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1375E",
+  "contest_id": 1375,
+  "index": "E",
+  "name": "Inversion SwapSort",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 3357,
+  "problem_url": "https://codeforces.com/problemset/problem/1375/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1375/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1375/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1375E%20Inversion%20SwapSort%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1375E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1375E Inversion SwapSort - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 659,
+    "mirror_attempt": 1363,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

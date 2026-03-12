@@ -1,0 +1,29 @@
+{
+  "id": "CF-2008B",
+  "contest_id": 2008,
+  "index": "B",
+  "name": "Square or Not",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "math",
+    "strings"
+  ],
+  "solved_count": 32725,
+  "problem_url": "https://codeforces.com/problemset/problem/2008/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2008/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2008/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2008B%20Square%20or%20Not%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2008B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2008B Square or Not - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2071A The Play Never Ends - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2071A","type":"CF","title":"The Play Never Ends","difficulty":2,"tags":[5],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"The Play Never Ends","background":"","description":"\u6211\u4eec\u5f15\u5165\u4e00\u4e2a\u53cc\u4eba\u6e38\u620f\u2014\u2014\u4e52\u4e53\u7403\u6bd4\u8d5b\uff0c\u8be5\u6e38\u620f\u603b\u80fd\u51b3\u51fa\u80dc\u8d1f\uff0c\u4e0d\u5b58\u5728\u5e73\u5c40\u3002\n\n\u4e09\u540d\u73a9\u5bb6 Sosai\u3001Fofo \u548c Hohai \u5e0c\u671b\u4f59\u751f\u90fd\u8fdb\u884c\u4e52\u4e53\u7403\u6bd4\u8d5b\u3002\u4ed6\u4eec\u51b3\u5b9a\u6309\u7167\u4ee5\u4e0b\u89c4\u5219\u65e0\u9650\u8fdb\u884c\u6bd4\u8d5b\uff1a\n\n- \u6bcf\u573a\u6bd4\u8d5b\u4e2d\uff0c\u4e24\u540d\u73a9\u5bb6\u5bf9\u6218\uff0c\u7b2c\u4e09\u540d\u4f5c\u4e3a\u89c2\u4f17\u3002\n- \u4e3a\u786e\u4fdd\u516c\u5e73\u6027\uff0c\u4efb\u4f55\u73a9\u5bb6\u4e0d\u80fd\u8fde\u7eed\u53c2\u4e0e\u4e09\u573a\u6bd4\u8d5b\u3002\u82e5\u67d0\u73a9\u5bb6\u8fde\u7eed\u53c2\u4e0e\u4e24\u6b21\u6bd4\u8d5b\uff0c\u5219\u5fc5\u987b\u5728\u4e0b\u4e00\u573a\u6bd4\u8d5b\u4e2d\u4f5c\u4e3a\u89c2\u4f17\uff0c\u7531\u53e6\u5916\u4e24\u540d\u73a9\u5bb6\u5bf9\u6218\u3002\u5426\u5219\uff0c\u80dc\u8005\u5c06\u4e0e\u89c2\u4f17\u8fdb\u884c\u4e0b\u4e00\u573a\u6bd4\u8d5b\uff0c\u8d25\u8005\u8f6c\u4e3a\u89c2\u4f17\u3002\n\n\u73b0\u5728\uff0c\u5b8c\u5168\u6c89\u6d78\u5728\u8fd9\u79cd\u6bd4\u8d5b\u65e0\u9650\u5faa\u73af\u4e2d\u7684\u73a9\u5bb6\u4eec\u8981\u6c42\u4f60\u89e3\u51b3\u4ee5\u4e0b\u95ee\u9898\uff1a\n\n\u7ed9\u5b9a\u6574\u6570 $k$\uff0c\u5224\u65ad\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7684\u89c2\u4f17\u662f\u5426\u53ef\u80fd\u5728\u7b2c $k$ \u573a\u6bd4\u8d5b\u4e2d\u518d\u6b21\u6210\u4e3a\u89c2\u4f17\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf $t$\uff08$1 \\le t \\le 1000$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u5404\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u5305\u542b\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $k$\uff08$1 \\le k \\le 10^9$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u82e5\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7684\u89c2\u4f17\u53ef\u80fd\u5728\u7b2c $k$ \u573a\u6bd4\u8d5b\u4e2d\u6210\u4e3a\u89c2\u4f17\uff0c\u5219\u8f93\u51fa \u0022YES\u0022\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\uff0c\u5426\u5219\u8f93\u51fa \u0022NO\u0022\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\u3002\n\n\u7b54\u6848\u53ef\u4ee5\u4ee5\u4efb\u610f\u5927\u5c0f\u5199\u5f62\u5f0f\u8f93\u51fa\u3002\u4f8b\u5982\uff0c\u0022yEs\u0022\u3001\u0022yes\u0022\u3001\u0022Yes\u0022 \u548c \u0022YES\u0022 \u90fd\u4f1a\u88ab\u8bc6\u522b\u4e3a\u80af\u5b9a\u56de\u7b54\u3002","hint":"\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7684\u89c2\u4f17\u5df2\u7ecf\u5728\u7b2c $1$ \u573a\u6bd4\u8d5b\u62c5\u4efb\u89c2\u4f17\u3002\n\n\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u65e0\u8bba\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7ed3\u679c\u5982\u4f55\uff0c\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7684\u89c2\u4f17\u90fd\u5c06\u5728\u7b2c $2$ \u573a\u6bd4\u8d5b\u4e2d\u53c2\u8d5b\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"},"content":{"name":"The Play Never Ends","background":"","description":"Let\u0027s introduce a two-player game, table tennis, where a winner is always decided and draws are impossible.\n\nThree players, Sosai, Fofo, and Hohai, want to spend the rest of their lives playing table tennis. They decided to play forever in the following way:\n\n- In each match, two players compete while the third spectates.\n- To ensure fairness, no player can play three times in a row. The player who plays twice in a row must sit out as a spectator in the next match, which will be played by the other two players. Otherwise, the winner and the spectator will play in the next match, while the loser will spectate.\n\nNow, the players, fully immersed in this infinite loop of matches, have tasked you with solving the following problem:\n\nGiven an integer $ k $ , determine whether the spectator of the first match can be the spectator in the $ k $ -th match.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 1000 $ ). The description of the test cases follows.\n\nThe only line of each test case contains one integer $ k $ ( $ 1 \\le k \\le 10^9 $ ).","formatO":"For each test case, print \u0022YES\u0022 (without quotes) if the spectator of the first match can be the spectator of the $ k $ -th match, and \u0022NO\u0022 (without quotes) otherwise.\n\nYou can output the answer in any case (upper or lower). For example, the strings \u0022yEs\u0022, \u0022yes\u0022, \u0022Yes\u0022, and \u0022YES\u0022 will be recognized as positive responses.","hint":"In the first test case, the spectator of the first match is already a spectator in the $ 1 $ st match.\n\nIn the second test case, the spectator of the first match will play in the $ 2 $ nd match regardless of the result of the first match.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n1\n2\n333\n1000000000","YES\nNO\nNO\nYES"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2071A","link":"https:\/\/codeforces.com\/problemset\/problem\/2071\/A"},"translation":""},"translations":{"en":{"name":"The Play Never Ends","background":"","description":"Let\u0027s introduce a two-player game, table tennis, where a winner is always decided and draws are impossible.\n\nThree players, Sosai, Fofo, and Hohai, want to spend the rest of their lives playing table tennis. They decided to play forever in the following way:\n\n- In each match, two players compete while the third spectates.\n- To ensure fairness, no player can play three times in a row. The player who plays twice in a row must sit out as a spectator in the next match, which will be played by the other two players. Otherwise, the winner and the spectator will play in the next match, while the loser will spectate.\n\nNow, the players, fully immersed in this infinite loop of matches, have tasked you with solving the following problem:\n\nGiven an integer $ k $ , determine whether the spectator of the first match can be the spectator in the $ k $ -th match.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 1000 $ ). The description of the test cases follows.\n\nThe only line of each test case contains one integer $ k $ ( $ 1 \\le k \\le 10^9 $ ).","formatO":"For each test case, print \u0022YES\u0022 (without quotes) if the spectator of the first match can be the spectator of the $ k $ -th match, and \u0022NO\u0022 (without quotes) otherwise.\n\nYou can output the answer in any case (upper or lower). For example, the strings \u0022yEs\u0022, \u0022yes\u0022, \u0022Yes\u0022, and \u0022YES\u0022 will be recognized as positive responses.","hint":"In the first test case, the spectator of the first match is already a spectator in the $ 1 $ st match.\n\nIn the second test case, the spectator of the first match will play in the $ 2 $ nd match regardless of the result of the first match.","locale":"en"},"zh-CN":{"name":"The Play Never Ends","background":"","description":"\u6211\u4eec\u5f15\u5165\u4e00\u4e2a\u53cc\u4eba\u6e38\u620f\u2014\u2014\u4e52\u4e53\u7403\u6bd4\u8d5b\uff0c\u8be5\u6e38\u620f\u603b\u80fd\u51b3\u51fa\u80dc\u8d1f\uff0c\u4e0d\u5b58\u5728\u5e73\u5c40\u3002\n\n\u4e09\u540d\u73a9\u5bb6 Sosai\u3001Fofo \u548c Hohai \u5e0c\u671b\u4f59\u751f\u90fd\u8fdb\u884c\u4e52\u4e53\u7403\u6bd4\u8d5b\u3002\u4ed6\u4eec\u51b3\u5b9a\u6309\u7167\u4ee5\u4e0b\u89c4\u5219\u65e0\u9650\u8fdb\u884c\u6bd4\u8d5b\uff1a\n\n- \u6bcf\u573a\u6bd4\u8d5b\u4e2d\uff0c\u4e24\u540d\u73a9\u5bb6\u5bf9\u6218\uff0c\u7b2c\u4e09\u540d\u4f5c\u4e3a\u89c2\u4f17\u3002\n- \u4e3a\u786e\u4fdd\u516c\u5e73\u6027\uff0c\u4efb\u4f55\u73a9\u5bb6\u4e0d\u80fd\u8fde\u7eed\u53c2\u4e0e\u4e09\u573a\u6bd4\u8d5b\u3002\u82e5\u67d0\u73a9\u5bb6\u8fde\u7eed\u53c2\u4e0e\u4e24\u6b21\u6bd4\u8d5b\uff0c\u5219\u5fc5\u987b\u5728\u4e0b\u4e00\u573a\u6bd4\u8d5b\u4e2d\u4f5c\u4e3a\u89c2\u4f17\uff0c\u7531\u53e6\u5916\u4e24\u540d\u73a9\u5bb6\u5bf9\u6218\u3002\u5426\u5219\uff0c\u80dc\u8005\u5c06\u4e0e\u89c2\u4f17\u8fdb\u884c\u4e0b\u4e00\u573a\u6bd4\u8d5b\uff0c\u8d25\u8005\u8f6c\u4e3a\u89c2\u4f17\u3002\n\n\u73b0\u5728\uff0c\u5b8c\u5168\u6c89\u6d78\u5728\u8fd9\u79cd\u6bd4\u8d5b\u65e0\u9650\u5faa\u73af\u4e2d\u7684\u73a9\u5bb6\u4eec\u8981\u6c42\u4f60\u89e3\u51b3\u4ee5\u4e0b\u95ee\u9898\uff1a\n\n\u7ed9\u5b9a\u6574\u6570 $k$\uff0c\u5224\u65ad\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7684\u89c2\u4f17\u662f\u5426\u53ef\u80fd\u5728\u7b2c $k$ \u573a\u6bd4\u8d5b\u4e2d\u518d\u6b21\u6210\u4e3a\u89c2\u4f17\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf $t$\uff08$1 \\le t \\le 1000$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u5404\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u5305\u542b\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $k$\uff08$1 \\le k \\le 10^9$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u82e5\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7684\u89c2\u4f17\u53ef\u80fd\u5728\u7b2c $k$ \u573a\u6bd4\u8d5b\u4e2d\u6210\u4e3a\u89c2\u4f17\uff0c\u5219\u8f93\u51fa \u0022YES\u0022\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\uff0c\u5426\u5219\u8f93\u51fa \u0022NO\u0022\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\u3002\n\n\u7b54\u6848\u53ef\u4ee5\u4ee5\u4efb\u610f\u5927\u5c0f\u5199\u5f62\u5f0f\u8f93\u51fa\u3002\u4f8b\u5982\uff0c\u0022yEs\u0022\u3001\u0022yes\u0022\u3001\u0022Yes\u0022 \u548c \u0022YES\u0022 \u90fd\u4f1a\u88ab\u8bc6\u522b\u4e3a\u80af\u5b9a\u56de\u7b54\u3002","hint":"\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7684\u89c2\u4f17\u5df2\u7ecf\u5728\u7b2c $1$ \u573a\u6bd4\u8d5b\u62c5\u4efb\u89c2\u4f17\u3002\n\n\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u65e0\u8bba\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7ed3\u679c\u5982\u4f55\uff0c\u7b2c\u4e00\u573a\u6bd4\u8d5b\u7684\u89c2\u4f17\u90fd\u5c06\u5728\u7b2c $2$ \u573a\u6bd4\u8d5b\u4e2d\u53c2\u8d5b\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2071A The Play Never Ends","type":2,"slug":"CF2071A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.44167,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2071A The Play Never Ends","description":"\u6211\u4eec\u5f15\u5165\u4e00\u4e2a\u53cc\u4eba\u6e38\u620f\u2014\u2014\u4e52\u4e53\u7403\u6bd4\u8d5b\uff0c\u8be5\u6e38\u620f\u603b\u80fd\u51b3\u51fa\u80dc\u8d1f\uff0c\u4e0d\u5b58\u5728\u5e73\u5c40\u3002\n\u4e09\u540d\u73a9\u5bb6 Sosai\u3001Fofo \u548c Hohai \u5e0c\u671b\u4f59\u751f\u90fd\u8fdb\u884c\u4e52\u4e53\u7403\u6bd4\u8d5b\u3002\u4ed6\u4eec\u51b3\u5b9a\u6309\u7167\u4ee5\u4e0b\u89c4\u5219\u65e0\u9650\u8fdb\u884c\u6bd4\u8d5b\uff1a\n\n\u6bcf\u573a\u6bd4\u8d5b\u4e2d\uff0c\u4e24\u540d\u73a9\u5bb6\u5bf9\u6218\uff0c\u7b2c\u4e09\u540d\u4f5c\u4e3a\u89c2\u4f17\u3002\n\u4e3a\u786e\u4fdd\u516c\u5e73\u6027\uff0c\u4efb\u4f55\u73a9\u5bb6\u4e0d\u80fd\u8fde\u7eed\u53c2\u4e0e\u4e09\u573a\u6bd4\u8d5b\u3002\u82e5\u67d0\u73a9\u5bb6\u8fde\u7eed\u53c2\u4e0e\u4e24\u6b21\u6bd4\u8d5b\uff0c\u5219\u5fc5\u987b\u5728\u4e0b\u4e00\u573a\u6bd4\u8d5b\u4e2d\u4f5c\u4e3a\u89c2\u4f17\uff0c\u7531\u53e6\u5916\u4e24\u540d\u73a9\u5bb6\u5bf9\u6218\u3002\u5426\u5219\uff0c\u80dc\u8005\u5c06\u4e0e\u89c2\u4f17\u8fdb\u884c\u4e0b\u4e00\u573a\u6bd4\u8d5b\uff0c\u8d25\u8005\u8f6c\u4e3a\u89c2\u4f17\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2071A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2071A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2071A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2071A The Play Never Ends" />
+    <meta property="og:description" content="我们引入一个双人游戏——乒乓球比赛，该游戏总能决出胜负，不存在平局。
+三名玩家 Sosai、Fofo 和 Hohai 希望余生都进行乒乓球比赛。他们决定按照以下规则无限进行比赛：
+
+每场比赛中，两名玩家对战，第三名作为观众。
+为确保公平性，任何玩家不能连续参与三场比赛。若某玩家连续参与两次比赛，则必须在下一场比赛中作为观众，由另外两名玩家对战。否则，胜者将与观众进行下一场比赛，败者转为观众。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2071A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2071A The Play Never Ends</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    我们引入一个双人游戏——乒乓球比赛，该游戏总能决出胜负，不存在平局。
+
+三名玩家 Sosai、Fofo 和 Hohai 希望余生都进行乒乓球比赛。他们决定按照以下规则无限进行比赛：
+
+- 每场比赛中，两名玩家对战，第三名作为观众。
+- 为确保公平性，任何玩家不能连续参与三场比赛。若某玩家连续参与两次比赛，则必须在下一场比赛中作为观众，由另外两名玩家对战。否则，胜者将与观众进行下一场比赛，败者转为观众。
+
+现在，完全沉浸在这种比赛无限循环中的玩家们要求你解决以下问题：
+
+给定整数 $k$，判断第一场比赛的观众是否可能在第 $k$ 场比赛中再次成为观众。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试包含多个测试用例。第一行包含测试用例数量 $t$（$1 \le t \le 1000$）。接下来是各个测试用例的描述。
+
+每个测试用例仅包含一行，包含一个整数 $k$（$1 \le k \le 10^9$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，若第一场比赛的观众可能在第 $k$ 场比赛中成为观众，则输出 "YES"（不带引号），否则输出 "NO"（不带引号）。
+
+答案可以以任意大小写形式输出。例如，"yEs"、"yes"、"Yes" 和 "YES" 都会被识别为肯定回答。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一个测试用例中，第一场比赛的观众已经在第 $1$ 场比赛担任观众。
+
+第二个测试用例中，无论第一场比赛结果如何，第一场比赛的观众都将在第 $2$ 场比赛中参赛。
+
+翻译由 DeepSeek R1 完成
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

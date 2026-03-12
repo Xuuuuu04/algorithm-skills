@@ -1,0 +1,32 @@
+{
+  "id": "CF-25E",
+  "contest_id": 25,
+  "index": "E",
+  "name": "Test",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "hashing",
+    "strings"
+  ],
+  "solved_count": 3087,
+  "problem_url": "https://codeforces.com/problemset/problem/25/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/25/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/25/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=25E%20Test%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P25E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Test - 题目详情 - Hydro",
+    "mirror_tags": [
+      "hashing",
+      "strings",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

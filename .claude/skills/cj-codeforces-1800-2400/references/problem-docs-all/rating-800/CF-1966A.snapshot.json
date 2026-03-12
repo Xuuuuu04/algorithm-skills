@@ -1,0 +1,34 @@
+{
+  "id": "CF-1966A",
+  "contest_id": 1966,
+  "index": "A",
+  "name": "Card Exchange",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "games",
+    "greedy"
+  ],
+  "solved_count": 19478,
+  "problem_url": "https://codeforces.com/problemset/problem/1966/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1966/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1966/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1966A%20Card%20Exchange%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1966A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Card Exchange - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "games",
+      "greedy",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CF-1929D",
+  "contest_id": 1929,
+  "index": "D",
+  "name": "Sasha and a Walk in the City",
+  "rating": 1900,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1929/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1929/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1929/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1929D%20Sasha and a Walk in the City%20tutorial",
+  "solved_count": 5683,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1929D",
+  "hydro_meta": {
+    "page_title": "Sasha and a Walk in the City - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

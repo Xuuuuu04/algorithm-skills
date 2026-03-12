@@ -1,0 +1,34 @@
+{
+  "id": "CF-233B",
+  "contest_id": 233,
+  "index": "B",
+  "name": "Non-square Equation",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "math"
+  ],
+  "solved_count": 8199,
+  "problem_url": "https://codeforces.com/problemset/problem/233/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/233/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/233/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=233B%20Non-square%20Equation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P233B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Non-square Equation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

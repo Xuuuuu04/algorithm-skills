@@ -1,0 +1,45 @@
+{
+  "id": "CF-1955H",
+  "contest_id": 1955,
+  "index": "H",
+  "name": "The Most Reckless Defense",
+  "rating": 2300,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "flows",
+    "graph matchings",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1955/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1955/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1955/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1955H%20The Most Reckless Defense%20tutorial",
+  "solved_count": 1496,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "网络流（最大流/最小割）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1955H",
+  "hydro_meta": {
+    "page_title": "The Most Reckless Defense - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "flows",
+      "graph matchings",
+      "shortest paths",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

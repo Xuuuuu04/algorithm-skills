@@ -1,0 +1,29 @@
+{
+  "id": "CF-95C",
+  "contest_id": 95,
+  "index": "C",
+  "name": "Volleyball",
+  "rating": 1900,
+  "tags": [
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/95/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/95/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/95/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=95C%20Volleyball%20tutorial",
+  "solved_count": 3341,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P95C",
+  "hydro_meta": {
+    "page_title": "Volleyball - 题目详情 - Hydro",
+    "hydro_tags": [
+      "shortest paths",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

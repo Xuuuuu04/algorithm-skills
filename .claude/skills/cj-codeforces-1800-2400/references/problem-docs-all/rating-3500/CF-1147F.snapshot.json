@@ -1,0 +1,28 @@
+{
+  "id": "CF-1147F",
+  "contest_id": 1147,
+  "index": "F",
+  "name": "Zigzag Game",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "games",
+    "interactive"
+  ],
+  "solved_count": 324,
+  "problem_url": "https://codeforces.com/problemset/problem/1147/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1147/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1147/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1147F%20Zigzag%20Game%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1147/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1147F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

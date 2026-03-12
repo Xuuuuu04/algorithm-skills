@@ -1,0 +1,36 @@
+{
+  "id": "CF-1223D",
+  "contest_id": 1223,
+  "index": "D",
+  "name": "Sequence Sorting",
+  "rating": 2000,
+  "tags": [
+    "dp",
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1223/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1223/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1223/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1223D%20Sequence Sorting%20tutorial",
+  "solved_count": 4397,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1223D",
+  "hydro_meta": {
+    "page_title": "Sequence Sorting - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "two pointers",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

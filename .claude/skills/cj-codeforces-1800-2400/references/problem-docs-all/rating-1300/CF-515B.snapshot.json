@@ -1,0 +1,36 @@
+{
+  "id": "CF-515B",
+  "contest_id": 515,
+  "index": "B",
+  "name": "Drazil and His Happy Friends",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "dsu",
+    "meet-in-the-middle",
+    "number theory"
+  ],
+  "solved_count": 7733,
+  "problem_url": "https://codeforces.com/problemset/problem/515/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/515/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/515/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=515B%20Drazil%20and%20His%20Happy%20Friends%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P515B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Drazil and His Happy Friends - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dsu",
+      "meet-in-the-middle",
+      "number theory",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

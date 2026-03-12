@@ -1,0 +1,37 @@
+{
+  "id": "CF-2109D",
+  "contest_id": 2109,
+  "index": "D",
+  "name": "D/D/D",
+  "rating": 1900,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2109/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2109/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2109/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2109D%20D/D/D%20tutorial",
+  "solved_count": 5371,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2109D",
+  "hydro_meta": {
+    "page_title": "D/D/D - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "shortest paths"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

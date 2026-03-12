@@ -1,0 +1,27 @@
+{
+  "id": "CF-1881E",
+  "contest_id": 1881,
+  "index": "E",
+  "name": "Block Sequence",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 22721,
+  "problem_url": "https://codeforces.com/problemset/problem/1881/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1881/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1881/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1881E%20Block%20Sequence%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1881E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1881E Block Sequence - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 232,
+    "mirror_attempt": 405,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

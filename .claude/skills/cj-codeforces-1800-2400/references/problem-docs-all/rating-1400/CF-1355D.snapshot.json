@@ -1,0 +1,28 @@
+{
+  "id": "CF-1355D",
+  "contest_id": 1355,
+  "index": "D",
+  "name": "Game With Array",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 18959,
+  "problem_url": "https://codeforces.com/problemset/problem/1355/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1355/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1355/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1355D%20Game%20With%20Array%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1355/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1355D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

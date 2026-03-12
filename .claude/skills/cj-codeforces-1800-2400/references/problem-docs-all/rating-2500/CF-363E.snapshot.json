@@ -1,0 +1,34 @@
+{
+  "id": "CF-363E",
+  "contest_id": 363,
+  "index": "E",
+  "name": "Two Circles",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 224,
+  "problem_url": "https://codeforces.com/problemset/problem/363/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/363/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/363/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=363E%20Two%20Circles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P363E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Circles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

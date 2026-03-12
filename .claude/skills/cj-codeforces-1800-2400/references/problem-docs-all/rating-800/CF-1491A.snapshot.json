@@ -1,0 +1,29 @@
+{
+  "id": "CF-1491A",
+  "contest_id": 1491,
+  "index": "A",
+  "name": "K-th Largest Value",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 18970,
+  "problem_url": "https://codeforces.com/problemset/problem/1491/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1491/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1491/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1491A%20K-th%20Largest%20Value%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1491A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1491A K-th Largest Value - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 219,
+    "mirror_attempt": 361,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

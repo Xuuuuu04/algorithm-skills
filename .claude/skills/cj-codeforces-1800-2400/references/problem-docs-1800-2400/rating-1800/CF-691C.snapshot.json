@@ -1,0 +1,33 @@
+{
+  "id": "CF-691C",
+  "contest_id": 691,
+  "index": "C",
+  "name": "Exponential notation",
+  "rating": 1800,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/691/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/691/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/691/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=691C%20Exponential notation%20tutorial",
+  "solved_count": 2923,
+  "suggested_patterns": [
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P691C",
+  "hydro_meta": {
+    "page_title": "Exponential notation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "implementation",
+      "strings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

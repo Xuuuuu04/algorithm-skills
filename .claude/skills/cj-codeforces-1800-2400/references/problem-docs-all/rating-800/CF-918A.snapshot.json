@@ -1,0 +1,28 @@
+{
+  "id": "CF-918A",
+  "contest_id": 918,
+  "index": "A",
+  "name": "Eleven",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 18156,
+  "problem_url": "https://codeforces.com/problemset/problem/918/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/918/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/918/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=918A%20Eleven%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF918A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF918A Eleven - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 837,
+    "mirror_attempt": 1695,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

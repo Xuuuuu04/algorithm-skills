@@ -1,0 +1,30 @@
+{
+  "id": "CF-1647D",
+  "contest_id": 1647,
+  "index": "D",
+  "name": "Madoka and the Best School in Russia",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 5658,
+  "problem_url": "https://codeforces.com/problemset/problem/1647/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1647/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1647/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1647D%20Madoka%20and%20the%20Best%20School%20in%20Russia%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1647D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1647D Madoka and the Best School in Russia - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 167,
+    "mirror_attempt": 325,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

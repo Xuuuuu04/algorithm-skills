@@ -1,0 +1,28 @@
+{
+  "id": "CF-825B",
+  "contest_id": 825,
+  "index": "B",
+  "name": "Five-In-a-Row",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 4744,
+  "problem_url": "https://codeforces.com/problemset/problem/825/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/825/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/825/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=825B%20Five-In-a-Row%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/825/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 825B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

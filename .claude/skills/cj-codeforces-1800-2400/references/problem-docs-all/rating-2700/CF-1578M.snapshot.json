@@ -1,0 +1,29 @@
+{
+  "id": "CF-1578M",
+  "contest_id": 1578,
+  "index": "M",
+  "name": "The Mind",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "interactive",
+    "probabilities"
+  ],
+  "solved_count": 505,
+  "problem_url": "https://codeforces.com/problemset/problem/1578/M",
+  "answer_index_url": "https://codeforces.com/problemset/status/1578/problem/M",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1578/problem/M?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1578M%20The%20Mind%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1578M",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1578M The Mind - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 20,
+    "mirror_attempt": 62,
+    "time_limit": "2000 ms",
+    "memory_limit": "1024000 KB"
+  }
+}

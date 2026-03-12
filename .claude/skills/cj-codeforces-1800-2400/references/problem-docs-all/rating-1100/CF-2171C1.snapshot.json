@@ -1,0 +1,34 @@
+{
+  "id": "CF-2171C1",
+  "contest_id": 2171,
+  "index": "C1",
+  "name": "Renako Amaori and XOR Game (easy version)",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "games",
+    "greedy"
+  ],
+  "solved_count": 18614,
+  "problem_url": "https://codeforces.com/problemset/problem/2171/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2171/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2171/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2171C1%20Renako%20Amaori%20and%20XOR%20Game%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2171C1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Renako Amaori and XOR Game (easy version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "games",
+      "greedy",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

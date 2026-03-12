@@ -1,0 +1,513 @@
+{
+  "cases": ".claude/skills/cj-benchmark-evaluator/references/cases.json",
+  "rubric": ".claude/skills/cj-benchmark-evaluator/references/rubric.json",
+  "threshold": 80,
+  "summary": {
+    "total_cases": 20,
+    "pass_count": 20,
+    "pass_rate": 1.0,
+    "average_score": 100.0
+  },
+  "results": [
+    {
+      "id": "ice-001",
+      "question": "最短路 + 负边判定",
+      "answer_file": "sample_answers/ice-001.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 5,
+      "pass": true
+    },
+    {
+      "id": "ice-002",
+      "question": "树上DP重根",
+      "answer_file": "sample_answers/ice-002.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-003",
+      "question": "区间DP + 方案恢复",
+      "answer_file": "sample_answers/ice-003.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-004",
+      "question": "字符串自动机",
+      "answer_file": "sample_answers/ice-004.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-005",
+      "question": "数据结构可持久化",
+      "answer_file": "sample_answers/ice-005.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-006",
+      "question": "二分答案 + 贪心可行性",
+      "answer_file": "sample_answers/ice-006.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-007",
+      "question": "并查集离线",
+      "answer_file": "sample_answers/ice-007.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-008",
+      "question": "数位DP",
+      "answer_file": "sample_answers/ice-008.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-009",
+      "question": "最小割建模",
+      "answer_file": "sample_answers/ice-009.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-010",
+      "question": "树链剖分",
+      "answer_file": "sample_answers/ice-010.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-011",
+      "question": "莫队算法",
+      "answer_file": "sample_answers/ice-011.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-012",
+      "question": "几何凸包",
+      "answer_file": "sample_answers/ice-012.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-013",
+      "question": "矩阵快速幂",
+      "answer_file": "sample_answers/ice-013.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-014",
+      "question": "高精度与大整数",
+      "answer_file": "sample_answers/ice-014.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-015",
+      "question": "状态压缩DP",
+      "answer_file": "sample_answers/ice-015.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-016",
+      "question": "SAM/SA对比",
+      "answer_file": "sample_answers/ice-016.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-017",
+      "question": "博弈SG",
+      "answer_file": "sample_answers/ice-017.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-018",
+      "question": "网络流分层图",
+      "answer_file": "sample_answers/ice-018.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-019",
+      "question": "随机化算法",
+      "answer_file": "sample_answers/ice-019.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    },
+    {
+      "id": "ice-020",
+      "question": "复杂实现调试",
+      "answer_file": "sample_answers/ice-020.md",
+      "exists": true,
+      "score": 100.0,
+      "breakdown": {
+        "sections": 40.0,
+        "citations": 40.0,
+        "complexity": 10,
+        "correctness": 10
+      },
+      "missing_sections": [],
+      "found_sections": [
+        "思路",
+        "复杂度",
+        "正确性要点",
+        "仓颉实现",
+        "边界测试",
+        "风险项",
+        "证据引用"
+      ],
+      "citation_lines": 3,
+      "pass": true
+    }
+  ]
+}

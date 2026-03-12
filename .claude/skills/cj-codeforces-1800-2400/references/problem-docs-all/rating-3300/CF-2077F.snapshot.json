@@ -1,0 +1,33 @@
+{
+  "id": "CF-2077F",
+  "contest_id": 2077,
+  "index": "F",
+  "name": "AND x OR",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "dp"
+  ],
+  "solved_count": 239,
+  "problem_url": "https://codeforces.com/problemset/problem/2077/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2077/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2077/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2077F%20AND%20x%20OR%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2077F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "AND x OR - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dp"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "1024MiB"
+  }
+}

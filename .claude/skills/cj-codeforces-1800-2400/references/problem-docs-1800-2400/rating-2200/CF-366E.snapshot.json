@@ -1,0 +1,35 @@
+{
+  "id": "CF-366E",
+  "contest_id": 366,
+  "index": "E",
+  "name": "Dima and Magic Guitar",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/366/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/366/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/366/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=366E%20Dima and Magic Guitar%20tutorial",
+  "solved_count": 839,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P366E",
+  "hydro_meta": {
+    "page_title": "Dima and Magic Guitar - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

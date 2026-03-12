@@ -1,0 +1,38 @@
+{
+  "id": "CF-1690G",
+  "contest_id": 1690,
+  "index": "G",
+  "name": "Count the Trains",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1690/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1690/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1690/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1690G%20Count the Trains%20tutorial",
+  "solved_count": 4033,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1690G",
+  "hydro_meta": {
+    "page_title": "Count the Trains - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "sortings",
+      "*2000"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 5,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-105B",
+  "contest_id": 105,
+  "index": "B",
+  "name": "Dark Assembly",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/105/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/105/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/105/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=105B%20Dark Assembly%20tutorial",
+  "solved_count": 894,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P105B",
+  "hydro_meta": {
+    "page_title": "Dark Assembly - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "probabilities",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

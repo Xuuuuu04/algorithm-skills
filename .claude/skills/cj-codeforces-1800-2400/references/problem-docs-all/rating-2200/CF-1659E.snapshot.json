@@ -1,0 +1,40 @@
+{
+  "id": "CF-1659E",
+  "contest_id": 1659,
+  "index": "E",
+  "name": "AND-MEX Walk",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "constructive algorithms",
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 1925,
+  "problem_url": "https://codeforces.com/problemset/problem/1659/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1659/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1659/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1659E%20AND-MEX%20Walk%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1659E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "AND-MEX Walk - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

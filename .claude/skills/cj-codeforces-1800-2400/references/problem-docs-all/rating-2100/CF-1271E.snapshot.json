@@ -1,0 +1,36 @@
+{
+  "id": "CF-1271E",
+  "contest_id": 1271,
+  "index": "E",
+  "name": "Common Number",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "binary search",
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 3696,
+  "problem_url": "https://codeforces.com/problemset/problem/1271/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1271/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1271/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1271E%20Common%20Number%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1271E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Common Number - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

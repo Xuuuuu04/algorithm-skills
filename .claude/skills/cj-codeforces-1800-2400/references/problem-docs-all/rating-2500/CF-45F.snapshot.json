@@ -1,0 +1,30 @@
+{
+  "id": "CF-45F",
+  "contest_id": 45,
+  "index": "F",
+  "name": "Goats and Wolves",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 165,
+  "problem_url": "https://codeforces.com/problemset/problem/45/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/45/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/45/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=45F%20Goats%20and%20Wolves%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P45F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Goats and Wolves - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1682A",
+  "contest_id": 1682,
+  "index": "A",
+  "name": "Palindromic Indices",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 19838,
+  "problem_url": "https://codeforces.com/problemset/problem/1682/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1682/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1682/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1682A%20Palindromic%20Indices%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1682A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1682A Palindromic Indices - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 222,
+    "mirror_attempt": 451,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

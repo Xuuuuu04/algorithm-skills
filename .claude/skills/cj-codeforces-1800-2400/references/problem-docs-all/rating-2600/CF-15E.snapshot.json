@@ -1,0 +1,32 @@
+{
+  "id": "CF-15E",
+  "contest_id": 15,
+  "index": "E",
+  "name": "Triangles",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "dp"
+  ],
+  "solved_count": 666,
+  "problem_url": "https://codeforces.com/problemset/problem/15/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/15/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/15/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=15E%20Triangles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P15E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Triangles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "64MiB"
+  }
+}

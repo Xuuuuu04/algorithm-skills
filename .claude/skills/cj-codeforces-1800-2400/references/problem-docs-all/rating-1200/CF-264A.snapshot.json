@@ -1,0 +1,36 @@
+{
+  "id": "CF-264A",
+  "contest_id": 264,
+  "index": "A",
+  "name": "Escape from Stones",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 11749,
+  "problem_url": "https://codeforces.com/problemset/problem/264/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/264/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/264/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=264A%20Escape%20from%20Stones%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P264A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Escape from Stones - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "implementation",
+      "two pointers",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

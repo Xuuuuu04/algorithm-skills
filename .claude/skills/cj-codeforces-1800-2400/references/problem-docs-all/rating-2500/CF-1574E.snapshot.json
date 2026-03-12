@@ -1,0 +1,34 @@
+{
+  "id": "CF-1574E",
+  "contest_id": 1574,
+  "index": "E",
+  "name": "Coloring",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 1025,
+  "problem_url": "https://codeforces.com/problemset/problem/1574/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1574/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1574/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1574E%20Coloring%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1574E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Coloring - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

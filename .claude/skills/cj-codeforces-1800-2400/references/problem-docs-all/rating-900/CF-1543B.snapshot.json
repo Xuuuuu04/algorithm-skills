@@ -1,0 +1,33 @@
+{
+  "id": "CF-1543B",
+  "contest_id": 1543,
+  "index": "B",
+  "name": "Customising the Track",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "combinatorics",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 24381,
+  "problem_url": "https://codeforces.com/problemset/problem/1543/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1543/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1543/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1543B%20Customising%20the%20Track%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1543B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Customising the Track - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

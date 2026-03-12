@@ -1,0 +1,49 @@
+{
+  "id": "CF-2031E",
+  "contest_id": 2031,
+  "index": "E",
+  "name": "Penchick and Chloe's Trees",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "implementation",
+    "math",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2031/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2031/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2031/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2031E%20Penchick and Chloe's Trees%20tutorial",
+  "solved_count": 2634,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2031E",
+  "hydro_meta": {
+    "page_title": "Penchick and Chloe's Trees - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "implementation",
+      "math",
+      "sortings",
+      "trees",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

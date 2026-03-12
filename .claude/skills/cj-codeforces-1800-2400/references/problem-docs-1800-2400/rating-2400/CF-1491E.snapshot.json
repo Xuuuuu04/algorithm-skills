@@ -1,0 +1,40 @@
+{
+  "id": "CF-1491E",
+  "contest_id": 1491,
+  "index": "E",
+  "name": "Fib-tree",
+  "rating": 2400,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "divide and conquer",
+    "number theory",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1491/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1491/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1491/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1491E%20Fib-tree%20tutorial",
+  "solved_count": 2318,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1491E",
+  "hydro_meta": {
+    "page_title": "Fib-tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dfs and similar",
+      "divide and conquer",
+      "number theory",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

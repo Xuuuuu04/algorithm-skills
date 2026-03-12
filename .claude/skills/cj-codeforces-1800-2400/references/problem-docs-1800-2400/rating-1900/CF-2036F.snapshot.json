@@ -1,0 +1,38 @@
+{
+  "id": "CF-2036F",
+  "contest_id": 2036,
+  "index": "F",
+  "name": "XORificator 3000",
+  "rating": 1900,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "number theory",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2036/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2036/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2036/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2036F%20XORificator 3000%20tutorial",
+  "solved_count": 5131,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2036F",
+  "hydro_meta": {
+    "page_title": "XORificator 3000 - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "dp",
+      "number theory",
+      "two pointers",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

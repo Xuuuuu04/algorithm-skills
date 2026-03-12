@@ -1,0 +1,39 @@
+{
+  "id": "CF-1400E",
+  "contest_id": 1400,
+  "index": "E",
+  "name": "Clear the Multiset",
+  "rating": 2200,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1400/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1400/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1400/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1400E%20Clear the Multiset%20tutorial",
+  "solved_count": 6203,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1400E",
+  "hydro_meta": {
+    "page_title": "Clear the Multiset - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

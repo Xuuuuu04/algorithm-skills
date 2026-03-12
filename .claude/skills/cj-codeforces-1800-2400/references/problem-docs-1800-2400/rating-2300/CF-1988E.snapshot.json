@@ -1,0 +1,38 @@
+{
+  "id": "CF-1988E",
+  "contest_id": 1988,
+  "index": "E",
+  "name": "Range Minimum Sum",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1988/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1988/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1988/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1988E%20Range Minimum Sum%20tutorial",
+  "solved_count": 1765,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1988E",
+  "hydro_meta": {
+    "page_title": "Range Minimum Sum - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "implementation"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CF-1936B",
+  "contest_id": 1936,
+  "index": "B",
+  "name": "Pinball",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "data structures",
+    "implementation",
+    "math",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1936/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1936/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1936/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1936B%20Pinball%20tutorial",
+  "solved_count": 3518,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1936B",
+  "hydro_meta": {
+    "page_title": "Pinball - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "math",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

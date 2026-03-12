@@ -1,0 +1,34 @@
+{
+  "id": "CF-762D",
+  "contest_id": 762,
+  "index": "D",
+  "name": "Maximum path",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 1770,
+  "problem_url": "https://codeforces.com/problemset/problem/762/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/762/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/762/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=762D%20Maximum%20path%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P762D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Maximum path - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

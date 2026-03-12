@@ -1,0 +1,32 @@
+{
+  "id": "CF-375A",
+  "contest_id": 375,
+  "index": "A",
+  "name": "Divisible by Seven",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 5294,
+  "problem_url": "https://codeforces.com/problemset/problem/375/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/375/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/375/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=375A%20Divisible%20by%20Seven%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P375A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Divisible by Seven - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

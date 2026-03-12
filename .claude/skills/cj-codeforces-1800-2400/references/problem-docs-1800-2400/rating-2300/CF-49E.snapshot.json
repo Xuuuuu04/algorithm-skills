@@ -1,0 +1,31 @@
+{
+  "id": "CF-49E",
+  "contest_id": 49,
+  "index": "E",
+  "name": "Common ancestor",
+  "rating": 2300,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/49/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/49/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/49/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=49E%20Common ancestor%20tutorial",
+  "solved_count": 789,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P49E",
+  "hydro_meta": {
+    "page_title": "Common ancestor - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

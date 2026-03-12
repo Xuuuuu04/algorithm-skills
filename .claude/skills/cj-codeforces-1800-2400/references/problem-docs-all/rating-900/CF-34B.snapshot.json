@@ -1,0 +1,28 @@
+{
+  "id": "CF-34B",
+  "contest_id": 34,
+  "index": "B",
+  "name": "Sale",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 64633,
+  "problem_url": "https://codeforces.com/problemset/problem/34/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/34/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/34/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=34B%20Sale%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/34/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 34B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

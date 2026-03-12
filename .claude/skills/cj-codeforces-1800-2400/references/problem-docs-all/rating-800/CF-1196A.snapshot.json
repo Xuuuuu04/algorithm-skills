@@ -1,0 +1,29 @@
+{
+  "id": "CF-1196A",
+  "contest_id": 1196,
+  "index": "A",
+  "name": "Three Piles of Candies",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 29023,
+  "problem_url": "https://codeforces.com/problemset/problem/1196/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1196/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1196/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1196A%20Three%20Piles%20of%20Candies%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1196A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1196A Three Piles of Candies - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 425,
+    "mirror_attempt": 706,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

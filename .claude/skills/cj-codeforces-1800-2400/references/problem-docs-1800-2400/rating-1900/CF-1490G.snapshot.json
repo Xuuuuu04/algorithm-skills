@@ -1,0 +1,37 @@
+{
+  "id": "CF-1490G",
+  "contest_id": 1490,
+  "index": "G",
+  "name": "Old Floppy Drive ",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "data structures",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1490/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1490/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1490/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1490G%20Old Floppy Drive %20tutorial",
+  "solved_count": 6108,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1490G",
+  "hydro_meta": {
+    "page_title": "Old Floppy Drive - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "math",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

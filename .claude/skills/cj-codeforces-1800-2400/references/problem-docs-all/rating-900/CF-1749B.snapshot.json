@@ -1,0 +1,29 @@
+{
+  "id": "CF-1749B",
+  "contest_id": 1749,
+  "index": "B",
+  "name": "Death's Blessing",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 22438,
+  "problem_url": "https://codeforces.com/problemset/problem/1749/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1749/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1749/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1749B%20Death%27s%20Blessing%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1749B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Death's Blessing - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

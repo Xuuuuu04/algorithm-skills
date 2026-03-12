@@ -1,0 +1,27 @@
+{
+  "id": "CF-691A",
+  "contest_id": 691,
+  "index": "A",
+  "name": "Fashion in Berland",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 11019,
+  "problem_url": "https://codeforces.com/problemset/problem/691/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/691/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/691/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=691A%20Fashion%20in%20Berland%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF691A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF691A Fashion in Berland - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 486,
+    "mirror_attempt": 1594,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1408D",
+  "contest_id": 1408,
+  "index": "D",
+  "name": "Searchlights",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "dp",
+    "implementation",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 4635,
+  "problem_url": "https://codeforces.com/problemset/problem/1408/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1408/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1408/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1408D%20Searchlights%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1408/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1408D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

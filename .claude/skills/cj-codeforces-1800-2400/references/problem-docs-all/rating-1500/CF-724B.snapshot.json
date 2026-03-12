@@ -1,0 +1,36 @@
+{
+  "id": "CF-724B",
+  "contest_id": 724,
+  "index": "B",
+  "name": "Batch Sort",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 4204,
+  "problem_url": "https://codeforces.com/problemset/problem/724/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/724/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/724/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=724B%20Batch%20Sort%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P724B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Batch Sort - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

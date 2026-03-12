@@ -1,0 +1,30 @@
+{
+  "id": "CF-1906I",
+  "contest_id": 1906,
+  "index": "I",
+  "name": "Contingency Plan 2",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "graph matchings"
+  ],
+  "solved_count": 215,
+  "problem_url": "https://codeforces.com/problemset/problem/1906/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1906/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1906/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1906I%20Contingency%20Plan%202%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1906I",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Contingency Plan 2 - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graph matchings",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "CF-1335F",
+  "contest_id": 1335,
+  "index": "F",
+  "name": "Robots on a Grid",
+  "rating": 2200,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "greedy",
+    "matrices"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1335/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1335/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1335/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1335F%20Robots on a Grid%20tutorial",
+  "solved_count": 2399,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1335F",
+  "hydro_meta": {
+    "page_title": "Robots on a Grid - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "matrices",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

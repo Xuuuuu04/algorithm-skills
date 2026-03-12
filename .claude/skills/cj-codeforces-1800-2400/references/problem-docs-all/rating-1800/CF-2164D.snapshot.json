@@ -1,0 +1,36 @@
+{
+  "id": "CF-2164D",
+  "contest_id": 2164,
+  "index": "D",
+  "name": "Copy String",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 4809,
+  "problem_url": "https://codeforces.com/problemset/problem/2164/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2164/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2164/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2164D%20Copy%20String%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2164D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Copy String - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "two pointers",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

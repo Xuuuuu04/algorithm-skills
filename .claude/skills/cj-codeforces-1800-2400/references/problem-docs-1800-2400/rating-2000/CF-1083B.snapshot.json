@@ -1,0 +1,34 @@
+{
+  "id": "CF-1083B",
+  "contest_id": 1083,
+  "index": "B",
+  "name": "The Fair Nut and Strings",
+  "rating": 2000,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1083/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1083/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1083/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1083B%20The Fair Nut and Strings%20tutorial",
+  "solved_count": 2124,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1083B",
+  "hydro_meta": {
+    "page_title": "The Fair Nut and Strings - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "strings",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

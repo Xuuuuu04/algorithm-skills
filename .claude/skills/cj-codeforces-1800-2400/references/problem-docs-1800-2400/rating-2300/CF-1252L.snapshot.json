@@ -1,0 +1,34 @@
+{
+  "id": "CF-1252L",
+  "contest_id": 1252,
+  "index": "L",
+  "name": "Road Construction",
+  "rating": 2300,
+  "tags": [
+    "flows",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1252/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1252/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1252/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1252L%20Road Construction%20tutorial",
+  "solved_count": 636,
+  "suggested_patterns": [
+    "网络流（最大流/最小割）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1252L",
+  "hydro_meta": {
+    "page_title": "Road Construction - 题目详情 - Hydro",
+    "hydro_tags": [
+      "flows",
+      "graphs",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

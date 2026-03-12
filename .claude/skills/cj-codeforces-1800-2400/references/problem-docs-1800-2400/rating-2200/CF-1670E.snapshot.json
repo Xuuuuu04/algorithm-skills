@@ -1,0 +1,38 @@
+{
+  "id": "CF-1670E",
+  "contest_id": 1670,
+  "index": "E",
+  "name": "Hemose on the Tree",
+  "rating": 2200,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "dfs and similar",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1670/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1670/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1670/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1670E%20Hemose on the Tree%20tutorial",
+  "solved_count": 1925,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1670E",
+  "hydro_meta": {
+    "page_title": "Hemose on the Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dfs and similar",
+      "trees",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

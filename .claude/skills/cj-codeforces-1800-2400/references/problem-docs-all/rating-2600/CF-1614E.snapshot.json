@@ -1,0 +1,32 @@
+{
+  "id": "CF-1614E",
+  "contest_id": 1614,
+  "index": "E",
+  "name": "Divan and a Cottage",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "binary search",
+    "data structures"
+  ],
+  "solved_count": 941,
+  "problem_url": "https://codeforces.com/problemset/problem/1614/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1614/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1614/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1614E%20Divan%20and%20a%20Cottage%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1614E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Divan and a Cottage - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

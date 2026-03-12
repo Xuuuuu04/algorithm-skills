@@ -1,0 +1,37 @@
+{
+  "id": "CF-1190D",
+  "contest_id": 1190,
+  "index": "D",
+  "name": "Tokitsukaze and Strange Rectangle",
+  "rating": 2000,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1190/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1190/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1190/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1190D%20Tokitsukaze and Strange Rectangle%20tutorial",
+  "solved_count": 2653,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1190D",
+  "hydro_meta": {
+    "page_title": "Tokitsukaze and Strange Rectangle - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "divide and conquer",
+      "sortings",
+      "two pointers",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

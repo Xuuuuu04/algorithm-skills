@@ -1,0 +1,27 @@
+[dependencies]
+  magic = { path = "../CangjieMagic" }
+
+[package]
+  cjc-version = "1.0.0"
+  compile-option = "-Woff parser -Woff unused -Woff deprecated"
+  description = "基于CangjieMagic框架的智能代码助手 - 移植anon-kode功能到仓颉生态"
+  link-option = ""
+  name = "codelin"
+  output-type = "executable"
+  src-dir = ""
+  target-dir = ""
+  version = "1.0.0"
+
+# 🚀 添加测试可执行文件配置
+[package.package-configuration."codelin.examples.tool_test"]
+  output-type = "executable"
+
+[package.package-configuration."codelin.examples.tool_execution_test"]
+  output-type = "executable"
+
+
+[target.aarch64-apple-darwin]
+    compile-option = "--cfg \"ohos=false\""
+    link-option = "-L/opt/homebrew/opt/openssl@3/lib -lssl -lcrypto"
+    [target.aarch64-apple-darwin.bin-dependencies]
+      path-option = [ "${AARCH64_MACOS_LIBS}", "${AARCH64_MACOS_MACRO_LIBS}", "/Users/louloulin/Documents/linchong/cj/CangjieSDK-Darwin/darwin_aarch64_llvm/static/stdx" ]

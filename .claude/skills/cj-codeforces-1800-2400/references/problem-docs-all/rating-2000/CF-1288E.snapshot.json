@@ -1,0 +1,27 @@
+{
+  "id": "CF-1288E",
+  "contest_id": 1288,
+  "index": "E",
+  "name": "Messenger Simulator",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 3982,
+  "problem_url": "https://codeforces.com/problemset/problem/1288/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1288/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1288/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1288E%20Messenger%20Simulator%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1288/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1288E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

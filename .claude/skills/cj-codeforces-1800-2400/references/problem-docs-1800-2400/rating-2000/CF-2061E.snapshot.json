@@ -1,0 +1,36 @@
+{
+  "id": "CF-2061E",
+  "contest_id": 2061,
+  "index": "E",
+  "name": "Kevin and And",
+  "rating": 2000,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dp",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2061/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2061/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2061/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2061E%20Kevin and And%20tutorial",
+  "solved_count": 3890,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2061E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2061E Kevin and And - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

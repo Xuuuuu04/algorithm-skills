@@ -1,0 +1,29 @@
+{
+  "id": "CF-1987B",
+  "contest_id": 1987,
+  "index": "B",
+  "name": "K-Sort",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 23723,
+  "problem_url": "https://codeforces.com/problemset/problem/1987/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1987/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1987/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1987B%20K-Sort%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1987B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "K-Sort - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

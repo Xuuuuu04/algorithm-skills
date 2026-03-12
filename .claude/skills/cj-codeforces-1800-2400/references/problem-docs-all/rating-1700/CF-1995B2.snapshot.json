@@ -1,0 +1,32 @@
+{
+  "id": "CF-1995B2",
+  "contest_id": 1995,
+  "index": "B2",
+  "name": "Bouquet (Hard Version)",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy",
+    "math",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 10051,
+  "problem_url": "https://codeforces.com/problemset/problem/1995/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1995/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1995/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1995B2%20Bouquet%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1995/B2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1995B2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

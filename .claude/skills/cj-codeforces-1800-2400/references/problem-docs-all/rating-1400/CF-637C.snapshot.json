@@ -1,0 +1,30 @@
+{
+  "id": "CF-637C",
+  "contest_id": 637,
+  "index": "C",
+  "name": "Promocodes with Mistakes",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "*special",
+    "brute force",
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 2509,
+  "problem_url": "https://codeforces.com/problemset/problem/637/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/637/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/637/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=637C%20Promocodes%20with%20Mistakes%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/637/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 637C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

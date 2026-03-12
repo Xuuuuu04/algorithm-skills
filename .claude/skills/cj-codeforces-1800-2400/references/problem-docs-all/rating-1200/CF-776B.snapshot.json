@@ -1,0 +1,32 @@
+{
+  "id": "CF-776B",
+  "contest_id": 776,
+  "index": "B",
+  "name": "Sherlock and his girlfriend",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "number theory"
+  ],
+  "solved_count": 25268,
+  "problem_url": "https://codeforces.com/problemset/problem/776/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/776/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/776/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=776B%20Sherlock%20and%20his%20girlfriend%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P776B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sherlock and his girlfriend - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "number theory",
+      "*1200"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

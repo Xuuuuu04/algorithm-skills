@@ -1,0 +1,30 @@
+{
+  "id": "CF-1620F",
+  "contest_id": 1620,
+  "index": "F",
+  "name": "Bipartite Array",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 734,
+  "problem_url": "https://codeforces.com/problemset/problem/1620/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1620/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1620/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1620F%20Bipartite%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1620F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bipartite Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

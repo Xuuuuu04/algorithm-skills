@@ -1,0 +1,28 @@
+{
+  "id": "CF-274E",
+  "contest_id": 274,
+  "index": "E",
+  "name": "Mirror Room",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 336,
+  "problem_url": "https://codeforces.com/problemset/problem/274/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/274/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/274/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=274E%20Mirror%20Room%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF274E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF274E Mirror Room - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 152,
+    "mirror_attempt": 405,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

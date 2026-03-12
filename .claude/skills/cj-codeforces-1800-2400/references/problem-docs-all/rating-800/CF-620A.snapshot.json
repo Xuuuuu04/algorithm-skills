@@ -1,0 +1,28 @@
+{
+  "id": "CF-620A",
+  "contest_id": 620,
+  "index": "A",
+  "name": "Professor GukiZ's Robot",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 14251,
+  "problem_url": "https://codeforces.com/problemset/problem/620/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/620/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/620/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=620A%20Professor%20GukiZ%27s%20Robot%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF620A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF620A Professor GukiZ's Robot - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 108,
+    "mirror_attempt": 151,
+    "time_limit": "500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

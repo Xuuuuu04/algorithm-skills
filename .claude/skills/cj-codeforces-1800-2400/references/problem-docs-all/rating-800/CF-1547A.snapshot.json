@@ -1,0 +1,28 @@
+{
+  "id": "CF-1547A",
+  "contest_id": 1547,
+  "index": "A",
+  "name": "Shortest Path with Obstacle",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 32162,
+  "problem_url": "https://codeforces.com/problemset/problem/1547/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1547/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1547/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1547A%20Shortest%20Path%20with%20Obstacle%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1547A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1547A Shortest Path with Obstacle - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 445,
+    "mirror_attempt": 933,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

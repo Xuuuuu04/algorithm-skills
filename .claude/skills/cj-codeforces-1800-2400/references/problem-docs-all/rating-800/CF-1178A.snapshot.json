@@ -1,0 +1,30 @@
+{
+  "id": "CF-1178A",
+  "contest_id": 1178,
+  "index": "A",
+  "name": "Prime Minister",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 11195,
+  "problem_url": "https://codeforces.com/problemset/problem/1178/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1178/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1178/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1178A%20Prime%20Minister%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1178A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Prime Minister - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

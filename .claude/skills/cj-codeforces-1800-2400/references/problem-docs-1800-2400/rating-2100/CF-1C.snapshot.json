@@ -1,0 +1,33 @@
+{
+  "id": "CF-1C",
+  "contest_id": 1,
+  "index": "C",
+  "name": "Ancient Berland Circus",
+  "rating": 2100,
+  "tags": [
+    "geometry",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1C%20Ancient Berland Circus%20tutorial",
+  "solved_count": 6403,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1C",
+  "hydro_meta": {
+    "page_title": "Ancient Berland Circus - 题目详情 - Hydro",
+    "hydro_tags": [
+      "geometry",
+      "math",
+      "*2100"
+    ],
+    "hydro_accepted": 4,
+    "hydro_attempt": 11,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

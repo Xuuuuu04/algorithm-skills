@@ -1,0 +1,30 @@
+{
+  "id": "CF-1841D",
+  "contest_id": 1841,
+  "index": "D",
+  "name": "Pairs of Segments",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 5218,
+  "problem_url": "https://codeforces.com/problemset/problem/1841/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1841/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1841/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1841D%20Pairs%20of%20Segments%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1841/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1841D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

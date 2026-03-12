@@ -1,0 +1,36 @@
+{
+  "id": "CF-1499B",
+  "contest_id": 1499,
+  "index": "B",
+  "name": "Binary Removals",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 21913,
+  "problem_url": "https://codeforces.com/problemset/problem/1499/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1499/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1499/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1499B%20Binary%20Removals%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1499B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Binary Removals - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

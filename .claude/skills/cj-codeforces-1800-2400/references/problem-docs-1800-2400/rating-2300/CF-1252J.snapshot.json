@@ -1,0 +1,33 @@
+{
+  "id": "CF-1252J",
+  "contest_id": 1252,
+  "index": "J",
+  "name": "Tiling Terrace",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1252/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/1252/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1252/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1252J%20Tiling Terrace%20tutorial",
+  "solved_count": 780,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1252J",
+  "hydro_meta": {
+    "page_title": "Tiling Terrace - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dp",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

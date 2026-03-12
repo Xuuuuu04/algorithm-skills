@@ -1,0 +1,29 @@
+{
+  "id": "CF-1669H",
+  "contest_id": 1669,
+  "index": "H",
+  "name": "Maximal AND",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 28123,
+  "problem_url": "https://codeforces.com/problemset/problem/1669/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1669/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1669/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1669H%20Maximal%20AND%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1669/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1669H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

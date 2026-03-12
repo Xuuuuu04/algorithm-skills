@@ -1,0 +1,30 @@
+{
+  "id": "CF-2180G",
+  "contest_id": 2180,
+  "index": "G",
+  "name": "Balance",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 123,
+  "problem_url": "https://codeforces.com/problemset/problem/2180/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2180/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2180/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2180G%20Balance%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2180/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2180G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

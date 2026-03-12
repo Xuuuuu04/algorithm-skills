@@ -1,0 +1,30 @@
+{
+  "id": "CF-1732D1",
+  "contest_id": 1732,
+  "index": "D1",
+  "name": "Balance (Easy version)",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation",
+    "number theory"
+  ],
+  "solved_count": 9811,
+  "problem_url": "https://codeforces.com/problemset/problem/1732/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1732/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1732/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1732D1%20Balance%20%28Easy%20version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1732/D1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1732D1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

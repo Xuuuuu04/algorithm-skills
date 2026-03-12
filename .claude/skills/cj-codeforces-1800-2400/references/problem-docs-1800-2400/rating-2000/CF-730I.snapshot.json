@@ -1,0 +1,40 @@
+{
+  "id": "CF-730I",
+  "contest_id": 730,
+  "index": "I",
+  "name": "Olympiad in Programming and Sports",
+  "rating": 2000,
+  "tags": [
+    "dp",
+    "flows",
+    "graphs",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/730/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/730/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/730/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=730I%20Olympiad in Programming and Sports%20tutorial",
+  "solved_count": 2689,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "网络流（最大流/最小割）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P730I",
+  "hydro_meta": {
+    "page_title": "Olympiad in Programming and Sports - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "flows",
+      "graphs",
+      "greedy",
+      "*2000"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

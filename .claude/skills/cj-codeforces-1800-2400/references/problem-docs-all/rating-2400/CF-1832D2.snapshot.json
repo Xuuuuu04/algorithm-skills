@@ -1,0 +1,36 @@
+{
+  "id": "CF-1832D2",
+  "contest_id": 1832,
+  "index": "D2",
+  "name": "Red-Blue Operations (Hard Version)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 2312,
+  "problem_url": "https://codeforces.com/problemset/problem/1832/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1832/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1832/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1832D2%20Red-Blue%20Operations%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1832D2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Red-Blue Operations (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

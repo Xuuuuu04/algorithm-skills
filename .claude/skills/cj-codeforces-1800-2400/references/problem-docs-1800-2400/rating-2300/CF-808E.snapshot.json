@@ -1,0 +1,39 @@
+{
+  "id": "CF-808E",
+  "contest_id": 808,
+  "index": "E",
+  "name": "Selling Souvenirs",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy",
+    "ternary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/808/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/808/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/808/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=808E%20Selling Souvenirs%20tutorial",
+  "solved_count": 2147,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P808E",
+  "hydro_meta": {
+    "page_title": "Selling Souvenirs - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "ternary search",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

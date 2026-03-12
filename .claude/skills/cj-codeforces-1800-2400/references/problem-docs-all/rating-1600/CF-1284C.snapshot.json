@@ -1,0 +1,28 @@
+{
+  "id": "CF-1284C",
+  "contest_id": 1284,
+  "index": "C",
+  "name": "New Year and Permutation",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 8689,
+  "problem_url": "https://codeforces.com/problemset/problem/1284/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1284/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1284/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1284C%20New%20Year%20and%20Permutation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1284/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1284C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "1024 megabytes"
+  }
+}

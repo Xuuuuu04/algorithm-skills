@@ -1,0 +1,44 @@
+{
+  "id": "CF-553B",
+  "contest_id": 553,
+  "index": "B",
+  "name": "Kyoya and Permutation",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "combinatorics",
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/553/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/553/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/553/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=553B%20Kyoya and Permutation%20tutorial",
+  "solved_count": 2253,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P553B",
+  "hydro_meta": {
+    "page_title": "Kyoya and Permutation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "combinatorics",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

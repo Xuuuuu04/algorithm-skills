@@ -1,0 +1,35 @@
+{
+  "id": "CF-1912B",
+  "contest_id": 1912,
+  "index": "B",
+  "name": "Blueprint for Seating",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "divide and conquer",
+    "math"
+  ],
+  "solved_count": 1411,
+  "problem_url": "https://codeforces.com/problemset/problem/1912/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1912/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1912/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1912B%20Blueprint%20for%20Seating%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1912B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Blueprint for Seating - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "divide and conquer",
+      "fft",
+      "math",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "1024MiB"
+  }
+}

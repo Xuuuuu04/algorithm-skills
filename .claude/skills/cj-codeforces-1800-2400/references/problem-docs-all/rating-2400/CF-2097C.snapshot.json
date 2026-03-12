@@ -1,0 +1,37 @@
+{
+  "id": "CF-2097C",
+  "contest_id": 2097,
+  "index": "C",
+  "name": "Bermuda Triangle",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "chinese remainder theorem",
+    "geometry",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 964,
+  "problem_url": "https://codeforces.com/problemset/problem/2097/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2097/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2097/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2097C%20Bermuda%20Triangle%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2097C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bermuda Triangle - 题目详情 - Hydro",
+    "mirror_tags": [
+      "chinese remainder theorem",
+      "geometry",
+      "implementation",
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

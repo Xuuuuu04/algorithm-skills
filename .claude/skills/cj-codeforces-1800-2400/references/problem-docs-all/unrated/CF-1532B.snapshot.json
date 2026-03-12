@@ -1,0 +1,31 @@
+{
+  "id": "CF-1532B",
+  "contest_id": 1532,
+  "index": "B",
+  "name": "Frog Jumping",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "math"
+  ],
+  "solved_count": 828,
+  "problem_url": "https://codeforces.com/problemset/problem/1532/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1532/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1532/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1532B%20Frog%20Jumping%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1532B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Frog Jumping - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

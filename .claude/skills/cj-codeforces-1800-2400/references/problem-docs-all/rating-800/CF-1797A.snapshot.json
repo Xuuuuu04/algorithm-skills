@@ -1,0 +1,31 @@
+{
+  "id": "CF-1797A",
+  "contest_id": 1797,
+  "index": "A",
+  "name": "Li Hua and Maze",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "flows",
+    "graphs",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 19344,
+  "problem_url": "https://codeforces.com/problemset/problem/1797/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1797/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1797/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1797A%20Li%20Hua%20and%20Maze%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1797A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1797A Li Hua and Maze - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 205,
+    "mirror_attempt": 400,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CF-1088E",
+  "contest_id": 1088,
+  "index": "E",
+  "name": "Ehab and a component choosing problem",
+  "rating": 2400,
+  "tags": [
+    "dp",
+    "greedy",
+    "math",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1088/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1088/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1088/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1088E%20Ehab and a component choosing problem%20tutorial",
+  "solved_count": 1605,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1088E",
+  "hydro_meta": {
+    "page_title": "Ehab and a component choosing problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "math",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

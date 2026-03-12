@@ -1,0 +1,34 @@
+{
+  "id": "CF-1510B",
+  "contest_id": 1510,
+  "index": "B",
+  "name": "Button Lock",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "flows",
+    "graph matchings",
+    "graphs"
+  ],
+  "solved_count": 967,
+  "problem_url": "https://codeforces.com/problemset/problem/1510/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1510/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1510/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1510B%20Button%20Lock%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1510B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Button Lock - 题目详情 - Hydro",
+    "mirror_tags": [
+      "flows",
+      "graph matchings",
+      "graphs",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

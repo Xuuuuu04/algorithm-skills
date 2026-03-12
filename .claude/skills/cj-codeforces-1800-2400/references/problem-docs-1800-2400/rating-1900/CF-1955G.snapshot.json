@@ -1,0 +1,43 @@
+{
+  "id": "CF-1955G",
+  "contest_id": 1955,
+  "index": "G",
+  "name": "GCD on a grid",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "dp",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1955/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1955/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1955/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1955G%20GCD on a grid%20tutorial",
+  "solved_count": 5765,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1955G",
+  "hydro_meta": {
+    "page_title": "GCD on a grid - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "implementation",
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415130:lsoZs5YGB8q2T7h2YXC9tR/8+uOl1JXLph0Z5+9C9fg=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1690F Shifting String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1690F","type":"CF","title":"Shifting String","difficulty":4,"tags":[],"wantsTranslation":false,"totalSubmit":465,"totalAccepted":185,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Shifting String","background":null,"description":"Polycarp \u627e\u5230\u4e86\u4e00\u4e32\u5b57\u7b26\u4e32 $s$ \u548c\u4e00\u4e2a\u6392\u5217 $p$\u3002\u5b83\u4eec\u7684\u957f\u5ea6\u76f8\u540c\uff0c\u5747\u4e3a $n$\u3002\n\n\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217\uff0c\u662f\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4\uff0c\u5176\u4e2d\u6bcf\u4e2a\u6574\u6570 $1$ \u5230 $n$ \u6070\u597d\u51fa\u73b0\u4e00\u6b21\u3002\u4f8b\u5982\uff0c$[1, 2, 3]$ \u548c $[4, 3, 5, 1, 2]$ \u662f\u6392\u5217\uff0c\u4f46 $[1, 2, 4]$\u3001$[4, 3, 2, 1, 2]$ \u548c $[0, 1, 2]$ \u4e0d\u662f\u3002\n\n\u6bcf\u8fdb\u884c\u4e00\u6b21\u64cd\u4f5c\uff0c\u4ed6\u53ef\u4ee5\u7528\u6392\u5217 $p$ \u4f5c\u7528\u4e8e\u5b57\u7b26\u4e32 $s$\uff0c\u5373\u5c06 $s$ \u66ff\u6362\u4e3a\u65b0\u5b57\u7b26\u4e32 $new$\uff0c\u5176\u4e2d\u5bf9\u4e8e\u4efb\u610f $i$ \u6ee1\u8db3 $1 \\le i \\le n$\uff0c\u90fd\u6709 $new_i = s_{p_i}$\u3002\u4f8b\u5982\uff0c\u82e5 $s=wmbe$\uff0c$p = [3, 1, 4, 2]$\uff0c\u64cd\u4f5c\u540e\u5b57\u7b26\u4e32\u53d8\u4e3a $s=s_3 s_1 s_4 s_2=bwem$\u3002\n\nPolycarp \u60f3\u77e5\u9053\uff0c\u6700\u5c11\u7ecf\u8fc7\u591a\u5c11\u6b21\u64cd\u4f5c\u540e\uff0c\u5b57\u7b26\u4e32\u624d\u4f1a\u7b2c\u4e00\u6b21\u53d8\u56de\u6700\u521d\u7684\u6837\u5b50\u3002\u7531\u4e8e\u53ef\u80fd\u9700\u8981\u5f88\u591a\u6b21\u64cd\u4f5c\uff0c\u4ed6\u8bf7\u6c42\u4f60\u5e2e\u5fd9\u8ba1\u7b97\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u6240\u9700\u7684\u64cd\u4f5c\u6b21\u6570\u603b\u662f\u5b58\u5728\u3002\u7b54\u6848\u53ef\u80fd\u5f88\u5927\uff0c\u8bf7\u4f7f\u7528 64 \u4f4d\u6574\u6570\u7c7b\u578b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 5000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 200$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u548c\u6392\u5217\u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u4ec5\u5305\u542b\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e09\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570\uff0c\u8868\u793a\u6392\u5217 $p$\uff08$1 \\le p_i \\le n$\uff09\uff0c\u6240\u6709 $p_i$ \u4e92\u4e0d\u76f8\u540c\u3002","formatO":"\u8f93\u51fa $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5bf9\u5e94\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b54\u6848\u2014\u2014\u4f7f\u5b57\u7b26\u4e32 $s$ \u6062\u590d\u4e3a\u521d\u59cb\u72b6\u6001\u6240\u9700\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u64cd\u4f5c\u4e0d\u4f1a\u6539\u53d8\u5b57\u7b26\u4e32\uff0c\u56e0\u6b64\u53ea\u9700 $1$ \u6b21\u64cd\u4f5c\u5b57\u7b26\u4e32\u5c31\u4f1a\u6062\u590d\u539f\u72b6\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32\u53d8\u5316\u5982\u4e0b\uff1a\n\n- $s$ = babaa\n- $s$ = abaab\n- $s$ = baaba\n- $s$ = abbaa\n- $s$ = baaab\n- $s$ = ababa\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Shifting String","background":"","description":"Polycarp found the string $ s $ and the permutation $ p $ . Their lengths turned out to be the same and equal to $ n $ .\n\nA permutation of $ n $ elements \u2014 is an array of length $ n $ , in which every integer from $ 1 $ to $ n $ occurs exactly once. For example, $ [1, 2, 3] $ and $ [4, 3, 5, 1, 2] $ are permutations, but $ [1, 2, 4] $ , $ [4, 3, 2, 1, 2] $ and $ [0, 1, 2] $ are not.\n\nIn one operation he can multiply $ s $ by $ p $ , so he replaces $ s $ with string $ new $ , in which for any $ i $ from $ 1 $ to $ n $ it is true that $ new_i = s_{p_i} $ . For example, with $ s=wmbe $ and $ p = [3, 1, 4, 2] $ , after operation the string will turn to $ s=s_3 s_1 s_4 s_2=bwem $ .\n\nPolycarp wondered after how many operations the string would become equal to its initial value for the first time. Since it may take too long, he asks for your help in this matter.\n\nIt can be proved that the required number of operations always exists. It can be very large, so use a 64-bit integer type.","formatI":"The first line of input contains one integer $ t $ ( $ 1 \\le t \\le 5000 $ ) \u2014 the number of test cases in input.\n\nThe first line of each case contains single integer $ n $ ( $ 1 \\le n \\le 200 $ ) \u2014 the length of string and permutation.\n\nThe second line of each case contains a string $ s $ of length $ n $ , containing lowercase Latin letters.\n\nThe third line of each case contains $ n $ integers \u2014 permutation $ p $ ( $ 1 \\le p_i \\le n $ ), all $ p_i $ are different.","formatO":"Output $ t $ lines, each of which contains the answer to the corresponding test case of input. As an answer output single integer \u2014 the minimum number of operations, after which the string $ s $ will become the same as it was before operations.","hint":"In the first sample operation doesn\u0027t change the string, so it will become the same as it was after $ 1 $ operations.\n\nIn the second sample the string will change as follows:\n\n- $ s $ = babaa\n- $ s $ = abaab\n- $ s $ = baaba\n- $ s $ = abbaa\n- $ s $ = baaab\n- $ s $ = ababa","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n5\nababa\n3 4 5 2 1\n5\nababa\n2 1 4 5 3\n10\ncodeforces\n8 6 1 7 5 2 9 3 10 4","1\n6\n12"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"1690F","link":"https:\/\/codeforces.com\/problemset\/problem\/1690\/F"},"translation":"## \u9898\u610f\u7b80\u8ff0\n\n\u7ed9\u5b9a\u4e00\u957f\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\uff08\u4e0b\u6807\u4ece $1$ \u5f00\u59cb\uff09 \u4e0e $1\\sim n$ \u7684\u6392\u5217 $p$\u3002\u5b9a\u4e49 $s^0=s,s^k_i=s^{k-1}_{p_i}$\u3002\u6c42\u6700\u5c0f\u7684 $k\u003E0$ \u4f7f $s^k=s$\u3002$t$ \u7ec4\u6570\u636e\u3002\n\n- $t\\le 5000,n\\le200$\u3002"},"translations":{"en":{"name":"Shifting String","background":"","description":"Polycarp found the string $ s $ and the permutation $ p $ . Their lengths turned out to be the same and equal to $ n $ .\n\nA permutation of $ n $ elements \u2014 is an array of length $ n $ , in which every integer from $ 1 $ to $ n $ occurs exactly once. For example, $ [1, 2, 3] $ and $ [4, 3, 5, 1, 2] $ are permutations, but $ [1, 2, 4] $ , $ [4, 3, 2, 1, 2] $ and $ [0, 1, 2] $ are not.\n\nIn one operation he can multiply $ s $ by $ p $ , so he replaces $ s $ with string $ new $ , in which for any $ i $ from $ 1 $ to $ n $ it is true that $ new_i = s_{p_i} $ . For example, with $ s=wmbe $ and $ p = [3, 1, 4, 2] $ , after operation the string will turn to $ s=s_3 s_1 s_4 s_2=bwem $ .\n\nPolycarp wondered after how many operations the string would become equal to its initial value for the first time. Since it may take too long, he asks for your help in this matter.\n\nIt can be proved that the required number of operations always exists. It can be very large, so use a 64-bit integer type.","formatI":"The first line of input contains one integer $ t $ ( $ 1 \\le t \\le 5000 $ ) \u2014 the number of test cases in input.\n\nThe first line of each case contains single integer $ n $ ( $ 1 \\le n \\le 200 $ ) \u2014 the length of string and permutation.\n\nThe second line of each case contains a string $ s $ of length $ n $ , containing lowercase Latin letters.\n\nThe third line of each case contains $ n $ integers \u2014 permutation $ p $ ( $ 1 \\le p_i \\le n $ ), all $ p_i $ are different.","formatO":"Output $ t $ lines, each of which contains the answer to the corresponding test case of input. As an answer output single integer \u2014 the minimum number of operations, after which the string $ s $ will become the same as it was before operations.","hint":"In the first sample operation doesn\u0027t change the string, so it will become the same as it was after $ 1 $ operations.\n\nIn the second sample the string will change as follows:\n\n- $ s $ = babaa\n- $ s $ = abaab\n- $ s $ = baaba\n- $ s $ = abbaa\n- $ s $ = baaab\n- $ s $ = ababa","locale":"en"},"zh-CN":{"name":"Shifting String","background":null,"description":"Polycarp \u627e\u5230\u4e86\u4e00\u4e32\u5b57\u7b26\u4e32 $s$ \u548c\u4e00\u4e2a\u6392\u5217 $p$\u3002\u5b83\u4eec\u7684\u957f\u5ea6\u76f8\u540c\uff0c\u5747\u4e3a $n$\u3002\n\n\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217\uff0c\u662f\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4\uff0c\u5176\u4e2d\u6bcf\u4e2a\u6574\u6570 $1$ \u5230 $n$ \u6070\u597d\u51fa\u73b0\u4e00\u6b21\u3002\u4f8b\u5982\uff0c$[1, 2, 3]$ \u548c $[4, 3, 5, 1, 2]$ \u662f\u6392\u5217\uff0c\u4f46 $[1, 2, 4]$\u3001$[4, 3, 2, 1, 2]$ \u548c $[0, 1, 2]$ \u4e0d\u662f\u3002\n\n\u6bcf\u8fdb\u884c\u4e00\u6b21\u64cd\u4f5c\uff0c\u4ed6\u53ef\u4ee5\u7528\u6392\u5217 $p$ \u4f5c\u7528\u4e8e\u5b57\u7b26\u4e32 $s$\uff0c\u5373\u5c06 $s$ \u66ff\u6362\u4e3a\u65b0\u5b57\u7b26\u4e32 $new$\uff0c\u5176\u4e2d\u5bf9\u4e8e\u4efb\u610f $i$ \u6ee1\u8db3 $1 \\le i \\le n$\uff0c\u90fd\u6709 $new_i = s_{p_i}$\u3002\u4f8b\u5982\uff0c\u82e5 $s=wmbe$\uff0c$p = [3, 1, 4, 2]$\uff0c\u64cd\u4f5c\u540e\u5b57\u7b26\u4e32\u53d8\u4e3a $s=s_3 s_1 s_4 s_2=bwem$\u3002\n\nPolycarp \u60f3\u77e5\u9053\uff0c\u6700\u5c11\u7ecf\u8fc7\u591a\u5c11\u6b21\u64cd\u4f5c\u540e\uff0c\u5b57\u7b26\u4e32\u624d\u4f1a\u7b2c\u4e00\u6b21\u53d8\u56de\u6700\u521d\u7684\u6837\u5b50\u3002\u7531\u4e8e\u53ef\u80fd\u9700\u8981\u5f88\u591a\u6b21\u64cd\u4f5c\uff0c\u4ed6\u8bf7\u6c42\u4f60\u5e2e\u5fd9\u8ba1\u7b97\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u6240\u9700\u7684\u64cd\u4f5c\u6b21\u6570\u603b\u662f\u5b58\u5728\u3002\u7b54\u6848\u53ef\u80fd\u5f88\u5927\uff0c\u8bf7\u4f7f\u7528 64 \u4f4d\u6574\u6570\u7c7b\u578b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 5000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 200$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u548c\u6392\u5217\u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 $s$\uff0c\u4ec5\u5305\u542b\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e09\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570\uff0c\u8868\u793a\u6392\u5217 $p$\uff08$1 \\le p_i \\le n$\uff09\uff0c\u6240\u6709 $p_i$ \u4e92\u4e0d\u76f8\u540c\u3002","formatO":"\u8f93\u51fa $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5bf9\u5e94\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b54\u6848\u2014\u2014\u4f7f\u5b57\u7b26\u4e32 $s$ \u6062\u590d\u4e3a\u521d\u59cb\u72b6\u6001\u6240\u9700\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u64cd\u4f5c\u4e0d\u4f1a\u6539\u53d8\u5b57\u7b26\u4e32\uff0c\u56e0\u6b64\u53ea\u9700 $1$ \u6b21\u64cd\u4f5c\u5b57\u7b26\u4e32\u5c31\u4f1a\u6062\u590d\u539f\u72b6\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32\u53d8\u5316\u5982\u4e0b\uff1a\n\n- $s$ = babaa\n- $s$ = abaab\n- $s$ = baaba\n- $s$ = abbaa\n- $s$ = baaab\n- $s$ = ababa\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1690F Shifting String","type":2,"slug":"CF1690F","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328730.46934,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1690F Shifting String","description":"Polycarp \u627e\u5230\u4e86\u4e00\u4e32\u5b57\u7b26\u4e32 s \u548c\u4e00\u4e2a\u6392\u5217 p\u3002\u5b83\u4eec\u7684\u957f\u5ea6\u76f8\u540c\uff0c\u5747\u4e3a n\u3002\n\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6392\u5217\uff0c\u662f\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4\uff0c\u5176\u4e2d\u6bcf\u4e2a\u6574\u6570 1 \u5230 n \u6070\u597d\u51fa\u73b0\u4e00\u6b21\u3002\u4f8b\u5982\uff0c[1, 2, 3] \u548c [4, 3, 5, 1, 2] \u662f\u6392\u5217\uff0c\u4f46\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1690F" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1690F?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1690F?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1690F Shifting String" />
+    <meta property="og:description" content="Polycarp 找到了一串字符串 s 和一个排列 p。它们的长度相同，均为 n。
+一个长度为 n 的排列，是一个长度为 n 的数组，其中每个整数 1 到 n 恰好出现一次。例如，[1, 2, 3] 和 [4, 3, 5, 1, 2] 是排列，但…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1690F" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1690F Shifting String</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Polycarp 找到了一串字符串 $s$ 和一个排列 $p$。它们的长度相同，均为 $n$。
+
+一个长度为 $n$ 的排列，是一个长度为 $n$ 的数组，其中每个整数 $1$ 到 $n$ 恰好出现一次。例如，$[1, 2, 3]$ 和 $[4, 3, 5, 1, 2]$ 是排列，但 $[1, 2, 4]$、$[4, 3, 2, 1, 2]$ 和 $[0, 1, 2]$ 不是。
+
+每进行一次操作，他可以用排列 $p$ 作用于字符串 $s$，即将 $s$ 替换为新字符串 $new$，其中对于任意 $i$ 满足 $1 \le i \le n$，都有 $new_i = s_{p_i}$。例如，若 $s=wmbe$，$p = [3, 1, 4, 2]$，操作后字符串变为 $s=s_3 s_1 s_4 s_2=bwem$。
+
+Polycarp 想知道，最少经过多少次操作后，字符串才会第一次变回最初的样子。由于可能需要很多次操作，他请求你帮忙计算。
+
+可以证明，所需的操作次数总是存在。答案可能很大，请使用 64 位整数类型。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $t$（$1 \le t \le 5000$），表示测试用例的数量。
+
+每个测试用例的第一行包含一个整数 $n$（$1 \le n \le 200$），表示字符串和排列的长度。
+
+每个测试用例的第二行包含一个长度为 $n$ 的字符串 $s$，仅包含小写拉丁字母。
+
+每个测试用例的第三行包含 $n$ 个整数，表示排列 $p$（$1 \le p_i \le n$），所有 $p_i$ 互不相同。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出 $t$ 行，每行一个整数，表示对应测试用例的答案——使字符串 $s$ 恢复为初始状态所需的最小操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，操作不会改变字符串，因此只需 $1$ 次操作字符串就会恢复原状。
+
+在第二个样例中，字符串变化如下：
+
+- $s$ = babaa
+- $s$ = abaab
+- $s$ = baaba
+- $s$ = abbaa
+- $s$ = baaab
+- $s$ = ababa
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

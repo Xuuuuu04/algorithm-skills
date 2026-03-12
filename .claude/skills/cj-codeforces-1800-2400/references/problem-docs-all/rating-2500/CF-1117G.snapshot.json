@@ -1,0 +1,27 @@
+{
+  "id": "CF-1117G",
+  "contest_id": 1117,
+  "index": "G",
+  "name": "Recursive Queries",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 899,
+  "problem_url": "https://codeforces.com/problemset/problem/1117/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1117/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1117/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1117G%20Recursive%20Queries%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1117/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1117G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

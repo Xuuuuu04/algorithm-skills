@@ -1,0 +1,42 @@
+{
+  "id": "CF-2018D",
+  "contest_id": 2018,
+  "index": "D",
+  "name": "Max Plus Min Plus Size",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "dsu",
+    "greedy",
+    "implementation",
+    "matrices",
+    "sortings"
+  ],
+  "solved_count": 2152,
+  "problem_url": "https://codeforces.com/problemset/problem/2018/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2018/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2018/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2018D%20Max%20Plus%20Min%20Plus%20Size%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2018D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Max Plus Min Plus Size - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "dsu",
+      "greedy",
+      "implementation",
+      "matrices",
+      "sortings",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

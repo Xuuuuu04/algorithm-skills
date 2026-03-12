@@ -1,0 +1,42 @@
+{
+  "id": "CF-1214E",
+  "contest_id": 1214,
+  "index": "E",
+  "name": "Petya and Construction Set",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "math",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1214/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1214/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1214/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1214E%20Petya and Construction Set%20tutorial",
+  "solved_count": 2849,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1214E",
+  "hydro_meta": {
+    "page_title": "Petya and Construction Set - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "sortings",
+      "trees",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

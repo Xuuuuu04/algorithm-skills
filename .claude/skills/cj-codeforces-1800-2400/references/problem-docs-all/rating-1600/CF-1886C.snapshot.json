@@ -1,0 +1,33 @@
+{
+  "id": "CF-1886C",
+  "contest_id": 1886,
+  "index": "C",
+  "name": "Decreasing String",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 16014,
+  "problem_url": "https://codeforces.com/problemset/problem/1886/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1886/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1886/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1886C%20Decreasing%20String%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1886C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Decreasing String - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

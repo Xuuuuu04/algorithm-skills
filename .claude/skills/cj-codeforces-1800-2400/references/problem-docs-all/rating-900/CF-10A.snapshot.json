@@ -1,0 +1,27 @@
+{
+  "id": "CF-10A",
+  "contest_id": 10,
+  "index": "A",
+  "name": "Power Consumption Calculation",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 8245,
+  "problem_url": "https://codeforces.com/problemset/problem/10/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/10/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/10/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=10A%20Power%20Consumption%20Calculation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/10/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 10A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-229C",
+  "contest_id": 229,
+  "index": "C",
+  "name": "Triangles",
+  "rating": 1900,
+  "tags": [
+    "combinatorics",
+    "graphs",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/229/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/229/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/229/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=229C%20Triangles%20tutorial",
+  "solved_count": 1768,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P229C",
+  "hydro_meta": {
+    "page_title": "Triangles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "graphs",
+      "math",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

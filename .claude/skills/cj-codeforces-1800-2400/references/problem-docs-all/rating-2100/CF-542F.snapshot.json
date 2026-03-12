@@ -1,0 +1,32 @@
+{
+  "id": "CF-542F",
+  "contest_id": 542,
+  "index": "F",
+  "name": "Quest",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 991,
+  "problem_url": "https://codeforces.com/problemset/problem/542/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/542/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/542/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=542F%20Quest%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P542F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Quest - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

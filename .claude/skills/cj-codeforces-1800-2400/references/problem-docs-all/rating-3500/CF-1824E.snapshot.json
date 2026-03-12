@@ -1,0 +1,31 @@
+{
+  "id": "CF-1824E",
+  "contest_id": 1824,
+  "index": "E",
+  "name": "LuoTianyi and Cartridge",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures",
+    "trees"
+  ],
+  "solved_count": 179,
+  "problem_url": "https://codeforces.com/problemset/problem/1824/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1824/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1824/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1824E%20LuoTianyi%20and%20Cartridge%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1824E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "LuoTianyi and Cartridge - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "trees"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 3,
+    "time_limit": "3000ms",
+    "memory_limit": "1024MiB"
+  }
+}

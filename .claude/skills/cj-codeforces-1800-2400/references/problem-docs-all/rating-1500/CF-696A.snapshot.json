@@ -1,0 +1,36 @@
+{
+  "id": "CF-696A",
+  "contest_id": 696,
+  "index": "A",
+  "name": "Lorenzo Von Matterhorn",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 6432,
+  "problem_url": "https://codeforces.com/problemset/problem/696/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/696/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/696/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=696A%20Lorenzo%20Von%20Matterhorn%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P696A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Lorenzo Von Matterhorn - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "trees",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

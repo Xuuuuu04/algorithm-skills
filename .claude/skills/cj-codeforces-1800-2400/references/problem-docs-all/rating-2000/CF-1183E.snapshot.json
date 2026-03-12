@@ -1,0 +1,30 @@
+{
+  "id": "CF-1183E",
+  "contest_id": 1183,
+  "index": "E",
+  "name": "Subsequences (easy version)",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "graphs",
+    "implementation",
+    "shortest paths"
+  ],
+  "solved_count": 5384,
+  "problem_url": "https://codeforces.com/problemset/problem/1183/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1183/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1183/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1183E%20Subsequences%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1183E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1183E Subsequences (easy version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 206,
+    "mirror_attempt": 278,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

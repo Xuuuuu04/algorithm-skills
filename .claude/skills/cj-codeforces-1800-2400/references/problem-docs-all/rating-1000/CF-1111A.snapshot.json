@@ -1,0 +1,32 @@
+{
+  "id": "CF-1111A",
+  "contest_id": 1111,
+  "index": "A",
+  "name": "Superhero Transformation",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 17916,
+  "problem_url": "https://codeforces.com/problemset/problem/1111/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1111/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1111/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1111A%20Superhero%20Transformation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1111A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Superhero Transformation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

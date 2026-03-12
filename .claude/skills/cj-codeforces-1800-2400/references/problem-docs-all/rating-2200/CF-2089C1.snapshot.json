@@ -1,0 +1,36 @@
+{
+  "id": "CF-2089C1",
+  "contest_id": 2089,
+  "index": "C1",
+  "name": "Key of Like (Easy Version)",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "games",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 1370,
+  "problem_url": "https://codeforces.com/problemset/problem/2089/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2089/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2089/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2089C1%20Key%20of%20Like%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2089C1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Key of Like (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "games",
+      "math",
+      "probabilities",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

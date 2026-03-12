@@ -1,0 +1,28 @@
+{
+  "id": "CF-364B",
+  "contest_id": 364,
+  "index": "B",
+  "name": "Free Market",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 1244,
+  "problem_url": "https://codeforces.com/problemset/problem/364/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/364/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/364/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=364B%20Free%20Market%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF364B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF364B Free Market - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 154,
+    "mirror_attempt": 356,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-2023F",
+  "contest_id": 2023,
+  "index": "F",
+  "name": "Hills and Pits",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "math",
+    "matrices"
+  ],
+  "solved_count": 128,
+  "problem_url": "https://codeforces.com/problemset/problem/2023/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2023/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2023/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2023F%20Hills%20and%20Pits%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2023/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2023F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

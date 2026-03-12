@@ -1,0 +1,36 @@
+{
+  "id": "CF-1422E",
+  "contest_id": 1422,
+  "index": "E",
+  "name": "Minlexes",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 826,
+  "problem_url": "https://codeforces.com/problemset/problem/1422/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1422/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1422/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1422E%20Minlexes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1422E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Minlexes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "strings",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

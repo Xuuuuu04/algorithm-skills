@@ -1,0 +1,24 @@
+{
+  "id": "CF-1938C",
+  "contest_id": 1938,
+  "index": "C",
+  "name": "Bit Counting Sequence",
+  "rating": 1900,
+  "tags": [],
+  "url": "https://codeforces.com/problemset/problem/1938/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1938/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1938/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1938C%20Bit Counting Sequence%20tutorial",
+  "solved_count": 1815,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1938C",
+  "hydro_meta": {
+    "page_title": "__NO_TITLE__ - 题目详情 - Hydro",
+    "hydro_tags": [],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

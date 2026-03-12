@@ -1,0 +1,30 @@
+{
+  "id": "CF-1858C",
+  "contest_id": 1858,
+  "index": "C",
+  "name": "Yet Another Permutation Problem",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 25379,
+  "problem_url": "https://codeforces.com/problemset/problem/1858/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1858/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1858/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1858C%20Yet%20Another%20Permutation%20Problem%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1858/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1858C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CF-1795E",
+  "contest_id": 1795,
+  "index": "E",
+  "name": "Explosions?",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1795/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1795/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1795/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1795E%20Explosions?%20tutorial",
+  "solved_count": 2350,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1795E",
+  "hydro_meta": {
+    "page_title": "Explosions? - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

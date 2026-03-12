@@ -1,0 +1,35 @@
+{
+  "id": "CF-1753D",
+  "contest_id": 1753,
+  "index": "D",
+  "name": "The Beach",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1753/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1753/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1753/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1753D%20The Beach%20tutorial",
+  "solved_count": 2031,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1753D",
+  "hydro_meta": {
+    "page_title": "The Beach - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graphs",
+      "shortest paths"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

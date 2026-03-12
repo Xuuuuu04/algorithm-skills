@@ -1,0 +1,30 @@
+{
+  "id": "CF-2172E",
+  "contest_id": 2172,
+  "index": "E",
+  "name": "Number Maze",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 5510,
+  "problem_url": "https://codeforces.com/problemset/problem/2172/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2172/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2172/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2172E%20Number%20Maze%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2172E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Number Maze - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

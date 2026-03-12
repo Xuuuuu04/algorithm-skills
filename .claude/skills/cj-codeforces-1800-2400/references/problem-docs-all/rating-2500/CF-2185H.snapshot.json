@@ -1,0 +1,38 @@
+{
+  "id": "CF-2185H",
+  "contest_id": 2185,
+  "index": "H",
+  "name": "BattleCows 2",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 570,
+  "problem_url": "https://codeforces.com/problemset/problem/2185/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/2185/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2185/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2185H%20BattleCows%202%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2185H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "BattleCows 2 - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

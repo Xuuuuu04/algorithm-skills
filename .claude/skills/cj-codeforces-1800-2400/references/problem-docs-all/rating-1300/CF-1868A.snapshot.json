@@ -1,0 +1,28 @@
+{
+  "id": "CF-1868A",
+  "contest_id": 1868,
+  "index": "A",
+  "name": "Fill in the Matrix",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 13523,
+  "problem_url": "https://codeforces.com/problemset/problem/1868/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1868/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1868/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1868A%20Fill%20in%20the%20Matrix%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1868/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1868A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

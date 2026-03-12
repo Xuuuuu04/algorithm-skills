@@ -1,0 +1,44 @@
+{
+  "id": "CF-557C",
+  "contest_id": 557,
+  "index": "C",
+  "name": "Arthur and Table",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/557/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/557/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/557/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=557C%20Arthur and Table%20tutorial",
+  "solved_count": 4195,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P557C",
+  "hydro_meta": {
+    "page_title": "Arthur and Table - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

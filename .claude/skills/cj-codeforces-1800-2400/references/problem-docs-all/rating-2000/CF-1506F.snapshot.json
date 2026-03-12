@@ -1,0 +1,38 @@
+{
+  "id": "CF-1506F",
+  "contest_id": 1506,
+  "index": "F",
+  "name": "Triangular Paths",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "math",
+    "shortest paths",
+    "sortings"
+  ],
+  "solved_count": 3661,
+  "problem_url": "https://codeforces.com/problemset/problem/1506/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1506/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1506/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1506F%20Triangular%20Paths%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1506F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Triangular Paths - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "shortest paths",
+      "sortings",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417190:u6SQtRFFsqMJGuZseV8Bl8vnMoGRm9x7OxAvmk2JA1M=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1194A Remove a Progression - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1194A","type":"CF","title":"Remove a Progression","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":435,"totalAccepted":303,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Remove a Progression","background":"","description":"\u4f60\u6709\u4e00\u6bb5\u4ece $1$ \u5230 $n$ \u7684\u6b63\u6574\u6570\u5e8f\u5217\n\n\u4f60\u4f1a\u5bf9\u8fd9\u4e2a\u5e8f\u5217\u8fdb\u884c\u82e5\u5e72\u6b21\u64cd\u4f5c\uff0c\u5bf9\u4e8e\u7b2c $i$ \u6b21\u64cd\u4f5c\uff0c\u4f60\u5c06\u4f1a\u64e6\u53bb\u5728\u5f53\u524d\u5e8f\u5217\u4e2d\u7b2c $i$ \u4e2a\u6570 (\u4ec5\u8003\u8651\u672a\u88ab\u64e6\u53bb\u7684\u6570)\u3002\u5f53\u5e8f\u5217\u7684\u957f\u5ea6\u4e0d\u8db3 $i$ \u65f6\uff0c\u505c\u6b62\u64cd\u4f5c\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\u5728\u6240\u6709\u64cd\u4f5c\u7ed3\u675f\u540e\uff0c\u7b2c $x$ \u4e2a\u6570\u7684\u503c","formatI":"\u591a\u7ec4\u6570\u636e\n\n\u7b2c\u4e00\u884c\u5305\u62ec\u4e00\u4e2a\u6b63\u6574\u6570 $T (1 \\leq T \\leq 100)$\uff0c\u63cf\u8ff0\u4e86\u6570\u636e\u7684\u7ec4\u6570\n\n\u5728\u63a5\u4e0b\u6765\u7684 $T$ \u884c\u4e2d\uff0c\u6bcf\u884c\u5305\u62ec\u4e24\u4e2a\u6574\u6570 $n, x (1 \\leq x \u003C n \\leq 10^9)$\uff0c\u610f\u4e49\u5982\u4e0a\u6240\u8ff0","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\uff0c\u8981\u6c42\u5982\u4e0a\u6240\u8ff0","hint":"","locale":"zh-CN"},"content":{"name":"Remove a Progression","background":"","description":"You have a list of numbers from $ 1 $ to $ n $ written from left to right on the blackboard.\n\nYou perform an algorithm consisting of several steps (steps are $ 1 $ -indexed). On the $ i $ -th step you wipe the $ i $ -th number (considering only remaining numbers). You wipe the whole number (not one digit).\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1194A\/1fef43ef3a7703b133fc5ede3191b9094cf55aaa.png)When there are less than $ i $ numbers remaining, you stop your algorithm.\n\nNow you wonder: what is the value of the $ x $ -th remaining number after the algorithm is stopped?","formatI":"The first line contains one integer $ T $ ( $ 1 \\le T \\le 100 $ ) \u2014 the number of queries. The next $ T $ lines contain queries \u2014 one per line. All queries are independent.\n\nEach line contains two space-separated integers $ n $ and $ x $ ( $ 1 \\le x \u003C n \\le 10^{9} $ ) \u2014 the length of the list and the position we wonder about. It\u0027s guaranteed that after the algorithm ends, the list will still contain at least $ x $ numbers.","formatO":"Print $ T $ integers (one per query) \u2014 the values of the $ x $ -th number after performing the algorithm for the corresponding queries.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3 1\n4 2\n69 6\n","2\n4\n12\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1194A","link":"https:\/\/codeforces.com\/problemset\/problem\/1194\/A"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\n\u4f60\u6709\u4e00\u6bb5\u4ece $1$ \u5230 $n$ \u7684\u6b63\u6574\u6570\u5e8f\u5217\n\n\u4f60\u4f1a\u5bf9\u8fd9\u4e2a\u5e8f\u5217\u8fdb\u884c\u82e5\u5e72\u6b21\u64cd\u4f5c\uff0c\u5bf9\u4e8e\u7b2c $i$ \u6b21\u64cd\u4f5c\uff0c\u4f60\u5c06\u4f1a\u64e6\u53bb\u5728\u5f53\u524d\u5e8f\u5217\u4e2d\u7b2c $i$ \u4e2a\u6570 (\u4ec5\u8003\u8651\u672a\u88ab\u64e6\u53bb\u7684\u6570)\u3002\u5f53\u5e8f\u5217\u7684\u957f\u5ea6\u4e0d\u8db3 $i$ \u65f6\uff0c\u505c\u6b62\u64cd\u4f5c\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\u5728\u6240\u6709\u64cd\u4f5c\u7ed3\u675f\u540e\uff0c\u7b2c $x$ \u4e2a\u6570\u7684\u503c\n\n## \u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n\n### \u8f93\u5165\u683c\u5f0f\n\n\u591a\u7ec4\u6570\u636e\n\n\u7b2c\u4e00\u884c\u5305\u62ec\u4e00\u4e2a\u6b63\u6574\u6570 $T (1 \\leq T \\leq 100)$\uff0c\u63cf\u8ff0\u4e86\u6570\u636e\u7684\u7ec4\u6570\n\n\u5728\u63a5\u4e0b\u6765\u7684 $T$ \u884c\u4e2d\uff0c\u6bcf\u884c\u5305\u62ec\u4e24\u4e2a\u6574\u6570 $n, x (1 \\leq x \u003C n \\leq 10^9)$\uff0c\u610f\u4e49\u5982\u4e0a\u6240\u8ff0\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\uff0c\u8981\u6c42\u5982\u4e0a\u6240\u8ff0"},"translations":{"en":{"name":"Remove a Progression","background":"","description":"You have a list of numbers from $ 1 $ to $ n $ written from left to right on the blackboard.\n\nYou perform an algorithm consisting of several steps (steps are $ 1 $ -indexed). On the $ i $ -th step you wipe the $ i $ -th number (considering only remaining numbers). You wipe the whole number (not one digit).\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1194A\/1fef43ef3a7703b133fc5ede3191b9094cf55aaa.png)When there are less than $ i $ numbers remaining, you stop your algorithm.\n\nNow you wonder: what is the value of the $ x $ -th remaining number after the algorithm is stopped?","formatI":"The first line contains one integer $ T $ ( $ 1 \\le T \\le 100 $ ) \u2014 the number of queries. The next $ T $ lines contain queries \u2014 one per line. All queries are independent.\n\nEach line contains two space-separated integers $ n $ and $ x $ ( $ 1 \\le x \u003C n \\le 10^{9} $ ) \u2014 the length of the list and the position we wonder about. It\u0027s guaranteed that after the algorithm ends, the list will still contain at least $ x $ numbers.","formatO":"Print $ T $ integers (one per query) \u2014 the values of the $ x $ -th number after performing the algorithm for the corresponding queries.","hint":"","locale":"en"},"zh-CN":{"name":"Remove a Progression","background":"","description":"\u4f60\u6709\u4e00\u6bb5\u4ece $1$ \u5230 $n$ \u7684\u6b63\u6574\u6570\u5e8f\u5217\n\n\u4f60\u4f1a\u5bf9\u8fd9\u4e2a\u5e8f\u5217\u8fdb\u884c\u82e5\u5e72\u6b21\u64cd\u4f5c\uff0c\u5bf9\u4e8e\u7b2c $i$ \u6b21\u64cd\u4f5c\uff0c\u4f60\u5c06\u4f1a\u64e6\u53bb\u5728\u5f53\u524d\u5e8f\u5217\u4e2d\u7b2c $i$ \u4e2a\u6570 (\u4ec5\u8003\u8651\u672a\u88ab\u64e6\u53bb\u7684\u6570)\u3002\u5f53\u5e8f\u5217\u7684\u957f\u5ea6\u4e0d\u8db3 $i$ \u65f6\uff0c\u505c\u6b62\u64cd\u4f5c\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\u5728\u6240\u6709\u64cd\u4f5c\u7ed3\u675f\u540e\uff0c\u7b2c $x$ \u4e2a\u6570\u7684\u503c","formatI":"\u591a\u7ec4\u6570\u636e\n\n\u7b2c\u4e00\u884c\u5305\u62ec\u4e00\u4e2a\u6b63\u6574\u6570 $T (1 \\leq T \\leq 100)$\uff0c\u63cf\u8ff0\u4e86\u6570\u636e\u7684\u7ec4\u6570\n\n\u5728\u63a5\u4e0b\u6765\u7684 $T$ \u884c\u4e2d\uff0c\u6bcf\u884c\u5305\u62ec\u4e24\u4e2a\u6574\u6570 $n, x (1 \\leq x \u003C n \\leq 10^9)$\uff0c\u610f\u4e49\u5982\u4e0a\u6240\u8ff0","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\uff0c\u8981\u6c42\u5982\u4e0a\u6240\u8ff0","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1194A Remove a Progression","type":2,"slug":"CF1194A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330790.823614,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1194A Remove a Progression","description":"\u4f60\u6709\u4e00\u6bb5\u4ece 1 \u5230 n \u7684\u6b63\u6574\u6570\u5e8f\u5217\n\u4f60\u4f1a\u5bf9\u8fd9\u4e2a\u5e8f\u5217\u8fdb\u884c\u82e5\u5e72\u6b21\u64cd\u4f5c\uff0c\u5bf9\u4e8e\u7b2c i \u6b21\u64cd\u4f5c\uff0c\u4f60\u5c06\u4f1a\u64e6\u53bb\u5728\u5f53\u524d\u5e8f\u5217\u4e2d\u7b2c i \u4e2a\u6570 (\u4ec5\u8003\u8651\u672a\u88ab\u64e6\u53bb\u7684\u6570)\u3002\u5f53\u5e8f\u5217\u7684\u957f\u5ea6\u4e0d\u8db3 i \u65f6\uff0c\u505c\u6b62\u64cd\u4f5c\n\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\u5728\u6240\u6709\u64cd\u4f5c\u7ed3\u675f\u540e\uff0c\u7b2c x \u4e2a\u6570\u7684\u503c"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1194A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1194A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1194A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1194A Remove a Progression" />
+    <meta property="og:description" content="你有一段从 1 到 n 的正整数序列
+你会对这个序列进行若干次操作，对于第 i 次操作，你将会擦去在当前序列中第 i 个数 (仅考虑未被擦去的数)。当序列的长度不足 i 时，停止操作
+你的任务是求出在所有操作结束后，第 x 个数的值" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1194A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1194A Remove a Progression</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你有一段从 $1$ 到 $n$ 的正整数序列
+
+你会对这个序列进行若干次操作，对于第 $i$ 次操作，你将会擦去在当前序列中第 $i$ 个数 (仅考虑未被擦去的数)。当序列的长度不足 $i$ 时，停止操作
+
+你的任务是求出在所有操作结束后，第 $x$ 个数的值
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    多组数据
+
+第一行包括一个正整数 $T (1 \leq T \leq 100)$，描述了数据的组数
+
+在接下来的 $T$ 行中，每行包括两个整数 $n, x (1 \leq x < n \leq 10^9)$，意义如上所述
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组数据，输出一行，要求如上所述
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "id": "CF-1194E",
+  "contest_id": 1194,
+  "index": "E",
+  "name": "Count The Rectangles",
+  "rating": 2200,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "data structures",
+    "geometry",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1194/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1194/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1194/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1194E%20Count The Rectangles%20tutorial",
+  "solved_count": 2030,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1194E",
+  "hydro_meta": {
+    "page_title": "Count The Rectangles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "brute force",
+      "data structures",
+      "geometry",
+      "sortings",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

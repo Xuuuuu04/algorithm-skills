@@ -1,0 +1,34 @@
+{
+  "id": "CF-1517B",
+  "contest_id": 1517,
+  "index": "B",
+  "name": "Morning Jogging",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 13783,
+  "problem_url": "https://codeforces.com/problemset/problem/1517/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1517/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1517/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1517B%20Morning%20Jogging%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1517B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Morning Jogging - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

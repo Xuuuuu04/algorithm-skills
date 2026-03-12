@@ -1,0 +1,28 @@
+{
+  "id": "CF-1937A",
+  "contest_id": 1937,
+  "index": "A",
+  "name": "Shuffle Party",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 24530,
+  "problem_url": "https://codeforces.com/problemset/problem/1937/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1937/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1937/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1937A%20Shuffle%20Party%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1937A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1937A Shuffle Party - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 162,
+    "mirror_attempt": 229,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

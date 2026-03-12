@@ -1,0 +1,27 @@
+{
+  "id": "CF-1452A",
+  "contest_id": 1452,
+  "index": "A",
+  "name": "Robot Program",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 22887,
+  "problem_url": "https://codeforces.com/problemset/problem/1452/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1452/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1452/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1452A%20Robot%20Program%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1452/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1452A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

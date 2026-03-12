@@ -1,0 +1,68 @@
+{
+  "source": "public_slot_api",
+  "title": "2025华为算法大赛",
+  "url": "https://www.chaspark.com/#/races/contests/1171260135315832832?multi=zh",
+  "difficulty": "Hard",
+  "tags": [
+    "homeRaces"
+  ],
+  "core_idea": "待补充",
+  "pitfalls": "待补充",
+  "raw": {
+    "hwUsers": true,
+    "customCover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1174425321086038016.png?state=2",
+    "contentId": "1171260135315832832",
+    "creatorName": "科技赛事",
+    "isIntraLink": true,
+    "description": {
+      "en": "Since the first algorithm contest in 2021 and the first AI algorithm contest in 2023 were held, the two contests have attracted many enthusiasts and experts inside and outside the company. To further improve algorithm capabilities, train and identify talent, create an atmosphere in which everyone learns AI and everyone understands AI, integrate AI with traditional industries, and solve industry challenges, the original algorithm contest and the original AI algorithm contest will be held together from 2025. The newly merged algorithm competition will be held from August to September 2025.",
+      "zh": "自2021年首届算法大赛、2023年首届AI算法大赛举办以来，两个大赛吸引了公司内外众多爱好者和专家的参与。为了进一步促进算法能力提升，锻炼和识别人才，营造人人学AI，人人懂AI的氛围，把AI与传统行业结合，解决产业难题，自2025年起原算法大赛和原AI算法大赛将合并举办，新合并的算法大赛将于2025年8月~9月举办。"
+    },
+    "customTitle": {
+      "en": "2025 Huawei Algorithm Contest",
+      "zh": "2025华为算法大赛"
+    },
+    "videos": [],
+    "creatorNid": "831602189204701185",
+    "title": "2025华为算法大赛",
+    "auditState": 2,
+    "isEssence": 0,
+    "actualContentId": "1171260135315832832",
+    "cover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1171260376404168704.jpg?state=2",
+    "columnRoute": "https://www.chaspark.com/#/races/contests",
+    "startTime": "1754409600",
+    "columnTypeName": "最新赛事",
+    "hasVoice": false,
+    "contentType": 0,
+    "registrationDeadline": "1756655999",
+    "publishTime": "1754463798",
+    "images": [],
+    "creatorType": "2",
+    "isShowEssence": 1,
+    "domains": [
+      {
+        "isLabel": 0,
+        "domainName": "人工智能领域",
+        "channel": 0,
+        "domainId": "8"
+      },
+      {
+        "isLabel": 0,
+        "domainName": "计算与存储领域",
+        "channel": 0,
+        "domainId": "1141950491274665986"
+      }
+    ],
+    "sort": 556,
+    "columnType": "races",
+    "showTable": [],
+    "slotContentUpdateTime": "1762418045",
+    "location": "华为成都研究所",
+    "racesLink": "https://www.chaspark.com/#/races/contests/1171260135315832832?multi=zh",
+    "slotContentId": "1126592802649312574",
+    "detailUrl": "https://www.chaspark.com/#/races/contests/1171260135315832832?multi=zh",
+    "endTime": "1759075199",
+    "position": "",
+    "customLink": "https://www.chaspark.com/#/races/contests/1171260135315832832?multi=zh"
+  }
+}

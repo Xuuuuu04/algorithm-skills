@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414526:Cd7dCpaI3NmWym+0sARJbDVVHrU0k+8XAhuvI54aEW4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2207B One Night At Freddy&#039;s - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2207B","type":"CF","title":"One Night At Freddy\u0027s","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":null,"content":{"name":"One Night At Freddy\u0027s","background":null,"description":" [Five Nights at Freddy\u0027s 1 Song \u2014 The Living Tombstone ](https:\/\/www.youtube.com\/watch?v=l18A5BOTlzE\u0026t=6s)Let  $ n, m, \\ell $  be positive integers. You have made the unfortunate decision to work as a night guard at Freddy Fazbear\u0027s Pizzeria, where there are  $ m $  animatronics numbered  $ 1, \\ldots, m $  waiting to jumpscare you.\n\nThe night consists of  $ \\ell $  seconds, numbered  $ 1, \\ldots, \\ell $ . The  $ j $ -th of the  $ m $  animatronics has a danger level  $ d_j $ , and initially  $ d_1 = \\ldots = d_m = 0 $ . Every second, the danger level of exactly one animatronic will increase by  $ 1 $ , and throughout the night, you are able to observe all values of  $ d_j $  at the current time. For example, if  $ m = 2 $ , one possible list of danger levels after  $ 5 $  seconds is  $ [d_1, d_2] = [2, 3] $ .\n\nYou are not defenseless, however. At each of the  $ n $  fixed times  $ a_i $  ( $ 1 \\leq a_1  \\lt  \\ldots  \\lt  a_n \\leq \\ell $ ), you can shine your flashlight on exactly one animatronic  $ j_i $  of your choice. This occurs immediately after the  $ a_i $ -th second and sets its danger level back to zero, i.e.  $ d_{j_i} := 0 $ . Note that this choice is made independently for each flashlight use  $ a_i $ . Continuing the example from before, if  $ a_1 = 5 $  and you choose to flash the second animatronic at that time, the danger levels after  $ 5 $  seconds will be  $ [d_1, d_2] = [2, 0] $ .\n\nLet the overall danger be the maximum danger across all animatronics, i.e.  $ \\max_{1 \\leq j \\leq m} d_j $ . You will lose if the overall danger at the end of the night (after  $ \\ell $  seconds) is greater than  $ x $ . Find the minimum value of  $ x $  such that regardless of the actions of the animatronics, you can guarantee that overall danger will be less than or equal  $ x $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains three integers  $ n $ ,  $ m $ , and  $ \\ell $  ( $ 1 \\leq n, m, \\ell \\leq 2 \\cdot 10^5, n \\leq \\ell, 1 \\leq m \\cdot \\ell \\leq 2 \\cdot 10^5 $ ) \u2014 the number of flashlight actions, animatronics, and the length of the night, respectively.\n\nThe next line contains  $ n $  integers  $ a_i $  ( $ 1 \\leq a_1  \\lt  \\ldots  \\lt  a_n \\leq \\ell $ ) \u2014 the times at which you get to shine your flashlight.\n\nIt is guaranteed that the sum of  $ m \\cdot \\ell $  over all test cases does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a single integer \u2014 the minimum  $ x $  such that you can guarantee that your final danger level is at most  $ x $ .","hint":"In the first test case, there are  $ 2 $  animatronics and a night length of  $ 10 $ , and you get to flash after the  $ 10 $ -th second. We will show that  $ x = 5 $  is always possible. After  $ 10 $  seconds, notice that one animatronic must have at least  $ 5 $  danger, and the other must have at most  $ 5 $  danger. So, we can flash the higher one and get a final danger level at most  $ 5 $ . It can be shown that  $ 5 $  is the minimum possible value of  $ x $ .\n\nIn the second test case, there is only one animatronic and a night length of  $ 32 $ . Notice that in this case, the animatronic just increments its danger by  $ 1 $  each second. So, after the  $ 25 $ -th second, we reset its danger to  $ 0 $ . Seven more seconds pass before the night ends, so the final danger we get is always  $ 7 $ .\n\nIn the third test case, it can be proven that the minimum possible value of  $ x $  is  $ 19 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\n1 2 10\n10\n5 1 32\n1 4 9 16 25\n2 3 40\n13 37\n2 2 7\n6 7\n8 5 60\n3 17 20 28 36 44 45 50\n6 7 1987\n6 7 66 77 666 777\n1 1 1\n1","5\n7\n19\n1\n19\n1477\n0"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2207B","link":"https:\/\/codeforces.com\/problemset\/problem\/2207\/B"},"translation":null},"translations":{"en":{"name":"One Night At Freddy\u0027s","background":null,"description":" [Five Nights at Freddy\u0027s 1 Song \u2014 The Living Tombstone ](https:\/\/www.youtube.com\/watch?v=l18A5BOTlzE\u0026t=6s)Let  $ n, m, \\ell $  be positive integers. You have made the unfortunate decision to work as a night guard at Freddy Fazbear\u0027s Pizzeria, where there are  $ m $  animatronics numbered  $ 1, \\ldots, m $  waiting to jumpscare you.\n\nThe night consists of  $ \\ell $  seconds, numbered  $ 1, \\ldots, \\ell $ . The  $ j $ -th of the  $ m $  animatronics has a danger level  $ d_j $ , and initially  $ d_1 = \\ldots = d_m = 0 $ . Every second, the danger level of exactly one animatronic will increase by  $ 1 $ , and throughout the night, you are able to observe all values of  $ d_j $  at the current time. For example, if  $ m = 2 $ , one possible list of danger levels after  $ 5 $  seconds is  $ [d_1, d_2] = [2, 3] $ .\n\nYou are not defenseless, however. At each of the  $ n $  fixed times  $ a_i $  ( $ 1 \\leq a_1  \\lt  \\ldots  \\lt  a_n \\leq \\ell $ ), you can shine your flashlight on exactly one animatronic  $ j_i $  of your choice. This occurs immediately after the  $ a_i $ -th second and sets its danger level back to zero, i.e.  $ d_{j_i} := 0 $ . Note that this choice is made independently for each flashlight use  $ a_i $ . Continuing the example from before, if  $ a_1 = 5 $  and you choose to flash the second animatronic at that time, the danger levels after  $ 5 $  seconds will be  $ [d_1, d_2] = [2, 0] $ .\n\nLet the overall danger be the maximum danger across all animatronics, i.e.  $ \\max_{1 \\leq j \\leq m} d_j $ . You will lose if the overall danger at the end of the night (after  $ \\ell $  seconds) is greater than  $ x $ . Find the minimum value of  $ x $  such that regardless of the actions of the animatronics, you can guarantee that overall danger will be less than or equal  $ x $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains three integers  $ n $ ,  $ m $ , and  $ \\ell $  ( $ 1 \\leq n, m, \\ell \\leq 2 \\cdot 10^5, n \\leq \\ell, 1 \\leq m \\cdot \\ell \\leq 2 \\cdot 10^5 $ ) \u2014 the number of flashlight actions, animatronics, and the length of the night, respectively.\n\nThe next line contains  $ n $  integers  $ a_i $  ( $ 1 \\leq a_1  \\lt  \\ldots  \\lt  a_n \\leq \\ell $ ) \u2014 the times at which you get to shine your flashlight.\n\nIt is guaranteed that the sum of  $ m \\cdot \\ell $  over all test cases does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a single integer \u2014 the minimum  $ x $  such that you can guarantee that your final danger level is at most  $ x $ .","hint":"In the first test case, there are  $ 2 $  animatronics and a night length of  $ 10 $ , and you get to flash after the  $ 10 $ -th second. We will show that  $ x = 5 $  is always possible. After  $ 10 $  seconds, notice that one animatronic must have at least  $ 5 $  danger, and the other must have at most  $ 5 $  danger. So, we can flash the higher one and get a final danger level at most  $ 5 $ . It can be shown that  $ 5 $  is the minimum possible value of  $ x $ .\n\nIn the second test case, there is only one animatronic and a night length of  $ 32 $ . Notice that in this case, the animatronic just increments its danger by  $ 1 $  each second. So, after the  $ 25 $ -th second, we reset its danger to  $ 0 $ . Seven more seconds pass before the night ends, so the final danger we get is always  $ 7 $ .\n\nIn the third test case, it can be proven that the minimum possible value of  $ x $  is  $ 19 $ .","locale":"en"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2207B One Night At Freddy\u0027s","type":2,"slug":"CF2207B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.987324,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2207B One Night At Freddy's","description":"Five Nights at Freddy's 1 Song \u2014 The Living Tombstone Let   n, m, \\ell   be positive integers. You have made the unfortunate\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2207B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2207B?lang=en" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2207B One Night At Freddy&#039;s" />
+    <meta property="og:description" content="Five Nights at Freddy&#039;s 1 Song — The Living Tombstone Let   n, m, \ell   be positive integers. You have made the unfortunate…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2207B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="en">
+        <h1>CF2207B One Night At Freddy&#039;s</h1>
+
+        
+        <section>
+            <h2>Description</h2>
+            <div>
+                                     [Five Nights at Freddy's 1 Song — The Living Tombstone ](https://www.youtube.com/watch?v=l18A5BOTlzE&t=6s)Let  $ n, m, \ell $  be positive integers. You have made the unfortunate decision to work as a night guard at Freddy Fazbear's Pizzeria, where there are  $ m $  animatronics numbered  $ 1, \ldots, m $  waiting to jumpscare you.
+
+The night consists of  $ \ell $  seconds, numbered  $ 1, \ldots, \ell $ . The  $ j $ -th of the  $ m $  animatronics has a danger level  $ d_j $ , and initially  $ d_1 = \ldots = d_m = 0 $ . Every second, the danger level of exactly one animatronic will increase by  $ 1 $ , and throughout the night, you are able to observe all values of  $ d_j $  at the current time. For example, if  $ m = 2 $ , one possible list of danger levels after  $ 5 $  seconds is  $ [d_1, d_2] = [2, 3] $ .
+
+You are not defenseless, however. At each of the  $ n $  fixed times  $ a_i $  ( $ 1 \leq a_1  \lt  \ldots  \lt  a_n \leq \ell $ ), you can shine your flashlight on exactly one animatronic  $ j_i $  of your choice. This occurs immediately after the  $ a_i $ -th second and sets its danger level back to zero, i.e.  $ d_{j_i} := 0 $ . Note that this choice is made independently for each flashlight use  $ a_i $ . Continuing the example from before, if  $ a_1 = 5 $  and you choose to flash the second animatronic at that time, the danger levels after  $ 5 $  seconds will be  $ [d_1, d_2] = [2, 0] $ .
+
+Let the overall danger be the maximum danger across all animatronics, i.e.  $ \max_{1 \leq j \leq m} d_j $ . You will lose if the overall danger at the end of the night (after  $ \ell $  seconds) is greater than  $ x $ . Find the minimum value of  $ x $  such that regardless of the actions of the animatronics, you can guarantee that overall danger will be less than or equal  $ x $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Input Format</h2>
+            <div>
+                                    Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \le t \le 10^4 $ ). The description of the test cases follows.
+
+The first line of each test case contains three integers  $ n $ ,  $ m $ , and  $ \ell $  ( $ 1 \leq n, m, \ell \leq 2 \cdot 10^5, n \leq \ell, 1 \leq m \cdot \ell \leq 2 \cdot 10^5 $ ) — the number of flashlight actions, animatronics, and the length of the night, respectively.
+
+The next line contains  $ n $  integers  $ a_i $  ( $ 1 \leq a_1  \lt  \ldots  \lt  a_n \leq \ell $ ) — the times at which you get to shine your flashlight.
+
+It is guaranteed that the sum of  $ m \cdot \ell $  over all test cases does not exceed  $ 2 \cdot 10^5 $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Output Format</h2>
+            <div>
+                                    For each test case, output a single integer — the minimum  $ x $  such that you can guarantee that your final danger level is at most  $ x $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Explanation/Hint</h2>
+            <div>
+                In the first test case, there are  $ 2 $  animatronics and a night length of  $ 10 $ , and you get to flash after the  $ 10 $ -th second. We will show that  $ x = 5 $  is always possible. After  $ 10 $  seconds, notice that one animatronic must have at least  $ 5 $  danger, and the other must have at most  $ 5 $  danger. So, we can flash the higher one and get a final danger level at most  $ 5 $ . It can be shown that  $ 5 $  is the minimum possible value of  $ x $ .
+
+In the second test case, there is only one animatronic and a night length of  $ 32 $ . Notice that in this case, the animatronic just increments its danger by  $ 1 $  each second. So, after the  $ 25 $ -th second, we reset its danger to  $ 0 $ . Seven more seconds pass before the night ends, so the final danger we get is always  $ 7 $ .
+
+In the third test case, it can be proven that the minimum possible value of  $ x $  is  $ 19 $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

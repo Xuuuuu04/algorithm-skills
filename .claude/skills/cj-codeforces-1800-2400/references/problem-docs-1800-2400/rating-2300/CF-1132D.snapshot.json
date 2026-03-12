@@ -1,0 +1,34 @@
+{
+  "id": "CF-1132D",
+  "contest_id": 1132,
+  "index": "D",
+  "name": "Stressful Training",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1132/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1132/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1132/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1132D%20Stressful Training%20tutorial",
+  "solved_count": 2240,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1132D",
+  "hydro_meta": {
+    "page_title": "Stressful Training - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "greedy",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

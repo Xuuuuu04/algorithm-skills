@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415135:sX5B3YYD5l7VhuVYZul+Fv6c2txHaLFHbvnpiocPWp0=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2009F Firefly&#039;s Queries - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2009F","type":"CF","title":"Firefly\u0027s Queries","difficulty":3,"tags":[254],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Firefly\u0027s Queries","background":null,"description":"Firefly \u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\u3002\u4ee4 $c_i$ \u8868\u793a $a$ \u7684\u7b2c $i$ \u6b21\u5faa\u73af\u79fb\u4f4d$^{\\text{\u2217}}$\u3002\u5979\u521b\u5efa\u4e86\u4e00\u4e2a\u65b0\u6570\u7ec4 $b$\uff0c\u4f7f\u5f97 $b = c_1 + c_2 + \\dots + c_n$\uff0c\u5176\u4e2d $+$ \u8868\u793a\u62fc\u63a5$^{\\text{\u2020}}$\u3002\n\n\u63a5\u7740\uff0c\u5979\u4f1a\u7ed9\u4f60 $q$ \u4e2a\u8be2\u95ee\u3002\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u8f93\u51fa $b$ \u7684\u4ece\u7b2c $l$ \u4e2a\u5143\u7d20\u5230\u7b2c $r$ \u4e2a\u5143\u7d20\uff08\u5305\u62ec\u4e24\u7aef\uff09\u7ec4\u6210\u7684\u5b50\u6570\u7ec4\u7684\u6240\u6709\u5143\u7d20\u4e4b\u548c\u3002\n\n$^{\\text{\u2217}}$ \u6570\u7ec4 $a$ \u7684\u7b2c $x$ \u6b21\u5faa\u73af\u79fb\u4f4d\uff08$1 \\leq x \\leq n$\uff09\u4e3a $a_x, a_{x+1}, \\ldots, a_n, a_1, a_2, \\ldots, a_{x-1}$\u3002\u6ce8\u610f\uff0c\u7b2c $1$ \u6b21\u79fb\u4f4d\u5c31\u662f\u539f\u59cb\u7684 $a$\u3002\n\n$^{\\text{\u2020}}$ \u4e24\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $p$ \u548c $q$ \u7684\u62fc\u63a5\uff08\u5373 $p + q$\uff09\u4e3a $p_1, p_2, ..., p_n, q_1, q_2, ..., q_n$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $q$\uff08$1 \\leq n, q \\leq 2 \\cdot 10^5$\uff09\uff0c\u5206\u522b\u8868\u793a\u6570\u7ec4\u7684\u957f\u5ea6\u548c\u8be2\u95ee\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, ..., a_n$\uff08$1 \\leq a_i \\leq 10^6$\uff09\u3002\n\n\u63a5\u4e0b\u6765\u7684 $q$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $l$ \u548c $r$\uff08$1 \\leq l \\leq r \\leq n^2$\uff09\uff0c\u8868\u793a\u8be2\u95ee\u7684\u533a\u95f4\u5de6\u53f3\u7aef\u70b9\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\uff0c$q$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u8f93\u51fa\u4e00\u4e2a\u7b54\u6848\uff0c\u6bcf\u884c\u4e00\u4e2a\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c$b = [1, 2, 3, 2, 3, 1, 3, 1, 2]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Firefly\u0027s Queries","background":"","description":"Firefly is given an array $ a $ of length $ n $ . Let $ c_i $ denote the $ i $ \u0027th cyclic shift $ ^{\\text{\u2217}} $ of $ a $ . She creates a new array $ b $ such that $ b = c_1 + c_2 + \\dots + c_n $ where $ + $ represents concatenation $ ^{\\text{\u2020}} $ .\n\nThen, she asks you $ q $ queries. For each query, output the sum of all elements in the subarray of $ b $ that starts from the $ l $ -th element and ends at the $ r $ -th element, inclusive of both ends.\n\n $ ^{\\text{\u2217}} $ The $ x $ -th ( $ 1 \\leq x \\leq n $ ) cyclic shift of the array $ a $ is $ a_x, a_{x+1} \\ldots a_n, a_1, a_2 \\ldots a_{x - 1} $ . Note that the $ 1 $ -st shift is the initial $ a $ .\n\n $ ^{\\text{\u2020}} $ The concatenation of two arrays $ p $ and $ q $ of length $ n $ (in other words, $ p + q $ ) is $ p_1, p_2, ..., p_n, q_1, q_2, ..., q_n $ .","formatI":"The first line contains $ t $ ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains two integers $ n $ and $ q $ ( $ 1 \\leq n, q \\leq 2 \\cdot 10^5 $ ) \u2014 the length of the array and the number of queries.\n\nThe following line contains $ n $ integers $ a_1, a_2, ..., a_n $ ( $ 1 \\leq a_i \\leq 10^6 $ ).\n\nThe following $ q $ lines contain two integers $ l $ and $ r $ ( $ 1 \\leq l \\leq r \\leq n^2 $ ) \u2014 the left and right bounds of the query.\n\nNote that the large inputs may require the use of 64-bit integers.\n\nIt is guaranteed that the sum of $ n $ does not exceed $ 2 \\cdot 10^5 $ and the sum of $ q $ does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each query, output the answer on a new line.","hint":"For the first test case, $ b = [1, 2, 3, 2, 3, 1, 3, 1, 2] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n3 3\n1 2 3\n1 9\n3 5\n8 8\n5 5\n4 8 3 2 4\n1 14\n3 7\n7 10\n2 11\n1 25\n1 1\n6\n1 1\n5 7\n3 1 6 10 4\n3 21\n6 17\n2 2\n1 5\n1 14\n9 15\n12 13\n5 3\n4 9 10 10 1\n20 25\n3 11\n20 22","18\n8\n1\n55\n20\n13\n41\n105\n6\n96\n62\n1\n24\n71\n31\n14\n44\n65\n15"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2009F","link":"https:\/\/codeforces.com\/problemset\/problem\/2009\/F"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5e8f\u5217 $a$\uff0c\u5c06 $i \\in (1,n)$ \u5f00\u59cb\u7684 $a$ \u7684\u5faa\u73af\u5e8f\u5217\uff08\u6307\u628a $a$ \u7684\u4e24\u90e8\u5206 $a_{(i,n)}$ \u548c $a_{(1,i-1)}$ \u6309\u7167\u524d\u8005\u5728\u524d\uff0c\u540e\u8005\u5728\u540e\u7684\u987a\u5e8f\u91cd\u65b0\u62fc\u63a5\u8d77\u6765\u5f62\u6210\u7684\u5e8f\u5217\uff09\u62fc\u63a5\u5230 $b$ \u7684\u540e\u9762\u3002\n\n\u4e00\u5171\u6709 $q$ \u6b21\u8be2\u95ee\uff0c\u6bcf\u6b21\u8be2\u95ee\u7ed9\u5b9a $l,r$\uff0c\u5bf9\u4e8e\u6bcf\u6b21\u8be2\u95ee\uff0c\u8f93\u51fa $b_{(l,r)}$ \u7684\u548c\u3002\n\n\u4e00\u5171\u6709 $T$ \u7ec4\u6d4b\u8bd5\u6570\u636e\u3002"},"translations":{"en":{"name":"Firefly\u0027s Queries","background":"","description":"Firefly is given an array $ a $ of length $ n $ . Let $ c_i $ denote the $ i $ \u0027th cyclic shift $ ^{\\text{\u2217}} $ of $ a $ . She creates a new array $ b $ such that $ b = c_1 + c_2 + \\dots + c_n $ where $ + $ represents concatenation $ ^{\\text{\u2020}} $ .\n\nThen, she asks you $ q $ queries. For each query, output the sum of all elements in the subarray of $ b $ that starts from the $ l $ -th element and ends at the $ r $ -th element, inclusive of both ends.\n\n $ ^{\\text{\u2217}} $ The $ x $ -th ( $ 1 \\leq x \\leq n $ ) cyclic shift of the array $ a $ is $ a_x, a_{x+1} \\ldots a_n, a_1, a_2 \\ldots a_{x - 1} $ . Note that the $ 1 $ -st shift is the initial $ a $ .\n\n $ ^{\\text{\u2020}} $ The concatenation of two arrays $ p $ and $ q $ of length $ n $ (in other words, $ p + q $ ) is $ p_1, p_2, ..., p_n, q_1, q_2, ..., q_n $ .","formatI":"The first line contains $ t $ ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains two integers $ n $ and $ q $ ( $ 1 \\leq n, q \\leq 2 \\cdot 10^5 $ ) \u2014 the length of the array and the number of queries.\n\nThe following line contains $ n $ integers $ a_1, a_2, ..., a_n $ ( $ 1 \\leq a_i \\leq 10^6 $ ).\n\nThe following $ q $ lines contain two integers $ l $ and $ r $ ( $ 1 \\leq l \\leq r \\leq n^2 $ ) \u2014 the left and right bounds of the query.\n\nNote that the large inputs may require the use of 64-bit integers.\n\nIt is guaranteed that the sum of $ n $ does not exceed $ 2 \\cdot 10^5 $ and the sum of $ q $ does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each query, output the answer on a new line.","hint":"For the first test case, $ b = [1, 2, 3, 2, 3, 1, 3, 1, 2] $ .","locale":"en"},"zh-CN":{"name":"Firefly\u0027s Queries","background":null,"description":"Firefly \u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\u3002\u4ee4 $c_i$ \u8868\u793a $a$ \u7684\u7b2c $i$ \u6b21\u5faa\u73af\u79fb\u4f4d$^{\\text{\u2217}}$\u3002\u5979\u521b\u5efa\u4e86\u4e00\u4e2a\u65b0\u6570\u7ec4 $b$\uff0c\u4f7f\u5f97 $b = c_1 + c_2 + \\dots + c_n$\uff0c\u5176\u4e2d $+$ \u8868\u793a\u62fc\u63a5$^{\\text{\u2020}}$\u3002\n\n\u63a5\u7740\uff0c\u5979\u4f1a\u7ed9\u4f60 $q$ \u4e2a\u8be2\u95ee\u3002\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u8f93\u51fa $b$ \u7684\u4ece\u7b2c $l$ \u4e2a\u5143\u7d20\u5230\u7b2c $r$ \u4e2a\u5143\u7d20\uff08\u5305\u62ec\u4e24\u7aef\uff09\u7ec4\u6210\u7684\u5b50\u6570\u7ec4\u7684\u6240\u6709\u5143\u7d20\u4e4b\u548c\u3002\n\n$^{\\text{\u2217}}$ \u6570\u7ec4 $a$ \u7684\u7b2c $x$ \u6b21\u5faa\u73af\u79fb\u4f4d\uff08$1 \\leq x \\leq n$\uff09\u4e3a $a_x, a_{x+1}, \\ldots, a_n, a_1, a_2, \\ldots, a_{x-1}$\u3002\u6ce8\u610f\uff0c\u7b2c $1$ \u6b21\u79fb\u4f4d\u5c31\u662f\u539f\u59cb\u7684 $a$\u3002\n\n$^{\\text{\u2020}}$ \u4e24\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $p$ \u548c $q$ \u7684\u62fc\u63a5\uff08\u5373 $p + q$\uff09\u4e3a $p_1, p_2, ..., p_n, q_1, q_2, ..., q_n$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $q$\uff08$1 \\leq n, q \\leq 2 \\cdot 10^5$\uff09\uff0c\u5206\u522b\u8868\u793a\u6570\u7ec4\u7684\u957f\u5ea6\u548c\u8be2\u95ee\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u4e00\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, ..., a_n$\uff08$1 \\leq a_i \\leq 10^6$\uff09\u3002\n\n\u63a5\u4e0b\u6765\u7684 $q$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $l$ \u548c $r$\uff08$1 \\leq l \\leq r \\leq n^2$\uff09\uff0c\u8868\u793a\u8be2\u95ee\u7684\u533a\u95f4\u5de6\u53f3\u7aef\u70b9\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\uff0c$q$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u8be2\u95ee\uff0c\u8f93\u51fa\u4e00\u4e2a\u7b54\u6848\uff0c\u6bcf\u884c\u4e00\u4e2a\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c$b = [1, 2, 3, 2, 3, 1, 3, 1, 2]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2009F Firefly\u0027s Queries","type":2,"slug":"CF2009F","color":"orange-3"},"discussions":[{"id":1074726,"title":"\u8b66\u793a\u540e\u4eba","author":{"uid":1533871,"avatar":"https:\/\/cdn.luogu.com.cn\/images\/banned.png","name":"\u5c01\u7981\u7528\u6237","slogan":null,"badge":null,"isAdmin":false,"isBanned":true,"color":"Red","ccfLevel":0,"xcpcLevel":0,"background":null},"time":1745152373},{"id":952293,"title":"\u672c\u573a\u6bd4\u8d5b\u5efa\u8bae\u96be\u5ea6","author":{"uid":743014,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/743014.png","name":"_H17_","slogan":"\u3000","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/882rfkrh.png"},"time":1728223953}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328735.754245,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2009F Firefly's Queries","description":"Firefly \u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a\u3002\u4ee4 c_i \u8868\u793a a \u7684\u7b2c i \u6b21\u5faa\u73af\u79fb\u4f4d^{\\text{\u2217}}\u3002\u5979\u521b\u5efa\u4e86\u4e00\u4e2a\u65b0\u6570\u7ec4 b\uff0c\u4f7f\u5f97 b = c_1 + c_2 + \\dots + c_n\uff0c\u5176\u4e2d + \u8868\u793a\u62fc\u63a5^{\\text{\u2020}}\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2009F" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2009F?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2009F?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2009F Firefly&#039;s Queries" />
+    <meta property="og:description" content="Firefly 有一个长度为 n 的数组 a。令 c_i 表示 a 的第 i 次循环移位^{\text{∗}}。她创建了一个新数组 b，使得 b = c_1 + c_2 + \dots + c_n，其中 + 表示拼接^{\text{†}}。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2009F" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2009F Firefly&#039;s Queries</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Firefly 有一个长度为 $n$ 的数组 $a$。令 $c_i$ 表示 $a$ 的第 $i$ 次循环移位$^{\text{∗}}$。她创建了一个新数组 $b$，使得 $b = c_1 + c_2 + \dots + c_n$，其中 $+$ 表示拼接$^{\text{†}}$。
+
+接着，她会给你 $q$ 个询问。对于每个询问，输出 $b$ 的从第 $l$ 个元素到第 $r$ 个元素（包括两端）组成的子数组的所有元素之和。
+
+$^{\text{∗}}$ 数组 $a$ 的第 $x$ 次循环移位（$1 \leq x \leq n$）为 $a_x, a_{x+1}, \ldots, a_n, a_1, a_2, \ldots, a_{x-1}$。注意，第 $1$ 次移位就是原始的 $a$。
+
+$^{\text{†}}$ 两个长度为 $n$ 的数组 $p$ 和 $q$ 的拼接（即 $p + q$）为 $p_1, p_2, ..., p_n, q_1, q_2, ..., q_n$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 10^4$），表示测试用例的数量。
+
+每个测试用例的第一行包含两个整数 $n$ 和 $q$（$1 \leq n, q \leq 2 \cdot 10^5$），分别表示数组的长度和询问的数量。
+
+接下来一行包含 $n$ 个整数 $a_1, a_2, ..., a_n$（$1 \leq a_i \leq 10^6$）。
+
+接下来的 $q$ 行，每行包含两个整数 $l$ 和 $r$（$1 \leq l \leq r \leq n^2$），表示询问的区间左右端点。
+
+保证所有测试用例中 $n$ 的总和不超过 $2 \cdot 10^5$，$q$ 的总和不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个询问，输出一个答案，每行一个。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于第一个测试用例，$b = [1, 2, 3, 2, 3, 1, 3, 1, 2]$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

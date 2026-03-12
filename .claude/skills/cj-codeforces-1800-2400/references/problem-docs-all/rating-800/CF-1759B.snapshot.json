@@ -1,0 +1,27 @@
+{
+  "id": "CF-1759B",
+  "contest_id": 1759,
+  "index": "B",
+  "name": "Lost Permutation",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 23541,
+  "problem_url": "https://codeforces.com/problemset/problem/1759/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1759/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1759/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1759B%20Lost%20Permutation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1759/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1759B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

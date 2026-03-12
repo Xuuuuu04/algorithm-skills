@@ -1,0 +1,45 @@
+{
+  "id": "CF-1706D2",
+  "contest_id": 1706,
+  "index": "D2",
+  "name": "Chopping Carrots (Hard Version)",
+  "rating": 2400,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "data structures",
+    "dp",
+    "greedy",
+    "math",
+    "number theory",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1706/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1706/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1706/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1706D2%20Chopping Carrots (Hard Version)%20tutorial",
+  "solved_count": 1908,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1706D2",
+  "hydro_meta": {
+    "page_title": "Chopping Carrots (Hard Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dp",
+      "number theory",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "64MiB"
+  }
+}

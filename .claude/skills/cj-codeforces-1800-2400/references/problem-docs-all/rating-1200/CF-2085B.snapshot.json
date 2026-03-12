@@ -1,0 +1,32 @@
+{
+  "id": "CF-2085B",
+  "contest_id": 2085,
+  "index": "B",
+  "name": "Serval and Final MEX",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 16817,
+  "problem_url": "https://codeforces.com/problemset/problem/2085/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2085/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2085/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2085B%20Serval%20and%20Final%20MEX%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2085B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Serval and Final MEX - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

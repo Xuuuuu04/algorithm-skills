@@ -1,0 +1,34 @@
+{
+  "id": "CF-1977D",
+  "contest_id": 1977,
+  "index": "D",
+  "name": "XORificator",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "greedy",
+    "hashing"
+  ],
+  "solved_count": 2305,
+  "problem_url": "https://codeforces.com/problemset/problem/1977/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1977/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1977/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1977D%20XORificator%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1977D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "XORificator - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "hashing"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

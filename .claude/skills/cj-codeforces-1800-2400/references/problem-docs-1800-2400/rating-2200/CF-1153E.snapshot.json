@@ -1,0 +1,35 @@
+{
+  "id": "CF-1153E",
+  "contest_id": 1153,
+  "index": "E",
+  "name": "Serval and Snake",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "brute force",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1153/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1153/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1153/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1153E%20Serval and Snake%20tutorial",
+  "solved_count": 1746,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1153E",
+  "hydro_meta": {
+    "page_title": "Serval and Snake - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "interactive",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

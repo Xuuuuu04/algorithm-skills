@@ -1,0 +1,28 @@
+{
+  "id": "CF-816A",
+  "contest_id": 816,
+  "index": "A",
+  "name": "Karen and Morning",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 9648,
+  "problem_url": "https://codeforces.com/problemset/problem/816/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/816/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/816/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=816A%20Karen%20and%20Morning%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/816/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 816A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

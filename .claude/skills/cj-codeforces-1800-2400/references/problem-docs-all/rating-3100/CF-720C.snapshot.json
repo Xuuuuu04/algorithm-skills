@@ -1,0 +1,30 @@
+{
+  "id": "CF-720C",
+  "contest_id": 720,
+  "index": "C",
+  "name": "Homework",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 154,
+  "problem_url": "https://codeforces.com/problemset/problem/720/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/720/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/720/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=720C%20Homework%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P720C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Homework - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "*3100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

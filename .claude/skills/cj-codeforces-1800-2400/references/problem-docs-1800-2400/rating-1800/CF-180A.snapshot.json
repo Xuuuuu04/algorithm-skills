@@ -1,0 +1,29 @@
+{
+  "id": "CF-180A",
+  "contest_id": 180,
+  "index": "A",
+  "name": "Defragmentation",
+  "rating": 1800,
+  "tags": [
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/180/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/180/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/180/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=180A%20Defragmentation%20tutorial",
+  "solved_count": 589,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P180A",
+  "hydro_meta": {
+    "page_title": "Defragmentation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "implementation",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

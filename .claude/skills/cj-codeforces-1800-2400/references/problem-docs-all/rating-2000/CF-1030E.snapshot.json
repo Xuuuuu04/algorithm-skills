@@ -1,0 +1,28 @@
+{
+  "id": "CF-1030E",
+  "contest_id": 1030,
+  "index": "E",
+  "name": "Vasya and Good Sequences",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "bitmasks",
+    "dp"
+  ],
+  "solved_count": 3311,
+  "problem_url": "https://codeforces.com/problemset/problem/1030/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1030/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1030/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1030E%20Vasya%20and%20Good%20Sequences%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1030/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1030E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

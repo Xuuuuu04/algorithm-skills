@@ -1,0 +1,28 @@
+{
+  "id": "CF-1353B",
+  "contest_id": 1353,
+  "index": "B",
+  "name": "Two Arrays And Swaps",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 56405,
+  "problem_url": "https://codeforces.com/problemset/problem/1353/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1353/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1353/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1353B%20Two%20Arrays%20And%20Swaps%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1353B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1353B Two Arrays And Swaps - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 163,
+    "mirror_attempt": 256,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

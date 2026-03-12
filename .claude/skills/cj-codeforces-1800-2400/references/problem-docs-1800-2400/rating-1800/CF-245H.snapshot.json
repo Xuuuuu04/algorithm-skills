@@ -1,0 +1,36 @@
+{
+  "id": "CF-245H",
+  "contest_id": 245,
+  "index": "H",
+  "name": "Queries for Number of Palindromes",
+  "rating": 1800,
+  "tags": [
+    "dp",
+    "hashing",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/245/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/245/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/245/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=245H%20Queries for Number of Palindromes%20tutorial",
+  "solved_count": 8807,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P245H",
+  "hydro_meta": {
+    "page_title": "Queries for Number of Palindromes - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "hashing",
+      "strings",
+      "*1800"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

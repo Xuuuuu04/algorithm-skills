@@ -1,0 +1,30 @@
+{
+  "id": "CF-2203D",
+  "contest_id": 2203,
+  "index": "D",
+  "name": "Divisibility Game",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "games",
+    "greedy",
+    "number theory"
+  ],
+  "solved_count": 4730,
+  "problem_url": "https://codeforces.com/problemset/problem/2203/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2203/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2203/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2203D%20Divisibility%20Game%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2203D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2203D Divisibility Game - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

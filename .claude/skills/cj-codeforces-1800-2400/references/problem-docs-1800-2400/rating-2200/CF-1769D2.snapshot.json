@@ -1,0 +1,28 @@
+{
+  "id": "CF-1769D2",
+  "contest_id": 1769,
+  "index": "D2",
+  "name": "Игра в Девятку II",
+  "rating": 2200,
+  "tags": [
+    "*special",
+    "brute force"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1769/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1769/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1769/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1769D2%20Игра в Девятку II%20tutorial",
+  "solved_count": 204,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1769D2",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1769D2 Игра в Девятку II - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-922C",
+  "contest_id": 922,
+  "index": "C",
+  "name": "Cave Painting",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "number theory"
+  ],
+  "solved_count": 7535,
+  "problem_url": "https://codeforces.com/problemset/problem/922/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/922/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/922/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=922C%20Cave%20Painting%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/922/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 922C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

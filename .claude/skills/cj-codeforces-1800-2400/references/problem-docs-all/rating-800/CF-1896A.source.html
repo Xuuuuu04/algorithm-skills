@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414422:MDs4RDqb8Cf8i82BlN2nk965nP+lgG0ey77qpnQWGm0=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1896A Jagged Swaps - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1896A","type":"CF","title":"Jagged Swaps","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":135,"totalAccepted":99,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Jagged Swaps","background":"","description":"\u4f60\u6709\u4e00\u4e2a$1\\sim n$\u7684\u5168\u6392\u5217\u6570\u7ec4$a$\uff0c\u4f60\u53ef\u4ee5\u505a\u5982\u4e0b\u64cd\u4f5c\u3002\n\n- \u9009\u62e9\u4e00\u4e2a$2$\u5230$n-1$\u7684\u6ee1\u8db3$a_{i-1}\u003Ca_i$\u4e0e$a_i\u003Ea_{i+1}$\u7684\u4e0b\u6807$i$\uff0c\u4ea4\u6362$a_i$\u4e0e$a_{i+1}$\u3002\n\n\u5224\u65ad\u4f60\u80fd\u5426\u901a\u8fc7\u5982\u4e0b\u64cd\u4f5c\u5bf9$a$\u4ece\u5c0f\u5230\u5927\u6392\u5e8f\u3002","formatI":"\u7b2c\u4e00\u884c\u6570\u636e\u7ec4\u6570$t(1\\le t \\le 5000)$\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7b2c\u4e00\u884c\u4e3a$n(3\\le n \\le 10)$\uff0c\u7b2c\u4e8c\u884c\u4e3a$a_1,a_2,\\cdots,a_n$\u3002","formatO":"\u5bf9\u6bcf\u7ec4\u6570\u636e\uff0c\u5982\u53ef\u4ee5\u6392\u5e8f\u8f93\u51fa`YES`\uff0c\u5426\u5219\u8f93\u51fa`NO`\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Jagged Swaps","background":"","description":"You are given a permutation $ ^\\dagger $ $ a $ of size $ n $ . You can do the following operation\n\n- Select an index $ i $ from $ 2 $ to $ n - 1 $ such that $ a_{i - 1} \u003C a_i $ and $ a_i \u003E a_{i+1} $ . Swap $ a_i $ and $ a_{i+1} $ .\n\nDetermine whether it is possible to sort the permutation after a finite number of operations.\n\n $ ^\\dagger $ A permutation is an array consisting of $ n $ distinct integers from $ 1 $ to $ n $ in arbitrary order. For example, $ [2,3,1,5,4] $ is a permutation, but $ [1,2,2] $ is not a permutation ( $ 2 $ appears twice in the array) and $ [1,3,4] $ is also not a permutation ( $ n=3 $ but there is $ 4 $ in the array).","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 5000 $ ). Description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 3 \\le n \\le 10 $ ) \u2014 the size of the permutation.\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le n $ ) \u2014 the elements of permutation $ a $ .","formatO":"For each test case, print \u0022YES\u0022 if it is possible to sort the permutation, and \u0022NO\u0022 otherwise.\n\nYou may print each letter in any case (for example, \u0022YES\u0022, \u0022Yes\u0022, \u0022yes\u0022, \u0022yEs\u0022 will all be recognized as positive answer).","hint":"In the first test case, the permutation is already sorted.\n\nIn the second test case, we can choose index $ i=2 $ as $ 1\u003C3 $ and $ 3\u003E2 $ to form $ [1, 2, 3, 5, 4] $ . Then, we can choose index $ i=4 $ as $ 3\u003C5 $ and $ 5\u003E4 $ to form $ [1, 2, 3, 4, 5] $ .\n\nIn the third test case, it can be proven that it is impossible to sort the permutation.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n3\n1 2 3\n5\n1 3 2 5 4\n5\n5 4 3 2 1\n3\n3 1 2\n4\n2 3 1 4\n5\n5 1 2 3 4","YES\nYES\nNO\nNO\nNO\nNO"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1896A","link":"https:\/\/codeforces.com\/problemset\/problem\/1896\/A"},"translation":"\u4f60\u6709\u4e00\u4e2a$1\\sim n$\u7684\u5168\u6392\u5217\u6570\u7ec4$a$\uff0c\u4f60\u53ef\u4ee5\u505a\u5982\u4e0b\u64cd\u4f5c\u3002\n\n- \u9009\u62e9\u4e00\u4e2a$2$\u5230$n-1$\u7684\u6ee1\u8db3$a_{i-1}\u003Ca_i$\u4e0e$a_i\u003Ea_{i+1}$\u7684\u4e0b\u6807$i$\uff0c\u4ea4\u6362$a_i$\u4e0e$a_{i+1}$\u3002\n\n\u5224\u65ad\u4f60\u80fd\u5426\u901a\u8fc7\u5982\u4e0b\u64cd\u4f5c\u5bf9$a$\u4ece\u5c0f\u5230\u5927\u6392\u5e8f\u3002\n\n\u3010\u8f93\u5165\u683c\u5f0f\u3011\n\n\u7b2c\u4e00\u884c\u6570\u636e\u7ec4\u6570$t(1\\le t \\le 5000)$\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7b2c\u4e00\u884c\u4e3a$n(3\\le n \\le 10)$\uff0c\u7b2c\u4e8c\u884c\u4e3a$a_1,a_2,\\cdots,a_n$\u3002\n\n\u3010\u8f93\u51fa\u683c\u5f0f\u3011\n\n\u5bf9\u6bcf\u7ec4\u6570\u636e\uff0c\u5982\u53ef\u4ee5\u6392\u5e8f\u8f93\u51fa`YES`\uff0c\u5426\u5219\u8f93\u51fa`NO`\u3002"},"translations":{"en":{"name":"Jagged Swaps","background":"","description":"You are given a permutation $ ^\\dagger $ $ a $ of size $ n $ . You can do the following operation\n\n- Select an index $ i $ from $ 2 $ to $ n - 1 $ such that $ a_{i - 1} \u003C a_i $ and $ a_i \u003E a_{i+1} $ . Swap $ a_i $ and $ a_{i+1} $ .\n\nDetermine whether it is possible to sort the permutation after a finite number of operations.\n\n $ ^\\dagger $ A permutation is an array consisting of $ n $ distinct integers from $ 1 $ to $ n $ in arbitrary order. For example, $ [2,3,1,5,4] $ is a permutation, but $ [1,2,2] $ is not a permutation ( $ 2 $ appears twice in the array) and $ [1,3,4] $ is also not a permutation ( $ n=3 $ but there is $ 4 $ in the array).","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 5000 $ ). Description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 3 \\le n \\le 10 $ ) \u2014 the size of the permutation.\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le n $ ) \u2014 the elements of permutation $ a $ .","formatO":"For each test case, print \u0022YES\u0022 if it is possible to sort the permutation, and \u0022NO\u0022 otherwise.\n\nYou may print each letter in any case (for example, \u0022YES\u0022, \u0022Yes\u0022, \u0022yes\u0022, \u0022yEs\u0022 will all be recognized as positive answer).","hint":"In the first test case, the permutation is already sorted.\n\nIn the second test case, we can choose index $ i=2 $ as $ 1\u003C3 $ and $ 3\u003E2 $ to form $ [1, 2, 3, 5, 4] $ . Then, we can choose index $ i=4 $ as $ 3\u003C5 $ and $ 5\u003E4 $ to form $ [1, 2, 3, 4, 5] $ .\n\nIn the third test case, it can be proven that it is impossible to sort the permutation.","locale":"en"},"zh-CN":{"name":"Jagged Swaps","background":"","description":"\u4f60\u6709\u4e00\u4e2a$1\\sim n$\u7684\u5168\u6392\u5217\u6570\u7ec4$a$\uff0c\u4f60\u53ef\u4ee5\u505a\u5982\u4e0b\u64cd\u4f5c\u3002\n\n- \u9009\u62e9\u4e00\u4e2a$2$\u5230$n-1$\u7684\u6ee1\u8db3$a_{i-1}\u003Ca_i$\u4e0e$a_i\u003Ea_{i+1}$\u7684\u4e0b\u6807$i$\uff0c\u4ea4\u6362$a_i$\u4e0e$a_{i+1}$\u3002\n\n\u5224\u65ad\u4f60\u80fd\u5426\u901a\u8fc7\u5982\u4e0b\u64cd\u4f5c\u5bf9$a$\u4ece\u5c0f\u5230\u5927\u6392\u5e8f\u3002","formatI":"\u7b2c\u4e00\u884c\u6570\u636e\u7ec4\u6570$t(1\\le t \\le 5000)$\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u7b2c\u4e00\u884c\u4e3a$n(3\\le n \\le 10)$\uff0c\u7b2c\u4e8c\u884c\u4e3a$a_1,a_2,\\cdots,a_n$\u3002","formatO":"\u5bf9\u6bcf\u7ec4\u6570\u636e\uff0c\u5982\u53ef\u4ee5\u6392\u5e8f\u8f93\u51fa`YES`\uff0c\u5426\u5219\u8f93\u51fa`NO`\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1896A Jagged Swaps","type":2,"slug":"CF1896A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328022.542305,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1896A Jagged Swaps","description":"\u4f60\u6709\u4e00\u4e2a1\\sim n\u7684\u5168\u6392\u5217\u6570\u7ec4a\uff0c\u4f60\u53ef\u4ee5\u505a\u5982\u4e0b\u64cd\u4f5c\u3002\n\n\u9009\u62e9\u4e00\u4e2a2\u5230n-1\u7684\u6ee1\u8db3a_{i-1}&lt;a_i\u4e0ea_i&gt;a_{i+1}\u7684\u4e0b\u6807i\uff0c\u4ea4\u6362a_i\u4e0ea_{i+1}\u3002\n\n\u5224\u65ad\u4f60\u80fd\u5426\u901a\u8fc7\u5982\u4e0b\u64cd\u4f5c\u5bf9a\u4ece\u5c0f\u5230\u5927\u6392\u5e8f\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1896A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1896A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1896A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1896A Jagged Swaps" />
+    <meta property="og:description" content="你有一个1\sim n的全排列数组a，你可以做如下操作。
+
+选择一个2到n-1的满足a_{i-1}&amp;lt;a_i与a_i&amp;gt;a_{i+1}的下标i，交换a_i与a_{i+1}。
+
+判断你能否通过如下操作对a从小到大排序。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1896A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1896A Jagged Swaps</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你有一个$1\sim n$的全排列数组$a$，你可以做如下操作。
+
+- 选择一个$2$到$n-1$的满足$a_{i-1}a_{i+1}$的下标$i$，交换$a_i$与$a_{i+1}$。
+
+判断你能否通过如下操作对$a$从小到大排序。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行数据组数$t(1\le t \le 5000)$。
+
+每组数据第一行为$n(3\le n \le 10)$，第二行为$a_1,a_2,\cdots,a_n$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对每组数据，如可以排序输出`YES`，否则输出`NO`。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case, the permutation is already sorted.
+
+In the second test case, we can choose index $ i=2 $ as $ 12 $ to form $ [1, 2, 3, 5, 4] $ . Then, we can choose index $ i=4 $ as $ 34 $ to form $ [1, 2, 3, 4, 5] $ .
+
+In the third test case, it can be proven that it is impossible to sort the permutation.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "id": "CF-2207C",
+  "contest_id": 2207,
+  "index": "C",
+  "name": "Where's My Water?",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "math"
+  ],
+  "solved_count": 3971,
+  "problem_url": "https://codeforces.com/problemset/problem/2207/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2207/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2207/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2207C%20Where%27s%20My%20Water%3F%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2207/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2207C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

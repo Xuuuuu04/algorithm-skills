@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415131:9/KlDoxIFEo27lca3Z/0zIUUHiWBlntj/O14A7ZdFp8=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF280E Sequence Transformation - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF280E","type":"CF","title":"Sequence Transformation","difficulty":7,"tags":[3],"wantsTranslation":false,"totalSubmit":137,"totalAccepted":49,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Sequence Transformation","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u975e\u9012\u51cf\u5e8f\u5217 $x_1, x_2, ..., x_n$\uff0c\u5176\u4e2d $1 \\le x_1 \\le x_2 \\le ... \\le x_n \\le q$\u3002\u4f60\u8fd8\u6709\u4e24\u4e2a\u6574\u6570 $a$ \u548c $b$\uff0c\u6ee1\u8db3 $a \\le b$ \u4e14 $a \\cdot (n-1) \u003C q$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u5c06\u5e8f\u5217 $x_1, x_2, ..., x_n$ \u8f6c\u6362\u4e3a\u5e8f\u5217 $y_1, y_2, ..., y_n$\uff0c\u6ee1\u8db3 $1 \\le y_i \\le q$ \u4e14 $a \\le y_{i+1} - y_i \\le b$\u3002\u8be5\u53d8\u6362\u7684\u4ee3\u4ef7\u4e3a\u4e0b\u5f0f\u7684\u548c\uff1a![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF280E\/179b07629f5c2880a487dce85a0ebc41e16d4717.png)\u3002\u4f60\u7684\u76ee\u6807\u662f\u9009\u62e9\u4e00\u79cd $y$ \u7684\u65b9\u6848\uff0c\u4f7f\u53d8\u6362\u4ee3\u4ef7\u6700\u5c0f\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u56db\u4e2a\u6574\u6570 $n, q, a, b$\uff0c\u6ee1\u8db3 $2 \\le n \\le 6000$\uff0c$1 \\le q, a, b \\le 10^9$\uff0c$a \\cdot (n-1) \u003C q$\uff0c$a \\le b$\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u975e\u9012\u51cf\u7684\u6574\u6570\u5e8f\u5217 $x_1, x_2, ..., x_n$\uff0c\u6ee1\u8db3 $1 \\le x_1 \\le x_2 \\le ... \\le x_n \\le q$\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa $n$ \u4e2a\u5b9e\u6570\uff0c\u5373\u5bfb\u627e\u5230\u7684\u5e8f\u5217 $y_1, y_2, ..., y_n$\uff0c\u6ee1\u8db3 $1 \\le y_i \\le q$\uff0c$a \\le y_{i+1} - y_i \\le b$\u3002\u7b2c\u4e8c\u884c\u8f93\u51fa\u6700\u5c0f\u7684\u53d8\u6362\u4ee3\u4ef7\uff0c\u5373 ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF280E\/179b07629f5c2880a487dce85a0ebc41e16d4717.png)\u3002\n\n\u5982\u679c\u6709\u591a\u7ec4\u6700\u4f18\u89e3\uff0c\u53ef\u4ee5\u4efb\u610f\u8f93\u51fa\u5176\u4e2d\u4e00\u7ec4\u3002\n\n\u5f53\u4f60\u7684\u7b54\u6848\u7684\u7edd\u5bf9\u8bef\u5dee\u6216\u76f8\u5bf9\u8bef\u5dee\u4e0d\u8d85\u8fc7 $10^{-6}$ \u65f6\uff0c\u5c06\u88ab\u89c6\u4e3a\u6b63\u786e\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Sequence Transformation","background":"","description":"You\u0027ve got a non-decreasing sequence $ x_{1},x_{2},...,x_{n} $ $ (1\u003C=x_{1}\u003C=x_{2}\u003C=...\u003C=x_{n}\u003C=q) $ . You\u0027ve also got two integers $ a $ and $ b $ $ (a\u003C=b;\u00a0a\u00b7(n-1)\u003Cq) $ .\n\nYour task is to transform sequence $ x_{1},x_{2},...,x_{n} $ into some sequence $ y_{1},y_{2},...,y_{n} $ $ (1\u003C=y_{i}\u003C=q;\u00a0a\u003C=y_{i+1}-y_{i}\u003C=b) $ . The transformation price is the following sum: ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF280E\/179b07629f5c2880a487dce85a0ebc41e16d4717.png). Your task is to choose such sequence $ y $ that minimizes the described transformation price.","formatI":"The first line contains four integers $ n,q,a,b $ $ (2\u003C=n\u003C=6000;\u00a01\u003C=q,a,b\u003C=10^{9};\u00a0a\u00b7(n-1)\u003Cq;\u00a0a\u003C=b) $ .\n\nThe second line contains a non-decreasing integer sequence $ x_{1},x_{2},...,x_{n} $ $ (1\u003C=x_{1}\u003C=x_{2}\u003C=...\u003C=x_{n}\u003C=q) $ .","formatO":"In the first line print $ n $ real numbers \u2014 the sought sequence $ y_{1},y_{2},...,y_{n} $ $ (1\u003C=y_{i}\u003C=q;\u00a0a\u003C=y_{i+1}-y_{i}\u003C=b) $ . In the second line print the minimum transformation price, that is, ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF280E\/179b07629f5c2880a487dce85a0ebc41e16d4717.png).\n\nIf there are multiple optimal answers you can print any of them.\n\nThe answer will be considered correct if the absolute or relative error doesn\u0027t exceed $ 10^{-6} $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3 6 2 2\n1 4 6\n","1.666667 3.666667 5.666667 \n0.666667\n"],["10 100000 8714 9344\n3378 14705 17588 22672 32405 34309 37446 51327 81228 94982\n","1.000000 8715.000000 17429.000000 26143.000000 34857.000000 43571.000000 52285.000000 61629.000000 70973.000000 80317.000000 \n797708674.000000\n"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"280E","link":"https:\/\/codeforces.com\/problemset\/problem\/280\/E"},"translation":"\n\n\u7ed9\u4f60\u4e00\u4e2a\u975e\u51cf\u5e8f\u5217$x_1,x_2,...,x_n(1\\le x_1\\le x_2\\le ... \\le x_n \\le q)$\u3002\u4f60\u8fd8\u6709\u4e24\u4e2a\u6574\u6570a\u548cb$(a\\le b, a(n-1)\u003Cq)$\n\n\u4f60\u8981\u628a\u5e8f\u5217\u53d8\u6210$y_1,y_2,...,y_n(1\\le y_i\\le q, a\\le y_{i+1}-y_i \\le b)$\n\n\u53d8\u6362\u7684\u4ee3\u4ef7\u4e3a$\\sum_{i=1}^{n}{(x_i-y_i)^2}$\n\n\u6700\u5c0f\u5316\u53d8\u6362\u4ee3\u4ef7\n\nTranslated by Pine "},"translations":{"en":{"name":"Sequence Transformation","background":"","description":"You\u0027ve got a non-decreasing sequence $ x_{1},x_{2},...,x_{n} $ $ (1\u003C=x_{1}\u003C=x_{2}\u003C=...\u003C=x_{n}\u003C=q) $ . You\u0027ve also got two integers $ a $ and $ b $ $ (a\u003C=b;\u00a0a\u00b7(n-1)\u003Cq) $ .\n\nYour task is to transform sequence $ x_{1},x_{2},...,x_{n} $ into some sequence $ y_{1},y_{2},...,y_{n} $ $ (1\u003C=y_{i}\u003C=q;\u00a0a\u003C=y_{i+1}-y_{i}\u003C=b) $ . The transformation price is the following sum: ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF280E\/179b07629f5c2880a487dce85a0ebc41e16d4717.png). Your task is to choose such sequence $ y $ that minimizes the described transformation price.","formatI":"The first line contains four integers $ n,q,a,b $ $ (2\u003C=n\u003C=6000;\u00a01\u003C=q,a,b\u003C=10^{9};\u00a0a\u00b7(n-1)\u003Cq;\u00a0a\u003C=b) $ .\n\nThe second line contains a non-decreasing integer sequence $ x_{1},x_{2},...,x_{n} $ $ (1\u003C=x_{1}\u003C=x_{2}\u003C=...\u003C=x_{n}\u003C=q) $ .","formatO":"In the first line print $ n $ real numbers \u2014 the sought sequence $ y_{1},y_{2},...,y_{n} $ $ (1\u003C=y_{i}\u003C=q;\u00a0a\u003C=y_{i+1}-y_{i}\u003C=b) $ . In the second line print the minimum transformation price, that is, ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF280E\/179b07629f5c2880a487dce85a0ebc41e16d4717.png).\n\nIf there are multiple optimal answers you can print any of them.\n\nThe answer will be considered correct if the absolute or relative error doesn\u0027t exceed $ 10^{-6} $ .","hint":"","locale":"en"},"zh-CN":{"name":"Sequence Transformation","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u975e\u9012\u51cf\u5e8f\u5217 $x_1, x_2, ..., x_n$\uff0c\u5176\u4e2d $1 \\le x_1 \\le x_2 \\le ... \\le x_n \\le q$\u3002\u4f60\u8fd8\u6709\u4e24\u4e2a\u6574\u6570 $a$ \u548c $b$\uff0c\u6ee1\u8db3 $a \\le b$ \u4e14 $a \\cdot (n-1) \u003C q$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u5c06\u5e8f\u5217 $x_1, x_2, ..., x_n$ \u8f6c\u6362\u4e3a\u5e8f\u5217 $y_1, y_2, ..., y_n$\uff0c\u6ee1\u8db3 $1 \\le y_i \\le q$ \u4e14 $a \\le y_{i+1} - y_i \\le b$\u3002\u8be5\u53d8\u6362\u7684\u4ee3\u4ef7\u4e3a\u4e0b\u5f0f\u7684\u548c\uff1a![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF280E\/179b07629f5c2880a487dce85a0ebc41e16d4717.png)\u3002\u4f60\u7684\u76ee\u6807\u662f\u9009\u62e9\u4e00\u79cd $y$ \u7684\u65b9\u6848\uff0c\u4f7f\u53d8\u6362\u4ee3\u4ef7\u6700\u5c0f\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u56db\u4e2a\u6574\u6570 $n, q, a, b$\uff0c\u6ee1\u8db3 $2 \\le n \\le 6000$\uff0c$1 \\le q, a, b \\le 10^9$\uff0c$a \\cdot (n-1) \u003C q$\uff0c$a \\le b$\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u975e\u9012\u51cf\u7684\u6574\u6570\u5e8f\u5217 $x_1, x_2, ..., x_n$\uff0c\u6ee1\u8db3 $1 \\le x_1 \\le x_2 \\le ... \\le x_n \\le q$\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa $n$ \u4e2a\u5b9e\u6570\uff0c\u5373\u5bfb\u627e\u5230\u7684\u5e8f\u5217 $y_1, y_2, ..., y_n$\uff0c\u6ee1\u8db3 $1 \\le y_i \\le q$\uff0c$a \\le y_{i+1} - y_i \\le b$\u3002\u7b2c\u4e8c\u884c\u8f93\u51fa\u6700\u5c0f\u7684\u53d8\u6362\u4ee3\u4ef7\uff0c\u5373 ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF280E\/179b07629f5c2880a487dce85a0ebc41e16d4717.png)\u3002\n\n\u5982\u679c\u6709\u591a\u7ec4\u6700\u4f18\u89e3\uff0c\u53ef\u4ee5\u4efb\u610f\u8f93\u51fa\u5176\u4e2d\u4e00\u7ec4\u3002\n\n\u5f53\u4f60\u7684\u7b54\u6848\u7684\u7edd\u5bf9\u8bef\u5dee\u6216\u76f8\u5bf9\u8bef\u5dee\u4e0d\u8d85\u8fc7 $10^{-6}$ \u65f6\uff0c\u5c06\u88ab\u89c6\u4e3a\u6b63\u786e\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF280E Sequence Transformation","type":2,"slug":"CF280E","color":"orange-3"},"discussions":[{"id":614139,"title":"\u8bf7\u6c42\u64a4\u4e0b\u9898\u89e3","author":{"uid":151415,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/151415.png","name":"Edward1002001","slogan":"\u8fd9\u4e2a\u5bb6\u4f19\u5f88\u83dc\uff0c\u4ec0\u4e48\u4e5f\u6ca1\u6709\u7559\u4e0b","badge":"FJ-321625","isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":9,"xcpcLevel":0,"background":""},"time":1685438304},{"id":32375,"title":"\u7ffb\u8bd1","author":{"uid":36268,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/36268.png","name":"Pine","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":6,"xcpcLevel":0,"background":""},"time":1517374124}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328731.780441,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF280E Sequence Transformation","description":"\u7ed9\u5b9a\u4e00\u4e2a\u975e\u9012\u51cf\u5e8f\u5217 x_1, x_2, ..., x_n\uff0c\u5176\u4e2d 1 \\le x_1 \\le x_2 \\le ... \\le x_n \\le q\u3002\u4f60\u8fd8\u6709\u4e24\u4e2a\u6574\u6570 a \u548c b\uff0c\u6ee1\u8db3 a \\le b \u4e14 a \\cdot (n-1) &lt; q\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF280E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF280E?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF280E?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF280E Sequence Transformation" />
+    <meta property="og:description" content="给定一个非递减序列 x_1, x_2, ..., x_n，其中 1 \le x_1 \le x_2 \le ... \le x_n \le q。你还有两个整数 a 和 b，满足 a \le b 且 a \cdot (n-1) &amp;lt; q。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF280E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF280E Sequence Transformation</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个非递减序列 $x_1, x_2, ..., x_n$，其中 $1 \le x_1 \le x_2 \le ... \le x_n \le q$。你还有两个整数 $a$ 和 $b$，满足 $a \le b$ 且 $a \cdot (n-1) < q$。
+
+你的任务是将序列 $x_1, x_2, ..., x_n$ 转换为序列 $y_1, y_2, ..., y_n$，满足 $1 \le y_i \le q$ 且 $a \le y_{i+1} - y_i \le b$。该变换的代价为下式的和：![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF280E/179b07629f5c2880a487dce85a0ebc41e16d4717.png)。你的目标是选择一种 $y$ 的方案，使变换代价最小。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含四个整数 $n, q, a, b$，满足 $2 \le n \le 6000$，$1 \le q, a, b \le 10^9$，$a \cdot (n-1) < q$，$a \le b$。
+
+第二行包含一个非递减的整数序列 $x_1, x_2, ..., x_n$，满足 $1 \le x_1 \le x_2 \le ... \le x_n \le q$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    第一行输出 $n$ 个实数，即寻找到的序列 $y_1, y_2, ..., y_n$，满足 $1 \le y_i \le q$，$a \le y_{i+1} - y_i \le b$。第二行输出最小的变换代价，即 ![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF280E/179b07629f5c2880a487dce85a0ebc41e16d4717.png)。
+
+如果有多组最优解，可以任意输出其中一组。
+
+当你的答案的绝对误差或相对误差不超过 $10^{-6}$ 时，将被视为正确。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

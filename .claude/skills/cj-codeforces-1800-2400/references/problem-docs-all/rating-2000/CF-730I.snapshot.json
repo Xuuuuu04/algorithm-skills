@@ -1,0 +1,30 @@
+{
+  "id": "CF-730I",
+  "contest_id": 730,
+  "index": "I",
+  "name": "Olympiad in Programming and Sports",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "flows",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 2689,
+  "problem_url": "https://codeforces.com/problemset/problem/730/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/730/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/730/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=730I%20Olympiad%20in%20Programming%20and%20Sports%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/730/I",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 730I - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

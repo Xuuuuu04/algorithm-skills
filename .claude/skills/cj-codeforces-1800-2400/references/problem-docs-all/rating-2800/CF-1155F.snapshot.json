@@ -1,0 +1,34 @@
+{
+  "id": "CF-1155F",
+  "contest_id": 1155,
+  "index": "F",
+  "name": "Delivery Oligopoly",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp",
+    "graphs"
+  ],
+  "solved_count": 515,
+  "problem_url": "https://codeforces.com/problemset/problem/1155/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1155/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1155/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1155F%20Delivery%20Oligopoly%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1155F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Delivery Oligopoly - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dp",
+      "graphs",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

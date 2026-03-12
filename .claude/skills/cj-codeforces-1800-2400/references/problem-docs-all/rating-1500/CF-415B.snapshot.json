@@ -1,0 +1,30 @@
+{
+  "id": "CF-415B",
+  "contest_id": 415,
+  "index": "B",
+  "name": "Mashmokh and Tokens",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 6667,
+  "problem_url": "https://codeforces.com/problemset/problem/415/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/415/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/415/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=415B%20Mashmokh%20and%20Tokens%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/415/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 415B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

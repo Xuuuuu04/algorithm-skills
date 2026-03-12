@@ -1,0 +1,29 @@
+{
+  "id": "CF-149A",
+  "contest_id": 149,
+  "index": "A",
+  "name": "Business trip",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 45431,
+  "problem_url": "https://codeforces.com/problemset/problem/149/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/149/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/149/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=149A%20Business%20trip%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF149A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF149A Business trip - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 366,
+    "mirror_attempt": 1048,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CF-1874D",
+  "contest_id": 1874,
+  "index": "D",
+  "name": "Jellyfish and Miku",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "divide and conquer",
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 912,
+  "problem_url": "https://codeforces.com/problemset/problem/1874/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1874/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1874/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1874D%20Jellyfish%20and%20Miku%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1874D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Jellyfish and Miku - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "probabilities"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

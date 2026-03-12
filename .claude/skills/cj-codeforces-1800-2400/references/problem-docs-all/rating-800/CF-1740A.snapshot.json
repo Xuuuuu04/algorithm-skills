@@ -1,0 +1,28 @@
+{
+  "id": "CF-1740A",
+  "contest_id": 1740,
+  "index": "A",
+  "name": "Factorise N+M",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "number theory"
+  ],
+  "solved_count": 22963,
+  "problem_url": "https://codeforces.com/problemset/problem/1740/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1740/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1740/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1740A%20Factorise%20N%2BM%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1740/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1740A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

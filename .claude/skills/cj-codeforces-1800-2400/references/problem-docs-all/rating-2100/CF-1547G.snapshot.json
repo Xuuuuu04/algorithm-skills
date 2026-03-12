@@ -1,0 +1,35 @@
+{
+  "id": "CF-1547G",
+  "contest_id": 1547,
+  "index": "G",
+  "name": "How Many Paths?",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 3484,
+  "problem_url": "https://codeforces.com/problemset/problem/1547/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1547/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1547/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1547G%20How%20Many%20Paths%3F%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1547G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "How Many Paths? - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

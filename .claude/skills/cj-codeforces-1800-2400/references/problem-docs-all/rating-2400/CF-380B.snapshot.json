@@ -1,0 +1,32 @@
+{
+  "id": "CF-380B",
+  "contest_id": 380,
+  "index": "B",
+  "name": "Sereja and Tree",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 566,
+  "problem_url": "https://codeforces.com/problemset/problem/380/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/380/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/380/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=380B%20Sereja%20and%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P380B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sereja and Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graphs",
+      "implementation",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

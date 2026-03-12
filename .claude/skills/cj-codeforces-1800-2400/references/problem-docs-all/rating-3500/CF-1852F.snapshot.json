@@ -1,0 +1,29 @@
+{
+  "id": "CF-1852F",
+  "contest_id": 1852,
+  "index": "F",
+  "name": "Panda Meetups",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "flows"
+  ],
+  "solved_count": 145,
+  "problem_url": "https://codeforces.com/problemset/problem/1852/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1852/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1852/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1852F%20Panda%20Meetups%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1852/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1852F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

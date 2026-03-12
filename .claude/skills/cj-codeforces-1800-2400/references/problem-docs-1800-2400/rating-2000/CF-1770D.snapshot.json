@@ -1,0 +1,46 @@
+{
+  "id": "CF-1770D",
+  "contest_id": 1770,
+  "index": "D",
+  "name": "Koxia and Game",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "flows",
+    "games",
+    "graph matchings",
+    "graphs",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1770/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1770/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1770/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1770D%20Koxia and Game%20tutorial",
+  "solved_count": 4342,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "网络流（最大流/最小割）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1770D",
+  "hydro_meta": {
+    "page_title": "Koxia and Game - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "games",
+      "graphs",
+      "implementation"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

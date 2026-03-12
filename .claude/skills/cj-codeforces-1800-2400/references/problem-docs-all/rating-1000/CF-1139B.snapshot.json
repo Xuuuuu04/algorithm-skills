@@ -1,0 +1,28 @@
+{
+  "id": "CF-1139B",
+  "contest_id": 1139,
+  "index": "B",
+  "name": "Chocolates",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 19161,
+  "problem_url": "https://codeforces.com/problemset/problem/1139/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1139/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1139/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1139B%20Chocolates%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1139/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1139B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

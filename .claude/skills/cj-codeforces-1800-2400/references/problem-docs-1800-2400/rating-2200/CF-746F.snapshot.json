@@ -1,0 +1,36 @@
+{
+  "id": "CF-746F",
+  "contest_id": 746,
+  "index": "F",
+  "name": "Music in Car",
+  "rating": 2200,
+  "tags": [
+    "data structures",
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/746/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/746/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/746/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=746F%20Music in Car%20tutorial",
+  "solved_count": 890,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P746F",
+  "hydro_meta": {
+    "page_title": "Music in Car - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

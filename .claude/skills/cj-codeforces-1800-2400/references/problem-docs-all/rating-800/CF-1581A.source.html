@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1581A CQXYM Count Permutations - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1581A","type":"CF","title":"CQXYM Count Permutations","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":408,"totalAccepted":291,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"CQXYM Count Permutations","background":null,"description":"CQXYM \u6b63\u5728\u7edf\u8ba1\u957f\u5ea6\u4e3a $2n$ \u7684\u6392\u5217\u3002\n\n\u6392\u5217\u662f\u4e00\u4e2a\u5305\u542b $1$ \u5230 $n$ \u7684 $n$ \u4e2a\u4e92\u4e0d\u76f8\u540c\u6574\u6570\u7684\u6570\u7ec4\uff0c\u987a\u5e8f\u4efb\u610f\u3002\u4f8b\u5982\uff0c$[2,3,1,5,4]$ \u662f\u4e00\u4e2a\u6392\u5217\uff0c\u4f46 $[1,2,2]$ \u4e0d\u662f\u6392\u5217\uff08$2$ \u5728\u6570\u7ec4\u4e2d\u51fa\u73b0\u4e86\u4e24\u6b21\uff09\uff0c$[1,3,4]$ \u4e5f\u4e0d\u662f\u6392\u5217\uff08$n=3$\uff0c\u4f46\u6570\u7ec4\u4e2d\u6709 $4$\uff09\u3002\n\n\u4e00\u4e2a\u957f\u5ea6\u4e3a $2n$ \u7684\u6392\u5217 $p$ \u53ea\u6709\u5f53\u6ee1\u8db3 $p_i \u003C p_{i+1}$ \u7684 $i$ \u7684\u4e2a\u6570\u4e0d\u5c11\u4e8e $n$ \u65f6\uff0c\u624d\u4f1a\u88ab\u7edf\u8ba1\u3002\u4f8b\u5982\uff1a\n\n- \u6392\u5217 $[1, 2, 3, 4]$ \u4f1a\u88ab\u7edf\u8ba1\uff0c\u56e0\u4e3a\u6ee1\u8db3 $p_i \u003C p_{i+1}$ \u7684 $i$ \u6709 $3$ \u4e2a\uff08$i=1,2,3$\uff09\u3002\n- \u6392\u5217 $[3, 2, 1, 4]$ \u4e0d\u4f1a\u88ab\u7edf\u8ba1\uff0c\u56e0\u4e3a\u6ee1\u8db3 $p_i \u003C p_{i+1}$ \u7684 $i$ \u53ea\u6709 $1$ \u4e2a\uff08$i=3$\uff09\u3002\n\nCQXYM \u60f3\u8ba9\u4f60\u5e2e\u4ed6\u7edf\u8ba1\u6ee1\u8db3\u6761\u4ef6\u7684\u6392\u5217\u4e2a\u6570\uff0c\u7b54\u6848\u5bf9 $1000000007$\uff08$10^9+7$\uff09\u53d6\u6a21\u3002\n\n\u6b64\u5916\uff0c[\u53d6\u6a21\u8fd0\u7b97](https:\/\/en.wikipedia.org\/wiki\/Modulo_operation) \u662f\u53d6\u4f59\u6570\u3002\u4f8b\u5982\uff1a\n\n- $7 \\bmod 3 = 1$\uff0c\u56e0\u4e3a $7 = 3 \\cdot 2 + 1$\uff0c\n- $15 \\bmod 4 = 3$\uff0c\u56e0\u4e3a $15 = 4 \\cdot 3 + 3$\u3002","formatI":"\u8f93\u5165\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\n\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$t \\geq 1$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 10^5$\uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\u3002","hint":"\u5f53 $n=1$ \u65f6\uff0c\u53ea\u6709\u4e00\u4e2a\u6392\u5217\u6ee1\u8db3\u6761\u4ef6\uff1a$[1,2]$\u3002\n\n\u5728\u6392\u5217 $[1,2]$ \u4e2d\uff0c$p_1 \u003C p_2$\uff0c\u6709\u4e00\u4e2a $i=1$ \u6ee1\u8db3\u6761\u4ef6\u3002\u7531\u4e8e $1 \\geq n$\uff0c\u8be5\u6392\u5217\u5e94\u88ab\u7edf\u8ba1\u3002\u5728\u6392\u5217 $[2,1]$ \u4e2d\uff0c$p_1 \u003E p_2$\uff0c\u56e0\u4e3a $0 \u003C n$\uff0c\u8be5\u6392\u5217\u4e0d\u5e94\u88ab\u7edf\u8ba1\u3002\n\n\u5f53 $n=2$ \u65f6\uff0c\u5171\u6709 $12$ \u4e2a\u6ee1\u8db3\u6761\u4ef6\u7684\u6392\u5217\uff1a$[1,2,3,4]$\uff0c$[1,2,4,3]$\uff0c$[1,3,2,4]$\uff0c$[1,3,4,2]$\uff0c$[1,4,2,3]$\uff0c$[2,1,3,4]$\uff0c$[2,3,1,4]$\uff0c$[2,3,4,1]$\uff0c$[2,4,1,3]$\uff0c$[3,1,2,4]$\uff0c$[3,4,1,2]$\uff0c$[4,1,2,3]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"CQXYM Count Permutations","background":"","description":"CQXYM is counting permutations length of $ 2n $ .\n\nA permutation is an array consisting of $ n $ distinct integers from $ 1 $ to $ n $ in arbitrary order. For example, $ [2,3,1,5,4] $ is a permutation, but $ [1,2,2] $ is not a permutation ( $ 2 $ appears twice in the array) and $ [1,3,4] $ is also not a permutation ( $ n=3 $ but there is $ 4 $ in the array).\n\nA permutation $ p $ (length of $ 2n $ ) will be counted only if the number of $ i $ satisfying $ p_i\u003Cp_{i+1} $ is no less than $ n $ . For example:\n\n- Permutation $ [1, 2, 3, 4] $ will count, because the number of such $ i $ that $ p_i\u003Cp_{i+1} $ equals $ 3 $ ( $ i = 1 $ , $ i = 2 $ , $ i = 3 $ ).\n- Permutation $ [3, 2, 1, 4] $ won\u0027t count, because the number of such $ i $ that $ p_i\u003Cp_{i+1} $ equals $ 1 $ ( $ i = 3 $ ).\n\nCQXYM wants you to help him to count the number of such permutations modulo $ 1000000007 $ ( $ 10^9+7 $ ).\n\nIn addition, [modulo operation](https:\/\/en.wikipedia.org\/wiki\/Modulo_operation) is to get the remainder. For example:\n\n- $ 7 \\mod 3=1 $ , because $ 7 = 3 \\cdot 2 + 1 $ ,\n- $ 15 \\mod 4=3 $ , because $ 15 = 4 \\cdot 3 + 3 $ .","formatI":"The input consists of multiple test cases.\n\nThe first line contains an integer $ t (t \\geq 1) $ \u2014 the number of test cases. The description of the test cases follows.\n\nOnly one line of each test case contains an integer $ n(1 \\leq n \\leq 10^5) $ .\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 10^5 $","formatO":"For each test case, print the answer in a single line.","hint":"$ n=1 $ , there is only one permutation that satisfies the condition: $ [1,2]. $\n\nIn permutation $ [1,2] $ , $ p_1\u003Cp_2 $ , and there is one $ i=1 $ satisfy the condition. Since $ 1 \\geq n $ , this permutation should be counted. In permutation $ [2,1] $ , $ p_1\u003Ep_2 $ . Because $ 0\u003Cn $ , this permutation should not be counted.\n\n $ n=2 $ , there are $ 12 $ permutations: $ [1,2,3,4],[1,2,4,3],[1,3,2,4],[1,3,4,2],[1,4,2,3],[2,1,3,4],[2,3,1,4],[2,3,4,1],[2,4,1,3],[3,1,2,4],[3,4,1,2],[4,1,2,3]. $","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n1\n2\n9\n91234","1\n12\n830455698\n890287984"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1581A","link":"https:\/\/codeforces.com\/problemset\/problem\/1581\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\nCQXYM \u6b63\u5728\u6570\u957f\u5ea6\u4e3a $2n(1\\le n\\le 10^5)$ \u7684\u6392\u5217\u3002\n\n\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u5217\u662f\u6392\u5217\uff0c\u5f53\u4e14\u4ec5\u5f53\u5b83\u7531 $1\\sim n$ \u6784\u6210\u4e14\u6bcf\u4e2a\u6570\u51fa\u73b0\u4e14\u4ec5\u51fa\u73b0\u4e00\u6b21\u3002\n\n\u4e00\u4e2a\u6392\u5217 $p$ \u4f1a\u88ab\u6570\u5230\uff0c\u5f53\u4e14\u4ec5\u5f53\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff1a\n\n$$\n\\sum\\limits_{i=1}^{2n-1}[p_i\u003Cp_{i+1}]\\ge n\n$$\n\n\u6c42 CQXYM \u53ef\u80fd\u6570\u5230\u7684\u6392\u5217\u6570 $\\bmod\\ 10^9+7$\u3002\n\nTranslated by [Sept](\/user\/224931)\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u5171\u8f93\u51fa\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570\u3002\n\n### \u6570\u636e\u8303\u56f4\n\n$t\\geqslant1$\uff0c$1\\leqslant n\\leqslant10^5$ \u3002"},"translations":{"en":{"name":"CQXYM Count Permutations","background":"","description":"CQXYM is counting permutations length of $ 2n $ .\n\nA permutation is an array consisting of $ n $ distinct integers from $ 1 $ to $ n $ in arbitrary order. For example, $ [2,3,1,5,4] $ is a permutation, but $ [1,2,2] $ is not a permutation ( $ 2 $ appears twice in the array) and $ [1,3,4] $ is also not a permutation ( $ n=3 $ but there is $ 4 $ in the array).\n\nA permutation $ p $ (length of $ 2n $ ) will be counted only if the number of $ i $ satisfying $ p_i\u003Cp_{i+1} $ is no less than $ n $ . For example:\n\n- Permutation $ [1, 2, 3, 4] $ will count, because the number of such $ i $ that $ p_i\u003Cp_{i+1} $ equals $ 3 $ ( $ i = 1 $ , $ i = 2 $ , $ i = 3 $ ).\n- Permutation $ [3, 2, 1, 4] $ won\u0027t count, because the number of such $ i $ that $ p_i\u003Cp_{i+1} $ equals $ 1 $ ( $ i = 3 $ ).\n\nCQXYM wants you to help him to count the number of such permutations modulo $ 1000000007 $ ( $ 10^9+7 $ ).\n\nIn addition, [modulo operation](https:\/\/en.wikipedia.org\/wiki\/Modulo_operation) is to get the remainder. For example:\n\n- $ 7 \\mod 3=1 $ , because $ 7 = 3 \\cdot 2 + 1 $ ,\n- $ 15 \\mod 4=3 $ , because $ 15 = 4 \\cdot 3 + 3 $ .","formatI":"The input consists of multiple test cases.\n\nThe first line contains an integer $ t (t \\geq 1) $ \u2014 the number of test cases. The description of the test cases follows.\n\nOnly one line of each test case contains an integer $ n(1 \\leq n \\leq 10^5) $ .\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 10^5 $","formatO":"For each test case, print the answer in a single line.","hint":"$ n=1 $ , there is only one permutation that satisfies the condition: $ [1,2]. $\n\nIn permutation $ [1,2] $ , $ p_1\u003Cp_2 $ , and there is one $ i=1 $ satisfy the condition. Since $ 1 \\geq n $ , this permutation should be counted. In permutation $ [2,1] $ , $ p_1\u003Ep_2 $ . Because $ 0\u003Cn $ , this permutation should not be counted.\n\n $ n=2 $ , there are $ 12 $ permutations: $ [1,2,3,4],[1,2,4,3],[1,3,2,4],[1,3,4,2],[1,4,2,3],[2,1,3,4],[2,3,1,4],[2,3,4,1],[2,4,1,3],[3,1,2,4],[3,4,1,2],[4,1,2,3]. $","locale":"en"},"zh-CN":{"name":"CQXYM Count Permutations","background":null,"description":"CQXYM \u6b63\u5728\u7edf\u8ba1\u957f\u5ea6\u4e3a $2n$ \u7684\u6392\u5217\u3002\n\n\u6392\u5217\u662f\u4e00\u4e2a\u5305\u542b $1$ \u5230 $n$ \u7684 $n$ \u4e2a\u4e92\u4e0d\u76f8\u540c\u6574\u6570\u7684\u6570\u7ec4\uff0c\u987a\u5e8f\u4efb\u610f\u3002\u4f8b\u5982\uff0c$[2,3,1,5,4]$ \u662f\u4e00\u4e2a\u6392\u5217\uff0c\u4f46 $[1,2,2]$ \u4e0d\u662f\u6392\u5217\uff08$2$ \u5728\u6570\u7ec4\u4e2d\u51fa\u73b0\u4e86\u4e24\u6b21\uff09\uff0c$[1,3,4]$ \u4e5f\u4e0d\u662f\u6392\u5217\uff08$n=3$\uff0c\u4f46\u6570\u7ec4\u4e2d\u6709 $4$\uff09\u3002\n\n\u4e00\u4e2a\u957f\u5ea6\u4e3a $2n$ \u7684\u6392\u5217 $p$ \u53ea\u6709\u5f53\u6ee1\u8db3 $p_i \u003C p_{i+1}$ \u7684 $i$ \u7684\u4e2a\u6570\u4e0d\u5c11\u4e8e $n$ \u65f6\uff0c\u624d\u4f1a\u88ab\u7edf\u8ba1\u3002\u4f8b\u5982\uff1a\n\n- \u6392\u5217 $[1, 2, 3, 4]$ \u4f1a\u88ab\u7edf\u8ba1\uff0c\u56e0\u4e3a\u6ee1\u8db3 $p_i \u003C p_{i+1}$ \u7684 $i$ \u6709 $3$ \u4e2a\uff08$i=1,2,3$\uff09\u3002\n- \u6392\u5217 $[3, 2, 1, 4]$ \u4e0d\u4f1a\u88ab\u7edf\u8ba1\uff0c\u56e0\u4e3a\u6ee1\u8db3 $p_i \u003C p_{i+1}$ \u7684 $i$ \u53ea\u6709 $1$ \u4e2a\uff08$i=3$\uff09\u3002\n\nCQXYM \u60f3\u8ba9\u4f60\u5e2e\u4ed6\u7edf\u8ba1\u6ee1\u8db3\u6761\u4ef6\u7684\u6392\u5217\u4e2a\u6570\uff0c\u7b54\u6848\u5bf9 $1000000007$\uff08$10^9+7$\uff09\u53d6\u6a21\u3002\n\n\u6b64\u5916\uff0c[\u53d6\u6a21\u8fd0\u7b97](https:\/\/en.wikipedia.org\/wiki\/Modulo_operation) \u662f\u53d6\u4f59\u6570\u3002\u4f8b\u5982\uff1a\n\n- $7 \\bmod 3 = 1$\uff0c\u56e0\u4e3a $7 = 3 \\cdot 2 + 1$\uff0c\n- $15 \\bmod 4 = 3$\uff0c\u56e0\u4e3a $15 = 4 \\cdot 3 + 3$\u3002","formatI":"\u8f93\u5165\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\n\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$t \\geq 1$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 10^5$\uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u7b54\u6848\u3002","hint":"\u5f53 $n=1$ \u65f6\uff0c\u53ea\u6709\u4e00\u4e2a\u6392\u5217\u6ee1\u8db3\u6761\u4ef6\uff1a$[1,2]$\u3002\n\n\u5728\u6392\u5217 $[1,2]$ \u4e2d\uff0c$p_1 \u003C p_2$\uff0c\u6709\u4e00\u4e2a $i=1$ \u6ee1\u8db3\u6761\u4ef6\u3002\u7531\u4e8e $1 \\geq n$\uff0c\u8be5\u6392\u5217\u5e94\u88ab\u7edf\u8ba1\u3002\u5728\u6392\u5217 $[2,1]$ \u4e2d\uff0c$p_1 \u003E p_2$\uff0c\u56e0\u4e3a $0 \u003C n$\uff0c\u8be5\u6392\u5217\u4e0d\u5e94\u88ab\u7edf\u8ba1\u3002\n\n\u5f53 $n=2$ \u65f6\uff0c\u5171\u6709 $12$ \u4e2a\u6ee1\u8db3\u6761\u4ef6\u7684\u6392\u5217\uff1a$[1,2,3,4]$\uff0c$[1,2,4,3]$\uff0c$[1,3,2,4]$\uff0c$[1,3,4,2]$\uff0c$[1,4,2,3]$\uff0c$[2,1,3,4]$\uff0c$[2,3,1,4]$\uff0c$[2,3,4,1]$\uff0c$[2,4,1,3]$\uff0c$[3,1,2,4]$\uff0c$[3,4,1,2]$\uff0c$[4,1,2,3]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1581A CQXYM Count Permutations","type":2,"slug":"CF1581A","color":"orange-3"},"discussions":[{"id":373876,"title":"\u7ffb\u8bd1\u6709\u8bef","author":{"uid":224931,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/224931.png","name":"CSP_Sept","slogan":"\u9000\u5f79\u3002","badge":"\u6eaf","isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/6tuoskvg.png"},"time":1635515888}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.396833,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1581A CQXYM Count Permutations","description":"CQXYM \u6b63\u5728\u7edf\u8ba1\u957f\u5ea6\u4e3a 2n \u7684\u6392\u5217\u3002\n\u6392\u5217\u662f\u4e00\u4e2a\u5305\u542b 1 \u5230 n \u7684 n \u4e2a\u4e92\u4e0d\u76f8\u540c\u6574\u6570\u7684\u6570\u7ec4\uff0c\u987a\u5e8f\u4efb\u610f\u3002\u4f8b\u5982\uff0c[2,3,1,5,4] \u662f\u4e00\u4e2a\u6392\u5217\uff0c\u4f46 [1,2,2] \u4e0d\u662f\u6392\u5217\uff082 \u5728\u6570\u7ec4\u4e2d\u51fa\u73b0\u4e86\u4e24\u6b21\uff09\uff0c[1,3,4] \u4e5f\u4e0d\u662f\u6392\u5217\uff08n=3\uff0c\u4f46\u6570\u7ec4\u4e2d\u6709\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1581A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1581A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1581A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1581A CQXYM Count Permutations" />
+    <meta property="og:description" content="CQXYM 正在统计长度为 2n 的排列。
+排列是一个包含 1 到 n 的 n 个互不相同整数的数组，顺序任意。例如，[2,3,1,5,4] 是一个排列，但 [1,2,2] 不是排列（2 在数组中出现了两次），[1,3,4] 也不是排列（n=3，但数组中有…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1581A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1581A CQXYM Count Permutations</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    CQXYM 正在统计长度为 $2n$ 的排列。
+
+排列是一个包含 $1$ 到 $n$ 的 $n$ 个互不相同整数的数组，顺序任意。例如，$[2,3,1,5,4]$ 是一个排列，但 $[1,2,2]$ 不是排列（$2$ 在数组中出现了两次），$[1,3,4]$ 也不是排列（$n=3$，但数组中有 $4$）。
+
+一个长度为 $2n$ 的排列 $p$ 只有当满足 $p_i < p_{i+1}$ 的 $i$ 的个数不少于 $n$ 时，才会被统计。例如：
+
+- 排列 $[1, 2, 3, 4]$ 会被统计，因为满足 $p_i < p_{i+1}$ 的 $i$ 有 $3$ 个（$i=1,2,3$）。
+- 排列 $[3, 2, 1, 4]$ 不会被统计，因为满足 $p_i < p_{i+1}$ 的 $i$ 只有 $1$ 个（$i=3$）。
+
+CQXYM 想让你帮他统计满足条件的排列个数，答案对 $1000000007$（$10^9+7$）取模。
+
+此外，[取模运算](https://en.wikipedia.org/wiki/Modulo_operation) 是取余数。例如：
+
+- $7 \bmod 3 = 1$，因为 $7 = 3 \cdot 2 + 1$，
+- $15 \bmod 4 = 3$，因为 $15 = 4 \cdot 3 + 3$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入包含多组测试数据。
+
+第一行包含一个整数 $t$（$t \geq 1$），表示测试用例的数量。接下来每组测试用例仅一行，包含一个整数 $n$（$1 \leq n \leq 10^5$）。
+
+保证所有测试用例中 $n$ 的总和不超过 $10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一行答案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                当 $n=1$ 时，只有一个排列满足条件：$[1,2]$。
+
+在排列 $[1,2]$ 中，$p_1 < p_2$，有一个 $i=1$ 满足条件。由于 $1 \geq n$，该排列应被统计。在排列 $[2,1]$ 中，$p_1 > p_2$，因为 $0 < n$，该排列不应被统计。
+
+当 $n=2$ 时，共有 $12$ 个满足条件的排列：$[1,2,3,4]$，$[1,2,4,3]$，$[1,3,2,4]$，$[1,3,4,2]$，$[1,4,2,3]$，$[2,1,3,4]$，$[2,3,1,4]$，$[2,3,4,1]$，$[2,4,1,3]$，$[3,1,2,4]$，$[3,4,1,2]$，$[4,1,2,3]$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

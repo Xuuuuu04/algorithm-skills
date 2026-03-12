@@ -1,0 +1,27 @@
+{
+  "id": "CF-1267B",
+  "contest_id": 1267,
+  "index": "B",
+  "name": "Balls of Buma",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 4504,
+  "problem_url": "https://codeforces.com/problemset/problem/1267/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1267/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1267/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1267B%20Balls%20of%20Buma%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1267B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Balls of Buma - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

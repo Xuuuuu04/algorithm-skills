@@ -1,0 +1,39 @@
+{
+  "id": "CF-1108F",
+  "contest_id": 1108,
+  "index": "F",
+  "name": "MST Unification",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "dsu",
+    "graphs",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1108/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1108/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1108/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1108F%20MST Unification%20tutorial",
+  "solved_count": 3508,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1108F",
+  "hydro_meta": {
+    "page_title": "MST Unification - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dsu",
+      "graphs",
+      "greedy",
+      "*2100"
+    ],
+    "hydro_accepted": 4,
+    "hydro_attempt": 7,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

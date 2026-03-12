@@ -1,0 +1,36 @@
+{
+  "id": "CF-123C",
+  "contest_id": 123,
+  "index": "C",
+  "name": "Brackets",
+  "rating": 2300,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/123/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/123/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/123/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=123C%20Brackets%20tutorial",
+  "solved_count": 709,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P123C",
+  "hydro_meta": {
+    "page_title": "Brackets - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "greedy",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

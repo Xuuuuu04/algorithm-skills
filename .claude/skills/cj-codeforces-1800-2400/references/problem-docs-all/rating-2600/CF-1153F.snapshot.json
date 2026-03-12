@@ -1,0 +1,36 @@
+{
+  "id": "CF-1153F",
+  "contest_id": 1153,
+  "index": "F",
+  "name": "Serval and Bonus Problem",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 913,
+  "problem_url": "https://codeforces.com/problemset/problem/1153/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1153/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1153/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1153F%20Serval%20and%20Bonus%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1153F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Serval and Bonus Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "probabilities",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

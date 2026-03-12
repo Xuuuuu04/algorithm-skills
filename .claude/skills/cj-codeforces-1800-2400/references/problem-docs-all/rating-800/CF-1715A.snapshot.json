@@ -1,0 +1,32 @@
+{
+  "id": "CF-1715A",
+  "contest_id": 1715,
+  "index": "A",
+  "name": "Crossmarket",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 24327,
+  "problem_url": "https://codeforces.com/problemset/problem/1715/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1715/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1715/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1715A%20Crossmarket%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1715A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Crossmarket - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "CF-1090B",
+  "contest_id": 1090,
+  "index": "B",
+  "name": "LaTeX Expert",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 1550,
+  "problem_url": "https://codeforces.com/problemset/problem/1090/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1090/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1090/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1090B%20LaTeX%20Expert%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1090B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "__NO_TITLE__ - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

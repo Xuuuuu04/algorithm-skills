@@ -1,0 +1,27 @@
+{
+  "id": "CF-61A",
+  "contest_id": 61,
+  "index": "A",
+  "name": "Ultra-Fast Mathematician",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 133932,
+  "problem_url": "https://codeforces.com/problemset/problem/61/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/61/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/61/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=61A%20Ultra-Fast%20Mathematician%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF61A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF61A Ultra-Fast Mathematician - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1328,
+    "mirror_attempt": 2320,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1359D",
+  "contest_id": 1359,
+  "index": "D",
+  "name": "Yet Another Yet Another Task",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dp",
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 10524,
+  "problem_url": "https://codeforces.com/problemset/problem/1359/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1359/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1359/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1359D%20Yet%20Another%20Yet%20Another%20Task%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1359D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yet Another Yet Another Task - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "two pointers",
+      "*2000"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

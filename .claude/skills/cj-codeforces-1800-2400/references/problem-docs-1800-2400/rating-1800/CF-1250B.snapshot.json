@@ -1,0 +1,39 @@
+{
+  "id": "CF-1250B",
+  "contest_id": 1250,
+  "index": "B",
+  "name": "The Feast and the Bus",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1250/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1250/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1250/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1250B%20The Feast and the Bus%20tutorial",
+  "solved_count": 2778,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1250B",
+  "hydro_meta": {
+    "page_title": "The Feast and the Bus - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

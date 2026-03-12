@@ -1,0 +1,38 @@
+{
+  "id": "CF-1943C",
+  "contest_id": 1943,
+  "index": "C",
+  "name": "Tree Compass",
+  "rating": 2300,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1943/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1943/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1943/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1943C%20Tree Compass%20tutorial",
+  "solved_count": 2559,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1943C",
+  "hydro_meta": {
+    "page_title": "Tree Compass - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "greedy",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

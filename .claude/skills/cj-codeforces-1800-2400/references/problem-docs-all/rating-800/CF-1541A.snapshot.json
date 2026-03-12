@@ -1,0 +1,29 @@
+{
+  "id": "CF-1541A",
+  "contest_id": 1541,
+  "index": "A",
+  "name": "Pretty Permutations",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 30618,
+  "problem_url": "https://codeforces.com/problemset/problem/1541/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1541/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1541/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1541A%20Pretty%20Permutations%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1541A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1541A Pretty Permutations - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 853,
+    "mirror_attempt": 2272,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

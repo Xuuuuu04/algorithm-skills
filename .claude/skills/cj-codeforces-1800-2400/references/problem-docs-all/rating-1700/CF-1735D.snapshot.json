@@ -1,0 +1,38 @@
+{
+  "id": "CF-1735D",
+  "contest_id": 1735,
+  "index": "D",
+  "name": "Meta-set",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "data structures",
+    "hashing",
+    "math"
+  ],
+  "solved_count": 6601,
+  "problem_url": "https://codeforces.com/problemset/problem/1735/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1735/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1735/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1735D%20Meta-set%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1735D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Meta-set - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "combinatorics",
+      "data structures",
+      "hashing",
+      "math",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

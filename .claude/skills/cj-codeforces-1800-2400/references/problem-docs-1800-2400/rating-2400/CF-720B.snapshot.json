@@ -1,0 +1,33 @@
+{
+  "id": "CF-720B",
+  "contest_id": 720,
+  "index": "B",
+  "name": "Cactusophobia",
+  "rating": 2400,
+  "tags": [
+    "dfs and similar",
+    "flows"
+  ],
+  "url": "https://codeforces.com/problemset/problem/720/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/720/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/720/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=720B%20Cactusophobia%20tutorial",
+  "solved_count": 463,
+  "suggested_patterns": [
+    "网络流（最大流/最小割）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P720B",
+  "hydro_meta": {
+    "page_title": "Cactusophobia - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "flows",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

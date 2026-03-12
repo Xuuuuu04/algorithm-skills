@@ -1,0 +1,32 @@
+{
+  "id": "CF-281A",
+  "contest_id": 281,
+  "index": "A",
+  "name": "Word Capitalization",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 265084,
+  "problem_url": "https://codeforces.com/problemset/problem/281/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/281/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/281/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=281A%20Word%20Capitalization%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P281A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Word Capitalization - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414420:8qTU0E3jZJaStCuYOFufkS4ZdzyHdlRqUOTX9+hMRoo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF749A Bachgold Problem - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF749A","type":"CF","title":"Bachgold Problem","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":401,"totalAccepted":242,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Bachgold Problem","background":null,"description":"Bachgold \u95ee\u9898\u5f88\u5bb9\u6613\u8868\u8ff0\u3002\u7ed9\u5b9a\u4e00\u4e2a\u6b63\u6574\u6570 $n$\uff0c\u8981\u6c42\u5c06\u5176\u8868\u793a\u4e3a\u5c3d\u53ef\u80fd\u591a\u7684\u7d20\u6570\u4e4b\u548c\u3002\u53ef\u4ee5\u8bc1\u660e\uff0c\u5bf9\u4e8e\u4efb\u610f\u5927\u4e8e $1$ \u7684\u6574\u6570\uff0c\u90fd\u5b58\u5728\u8fd9\u6837\u7684\u8868\u8fbe\u65b9\u5f0f\u3002\n\n\u56de\u5fc6\u4e00\u4e0b\uff0c\u6574\u6570 $k$ \u662f\u7d20\u6570\u5f53\u4e14\u4ec5\u5f53 $k$ \u5927\u4e8e $1$\uff0c\u5e76\u4e14\u53ea\u6709\u4e24\u4e2a\u6b63\u6574\u6570\u56e0\u5b50\u2014\u2014$1$ \u548c $k$ \u672c\u8eab\u3002","formatI":"\u8f93\u5165\u7684\u552f\u4e00\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $n$\uff08$2 \\leq n \\leq 100000$\uff09\u3002","formatO":"\u8f93\u51fa\u7684\u7b2c\u4e00\u884c\u4e3a\u6574\u6570 $k$\uff0c\u8868\u793a\u8868\u793a $n$ \u7684\u7d20\u6570\u4e2a\u6570\u6700\u591a\u662f\u591a\u5c11\u3002\n\n\u8f93\u51fa\u7684\u7b2c\u4e8c\u884c\u4e3a\u8fd9 $k$ \u4e2a\u7d20\u6570\uff0c\u4f7f\u5f97\u5b83\u4eec\u7684\u548c\u7b49\u4e8e $n$\u3002\u4f60\u53ef\u4ee5\u6309\u4efb\u610f\u987a\u5e8f\u8f93\u51fa\u8fd9\u4e9b\u7d20\u6570\u3002\u5982\u679c\u5b58\u5728\u591a\u79cd\u6700\u4f18\u65b9\u6848\uff0c\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Bachgold Problem","background":"","description":"Bachgold problem is very easy to formulate. Given a positive integer $ n $ represent it as a sum of maximum possible number of prime numbers. One can prove that such representation exists for any integer greater than $ 1 $ .\n\nRecall that integer $ k $ is called prime if it is greater than $ 1 $ and has exactly two positive integer divisors \u2014 $ 1 $ and $ k $ .","formatI":"The only line of the input contains a single integer $ n $ ( $ 2\u003C=n\u003C=100000 $ ).","formatO":"The first line of the output contains a single integer $ k $ \u2014 maximum possible number of primes in representation.\n\nThe second line should contain $ k $ primes with their sum equal to $ n $ . You can print them in any order. If there are several optimal solution, print any of them.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n","2\n2 3\n"],["6\n","3\n2 2 2\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"749A","link":"https:\/\/codeforces.com\/problemset\/problem\/749\/A"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u6574\u6570$n$ \uff08$2\\leq n\\leq 100000$ \uff09\uff0c\u95ee\u6700\u591a\u80fd\u5c06\u5176\u5206\u89e3\u6210\u591a\u5c11\u8d28\u6570\u7684\u548c\u3002\u5728\u7b2c\u4e00\u884c\u8f93\u51fa\u6700\u591a\u7684\u8d28\u6570\u6570\u91cf$k$ \uff0c\u4e0b\u4e00\u884c\u8f93\u51fa$k$ \u4e2a\u6574\u6570\uff0c\u4e3a\u8fd9\u4e9b\u8d28\u6570\u3002\n\n\u4e00\u4e2a\u5927\u4e8e$1$ \u7684\u6570\u5982\u679c\u53ea\u80fd\u88ab$1$ \u548c\u5b83\u81ea\u5df1\u6574\u9664\uff0c\u90a3\u5b83\u5c31\u662f\u4e00\u4e2a\u8d28\u6570\u3002\n\nBy @Khassar  "},"translations":{"en":{"name":"Bachgold Problem","background":"","description":"Bachgold problem is very easy to formulate. Given a positive integer $ n $ represent it as a sum of maximum possible number of prime numbers. One can prove that such representation exists for any integer greater than $ 1 $ .\n\nRecall that integer $ k $ is called prime if it is greater than $ 1 $ and has exactly two positive integer divisors \u2014 $ 1 $ and $ k $ .","formatI":"The only line of the input contains a single integer $ n $ ( $ 2\u003C=n\u003C=100000 $ ).","formatO":"The first line of the output contains a single integer $ k $ \u2014 maximum possible number of primes in representation.\n\nThe second line should contain $ k $ primes with their sum equal to $ n $ . You can print them in any order. If there are several optimal solution, print any of them.","hint":"","locale":"en"},"zh-CN":{"name":"Bachgold Problem","background":null,"description":"Bachgold \u95ee\u9898\u5f88\u5bb9\u6613\u8868\u8ff0\u3002\u7ed9\u5b9a\u4e00\u4e2a\u6b63\u6574\u6570 $n$\uff0c\u8981\u6c42\u5c06\u5176\u8868\u793a\u4e3a\u5c3d\u53ef\u80fd\u591a\u7684\u7d20\u6570\u4e4b\u548c\u3002\u53ef\u4ee5\u8bc1\u660e\uff0c\u5bf9\u4e8e\u4efb\u610f\u5927\u4e8e $1$ \u7684\u6574\u6570\uff0c\u90fd\u5b58\u5728\u8fd9\u6837\u7684\u8868\u8fbe\u65b9\u5f0f\u3002\n\n\u56de\u5fc6\u4e00\u4e0b\uff0c\u6574\u6570 $k$ \u662f\u7d20\u6570\u5f53\u4e14\u4ec5\u5f53 $k$ \u5927\u4e8e $1$\uff0c\u5e76\u4e14\u53ea\u6709\u4e24\u4e2a\u6b63\u6574\u6570\u56e0\u5b50\u2014\u2014$1$ \u548c $k$ \u672c\u8eab\u3002","formatI":"\u8f93\u5165\u7684\u552f\u4e00\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $n$\uff08$2 \\leq n \\leq 100000$\uff09\u3002","formatO":"\u8f93\u51fa\u7684\u7b2c\u4e00\u884c\u4e3a\u6574\u6570 $k$\uff0c\u8868\u793a\u8868\u793a $n$ \u7684\u7d20\u6570\u4e2a\u6570\u6700\u591a\u662f\u591a\u5c11\u3002\n\n\u8f93\u51fa\u7684\u7b2c\u4e8c\u884c\u4e3a\u8fd9 $k$ \u4e2a\u7d20\u6570\uff0c\u4f7f\u5f97\u5b83\u4eec\u7684\u548c\u7b49\u4e8e $n$\u3002\u4f60\u53ef\u4ee5\u6309\u4efb\u610f\u987a\u5e8f\u8f93\u51fa\u8fd9\u4e9b\u7d20\u6570\u3002\u5982\u679c\u5b58\u5728\u591a\u79cd\u6700\u4f18\u65b9\u6848\uff0c\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF749A Bachgold Problem","type":2,"slug":"CF749A","color":"orange-3"},"discussions":[{"id":34977,"title":"\u9898\u76ee\u5927\u610f","author":{"uid":35700,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/35700.png","name":"Khassar","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1519479912}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328020.037614,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF749A Bachgold Problem","description":"Bachgold \u95ee\u9898\u5f88\u5bb9\u6613\u8868\u8ff0\u3002\u7ed9\u5b9a\u4e00\u4e2a\u6b63\u6574\u6570 n\uff0c\u8981\u6c42\u5c06\u5176\u8868\u793a\u4e3a\u5c3d\u53ef\u80fd\u591a\u7684\u7d20\u6570\u4e4b\u548c\u3002\u53ef\u4ee5\u8bc1\u660e\uff0c\u5bf9\u4e8e\u4efb\u610f\u5927\u4e8e 1 \u7684\u6574\u6570\uff0c\u90fd\u5b58\u5728\u8fd9\u6837\u7684\u8868\u8fbe\u65b9\u5f0f\u3002\n\u56de\u5fc6\u4e00\u4e0b\uff0c\u6574\u6570 k \u662f\u7d20\u6570\u5f53\u4e14\u4ec5\u5f53 k \u5927\u4e8e 1\uff0c\u5e76\u4e14\u53ea\u6709\u4e24\u4e2a\u6b63\u6574\u6570\u56e0\u5b50\u2014\u20141 \u548c k \u672c\u8eab\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF749A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF749A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF749A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF749A Bachgold Problem" />
+    <meta property="og:description" content="Bachgold 问题很容易表述。给定一个正整数 n，要求将其表示为尽可能多的素数之和。可以证明，对于任意大于 1 的整数，都存在这样的表达方式。
+回忆一下，整数 k 是素数当且仅当 k 大于 1，并且只有两个正整数因子——1 和 k 本身。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF749A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF749A Bachgold Problem</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Bachgold 问题很容易表述。给定一个正整数 $n$，要求将其表示为尽可能多的素数之和。可以证明，对于任意大于 $1$ 的整数，都存在这样的表达方式。
+
+回忆一下，整数 $k$ 是素数当且仅当 $k$ 大于 $1$，并且只有两个正整数因子——$1$ 和 $k$ 本身。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的唯一一行包含一个正整数 $n$（$2 \leq n \leq 100000$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出的第一行为整数 $k$，表示表示 $n$ 的素数个数最多是多少。
+
+输出的第二行为这 $k$ 个素数，使得它们的和等于 $n$。你可以按任意顺序输出这些素数。如果存在多种最优方案，输出其中任意一种即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

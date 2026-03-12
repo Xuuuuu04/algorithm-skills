@@ -1,0 +1,29 @@
+{
+  "id": "CF-431E",
+  "contest_id": 431,
+  "index": "E",
+  "name": "Chemistry Experiment",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "ternary search"
+  ],
+  "solved_count": 1172,
+  "problem_url": "https://codeforces.com/problemset/problem/431/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/431/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/431/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=431E%20Chemistry%20Experiment%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF431E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF431E Chemistry Experiment - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 563,
+    "mirror_attempt": 2145,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

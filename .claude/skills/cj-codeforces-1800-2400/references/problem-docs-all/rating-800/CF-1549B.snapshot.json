@@ -1,0 +1,38 @@
+{
+  "id": "CF-1549B",
+  "contest_id": 1549,
+  "index": "B",
+  "name": "Gregor and the Pawn Game",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "flows",
+    "graph matchings",
+    "graphs",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 26511,
+  "problem_url": "https://codeforces.com/problemset/problem/1549/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1549/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1549/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1549B%20Gregor%20and%20the%20Pawn%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1549B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Gregor and the Pawn Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "flows",
+      "graphs",
+      "greedy",
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

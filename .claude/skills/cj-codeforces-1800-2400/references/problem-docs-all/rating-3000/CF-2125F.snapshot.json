@@ -1,0 +1,29 @@
+{
+  "id": "CF-2125F",
+  "contest_id": 2125,
+  "index": "F",
+  "name": "Timofey and Docker",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "divide and conquer",
+    "dp"
+  ],
+  "solved_count": 387,
+  "problem_url": "https://codeforces.com/problemset/problem/2125/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2125/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2125/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2125F%20Timofey%20and%20Docker%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2125F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2125F Timofey and Docker - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1146E",
+  "contest_id": 1146,
+  "index": "E",
+  "name": "Hot is Cold",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks",
+    "data structures",
+    "divide and conquer",
+    "implementation"
+  ],
+  "solved_count": 1010,
+  "problem_url": "https://codeforces.com/problemset/problem/1146/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1146/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1146/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1146E%20Hot%20is%20Cold%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1146E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Hot is Cold - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "data structures",
+      "divide and conquer",
+      "implementation",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

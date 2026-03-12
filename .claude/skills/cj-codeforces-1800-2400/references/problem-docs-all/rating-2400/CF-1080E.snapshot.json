@@ -1,0 +1,30 @@
+{
+  "id": "CF-1080E",
+  "contest_id": 1080,
+  "index": "E",
+  "name": "Sonya and Matrix Beauty",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 1290,
+  "problem_url": "https://codeforces.com/problemset/problem/1080/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1080/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1080/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1080E%20Sonya%20and%20Matrix%20Beauty%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1080E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sonya and Matrix Beauty - 题目详情 - Hydro",
+    "mirror_tags": [
+      "strings",
+      "*2400"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 12,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

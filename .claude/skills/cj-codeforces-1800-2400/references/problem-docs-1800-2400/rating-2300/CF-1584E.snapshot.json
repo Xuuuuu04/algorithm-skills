@@ -1,0 +1,39 @@
+{
+  "id": "CF-1584E",
+  "contest_id": 1584,
+  "index": "E",
+  "name": "Game with Stones",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "data structures",
+    "games",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1584/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1584/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1584/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1584E%20Game with Stones%20tutorial",
+  "solved_count": 1445,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1584E",
+  "hydro_meta": {
+    "page_title": "Game with Stones - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "games",
+      "greedy",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

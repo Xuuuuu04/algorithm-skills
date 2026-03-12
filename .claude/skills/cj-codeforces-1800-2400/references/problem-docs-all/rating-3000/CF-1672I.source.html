@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415133:77WrpHPfNc3E5px/xwMen+dHnuF7f+g4qSA0C+DV6Fo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1672I PermutationForces - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1672I","type":"CF","title":"PermutationForces","difficulty":7,"tags":[],"wantsTranslation":false,"totalSubmit":134,"totalAccepted":59,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"PermutationForces","background":null,"description":"\u4f60\u6709\u4e00\u4e2a\u7531 $1$ \u5230 $n$ \u7684\u6574\u6570\u6784\u6210\u7684\u6392\u5217 $p$\u3002\n\n\u4f60\u62e5\u6709\u4e00\u4e2a\u5f3a\u5ea6 $s$\uff0c\u5e76\u4e14\u4f60\u5c06\u591a\u6b21\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9\u4e00\u4e2a\u4e0b\u6807 $i$\uff0c\u6ee1\u8db3 $1 \\leq i \\leq |p|$ \u4e14 $|i-p_i| \\leq s$\u3002\n- \u5bf9\u6240\u6709\u6ee1\u8db3 $1 \\leq j \\leq |p|$ \u4e14 $p_i \u003C p_j$ \u7684 $j$\uff0c\u5c06 $p_j$ \u66f4\u65b0\u4e3a $p_j-1$\u3002\n- \u5220\u9664\u6392\u5217\u4e2d\u7684\u7b2c $i$ \u4e2a\u5143\u7d20\u3002\u5f62\u5f0f\u5316\u5730\uff0c\u5c06 $p$ \u66f4\u65b0\u4e3a $[p_1,\\ldots,p_{i-1},p_{i+1},\\ldots,p_n]$\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u65e0\u8bba\u4f60\u9009\u62e9\u4e86\u54ea\u4e2a $i$\uff0c\u5728\u6240\u6709\u64cd\u4f5c\u7ed3\u675f\u540e\uff0c$p$ \u90fd\u4f1a\u662f\u4e00\u4e2a\u4ece $1$ \u5230 $|p|$ \u7684\u6392\u5217\u3002\n\n\u4f60\u5e0c\u671b\u80fd\u591f\u5c06 $p$ \u53d8\u4e3a\u7a7a\u6392\u5217\u3002\u8bf7\u4f60\u6c42\u51fa\u4f7f\u5176\u6210\u4e3a\u53ef\u80fd\u6240\u9700\u7684\u6700\u5c0f\u5f3a\u5ea6 $s$\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 5 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u6392\u5217 $p$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $p_1, p_2, \\ldots, p_n$\uff08$1 \\leq p_i \\leq n$\uff09\uff0c\u8868\u793a\u6392\u5217 $p$ \u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1 $p$ \u4e2d\u6240\u6709\u5143\u7d20\u4e92\u4e0d\u76f8\u540c\u3002","formatO":"\u8f93\u51fa\u6240\u9700\u7684\u6700\u5c0f\u5f3a\u5ea6 $s$\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6240\u9700\u7684\u6700\u5c0f $s$ \u662f $1$\u3002\n\n\u4ee5\u4e0b\u662f\u5f53 $s=1$ \u65f6\u5c06 $p$ \u53d8\u4e3a\u7a7a\u6392\u5217\u7684\u64cd\u4f5c\u8fc7\u7a0b\uff1a\n\n- \u7b2c\u4e00\u6b65\uff0c\u4f60\u53ea\u80fd\u9009\u62e9 $i=2$\uff0c\u56e0\u4e3a\u9009\u62e9\u5176\u4ed6 $i$ \u65f6 $|i-p_i| \\leq s$ \u4e0d\u6210\u7acb\u3002\u6b64\u65f6 $p$ \u53d8\u4e3a $[2,1]$\u3002\n- \u7b2c\u4e8c\u6b65\uff0c\u4f60\u9009\u62e9 $i=1$\uff0c\u6b64\u65f6 $p$ \u53d8\u4e3a $[1]$\u3002\n- \u7b2c\u4e09\u6b65\uff0c\u4f60\u9009\u62e9 $i=1$\uff0c\u6b64\u65f6 $p$ \u53d8\u4e3a $[~]$\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u5f53 $s=0$ \u65f6\uff0c\u4e0d\u53ef\u80fd\u5c06 $p$ \u53d8\u4e3a\u7a7a\u6392\u5217\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"PermutationForces","background":"","description":"You have a permutation $ p $ of integers from $ 1 $ to $ n $ .\n\nYou have a strength of $ s $ and will perform the following operation some times:\n\n- Choose an index $ i $ such that $ 1 \\leq i \\leq |p| $ and $ |i-p_i| \\leq s $ .\n- For all $ j $ such that $ 1 \\leq j \\leq |p| $ and $ p_i\u003Cp_j $ , update $ p_j $ to $ p_j-1 $ .\n- Delete the $ i $ -th element from $ p $ . Formally, update $ p $ to $ [p_1,\\ldots,p_{i-1},p_{i+1},\\ldots,p_n] $ .\n\nIt can be shown that no matter what $ i $ you have chosen, $ p $ will be a permutation of integers from $ 1 $ to $ |p| $ after all operations.\n\nYou want to be able to transform $ p $ into the empty permutation. Find the minimum strength $ s $ that will allow you to do so.","formatI":"The first line of input contains a single integer $ n $ ( $ 1 \\leq n \\leq 5 \\cdot 10^5 $ ) \u2014 the length of the permutation $ p $ .\n\nThe second line of input conatains $ n $ integers $ p_1, p_2, \\ldots, p_n $ ( $ 1 \\leq p_i \\leq n $ ) \u2014 the elements of the permutation $ p $ .\n\nIt is guaranteed that all elements in $ p $ are distinct.","formatO":"Print the minimum strength $ s $ required.","hint":"In the first test case, the minimum $ s $ required is $ 1 $ .\n\nHere is how we can transform $ p $ into the empty permutation with $ s=1 $ :\n\n- In the first move, you can only choose $ i=2 $ as choosing any other value of $ i $ will result in $ |i-p_i| \\leq s $ being false. With $ i=2 $ , $ p $ will be changed to $ [2,1] $ .\n- In the second move, you choose $ i=1 $ , then $ p $ will be changed to $ [1] $ .\n- In the third move, you choose $ i=1 $ , then $ p $ will be changed to $ [~] $ .\n\nIt can be shown that with $ s=0 $ , it is impossible to transform $ p $ into the empty permutation.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3 2 1","1"],["1\n1","0"],["10\n1 8 4 3 7 10 6 5 9 2","1"]],"limits":{"time":[5000],"memory":[1024000]},"vjudge":{"id":"1672I","link":"https:\/\/codeforces.com\/problemset\/problem\/1672\/I"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217 $p_1,p_2,\\cdots,p_n$\uff0c\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u82e5\u5e72\u6b21\uff1a\n\n- \u9009\u62e9 $1\\le i\\le |p|$ \u6ee1\u8db3 $|i-p_i|\\le m$\uff1b\n- \u5bf9\u4e8e\u6240\u6709 $1\\le j\\le |p|$ \u7684 $j$\uff0c\u82e5\u6ee1\u8db3 $p_i\u003Cp_j$\uff0c\u5219 $p_j\\gets p_j-1$\uff1b\n- \u4e4b\u540e\u5220\u53bb $p_i$\uff0c$p$ \u540e\u9762\u7684\u5143\u7d20\u5411\u524d\u8865\u4f4d\u3002\n\n\u6c42\u6700\u5c0f\u7684 $m$ \u4f7f\u7ecf\u8fc7 $n$ \u6b21\u64cd\u4f5c\u80fd\u5c06 $p$ \u5220\u7a7a\u3002"},"translations":{"en":{"name":"PermutationForces","background":"","description":"You have a permutation $ p $ of integers from $ 1 $ to $ n $ .\n\nYou have a strength of $ s $ and will perform the following operation some times:\n\n- Choose an index $ i $ such that $ 1 \\leq i \\leq |p| $ and $ |i-p_i| \\leq s $ .\n- For all $ j $ such that $ 1 \\leq j \\leq |p| $ and $ p_i\u003Cp_j $ , update $ p_j $ to $ p_j-1 $ .\n- Delete the $ i $ -th element from $ p $ . Formally, update $ p $ to $ [p_1,\\ldots,p_{i-1},p_{i+1},\\ldots,p_n] $ .\n\nIt can be shown that no matter what $ i $ you have chosen, $ p $ will be a permutation of integers from $ 1 $ to $ |p| $ after all operations.\n\nYou want to be able to transform $ p $ into the empty permutation. Find the minimum strength $ s $ that will allow you to do so.","formatI":"The first line of input contains a single integer $ n $ ( $ 1 \\leq n \\leq 5 \\cdot 10^5 $ ) \u2014 the length of the permutation $ p $ .\n\nThe second line of input conatains $ n $ integers $ p_1, p_2, \\ldots, p_n $ ( $ 1 \\leq p_i \\leq n $ ) \u2014 the elements of the permutation $ p $ .\n\nIt is guaranteed that all elements in $ p $ are distinct.","formatO":"Print the minimum strength $ s $ required.","hint":"In the first test case, the minimum $ s $ required is $ 1 $ .\n\nHere is how we can transform $ p $ into the empty permutation with $ s=1 $ :\n\n- In the first move, you can only choose $ i=2 $ as choosing any other value of $ i $ will result in $ |i-p_i| \\leq s $ being false. With $ i=2 $ , $ p $ will be changed to $ [2,1] $ .\n- In the second move, you choose $ i=1 $ , then $ p $ will be changed to $ [1] $ .\n- In the third move, you choose $ i=1 $ , then $ p $ will be changed to $ [~] $ .\n\nIt can be shown that with $ s=0 $ , it is impossible to transform $ p $ into the empty permutation.","locale":"en"},"zh-CN":{"name":"PermutationForces","background":null,"description":"\u4f60\u6709\u4e00\u4e2a\u7531 $1$ \u5230 $n$ \u7684\u6574\u6570\u6784\u6210\u7684\u6392\u5217 $p$\u3002\n\n\u4f60\u62e5\u6709\u4e00\u4e2a\u5f3a\u5ea6 $s$\uff0c\u5e76\u4e14\u4f60\u5c06\u591a\u6b21\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9\u4e00\u4e2a\u4e0b\u6807 $i$\uff0c\u6ee1\u8db3 $1 \\leq i \\leq |p|$ \u4e14 $|i-p_i| \\leq s$\u3002\n- \u5bf9\u6240\u6709\u6ee1\u8db3 $1 \\leq j \\leq |p|$ \u4e14 $p_i \u003C p_j$ \u7684 $j$\uff0c\u5c06 $p_j$ \u66f4\u65b0\u4e3a $p_j-1$\u3002\n- \u5220\u9664\u6392\u5217\u4e2d\u7684\u7b2c $i$ \u4e2a\u5143\u7d20\u3002\u5f62\u5f0f\u5316\u5730\uff0c\u5c06 $p$ \u66f4\u65b0\u4e3a $[p_1,\\ldots,p_{i-1},p_{i+1},\\ldots,p_n]$\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u65e0\u8bba\u4f60\u9009\u62e9\u4e86\u54ea\u4e2a $i$\uff0c\u5728\u6240\u6709\u64cd\u4f5c\u7ed3\u675f\u540e\uff0c$p$ \u90fd\u4f1a\u662f\u4e00\u4e2a\u4ece $1$ \u5230 $|p|$ \u7684\u6392\u5217\u3002\n\n\u4f60\u5e0c\u671b\u80fd\u591f\u5c06 $p$ \u53d8\u4e3a\u7a7a\u6392\u5217\u3002\u8bf7\u4f60\u6c42\u51fa\u4f7f\u5176\u6210\u4e3a\u53ef\u80fd\u6240\u9700\u7684\u6700\u5c0f\u5f3a\u5ea6 $s$\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 5 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u6392\u5217 $p$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $p_1, p_2, \\ldots, p_n$\uff08$1 \\leq p_i \\leq n$\uff09\uff0c\u8868\u793a\u6392\u5217 $p$ \u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1 $p$ \u4e2d\u6240\u6709\u5143\u7d20\u4e92\u4e0d\u76f8\u540c\u3002","formatO":"\u8f93\u51fa\u6240\u9700\u7684\u6700\u5c0f\u5f3a\u5ea6 $s$\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6240\u9700\u7684\u6700\u5c0f $s$ \u662f $1$\u3002\n\n\u4ee5\u4e0b\u662f\u5f53 $s=1$ \u65f6\u5c06 $p$ \u53d8\u4e3a\u7a7a\u6392\u5217\u7684\u64cd\u4f5c\u8fc7\u7a0b\uff1a\n\n- \u7b2c\u4e00\u6b65\uff0c\u4f60\u53ea\u80fd\u9009\u62e9 $i=2$\uff0c\u56e0\u4e3a\u9009\u62e9\u5176\u4ed6 $i$ \u65f6 $|i-p_i| \\leq s$ \u4e0d\u6210\u7acb\u3002\u6b64\u65f6 $p$ \u53d8\u4e3a $[2,1]$\u3002\n- \u7b2c\u4e8c\u6b65\uff0c\u4f60\u9009\u62e9 $i=1$\uff0c\u6b64\u65f6 $p$ \u53d8\u4e3a $[1]$\u3002\n- \u7b2c\u4e09\u6b65\uff0c\u4f60\u9009\u62e9 $i=1$\uff0c\u6b64\u65f6 $p$ \u53d8\u4e3a $[~]$\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u5f53 $s=0$ \u65f6\uff0c\u4e0d\u53ef\u80fd\u5c06 $p$ \u53d8\u4e3a\u7a7a\u6392\u5217\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1672I PermutationForces","type":2,"slug":"CF1672I","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328733.59794,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1672I PermutationForces","description":"\u4f60\u6709\u4e00\u4e2a\u7531 1 \u5230 n \u7684\u6574\u6570\u6784\u6210\u7684\u6392\u5217 p\u3002\n\u4f60\u62e5\u6709\u4e00\u4e2a\u5f3a\u5ea6 s\uff0c\u5e76\u4e14\u4f60\u5c06\u591a\u6b21\u6267\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n\u9009\u62e9\u4e00\u4e2a\u4e0b\u6807 i\uff0c\u6ee1\u8db3 1 \\leq i \\leq |p| \u4e14 |i-p_i| \\leq s\u3002\n\u5bf9\u6240\u6709\u6ee1\u8db3 1 \\leq j \\leq |p|\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1672I" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1672I?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1672I?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1672I PermutationForces" />
+    <meta property="og:description" content="你有一个由 1 到 n 的整数构成的排列 p。
+你拥有一个强度 s，并且你将多次执行以下操作：
+
+选择一个下标 i，满足 1 \leq i \leq |p| 且 |i-p_i| \leq s。
+对所有满足 1 \leq j \leq |p|…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1672I" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1672I PermutationForces</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你有一个由 $1$ 到 $n$ 的整数构成的排列 $p$。
+
+你拥有一个强度 $s$，并且你将多次执行以下操作：
+
+- 选择一个下标 $i$，满足 $1 \leq i \leq |p|$ 且 $|i-p_i| \leq s$。
+- 对所有满足 $1 \leq j \leq |p|$ 且 $p_i < p_j$ 的 $j$，将 $p_j$ 更新为 $p_j-1$。
+- 删除排列中的第 $i$ 个元素。形式化地，将 $p$ 更新为 $[p_1,\ldots,p_{i-1},p_{i+1},\ldots,p_n]$。
+
+可以证明，无论你选择了哪个 $i$，在所有操作结束后，$p$ 都会是一个从 $1$ 到 $|p|$ 的排列。
+
+你希望能够将 $p$ 变为空排列。请你求出使其成为可能所需的最小强度 $s$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$（$1 \leq n \leq 5 \cdot 10^5$），表示排列 $p$ 的长度。
+
+第二行包含 $n$ 个整数 $p_1, p_2, \ldots, p_n$（$1 \leq p_i \leq n$），表示排列 $p$ 的元素。
+
+保证 $p$ 中所有元素互不相同。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出所需的最小强度 $s$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，所需的最小 $s$ 是 $1$。
+
+以下是当 $s=1$ 时将 $p$ 变为空排列的操作过程：
+
+- 第一步，你只能选择 $i=2$，因为选择其他 $i$ 时 $|i-p_i| \leq s$ 不成立。此时 $p$ 变为 $[2,1]$。
+- 第二步，你选择 $i=1$，此时 $p$ 变为 $[1]$。
+- 第三步，你选择 $i=1$，此时 $p$ 变为 $[~]$。
+
+可以证明，当 $s=0$ 时，不可能将 $p$ 变为空排列。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

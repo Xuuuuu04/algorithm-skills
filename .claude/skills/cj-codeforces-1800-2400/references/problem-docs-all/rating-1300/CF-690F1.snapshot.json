@@ -1,0 +1,27 @@
+{
+  "id": "CF-690F1",
+  "contest_id": 690,
+  "index": "F1",
+  "name": "Tree of Life (easy)",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 2403,
+  "problem_url": "https://codeforces.com/problemset/problem/690/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/690/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/690/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=690F1%20Tree%20of%20Life%20%28easy%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P690F1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Tree of Life (easy) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

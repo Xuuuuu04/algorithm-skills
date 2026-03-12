@@ -1,0 +1,27 @@
+{
+  "id": "CF-1141B",
+  "contest_id": 1141,
+  "index": "B",
+  "name": "Maximal Continuous Rest",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 22858,
+  "problem_url": "https://codeforces.com/problemset/problem/1141/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1141/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1141/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1141B%20Maximal%20Continuous%20Rest%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1141/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1141B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

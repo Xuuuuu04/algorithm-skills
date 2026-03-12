@@ -1,0 +1,34 @@
+{
+  "id": "CF-553D",
+  "contest_id": 553,
+  "index": "D",
+  "name": "Nudist Beach",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 1074,
+  "problem_url": "https://codeforces.com/problemset/problem/553/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/553/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/553/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=553D%20Nudist%20Beach%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P553D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nudist Beach - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "graphs",
+      "greedy",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

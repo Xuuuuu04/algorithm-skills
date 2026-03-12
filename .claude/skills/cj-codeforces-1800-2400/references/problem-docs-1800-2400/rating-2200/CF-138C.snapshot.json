@@ -1,0 +1,38 @@
+{
+  "id": "CF-138C",
+  "contest_id": 138,
+  "index": "C",
+  "name": "Mushroom Gnomes - 2",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "data structures",
+    "probabilities",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/138/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/138/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/138/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=138C%20Mushroom Gnomes - 2%20tutorial",
+  "solved_count": 953,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P138C",
+  "hydro_meta": {
+    "page_title": "Mushroom Gnomes - 2 - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "probabilities",
+      "sortings",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

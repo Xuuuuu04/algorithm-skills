@@ -1,0 +1,40 @@
+{
+  "id": "CF-1651D",
+  "contest_id": 1651,
+  "index": "D",
+  "name": "Nearest Excluded Points",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dfs and similar",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1651/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1651/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1651/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1651D%20Nearest Excluded Points%20tutorial",
+  "solved_count": 6392,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1651D",
+  "hydro_meta": {
+    "page_title": "Nearest Excluded Points - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "shortest paths"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 2,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

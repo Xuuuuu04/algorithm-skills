@@ -1,0 +1,30 @@
+{
+  "id": "CF-1798B",
+  "contest_id": 1798,
+  "index": "B",
+  "name": "Three Sevens",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 18591,
+  "problem_url": "https://codeforces.com/problemset/problem/1798/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1798/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1798/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1798B%20Three%20Sevens%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1798/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1798B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

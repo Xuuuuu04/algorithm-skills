@@ -1,0 +1,33 @@
+{
+  "id": "CF-652D",
+  "contest_id": 652,
+  "index": "D",
+  "name": "Nested Segments",
+  "rating": 1800,
+  "tags": [
+    "data structures",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/652/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/652/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/652/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=652D%20Nested Segments%20tutorial",
+  "solved_count": 4708,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P652D",
+  "hydro_meta": {
+    "page_title": "Nested Segments - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "sortings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

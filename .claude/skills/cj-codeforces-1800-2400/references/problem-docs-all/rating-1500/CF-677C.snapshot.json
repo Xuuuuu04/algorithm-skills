@@ -1,0 +1,36 @@
+{
+  "id": "CF-677C",
+  "contest_id": 677,
+  "index": "C",
+  "name": "Vanya and Label",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 6907,
+  "problem_url": "https://codeforces.com/problemset/problem/677/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/677/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/677/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=677C%20Vanya%20and%20Label%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P677C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vanya and Label - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "combinatorics",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415131:9/KlDoxIFEo27lca3Z/0zIUUHiWBlntj/O14A7ZdFp8=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF57E Chess - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF57E","type":"CF","title":"Chess","difficulty":6,"tags":[1,4,111],"wantsTranslation":false,"totalSubmit":434,"totalAccepted":107,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Chess","background":null,"description":"\u5154\u5b50 Brian \u5341\u5206\u559c\u6b22\u56fd\u9645\u8c61\u68cb\u3002\u4e0d\u4e45\u524d\uff0c\u4ed6\u4e0e\u5154\u5b50 Stewie \u4e89\u8bba\u9a91\u58eb\u6bd4\u56fd\u738b\u66f4\u4f18\u79c0\u3002\u4e3a\u4e86\u8bc1\u660e\u81ea\u5df1\u7684\u89c2\u70b9\uff0c\u4ed6\u8bd5\u56fe\u5c55\u793a\u9a91\u58eb\u7684\u901f\u5ea6\u975e\u5e38\u5feb\uff0c\u4f46 Stewie \u5e76\u4e0d\u63a5\u53d7\u6ca1\u6709\u8bc1\u636e\u7684\u8bf4\u6cd5\u3002\u4e8e\u662f\u4ed6\u4e3a Brian \u6784\u5efa\u4e86\u4e00\u4e2a\u65e0\u9650\u5927\u7684\u68cb\u76d8\uff0c\u5e76\u5220\u53bb\u4e86\u4e00\u4e9b\u683c\u5b50\uff0c\u4f7f\u6e38\u620f\u66f4\u52a0\u6709\u8da3\u3002\u73b0\u5728 Brian \u53ea\u9700\u8981\u8ba1\u7b97\u4e00\u4e0b\uff0c\u4e00\u53ea\u7ad9\u5728\u5750\u6807\u4e3a $ (0,0) $ \u7684\u9a91\u58eb\uff0c\u6700\u591a\u7ecf\u8fc7 $ k $ \u6b65\u80fd\u591f\u5230\u8fbe\u591a\u5c11\u4e2a\u4e0d\u540c\u7684\u68cb\u76d8\u683c\u5b50\u3002\u663e\u7136\uff0c\u4e0d\u80fd\u8df3\u5230\u88ab\u5220\u6389\u7684\u683c\u5b50\u4e0a\u3002\n\nBrian \u5e76\u4e0d\u559c\u6b22\u7cbe\u786e\u79d1\u5b66\uff0c\u4e5f\u4e0d\u61c2\u7f16\u7a0b\uff0c\u6240\u4ee5\u4ed6\u51e0\u4e4e\u65e0\u6cd5\u8d76\u5728 Stewie \u4e4b\u524d\u5b8c\u6210\u8fd9\u4e2a\u9898\u76ee\u3002\u8bf7\u4f60\u5e2e\u52a9 Brian\uff0c\u6bd4 Stewie \u66f4\u5feb\u89e3\u51b3\u8fd9\u4e2a\u95ee\u9898\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $ k $ \u548c $ n $\uff08$ 0 \\leq k \\leq 10^{18},\\ 0 \\leq n \\leq 440 $\uff09\uff0c\u5206\u522b\u8868\u793a\u9a91\u58eb\u53ef\u4ee5\u884c\u52a8\u7684\u6700\u5927\u6b65\u6570\uff0c\u4ee5\u53ca\u88ab\u5220\u53bb\u7684\u683c\u5b50\u6570\u3002\u63a5\u4e0b\u6765 $ n $ \u884c\uff0c\u6bcf\u4e00\u884c\u7ed9\u51fa\u4e00\u4e2a\u88ab\u5220\u53bb\u683c\u5b50\u7684\u5750\u6807 $ (x_i,y_i) $\uff08$ |x_i| \\leq 10,\\ |y_i| \\leq 10 $\uff09\u3002\u6240\u6709\u6570\u5b57\u5747\u4e3a\u6574\u6570\uff0c\u88ab\u5220\u53bb\u7684\u683c\u5b50\u4e0d\u4f1a\u91cd\u590d\uff0c\u5e76\u4fdd\u8bc1\u683c\u5b50 $(0,0)$ \u6ca1\u6709\u88ab\u5220\u53bb\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u7b54\u6848\u3002\u7531\u4e8e\u53ef\u80fd\u975e\u5e38\u5927\uff0c\u8f93\u51fa\u5176\u5bf9 $ 1000000007 $ \u53d6\u6a21\u7684\u7ed3\u679c\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Chess","background":null,"description":"Brian the Rabbit adores chess. Not long ago he argued with Stewie the Rabbit that a knight is better than a king. To prove his point he tries to show that the knight is very fast but Stewie doesn\u0027t accept statements without evidence. He constructed an infinite chessboard for Brian, where he deleted several squares to add some more interest to the game. Brian only needs to count how many different board squares a knight standing on a square with coordinates of $ (0,0) $ can reach in no more than $ k $ moves. Naturally, it is forbidden to move to the deleted squares.\n\nBrian doesn\u0027t very much like exact sciences himself and is not acquainted with programming, that\u0027s why he will hardly be able to get ahead of Stewie who has already started solving the problem. Help Brian to solve the problem faster than Stewie.","formatI":"The first line contains two integers $ k $ and $ n $ ( $ 0\u003C=k\u003C=10^{18},0\u003C=n\u003C=440 $ ) which are correspondingly the maximal number of moves a knight can make and the number of deleted cells. Then follow $ n $ lines, each giving the coordinates of a deleted square in the form $ (x_{i},y_{i}) $ ( $ |x_{i}|\u003C=10,|y_{i}|\u003C=10 $ ). All the numbers are integer, the deleted squares are different and it is guaranteed that the square $ (0,0) $ is not deleted.\n\nPlease, do not use %lld specificator to read or write 64-bit integers in C++. It is preffered to use cin (also you may use %I64d).","formatO":"You must print the answer on a single line. As it can be rather long, you should print it modulo $ 1000000007 $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1 0\n","9\n"],["2 7\n-1 2\n1 2\n2 1\n2 -1\n1 -2\n-1 -2\n-2 -1\n","9\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"57E","link":"https:\/\/codeforces.com\/problemset\/problem\/57\/E"},"translation":"\u8ba1\u7b97\u56fd\u9645\u8c61\u68cb\u4e2d\u7684\u9a91\u58eb\u80fd\u591f\u5728k\u6b65\u5185\u5230\u8fbe\u7684\u4e0d\u540c\u7684\u683c\u5b50\u7684\u6570\u76eemod 1000000007\u7684\u503c\u3002\n\n\u5176\u4e2d\u6709n\u4e2a\u683c\u5b50\u88ab\u5220\u9664\u3002\n"},"translations":{"en":{"name":"Chess","background":null,"description":"Brian the Rabbit adores chess. Not long ago he argued with Stewie the Rabbit that a knight is better than a king. To prove his point he tries to show that the knight is very fast but Stewie doesn\u0027t accept statements without evidence. He constructed an infinite chessboard for Brian, where he deleted several squares to add some more interest to the game. Brian only needs to count how many different board squares a knight standing on a square with coordinates of $ (0,0) $ can reach in no more than $ k $ moves. Naturally, it is forbidden to move to the deleted squares.\n\nBrian doesn\u0027t very much like exact sciences himself and is not acquainted with programming, that\u0027s why he will hardly be able to get ahead of Stewie who has already started solving the problem. Help Brian to solve the problem faster than Stewie.","formatI":"The first line contains two integers $ k $ and $ n $ ( $ 0\u003C=k\u003C=10^{18},0\u003C=n\u003C=440 $ ) which are correspondingly the maximal number of moves a knight can make and the number of deleted cells. Then follow $ n $ lines, each giving the coordinates of a deleted square in the form $ (x_{i},y_{i}) $ ( $ |x_{i}|\u003C=10,|y_{i}|\u003C=10 $ ). All the numbers are integer, the deleted squares are different and it is guaranteed that the square $ (0,0) $ is not deleted.\n\nPlease, do not use %lld specificator to read or write 64-bit integers in C++. It is preffered to use cin (also you may use %I64d).","formatO":"You must print the answer on a single line. As it can be rather long, you should print it modulo $ 1000000007 $ .","hint":"","locale":"en"},"zh-CN":{"name":"Chess","background":null,"description":"\u5154\u5b50 Brian \u5341\u5206\u559c\u6b22\u56fd\u9645\u8c61\u68cb\u3002\u4e0d\u4e45\u524d\uff0c\u4ed6\u4e0e\u5154\u5b50 Stewie \u4e89\u8bba\u9a91\u58eb\u6bd4\u56fd\u738b\u66f4\u4f18\u79c0\u3002\u4e3a\u4e86\u8bc1\u660e\u81ea\u5df1\u7684\u89c2\u70b9\uff0c\u4ed6\u8bd5\u56fe\u5c55\u793a\u9a91\u58eb\u7684\u901f\u5ea6\u975e\u5e38\u5feb\uff0c\u4f46 Stewie \u5e76\u4e0d\u63a5\u53d7\u6ca1\u6709\u8bc1\u636e\u7684\u8bf4\u6cd5\u3002\u4e8e\u662f\u4ed6\u4e3a Brian \u6784\u5efa\u4e86\u4e00\u4e2a\u65e0\u9650\u5927\u7684\u68cb\u76d8\uff0c\u5e76\u5220\u53bb\u4e86\u4e00\u4e9b\u683c\u5b50\uff0c\u4f7f\u6e38\u620f\u66f4\u52a0\u6709\u8da3\u3002\u73b0\u5728 Brian \u53ea\u9700\u8981\u8ba1\u7b97\u4e00\u4e0b\uff0c\u4e00\u53ea\u7ad9\u5728\u5750\u6807\u4e3a $ (0,0) $ \u7684\u9a91\u58eb\uff0c\u6700\u591a\u7ecf\u8fc7 $ k $ \u6b65\u80fd\u591f\u5230\u8fbe\u591a\u5c11\u4e2a\u4e0d\u540c\u7684\u68cb\u76d8\u683c\u5b50\u3002\u663e\u7136\uff0c\u4e0d\u80fd\u8df3\u5230\u88ab\u5220\u6389\u7684\u683c\u5b50\u4e0a\u3002\n\nBrian \u5e76\u4e0d\u559c\u6b22\u7cbe\u786e\u79d1\u5b66\uff0c\u4e5f\u4e0d\u61c2\u7f16\u7a0b\uff0c\u6240\u4ee5\u4ed6\u51e0\u4e4e\u65e0\u6cd5\u8d76\u5728 Stewie \u4e4b\u524d\u5b8c\u6210\u8fd9\u4e2a\u9898\u76ee\u3002\u8bf7\u4f60\u5e2e\u52a9 Brian\uff0c\u6bd4 Stewie \u66f4\u5feb\u89e3\u51b3\u8fd9\u4e2a\u95ee\u9898\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $ k $ \u548c $ n $\uff08$ 0 \\leq k \\leq 10^{18},\\ 0 \\leq n \\leq 440 $\uff09\uff0c\u5206\u522b\u8868\u793a\u9a91\u58eb\u53ef\u4ee5\u884c\u52a8\u7684\u6700\u5927\u6b65\u6570\uff0c\u4ee5\u53ca\u88ab\u5220\u53bb\u7684\u683c\u5b50\u6570\u3002\u63a5\u4e0b\u6765 $ n $ \u884c\uff0c\u6bcf\u4e00\u884c\u7ed9\u51fa\u4e00\u4e2a\u88ab\u5220\u53bb\u683c\u5b50\u7684\u5750\u6807 $ (x_i,y_i) $\uff08$ |x_i| \\leq 10,\\ |y_i| \\leq 10 $\uff09\u3002\u6240\u6709\u6570\u5b57\u5747\u4e3a\u6574\u6570\uff0c\u88ab\u5220\u53bb\u7684\u683c\u5b50\u4e0d\u4f1a\u91cd\u590d\uff0c\u5e76\u4fdd\u8bc1\u683c\u5b50 $(0,0)$ \u6ca1\u6709\u88ab\u5220\u53bb\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u7b54\u6848\u3002\u7531\u4e8e\u53ef\u80fd\u975e\u5e38\u5927\uff0c\u8f93\u51fa\u5176\u5bf9 $ 1000000007 $ \u53d6\u6a21\u7684\u7ed3\u679c\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF57E Chess","type":2,"slug":"CF57E","color":"orange-3"},"discussions":[{"id":58589,"title":"\u9898\u9762\u7ffb\u8bd1","author":{"uid":3371,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3371.png","name":"queuDU","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1534816321}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328731.644423,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF57E Chess","description":"\u5154\u5b50 Brian \u5341\u5206\u559c\u6b22\u56fd\u9645\u8c61\u68cb\u3002\u4e0d\u4e45\u524d\uff0c\u4ed6\u4e0e\u5154\u5b50 Stewie \u4e89\u8bba\u9a91\u58eb\u6bd4\u56fd\u738b\u66f4\u4f18\u79c0\u3002\u4e3a\u4e86\u8bc1\u660e\u81ea\u5df1\u7684\u89c2\u70b9\uff0c\u4ed6\u8bd5\u56fe\u5c55\u793a\u9a91\u58eb\u7684\u901f\u5ea6\u975e\u5e38\u5feb\uff0c\u4f46 Stewie \u5e76\u4e0d\u63a5\u53d7\u6ca1\u6709\u8bc1\u636e\u7684\u8bf4\u6cd5\u3002\u4e8e\u662f\u4ed6\u4e3a Brian \u6784\u5efa\u4e86\u4e00\u4e2a\u65e0\u9650\u5927\u7684\u68cb\u76d8\uff0c\u5e76\u5220\u53bb\u4e86\u4e00\u4e9b\u683c\u5b50\uff0c\u4f7f\u6e38\u620f\u66f4\u52a0\u6709\u8da3\u3002\u73b0\u5728\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF57E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF57E?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF57E?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF57E Chess" />
+    <meta property="og:description" content="兔子 Brian 十分喜欢国际象棋。不久前，他与兔子 Stewie 争论骑士比国王更优秀。为了证明自己的观点，他试图展示骑士的速度非常快，但 Stewie 并不接受没有证据的说法。于是他为 Brian 构建了一个无限大的棋盘，并删去了一些格子，使游戏更加有趣。现在…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF57E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF57E Chess</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    兔子 Brian 十分喜欢国际象棋。不久前，他与兔子 Stewie 争论骑士比国王更优秀。为了证明自己的观点，他试图展示骑士的速度非常快，但 Stewie 并不接受没有证据的说法。于是他为 Brian 构建了一个无限大的棋盘，并删去了一些格子，使游戏更加有趣。现在 Brian 只需要计算一下，一只站在坐标为 $ (0,0) $ 的骑士，最多经过 $ k $ 步能够到达多少个不同的棋盘格子。显然，不能跳到被删掉的格子上。
+
+Brian 并不喜欢精确科学，也不懂编程，所以他几乎无法赶在 Stewie 之前完成这个题目。请你帮助 Brian，比 Stewie 更快解决这个问题。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含两个整数 $ k $ 和 $ n $（$ 0 \leq k \leq 10^{18},\ 0 \leq n \leq 440 $），分别表示骑士可以行动的最大步数，以及被删去的格子数。接下来 $ n $ 行，每一行给出一个被删去格子的坐标 $ (x_i,y_i) $（$ |x_i| \leq 10,\ |y_i| \leq 10 $）。所有数字均为整数，被删去的格子不会重复，并保证格子 $(0,0)$ 没有被删去。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示答案。由于可能非常大，输出其对 $ 1000000007 $ 取模的结果。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

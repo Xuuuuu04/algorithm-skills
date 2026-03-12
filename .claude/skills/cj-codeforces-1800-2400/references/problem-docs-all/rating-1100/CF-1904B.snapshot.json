@@ -1,0 +1,31 @@
+{
+  "id": "CF-1904B",
+  "contest_id": 1904,
+  "index": "B",
+  "name": "Collecting Game",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 26341,
+  "problem_url": "https://codeforces.com/problemset/problem/1904/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1904/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1904/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1904B%20Collecting%20Game%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1904/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1904B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

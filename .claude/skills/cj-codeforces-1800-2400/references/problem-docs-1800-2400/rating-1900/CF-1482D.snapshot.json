@@ -1,0 +1,37 @@
+{
+  "id": "CF-1482D",
+  "contest_id": 1482,
+  "index": "D",
+  "name": "Playlist",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "dsu",
+    "implementation",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1482/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1482/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1482/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1482D%20Playlist%20tutorial",
+  "solved_count": 4093,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1482D",
+  "hydro_meta": {
+    "page_title": "Playlist - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dsu",
+      "implementation",
+      "shortest paths",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

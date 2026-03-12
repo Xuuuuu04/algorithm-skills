@@ -1,0 +1,32 @@
+{
+  "id": "CF-376A",
+  "contest_id": 376,
+  "index": "A",
+  "name": "Lever",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 9837,
+  "problem_url": "https://codeforces.com/problemset/problem/376/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/376/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/376/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=376A%20Lever%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P376A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Lever - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

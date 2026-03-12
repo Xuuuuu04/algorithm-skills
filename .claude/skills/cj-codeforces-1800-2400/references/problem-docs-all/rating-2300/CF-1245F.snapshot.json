@@ -1,0 +1,36 @@
+{
+  "id": "CF-1245F",
+  "contest_id": 1245,
+  "index": "F",
+  "name": "Daniel and Spring Cleaning",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "combinatorics",
+    "dp"
+  ],
+  "solved_count": 2236,
+  "problem_url": "https://codeforces.com/problemset/problem/1245/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1245/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1245/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1245F%20Daniel%20and%20Spring%20Cleaning%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1245F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Daniel and Spring Cleaning - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

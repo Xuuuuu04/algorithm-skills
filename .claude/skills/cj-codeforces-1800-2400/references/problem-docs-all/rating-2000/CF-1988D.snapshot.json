@@ -1,0 +1,30 @@
+{
+  "id": "CF-1988D",
+  "contest_id": 1988,
+  "index": "D",
+  "name": "The Omnipotent Monster Killer",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 5919,
+  "problem_url": "https://codeforces.com/problemset/problem/1988/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1988/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1988/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1988D%20The%20Omnipotent%20Monster%20Killer%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1988D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1988D The Omnipotent Monster Killer - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 186,
+    "mirror_attempt": 311,
+    "time_limit": "3000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

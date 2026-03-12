@@ -1,0 +1,32 @@
+{
+  "id": "CF-1065E",
+  "contest_id": 1065,
+  "index": "E",
+  "name": "Side Transmutations",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "strings"
+  ],
+  "solved_count": 1252,
+  "problem_url": "https://codeforces.com/problemset/problem/1065/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1065/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1065/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1065E%20Side%20Transmutations%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1065E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Side Transmutations - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "strings",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

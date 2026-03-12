@@ -1,0 +1,32 @@
+{
+  "id": "CF-903F",
+  "contest_id": 903,
+  "index": "F",
+  "name": "Clear The Matrix",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "dp"
+  ],
+  "solved_count": 754,
+  "problem_url": "https://codeforces.com/problemset/problem/903/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/903/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/903/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=903F%20Clear%20The%20Matrix%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P903F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Clear The Matrix - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "dp",
+      "*2200"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

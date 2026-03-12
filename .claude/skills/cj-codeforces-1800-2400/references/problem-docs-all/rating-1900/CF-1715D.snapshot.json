@@ -1,0 +1,30 @@
+{
+  "id": "CF-1715D",
+  "contest_id": 1715,
+  "index": "D",
+  "name": "2+ doors",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "2-sat",
+    "bitmasks",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 5998,
+  "problem_url": "https://codeforces.com/problemset/problem/1715/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1715/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1715/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1715D%202%2B%20doors%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1715D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1715D 2+ doors - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 278,
+    "mirror_attempt": 645,
+    "time_limit": "1500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

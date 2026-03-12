@@ -1,0 +1,37 @@
+{
+  "id": "CF-1749E",
+  "contest_id": 1749,
+  "index": "E",
+  "name": "Cactus Wall",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1749/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1749/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1749/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1749E%20Cactus Wall%20tutorial",
+  "solved_count": 2050,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1749E",
+  "hydro_meta": {
+    "page_title": "Cactus Wall - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "flows",
+      "graphs",
+      "shortest paths"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

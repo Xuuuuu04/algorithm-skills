@@ -1,0 +1,27 @@
+{
+  "id": "CF-1132F",
+  "contest_id": 1132,
+  "index": "F",
+  "name": "Clear the String",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 10442,
+  "problem_url": "https://codeforces.com/problemset/problem/1132/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1132/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1132/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1132F%20Clear%20the%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1132F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1132F Clear the String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1427,
+    "mirror_attempt": 3086,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-1488E",
+  "contest_id": 1488,
+  "index": "E",
+  "name": "Palindromic Doubles",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 231,
+  "problem_url": "https://codeforces.com/problemset/problem/1488/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1488/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1488/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1488E%20Palindromic%20Doubles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1488E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Palindromic Doubles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "data structures",
+      "dp",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

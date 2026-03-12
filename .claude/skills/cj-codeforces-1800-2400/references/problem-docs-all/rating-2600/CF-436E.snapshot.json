@@ -1,0 +1,32 @@
+{
+  "id": "CF-436E",
+  "contest_id": 436,
+  "index": "E",
+  "name": "Cardboard Box",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 1808,
+  "problem_url": "https://codeforces.com/problemset/problem/436/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/436/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/436/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=436E%20Cardboard%20Box%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P436E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cardboard Box - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

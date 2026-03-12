@@ -1,0 +1,28 @@
+{
+  "id": "CF-796A",
+  "contest_id": 796,
+  "index": "A",
+  "name": "Buying A House",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 13759,
+  "problem_url": "https://codeforces.com/problemset/problem/796/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/796/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/796/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=796A%20Buying%20A%20House%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF796A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF796A Buying A House - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 151,
+    "mirror_attempt": 293,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

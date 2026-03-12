@@ -1,0 +1,29 @@
+{
+  "id": "CF-600D",
+  "contest_id": 600,
+  "index": "D",
+  "name": "Area of Two Circles' Intersection",
+  "rating": 2000,
+  "tags": [
+    "geometry"
+  ],
+  "url": "https://codeforces.com/problemset/problem/600/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/600/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/600/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=600D%20Area of Two Circles' Intersection%20tutorial",
+  "solved_count": 2674,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P600D",
+  "hydro_meta": {
+    "page_title": "Area of Two Circles' Intersection - 题目详情 - Hydro",
+    "hydro_tags": [
+      "geometry",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1244F",
+  "contest_id": 1244,
+  "index": "F",
+  "name": "Chips",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 1623,
+  "problem_url": "https://codeforces.com/problemset/problem/1244/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1244/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1244/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1244F%20Chips%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1244F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Chips - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2025A Two Screens - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2025A","type":"CF","title":"Two Screens","difficulty":2,"tags":[7],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Two Screens","background":"","description":"\u8fd9\u91cc\u6709\u4e24\u4e2a\u53ef\u4ee5\u663e\u793a\u5927\u5199\u5b57\u6bcd\u5e8f\u5217\u7684\u663e\u793a\u5c4f\u3002\u521d\u59cb\u65f6\uff0c\u4e24\u4e2a\u5c4f\u5e55\u90fd\u6ca1\u6709\u663e\u793a\u4efb\u4f55\u4e1c\u897f\u3002\n\n\u6bcf\u79d2\u949f\u4f60\u53ef\u4ee5\u6267\u884c\u4e0b\u5217\u4e24\u79cd\u64cd\u4f5c\u4e2d\u7684\u4e00\u79cd\uff1a\n\n* \u9009\u62e9\u4e00\u4e2a\u5c4f\u5e55\u548c\u4e00\u4e2a\u5927\u5199\u5b57\u6bcd\uff0c\u5e76\u5c06\u8be5\u5b57\u6bcd\u6dfb\u52a0\u5230\u8be5\u5c4f\u5e55\u4e0a\u663e\u793a\u7684\u5e8f\u5217\u7684\u672b\u5c3e\uff1b  \n* \u9009\u62e9\u4e00\u4e2a\u5c4f\u5e55\u5e76\u5c06\u8be5\u5c4f\u5e55\u4e0a\u7684\u5e8f\u5217\u590d\u5236\u5230\u53e6\u4e00\u4e2a\u5c4f\u5e55\uff0c\u8986\u76d6\u53e6\u4e00\u4e2a\u5c4f\u5e55\u4e0a\u663e\u793a\u7684\u5e8f\u5217\u3002\n\n\u4f60\u9700\u8981\u8ba1\u7b97\u8ba9\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u663e\u793a\u5e8f\u5217 $s$\uff0c\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u663e\u793a\u5e8f\u5217 $t$ \u6240\u9700\u8981\u82b1\u8d39\u7684\u6700\u5c11\u79d2\u6570\u3002","formatI":"**\u672c\u9898\u6709\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e**\u3002\n\n\u7b2c\u4e00\u884c\u6709\u4e00\u4e2a\u6574\u6570 $q$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7531\u4e24\u884c\u7ec4\u6210\u3002\u7b2c\u4e00\u884c\u6709\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\uff0c\u7b2c\u4e8c\u884c\u6709\u4e00\u4e2a\u5b57\u7b26\u4e32 $t$\u3002\u4e24\u4e2a\u5b57\u7b26\u4e32\u5747\u7531\u5927\u5199\u5b57\u6bcd\u7ec4\u6210\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u9700\u8981\u82b1\u8d39\u7684\u6700\u5c11\u79d2\u6570\u3002","hint":"\u3010\u6837\u4f8b\u89e3\u91ca\u3011\n\n\u5bf9\u4e8e\u7b2c\u4e00\u7ec4\u6570\u636e\uff0c\u4ee5\u4e0b\u662f\u4e00\u79cd\u53ef\u80fd\u7684\u64cd\u4f5c\u65b9\u6848\uff1a\n\n* \u82b1\u8d39 6 \u79d2\u5411\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 GARAGE\uff1b\n* \u82b1\u8d39 1 \u79d2\u5c06\u5e8f\u5217\u4ece\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u590d\u5236\u5230\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\uff1b\n* \u82b1\u8d39 7 \u79d2\u5411\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 FORSALE\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u7ec4\u6570\u636e\uff0c\u4ee5\u4e0b\u662f\u4e00\u79cd\u53ef\u80fd\u7684\u64cd\u4f5c\u65b9\u6848\uff1a\n\n* \u82b1\u8d39 1 \u79d2\u5411\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 A\uff1b\n* \u82b1\u8d39 1 \u79d2\u5c06\u5e8f\u5217\u4ece\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u590d\u5236\u5230\u7b2c\u4e00\u4e2a\u5c4f\u5e55\uff1b\n* \u82b1\u8d39 4 \u79d2\u5411\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 BCDE\uff1b\n* \u82b1\u8d39 4 \u79d2\u5411\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 ABCD\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e09\u7ec4\u6570\u636e\uff0c\u6700\u5feb\u7684\u65b9\u6cd5\u662f\u5c06\u5b57\u6bcd\u4e00\u4e2a\u4e00\u4e2a\u5730\u5199\u5165\u5c4f\u5e55\uff0c\u800c\u4e0d\u8fdb\u884c\u590d\u5236\uff0c\u8fd9\u9700\u8981\u82b1\u8d39 16 \u79d2\u3002\n\n\n\u5bf9\u4e8e\u6240\u6709\u6d4b\u8bd5\u6570\u636e\uff0c\u4fdd\u8bc1 $1 \\le q \\le 500$\uff0c$1 \\le |s|,|t| \\le 100$\u3002\n\n\u7ffb\u8bd1\u6765\u81ea [Jason_Ming](https:\/\/www.luogu.com.cn\/user\/1014421)\u3002","locale":"zh-CN"},"content":{"name":"Two Screens","background":"","description":"There are two screens which can display sequences of uppercase Latin letters. Initially, both screens display nothing.\n\nIn one second, you can do one of the following two actions:\n\n- choose a screen and an uppercase Latin letter, and append that letter to the end of the sequence displayed on that screen;\n- choose a screen and copy the sequence from it to the other screen, overwriting the sequence that was displayed on the other screen.\n\nYou have to calculate the minimum number of seconds you have to spend so that the first screen displays the sequence $ s $ , and the second screen displays the sequence $ t $ .","formatI":"The first line contains one integer $ q $ ( $ 1 \\le q \\le 500 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines. The first line contains the string $ s $ , and the second line contains the string $ t $ ( $ 1 \\le |s|, |t| \\le 100 $ ). Both strings consist of uppercase Latin letters.","formatO":"For each test case, print one integer \u2014 the minimum possible number of seconds you have to spend so that the first screen displays the sequence $ s $ , and the second screen displays the sequence $ t $ .","hint":"In the first test case, the following sequence of actions is possible:\n\n- spend $ 6 $ seconds to write the sequence GARAGE on the first screen;\n- copy the sequence from the first screen to the second screen;\n- spend $ 7 $ seconds to complete the sequence on the second screen by writing FORSALE.\n\nIn the second test case, the following sequence of actions is possible:\n\n- spend $ 1 $ second to write the sequence A on the second screen;\n- copy the sequence from the second screen to the first screen;\n- spend $ 4 $ seconds to complete the sequence on the first screen by writing BCDE;\n- spend $ 4 $ seconds to complete the sequence on the second screen by writing ABCD.\n\nIn the third test case, the fastest way to display the sequences is to type both of them character by character without copying, and this requires $ 16 $ seconds.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\nGARAGE\nGARAGEFORSALE\nABCDE\nAABCD\nTRAINING\nDRAINING","14\n10\n16"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"2025A","link":"https:\/\/codeforces.com\/problemset\/problem\/2025\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\n\u8fd9\u91cc\u6709\u4e24\u4e2a\u53ef\u4ee5\u663e\u793a\u5927\u5199\u5b57\u6bcd\u5e8f\u5217\u7684\u663e\u793a\u5c4f\u3002\u521d\u59cb\u65f6\uff0c\u4e24\u4e2a\u5c4f\u5e55\u90fd\u6ca1\u6709\u663e\u793a\u4efb\u4f55\u4e1c\u897f\u3002\n\n\u6bcf\u79d2\u949f\u4f60\u53ef\u4ee5\u6267\u884c\u4e0b\u5217\u4e24\u79cd\u64cd\u4f5c\u4e2d\u7684\u4e00\u79cd\uff1a\n\n* \u9009\u62e9\u4e00\u4e2a\u5c4f\u5e55\u548c\u4e00\u4e2a\u5927\u5199\u5b57\u6bcd\uff0c\u5e76\u5c06\u8be5\u5b57\u6bcd\u6dfb\u52a0\u5230\u8be5\u5c4f\u5e55\u4e0a\u663e\u793a\u7684\u5e8f\u5217\u7684\u672b\u5c3e\uff1b  \n* \u9009\u62e9\u4e00\u4e2a\u5c4f\u5e55\u5e76\u5c06\u8be5\u5c4f\u5e55\u4e0a\u7684\u5e8f\u5217\u590d\u5236\u5230\u53e6\u4e00\u4e2a\u5c4f\u5e55\uff0c\u8986\u76d6\u53e6\u4e00\u4e2a\u5c4f\u5e55\u4e0a\u663e\u793a\u7684\u5e8f\u5217\u3002\n\n\u4f60\u9700\u8981\u8ba1\u7b97\u8ba9\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u663e\u793a\u5e8f\u5217 $s$\uff0c\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u663e\u793a\u5e8f\u5217 $t$ \u6240\u9700\u8981\u82b1\u8d39\u7684\u6700\u5c11\u79d2\u6570\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\n**\u672c\u9898\u6709\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e**\u3002\n\n\u7b2c\u4e00\u884c\u6709\u4e00\u4e2a\u6574\u6570 $q$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7531\u4e24\u884c\u7ec4\u6210\u3002\u7b2c\u4e00\u884c\u6709\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\uff0c\u7b2c\u4e8c\u884c\u6709\u4e00\u4e2a\u5b57\u7b26\u4e32 $t$\u3002\u4e24\u4e2a\u5b57\u7b26\u4e32\u5747\u7531\u5927\u5199\u5b57\u6bcd\u7ec4\u6210\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u9700\u8981\u82b1\u8d39\u7684\u6700\u5c11\u79d2\u6570\u3002\n\n### \u8bf4\u660e\/\u63d0\u793a\n\n\u3010\u6837\u4f8b\u89e3\u91ca\u3011\n\n\u5bf9\u4e8e\u7b2c\u4e00\u7ec4\u6570\u636e\uff0c\u4ee5\u4e0b\u662f\u4e00\u79cd\u53ef\u80fd\u7684\u64cd\u4f5c\u65b9\u6848\uff1a\n\n* \u82b1\u8d39 6 \u79d2\u5411\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 GARAGE\uff1b\n* \u82b1\u8d39 1 \u79d2\u5c06\u5e8f\u5217\u4ece\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u590d\u5236\u5230\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\uff1b\n* \u82b1\u8d39 7 \u79d2\u5411\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 FORSALE\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u7ec4\u6570\u636e\uff0c\u4ee5\u4e0b\u662f\u4e00\u79cd\u53ef\u80fd\u7684\u64cd\u4f5c\u65b9\u6848\uff1a\n\n* \u82b1\u8d39 1 \u79d2\u5411\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 A\uff1b\n* \u82b1\u8d39 1 \u79d2\u5c06\u5e8f\u5217\u4ece\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u590d\u5236\u5230\u7b2c\u4e00\u4e2a\u5c4f\u5e55\uff1b\n* \u82b1\u8d39 4 \u79d2\u5411\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 BCDE\uff1b\n* \u82b1\u8d39 4 \u79d2\u5411\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 ABCD\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e09\u7ec4\u6570\u636e\uff0c\u6700\u5feb\u7684\u65b9\u6cd5\u662f\u5c06\u5b57\u6bcd\u4e00\u4e2a\u4e00\u4e2a\u5730\u5199\u5165\u5c4f\u5e55\uff0c\u800c\u4e0d\u8fdb\u884c\u590d\u5236\uff0c\u8fd9\u9700\u8981\u82b1\u8d39 16 \u79d2\u3002\n\n\u3010\u6570\u636e\u8303\u56f4\u3011\n\n\u5bf9\u4e8e\u6240\u6709\u6d4b\u8bd5\u6570\u636e\uff0c\u4fdd\u8bc1 $1 \\le q \\le 500$\uff0c$1 \\le |s|,|t| \\le 100$\u3002\n\n\u7ffb\u8bd1\u6765\u81ea [Jason_Ming](https:\/\/www.luogu.com.cn\/user\/1014421)\u3002"},"translations":{"en":{"name":"Two Screens","background":"","description":"There are two screens which can display sequences of uppercase Latin letters. Initially, both screens display nothing.\n\nIn one second, you can do one of the following two actions:\n\n- choose a screen and an uppercase Latin letter, and append that letter to the end of the sequence displayed on that screen;\n- choose a screen and copy the sequence from it to the other screen, overwriting the sequence that was displayed on the other screen.\n\nYou have to calculate the minimum number of seconds you have to spend so that the first screen displays the sequence $ s $ , and the second screen displays the sequence $ t $ .","formatI":"The first line contains one integer $ q $ ( $ 1 \\le q \\le 500 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines. The first line contains the string $ s $ , and the second line contains the string $ t $ ( $ 1 \\le |s|, |t| \\le 100 $ ). Both strings consist of uppercase Latin letters.","formatO":"For each test case, print one integer \u2014 the minimum possible number of seconds you have to spend so that the first screen displays the sequence $ s $ , and the second screen displays the sequence $ t $ .","hint":"In the first test case, the following sequence of actions is possible:\n\n- spend $ 6 $ seconds to write the sequence GARAGE on the first screen;\n- copy the sequence from the first screen to the second screen;\n- spend $ 7 $ seconds to complete the sequence on the second screen by writing FORSALE.\n\nIn the second test case, the following sequence of actions is possible:\n\n- spend $ 1 $ second to write the sequence A on the second screen;\n- copy the sequence from the second screen to the first screen;\n- spend $ 4 $ seconds to complete the sequence on the first screen by writing BCDE;\n- spend $ 4 $ seconds to complete the sequence on the second screen by writing ABCD.\n\nIn the third test case, the fastest way to display the sequences is to type both of them character by character without copying, and this requires $ 16 $ seconds.","locale":"en"},"zh-CN":{"name":"Two Screens","background":"","description":"\u8fd9\u91cc\u6709\u4e24\u4e2a\u53ef\u4ee5\u663e\u793a\u5927\u5199\u5b57\u6bcd\u5e8f\u5217\u7684\u663e\u793a\u5c4f\u3002\u521d\u59cb\u65f6\uff0c\u4e24\u4e2a\u5c4f\u5e55\u90fd\u6ca1\u6709\u663e\u793a\u4efb\u4f55\u4e1c\u897f\u3002\n\n\u6bcf\u79d2\u949f\u4f60\u53ef\u4ee5\u6267\u884c\u4e0b\u5217\u4e24\u79cd\u64cd\u4f5c\u4e2d\u7684\u4e00\u79cd\uff1a\n\n* \u9009\u62e9\u4e00\u4e2a\u5c4f\u5e55\u548c\u4e00\u4e2a\u5927\u5199\u5b57\u6bcd\uff0c\u5e76\u5c06\u8be5\u5b57\u6bcd\u6dfb\u52a0\u5230\u8be5\u5c4f\u5e55\u4e0a\u663e\u793a\u7684\u5e8f\u5217\u7684\u672b\u5c3e\uff1b  \n* \u9009\u62e9\u4e00\u4e2a\u5c4f\u5e55\u5e76\u5c06\u8be5\u5c4f\u5e55\u4e0a\u7684\u5e8f\u5217\u590d\u5236\u5230\u53e6\u4e00\u4e2a\u5c4f\u5e55\uff0c\u8986\u76d6\u53e6\u4e00\u4e2a\u5c4f\u5e55\u4e0a\u663e\u793a\u7684\u5e8f\u5217\u3002\n\n\u4f60\u9700\u8981\u8ba1\u7b97\u8ba9\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u663e\u793a\u5e8f\u5217 $s$\uff0c\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u663e\u793a\u5e8f\u5217 $t$ \u6240\u9700\u8981\u82b1\u8d39\u7684\u6700\u5c11\u79d2\u6570\u3002","formatI":"**\u672c\u9898\u6709\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e**\u3002\n\n\u7b2c\u4e00\u884c\u6709\u4e00\u4e2a\u6574\u6570 $q$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7531\u4e24\u884c\u7ec4\u6210\u3002\u7b2c\u4e00\u884c\u6709\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\uff0c\u7b2c\u4e8c\u884c\u6709\u4e00\u4e2a\u5b57\u7b26\u4e32 $t$\u3002\u4e24\u4e2a\u5b57\u7b26\u4e32\u5747\u7531\u5927\u5199\u5b57\u6bcd\u7ec4\u6210\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u9700\u8981\u82b1\u8d39\u7684\u6700\u5c11\u79d2\u6570\u3002","hint":"\u3010\u6837\u4f8b\u89e3\u91ca\u3011\n\n\u5bf9\u4e8e\u7b2c\u4e00\u7ec4\u6570\u636e\uff0c\u4ee5\u4e0b\u662f\u4e00\u79cd\u53ef\u80fd\u7684\u64cd\u4f5c\u65b9\u6848\uff1a\n\n* \u82b1\u8d39 6 \u79d2\u5411\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 GARAGE\uff1b\n* \u82b1\u8d39 1 \u79d2\u5c06\u5e8f\u5217\u4ece\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u590d\u5236\u5230\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\uff1b\n* \u82b1\u8d39 7 \u79d2\u5411\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 FORSALE\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u7ec4\u6570\u636e\uff0c\u4ee5\u4e0b\u662f\u4e00\u79cd\u53ef\u80fd\u7684\u64cd\u4f5c\u65b9\u6848\uff1a\n\n* \u82b1\u8d39 1 \u79d2\u5411\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 A\uff1b\n* \u82b1\u8d39 1 \u79d2\u5c06\u5e8f\u5217\u4ece\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u590d\u5236\u5230\u7b2c\u4e00\u4e2a\u5c4f\u5e55\uff1b\n* \u82b1\u8d39 4 \u79d2\u5411\u7b2c\u4e00\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 BCDE\uff1b\n* \u82b1\u8d39 4 \u79d2\u5411\u7b2c\u4e8c\u4e2a\u5c4f\u5e55\u5199\u5165\u5e8f\u5217 ABCD\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e09\u7ec4\u6570\u636e\uff0c\u6700\u5feb\u7684\u65b9\u6cd5\u662f\u5c06\u5b57\u6bcd\u4e00\u4e2a\u4e00\u4e2a\u5730\u5199\u5165\u5c4f\u5e55\uff0c\u800c\u4e0d\u8fdb\u884c\u590d\u5236\uff0c\u8fd9\u9700\u8981\u82b1\u8d39 16 \u79d2\u3002\n\n\n\u5bf9\u4e8e\u6240\u6709\u6d4b\u8bd5\u6570\u636e\uff0c\u4fdd\u8bc1 $1 \\le q \\le 500$\uff0c$1 \\le |s|,|t| \\le 100$\u3002\n\n\u7ffb\u8bd1\u6765\u81ea [Jason_Ming](https:\/\/www.luogu.com.cn\/user\/1014421)\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2025A Two Screens","type":2,"slug":"CF2025A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.263766,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2025A Two Screens","description":"\u8fd9\u91cc\u6709\u4e24\u4e2a\u53ef\u4ee5\u663e\u793a\u5927\u5199\u5b57\u6bcd\u5e8f\u5217\u7684\u663e\u793a\u5c4f\u3002\u521d\u59cb\u65f6\uff0c\u4e24\u4e2a\u5c4f\u5e55\u90fd\u6ca1\u6709\u663e\u793a\u4efb\u4f55\u4e1c\u897f\u3002\n\u6bcf\u79d2\u949f\u4f60\u53ef\u4ee5\u6267\u884c\u4e0b\u5217\u4e24\u79cd\u64cd\u4f5c\u4e2d\u7684\u4e00\u79cd\uff1a\n\n\u9009\u62e9\u4e00\u4e2a\u5c4f\u5e55\u548c\u4e00\u4e2a\u5927\u5199\u5b57\u6bcd\uff0c\u5e76\u5c06\u8be5\u5b57\u6bcd\u6dfb\u52a0\u5230\u8be5\u5c4f\u5e55\u4e0a\u663e\u793a\u7684\u5e8f\u5217\u7684\u672b\u5c3e\uff1b  \n\u9009\u62e9\u4e00\u4e2a\u5c4f\u5e55\u5e76\u5c06\u8be5\u5c4f\u5e55\u4e0a\u7684\u5e8f\u5217\u590d\u5236\u5230\u53e6\u4e00\u4e2a\u5c4f\u5e55\uff0c\u8986\u76d6\u53e6\u4e00\u4e2a\u5c4f\u5e55\u4e0a\u663e\u793a\u7684\u5e8f\u5217\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2025A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2025A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2025A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2025A Two Screens" />
+    <meta property="og:description" content="这里有两个可以显示大写字母序列的显示屏。初始时，两个屏幕都没有显示任何东西。
+每秒钟你可以执行下列两种操作中的一种：
+
+选择一个屏幕和一个大写字母，并将该字母添加到该屏幕上显示的序列的末尾；  
+选择一个屏幕并将该屏幕上的序列复制到另一个屏幕，覆盖另一个屏幕上显示的序列。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2025A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2025A Two Screens</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    这里有两个可以显示大写字母序列的显示屏。初始时，两个屏幕都没有显示任何东西。
+
+每秒钟你可以执行下列两种操作中的一种：
+
+* 选择一个屏幕和一个大写字母，并将该字母添加到该屏幕上显示的序列的末尾；  
+* 选择一个屏幕并将该屏幕上的序列复制到另一个屏幕，覆盖另一个屏幕上显示的序列。
+
+你需要计算让第一个屏幕显示序列 $s$，第二个屏幕显示序列 $t$ 所需要花费的最少秒数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    **本题有多组测试数据**。
+
+第一行有一个整数 $q$，表示数据组数。
+
+每组测试数据由两行组成。第一行有一个字符串 $s$，第二行有一个字符串 $t$。两个字符串均由大写字母组成。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试数据，输出一行一个整数，表示需要花费的最少秒数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                【样例解释】
+
+对于第一组数据，以下是一种可能的操作方案：
+
+* 花费 6 秒向第一个屏幕写入序列 GARAGE；
+* 花费 1 秒将序列从第一个屏幕复制到第二个屏幕；
+* 花费 7 秒向第二个屏幕写入序列 FORSALE。
+
+对于第二组数据，以下是一种可能的操作方案：
+
+* 花费 1 秒向第二个屏幕写入序列 A；
+* 花费 1 秒将序列从第二个屏幕复制到第一个屏幕；
+* 花费 4 秒向第一个屏幕写入序列 BCDE；
+* 花费 4 秒向第二个屏幕写入序列 ABCD。
+
+对于第三组数据，最快的方法是将字母一个一个地写入屏幕，而不进行复制，这需要花费 16 秒。
+
+
+对于所有测试数据，保证 $1 \le q \le 500$，$1 \le |s|,|t| \le 100$。
+
+翻译来自 [Jason_Ming](https://www.luogu.com.cn/user/1014421)。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

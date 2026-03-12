@@ -1,0 +1,34 @@
+{
+  "id": "CF-954E",
+  "contest_id": 954,
+  "index": "E",
+  "name": "Water Taps",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 2080,
+  "problem_url": "https://codeforces.com/problemset/problem/954/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/954/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/954/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=954E%20Water%20Taps%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P954E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Water Taps - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-1746D",
+  "contest_id": 1746,
+  "index": "D",
+  "name": "Paths on the Tree",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 5062,
+  "problem_url": "https://codeforces.com/problemset/problem/1746/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1746/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1746/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1746D%20Paths%20on%20the%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1746D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Paths on the Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "sortings",
+      "trees",
+      "*1900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 4,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

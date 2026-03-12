@@ -1,0 +1,28 @@
+{
+  "id": "CF-394A",
+  "contest_id": 394,
+  "index": "A",
+  "name": "Counting Sticks",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 2731,
+  "problem_url": "https://codeforces.com/problemset/problem/394/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/394/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/394/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=394A%20Counting%20Sticks%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/394/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 394A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "0.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

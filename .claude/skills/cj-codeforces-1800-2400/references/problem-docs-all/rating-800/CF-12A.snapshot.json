@@ -1,0 +1,27 @@
+{
+  "id": "CF-12A",
+  "contest_id": 12,
+  "index": "A",
+  "name": "Super Agent",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 15233,
+  "problem_url": "https://codeforces.com/problemset/problem/12/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/12/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/12/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=12A%20Super%20Agent%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF12A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF12A Super Agent - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 3038,
+    "mirror_attempt": 5869,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

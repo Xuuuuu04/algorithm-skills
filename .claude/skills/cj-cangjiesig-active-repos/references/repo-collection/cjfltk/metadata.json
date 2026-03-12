@@ -1,0 +1,14 @@
+{
+  "name": "cjfltk",
+  "full_name": "cangjielanguage-sig/cjfltk",
+  "html_url": "https://github.com/cangjielanguage-sig/cjfltk",
+  "description": "轻量化跨平台 GUI 框架",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "develop",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.3",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/cjfltk/develop/cjpm.toml"
+}

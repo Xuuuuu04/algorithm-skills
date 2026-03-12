@@ -1,0 +1,29 @@
+{
+  "id": "CF-2184D",
+  "contest_id": 2184,
+  "index": "D",
+  "name": "Unfair Game",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 8803,
+  "problem_url": "https://codeforces.com/problemset/problem/2184/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2184/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2184/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2184D%20Unfair%20Game%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2184/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2184D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

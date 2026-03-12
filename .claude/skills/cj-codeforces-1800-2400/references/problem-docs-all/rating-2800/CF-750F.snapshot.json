@@ -1,0 +1,36 @@
+{
+  "id": "CF-750F",
+  "contest_id": 750,
+  "index": "F",
+  "name": "New Year and Finding Roots",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "interactive",
+    "trees"
+  ],
+  "solved_count": 590,
+  "problem_url": "https://codeforces.com/problemset/problem/750/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/750/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/750/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=750F%20New%20Year%20and%20Finding%20Roots%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P750F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year and Finding Roots - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "interactive",
+      "trees",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

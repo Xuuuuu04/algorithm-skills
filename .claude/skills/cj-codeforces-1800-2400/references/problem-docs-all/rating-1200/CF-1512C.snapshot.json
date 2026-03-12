@@ -1,0 +1,34 @@
+{
+  "id": "CF-1512C",
+  "contest_id": 1512,
+  "index": "C",
+  "name": "A-B Palindrome",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 21555,
+  "problem_url": "https://codeforces.com/problemset/problem/1512/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1512/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1512/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1512C%20A-B%20Palindrome%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1512C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "A-B Palindrome - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

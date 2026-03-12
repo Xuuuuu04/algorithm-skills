@@ -1,0 +1,32 @@
+{
+  "id": "CF-908B",
+  "contest_id": 908,
+  "index": "B",
+  "name": "New Year and Buggy Bot",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 7871,
+  "problem_url": "https://codeforces.com/problemset/problem/908/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/908/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/908/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=908B%20New%20Year%20and%20Buggy%20Bot%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P908B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year and Buggy Bot - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

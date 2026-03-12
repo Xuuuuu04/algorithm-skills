@@ -1,0 +1,29 @@
+{
+  "id": "CF-55C",
+  "contest_id": 55,
+  "index": "C",
+  "name": "Pie or die",
+  "rating": 1900,
+  "tags": [
+    "games"
+  ],
+  "url": "https://codeforces.com/problemset/problem/55/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/55/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/55/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=55C%20Pie or die%20tutorial",
+  "solved_count": 1801,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P55C",
+  "hydro_meta": {
+    "page_title": "Pie or die - 题目详情 - Hydro",
+    "hydro_tags": [
+      "games",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

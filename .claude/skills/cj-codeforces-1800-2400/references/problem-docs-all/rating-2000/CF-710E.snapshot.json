@@ -1,0 +1,28 @@
+{
+  "id": "CF-710E",
+  "contest_id": 710,
+  "index": "E",
+  "name": "Generate a String",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp"
+  ],
+  "solved_count": 5718,
+  "problem_url": "https://codeforces.com/problemset/problem/710/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/710/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/710/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=710E%20Generate%20a%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF710E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF710E Generate a String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 628,
+    "mirror_attempt": 1692,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

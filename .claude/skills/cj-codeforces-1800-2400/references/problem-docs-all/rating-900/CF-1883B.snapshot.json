@@ -1,0 +1,27 @@
+{
+  "id": "CF-1883B",
+  "contest_id": 1883,
+  "index": "B",
+  "name": "Chemistry",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 57052,
+  "problem_url": "https://codeforces.com/problemset/problem/1883/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1883/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1883/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1883B%20Chemistry%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1883B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1883B Chemistry - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 287,
+    "mirror_attempt": 402,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

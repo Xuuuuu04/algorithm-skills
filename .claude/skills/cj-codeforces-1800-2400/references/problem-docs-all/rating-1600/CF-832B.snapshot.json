@@ -1,0 +1,32 @@
+{
+  "id": "CF-832B",
+  "contest_id": 832,
+  "index": "B",
+  "name": "Petya and Exam",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 4656,
+  "problem_url": "https://codeforces.com/problemset/problem/832/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/832/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/832/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=832B%20Petya%20and%20Exam%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P832B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Petya and Exam - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "strings",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

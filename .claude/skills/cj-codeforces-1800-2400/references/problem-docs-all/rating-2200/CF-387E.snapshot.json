@@ -1,0 +1,28 @@
+{
+  "id": "CF-387E",
+  "contest_id": 387,
+  "index": "E",
+  "name": "George and Cards",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "data structures"
+  ],
+  "solved_count": 979,
+  "problem_url": "https://codeforces.com/problemset/problem/387/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/387/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/387/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=387E%20George%20and%20Cards%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF387E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF387E George and Cards - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 97,
+    "mirror_attempt": 221,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

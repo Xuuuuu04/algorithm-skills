@@ -1,0 +1,36 @@
+{
+  "id": "CF-1437G",
+  "contest_id": 1437,
+  "index": "G",
+  "name": "Death DBMS",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "string suffix structures",
+    "strings",
+    "trees"
+  ],
+  "solved_count": 1228,
+  "problem_url": "https://codeforces.com/problemset/problem/1437/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1437/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1437/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1437G%20Death%20DBMS%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1437G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Death DBMS - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "string suffix structures",
+      "strings",
+      "trees",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

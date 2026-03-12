@@ -1,0 +1,31 @@
+{
+  "id": "CF-1883E",
+  "contest_id": 1883,
+  "index": "E",
+  "name": "Look Back",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks",
+    "greedy"
+  ],
+  "solved_count": 9769,
+  "problem_url": "https://codeforces.com/problemset/problem/1883/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1883/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1883/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1883E%20Look%20Back%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1883E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Look Back - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

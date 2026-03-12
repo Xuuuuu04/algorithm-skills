@@ -1,0 +1,28 @@
+{
+  "id": "CF-1450A",
+  "contest_id": 1450,
+  "index": "A",
+  "name": "Avoid Trygub",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "sortings"
+  ],
+  "solved_count": 18431,
+  "problem_url": "https://codeforces.com/problemset/problem/1450/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1450/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1450/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1450A%20Avoid%20Trygub%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1450A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1450A Avoid Trygub - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 191,
+    "mirror_attempt": 290,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

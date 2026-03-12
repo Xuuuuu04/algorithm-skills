@@ -1,0 +1,49 @@
+{
+  "source": "public_slot_api",
+  "title": "华为算法挑战赛第36期-AI智算集群通信多平面编排难题",
+  "url": "https://www.chaspark.com/#/races/competitions/1995236496054575106",
+  "difficulty": "Hard",
+  "tags": [
+    "homeRaces"
+  ],
+  "core_idea": "待补充",
+  "pitfalls": "待补充",
+  "raw": {
+    "hwUsers": true,
+    "customCover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1227747698040721408.png?state=2",
+    "contentId": "1995236496054575106",
+    "creatorName": "科技赛事",
+    "isIntraLink": true,
+    "description": {
+      "en": "In recent years, large-scale AI models have rapidly empowered various industries, leading to an explosive growth in computing power demand that far exceeds the speed of performance improvements in individual computing cards. To meet this demand, it is essential to connect a large number of computing cards through high-performance networks. This competition is open to students, developers, corporate employees, and other technical professionals. Participants can enter individually; team participation is not required. Please note that the registration and submission period for entries runs from now until March 15, 2026.",
+      "zh": "近年来，大规模AI模型正快速赋能各行各业，算力需求呈爆炸式增长，远超单张算卡性能提升速度，必须依靠高性能网络将大量算卡互联以满足需求。本赛事面向在校学生、开发者、企业员工等科技人员开放报名。以单人形式参赛，无需组队。请注意，报名与作品提交时间均为即日起至2026年3月15日。"
+    },
+    "customCoverEn": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1229585889909850112.png?state=2",
+    "customTitle": {
+      "en": "Huawei Algorithm Challenge No. 36 - Multi-Plane Orchestration for AI Intelligent Computing Cluster Communication",
+      "zh": "华为算法挑战赛第36期-AI智算集群通信多平面编排难题"
+    },
+    "videos": [],
+    "creatorNid": "831602189204701185",
+    "title": "华为算法挑战赛第36期-AI智算集群通信多平面编排难题",
+    "auditState": 2,
+    "isEssence": 0,
+    "actualContentId": "1995236496054575106",
+    "columnRoute": "https://www.chaspark.com/#/races/competition",
+    "columnTypeName": "精选赛题",
+    "hasVoice": false,
+    "contentType": 15,
+    "publishTime": "1764553594",
+    "images": [],
+    "creatorType": "2",
+    "isShowEssence": 1,
+    "sort": 567,
+    "columnType": "racesQuestion",
+    "showTable": [],
+    "slotContentUpdateTime": "1770990324",
+    "slotContentId": "1126592802649552021",
+    "detailUrl": "https://www.chaspark.com/#/races/competitions/1995236496054575106",
+    "position": "",
+    "customLink": "https://www.chaspark.com/#/races/question/1995236496054575106"
+  }
+}

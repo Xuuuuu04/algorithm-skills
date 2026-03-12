@@ -1,0 +1,31 @@
+{
+  "id": "CF-1034A",
+  "contest_id": 1034,
+  "index": "A",
+  "name": "Enlarge GCD",
+  "rating": 1800,
+  "tags": [
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1034/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1034/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1034/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1034A%20Enlarge GCD%20tutorial",
+  "solved_count": 9755,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1034A",
+  "hydro_meta": {
+    "page_title": "Enlarge GCD - 题目详情 - Hydro",
+    "hydro_tags": [
+      "number theory",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

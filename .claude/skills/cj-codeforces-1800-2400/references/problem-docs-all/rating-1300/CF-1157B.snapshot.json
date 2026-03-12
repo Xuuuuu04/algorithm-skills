@@ -1,0 +1,27 @@
+{
+  "id": "CF-1157B",
+  "contest_id": 1157,
+  "index": "B",
+  "name": "Long Number",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 15572,
+  "problem_url": "https://codeforces.com/problemset/problem/1157/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1157/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1157/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1157B%20Long%20Number%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1157B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1157B Long Number - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 266,
+    "mirror_attempt": 680,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

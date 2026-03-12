@@ -1,0 +1,30 @@
+{
+  "id": "CF-835F",
+  "contest_id": 835,
+  "index": "F",
+  "name": "Roads in the Kingdom",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 1207,
+  "problem_url": "https://codeforces.com/problemset/problem/835/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/835/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/835/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=835F%20Roads%20in%20the%20Kingdom%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/835/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 835F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

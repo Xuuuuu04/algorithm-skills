@@ -1,0 +1,28 @@
+{
+  "id": "CF-118E",
+  "contest_id": 118,
+  "index": "E",
+  "name": "Bertown roads",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 8235,
+  "problem_url": "https://codeforces.com/problemset/problem/118/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/118/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/118/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=118E%20Bertown%20roads%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF118E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF118E Bertown roads - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 363,
+    "mirror_attempt": 929,
+    "time_limit": "5000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-1847A",
+  "contest_id": 1847,
+  "index": "A",
+  "name": "The Man who became a God ",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 22833,
+  "problem_url": "https://codeforces.com/problemset/problem/1847/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1847/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1847/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1847A%20The%20Man%20who%20became%20a%20God%20%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1847A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Man who became a God - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

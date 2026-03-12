@@ -1,0 +1,34 @@
+{
+  "id": "CF-833E",
+  "contest_id": 833,
+  "index": "E",
+  "name": "Caramel Clouds",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "sortings"
+  ],
+  "solved_count": 275,
+  "problem_url": "https://codeforces.com/problemset/problem/833/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/833/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/833/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=833E%20Caramel%20Clouds%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P833E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Caramel Clouds - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "sortings",
+      "*3400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

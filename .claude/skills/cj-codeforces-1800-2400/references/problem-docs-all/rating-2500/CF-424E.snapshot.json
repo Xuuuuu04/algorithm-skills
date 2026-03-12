@@ -1,0 +1,34 @@
+{
+  "id": "CF-424E",
+  "contest_id": 424,
+  "index": "E",
+  "name": "Colored Jenga",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "probabilities"
+  ],
+  "solved_count": 148,
+  "problem_url": "https://codeforces.com/problemset/problem/424/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/424/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/424/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=424E%20Colored%20Jenga%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P424E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Colored Jenga - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "probabilities",
+      "*2500"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

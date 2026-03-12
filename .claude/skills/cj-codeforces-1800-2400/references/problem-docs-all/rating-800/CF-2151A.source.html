@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2151A Incremental Subarray - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2151A","type":"CF","title":"Incremental Subarray","difficulty":0,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Incremental Subarray","background":null,"description":"[Schtiffles - Marbl](https:\/\/soundcloud.com\/schtiffles\/marbl)\n\n\u2800\n\nJames \u6b63\u5728\u5b66\u4e60\u6570\u5b57\uff0c\u5e76\u4e14\u4ed6\u5f88\u5f00\u5fc3\u5730\u4ece\u5de6\u5230\u53f3\u5730\u628a\u6570\u5b57\u5199\u5728\u4e00\u5757\u5de8\u5927\u7684\u9ed1\u677f\u4e0a\u3002\n\n- \u4e00\u5f00\u59cb\uff0cJames \u5199\u4e0b\u6570\u5b57 $1$\u3002\n- \u63a5\u7740\uff0cJames \u518d\u6b21\u5199\u4e0b $1$\uff0c\u7136\u540e\u5199\u4e0b $2$\u3002\n- \u7136\u540e James \u5199\u4e0b $1$\u3001$2$\u3001$3$\u3002\n- $ \\ldots $\n- \u6700\u540e\uff0cJames \u4f9d\u6b21\u5199\u4e0b $1$\u3001$2$\u3001$3$\u3001$\\ldots$\u3001$n$\u3002\n\n\u4f8b\u5982\uff0c\u5f53 $n=5$ \u65f6\uff0cJames \u5199\u4e0b\u7684\u6570\u5b57\u6784\u6210\u4e86\u6570\u7ec4 $b = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5]$\u3002\n\nJames \u6709\u4e00\u4e2a\u559c\u6b22\u7684\u6570\u5b57\u5217\u8868 $a_1, a_2, \\ldots, a_m$\uff0c\u4ed6\u60f3\u8981\u7edf\u8ba1\u6570\u7ec4 $b$ \u4e2d\u6709\u591a\u5c11\u4e2a\u5b50\u6570\u7ec4\u4e0e $a_1, a_2, \\ldots, a_m$ \u5b8c\u5168\u76f8\u540c\u3002$^{\\ast}$\n\nJames \u5df2\u7ecf\u786e\u5b9a $a_1, a_2, \\ldots, a_m$ \u4e00\u5b9a\u662f $b$ \u7684\u4e00\u4e2a\u5b50\u6570\u7ec4\uff0c\u6240\u4ee5\u7b54\u6848\u81f3\u5c11\u4e3a $1$\u3002\n\n$^{\\ast}$ \u6570\u7ec4 $[v_1, v_2, \\ldots, v_k]$ \u7684\u5b50\u6570\u7ec4\u5b9a\u4e49\u4e3a\uff1a\u5bf9\u4e8e\u6bcf\u4e00\u5bf9 $l, r$ \u6ee1\u8db3 $1 \\leq l \\leq r \\leq k$\uff0c\u5b50\u6570\u7ec4\u4e3a $[v_l, v_{l+1}, \\ldots, v_r]$\u3002\u56e0\u6b64\u603b\u5171\u6709 $k(k+1)\/2$ \u4e2a\u5b50\u6570\u7ec4\uff0c\u5176\u4e2d\u53ef\u80fd\u6709\u4e9b\u662f\u5b8c\u5168\u76f8\u540c\u7684\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 500$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u5982\u4e0b\uff1a\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\leq n \\leq 10^5$\uff0c$1 \\leq m \\leq 200$\uff09\u2014\u2014James \u8981\u5199\u7684\u6700\u5927\u6570\u5b57 $n$ \u4ee5\u53ca\u6570\u7ec4 $a_1, \\ldots, a_m$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $m$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_m$\uff08$1 \\leq a_i \\leq 10^5$\uff09\u2014\u2014James \u559c\u6b22\u7684\u6570\u5b57\u3002\n\n\u4fdd\u8bc1\u5728\u6240\u6709\u8f93\u5165\u6570\u636e\u4e2d\uff0c\u7b54\u6848\u81f3\u5c11\u4e3a $1$\u3002\n\n\u6ce8\u610f\uff1a\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u4e0e $m$ \u5e76\u6ca1\u6709\u603b\u548c\u9650\u5236\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6570\u7ec4 $b$ \u4e2d\u7b49\u4e8e $a_1, a_2, \\ldots, a_m$ \u7684\u5b50\u6570\u7ec4\u6570\u91cf\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9ed1\u677f\u4e0a\u7684\u6570\u5b57\u4e3a\n\n$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4]\n$$\n\nJames \u53ea\u6709\u4e00\u4e2a\u559c\u6b22\u7684\u6570\u5b57\uff1a$1$\u3002$b$ \u4e2d\u6709 $4$ \u4e2a\u5b50\u6570\u7ec4\u7b49\u4e8e $[1]$\uff08\u7528\u7ea2\u8272\u6807\u8bb0\uff09\uff1a\n\n- $[\\red{1}, 1, 2, 1, 2, 3, 1, 2, 3, 4]$\uff1b\n- $[1, \\red{1}, 2, 1, 2, 3, 1, 2, 3, 4]$\uff1b\n- $[1, 1, 2, \\red{1}, 2, 3, 1, 2, 3, 4]$\uff1b\n- $[1, 1, 2, 1, 2, 3, \\red{1}, 2, 3, 4]$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9ed1\u677f\u4e0a\u7684\u6570\u5b57\u4e3a\n\n$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5]\n$$\n\nJames \u7684\u559c\u6b22\u6570\u5b57\u5217\u8868\u662f $[1, 2, 3]$\u3002$b$ \u4e2d\u6709 $3$ \u4e2a\u5b50\u6570\u7ec4\u7b49\u4e8e $[1, 2, 3]$\uff08\u7528\u7ea2\u8272\u6807\u8bb0\uff09\uff1a\n\n- $[1, 1, 2, \\red{1, 2, 3}, 1, 2, 3, 4, 1, 2, 3, 4, 5]$\uff1b\n- $[1, 1, 2, 1, 2, 3, \\red{1, 2, 3}, 4, 1, 2, 3, 4, 5]$\uff1b\n- $[1, 1, 2, 1, 2, 3, 1, 2, 3, 4, \\red{1, 2, 3}, 4, 5]$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9ed1\u677f\u4e0a\u7684\u6570\u5b57\u4e3a\n\n$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]\n$$\n\nJames \u7684\u559c\u6b22\u6570\u5b57\u5217\u8868\u662f $[3, 1, 2, 3, 4, 1]$\u3002$b$ \u4e2d\u53ea\u6709 $1$ \u4e2a\u5b50\u6570\u7ec4\u7b49\u4e8e $[3, 1, 2, 3, 4, 1]$\uff08\u7528\u7ea2\u8272\u6807\u8bb0\uff09\uff1a\n\n- $[1, 1, 2, 1, 2, \\red{3, 1, 2, 3, 4, 1}, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Incremental Subarray","background":null,"description":"[Schtiffles - Marbl](https:\/\/soundcloud.com\/schtiffles\/marbl)\n\n\u2800\n\n\n\nJames is learning numbers, and he is having fun writing them on a huge blackboard, from left to right.\n\n- At the beginning, James writes the number  $ 1 $ .\n- Right after, James writes  $ 1 $  again, and then  $ 2 $ .\n- Then James writes  $ 1 $ ,  $ 2 $ ,  $ 3 $ .\n- $ \\ldots $\n- In the end, James writes  $ 1 $ ,  $ 2 $ ,  $ 3 $ ,  $ \\ldots $ ,  $ n $ .\n\nFor example, for  $ n = 5 $ , the numbers written by James make the array  $ b = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5] $ .\n\nJames has a list of favorite numbers  $ a_1, a_2, \\ldots, a_m $ , and he wants to calculate how many subarrays of the array  $ b $  are equal to  $ a_1, a_2, \\ldots, a_m $ .  $ ^{\\text{\u2217}} $\n\nJames is already sure that  $ a_1, a_2, \\ldots, a_m $  is a subarray of  $ b $ , so the answer is at least  $ 1 $ .\n\n $ ^{\\text{\u2217}} $ The subarrays of an array  $ [v_1, v_2, \\ldots, v_k] $  are generated as follows: for each  $ l, r $  such that  $ 1 \\leq l \\leq r \\leq k $ , the array  $ [v_l, v_{l+1}, \\ldots, v_r] $  is a subarray. So there are  $ k(k+1)\/2 $  subarrays in total, and some of them may be equal.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 500 $ ). The description of the test cases follows.\n\nThe first line of each test case contains two integers  $ n $  and  $ m $  ( $ 1 \\leq n \\leq 10^5 $ ,  $ 1 \\leq m \\leq 200 $ ) \u2014 the maximum number written by James, and the length of the array  $ a_1, a_2, \\ldots, a_m $ .\n\nThe second line of each test case contains  $ m $  integers  $ a_1, a_2, \\ldots, a_m $  ( $ 1 \\leq a_i \\leq 10^5 $ ) \u2014 James\u0027 favorite numbers.\n\nIt is guaranteed that for the given input, the answer is always at least  $ 1 $ .\n\nNote that there are no constraints on the sum of  $ n $  and  $ m $  over all test cases.","formatO":"For each test case, output a single line containing an integer: the number of subarrays of the array  $ b $  which are equal to  $ a_1, a_2, \\ldots, a_m $ .","hint":"In the first test case, the blackboard contains the numbers\n\n$$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4]\n$$$\n\nand James has only one favorite number: the number  $ 1 $ . There are  $ 4 $  subarrays of  $ b $  equal to  $ [1] $  (highlighted in red):\n\n- $ [\\color{red}{1}, 1, 2, 1, 2, 3, 1, 2, 3, 4] $ ;\n- $ [1, \\color{red}{1}, 2, 1, 2, 3, 1, 2, 3, 4] $ ;\n- $ [1, 1, 2, \\color{red}{1}, 2, 3, 1, 2, 3, 4] $ ;\n- $ [1, 1, 2, 1, 2, 3, \\color{red}{1}, 2, 3, 4] $ .\n\nIn the second test case, the blackboard contains the numbers\n\n$$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5]\n$$$\n\nand James\u0027s list of favorite numbers is  $ [1, 2, 3] $ . There are  $ 3 $  subarrays of  $ b $  equal to  $ [1, 2, 3] $  (highlighted in red):\n\n- $ [1, 1, 2, \\color{red}{1, 2, 3}, 1, 2, 3, 4, 1, 2, 3, 4, 5] $ ;\n- $ [1, 1, 2, 1, 2, 3, \\color{red}{1, 2, 3}, 4, 1, 2, 3, 4, 5] $ ;\n- $ [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, \\color{red}{1, 2, 3}, 4, 5] $ .\n\nIn the third test case, the blackboard contains the numbers\n\n$$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]\n$$$\n\nand James\u0027s list of favorite numbers is  $ [3, 1, 2, 3, 4, 1] $ . There is only  $ 1 $  subarray of  $ b $  equal to  $ [3, 1, 2, 3, 4, 1] $  (highlighted in red):\n\n- $ [1, 1, 2, 1, 2, \\color{red}{3, 1, 2, 3, 4, 1}, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n4 1\n1\n5 3\n1 2 3\n6 6\n3 1 2 3 4 1\n100000 1\n100000\n4 2\n1 1","4\n3\n1\n1\n1"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2151A","link":"https:\/\/codeforces.com\/problemset\/problem\/2151\/A"},"translation":null},"translations":{"en":{"name":"Incremental Subarray","background":null,"description":"[Schtiffles - Marbl](https:\/\/soundcloud.com\/schtiffles\/marbl)\n\n\u2800\n\n\n\nJames is learning numbers, and he is having fun writing them on a huge blackboard, from left to right.\n\n- At the beginning, James writes the number  $ 1 $ .\n- Right after, James writes  $ 1 $  again, and then  $ 2 $ .\n- Then James writes  $ 1 $ ,  $ 2 $ ,  $ 3 $ .\n- $ \\ldots $\n- In the end, James writes  $ 1 $ ,  $ 2 $ ,  $ 3 $ ,  $ \\ldots $ ,  $ n $ .\n\nFor example, for  $ n = 5 $ , the numbers written by James make the array  $ b = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5] $ .\n\nJames has a list of favorite numbers  $ a_1, a_2, \\ldots, a_m $ , and he wants to calculate how many subarrays of the array  $ b $  are equal to  $ a_1, a_2, \\ldots, a_m $ .  $ ^{\\text{\u2217}} $\n\nJames is already sure that  $ a_1, a_2, \\ldots, a_m $  is a subarray of  $ b $ , so the answer is at least  $ 1 $ .\n\n $ ^{\\text{\u2217}} $ The subarrays of an array  $ [v_1, v_2, \\ldots, v_k] $  are generated as follows: for each  $ l, r $  such that  $ 1 \\leq l \\leq r \\leq k $ , the array  $ [v_l, v_{l+1}, \\ldots, v_r] $  is a subarray. So there are  $ k(k+1)\/2 $  subarrays in total, and some of them may be equal.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 500 $ ). The description of the test cases follows.\n\nThe first line of each test case contains two integers  $ n $  and  $ m $  ( $ 1 \\leq n \\leq 10^5 $ ,  $ 1 \\leq m \\leq 200 $ ) \u2014 the maximum number written by James, and the length of the array  $ a_1, a_2, \\ldots, a_m $ .\n\nThe second line of each test case contains  $ m $  integers  $ a_1, a_2, \\ldots, a_m $  ( $ 1 \\leq a_i \\leq 10^5 $ ) \u2014 James\u0027 favorite numbers.\n\nIt is guaranteed that for the given input, the answer is always at least  $ 1 $ .\n\nNote that there are no constraints on the sum of  $ n $  and  $ m $  over all test cases.","formatO":"For each test case, output a single line containing an integer: the number of subarrays of the array  $ b $  which are equal to  $ a_1, a_2, \\ldots, a_m $ .","hint":"In the first test case, the blackboard contains the numbers\n\n$$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4]\n$$$\n\nand James has only one favorite number: the number  $ 1 $ . There are  $ 4 $  subarrays of  $ b $  equal to  $ [1] $  (highlighted in red):\n\n- $ [\\color{red}{1}, 1, 2, 1, 2, 3, 1, 2, 3, 4] $ ;\n- $ [1, \\color{red}{1}, 2, 1, 2, 3, 1, 2, 3, 4] $ ;\n- $ [1, 1, 2, \\color{red}{1}, 2, 3, 1, 2, 3, 4] $ ;\n- $ [1, 1, 2, 1, 2, 3, \\color{red}{1}, 2, 3, 4] $ .\n\nIn the second test case, the blackboard contains the numbers\n\n$$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5]\n$$$\n\nand James\u0027s list of favorite numbers is  $ [1, 2, 3] $ . There are  $ 3 $  subarrays of  $ b $  equal to  $ [1, 2, 3] $  (highlighted in red):\n\n- $ [1, 1, 2, \\color{red}{1, 2, 3}, 1, 2, 3, 4, 1, 2, 3, 4, 5] $ ;\n- $ [1, 1, 2, 1, 2, 3, \\color{red}{1, 2, 3}, 4, 1, 2, 3, 4, 5] $ ;\n- $ [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, \\color{red}{1, 2, 3}, 4, 5] $ .\n\nIn the third test case, the blackboard contains the numbers\n\n$$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]\n$$$\n\nand James\u0027s list of favorite numbers is  $ [3, 1, 2, 3, 4, 1] $ . There is only  $ 1 $  subarray of  $ b $  equal to  $ [3, 1, 2, 3, 4, 1] $  (highlighted in red):\n\n- $ [1, 1, 2, 1, 2, \\color{red}{3, 1, 2, 3, 4, 1}, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6] $ .","locale":"en"},"zh-CN":{"name":"Incremental Subarray","background":null,"description":"[Schtiffles - Marbl](https:\/\/soundcloud.com\/schtiffles\/marbl)\n\n\u2800\n\nJames \u6b63\u5728\u5b66\u4e60\u6570\u5b57\uff0c\u5e76\u4e14\u4ed6\u5f88\u5f00\u5fc3\u5730\u4ece\u5de6\u5230\u53f3\u5730\u628a\u6570\u5b57\u5199\u5728\u4e00\u5757\u5de8\u5927\u7684\u9ed1\u677f\u4e0a\u3002\n\n- \u4e00\u5f00\u59cb\uff0cJames \u5199\u4e0b\u6570\u5b57 $1$\u3002\n- \u63a5\u7740\uff0cJames \u518d\u6b21\u5199\u4e0b $1$\uff0c\u7136\u540e\u5199\u4e0b $2$\u3002\n- \u7136\u540e James \u5199\u4e0b $1$\u3001$2$\u3001$3$\u3002\n- $ \\ldots $\n- \u6700\u540e\uff0cJames \u4f9d\u6b21\u5199\u4e0b $1$\u3001$2$\u3001$3$\u3001$\\ldots$\u3001$n$\u3002\n\n\u4f8b\u5982\uff0c\u5f53 $n=5$ \u65f6\uff0cJames \u5199\u4e0b\u7684\u6570\u5b57\u6784\u6210\u4e86\u6570\u7ec4 $b = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5]$\u3002\n\nJames \u6709\u4e00\u4e2a\u559c\u6b22\u7684\u6570\u5b57\u5217\u8868 $a_1, a_2, \\ldots, a_m$\uff0c\u4ed6\u60f3\u8981\u7edf\u8ba1\u6570\u7ec4 $b$ \u4e2d\u6709\u591a\u5c11\u4e2a\u5b50\u6570\u7ec4\u4e0e $a_1, a_2, \\ldots, a_m$ \u5b8c\u5168\u76f8\u540c\u3002$^{\\ast}$\n\nJames \u5df2\u7ecf\u786e\u5b9a $a_1, a_2, \\ldots, a_m$ \u4e00\u5b9a\u662f $b$ \u7684\u4e00\u4e2a\u5b50\u6570\u7ec4\uff0c\u6240\u4ee5\u7b54\u6848\u81f3\u5c11\u4e3a $1$\u3002\n\n$^{\\ast}$ \u6570\u7ec4 $[v_1, v_2, \\ldots, v_k]$ \u7684\u5b50\u6570\u7ec4\u5b9a\u4e49\u4e3a\uff1a\u5bf9\u4e8e\u6bcf\u4e00\u5bf9 $l, r$ \u6ee1\u8db3 $1 \\leq l \\leq r \\leq k$\uff0c\u5b50\u6570\u7ec4\u4e3a $[v_l, v_{l+1}, \\ldots, v_r]$\u3002\u56e0\u6b64\u603b\u5171\u6709 $k(k+1)\/2$ \u4e2a\u5b50\u6570\u7ec4\uff0c\u5176\u4e2d\u53ef\u80fd\u6709\u4e9b\u662f\u5b8c\u5168\u76f8\u540c\u7684\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 500$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u5982\u4e0b\uff1a\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\leq n \\leq 10^5$\uff0c$1 \\leq m \\leq 200$\uff09\u2014\u2014James \u8981\u5199\u7684\u6700\u5927\u6570\u5b57 $n$ \u4ee5\u53ca\u6570\u7ec4 $a_1, \\ldots, a_m$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $m$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_m$\uff08$1 \\leq a_i \\leq 10^5$\uff09\u2014\u2014James \u559c\u6b22\u7684\u6570\u5b57\u3002\n\n\u4fdd\u8bc1\u5728\u6240\u6709\u8f93\u5165\u6570\u636e\u4e2d\uff0c\u7b54\u6848\u81f3\u5c11\u4e3a $1$\u3002\n\n\u6ce8\u610f\uff1a\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u4e0e $m$ \u5e76\u6ca1\u6709\u603b\u548c\u9650\u5236\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6570\u7ec4 $b$ \u4e2d\u7b49\u4e8e $a_1, a_2, \\ldots, a_m$ \u7684\u5b50\u6570\u7ec4\u6570\u91cf\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9ed1\u677f\u4e0a\u7684\u6570\u5b57\u4e3a\n\n$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4]\n$$\n\nJames \u53ea\u6709\u4e00\u4e2a\u559c\u6b22\u7684\u6570\u5b57\uff1a$1$\u3002$b$ \u4e2d\u6709 $4$ \u4e2a\u5b50\u6570\u7ec4\u7b49\u4e8e $[1]$\uff08\u7528\u7ea2\u8272\u6807\u8bb0\uff09\uff1a\n\n- $[\\red{1}, 1, 2, 1, 2, 3, 1, 2, 3, 4]$\uff1b\n- $[1, \\red{1}, 2, 1, 2, 3, 1, 2, 3, 4]$\uff1b\n- $[1, 1, 2, \\red{1}, 2, 3, 1, 2, 3, 4]$\uff1b\n- $[1, 1, 2, 1, 2, 3, \\red{1}, 2, 3, 4]$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9ed1\u677f\u4e0a\u7684\u6570\u5b57\u4e3a\n\n$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5]\n$$\n\nJames \u7684\u559c\u6b22\u6570\u5b57\u5217\u8868\u662f $[1, 2, 3]$\u3002$b$ \u4e2d\u6709 $3$ \u4e2a\u5b50\u6570\u7ec4\u7b49\u4e8e $[1, 2, 3]$\uff08\u7528\u7ea2\u8272\u6807\u8bb0\uff09\uff1a\n\n- $[1, 1, 2, \\red{1, 2, 3}, 1, 2, 3, 4, 1, 2, 3, 4, 5]$\uff1b\n- $[1, 1, 2, 1, 2, 3, \\red{1, 2, 3}, 4, 1, 2, 3, 4, 5]$\uff1b\n- $[1, 1, 2, 1, 2, 3, 1, 2, 3, 4, \\red{1, 2, 3}, 4, 5]$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9ed1\u677f\u4e0a\u7684\u6570\u5b57\u4e3a\n\n$$\nb = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]\n$$\n\nJames \u7684\u559c\u6b22\u6570\u5b57\u5217\u8868\u662f $[3, 1, 2, 3, 4, 1]$\u3002$b$ \u4e2d\u53ea\u6709 $1$ \u4e2a\u5b50\u6570\u7ec4\u7b49\u4e8e $[3, 1, 2, 3, 4, 1]$\uff08\u7528\u7ea2\u8272\u6807\u8bb0\uff09\uff1a\n\n- $[1, 1, 2, 1, 2, \\red{3, 1, 2, 3, 4, 1}, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2151A Incremental Subarray","type":2,"slug":"CF2151A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.30953,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2151A Incremental Subarray","description":"Schtiffles - Marbl\n\u2800\nJames \u6b63\u5728\u5b66\u4e60\u6570\u5b57\uff0c\u5e76\u4e14\u4ed6\u5f88\u5f00\u5fc3\u5730\u4ece\u5de6\u5230\u53f3\u5730\u628a\u6570\u5b57\u5199\u5728\u4e00\u5757\u5de8\u5927\u7684\u9ed1\u677f\u4e0a\u3002\n\n\u4e00\u5f00\u59cb\uff0cJames \u5199\u4e0b\u6570\u5b57 1\u3002\n\u63a5\u7740\uff0cJames \u518d\u6b21\u5199\u4e0b 1\uff0c\u7136\u540e\u5199\u4e0b 2\u3002\n\u7136\u540e James \u5199\u4e0b 1\u30012\u30013\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2151A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2151A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2151A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2151A Incremental Subarray" />
+    <meta property="og:description" content="Schtiffles - Marbl
+⠀
+James 正在学习数字，并且他很开心地从左到右地把数字写在一块巨大的黑板上。
+
+一开始，James 写下数字 1。
+接着，James 再次写下 1，然后写下 2。
+然后 James 写下 1、2、3。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2151A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2151A Incremental Subarray</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    [Schtiffles - Marbl](https://soundcloud.com/schtiffles/marbl)
+
+⠀
+
+James 正在学习数字，并且他很开心地从左到右地把数字写在一块巨大的黑板上。
+
+- 一开始，James 写下数字 $1$。
+- 接着，James 再次写下 $1$，然后写下 $2$。
+- 然后 James 写下 $1$、$2$、$3$。
+- $ \ldots $
+- 最后，James 依次写下 $1$、$2$、$3$、$\ldots$、$n$。
+
+例如，当 $n=5$ 时，James 写下的数字构成了数组 $b = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5]$。
+
+James 有一个喜欢的数字列表 $a_1, a_2, \ldots, a_m$，他想要统计数组 $b$ 中有多少个子数组与 $a_1, a_2, \ldots, a_m$ 完全相同。$^{\ast}$
+
+James 已经确定 $a_1, a_2, \ldots, a_m$ 一定是 $b$ 的一个子数组，所以答案至少为 $1$。
+
+$^{\ast}$ 数组 $[v_1, v_2, \ldots, v_k]$ 的子数组定义为：对于每一对 $l, r$ 满足 $1 \leq l \leq r \leq k$，子数组为 $[v_l, v_{l+1}, \ldots, v_r]$。因此总共有 $k(k+1)/2$ 个子数组，其中可能有些是完全相同的。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每组测试数据包含多组测试用例。第一行包含一个整数 $t$（$1 \leq t \leq 500$），表示测试用例数量。每组测试用例的描述如下：
+
+每组测试用例的第一行包含两个整数 $n$ 和 $m$（$1 \leq n \leq 10^5$，$1 \leq m \leq 200$）——James 要写的最大数字 $n$ 以及数组 $a_1, \ldots, a_m$ 的长度。
+
+第二行包含 $m$ 个整数 $a_1, a_2, \ldots, a_m$（$1 \leq a_i \leq 10^5$）——James 喜欢的数字。
+
+保证在所有输入数据中，答案至少为 $1$。
+
+注意：所有测试用例的 $n$ 与 $m$ 并没有总和限制。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试用例，输出一行一个整数，表示数组 $b$ 中等于 $a_1, a_2, \ldots, a_m$ 的子数组数量。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，黑板上的数字为
+
+$$
+b = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4]
+$$
+
+James 只有一个喜欢的数字：$1$。$b$ 中有 $4$ 个子数组等于 $[1]$（用红色标记）：
+
+- $[\red{1}, 1, 2, 1, 2, 3, 1, 2, 3, 4]$；
+- $[1, \red{1}, 2, 1, 2, 3, 1, 2, 3, 4]$；
+- $[1, 1, 2, \red{1}, 2, 3, 1, 2, 3, 4]$；
+- $[1, 1, 2, 1, 2, 3, \red{1}, 2, 3, 4]$。
+
+在第二个测试用例中，黑板上的数字为
+
+$$
+b = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5]
+$$
+
+James 的喜欢数字列表是 $[1, 2, 3]$。$b$ 中有 $3$ 个子数组等于 $[1, 2, 3]$（用红色标记）：
+
+- $[1, 1, 2, \red{1, 2, 3}, 1, 2, 3, 4, 1, 2, 3, 4, 5]$；
+- $[1, 1, 2, 1, 2, 3, \red{1, 2, 3}, 4, 1, 2, 3, 4, 5]$；
+- $[1, 1, 2, 1, 2, 3, 1, 2, 3, 4, \red{1, 2, 3}, 4, 5]$。
+
+在第三个测试用例中，黑板上的数字为
+
+$$
+b = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]
+$$
+
+James 的喜欢数字列表是 $[3, 1, 2, 3, 4, 1]$。$b$ 中只有 $1$ 个子数组等于 $[3, 1, 2, 3, 4, 1]$（用红色标记）：
+
+- $[1, 1, 2, 1, 2, \red{3, 1, 2, 3, 4, 1}, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]$。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

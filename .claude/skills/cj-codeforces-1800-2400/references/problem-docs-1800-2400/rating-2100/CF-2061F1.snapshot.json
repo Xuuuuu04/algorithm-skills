@@ -1,0 +1,30 @@
+{
+  "id": "CF-2061F1",
+  "contest_id": 2061,
+  "index": "F1",
+  "name": "Kevin and Binary String (Easy Version)",
+  "rating": 2100,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2061/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2061/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2061/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2061F1%20Kevin and Binary String (Easy Version)%20tutorial",
+  "solved_count": 2238,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2061F1",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2061F1 Kevin and Binary String (Easy Version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-621A",
+  "contest_id": 621,
+  "index": "A",
+  "name": "Wet Shark and Odd and Even",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 22530,
+  "problem_url": "https://codeforces.com/problemset/problem/621/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/621/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/621/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=621A%20Wet%20Shark%20and%20Odd%20and%20Even%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/621/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 621A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

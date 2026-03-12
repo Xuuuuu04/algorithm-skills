@@ -1,0 +1,31 @@
+{
+  "id": "CF-1583B",
+  "contest_id": 1583,
+  "index": "B",
+  "name": "Omkar and Heavenly Tree",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "trees"
+  ],
+  "solved_count": 13184,
+  "problem_url": "https://codeforces.com/problemset/problem/1583/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1583/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1583/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1583B%20Omkar%20and%20Heavenly%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1583B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Omkar and Heavenly Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

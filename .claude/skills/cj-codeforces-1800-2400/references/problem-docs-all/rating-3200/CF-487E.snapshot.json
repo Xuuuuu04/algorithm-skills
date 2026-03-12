@@ -1,0 +1,36 @@
+{
+  "id": "CF-487E",
+  "contest_id": 487,
+  "index": "E",
+  "name": "Tourists",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 2771,
+  "problem_url": "https://codeforces.com/problemset/problem/487/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/487/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/487/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=487E%20Tourists%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P487E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Tourists - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*3200"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

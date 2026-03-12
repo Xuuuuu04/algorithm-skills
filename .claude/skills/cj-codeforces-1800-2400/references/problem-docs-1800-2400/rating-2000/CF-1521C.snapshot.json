@@ -1,0 +1,33 @@
+{
+  "id": "CF-1521C",
+  "contest_id": 1521,
+  "index": "C",
+  "name": "Nastia and a Hidden Permutation",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1521/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1521/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1521/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1521C%20Nastia and a Hidden Permutation%20tutorial",
+  "solved_count": 4588,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1521C",
+  "hydro_meta": {
+    "page_title": "Nastia and a Hidden Permutation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "interactive",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

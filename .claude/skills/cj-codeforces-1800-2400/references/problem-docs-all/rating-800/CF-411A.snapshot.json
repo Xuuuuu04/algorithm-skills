@@ -1,0 +1,28 @@
+{
+  "id": "CF-411A",
+  "contest_id": 411,
+  "index": "A",
+  "name": "Password Check",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 8041,
+  "problem_url": "https://codeforces.com/problemset/problem/411/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/411/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/411/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=411A%20Password%20Check%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF411A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF411A Password Check - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 511,
+    "mirror_attempt": 919,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

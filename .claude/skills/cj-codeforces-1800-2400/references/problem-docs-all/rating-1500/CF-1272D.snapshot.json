@@ -1,0 +1,28 @@
+{
+  "id": "CF-1272D",
+  "contest_id": 1272,
+  "index": "D",
+  "name": "Remove One Element",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp"
+  ],
+  "solved_count": 18927,
+  "problem_url": "https://codeforces.com/problemset/problem/1272/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1272/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1272/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1272D%20Remove%20One%20Element%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1272D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1272D Remove One Element - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 295,
+    "mirror_attempt": 611,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

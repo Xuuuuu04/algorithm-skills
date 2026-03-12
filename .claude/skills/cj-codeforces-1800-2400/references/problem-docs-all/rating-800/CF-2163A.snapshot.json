@@ -1,0 +1,30 @@
+{
+  "id": "CF-2163A",
+  "contest_id": 2163,
+  "index": "A",
+  "name": "Souvlaki VS. Kalamaki",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 19154,
+  "problem_url": "https://codeforces.com/problemset/problem/2163/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2163/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2163/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2163A%20Souvlaki%20VS.%20Kalamaki%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2163A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2163A Souvlaki VS. Kalamaki - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

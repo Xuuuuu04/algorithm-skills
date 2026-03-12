@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415135:sX5B3YYD5l7VhuVYZul+Fv6c2txHaLFHbvnpiocPWp0=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1717C Madoka and Formal Statement - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1717C","type":"CF","title":"Madoka and Formal Statement","difficulty":3,"tags":[7],"wantsTranslation":false,"totalSubmit":628,"totalAccepted":326,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Madoka and Formal Statement","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5217 $a_{1\u2026n}$, \u5982\u679c\u6ee1\u8db3\u4e0b\u9762\u6761\u4ef6, \u4f60\u53ef\u4ee5\u4f7f $a_i = a_i + 1$:\n\n- $i \u003C n$ \u4e14 $a_i \\leq a_{i+1}$\n- $i = n$ \u4e14 $a_i \\leq a_{1}$\n\n\u518d\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5217 $b_{1\u2026n}$, \u95ee $a$ \u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u4e0a\u8ff0\u64cd\u4f5c\u53d8\u4e3a $b$.","formatI":"\u672c\u9898\u591a\u6d4b.\n\n\u7b2c\u4e00\u884c\u4e3a $t$, \u8868\u793a $t$ \u7ec4\u6570\u636e.\n\n\u63a5\u4e0b\u6765 $t$ \u7ec4\u6570\u636e\uff0c\u6bcf\u7ec4\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6b63\u6574\u6570 $n$, \n\n\u7b2c\u4e8c\u884c\u4e3a $n$ \u4e2a\u6574\u6570, \u4ee3\u8868\u6570\u5217 $a$;\n\n\u7b2c\u4e09\u884c\u4e3a $n$ \u4e2a\u6574\u6570, \u4ee3\u8868\u6570\u5217 $b$.\n\n\u4fdd\u8bc1 $\\Sigma n \\le 2\u00d710^5$.","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e,\u8f93\u51fa `\u0022YES\u0022` \u6216 `\u0022NO\u0022`.","hint":"","locale":"zh-CN"},"content":{"name":"Madoka and Formal Statement","background":"","description":"Given an array of integer $ a_1, a_2, \\ldots, a_n $ . In one operation you can make $ a_i := a_i + 1 $ if $ i \u003C n $ and $ a_i \\leq a_{i + 1} $ , or $ i = n $ and $ a_i \\leq a_1 $ .\n\nYou need to check whether the array $ a_1, a_2, \\ldots, a_n $ can become equal to the array $ b_1, b_2, \\ldots, b_n $ in some number of operations (possibly, zero). Two arrays $ a $ and $ b $ of length $ n $ are called equal if $ a_i = b_i $ for all integers $ i $ from $ 1 $ to $ n $ .","formatI":"The input consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 4 \\cdot 10^4 $ ) \u2014 the number of test cases. Description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2013 the length of the array.\n\nThe second line of each test case contains $ n $ integers $ a_1, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^9 $ ) \u2013 the elements of the array $ a $ .\n\nThe third line of each test case contains $ n $ integers $ b_1, \\ldots, b_n $ ( $ 1 \\le b_i \\le 10^9 $ ) \u2013 the elements of the array $ b $ .\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output \u0022YES\u0022 if you can get the array $ b $ , otherwise output \u0022NO\u0022.\n\nYou may print each letter in any case (for example, \u0022YES\u0022, \u0022Yes\u0022, \u0022yes\u0022, \u0022yEs\u0022 will all be recognized as positive answer).","hint":"In the first test case, the array $ a $ is already equal to the array $ b $ .\n\nIn the second test case, we can\u0027t get the array $ b $ , because to do this we need to decrease $ a_1 $ .\n\nIn the fifth test case, we can apply operations in order to the elements with indices $ 4, 3, 3,2,2,2,1,1,1,1 $ , and then get the array $ [5,5,5,5,5] $ . After that, you can apply operations in order to elements with indices $ 5,4,4,3,1 $ and already get an array $ [6,5,6,7,6] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n3\n1 2 5\n1 2 5\n2\n2 2\n1 3\n4\n3 4 1 2\n6 4 2 5\n3\n2 4 1\n4 5 3\n5\n1 2 3 4 5\n6 5 6 7 6","YES\nNO\nNO\nNO\nYES"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1717C","link":"https:\/\/codeforces.com\/problemset\/problem\/1717\/C"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5217 $a_{1\u2026n}$, \u5982\u679c\u6ee1\u8db3\u4e0b\u9762\u6761\u4ef6, \u4f60\u53ef\u4ee5\u4f7f $a_i = a_i + 1$:\n\n- $i \u003C n$ \u4e14 $a_i \\leq a_{i+1}$\n- $i = n$ \u4e14 $a_i \\leq a_{1}$\n\n\u518d\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5217 $b_{1\u2026n}$, \u95ee $a$ \u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u4e0a\u8ff0\u64cd\u4f5c\u53d8\u4e3a $b$.\n\n## \u8f93\u5165\u683c\u5f0f\n\u672c\u9898\u591a\u6d4b.\n\n\u7b2c\u4e00\u884c\u4e3a $t$, \u8868\u793a $t$ \u7ec4\u6570\u636e.\n\n\u63a5\u4e0b\u6765 $t$ \u7ec4\u6570\u636e\uff0c\u6bcf\u7ec4\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6b63\u6574\u6570 $n$, \n\n\u7b2c\u4e8c\u884c\u4e3a $n$ \u4e2a\u6574\u6570, \u4ee3\u8868\u6570\u5217 $a$;\n\n\u7b2c\u4e09\u884c\u4e3a $n$ \u4e2a\u6574\u6570, \u4ee3\u8868\u6570\u5217 $b$.\n\n\u4fdd\u8bc1 $\\Sigma n \\le 2\u00d710^5$.\n\n## \u8f93\u51fa\u683c\u5f0f\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e,\u8f93\u51fa `\u0022YES\u0022` \u6216 `\u0022NO\u0022`."},"translations":{"en":{"name":"Madoka and Formal Statement","background":"","description":"Given an array of integer $ a_1, a_2, \\ldots, a_n $ . In one operation you can make $ a_i := a_i + 1 $ if $ i \u003C n $ and $ a_i \\leq a_{i + 1} $ , or $ i = n $ and $ a_i \\leq a_1 $ .\n\nYou need to check whether the array $ a_1, a_2, \\ldots, a_n $ can become equal to the array $ b_1, b_2, \\ldots, b_n $ in some number of operations (possibly, zero). Two arrays $ a $ and $ b $ of length $ n $ are called equal if $ a_i = b_i $ for all integers $ i $ from $ 1 $ to $ n $ .","formatI":"The input consists of multiple test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 4 \\cdot 10^4 $ ) \u2014 the number of test cases. Description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2013 the length of the array.\n\nThe second line of each test case contains $ n $ integers $ a_1, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^9 $ ) \u2013 the elements of the array $ a $ .\n\nThe third line of each test case contains $ n $ integers $ b_1, \\ldots, b_n $ ( $ 1 \\le b_i \\le 10^9 $ ) \u2013 the elements of the array $ b $ .\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output \u0022YES\u0022 if you can get the array $ b $ , otherwise output \u0022NO\u0022.\n\nYou may print each letter in any case (for example, \u0022YES\u0022, \u0022Yes\u0022, \u0022yes\u0022, \u0022yEs\u0022 will all be recognized as positive answer).","hint":"In the first test case, the array $ a $ is already equal to the array $ b $ .\n\nIn the second test case, we can\u0027t get the array $ b $ , because to do this we need to decrease $ a_1 $ .\n\nIn the fifth test case, we can apply operations in order to the elements with indices $ 4, 3, 3,2,2,2,1,1,1,1 $ , and then get the array $ [5,5,5,5,5] $ . After that, you can apply operations in order to elements with indices $ 5,4,4,3,1 $ and already get an array $ [6,5,6,7,6] $ .","locale":"en"},"zh-CN":{"name":"Madoka and Formal Statement","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5217 $a_{1\u2026n}$, \u5982\u679c\u6ee1\u8db3\u4e0b\u9762\u6761\u4ef6, \u4f60\u53ef\u4ee5\u4f7f $a_i = a_i + 1$:\n\n- $i \u003C n$ \u4e14 $a_i \\leq a_{i+1}$\n- $i = n$ \u4e14 $a_i \\leq a_{1}$\n\n\u518d\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5217 $b_{1\u2026n}$, \u95ee $a$ \u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u4e0a\u8ff0\u64cd\u4f5c\u53d8\u4e3a $b$.","formatI":"\u672c\u9898\u591a\u6d4b.\n\n\u7b2c\u4e00\u884c\u4e3a $t$, \u8868\u793a $t$ \u7ec4\u6570\u636e.\n\n\u63a5\u4e0b\u6765 $t$ \u7ec4\u6570\u636e\uff0c\u6bcf\u7ec4\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6b63\u6574\u6570 $n$, \n\n\u7b2c\u4e8c\u884c\u4e3a $n$ \u4e2a\u6574\u6570, \u4ee3\u8868\u6570\u5217 $a$;\n\n\u7b2c\u4e09\u884c\u4e3a $n$ \u4e2a\u6574\u6570, \u4ee3\u8868\u6570\u5217 $b$.\n\n\u4fdd\u8bc1 $\\Sigma n \\le 2\u00d710^5$.","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e,\u8f93\u51fa `\u0022YES\u0022` \u6216 `\u0022NO\u0022`.","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1717C Madoka and Formal Statement","type":2,"slug":"CF1717C","color":"orange-3"},"discussions":[{"id":751943,"title":"\u5728\u539fOJ\u4e0a\u8bc4\u6d4b\u4e3a\u4ec0\u4e48MLE???","author":{"uid":785767,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/785767.png","name":"44i11","slogan":"\u4e00\u4e2a\u849f\u84bb","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/hvzuxx03.png"},"time":1703513621},{"id":511787,"title":"LaTeX \u6709\u8bef","author":{"uid":305121,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/305121.png","name":"8atemak1r","slogan":"I have been AKed by  CSP\u3001NOIP","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/n6yu87pu.png"},"time":1666022591}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328734.996046,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1717C Madoka and Formal Statement","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5217 a_{1\u2026n}, \u5982\u679c\u6ee1\u8db3\u4e0b\u9762\u6761\u4ef6, \u4f60\u53ef\u4ee5\u4f7f a_i = a_i + 1:\n\n\ni &lt; n$ \u4e14 $a_i \\leq a_{i+1}\n\n\ni = n$ \u4e14 $a_i \\leq a_{1}\n\n\n\u518d\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5217 b_{1\u2026n},\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1717C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1717C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1717C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1717C Madoka and Formal Statement" />
+    <meta property="og:description" content="给定一个数列 a_{1…n}, 如果满足下面条件, 你可以使 a_i = a_i + 1:
+
+
+i &amp;lt; n$ 且 $a_i \leq a_{i+1}
+
+
+i = n$ 且 $a_i \leq a_{1}
+
+
+再给定一个数列 b_{1…n},…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1717C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1717C Madoka and Formal Statement</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个数列 $a_{1…n}$, 如果满足下面条件, 你可以使 $a_i = a_i + 1$:
+
+- $i < n$ 且 $a_i \leq a_{i+1}$
+- $i = n$ 且 $a_i \leq a_{1}$
+
+再给定一个数列 $b_{1…n}$, 问 $a$ 是否可以通过上述操作变为 $b$.
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    本题多测.
+
+第一行为 $t$, 表示 $t$ 组数据.
+
+接下来 $t$ 组数据，每组第一行为一个正整数 $n$, 
+
+第二行为 $n$ 个整数, 代表数列 $a$;
+
+第三行为 $n$ 个整数, 代表数列 $b$.
+
+保证 $\Sigma n \le 2×10^5$.
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组数据,输出 `"YES"` 或 `"NO"`.
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case, the array $ a $ is already equal to the array $ b $ .
+
+In the second test case, we can't get the array $ b $ , because to do this we need to decrease $ a_1 $ .
+
+In the fifth test case, we can apply operations in order to the elements with indices $ 4, 3, 3,2,2,2,1,1,1,1 $ , and then get the array $ [5,5,5,5,5] $ . After that, you can apply operations in order to elements with indices $ 5,4,4,3,1 $ and already get an array $ [6,5,6,7,6] $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

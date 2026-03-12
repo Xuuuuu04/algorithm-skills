@@ -1,0 +1,34 @@
+{
+  "id": "CF-558D",
+  "contest_id": 558,
+  "index": "D",
+  "name": "Guess Your Way Out! II",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "data structures",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 1197,
+  "problem_url": "https://codeforces.com/problemset/problem/558/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/558/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/558/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=558D%20Guess%20Your%20Way%20Out%21%20II%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P558D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Guess Your Way Out! II - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "implementation",
+      "sortings",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

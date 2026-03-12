@@ -1,0 +1,34 @@
+{
+  "id": "CF-1181B",
+  "contest_id": 1181,
+  "index": "B",
+  "name": "Split a Number",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 6579,
+  "problem_url": "https://codeforces.com/problemset/problem/1181/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1181/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1181/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1181B%20Split%20a%20Number%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1181B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Split a Number - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

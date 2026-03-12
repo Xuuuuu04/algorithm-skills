@@ -1,0 +1,29 @@
+{
+  "id": "CF-1662N",
+  "contest_id": 1662,
+  "index": "N",
+  "name": "Drone Photo",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 910,
+  "problem_url": "https://codeforces.com/problemset/problem/1662/N",
+  "answer_index_url": "https://codeforces.com/problemset/status/1662/problem/N",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1662/problem/N?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1662N%20Drone%20Photo%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1662/N",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1662N - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

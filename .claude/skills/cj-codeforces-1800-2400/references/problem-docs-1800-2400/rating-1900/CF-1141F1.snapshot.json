@@ -1,0 +1,31 @@
+{
+  "id": "CF-1141F1",
+  "contest_id": 1141,
+  "index": "F1",
+  "name": "Same Sum Blocks (Easy)",
+  "rating": 1900,
+  "tags": [
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1141/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1141/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1141/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1141F1%20Same Sum Blocks (Easy)%20tutorial",
+  "solved_count": 4132,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1141F1",
+  "hydro_meta": {
+    "page_title": "Same Sum Blocks (Easy) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

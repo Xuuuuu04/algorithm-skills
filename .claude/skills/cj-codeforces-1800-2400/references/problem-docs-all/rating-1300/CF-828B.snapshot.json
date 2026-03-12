@@ -1,0 +1,30 @@
+{
+  "id": "CF-828B",
+  "contest_id": 828,
+  "index": "B",
+  "name": "Black Square",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 6085,
+  "problem_url": "https://codeforces.com/problemset/problem/828/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/828/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/828/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=828B%20Black%20Square%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P828B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Black Square - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

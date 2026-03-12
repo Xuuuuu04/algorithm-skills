@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1812E Not a Geometry Problem - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1812E","type":"CF","title":"Not a Geometry Problem","difficulty":0,"tags":[],"wantsTranslation":false,"totalSubmit":75,"totalAccepted":62,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Not a Geometry Problem","background":null,"description":"","formatI":"\u8f93\u5165\u7684\u552f\u4e00\u4e00\u884c\u5305\u542b\u4e09\u4e2a\u6574\u6570 $x$\u3001$y$\u3001$z$\uff08$-1000 \\le x, y, z \\le 1000$\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u5b9e\u6570\uff0c\u5373\u7b54\u6848\u3002\n\n\u5f53\u4f60\u7684\u7b54\u6848\u7684\u7edd\u5bf9\u8bef\u5dee\u6216\u76f8\u5bf9\u8bef\u5dee\u4e0d\u8d85\u8fc7 $10^6$ \u65f6\uff0c\u5c06\u88ab\u89c6\u4e3a\u6b63\u786e\u3002\u5f62\u5f0f\u5316\u5730\uff0c\u8bbe\u4f60\u7684\u7b54\u6848\u4e3a $a$\uff0c\u6807\u51c6\u7b54\u6848\u4e3a $b$\uff0c\u5f53\u4e14\u4ec5\u5f53 $\\frac{|a-b|}{\\max(1,|b|)} \\le 10^6$ \u65f6\uff0c\u4f60\u7684\u7b54\u6848\u624d\u4f1a\u88ab\u63a5\u53d7\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Not a Geometry Problem","background":"","description":"","formatI":"The only line of input contains three integers $ x $ , $ y $ , $ z $ ( $ -1000 \\le x, y, z \\le 1000 $ ).","formatO":"Output one real number \u2014 the answer.\n\nYour answer is considered correct if its absolute or relative error does not exceed $ 10^6 $ . Formally, let your answer be $ a $ , and the jury\u0027s answer be $ b $ . Your answer is accepted if and only if $ \\frac{|a-b|}{\\max(1,|b|)} \\le 10^6 $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1 1 1","1.7320508075688772"],["1 -2 -2","21.727922061357855"],["998 244 353","-0.0006269592476489029"],["0 0 0","1792283455048516.3"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1812E","link":"https:\/\/codeforces.com\/problemset\/problem\/1812\/E"},"translation":"\u8f93\u5165 $3$ \u4e2a\u6570 $x$\uff0c$y$ \u548c $z$\uff08$-1000 \\le x, y, z \\le 1000$\uff09\uff0c\u8f93\u51fa $1$ \u4e2a\u5b9e\u6570\u4f5c\u4e3a\u7b54\u6848\u3002\n\n\u4f60\u7684\u7b54\u6848\u5728\u7edd\u5bf9\u6216\u76f8\u5bf9\u8bef\u5dee\u4e0d\u8d85\u8fc7 $10^6$ \u7684\u60c5\u51b5\u4e0b\u4f1a\u88ab\u8ba4\u4e3a\u662f\u6b63\u786e\u7684\u3002\u5f62\u5f0f\u5316\u7684\uff0c\u5982\u679c\u4f60\u7684\u7b54\u6848\u662f $a$\uff0c\u8bc4\u6d4b\u7528\u7684\u6807\u51c6\u7b54\u6848\u4e3a $b$\uff0c\u90a3\u4e48\u4f60\u7684\u7b54\u6848\u4f1a\u4e14\u4ec5\u4f1a\u5728 $\\frac{|a-b|}{\\max(1,|b|)} \\le 10^6$ \u7684\u60c5\u51b5\u4e0b\u901a\u8fc7\u3002"},"translations":{"en":{"name":"Not a Geometry Problem","background":"","description":"","formatI":"The only line of input contains three integers $ x $ , $ y $ , $ z $ ( $ -1000 \\le x, y, z \\le 1000 $ ).","formatO":"Output one real number \u2014 the answer.\n\nYour answer is considered correct if its absolute or relative error does not exceed $ 10^6 $ . Formally, let your answer be $ a $ , and the jury\u0027s answer be $ b $ . Your answer is accepted if and only if $ \\frac{|a-b|}{\\max(1,|b|)} \\le 10^6 $ .","hint":"","locale":"en"},"zh-CN":{"name":"Not a Geometry Problem","background":null,"description":"","formatI":"\u8f93\u5165\u7684\u552f\u4e00\u4e00\u884c\u5305\u542b\u4e09\u4e2a\u6574\u6570 $x$\u3001$y$\u3001$z$\uff08$-1000 \\le x, y, z \\le 1000$\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u5b9e\u6570\uff0c\u5373\u7b54\u6848\u3002\n\n\u5f53\u4f60\u7684\u7b54\u6848\u7684\u7edd\u5bf9\u8bef\u5dee\u6216\u76f8\u5bf9\u8bef\u5dee\u4e0d\u8d85\u8fc7 $10^6$ \u65f6\uff0c\u5c06\u88ab\u89c6\u4e3a\u6b63\u786e\u3002\u5f62\u5f0f\u5316\u5730\uff0c\u8bbe\u4f60\u7684\u7b54\u6848\u4e3a $a$\uff0c\u6807\u51c6\u7b54\u6848\u4e3a $b$\uff0c\u5f53\u4e14\u4ec5\u5f53 $\\frac{|a-b|}{\\max(1,|b|)} \\le 10^6$ \u65f6\uff0c\u4f60\u7684\u7b54\u6848\u624d\u4f1a\u88ab\u63a5\u53d7\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1812E Not a Geometry Problem","type":2,"slug":"CF1812E","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.503732,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1812E Not a Geometry Problem","description":""}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1812E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1812E?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1812E?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1812E Not a Geometry Problem" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1812E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1812E Not a Geometry Problem</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    <i>无</i>
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的唯一一行包含三个整数 $x$、$y$、$z$（$-1000 \le x, y, z \le 1000$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个实数，即答案。
+
+当你的答案的绝对误差或相对误差不超过 $10^6$ 时，将被视为正确。形式化地，设你的答案为 $a$，标准答案为 $b$，当且仅当 $\frac{|a-b|}{\max(1,|b|)} \le 10^6$ 时，你的答案才会被接受。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

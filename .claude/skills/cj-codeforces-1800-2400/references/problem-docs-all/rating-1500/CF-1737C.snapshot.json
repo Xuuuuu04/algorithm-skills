@@ -1,0 +1,36 @@
+{
+  "id": "CF-1737C",
+  "contest_id": 1737,
+  "index": "C",
+  "name": "Ela and Crickets",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "games",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 6360,
+  "problem_url": "https://codeforces.com/problemset/problem/1737/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1737/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1737/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1737C%20Ela%20and%20Crickets%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1737C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ela and Crickets - 题目详情 - Hydro",
+    "mirror_tags": [
+      "games",
+      "implementation",
+      "math",
+      "math",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

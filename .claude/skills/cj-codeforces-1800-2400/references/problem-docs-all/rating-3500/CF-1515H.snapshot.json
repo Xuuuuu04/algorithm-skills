@@ -1,0 +1,30 @@
+{
+  "id": "CF-1515H",
+  "contest_id": 1515,
+  "index": "H",
+  "name": "Phoenix and Bits",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4250.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "data structures",
+    "sortings"
+  ],
+  "solved_count": 348,
+  "problem_url": "https://codeforces.com/problemset/problem/1515/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1515/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1515/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1515H%20Phoenix%20and%20Bits%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1515/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1515H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

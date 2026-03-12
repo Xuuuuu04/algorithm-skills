@@ -1,0 +1,27 @@
+{
+  "id": "CF-2000B",
+  "contest_id": 2000,
+  "index": "B",
+  "name": "Seating in a Bus",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "two pointers"
+  ],
+  "solved_count": 40237,
+  "problem_url": "https://codeforces.com/problemset/problem/2000/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2000/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2000/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2000B%20Seating%20in%20a%20Bus%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2000B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2000B Seating in a Bus - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

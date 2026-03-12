@@ -1,0 +1,38 @@
+{
+  "id": "CF-1491D",
+  "contest_id": 1491,
+  "index": "D",
+  "name": "Zookeeper and The Infinite Zoo",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 8161,
+  "problem_url": "https://codeforces.com/problemset/problem/1491/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1491/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1491/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1491D%20Zookeeper%20and%20The%20Infinite%20Zoo%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1491D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Zookeeper and The Infinite Zoo - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "math",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

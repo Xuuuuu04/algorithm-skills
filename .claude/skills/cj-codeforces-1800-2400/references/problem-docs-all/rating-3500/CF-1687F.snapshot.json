@@ -1,0 +1,32 @@
+{
+  "id": "CF-1687F",
+  "contest_id": 1687,
+  "index": "F",
+  "name": "Koishi's Unconscious Permutation",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "fft",
+    "math"
+  ],
+  "solved_count": 109,
+  "problem_url": "https://codeforces.com/problemset/problem/1687/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1687/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1687/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1687F%20Koishi%27s%20Unconscious%20Permutation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1687F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Koishi's Unconscious Permutation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "fft",
+      "math",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "12000ms",
+    "memory_limit": "1024MiB"
+  }
+}

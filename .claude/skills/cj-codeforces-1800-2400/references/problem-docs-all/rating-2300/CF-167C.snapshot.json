@@ -1,0 +1,28 @@
+{
+  "id": "CF-167C",
+  "contest_id": 167,
+  "index": "C",
+  "name": "Wizards and Numbers",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "games",
+    "math"
+  ],
+  "solved_count": 732,
+  "problem_url": "https://codeforces.com/problemset/problem/167/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/167/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/167/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=167C%20Wizards%20and%20Numbers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/167/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 167C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

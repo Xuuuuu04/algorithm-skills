@@ -1,0 +1,34 @@
+{
+  "id": "CF-529B",
+  "contest_id": 529,
+  "index": "B",
+  "name": "Group Photo 2 (online mirror version)",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 985,
+  "problem_url": "https://codeforces.com/problemset/problem/529/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/529/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/529/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=529B%20Group%20Photo%202%20%28online%20mirror%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P529B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Group Photo 2 (online mirror version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

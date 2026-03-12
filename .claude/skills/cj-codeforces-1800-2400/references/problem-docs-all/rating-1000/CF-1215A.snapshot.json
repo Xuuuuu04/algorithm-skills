@@ -1,0 +1,34 @@
+{
+  "id": "CF-1215A",
+  "contest_id": 1215,
+  "index": "A",
+  "name": "Yellow Cards",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 12133,
+  "problem_url": "https://codeforces.com/problemset/problem/1215/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1215/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1215/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1215A%20Yellow%20Cards%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1215A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yellow Cards - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

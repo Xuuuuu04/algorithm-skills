@@ -1,0 +1,36 @@
+{
+  "id": "CF-2050G",
+  "contest_id": 2050,
+  "index": "G",
+  "name": "Tree Destruction",
+  "rating": 1900,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2050/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2050/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2050/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2050G%20Tree Destruction%20tutorial",
+  "solved_count": 5274,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2050G",
+  "hydro_meta": {
+    "page_title": "Tree Destruction - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

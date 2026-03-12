@@ -1,0 +1,14 @@
+{
+  "name": "http_router",
+  "full_name": "cangjielanguage-sig/http_router",
+  "html_url": "https://github.com/cangjielanguage-sig/http_router",
+  "description": "提供标准化的路由注册、路由匹配能力",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "master",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/http_router/master/cjpm.toml"
+}

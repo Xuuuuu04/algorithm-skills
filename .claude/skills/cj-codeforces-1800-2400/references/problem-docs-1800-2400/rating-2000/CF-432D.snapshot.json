@@ -1,0 +1,38 @@
+{
+  "id": "CF-432D",
+  "contest_id": 432,
+  "index": "D",
+  "name": "Prefixes and Suffixes",
+  "rating": 2000,
+  "tags": [
+    "dp",
+    "string suffix structures",
+    "strings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/432/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/432/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/432/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=432D%20Prefixes and Suffixes%20tutorial",
+  "solved_count": 11651,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P432D",
+  "hydro_meta": {
+    "page_title": "Prefixes and Suffixes - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "string suffix structures",
+      "strings",
+      "two pointers",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

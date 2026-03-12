@@ -1,0 +1,38 @@
+{
+  "id": "CF-1439C",
+  "contest_id": 1439,
+  "index": "C",
+  "name": "Greedy Shopping",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "divide and conquer",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 2177,
+  "problem_url": "https://codeforces.com/problemset/problem/1439/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1439/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1439/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1439C%20Greedy%20Shopping%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1439C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Greedy Shopping - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "divide and conquer",
+      "greedy",
+      "implementation",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

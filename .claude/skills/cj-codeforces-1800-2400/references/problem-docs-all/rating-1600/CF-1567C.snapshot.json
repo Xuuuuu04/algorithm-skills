@@ -1,0 +1,34 @@
+{
+  "id": "CF-1567C",
+  "contest_id": 1567,
+  "index": "C",
+  "name": "Carrying Conundrum",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 12977,
+  "problem_url": "https://codeforces.com/problemset/problem/1567/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1567/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1567/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1567C%20Carrying%20Conundrum%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1567C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Carrying Conundrum - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

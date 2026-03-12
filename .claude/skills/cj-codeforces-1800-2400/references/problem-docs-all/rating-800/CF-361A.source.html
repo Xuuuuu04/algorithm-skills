@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF361A Levko and Table - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF361A","type":"CF","title":"Levko and Table","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":165,"totalAccepted":94,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Levko and Table","background":null,"description":"Levko \u975e\u5e38\u559c\u6b22\u7531 $n$ \u884c $n$ \u5217\u7ec4\u6210\u7684\u8868\u683c\u3002\u4ed6\u5c24\u5176\u559c\u6b22\u7f8e\u4e3d\u7684\u8868\u683c\u3002\u5bf9 Levko \u6765\u8bf4\uff0c\u5982\u679c\u4e00\u4e2a\u8868\u683c\u7684\u6bcf\u4e00\u884c\u548c\u6bcf\u4e00\u5217\u7684\u5143\u7d20\u4e4b\u548c\u90fd\u7b49\u4e8e $k$\uff0c\u90a3\u4e48\u8fd9\u4e2a\u8868\u683c\u5c31\u662f\u7f8e\u4e3d\u7684\u3002\n\n\u4e0d\u5e78\u7684\u662f\uff0c\u4ed6\u81ea\u5df1\u8fd8\u4e0d\u4f1a\u6784\u9020\u8fd9\u6837\u7684\u8868\u683c\u3002\u4f60\u7684\u4efb\u52a1\u662f\u5e2e\u52a9\u4ed6\u81f3\u5c11\u627e\u51fa\u4e00\u4e2a\u6ee1\u8db3\u6761\u4ef6\u7684\u8868\u683c\u3002","formatI":"\u4e00\u884c\uff0c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff0c\u6ee1\u8db3 $1 \\leq n \\leq 100$\uff0c$1 \\leq k \\leq 1000$\u3002","formatO":"\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u7f8e\u4e3d\u7684\u8868\u683c\u3002Levko \u4e0d\u559c\u6b22\u592a\u5927\u7684\u6570\u5b57\uff0c\u56e0\u6b64\u8868\u683c\u4e2d\u6240\u6709\u5143\u7d20\u7684\u7edd\u5bf9\u503c\u90fd\u4e0d\u8d85\u8fc7 $1000$\u3002\n\n\u5982\u679c\u6ee1\u8db3\u6761\u4ef6\u7684\u8868\u683c\u6709\u591a\u79cd\uff0c\u4f60\u53ef\u4ee5\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u7b2c\u4e00\u884c\u7684\u5143\u7d20\u4e4b\u548c\u662f $1+3=4$\uff0c\u7b2c\u4e8c\u884c\u662f $3+1=4$\uff0c\u7b2c\u4e00\u5217\u662f $1+3=4$\uff0c\u7b2c\u4e8c\u5217\u662f $3+1=4$\u3002\u5bf9\u4e8e\u8fd9\u4e2a\u6837\u4f8b\uff0c\u8fd8\u6709\u5176\u4ed6\u7f8e\u4e3d\u7684\u8868\u683c\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6bcf\u4e00\u884c\u548c\u6bcf\u4e00\u5217\u7684\u5143\u7d20\u4e4b\u548c\u90fd\u662f $7$\u3002\u6b64\u5916\uff0c\u4e5f\u53ef\u4ee5\u6784\u9020\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\u7684\u5176\u4ed6\u8868\u683c\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Levko and Table","background":"","description":"Levko loves tables that consist of $ n $ rows and $ n $ columns very much. He especially loves beautiful tables. A table is beautiful to Levko if the sum of elements in each row and column of the table equals $ k $ .\n\nUnfortunately, he doesn\u0027t know any such table. Your task is to help him to find at least one of them.","formatI":"The single line contains two integers, $ n $ and $ k $ ( $ 1\u003C=n\u003C=100 $ , $ 1\u003C=k\u003C=1000 $ ).","formatO":"Print any beautiful table. Levko doesn\u0027t like too big numbers, so all elements of the table mustn\u0027t exceed $ 1000 $ in their absolute value.\n\nIf there are multiple suitable tables, you are allowed to print any of them.","hint":"In the first sample the sum in the first row is $ 1+3=4 $ , in the second row \u2014 $ 3+1=4 $ , in the first column \u2014 $ 1+3=4 $ and in the second column \u2014 $ 3+1=4 $ . There are other beautiful tables for this sample.\n\nIn the second sample the sum of elements in each row and each column equals $ 7 $ . Besides, there are other tables that meet the statement requirements.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2 4\n","1 3\n3 1\n"],["4 7\n","2 1 0 4\n4 0 2 1\n1 3 3 0\n0 3 2 2\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"361A","link":"https:\/\/codeforces.com\/problemset\/problem\/361\/A"},"translation":"Levko \u5f88\u559c\u6b22\u5e7b\u65b9\uff0c\u4ed6\u60f3\u6784\u9020\u4e00\u4e2a\u957f\u5bbd\u90fd\u662f $n$ \u4e14\u6bcf\u884c\u6bcf\u5217\u7684\u548c\u90fd\u662f $k$ \u7684\u5e7b\u65b9\uff0c\u8bf7\u4f60\u5e2e\u5e2e\u4ed6"},"translations":{"en":{"name":"Levko and Table","background":"","description":"Levko loves tables that consist of $ n $ rows and $ n $ columns very much. He especially loves beautiful tables. A table is beautiful to Levko if the sum of elements in each row and column of the table equals $ k $ .\n\nUnfortunately, he doesn\u0027t know any such table. Your task is to help him to find at least one of them.","formatI":"The single line contains two integers, $ n $ and $ k $ ( $ 1\u003C=n\u003C=100 $ , $ 1\u003C=k\u003C=1000 $ ).","formatO":"Print any beautiful table. Levko doesn\u0027t like too big numbers, so all elements of the table mustn\u0027t exceed $ 1000 $ in their absolute value.\n\nIf there are multiple suitable tables, you are allowed to print any of them.","hint":"In the first sample the sum in the first row is $ 1+3=4 $ , in the second row \u2014 $ 3+1=4 $ , in the first column \u2014 $ 1+3=4 $ and in the second column \u2014 $ 3+1=4 $ . There are other beautiful tables for this sample.\n\nIn the second sample the sum of elements in each row and each column equals $ 7 $ . Besides, there are other tables that meet the statement requirements.","locale":"en"},"zh-CN":{"name":"Levko and Table","background":null,"description":"Levko \u975e\u5e38\u559c\u6b22\u7531 $n$ \u884c $n$ \u5217\u7ec4\u6210\u7684\u8868\u683c\u3002\u4ed6\u5c24\u5176\u559c\u6b22\u7f8e\u4e3d\u7684\u8868\u683c\u3002\u5bf9 Levko \u6765\u8bf4\uff0c\u5982\u679c\u4e00\u4e2a\u8868\u683c\u7684\u6bcf\u4e00\u884c\u548c\u6bcf\u4e00\u5217\u7684\u5143\u7d20\u4e4b\u548c\u90fd\u7b49\u4e8e $k$\uff0c\u90a3\u4e48\u8fd9\u4e2a\u8868\u683c\u5c31\u662f\u7f8e\u4e3d\u7684\u3002\n\n\u4e0d\u5e78\u7684\u662f\uff0c\u4ed6\u81ea\u5df1\u8fd8\u4e0d\u4f1a\u6784\u9020\u8fd9\u6837\u7684\u8868\u683c\u3002\u4f60\u7684\u4efb\u52a1\u662f\u5e2e\u52a9\u4ed6\u81f3\u5c11\u627e\u51fa\u4e00\u4e2a\u6ee1\u8db3\u6761\u4ef6\u7684\u8868\u683c\u3002","formatI":"\u4e00\u884c\uff0c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff0c\u6ee1\u8db3 $1 \\leq n \\leq 100$\uff0c$1 \\leq k \\leq 1000$\u3002","formatO":"\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u7f8e\u4e3d\u7684\u8868\u683c\u3002Levko \u4e0d\u559c\u6b22\u592a\u5927\u7684\u6570\u5b57\uff0c\u56e0\u6b64\u8868\u683c\u4e2d\u6240\u6709\u5143\u7d20\u7684\u7edd\u5bf9\u503c\u90fd\u4e0d\u8d85\u8fc7 $1000$\u3002\n\n\u5982\u679c\u6ee1\u8db3\u6761\u4ef6\u7684\u8868\u683c\u6709\u591a\u79cd\uff0c\u4f60\u53ef\u4ee5\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u7b2c\u4e00\u884c\u7684\u5143\u7d20\u4e4b\u548c\u662f $1+3=4$\uff0c\u7b2c\u4e8c\u884c\u662f $3+1=4$\uff0c\u7b2c\u4e00\u5217\u662f $1+3=4$\uff0c\u7b2c\u4e8c\u5217\u662f $3+1=4$\u3002\u5bf9\u4e8e\u8fd9\u4e2a\u6837\u4f8b\uff0c\u8fd8\u6709\u5176\u4ed6\u7f8e\u4e3d\u7684\u8868\u683c\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6bcf\u4e00\u884c\u548c\u6bcf\u4e00\u5217\u7684\u5143\u7d20\u4e4b\u548c\u90fd\u662f $7$\u3002\u6b64\u5916\uff0c\u4e5f\u53ef\u4ee5\u6784\u9020\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\u7684\u5176\u4ed6\u8868\u683c\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF361A Levko and Table","type":2,"slug":"CF361A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.722312,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF361A Levko and Table","description":"Levko \u975e\u5e38\u559c\u6b22\u7531 n \u884c n \u5217\u7ec4\u6210\u7684\u8868\u683c\u3002\u4ed6\u5c24\u5176\u559c\u6b22\u7f8e\u4e3d\u7684\u8868\u683c\u3002\u5bf9 Levko \u6765\u8bf4\uff0c\u5982\u679c\u4e00\u4e2a\u8868\u683c\u7684\u6bcf\u4e00\u884c\u548c\u6bcf\u4e00\u5217\u7684\u5143\u7d20\u4e4b\u548c\u90fd\u7b49\u4e8e k\uff0c\u90a3\u4e48\u8fd9\u4e2a\u8868\u683c\u5c31\u662f\u7f8e\u4e3d\u7684\u3002\n\u4e0d\u5e78\u7684\u662f\uff0c\u4ed6\u81ea\u5df1\u8fd8\u4e0d\u4f1a\u6784\u9020\u8fd9\u6837\u7684\u8868\u683c\u3002\u4f60\u7684\u4efb\u52a1\u662f\u5e2e\u52a9\u4ed6\u81f3\u5c11\u627e\u51fa\u4e00\u4e2a\u6ee1\u8db3\u6761\u4ef6\u7684\u8868\u683c\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF361A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF361A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF361A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF361A Levko and Table" />
+    <meta property="og:description" content="Levko 非常喜欢由 n 行 n 列组成的表格。他尤其喜欢美丽的表格。对 Levko 来说，如果一个表格的每一行和每一列的元素之和都等于 k，那么这个表格就是美丽的。
+不幸的是，他自己还不会构造这样的表格。你的任务是帮助他至少找出一个满足条件的表格。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF361A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF361A Levko and Table</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Levko 非常喜欢由 $n$ 行 $n$ 列组成的表格。他尤其喜欢美丽的表格。对 Levko 来说，如果一个表格的每一行和每一列的元素之和都等于 $k$，那么这个表格就是美丽的。
+
+不幸的是，他自己还不会构造这样的表格。你的任务是帮助他至少找出一个满足条件的表格。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行，包含两个整数 $n$ 和 $k$，满足 $1 \leq n \leq 100$，$1 \leq k \leq 1000$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出任意一个美丽的表格。Levko 不喜欢太大的数字，因此表格中所有元素的绝对值都不超过 $1000$。
+
+如果满足条件的表格有多种，你可以输出任意一个。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，第一行的元素之和是 $1+3=4$，第二行是 $3+1=4$，第一列是 $1+3=4$，第二列是 $3+1=4$。对于这个样例，还有其他美丽的表格。
+
+在第二个样例中，每一行和每一列的元素之和都是 $7$。此外，也可以构造满足题目要求的其他表格。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "seed_urls": [
+    "https://chaspark.com",
+    "https://www.chaspark.com"
+  ],
+  "visited": 0,
+  "errors": [
+    {
+      "url": "https://www.chaspark.com/chasiwu/v1/content/puzzle/list?current=1&size=200",
+      "error": "HTTP Error 403: "
+    },
+    {
+      "url": "https://www.chaspark.com/chasiwu/v1/question/challenge-list?current=1&size=200",
+      "error": "HTTP Error 403: "
+    },
+    {
+      "url": "https://www.chaspark.com/chasiwu/v1/content/races/question/list?current=1&size=200",
+      "error": "HTTP Error 403: "
+    }
+  ],
+  "items": 6
+}

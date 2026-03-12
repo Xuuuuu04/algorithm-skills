@@ -1,0 +1,27 @@
+{
+  "id": "CF-425E",
+  "contest_id": 425,
+  "index": "E",
+  "name": "Sereja and Sets",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 787,
+  "problem_url": "https://codeforces.com/problemset/problem/425/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/425/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/425/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=425E%20Sereja%20and%20Sets%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/425/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 425E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1337B",
+  "contest_id": 1337,
+  "index": "B",
+  "name": "Kana and Dragon Quest game",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 36669,
+  "problem_url": "https://codeforces.com/problemset/problem/1337/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1337/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1337/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1337B%20Kana%20and%20Dragon%20Quest%20game%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1337B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1337B Kana and Dragon Quest game - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 268,
+    "mirror_attempt": 438,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

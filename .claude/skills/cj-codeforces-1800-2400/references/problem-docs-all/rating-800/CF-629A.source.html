@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF629A Far Relative’s Birthday Cake - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF629A","type":"CF","title":"Far Relative\u2019s Birthday Cake","difficulty":1,"tags":[111,127],"wantsTranslation":false,"totalSubmit":2069,"totalAccepted":968,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Far Relative\u2019s Birthday Cake","background":"","description":"\u591a\u5c14\u7684\u5bb6\u4eba\u6b63\u5728\u5e86\u795d\u591a\u5c14\u7684\u751f\u65e5\u6d3e\u5bf9\u3002\u4ed6\u4eec\u7231\u591a\u5c14\uff0c\u6240\u4ee5\u4ed6\u4eec\u8ba1\u5212\u8ba9\u4ed6\u7684\u751f\u65e5\u86cb\u7cd5\u53d8\u5f97\u4e0d\u53ef\u601d\u8bae\u7684\uff01\n\n\u86cb\u7cd5\u662f\u4e00\u4e2a\u7531n\u00d7n\u7684\u7b49\u8fb9\u6b63\u65b9\u5f62\u7ec4\u6210\u7684\u5f62\u72b6\uff0c\u957f\u5ea6\u4e3a1\u3002\u6bcf\u4e2a\u65b9\u5757\u8981\u4e48\u662f\u7a7a\u7684\uff0c\u8981\u4e48\u662f\u7531\u4e00\u4e2a\u5de7\u514b\u529b\u7ec4\u6210\u7684\u3002\u4ed6\u4eec\u4e70\u4e86\u86cb\u7cd5\uff0c\u4fbf\u5f00\u59cb\u628a\u5de7\u514b\u529b\u653e\u5728\u86cb\u7cd5\u4e0a\u3002\u201c\u5bb6\u5ead\u4e4b\u95e8\u201d\u7684\u5e78\u798f\u503c\u7b49\u4e8e\u86cb\u7cd5\u4e2d\u540c\u4e00\u884c\u6216\u540c\u4e00\u5217\u4e2d\u88c5\u6709\u5de7\u514b\u529b\u7684\u4e00\u5bf9\u7ec6\u80de\u7684\u6570\u91cf\u3002\u591a\u5c14\u7684\u5bb6\u4eba\u60f3\u77e5\u9053\u4ed6\u4eec\u7684\u5e78\u798f\u7a0b\u5ea6\u662f\u591a\u5c11\uff1f","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e00\u4e2a\u6574\u6570n\uff081\u003C=n\u003C=100)\uff0c\u8868\u793a\u86cb\u7cd5\u8fb9\u7684\u957f\u5ea6\u3002\u7136\u540e\u8f93\u5165n\u884c\u6570\uff0c\u6bcf\u884c\u6709n\u4e2a\u5b57\u7b26\u3002\u7a7a\u7684\u7ec6\u80de\u7528\u0027.\u0027\u8868\u793a\uff0c\u800c\u542b\u6709\u5de7\u514b\u529b\u7684\u7ec6\u80de\u7528\u201cC\u201d\u8868\u793a\u3002","formatO":"\u8f93\u51fa\u201c\u5bb6\u5ead\u4e4b\u95e8\u201d\u5e78\u798f\u611f\u7684\u4ef7\u503c\uff0c\u5373\u540c\u4e00\u884c\u6216\u540c\u4e00\u5217\u7684\u4e00\u5bf9\u5de7\u514b\u529b\u7247\u7684\u6570\u91cf\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Far Relative\u2019s Birthday Cake","background":"","description":"Door\u0027s family is going celebrate Famil Doors\u0027s birthday party. They love Famil Door so they are planning to make his birthday cake weird!\n\nThe cake is a $ n\u00d7n $ square consisting of equal squares with side length $ 1 $ . Each square is either empty or consists of a single chocolate. They bought the cake and randomly started to put the chocolates on the cake. The value of Famil Door\u0027s happiness will be equal to the number of pairs of cells with chocolates that are in the same row or in the same column of the cake. Famil Doors\u0027s family is wondering what is the amount of happiness of Famil going to be?\n\nPlease, note that any pair can be counted no more than once, as two different cells can\u0027t share both the same row and the same column.","formatI":"In the first line of the input, you are given a single integer $ n $ ( $ 1\u003C=n\u003C=100 $ ) \u2014 the length of the side of the cake.\n\nThen follow $ n $ lines, each containing $ n $ characters. Empty cells are denoted with \u0027.\u0027, while cells that contain chocolates are denoted by \u0027C\u0027.","formatO":"Print the value of Famil Door\u0027s happiness, i.e. the number of pairs of chocolate pieces that share the same row or the same column.","hint":"If we number rows from top to bottom and columns from left to right, then, pieces that share the same row in the first sample are:\n\n1. $ (1,2) $ and $ (1,3) $\n2. $ (3,1) $ and $ (3,3) $\n\n Pieces that share the same column are: 1. $ (2,1) $ and $ (3,1) $\n2. $ (1,3) $ and $ (3,3) $","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n.CC\nC..\nC.C\n","4\n"],["4\nCC..\nC..C\n.CC.\n.CC.\n","9\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"629A","link":"https:\/\/codeforces.com\/problemset\/problem\/629\/A"},"translation":"\u9898\u76ee\u63cf\u8ff0\n\n\u591a\u5c14\u7684\u5bb6\u4eba\u6b63\u5728\u5e86\u795d\u591a\u5c14\u7684\u751f\u65e5\u6d3e\u5bf9\u3002\u4ed6\u4eec\u7231\u591a\u5c14\uff0c\u6240\u4ee5\u4ed6\u4eec\u8ba1\u5212\u8ba9\u4ed6\u7684\u751f\u65e5\u86cb\u7cd5\u53d8\u5f97\u4e0d\u53ef\u601d\u8bae\u7684\uff01\n\n\u86cb\u7cd5\u662f\u4e00\u4e2a\u7531n\u00d7n\u7684\u7b49\u8fb9\u6b63\u65b9\u5f62\u7ec4\u6210\u7684\u5f62\u72b6\uff0c\u957f\u5ea6\u4e3a1\u3002\u6bcf\u4e2a\u65b9\u5757\u8981\u4e48\u662f\u7a7a\u7684\uff0c\u8981\u4e48\u662f\u7531\u4e00\u4e2a\u5de7\u514b\u529b\u7ec4\u6210\u7684\u3002\u4ed6\u4eec\u4e70\u4e86\u86cb\u7cd5\uff0c\u4fbf\u5f00\u59cb\u628a\u5de7\u514b\u529b\u653e\u5728\u86cb\u7cd5\u4e0a\u3002\u201c\u5bb6\u5ead\u4e4b\u95e8\u201d\u7684\u5e78\u798f\u503c\u7b49\u4e8e\u86cb\u7cd5\u4e2d\u540c\u4e00\u884c\u6216\u540c\u4e00\u5217\u4e2d\u88c5\u6709\u5de7\u514b\u529b\u7684\u4e00\u5bf9\u7ec6\u80de\u7684\u6570\u91cf\u3002\u591a\u5c14\u7684\u5bb6\u4eba\u60f3\u77e5\u9053\u4ed6\u4eec\u7684\u5e78\u798f\u7a0b\u5ea6\u662f\u591a\u5c11\uff1f\n\n\u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n\n\u8f93\u5165\u683c\u5f0f\uff1a\n\n\u7b2c\u4e00\u884c\u8f93\u5165\u4e00\u4e2a\u6574\u6570n\uff081\u003C=n\u003C=100)\uff0c\u8868\u793a\u86cb\u7cd5\u8fb9\u7684\u957f\u5ea6\u3002\u7136\u540e\u8f93\u5165n\u884c\u6570\uff0c\u6bcf\u884c\u6709n\u4e2a\u5b57\u7b26\u3002\u7a7a\u7684\u7ec6\u80de\u7528\u0027.\u0027\u8868\u793a\uff0c\u800c\u542b\u6709\u5de7\u514b\u529b\u7684\u7ec6\u80de\u7528\u201cC\u201d\u8868\u793a\u3002\n\n\u8f93\u51fa\u683c\u5f0f\uff1a\n\n\u8f93\u51fa\u201c\u5bb6\u5ead\u4e4b\u95e8\u201d\u5e78\u798f\u611f\u7684\u4ef7\u503c\uff0c\u5373\u540c\u4e00\u884c\u6216\u540c\u4e00\u5217\u7684\u4e00\u5bf9\u5de7\u514b\u529b\u7247\u7684\u6570\u91cf\u3002"},"translations":{"en":{"name":"Far Relative\u2019s Birthday Cake","background":"","description":"Door\u0027s family is going celebrate Famil Doors\u0027s birthday party. They love Famil Door so they are planning to make his birthday cake weird!\n\nThe cake is a $ n\u00d7n $ square consisting of equal squares with side length $ 1 $ . Each square is either empty or consists of a single chocolate. They bought the cake and randomly started to put the chocolates on the cake. The value of Famil Door\u0027s happiness will be equal to the number of pairs of cells with chocolates that are in the same row or in the same column of the cake. Famil Doors\u0027s family is wondering what is the amount of happiness of Famil going to be?\n\nPlease, note that any pair can be counted no more than once, as two different cells can\u0027t share both the same row and the same column.","formatI":"In the first line of the input, you are given a single integer $ n $ ( $ 1\u003C=n\u003C=100 $ ) \u2014 the length of the side of the cake.\n\nThen follow $ n $ lines, each containing $ n $ characters. Empty cells are denoted with \u0027.\u0027, while cells that contain chocolates are denoted by \u0027C\u0027.","formatO":"Print the value of Famil Door\u0027s happiness, i.e. the number of pairs of chocolate pieces that share the same row or the same column.","hint":"If we number rows from top to bottom and columns from left to right, then, pieces that share the same row in the first sample are:\n\n1. $ (1,2) $ and $ (1,3) $\n2. $ (3,1) $ and $ (3,3) $\n\n Pieces that share the same column are: 1. $ (2,1) $ and $ (3,1) $\n2. $ (1,3) $ and $ (3,3) $","locale":"en"},"zh-CN":{"name":"Far Relative\u2019s Birthday Cake","background":"","description":"\u591a\u5c14\u7684\u5bb6\u4eba\u6b63\u5728\u5e86\u795d\u591a\u5c14\u7684\u751f\u65e5\u6d3e\u5bf9\u3002\u4ed6\u4eec\u7231\u591a\u5c14\uff0c\u6240\u4ee5\u4ed6\u4eec\u8ba1\u5212\u8ba9\u4ed6\u7684\u751f\u65e5\u86cb\u7cd5\u53d8\u5f97\u4e0d\u53ef\u601d\u8bae\u7684\uff01\n\n\u86cb\u7cd5\u662f\u4e00\u4e2a\u7531n\u00d7n\u7684\u7b49\u8fb9\u6b63\u65b9\u5f62\u7ec4\u6210\u7684\u5f62\u72b6\uff0c\u957f\u5ea6\u4e3a1\u3002\u6bcf\u4e2a\u65b9\u5757\u8981\u4e48\u662f\u7a7a\u7684\uff0c\u8981\u4e48\u662f\u7531\u4e00\u4e2a\u5de7\u514b\u529b\u7ec4\u6210\u7684\u3002\u4ed6\u4eec\u4e70\u4e86\u86cb\u7cd5\uff0c\u4fbf\u5f00\u59cb\u628a\u5de7\u514b\u529b\u653e\u5728\u86cb\u7cd5\u4e0a\u3002\u201c\u5bb6\u5ead\u4e4b\u95e8\u201d\u7684\u5e78\u798f\u503c\u7b49\u4e8e\u86cb\u7cd5\u4e2d\u540c\u4e00\u884c\u6216\u540c\u4e00\u5217\u4e2d\u88c5\u6709\u5de7\u514b\u529b\u7684\u4e00\u5bf9\u7ec6\u80de\u7684\u6570\u91cf\u3002\u591a\u5c14\u7684\u5bb6\u4eba\u60f3\u77e5\u9053\u4ed6\u4eec\u7684\u5e78\u798f\u7a0b\u5ea6\u662f\u591a\u5c11\uff1f","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e00\u4e2a\u6574\u6570n\uff081\u003C=n\u003C=100)\uff0c\u8868\u793a\u86cb\u7cd5\u8fb9\u7684\u957f\u5ea6\u3002\u7136\u540e\u8f93\u5165n\u884c\u6570\uff0c\u6bcf\u884c\u6709n\u4e2a\u5b57\u7b26\u3002\u7a7a\u7684\u7ec6\u80de\u7528\u0027.\u0027\u8868\u793a\uff0c\u800c\u542b\u6709\u5de7\u514b\u529b\u7684\u7ec6\u80de\u7528\u201cC\u201d\u8868\u793a\u3002","formatO":"\u8f93\u51fa\u201c\u5bb6\u5ead\u4e4b\u95e8\u201d\u5e78\u798f\u611f\u7684\u4ef7\u503c\uff0c\u5373\u540c\u4e00\u884c\u6216\u540c\u4e00\u5217\u7684\u4e00\u5bf9\u5de7\u514b\u529b\u7247\u7684\u6570\u91cf\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF629A Far Relative\u2019s Birthday Cake","type":2,"slug":"CF629A","color":"orange-3"},"discussions":[{"id":167403,"title":"\u8fd9\u9053\u9898\u76ee\u610f\u601d\u6ca1\u8868\u8fbe\u6e05\u695a\u554a\u3002\u3002\u3002","author":{"uid":250679,"avatar":"https:\/\/cdn.luogu.com.cn\/images\/banned.png","name":"\u5c01\u7981\u7528\u6237","slogan":null,"badge":null,"isAdmin":false,"isBanned":true,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":null},"time":1573561757},{"id":47939,"title":"\u7ffb\u8bd1\uff08\u5927\u610f\uff09","author":{"uid":41781,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/41781.png","name":"bztMinamoto","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1531028850}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.704874,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF629A Far Relative\u2019s Birthday Cake","description":"\u591a\u5c14\u7684\u5bb6\u4eba\u6b63\u5728\u5e86\u795d\u591a\u5c14\u7684\u751f\u65e5\u6d3e\u5bf9\u3002\u4ed6\u4eec\u7231\u591a\u5c14\uff0c\u6240\u4ee5\u4ed6\u4eec\u8ba1\u5212\u8ba9\u4ed6\u7684\u751f\u65e5\u86cb\u7cd5\u53d8\u5f97\u4e0d\u53ef\u601d\u8bae\u7684\uff01\n\u86cb\u7cd5\u662f\u4e00\u4e2a\u7531n\u00d7n\u7684\u7b49\u8fb9\u6b63\u65b9\u5f62\u7ec4\u6210\u7684\u5f62\u72b6\uff0c\u957f\u5ea6\u4e3a1\u3002\u6bcf\u4e2a\u65b9\u5757\u8981\u4e48\u662f\u7a7a\u7684\uff0c\u8981\u4e48\u662f\u7531\u4e00\u4e2a\u5de7\u514b\u529b\u7ec4\u6210\u7684\u3002\u4ed6\u4eec\u4e70\u4e86\u86cb\u7cd5\uff0c\u4fbf\u5f00\u59cb\u628a\u5de7\u514b\u529b\u653e\u5728\u86cb\u7cd5\u4e0a\u3002\u201c\u5bb6\u5ead\u4e4b\u95e8\u201d\u7684\u5e78\u798f\u503c\u7b49\u4e8e\u86cb\u7cd5\u4e2d\u540c\u4e00\u884c\u6216\u540c\u4e00\u5217\u4e2d\u88c5\u6709\u5de7\u514b\u529b\u7684\u4e00\u5bf9\u7ec6\u80de\u7684\u6570\u91cf\u3002\u591a\u5c14\u7684\u5bb6\u4eba\u60f3\u77e5\u9053\u4ed6\u4eec\u7684\u5e78\u798f\u7a0b\u5ea6\u662f\u591a\u5c11\uff1f"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF629A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF629A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF629A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF629A Far Relative’s Birthday Cake" />
+    <meta property="og:description" content="多尔的家人正在庆祝多尔的生日派对。他们爱多尔，所以他们计划让他的生日蛋糕变得不可思议的！
+蛋糕是一个由n×n的等边正方形组成的形状，长度为1。每个方块要么是空的，要么是由一个巧克力组成的。他们买了蛋糕，便开始把巧克力放在蛋糕上。“家庭之门”的幸福值等于蛋糕中同一行或同一列中装有巧克力的一对细胞的数量。多尔的家人想知道他们的幸福程度是多少？" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF629A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF629A Far Relative’s Birthday Cake</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    多尔的家人正在庆祝多尔的生日派对。他们爱多尔，所以他们计划让他的生日蛋糕变得不可思议的！
+
+蛋糕是一个由n×n的等边正方形组成的形状，长度为1。每个方块要么是空的，要么是由一个巧克力组成的。他们买了蛋糕，便开始把巧克力放在蛋糕上。“家庭之门”的幸福值等于蛋糕中同一行或同一列中装有巧克力的一对细胞的数量。多尔的家人想知道他们的幸福程度是多少？
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行输入一个整数n（1
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出“家庭之门”幸福感的价值，即同一行或同一列的一对巧克力片的数量。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                If we number rows from top to bottom and columns from left to right, then, pieces that share the same row in the first sample are:
+
+1. $ (1,2) $ and $ (1,3) $
+2. $ (3,1) $ and $ (3,3) $
+
+ Pieces that share the same column are: 1. $ (2,1) $ and $ (3,1) $
+2. $ (1,3) $ and $ (3,3) $
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

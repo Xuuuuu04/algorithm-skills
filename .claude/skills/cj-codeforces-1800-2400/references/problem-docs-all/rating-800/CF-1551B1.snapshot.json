@@ -1,0 +1,28 @@
+{
+  "id": "CF-1551B1",
+  "contest_id": 1551,
+  "index": "B1",
+  "name": "Wonderful Coloring - 1",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 31160,
+  "problem_url": "https://codeforces.com/problemset/problem/1551/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1551/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1551/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1551B1%20Wonderful%20Coloring%20-%201%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1551B1",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1551B1 Wonderful Coloring - 1 - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 331,
+    "mirror_attempt": 515,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1384B2",
+  "contest_id": 1384,
+  "index": "B2",
+  "name": "Koa and the Beach (Hard Version)",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 2580,
+  "problem_url": "https://codeforces.com/problemset/problem/1384/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1384/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1384/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1384B2%20Koa%20and%20the%20Beach%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1384B2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Koa and the Beach (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

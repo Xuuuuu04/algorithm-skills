@@ -1,0 +1,34 @@
+{
+  "id": "CF-19E",
+  "contest_id": 19,
+  "index": "E",
+  "name": "Fairy",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "divide and conquer",
+    "dsu"
+  ],
+  "solved_count": 2464,
+  "problem_url": "https://codeforces.com/problemset/problem/19/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/19/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/19/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=19E%20Fairy%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P19E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Fairy - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "divide and conquer",
+      "dsu",
+      "*2900"
+    ],
+    "mirror_accepted": 3,
+    "mirror_attempt": 4,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

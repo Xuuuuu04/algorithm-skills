@@ -1,0 +1,40 @@
+{
+  "id": "CF-1603C",
+  "contest_id": 1603,
+  "index": "C",
+  "name": "Extreme Extension",
+  "rating": 2300,
+  "tags": [
+    "dp",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1603/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1603/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1603/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1603C%20Extreme Extension%20tutorial",
+  "solved_count": 2236,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1603C",
+  "hydro_meta": {
+    "page_title": "Extreme Extension - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 2,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

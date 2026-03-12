@@ -1,0 +1,38 @@
+{
+  "id": "CF-896B",
+  "contest_id": 896,
+  "index": "B",
+  "name": "Ithea Plays With Chtholly",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "games",
+    "greedy",
+    "interactive"
+  ],
+  "solved_count": 2289,
+  "problem_url": "https://codeforces.com/problemset/problem/896/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/896/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/896/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=896B%20Ithea%20Plays%20With%20Chtholly%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P896B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ithea Plays With Chtholly - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "constructive algorithms",
+      "games",
+      "greedy",
+      "interactive",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

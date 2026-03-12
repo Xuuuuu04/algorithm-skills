@@ -1,0 +1,30 @@
+{
+  "id": "CF-1618A",
+  "contest_id": 1618,
+  "index": "A",
+  "name": "Polycarp and Sums of Subsequences",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "sortings"
+  ],
+  "solved_count": 34178,
+  "problem_url": "https://codeforces.com/problemset/problem/1618/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1618/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1618/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1618A%20Polycarp%20and%20Sums%20of%20Subsequences%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1618A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Polycarp and Sums of Subsequences - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

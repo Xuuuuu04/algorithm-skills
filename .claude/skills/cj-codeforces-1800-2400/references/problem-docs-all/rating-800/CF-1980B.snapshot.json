@@ -1,0 +1,30 @@
+{
+  "id": "CF-1980B",
+  "contest_id": 1980,
+  "index": "B",
+  "name": "Choosing Cubes",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "sortings"
+  ],
+  "solved_count": 38202,
+  "problem_url": "https://codeforces.com/problemset/problem/1980/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1980/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1980/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1980B%20Choosing%20Cubes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1980B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Choosing Cubes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "sortings",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

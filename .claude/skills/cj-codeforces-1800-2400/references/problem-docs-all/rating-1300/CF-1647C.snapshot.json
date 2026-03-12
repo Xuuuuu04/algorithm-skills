@@ -1,0 +1,28 @@
+{
+  "id": "CF-1647C",
+  "contest_id": 1647,
+  "index": "C",
+  "name": "Madoka and Childish Pranks",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 13297,
+  "problem_url": "https://codeforces.com/problemset/problem/1647/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1647/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1647/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1647C%20Madoka%20and%20Childish%20Pranks%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1647/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1647C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

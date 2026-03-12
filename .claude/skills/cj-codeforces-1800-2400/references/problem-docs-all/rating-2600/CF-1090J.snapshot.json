@@ -1,0 +1,30 @@
+{
+  "id": "CF-1090J",
+  "contest_id": 1090,
+  "index": "J",
+  "name": "Two Prefixes",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 580,
+  "problem_url": "https://codeforces.com/problemset/problem/1090/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/1090/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1090/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1090J%20Two%20Prefixes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1090J",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Prefixes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "strings",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

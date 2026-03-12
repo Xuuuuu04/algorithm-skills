@@ -1,0 +1,41 @@
+{
+  "id": "CF-1801C",
+  "contest_id": 1801,
+  "index": "C",
+  "name": "Music Festival",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1801/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1801/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1801/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1801C%20Music Festival%20tutorial",
+  "solved_count": 4034,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1801C",
+  "hydro_meta": {
+    "page_title": "Music Festival - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "sortings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

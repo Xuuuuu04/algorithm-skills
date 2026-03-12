@@ -1,0 +1,34 @@
+{
+  "id": "CF-526C",
+  "contest_id": 526,
+  "index": "C",
+  "name": "Om Nom and Candies",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 2629,
+  "problem_url": "https://codeforces.com/problemset/problem/526/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/526/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/526/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=526C%20Om%20Nom%20and%20Candies%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P526C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Om Nom and Candies - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*2000"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

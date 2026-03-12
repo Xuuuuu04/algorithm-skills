@@ -1,0 +1,33 @@
+{
+  "id": "CF-1560E",
+  "contest_id": 1560,
+  "index": "E",
+  "name": "Polycarp and String Transformation",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "implementation",
+    "sortings",
+    "strings"
+  ],
+  "solved_count": 8710,
+  "problem_url": "https://codeforces.com/problemset/problem/1560/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1560/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1560/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1560E%20Polycarp%20and%20String%20Transformation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1560E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Polycarp and String Transformation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "sortings",
+      "strings"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 3,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

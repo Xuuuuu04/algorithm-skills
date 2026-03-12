@@ -1,0 +1,28 @@
+{
+  "id": "CF-1790B",
+  "contest_id": 1790,
+  "index": "B",
+  "name": "Taisia and Dice",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 28847,
+  "problem_url": "https://codeforces.com/problemset/problem/1790/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1790/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1790/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1790B%20Taisia%20and%20Dice%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1790B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1790B Taisia and Dice - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 280,
+    "mirror_attempt": 416,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

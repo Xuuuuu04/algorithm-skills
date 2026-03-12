@@ -1,0 +1,31 @@
+{
+  "id": "CF-2203B",
+  "contest_id": 2203,
+  "index": "B",
+  "name": "Beautiful Numbers",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "fft",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 12570,
+  "problem_url": "https://codeforces.com/problemset/problem/2203/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2203/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2203/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2203B%20Beautiful%20Numbers%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2203B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2203B Beautiful Nmubers - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

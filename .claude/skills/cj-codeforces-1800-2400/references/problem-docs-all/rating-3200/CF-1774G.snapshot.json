@@ -1,0 +1,39 @@
+{
+  "id": "CF-1774G",
+  "contest_id": 1774,
+  "index": "G",
+  "name": "Segment Covering",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "constructive algorithms",
+    "data structures",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 590,
+  "problem_url": "https://codeforces.com/problemset/problem/1774/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1774/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1774/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1774G%20Segment%20Covering%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1774G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Segment Covering - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "combinatorics",
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "trees"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

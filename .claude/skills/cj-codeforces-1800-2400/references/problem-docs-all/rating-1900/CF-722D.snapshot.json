@@ -1,0 +1,40 @@
+{
+  "id": "CF-722D",
+  "contest_id": 722,
+  "index": "D",
+  "name": "Generating Sets",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dfs and similar",
+    "greedy",
+    "strings",
+    "trees"
+  ],
+  "solved_count": 3334,
+  "problem_url": "https://codeforces.com/problemset/problem/722/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/722/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/722/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=722D%20Generating%20Sets%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P722D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Generating Sets - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "greedy",
+      "strings",
+      "trees",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

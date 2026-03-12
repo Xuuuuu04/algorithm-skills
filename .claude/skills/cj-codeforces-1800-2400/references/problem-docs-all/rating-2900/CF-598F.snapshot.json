@@ -1,0 +1,30 @@
+{
+  "id": "CF-598F",
+  "contest_id": 598,
+  "index": "F",
+  "name": "Cut Length",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "geometry"
+  ],
+  "solved_count": 443,
+  "problem_url": "https://codeforces.com/problemset/problem/598/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/598/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/598/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=598F%20Cut%20Length%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P598F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cut Length - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

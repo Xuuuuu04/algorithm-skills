@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417190:u6SQtRFFsqMJGuZseV8Bl8vnMoGRm9x7OxAvmk2JA1M=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF451A Game With Sticks - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF451A","type":"CF","title":"Game With Sticks","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":392,"totalAccepted":219,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Game With Sticks","background":null,"description":"\u5728 IOI 2014 \u4e0a\u83b7\u5f97\u91d1\u724c\u548c\u94f6\u724c\u540e\uff0cAkshat \u4e0e Malvika \u60f3\u8981\u5a31\u4e50\u4e00\u4e0b\u3002\u73b0\u5728\u4ed6\u4eec\u6b63\u5728\u4e00\u5f20\u7531 $n$ \u6839\u6c34\u5e73\u6728\u68cd\u548c $m$ \u6839\u7ad6\u76f4\u6728\u68cd\u7ec4\u6210\u7684\u7f51\u683c\u4e0a\u73a9\u6e38\u620f\u3002\n\n\u4ea4\u70b9\u662f\u6307\u7531\u4e00\u6839\u6c34\u5e73\u6728\u68cd\u548c\u4e00\u6839\u7ad6\u76f4\u6728\u68cd\u4ea4\u6c47\u800c\u6210\u7684\u70b9\u3002\n\n\u5728\u4e0b\u56fe\u6240\u793a\u7684\u7f51\u683c\u4e2d\uff0c$n=3$\uff0c$m=3$\u3002\u603b\u5171\u6709 $n + m = 6$ \u6839\u6728\u68cd\uff08\u7ea2\u8272\u4e3a\u6c34\u5e73\u6728\u68cd\uff0c\u7eff\u8272\u4e3a\u7ad6\u76f4\u6728\u68cd\uff09\u3002\u5171\u6709 $n \\cdot m = 9$ \u4e2a\u4ea4\u70b9\uff0c\u7f16\u53f7\u4ece $1$ \u5230 $9$\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/18b27511f71a42f9e0fd0b22af6d5248021325d7.png)\n\n\u6e38\u620f\u7684\u89c4\u5219\u975e\u5e38\u7b80\u5355\u3002\u4e24\u540d\u73a9\u5bb6\u8f6e\u6d41\u884c\u52a8\u3002Akshat \u83b7\u5f97\u91d1\u724c\uff0c\u56e0\u6b64\u7531\u4ed6\u5148\u624b\u3002\u5728\u4ed6\u7684\u56de\u5408\uff0c\u73a9\u5bb6\u5fc5\u987b\u9009\u62e9\u4efb\u610f\u4e00\u4e2a\u5c1a\u672a\u88ab\u79fb\u9664\u7684\u4ea4\u70b9\uff0c\u5e76\u4ece\u7f51\u683c\u4e0a\u79fb\u9664\u6240\u6709\u7ecf\u8fc7\u8be5\u70b9\u7684\u6728\u68cd\u3002\u82e5\u5728\u67d0\u540d\u73a9\u5bb6\u7684\u56de\u5408\u4e2d\uff0c\u4ed6\u65e0\u6cd5\u9009\u62e9\u4efb\u4f55\u4ea4\u70b9\uff08\u5373\u7f51\u683c\u4e0a\u5df2\u65e0\u4ea4\u70b9\uff09\uff0c\u5219\u8be5\u73a9\u5bb6\u8f93\u6389\u6e38\u620f\u3002\n\n\u5047\u8bbe\u4e24\u4f4d\u73a9\u5bb6\u90fd\u91c7\u53d6\u6700\u4f18\u7b56\u7565\u3002\u8bf7\u4f60\u5224\u65ad\u8c01\u5c06\u4f1a\u83b7\u80dc\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u4e3a\u4e24\u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570 $n$ \u548c $m$\uff08$1 \\leq n, m \\leq 100$\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u884c\uff0c\u5185\u5bb9\u4e3a \u0022Akshat\u0022 \u6216 \u0022Malvika\u0022\uff08\u4e0d\u542b\u5f15\u53f7\uff09\uff0c\u8868\u793a\u8be5\u6e38\u620f\u7684\u83b7\u80dc\u8005\u3002","hint":"\u6837\u4f8b\u4e00\u7684\u89e3\u91ca\uff1a\n\n\u7f51\u683c\u4e0a\u6709 $4$ \u4e2a\u4ea4\u70b9\uff0c\u7f16\u53f7\u4e3a $1$ \u81f3 $4$\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/e0d83475f64b355b0a9b5538e74aa373b38a9909.png)\n\n\u5982\u679c Akshat \u9009\u62e9\u4ea4\u70b9 $1$\uff0c\u90a3\u4e48\u4ed6\u4f1a\u79fb\u9664\u4e24\u6839\u6728\u68cd\uff08$1-2$ \u548c $1-3$\uff09\u3002\u6b64\u65f6\u7f51\u683c\u5982\u4e0b\u6240\u793a\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/c9bd491d9b8dd9c48045e00c65ed3725174a35a0.png)\n\n\u73b0\u5728\u53ea\u5269\u4e0b\u4e00\u4e2a\u4ea4\u70b9\uff08\u5373 $4$\uff09\u3002Malvika \u5fc5\u987b\u9009\u62e9\u8be5\u4ea4\u70b9\u5e76\u79fb\u9664\u4ec5\u5269\u7684\u4e24\u6839\u6728\u68cd\u3002\u5979\u8d70\u5b8c\u540e\uff0c\u7f51\u683c\u5c06\u53d8\u4e3a\u7a7a\u3002\n\n\u5728\u7a7a\u7f51\u683c\u4e0a\uff0cAkshat \u65e0\u6cd5\u7ee7\u7eed\u884c\u52a8\uff0c\u56e0\u6b64\u4ed6\u8f93\u6389\u6bd4\u8d5b\u3002\n\n\u7531\u4e8e\u7f51\u683c\u4e0a\u7684\u6240\u6709 $4$ \u4e2a\u4ea4\u70b9\u5b8c\u5168\u7b49\u4ef7\uff0c\u65e0\u8bba Akshat \u9009\u62e9\u54ea\u4e00\u4e2a\u4ea4\u70b9\uff0c\u4ed6\u90fd\u4f1a\u8f93\u6389\u6bd4\u8d5b\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Game With Sticks","background":"","description":"After winning gold and silver in IOI 2014, Akshat and Malvika want to have some fun. Now they are playing a game on a grid made of $ n $ horizontal and $ m $ vertical sticks.\n\nAn intersection point is any point on the grid which is formed by the intersection of one horizontal stick and one vertical stick.\n\nIn the grid shown below, $ n=3 $ and $ m=3 $ . There are $ n+m=6 $ sticks in total (horizontal sticks are shown in red and vertical sticks are shown in green). There are $ n\u00b7m=9 $ intersection points, numbered from $ 1 $ to $ 9 $ .\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/18b27511f71a42f9e0fd0b22af6d5248021325d7.png)The rules of the game are very simple. The players move in turns. Akshat won gold, so he makes the first move. During his\/her move, a player must choose any remaining intersection point and remove from the grid all sticks which pass through this point. A player will lose the game if he\/she cannot make a move (i.e. there are no intersection points remaining on the grid at his\/her move).\n\nAssume that both players play optimally. Who will win the game?","formatI":"The first line of input contains two space-separated integers, $ n $ and $ m $ ( $ 1\u003C=n,m\u003C=100 $ ).","formatO":"Print a single line containing \u0022Akshat\u0022 or \u0022Malvika\u0022 (without the quotes), depending on the winner of the game.","hint":"Explanation of the first sample:\n\nThe grid has four intersection points, numbered from $ 1 $ to $ 4 $ .\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/e0d83475f64b355b0a9b5538e74aa373b38a9909.png)If Akshat chooses intersection point $ 1 $ , then he will remove two sticks ( $ 1-2 $ and $ 1-3 $ ). The resulting grid will look like this.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/c9bd491d9b8dd9c48045e00c65ed3725174a35a0.png)Now there is only one remaining intersection point (i.e. $ 4 $ ). Malvika must choose it and remove both remaining sticks. After her move the grid will be empty.\n\nIn the empty grid, Akshat cannot make any move, hence he will lose.\n\nSince all $ 4 $ intersection points of the grid are equivalent, Akshat will lose no matter which one he picks.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2 2\n","Malvika\n"],["2 3\n","Malvika\n"],["3 3\n","Akshat\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"451A","link":"https:\/\/codeforces.com\/problemset\/problem\/451\/A"},"translation":"\u7ed9\u51fam\u6839\u6a2a\u68d2\uff0cn\u6839\u7ad6\u68d2\uff0c\u4ea4\u53c9\u6446\u51fan*m\u4e2a\u4ea4\u70b9\uff0c\u4e24\u4eba\u8f6e\u6d41\u6446\uff0c\u6bcf\u6b21\u9009\u4e00\u4e2a\u4ea4\u70b9\uff0c\u62ff\u8d70\u8fc7\u8fd9\u4e2a\u4ea4\u70b9\u7684\u4e24\u4e2a\u68d2\u3002\u6700\u540e\u6ca1\u5f97\u9009\u7684\u4eba\u8f93\u3002\u8f93\u51fa\u80dc\u8005\u3002"},"translations":{"en":{"name":"Game With Sticks","background":"","description":"After winning gold and silver in IOI 2014, Akshat and Malvika want to have some fun. Now they are playing a game on a grid made of $ n $ horizontal and $ m $ vertical sticks.\n\nAn intersection point is any point on the grid which is formed by the intersection of one horizontal stick and one vertical stick.\n\nIn the grid shown below, $ n=3 $ and $ m=3 $ . There are $ n+m=6 $ sticks in total (horizontal sticks are shown in red and vertical sticks are shown in green). There are $ n\u00b7m=9 $ intersection points, numbered from $ 1 $ to $ 9 $ .\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/18b27511f71a42f9e0fd0b22af6d5248021325d7.png)The rules of the game are very simple. The players move in turns. Akshat won gold, so he makes the first move. During his\/her move, a player must choose any remaining intersection point and remove from the grid all sticks which pass through this point. A player will lose the game if he\/she cannot make a move (i.e. there are no intersection points remaining on the grid at his\/her move).\n\nAssume that both players play optimally. Who will win the game?","formatI":"The first line of input contains two space-separated integers, $ n $ and $ m $ ( $ 1\u003C=n,m\u003C=100 $ ).","formatO":"Print a single line containing \u0022Akshat\u0022 or \u0022Malvika\u0022 (without the quotes), depending on the winner of the game.","hint":"Explanation of the first sample:\n\nThe grid has four intersection points, numbered from $ 1 $ to $ 4 $ .\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/e0d83475f64b355b0a9b5538e74aa373b38a9909.png)If Akshat chooses intersection point $ 1 $ , then he will remove two sticks ( $ 1-2 $ and $ 1-3 $ ). The resulting grid will look like this.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/c9bd491d9b8dd9c48045e00c65ed3725174a35a0.png)Now there is only one remaining intersection point (i.e. $ 4 $ ). Malvika must choose it and remove both remaining sticks. After her move the grid will be empty.\n\nIn the empty grid, Akshat cannot make any move, hence he will lose.\n\nSince all $ 4 $ intersection points of the grid are equivalent, Akshat will lose no matter which one he picks.","locale":"en"},"zh-CN":{"name":"Game With Sticks","background":null,"description":"\u5728 IOI 2014 \u4e0a\u83b7\u5f97\u91d1\u724c\u548c\u94f6\u724c\u540e\uff0cAkshat \u4e0e Malvika \u60f3\u8981\u5a31\u4e50\u4e00\u4e0b\u3002\u73b0\u5728\u4ed6\u4eec\u6b63\u5728\u4e00\u5f20\u7531 $n$ \u6839\u6c34\u5e73\u6728\u68cd\u548c $m$ \u6839\u7ad6\u76f4\u6728\u68cd\u7ec4\u6210\u7684\u7f51\u683c\u4e0a\u73a9\u6e38\u620f\u3002\n\n\u4ea4\u70b9\u662f\u6307\u7531\u4e00\u6839\u6c34\u5e73\u6728\u68cd\u548c\u4e00\u6839\u7ad6\u76f4\u6728\u68cd\u4ea4\u6c47\u800c\u6210\u7684\u70b9\u3002\n\n\u5728\u4e0b\u56fe\u6240\u793a\u7684\u7f51\u683c\u4e2d\uff0c$n=3$\uff0c$m=3$\u3002\u603b\u5171\u6709 $n + m = 6$ \u6839\u6728\u68cd\uff08\u7ea2\u8272\u4e3a\u6c34\u5e73\u6728\u68cd\uff0c\u7eff\u8272\u4e3a\u7ad6\u76f4\u6728\u68cd\uff09\u3002\u5171\u6709 $n \\cdot m = 9$ \u4e2a\u4ea4\u70b9\uff0c\u7f16\u53f7\u4ece $1$ \u5230 $9$\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/18b27511f71a42f9e0fd0b22af6d5248021325d7.png)\n\n\u6e38\u620f\u7684\u89c4\u5219\u975e\u5e38\u7b80\u5355\u3002\u4e24\u540d\u73a9\u5bb6\u8f6e\u6d41\u884c\u52a8\u3002Akshat \u83b7\u5f97\u91d1\u724c\uff0c\u56e0\u6b64\u7531\u4ed6\u5148\u624b\u3002\u5728\u4ed6\u7684\u56de\u5408\uff0c\u73a9\u5bb6\u5fc5\u987b\u9009\u62e9\u4efb\u610f\u4e00\u4e2a\u5c1a\u672a\u88ab\u79fb\u9664\u7684\u4ea4\u70b9\uff0c\u5e76\u4ece\u7f51\u683c\u4e0a\u79fb\u9664\u6240\u6709\u7ecf\u8fc7\u8be5\u70b9\u7684\u6728\u68cd\u3002\u82e5\u5728\u67d0\u540d\u73a9\u5bb6\u7684\u56de\u5408\u4e2d\uff0c\u4ed6\u65e0\u6cd5\u9009\u62e9\u4efb\u4f55\u4ea4\u70b9\uff08\u5373\u7f51\u683c\u4e0a\u5df2\u65e0\u4ea4\u70b9\uff09\uff0c\u5219\u8be5\u73a9\u5bb6\u8f93\u6389\u6e38\u620f\u3002\n\n\u5047\u8bbe\u4e24\u4f4d\u73a9\u5bb6\u90fd\u91c7\u53d6\u6700\u4f18\u7b56\u7565\u3002\u8bf7\u4f60\u5224\u65ad\u8c01\u5c06\u4f1a\u83b7\u80dc\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u4e3a\u4e24\u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570 $n$ \u548c $m$\uff08$1 \\leq n, m \\leq 100$\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u884c\uff0c\u5185\u5bb9\u4e3a \u0022Akshat\u0022 \u6216 \u0022Malvika\u0022\uff08\u4e0d\u542b\u5f15\u53f7\uff09\uff0c\u8868\u793a\u8be5\u6e38\u620f\u7684\u83b7\u80dc\u8005\u3002","hint":"\u6837\u4f8b\u4e00\u7684\u89e3\u91ca\uff1a\n\n\u7f51\u683c\u4e0a\u6709 $4$ \u4e2a\u4ea4\u70b9\uff0c\u7f16\u53f7\u4e3a $1$ \u81f3 $4$\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/e0d83475f64b355b0a9b5538e74aa373b38a9909.png)\n\n\u5982\u679c Akshat \u9009\u62e9\u4ea4\u70b9 $1$\uff0c\u90a3\u4e48\u4ed6\u4f1a\u79fb\u9664\u4e24\u6839\u6728\u68cd\uff08$1-2$ \u548c $1-3$\uff09\u3002\u6b64\u65f6\u7f51\u683c\u5982\u4e0b\u6240\u793a\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF451A\/c9bd491d9b8dd9c48045e00c65ed3725174a35a0.png)\n\n\u73b0\u5728\u53ea\u5269\u4e0b\u4e00\u4e2a\u4ea4\u70b9\uff08\u5373 $4$\uff09\u3002Malvika \u5fc5\u987b\u9009\u62e9\u8be5\u4ea4\u70b9\u5e76\u79fb\u9664\u4ec5\u5269\u7684\u4e24\u6839\u6728\u68cd\u3002\u5979\u8d70\u5b8c\u540e\uff0c\u7f51\u683c\u5c06\u53d8\u4e3a\u7a7a\u3002\n\n\u5728\u7a7a\u7f51\u683c\u4e0a\uff0cAkshat \u65e0\u6cd5\u7ee7\u7eed\u884c\u52a8\uff0c\u56e0\u6b64\u4ed6\u8f93\u6389\u6bd4\u8d5b\u3002\n\n\u7531\u4e8e\u7f51\u683c\u4e0a\u7684\u6240\u6709 $4$ \u4e2a\u4ea4\u70b9\u5b8c\u5168\u7b49\u4ef7\uff0c\u65e0\u8bba Akshat \u9009\u62e9\u54ea\u4e00\u4e2a\u4ea4\u70b9\uff0c\u4ed6\u90fd\u4f1a\u8f93\u6389\u6bd4\u8d5b\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF451A Game With Sticks","type":2,"slug":"CF451A","color":"orange-3"},"discussions":[{"id":54267,"title":"Translate","author":{"uid":107101,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/107101.png","name":"Viston","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1533556315}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330790.884095,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF451A Game With Sticks","description":"\u5728 IOI 2014 \u4e0a\u83b7\u5f97\u91d1\u724c\u548c\u94f6\u724c\u540e\uff0cAkshat \u4e0e Malvika \u60f3\u8981\u5a31\u4e50\u4e00\u4e0b\u3002\u73b0\u5728\u4ed6\u4eec\u6b63\u5728\u4e00\u5f20\u7531 n \u6839\u6c34\u5e73\u6728\u68cd\u548c m \u6839\u7ad6\u76f4\u6728\u68cd\u7ec4\u6210\u7684\u7f51\u683c\u4e0a\u73a9\u6e38\u620f\u3002\n\u4ea4\u70b9\u662f\u6307\u7531\u4e00\u6839\u6c34\u5e73\u6728\u68cd\u548c\u4e00\u6839\u7ad6\u76f4\u6728\u68cd\u4ea4\u6c47\u800c\u6210\u7684\u70b9\u3002\n\u5728\u4e0b\u56fe\u6240\u793a\u7684\u7f51\u683c\u4e2d\uff0cn=3\uff0cm=3\u3002\u603b\u5171\u6709\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF451A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF451A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF451A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF451A Game With Sticks" />
+    <meta property="og:description" content="在 IOI 2014 上获得金牌和银牌后，Akshat 与 Malvika 想要娱乐一下。现在他们正在一张由 n 根水平木棍和 m 根竖直木棍组成的网格上玩游戏。
+交点是指由一根水平木棍和一根竖直木棍交汇而成的点。
+在下图所示的网格中，n=3，m=3。总共有…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF451A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF451A Game With Sticks</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    在 IOI 2014 上获得金牌和银牌后，Akshat 与 Malvika 想要娱乐一下。现在他们正在一张由 $n$ 根水平木棍和 $m$ 根竖直木棍组成的网格上玩游戏。
+
+交点是指由一根水平木棍和一根竖直木棍交汇而成的点。
+
+在下图所示的网格中，$n=3$，$m=3$。总共有 $n + m = 6$ 根木棍（红色为水平木棍，绿色为竖直木棍）。共有 $n \cdot m = 9$ 个交点，编号从 $1$ 到 $9$。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF451A/18b27511f71a42f9e0fd0b22af6d5248021325d7.png)
+
+游戏的规则非常简单。两名玩家轮流行动。Akshat 获得金牌，因此由他先手。在他的回合，玩家必须选择任意一个尚未被移除的交点，并从网格上移除所有经过该点的木棍。若在某名玩家的回合中，他无法选择任何交点（即网格上已无交点），则该玩家输掉游戏。
+
+假设两位玩家都采取最优策略。请你判断谁将会获胜。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行为两个用空格分隔的整数 $n$ 和 $m$（$1 \leq n, m \leq 100$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一行，内容为 "Akshat" 或 "Malvika"（不含引号），表示该游戏的获胜者。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                样例一的解释：
+
+网格上有 $4$ 个交点，编号为 $1$ 至 $4$。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF451A/e0d83475f64b355b0a9b5538e74aa373b38a9909.png)
+
+如果 Akshat 选择交点 $1$，那么他会移除两根木棍（$1-2$ 和 $1-3$）。此时网格如下所示。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF451A/c9bd491d9b8dd9c48045e00c65ed3725174a35a0.png)
+
+现在只剩下一个交点（即 $4$）。Malvika 必须选择该交点并移除仅剩的两根木棍。她走完后，网格将变为空。
+
+在空网格上，Akshat 无法继续行动，因此他输掉比赛。
+
+由于网格上的所有 $4$ 个交点完全等价，无论 Akshat 选择哪一个交点，他都会输掉比赛。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

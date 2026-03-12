@@ -1,0 +1,30 @@
+{
+  "id": "CF-432D",
+  "contest_id": 432,
+  "index": "D",
+  "name": "Prefixes and Suffixes",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "string suffix structures",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 11651,
+  "problem_url": "https://codeforces.com/problemset/problem/432/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/432/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/432/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=432D%20Prefixes%20and%20Suffixes%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF432D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF432D Prefixes and Suffixes - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1165,
+    "mirror_attempt": 2458,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

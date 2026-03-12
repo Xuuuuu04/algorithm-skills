@@ -1,0 +1,31 @@
+{
+  "id": "CF-862C",
+  "contest_id": 862,
+  "index": "C",
+  "name": "Mahmoud and Ehab and the xor",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "url": "https://codeforces.com/problemset/problem/862/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/862/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/862/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=862C%20Mahmoud and Ehab and the xor%20tutorial",
+  "solved_count": 4482,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P862C",
+  "hydro_meta": {
+    "page_title": "Mahmoud and Ehab and the xor - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

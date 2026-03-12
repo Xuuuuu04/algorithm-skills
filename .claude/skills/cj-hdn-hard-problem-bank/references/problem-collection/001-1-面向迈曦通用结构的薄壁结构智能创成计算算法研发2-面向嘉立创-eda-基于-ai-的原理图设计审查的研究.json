@@ -1,0 +1,77 @@
+{
+  "source": "public_slot_api",
+  "title": "工业软件难题发布14期 | 1）面向迈曦通用结构的薄壁结构智能创成计算算法研发Geometric constraint (assembly) based on knowledge-driven AI large model，2）面向嘉立创 EDA 基于 AI 的原理图设计审查的研究Research on AI-based schematic design review for JLCEDA",
+  "url": "https://www.chaspark.com/#/hotspots/1245427602790985728",
+  "difficulty": "Hard",
+  "tags": [
+    "homeRaces"
+  ],
+  "core_idea": "待补充",
+  "pitfalls": "待补充",
+  "raw": {
+    "hwUsers": true,
+    "customCover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1247376861360050176.jpg?state=2",
+    "contentId": "1245427602790985728",
+    "creatorName": "工业软件难题",
+    "isIntraLink": true,
+    "description": {
+      "en": "工业软件是先进工业知识与经验的凝炼，工业软件自身的先进性既来自对先进工业先进需求的汲取提炼，也来自对根技术新突破、新成果的高效采用。为增强根技术新成果提供方与工业软件厂家或最终用户方的连接，促进国产工业软件差异化竞争力的打造，数字化工业软件联盟将聚焦于CAGD、AI for CAX&AI Native 、Cloud for CAX & Cloud Native等技术领域发布工业软件新场景新技术难题，以广泛征集解题思路、并展开后续的创新项目申报。 （一）难题浏览 （1） 面向迈曦通用结构的薄壁结构智能创成计算算法研发 （2）面向嘉立创 EDA 基于 AI 的原理图设计审查的研究 （二）征集时间 2026年3月4日 至 2026年4月4日18:00（征集时间一个月） （三）征集流程 了解难题内容→获取解题参与详解说明及解题思路方案模板→解题思路方案准备→在规定时间内提交报名信息，并上传方案→方案预审核反馈及确认→内部评审解题思路方案 （四）报名及方案提交链接 https://jsj.top/f/SjRqfy （五）联系方式 联系人：杨淑娟 联系邮箱：yangshujuan@disa.org.cn 联系微信： （六）附件 附件1：解题参与说明 附件2：解题思路方案模板 更多内容详见难题发布合集",
+      "zh": "工业软件是先进工业知识与经验的凝炼，工业软件自身的先进性既来自对先进工业先进需求的汲取提炼，也来自对根技术新突破、新成果的高效采用。为增强根技术新成果提供方与工业软件厂家或最终用户方的连接，促进国产工业软件差异化竞争力的打造，数字化工业软件联盟将聚焦于CAGD、AI for CAX&AI Native 、Cloud for CAX & Cloud Native等技术领域发布工业软件新场景新技术难题，以广泛征集解题思路、并展开后续的创新项目申报。 （一）难题浏览 （1） 面向迈曦通用结构的薄壁结构智能创成计算算法研发 （2）面向嘉立创 EDA 基于 AI 的原理图设计审查的研究 （二）征集时间 2026年3月4日 至 2026年4月4日18:00（征集时间一个月） （三）征集流程 了解难题内容→获取解题参与详解说明及解题思路方案模板→解题思路方案准备→在规定时间内提交报名信息，并上传方案→方案预审核反馈及确认→内部评审解题思路方案 （四）报名及方案提交链接 https://jsj.top/f/SjRqfy （五）联系方式 联系人：杨淑娟 联系邮箱：yangshujuan@disa.org.cn 联系微信： （六）附件 附件1：解题参与说明 附件2：解题思路方案模板 更多内容详见难题发布合集"
+    },
+    "customCoverEn": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1247376902043709440.jpg?state=2",
+    "customTitle": {
+      "en": "Call for Solutions 14 | 1) Geometric constraint (assembly) based on knowledge-driven AI large model，2) Research on AI-based schematic design review for JLCEDA",
+      "zh": "1）面向迈曦通用结构的薄壁结构智能创成计算算法研发2）面向嘉立创 EDA 基于 AI 的原理图设计审查的研究"
+    },
+    "videos": [],
+    "creatorNid": "1113300590643879938",
+    "title": "工业软件难题发布14期 | 1）面向迈曦通用结构的薄壁结构智能创成计算算法研发Geometric constraint (assembly) based on knowledge-driven AI large model，2）面向嘉立创 EDA 基于 AI 的原理图设计审查的研究Research on AI-based schematic design review for JLCEDA",
+    "auditState": 2,
+    "isEssence": 0,
+    "actualContentId": "1245427602790985728",
+    "isAuthor": 0,
+    "cover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1247367502701350912.jpg?state=2",
+    "columnRoute": "https://www.chaspark.com/#/hotspots",
+    "columnTypeName": "学术热点",
+    "hasVoice": false,
+    "contentType": 4,
+    "publishTime": "1772527878",
+    "images": [],
+    "creatorType": "2",
+    "isShowEssence": 1,
+    "domains": [
+      {
+        "isLabel": 0,
+        "domainName": "软件领域",
+        "channel": 0,
+        "domainId": "722395269226168320"
+      },
+      {
+        "isLabel": 0,
+        "domainName": "人工智能领域",
+        "channel": 0,
+        "domainId": "8"
+      },
+      {
+        "isLabel": 0,
+        "domainName": "计算与存储领域",
+        "channel": 0,
+        "domainId": "1141950491274665986"
+      }
+    ],
+    "sort": 568,
+    "columnType": "hotspots",
+    "showTable": [
+      {
+        "showName": "工业软件难题",
+        "showLink": ""
+      }
+    ],
+    "slotContentUpdateTime": "1772531610",
+    "slotContentId": "1126592802649610037",
+    "detailUrl": "https://www.chaspark.com/#/hotspots/1245427602790985728",
+    "position": "",
+    "customLink": "https://www.chaspark.com/#/hotspots/1245427602790985728",
+    "authors": []
+  }
+}

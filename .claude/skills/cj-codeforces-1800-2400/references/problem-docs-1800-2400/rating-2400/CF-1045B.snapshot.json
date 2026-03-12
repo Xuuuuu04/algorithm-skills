@@ -1,0 +1,33 @@
+{
+  "id": "CF-1045B",
+  "contest_id": 1045,
+  "index": "B",
+  "name": "Space Isaac",
+  "rating": 2400,
+  "tags": [
+    "hashing",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1045/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1045/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1045/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1045B%20Space Isaac%20tutorial",
+  "solved_count": 579,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1045B",
+  "hydro_meta": {
+    "page_title": "Space Isaac - 题目详情 - Hydro",
+    "hydro_tags": [
+      "hashing",
+      "number theory",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

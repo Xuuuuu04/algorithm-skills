@@ -1,0 +1,30 @@
+{
+  "id": "CF-1994F",
+  "contest_id": 1994,
+  "index": "F",
+  "name": "Stardew Valley",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 1493,
+  "problem_url": "https://codeforces.com/problemset/problem/1994/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1994/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1994/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1994F%20Stardew%20Valley%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1994/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1994F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

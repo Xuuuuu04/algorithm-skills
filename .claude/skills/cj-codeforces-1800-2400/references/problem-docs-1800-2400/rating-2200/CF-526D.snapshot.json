@@ -1,0 +1,35 @@
+{
+  "id": "CF-526D",
+  "contest_id": 526,
+  "index": "D",
+  "name": "Om Nom and Necklace",
+  "rating": 2200,
+  "tags": [
+    "hashing",
+    "string suffix structures",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/526/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/526/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/526/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=526D%20Om Nom and Necklace%20tutorial",
+  "solved_count": 2399,
+  "suggested_patterns": [
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P526D",
+  "hydro_meta": {
+    "page_title": "Om Nom and Necklace - 题目详情 - Hydro",
+    "hydro_tags": [
+      "hashing",
+      "string suffix structures",
+      "strings",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1487C",
+  "contest_id": 1487,
+  "index": "C",
+  "name": "Minimum Ties",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 15319,
+  "problem_url": "https://codeforces.com/problemset/problem/1487/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1487/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1487/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1487C%20Minimum%20Ties%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1487/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1487C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-2149A",
+  "contest_id": 2149,
+  "index": "A",
+  "name": "Be Positive",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 39895,
+  "problem_url": "https://codeforces.com/problemset/problem/2149/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2149/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2149/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2149A%20Be%20Positive%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2149A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Be Positive - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

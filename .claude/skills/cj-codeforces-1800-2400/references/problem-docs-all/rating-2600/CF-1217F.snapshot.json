@@ -1,0 +1,38 @@
+{
+  "id": "CF-1217F",
+  "contest_id": 1217,
+  "index": "F",
+  "name": "Forced Online Queries Problem",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "dsu",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 711,
+  "problem_url": "https://codeforces.com/problemset/problem/1217/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1217/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1217/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1217F%20Forced%20Online%20Queries%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1217F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Forced Online Queries Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "divide and conquer",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

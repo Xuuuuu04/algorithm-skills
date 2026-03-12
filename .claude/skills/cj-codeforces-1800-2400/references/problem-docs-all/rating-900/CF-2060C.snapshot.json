@@ -1,0 +1,36 @@
+{
+  "id": "CF-2060C",
+  "contest_id": 2060,
+  "index": "C",
+  "name": "Game of Mathletes",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "games",
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 31596,
+  "problem_url": "https://codeforces.com/problemset/problem/2060/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2060/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2060/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2060C%20Game%20of%20Mathletes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2060C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Game of Mathletes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "games",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

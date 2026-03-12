@@ -1,0 +1,29 @@
+{
+  "id": "CF-580E",
+  "contest_id": 580,
+  "index": "E",
+  "name": "Kefa and Watch",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "hashing",
+    "strings"
+  ],
+  "solved_count": 2508,
+  "problem_url": "https://codeforces.com/problemset/problem/580/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/580/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/580/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=580E%20Kefa%20and%20Watch%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF580E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF580E Kefa and Watch - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 584,
+    "mirror_attempt": 1870,
+    "time_limit": "1500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

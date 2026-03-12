@@ -1,0 +1,31 @@
+{
+  "id": "CF-2075D",
+  "contest_id": 2075,
+  "index": "D",
+  "name": "Equalization",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dp",
+    "graphs",
+    "math"
+  ],
+  "solved_count": 5632,
+  "problem_url": "https://codeforces.com/problemset/problem/2075/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2075/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2075/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2075D%20Equalization%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2075D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2075D Equalization - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-1760A",
+  "contest_id": 1760,
+  "index": "A",
+  "name": "Medium Number",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 77921,
+  "problem_url": "https://codeforces.com/problemset/problem/1760/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1760/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1760/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1760A%20Medium%20Number%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1760A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Medium Number - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

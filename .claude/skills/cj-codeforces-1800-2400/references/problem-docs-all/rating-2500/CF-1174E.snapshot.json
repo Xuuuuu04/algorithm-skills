@@ -1,0 +1,30 @@
+{
+  "id": "CF-1174E",
+  "contest_id": 1174,
+  "index": "E",
+  "name": "Ehab and the Expected GCD Problem",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 1754,
+  "problem_url": "https://codeforces.com/problemset/problem/1174/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1174/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1174/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1174E%20Ehab%20and%20the%20Expected%20GCD%20Problem%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1174E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1174E Ehab and the Expected GCD Problem - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 455,
+    "mirror_attempt": 1082,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

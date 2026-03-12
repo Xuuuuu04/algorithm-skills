@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2170A Maximum Neighborhood - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2170A","type":"CF","title":"Maximum Neighborhood","difficulty":1,"tags":[1],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Maximum Neighborhood","background":null,"description":"\u8003\u8651\u4e00\u4e2a $n \\times n$ \u7684\u7f51\u683c\uff0c\u586b\u5145\u89c4\u5219\u5982\u4e0b\uff1a\n\n- \u7b2c\u4e00\u884c\u4ece\u5de6\u5230\u53f3\u586b\u5165 $1$ \u5230 $n$ \u7684\u6574\u6570\uff1b\n- \u7b2c\u4e8c\u884c\u4ece\u5de6\u5230\u53f3\u586b\u5165 $(n+1)$ \u5230 $2n$ \u7684\u6574\u6570\uff1b\n- \u4ee5\u6b64\u7c7b\u63a8\uff0c\u7b2c $n$ \u884c\u4ece\u5de6\u5230\u53f3\u586b\u5165 $(n^2-n+1)$ \u5230 $n^2$ \u7684\u6574\u6570\u3002\n\n\u6211\u4eec\u5b9a\u4e49\u4e00\u4e2a\u683c\u5b50\u7684\u4ee3\u4ef7\u4e3a\u5176\u683c\u5b50\u4e0a\u7684\u6570\u503c\u52a0\u4e0a\u6240\u6709\u76f8\u90bb\u683c\u5b50\u7684\u6570\u503c\u4e4b\u548c\u3002\u82e5\u4e24\u4e2a\u683c\u5b50\u5171\u4eab\u4e00\u6761\u8fb9\uff0c\u5219\u88ab\u89c6\u4e3a\u76f8\u90bb\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u8ba1\u7b97\u7f51\u683c\u4e2d\u6240\u6709\u683c\u5b50\u4ee3\u4ef7\u7684\u6700\u5927\u503c\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2170A\/3a46ed12b1840b20cee360cfc51f472b2587e0ead855c7b9af3c520f8c53804c.png) \u4e0a\u56fe\u4e3a $n=4$ \u7684\u7f51\u683c\u4ee5\u53ca\u5bf9\u5e94\u7684\u6700\u4f18\u89e3\u3002\u5176\u4e2d\u9ec4\u8272\u683c\u5b50\u7684\u4ee3\u4ef7\u6700\u5927\uff0c\u7eff\u8272\u683c\u5b50\u4e3a\u5176\u76f8\u90bb\u683c\u5b50\u3002\u8be5\u683c\u5b50\u7684\u4ee3\u4ef7\u4e3a $15 + 11 + 14 + 16 = 56$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\u2014\u2014\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 100$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u8be5\u7f51\u683c\u4e2d\u6240\u6709\u683c\u5b50\u7684\u6700\u5927\u4ee3\u4ef7\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u53ea\u6709 $1$ \u4e2a\u683c\u5b50\uff0c\u4ee3\u4ef7\u4e3a $1$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u503c\u4e3a $4$ \u7684\u683c\u5b50\u4ee3\u4ef7\u6700\u5927\uff1a$4 + 2 + 3 = 9$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u503c\u4e3a $8$ \u7684\u683c\u5b50\u4ee3\u4ef7\u6700\u5927\uff1a$8 + 5 + 7 + 9 = 29$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u503c\u4e3a $15$ \u7684\u683c\u5b50\u4ee3\u4ef7\u6700\u5927\uff1a$15 + 11 + 14 + 16 = 56$\u3002\n\n\u5728\u7b2c\u4e94\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u503c\u4e3a $19$ \u7684\u683c\u5b50\u4ee3\u4ef7\u6700\u5927\uff1a$19 + 14 + 18 + 20 + 24 = 95$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Maximum Neighborhood","background":null,"description":"Consider an  $ n \\times n $  grid filled with numbers as follows:\n\n- the first row contains integers from  $ 1 $  to  $ n $  from left to right;\n- the second row contains integers from  $ (n+1) $  to  $ 2n $  from left to right;\n- this pattern continues until the  $ n $ -th row, which contains integers from  $ (n^2-n+1) $  to  $ n^2 $  from left to right.\n\nLet\u0027s define the cost of a cell as its value plus the sum of its neighboring cells\u0027 values. Two cells are considered neighboring if they share a side.\n\nYour task is to calculate the maximum cost among all cells in the grid.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2170A\/3a46ed12b1840b20cee360cfc51f472b2587e0ead855c7b9af3c520f8c53804c.png) The grid for  $ n = 4 $  and the optimal answer for it. The yellow cell has the maximum possible cost; the green cells are its neighbors. The cost of the cell is  $ 15+11+14+16=56 $ .","formatI":"The first line contains a single integer  $ t $  ( $ 1 \\le t \\le 100 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains a single integer  $ n $  ( $ 1 \\le n \\le 100 $ ).","formatO":"For each test case, print a single integer \u2014 the maximum cost among all cells in the grid.","hint":"In the first example, there is only  $ 1 $  cell with the cost  $ 1 $ .\n\nIn the second example, the cell with value  $ 4 $  has the maximum cost:  $ 4 + 2 + 3 = 9 $ .\n\nIn the third example, the cell with value  $ 8 $  has the maximum cost:  $ 8 + 5 + 7 + 9 = 29 $ .\n\nIn the fourth example, the cell with value  $ 15 $  has the maximum cost:  $ 15 + 11 + 14 + 16 = 56 $ .\n\nIn the fifth example, the cell with value  $ 19 $  has the maximum cost:  $ 19 + 14 + 18 + 20 + 24 = 95 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n1\n2\n3\n4\n5","1\n9\n29\n56\n95"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"2170A","link":"https:\/\/codeforces.com\/problemset\/problem\/2170\/A"},"translation":null},"translations":{"en":{"name":"Maximum Neighborhood","background":null,"description":"Consider an  $ n \\times n $  grid filled with numbers as follows:\n\n- the first row contains integers from  $ 1 $  to  $ n $  from left to right;\n- the second row contains integers from  $ (n+1) $  to  $ 2n $  from left to right;\n- this pattern continues until the  $ n $ -th row, which contains integers from  $ (n^2-n+1) $  to  $ n^2 $  from left to right.\n\nLet\u0027s define the cost of a cell as its value plus the sum of its neighboring cells\u0027 values. Two cells are considered neighboring if they share a side.\n\nYour task is to calculate the maximum cost among all cells in the grid.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2170A\/3a46ed12b1840b20cee360cfc51f472b2587e0ead855c7b9af3c520f8c53804c.png) The grid for  $ n = 4 $  and the optimal answer for it. The yellow cell has the maximum possible cost; the green cells are its neighbors. The cost of the cell is  $ 15+11+14+16=56 $ .","formatI":"The first line contains a single integer  $ t $  ( $ 1 \\le t \\le 100 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains a single integer  $ n $  ( $ 1 \\le n \\le 100 $ ).","formatO":"For each test case, print a single integer \u2014 the maximum cost among all cells in the grid.","hint":"In the first example, there is only  $ 1 $  cell with the cost  $ 1 $ .\n\nIn the second example, the cell with value  $ 4 $  has the maximum cost:  $ 4 + 2 + 3 = 9 $ .\n\nIn the third example, the cell with value  $ 8 $  has the maximum cost:  $ 8 + 5 + 7 + 9 = 29 $ .\n\nIn the fourth example, the cell with value  $ 15 $  has the maximum cost:  $ 15 + 11 + 14 + 16 = 56 $ .\n\nIn the fifth example, the cell with value  $ 19 $  has the maximum cost:  $ 19 + 14 + 18 + 20 + 24 = 95 $ .","locale":"en"},"zh-CN":{"name":"Maximum Neighborhood","background":null,"description":"\u8003\u8651\u4e00\u4e2a $n \\times n$ \u7684\u7f51\u683c\uff0c\u586b\u5145\u89c4\u5219\u5982\u4e0b\uff1a\n\n- \u7b2c\u4e00\u884c\u4ece\u5de6\u5230\u53f3\u586b\u5165 $1$ \u5230 $n$ \u7684\u6574\u6570\uff1b\n- \u7b2c\u4e8c\u884c\u4ece\u5de6\u5230\u53f3\u586b\u5165 $(n+1)$ \u5230 $2n$ \u7684\u6574\u6570\uff1b\n- \u4ee5\u6b64\u7c7b\u63a8\uff0c\u7b2c $n$ \u884c\u4ece\u5de6\u5230\u53f3\u586b\u5165 $(n^2-n+1)$ \u5230 $n^2$ \u7684\u6574\u6570\u3002\n\n\u6211\u4eec\u5b9a\u4e49\u4e00\u4e2a\u683c\u5b50\u7684\u4ee3\u4ef7\u4e3a\u5176\u683c\u5b50\u4e0a\u7684\u6570\u503c\u52a0\u4e0a\u6240\u6709\u76f8\u90bb\u683c\u5b50\u7684\u6570\u503c\u4e4b\u548c\u3002\u82e5\u4e24\u4e2a\u683c\u5b50\u5171\u4eab\u4e00\u6761\u8fb9\uff0c\u5219\u88ab\u89c6\u4e3a\u76f8\u90bb\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u8ba1\u7b97\u7f51\u683c\u4e2d\u6240\u6709\u683c\u5b50\u4ee3\u4ef7\u7684\u6700\u5927\u503c\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2170A\/3a46ed12b1840b20cee360cfc51f472b2587e0ead855c7b9af3c520f8c53804c.png) \u4e0a\u56fe\u4e3a $n=4$ \u7684\u7f51\u683c\u4ee5\u53ca\u5bf9\u5e94\u7684\u6700\u4f18\u89e3\u3002\u5176\u4e2d\u9ec4\u8272\u683c\u5b50\u7684\u4ee3\u4ef7\u6700\u5927\uff0c\u7eff\u8272\u683c\u5b50\u4e3a\u5176\u76f8\u90bb\u683c\u5b50\u3002\u8be5\u683c\u5b50\u7684\u4ee3\u4ef7\u4e3a $15 + 11 + 14 + 16 = 56$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\u2014\u2014\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 100$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u8be5\u7f51\u683c\u4e2d\u6240\u6709\u683c\u5b50\u7684\u6700\u5927\u4ee3\u4ef7\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u53ea\u6709 $1$ \u4e2a\u683c\u5b50\uff0c\u4ee3\u4ef7\u4e3a $1$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u503c\u4e3a $4$ \u7684\u683c\u5b50\u4ee3\u4ef7\u6700\u5927\uff1a$4 + 2 + 3 = 9$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u503c\u4e3a $8$ \u7684\u683c\u5b50\u4ee3\u4ef7\u6700\u5927\uff1a$8 + 5 + 7 + 9 = 29$\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u503c\u4e3a $15$ \u7684\u683c\u5b50\u4ee3\u4ef7\u6700\u5927\uff1a$15 + 11 + 14 + 16 = 56$\u3002\n\n\u5728\u7b2c\u4e94\u4e2a\u4f8b\u5b50\u4e2d\uff0c\u503c\u4e3a $19$ \u7684\u683c\u5b50\u4ee3\u4ef7\u6700\u5927\uff1a$19 + 14 + 18 + 20 + 24 = 95$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2170A Maximum Neighborhood","type":2,"slug":"CF2170A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.033049,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2170A Maximum Neighborhood","description":"\u8003\u8651\u4e00\u4e2a n \\times n \u7684\u7f51\u683c\uff0c\u586b\u5145\u89c4\u5219\u5982\u4e0b\uff1a\n\n\u7b2c\u4e00\u884c\u4ece\u5de6\u5230\u53f3\u586b\u5165 1 \u5230 n \u7684\u6574\u6570\uff1b\n\u7b2c\u4e8c\u884c\u4ece\u5de6\u5230\u53f3\u586b\u5165 (n+1) \u5230 2n \u7684\u6574\u6570\uff1b\n\u4ee5\u6b64\u7c7b\u63a8\uff0c\u7b2c n \u884c\u4ece\u5de6\u5230\u53f3\u586b\u5165 (n^2-n+1) \u5230 n^2 \u7684\u6574\u6570\u3002\n\n\u6211\u4eec\u5b9a\u4e49\u4e00\u4e2a\u683c\u5b50\u7684\u4ee3\u4ef7\u4e3a\u5176\u683c\u5b50\u4e0a\u7684\u6570\u503c\u52a0\u4e0a\u6240\u6709\u76f8\u90bb\u683c\u5b50\u7684\u6570\u503c\u4e4b\u548c\u3002\u82e5\u4e24\u4e2a\u683c\u5b50\u5171\u4eab\u4e00\u6761\u8fb9\uff0c\u5219\u88ab\u89c6\u4e3a\u76f8\u90bb\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2170A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2170A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2170A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2170A Maximum Neighborhood" />
+    <meta property="og:description" content="考虑一个 n \times n 的网格，填充规则如下：
+
+第一行从左到右填入 1 到 n 的整数；
+第二行从左到右填入 (n+1) 到 2n 的整数；
+以此类推，第 n 行从左到右填入 (n^2-n+1) 到 n^2 的整数。
+
+我们定义一个格子的代价为其格子上的数值加上所有相邻格子的数值之和。若两个格子共享一条边，则被视为相邻。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2170A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2170A Maximum Neighborhood</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    考虑一个 $n \times n$ 的网格，填充规则如下：
+
+- 第一行从左到右填入 $1$ 到 $n$ 的整数；
+- 第二行从左到右填入 $(n+1)$ 到 $2n$ 的整数；
+- 以此类推，第 $n$ 行从左到右填入 $(n^2-n+1)$ 到 $n^2$ 的整数。
+
+我们定义一个格子的代价为其格子上的数值加上所有相邻格子的数值之和。若两个格子共享一条边，则被视为相邻。
+
+你的任务是计算网格中所有格子代价的最大值。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF2170A/3a46ed12b1840b20cee360cfc51f472b2587e0ead855c7b9af3c520f8c53804c.png) 上图为 $n=4$ 的网格以及对应的最优解。其中黄色格子的代价最大，绿色格子为其相邻格子。该格子的代价为 $15 + 11 + 14 + 16 = 56$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 100$）——表示测试用例数量。
+
+接下来每个测试用例包含一行，一个整数 $n$（$1 \le n \le 100$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数——该网格中所有格子的最大代价。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个例子中，只有 $1$ 个格子，代价为 $1$。
+
+在第二个例子中，值为 $4$ 的格子代价最大：$4 + 2 + 3 = 9$。
+
+在第三个例子中，值为 $8$ 的格子代价最大：$8 + 5 + 7 + 9 = 29$。
+
+在第四个例子中，值为 $15$ 的格子代价最大：$15 + 11 + 14 + 16 = 56$。
+
+在第五个例子中，值为 $19$ 的格子代价最大：$19 + 14 + 18 + 20 + 24 = 95$。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "id": "CF-639C",
+  "contest_id": 639,
+  "index": "C",
+  "name": "Bear and Polynomials",
+  "rating": 2200,
+  "tags": [
+    "hashing",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/639/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/639/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/639/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=639C%20Bear and Polynomials%20tutorial",
+  "solved_count": 1242,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P639C",
+  "hydro_meta": {
+    "page_title": "Bear and Polynomials - 题目详情 - Hydro",
+    "hydro_tags": [
+      "hashing",
+      "implementation",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

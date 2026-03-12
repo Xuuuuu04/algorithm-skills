@@ -1,0 +1,34 @@
+{
+  "id": "CF-404E",
+  "contest_id": 404,
+  "index": "E",
+  "name": "Maze 1D",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 633,
+  "problem_url": "https://codeforces.com/problemset/problem/404/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/404/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/404/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=404E%20Maze%201D%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P404E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Maze 1D - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,18 @@
+[package]
+name = "umi"
+description = "AI-Driven Universal Model Interface for Cangjie Programming Language"
+version = "0.0.1"
+edition = "2025"
+cjc-version = "1.0.4"
+output-type = "static"
+package-configuration = {}
+
+[dependencies]
+  [dependencies.sql_builder]
+    path = "./sql_builder"
+
+[target]
+  [target.x86_64-w64-mingw32]
+    compile-option = "-Woff unused --diagnostic-format=noColor -Woff deprecated -lcrypt32"
+    [target.x86_64-w64-mingw32.bin-dependencies]
+      path-option = ["D:\\huawei\\windows_x86_64_llvm"]

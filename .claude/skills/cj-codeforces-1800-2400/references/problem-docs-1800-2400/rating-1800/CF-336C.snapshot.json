@@ -1,0 +1,38 @@
+{
+  "id": "CF-336C",
+  "contest_id": 336,
+  "index": "C",
+  "name": "Vasily the Bear and Sequence",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/336/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/336/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/336/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=336C%20Vasily the Bear and Sequence%20tutorial",
+  "solved_count": 2633,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P336C",
+  "hydro_meta": {
+    "page_title": "Vasily the Bear and Sequence - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "number theory",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

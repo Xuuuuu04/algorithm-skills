@@ -1,0 +1,28 @@
+{
+  "id": "CF-78A",
+  "contest_id": 78,
+  "index": "A",
+  "name": "Haiku",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 15276,
+  "problem_url": "https://codeforces.com/problemset/problem/78/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/78/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/78/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=78A%20Haiku%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF78A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF78A Haiku - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 729,
+    "mirror_attempt": 1209,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

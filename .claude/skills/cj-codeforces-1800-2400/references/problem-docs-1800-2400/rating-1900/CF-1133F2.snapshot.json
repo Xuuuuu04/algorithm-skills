@@ -1,0 +1,41 @@
+{
+  "id": "CF-1133F2",
+  "contest_id": 1133,
+  "index": "F2",
+  "name": "Spanning Tree with One Fixed Degree",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1133/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1133/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1133/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1133F2%20Spanning Tree with One Fixed Degree%20tutorial",
+  "solved_count": 3773,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1133F2",
+  "hydro_meta": {
+    "page_title": "Spanning Tree with One Fixed Degree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

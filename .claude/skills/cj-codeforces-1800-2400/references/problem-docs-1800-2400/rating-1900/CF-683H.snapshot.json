@@ -1,0 +1,29 @@
+{
+  "id": "CF-683H",
+  "contest_id": 683,
+  "index": "H",
+  "name": "Exchange of Books",
+  "rating": 1900,
+  "tags": [
+    "*special"
+  ],
+  "url": "https://codeforces.com/problemset/problem/683/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/683/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/683/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=683H%20Exchange of Books%20tutorial",
+  "solved_count": 123,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P683H",
+  "hydro_meta": {
+    "page_title": "Exchange of Books - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1952J",
+  "contest_id": 1952,
+  "index": "J",
+  "name": "Help, what does it mean to be \"Based\"",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "brute force",
+    "constructive algorithms",
+    "expression parsing",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 876,
+  "problem_url": "https://codeforces.com/problemset/problem/1952/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/1952/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1952/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1952J%20Help%2C%20what%20does%20it%20mean%20to%20be%20%22Based%22%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1952/J",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1952J - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

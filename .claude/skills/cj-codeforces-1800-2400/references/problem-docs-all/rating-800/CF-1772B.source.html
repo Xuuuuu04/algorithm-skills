@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414469:zyrNUW7eEK7/cWw8e0sWBqp4FAU6YTgv8KJ3w2/8B/s=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1772B Matrix Rotation - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1772B","type":"CF","title":"Matrix Rotation","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":365,"totalAccepted":267,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Matrix Rotation","background":null,"description":"\u4f60\u6709\u4e00\u4e2a $2 \\times 2$ \u7684\u77e9\u9635\uff0c\u77e9\u9635\u4e2d\u7684\u5143\u7d20\u90fd\u662f\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u3002\u4f60\u5e0c\u671b\u5c06\u4f60\u7684\u77e9\u9635\u53d8\u5f97\u201c\u7f8e\u4e3d\u201d\u3002\u5982\u679c\u77e9\u9635\u6ee1\u8db3\u4ee5\u4e0b\u4e24\u4e2a\u6761\u4ef6\uff0c\u5219\u79f0\u5176\u4e3a\u7f8e\u4e3d\u7684\uff1a\n\n- \u6bcf\u4e00\u884c\u4e2d\uff0c\u7b2c\u4e00\u4e2a\u5143\u7d20\u5c0f\u4e8e\u7b2c\u4e8c\u4e2a\u5143\u7d20\uff1b\n- \u6bcf\u4e00\u5217\u4e2d\uff0c\u7b2c\u4e00\u4e2a\u5143\u7d20\u5c0f\u4e8e\u7b2c\u4e8c\u4e2a\u5143\u7d20\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1772B\/3883cb5d5c3c3237649026ca712db7066e7d51ae.png)\n\n\u4f60\u53ef\u4ee5\u5bf9\u77e9\u9635\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u4efb\u610f\u6b21\uff1a\u987a\u65f6\u9488\u65cb\u8f6c $90$ \u5ea6\u3002\u8fd9\u6837\uff0c\u5de6\u4e0a\u89d2\u5143\u7d20\u4f1a\u79fb\u52a8\u5230\u53f3\u4e0a\u89d2\uff0c\u53f3\u4e0a\u89d2\u5143\u7d20\u4f1a\u79fb\u52a8\u5230\u53f3\u4e0b\u89d2\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1772B\/a844c7395726cf76b3147efc79ccce4d8f167fbf.png)\n\n\u8bf7\u5224\u65ad\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\uff08\u53ef\u4ee5\u4e3a\u96f6\u6b21\uff09\u64cd\u4f5c\uff0c\u4f7f\u77e9\u9635\u53d8\u5f97\u7f8e\u4e3d\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e24\u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570\uff0c\u8868\u793a\u77e9\u9635\u5bf9\u5e94\u884c\u7684\u5143\u7d20\u3002\u5728\u6bcf\u4e2a\u77e9\u9635\u4e2d\uff0c\u56db\u4e2a\u5143\u7d20\u90fd\u662f $1$ \u5230 $100$ \u4e4b\u95f4\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u53ef\u4ee5\u5c06\u77e9\u9635\u53d8\u5f97\u7f8e\u4e3d\uff0c\u8f93\u51fa YES\uff0c\u5426\u5219\u8f93\u51fa NO\u3002\u4f60\u53ef\u4ee5\u7528\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa\uff08YES\u3001yes\u3001Yes \u90fd\u89c6\u4e3a\u6b63\u7b54\uff0cNO\u3001no\u3001nO \u90fd\u89c6\u4e3a\u8d1f\u7b54\uff09\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Matrix Rotation","background":"","description":"You have a matrix $ 2 \\times 2 $ filled with distinct integers. You want your matrix to become beautiful. The matrix is beautiful if the following two conditions are satisfied:\n\n- in each row, the first element is smaller than the second element;\n- in each column, the first element is smaller than the second element.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1772B\/3883cb5d5c3c3237649026ca712db7066e7d51ae.png)You can perform the following operation on the matrix any number of times: rotate it clockwise by $ 90 $ degrees, so the top left element shifts to the top right cell, the top right element shifts to the bottom right cell, and so on:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1772B\/a844c7395726cf76b3147efc79ccce4d8f167fbf.png)Determine if it is possible to make the matrix beautiful by applying zero or more operations.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines. Each of those lines contains two integers \u2014 the elements of the corresponding row of the matrix. In each matrix, all four elements are distinct integers from $ 1 $ to $ 100 $ .","formatO":"For each test case, print YES if the matrix can become beautiful, or NO otherwise. You may print each letter in any case (YES, yes, Yes will all be recognized as positive answer, NO, no and nO will all be recognized as negative answer).","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n1 3\n5 7\n8 10\n3 4\n8 10\n4 3\n6 1\n9 2\n7 5\n4 2\n1 2\n4 3","YES\nYES\nNO\nYES\nYES\nNO"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"1772B","link":"https:\/\/codeforces.com\/problemset\/problem\/1772\/B"},"translation":"\u7ed9\u5b9a $t$ \u4e2a $2\\times2$ \u7684\u77e9\u9635\uff0c\u5b9a\u4e49\u6bcf\u5217\u4e2d\u5de6\u4fa7\u6570\u5b57\u5c0f\u4e8e\u53f3\u4fa7\u6570\u5b57\u3001\u4e0a\u9762\u6570\u5b57\u5c0f\u4e8e\u4e0b\u9762\u6570\u7ec4\u4e3a\u4e00\u4e2a\u4f18\u79c0\u7684\u77e9\u9635\u3002\u6bcf\u4e00\u6b21\u64cd\u4f5c\u662f\u6307\u987a\u65f6\u9488\u8c03\u6574\u77e9\u9635\u4e00\u6b21\uff0c\u95ee\u80fd\u5426\u7ecf\u8fc7\u82e5\u5e72\u6b21\u64cd\u4f5c\uff08\u6216\u8005\u4e0d\u64cd\u4f5c\uff09\u4f7f\u5176\u53d8\u4e3a\u4f18\u79c0\u7684\u77e9\u9635\u3002\n\n\u6570\u636e\u8303\u56f4\uff1a$1\\le t \\le 1000$\u3002"},"translations":{"en":{"name":"Matrix Rotation","background":"","description":"You have a matrix $ 2 \\times 2 $ filled with distinct integers. You want your matrix to become beautiful. The matrix is beautiful if the following two conditions are satisfied:\n\n- in each row, the first element is smaller than the second element;\n- in each column, the first element is smaller than the second element.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1772B\/3883cb5d5c3c3237649026ca712db7066e7d51ae.png)You can perform the following operation on the matrix any number of times: rotate it clockwise by $ 90 $ degrees, so the top left element shifts to the top right cell, the top right element shifts to the bottom right cell, and so on:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1772B\/a844c7395726cf76b3147efc79ccce4d8f167fbf.png)Determine if it is possible to make the matrix beautiful by applying zero or more operations.","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case consists of two lines. Each of those lines contains two integers \u2014 the elements of the corresponding row of the matrix. In each matrix, all four elements are distinct integers from $ 1 $ to $ 100 $ .","formatO":"For each test case, print YES if the matrix can become beautiful, or NO otherwise. You may print each letter in any case (YES, yes, Yes will all be recognized as positive answer, NO, no and nO will all be recognized as negative answer).","hint":"","locale":"en"},"zh-CN":{"name":"Matrix Rotation","background":null,"description":"\u4f60\u6709\u4e00\u4e2a $2 \\times 2$ \u7684\u77e9\u9635\uff0c\u77e9\u9635\u4e2d\u7684\u5143\u7d20\u90fd\u662f\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u3002\u4f60\u5e0c\u671b\u5c06\u4f60\u7684\u77e9\u9635\u53d8\u5f97\u201c\u7f8e\u4e3d\u201d\u3002\u5982\u679c\u77e9\u9635\u6ee1\u8db3\u4ee5\u4e0b\u4e24\u4e2a\u6761\u4ef6\uff0c\u5219\u79f0\u5176\u4e3a\u7f8e\u4e3d\u7684\uff1a\n\n- \u6bcf\u4e00\u884c\u4e2d\uff0c\u7b2c\u4e00\u4e2a\u5143\u7d20\u5c0f\u4e8e\u7b2c\u4e8c\u4e2a\u5143\u7d20\uff1b\n- \u6bcf\u4e00\u5217\u4e2d\uff0c\u7b2c\u4e00\u4e2a\u5143\u7d20\u5c0f\u4e8e\u7b2c\u4e8c\u4e2a\u5143\u7d20\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1772B\/3883cb5d5c3c3237649026ca712db7066e7d51ae.png)\n\n\u4f60\u53ef\u4ee5\u5bf9\u77e9\u9635\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u4efb\u610f\u6b21\uff1a\u987a\u65f6\u9488\u65cb\u8f6c $90$ \u5ea6\u3002\u8fd9\u6837\uff0c\u5de6\u4e0a\u89d2\u5143\u7d20\u4f1a\u79fb\u52a8\u5230\u53f3\u4e0a\u89d2\uff0c\u53f3\u4e0a\u89d2\u5143\u7d20\u4f1a\u79fb\u52a8\u5230\u53f3\u4e0b\u89d2\uff0c\u4f9d\u6b64\u7c7b\u63a8\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1772B\/a844c7395726cf76b3147efc79ccce4d8f167fbf.png)\n\n\u8bf7\u5224\u65ad\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\uff08\u53ef\u4ee5\u4e3a\u96f6\u6b21\uff09\u64cd\u4f5c\uff0c\u4f7f\u77e9\u9635\u53d8\u5f97\u7f8e\u4e3d\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e24\u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570\uff0c\u8868\u793a\u77e9\u9635\u5bf9\u5e94\u884c\u7684\u5143\u7d20\u3002\u5728\u6bcf\u4e2a\u77e9\u9635\u4e2d\uff0c\u56db\u4e2a\u5143\u7d20\u90fd\u662f $1$ \u5230 $100$ \u4e4b\u95f4\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u53ef\u4ee5\u5c06\u77e9\u9635\u53d8\u5f97\u7f8e\u4e3d\uff0c\u8f93\u51fa YES\uff0c\u5426\u5219\u8f93\u51fa NO\u3002\u4f60\u53ef\u4ee5\u7528\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa\uff08YES\u3001yes\u3001Yes \u90fd\u89c6\u4e3a\u6b63\u7b54\uff0cNO\u3001no\u3001nO \u90fd\u89c6\u4e3a\u8d1f\u7b54\uff09\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1772B Matrix Rotation","type":2,"slug":"CF1772B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328069.260153,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1772B Matrix Rotation","description":"\u4f60\u6709\u4e00\u4e2a 2 \\times 2 \u7684\u77e9\u9635\uff0c\u77e9\u9635\u4e2d\u7684\u5143\u7d20\u90fd\u662f\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u3002\u4f60\u5e0c\u671b\u5c06\u4f60\u7684\u77e9\u9635\u53d8\u5f97\u201c\u7f8e\u4e3d\u201d\u3002\u5982\u679c\u77e9\u9635\u6ee1\u8db3\u4ee5\u4e0b\u4e24\u4e2a\u6761\u4ef6\uff0c\u5219\u79f0\u5176\u4e3a\u7f8e\u4e3d\u7684\uff1a\n\n\u6bcf\u4e00\u884c\u4e2d\uff0c\u7b2c\u4e00\u4e2a\u5143\u7d20\u5c0f\u4e8e\u7b2c\u4e8c\u4e2a\u5143\u7d20\uff1b\n\u6bcf\u4e00\u5217\u4e2d\uff0c\u7b2c\u4e00\u4e2a\u5143\u7d20\u5c0f\u4e8e\u7b2c\u4e8c\u4e2a\u5143\u7d20\u3002\n\n\n\u4f60\u53ef\u4ee5\u5bf9\u77e9\u9635\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u4efb\u610f\u6b21\uff1a\u987a\u65f6\u9488\u65cb\u8f6c\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1772B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1772B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1772B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1772B Matrix Rotation" />
+    <meta property="og:description" content="你有一个 2 \times 2 的矩阵，矩阵中的元素都是互不相同的整数。你希望将你的矩阵变得“美丽”。如果矩阵满足以下两个条件，则称其为美丽的：
+
+每一行中，第一个元素小于第二个元素；
+每一列中，第一个元素小于第二个元素。
+
+
+你可以对矩阵进行如下操作任意次：顺时针旋转…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1772B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1772B Matrix Rotation</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你有一个 $2 \times 2$ 的矩阵，矩阵中的元素都是互不相同的整数。你希望将你的矩阵变得“美丽”。如果矩阵满足以下两个条件，则称其为美丽的：
+
+- 每一行中，第一个元素小于第二个元素；
+- 每一列中，第一个元素小于第二个元素。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1772B/3883cb5d5c3c3237649026ca712db7066e7d51ae.png)
+
+你可以对矩阵进行如下操作任意次：顺时针旋转 $90$ 度。这样，左上角元素会移动到右上角，右上角元素会移动到右下角，依此类推：
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1772B/a844c7395726cf76b3147efc79ccce4d8f167fbf.png)
+
+请判断是否可以通过若干次（可以为零次）操作，使矩阵变得美丽。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 1000$），表示测试用例的数量。
+
+每个测试用例包含两行，每行包含两个整数，表示矩阵对应行的元素。在每个矩阵中，四个元素都是 $1$ 到 $100$ 之间互不相同的整数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果可以将矩阵变得美丽，输出 YES，否则输出 NO。你可以用任意大小写输出（YES、yes、Yes 都视为正答，NO、no、nO 都视为负答）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

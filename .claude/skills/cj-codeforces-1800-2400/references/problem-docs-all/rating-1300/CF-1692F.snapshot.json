@@ -1,0 +1,30 @@
+{
+  "id": "CF-1692F",
+  "contest_id": 1692,
+  "index": "F",
+  "name": "3SUM",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "math"
+  ],
+  "solved_count": 26799,
+  "problem_url": "https://codeforces.com/problemset/problem/1692/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1692/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1692/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1692F%203SUM%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1692F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "3SUM - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

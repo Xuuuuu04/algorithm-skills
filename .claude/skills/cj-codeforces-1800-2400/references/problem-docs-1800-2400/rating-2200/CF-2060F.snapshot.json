@@ -1,0 +1,32 @@
+{
+  "id": "CF-2060F",
+  "contest_id": 2060,
+  "index": "F",
+  "name": "Multiplicative Arrays",
+  "rating": 2200,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2060/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2060/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2060/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2060F%20Multiplicative Arrays%20tutorial",
+  "solved_count": 2563,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2060F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2060F Multiplicative Arrays - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

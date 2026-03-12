@@ -1,0 +1,33 @@
+{
+  "id": "CF-1651F",
+  "contest_id": 1651,
+  "index": "F",
+  "name": "Tower Defense",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures"
+  ],
+  "solved_count": 475,
+  "problem_url": "https://codeforces.com/problemset/problem/1651/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1651/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1651/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1651F%20Tower%20Defense%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1651F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Tower Defense - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "data structures"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

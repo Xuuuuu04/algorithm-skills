@@ -1,0 +1,28 @@
+{
+  "id": "CF-666D",
+  "contest_id": 666,
+  "index": "D",
+  "name": "Chain Reaction",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "geometry"
+  ],
+  "solved_count": 302,
+  "problem_url": "https://codeforces.com/problemset/problem/666/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/666/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/666/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=666D%20Chain%20Reaction%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF666D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF666D Chain Reaction - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 92,
+    "mirror_attempt": 208,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

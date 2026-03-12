@@ -1,0 +1,32 @@
+{
+  "id": "CF-1146F",
+  "contest_id": 1146,
+  "index": "F",
+  "name": "Leaf Partition",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "dp",
+    "trees"
+  ],
+  "solved_count": 1325,
+  "problem_url": "https://codeforces.com/problemset/problem/1146/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1146/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1146/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1146F%20Leaf%20Partition%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1146F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Leaf Partition - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "trees",
+      "*2500"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

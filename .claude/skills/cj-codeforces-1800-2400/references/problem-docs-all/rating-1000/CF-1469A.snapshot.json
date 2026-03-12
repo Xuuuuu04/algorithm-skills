@@ -1,0 +1,28 @@
+{
+  "id": "CF-1469A",
+  "contest_id": 1469,
+  "index": "A",
+  "name": "Regular Bracket Sequence",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 29842,
+  "problem_url": "https://codeforces.com/problemset/problem/1469/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1469/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1469/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1469A%20Regular%20Bracket%20Sequence%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1469/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1469A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

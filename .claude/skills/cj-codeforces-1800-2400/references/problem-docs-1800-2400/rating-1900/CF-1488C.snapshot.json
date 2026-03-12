@@ -1,0 +1,38 @@
+{
+  "id": "CF-1488C",
+  "contest_id": 1488,
+  "index": "C",
+  "name": "Two Policemen",
+  "rating": 1900,
+  "tags": [
+    "*special",
+    "binary search",
+    "brute force",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1488/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1488/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1488/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1488C%20Two Policemen%20tutorial",
+  "solved_count": 475,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1488C",
+  "hydro_meta": {
+    "page_title": "Two Policemen - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "binary search",
+      "brute force",
+      "math",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

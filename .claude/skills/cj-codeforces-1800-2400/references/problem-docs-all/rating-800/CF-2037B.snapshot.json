@@ -1,0 +1,28 @@
+{
+  "id": "CF-2037B",
+  "contest_id": 2037,
+  "index": "B",
+  "name": "Intercepted Inputs",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 25383,
+  "problem_url": "https://codeforces.com/problemset/problem/2037/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2037/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2037/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2037B%20Intercepted%20Inputs%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2037/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2037B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

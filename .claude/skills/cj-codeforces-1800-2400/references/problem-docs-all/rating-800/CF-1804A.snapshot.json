@@ -1,0 +1,28 @@
+{
+  "id": "CF-1804A",
+  "contest_id": 1804,
+  "index": "A",
+  "name": "Lame King",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 18558,
+  "problem_url": "https://codeforces.com/problemset/problem/1804/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1804/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1804/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1804A%20Lame%20King%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1804A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1804A Lame King - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 153,
+    "mirror_attempt": 200,
+    "time_limit": "1000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

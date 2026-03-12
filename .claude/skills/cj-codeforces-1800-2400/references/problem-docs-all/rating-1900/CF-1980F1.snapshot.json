@@ -1,0 +1,33 @@
+{
+  "id": "CF-1980F1",
+  "contest_id": 1980,
+  "index": "F1",
+  "name": "Field Division (easy version)",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 4340,
+  "problem_url": "https://codeforces.com/problemset/problem/1980/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1980/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1980/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1980F1%20Field%20Division%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1980F1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Field Division (easy version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "math",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

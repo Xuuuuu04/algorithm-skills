@@ -1,0 +1,33 @@
+{
+  "id": "CF-117B",
+  "contest_id": 117,
+  "index": "B",
+  "name": "Very Interesting Game",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/117/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/117/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/117/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=117B%20Very Interesting Game%20tutorial",
+  "solved_count": 1729,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P117B",
+  "hydro_meta": {
+    "page_title": "Very Interesting Game - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "number theory",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-433D",
+  "contest_id": 433,
+  "index": "D",
+  "name": "Nanami's Digital Board",
+  "rating": 2000,
+  "tags": [
+    "dsu",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/433/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/433/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/433/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=433D%20Nanami's Digital Board%20tutorial",
+  "solved_count": 1305,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P433D",
+  "hydro_meta": {
+    "page_title": "Nanami's Digital Board - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dsu",
+      "implementation",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CF-2184E",
+  "contest_id": 2184,
+  "index": "E",
+  "name": "Exquisite Array",
+  "rating": 1800,
+  "tags": [
+    "combinatorics",
+    "data structures",
+    "dsu",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2184/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2184/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2184/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2184E%20Exquisite Array%20tutorial",
+  "solved_count": 5301,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2184E",
+  "hydro_meta": {
+    "page_title": "Exquisite Array - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "data structures",
+      "dsu",
+      "sortings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

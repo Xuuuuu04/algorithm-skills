@@ -1,0 +1,28 @@
+{
+  "id": "CF-1551A",
+  "contest_id": 1551,
+  "index": "A",
+  "name": "Polycarp and Coins",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 57675,
+  "problem_url": "https://codeforces.com/problemset/problem/1551/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1551/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1551/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1551A%20Polycarp%20and%20Coins%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1551A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1551A Polycarp and Coins - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 573,
+    "mirror_attempt": 1158,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

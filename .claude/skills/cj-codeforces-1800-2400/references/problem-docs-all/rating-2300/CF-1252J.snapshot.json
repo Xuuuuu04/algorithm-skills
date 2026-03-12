@@ -1,0 +1,28 @@
+{
+  "id": "CF-1252J",
+  "contest_id": 1252,
+  "index": "J",
+  "name": "Tiling Terrace",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp"
+  ],
+  "solved_count": 780,
+  "problem_url": "https://codeforces.com/problemset/problem/1252/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/1252/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1252/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1252J%20Tiling%20Terrace%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1252/J",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1252J - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

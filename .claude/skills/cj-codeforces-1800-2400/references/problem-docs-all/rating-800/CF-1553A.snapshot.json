@@ -1,0 +1,31 @@
+{
+  "id": "CF-1553A",
+  "contest_id": 1553,
+  "index": "A",
+  "name": "Digits Sum",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 33955,
+  "problem_url": "https://codeforces.com/problemset/problem/1553/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1553/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1553/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1553A%20Digits%20Sum%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1553A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Digits Sum - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

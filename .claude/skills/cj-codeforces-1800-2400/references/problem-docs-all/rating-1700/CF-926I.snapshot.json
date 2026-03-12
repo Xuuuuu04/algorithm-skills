@@ -1,0 +1,27 @@
+{
+  "id": "CF-926I",
+  "contest_id": 926,
+  "index": "I",
+  "name": "A Vital Problem",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [],
+  "solved_count": 737,
+  "problem_url": "https://codeforces.com/problemset/problem/926/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/926/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/926/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=926I%20A%20Vital%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P926I",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "A Vital Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

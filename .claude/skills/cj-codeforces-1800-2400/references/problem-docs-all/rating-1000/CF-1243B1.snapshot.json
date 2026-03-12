@@ -1,0 +1,30 @@
+{
+  "id": "CF-1243B1",
+  "contest_id": 1243,
+  "index": "B1",
+  "name": "Character Swap (Easy Version)",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 15311,
+  "problem_url": "https://codeforces.com/problemset/problem/1243/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1243/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1243/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1243B1%20Character%20Swap%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1243B1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Character Swap (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "strings",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

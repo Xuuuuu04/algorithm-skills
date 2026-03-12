@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417190:u6SQtRFFsqMJGuZseV8Bl8vnMoGRm9x7OxAvmk2JA1M=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF760A Petr and a calendar - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF760A","type":"CF","title":"Petr and a calendar","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":231,"totalAccepted":142,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Petr and a calendar","background":null,"description":"Petr \u60f3\u4e3a\u5f53\u524d\u6708\u4efd\u5236\u4f5c\u4e00\u4e2a\u65e5\u5386\u3002\u4e3a\u6b64\uff0c\u4ed6\u7ed8\u5236\u4e86\u4e00\u4e2a\u8868\u683c\uff0c\u5176\u4e2d\u6bcf\u4e00\u5217\u5bf9\u5e94\u4e00\u5468\uff08\u6bcf\u5468\u5305\u62ec\u4ece\u661f\u671f\u4e00\u5230\u661f\u671f\u65e5\u7684\u4e03\u5929\uff09\uff0c\u6bcf\u4e00\u884c\u5bf9\u5e94\u4e00\u4e2a\u661f\u671f\u4e2d\u7684\u4e00\u5929\uff0c\u5355\u5143\u683c\u4e2d\u586b\u5199\u65e5\u671f\u3002\u4f8b\u5982\uff0c2017 \u5e74 1 \u6708\u7684\u65e5\u5386\u5e94\u5982\u4e0b\u56fe\u6240\u793a\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF760A\/70f7bb298739f0018d24699e43e0bdba58d6965c.png)\n\nPetr \u60f3\u77e5\u9053\uff0c\u7ed9\u5b9a\u4e00\u4e2a\u6708\u4efd\u548c\u8be5\u6708\u7b2c\u4e00\u5929\u662f\u661f\u671f\u51e0\uff0c\u4ed6\u7684\u8868\u683c\u5e94\u8be5\u6709\u591a\u5c11\u5217\uff1f\u5047\u8bbe\u5e74\u4efd\u4e3a\u975e\u95f0\u5e74\u3002","formatI":"\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $m$ \u548c $d$\uff08$1 \\leq m \\leq 12$\uff0c$1 \\leq d \\leq 7$\uff09\u2014\u2014\u5206\u522b\u4ee3\u8868\u6708\u4efd\u7684\u7f16\u53f7\uff081 \u8868\u793a 1 \u6708\uff0c12 \u8868\u793a 12 \u6708\uff09\u548c\u8be5\u6708\u7b2c\u4e00\u5929\u5bf9\u5e94\u7684\u661f\u671f\u51e0\uff081 \u8868\u793a\u661f\u671f\u4e00\uff0c7 \u8868\u793a\u661f\u671f\u65e5\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u8868\u683c\u5e94\u6709\u7684\u5217\u6570\u3002","hint":"\u7b2c\u4e00\u4e2a\u6837\u4f8b\u5bf9\u5e94\u63cf\u8ff0\u4e2d\u7684 2017 \u5e74 1 \u6708\u4efd\u7684\u65e5\u5386\u56fe\u7247\u3002\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c1 \u6708 1 \u65e5\u662f\u661f\u671f\u4e00\uff0c\u6574\u4e2a 1 \u6708\u53ef\u653e\u5728 5 \u5217\u5185\u3002\n\n\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c11 \u6708 1 \u65e5\u662f\u661f\u671f\u516d\uff0c5 \u5217\u5373\u53ef\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Petr and a calendar","background":"","description":"Petr wants to make a calendar for current month. For this purpose he draws a table in which columns correspond to weeks (a week is seven consequent days from Monday to Sunday), rows correspond to weekdays, and cells contain dates. For example, a calendar for January 2017 should look like on the picture:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF760A\/70f7bb298739f0018d24699e43e0bdba58d6965c.png)Petr wants to know how many columns his table should have given the month and the weekday of the first date of that month? Assume that the year is non-leap.","formatI":"The only line contain two integers $ m $ and $ d $ ( $ 1\u003C=m\u003C=12 $ , $ 1\u003C=d\u003C=7 $ ) \u2014 the number of month (January is the first month, December is the twelfth) and the weekday of the first date of this month ( $ 1 $ is Monday, $ 7 $ is Sunday).","formatO":"Print single integer: the number of columns the table should have.","hint":"The first example corresponds to the January 2017 shown on the picture in the statements.\n\nIn the second example $ 1 $ -st January is Monday, so the whole month fits into $ 5 $ columns.\n\nIn the third example $ 1 $ -st November is Saturday and $ 5 $ columns is enough.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1 7\n","6\n"],["1 1\n","5\n"],["11 6\n","5\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"760A","link":"https:\/\/codeforces.com\/problemset\/problem\/760\/A"},"translation":"# \u9898\u76ee\u63cf\u8ff0\nPETR\u8fd9\u4e2a\u4eba\u60f3\u5199\u4e00\u4e2a2017\u5e74\u4e00\u4e2a\u6708\u7684\u65e5\u671f\u8868\uff0c\u65e5\u671f\u4ece\u4e0a\u5f80\u4e0b\uff0c\u4ece\u5de6\u5f80\u53f3\u5199\u3002\u7b2c\u4e00\u884c\u4ee3\u8868\u5468\u4e00\uff0c\u7b2c\u4e8c\u884c\u4ee3\u8868\u5468\u4e8c\uff0c...\uff0c\u7b2c\u4e03\u884c\u4ee3\u8868\u5468\u65e5\u3002\u5982\uff1a2017\u5e74\u4e00\u67081\u53f7\u662f\u5468\u65e5\uff0c\u521917\u5e74\u4e00\u6708\u7684\u65e5\u5386\u5199\u6210\uff1a\n```\n  2  9 16 23 30\n  3 10 17 24 31\n  4 11 18 25\n  5 12 19 26\n  6 13 20 27\n  7 14 21 28\n1 8 15 22 29\n```\n\u4f60\u8981\u6c42\u51fa\u65e5\u5386\u6709\u51e0\u5217\u3002\n# \u8f93\u5165\u8f93\u51fa\n\u6b63\u6574\u6570m,d(1\u003C=m\u003C=12,1\u003C=d\u003C=7).\n\nm\u8868\u793a\u6708\u4efd\uff0cd\u8868\u793a\u672c\u6708\u7b2c\u4e00\u5929\u662f\u5468\u51e0\u3002\n\n\u8f93\u51fa\u65e5\u5386\u6709\u51e0\u5217\u3002"},"translations":{"en":{"name":"Petr and a calendar","background":"","description":"Petr wants to make a calendar for current month. For this purpose he draws a table in which columns correspond to weeks (a week is seven consequent days from Monday to Sunday), rows correspond to weekdays, and cells contain dates. For example, a calendar for January 2017 should look like on the picture:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF760A\/70f7bb298739f0018d24699e43e0bdba58d6965c.png)Petr wants to know how many columns his table should have given the month and the weekday of the first date of that month? Assume that the year is non-leap.","formatI":"The only line contain two integers $ m $ and $ d $ ( $ 1\u003C=m\u003C=12 $ , $ 1\u003C=d\u003C=7 $ ) \u2014 the number of month (January is the first month, December is the twelfth) and the weekday of the first date of this month ( $ 1 $ is Monday, $ 7 $ is Sunday).","formatO":"Print single integer: the number of columns the table should have.","hint":"The first example corresponds to the January 2017 shown on the picture in the statements.\n\nIn the second example $ 1 $ -st January is Monday, so the whole month fits into $ 5 $ columns.\n\nIn the third example $ 1 $ -st November is Saturday and $ 5 $ columns is enough.","locale":"en"},"zh-CN":{"name":"Petr and a calendar","background":null,"description":"Petr \u60f3\u4e3a\u5f53\u524d\u6708\u4efd\u5236\u4f5c\u4e00\u4e2a\u65e5\u5386\u3002\u4e3a\u6b64\uff0c\u4ed6\u7ed8\u5236\u4e86\u4e00\u4e2a\u8868\u683c\uff0c\u5176\u4e2d\u6bcf\u4e00\u5217\u5bf9\u5e94\u4e00\u5468\uff08\u6bcf\u5468\u5305\u62ec\u4ece\u661f\u671f\u4e00\u5230\u661f\u671f\u65e5\u7684\u4e03\u5929\uff09\uff0c\u6bcf\u4e00\u884c\u5bf9\u5e94\u4e00\u4e2a\u661f\u671f\u4e2d\u7684\u4e00\u5929\uff0c\u5355\u5143\u683c\u4e2d\u586b\u5199\u65e5\u671f\u3002\u4f8b\u5982\uff0c2017 \u5e74 1 \u6708\u7684\u65e5\u5386\u5e94\u5982\u4e0b\u56fe\u6240\u793a\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF760A\/70f7bb298739f0018d24699e43e0bdba58d6965c.png)\n\nPetr \u60f3\u77e5\u9053\uff0c\u7ed9\u5b9a\u4e00\u4e2a\u6708\u4efd\u548c\u8be5\u6708\u7b2c\u4e00\u5929\u662f\u661f\u671f\u51e0\uff0c\u4ed6\u7684\u8868\u683c\u5e94\u8be5\u6709\u591a\u5c11\u5217\uff1f\u5047\u8bbe\u5e74\u4efd\u4e3a\u975e\u95f0\u5e74\u3002","formatI":"\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $m$ \u548c $d$\uff08$1 \\leq m \\leq 12$\uff0c$1 \\leq d \\leq 7$\uff09\u2014\u2014\u5206\u522b\u4ee3\u8868\u6708\u4efd\u7684\u7f16\u53f7\uff081 \u8868\u793a 1 \u6708\uff0c12 \u8868\u793a 12 \u6708\uff09\u548c\u8be5\u6708\u7b2c\u4e00\u5929\u5bf9\u5e94\u7684\u661f\u671f\u51e0\uff081 \u8868\u793a\u661f\u671f\u4e00\uff0c7 \u8868\u793a\u661f\u671f\u65e5\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u8868\u683c\u5e94\u6709\u7684\u5217\u6570\u3002","hint":"\u7b2c\u4e00\u4e2a\u6837\u4f8b\u5bf9\u5e94\u63cf\u8ff0\u4e2d\u7684 2017 \u5e74 1 \u6708\u4efd\u7684\u65e5\u5386\u56fe\u7247\u3002\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c1 \u6708 1 \u65e5\u662f\u661f\u671f\u4e00\uff0c\u6574\u4e2a 1 \u6708\u53ef\u653e\u5728 5 \u5217\u5185\u3002\n\n\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c11 \u6708 1 \u65e5\u662f\u661f\u671f\u516d\uff0c5 \u5217\u5373\u53ef\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF760A Petr and a calendar","type":2,"slug":"CF760A","color":"orange-3"},"discussions":[{"id":621011,"title":"\u5173\u4e8eLaTeX","author":{"uid":566451,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/566451.png","name":"Sun_Email","slogan":"hello world!","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":6,"xcpcLevel":0,"background":""},"time":1687322200},{"id":192981,"title":"\u8fd9\u9898\u662f\u600e\u4e48\u5b9a\u5230\u84dd\u8272\u7684","author":{"uid":287811,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/287811.png","name":"KALY","slogan":"QAQ","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/51chf4hg.png"},"time":1582201748}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330790.442938,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF760A Petr and a calendar","description":"Petr \u60f3\u4e3a\u5f53\u524d\u6708\u4efd\u5236\u4f5c\u4e00\u4e2a\u65e5\u5386\u3002\u4e3a\u6b64\uff0c\u4ed6\u7ed8\u5236\u4e86\u4e00\u4e2a\u8868\u683c\uff0c\u5176\u4e2d\u6bcf\u4e00\u5217\u5bf9\u5e94\u4e00\u5468\uff08\u6bcf\u5468\u5305\u62ec\u4ece\u661f\u671f\u4e00\u5230\u661f\u671f\u65e5\u7684\u4e03\u5929\uff09\uff0c\u6bcf\u4e00\u884c\u5bf9\u5e94\u4e00\u4e2a\u661f\u671f\u4e2d\u7684\u4e00\u5929\uff0c\u5355\u5143\u683c\u4e2d\u586b\u5199\u65e5\u671f\u3002\u4f8b\u5982\uff0c2017 \u5e74 1 \u6708\u7684\u65e5\u5386\u5e94\u5982\u4e0b\u56fe\u6240\u793a\uff1a\n\nPetr \u60f3\u77e5\u9053\uff0c\u7ed9\u5b9a\u4e00\u4e2a\u6708\u4efd\u548c\u8be5\u6708\u7b2c\u4e00\u5929\u662f\u661f\u671f\u51e0\uff0c\u4ed6\u7684\u8868\u683c\u5e94\u8be5\u6709\u591a\u5c11\u5217\uff1f\u5047\u8bbe\u5e74\u4efd\u4e3a\u975e\u95f0\u5e74\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF760A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF760A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF760A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF760A Petr and a calendar" />
+    <meta property="og:description" content="Petr 想为当前月份制作一个日历。为此，他绘制了一个表格，其中每一列对应一周（每周包括从星期一到星期日的七天），每一行对应一个星期中的一天，单元格中填写日期。例如，2017 年 1 月的日历应如下图所示：
+
+Petr 想知道，给定一个月份和该月第一天是星期几，他的表格应该有多少列？假设年份为非闰年。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF760A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF760A Petr and a calendar</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Petr 想为当前月份制作一个日历。为此，他绘制了一个表格，其中每一列对应一周（每周包括从星期一到星期日的七天），每一行对应一个星期中的一天，单元格中填写日期。例如，2017 年 1 月的日历应如下图所示：
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF760A/70f7bb298739f0018d24699e43e0bdba58d6965c.png)
+
+Petr 想知道，给定一个月份和该月第一天是星期几，他的表格应该有多少列？假设年份为非闰年。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行包含两个整数 $m$ 和 $d$（$1 \leq m \leq 12$，$1 \leq d \leq 7$）——分别代表月份的编号（1 表示 1 月，12 表示 12 月）和该月第一天对应的星期几（1 表示星期一，7 表示星期日）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示表格应有的列数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一个样例对应描述中的 2017 年 1 月份的日历图片。
+
+第二个样例中，1 月 1 日是星期一，整个 1 月可放在 5 列内。
+
+第三个样例中，11 月 1 日是星期六，5 列即可。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

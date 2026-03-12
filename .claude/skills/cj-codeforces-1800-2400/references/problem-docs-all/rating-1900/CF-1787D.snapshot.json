@@ -1,0 +1,36 @@
+{
+  "id": "CF-1787D",
+  "contest_id": 1787,
+  "index": "D",
+  "name": "Game on Axis",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 3787,
+  "problem_url": "https://codeforces.com/problemset/problem/1787/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1787/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1787/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1787D%20Game%20on%20Axis%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1787D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Game on Axis - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dsu",
+      "graphs",
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

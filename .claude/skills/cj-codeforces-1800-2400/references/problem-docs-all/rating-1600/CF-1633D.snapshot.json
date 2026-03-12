@@ -1,0 +1,30 @@
+{
+  "id": "CF-1633D",
+  "contest_id": 1633,
+  "index": "D",
+  "name": "Make Them Equal",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 18200,
+  "problem_url": "https://codeforces.com/problemset/problem/1633/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1633/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1633/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1633D%20Make%20Them%20Equal%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1633D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Make Them Equal - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

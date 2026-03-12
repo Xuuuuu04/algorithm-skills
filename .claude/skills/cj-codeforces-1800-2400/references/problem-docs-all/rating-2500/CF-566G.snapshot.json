@@ -1,0 +1,30 @@
+{
+  "id": "CF-566G",
+  "contest_id": 566,
+  "index": "G",
+  "name": "Max and Min",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "geometry"
+  ],
+  "solved_count": 352,
+  "problem_url": "https://codeforces.com/problemset/problem/566/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/566/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/566/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=566G%20Max%20and%20Min%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P566G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Max and Min - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

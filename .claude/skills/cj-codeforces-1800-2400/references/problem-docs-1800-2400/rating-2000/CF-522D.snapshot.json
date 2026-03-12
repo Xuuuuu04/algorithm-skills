@@ -1,0 +1,33 @@
+{
+  "id": "CF-522D",
+  "contest_id": 522,
+  "index": "D",
+  "name": "Closest Equals",
+  "rating": 2000,
+  "tags": [
+    "*special",
+    "data structures"
+  ],
+  "url": "https://codeforces.com/problemset/problem/522/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/522/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/522/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=522D%20Closest Equals%20tutorial",
+  "solved_count": 3986,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P522D",
+  "hydro_meta": {
+    "page_title": "Closest Equals - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "data structures",
+      "*2000"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

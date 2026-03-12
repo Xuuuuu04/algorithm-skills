@@ -1,0 +1,14 @@
+{
+  "name": "cjoy",
+  "full_name": "cangjielanguage-sig/cjoy",
+  "html_url": "https://github.com/cangjielanguage-sig/cjoy",
+  "description": "一个高性能、可扩展、轻量、省心的仓颉应用开发框架。IoC，Rest，宏路由，Json，中间件，参数绑定与校验，文件上传下载，OAuth2，MCP......",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/cjoy/main/cjpm.toml"
+}

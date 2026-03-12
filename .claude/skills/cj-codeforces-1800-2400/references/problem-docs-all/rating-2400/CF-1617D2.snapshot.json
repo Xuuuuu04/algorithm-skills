@@ -1,0 +1,30 @@
+{
+  "id": "CF-1617D2",
+  "contest_id": 1617,
+  "index": "D2",
+  "name": "Too Many Impostors (hard version)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "interactive",
+    "math"
+  ],
+  "solved_count": 2007,
+  "problem_url": "https://codeforces.com/problemset/problem/1617/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1617/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1617/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1617D2%20Too%20Many%20Impostors%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1617/D2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1617D2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

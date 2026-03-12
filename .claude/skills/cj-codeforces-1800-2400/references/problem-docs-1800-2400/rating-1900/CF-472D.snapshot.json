@@ -1,0 +1,37 @@
+{
+  "id": "CF-472D",
+  "contest_id": 472,
+  "index": "D",
+  "name": "Design Tutorial: Inverse the Problem",
+  "rating": 1900,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "shortest paths",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/472/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/472/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/472/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=472D%20Design Tutorial: Inverse the Problem%20tutorial",
+  "solved_count": 6398,
+  "suggested_patterns": [
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P472D",
+  "hydro_meta": {
+    "page_title": "Design Tutorial: Inverse the Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dsu",
+      "shortest paths",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 27,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

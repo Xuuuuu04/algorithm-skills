@@ -1,0 +1,44 @@
+{
+  "id": "CF-1859D",
+  "contest_id": 1859,
+  "index": "D",
+  "name": "Andrey and Escape from Capygrad",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "dsu",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1859/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1859/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1859/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1859D%20Andrey and Escape from Capygrad%20tutorial",
+  "solved_count": 7895,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1859D",
+  "hydro_meta": {
+    "page_title": "Andrey and Escape from Capygrad - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "dsu",
+      "greedy",
+      "sortings",
+      "two pointers"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

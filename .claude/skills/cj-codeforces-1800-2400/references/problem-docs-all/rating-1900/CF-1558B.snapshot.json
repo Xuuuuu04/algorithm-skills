@@ -1,0 +1,37 @@
+{
+  "id": "CF-1558B",
+  "contest_id": 1558,
+  "index": "B",
+  "name": "Up the Strip",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "math",
+    "number theory",
+    "two pointers"
+  ],
+  "solved_count": 5228,
+  "problem_url": "https://codeforces.com/problemset/problem/1558/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1558/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1558/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1558B%20Up%20the%20Strip%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1558B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Up the Strip - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "math",
+      "number theory"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "6000ms",
+    "memory_limit": "128MiB"
+  }
+}

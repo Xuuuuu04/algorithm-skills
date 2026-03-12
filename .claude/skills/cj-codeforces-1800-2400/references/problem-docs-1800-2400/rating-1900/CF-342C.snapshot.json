@@ -1,0 +1,29 @@
+{
+  "id": "CF-342C",
+  "contest_id": 342,
+  "index": "C",
+  "name": "Cupboard and Balloons",
+  "rating": 1900,
+  "tags": [
+    "geometry"
+  ],
+  "url": "https://codeforces.com/problemset/problem/342/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/342/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/342/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=342C%20Cupboard and Balloons%20tutorial",
+  "solved_count": 1976,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P342C",
+  "hydro_meta": {
+    "page_title": "Cupboard and Balloons - 题目详情 - Hydro",
+    "hydro_tags": [
+      "geometry",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2140A Shift Sort - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2140A","type":"CF","title":"Shift Sort","difficulty":2,"tags":[1],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Shift Sort","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\uff0c\u4f60\u53ef\u4ee5\u5bf9\u5176\u6267\u884c\u4efb\u610f\u6b21\u6570\uff08\u5305\u62ec\u96f6\u6b21\uff09\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9 $3$ \u4e2a\u4e0b\u6807 $1 \\le i \\le j \\le k \\le n$\uff0c\u5bf9 $s_i$\u3001$s_j$\u3001$s_k$ \u7684\u503c\u8fdb\u884c\u5faa\u73af\u53f3\u79fb\u6216\u5de6\u79fb\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $110110$\uff0c\u5982\u679c\u9009\u62e9 $i=1$\u3001$j=2$\u3001$k=3$ \u5e76\u8fdb\u884c\u4e00\u6b21\u5faa\u73af\u53f3\u79fb\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a $011110$\uff1b\u5982\u679c\u9009\u62e9 $i=4$\u3001$j=5$\u3001$k=6$ \u5e76\u8fdb\u884c\u4e00\u6b21\u5faa\u73af\u5de6\u79fb\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a $110101$\u3002\n\n\u8bf7\u4f60\u8ba1\u7b97\uff0c\u5c06\u7ed9\u5b9a\u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u53d8\u4e3a\u6709\u5e8f\u6240\u9700\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002\n\n\u6ce8\uff1a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u6307\u4ec5\u7531\u5b57\u7b26 0 \u548c 1 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u4e3a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06\u7ed9\u5b9a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u53d8\u4e3a\u6709\u5e8f\u6240\u9700\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u7ed9\u5b9a\u7684\u5b57\u7b26\u4e32\u5df2\u7ecf\u662f\u6709\u5e8f\u7684\uff0c\u56e0\u6b64\u4e0d\u9700\u8981\u4efb\u4f55\u64cd\u4f5c\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u53ef\u4ee5\u9009\u62e9 $i=1$\u3001$j=2$\u3001$k=4$ \u5e76\u8fdb\u884c\u4e00\u6b21\u5faa\u73af\u53f3\u79fb\u3002\u6b64\u65f6\u5b57\u7b26\u4e32\u53d8\u4e3a $0011$\uff0c\u8fbe\u5230\u4e86\u6709\u5e8f\u72b6\u6001\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Shift Sort","background":null,"description":"You are given a binary string$^{\\text{\u2217}}$ $s$ of length $n$ and you are allowed to perform the following operation any number of times (including zero):\n\n- Choose $3$ indices $1 \\le i \\le j \\le k \\le n$ and right shift or left shift the values on $s_i$, $s_j$, $s_k$ cyclically.\n\nFor the binary string 110110, if we choose $i=1$, $j=2$, $k=3$ and perform a right shift cyclically, the string becomes 011110; if we choose $i=4$, $j=5$, $k=6$ and perform a left shift cyclically, the string becomes 110101.\n\nDetermine the minimum number of operations required to sort the given binary string.\n\n$^{\\text{\u2217}}$A binary string is a string that consists only of the characters 0 and 1.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $t$ ($1 \\le t \\le 100$). The description of the test cases follows.\n\nThe first line of each test case contains a single integer $n$ ($3 \\le n \\le 100$) \u2014 the length of the string.\n\nThe second line contains a binary string $s$ of length $n$.","formatO":"For each test case, output a single integer \u2014 the minimum number of operations required to sort the given binary string.","hint":"For the first test case, the given string is already sorted. So, no operations are needed.\n\nFor the second test case, we can choose $i = 1$, $j = 2$, $k = 4$ and perform a right shift cyclically. The string becomes equal to 0011, which is sorted.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n3\n001\n4\n0110\n6\n110100\n6\n101011","0\n1\n2\n1"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2140A","link":"https:\/\/codeforces.com\/problemset\/problem\/2140\/A"},"translation":null},"translations":{"en":{"name":"Shift Sort","background":null,"description":"You are given a binary string$^{\\text{\u2217}}$ $s$ of length $n$ and you are allowed to perform the following operation any number of times (including zero):\n\n- Choose $3$ indices $1 \\le i \\le j \\le k \\le n$ and right shift or left shift the values on $s_i$, $s_j$, $s_k$ cyclically.\n\nFor the binary string 110110, if we choose $i=1$, $j=2$, $k=3$ and perform a right shift cyclically, the string becomes 011110; if we choose $i=4$, $j=5$, $k=6$ and perform a left shift cyclically, the string becomes 110101.\n\nDetermine the minimum number of operations required to sort the given binary string.\n\n$^{\\text{\u2217}}$A binary string is a string that consists only of the characters 0 and 1.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $t$ ($1 \\le t \\le 100$). The description of the test cases follows.\n\nThe first line of each test case contains a single integer $n$ ($3 \\le n \\le 100$) \u2014 the length of the string.\n\nThe second line contains a binary string $s$ of length $n$.","formatO":"For each test case, output a single integer \u2014 the minimum number of operations required to sort the given binary string.","hint":"For the first test case, the given string is already sorted. So, no operations are needed.\n\nFor the second test case, we can choose $i = 1$, $j = 2$, $k = 4$ and perform a right shift cyclically. The string becomes equal to 0011, which is sorted.","locale":"en"},"zh-CN":{"name":"Shift Sort","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\uff0c\u4f60\u53ef\u4ee5\u5bf9\u5176\u6267\u884c\u4efb\u610f\u6b21\u6570\uff08\u5305\u62ec\u96f6\u6b21\uff09\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9 $3$ \u4e2a\u4e0b\u6807 $1 \\le i \\le j \\le k \\le n$\uff0c\u5bf9 $s_i$\u3001$s_j$\u3001$s_k$ \u7684\u503c\u8fdb\u884c\u5faa\u73af\u53f3\u79fb\u6216\u5de6\u79fb\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $110110$\uff0c\u5982\u679c\u9009\u62e9 $i=1$\u3001$j=2$\u3001$k=3$ \u5e76\u8fdb\u884c\u4e00\u6b21\u5faa\u73af\u53f3\u79fb\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a $011110$\uff1b\u5982\u679c\u9009\u62e9 $i=4$\u3001$j=5$\u3001$k=6$ \u5e76\u8fdb\u884c\u4e00\u6b21\u5faa\u73af\u5de6\u79fb\uff0c\u5b57\u7b26\u4e32\u53d8\u4e3a $110101$\u3002\n\n\u8bf7\u4f60\u8ba1\u7b97\uff0c\u5c06\u7ed9\u5b9a\u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u53d8\u4e3a\u6709\u5e8f\u6240\u9700\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002\n\n\u6ce8\uff1a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u6307\u4ec5\u7531\u5b57\u7b26 0 \u548c 1 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u4e3a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5c06\u7ed9\u5b9a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u53d8\u4e3a\u6709\u5e8f\u6240\u9700\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u7ed9\u5b9a\u7684\u5b57\u7b26\u4e32\u5df2\u7ecf\u662f\u6709\u5e8f\u7684\uff0c\u56e0\u6b64\u4e0d\u9700\u8981\u4efb\u4f55\u64cd\u4f5c\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u53ef\u4ee5\u9009\u62e9 $i=1$\u3001$j=2$\u3001$k=4$ \u5e76\u8fdb\u884c\u4e00\u6b21\u5faa\u73af\u53f3\u79fb\u3002\u6b64\u65f6\u5b57\u7b26\u4e32\u53d8\u4e3a $0011$\uff0c\u8fbe\u5230\u4e86\u6709\u5e8f\u72b6\u6001\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2140A Shift Sort","type":2,"slug":"CF2140A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.159011,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2140A Shift Sort","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 s\uff0c\u4f60\u53ef\u4ee5\u5bf9\u5176\u6267\u884c\u4efb\u610f\u6b21\u6570\uff08\u5305\u62ec\u96f6\u6b21\uff09\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n\u9009\u62e9 3 \u4e2a\u4e0b\u6807 1 \\le i \\le j \\le k \\le n\uff0c\u5bf9 s_i\u3001s_j\u3001s_k \u7684\u503c\u8fdb\u884c\u5faa\u73af\u53f3\u79fb\u6216\u5de6\u79fb\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 110110\uff0c\u5982\u679c\u9009\u62e9\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2140A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2140A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2140A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2140A Shift Sort" />
+    <meta property="og:description" content="给定一个长度为 n 的二进制字符串 s，你可以对其执行任意次数（包括零次）以下操作：
+
+选择 3 个下标 1 \le i \le j \le k \le n，对 s_i、s_j、s_k 的值进行循环右移或左移。
+
+例如，对于二进制字符串 110110，如果选择…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2140A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2140A Shift Sort</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个长度为 $n$ 的二进制字符串 $s$，你可以对其执行任意次数（包括零次）以下操作：
+
+- 选择 $3$ 个下标 $1 \le i \le j \le k \le n$，对 $s_i$、$s_j$、$s_k$ 的值进行循环右移或左移。
+
+例如，对于二进制字符串 $110110$，如果选择 $i=1$、$j=2$、$k=3$ 并进行一次循环右移，字符串变为 $011110$；如果选择 $i=4$、$j=5$、$k=6$ 并进行一次循环左移，字符串变为 $110101$。
+
+请你计算，将给定的二进制字符串变为有序所需的最小操作次数。
+
+注：二进制字符串指仅由字符 0 和 1 组成的字符串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每组测试数据包含多组测试用例。第一行包含一个整数 $t$（$1 \le t \le 100$），表示测试用例的组数。
+
+每组测试用例的第一行为一个整数 $n$（$3 \le n \le 100$），表示字符串的长度。
+
+第二行为一个长度为 $n$ 的二进制字符串 $s$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试用例，输出一个整数，表示将给定二进制字符串变为有序所需的最小操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于第一个测试用例，给定的字符串已经是有序的，因此不需要任何操作。
+
+对于第二个测试用例，可以选择 $i=1$、$j=2$、$k=4$ 并进行一次循环右移。此时字符串变为 $0011$，达到了有序状态。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

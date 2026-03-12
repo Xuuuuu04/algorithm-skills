@@ -1,0 +1,31 @@
+{
+  "id": "CF-1867F",
+  "contest_id": 1867,
+  "index": "F",
+  "name": "Most Different Tree",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dfs and similar",
+    "greedy",
+    "hashing"
+  ],
+  "solved_count": 496,
+  "problem_url": "https://codeforces.com/problemset/problem/1867/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1867/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1867/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1867F%20Most%20Different%20Tree%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1867F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1867F Most Different Tree - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 70,
+    "mirror_attempt": 163,
+    "time_limit": "4000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

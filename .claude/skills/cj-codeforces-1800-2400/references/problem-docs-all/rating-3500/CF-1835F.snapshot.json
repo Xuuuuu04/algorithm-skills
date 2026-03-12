@@ -1,0 +1,38 @@
+{
+  "id": "CF-1835F",
+  "contest_id": 1835,
+  "index": "F",
+  "name": "Good Graph",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "bitmasks",
+    "dfs and similar",
+    "graph matchings",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 226,
+  "problem_url": "https://codeforces.com/problemset/problem/1835/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1835/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1835/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1835F%20Good%20Graph%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1835F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Good Graph - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "dfs and similar",
+      "graph matchings",
+      "graphs",
+      "implementation",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "7000ms",
+    "memory_limit": "256MiB"
+  }
+}

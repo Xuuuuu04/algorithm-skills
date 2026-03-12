@@ -1,0 +1,30 @@
+{
+  "id": "CF-780C",
+  "contest_id": 780,
+  "index": "C",
+  "name": "Andryusha and Colored Balloons",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 9922,
+  "problem_url": "https://codeforces.com/problemset/problem/780/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/780/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/780/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=780C%20Andryusha%20and%20Colored%20Balloons%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/780/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 780C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

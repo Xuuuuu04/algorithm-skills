@@ -1,0 +1,42 @@
+{
+  "id": "CF-960E",
+  "contest_id": 960,
+  "index": "E",
+  "name": "Alternating Tree",
+  "rating": 2300,
+  "tags": [
+    "combinatorics",
+    "dfs and similar",
+    "divide and conquer",
+    "dp",
+    "probabilities",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/960/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/960/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/960/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=960E%20Alternating Tree%20tutorial",
+  "solved_count": 2209,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P960E",
+  "hydro_meta": {
+    "page_title": "Alternating Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dfs and similar",
+      "divide and conquer",
+      "dp",
+      "probabilities",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

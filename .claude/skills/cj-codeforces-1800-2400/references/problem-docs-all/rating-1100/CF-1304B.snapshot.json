@@ -1,0 +1,31 @@
+{
+  "id": "CF-1304B",
+  "contest_id": 1304,
+  "index": "B",
+  "name": "Longest Palindrome",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 18704,
+  "problem_url": "https://codeforces.com/problemset/problem/1304/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1304/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1304/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1304B%20Longest%20Palindrome%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1304/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1304B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

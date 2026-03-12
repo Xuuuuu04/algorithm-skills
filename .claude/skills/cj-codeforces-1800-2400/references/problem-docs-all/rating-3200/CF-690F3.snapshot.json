@@ -1,0 +1,30 @@
+{
+  "id": "CF-690F3",
+  "contest_id": 690,
+  "index": "F3",
+  "name": "Tree of Life (hard)",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "trees"
+  ],
+  "solved_count": 58,
+  "problem_url": "https://codeforces.com/problemset/problem/690/F3",
+  "answer_index_url": "https://codeforces.com/problemset/status/690/problem/F3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/690/problem/F3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=690F3%20Tree%20of%20Life%20%28hard%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P690F3",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Tree of Life (hard) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "trees",
+      "*3200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "8000ms",
+    "memory_limit": "256MiB"
+  }
+}

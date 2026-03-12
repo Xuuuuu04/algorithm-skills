@@ -1,0 +1,32 @@
+{
+  "id": "CF-935F",
+  "contest_id": 935,
+  "index": "F",
+  "name": "Fafa and Array",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 423,
+  "problem_url": "https://codeforces.com/problemset/problem/935/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/935/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/935/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=935F%20Fafa%20and%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P935F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Fafa and Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

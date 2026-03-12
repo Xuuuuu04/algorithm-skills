@@ -1,0 +1,30 @@
+{
+  "id": "CF-1498B",
+  "contest_id": 1498,
+  "index": "B",
+  "name": "Box Fitting",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 22697,
+  "problem_url": "https://codeforces.com/problemset/problem/1498/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1498/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1498/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1498B%20Box%20Fitting%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1498/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1498B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

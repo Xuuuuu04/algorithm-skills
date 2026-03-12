@@ -1,0 +1,42 @@
+{
+  "id": "CF-2049E",
+  "contest_id": 2049,
+  "index": "E",
+  "name": "Broken Queries",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "brute force",
+    "constructive algorithms",
+    "implementation",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2049/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2049/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2049/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2049E%20Broken Queries%20tutorial",
+  "solved_count": 1564,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2049E",
+  "hydro_meta": {
+    "page_title": "Broken Queries - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "interactive",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

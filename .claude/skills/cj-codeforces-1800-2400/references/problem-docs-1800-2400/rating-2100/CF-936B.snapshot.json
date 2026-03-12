@@ -1,0 +1,38 @@
+{
+  "id": "CF-936B",
+  "contest_id": 936,
+  "index": "B",
+  "name": "Sleepy Game",
+  "rating": 2100,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "games",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/936/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/936/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/936/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=936B%20Sleepy Game%20tutorial",
+  "solved_count": 3391,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P936B",
+  "hydro_meta": {
+    "page_title": "Sleepy Game - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "games",
+      "graphs",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

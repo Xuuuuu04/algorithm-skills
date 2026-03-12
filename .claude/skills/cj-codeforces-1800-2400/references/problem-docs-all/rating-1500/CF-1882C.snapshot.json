@@ -1,0 +1,31 @@
+{
+  "id": "CF-1882C",
+  "contest_id": 1882,
+  "index": "C",
+  "name": "Card Game",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "greedy"
+  ],
+  "solved_count": 14338,
+  "problem_url": "https://codeforces.com/problemset/problem/1882/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1882/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1882/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1882C%20Card%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1882C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Card Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1620E",
+  "contest_id": 1620,
+  "index": "E",
+  "name": "Replace the Numbers",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "dsu",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1620/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1620/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1620/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1620E%20Replace the Numbers%20tutorial",
+  "solved_count": 9536,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1620E",
+  "hydro_meta": {
+    "page_title": "Replace the Numbers - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dsu",
+      "trees"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

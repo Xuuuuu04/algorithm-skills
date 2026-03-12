@@ -1,0 +1,31 @@
+{
+  "id": "CF-1706D1",
+  "contest_id": 1706,
+  "index": "D1",
+  "name": "Chopping Carrots (Easy Version)",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "number theory"
+  ],
+  "solved_count": 7653,
+  "problem_url": "https://codeforces.com/problemset/problem/1706/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1706/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1706/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1706D1%20Chopping%20Carrots%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1706/D1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1706D1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "64 megabytes"
+  }
+}

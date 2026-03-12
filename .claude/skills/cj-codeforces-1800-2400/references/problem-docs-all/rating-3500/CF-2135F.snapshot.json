@@ -1,0 +1,30 @@
+{
+  "id": "CF-2135F",
+  "contest_id": 2135,
+  "index": "F",
+  "name": "To the Infinity",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "data structures",
+    "hashing",
+    "math",
+    "trees"
+  ],
+  "solved_count": 204,
+  "problem_url": "https://codeforces.com/problemset/problem/2135/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2135/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2135/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2135F%20To%20the%20Infinity%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2135/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2135F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-2096B",
+  "contest_id": 2096,
+  "index": "B",
+  "name": "Wonderful Gloves",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 16343,
+  "problem_url": "https://codeforces.com/problemset/problem/2096/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2096/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2096/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2096B%20Wonderful%20Gloves%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2096/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2096B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

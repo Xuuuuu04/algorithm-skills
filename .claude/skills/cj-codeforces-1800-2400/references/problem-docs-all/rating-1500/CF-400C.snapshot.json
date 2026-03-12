@@ -1,0 +1,28 @@
+{
+  "id": "CF-400C",
+  "contest_id": 400,
+  "index": "C",
+  "name": "Inna and Huge Candy Matrix",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 2995,
+  "problem_url": "https://codeforces.com/problemset/problem/400/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/400/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/400/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=400C%20Inna%20and%20Huge%20Candy%20Matrix%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/400/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 400C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

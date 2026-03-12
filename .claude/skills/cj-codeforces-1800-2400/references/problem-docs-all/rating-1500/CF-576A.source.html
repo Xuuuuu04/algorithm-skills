@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF576A Vasya and Petya&#039;s Game - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF576A","type":"CF","title":"Vasya and Petya\u0027s Game","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":218,"totalAccepted":111,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Vasya and Petya\u0027s Game","background":null,"description":"Vasya \u548c Petya \u6b63\u5728\u73a9\u4e00\u4e2a\u7b80\u5355\u7684\u6e38\u620f\u3002Vasya \u60f3\u4e86\u4e00\u4e2a $x$\uff0c\u8fd9\u4e2a\u6570\u5728 $1$ \u5230 $n$ \u4e4b\u95f4\uff0cPetya \u8981\u731c\u51fa\u8fd9\u4e2a\u6570\u3002\n\nPetya \u53ef\u4ee5\u95ee\u8fd9\u6837\u7684\u95ee\u9898\uff1a\u201c\u672a\u77e5\u7684\u6570\u662f\u5426\u80fd\u88ab $y$ \u6574\u9664\uff1f\u201d\u3002\n\n\u6e38\u620f\u7684\u89c4\u5219\u5982\u4e0b\uff1a\u9996\u5148\uff0cPetya \u53ef\u4ee5\u4e00\u6b21\u6027\u63d0\u51fa\u4ed6\u611f\u5174\u8da3\u7684\u6240\u6709\u95ee\u9898\uff08\u4ed6\u4e5f\u53ef\u4ee5\u4e00\u4e2a\u95ee\u9898\u90fd\u4e0d\u95ee\uff09\uff0c\u7136\u540e Vasya \u9488\u5bf9\u6bcf\u4e2a\u95ee\u9898\u5206\u522b\u56de\u7b54\u201c\u662f\u201d\u6216\u201c\u5426\u201d\u3002\u5728\u5f97\u5230\u6240\u6709\u7b54\u6848\u540e\uff0cPetya \u987b\u786e\u5b9a Vasya \u60f3\u5230\u7684\u662f\u54ea\u4e2a\u6570\u3002\n\n\u53ef\u60dc\u7684\u662f\uff0cPetya \u4e0d\u719f\u6089\u6570\u8bba\u3002\u8bf7\u4f60\u5e2e\u4ed6\u627e\u51fa\uff0c\u4fdd\u8bc1\u80fd\u731c\u51fa Vasya \u60f3\u5230\u7684\u6570\u6240\u9700\u7684\u6700\u5c11\u95ee\u9898\u6570\uff0c\u5e76\u7ed9\u51fa\u90a3\u4e9b $y_i$\uff0c\u5373\u4ed6\u5e94\u8be5\u95ee\u9898\u7684\u5185\u5bb9\u3002","formatI":"\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 10^{3}$\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $k$\uff0c\u4ee3\u8868\u6240\u9700\u95ee\u9898\u7684\u6570\u91cf\uff08$0 \\leq k \\leq n$\uff09\uff0c\u63a5\u7740\u8f93\u51fa $k$ \u4e2a\u6574\u6570\uff0c\u5206\u522b\u4ee3\u8868\u6bcf\u4e2a\u95ee\u9898\u4e2d\u7684 $y_i$\uff08$1 \\leq y_i \\leq n$\uff09\u3002\n\n\u5982\u679c\u5b58\u5728\u591a\u79cd\u6700\u4f18\u65b9\u6848\uff0c\u4f60\u53ef\u4ee5\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u3002","hint":"\u7b2c\u4e00\u7ec4\u6837\u4f8b\u9898\u89e3\u4e2d\u7684\u95ee\u9898\u5e8f\u5217\u5b9e\u9645\u4e0a\u662f\u6b63\u786e\u7684\u3002\n\n\u5982\u679c\u672a\u77e5\u6570\u4e0d\u80fd\u88ab\u5e8f\u5217\u4e2d\u7684\u4efb\u610f\u4e00\u4e2a\u6570\u6574\u9664\uff0c\u90a3\u4e48\u5b83\u7b49\u4e8e $1$\u3002\n\n\u5982\u679c\u672a\u77e5\u6570\u53ef\u4ee5\u88ab $4$ \u6574\u9664\uff0c\u90a3\u4e48\u5b83\u7b49\u4e8e $4$\u3002\n\n\u5982\u679c\u672a\u77e5\u6570\u53ef\u4ee5\u88ab $3$ \u6574\u9664\uff0c\u90a3\u5b83\u7b49\u4e8e $3$\u3002\n\n\u5426\u5219\uff0c\u5b83\u7b49\u4e8e $2$\u3002\u56e0\u6b64\uff0c\u8fd9\u6837\u7684\u95ee\u9898\u5e8f\u5217\u80fd\u5e2e\u52a9\u4f60\u731c\u51fa\u672a\u77e5\u6570\u3002\u53ef\u4ee5\u8bc1\u660e\u957f\u5ea6\u4e3a $2$ \u6216\u66f4\u77ed\u7684\u95ee\u9898\u5e8f\u5217\u90fd\u4e0d\u53ef\u80fd\u505a\u5230\u8fd9\u4e00\u70b9\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Vasya and Petya\u0027s Game","background":"","description":"Vasya and Petya are playing a simple game. Vasya thought of number $ x $ between $ 1 $ and $ n $ , and Petya tries to guess the number.\n\nPetya can ask questions like: \u0022Is the unknown number divisible by number $ y $ ?\u0022.\n\nThe game is played by the following rules: first Petya asks all the questions that interest him (also, he can ask no questions), and then Vasya responds to each question with a \u0027yes\u0027 or a \u0027no\u0027. After receiving all the answers Petya should determine the number that Vasya thought of.\n\nUnfortunately, Petya is not familiar with the number theory. Help him find the minimum number of questions he should ask to make a guaranteed guess of Vasya\u0027s number, and the numbers $ y_{i} $ , he should ask the questions about.","formatI":"A single line contains number $ n $ ( $ 1\u003C=n\u003C=10^{3} $ ).","formatO":"Print the length of the sequence of questions $ k $ ( $ 0\u003C=k\u003C=n $ ), followed by $ k $ numbers \u2014 the questions $ y_{i} $ ( $ 1\u003C=y_{i}\u003C=n $ ).\n\nIf there are several correct sequences of questions of the minimum length, you are allowed to print any of them.","hint":"The sequence from the answer to the first sample test is actually correct.\n\nIf the unknown number is not divisible by one of the sequence numbers, it is equal to $ 1 $ .\n\nIf the unknown number is divisible by $ 4 $ , it is $ 4 $ .\n\nIf the unknown number is divisible by $ 3 $ , then the unknown number is $ 3 $ .\n\nOtherwise, it is equal to $ 2 $ . Therefore, the sequence of questions allows you to guess the unknown number. It can be shown that there is no correct sequence of questions of length 2 or shorter.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n","3\n2 4 3 \n"],["6\n","4\n2 4 3 5 \n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"576A","link":"https:\/\/codeforces.com\/problemset\/problem\/576\/A"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5b57 $n$\uff0c\u73b0\u5728 Vasya \u8981\u4ece $1\\sim n$ \u4e2d\u60f3\u4e00\u4e2a\u6570\u5b57 $x$\u3002\n\nPetya \u5411 Vasya \u8be2\u95ee \u201c$x$ \u662f\u5426\u80fd\u6574\u9664 $y$?\u201d \uff0c\u901a\u8fc7 Vasya \u7684\u56de\u7b54\u6765\u5224\u65ad $x$ \u7684\u7b54\u6848\u3002\n\nPetya \u7684\u95ee\u9898\u4e00\u5f00\u59cb\u5c31\u5df2\u7ecf\u51c6\u5907\u597d\uff0c**\u4ed6\u5fc5\u987b\u5c06\u6240\u6709\u95ee\u9898\u90fd\u95ee\u4e00\u904d**\uff0c\u4e0d\u7ba1\u4ed6\u5f53\u524d\u9700\u4e0d\u9700\u8981\u95ee\u3002\n\n\u4ed6\u60f3\u77e5\u9053\u65e0\u8bba Vasya \u60f3\u51fa\u4efb\u4f55\u7684 $x$\uff0c\n\u6700\u5c11\u8981\u51c6\u5907\u591a\u5c11\u6b21\u8be2\u95ee $y$ \u7684\u95ee\u9898\u624d\u80fd\u731c\u4e2d $x$\uff0c\u5e76\u8f93\u51fa\u4e00\u7ec4\u5177\u4f53\u65b9\u6848\u3002\n\n$n\\leq 1000$"},"translations":{"en":{"name":"Vasya and Petya\u0027s Game","background":"","description":"Vasya and Petya are playing a simple game. Vasya thought of number $ x $ between $ 1 $ and $ n $ , and Petya tries to guess the number.\n\nPetya can ask questions like: \u0022Is the unknown number divisible by number $ y $ ?\u0022.\n\nThe game is played by the following rules: first Petya asks all the questions that interest him (also, he can ask no questions), and then Vasya responds to each question with a \u0027yes\u0027 or a \u0027no\u0027. After receiving all the answers Petya should determine the number that Vasya thought of.\n\nUnfortunately, Petya is not familiar with the number theory. Help him find the minimum number of questions he should ask to make a guaranteed guess of Vasya\u0027s number, and the numbers $ y_{i} $ , he should ask the questions about.","formatI":"A single line contains number $ n $ ( $ 1\u003C=n\u003C=10^{3} $ ).","formatO":"Print the length of the sequence of questions $ k $ ( $ 0\u003C=k\u003C=n $ ), followed by $ k $ numbers \u2014 the questions $ y_{i} $ ( $ 1\u003C=y_{i}\u003C=n $ ).\n\nIf there are several correct sequences of questions of the minimum length, you are allowed to print any of them.","hint":"The sequence from the answer to the first sample test is actually correct.\n\nIf the unknown number is not divisible by one of the sequence numbers, it is equal to $ 1 $ .\n\nIf the unknown number is divisible by $ 4 $ , it is $ 4 $ .\n\nIf the unknown number is divisible by $ 3 $ , then the unknown number is $ 3 $ .\n\nOtherwise, it is equal to $ 2 $ . Therefore, the sequence of questions allows you to guess the unknown number. It can be shown that there is no correct sequence of questions of length 2 or shorter.","locale":"en"},"zh-CN":{"name":"Vasya and Petya\u0027s Game","background":null,"description":"Vasya \u548c Petya \u6b63\u5728\u73a9\u4e00\u4e2a\u7b80\u5355\u7684\u6e38\u620f\u3002Vasya \u60f3\u4e86\u4e00\u4e2a $x$\uff0c\u8fd9\u4e2a\u6570\u5728 $1$ \u5230 $n$ \u4e4b\u95f4\uff0cPetya \u8981\u731c\u51fa\u8fd9\u4e2a\u6570\u3002\n\nPetya \u53ef\u4ee5\u95ee\u8fd9\u6837\u7684\u95ee\u9898\uff1a\u201c\u672a\u77e5\u7684\u6570\u662f\u5426\u80fd\u88ab $y$ \u6574\u9664\uff1f\u201d\u3002\n\n\u6e38\u620f\u7684\u89c4\u5219\u5982\u4e0b\uff1a\u9996\u5148\uff0cPetya \u53ef\u4ee5\u4e00\u6b21\u6027\u63d0\u51fa\u4ed6\u611f\u5174\u8da3\u7684\u6240\u6709\u95ee\u9898\uff08\u4ed6\u4e5f\u53ef\u4ee5\u4e00\u4e2a\u95ee\u9898\u90fd\u4e0d\u95ee\uff09\uff0c\u7136\u540e Vasya \u9488\u5bf9\u6bcf\u4e2a\u95ee\u9898\u5206\u522b\u56de\u7b54\u201c\u662f\u201d\u6216\u201c\u5426\u201d\u3002\u5728\u5f97\u5230\u6240\u6709\u7b54\u6848\u540e\uff0cPetya \u987b\u786e\u5b9a Vasya \u60f3\u5230\u7684\u662f\u54ea\u4e2a\u6570\u3002\n\n\u53ef\u60dc\u7684\u662f\uff0cPetya \u4e0d\u719f\u6089\u6570\u8bba\u3002\u8bf7\u4f60\u5e2e\u4ed6\u627e\u51fa\uff0c\u4fdd\u8bc1\u80fd\u731c\u51fa Vasya \u60f3\u5230\u7684\u6570\u6240\u9700\u7684\u6700\u5c11\u95ee\u9898\u6570\uff0c\u5e76\u7ed9\u51fa\u90a3\u4e9b $y_i$\uff0c\u5373\u4ed6\u5e94\u8be5\u95ee\u9898\u7684\u5185\u5bb9\u3002","formatI":"\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 10^{3}$\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $k$\uff0c\u4ee3\u8868\u6240\u9700\u95ee\u9898\u7684\u6570\u91cf\uff08$0 \\leq k \\leq n$\uff09\uff0c\u63a5\u7740\u8f93\u51fa $k$ \u4e2a\u6574\u6570\uff0c\u5206\u522b\u4ee3\u8868\u6bcf\u4e2a\u95ee\u9898\u4e2d\u7684 $y_i$\uff08$1 \\leq y_i \\leq n$\uff09\u3002\n\n\u5982\u679c\u5b58\u5728\u591a\u79cd\u6700\u4f18\u65b9\u6848\uff0c\u4f60\u53ef\u4ee5\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u3002","hint":"\u7b2c\u4e00\u7ec4\u6837\u4f8b\u9898\u89e3\u4e2d\u7684\u95ee\u9898\u5e8f\u5217\u5b9e\u9645\u4e0a\u662f\u6b63\u786e\u7684\u3002\n\n\u5982\u679c\u672a\u77e5\u6570\u4e0d\u80fd\u88ab\u5e8f\u5217\u4e2d\u7684\u4efb\u610f\u4e00\u4e2a\u6570\u6574\u9664\uff0c\u90a3\u4e48\u5b83\u7b49\u4e8e $1$\u3002\n\n\u5982\u679c\u672a\u77e5\u6570\u53ef\u4ee5\u88ab $4$ \u6574\u9664\uff0c\u90a3\u4e48\u5b83\u7b49\u4e8e $4$\u3002\n\n\u5982\u679c\u672a\u77e5\u6570\u53ef\u4ee5\u88ab $3$ \u6574\u9664\uff0c\u90a3\u5b83\u7b49\u4e8e $3$\u3002\n\n\u5426\u5219\uff0c\u5b83\u7b49\u4e8e $2$\u3002\u56e0\u6b64\uff0c\u8fd9\u6837\u7684\u95ee\u9898\u5e8f\u5217\u80fd\u5e2e\u52a9\u4f60\u731c\u51fa\u672a\u77e5\u6570\u3002\u53ef\u4ee5\u8bc1\u660e\u957f\u5ea6\u4e3a $2$ \u6216\u66f4\u77ed\u7684\u95ee\u9898\u5e8f\u5217\u90fd\u4e0d\u53ef\u80fd\u505a\u5230\u8fd9\u4e00\u70b9\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF576A Vasya and Petya\u0027s Game","type":2,"slug":"CF576A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.423781,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF576A Vasya and Petya's Game","description":"Vasya \u548c Petya \u6b63\u5728\u73a9\u4e00\u4e2a\u7b80\u5355\u7684\u6e38\u620f\u3002Vasya \u60f3\u4e86\u4e00\u4e2a x\uff0c\u8fd9\u4e2a\u6570\u5728 1 \u5230 n \u4e4b\u95f4\uff0cPetya \u8981\u731c\u51fa\u8fd9\u4e2a\u6570\u3002\nPetya \u53ef\u4ee5\u95ee\u8fd9\u6837\u7684\u95ee\u9898\uff1a\u201c\u672a\u77e5\u7684\u6570\u662f\u5426\u80fd\u88ab y \u6574\u9664\uff1f\u201d\u3002\n\u6e38\u620f\u7684\u89c4\u5219\u5982\u4e0b\uff1a\u9996\u5148\uff0cPetya \u53ef\u4ee5\u4e00\u6b21\u6027\u63d0\u51fa\u4ed6\u611f\u5174\u8da3\u7684\u6240\u6709\u95ee\u9898\uff08\u4ed6\u4e5f\u53ef\u4ee5\u4e00\u4e2a\u95ee\u9898\u90fd\u4e0d\u95ee\uff09\uff0c\u7136\u540e\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF576A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF576A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF576A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF576A Vasya and Petya&#039;s Game" />
+    <meta property="og:description" content="Vasya 和 Petya 正在玩一个简单的游戏。Vasya 想了一个 x，这个数在 1 到 n 之间，Petya 要猜出这个数。
+Petya 可以问这样的问题：“未知的数是否能被 y 整除？”。
+游戏的规则如下：首先，Petya 可以一次性提出他感兴趣的所有问题（他也可以一个问题都不问），然后…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF576A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF576A Vasya and Petya&#039;s Game</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Vasya 和 Petya 正在玩一个简单的游戏。Vasya 想了一个 $x$，这个数在 $1$ 到 $n$ 之间，Petya 要猜出这个数。
+
+Petya 可以问这样的问题：“未知的数是否能被 $y$ 整除？”。
+
+游戏的规则如下：首先，Petya 可以一次性提出他感兴趣的所有问题（他也可以一个问题都不问），然后 Vasya 针对每个问题分别回答“是”或“否”。在得到所有答案后，Petya 须确定 Vasya 想到的是哪个数。
+
+可惜的是，Petya 不熟悉数论。请你帮他找出，保证能猜出 Vasya 想到的数所需的最少问题数，并给出那些 $y_i$，即他应该问题的内容。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行一个整数 $n$（$1 \leq n \leq 10^{3}$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数 $k$，代表所需问题的数量（$0 \leq k \leq n$），接着输出 $k$ 个整数，分别代表每个问题中的 $y_i$（$1 \leq y_i \leq n$）。
+
+如果存在多种最优方案，你可以输出任意一种。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一组样例题解中的问题序列实际上是正确的。
+
+如果未知数不能被序列中的任意一个数整除，那么它等于 $1$。
+
+如果未知数可以被 $4$ 整除，那么它等于 $4$。
+
+如果未知数可以被 $3$ 整除，那它等于 $3$。
+
+否则，它等于 $2$。因此，这样的问题序列能帮助你猜出未知数。可以证明长度为 $2$ 或更短的问题序列都不可能做到这一点。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

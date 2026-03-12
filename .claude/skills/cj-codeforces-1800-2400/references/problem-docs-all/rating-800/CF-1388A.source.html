@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1388A Captain Flint and Crew Recruitment - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1388A","type":"CF","title":"Captain Flint and Crew Recruitment","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":409,"totalAccepted":200,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Captain Flint and Crew Recruitment","background":"","description":"\u5982\u679c\u4e00\u4e2a\u6b63\u6574\u6570\u80fd\u5199\u6210\u4e24\u4e2a\u4e0d\u540c\u8d28\u6570\u7684\u79ef\uff0c\u90a3\u4e48\u6211\u4eec\u79f0\u5b83\u4e3a\u7c7b\u8d28\u6570\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u81ea\u7136\u6570 $n$\uff0c\u8bf7\u95ee\u662f\u5426\u80fd\u5c06 $n$ \u5199\u6210\u56db\u4e2a**\u4e92\u4e0d\u76f8\u540c**\u7684\u6b63\u6574\u6570\u7684\u548c\uff0c\u5e76\u6ee1\u8db3\u8fd9\u56db\u4e2a\u6b63\u6574\u6570\u4e2d**\u81f3\u5c11**\u6709\u4e09\u4e2a\u662f\u7c7b\u8d28\u6570\u3002\u5982\u679c\u80fd\uff0c\u8bf7\u7ed9\u51fa\u4e00\u79cd\u65b9\u6848\u3002","formatI":"**\u672c\u9898\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002**\n\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $T$ $(1 \\le T \\le 1000)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765 $T$ \u884c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570 $n(1 \\le n \\le 2\\times10^5)$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u82e5\u4e0d\u80fd\u88ab\u5206\u89e3\u6210\u6ee1\u8db3\u8981\u6c42\u7684\u56db\u4e2a\u6b63\u6574\u6570\uff0c\u5355\u72ec\u8f93\u51fa\u4e00\u884c `NO`\u3002\n\n\u5426\u5219\u7b2c\u4e00\u884c\u8f93\u51fa `YES`\uff0c\u7b2c\u4e8c\u884c\u8f93\u51fa\u4ee5\u5355\u4e2a\u7a7a\u683c\u5206\u9694\u7684\u56db\u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u4e00\u79cd\u53ef\u884c\u65b9\u6848\u3002\n\nTranslated by [cmll02](https:\/\/www.luogu.com.cn\/user\/171487)","hint":"","locale":"zh-CN"},"content":{"name":"Captain Flint and Crew Recruitment","background":"","description":"Despite his bad reputation, Captain Flint is a friendly person (at least, friendly to animals). Now Captain Flint is searching worthy sailors to join his new crew (solely for peaceful purposes). A sailor is considered as worthy if he can solve Flint\u0027s task.\n\nRecently, out of blue Captain Flint has been interested in math and even defined a new class of integers. Let\u0027s define a positive integer $ x $ as nearly prime if it can be represented as $ p \\cdot q $ , where $ 1 \u003C p \u003C q $ and $ p $ and $ q $ are prime numbers. For example, integers $ 6 $ and $ 10 $ are nearly primes (since $ 2 \\cdot 3 = 6 $ and $ 2 \\cdot 5 = 10 $ ), but integers $ 1 $ , $ 3 $ , $ 4 $ , $ 16 $ , $ 17 $ or $ 44 $ are not.\n\nCaptain Flint guessed an integer $ n $ and asked you: can you represent it as the sum of $ 4 $ different positive integers where at least $ 3 $  of them should be nearly prime.\n\nUncle Bogdan easily solved the task and joined the crew. Can you do the same?","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases.\n\nNext $ t $ lines contain test cases \u2014 one per line. The first and only line of each test case contains the single integer $ n $ $ (1 \\le n \\le 2 \\cdot 10^5) $ \u2014 the number Flint guessed.","formatO":"For each test case print:\n\n- YES and $ 4 $ different positive integers such that at least $ 3 $ of them are nearly prime and their sum is equal to $ n $ (if there are multiple answers print any of them);\n- NO if there is no way to represent $ n $ as the sum of $ 4 $ different positive integers where at least $ 3 $ of them are nearly prime.\n\n You can print each character of YES or NO in any case.","hint":"In the first and second test cases, it can be proven that there are no four different positive integers such that at least three of them are nearly prime.\n\nIn the third test case, $ n=31=2 \\cdot 7 + 2 \\cdot 5 + 2 \\cdot 3       + 1 $ : integers $ 14 $ , $ 10 $ , $ 6 $ are nearly prime.\n\nIn the fourth test case, $ n=36=5 + 2 \\cdot 3 + 2 \\cdot 5 + 3       \\cdot 5 $ : integers $ 6 $ , $ 10 $ , $ 15 $ are nearly prime.\n\nIn the fifth test case, $ n=44=2 \\cdot 3 + 7 + 2 \\cdot 5 + 3       \\cdot 7 $ : integers $ 6 $ , $ 10 $ , $ 21 $ are nearly prime.\n\nIn the sixth test case, $ n=100=2 + 2 \\cdot 5 + 3 \\cdot 11 + 5       \\cdot 11 $ : integers $ 10 $ , $ 33 $ , $ 55 $ are nearly prime.\n\nIn the seventh test case, $ n=258=2 \\cdot 5 + 3 \\cdot 7 + 13       \\cdot 17 + 2 \\cdot 3 $ : integers $ 10 $ , $ 21 $ , $ 221 $ , $ 6 $ are nearly prime.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\n7\n23\n31\n36\n44\n100\n258","NO\nNO\nYES\n14 10 6 1\nYES\n5 6 10 15\nYES\n6 7 10 21\nYES\n2 10 33 55\nYES\n10 21 221 6"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1388A","link":"https:\/\/codeforces.com\/problemset\/problem\/1388\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\n\u5982\u679c\u4e00\u4e2a\u6b63\u6574\u6570\u80fd\u5199\u6210\u4e24\u4e2a\u4e0d\u540c\u8d28\u6570\u7684\u79ef\uff0c\u90a3\u4e48\u6211\u4eec\u79f0\u5b83\u4e3a\u7c7b\u8d28\u6570\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u81ea\u7136\u6570 $n$\uff0c\u8bf7\u95ee\u662f\u5426\u80fd\u5c06 $n$ \u5199\u6210\u56db\u4e2a**\u4e92\u4e0d\u76f8\u540c**\u7684\u6b63\u6574\u6570\u7684\u548c\uff0c\u5e76\u6ee1\u8db3\u8fd9\u56db\u4e2a\u6b63\u6574\u6570\u4e2d**\u81f3\u5c11**\u6709\u4e09\u4e2a\u662f\u7c7b\u8d28\u6570\u3002\u5982\u679c\u80fd\uff0c\u8bf7\u7ed9\u51fa\u4e00\u79cd\u65b9\u6848\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\n**\u672c\u9898\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002**\n\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $T$ $(1 \\le T \\le 1000)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765 $T$ \u884c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570 $n(1 \\le n \\le 2\\times10^5)$\u3002\n\n**\u8f93\u51fa\u683c\u5f0f**\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u82e5\u4e0d\u80fd\u88ab\u5206\u89e3\u6210\u6ee1\u8db3\u8981\u6c42\u7684\u56db\u4e2a\u6b63\u6574\u6570\uff0c\u5355\u72ec\u8f93\u51fa\u4e00\u884c `NO`\u3002\n\n\u5426\u5219\u7b2c\u4e00\u884c\u8f93\u51fa `YES`\uff0c\u7b2c\u4e8c\u884c\u8f93\u51fa\u4ee5\u5355\u4e2a\u7a7a\u683c\u5206\u9694\u7684\u56db\u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u4e00\u79cd\u53ef\u884c\u65b9\u6848\u3002\n\nTranslated by [cmll02](https:\/\/www.luogu.com.cn\/user\/171487)"},"translations":{"en":{"name":"Captain Flint and Crew Recruitment","background":"","description":"Despite his bad reputation, Captain Flint is a friendly person (at least, friendly to animals). Now Captain Flint is searching worthy sailors to join his new crew (solely for peaceful purposes). A sailor is considered as worthy if he can solve Flint\u0027s task.\n\nRecently, out of blue Captain Flint has been interested in math and even defined a new class of integers. Let\u0027s define a positive integer $ x $ as nearly prime if it can be represented as $ p \\cdot q $ , where $ 1 \u003C p \u003C q $ and $ p $ and $ q $ are prime numbers. For example, integers $ 6 $ and $ 10 $ are nearly primes (since $ 2 \\cdot 3 = 6 $ and $ 2 \\cdot 5 = 10 $ ), but integers $ 1 $ , $ 3 $ , $ 4 $ , $ 16 $ , $ 17 $ or $ 44 $ are not.\n\nCaptain Flint guessed an integer $ n $ and asked you: can you represent it as the sum of $ 4 $ different positive integers where at least $ 3 $  of them should be nearly prime.\n\nUncle Bogdan easily solved the task and joined the crew. Can you do the same?","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases.\n\nNext $ t $ lines contain test cases \u2014 one per line. The first and only line of each test case contains the single integer $ n $ $ (1 \\le n \\le 2 \\cdot 10^5) $ \u2014 the number Flint guessed.","formatO":"For each test case print:\n\n- YES and $ 4 $ different positive integers such that at least $ 3 $ of them are nearly prime and their sum is equal to $ n $ (if there are multiple answers print any of them);\n- NO if there is no way to represent $ n $ as the sum of $ 4 $ different positive integers where at least $ 3 $ of them are nearly prime.\n\n You can print each character of YES or NO in any case.","hint":"In the first and second test cases, it can be proven that there are no four different positive integers such that at least three of them are nearly prime.\n\nIn the third test case, $ n=31=2 \\cdot 7 + 2 \\cdot 5 + 2 \\cdot 3       + 1 $ : integers $ 14 $ , $ 10 $ , $ 6 $ are nearly prime.\n\nIn the fourth test case, $ n=36=5 + 2 \\cdot 3 + 2 \\cdot 5 + 3       \\cdot 5 $ : integers $ 6 $ , $ 10 $ , $ 15 $ are nearly prime.\n\nIn the fifth test case, $ n=44=2 \\cdot 3 + 7 + 2 \\cdot 5 + 3       \\cdot 7 $ : integers $ 6 $ , $ 10 $ , $ 21 $ are nearly prime.\n\nIn the sixth test case, $ n=100=2 + 2 \\cdot 5 + 3 \\cdot 11 + 5       \\cdot 11 $ : integers $ 10 $ , $ 33 $ , $ 55 $ are nearly prime.\n\nIn the seventh test case, $ n=258=2 \\cdot 5 + 3 \\cdot 7 + 13       \\cdot 17 + 2 \\cdot 3 $ : integers $ 10 $ , $ 21 $ , $ 221 $ , $ 6 $ are nearly prime.","locale":"en"},"zh-CN":{"name":"Captain Flint and Crew Recruitment","background":"","description":"\u5982\u679c\u4e00\u4e2a\u6b63\u6574\u6570\u80fd\u5199\u6210\u4e24\u4e2a\u4e0d\u540c\u8d28\u6570\u7684\u79ef\uff0c\u90a3\u4e48\u6211\u4eec\u79f0\u5b83\u4e3a\u7c7b\u8d28\u6570\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u81ea\u7136\u6570 $n$\uff0c\u8bf7\u95ee\u662f\u5426\u80fd\u5c06 $n$ \u5199\u6210\u56db\u4e2a**\u4e92\u4e0d\u76f8\u540c**\u7684\u6b63\u6574\u6570\u7684\u548c\uff0c\u5e76\u6ee1\u8db3\u8fd9\u56db\u4e2a\u6b63\u6574\u6570\u4e2d**\u81f3\u5c11**\u6709\u4e09\u4e2a\u662f\u7c7b\u8d28\u6570\u3002\u5982\u679c\u80fd\uff0c\u8bf7\u7ed9\u51fa\u4e00\u79cd\u65b9\u6848\u3002","formatI":"**\u672c\u9898\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002**\n\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $T$ $(1 \\le T \\le 1000)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765 $T$ \u884c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570 $n(1 \\le n \\le 2\\times10^5)$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u82e5\u4e0d\u80fd\u88ab\u5206\u89e3\u6210\u6ee1\u8db3\u8981\u6c42\u7684\u56db\u4e2a\u6b63\u6574\u6570\uff0c\u5355\u72ec\u8f93\u51fa\u4e00\u884c `NO`\u3002\n\n\u5426\u5219\u7b2c\u4e00\u884c\u8f93\u51fa `YES`\uff0c\u7b2c\u4e8c\u884c\u8f93\u51fa\u4ee5\u5355\u4e2a\u7a7a\u683c\u5206\u9694\u7684\u56db\u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u4e00\u79cd\u53ef\u884c\u65b9\u6848\u3002\n\nTranslated by [cmll02](https:\/\/www.luogu.com.cn\/user\/171487)","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1388A Captain Flint and Crew Recruitment","type":2,"slug":"CF1388A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.140729,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1388A Captain Flint and Crew Recruitment","description":"\u5982\u679c\u4e00\u4e2a\u6b63\u6574\u6570\u80fd\u5199\u6210\u4e24\u4e2a\u4e0d\u540c\u8d28\u6570\u7684\u79ef\uff0c\u90a3\u4e48\u6211\u4eec\u79f0\u5b83\u4e3a\u7c7b\u8d28\u6570\u3002\n\u7ed9\u5b9a\u4e00\u4e2a\u81ea\u7136\u6570 n\uff0c\u8bf7\u95ee\u662f\u5426\u80fd\u5c06 n \u5199\u6210\u56db\u4e2a\u4e92\u4e0d\u76f8\u540c\u7684\u6b63\u6574\u6570\u7684\u548c\uff0c\u5e76\u6ee1\u8db3\u8fd9\u56db\u4e2a\u6b63\u6574\u6570\u4e2d\u81f3\u5c11\u6709\u4e09\u4e2a\u662f\u7c7b\u8d28\u6570\u3002\u5982\u679c\u80fd\uff0c\u8bf7\u7ed9\u51fa\u4e00\u79cd\u65b9\u6848\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1388A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1388A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1388A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1388A Captain Flint and Crew Recruitment" />
+    <meta property="og:description" content="如果一个正整数能写成两个不同质数的积，那么我们称它为类质数。
+给定一个自然数 n，请问是否能将 n 写成四个互不相同的正整数的和，并满足这四个正整数中至少有三个是类质数。如果能，请给出一种方案。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1388A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1388A Captain Flint and Crew Recruitment</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    如果一个正整数能写成两个不同质数的积，那么我们称它为类质数。
+
+给定一个自然数 $n$，请问是否能将 $n$ 写成四个**互不相同**的正整数的和，并满足这四个正整数中**至少**有三个是类质数。如果能，请给出一种方案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    **本题包含多组测试数据。**
+
+第一行包含一个整数 $T$ $(1 \le T \le 1000)$，表示数据组数。
+
+接下来 $T$ 行每行一个整数 $n(1 \le n \le 2\times10^5)$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组数据，若不能被分解成满足要求的四个正整数，单独输出一行 `NO`。
+
+否则第一行输出 `YES`，第二行输出以单个空格分隔的四个正整数，表示一种可行方案。
+
+Translated by [cmll02](https://www.luogu.com.cn/user/171487)
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first and second test cases, it can be proven that there are no four different positive integers such that at least three of them are nearly prime.
+
+In the third test case, $ n=31=2 \cdot 7 + 2 \cdot 5 + 2 \cdot 3       + 1 $ : integers $ 14 $ , $ 10 $ , $ 6 $ are nearly prime.
+
+In the fourth test case, $ n=36=5 + 2 \cdot 3 + 2 \cdot 5 + 3       \cdot 5 $ : integers $ 6 $ , $ 10 $ , $ 15 $ are nearly prime.
+
+In the fifth test case, $ n=44=2 \cdot 3 + 7 + 2 \cdot 5 + 3       \cdot 7 $ : integers $ 6 $ , $ 10 $ , $ 21 $ are nearly prime.
+
+In the sixth test case, $ n=100=2 + 2 \cdot 5 + 3 \cdot 11 + 5       \cdot 11 $ : integers $ 10 $ , $ 33 $ , $ 55 $ are nearly prime.
+
+In the seventh test case, $ n=258=2 \cdot 5 + 3 \cdot 7 + 13       \cdot 17 + 2 \cdot 3 $ : integers $ 10 $ , $ 21 $ , $ 221 $ , $ 6 $ are nearly prime.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

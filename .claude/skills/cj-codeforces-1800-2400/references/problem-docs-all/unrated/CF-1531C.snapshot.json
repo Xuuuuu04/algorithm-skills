@@ -1,0 +1,29 @@
+{
+  "id": "CF-1531C",
+  "contest_id": 1531,
+  "index": "C",
+  "name": "Симметричный амфитеатр",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "constructive algorithms",
+    "dp"
+  ],
+  "solved_count": 658,
+  "problem_url": "https://codeforces.com/problemset/problem/1531/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1531/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1531/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1531C%20%D0%A1%D0%B8%D0%BC%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%B0%D0%BC%D1%84%D0%B8%D1%82%D0%B5%D0%B0%D1%82%D1%80%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1531/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1531C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 секунды",
+    "memory_limit": "512 мегабайт"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-1430C",
+  "contest_id": 1430,
+  "index": "C",
+  "name": "Numbers on Whiteboard",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 27814,
+  "problem_url": "https://codeforces.com/problemset/problem/1430/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1430/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1430/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1430C%20Numbers%20on%20Whiteboard%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1430C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Numbers on Whiteboard - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

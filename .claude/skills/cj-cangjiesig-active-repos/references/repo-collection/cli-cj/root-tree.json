@@ -1,0 +1,114 @@
+[
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "8b8a46a4f588f23f70f9c2483fad2a058d5aabf9",
+    "size": 61,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/.gitignore?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/.gitignore",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/8b8a46a4f588f23f70f9c2483fad2a058d5aabf9",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cli-cj/main/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/.gitignore?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/8b8a46a4f588f23f70f9c2483fad2a058d5aabf9",
+      "html": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/.gitignore"
+    }
+  },
+  {
+    "name": "CHANGELOG.md",
+    "path": "CHANGELOG.md",
+    "sha": "77d1f9d8920755c41a2eeb2fe8e93146395e2660",
+    "size": 914,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/CHANGELOG.md?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/CHANGELOG.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/77d1f9d8920755c41a2eeb2fe8e93146395e2660",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cli-cj/main/CHANGELOG.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/CHANGELOG.md?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/77d1f9d8920755c41a2eeb2fe8e93146395e2660",
+      "html": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/CHANGELOG.md"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "4dceb7d73579b033976fda75e1ac28ebe0bb7032",
+    "size": 9291,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/LICENSE?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/LICENSE",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/4dceb7d73579b033976fda75e1ac28ebe0bb7032",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cli-cj/main/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/LICENSE?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/4dceb7d73579b033976fda75e1ac28ebe0bb7032",
+      "html": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/LICENSE"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "537b688abf99d99c11d1a43a9cd6e4eec197c1d9",
+    "size": 16321,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/README.md?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/537b688abf99d99c11d1a43a9cd6e4eec197c1d9",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cli-cj/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/537b688abf99d99c11d1a43a9cd6e4eec197c1d9",
+      "html": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/README.md"
+    }
+  },
+  {
+    "name": "cjpm.toml",
+    "path": "cjpm.toml",
+    "sha": "0e91320e8f32a589a40b36eec9afc093c2ffd7bc",
+    "size": 274,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/cjpm.toml?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/cjpm.toml",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/0e91320e8f32a589a40b36eec9afc093c2ffd7bc",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cli-cj/main/cjpm.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/cjpm.toml?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/blobs/0e91320e8f32a589a40b36eec9afc093c2ffd7bc",
+      "html": "https://github.com/cangjielanguage-sig/cli-cj/blob/main/cjpm.toml"
+    }
+  },
+  {
+    "name": "docs",
+    "path": "docs",
+    "sha": "b20497aac33a2aca7abaac26b4b4da723834a8ef",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/docs?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cli-cj/tree/main/docs",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/trees/b20497aac33a2aca7abaac26b4b4da723834a8ef",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/docs?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/trees/b20497aac33a2aca7abaac26b4b4da723834a8ef",
+      "html": "https://github.com/cangjielanguage-sig/cli-cj/tree/main/docs"
+    }
+  },
+  {
+    "name": "src",
+    "path": "src",
+    "sha": "b3137aef7d7ecad016a8fba385d6425ef05259df",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/src?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cli-cj/tree/main/src",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/trees/b3137aef7d7ecad016a8fba385d6425ef05259df",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/contents/src?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cli-cj/git/trees/b3137aef7d7ecad016a8fba385d6425ef05259df",
+      "html": "https://github.com/cangjielanguage-sig/cli-cj/tree/main/src"
+    }
+  }
+]

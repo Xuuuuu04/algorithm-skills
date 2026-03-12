@@ -1,0 +1,34 @@
+{
+  "id": "CF-433B",
+  "contest_id": 433,
+  "index": "B",
+  "name": "Kuriyama Mirai's Stones",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dp",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 52101,
+  "problem_url": "https://codeforces.com/problemset/problem/433/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/433/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/433/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=433B%20Kuriyama%20Mirai%27s%20Stones%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P433B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Kuriyama Mirai's Stones - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

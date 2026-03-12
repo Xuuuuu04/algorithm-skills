@@ -1,0 +1,41 @@
+{
+  "id": "CF-1889C1",
+  "contest_id": 1889,
+  "index": "C1",
+  "name": "Doremy's Drying Plan (Easy Version)",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1889/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1889/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1889/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1889C1%20Doremy's Drying Plan (Easy Version)%20tutorial",
+  "solved_count": 3859,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1889C1",
+  "hydro_meta": {
+    "page_title": "Doremy's Drying Plan (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

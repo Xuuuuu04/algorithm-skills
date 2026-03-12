@@ -1,0 +1,31 @@
+{
+  "id": "CF-585C",
+  "contest_id": 585,
+  "index": "C",
+  "name": "Alice, Bob, Oranges and Apples",
+  "rating": 2400,
+  "tags": [
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/585/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/585/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/585/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=585C%20Alice, Bob, Oranges and Apples%20tutorial",
+  "solved_count": 1053,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P585C",
+  "hydro_meta": {
+    "page_title": "Alice, Bob, Oranges and Apples - 题目详情 - Hydro",
+    "hydro_tags": [
+      "number theory",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1997A",
+  "contest_id": 1997,
+  "index": "A",
+  "name": "Strong Password",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 33136,
+  "problem_url": "https://codeforces.com/problemset/problem/1997/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1997/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1997/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1997A%20Strong%20Password%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1997A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1997A Strong Password - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 173,
+    "mirror_attempt": 294,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

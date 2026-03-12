@@ -1,0 +1,36 @@
+{
+  "id": "CF-1921F",
+  "contest_id": 1921,
+  "index": "F",
+  "name": "Sum of Progression",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 4877,
+  "problem_url": "https://codeforces.com/problemset/problem/1921/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1921/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1921/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1921F%20Sum%20of%20Progression%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1921F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sum of Progression - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

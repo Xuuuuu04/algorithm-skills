@@ -1,0 +1,29 @@
+{
+  "id": "CF-1268B",
+  "contest_id": 1268,
+  "index": "B",
+  "name": "Domino for Young",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 6403,
+  "problem_url": "https://codeforces.com/problemset/problem/1268/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1268/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1268/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1268B%20Domino%20for%20Young%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1268B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1268B Domino for Young - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 562,
+    "mirror_attempt": 1219,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-614B",
+  "contest_id": 614,
+  "index": "B",
+  "name": "Gena's Code",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 7261,
+  "problem_url": "https://codeforces.com/problemset/problem/614/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/614/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/614/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=614B%20Gena%27s%20Code%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P614B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Gena's Code - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

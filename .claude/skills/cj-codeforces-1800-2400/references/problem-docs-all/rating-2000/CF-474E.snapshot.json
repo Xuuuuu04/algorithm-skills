@@ -1,0 +1,31 @@
+{
+  "id": "CF-474E",
+  "contest_id": 474,
+  "index": "E",
+  "name": "Pillars",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 4099,
+  "problem_url": "https://codeforces.com/problemset/problem/474/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/474/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/474/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=474E%20Pillars%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/474/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 474E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

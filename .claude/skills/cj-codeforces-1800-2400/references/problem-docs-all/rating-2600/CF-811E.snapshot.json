@@ -1,0 +1,34 @@
+{
+  "id": "CF-811E",
+  "contest_id": 811,
+  "index": "E",
+  "name": "Vladik and Entertaining Flags",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 967,
+  "problem_url": "https://codeforces.com/problemset/problem/811/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/811/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/811/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=811E%20Vladik%20and%20Entertaining%20Flags%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P811E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vladik and Entertaining Flags - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

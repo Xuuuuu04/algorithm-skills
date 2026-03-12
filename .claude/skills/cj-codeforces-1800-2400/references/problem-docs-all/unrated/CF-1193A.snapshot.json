@@ -1,0 +1,33 @@
+{
+  "id": "CF-1193A",
+  "contest_id": 1193,
+  "index": "A",
+  "name": "Amusement Park",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "dp",
+    "math"
+  ],
+  "solved_count": 451,
+  "problem_url": "https://codeforces.com/problemset/problem/1193/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1193/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1193/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1193A%20Amusement%20Park%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1193A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Amusement Park - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "dp",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1848A",
+  "contest_id": 1848,
+  "index": "A",
+  "name": "Vika and Her Friends",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "games",
+    "math"
+  ],
+  "solved_count": 18289,
+  "problem_url": "https://codeforces.com/problemset/problem/1848/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1848/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1848/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1848A%20Vika%20and%20Her%20Friends%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1848/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1848A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

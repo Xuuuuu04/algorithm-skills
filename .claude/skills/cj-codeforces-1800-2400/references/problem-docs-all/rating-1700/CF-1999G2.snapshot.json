@@ -1,0 +1,29 @@
+{
+  "id": "CF-1999G2",
+  "contest_id": 1999,
+  "index": "G2",
+  "name": "Ruler (hard version)",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "interactive",
+    "ternary search"
+  ],
+  "solved_count": 10694,
+  "problem_url": "https://codeforces.com/problemset/problem/1999/G2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1999/problem/G2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1999/problem/G2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1999G2%20Ruler%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1999/G2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1999G2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

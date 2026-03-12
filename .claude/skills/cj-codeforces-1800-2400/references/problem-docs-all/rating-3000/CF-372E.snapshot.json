@@ -1,0 +1,32 @@
+{
+  "id": "CF-372E",
+  "contest_id": 372,
+  "index": "E",
+  "name": "Drawing Circles is Fun",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "combinatorics",
+    "geometry"
+  ],
+  "solved_count": 188,
+  "problem_url": "https://codeforces.com/problemset/problem/372/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/372/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/372/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=372E%20Drawing%20Circles%20is%20Fun%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P372E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Drawing Circles is Fun - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "geometry",
+      "*3000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1380B",
+  "contest_id": 1380,
+  "index": "B",
+  "name": "Universal Solution",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 15234,
+  "problem_url": "https://codeforces.com/problemset/problem/1380/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1380/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1380/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1380B%20Universal%20Solution%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1380B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Universal Solution - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

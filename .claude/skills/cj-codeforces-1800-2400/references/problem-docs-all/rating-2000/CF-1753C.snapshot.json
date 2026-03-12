@@ -1,0 +1,29 @@
+{
+  "id": "CF-1753C",
+  "contest_id": 1753,
+  "index": "C",
+  "name": "Wish I Knew How to Sort",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 5198,
+  "problem_url": "https://codeforces.com/problemset/problem/1753/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1753/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1753/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1753C%20Wish%20I%20Knew%20How%20to%20Sort%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1753/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1753C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-2149E",
+  "contest_id": 2149,
+  "index": "E",
+  "name": "Hidden Knowledge of the Ancients",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "two pointers"
+  ],
+  "solved_count": 8945,
+  "problem_url": "https://codeforces.com/problemset/problem/2149/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2149/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2149/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2149E%20Hidden%20Knowledge%20of%20the%20Ancients%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2149/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2149E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-190D",
+  "contest_id": 190,
+  "index": "D",
+  "name": "Non-Secret Cypher",
+  "rating": 1900,
+  "tags": [
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/190/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/190/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/190/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=190D%20Non-Secret Cypher%20tutorial",
+  "solved_count": 2645,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P190D",
+  "hydro_meta": {
+    "page_title": "Non-Secret Cypher - 题目详情 - Hydro",
+    "hydro_tags": [
+      "two pointers",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

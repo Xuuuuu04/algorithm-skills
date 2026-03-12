@@ -1,0 +1,31 @@
+{
+  "id": "CF-1623C",
+  "contest_id": 1623,
+  "index": "C",
+  "name": "Balanced Stone Heaps",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "binary search",
+    "greedy"
+  ],
+  "solved_count": 14142,
+  "problem_url": "https://codeforces.com/problemset/problem/1623/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1623/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1623/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1623C%20Balanced%20Stone%20Heaps%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1623C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Balanced Stone Heaps - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

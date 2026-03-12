@@ -1,0 +1,40 @@
+{
+  "id": "CF-1899G",
+  "contest_id": 1899,
+  "index": "G",
+  "name": "Unusual Entertainment",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "shortest paths",
+    "sortings",
+    "trees",
+    "two pointers"
+  ],
+  "solved_count": 3937,
+  "problem_url": "https://codeforces.com/problemset/problem/1899/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1899/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1899/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1899G%20Unusual%20Entertainment%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1899G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Unusual Entertainment - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "shortest paths",
+      "sortings",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

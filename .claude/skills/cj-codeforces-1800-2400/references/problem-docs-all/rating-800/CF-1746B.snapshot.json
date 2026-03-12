@@ -1,0 +1,29 @@
+{
+  "id": "CF-1746B",
+  "contest_id": 1746,
+  "index": "B",
+  "name": "Rebellion",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 18509,
+  "problem_url": "https://codeforces.com/problemset/problem/1746/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1746/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1746/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1746B%20Rebellion%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1746B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1746B Rebellion - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 324,
+    "mirror_attempt": 586,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1017C",
+  "contest_id": 1017,
+  "index": "C",
+  "name": "The Phone Number",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 6435,
+  "problem_url": "https://codeforces.com/problemset/problem/1017/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1017/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1017/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1017C%20The%20Phone%20Number%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1017/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1017C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

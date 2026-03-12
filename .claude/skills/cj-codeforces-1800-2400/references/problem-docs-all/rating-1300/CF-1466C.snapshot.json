@@ -1,0 +1,34 @@
+{
+  "id": "CF-1466C",
+  "contest_id": 1466,
+  "index": "C",
+  "name": "Canine poetry",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 18576,
+  "problem_url": "https://codeforces.com/problemset/problem/1466/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1466/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1466/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1466C%20Canine%20poetry%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1466C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Canine poetry - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

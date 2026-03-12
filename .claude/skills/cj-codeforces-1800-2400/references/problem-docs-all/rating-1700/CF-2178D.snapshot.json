@@ -1,0 +1,36 @@
+{
+  "id": "CF-2178D",
+  "contest_id": 2178,
+  "index": "D",
+  "name": "Xmas or Hysteria",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 6424,
+  "problem_url": "https://codeforces.com/problemset/problem/2178/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2178/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2178/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2178D%20Xmas%20or%20Hysteria%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2178D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Xmas or Hysteria - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-89B",
+  "contest_id": 89,
+  "index": "B",
+  "name": "Widget Library",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "expression parsing",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 598,
+  "problem_url": "https://codeforces.com/problemset/problem/89/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/89/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/89/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=89B%20Widget%20Library%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/89/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 89B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

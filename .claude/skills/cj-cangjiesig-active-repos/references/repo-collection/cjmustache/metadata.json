@@ -1,0 +1,14 @@
+{
+  "name": "cjmustache",
+  "full_name": "cangjielanguage-sig/cjmustache",
+  "html_url": "https://github.com/cangjielanguage-sig/cjmustache",
+  "description": "一个迁移自 jmustache 的模版引擎项目。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "master",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/cjmustache/master/cjpm.toml"
+}

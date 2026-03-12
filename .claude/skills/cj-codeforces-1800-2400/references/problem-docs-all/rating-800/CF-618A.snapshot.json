@@ -1,0 +1,27 @@
+{
+  "id": "CF-618A",
+  "contest_id": 618,
+  "index": "A",
+  "name": "Slime Combining",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 8750,
+  "problem_url": "https://codeforces.com/problemset/problem/618/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/618/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/618/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=618A%20Slime%20Combining%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF618A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF618A Slime Combining - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 36,
+    "mirror_attempt": 82,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

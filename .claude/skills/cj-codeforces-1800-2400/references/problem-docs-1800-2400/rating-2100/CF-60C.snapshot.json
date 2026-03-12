@@ -1,0 +1,31 @@
+{
+  "id": "CF-60C",
+  "contest_id": 60,
+  "index": "C",
+  "name": "Mushroom Strife",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "dfs and similar"
+  ],
+  "url": "https://codeforces.com/problemset/problem/60/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/60/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/60/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=60C%20Mushroom Strife%20tutorial",
+  "solved_count": 649,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P60C",
+  "hydro_meta": {
+    "page_title": "Mushroom Strife - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dfs and similar",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

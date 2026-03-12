@@ -1,0 +1,41 @@
+{
+  "id": "CF-1166E",
+  "contest_id": 1166,
+  "index": "E",
+  "name": "The LCMs Must be Large",
+  "rating": 2100,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1166/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1166/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1166/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1166E%20The LCMs Must be Large%20tutorial",
+  "solved_count": 2970,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1166E",
+  "hydro_meta": {
+    "page_title": "The LCMs Must be Large - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

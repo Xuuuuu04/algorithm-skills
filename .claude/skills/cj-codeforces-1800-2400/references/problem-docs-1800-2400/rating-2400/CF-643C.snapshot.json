@@ -1,0 +1,31 @@
+{
+  "id": "CF-643C",
+  "contest_id": 643,
+  "index": "C",
+  "name": "Levels and Regions",
+  "rating": 2400,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/643/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/643/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/643/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=643C%20Levels and Regions%20tutorial",
+  "solved_count": 1659,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P643C",
+  "hydro_meta": {
+    "page_title": "Levels and Regions - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*2400"
+    ],
+    "hydro_accepted": 3,
+    "hydro_attempt": 5,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

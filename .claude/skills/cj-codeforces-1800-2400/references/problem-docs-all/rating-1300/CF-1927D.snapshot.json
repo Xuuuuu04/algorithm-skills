@@ -1,0 +1,42 @@
+{
+  "id": "CF-1927D",
+  "contest_id": 1927,
+  "index": "D",
+  "name": "Find the Different Ones!",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "dp",
+    "dsu",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 32058,
+  "problem_url": "https://codeforces.com/problemset/problem/1927/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1927/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1927/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1927D%20Find%20the%20Different%20Ones%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1927D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Find the Different Ones! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "dp",
+      "dsu",
+      "greedy",
+      "two pointers",
+      "*1300"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

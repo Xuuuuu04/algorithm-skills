@@ -1,0 +1,32 @@
+{
+  "id": "CF-1120D",
+  "contest_id": 1120,
+  "index": "D",
+  "name": "Power Tree",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "dsu",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 1749,
+  "problem_url": "https://codeforces.com/problemset/problem/1120/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1120/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1120/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1120D%20Power%20Tree%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1120D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1120D Power Tree - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 786,
+    "mirror_attempt": 2000,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

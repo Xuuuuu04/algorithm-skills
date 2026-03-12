@@ -1,0 +1,37 @@
+{
+  "id": "CF-675E",
+  "contest_id": 675,
+  "index": "E",
+  "name": "Trains and Statistic",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/675/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/675/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/675/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=675E%20Trains and Statistic%20tutorial",
+  "solved_count": 3271,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P675E",
+  "hydro_meta": {
+    "page_title": "Trains and Statistic - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2300"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

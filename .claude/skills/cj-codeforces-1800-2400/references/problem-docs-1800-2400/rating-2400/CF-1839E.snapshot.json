@@ -1,0 +1,40 @@
+{
+  "id": "CF-1839E",
+  "contest_id": 1839,
+  "index": "E",
+  "name": "Decreasing Game",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1839/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1839/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1839/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1839E%20Decreasing Game%20tutorial",
+  "solved_count": 1476,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1839E",
+  "hydro_meta": {
+    "page_title": "Decreasing Game - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "interactive"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

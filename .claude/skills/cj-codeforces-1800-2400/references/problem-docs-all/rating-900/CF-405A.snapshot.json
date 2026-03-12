@@ -1,0 +1,34 @@
+{
+  "id": "CF-405A",
+  "contest_id": 405,
+  "index": "A",
+  "name": "Gravity Flip",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 123116,
+  "problem_url": "https://codeforces.com/problemset/problem/405/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/405/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/405/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=405A%20Gravity%20Flip%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P405A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Gravity Flip - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

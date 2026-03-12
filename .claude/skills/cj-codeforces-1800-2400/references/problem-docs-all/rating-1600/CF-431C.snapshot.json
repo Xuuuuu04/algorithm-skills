@@ -1,0 +1,34 @@
+{
+  "id": "CF-431C",
+  "contest_id": 431,
+  "index": "C",
+  "name": "k-Tree",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dp",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 29213,
+  "problem_url": "https://codeforces.com/problemset/problem/431/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/431/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/431/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=431C%20k-Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P431C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "k-Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "implementation",
+      "trees",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

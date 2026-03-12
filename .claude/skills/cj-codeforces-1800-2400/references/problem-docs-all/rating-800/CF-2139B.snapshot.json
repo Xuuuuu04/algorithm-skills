@@ -1,0 +1,29 @@
+{
+  "id": "CF-2139B",
+  "contest_id": 2139,
+  "index": "B",
+  "name": "Cake Collection",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 20346,
+  "problem_url": "https://codeforces.com/problemset/problem/2139/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2139/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2139/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2139B%20Cake%20Collection%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2139B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cake Collection - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1333B",
+  "contest_id": 1333,
+  "index": "B",
+  "name": "Kind Anton",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 22179,
+  "problem_url": "https://codeforces.com/problemset/problem/1333/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1333/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1333/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1333B%20Kind%20Anton%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1333B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Kind Anton - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

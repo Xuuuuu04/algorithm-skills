@@ -1,0 +1,33 @@
+{
+  "id": "CF-1743G",
+  "contest_id": 1743,
+  "index": "G",
+  "name": "Antifibonacci Cut",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "constructive algorithms",
+    "data structures",
+    "dp",
+    "hashing",
+    "math"
+  ],
+  "solved_count": 294,
+  "problem_url": "https://codeforces.com/problemset/problem/1743/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1743/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1743/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1743G%20Antifibonacci%20Cut%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1743G",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1743G Antifibonacci Cut - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 69,
+    "mirror_attempt": 132,
+    "time_limit": "12000 ms",
+    "memory_limit": "4000 KB"
+  }
+}

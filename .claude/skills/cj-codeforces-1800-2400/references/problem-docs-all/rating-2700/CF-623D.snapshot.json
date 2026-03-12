@@ -1,0 +1,29 @@
+{
+  "id": "CF-623D",
+  "contest_id": 623,
+  "index": "D",
+  "name": "Birthday",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "greedy",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 545,
+  "problem_url": "https://codeforces.com/problemset/problem/623/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/623/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/623/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=623D%20Birthday%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF623D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF623D Birthday - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 110,
+    "mirror_attempt": 180,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-2104A",
+  "contest_id": 2104,
+  "index": "A",
+  "name": "Three Decks",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 25848,
+  "problem_url": "https://codeforces.com/problemset/problem/2104/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2104/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2104/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2104A%20Three%20Decks%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2104/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2104A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

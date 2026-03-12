@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1459A Red-Blue Shuffle - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1459A","type":"CF","title":"Red-Blue Shuffle","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":246,"totalAccepted":155,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Red-Blue Shuffle","background":"","description":"### \u9898\u610f\u7ffb\u8bd1\n\n\n\u6709 $n$ \u5f20\u5361\uff0c\u7b2c $i$ \u5f20\u5361\u4e0a\u6709\u4e00\u4e2a\u7ea2\u8272\u7684\u6570\u7801 $R_i$ \u548c\u4e00\u4e2a\u84dd\u8272\u7684\u6570\u7801 $B_i$ \u3002\u5982\u679c\u5c06\u724c\u968f\u673a\u6d17\u597d\u540e\u4ece\u5de6\u5230\u53f3\u6446\u653e\uff08\u5373`random_shuffle`\uff09\u540e\uff0c\u4ee4\u7ea2\u8272\u7684\u6570\u7801\u4ece\u5de6\u5230\u53f3\u8fde\u8d77\u6765**\u4e25\u683c\u5927\u4e8e**\u84dd\u8272\u7684\u6570\u7801\u6982\u7387\u4e3a $r$ \uff1b\u7ea2\u8272\u7684\u6570\u7801\u8fde\u8d77\u6765**\u4e25\u683c\u5c0f\u4e8e**\u84dd\u8272\u7684\u6570\u7801\u4e3a $b$ \u3002\n\n\u5982\u679c $r\u003Eb$ \uff0c\u8f93\u51fa`RED`\uff1b\n\u5982\u679c $r\u003Cb$ \uff0c\u8f93\u51fa`BLUE`\uff1b\n\u5426\u5219\u8f93\u51fa`EQUAL`\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165 $T$ \uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6570\u636e\uff0c\u7b2c\u4e00\u884c\u8f93\u5165 $n$ \uff0c\u8868\u793a\u5361\u7684\u4e2a\u6570\u3002\n\n\u63a5\u4e0b\u6765\u8f93\u5165\u4e24\u4e2a\u5b57\u7b26\u4e32 $R, B$ \uff0c\u5176\u4e2d $R_i, B_i$ \u5206\u522b\u8868\u793a\u7b2c $i$ \u5f20\u5361\u7684\u7ea2\u8272\u6570\u7801\u3001\u84dd\u8272\u6570\u7801\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u5b57\u7b26\u4e32\uff0c\u8868\u793a\u8be5\u7ec4\u6570\u636e\u7684\u7b54\u6848\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Red-Blue Shuffle","background":"","description":"There are $ n $ cards numbered $ 1, \\ldots, n $ . The card $ i $ has a red digit $ r_i $ and a blue digit $ b_i $ written on it.\n\nWe arrange all $ n $ cards in random order from left to right, with all permutations of $ 1, \\ldots, n $ having the same probability. We then read all red digits on the cards from left to right, and obtain an integer $ R $ . In the same way, we read all blue digits and obtain an integer $ B $ . When reading a number, leading zeros can be ignored. If all digits in a number are zeros, then the number is equal to $ 0 $ . Below is an illustration of a possible rearrangement of three cards, and how $ R $ and $ B $ can be found.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1459A\/e40cf4ff40332b751ba1a670952b53fac268a100.png)Two players, Red and Blue, are involved in a bet. Red bets that after the shuffle $ R \u003E B $ , and Blue bets that $ R \u003C B $ . If in the end $ R = B $ , the bet results in a draw, and neither player wins.\n\nDetermine, which of the two players is more likely (has higher probability) to win the bet, or that their chances are equal. Refer to the Note section for a formal discussion of comparing probabilities.","formatI":"The first line contains a single integer $ T $ ( $ 1 \\leq T \\leq 100 $ ) \u2014 the number of test cases.\n\nDescriptions of $ T $ test cases follow. Each test case description starts with a line containing a single integer $ n $ ( $ 1 \\leq n \\leq 1000 $ ) \u2014 the number of cards.\n\nThe following line contains a string of $ n $ digits $ r_1, \\ldots, r_n $ \u2014 red digits on cards $ 1, \\ldots, n $ respectively.\n\nThe following line contains a string of $ n $ digits $ b_1, \\ldots, b_n $ \u2014 blue digits on cards $ 1, \\ldots, n $ respectively.\n\nNote that digits in the same line are not separated with any delimiters.","formatO":"Print $ T $ answers for the test cases in order, one per line.\n\nIf Red has a strictly higher change to win, print \u0022RED\u0022.\n\nIf Blue has a strictly higher change to win, print \u0022BLUE\u0022.\n\nIf both players are equally likely to win, print \u0022EQUAL\u0022.\n\nNote that all answers are case-sensitive.","hint":"Formally, let $ n_R $ be the number of permutations of cards $ 1, \\ldots, n $ such that the resulting numbers $ R $ and $ B $ satisfy $ R \u003E B $ . Similarly, let $ n_B $ be the number of permutations such that $ R \u003C B $ . If $ n_R \u003E n_B $ , you should print \u0022RED\u0022. If $ n_R \u003C n_B $ , you should print \u0022BLUE\u0022. If $ n_R = n_B $ , print \u0022EQUAL\u0022.\n\nIn the first sample case, $ R = 777 $ and $ B = 111 $ regardless of the card order, thus Red always wins.\n\nIn the second sample case, there are two card orders when Red wins, and four card orders when Blue wins:\n\n\n4. order $ 1, 2, 3 $ : $ 314 \u003E 159 $ ;\n5. order $ 1, 3, 2 $ : $ 341 \u003E 195 $ ;\n6. order $ 2, 1, 3 $ : $ 134 \u003C 519 $ ;\n7. order $ 2, 3, 1 $ : $ 143 \u003C 591 $ ;\n8. order $ 3, 1, 2 $ : $ 431 \u003C 915 $ ;\n9. order $ 3, 2, 1 $ : $ 413 \u003C 951 $ .\nSince $ R \u003C B $ is more frequent, the answer is \u0022BLUE\u0022.\n\nIn the third sample case, $ R = B $ regardless of the card order, thus the bet is always a draw, and both Red and Blue have zero chance to win.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3\n777\n111\n3\n314\n159\n5\n09281\n09281","RED\nBLUE\nEQUAL"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"1459A","link":"https:\/\/codeforces.com\/problemset\/problem\/1459\/A"},"translation":"### \u9898\u610f\u7ffb\u8bd1\n\n### \u9898\u76ee\u63cf\u8ff0\n\n\u6709 $n$ \u5f20\u5361\uff0c\u7b2c $i$ \u5f20\u5361\u4e0a\u6709\u4e00\u4e2a\u7ea2\u8272\u7684\u6570\u7801 $R_i$ \u548c\u4e00\u4e2a\u84dd\u8272\u7684\u6570\u7801 $B_i$ \u3002\u5982\u679c\u5c06\u724c\u968f\u673a\u6d17\u597d\u540e\u4ece\u5de6\u5230\u53f3\u6446\u653e\uff08\u5373`random_shuffle`\uff09\u540e\uff0c\u4ee4\u7ea2\u8272\u7684\u6570\u7801\u4ece\u5de6\u5230\u53f3\u8fde\u8d77\u6765**\u4e25\u683c\u5927\u4e8e**\u84dd\u8272\u7684\u6570\u7801\u6982\u7387\u4e3a $r$ \uff1b\u7ea2\u8272\u7684\u6570\u7801\u8fde\u8d77\u6765**\u4e25\u683c\u5c0f\u4e8e**\u84dd\u8272\u7684\u6570\u7801\u4e3a $b$ \u3002\n\n\u5982\u679c $r\u003Eb$ \uff0c\u8f93\u51fa`RED`\uff1b\n\u5982\u679c $r\u003Cb$ \uff0c\u8f93\u51fa`BLUE`\uff1b\n\u5426\u5219\u8f93\u51fa`EQUAL`\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u8f93\u5165 $T$ \uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6570\u636e\uff0c\u7b2c\u4e00\u884c\u8f93\u5165 $n$ \uff0c\u8868\u793a\u5361\u7684\u4e2a\u6570\u3002\n\n\u63a5\u4e0b\u6765\u8f93\u5165\u4e24\u4e2a\u5b57\u7b26\u4e32 $R, B$ \uff0c\u5176\u4e2d $R_i, B_i$ \u5206\u522b\u8868\u793a\u7b2c $i$ \u5f20\u5361\u7684\u7ea2\u8272\u6570\u7801\u3001\u84dd\u8272\u6570\u7801\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u5b57\u7b26\u4e32\uff0c\u8868\u793a\u8be5\u7ec4\u6570\u636e\u7684\u7b54\u6848\u3002"},"translations":{"en":{"name":"Red-Blue Shuffle","background":"","description":"There are $ n $ cards numbered $ 1, \\ldots, n $ . The card $ i $ has a red digit $ r_i $ and a blue digit $ b_i $ written on it.\n\nWe arrange all $ n $ cards in random order from left to right, with all permutations of $ 1, \\ldots, n $ having the same probability. We then read all red digits on the cards from left to right, and obtain an integer $ R $ . In the same way, we read all blue digits and obtain an integer $ B $ . When reading a number, leading zeros can be ignored. If all digits in a number are zeros, then the number is equal to $ 0 $ . Below is an illustration of a possible rearrangement of three cards, and how $ R $ and $ B $ can be found.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1459A\/e40cf4ff40332b751ba1a670952b53fac268a100.png)Two players, Red and Blue, are involved in a bet. Red bets that after the shuffle $ R \u003E B $ , and Blue bets that $ R \u003C B $ . If in the end $ R = B $ , the bet results in a draw, and neither player wins.\n\nDetermine, which of the two players is more likely (has higher probability) to win the bet, or that their chances are equal. Refer to the Note section for a formal discussion of comparing probabilities.","formatI":"The first line contains a single integer $ T $ ( $ 1 \\leq T \\leq 100 $ ) \u2014 the number of test cases.\n\nDescriptions of $ T $ test cases follow. Each test case description starts with a line containing a single integer $ n $ ( $ 1 \\leq n \\leq 1000 $ ) \u2014 the number of cards.\n\nThe following line contains a string of $ n $ digits $ r_1, \\ldots, r_n $ \u2014 red digits on cards $ 1, \\ldots, n $ respectively.\n\nThe following line contains a string of $ n $ digits $ b_1, \\ldots, b_n $ \u2014 blue digits on cards $ 1, \\ldots, n $ respectively.\n\nNote that digits in the same line are not separated with any delimiters.","formatO":"Print $ T $ answers for the test cases in order, one per line.\n\nIf Red has a strictly higher change to win, print \u0022RED\u0022.\n\nIf Blue has a strictly higher change to win, print \u0022BLUE\u0022.\n\nIf both players are equally likely to win, print \u0022EQUAL\u0022.\n\nNote that all answers are case-sensitive.","hint":"Formally, let $ n_R $ be the number of permutations of cards $ 1, \\ldots, n $ such that the resulting numbers $ R $ and $ B $ satisfy $ R \u003E B $ . Similarly, let $ n_B $ be the number of permutations such that $ R \u003C B $ . If $ n_R \u003E n_B $ , you should print \u0022RED\u0022. If $ n_R \u003C n_B $ , you should print \u0022BLUE\u0022. If $ n_R = n_B $ , print \u0022EQUAL\u0022.\n\nIn the first sample case, $ R = 777 $ and $ B = 111 $ regardless of the card order, thus Red always wins.\n\nIn the second sample case, there are two card orders when Red wins, and four card orders when Blue wins:\n\n\n4. order $ 1, 2, 3 $ : $ 314 \u003E 159 $ ;\n5. order $ 1, 3, 2 $ : $ 341 \u003E 195 $ ;\n6. order $ 2, 1, 3 $ : $ 134 \u003C 519 $ ;\n7. order $ 2, 3, 1 $ : $ 143 \u003C 591 $ ;\n8. order $ 3, 1, 2 $ : $ 431 \u003C 915 $ ;\n9. order $ 3, 2, 1 $ : $ 413 \u003C 951 $ .\nSince $ R \u003C B $ is more frequent, the answer is \u0022BLUE\u0022.\n\nIn the third sample case, $ R = B $ regardless of the card order, thus the bet is always a draw, and both Red and Blue have zero chance to win.","locale":"en"},"zh-CN":{"name":"Red-Blue Shuffle","background":"","description":"### \u9898\u610f\u7ffb\u8bd1\n\n\n\u6709 $n$ \u5f20\u5361\uff0c\u7b2c $i$ \u5f20\u5361\u4e0a\u6709\u4e00\u4e2a\u7ea2\u8272\u7684\u6570\u7801 $R_i$ \u548c\u4e00\u4e2a\u84dd\u8272\u7684\u6570\u7801 $B_i$ \u3002\u5982\u679c\u5c06\u724c\u968f\u673a\u6d17\u597d\u540e\u4ece\u5de6\u5230\u53f3\u6446\u653e\uff08\u5373`random_shuffle`\uff09\u540e\uff0c\u4ee4\u7ea2\u8272\u7684\u6570\u7801\u4ece\u5de6\u5230\u53f3\u8fde\u8d77\u6765**\u4e25\u683c\u5927\u4e8e**\u84dd\u8272\u7684\u6570\u7801\u6982\u7387\u4e3a $r$ \uff1b\u7ea2\u8272\u7684\u6570\u7801\u8fde\u8d77\u6765**\u4e25\u683c\u5c0f\u4e8e**\u84dd\u8272\u7684\u6570\u7801\u4e3a $b$ \u3002\n\n\u5982\u679c $r\u003Eb$ \uff0c\u8f93\u51fa`RED`\uff1b\n\u5982\u679c $r\u003Cb$ \uff0c\u8f93\u51fa`BLUE`\uff1b\n\u5426\u5219\u8f93\u51fa`EQUAL`\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165 $T$ \uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6570\u636e\uff0c\u7b2c\u4e00\u884c\u8f93\u5165 $n$ \uff0c\u8868\u793a\u5361\u7684\u4e2a\u6570\u3002\n\n\u63a5\u4e0b\u6765\u8f93\u5165\u4e24\u4e2a\u5b57\u7b26\u4e32 $R, B$ \uff0c\u5176\u4e2d $R_i, B_i$ \u5206\u522b\u8868\u793a\u7b2c $i$ \u5f20\u5361\u7684\u7ea2\u8272\u6570\u7801\u3001\u84dd\u8272\u6570\u7801\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u5b57\u7b26\u4e32\uff0c\u8868\u793a\u8be5\u7ec4\u6570\u636e\u7684\u7b54\u6848\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1459A Red-Blue Shuffle","type":2,"slug":"CF1459A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.72187,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1459A Red-Blue Shuffle","description":"\u9898\u610f\u7ffb\u8bd1\n\u6709 n \u5f20\u5361\uff0c\u7b2c i \u5f20\u5361\u4e0a\u6709\u4e00\u4e2a\u7ea2\u8272\u7684\u6570\u7801 R_i \u548c\u4e00\u4e2a\u84dd\u8272\u7684\u6570\u7801 B_i \u3002\u5982\u679c\u5c06\u724c\u968f\u673a\u6d17\u597d\u540e\u4ece\u5de6\u5230\u53f3\u6446\u653e\uff08\u5373random_shuffle\uff09\u540e\uff0c\u4ee4\u7ea2\u8272\u7684\u6570\u7801\u4ece\u5de6\u5230\u53f3\u8fde\u8d77\u6765\u4e25\u683c\u5927\u4e8e\u84dd\u8272\u7684\u6570\u7801\u6982\u7387\u4e3a r \uff1b\u7ea2\u8272\u7684\u6570\u7801\u8fde\u8d77\u6765\u4e25\u683c\u5c0f\u4e8e\u84dd\u8272\u7684\u6570\u7801\u4e3a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1459A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1459A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1459A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1459A Red-Blue Shuffle" />
+    <meta property="og:description" content="题意翻译
+有 n 张卡，第 i 张卡上有一个红色的数码 R_i 和一个蓝色的数码 B_i 。如果将牌随机洗好后从左到右摆放（即random_shuffle）后，令红色的数码从左到右连起来严格大于蓝色的数码概率为 r ；红色的数码连起来严格小于蓝色的数码为…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1459A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1459A Red-Blue Shuffle</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    ### 题意翻译
+
+
+有 $n$ 张卡，第 $i$ 张卡上有一个红色的数码 $R_i$ 和一个蓝色的数码 $B_i$ 。如果将牌随机洗好后从左到右摆放（即`random_shuffle`）后，令红色的数码从左到右连起来**严格大于**蓝色的数码概率为 $r$ ；红色的数码连起来**严格小于**蓝色的数码为 $b$ 。
+
+如果 $r>b$ ，输出`RED`；
+如果 $r
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行输入 $T$ ，表示数据组数。
+
+对于每一个数据，第一行输入 $n$ ，表示卡的个数。
+
+接下来输入两个字符串 $R, B$ ，其中 $R_i, B_i$ 分别表示第 $i$ 张卡的红色数码、蓝色数码。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每一组数据输出一行字符串，表示该组数据的答案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                Formally, let $ n_R $ be the number of permutations of cards $ 1, \ldots, n $ such that the resulting numbers $ R $ and $ B $ satisfy $ R > B $ . Similarly, let $ n_B $ be the number of permutations such that $ R < B $ . If $ n_R > n_B $ , you should print "RED". If $ n_R < n_B $ , you should print "BLUE". If $ n_R = n_B $ , print "EQUAL".
+
+In the first sample case, $ R = 777 $ and $ B = 111 $ regardless of the card order, thus Red always wins.
+
+In the second sample case, there are two card orders when Red wins, and four card orders when Blue wins:
+
+
+4. order $ 1, 2, 3 $ : $ 314 > 159 $ ;
+5. order $ 1, 3, 2 $ : $ 341 > 195 $ ;
+6. order $ 2, 1, 3 $ : $ 134 < 519 $ ;
+7. order $ 2, 3, 1 $ : $ 143 < 591 $ ;
+8. order $ 3, 1, 2 $ : $ 431 < 915 $ ;
+9. order $ 3, 2, 1 $ : $ 413 < 951 $ .
+Since $ R < B $ is more frequent, the answer is "BLUE".
+
+In the third sample case, $ R = B $ regardless of the card order, thus the bet is always a draw, and both Red and Blue have zero chance to win.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

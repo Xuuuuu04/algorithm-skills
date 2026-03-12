@@ -1,0 +1,31 @@
+{
+  "id": "CF-702D",
+  "contest_id": 702,
+  "index": "D",
+  "name": "Road to Post Office",
+  "rating": 1900,
+  "tags": [
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/702/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/702/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/702/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=702D%20Road to Post Office%20tutorial",
+  "solved_count": 3705,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P702D",
+  "hydro_meta": {
+    "page_title": "Road to Post Office - 题目详情 - Hydro",
+    "hydro_tags": [
+      "math",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1185B",
+  "contest_id": 1185,
+  "index": "B",
+  "name": "Email from Polycarp",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 14165,
+  "problem_url": "https://codeforces.com/problemset/problem/1185/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1185/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1185/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1185B%20Email%20from%20Polycarp%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1185/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1185B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1268B Domino for Young - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1268B","type":"CF","title":"Domino for Young","difficulty":5,"tags":[387],"wantsTranslation":false,"totalSubmit":1219,"totalAccepted":562,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Domino for Young","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6768\u6c0f\u56fe\u3002\n\n\u6240\u7ed9\u7684\u56fe\u662f\u4e00\u4e2a\u6709 $n$ \u5217\u7684\u76f4\u65b9\u56fe\uff0c\u6bcf\u5217\u7684\u9ad8\u5ea6\u5206\u522b\u4e3a $a_1, a_2, \\ldots, a_n$\uff0c\u6ee1\u8db3 $a_1 \\geq a_2 \\geq \\ldots \\geq a_n \\geq 1$\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/2544e64d1ff8ecc95c5b673d61da4ac4a05b5734.png)\n\n\u5982\u56fe\u6240\u793a\uff0c$a=[3,2,2,2,1]$ \u65f6\u7684\u6768\u6c0f\u56fe\u3002\n\n\u4f60\u7684\u76ee\u6807\u662f\u5728\u8fd9\u4e2a\u76f4\u65b9\u56fe\u5185\u653e\u7f6e\u5c3d\u53ef\u80fd\u591a\u7684\u4e0d\u91cd\u53e0\u591a\u7c73\u8bfa\u9aa8\u724c\u3002\u6bcf\u4e2a\u591a\u7c73\u8bfa\u9aa8\u724c\u662f\u4e00\u4e2a $1 \\times 2$ \u6216 $2 \\times 1$ \u7684\u77e9\u5f62\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 300\\,000$\uff09\uff0c\u8868\u793a\u76f4\u65b9\u56fe\u7684\u5217\u6570\u3002\n\n\u8f93\u5165\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq 300\\,000, a_i \\geq a_{i+1}$\uff09\uff0c\u8868\u793a\u6bcf\u4e00\u5217\u7684\u9ad8\u5ea6\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5728\u7ed9\u5b9a\u7684\u6768\u6c0f\u56fe\u4e2d\u6700\u591a\u80fd\u653e\u7f6e\u591a\u5c11\u4e2a\u4e0d\u91cd\u53e0\u7684\u591a\u7c73\u8bfa\u9aa8\u724c\u3002","hint":"\u5bf9\u4e8e\u6837\u4f8b\uff0c\u6709\u5982\u4e0b\u51e0\u79cd\u53ef\u80fd\u7684\u653e\u7f6e\u65b9\u6848\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/3d8978aaa90355dc607b1f977284246d35ebb93f.png)\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/470888c1347adb69c9c5541029d57b758f46e12d.png)\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Domino for Young","background":"","description":"You are given a Young diagram.\n\nGiven diagram is a histogram with $ n $ columns of lengths $ a_1, a_2, \\ldots, a_n $ ( $ a_1 \\geq a_2 \\geq \\ldots \\geq a_n \\geq 1 $ ).\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/2544e64d1ff8ecc95c5b673d61da4ac4a05b5734.png)Young diagram for $ a=[3,2,2,2,1] $ .Your goal is to find the largest number of non-overlapping dominos that you can draw inside of this histogram, a domino is a $ 1 \\times 2 $ or $ 2 \\times 1 $ rectangle.","formatI":"The first line of input contain one integer $ n $ ( $ 1 \\leq n \\leq 300\\,000 $ ): the number of columns in the given histogram.\n\nThe next line of input contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\leq a_i \\leq 300\\,000, a_i \\geq a_{i+1} $ ): the lengths of columns.","formatO":"Output one integer: the largest number of non-overlapping dominos that you can draw inside of the given Young diagram.","hint":"Some of the possible solutions for the example:\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/3d8978aaa90355dc607b1f977284246d35ebb93f.png)![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/470888c1347adb69c9c5541029d57b758f46e12d.png)","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n3 2 2 2 1\n","4\n"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"1268B","link":"https:\/\/codeforces.com\/problemset\/problem\/1268\/B"},"translation":"\u7ed9\u51fa\u4e00\u4e2a\u4e0d\u89c4\u5219\u7684\u7f51\u683c\u3002\u5171 $n$ \u5217,\u6bcf\u5217\u6709 $a_i$ \u4e2a\u683c\u5b50\u3002\u73b0\u5728\u8981\u5c06 $1 \\times 2$ \u7684\u9aa8\u724c\u4e0d\u91cd\u53e0\u7684\u8986\u76d6\u5728\u7f51\u683c\u4e0a\uff0c\u6c42\u6700\u591a\u80fd\u653e\u7684\u9aa8\u724c\u6570\u91cf\u3002\n\n\u7f51\u683c\u6ee1\u8db3\u6761\u4ef6 $a_1\\geq a_2\\geq \\ldots \\geq a_n\\geq 1$ ."},"translations":{"en":{"name":"Domino for Young","background":"","description":"You are given a Young diagram.\n\nGiven diagram is a histogram with $ n $ columns of lengths $ a_1, a_2, \\ldots, a_n $ ( $ a_1 \\geq a_2 \\geq \\ldots \\geq a_n \\geq 1 $ ).\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/2544e64d1ff8ecc95c5b673d61da4ac4a05b5734.png)Young diagram for $ a=[3,2,2,2,1] $ .Your goal is to find the largest number of non-overlapping dominos that you can draw inside of this histogram, a domino is a $ 1 \\times 2 $ or $ 2 \\times 1 $ rectangle.","formatI":"The first line of input contain one integer $ n $ ( $ 1 \\leq n \\leq 300\\,000 $ ): the number of columns in the given histogram.\n\nThe next line of input contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\leq a_i \\leq 300\\,000, a_i \\geq a_{i+1} $ ): the lengths of columns.","formatO":"Output one integer: the largest number of non-overlapping dominos that you can draw inside of the given Young diagram.","hint":"Some of the possible solutions for the example:\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/3d8978aaa90355dc607b1f977284246d35ebb93f.png)![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/470888c1347adb69c9c5541029d57b758f46e12d.png)","locale":"en"},"zh-CN":{"name":"Domino for Young","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6768\u6c0f\u56fe\u3002\n\n\u6240\u7ed9\u7684\u56fe\u662f\u4e00\u4e2a\u6709 $n$ \u5217\u7684\u76f4\u65b9\u56fe\uff0c\u6bcf\u5217\u7684\u9ad8\u5ea6\u5206\u522b\u4e3a $a_1, a_2, \\ldots, a_n$\uff0c\u6ee1\u8db3 $a_1 \\geq a_2 \\geq \\ldots \\geq a_n \\geq 1$\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/2544e64d1ff8ecc95c5b673d61da4ac4a05b5734.png)\n\n\u5982\u56fe\u6240\u793a\uff0c$a=[3,2,2,2,1]$ \u65f6\u7684\u6768\u6c0f\u56fe\u3002\n\n\u4f60\u7684\u76ee\u6807\u662f\u5728\u8fd9\u4e2a\u76f4\u65b9\u56fe\u5185\u653e\u7f6e\u5c3d\u53ef\u80fd\u591a\u7684\u4e0d\u91cd\u53e0\u591a\u7c73\u8bfa\u9aa8\u724c\u3002\u6bcf\u4e2a\u591a\u7c73\u8bfa\u9aa8\u724c\u662f\u4e00\u4e2a $1 \\times 2$ \u6216 $2 \\times 1$ \u7684\u77e9\u5f62\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 300\\,000$\uff09\uff0c\u8868\u793a\u76f4\u65b9\u56fe\u7684\u5217\u6570\u3002\n\n\u8f93\u5165\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq 300\\,000, a_i \\geq a_{i+1}$\uff09\uff0c\u8868\u793a\u6bcf\u4e00\u5217\u7684\u9ad8\u5ea6\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5728\u7ed9\u5b9a\u7684\u6768\u6c0f\u56fe\u4e2d\u6700\u591a\u80fd\u653e\u7f6e\u591a\u5c11\u4e2a\u4e0d\u91cd\u53e0\u7684\u591a\u7c73\u8bfa\u9aa8\u724c\u3002","hint":"\u5bf9\u4e8e\u6837\u4f8b\uff0c\u6709\u5982\u4e0b\u51e0\u79cd\u53ef\u80fd\u7684\u653e\u7f6e\u65b9\u6848\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/3d8978aaa90355dc607b1f977284246d35ebb93f.png)\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1268B\/470888c1347adb69c9c5541029d57b758f46e12d.png)\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1268B Domino for Young","type":2,"slug":"CF1268B","color":"orange-3"},"discussions":[{"id":562528,"title":"\u8bf7\u6c42\u64a4\u4e0b\u9898\u89e3\uff1a\u9898\u89e3\u6709\u8bef\u3001\u7f3a\u5931\u8bc1\u660e","author":{"uid":122461,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/122461.png","name":"rui_er","slogan":"\u4e5d\u4e07\u91cc\u98ce\u9e4f\u6b63\u4e3e","badge":"\u5c3a\u5b50","isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":8,"xcpcLevel":8,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/ezmx3njc.png"},"time":1674529058},{"id":453218,"title":"\u672c\u9898\u9898\u89e3\u5df2\u6279\u91cf\u64a4\u4e0b","author":{"uid":100250,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/100250.png","name":"minstdfx","slogan":"\u6211\u4eec\u8fd8\u8981\u53d1\u613f\uff1a\u8981\u4eba\u7c7b\u90fd\u53d7\u6b63\u5f53\u7684\u5e78\u798f\u3002","badge":"\u98ce\u795e\u5c11\u5973","isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":7,"xcpcLevel":8,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/c8bxvy4x.png"},"time":1656859140},{"id":376661,"title":"\u7ffb\u8bd1\u9898\u610f\u4e0d\u5b8c\u6574","author":{"uid":37676,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/37676.png","name":"\u7834\u58c1\u4eba\u4e94\u53f7","slogan":"\u300c\u4e0d\u8fc7\u56de\u5f52\u7a7a\u767d\u3000\u7a7a\u767d\u7684\u539f\u6765\u300d| \u5df2\u9000\u5f79 | wallbreaker5th.top","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":9,"xcpcLevel":8,"background":""},"time":1636120508},{"id":260106,"title":"\u4e3a\u4ec0\u4e48\u5bf9\u683c\u5b50\u6309\u7167\u9ed1\u767d\u67d3\u8272\u4e4b\u540e\uff0c\u7b54\u6848\u5c31\u662f\u9ed1\u683c\u5b50\u548c\u767d\u683c\u5b50\u6570\u91cf\u7684\u8f83\u5c0f\u503c\uff1f","author":{"uid":291976,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/291976.png","name":"quanjun","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/t8wsxs0m.png"},"time":1601379616}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.678959,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1268B Domino for Young","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6768\u6c0f\u56fe\u3002\n\u6240\u7ed9\u7684\u56fe\u662f\u4e00\u4e2a\u6709 n \u5217\u7684\u76f4\u65b9\u56fe\uff0c\u6bcf\u5217\u7684\u9ad8\u5ea6\u5206\u522b\u4e3a a_1, a_2, \\ldots, a_n\uff0c\u6ee1\u8db3 a_1 \\geq a_2 \\geq \\ldots \\geq a_n \\geq 1\u3002\n\n\u5982\u56fe\u6240\u793a\uff0ca=[3,2,2,2,1]\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1268B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1268B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1268B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1268B Domino for Young" />
+    <meta property="og:description" content="给定一个杨氏图。
+所给的图是一个有 n 列的直方图，每列的高度分别为 a_1, a_2, \ldots, a_n，满足 a_1 \geq a_2 \geq \ldots \geq a_n \geq 1。
+
+如图所示，a=[3,2,2,2,1]…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1268B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1268B Domino for Young</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个杨氏图。
+
+所给的图是一个有 $n$ 列的直方图，每列的高度分别为 $a_1, a_2, \ldots, a_n$，满足 $a_1 \geq a_2 \geq \ldots \geq a_n \geq 1$。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1268B/2544e64d1ff8ecc95c5b673d61da4ac4a05b5734.png)
+
+如图所示，$a=[3,2,2,2,1]$ 时的杨氏图。
+
+你的目标是在这个直方图内放置尽可能多的不重叠多米诺骨牌。每个多米诺骨牌是一个 $1 \times 2$ 或 $2 \times 1$ 的矩形。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$（$1 \leq n \leq 300\,000$），表示直方图的列数。
+
+输入的第二行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$1 \leq a_i \leq 300\,000, a_i \geq a_{i+1}$），表示每一列的高度。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示在给定的杨氏图中最多能放置多少个不重叠的多米诺骨牌。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于样例，有如下几种可能的放置方案：
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1268B/3d8978aaa90355dc607b1f977284246d35ebb93f.png)
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1268B/470888c1347adb69c9c5541029d57b758f46e12d.png)
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

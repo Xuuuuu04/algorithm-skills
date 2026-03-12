@@ -1,0 +1,27 @@
+{
+  "id": "CF-266A",
+  "contest_id": 266,
+  "index": "A",
+  "name": "Stones on the Table",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 237916,
+  "problem_url": "https://codeforces.com/problemset/problem/266/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/266/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/266/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=266A%20Stones%20on%20the%20Table%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF266A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF266A Stones on the Table - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 552,
+    "mirror_attempt": 826,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

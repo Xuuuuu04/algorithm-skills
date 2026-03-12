@@ -1,0 +1,31 @@
+{
+  "id": "CF-216C",
+  "contest_id": 216,
+  "index": "C",
+  "name": "Hiring Staff",
+  "rating": 1800,
+  "tags": [
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/216/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/216/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/216/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=216C%20Hiring Staff%20tutorial",
+  "solved_count": 1916,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P216C",
+  "hydro_meta": {
+    "page_title": "Hiring Staff - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

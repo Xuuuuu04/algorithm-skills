@@ -1,0 +1,45 @@
+{
+  "id": "CF-2064D",
+  "contest_id": 2064,
+  "index": "D",
+  "name": "Eating",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy",
+    "trees",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2064/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2064/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2064/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2064D%20Eating%20tutorial",
+  "solved_count": 5734,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2064D",
+  "hydro_meta": {
+    "page_title": "Eating - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "greedy",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "5000ms",
+    "memory_limit": "512MiB"
+  }
+}

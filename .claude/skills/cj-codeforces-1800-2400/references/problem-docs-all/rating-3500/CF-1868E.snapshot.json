@@ -1,0 +1,32 @@
+{
+  "id": "CF-1868E",
+  "contest_id": 1868,
+  "index": "E",
+  "name": "Min-Sum-Max",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 110,
+  "problem_url": "https://codeforces.com/problemset/problem/1868/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1868/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1868/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1868E%20Min-Sum-Max%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1868E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Min-Sum-Max - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "1024MiB"
+  }
+}

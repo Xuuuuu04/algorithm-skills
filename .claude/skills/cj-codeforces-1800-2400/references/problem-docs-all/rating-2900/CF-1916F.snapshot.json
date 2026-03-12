@@ -1,0 +1,36 @@
+{
+  "id": "CF-1916F",
+  "contest_id": 1916,
+  "index": "F",
+  "name": "Group Division",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 702,
+  "problem_url": "https://codeforces.com/problemset/problem/1916/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1916/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1916/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1916F%20Group%20Division%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1916F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Group Division - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "*2900"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

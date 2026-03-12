@@ -1,0 +1,35 @@
+{
+  "id": "CF-1827D",
+  "contest_id": 1827,
+  "index": "D",
+  "name": "Two Centroids",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 929,
+  "problem_url": "https://codeforces.com/problemset/problem/1827/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1827/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1827/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1827D%20Two%20Centroids%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1827D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Centroids - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "greedy",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

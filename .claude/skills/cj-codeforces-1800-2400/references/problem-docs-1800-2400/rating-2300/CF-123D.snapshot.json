@@ -1,0 +1,29 @@
+{
+  "id": "CF-123D",
+  "contest_id": 123,
+  "index": "D",
+  "name": "String",
+  "rating": 2300,
+  "tags": [
+    "string suffix structures"
+  ],
+  "url": "https://codeforces.com/problemset/problem/123/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/123/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/123/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=123D%20String%20tutorial",
+  "solved_count": 1402,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P123D",
+  "hydro_meta": {
+    "page_title": "String - 题目详情 - Hydro",
+    "hydro_tags": [
+      "string suffix structures",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

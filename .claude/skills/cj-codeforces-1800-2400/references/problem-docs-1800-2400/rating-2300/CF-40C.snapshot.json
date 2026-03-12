@@ -1,0 +1,33 @@
+{
+  "id": "CF-40C",
+  "contest_id": 40,
+  "index": "C",
+  "name": "Berland Square",
+  "rating": 2300,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/40/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/40/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/40/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=40C%20Berland Square%20tutorial",
+  "solved_count": 319,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P40C",
+  "hydro_meta": {
+    "page_title": "Berland Square - 题目详情 - Hydro",
+    "hydro_tags": [
+      "implementation",
+      "math",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

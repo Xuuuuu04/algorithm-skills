@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1516B AGAGA XOOORRR - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1516B","type":"CF","title":"AGAGA XOOORRR","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":705,"totalAccepted":322,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"AGAGA XOOORRR","background":null,"description":"Baby Ehab \u4ee5\u559c\u6b22\u67d0\u79cd\u64cd\u4f5c\u800c\u95fb\u540d\u3002\u4ed6\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4ed6\u51b3\u5b9a\u4e0d\u65ad\u5bf9\u5176\u8fdb\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n- \u4ed6\u9009\u62e9 $2$ \u4e2a\u76f8\u90bb\u7684\u5143\u7d20\uff0c\u7136\u540e\u5c06\u5b83\u4eec\u79fb\u9664\uff0c\u5e76\u5728\u5b83\u4eec\u7684\u4f4d\u7f6e\u653e\u5165\u4e00\u4e2a\u6574\u6570\uff1a\u5b83\u4eec\u7684[\u6309\u4f4d\u5f02\u6216](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#XOR)\u7ed3\u679c\u3002\u6ce8\u610f\uff0c\u6570\u7ec4\u7684\u957f\u5ea6\u4f1a\u51cf\u5c11 $1$\u3002\n\n\u73b0\u5728\u4ed6\u60f3\u77e5\u9053\uff0c\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u8fd9\u79cd\u64cd\u4f5c\uff0c\u4f7f\u6570\u7ec4\u4e2d\u6240\u6709\u5143\u7d20\u90fd\u76f8\u7b49\u3002\u7531\u4e8e\u5c0f\u5b9d\u5b9d\u559c\u6b22\u8ba9\u4f60\u7684\u751f\u6d3b\u66f4\u6709\u6311\u6218\u6027\uff0c\u4ed6\u8981\u6c42\u6700\u7ec8\u6570\u7ec4\u4e2d\u81f3\u5c11\u8981\u5269\u4e0b $2$ \u4e2a\u5143\u7d20\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 15$\uff09\uff0c\u8868\u793a\u4f60\u9700\u8981\u89e3\u51b3\u7684\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 2000$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\le a_i \u003C 2^{30}$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002","formatO":"\u5982\u679c Baby Ehab \u80fd\u591f\u5728\u81f3\u5c11\u5269\u4e0b $2$ \u4e2a\u5143\u7d20\u7684\u60c5\u51b5\u4e0b\u4f7f\u6240\u6709\u5143\u7d20\u76f8\u7b49\uff0c\u8f93\u51fa \u0022YES\u0022\u3002\u5426\u5219\uff0c\u8f93\u51fa \u0022NO\u0022\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4ed6\u53ef\u4ee5\u79fb\u9664\u524d\u4e24\u4e2a\u5143\u7d20 $0$ \u548c $2$\uff0c\u5e76\u7528 $0 \\oplus 2=2$ \u66ff\u6362\u5b83\u4eec\u3002\u6b64\u65f6\u6570\u7ec4\u53d8\u4e3a $[2,2]$\uff0c\u6240\u6709\u5143\u7d20\u90fd\u76f8\u7b49\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6ca1\u6709\u529e\u6cd5\u4f7f\u6240\u6709\u5143\u7d20\u90fd\u76f8\u7b49\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"AGAGA XOOORRR","background":"","description":"Baby Ehab is known for his love for a certain operation. He has an array $ a $ of length $ n $ , and he decided to keep doing the following operation on it:\n\n- he picks $ 2 $ adjacent elements; he then removes them and places a single integer in their place: their [bitwise XOR](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#XOR). Note that the length of the array decreases by one.\n\nNow he asks you if he can make all elements of the array equal. Since babies like to make your life harder, he requires that you leave at least $ 2 $ elements remaining.","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le 15 $ ) \u2014 the number of test cases you need to solve.\n\nThe first line of each test case contains an integers $ n $ ( $ 2 \\le n \\le 2000 $ ) \u2014 the number of elements in the array $ a $ .\n\nThe second line contains $ n $ space-separated integers $ a_1 $ , $ a_2 $ , $ \\ldots $ , $ a_{n} $ ( $ 0 \\le a_i \u003C 2^{30} $ ) \u2014 the elements of the array $ a $ .","formatO":"If Baby Ehab can make all elements equal while leaving at least $ 2 $ elements standing, print \u0022YES\u0022. Otherwise, print \u0022NO\u0022.","hint":"In the first sample, he can remove the first $ 2 $ elements, $ 0 $ and $ 2 $ , and replace them by $ 0 \\oplus 2=2 $ . The array will be $ [2,2] $ , so all the elements are equal.\n\nIn the second sample, there\u0027s no way to make all the elements equal.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n3\n0 2 2\n4\n2 3 1 10","YES\nNO"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1516B","link":"https:\/\/codeforces.com\/problemset\/problem\/1516\/B"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a $n$ \u957f\u5ea6\u7684\u6570\u7ec4 $a$ \uff0c\u53ef\u4ee5\u8fdb\u884c\u64cd\u4f5c\uff1a\n\n\u5c06\u6570\u7ec4\u76f8\u90bb\u7684\u4e24\u4e2a\u5143\u7d20\u5220\u9664\uff0c\u5e76\u5728\u539f\u6765\u7684\u4f4d\u7f6e\u63d2\u5165\u8fd9\u4e24\u4e2a\u5143\u7d20\u7684\u5f02\u6216\u548c\u3002\n\n\u6c42\u5728\u6700\u591a\u5220\u9664 $n-2$ \u4e2a\u5143\u7d20\uff08\u5373\u81f3\u5c11\u5269\u4f59 $2$ \u4e2a\u5143\u7d20\uff09\u7684\u60c5\u51b5\u4e0b\u80fd\u5426\u4f7f\u6570\u7ec4\u6240\u6709\u5143\u7d20\u76f8\u7b49\u3002"},"translations":{"en":{"name":"AGAGA XOOORRR","background":"","description":"Baby Ehab is known for his love for a certain operation. He has an array $ a $ of length $ n $ , and he decided to keep doing the following operation on it:\n\n- he picks $ 2 $ adjacent elements; he then removes them and places a single integer in their place: their [bitwise XOR](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#XOR). Note that the length of the array decreases by one.\n\nNow he asks you if he can make all elements of the array equal. Since babies like to make your life harder, he requires that you leave at least $ 2 $ elements remaining.","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le 15 $ ) \u2014 the number of test cases you need to solve.\n\nThe first line of each test case contains an integers $ n $ ( $ 2 \\le n \\le 2000 $ ) \u2014 the number of elements in the array $ a $ .\n\nThe second line contains $ n $ space-separated integers $ a_1 $ , $ a_2 $ , $ \\ldots $ , $ a_{n} $ ( $ 0 \\le a_i \u003C 2^{30} $ ) \u2014 the elements of the array $ a $ .","formatO":"If Baby Ehab can make all elements equal while leaving at least $ 2 $ elements standing, print \u0022YES\u0022. Otherwise, print \u0022NO\u0022.","hint":"In the first sample, he can remove the first $ 2 $ elements, $ 0 $ and $ 2 $ , and replace them by $ 0 \\oplus 2=2 $ . The array will be $ [2,2] $ , so all the elements are equal.\n\nIn the second sample, there\u0027s no way to make all the elements equal.","locale":"en"},"zh-CN":{"name":"AGAGA XOOORRR","background":null,"description":"Baby Ehab \u4ee5\u559c\u6b22\u67d0\u79cd\u64cd\u4f5c\u800c\u95fb\u540d\u3002\u4ed6\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4ed6\u51b3\u5b9a\u4e0d\u65ad\u5bf9\u5176\u8fdb\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n- \u4ed6\u9009\u62e9 $2$ \u4e2a\u76f8\u90bb\u7684\u5143\u7d20\uff0c\u7136\u540e\u5c06\u5b83\u4eec\u79fb\u9664\uff0c\u5e76\u5728\u5b83\u4eec\u7684\u4f4d\u7f6e\u653e\u5165\u4e00\u4e2a\u6574\u6570\uff1a\u5b83\u4eec\u7684[\u6309\u4f4d\u5f02\u6216](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#XOR)\u7ed3\u679c\u3002\u6ce8\u610f\uff0c\u6570\u7ec4\u7684\u957f\u5ea6\u4f1a\u51cf\u5c11 $1$\u3002\n\n\u73b0\u5728\u4ed6\u60f3\u77e5\u9053\uff0c\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u8fd9\u79cd\u64cd\u4f5c\uff0c\u4f7f\u6570\u7ec4\u4e2d\u6240\u6709\u5143\u7d20\u90fd\u76f8\u7b49\u3002\u7531\u4e8e\u5c0f\u5b9d\u5b9d\u559c\u6b22\u8ba9\u4f60\u7684\u751f\u6d3b\u66f4\u6709\u6311\u6218\u6027\uff0c\u4ed6\u8981\u6c42\u6700\u7ec8\u6570\u7ec4\u4e2d\u81f3\u5c11\u8981\u5269\u4e0b $2$ \u4e2a\u5143\u7d20\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 15$\uff09\uff0c\u8868\u793a\u4f60\u9700\u8981\u89e3\u51b3\u7684\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 2000$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u4e2a\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\le a_i \u003C 2^{30}$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002","formatO":"\u5982\u679c Baby Ehab \u80fd\u591f\u5728\u81f3\u5c11\u5269\u4e0b $2$ \u4e2a\u5143\u7d20\u7684\u60c5\u51b5\u4e0b\u4f7f\u6240\u6709\u5143\u7d20\u76f8\u7b49\uff0c\u8f93\u51fa \u0022YES\u0022\u3002\u5426\u5219\uff0c\u8f93\u51fa \u0022NO\u0022\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4ed6\u53ef\u4ee5\u79fb\u9664\u524d\u4e24\u4e2a\u5143\u7d20 $0$ \u548c $2$\uff0c\u5e76\u7528 $0 \\oplus 2=2$ \u66ff\u6362\u5b83\u4eec\u3002\u6b64\u65f6\u6570\u7ec4\u53d8\u4e3a $[2,2]$\uff0c\u6240\u6709\u5143\u7d20\u90fd\u76f8\u7b49\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6ca1\u6709\u529e\u6cd5\u4f7f\u6240\u6709\u5143\u7d20\u90fd\u76f8\u7b49\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1516B AGAGA XOOORRR","type":2,"slug":"CF1516B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.279262,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1516B AGAGA XOOORRR","description":"Baby Ehab \u4ee5\u559c\u6b22\u67d0\u79cd\u64cd\u4f5c\u800c\u95fb\u540d\u3002\u4ed6\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a\uff0c\u4ed6\u51b3\u5b9a\u4e0d\u65ad\u5bf9\u5176\u8fdb\u884c\u4ee5\u4e0b\u64cd\u4f5c\uff1a\n\n\u4ed6\u9009\u62e9 2 \u4e2a\u76f8\u90bb\u7684\u5143\u7d20\uff0c\u7136\u540e\u5c06\u5b83\u4eec\u79fb\u9664\uff0c\u5e76\u5728\u5b83\u4eec\u7684\u4f4d\u7f6e\u653e\u5165\u4e00\u4e2a\u6574\u6570\uff1a\u5b83\u4eec\u7684\u6309\u4f4d\u5f02\u6216\u7ed3\u679c\u3002\u6ce8\u610f\uff0c\u6570\u7ec4\u7684\u957f\u5ea6\u4f1a\u51cf\u5c11 1\u3002\n\n\u73b0\u5728\u4ed6\u60f3\u77e5\u9053\uff0c\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u8fd9\u79cd\u64cd\u4f5c\uff0c\u4f7f\u6570\u7ec4\u4e2d\u6240\u6709\u5143\u7d20\u90fd\u76f8\u7b49\u3002\u7531\u4e8e\u5c0f\u5b9d\u5b9d\u559c\u6b22\u8ba9\u4f60\u7684\u751f\u6d3b\u66f4\u6709\u6311\u6218\u6027\uff0c\u4ed6\u8981\u6c42\u6700\u7ec8\u6570\u7ec4\u4e2d\u81f3\u5c11\u8981\u5269\u4e0b\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1516B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1516B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1516B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1516B AGAGA XOOORRR" />
+    <meta property="og:description" content="Baby Ehab 以喜欢某种操作而闻名。他有一个长度为 n 的数组 a，他决定不断对其进行以下操作：
+
+他选择 2 个相邻的元素，然后将它们移除，并在它们的位置放入一个整数：它们的按位异或结果。注意，数组的长度会减少 1。
+
+现在他想知道，是否可以通过这种操作，使数组中所有元素都相等。由于小宝宝喜欢让你的生活更有挑战性，他要求最终数组中至少要剩下…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1516B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1516B AGAGA XOOORRR</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Baby Ehab 以喜欢某种操作而闻名。他有一个长度为 $n$ 的数组 $a$，他决定不断对其进行以下操作：
+
+- 他选择 $2$ 个相邻的元素，然后将它们移除，并在它们的位置放入一个整数：它们的[按位异或](https://en.wikipedia.org/wiki/Bitwise_operation#XOR)结果。注意，数组的长度会减少 $1$。
+
+现在他想知道，是否可以通过这种操作，使数组中所有元素都相等。由于小宝宝喜欢让你的生活更有挑战性，他要求最终数组中至少要剩下 $2$ 个元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 15$），表示你需要解决的测试用例数量。
+
+每个测试用例的第一行包含一个整数 $n$（$2 \le n \le 2000$），表示数组 $a$ 的元素个数。
+
+第二行包含 $n$ 个用空格分隔的整数 $a_1, a_2, \ldots, a_n$（$0 \le a_i < 2^{30}$），表示数组 $a$ 的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    如果 Baby Ehab 能够在至少剩下 $2$ 个元素的情况下使所有元素相等，输出 "YES"。否则，输出 "NO"。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，他可以移除前两个元素 $0$ 和 $2$，并用 $0 \oplus 2=2$ 替换它们。此时数组变为 $[2,2]$，所有元素都相等。
+
+在第二个样例中，没有办法使所有元素都相等。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

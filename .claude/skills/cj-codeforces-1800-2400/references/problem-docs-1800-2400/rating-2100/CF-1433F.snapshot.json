@@ -1,0 +1,31 @@
+{
+  "id": "CF-1433F",
+  "contest_id": 1433,
+  "index": "F",
+  "name": "Zero Remainder Sum ",
+  "rating": 2100,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1433/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1433/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1433/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1433F%20Zero Remainder Sum %20tutorial",
+  "solved_count": 6667,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1433F",
+  "hydro_meta": {
+    "page_title": "Zero Remainder Sum - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

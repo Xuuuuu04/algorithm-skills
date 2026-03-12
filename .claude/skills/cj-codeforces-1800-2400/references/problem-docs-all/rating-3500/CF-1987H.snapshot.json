@@ -1,0 +1,27 @@
+{
+  "id": "CF-1987H",
+  "contest_id": 1987,
+  "index": "H",
+  "name": "Fumo Temple",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 5000.0,
+  "tags": [
+    "interactive"
+  ],
+  "solved_count": 138,
+  "problem_url": "https://codeforces.com/problemset/problem/1987/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1987/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1987/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1987H%20Fumo%20Temple%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1987/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1987H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

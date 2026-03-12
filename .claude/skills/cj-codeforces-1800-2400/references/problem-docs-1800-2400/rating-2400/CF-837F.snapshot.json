@@ -1,0 +1,40 @@
+{
+  "id": "CF-837F",
+  "contest_id": 837,
+  "index": "F",
+  "name": "Prefix Sums",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "brute force",
+    "combinatorics",
+    "math",
+    "matrices"
+  ],
+  "url": "https://codeforces.com/problemset/problem/837/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/837/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/837/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=837F%20Prefix Sums%20tutorial",
+  "solved_count": 1066,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P837F",
+  "hydro_meta": {
+    "page_title": "Prefix Sums - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "math",
+      "matrices",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

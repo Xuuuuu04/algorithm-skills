@@ -1,0 +1,34 @@
+{
+  "id": "CF-105C",
+  "contest_id": 105,
+  "index": "C",
+  "name": "Item World",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 384,
+  "problem_url": "https://codeforces.com/problemset/problem/105/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/105/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/105/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=105C%20Item%20World%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P105C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Item World - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "sortings",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

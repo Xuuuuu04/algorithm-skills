@@ -1,0 +1,29 @@
+{
+  "id": "CF-453B",
+  "contest_id": 453,
+  "index": "B",
+  "name": "Little Pony and Harmony Chest",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dp"
+  ],
+  "solved_count": 5295,
+  "problem_url": "https://codeforces.com/problemset/problem/453/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/453/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/453/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=453B%20Little%20Pony%20and%20Harmony%20Chest%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF453B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF453B Little Pony and Harmony Chest - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 331,
+    "mirror_attempt": 701,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

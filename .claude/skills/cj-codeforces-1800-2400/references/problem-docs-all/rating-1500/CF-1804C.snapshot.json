@@ -1,0 +1,30 @@
+{
+  "id": "CF-1804C",
+  "contest_id": 1804,
+  "index": "C",
+  "name": "Pull Your Luck",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 13706,
+  "problem_url": "https://codeforces.com/problemset/problem/1804/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1804/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1804/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1804C%20Pull%20Your%20Luck%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1804/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1804C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

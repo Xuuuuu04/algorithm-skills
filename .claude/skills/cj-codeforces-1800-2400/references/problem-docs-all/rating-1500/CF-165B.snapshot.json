@@ -1,0 +1,28 @@
+{
+  "id": "CF-165B",
+  "contest_id": 165,
+  "index": "B",
+  "name": "Burning Midnight Oil",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "implementation"
+  ],
+  "solved_count": 22406,
+  "problem_url": "https://codeforces.com/problemset/problem/165/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/165/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/165/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=165B%20Burning%20Midnight%20Oil%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF165B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF165B Burning Midnight Oil - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 186,
+    "mirror_attempt": 366,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

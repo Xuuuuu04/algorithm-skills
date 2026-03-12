@@ -1,0 +1,32 @@
+{
+  "id": "CF-959A",
+  "contest_id": 959,
+  "index": "A",
+  "name": "Mahmoud and Ehab and the even-odd game",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "games",
+    "math"
+  ],
+  "solved_count": 55025,
+  "problem_url": "https://codeforces.com/problemset/problem/959/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/959/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/959/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=959A%20Mahmoud%20and%20Ehab%20and%20the%20even-odd%20game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P959A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mahmoud and Ehab and the even-odd game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "games",
+      "math",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

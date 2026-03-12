@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1797A Li Hua and Maze - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1797A","type":"CF","title":"Li Hua and Maze","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":400,"totalAccepted":205,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Li Hua and Maze","background":null,"description":"\u6709\u4e00\u4e2a\u5927\u5c0f\u4e3a $n\\times m$ \u7684\u77e9\u5f62\u8ff7\u5bab\u3002\u7528 $(r,c)$ \u8868\u793a\u4ece\u4e0a\u5230\u4e0b\u7b2c $r$ \u884c\u3001\u4ece\u5de6\u5230\u53f3\u7b2c $c$ \u5217\u7684\u683c\u5b50\u3002\u5982\u679c\u4e24\u4e2a\u683c\u5b50\u6709\u516c\u5171\u8fb9\uff0c\u5219\u79f0\u5b83\u4eec\u662f\u76f8\u90bb\u7684\u3002\u8def\u5f84\u662f\u7531\u4e00\u7cfb\u5217\u76f8\u90bb\u7684\u7a7a\u683c\u5b50\u7ec4\u6210\u7684\u5e8f\u5217\u3002\n\n\u6bcf\u4e2a\u683c\u5b50\u521d\u59cb\u65f6\u90fd\u662f\u7a7a\u7684\u3002\u674e\u534e\u53ef\u4ee5\u9009\u62e9\u4e00\u4e9b\u683c\u5b50\uff08\u9664\u4e86 $(x_1, y_1)$ \u548c $(x_2, y_2)$\uff09\uff0c\u5e76\u5728\u6bcf\u4e2a\u683c\u5b50\u4e0a\u653e\u7f6e\u4e00\u4e2a\u969c\u788d\u7269\u3002\u4ed6\u60f3\u77e5\u9053\uff0c\u6700\u5c11\u9700\u8981\u653e\u7f6e\u591a\u5c11\u4e2a\u969c\u788d\u7269\uff0c\u624d\u80fd\u4f7f\u5f97\u4ece $(x_1, y_1)$ \u5230 $(x_2, y_2)$ \u4e0d\u5b58\u5728\u8def\u5f84\u3002\n\n\u5047\u5982\u4f60\u662f\u674e\u534e\uff0c\u8bf7\u89e3\u51b3\u8fd9\u4e2a\u95ee\u9898\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 500$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n, m$\uff08$4 \\le n, m \\le 10^9$\uff09\uff0c\u8868\u793a\u8ff7\u5bab\u7684\u5927\u5c0f\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u56db\u4e2a\u6574\u6570 $x_1, y_1, x_2, y_2$\uff08$1 \\le x_1, x_2 \\le n, 1 \\le y_1, y_2 \\le m$\uff09\uff0c\u8868\u793a\u8d77\u70b9\u548c\u7ec8\u70b9\u7684\u5750\u6807\u3002\n\n\u4fdd\u8bc1 $|x_1-x_2|+|y_1-y_2| \\ge 2$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f60\u9700\u8981\u5728\u8ff7\u5bab\u4e2d\u653e\u7f6e\u7684\u6700\u5c11\u969c\u788d\u7269\u6570\u91cf\uff0c\u4f7f\u5f97\u4ece $(x_1, y_1)$ \u5230 $(x_2, y_2)$ \u4e0d\u5b58\u5728\u8def\u5f84\u3002","hint":"\u5728\u7b2c 1 \u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u5728 $(1,3), (2,3), (3,2), (4,2)$ \u8fd9\u56db\u4e2a\u4f4d\u7f6e\u653e\u7f6e\u969c\u788d\u7269\u3002\u8fd9\u6837\u4ece $(2,2)$ \u5230 $(3,3)$ \u7684\u8def\u5f84\u5c31\u4e0d\u5b58\u5728\u4e86\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1797A\/96b0762aced9cb4aa19be2ba7a9ded837df6d848.png)\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Li Hua and Maze","background":"","description":"There is a rectangular maze of size $ n\\times m $ . Denote $ (r,c) $ as the cell on the $ r $ -th row from the top and the $ c $ -th column from the left. Two cells are adjacent if they share an edge. A path is a sequence of adjacent empty cells.\n\nEach cell is initially empty. Li Hua can choose some cells (except $ (x_1, y_1) $ and $ (x_2, y_2) $ ) and place an obstacle in each of them. He wants to know the minimum number of obstacles needed to be placed so that there isn\u0027t a path from $ (x_1, y_1) $ to $ (x_2, y_2) $ .\n\nSuppose you were Li Hua, please solve this problem.","formatI":"The first line contains the single integer $ t $ ( $ 1 \\le t \\le 500 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains two integers $ n,m $ ( $ 4\\le n,m\\le 10^9 $ ) \u2014 the size of the maze.\n\nThe second line of each test case contains four integers $ x_1,y_1,x_2,y_2 $ ( $ 1\\le x_1,x_2\\le n, 1\\le y_1,y_2\\le m $ ) \u2014 the coordinates of the start and the end.\n\nIt is guaranteed that $ |x_1-x_2|+|y_1-y_2|\\ge 2 $ .","formatO":"For each test case print the minimum number of obstacles you need to put on the field so that there is no path from $ (x_1, y_1) $ to $ (x_2, y_2) $ .","hint":"In test case 1, you can put obstacles on $ (1,3), (2,3), (3,2), (4,2) $ . Then the path from $ (2,2) $ to $ (3,3) $ will not exist.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1797A\/96b0762aced9cb4aa19be2ba7a9ded837df6d848.png)","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n4 4\n2 2 3 3\n6 7\n1 1 2 3\n9 9\n5 1 3 6","4\n2\n3"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1797A","link":"https:\/\/codeforces.com\/problemset\/problem\/1797\/A"},"translation":"\u6709\u4e00\u4e2a\u5927\u5c0f\u4e3a $n\\times m$ \u7684\u77e9\u5f62\u8ff7\u5bab\u3002\u79f0\u4e24\u4e2a\u683c\u5b50\u76f8\u90bb\uff0c\u5f53\u4e14\u4ec5\u5f53\u5b83\u4eec\u6709\u4e00\u6761\u516c\u5171\u8fb9\u3002\u5b9a\u4e49\u4e00\u6761\u8def\u5f84\u4e3a\u82e5\u5e72\u76f8\u90bb\u7a7a\u683c\u5b50\u7684\u5e8f\u5217\u3002\n\n\u6bcf\u4e2a\u683c\u5b50\u521d\u59cb\u4e3a\u7a7a\u3002\u674e\u534e\u53ef\u4ee5\u5728\u82e5\u5e72\u4e2a\u683c\u5b50\u4e2d\u653e\u7f6e\u969c\u788d\u7269\u3002\u4ed6\u5e0c\u671b\u77e5\u9053\u6700\u5c11\u9700\u8981\u653e\u7f6e\u591a\u5c11\u4e2a\u969c\u788d\u7269\u4f7f\u5f97\u4e0d\u5b58\u5728\u4e00\u6761\u4ece $(x_1,y_1)$ \u5230 $(x_2,y_2)$ \u7684\u8def\u5f84\u3002\n\n\u5047\u5982\u4f60\u662f\u674e\u534e\uff0c\u8bf7\u89e3\u51b3\u8fd9\u4e00\u95ee\u9898\u3002\n\n\uff08[\u5168\u573a\u4e2d\u6587\u9898\u9762](https:\/\/www.cnblogs.com\/ruierqwq\/p\/CF1797-CHN-statement.html)\uff09"},"translations":{"en":{"name":"Li Hua and Maze","background":"","description":"There is a rectangular maze of size $ n\\times m $ . Denote $ (r,c) $ as the cell on the $ r $ -th row from the top and the $ c $ -th column from the left. Two cells are adjacent if they share an edge. A path is a sequence of adjacent empty cells.\n\nEach cell is initially empty. Li Hua can choose some cells (except $ (x_1, y_1) $ and $ (x_2, y_2) $ ) and place an obstacle in each of them. He wants to know the minimum number of obstacles needed to be placed so that there isn\u0027t a path from $ (x_1, y_1) $ to $ (x_2, y_2) $ .\n\nSuppose you were Li Hua, please solve this problem.","formatI":"The first line contains the single integer $ t $ ( $ 1 \\le t \\le 500 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains two integers $ n,m $ ( $ 4\\le n,m\\le 10^9 $ ) \u2014 the size of the maze.\n\nThe second line of each test case contains four integers $ x_1,y_1,x_2,y_2 $ ( $ 1\\le x_1,x_2\\le n, 1\\le y_1,y_2\\le m $ ) \u2014 the coordinates of the start and the end.\n\nIt is guaranteed that $ |x_1-x_2|+|y_1-y_2|\\ge 2 $ .","formatO":"For each test case print the minimum number of obstacles you need to put on the field so that there is no path from $ (x_1, y_1) $ to $ (x_2, y_2) $ .","hint":"In test case 1, you can put obstacles on $ (1,3), (2,3), (3,2), (4,2) $ . Then the path from $ (2,2) $ to $ (3,3) $ will not exist.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1797A\/96b0762aced9cb4aa19be2ba7a9ded837df6d848.png)","locale":"en"},"zh-CN":{"name":"Li Hua and Maze","background":null,"description":"\u6709\u4e00\u4e2a\u5927\u5c0f\u4e3a $n\\times m$ \u7684\u77e9\u5f62\u8ff7\u5bab\u3002\u7528 $(r,c)$ \u8868\u793a\u4ece\u4e0a\u5230\u4e0b\u7b2c $r$ \u884c\u3001\u4ece\u5de6\u5230\u53f3\u7b2c $c$ \u5217\u7684\u683c\u5b50\u3002\u5982\u679c\u4e24\u4e2a\u683c\u5b50\u6709\u516c\u5171\u8fb9\uff0c\u5219\u79f0\u5b83\u4eec\u662f\u76f8\u90bb\u7684\u3002\u8def\u5f84\u662f\u7531\u4e00\u7cfb\u5217\u76f8\u90bb\u7684\u7a7a\u683c\u5b50\u7ec4\u6210\u7684\u5e8f\u5217\u3002\n\n\u6bcf\u4e2a\u683c\u5b50\u521d\u59cb\u65f6\u90fd\u662f\u7a7a\u7684\u3002\u674e\u534e\u53ef\u4ee5\u9009\u62e9\u4e00\u4e9b\u683c\u5b50\uff08\u9664\u4e86 $(x_1, y_1)$ \u548c $(x_2, y_2)$\uff09\uff0c\u5e76\u5728\u6bcf\u4e2a\u683c\u5b50\u4e0a\u653e\u7f6e\u4e00\u4e2a\u969c\u788d\u7269\u3002\u4ed6\u60f3\u77e5\u9053\uff0c\u6700\u5c11\u9700\u8981\u653e\u7f6e\u591a\u5c11\u4e2a\u969c\u788d\u7269\uff0c\u624d\u80fd\u4f7f\u5f97\u4ece $(x_1, y_1)$ \u5230 $(x_2, y_2)$ \u4e0d\u5b58\u5728\u8def\u5f84\u3002\n\n\u5047\u5982\u4f60\u662f\u674e\u534e\uff0c\u8bf7\u89e3\u51b3\u8fd9\u4e2a\u95ee\u9898\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 500$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n, m$\uff08$4 \\le n, m \\le 10^9$\uff09\uff0c\u8868\u793a\u8ff7\u5bab\u7684\u5927\u5c0f\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u56db\u4e2a\u6574\u6570 $x_1, y_1, x_2, y_2$\uff08$1 \\le x_1, x_2 \\le n, 1 \\le y_1, y_2 \\le m$\uff09\uff0c\u8868\u793a\u8d77\u70b9\u548c\u7ec8\u70b9\u7684\u5750\u6807\u3002\n\n\u4fdd\u8bc1 $|x_1-x_2|+|y_1-y_2| \\ge 2$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f60\u9700\u8981\u5728\u8ff7\u5bab\u4e2d\u653e\u7f6e\u7684\u6700\u5c11\u969c\u788d\u7269\u6570\u91cf\uff0c\u4f7f\u5f97\u4ece $(x_1, y_1)$ \u5230 $(x_2, y_2)$ \u4e0d\u5b58\u5728\u8def\u5f84\u3002","hint":"\u5728\u7b2c 1 \u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u5728 $(1,3), (2,3), (3,2), (4,2)$ \u8fd9\u56db\u4e2a\u4f4d\u7f6e\u653e\u7f6e\u969c\u788d\u7269\u3002\u8fd9\u6837\u4ece $(2,2)$ \u5230 $(3,3)$ \u7684\u8def\u5f84\u5c31\u4e0d\u5b58\u5728\u4e86\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1797A\/96b0762aced9cb4aa19be2ba7a9ded837df6d848.png)\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1797A Li Hua and Maze","type":2,"slug":"CF1797A","color":"orange-3"},"discussions":[{"id":702855,"title":"\u5173\u4e8e\u672c\u9898\u9898\u89e3","author":{"uid":438168,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/438168.png","name":"OldVagrant","slogan":"\u660e\u5929\u4f60\u4f1a\u5728\u54ea \u4e0b\u4e00\u4e2a\u8fdc\u5904\u5417","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/4p19gbq5.png"},"time":1696561301}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.154489,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1797A Li Hua and Maze","description":"\u6709\u4e00\u4e2a\u5927\u5c0f\u4e3a n\\times m \u7684\u77e9\u5f62\u8ff7\u5bab\u3002\u7528 (r,c) \u8868\u793a\u4ece\u4e0a\u5230\u4e0b\u7b2c r \u884c\u3001\u4ece\u5de6\u5230\u53f3\u7b2c c \u5217\u7684\u683c\u5b50\u3002\u5982\u679c\u4e24\u4e2a\u683c\u5b50\u6709\u516c\u5171\u8fb9\uff0c\u5219\u79f0\u5b83\u4eec\u662f\u76f8\u90bb\u7684\u3002\u8def\u5f84\u662f\u7531\u4e00\u7cfb\u5217\u76f8\u90bb\u7684\u7a7a\u683c\u5b50\u7ec4\u6210\u7684\u5e8f\u5217\u3002\n\u6bcf\u4e2a\u683c\u5b50\u521d\u59cb\u65f6\u90fd\u662f\u7a7a\u7684\u3002\u674e\u534e\u53ef\u4ee5\u9009\u62e9\u4e00\u4e9b\u683c\u5b50\uff08\u9664\u4e86\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1797A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1797A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1797A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1797A Li Hua and Maze" />
+    <meta property="og:description" content="有一个大小为 n\times m 的矩形迷宫。用 (r,c) 表示从上到下第 r 行、从左到右第 c 列的格子。如果两个格子有公共边，则称它们是相邻的。路径是由一系列相邻的空格子组成的序列。
+每个格子初始时都是空的。李华可以选择一些格子（除了…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1797A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1797A Li Hua and Maze</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有一个大小为 $n\times m$ 的矩形迷宫。用 $(r,c)$ 表示从上到下第 $r$ 行、从左到右第 $c$ 列的格子。如果两个格子有公共边，则称它们是相邻的。路径是由一系列相邻的空格子组成的序列。
+
+每个格子初始时都是空的。李华可以选择一些格子（除了 $(x_1, y_1)$ 和 $(x_2, y_2)$），并在每个格子上放置一个障碍物。他想知道，最少需要放置多少个障碍物，才能使得从 $(x_1, y_1)$ 到 $(x_2, y_2)$ 不存在路径。
+
+假如你是李华，请解决这个问题。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 500$），表示测试用例的数量。
+
+每个测试用例的第一行包含两个整数 $n, m$（$4 \le n, m \le 10^9$），表示迷宫的大小。
+
+每个测试用例的第二行包含四个整数 $x_1, y_1, x_2, y_2$（$1 \le x_1, x_2 \le n, 1 \le y_1, y_2 \le m$），表示起点和终点的坐标。
+
+保证 $|x_1-x_2|+|y_1-y_2| \ge 2$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数，表示你需要在迷宫中放置的最少障碍物数量，使得从 $(x_1, y_1)$ 到 $(x_2, y_2)$ 不存在路径。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第 1 个测试用例中，你可以在 $(1,3), (2,3), (3,2), (4,2)$ 这四个位置放置障碍物。这样从 $(2,2)$ 到 $(3,3)$ 的路径就不存在了。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1797A/96b0762aced9cb4aa19be2ba7a9ded837df6d848.png)
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

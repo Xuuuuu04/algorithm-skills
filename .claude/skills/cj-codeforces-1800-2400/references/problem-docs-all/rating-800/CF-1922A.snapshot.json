@@ -1,0 +1,29 @@
+{
+  "id": "CF-1922A",
+  "contest_id": 1922,
+  "index": "A",
+  "name": "Tricky Template",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 28647,
+  "problem_url": "https://codeforces.com/problemset/problem/1922/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1922/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1922/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1922A%20Tricky%20Template%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1922A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1922A Tricky Template - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 197,
+    "mirror_attempt": 319,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-285A",
+  "contest_id": 285,
+  "index": "A",
+  "name": "Slightly Decreasing Permutations",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 14075,
+  "problem_url": "https://codeforces.com/problemset/problem/285/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/285/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/285/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=285A%20Slightly%20Decreasing%20Permutations%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P285A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Slightly Decreasing Permutations - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

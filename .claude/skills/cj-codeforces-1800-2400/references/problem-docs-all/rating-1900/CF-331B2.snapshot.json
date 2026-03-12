@@ -1,0 +1,30 @@
+{
+  "id": "CF-331B2",
+  "contest_id": 331,
+  "index": "B2",
+  "name": "Shave Beaver!",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 70.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 812,
+  "problem_url": "https://codeforces.com/problemset/problem/331/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/331/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/331/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=331B2%20Shave%20Beaver%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P331B2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Shave Beaver! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

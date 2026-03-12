@@ -1,0 +1,42 @@
+{
+  "id": "CF-1437E",
+  "contest_id": 1437,
+  "index": "E",
+  "name": "Make It Increasing",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "dp",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1437/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1437/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1437/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1437E%20Make It Increasing%20tutorial",
+  "solved_count": 3866,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1437E",
+  "hydro_meta": {
+    "page_title": "Make It Increasing - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "implementation",
+      "*2200"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

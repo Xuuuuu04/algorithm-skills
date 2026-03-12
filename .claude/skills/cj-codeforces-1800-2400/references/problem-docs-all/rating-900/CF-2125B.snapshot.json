@@ -1,0 +1,28 @@
+{
+  "id": "CF-2125B",
+  "contest_id": 2125,
+  "index": "B",
+  "name": "Left and Down",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 26753,
+  "problem_url": "https://codeforces.com/problemset/problem/2125/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2125/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2125/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2125B%20Left%20and%20Down%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2125/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2125B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

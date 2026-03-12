@@ -1,0 +1,30 @@
+{
+  "id": "CF-1083F",
+  "contest_id": 1083,
+  "index": "F",
+  "name": "The Fair Nut and Amusing Xor",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 313,
+  "problem_url": "https://codeforces.com/problemset/problem/1083/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1083/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1083/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1083F%20The%20Fair%20Nut%20and%20Amusing%20Xor%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1083F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Fair Nut and Amusing Xor - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "*3300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

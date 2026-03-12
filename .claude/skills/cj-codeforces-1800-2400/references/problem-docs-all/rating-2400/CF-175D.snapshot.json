@@ -1,0 +1,36 @@
+{
+  "id": "CF-175D",
+  "contest_id": 175,
+  "index": "D",
+  "name": "Plane of Tanks: Duel",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 314,
+  "problem_url": "https://codeforces.com/problemset/problem/175/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/175/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/175/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=175D%20Plane%20of%20Tanks%3A%20Duel%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P175D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Plane of Tanks: Duel - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dp",
+      "math",
+      "probabilities",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

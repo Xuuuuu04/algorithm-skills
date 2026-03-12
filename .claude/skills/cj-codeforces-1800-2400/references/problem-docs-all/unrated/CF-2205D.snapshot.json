@@ -1,0 +1,32 @@
+{
+  "id": "CF-2205D",
+  "contest_id": 2205,
+  "index": "D",
+  "name": "Simons and Beating Peaks",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "dp",
+    "greedy",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 4127,
+  "problem_url": "https://codeforces.com/problemset/problem/2205/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2205/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2205/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2205D%20Simons%20and%20Beating%20Peaks%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2205/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2205D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

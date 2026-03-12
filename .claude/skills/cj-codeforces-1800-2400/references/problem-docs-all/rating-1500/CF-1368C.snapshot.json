@@ -1,0 +1,27 @@
+{
+  "id": "CF-1368C",
+  "contest_id": 1368,
+  "index": "C",
+  "name": "Even Picture",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 13960,
+  "problem_url": "https://codeforces.com/problemset/problem/1368/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1368/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1368/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1368C%20Even%20Picture%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1368/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1368C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

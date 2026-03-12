@@ -1,0 +1,42 @@
+{
+  "id": "CF-1987E",
+  "contest_id": 1987,
+  "index": "E",
+  "name": "Wonderful Tree!",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1987/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1987/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1987/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1987E%20Wonderful Tree!%20tutorial",
+  "solved_count": 4028,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1987E",
+  "hydro_meta": {
+    "page_title": "Wonderful Tree! - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "flows",
+      "greedy",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

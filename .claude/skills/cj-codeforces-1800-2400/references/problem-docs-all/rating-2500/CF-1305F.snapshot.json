@@ -1,0 +1,29 @@
+{
+  "id": "CF-1305F",
+  "contest_id": 1305,
+  "index": "F",
+  "name": "Kuroni and the Punishment",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "math",
+    "number theory",
+    "probabilities"
+  ],
+  "solved_count": 3175,
+  "problem_url": "https://codeforces.com/problemset/problem/1305/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1305/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1305/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1305F%20Kuroni%20and%20the%20Punishment%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1305F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1305F Kuroni and the Punishment - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 809,
+    "mirror_attempt": 3089,
+    "time_limit": "2500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

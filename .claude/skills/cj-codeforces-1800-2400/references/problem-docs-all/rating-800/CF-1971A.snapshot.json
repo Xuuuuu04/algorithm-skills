@@ -1,0 +1,28 @@
+{
+  "id": "CF-1971A",
+  "contest_id": 1971,
+  "index": "A",
+  "name": "My First Sorting Problem",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 58332,
+  "problem_url": "https://codeforces.com/problemset/problem/1971/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1971/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1971/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1971A%20My%20First%20Sorting%20Problem%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1971A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1971A My First Sorting Problem - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 223,
+    "mirror_attempt": 375,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

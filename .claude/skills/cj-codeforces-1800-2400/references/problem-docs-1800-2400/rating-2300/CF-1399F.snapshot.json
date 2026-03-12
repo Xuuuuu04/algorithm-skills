@@ -1,0 +1,39 @@
+{
+  "id": "CF-1399F",
+  "contest_id": 1399,
+  "index": "F",
+  "name": "Yet Another Segments Subset",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "dp",
+    "graphs",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1399/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1399/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1399/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1399F%20Yet Another Segments Subset%20tutorial",
+  "solved_count": 1839,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1399F",
+  "hydro_meta": {
+    "page_title": "Yet Another Segments Subset - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "sortings",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

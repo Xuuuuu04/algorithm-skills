@@ -1,0 +1,34 @@
+{
+  "id": "CF-1290A",
+  "contest_id": 1290,
+  "index": "A",
+  "name": "Mind Control",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 8858,
+  "problem_url": "https://codeforces.com/problemset/problem/1290/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1290/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1290/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1290A%20Mind%20Control%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1290A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mind Control - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

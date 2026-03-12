@@ -1,0 +1,40 @@
+{
+  "id": "CF-1399E2",
+  "contest_id": 1399,
+  "index": "E2",
+  "name": "Weights Division (hard version)",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "dfs and similar",
+    "greedy",
+    "sortings",
+    "trees",
+    "two pointers"
+  ],
+  "solved_count": 2499,
+  "problem_url": "https://codeforces.com/problemset/problem/1399/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1399/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1399/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1399E2%20Weights%20Division%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1399E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Weights Division (hard version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dfs and similar",
+      "greedy",
+      "sortings",
+      "trees",
+      "two pointers",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

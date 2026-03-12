@@ -1,0 +1,34 @@
+{
+  "id": "CF-2143E",
+  "contest_id": 2143,
+  "index": "E",
+  "name": "Make Good",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "strings"
+  ],
+  "solved_count": 1715,
+  "problem_url": "https://codeforces.com/problemset/problem/2143/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2143/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2143/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2143E%20Make%20Good%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2143E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Make Good - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

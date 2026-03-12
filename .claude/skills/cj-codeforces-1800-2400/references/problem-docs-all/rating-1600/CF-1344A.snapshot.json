@@ -1,0 +1,34 @@
+{
+  "id": "CF-1344A",
+  "contest_id": 1344,
+  "index": "A",
+  "name": "Hilbert's Hotel",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math",
+    "number theory",
+    "sortings"
+  ],
+  "solved_count": 16411,
+  "problem_url": "https://codeforces.com/problemset/problem/1344/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1344/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1344/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1344A%20Hilbert%27s%20Hotel%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1344A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Hilbert's Hotel - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "sortings",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

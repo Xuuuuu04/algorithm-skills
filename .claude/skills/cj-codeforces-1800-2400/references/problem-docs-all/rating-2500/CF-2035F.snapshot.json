@@ -1,0 +1,31 @@
+{
+  "id": "CF-2035F",
+  "contest_id": 2035,
+  "index": "F",
+  "name": "Tree Operations",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "dfs and similar",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 1085,
+  "problem_url": "https://codeforces.com/problemset/problem/2035/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2035/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2035/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2035F%20Tree%20Operations%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2035/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2035F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

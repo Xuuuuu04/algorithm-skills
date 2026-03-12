@@ -1,0 +1,35 @@
+{
+  "id": "CF-1606E",
+  "contest_id": 1606,
+  "index": "E",
+  "name": "Arena",
+  "rating": 2100,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1606/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1606/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1606/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1606E%20Arena%20tutorial",
+  "solved_count": 4121,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1606E",
+  "hydro_meta": {
+    "page_title": "Arena - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

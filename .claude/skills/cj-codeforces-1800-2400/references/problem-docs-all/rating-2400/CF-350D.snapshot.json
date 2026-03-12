@@ -1,0 +1,38 @@
+{
+  "id": "CF-350D",
+  "contest_id": 350,
+  "index": "D",
+  "name": "Looking for Owls",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "geometry",
+    "hashing",
+    "sortings"
+  ],
+  "solved_count": 289,
+  "problem_url": "https://codeforces.com/problemset/problem/350/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/350/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/350/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=350D%20Looking%20for%20Owls%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P350D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Looking for Owls - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "geometry",
+      "hashing",
+      "sortings",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

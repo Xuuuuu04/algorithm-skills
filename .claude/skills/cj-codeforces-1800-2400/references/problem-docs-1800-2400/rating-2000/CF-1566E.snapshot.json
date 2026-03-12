@@ -1,0 +1,40 @@
+{
+  "id": "CF-1566E",
+  "contest_id": 1566,
+  "index": "E",
+  "name": "Buds Re-hanging",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1566/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1566/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1566/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1566E%20Buds Re-hanging%20tutorial",
+  "solved_count": 4426,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1566E",
+  "hydro_meta": {
+    "page_title": "Buds Re-hanging - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "greedy",
+      "trees"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

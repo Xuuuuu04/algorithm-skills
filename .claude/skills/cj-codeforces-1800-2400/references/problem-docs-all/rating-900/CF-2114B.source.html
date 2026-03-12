@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417192:HRIxmQqXVIxdN1b4LgVjO5SuqrUJ+uwVsY5m278ofAc=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2114B Not Quite a Palindromic String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2114B","type":"CF","title":"Not Quite a Palindromic String","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Not Quite a Palindromic String","background":"","description":"Vlad \u53d1\u73b0\u4e86\u4e00\u4e2a\u957f\u5ea6\u4e3a\u5076\u6570 $ n $ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $ ^{\\text{\u2217}} $ $ s $\u3002\u4ed6\u8ba4\u4e3a\u4e00\u5bf9\u7d22\u5f15 ( $ i, n - i + 1 $ )\uff08\u5176\u4e2d $ 1 \\le i \u003C n - i + 1 $\uff09\u662f\u597d\u7684\uff0c\u5982\u679c\u6ee1\u8db3 $ s_i = s_{n - i + 1} $\u3002\n\n\u4f8b\u5982\uff0c\u5728\u5b57\u7b26\u4e32 \u0027010001\u0027 \u4e2d\u53ea\u6709 $ 1 $ \u5bf9\u597d\u7684\u7d22\u5f15\uff0c\u56e0\u4e3a $ s_1 \\ne s_6 $\uff0c$ s_2 \\ne s_5 $\uff0c\u800c $ s_3 = s_4 $\u3002\u5728\u5b57\u7b26\u4e32 \u00270101\u0027 \u4e2d\u6ca1\u6709\u597d\u7684\u7d22\u5f15\u5bf9\u3002\n\nVlad \u559c\u6b22\u56de\u6587\u4e32\uff0c\u4f46\u53c8\u4e0d\u90a3\u4e48\u559c\u6b22\uff0c\u6240\u4ee5\u4ed6\u5e0c\u671b\u901a\u8fc7\u91cd\u65b0\u6392\u5217\u5b57\u7b26\u4e32\u4e2d\u7684\u67d0\u4e9b\u5b57\u7b26\uff0c\u4f7f\u5f97\u6070\u597d\u6709 $ k $ \u5bf9\u597d\u7684\u7d22\u5f15\u3002\n\n\u5224\u65ad\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u91cd\u65b0\u6392\u5217\u7ed9\u5b9a\u5b57\u7b26\u4e32\u4e2d\u7684\u5b57\u7b26\uff0c\u4f7f\u5f97\u6070\u597d\u6709 $ k $ \u5bf9\u597d\u7684\u7d22\u5f15 ( $ i, n - i + 1 $ )\u3002\n\n$ ^{\\text{\u2217}} $ \u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u662f\u6307\u4ec5\u7531\u5b57\u7b26 \u00270\u0027 \u548c \u00271\u0027 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $ t $\uff08$ 1 \\le t \\le 10^4 $\uff09\u2014\u2014\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $ n $ \u548c $ k $\uff08$ 2 \\le n \\le 2 \\cdot 10^5 $\uff0c$ 0 \\le k \\le \\frac{n}{2} $\uff0c$ n $ \u4e3a\u5076\u6570\uff09\u2014\u2014\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u548c\u6240\u9700\u7684\u597d\u7d22\u5f15\u5bf9\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $ n $ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $ s $\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $ n $ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $ 2 \\cdot 10^5 $\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u5b58\u5728\u4e00\u79cd\u91cd\u65b0\u6392\u5217\u5b57\u7b26\u4e32\u5b57\u7b26\u7684\u65b9\u6cd5\u4f7f\u5f97\u6070\u597d\u6709 $ k $ \u5bf9\u597d\u7684\u7d22\u5f15\uff0c\u5219\u8f93\u51fa \u0022YES\u0022\uff0c\u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002\n\n\u4f60\u53ef\u4ee5\u4ee5\u4efb\u4f55\u5927\u5c0f\u5199\u5f62\u5f0f\u8f93\u51fa\u7b54\u6848\uff08\u4f8b\u5982\uff0c\u0022yEs\u0022\u3001\u0022yes\u0022\u3001\u0022Yes\u0022 \u6216 \u0022YES\u0022 \u90fd\u4f1a\u88ab\u63a5\u53d7\uff09\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Not Quite a Palindromic String","background":"","description":"Vlad found a binary string $ ^{\\text{\u2217}} $ $ s $ of even length $ n $ . He considers a pair of indices ( $ i, n - i + 1 $ ), where $ 1 \\le i \u003C n - i + 1 $ , to be good if $ s_i = s_{n - i + 1} $ holds true.\n\nFor example, in the string \u0027010001\u0027 there is only $ 1 $ good pair, since $ s_1 \\ne s_6 $ , $ s_2 \\ne s_5 $ , and $ s_3=s_4 $ . In the string \u00270101\u0027 there are no good pairs.\n\nVlad loves palindromes, but not too much, so he wants to rearrange some characters of the string so that there are exactly $ k $ good pairs of indices.\n\nDetermine whether it is possible to rearrange the characters in the given string so that there are exactly $ k $ good pairs of indices ( $ i, n - i + 1 $ ).\n\n $ ^{\\text{\u2217}} $ A string $ s $ is called binary if it consists only of the characters \u00270\u0027 and \u00271\u0027","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains two integers $ n $ and $ k $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ , $ 0 \\le k \\le \\frac{n}{2} $ , $ n $ is even) \u2014 the length of the string and the required number of good pairs.\n\nThe second line of each test case contains a binary string $ s $ of length $ n $ .\n\nIt is guaranteed that the sum of $ n $ across all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output \u0022YES\u0022 if there is a way to rearrange the characters of the string so that there are exactly $ k $ good pairs, otherwise output \u0022NO\u0022.\n\nYou may output each letter in any case (lowercase or uppercase). For example, the strings \u0022yEs\u0022, \u0022yes\u0022, \u0022Yes\u0022, and \u0022YES\u0022 will be accepted as a positive answer.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n6 2\n000000\n2 1\n01\n4 1\n1011\n10 2\n1101011001\n10 1\n1101011001\n2 1\n11","NO\nNO\nYES\nNO\nYES\nYES"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2114B","link":"https:\/\/codeforces.com\/problemset\/problem\/2114\/B"},"translation":""},"translations":{"en":{"name":"Not Quite a Palindromic String","background":"","description":"Vlad found a binary string $ ^{\\text{\u2217}} $ $ s $ of even length $ n $ . He considers a pair of indices ( $ i, n - i + 1 $ ), where $ 1 \\le i \u003C n - i + 1 $ , to be good if $ s_i = s_{n - i + 1} $ holds true.\n\nFor example, in the string \u0027010001\u0027 there is only $ 1 $ good pair, since $ s_1 \\ne s_6 $ , $ s_2 \\ne s_5 $ , and $ s_3=s_4 $ . In the string \u00270101\u0027 there are no good pairs.\n\nVlad loves palindromes, but not too much, so he wants to rearrange some characters of the string so that there are exactly $ k $ good pairs of indices.\n\nDetermine whether it is possible to rearrange the characters in the given string so that there are exactly $ k $ good pairs of indices ( $ i, n - i + 1 $ ).\n\n $ ^{\\text{\u2217}} $ A string $ s $ is called binary if it consists only of the characters \u00270\u0027 and \u00271\u0027","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains two integers $ n $ and $ k $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ , $ 0 \\le k \\le \\frac{n}{2} $ , $ n $ is even) \u2014 the length of the string and the required number of good pairs.\n\nThe second line of each test case contains a binary string $ s $ of length $ n $ .\n\nIt is guaranteed that the sum of $ n $ across all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output \u0022YES\u0022 if there is a way to rearrange the characters of the string so that there are exactly $ k $ good pairs, otherwise output \u0022NO\u0022.\n\nYou may output each letter in any case (lowercase or uppercase). For example, the strings \u0022yEs\u0022, \u0022yes\u0022, \u0022Yes\u0022, and \u0022YES\u0022 will be accepted as a positive answer.","hint":"","locale":"en"},"zh-CN":{"name":"Not Quite a Palindromic String","background":"","description":"Vlad \u53d1\u73b0\u4e86\u4e00\u4e2a\u957f\u5ea6\u4e3a\u5076\u6570 $ n $ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $ ^{\\text{\u2217}} $ $ s $\u3002\u4ed6\u8ba4\u4e3a\u4e00\u5bf9\u7d22\u5f15 ( $ i, n - i + 1 $ )\uff08\u5176\u4e2d $ 1 \\le i \u003C n - i + 1 $\uff09\u662f\u597d\u7684\uff0c\u5982\u679c\u6ee1\u8db3 $ s_i = s_{n - i + 1} $\u3002\n\n\u4f8b\u5982\uff0c\u5728\u5b57\u7b26\u4e32 \u0027010001\u0027 \u4e2d\u53ea\u6709 $ 1 $ \u5bf9\u597d\u7684\u7d22\u5f15\uff0c\u56e0\u4e3a $ s_1 \\ne s_6 $\uff0c$ s_2 \\ne s_5 $\uff0c\u800c $ s_3 = s_4 $\u3002\u5728\u5b57\u7b26\u4e32 \u00270101\u0027 \u4e2d\u6ca1\u6709\u597d\u7684\u7d22\u5f15\u5bf9\u3002\n\nVlad \u559c\u6b22\u56de\u6587\u4e32\uff0c\u4f46\u53c8\u4e0d\u90a3\u4e48\u559c\u6b22\uff0c\u6240\u4ee5\u4ed6\u5e0c\u671b\u901a\u8fc7\u91cd\u65b0\u6392\u5217\u5b57\u7b26\u4e32\u4e2d\u7684\u67d0\u4e9b\u5b57\u7b26\uff0c\u4f7f\u5f97\u6070\u597d\u6709 $ k $ \u5bf9\u597d\u7684\u7d22\u5f15\u3002\n\n\u5224\u65ad\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u91cd\u65b0\u6392\u5217\u7ed9\u5b9a\u5b57\u7b26\u4e32\u4e2d\u7684\u5b57\u7b26\uff0c\u4f7f\u5f97\u6070\u597d\u6709 $ k $ \u5bf9\u597d\u7684\u7d22\u5f15 ( $ i, n - i + 1 $ )\u3002\n\n$ ^{\\text{\u2217}} $ \u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u662f\u6307\u4ec5\u7531\u5b57\u7b26 \u00270\u0027 \u548c \u00271\u0027 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $ t $\uff08$ 1 \\le t \\le 10^4 $\uff09\u2014\u2014\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $ n $ \u548c $ k $\uff08$ 2 \\le n \\le 2 \\cdot 10^5 $\uff0c$ 0 \\le k \\le \\frac{n}{2} $\uff0c$ n $ \u4e3a\u5076\u6570\uff09\u2014\u2014\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u548c\u6240\u9700\u7684\u597d\u7d22\u5f15\u5bf9\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u957f\u5ea6\u4e3a $ n $ \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $ s $\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $ n $ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $ 2 \\cdot 10^5 $\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u5b58\u5728\u4e00\u79cd\u91cd\u65b0\u6392\u5217\u5b57\u7b26\u4e32\u5b57\u7b26\u7684\u65b9\u6cd5\u4f7f\u5f97\u6070\u597d\u6709 $ k $ \u5bf9\u597d\u7684\u7d22\u5f15\uff0c\u5219\u8f93\u51fa \u0022YES\u0022\uff0c\u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002\n\n\u4f60\u53ef\u4ee5\u4ee5\u4efb\u4f55\u5927\u5c0f\u5199\u5f62\u5f0f\u8f93\u51fa\u7b54\u6848\uff08\u4f8b\u5982\uff0c\u0022yEs\u0022\u3001\u0022yes\u0022\u3001\u0022Yes\u0022 \u6216 \u0022YES\u0022 \u90fd\u4f1a\u88ab\u63a5\u53d7\uff09\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2114B Not Quite a Palindromic String","type":2,"slug":"CF2114B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330792.790184,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2114B Not Quite a Palindromic String","description":"Vlad \u53d1\u73b0\u4e86\u4e00\u4e2a\u957f\u5ea6\u4e3a\u5076\u6570  n  \u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32  ^{\\text{\u2217}}   s \u3002\u4ed6\u8ba4\u4e3a\u4e00\u5bf9\u7d22\u5f15 (  i, n - i + 1  )\uff08\u5176\u4e2d  1 \\le i &lt; n - i + 1 \uff09\u662f\u597d\u7684\uff0c\u5982\u679c\u6ee1\u8db3  s_i = s_{n\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2114B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2114B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2114B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2114B Not Quite a Palindromic String" />
+    <meta property="og:description" content="Vlad 发现了一个长度为偶数  n  的二进制字符串  ^{\text{∗}}   s 。他认为一对索引 (  i, n - i + 1  )（其中  1 \le i &amp;lt; n - i + 1 ）是好的，如果满足  s_i = s_{n…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2114B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2114B Not Quite a Palindromic String</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Vlad 发现了一个长度为偶数 $ n $ 的二进制字符串 $ ^{\text{∗}} $ $ s $。他认为一对索引 ( $ i, n - i + 1 $ )（其中 $ 1 \le i < n - i + 1 $）是好的，如果满足 $ s_i = s_{n - i + 1} $。
+
+例如，在字符串 '010001' 中只有 $ 1 $ 对好的索引，因为 $ s_1 \ne s_6 $，$ s_2 \ne s_5 $，而 $ s_3 = s_4 $。在字符串 '0101' 中没有好的索引对。
+
+Vlad 喜欢回文串，但又不那么喜欢，所以他希望通过重新排列字符串中的某些字符，使得恰好有 $ k $ 对好的索引。
+
+判断是否可以通过重新排列给定字符串中的字符，使得恰好有 $ k $ 对好的索引 ( $ i, n - i + 1 $ )。
+
+$ ^{\text{∗}} $ 二进制字符串是指仅由字符 '0' 和 '1' 组成的字符串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $ t $（$ 1 \le t \le 10^4 $）——测试用例的数量。
+
+每个测试用例的第一行包含两个整数 $ n $ 和 $ k $（$ 2 \le n \le 2 \cdot 10^5 $，$ 0 \le k \le \frac{n}{2} $，$ n $ 为偶数）——字符串的长度和所需的好索引对的数量。
+
+每个测试用例的第二行包含一个长度为 $ n $ 的二进制字符串 $ s $。
+
+保证所有测试用例的 $ n $ 之和不超过 $ 2 \cdot 10^5 $。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果存在一种重新排列字符串字符的方法使得恰好有 $ k $ 对好的索引，则输出 "YES"，否则输出 "NO"。
+
+你可以以任何大小写形式输出答案（例如，"yEs"、"yes"、"Yes" 或 "YES" 都会被接受）。
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

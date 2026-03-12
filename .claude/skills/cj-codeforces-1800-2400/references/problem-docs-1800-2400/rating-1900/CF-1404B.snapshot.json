@@ -1,0 +1,38 @@
+{
+  "id": "CF-1404B",
+  "contest_id": 1404,
+  "index": "B",
+  "name": "Tree Tag",
+  "rating": 1900,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "games",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1404/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1404/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1404/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1404B%20Tree Tag%20tutorial",
+  "solved_count": 8121,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1404B",
+  "hydro_meta": {
+    "page_title": "Tree Tag - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "games",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

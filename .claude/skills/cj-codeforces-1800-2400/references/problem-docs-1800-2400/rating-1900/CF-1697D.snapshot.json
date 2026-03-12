@@ -1,0 +1,39 @@
+{
+  "id": "CF-1697D",
+  "contest_id": 1697,
+  "index": "D",
+  "name": "Guess The String",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1697/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1697/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1697/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1697D%20Guess The String%20tutorial",
+  "solved_count": 4936,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1697D",
+  "hydro_meta": {
+    "page_title": "Guess The String - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "interactive",
+      "strings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

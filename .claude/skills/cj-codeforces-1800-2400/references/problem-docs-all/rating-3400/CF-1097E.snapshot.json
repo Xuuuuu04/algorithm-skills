@@ -1,0 +1,32 @@
+{
+  "id": "CF-1097E",
+  "contest_id": 1097,
+  "index": "E",
+  "name": "Egor and an RPG game",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 521,
+  "problem_url": "https://codeforces.com/problemset/problem/1097/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1097/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1097/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1097E%20Egor%20and%20an%20RPG%20game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1097E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Egor and an RPG game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*3400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

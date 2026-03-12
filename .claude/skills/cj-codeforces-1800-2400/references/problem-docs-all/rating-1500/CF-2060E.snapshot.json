@@ -1,0 +1,30 @@
+{
+  "id": "CF-2060E",
+  "contest_id": 2060,
+  "index": "E",
+  "name": "Graph Composition",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 11969,
+  "problem_url": "https://codeforces.com/problemset/problem/2060/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2060/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2060/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2060E%20Graph%20Composition%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2060/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2060E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

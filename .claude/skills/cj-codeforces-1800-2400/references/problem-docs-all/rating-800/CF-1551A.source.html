@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414420:8qTU0E3jZJaStCuYOFufkS4ZdzyHdlRqUOTX9+hMRoo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1551A Polycarp and Coins - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1551A","type":"CF","title":"Polycarp and Coins","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":1158,"totalAccepted":573,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Polycarp and Coins","background":"","description":"Polycarp \u9700\u8981\u7cbe\u786e\u5730\u652f\u4ed8 $n$ \u5143\u3002\u4ed6\u6709\u4e24\u79cd\u9762\u989d\u7684\u786c\u5e01\uff1a\u4e00\u79cd\u662f $1$ \u5143\uff0c\u4e00\u79cd\u662f $2$ \u5143\u3002Polycarp \u5bf9\u4e8e\u5e0c\u671b\u6240\u652f\u4ed8\u7684\u4e24\u79cd\u786c\u5e01\u6570\u91cf\u5dee\u5c3d\u53ef\u80fd\u5c0f\u3002\n\n\u60a8\u9700\u8981\u5e2e\u52a9 Polycarp \u786e\u5b9a\u4e24\u4e2a\u975e\u8d1f\u6574\u6570\u6570 $c_1$ \u548c $c_2$\uff0c\u5206\u522b\u5bf9\u5e94 $1$ \u5143\u786c\u5e01\u548c $2$ \u5143\u786c\u5e01\u7684\u6570\u91cf\u3002\u6240\u4ee5\u5e94\u5f53\u6ee1\u8db3 $c_1 + 2 \\cdot c_2 = n$ \u4e14 $|c_1 - c_2|$\u6700\u5c0f\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e00\u4e2a\u6b63\u6574\u6570 $t(1 \\le t \\le 10^4)$ \u2014\u2014\u6d4b\u8bd5\u70b9\u7684\u6570\u91cf\u3002\u7136\u540e\u662f $t$ \u7ec4\u6d4b\u8bd5\u70b9\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u70b9\u5360\u4e00\u884c\uff0c\u5305\u62ec\u4e00\u4e2a\u6b63\u6574\u6570 $n(1 \\le n \\le 10^9)$ \u2014\u2014Polycarp \u6240\u9700\u8981\u652f\u4ed8\u7684\u94b1\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6d4b\u8bd5\u70b9\uff0c\u53ea\u8f93\u51fa\u4e00\u884c\uff0c\u5305\u62ec\u7528\u7a7a\u683c\u5206\u5f00\u7684\u4e24\u4e2a\u6574\u6570 $c_1$ \u548c $c_2$\uff0c\u82e5\u6709\u591a\u89e3\uff0c\u4efb\u610f\u8f93\u51fa\u4e00\u4e2a\u5373\u53ef\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Polycarp and Coins","background":"","description":"Polycarp must pay exactly $ n $ burles at the checkout. He has coins of two nominal values: $ 1 $ burle and $ 2 $ burles. Polycarp likes both kinds of coins equally. So he doesn\u0027t want to pay with more coins of one type than with the other.\n\nThus, Polycarp wants to minimize the difference between the count of coins of $ 1 $ burle and $ 2 $ burles being used. Help him by determining two non-negative integer values $ c_1 $ and $ c_2 $ which are the number of coins of $ 1 $ burle and $ 2 $ burles, respectively, so that the total value of that number of coins is exactly $ n $ (i. e. $ c_1 + 2 \\cdot c_2 = n $ ), and the absolute value of the difference between $ c_1 $ and $ c_2 $ is as little as possible (i. e. you must minimize $ |c_1-c_2| $ ).","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nEach test case consists of one line. This line contains one integer $ n $ ( $ 1 \\le n \\le 10^9 $ ) \u2014 the number of burles to be paid by Polycarp.","formatO":"For each test case, output a separate line containing two integers $ c_1 $ and $ c_2 $ ( $ c_1, c_2 \\ge 0 $ ) separated by a space where $ c_1 $ is the number of coins of $ 1 $ burle and $ c_2 $ is the number of coins of $ 2 $ burles. If there are multiple optimal solutions, print any one.","hint":"The answer for the first test case is \u0022334 333\u0022. The sum of the nominal values of all coins is $ 334 \\cdot 1 + 333 \\cdot 2 = 1000 $ , whereas $ |334 - 333| = 1 $ . One can\u0027t get the better value because if $ |c_1 - c_2| = 0 $ , then $ c_1 = c_2 $ and $ c_1 \\cdot 1 + c_1 \\cdot 2 = 1000 $ , but then the value of $ c_1 $ isn\u0027t an integer.\n\nThe answer for the second test case is \u002210 10\u0022. The sum of the nominal values is $ 10 \\cdot 1 + 10 \\cdot 2 = 30 $ and $ |10 - 10| = 0 $ , whereas there\u0027s no number having an absolute value less than $ 0 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n1000\n30\n1\n32\n1000000000\n5","334 333\n10 10\n1 0\n10 11\n333333334 333333333\n1 2"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1551A","link":"https:\/\/codeforces.com\/problemset\/problem\/1551\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\nPolycarp \u9700\u8981\u7cbe\u786e\u5730\u652f\u4ed8 $n$ \u5143\u3002\u4ed6\u6709\u4e24\u79cd\u9762\u989d\u7684\u786c\u5e01\uff1a\u4e00\u79cd\u662f $1$ \u5143\uff0c\u4e00\u79cd\u662f $2$ \u5143\u3002Polycarp \u5bf9\u4e8e\u5e0c\u671b\u6240\u652f\u4ed8\u7684\u4e24\u79cd\u786c\u5e01\u6570\u91cf\u5dee\u5c3d\u53ef\u80fd\u5c0f\u3002\n\n\u60a8\u9700\u8981\u5e2e\u52a9 Polycarp \u786e\u5b9a\u4e24\u4e2a\u975e\u8d1f\u6574\u6570\u6570 $c_1$ \u548c $c_2$\uff0c\u5206\u522b\u5bf9\u5e94 $1$ \u5143\u786c\u5e01\u548c $2$ \u5143\u786c\u5e01\u7684\u6570\u91cf\u3002\u6240\u4ee5\u5e94\u5f53\u6ee1\u8db3 $c_1 + 2 \\cdot c_2 = n$ \u4e14 $|c_1 - c_2|$\u6700\u5c0f\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\u7b2c\u4e00\u884c\u8f93\u5165\u4e00\u4e2a\u6b63\u6574\u6570 $t(1 \\le t \\le 10^4)$ \u2014\u2014\u6d4b\u8bd5\u70b9\u7684\u6570\u91cf\u3002\u7136\u540e\u662f $t$ \u7ec4\u6d4b\u8bd5\u70b9\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u70b9\u5360\u4e00\u884c\uff0c\u5305\u62ec\u4e00\u4e2a\u6b63\u6574\u6570 $n(1 \\le n \\le 10^9)$ \u2014\u2014Polycarp \u6240\u9700\u8981\u652f\u4ed8\u7684\u94b1\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6d4b\u8bd5\u70b9\uff0c\u53ea\u8f93\u51fa\u4e00\u884c\uff0c\u5305\u62ec\u7528\u7a7a\u683c\u5206\u5f00\u7684\u4e24\u4e2a\u6574\u6570 $c_1$ \u548c $c_2$\uff0c\u82e5\u6709\u591a\u89e3\uff0c\u4efb\u610f\u8f93\u51fa\u4e00\u4e2a\u5373\u53ef\u3002"},"translations":{"en":{"name":"Polycarp and Coins","background":"","description":"Polycarp must pay exactly $ n $ burles at the checkout. He has coins of two nominal values: $ 1 $ burle and $ 2 $ burles. Polycarp likes both kinds of coins equally. So he doesn\u0027t want to pay with more coins of one type than with the other.\n\nThus, Polycarp wants to minimize the difference between the count of coins of $ 1 $ burle and $ 2 $ burles being used. Help him by determining two non-negative integer values $ c_1 $ and $ c_2 $ which are the number of coins of $ 1 $ burle and $ 2 $ burles, respectively, so that the total value of that number of coins is exactly $ n $ (i. e. $ c_1 + 2 \\cdot c_2 = n $ ), and the absolute value of the difference between $ c_1 $ and $ c_2 $ is as little as possible (i. e. you must minimize $ |c_1-c_2| $ ).","formatI":"The first line contains one integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nEach test case consists of one line. This line contains one integer $ n $ ( $ 1 \\le n \\le 10^9 $ ) \u2014 the number of burles to be paid by Polycarp.","formatO":"For each test case, output a separate line containing two integers $ c_1 $ and $ c_2 $ ( $ c_1, c_2 \\ge 0 $ ) separated by a space where $ c_1 $ is the number of coins of $ 1 $ burle and $ c_2 $ is the number of coins of $ 2 $ burles. If there are multiple optimal solutions, print any one.","hint":"The answer for the first test case is \u0022334 333\u0022. The sum of the nominal values of all coins is $ 334 \\cdot 1 + 333 \\cdot 2 = 1000 $ , whereas $ |334 - 333| = 1 $ . One can\u0027t get the better value because if $ |c_1 - c_2| = 0 $ , then $ c_1 = c_2 $ and $ c_1 \\cdot 1 + c_1 \\cdot 2 = 1000 $ , but then the value of $ c_1 $ isn\u0027t an integer.\n\nThe answer for the second test case is \u002210 10\u0022. The sum of the nominal values is $ 10 \\cdot 1 + 10 \\cdot 2 = 30 $ and $ |10 - 10| = 0 $ , whereas there\u0027s no number having an absolute value less than $ 0 $ .","locale":"en"},"zh-CN":{"name":"Polycarp and Coins","background":"","description":"Polycarp \u9700\u8981\u7cbe\u786e\u5730\u652f\u4ed8 $n$ \u5143\u3002\u4ed6\u6709\u4e24\u79cd\u9762\u989d\u7684\u786c\u5e01\uff1a\u4e00\u79cd\u662f $1$ \u5143\uff0c\u4e00\u79cd\u662f $2$ \u5143\u3002Polycarp \u5bf9\u4e8e\u5e0c\u671b\u6240\u652f\u4ed8\u7684\u4e24\u79cd\u786c\u5e01\u6570\u91cf\u5dee\u5c3d\u53ef\u80fd\u5c0f\u3002\n\n\u60a8\u9700\u8981\u5e2e\u52a9 Polycarp \u786e\u5b9a\u4e24\u4e2a\u975e\u8d1f\u6574\u6570\u6570 $c_1$ \u548c $c_2$\uff0c\u5206\u522b\u5bf9\u5e94 $1$ \u5143\u786c\u5e01\u548c $2$ \u5143\u786c\u5e01\u7684\u6570\u91cf\u3002\u6240\u4ee5\u5e94\u5f53\u6ee1\u8db3 $c_1 + 2 \\cdot c_2 = n$ \u4e14 $|c_1 - c_2|$\u6700\u5c0f\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e00\u4e2a\u6b63\u6574\u6570 $t(1 \\le t \\le 10^4)$ \u2014\u2014\u6d4b\u8bd5\u70b9\u7684\u6570\u91cf\u3002\u7136\u540e\u662f $t$ \u7ec4\u6d4b\u8bd5\u70b9\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u70b9\u5360\u4e00\u884c\uff0c\u5305\u62ec\u4e00\u4e2a\u6b63\u6574\u6570 $n(1 \\le n \\le 10^9)$ \u2014\u2014Polycarp \u6240\u9700\u8981\u652f\u4ed8\u7684\u94b1\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6d4b\u8bd5\u70b9\uff0c\u53ea\u8f93\u51fa\u4e00\u884c\uff0c\u5305\u62ec\u7528\u7a7a\u683c\u5206\u5f00\u7684\u4e24\u4e2a\u6574\u6570 $c_1$ \u548c $c_2$\uff0c\u82e5\u6709\u591a\u89e3\uff0c\u4efb\u610f\u8f93\u51fa\u4e00\u4e2a\u5373\u53ef\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1551A Polycarp and Coins","type":2,"slug":"CF1551A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328020.011122,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1551A Polycarp and Coins","description":"Polycarp \u9700\u8981\u7cbe\u786e\u5730\u652f\u4ed8 n \u5143\u3002\u4ed6\u6709\u4e24\u79cd\u9762\u989d\u7684\u786c\u5e01\uff1a\u4e00\u79cd\u662f 1 \u5143\uff0c\u4e00\u79cd\u662f 2 \u5143\u3002Polycarp \u5bf9\u4e8e\u5e0c\u671b\u6240\u652f\u4ed8\u7684\u4e24\u79cd\u786c\u5e01\u6570\u91cf\u5dee\u5c3d\u53ef\u80fd\u5c0f\u3002\n\u60a8\u9700\u8981\u5e2e\u52a9 Polycarp \u786e\u5b9a\u4e24\u4e2a\u975e\u8d1f\u6574\u6570\u6570 c_1 \u548c c_2\uff0c\u5206\u522b\u5bf9\u5e94 1 \u5143\u786c\u5e01\u548c\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1551A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1551A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1551A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1551A Polycarp and Coins" />
+    <meta property="og:description" content="Polycarp 需要精确地支付 n 元。他有两种面额的硬币：一种是 1 元，一种是 2 元。Polycarp 对于希望所支付的两种硬币数量差尽可能小。
+您需要帮助 Polycarp 确定两个非负整数数 c_1 和 c_2，分别对应 1 元硬币和…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1551A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1551A Polycarp and Coins</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Polycarp 需要精确地支付 $n$ 元。他有两种面额的硬币：一种是 $1$ 元，一种是 $2$ 元。Polycarp 对于希望所支付的两种硬币数量差尽可能小。
+
+您需要帮助 Polycarp 确定两个非负整数数 $c_1$ 和 $c_2$，分别对应 $1$ 元硬币和 $2$ 元硬币的数量。所以应当满足 $c_1 + 2 \cdot c_2 = n$ 且 $|c_1 - c_2|$最小。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行输入一个正整数 $t(1 \le t \le 10^4)$ ——测试点的数量。然后是 $t$ 组测试点。
+
+每组测试点占一行，包括一个正整数 $n(1 \le n \le 10^9)$ ——Polycarp 所需要支付的钱。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每一个测试点，只输出一行，包括用空格分开的两个整数 $c_1$ 和 $c_2$，若有多解，任意输出一个即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                The answer for the first test case is "334 333". The sum of the nominal values of all coins is $ 334 \cdot 1 + 333 \cdot 2 = 1000 $ , whereas $ |334 - 333| = 1 $ . One can't get the better value because if $ |c_1 - c_2| = 0 $ , then $ c_1 = c_2 $ and $ c_1 \cdot 1 + c_1 \cdot 2 = 1000 $ , but then the value of $ c_1 $ isn't an integer.
+
+The answer for the second test case is "10 10". The sum of the nominal values is $ 10 \cdot 1 + 10 \cdot 2 = 30 $ and $ |10 - 10| = 0 $ , whereas there's no number having an absolute value less than $ 0 $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

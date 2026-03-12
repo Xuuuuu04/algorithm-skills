@@ -1,0 +1,31 @@
+{
+  "id": "CF-1646B",
+  "contest_id": 1646,
+  "index": "B",
+  "name": "Quality vs Quantity",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 22482,
+  "problem_url": "https://codeforces.com/problemset/problem/1646/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1646/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1646/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1646B%20Quality%20vs%20Quantity%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1646B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1646B Quality vs Quantity - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 186,
+    "mirror_attempt": 510,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

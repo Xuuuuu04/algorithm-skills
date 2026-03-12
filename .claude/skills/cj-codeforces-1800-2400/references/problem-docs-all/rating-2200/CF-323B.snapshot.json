@@ -1,0 +1,32 @@
+{
+  "id": "CF-323B",
+  "contest_id": 323,
+  "index": "B",
+  "name": "Tournament-graph",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs"
+  ],
+  "solved_count": 461,
+  "problem_url": "https://codeforces.com/problemset/problem/323/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/323/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/323/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=323B%20Tournament-graph%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P323B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Tournament-graph - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "graphs",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

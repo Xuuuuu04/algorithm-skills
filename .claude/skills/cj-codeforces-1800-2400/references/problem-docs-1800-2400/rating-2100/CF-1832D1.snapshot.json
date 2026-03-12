@@ -1,0 +1,38 @@
+{
+  "id": "CF-1832D1",
+  "contest_id": 1832,
+  "index": "D1",
+  "name": "Red-Blue Operations (Easy Version)",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1832/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1832/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1832/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1832D1%20Red-Blue Operations (Easy Version)%20tutorial",
+  "solved_count": 3342,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1832D1",
+  "hydro_meta": {
+    "page_title": "Red-Blue Operations (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

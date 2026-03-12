@@ -1,0 +1,28 @@
+{
+  "id": "CF-1401A",
+  "contest_id": 1401,
+  "index": "A",
+  "name": "Distance and Axis",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 28555,
+  "problem_url": "https://codeforces.com/problemset/problem/1401/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1401/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1401/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1401A%20Distance%20and%20Axis%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1401A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1401A Distance and Axis - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 287,
+    "mirror_attempt": 476,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1797C",
+  "contest_id": 1797,
+  "index": "C",
+  "name": "Li Hua and Chess",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "interactive"
+  ],
+  "solved_count": 8836,
+  "problem_url": "https://codeforces.com/problemset/problem/1797/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1797/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1797/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1797C%20Li%20Hua%20and%20Chess%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1797/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1797C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

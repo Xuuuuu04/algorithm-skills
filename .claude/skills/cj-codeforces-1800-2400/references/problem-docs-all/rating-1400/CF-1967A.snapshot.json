@@ -1,0 +1,37 @@
+{
+  "id": "CF-1967A",
+  "contest_id": 1967,
+  "index": "A",
+  "name": "Permutation Counting",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "implementation",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 14802,
+  "problem_url": "https://codeforces.com/problemset/problem/1967/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1967/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1967/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1967A%20Permutation%20Counting%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1967A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Permutation Counting - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "math",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

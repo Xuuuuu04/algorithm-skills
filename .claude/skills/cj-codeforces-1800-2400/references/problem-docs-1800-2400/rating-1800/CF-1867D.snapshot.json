@@ -1,0 +1,42 @@
+{
+  "id": "CF-1867D",
+  "contest_id": 1867,
+  "index": "D",
+  "name": "Cyclic Operations",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1867/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1867/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1867/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1867D%20Cyclic Operations%20tutorial",
+  "solved_count": 6809,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1867D",
+  "hydro_meta": {
+    "page_title": "Cyclic Operations - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "implementation"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

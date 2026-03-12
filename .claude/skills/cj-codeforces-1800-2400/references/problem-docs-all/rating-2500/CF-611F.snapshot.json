@@ -1,0 +1,32 @@
+{
+  "id": "CF-611F",
+  "contest_id": 611,
+  "index": "F",
+  "name": "New Year and Cleaning",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "implementation"
+  ],
+  "solved_count": 514,
+  "problem_url": "https://codeforces.com/problemset/problem/611/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/611/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/611/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=611F%20New%20Year%20and%20Cleaning%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P611F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year and Cleaning - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "implementation",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

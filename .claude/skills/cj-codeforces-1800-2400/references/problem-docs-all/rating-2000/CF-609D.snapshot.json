@@ -1,0 +1,29 @@
+{
+  "id": "CF-609D",
+  "contest_id": 609,
+  "index": "D",
+  "name": "Gadgets for dollars and pounds",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 3127,
+  "problem_url": "https://codeforces.com/problemset/problem/609/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/609/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/609/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=609D%20Gadgets%20for%20dollars%20and%20pounds%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/609/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 609D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

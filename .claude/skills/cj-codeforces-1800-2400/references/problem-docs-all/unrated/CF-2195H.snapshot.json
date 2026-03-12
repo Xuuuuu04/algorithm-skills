@@ -1,0 +1,30 @@
+{
+  "id": "CF-2195H",
+  "contest_id": 2195,
+  "index": "H",
+  "name": "Codeforces Heuristic Contest 001",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "geometry",
+    "implementation"
+  ],
+  "solved_count": 386,
+  "problem_url": "https://codeforces.com/problemset/problem/2195/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/2195/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2195/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2195H%20Codeforces%20Heuristic%20Contest%20001%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2195/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2195H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

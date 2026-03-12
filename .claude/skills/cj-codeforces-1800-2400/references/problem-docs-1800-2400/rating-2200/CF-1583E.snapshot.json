@@ -1,0 +1,42 @@
+{
+  "id": "CF-1583E",
+  "contest_id": 1583,
+  "index": "E",
+  "name": "Moment of Bloom",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graph matchings",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1583/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1583/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1583/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1583E%20Moment of Bloom%20tutorial",
+  "solved_count": 2451,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1583E",
+  "hydro_meta": {
+    "page_title": "Moment of Bloom - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graph matchings",
+      "graphs",
+      "greedy"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

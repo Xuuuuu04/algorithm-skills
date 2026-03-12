@@ -1,0 +1,24 @@
+{
+  "id": "CF-1938F",
+  "contest_id": 1938,
+  "index": "F",
+  "name": "Forming Groups",
+  "rating": 2400,
+  "tags": [],
+  "url": "https://codeforces.com/problemset/problem/1938/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1938/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1938/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1938F%20Forming Groups%20tutorial",
+  "solved_count": 927,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1938F",
+  "hydro_meta": {
+    "page_title": "__NO_TITLE__ - 题目详情 - Hydro",
+    "hydro_tags": [],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

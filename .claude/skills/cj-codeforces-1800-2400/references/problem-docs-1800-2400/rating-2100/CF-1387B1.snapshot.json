@@ -1,0 +1,39 @@
+{
+  "id": "CF-1387B1",
+  "contest_id": 1387,
+  "index": "B1",
+  "name": "Village (Minimum)",
+  "rating": 2100,
+  "tags": [
+    "*special",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1387/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1387/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1387/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1387B1%20Village (Minimum)%20tutorial",
+  "solved_count": 1857,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1387B1",
+  "hydro_meta": {
+    "page_title": "Village (Minimum) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "dp",
+      "greedy",
+      "trees",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-149E",
+  "contest_id": 149,
+  "index": "E",
+  "name": "Martian Strings",
+  "rating": 2300,
+  "tags": [
+    "string suffix structures",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/149/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/149/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/149/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=149E%20Martian Strings%20tutorial",
+  "solved_count": 2485,
+  "suggested_patterns": [
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P149E",
+  "hydro_meta": {
+    "page_title": "Martian Strings - 题目详情 - Hydro",
+    "hydro_tags": [
+      "string suffix structures",
+      "strings",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

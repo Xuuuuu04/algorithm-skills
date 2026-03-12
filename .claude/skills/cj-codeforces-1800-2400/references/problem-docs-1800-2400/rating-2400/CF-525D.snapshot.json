@@ -1,0 +1,42 @@
+{
+  "id": "CF-525D",
+  "contest_id": 525,
+  "index": "D",
+  "name": "Arthur and Walls",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "graphs",
+    "greedy",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/525/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/525/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/525/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=525D%20Arthur and Walls%20tutorial",
+  "solved_count": 1980,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P525D",
+  "hydro_meta": {
+    "page_title": "Arthur and Walls - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "data structures",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*2400"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

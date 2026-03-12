@@ -1,0 +1,29 @@
+{
+  "id": "CF-1807C",
+  "contest_id": 1807,
+  "index": "C",
+  "name": "Find and Replace",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 34054,
+  "problem_url": "https://codeforces.com/problemset/problem/1807/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1807/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1807/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1807C%20Find%20and%20Replace%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1807C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1807C Find and Replace - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 230,
+    "mirror_attempt": 356,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

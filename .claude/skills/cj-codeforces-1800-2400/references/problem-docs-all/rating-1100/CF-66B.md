@@ -1,0 +1,38 @@
+# CF-66B Petya and Countryside
+
+## 基本信息
+
+| 字段 | 内容 |
+|---|---|
+| 来源 | Codeforces |
+| 编号 | CF-66B |
+| Contest | 66 |
+| Index | B |
+| Rating | 1100 |
+| Points | 1000.0 |
+| 题型标签 | `brute force`、`implementation` |
+| 通过次数 | 22939 |
+
+## 训练定位
+
+这题 rating 1100，属于基础到中低强度训练题，适合做模板熟悉和边界处理演练。
+
+## 算法切入提示
+
+标签信息不足，建议先回到题目链接判断数据范围、操作类型和是否存在单调性。
+
+## 仓颉实现路由建议
+
+实现这题时，优先联动 `cj-ice-router`、`cj-algo-patterns`、`cj-language-core`。
+
+## 参考入口
+
+- 官方题面：[problem](https://codeforces.com/problemset/problem/66/B)
+- 提交列表：[status](https://codeforces.com/problemset/status/66/problem/B)
+- OK 提交：[accepted](https://codeforces.com/problemset/status/66/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK)
+- 题解检索：[tutorial](https://codeforces.com/search?query=66B%20Petya%20and%20Countryside%20tutorial)
+
+## 本地补充位
+
+这里预留给后续补写的解题思路、仓颉实现、边界样例和错题复盘。
+

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1791B",
+  "contest_id": 1791,
+  "index": "B",
+  "name": "Following Directions",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "geometry",
+    "implementation"
+  ],
+  "solved_count": 52025,
+  "problem_url": "https://codeforces.com/problemset/problem/1791/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1791/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1791/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1791B%20Following%20Directions%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1791B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Following Directions - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

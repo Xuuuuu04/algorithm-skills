@@ -1,0 +1,29 @@
+{
+  "id": "CF-825D",
+  "contest_id": 825,
+  "index": "D",
+  "name": "Suitable Replacement",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 3681,
+  "problem_url": "https://codeforces.com/problemset/problem/825/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/825/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/825/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=825D%20Suitable%20Replacement%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/825/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 825D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

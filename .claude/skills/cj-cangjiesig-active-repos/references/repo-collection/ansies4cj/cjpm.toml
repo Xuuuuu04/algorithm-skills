@@ -1,0 +1,19 @@
+[dependencies]
+
+[package]
+  cjc-version = "1.0.0"
+  compile-option = "-Woff unused"
+  description = "美化终端输出文本的ANSI Escape Sequences生成库。"
+  link-option = ""
+  name = "ansies"
+  output-type = "static"
+  override-compile-option = ""
+  src-dir = ""
+  target-dir = ""
+  version = "1.1.0"
+  authors = ["vchuoshen6"]
+  tag = ["cangjie", "teminal"]
+  category = ["Utility"]
+  license = ["MulanPSL2"]
+  include = ["src", "doc"]
+  package-configuration = {}

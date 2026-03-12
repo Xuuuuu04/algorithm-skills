@@ -1,0 +1,29 @@
+{
+  "id": "CF-553A",
+  "contest_id": 553,
+  "index": "A",
+  "name": "Kyoya and Colored Balls",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 9692,
+  "problem_url": "https://codeforces.com/problemset/problem/553/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/553/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/553/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=553A%20Kyoya%20and%20Colored%20Balls%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/553/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 553A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

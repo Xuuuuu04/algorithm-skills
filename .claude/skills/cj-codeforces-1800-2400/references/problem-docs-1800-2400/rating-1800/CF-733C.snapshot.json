@@ -1,0 +1,39 @@
+{
+  "id": "CF-733C",
+  "contest_id": 733,
+  "index": "C",
+  "name": "Epidemic in Monstropolis",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/733/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/733/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/733/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=733C%20Epidemic in Monstropolis%20tutorial",
+  "solved_count": 3531,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P733C",
+  "hydro_meta": {
+    "page_title": "Epidemic in Monstropolis - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

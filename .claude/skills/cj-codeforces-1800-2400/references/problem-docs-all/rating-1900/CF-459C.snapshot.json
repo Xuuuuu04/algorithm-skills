@@ -1,0 +1,29 @@
+{
+  "id": "CF-459C",
+  "contest_id": 459,
+  "index": "C",
+  "name": "Pashmak and Buses",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 6463,
+  "problem_url": "https://codeforces.com/problemset/problem/459/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/459/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/459/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=459C%20Pashmak%20and%20Buses%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF459C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF459C Pashmak and Buses - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 66,
+    "mirror_attempt": 165,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

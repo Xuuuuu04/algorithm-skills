@@ -1,0 +1,30 @@
+{
+  "id": "CF-605C",
+  "contest_id": 605,
+  "index": "C",
+  "name": "Freelancer's Dreams",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "geometry"
+  ],
+  "solved_count": 1265,
+  "problem_url": "https://codeforces.com/problemset/problem/605/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/605/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/605/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=605C%20Freelancer%27s%20Dreams%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P605C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Freelancer's Dreams - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1304E",
+  "contest_id": 1304,
+  "index": "E",
+  "name": "1-Trees and Queries",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "shortest paths",
+    "trees"
+  ],
+  "solved_count": 5823,
+  "problem_url": "https://codeforces.com/problemset/problem/1304/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1304/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1304/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1304E%201-Trees%20and%20Queries%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1304E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1304E 1-Trees and Queries - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 678,
+    "mirror_attempt": 1292,
+    "time_limit": "4000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

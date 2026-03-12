@@ -1,0 +1,39 @@
+{
+  "id": "CF-1921F",
+  "contest_id": 1921,
+  "index": "F",
+  "name": "Sum of Progression",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1921/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1921/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1921/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1921F%20Sum of Progression%20tutorial",
+  "solved_count": 4877,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1921F",
+  "hydro_meta": {
+    "page_title": "Sum of Progression - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "math"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

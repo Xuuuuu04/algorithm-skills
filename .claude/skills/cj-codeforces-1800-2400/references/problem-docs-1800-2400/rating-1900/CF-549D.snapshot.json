@@ -1,0 +1,33 @@
+{
+  "id": "CF-549D",
+  "contest_id": 549,
+  "index": "D",
+  "name": "Haar Features",
+  "rating": 1900,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/549/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/549/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/549/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=549D%20Haar Features%20tutorial",
+  "solved_count": 2246,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P549D",
+  "hydro_meta": {
+    "page_title": "Haar Features - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

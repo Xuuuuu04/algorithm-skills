@@ -1,0 +1,33 @@
+{
+  "id": "CF-461C",
+  "contest_id": 461,
+  "index": "C",
+  "name": "Appleman and a Sheet of Paper",
+  "rating": 2200,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/461/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/461/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/461/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=461C%20Appleman and a Sheet of Paper%20tutorial",
+  "solved_count": 1377,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P461C",
+  "hydro_meta": {
+    "page_title": "Appleman and a Sheet of Paper - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "implementation",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

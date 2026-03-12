@@ -1,0 +1,37 @@
+{
+  "id": "CF-321B",
+  "contest_id": 321,
+  "index": "B",
+  "name": "Ciel and Duel",
+  "rating": 1900,
+  "tags": [
+    "dp",
+    "flows",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/321/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/321/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/321/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=321B%20Ciel and Duel%20tutorial",
+  "solved_count": 3768,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "网络流（最大流/最小割）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P321B",
+  "hydro_meta": {
+    "page_title": "Ciel and Duel - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "flows",
+      "greedy",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

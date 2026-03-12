@@ -1,0 +1,27 @@
+{
+  "id": "CF-45G",
+  "contest_id": 45,
+  "index": "G",
+  "name": "Prime Problem",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "number theory"
+  ],
+  "solved_count": 1216,
+  "problem_url": "https://codeforces.com/problemset/problem/45/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/45/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/45/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=45G%20Prime%20Problem%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF45G",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF45G Prime Problem - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 681,
+    "mirror_attempt": 1868,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

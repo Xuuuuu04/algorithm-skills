@@ -1,0 +1,30 @@
+{
+  "id": "CF-1210G",
+  "contest_id": 1210,
+  "index": "G",
+  "name": "Mateusz and Escape Room",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 281,
+  "problem_url": "https://codeforces.com/problemset/problem/1210/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1210/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1210/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1210G%20Mateusz%20and%20Escape%20Room%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1210G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mateusz and Escape Room - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "7000ms",
+    "memory_limit": "256MiB"
+  }
+}

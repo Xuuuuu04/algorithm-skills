@@ -1,0 +1,36 @@
+{
+  "id": "CF-632D",
+  "contest_id": 632,
+  "index": "D",
+  "name": "Longest Subsequence",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/632/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/632/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/632/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=632D%20Longest Subsequence%20tutorial",
+  "solved_count": 4511,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P632D",
+  "hydro_meta": {
+    "page_title": "Longest Subsequence - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

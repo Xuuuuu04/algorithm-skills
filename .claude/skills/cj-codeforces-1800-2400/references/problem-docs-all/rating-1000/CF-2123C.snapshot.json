@@ -1,0 +1,28 @@
+{
+  "id": "CF-2123C",
+  "contest_id": 2123,
+  "index": "C",
+  "name": "Prefix Min and Suffix Max",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures"
+  ],
+  "solved_count": 30309,
+  "problem_url": "https://codeforces.com/problemset/problem/2123/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2123/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2123/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2123C%20Prefix%20Min%20and%20Suffix%20Max%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2123/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2123C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

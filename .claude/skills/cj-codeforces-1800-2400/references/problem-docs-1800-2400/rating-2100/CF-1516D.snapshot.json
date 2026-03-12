@@ -1,0 +1,45 @@
+{
+  "id": "CF-1516D",
+  "contest_id": 1516,
+  "index": "D",
+  "name": "Cut",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "graphs",
+    "number theory",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1516/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1516/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1516/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1516D%20Cut%20tutorial",
+  "solved_count": 5089,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1516D",
+  "hydro_meta": {
+    "page_title": "Cut - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "graphs",
+      "number theory",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

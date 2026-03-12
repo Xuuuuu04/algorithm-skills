@@ -1,0 +1,32 @@
+{
+  "id": "CF-234H",
+  "contest_id": 234,
+  "index": "H",
+  "name": "Merging Two Decks",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 618,
+  "problem_url": "https://codeforces.com/problemset/problem/234/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/234/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/234/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=234H%20Merging%20Two%20Decks%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P234H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Merging Two Decks - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

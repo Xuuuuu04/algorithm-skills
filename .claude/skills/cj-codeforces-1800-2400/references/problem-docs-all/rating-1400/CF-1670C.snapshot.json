@@ -1,0 +1,40 @@
+{
+  "id": "CF-1670C",
+  "contest_id": 1670,
+  "index": "C",
+  "name": "Where is the Pizza?",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 10915,
+  "problem_url": "https://codeforces.com/problemset/problem/1670/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1670/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1670/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1670C%20Where%20is%20the%20Pizza%3F%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1670C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Where is the Pizza? - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

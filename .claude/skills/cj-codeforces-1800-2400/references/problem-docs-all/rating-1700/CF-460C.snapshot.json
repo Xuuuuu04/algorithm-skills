@@ -1,0 +1,34 @@
+{
+  "id": "CF-460C",
+  "contest_id": 460,
+  "index": "C",
+  "name": "Present",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 6704,
+  "problem_url": "https://codeforces.com/problemset/problem/460/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/460/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/460/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=460C%20Present%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P460C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Present - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

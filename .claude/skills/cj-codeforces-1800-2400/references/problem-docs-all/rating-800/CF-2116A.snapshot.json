@@ -1,0 +1,28 @@
+{
+  "id": "CF-2116A",
+  "contest_id": 2116,
+  "index": "A",
+  "name": "Gellyfish and Tricolor Pansy",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "games",
+    "greedy"
+  ],
+  "solved_count": 26495,
+  "problem_url": "https://codeforces.com/problemset/problem/2116/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2116/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2116/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2116A%20Gellyfish%20and%20Tricolor%20Pansy%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2116/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2116A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

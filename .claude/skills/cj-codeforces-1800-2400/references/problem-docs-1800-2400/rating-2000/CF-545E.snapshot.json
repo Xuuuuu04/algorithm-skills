@@ -1,0 +1,36 @@
+{
+  "id": "CF-545E",
+  "contest_id": 545,
+  "index": "E",
+  "name": "Paths and Trees",
+  "rating": 2000,
+  "tags": [
+    "graphs",
+    "greedy",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/545/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/545/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/545/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=545E%20Paths and Trees%20tutorial",
+  "solved_count": 5463,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P545E",
+  "hydro_meta": {
+    "page_title": "Paths and Trees - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

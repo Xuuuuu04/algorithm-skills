@@ -1,0 +1,29 @@
+{
+  "id": "CF-1898A",
+  "contest_id": 1898,
+  "index": "A",
+  "name": "Milica and String",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 17264,
+  "problem_url": "https://codeforces.com/problemset/problem/1898/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1898/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1898/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1898A%20Milica%20and%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1898A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1898A Milica and String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 137,
+    "mirror_attempt": 232,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1841E",
+  "contest_id": 1841,
+  "index": "E",
+  "name": "Fill the Matrix",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 2397,
+  "problem_url": "https://codeforces.com/problemset/problem/1841/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1841/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1841/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1841E%20Fill%20the%20Matrix%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1841E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1841E Fill the Matrix - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 174,
+    "mirror_attempt": 362,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

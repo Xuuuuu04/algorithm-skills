@@ -1,0 +1,30 @@
+{
+  "id": "CF-2129F1",
+  "contest_id": 2129,
+  "index": "F1",
+  "name": "Top-K Tracker (Easy Version)",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "interactive"
+  ],
+  "solved_count": 115,
+  "problem_url": "https://codeforces.com/problemset/problem/2129/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2129/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2129/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2129F1%20Top-K%20Tracker%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2129F1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Top-K Tracker (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "interactive",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-701B",
+  "contest_id": 701,
+  "index": "B",
+  "name": "Cells Not Under Attack",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "data structures",
+    "math"
+  ],
+  "solved_count": 12458,
+  "problem_url": "https://codeforces.com/problemset/problem/701/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/701/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/701/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=701B%20Cells%20Not%20Under%20Attack%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/701/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 701B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

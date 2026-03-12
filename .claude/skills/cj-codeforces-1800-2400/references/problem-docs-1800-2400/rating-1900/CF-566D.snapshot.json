@@ -1,0 +1,33 @@
+{
+  "id": "CF-566D",
+  "contest_id": 566,
+  "index": "D",
+  "name": "Restructuring Company",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "dsu"
+  ],
+  "url": "https://codeforces.com/problemset/problem/566/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/566/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/566/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=566D%20Restructuring Company%20tutorial",
+  "solved_count": 3839,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P566D",
+  "hydro_meta": {
+    "page_title": "Restructuring Company - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dsu",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-2008E",
+  "contest_id": 2008,
+  "index": "E",
+  "name": "Alternating String",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 12883,
+  "problem_url": "https://codeforces.com/problemset/problem/2008/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2008/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2008/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2008E%20Alternating%20String%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2008/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2008E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

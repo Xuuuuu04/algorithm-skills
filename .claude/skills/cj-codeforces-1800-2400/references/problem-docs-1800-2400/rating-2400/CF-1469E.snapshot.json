@@ -1,0 +1,41 @@
+{
+  "id": "CF-1469E",
+  "contest_id": 1469,
+  "index": "E",
+  "name": "A Bit Similar",
+  "rating": 2400,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "hashing",
+    "string suffix structures",
+    "strings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1469/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1469/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1469/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1469E%20A Bit Similar%20tutorial",
+  "solved_count": 2185,
+  "suggested_patterns": [
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1469E",
+  "hydro_meta": {
+    "page_title": "A Bit Similar - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "brute force",
+      "hashing",
+      "string suffix structures",
+      "strings",
+      "two pointers",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-35C",
+  "contest_id": 35,
+  "index": "C",
+  "name": "Fire Again",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "shortest paths"
+  ],
+  "solved_count": 8368,
+  "problem_url": "https://codeforces.com/problemset/problem/35/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/35/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/35/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=35C%20Fire%20Again%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/35/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 35C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "64 megabytes"
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF670D2 Magic Powder - 2 - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF670D2","type":"CF","title":"Magic Powder - 2","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":358,"totalAccepted":131,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Magic Powder - 2","background":null,"description":"\u672c\u9898\u4e0e\u524d\u4e00\u9898\u7684\u9898\u610f\u76f8\u540c\uff0c\u552f\u4e00\u7684\u533a\u522b\u662f\u9650\u5236\u6761\u4ef6\u66f4\u52a0\u4e25\u683c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6b63\u6574\u6570 $n$ \u548c $k$\uff08$1 \\leq n \\leq 100000, 1 \\leq k \\leq 10^{9}$\uff09\uff0c\u5206\u522b\u8868\u793a\u539f\u6599\u7684\u79cd\u7c7b\u6570\u548c\u9b54\u6cd5\u7c89\u7684\u514b\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u5e8f\u5217 $a_{1}, a_{2}, ..., a_{n}$\uff08$1 \\leq a_{i} \\leq 10^{9}$\uff09\uff0c\u5176\u4e2d\u7b2c $i$ \u79cd\u539f\u6599\u5236\u4f5c\u4e00\u4e2a\u997c\u5e72\u6240\u9700\u7684\u514b\u6570\u3002\n\n\u7b2c\u4e09\u884c\u5305\u542b\u5e8f\u5217 $b_{1}, b_{2}, ..., b_{n}$\uff08$1 \\leq b_{i} \\leq 10^{9}$\uff09\uff0c\u5176\u4e2d $b_{i}$ \u8868\u793a Apollinaria \u62e5\u6709\u7684\u7b2c $i$ \u79cd\u539f\u6599\u7684\u514b\u6570\u3002","formatO":"\u8f93\u51fa Apollinaria \u80fd\u591f\u5229\u7528\u73b0\u6709\u539f\u6599\u548c\u9b54\u6cd5\u7c89\u5236\u4f5c\u7684\u6700\u5927\u997c\u5e72\u6570\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Magic Powder - 2","background":"","description":"The term of this problem is the same as the previous one, the only exception \u2014 increased restrictions.","formatI":"The first line contains two positive integers $ n $ and $ k $ ( $ 1\u003C=n\u003C=100000,1\u003C=k\u003C=10^{9} $ ) \u2014 the number of ingredients and the number of grams of the magic powder.\n\nThe second line contains the sequence $ a_{1},a_{2},...,a_{n} $ ( $ 1\u003C=a_{i}\u003C=10^{9} $ ), where the $ i $ -th number is equal to the number of grams of the $ i $ -th ingredient, needed to bake one cookie.\n\nThe third line contains the sequence $ b_{1},b_{2},...,b_{n} $ ( $ 1\u003C=b_{i}\u003C=10^{9} $ ), where the $ i $ -th number is equal to the number of grams of the $ i $ -th ingredient, which Apollinaria has.","formatO":"Print the maximum number of cookies, which Apollinaria will be able to bake using the ingredients that she has and the magic powder.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1 1000000000\n1\n1000000000\n","2000000000\n"],["10 1\n1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000\n1 1 1 1 1 1 1 1 1 1\n","0\n"],["3 1\n2 1 4\n11 3 16\n","4\n"],["4 3\n4 3 5 6\n11 12 14 20\n","3\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"670D2","link":"https:\/\/codeforces.com\/problemset\/problem\/670\/D2"},"translation":"\u7ed9\u4f60 $N$ \u79cd\u6750\u6599\uff0c\u4ee5\u53ca $M$ \u4e2a\u9b54\u6cd5\u6750\u6599\u3002\n\n\u6bcf\u4e2a\u9b54\u6cd5\u6750\u6599\u53ef\u4ee5\u53d8\u6210\u4efb\u610f\u4e00\u79cd\u6750\u6599\u3002\n\n\u73b0\u5728\u5df2\u77e5\u505a\u4e00\u4e2a\u997c\u5e72\u8981\u7528\u6bcf\u79cd\u6750\u6599 $A_i$ \u4e2a\uff0c\u800c\u4e14\u5df2\u77e5\u6bcf\u79cd\u997c\u5e72\u6211\u4eec\u521d\u59cb\u6709 $B_i$ \u4e2a\u3002\n\n\u95ee\u6700\u591a\u53ef\u4ee5\u505a\u51fa\u6765\u591a\u5c11\u997c\u5e72\u3002"},"translations":{"en":{"name":"Magic Powder - 2","background":"","description":"The term of this problem is the same as the previous one, the only exception \u2014 increased restrictions.","formatI":"The first line contains two positive integers $ n $ and $ k $ ( $ 1\u003C=n\u003C=100000,1\u003C=k\u003C=10^{9} $ ) \u2014 the number of ingredients and the number of grams of the magic powder.\n\nThe second line contains the sequence $ a_{1},a_{2},...,a_{n} $ ( $ 1\u003C=a_{i}\u003C=10^{9} $ ), where the $ i $ -th number is equal to the number of grams of the $ i $ -th ingredient, needed to bake one cookie.\n\nThe third line contains the sequence $ b_{1},b_{2},...,b_{n} $ ( $ 1\u003C=b_{i}\u003C=10^{9} $ ), where the $ i $ -th number is equal to the number of grams of the $ i $ -th ingredient, which Apollinaria has.","formatO":"Print the maximum number of cookies, which Apollinaria will be able to bake using the ingredients that she has and the magic powder.","hint":"","locale":"en"},"zh-CN":{"name":"Magic Powder - 2","background":null,"description":"\u672c\u9898\u4e0e\u524d\u4e00\u9898\u7684\u9898\u610f\u76f8\u540c\uff0c\u552f\u4e00\u7684\u533a\u522b\u662f\u9650\u5236\u6761\u4ef6\u66f4\u52a0\u4e25\u683c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6b63\u6574\u6570 $n$ \u548c $k$\uff08$1 \\leq n \\leq 100000, 1 \\leq k \\leq 10^{9}$\uff09\uff0c\u5206\u522b\u8868\u793a\u539f\u6599\u7684\u79cd\u7c7b\u6570\u548c\u9b54\u6cd5\u7c89\u7684\u514b\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b\u5e8f\u5217 $a_{1}, a_{2}, ..., a_{n}$\uff08$1 \\leq a_{i} \\leq 10^{9}$\uff09\uff0c\u5176\u4e2d\u7b2c $i$ \u79cd\u539f\u6599\u5236\u4f5c\u4e00\u4e2a\u997c\u5e72\u6240\u9700\u7684\u514b\u6570\u3002\n\n\u7b2c\u4e09\u884c\u5305\u542b\u5e8f\u5217 $b_{1}, b_{2}, ..., b_{n}$\uff08$1 \\leq b_{i} \\leq 10^{9}$\uff09\uff0c\u5176\u4e2d $b_{i}$ \u8868\u793a Apollinaria \u62e5\u6709\u7684\u7b2c $i$ \u79cd\u539f\u6599\u7684\u514b\u6570\u3002","formatO":"\u8f93\u51fa Apollinaria \u80fd\u591f\u5229\u7528\u73b0\u6709\u539f\u6599\u548c\u9b54\u6cd5\u7c89\u5236\u4f5c\u7684\u6700\u5927\u997c\u5e72\u6570\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF670D2 Magic Powder - 2","type":2,"slug":"CF670D2","color":"orange-3"},"discussions":[{"id":837485,"title":"\u7ffb\u8bd1\u6709\u8bef","author":{"uid":736746,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/736746.png","name":"bananamilktea","slogan":"\u5927\u5bb6\u5e73\u5b89\u591c\u5feb\u4e50\uff01","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":6,"xcpcLevel":0,"background":""},"time":1718884062}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.716642,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF670D2 Magic Powder - 2","description":"\u672c\u9898\u4e0e\u524d\u4e00\u9898\u7684\u9898\u610f\u76f8\u540c\uff0c\u552f\u4e00\u7684\u533a\u522b\u662f\u9650\u5236\u6761\u4ef6\u66f4\u52a0\u4e25\u683c\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF670D2" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF670D2?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF670D2?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF670D2 Magic Powder - 2" />
+    <meta property="og:description" content="本题与前一题的题意相同，唯一的区别是限制条件更加严格。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF670D2" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF670D2 Magic Powder - 2</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    本题与前一题的题意相同，唯一的区别是限制条件更加严格。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含两个正整数 $n$ 和 $k$（$1 \leq n \leq 100000, 1 \leq k \leq 10^{9}$），分别表示原料的种类数和魔法粉的克数。
+
+第二行包含序列 $a_{1}, a_{2}, ..., a_{n}$（$1 \leq a_{i} \leq 10^{9}$），其中第 $i$ 种原料制作一个饼干所需的克数。
+
+第三行包含序列 $b_{1}, b_{2}, ..., b_{n}$（$1 \leq b_{i} \leq 10^{9}$），其中 $b_{i}$ 表示 Apollinaria 拥有的第 $i$ 种原料的克数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出 Apollinaria 能够利用现有原料和魔法粉制作的最大饼干数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

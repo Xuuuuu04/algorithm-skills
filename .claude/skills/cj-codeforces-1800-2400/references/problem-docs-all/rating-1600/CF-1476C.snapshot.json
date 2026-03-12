@@ -1,0 +1,29 @@
+{
+  "id": "CF-1476C",
+  "contest_id": 1476,
+  "index": "C",
+  "name": "Longest Simple Cycle",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 12239,
+  "problem_url": "https://codeforces.com/problemset/problem/1476/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1476/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1476/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1476C%20Longest%20Simple%20Cycle%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1476/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1476C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

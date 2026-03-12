@@ -1,0 +1,31 @@
+{
+  "id": "CF-1028E",
+  "contest_id": 1028,
+  "index": "E",
+  "name": "Restore Array",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1028/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1028/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1028/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1028E%20Restore Array%20tutorial",
+  "solved_count": 1196,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1028E",
+  "hydro_meta": {
+    "page_title": "Restore Array - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CF-1285E",
+  "contest_id": 1285,
+  "index": "E",
+  "name": "Delete a Segment",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "data structures",
+    "dp",
+    "graphs",
+    "sortings",
+    "trees",
+    "two pointers"
+  ],
+  "solved_count": 1995,
+  "problem_url": "https://codeforces.com/problemset/problem/1285/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1285/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1285/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1285E%20Delete%20a%20Segment%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1285E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Delete a Segment - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "graphs",
+      "sortings",
+      "trees",
+      "two pointers",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

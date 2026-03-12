@@ -1,0 +1,36 @@
+{
+  "id": "CF-1793F",
+  "contest_id": 1793,
+  "index": "F",
+  "name": "Rebrending",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "implementation"
+  ],
+  "solved_count": 1612,
+  "problem_url": "https://codeforces.com/problemset/problem/1793/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1793/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1793/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1793F%20Rebrending%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1793F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Rebrending - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "implementation"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

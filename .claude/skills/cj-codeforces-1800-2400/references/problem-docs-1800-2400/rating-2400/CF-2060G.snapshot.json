@@ -1,0 +1,32 @@
+{
+  "id": "CF-2060G",
+  "contest_id": 2060,
+  "index": "G",
+  "name": "Bugged Sort",
+  "rating": 2400,
+  "tags": [
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2060/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2060/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2060/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2060G%20Bugged Sort%20tutorial",
+  "solved_count": 1264,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2060G",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2060G Bugged Sort - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000 ms",
+    "memory_limit": "1024000 KB"
+  }
+}

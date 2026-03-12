@@ -1,0 +1,33 @@
+{
+  "id": "CF-883G",
+  "contest_id": 883,
+  "index": "G",
+  "name": "Orientation of Edges",
+  "rating": 1900,
+  "tags": [
+    "dfs and similar",
+    "graphs"
+  ],
+  "url": "https://codeforces.com/problemset/problem/883/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/883/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/883/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=883G%20Orientation of Edges%20tutorial",
+  "solved_count": 1508,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P883G",
+  "hydro_meta": {
+    "page_title": "Orientation of Edges - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "graphs",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1866C",
+  "contest_id": 1866,
+  "index": "C",
+  "name": "Completely Searching for Inversions",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "graphs"
+  ],
+  "solved_count": 3400,
+  "problem_url": "https://codeforces.com/problemset/problem/1866/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1866/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1866/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1866C%20Completely%20Searching%20for%20Inversions%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1866C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Completely Searching for Inversions - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "graphs"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

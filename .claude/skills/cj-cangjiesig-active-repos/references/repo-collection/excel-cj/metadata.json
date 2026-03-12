@@ -1,0 +1,14 @@
+{
+  "name": "excel-cj",
+  "full_name": "cangjielanguage-sig/excel-cj",
+  "html_url": "https://github.com/cangjielanguage-sig/excel-cj",
+  "description": "一个使用仓颉（Cangjie）语言开发的 Excel 文件处理库，支持 XLSX、CSV 格式的读取和写入。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.4",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/excel-cj/main/cjpm.toml"
+}

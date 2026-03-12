@@ -1,0 +1,30 @@
+{
+  "id": "CF-447A",
+  "contest_id": 447,
+  "index": "A",
+  "name": "DZY Loves Hash",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 10221,
+  "problem_url": "https://codeforces.com/problemset/problem/447/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/447/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/447/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=447A%20DZY%20Loves%20Hash%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P447A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "DZY Loves Hash - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

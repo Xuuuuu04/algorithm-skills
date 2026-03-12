@@ -1,0 +1,36 @@
+{
+  "id": "CF-1657E",
+  "contest_id": 1657,
+  "index": "E",
+  "name": "Star MST",
+  "rating": 2200,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "graph matchings",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1657/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1657/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1657/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1657E%20Star MST%20tutorial",
+  "solved_count": 2447,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1657E",
+  "hydro_meta": {
+    "page_title": "Star MST - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "6000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-608A",
+  "contest_id": 608,
+  "index": "A",
+  "name": "Saitama Destroys Hotel",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 9841,
+  "problem_url": "https://codeforces.com/problemset/problem/608/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/608/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/608/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=608A%20Saitama%20Destroys%20Hotel%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P608A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Saitama Destroys Hotel - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

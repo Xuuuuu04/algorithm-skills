@@ -1,0 +1,33 @@
+{
+  "id": "CF-1846E1",
+  "contest_id": 1846,
+  "index": "E1",
+  "name": "Rudolf and Snowflakes (simple version)",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 24359,
+  "problem_url": "https://codeforces.com/problemset/problem/1846/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1846/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1846/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1846E1%20Rudolf%20and%20Snowflakes%20%28simple%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1846E1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Rudolf and Snowflakes (simple version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

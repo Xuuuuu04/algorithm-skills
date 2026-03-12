@@ -1,0 +1,31 @@
+{
+  "id": "CF-1750C",
+  "contest_id": 1750,
+  "index": "C",
+  "name": "Complementary XOR",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 10426,
+  "problem_url": "https://codeforces.com/problemset/problem/1750/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1750/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1750/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1750C%20Complementary%20XOR%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1750C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Complementary XOR - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

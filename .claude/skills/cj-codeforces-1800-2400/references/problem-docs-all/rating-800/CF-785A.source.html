@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414411:WhmISrPjxMhk5xXtuLX6Lua8AsEphdUa/isyqnQi83o=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF785A Anton and Polyhedrons - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF785A","type":"CF","title":"Anton and Polyhedrons","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":1304,"totalAccepted":789,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Anton and Polyhedrons","background":null,"description":"Anton \u6700\u559c\u6b22\u7684\u51e0\u4f55\u4f53\u662f\u6b63\u591a\u9762\u4f53\u3002\u9700\u8981\u6ce8\u610f\u7684\u662f\uff0c\u6b63\u591a\u9762\u4f53\u4e00\u5171\u6709\u4e94\u79cd\uff1a\n\n- \u56db\u9762\u4f53\u3002\u56db\u9762\u4f53\u6709 $4$ \u4e2a\u4e09\u89d2\u5f62\u9762\u3002\n- \u7acb\u65b9\u4f53\u3002\u7acb\u65b9\u4f53\u6709 $6$ \u4e2a\u6b63\u65b9\u5f62\u9762\u3002\n- \u516b\u9762\u4f53\u3002\u516b\u9762\u4f53\u6709 $8$ \u4e2a\u4e09\u89d2\u5f62\u9762\u3002\n- \u5341\u4e8c\u9762\u4f53\u3002\u5341\u4e8c\u9762\u4f53\u6709 $12$ \u4e2a\u4e94\u8fb9\u5f62\u9762\u3002\n- \u4e8c\u5341\u9762\u4f53\u3002\u4e8c\u5341\u9762\u4f53\u6709 $20$ \u4e2a\u4e09\u89d2\u5f62\u9762\u3002\n\n\u4e0b\u56fe\u5c55\u793a\u4e86\u6240\u6709\u4e94\u79cd\u6b63\u591a\u9762\u4f53\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF785A\/19c5088ea45f2a6c0e1d14f3df7fa76121b5787c.png)\n\nAnton \u62e5\u6709\u4e00\u7ec4\u5171 $n$ \u4e2a\u6b63\u591a\u9762\u4f53\u3002\u4e00\u5929\u4ed6\u60f3\u77e5\u9053\uff0c\u81ea\u5df1\u8fd9\u4e9b\u6b63\u591a\u9762\u4f53\u4e00\u5171\u62e5\u6709\u591a\u5c11\u4e2a\u9762\u3002\u8bf7\u4f60\u5e2e Anton \u8ba1\u7b97\u8fd9\u4e9b\u6b63\u591a\u9762\u4f53\u4e00\u5171\u6709\u591a\u5c11\u4e2a\u9762\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$ $(1 \\leq n \\leq 200000)$\uff0c\u8868\u793a Anton \u6536\u85cf\u7684\u6b63\u591a\u9762\u4f53\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u7684 $n$ \u884c\u4e2d\uff0c\u6bcf\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u5b57\u7b26\u4e32 $s_i$\uff0c\u8868\u793a Anton \u6536\u85cf\u7684\u7b2c $i$ \u4e2a\u6b63\u591a\u9762\u4f53\u7684\u540d\u79f0\u3002\u5b57\u7b26\u4e32\u53ef\u80fd\u4e3a\u5982\u4e0b\u4e4b\u4e00\uff1a\n\n- \u201cTetrahedron\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u56db\u9762\u4f53\u3002\n- \u201cCube\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u7acb\u65b9\u4f53\u3002\n- \u201cOctahedron\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u516b\u9762\u4f53\u3002\n- \u201cDodecahedron\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u5341\u4e8c\u9762\u4f53\u3002\n- \u201cIcosahedron\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u4e8c\u5341\u9762\u4f53\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6570\u5b57\uff0c\u8868\u793a Anton \u6240\u6709\u6b63\u591a\u9762\u4f53\u7684\u9762\u6570\u603b\u548c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0cAnton \u6709\u4e00\u4e2a\u4e8c\u5341\u9762\u4f53\u3001\u4e00\u4e2a\u7acb\u65b9\u4f53\u3001\u4e00\u4e2a\u56db\u9762\u4f53\u548c\u4e00\u4e2a\u5341\u4e8c\u9762\u4f53\u3002\u4e8c\u5341\u9762\u4f53\u6709 $20$ \u4e2a\u9762\uff0c\u7acb\u65b9\u4f53\u6709 $6$ \u4e2a\u9762\uff0c\u56db\u9762\u4f53\u6709 $4$ \u4e2a\u9762\uff0c\u5341\u4e8c\u9762\u4f53\u6709 $12$ \u4e2a\u9762\u3002\u5b83\u4eec\u4e00\u5171\u6709 $20+6+4+12=42$ \u4e2a\u9762\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Anton and Polyhedrons","background":"","description":"Anton\u0027s favourite geometric figures are regular polyhedrons. Note that there are five kinds of regular polyhedrons:\n\n- Tetrahedron. Tetrahedron has $ 4 $ triangular faces.\n- Cube. Cube has $ 6 $ square faces.\n- Octahedron. Octahedron has $ 8 $ triangular faces.\n- Dodecahedron. Dodecahedron has $ 12 $ pentagonal faces.\n- Icosahedron. Icosahedron has $ 20 $ triangular faces.\n\nAll five kinds of polyhedrons are shown on the picture below:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF785A\/19c5088ea45f2a6c0e1d14f3df7fa76121b5787c.png)Anton has a collection of $ n $ polyhedrons. One day he decided to know, how many faces his polyhedrons have in total. Help Anton and find this number!","formatI":"The first line of the input contains a single integer $ n $ $ (1\u003C=n\u003C=200000) $ \u2014 the number of polyhedrons in Anton\u0027s collection.\n\nEach of the following $ n $ lines of the input contains a string $ s_{i} $ \u2014 the name of the $ i $ -th polyhedron in Anton\u0027s collection. The string can look like this:\n\n- \u0022Tetrahedron\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is a tetrahedron.\n- \u0022Cube\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is a cube.\n- \u0022Octahedron\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is an octahedron.\n- \u0022Dodecahedron\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is a dodecahedron.\n- \u0022Icosahedron\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is an icosahedron.","formatO":"Output one number \u2014 the total number of faces in all the polyhedrons in Anton\u0027s collection.","hint":"In the first sample Anton has one icosahedron, one cube, one tetrahedron and one dodecahedron. Icosahedron has $ 20 $ faces, cube has $ 6 $ faces, tetrahedron has $ 4 $ faces and dodecahedron has $ 12 $ faces. In total, they have $ 20+6+4+12=42 $ faces.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\nIcosahedron\nCube\nTetrahedron\nDodecahedron\n","42\n"],["3\nDodecahedron\nOctahedron\nOctahedron\n","28\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"785A","link":"https:\/\/codeforces.com\/problemset\/problem\/785\/A"},"translation":"\u9898\u76ee\u63cf\u8ff0\n\nAnton\u6700\u559c\u6b22\u7684\u51e0\u4f55\u56fe\u5f62\u662f\u6b63\u591a\u9762\u4f53\u3002\n\u6709\u4e94\u79cd\u6b63\u591a\u9762\u4f53\uff1a\n\n\u56db\u9762\u4f53\uff1a\u67094\u4e2a4\u4e2a\u4e09\u89d2\u5f62\u7684\u9762\u3002\n\n\u7acb\u65b9\u4f53\uff1a\u67096\u4e2a6\u6b63\u65b9\u5f62\u7684\u9762\u3002\n\n\u516b\u9762\u4f53\uff1a\u67098\u4e2a8\u4e2a\u4e09\u89d2\u5f62\u7684\u9762\u3002\n\n\u5341\u4e8c\u9762\u4f53\uff1a\u670912\u4e2a12\u4e2a\u4e94\u8fb9\u5f62\u7684\u9762\u3002\n\n\u4e8c\u5341\u9762\u4f53:\u670920\u4e2a20\u4e2a\u4e09\u89d2\u5f62\u7684\u9762\u3002\n\n\u5f62\u72b6\u5982\u56fe\uff1a\n\n\u7f16\u5199\u7a0b\u5e8f\uff0c\u5e2eAnton\u6c42\u51fa\u4ed6\u7684n\u4e2a\u591a\u9762\u4f53\u7684\u603b\u9762\u6570s\u3002\n\n\u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n\n\u8f93\u5165\uff1a\n\n\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570N\uff081\u003Cn\u003C\uff1d200000\uff09\n\n\u7b2c2~n+1\u884c\u5305\u542b\u4e00\u4e2a\u5b57\u7b26\u4e32s[i]\uff08Anton\u96c6\u5408\u4e2d\u7684\u7b2ci\u4e2a\u591a\u9762\u4f53\u7684\u540d\u79f0\uff09\n\n\u8f93\u5165\u65b9\u5f0f\u5982\u4e0b\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\uff1a\n\n\u201cTetrahedron\u201d\u8868\u793a\u56db\u9762\u4f53\uff1b\n\u201cCube\u201d\u8868\u793a\u7acb\u65b9\u4f53\uff1b\n\u201cOctahedron\u201d\u8868\u793a\u516b\u9762\u4f53\uff1b\n\u201cDodecahedron\u201d\u8868\u793a\u5341\u4e8c\u9762\u4f53\uff1b\n\u201cIcosahedron\u201d\u8868\u793a\u4e8c\u5341\u9762\u4f53\u3002\n\n\u8f93\u51fa\u683c\u5f0f\uff1a\n\n\u8f93\u51fa\u4e00\u4e2a\u6574\u6570s\u3002\n\n\u8bf4\u660e\uff1a\n\n\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u8f93\u5165\u4e2d\uff0cAnton\u6709\u4e00\u4e2a\u4e8c\u5341\u9762\u4f53\u3001\u4e00\u4e2a\u7acb\u65b9\u4f53\u3001\u4e00\u4e2a\u56db\u9762\u4f53\u548c\u4e00\u4e2a\u5341\u4e8c\u9762\u4f53\u3002\u4e8c\u5341\u9762\u4f53\u670920\u4e2a\u9762\uff0c\u7acb\u65b9\u4f53\u67096\u4e2a\u9762\uff0c\u56db\u9762\u4f53\u67094\u4e2a\u9762\uff0c\u5341\u4e8c\u9762\u4f53\u670912\u4e2a\u9762\u3002\u6240\u4ee5\uff0c\u5b83\u4eec\u4e00\u5171\u670920 + 6 + 4 + 12\uff1d42\u4e2a\u9762\u3002\n\n\uff08\u597d\u6c34\u7684\u9898\u76ee\uff09"},"translations":{"en":{"name":"Anton and Polyhedrons","background":"","description":"Anton\u0027s favourite geometric figures are regular polyhedrons. Note that there are five kinds of regular polyhedrons:\n\n- Tetrahedron. Tetrahedron has $ 4 $ triangular faces.\n- Cube. Cube has $ 6 $ square faces.\n- Octahedron. Octahedron has $ 8 $ triangular faces.\n- Dodecahedron. Dodecahedron has $ 12 $ pentagonal faces.\n- Icosahedron. Icosahedron has $ 20 $ triangular faces.\n\nAll five kinds of polyhedrons are shown on the picture below:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF785A\/19c5088ea45f2a6c0e1d14f3df7fa76121b5787c.png)Anton has a collection of $ n $ polyhedrons. One day he decided to know, how many faces his polyhedrons have in total. Help Anton and find this number!","formatI":"The first line of the input contains a single integer $ n $ $ (1\u003C=n\u003C=200000) $ \u2014 the number of polyhedrons in Anton\u0027s collection.\n\nEach of the following $ n $ lines of the input contains a string $ s_{i} $ \u2014 the name of the $ i $ -th polyhedron in Anton\u0027s collection. The string can look like this:\n\n- \u0022Tetrahedron\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is a tetrahedron.\n- \u0022Cube\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is a cube.\n- \u0022Octahedron\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is an octahedron.\n- \u0022Dodecahedron\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is a dodecahedron.\n- \u0022Icosahedron\u0022 (without quotes), if the $ i $ -th polyhedron in Anton\u0027s collection is an icosahedron.","formatO":"Output one number \u2014 the total number of faces in all the polyhedrons in Anton\u0027s collection.","hint":"In the first sample Anton has one icosahedron, one cube, one tetrahedron and one dodecahedron. Icosahedron has $ 20 $ faces, cube has $ 6 $ faces, tetrahedron has $ 4 $ faces and dodecahedron has $ 12 $ faces. In total, they have $ 20+6+4+12=42 $ faces.","locale":"en"},"zh-CN":{"name":"Anton and Polyhedrons","background":null,"description":"Anton \u6700\u559c\u6b22\u7684\u51e0\u4f55\u4f53\u662f\u6b63\u591a\u9762\u4f53\u3002\u9700\u8981\u6ce8\u610f\u7684\u662f\uff0c\u6b63\u591a\u9762\u4f53\u4e00\u5171\u6709\u4e94\u79cd\uff1a\n\n- \u56db\u9762\u4f53\u3002\u56db\u9762\u4f53\u6709 $4$ \u4e2a\u4e09\u89d2\u5f62\u9762\u3002\n- \u7acb\u65b9\u4f53\u3002\u7acb\u65b9\u4f53\u6709 $6$ \u4e2a\u6b63\u65b9\u5f62\u9762\u3002\n- \u516b\u9762\u4f53\u3002\u516b\u9762\u4f53\u6709 $8$ \u4e2a\u4e09\u89d2\u5f62\u9762\u3002\n- \u5341\u4e8c\u9762\u4f53\u3002\u5341\u4e8c\u9762\u4f53\u6709 $12$ \u4e2a\u4e94\u8fb9\u5f62\u9762\u3002\n- \u4e8c\u5341\u9762\u4f53\u3002\u4e8c\u5341\u9762\u4f53\u6709 $20$ \u4e2a\u4e09\u89d2\u5f62\u9762\u3002\n\n\u4e0b\u56fe\u5c55\u793a\u4e86\u6240\u6709\u4e94\u79cd\u6b63\u591a\u9762\u4f53\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF785A\/19c5088ea45f2a6c0e1d14f3df7fa76121b5787c.png)\n\nAnton \u62e5\u6709\u4e00\u7ec4\u5171 $n$ \u4e2a\u6b63\u591a\u9762\u4f53\u3002\u4e00\u5929\u4ed6\u60f3\u77e5\u9053\uff0c\u81ea\u5df1\u8fd9\u4e9b\u6b63\u591a\u9762\u4f53\u4e00\u5171\u62e5\u6709\u591a\u5c11\u4e2a\u9762\u3002\u8bf7\u4f60\u5e2e Anton \u8ba1\u7b97\u8fd9\u4e9b\u6b63\u591a\u9762\u4f53\u4e00\u5171\u6709\u591a\u5c11\u4e2a\u9762\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$ $(1 \\leq n \\leq 200000)$\uff0c\u8868\u793a Anton \u6536\u85cf\u7684\u6b63\u591a\u9762\u4f53\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765\u7684 $n$ \u884c\u4e2d\uff0c\u6bcf\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u5b57\u7b26\u4e32 $s_i$\uff0c\u8868\u793a Anton \u6536\u85cf\u7684\u7b2c $i$ \u4e2a\u6b63\u591a\u9762\u4f53\u7684\u540d\u79f0\u3002\u5b57\u7b26\u4e32\u53ef\u80fd\u4e3a\u5982\u4e0b\u4e4b\u4e00\uff1a\n\n- \u201cTetrahedron\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u56db\u9762\u4f53\u3002\n- \u201cCube\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u7acb\u65b9\u4f53\u3002\n- \u201cOctahedron\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u516b\u9762\u4f53\u3002\n- \u201cDodecahedron\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u5341\u4e8c\u9762\u4f53\u3002\n- \u201cIcosahedron\u201d\uff0c\u5982\u679c\u7b2c $i$ \u4e2a\u591a\u9762\u4f53\u662f\u4e8c\u5341\u9762\u4f53\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6570\u5b57\uff0c\u8868\u793a Anton \u6240\u6709\u6b63\u591a\u9762\u4f53\u7684\u9762\u6570\u603b\u548c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0cAnton \u6709\u4e00\u4e2a\u4e8c\u5341\u9762\u4f53\u3001\u4e00\u4e2a\u7acb\u65b9\u4f53\u3001\u4e00\u4e2a\u56db\u9762\u4f53\u548c\u4e00\u4e2a\u5341\u4e8c\u9762\u4f53\u3002\u4e8c\u5341\u9762\u4f53\u6709 $20$ \u4e2a\u9762\uff0c\u7acb\u65b9\u4f53\u6709 $6$ \u4e2a\u9762\uff0c\u56db\u9762\u4f53\u6709 $4$ \u4e2a\u9762\uff0c\u5341\u4e8c\u9762\u4f53\u6709 $12$ \u4e2a\u9762\u3002\u5b83\u4eec\u4e00\u5171\u6709 $20+6+4+12=42$ \u4e2a\u9762\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF785A Anton and Polyhedrons","type":2,"slug":"CF785A","color":"orange-3"},"discussions":[{"id":50307,"title":"\u7ffb\u8bd1\uff01","author":{"uid":54372,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/54372.png","name":"A_\u0110ark_Horcrux","slogan":"\u300e\u7b11\u3048\u3084\u7b11\u3048 \u8003\u3048\u3066\u3082\u7b54\u3048\u306d\u3047\u300f","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":5,"xcpcLevel":0,"background":""},"time":1532057198}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328011.622071,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF785A Anton and Polyhedrons","description":"Anton \u6700\u559c\u6b22\u7684\u51e0\u4f55\u4f53\u662f\u6b63\u591a\u9762\u4f53\u3002\u9700\u8981\u6ce8\u610f\u7684\u662f\uff0c\u6b63\u591a\u9762\u4f53\u4e00\u5171\u6709\u4e94\u79cd\uff1a\n\n\u56db\u9762\u4f53\u3002\u56db\u9762\u4f53\u6709 4 \u4e2a\u4e09\u89d2\u5f62\u9762\u3002\n\u7acb\u65b9\u4f53\u3002\u7acb\u65b9\u4f53\u6709 6 \u4e2a\u6b63\u65b9\u5f62\u9762\u3002\n\u516b\u9762\u4f53\u3002\u516b\u9762\u4f53\u6709 8 \u4e2a\u4e09\u89d2\u5f62\u9762\u3002\n\u5341\u4e8c\u9762\u4f53\u3002\u5341\u4e8c\u9762\u4f53\u6709 12 \u4e2a\u4e94\u8fb9\u5f62\u9762\u3002\n\u4e8c\u5341\u9762\u4f53\u3002\u4e8c\u5341\u9762\u4f53\u6709\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF785A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF785A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF785A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF785A Anton and Polyhedrons" />
+    <meta property="og:description" content="Anton 最喜欢的几何体是正多面体。需要注意的是，正多面体一共有五种：
+
+四面体。四面体有 4 个三角形面。
+立方体。立方体有 6 个正方形面。
+八面体。八面体有 8 个三角形面。
+十二面体。十二面体有 12 个五边形面。
+二十面体。二十面体有…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF785A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF785A Anton and Polyhedrons</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Anton 最喜欢的几何体是正多面体。需要注意的是，正多面体一共有五种：
+
+- 四面体。四面体有 $4$ 个三角形面。
+- 立方体。立方体有 $6$ 个正方形面。
+- 八面体。八面体有 $8$ 个三角形面。
+- 十二面体。十二面体有 $12$ 个五边形面。
+- 二十面体。二十面体有 $20$ 个三角形面。
+
+下图展示了所有五种正多面体：
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF785A/19c5088ea45f2a6c0e1d14f3df7fa76121b5787c.png)
+
+Anton 拥有一组共 $n$ 个正多面体。一天他想知道，自己这些正多面体一共拥有多少个面。请你帮 Anton 计算这些正多面体一共有多少个面。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$ $(1 \leq n \leq 200000)$，表示 Anton 收藏的正多面体的数量。
+
+接下来的 $n$ 行中，每一行包含一个字符串 $s_i$，表示 Anton 收藏的第 $i$ 个正多面体的名称。字符串可能为如下之一：
+
+- “Tetrahedron”，如果第 $i$ 个多面体是四面体。
+- “Cube”，如果第 $i$ 个多面体是立方体。
+- “Octahedron”，如果第 $i$ 个多面体是八面体。
+- “Dodecahedron”，如果第 $i$ 个多面体是十二面体。
+- “Icosahedron”，如果第 $i$ 个多面体是二十面体。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个数字，表示 Anton 所有正多面体的面数总和。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，Anton 有一个二十面体、一个立方体、一个四面体和一个十二面体。二十面体有 $20$ 个面，立方体有 $6$ 个面，四面体有 $4$ 个面，十二面体有 $12$ 个面。它们一共有 $20+6+4+12=42$ 个面。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1085A Right-Left Cipher - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1085A","type":"CF","title":"Right-Left Cipher","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":375,"totalAccepted":118,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Right-Left Cipher","background":"","description":"Polycarp\u559c\u6b22\u5bc6\u7801\u3002 \u4ed6\u53d1\u660e\u4e86\u81ea\u5df1\u7684\u5bc6\u7801\uff0c\u79f0\u4e3a\u201c\u53f3-\u5de6\u201d\uff08\uff1f\u5e94\u8be5\u662f\u8fd9\u4e2a\u610f\u601d\u5427\uff1f\uff09\u3002\n\n\u201c\u53f3-\u5de6\u201d\u5bc6\u7801\u7528\u4e8e\u52a0\u5bc6\u5b57\u7b26\u4e32\u3002 \n\nPolycarp\u4f7f\u7528\u4ee5\u4e0b\u7b97\u6cd5\u52a0\u5bc6\u5b57\u7b26\u4e32\uff0c$S = S_1S_2S_3 ... S_n$:\n\n\u4ed6\u5199\u4e0b$S_1$\uff0c\u4ed6\u7528$S_2$\u63a5\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5c06$S_2$\u5199\u5230\u5f53\u524d\u7ed3\u679c\u7684\u53f3\u8fb9\uff09\uff0c\n\n\u4ed6\u5728$S_3$\u524d\u9762\u52a0\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5728\u5f53\u524d\u7ed3\u679c\u7684\u5de6\u8fb9\u5199\u4e0b$S_3$\uff09\uff0c\n\n\u4ed6\u5c06$S_4$\u63a5\u4e0a\u5f53\u524d\u5355\u8bcd\uff08\u5373\u5c06$S_4$\u5199\u5230\u5f53\u524d\u7ed3\u679c\u7684\u53f3\u4fa7\uff09\uff0c\n\n\u4ed6\u5728$S_5$\u524d\u9762\u52a0\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5728\u5f53\u524d\u7ed3\u679c\u7684\u5de6\u8fb9\u5199\u4e0b$S_5$\uff09...\n\n\u8fd9\u4e48\u505a\u76f4\u5230\u5904\u7406\u5b8c$S$\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50\uff0c\u5982\u679c$S = $\u0022techno\u0022\uff0c\u90a3\u4e48\u5904\u7406\u8fc7\u7a0b\u5c31\u662f\uff1a \u0022t\u0022 \u2192 \u0022te\u0022 \u2192 \u0022cte\u0022 \u2192 \u0022cteh\u0022 \u2192 \u0022ncteh\u0022 \u2192 \u0022ncteho\u0022\u3002\u6240\u4ee5\u52a0\u5bc6\u0022techno\u0022\u540e\u7684\u5b57\u7b26\u4e32\u5c31\u662f\u0022ncteho\u0022\u3002\n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32$t$\uff0c\u5373\u52a0\u5bc6\u540e\u7684\u5b57\u7b26\u4e32\uff0c\u4f60\u7684\u4efb\u52a1\u5c31\u662f\u627e\u5230\u539f\u6765\u7684\u5b57\u7b26\u4e32$S$","formatI":"\u53ea\u6709\u4e00\u884c\uff0c$t$\uff0c\u52a0\u5bc6\u540e\u7684\u5b57\u7b26\u4e32\uff0c\u53ea\u5305\u542b\u5c0f\u5199\u5b57\u6bcd\uff0c$1\u003C= t_{len} \u003C=50$","formatO":"\u4e00\u884c\uff0c\u539f\u5b57\u7b26\u4e32$S$\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Right-Left Cipher","background":"","description":"Polycarp loves ciphers. He has invented his own cipher called Right-Left.\n\nRight-Left cipher is used for strings. To encrypt the string $ s=s_{1}s_{2} \\dots s_{n} $ Polycarp uses the following algorithm:\n\n- he writes down $ s_1 $ ,\n- he appends the current word with $ s_2 $ (i.e. writes down $ s_2 $ to the right of the current result),\n- he prepends the current word with $ s_3 $ (i.e. writes down $ s_3 $ to the left of the current result),\n- he appends the current word with $ s_4 $ (i.e. writes down $ s_4 $ to the right of the current result),\n- he prepends the current word with $ s_5 $ (i.e. writes down $ s_5 $ to the left of the current result),\n- and so on for each position until the end of $ s $ .\n\nFor example, if $ s $ =\u0022techno\u0022 the process is: \u0022t\u0022 $ \\to $ \u0022te\u0022 $ \\to $ \u0022cte\u0022 $ \\to $ \u0022cteh\u0022 $ \\to $ \u0022ncteh\u0022 $ \\to $ \u0022ncteho\u0022. So the encrypted $ s $ =\u0022techno\u0022 is \u0022ncteho\u0022.\n\nGiven string $ t $ \u2014 the result of encryption of some string $ s $ . Your task is to decrypt it, i.e. find the string $ s $ .","formatI":"The only line of the input contains $ t $ \u2014 the result of encryption of some string $ s $ . It contains only lowercase Latin letters. The length of $ t $ is between $ 1 $ and $ 50 $ , inclusive.","formatO":"Print such string $ s $ that after encryption it equals $ t $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["ncteho\n","techno\n"],["erfdcoeocs\n","codeforces\n"],["z\n","z\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1085A","link":"https:\/\/codeforces.com\/problemset\/problem\/1085\/A"},"translation":"## \u9898\u76ee\u63cf\u8ff0\nPolycarp\u559c\u6b22\u5bc6\u7801\u3002 \u4ed6\u53d1\u660e\u4e86\u81ea\u5df1\u7684\u5bc6\u7801\uff0c\u79f0\u4e3a\u201c\u53f3-\u5de6\u201d\uff08\uff1f\u5e94\u8be5\u662f\u8fd9\u4e2a\u610f\u601d\u5427\uff1f\uff09\u3002\n\n\u201c\u53f3-\u5de6\u201d\u5bc6\u7801\u7528\u4e8e\u52a0\u5bc6\u5b57\u7b26\u4e32\u3002 \n\nPolycarp\u4f7f\u7528\u4ee5\u4e0b\u7b97\u6cd5\u52a0\u5bc6\u5b57\u7b26\u4e32\uff0c$S = S_1S_2S_3 ... S_n$:\n\n\u4ed6\u5199\u4e0b$S_1$\uff0c\u4ed6\u7528$S_2$\u63a5\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5c06$S_2$\u5199\u5230\u5f53\u524d\u7ed3\u679c\u7684\u53f3\u8fb9\uff09\uff0c\n\n\u4ed6\u5728$S_3$\u524d\u9762\u52a0\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5728\u5f53\u524d\u7ed3\u679c\u7684\u5de6\u8fb9\u5199\u4e0b$S_3$\uff09\uff0c\n\n\u4ed6\u5c06$S_4$\u63a5\u4e0a\u5f53\u524d\u5355\u8bcd\uff08\u5373\u5c06$S_4$\u5199\u5230\u5f53\u524d\u7ed3\u679c\u7684\u53f3\u4fa7\uff09\uff0c\n\n\u4ed6\u5728$S_5$\u524d\u9762\u52a0\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5728\u5f53\u524d\u7ed3\u679c\u7684\u5de6\u8fb9\u5199\u4e0b$S_5$\uff09...\n\n\u8fd9\u4e48\u505a\u76f4\u5230\u5904\u7406\u5b8c$S$\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50\uff0c\u5982\u679c$S = $\u0022techno\u0022\uff0c\u90a3\u4e48\u5904\u7406\u8fc7\u7a0b\u5c31\u662f\uff1a \u0022t\u0022 \u2192 \u0022te\u0022 \u2192 \u0022cte\u0022 \u2192 \u0022cteh\u0022 \u2192 \u0022ncteh\u0022 \u2192 \u0022ncteho\u0022\u3002\u6240\u4ee5\u52a0\u5bc6\u0022techno\u0022\u540e\u7684\u5b57\u7b26\u4e32\u5c31\u662f\u0022ncteho\u0022\u3002\n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32$t$\uff0c\u5373\u52a0\u5bc6\u540e\u7684\u5b57\u7b26\u4e32\uff0c\u4f60\u7684\u4efb\u52a1\u5c31\u662f\u627e\u5230\u539f\u6765\u7684\u5b57\u7b26\u4e32$S$\n## \u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n### \u8f93\u5165\u683c\u5f0f\uff1a\n\u53ea\u6709\u4e00\u884c\uff0c$t$\uff0c\u52a0\u5bc6\u540e\u7684\u5b57\u7b26\u4e32\uff0c\u53ea\u5305\u542b\u5c0f\u5199\u5b57\u6bcd\uff0c$1\u003C= t_{len} \u003C=50$\n### \u8f93\u51fa\u683c\u5f0f\uff1a\n\u4e00\u884c\uff0c\u539f\u5b57\u7b26\u4e32$S$\u3002"},"translations":{"en":{"name":"Right-Left Cipher","background":"","description":"Polycarp loves ciphers. He has invented his own cipher called Right-Left.\n\nRight-Left cipher is used for strings. To encrypt the string $ s=s_{1}s_{2} \\dots s_{n} $ Polycarp uses the following algorithm:\n\n- he writes down $ s_1 $ ,\n- he appends the current word with $ s_2 $ (i.e. writes down $ s_2 $ to the right of the current result),\n- he prepends the current word with $ s_3 $ (i.e. writes down $ s_3 $ to the left of the current result),\n- he appends the current word with $ s_4 $ (i.e. writes down $ s_4 $ to the right of the current result),\n- he prepends the current word with $ s_5 $ (i.e. writes down $ s_5 $ to the left of the current result),\n- and so on for each position until the end of $ s $ .\n\nFor example, if $ s $ =\u0022techno\u0022 the process is: \u0022t\u0022 $ \\to $ \u0022te\u0022 $ \\to $ \u0022cte\u0022 $ \\to $ \u0022cteh\u0022 $ \\to $ \u0022ncteh\u0022 $ \\to $ \u0022ncteho\u0022. So the encrypted $ s $ =\u0022techno\u0022 is \u0022ncteho\u0022.\n\nGiven string $ t $ \u2014 the result of encryption of some string $ s $ . Your task is to decrypt it, i.e. find the string $ s $ .","formatI":"The only line of the input contains $ t $ \u2014 the result of encryption of some string $ s $ . It contains only lowercase Latin letters. The length of $ t $ is between $ 1 $ and $ 50 $ , inclusive.","formatO":"Print such string $ s $ that after encryption it equals $ t $ .","hint":"","locale":"en"},"zh-CN":{"name":"Right-Left Cipher","background":"","description":"Polycarp\u559c\u6b22\u5bc6\u7801\u3002 \u4ed6\u53d1\u660e\u4e86\u81ea\u5df1\u7684\u5bc6\u7801\uff0c\u79f0\u4e3a\u201c\u53f3-\u5de6\u201d\uff08\uff1f\u5e94\u8be5\u662f\u8fd9\u4e2a\u610f\u601d\u5427\uff1f\uff09\u3002\n\n\u201c\u53f3-\u5de6\u201d\u5bc6\u7801\u7528\u4e8e\u52a0\u5bc6\u5b57\u7b26\u4e32\u3002 \n\nPolycarp\u4f7f\u7528\u4ee5\u4e0b\u7b97\u6cd5\u52a0\u5bc6\u5b57\u7b26\u4e32\uff0c$S = S_1S_2S_3 ... S_n$:\n\n\u4ed6\u5199\u4e0b$S_1$\uff0c\u4ed6\u7528$S_2$\u63a5\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5c06$S_2$\u5199\u5230\u5f53\u524d\u7ed3\u679c\u7684\u53f3\u8fb9\uff09\uff0c\n\n\u4ed6\u5728$S_3$\u524d\u9762\u52a0\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5728\u5f53\u524d\u7ed3\u679c\u7684\u5de6\u8fb9\u5199\u4e0b$S_3$\uff09\uff0c\n\n\u4ed6\u5c06$S_4$\u63a5\u4e0a\u5f53\u524d\u5355\u8bcd\uff08\u5373\u5c06$S_4$\u5199\u5230\u5f53\u524d\u7ed3\u679c\u7684\u53f3\u4fa7\uff09\uff0c\n\n\u4ed6\u5728$S_5$\u524d\u9762\u52a0\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5728\u5f53\u524d\u7ed3\u679c\u7684\u5de6\u8fb9\u5199\u4e0b$S_5$\uff09...\n\n\u8fd9\u4e48\u505a\u76f4\u5230\u5904\u7406\u5b8c$S$\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50\uff0c\u5982\u679c$S = $\u0022techno\u0022\uff0c\u90a3\u4e48\u5904\u7406\u8fc7\u7a0b\u5c31\u662f\uff1a \u0022t\u0022 \u2192 \u0022te\u0022 \u2192 \u0022cte\u0022 \u2192 \u0022cteh\u0022 \u2192 \u0022ncteh\u0022 \u2192 \u0022ncteho\u0022\u3002\u6240\u4ee5\u52a0\u5bc6\u0022techno\u0022\u540e\u7684\u5b57\u7b26\u4e32\u5c31\u662f\u0022ncteho\u0022\u3002\n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32$t$\uff0c\u5373\u52a0\u5bc6\u540e\u7684\u5b57\u7b26\u4e32\uff0c\u4f60\u7684\u4efb\u52a1\u5c31\u662f\u627e\u5230\u539f\u6765\u7684\u5b57\u7b26\u4e32$S$","formatI":"\u53ea\u6709\u4e00\u884c\uff0c$t$\uff0c\u52a0\u5bc6\u540e\u7684\u5b57\u7b26\u4e32\uff0c\u53ea\u5305\u542b\u5c0f\u5199\u5b57\u6bcd\uff0c$1\u003C= t_{len} \u003C=50$","formatO":"\u4e00\u884c\uff0c\u539f\u5b57\u7b26\u4e32$S$\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1085A Right-Left Cipher","type":2,"slug":"CF1085A","color":"orange-3"},"discussions":[{"id":302625,"title":"\u300aWrong Answer\u300b","author":{"uid":352464,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/352464.png","name":"JJA_","slogan":"whk\u597d\u96bewhk\u597d\u96bewhk\u597d\u96bewhk\u597d\u96bewhk\u597d\u96bewhk\u597d\u96bewhk\u597d\u96bewhk\u597d\u96bewhk\u597d\u96bewhk\u597d\u96be","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/7iovcdgw.png"},"time":1614869894},{"id":93741,"title":"\u7ffb\u8bd1","author":{"uid":38038,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/38038.png","name":"\u4e8c\u5143\u957f\u5929\u7b11","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1547186236}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.619187,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1085A Right-Left Cipher","description":"Polycarp\u559c\u6b22\u5bc6\u7801\u3002 \u4ed6\u53d1\u660e\u4e86\u81ea\u5df1\u7684\u5bc6\u7801\uff0c\u79f0\u4e3a\u201c\u53f3-\u5de6\u201d\uff08\uff1f\u5e94\u8be5\u662f\u8fd9\u4e2a\u610f\u601d\u5427\uff1f\uff09\u3002\n\u201c\u53f3-\u5de6\u201d\u5bc6\u7801\u7528\u4e8e\u52a0\u5bc6\u5b57\u7b26\u4e32\u3002 \nPolycarp\u4f7f\u7528\u4ee5\u4e0b\u7b97\u6cd5\u52a0\u5bc6\u5b57\u7b26\u4e32\uff0cS = S_1S_2S_3 ... S_n:\n\u4ed6\u5199\u4e0bS_1\uff0c\u4ed6\u7528S_2\u63a5\u4e0a\u5f53\u524d\u7684\u5355\u8bcd\uff08\u5373\u5c06S_2\u5199\u5230\u5f53\u524d\u7ed3\u679c\u7684\u53f3\u8fb9\uff09\uff0c\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1085A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1085A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1085A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1085A Right-Left Cipher" />
+    <meta property="og:description" content="Polycarp喜欢密码。 他发明了自己的密码，称为“右-左”（？应该是这个意思吧？）。
+“右-左”密码用于加密字符串。 
+Polycarp使用以下算法加密字符串，S = S_1S_2S_3 ... S_n:
+他写下S_1，他用S_2接上当前的单词（即将S_2写到当前结果的右边），…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1085A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1085A Right-Left Cipher</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Polycarp喜欢密码。 他发明了自己的密码，称为“右-左”（？应该是这个意思吧？）。
+
+“右-左”密码用于加密字符串。 
+
+Polycarp使用以下算法加密字符串，$S = S_1S_2S_3 ... S_n$:
+
+他写下$S_1$，他用$S_2$接上当前的单词（即将$S_2$写到当前结果的右边），
+
+他在$S_3$前面加上当前的单词（即在当前结果的左边写下$S_3$），
+
+他将$S_4$接上当前单词（即将$S_4$写到当前结果的右侧），
+
+他在$S_5$前面加上当前的单词（即在当前结果的左边写下$S_5$）...
+
+这么做直到处理完$S$。
+
+举个例子，如果$S = $"techno"，那么处理过程就是： "t" → "te" → "cte" → "cteh" → "ncteh" → "ncteho"。所以加密"techno"后的字符串就是"ncteho"。
+
+现在给你一个字符串$t$，即加密后的字符串，你的任务就是找到原来的字符串$S$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    只有一行，$t$，加密后的字符串，只包含小写字母，$1
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    一行，原字符串$S$。
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

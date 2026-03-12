@@ -1,0 +1,42 @@
+{
+  "id": "CF-985E",
+  "contest_id": 985,
+  "index": "E",
+  "name": "Pencils and Boxes",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/985/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/985/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/985/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=985E%20Pencils and Boxes%20tutorial",
+  "solved_count": 4104,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P985E",
+  "hydro_meta": {
+    "page_title": "Pencils and Boxes - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

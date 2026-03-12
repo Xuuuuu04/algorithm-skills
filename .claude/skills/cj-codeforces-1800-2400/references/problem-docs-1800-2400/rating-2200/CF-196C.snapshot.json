@@ -1,0 +1,40 @@
+{
+  "id": "CF-196C",
+  "contest_id": 196,
+  "index": "C",
+  "name": "Paint Tree",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "divide and conquer",
+    "geometry",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/196/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/196/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/196/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=196C%20Paint Tree%20tutorial",
+  "solved_count": 1032,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P196C",
+  "hydro_meta": {
+    "page_title": "Paint Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "divide and conquer",
+      "geometry",
+      "sortings",
+      "trees",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

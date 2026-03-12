@@ -1,0 +1,34 @@
+{
+  "id": "CF-627C",
+  "contest_id": 627,
+  "index": "C",
+  "name": "Package Delivery",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "greedy"
+  ],
+  "solved_count": 1282,
+  "problem_url": "https://codeforces.com/problemset/problem/627/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/627/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/627/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=627C%20Package%20Delivery%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P627C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Package Delivery - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "divide and conquer",
+      "greedy",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

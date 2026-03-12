@@ -1,0 +1,36 @@
+{
+  "id": "CF-1473D",
+  "contest_id": 1473,
+  "index": "D",
+  "name": "Program",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dp",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 10742,
+  "problem_url": "https://codeforces.com/problemset/problem/1473/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1473/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1473/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1473D%20Program%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1473D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Program - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "strings",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

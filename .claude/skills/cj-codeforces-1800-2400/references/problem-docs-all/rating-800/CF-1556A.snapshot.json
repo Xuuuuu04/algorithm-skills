@@ -1,0 +1,27 @@
+{
+  "id": "CF-1556A",
+  "contest_id": 1556,
+  "index": "A",
+  "name": "A Variety of Operations",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 18501,
+  "problem_url": "https://codeforces.com/problemset/problem/1556/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1556/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1556/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1556A%20A%20Variety%20of%20Operations%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1556A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1556A A Variety of Operations - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 248,
+    "mirror_attempt": 320,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

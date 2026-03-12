@@ -1,0 +1,32 @@
+{
+  "id": "CF-2158D",
+  "contest_id": 2158,
+  "index": "D",
+  "name": "Palindrome Flipping",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "graphs",
+    "implementation",
+    "shortest paths",
+    "strings"
+  ],
+  "solved_count": 3127,
+  "problem_url": "https://codeforces.com/problemset/problem/2158/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2158/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2158/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2158D%20Palindrome%20Flipping%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2158/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2158D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

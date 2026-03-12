@@ -1,0 +1,43 @@
+{
+  "id": "CF-1182D",
+  "contest_id": 1182,
+  "index": "D",
+  "name": "Complete Mirror",
+  "rating": 2400,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dp",
+    "hashing",
+    "implementation",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1182/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1182/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1182/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1182D%20Complete Mirror%20tutorial",
+  "solved_count": 996,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1182D",
+  "hydro_meta": {
+    "page_title": "Complete Mirror - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "hashing",
+      "implementation",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

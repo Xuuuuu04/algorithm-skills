@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414524:atscE+j5UYcFcmUfQZYMKwPqorNdVspinzuZupo5UjE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2205C Simons and Posting Blogs - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2205C","type":"CF","title":"Simons and Posting Blogs","difficulty":0,"tags":[1,7,504],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":null,"content":{"name":"Simons and Posting Blogs","background":null,"description":"This life is like a TV show; we\u0027re swept along as the plotlines go.\n\n\u2014 SHUN, [TRAP](https:\/\/open.spotify.com\/track\/4lfS48CaivAm4QaimqbAPv)\n\n\n\nThere are  $ n $  blogs. The  $ i $ -th blog mentioned  $ l_i $  users in order as an array  $ a_i=[a_{i,1},a_{i,2},\\ldots,a_{i,l_i}] $ .\n\nYou are going to post all  $ n $  blogs. Let us maintain a sequence  $ Q $  that describes the list of users you have recently mentioned. You need to perform the following operation exactly  $ n $  times:\n\n- Choose an unposted blog  $ i $  ( $ 1\\le i\\le n $ ), then post it. This will cause the following operations for each  $ 1\\le j\\le l_i $  in order: \n    - If  $ a_{i,j} $  already exists in  $ Q $ , then move  $ a_{i,j} $  to the beginning of  $ Q $ .\n    - Otherwise, insert  $ a_{i,j} $  at the beginning of  $ Q $ .\n\nFind the lexicographically smallest $ ^{\\text{\u2217}} $   $ Q $  after all  $ n $  operations.\n\n $ ^{\\text{\u2217}} $ An array  $ x $  is lexicographically smaller than an array  $ y $  if and only if one of the following holds:\n\n- $ x $  is a prefix of  $ y $ , but  $ x \\ne y $ ; or\n- in the first position where  $ x $  and  $ y $  differ, the array  $ x $  has a smaller element than the corresponding element in  $ y $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 1000 $ ). The description of the test cases follows.\n\nThe first line contains a single integer  $ n $  ( $ 1\\le n\\le 3000 $ ) \u2014 the number of blogs.\n\nThen  $ n $  lines follow, the  $ i $ -th line starting with an integer  $ l_i $  ( $ 1\\le l_i\\le 3000 $ ), describing the number of users mentioned in the  $ i $ -th blog, which is followed by  $ l_i $  integers  $ a_{i,1},a_{i,2},\\ldots,a_{i,l_i} $  ( $ 1\\le a_{i,j}\\le 10^6 $ ) \u2014 the list of users mentioned in the  $ i $ -th blog.\n\nIt is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 3000 $ .\n\nDenote  $ \\sum\\limits_{i=1}^n l_i $  as  $ L $ . It is guaranteed that the sum of  $ L $  over all test cases does not exceed  $ 3000 $ .","formatO":"Denote  $ m $  as the number of users mentioned in at least one blog. For each test case, output  $ m $  integers  $ Q_1,Q_2,\\ldots,Q_m $  \u2014 the lexicographically smallest  $ Q $ .","hint":"In the first test case, you can post the blogs as follows:\n\n- Post the first blog, and  $ Q $  will become  $ [6,4,3,2,1] $ .\n- Post the third blog, and  $ Q $  will become  $ [3,2,9,1,6,4] $ .\n- Post the second blog, and  $ Q $  will become  $ [1,5,2,3,9,6,4] $ .\n\nThere is another method to post blogs:\n\n- Post the third blog, and  $ Q $  will become  $ [3,2,9,1] $ .\n- Post the first blog, and  $ Q $  will become  $ [6,4,3,2,1,9] $ .\n- Post the second blog, and  $ Q $  will become  $ [1,5,2,6,4,3,9] $ .\n\nWe can see that  $ [1,5,2,3,9,6,4] $  is lexicographically smaller than the other one. If we do not post the second blog at the end, the first element of the array will not be  $ 1 $ , so  $ [1,5,2,3,9,6,4] $  is the lexicographically smallest array  $ Q $ .\n\nIn the second test case, you can post the blogs as follows:\n\n- Post the first blog, and  $ Q $  will become  $ [6,1] $ .\n- Post the second blog, and  $ Q $  will keep itself  $ [6,1] $ .\n\nIn the third test case, you have to post the only blog, and  $ Q $  will become  $ [1,6] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n3\n5 1 2 3 4 6\n3 2 5 1\n4 1 9 2 3\n2\n2 1 6\n1 6\n1\n3 6 1 1\n5\n4 2 3 3 4\n5 1 2 4 3 1\n2 4 1\n3 3 3 1\n5 4 3 2 2 2\n5\n4 2 3 1 4\n5 2 5 5 6 5\n5 3 4 7 5 5\n8 3 6 4 3 1 1 5 4\n2 1 1","1 5 2 3 9 6 4\n6 1\n1 6\n1 3 2 4\n1 4 3 2 5 6 7"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2205C","link":"https:\/\/codeforces.com\/problemset\/problem\/2205\/C"},"translation":null},"translations":{"en":{"name":"Simons and Posting Blogs","background":null,"description":"This life is like a TV show; we\u0027re swept along as the plotlines go.\n\n\u2014 SHUN, [TRAP](https:\/\/open.spotify.com\/track\/4lfS48CaivAm4QaimqbAPv)\n\n\n\nThere are  $ n $  blogs. The  $ i $ -th blog mentioned  $ l_i $  users in order as an array  $ a_i=[a_{i,1},a_{i,2},\\ldots,a_{i,l_i}] $ .\n\nYou are going to post all  $ n $  blogs. Let us maintain a sequence  $ Q $  that describes the list of users you have recently mentioned. You need to perform the following operation exactly  $ n $  times:\n\n- Choose an unposted blog  $ i $  ( $ 1\\le i\\le n $ ), then post it. This will cause the following operations for each  $ 1\\le j\\le l_i $  in order: \n    - If  $ a_{i,j} $  already exists in  $ Q $ , then move  $ a_{i,j} $  to the beginning of  $ Q $ .\n    - Otherwise, insert  $ a_{i,j} $  at the beginning of  $ Q $ .\n\nFind the lexicographically smallest $ ^{\\text{\u2217}} $   $ Q $  after all  $ n $  operations.\n\n $ ^{\\text{\u2217}} $ An array  $ x $  is lexicographically smaller than an array  $ y $  if and only if one of the following holds:\n\n- $ x $  is a prefix of  $ y $ , but  $ x \\ne y $ ; or\n- in the first position where  $ x $  and  $ y $  differ, the array  $ x $  has a smaller element than the corresponding element in  $ y $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 1000 $ ). The description of the test cases follows.\n\nThe first line contains a single integer  $ n $  ( $ 1\\le n\\le 3000 $ ) \u2014 the number of blogs.\n\nThen  $ n $  lines follow, the  $ i $ -th line starting with an integer  $ l_i $  ( $ 1\\le l_i\\le 3000 $ ), describing the number of users mentioned in the  $ i $ -th blog, which is followed by  $ l_i $  integers  $ a_{i,1},a_{i,2},\\ldots,a_{i,l_i} $  ( $ 1\\le a_{i,j}\\le 10^6 $ ) \u2014 the list of users mentioned in the  $ i $ -th blog.\n\nIt is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 3000 $ .\n\nDenote  $ \\sum\\limits_{i=1}^n l_i $  as  $ L $ . It is guaranteed that the sum of  $ L $  over all test cases does not exceed  $ 3000 $ .","formatO":"Denote  $ m $  as the number of users mentioned in at least one blog. For each test case, output  $ m $  integers  $ Q_1,Q_2,\\ldots,Q_m $  \u2014 the lexicographically smallest  $ Q $ .","hint":"In the first test case, you can post the blogs as follows:\n\n- Post the first blog, and  $ Q $  will become  $ [6,4,3,2,1] $ .\n- Post the third blog, and  $ Q $  will become  $ [3,2,9,1,6,4] $ .\n- Post the second blog, and  $ Q $  will become  $ [1,5,2,3,9,6,4] $ .\n\nThere is another method to post blogs:\n\n- Post the third blog, and  $ Q $  will become  $ [3,2,9,1] $ .\n- Post the first blog, and  $ Q $  will become  $ [6,4,3,2,1,9] $ .\n- Post the second blog, and  $ Q $  will become  $ [1,5,2,6,4,3,9] $ .\n\nWe can see that  $ [1,5,2,3,9,6,4] $  is lexicographically smaller than the other one. If we do not post the second blog at the end, the first element of the array will not be  $ 1 $ , so  $ [1,5,2,3,9,6,4] $  is the lexicographically smallest array  $ Q $ .\n\nIn the second test case, you can post the blogs as follows:\n\n- Post the first blog, and  $ Q $  will become  $ [6,1] $ .\n- Post the second blog, and  $ Q $  will keep itself  $ [6,1] $ .\n\nIn the third test case, you have to post the only blog, and  $ Q $  will become  $ [1,6] $ .","locale":"en"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2205C Simons and Posting Blogs","type":2,"slug":"CF2205C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328124.196311,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2205C Simons and Posting Blogs","description":"This life is like a TV show; we're swept along as the plotlines go.\n\u2014 SHUN, TRAP\nThere are   n   blogs. The   i  -th blog\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2205C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2205C?lang=en" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2205C Simons and Posting Blogs" />
+    <meta property="og:description" content="This life is like a TV show; we&#039;re swept along as the plotlines go.
+— SHUN, TRAP
+There are   n   blogs. The   i  -th blog…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2205C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="en">
+        <h1>CF2205C Simons and Posting Blogs</h1>
+
+        
+        <section>
+            <h2>Description</h2>
+            <div>
+                                    This life is like a TV show; we're swept along as the plotlines go.
+
+— SHUN, [TRAP](https://open.spotify.com/track/4lfS48CaivAm4QaimqbAPv)
+
+
+
+There are  $ n $  blogs. The  $ i $ -th blog mentioned  $ l_i $  users in order as an array  $ a_i=[a_{i,1},a_{i,2},\ldots,a_{i,l_i}] $ .
+
+You are going to post all  $ n $  blogs. Let us maintain a sequence  $ Q $  that describes the list of users you have recently mentioned. You need to perform the following operation exactly  $ n $  times:
+
+- Choose an unposted blog  $ i $  ( $ 1\le i\le n $ ), then post it. This will cause the following operations for each  $ 1\le j\le l_i $  in order: 
+    - If  $ a_{i,j} $  already exists in  $ Q $ , then move  $ a_{i,j} $  to the beginning of  $ Q $ .
+    - Otherwise, insert  $ a_{i,j} $  at the beginning of  $ Q $ .
+
+Find the lexicographically smallest $ ^{\text{∗}} $   $ Q $  after all  $ n $  operations.
+
+ $ ^{\text{∗}} $ An array  $ x $  is lexicographically smaller than an array  $ y $  if and only if one of the following holds:
+
+- $ x $  is a prefix of  $ y $ , but  $ x \ne y $ ; or
+- in the first position where  $ x $  and  $ y $  differ, the array  $ x $  has a smaller element than the corresponding element in  $ y $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Input Format</h2>
+            <div>
+                                    Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \le t \le 1000 $ ). The description of the test cases follows.
+
+The first line contains a single integer  $ n $  ( $ 1\le n\le 3000 $ ) — the number of blogs.
+
+Then  $ n $  lines follow, the  $ i $ -th line starting with an integer  $ l_i $  ( $ 1\le l_i\le 3000 $ ), describing the number of users mentioned in the  $ i $ -th blog, which is followed by  $ l_i $  integers  $ a_{i,1},a_{i,2},\ldots,a_{i,l_i} $  ( $ 1\le a_{i,j}\le 10^6 $ ) — the list of users mentioned in the  $ i $ -th blog.
+
+It is guaranteed that the sum of  $ n $  over all test cases does not exceed  $ 3000 $ .
+
+Denote  $ \sum\limits_{i=1}^n l_i $  as  $ L $ . It is guaranteed that the sum of  $ L $  over all test cases does not exceed  $ 3000 $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Output Format</h2>
+            <div>
+                                    Denote  $ m $  as the number of users mentioned in at least one blog. For each test case, output  $ m $  integers  $ Q_1,Q_2,\ldots,Q_m $  — the lexicographically smallest  $ Q $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>Explanation/Hint</h2>
+            <div>
+                In the first test case, you can post the blogs as follows:
+
+- Post the first blog, and  $ Q $  will become  $ [6,4,3,2,1] $ .
+- Post the third blog, and  $ Q $  will become  $ [3,2,9,1,6,4] $ .
+- Post the second blog, and  $ Q $  will become  $ [1,5,2,3,9,6,4] $ .
+
+There is another method to post blogs:
+
+- Post the third blog, and  $ Q $  will become  $ [3,2,9,1] $ .
+- Post the first blog, and  $ Q $  will become  $ [6,4,3,2,1,9] $ .
+- Post the second blog, and  $ Q $  will become  $ [1,5,2,6,4,3,9] $ .
+
+We can see that  $ [1,5,2,3,9,6,4] $  is lexicographically smaller than the other one. If we do not post the second blog at the end, the first element of the array will not be  $ 1 $ , so  $ [1,5,2,3,9,6,4] $  is the lexicographically smallest array  $ Q $ .
+
+In the second test case, you can post the blogs as follows:
+
+- Post the first blog, and  $ Q $  will become  $ [6,1] $ .
+- Post the second blog, and  $ Q $  will keep itself  $ [6,1] $ .
+
+In the third test case, you have to post the only blog, and  $ Q $  will become  $ [1,6] $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

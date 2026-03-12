@@ -1,0 +1,37 @@
+{
+  "id": "CF-251C",
+  "contest_id": 251,
+  "index": "C",
+  "name": "Number Transformation",
+  "rating": 2000,
+  "tags": [
+    "dp",
+    "greedy",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/251/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/251/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/251/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=251C%20Number Transformation%20tutorial",
+  "solved_count": 1115,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P251C",
+  "hydro_meta": {
+    "page_title": "Number Transformation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "number theory",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1760D",
+  "contest_id": 1760,
+  "index": "D",
+  "name": "Challenging Valleys",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 26714,
+  "problem_url": "https://codeforces.com/problemset/problem/1760/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1760/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1760/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1760D%20Challenging%20Valleys%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1760D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Challenging Valleys - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

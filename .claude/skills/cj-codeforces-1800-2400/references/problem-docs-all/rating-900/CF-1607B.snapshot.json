@@ -1,0 +1,27 @@
+{
+  "id": "CF-1607B",
+  "contest_id": 1607,
+  "index": "B",
+  "name": "Odd Grasshopper",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 38105,
+  "problem_url": "https://codeforces.com/problemset/problem/1607/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1607/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1607/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1607B%20Odd%20Grasshopper%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1607B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1607B Odd Grasshopper - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 388,
+    "mirror_attempt": 707,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

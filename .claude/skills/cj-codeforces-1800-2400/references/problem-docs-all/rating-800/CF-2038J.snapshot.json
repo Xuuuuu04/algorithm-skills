@@ -1,0 +1,28 @@
+{
+  "id": "CF-2038J",
+  "contest_id": 2038,
+  "index": "J",
+  "name": "Waiting for...",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 8695,
+  "problem_url": "https://codeforces.com/problemset/problem/2038/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/2038/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2038/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2038J%20Waiting%20for...%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2038J",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2038J Waiting for... - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-258C",
+  "contest_id": 258,
+  "index": "C",
+  "name": "Little Elephant and LCM",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 1928,
+  "problem_url": "https://codeforces.com/problemset/problem/258/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/258/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/258/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=258C%20Little%20Elephant%20and%20LCM%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P258C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Little Elephant and LCM - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

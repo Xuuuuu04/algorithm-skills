@@ -1,0 +1,38 @@
+{
+  "id": "CF-696C",
+  "contest_id": 696,
+  "index": "C",
+  "name": "PLEASE",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "implementation",
+    "math",
+    "matrices"
+  ],
+  "solved_count": 2202,
+  "problem_url": "https://codeforces.com/problemset/problem/696/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/696/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/696/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=696C%20PLEASE%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P696C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "PLEASE - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "implementation",
+      "math",
+      "matrices",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

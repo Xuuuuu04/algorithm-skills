@@ -1,0 +1,30 @@
+{
+  "id": "CF-750H",
+  "contest_id": 750,
+  "index": "H",
+  "name": "New Year and Snowy Grid",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "interactive"
+  ],
+  "solved_count": 238,
+  "problem_url": "https://codeforces.com/problemset/problem/750/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/750/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/750/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=750H%20New%20Year%20and%20Snowy%20Grid%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/750/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 750H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "9 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

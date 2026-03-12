@@ -1,0 +1,32 @@
+{
+  "id": "CF-2101C",
+  "contest_id": 2101,
+  "index": "C",
+  "name": "23 Kingdom",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "greedy",
+    "ternary search",
+    "two pointers"
+  ],
+  "solved_count": 2186,
+  "problem_url": "https://codeforces.com/problemset/problem/2101/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2101/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2101/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2101C%2023%20Kingdom%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2101C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2101C 23 Kingdom - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

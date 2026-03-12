@@ -1,0 +1,29 @@
+{
+  "id": "CF-1670B",
+  "contest_id": 1670,
+  "index": "B",
+  "name": "Dorms War",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 13370,
+  "problem_url": "https://codeforces.com/problemset/problem/1670/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1670/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1670/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1670B%20Dorms%20War%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1670/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1670B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

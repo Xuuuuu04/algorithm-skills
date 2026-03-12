@@ -1,0 +1,34 @@
+{
+  "id": "CF-298B",
+  "contest_id": 298,
+  "index": "B",
+  "name": "Sail",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 15685,
+  "problem_url": "https://codeforces.com/problemset/problem/298/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/298/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/298/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=298B%20Sail%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P298B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sail - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

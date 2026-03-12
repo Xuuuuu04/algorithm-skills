@@ -1,0 +1,32 @@
+{
+  "id": "CF-1710C",
+  "contest_id": 1710,
+  "index": "C",
+  "name": "XOR Triangle",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 1597,
+  "problem_url": "https://codeforces.com/problemset/problem/1710/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1710/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1710/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1710C%20XOR%20Triangle%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1710C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1710C XOR Triangle - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 353,
+    "mirror_attempt": 643,
+    "time_limit": "4000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

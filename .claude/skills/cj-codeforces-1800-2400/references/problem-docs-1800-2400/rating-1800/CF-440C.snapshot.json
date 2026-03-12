@@ -1,0 +1,33 @@
+{
+  "id": "CF-440C",
+  "contest_id": 440,
+  "index": "C",
+  "name": "One-Based Arithmetic",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "divide and conquer"
+  ],
+  "url": "https://codeforces.com/problemset/problem/440/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/440/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/440/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=440C%20One-Based Arithmetic%20tutorial",
+  "solved_count": 1038,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P440C",
+  "hydro_meta": {
+    "page_title": "One-Based Arithmetic - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dfs and similar",
+      "divide and conquer",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

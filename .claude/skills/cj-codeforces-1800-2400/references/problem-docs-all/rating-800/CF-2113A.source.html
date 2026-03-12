@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2113A Shashliks - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2113A","type":"CF","title":"Shashliks","difficulty":2,"tags":[5,7],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Shashliks","background":null,"description":"\u4f60\u662f\u4e00\u5bb6\u77e5\u540d\u70e4\u8089\u4e32\u9910\u5385\u7684\u8001\u677f\uff0c\u70e4\u67b6\u662f\u4f60\u53a8\u623f\u7684\u6838\u5fc3\u3002\u7136\u800c\uff0c\u8fd9\u4e2a\u70e4\u67b6\u6709\u4e00\u4e2a\u7279\u70b9\uff1a\u6bcf\u70e4\u5b8c\u4e00\u4e32\u8089\u4e32\uff0c\u6e29\u5ea6\u5c31\u4f1a\u4e0b\u964d\u3002\n\n\u4f60\u9700\u8981\u5c3d\u53ef\u80fd\u591a\u5730\u70e4\u51fa\u8089\u4e32\uff0c\u6bcf\u79cd\u8089\u4e32\u7684\u4efd\u6570\u90fd\u662f\u65e0\u9650\u7684\uff0c\u6709\u4e24\u79cd\u7c7b\u578b\u53ef\u4f9b\u9009\u62e9\uff1a\n\n- \u7b2c\u4e00\u79cd\u7c7b\u578b\u5728\u5f00\u59cb\u70f9\u996a\u65f6\u9700\u8981\u70e4\u67b6\u6e29\u5ea6\u81f3\u5c11\u4e3a $a$ \u5ea6\uff0c\u70f9\u996a\u540e\u70e4\u67b6\u6e29\u5ea6\u4e0b\u964d $x$ \u5ea6\u3002\n- \u7b2c\u4e8c\u79cd\u7c7b\u578b\u5728\u5f00\u59cb\u70f9\u996a\u65f6\u9700\u8981\u70e4\u67b6\u6e29\u5ea6\u81f3\u5c11\u4e3a $b$ \u5ea6\uff0c\u70f9\u996a\u540e\u70e4\u67b6\u6e29\u5ea6\u4e0b\u964d $y$ \u5ea6\u3002\n\n\u521d\u59cb\u65f6\uff0c\u70e4\u67b6\u7684\u6e29\u5ea6\u4e3a $k$ \u5ea6\u3002\u8bf7\u4f60\u8ba1\u7b97\u6700\u591a\u53ef\u4ee5\u70e4\u51fa\u591a\u5c11\u4efd\u8089\u4e32\u3002\n\n\u6ce8\u610f\uff0c\u70e4\u67b6\u7684\u6e29\u5ea6\u53ef\u4ee5\u4e3a\u8d1f\u6570\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u4e00\u884c\u5305\u542b\u4e94\u4e2a\u6574\u6570 $k$\u3001$a$\u3001$b$\u3001$x$ \u548c $y$\uff08$1 \\le k, a, b, x, y \\le 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a\u70e4\u67b6\u7684\u521d\u59cb\u6e29\u5ea6\u3001\u7b2c\u4e00\u79cd\u548c\u7b2c\u4e8c\u79cd\u8089\u4e32\u6240\u9700\u7684\u6e29\u5ea6\uff0c\u4ee5\u53ca\u70f9\u996a\u7b2c\u4e00\u79cd\u548c\u7b2c\u4e8c\u79cd\u8089\u4e32\u540e\u6e29\u5ea6\u7684\u4e0b\u964d\u503c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u591a\u53ef\u4ee5\u70e4\u51fa\u7684\u8089\u4e32\u603b\u4efd\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u4f18\u7b56\u7565\u662f\u5148\u70e4 $7$ \u4efd\u7b2c\u4e8c\u79cd\u8089\u4e32\uff0c\u6b64\u65f6\u70e4\u67b6\u6e29\u5ea6\u4e3a $3$ \u5ea6\uff0c\u7136\u540e\u8fd8\u80fd\u518d\u70e4\u4e00\u4efd\u7b2c\u4e00\u79cd\u8089\u4e32\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u70e4\u67b6\u6e29\u5ea6\u592a\u4f4e\uff0c\u65e0\u6cd5\u70e4\u5236\u4efb\u4f55\u4e00\u79cd\u8089\u4e32\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u4f18\u7b56\u7565\u662f\u5148\u70e4 $8$ \u4efd\u7b2c\u4e00\u79cd\u8089\u4e32\uff0c\u7136\u540e\u8fd8\u80fd\u518d\u70e4 $2$ \u4efd\u7b2c\u4e8c\u79cd\u8089\u4e32\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Shashliks","background":"","description":"You are the owner of a popular shashlik restaurant, and your grill is the heart of your kitchen. However, the grill has a peculiarity: after cooking each shashlik, its temperature drops.\n\nYou need to cook as many portions of shashlik as possible, and you have an unlimited number of portions of two types available for cooking:\n\n- The first type requires a temperature of at least $ a $ degrees at the start of cooking, and after cooking, the grill\u0027s temperature decreases by $ x $ degrees.\n- The second type requires a temperature of at least $ b $ degrees at the start of cooking, and after cooking, the grill\u0027s temperature decreases by $ y $ degrees.\n\nInitially, the grill\u0027s temperature is $ k $ degrees. Determine the maximum total number of portions of shashlik that can be cooked.\n\nNote that the grill\u0027s temperature can be negative.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe only line of each test case contains five integers $ k $ , $ a $ , $ b $ , $ x $ , and $ y $ ( $ 1 \\le k, a, b, x, y \\le 10^9 $ ) \u2014 the initial temperature of the grill, the required temperature for cooking the first and second types of shashlik, respectively, as well as the temperature drop after cooking the first and second types of shashlik, respectively.","formatO":"For each test case, output a single integer \u2014 the maximum number of portions of shashlik that you can cook.","hint":"In the first test case, it is advantageous to cook $ 7 $ portions of the second type of shashlik; after that, the grill\u0027s temperature will be $ 3 $ degrees, and we can cook one more portion of the first type of shashlik.\n\nIn the second test case, we cannot cook either type of shashlik because the grill is too cold.\n\nIn the fourth test case, it is advantageous to cook $ 8 $ portions of the first type of shashlik; after that, it will be possible to cook another $ 2 $ portions of the second type of shashlik.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n10 3 4 2 1\n1 10 10 1 1\n100 17 5 2 3\n28 14 5 2 4\n277 5 14 1 3","8\n0\n46\n10\n273"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2113A","link":"https:\/\/codeforces.com\/problemset\/problem\/2113\/A"},"translation":""},"translations":{"en":{"name":"Shashliks","background":"","description":"You are the owner of a popular shashlik restaurant, and your grill is the heart of your kitchen. However, the grill has a peculiarity: after cooking each shashlik, its temperature drops.\n\nYou need to cook as many portions of shashlik as possible, and you have an unlimited number of portions of two types available for cooking:\n\n- The first type requires a temperature of at least $ a $ degrees at the start of cooking, and after cooking, the grill\u0027s temperature decreases by $ x $ degrees.\n- The second type requires a temperature of at least $ b $ degrees at the start of cooking, and after cooking, the grill\u0027s temperature decreases by $ y $ degrees.\n\nInitially, the grill\u0027s temperature is $ k $ degrees. Determine the maximum total number of portions of shashlik that can be cooked.\n\nNote that the grill\u0027s temperature can be negative.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe only line of each test case contains five integers $ k $ , $ a $ , $ b $ , $ x $ , and $ y $ ( $ 1 \\le k, a, b, x, y \\le 10^9 $ ) \u2014 the initial temperature of the grill, the required temperature for cooking the first and second types of shashlik, respectively, as well as the temperature drop after cooking the first and second types of shashlik, respectively.","formatO":"For each test case, output a single integer \u2014 the maximum number of portions of shashlik that you can cook.","hint":"In the first test case, it is advantageous to cook $ 7 $ portions of the second type of shashlik; after that, the grill\u0027s temperature will be $ 3 $ degrees, and we can cook one more portion of the first type of shashlik.\n\nIn the second test case, we cannot cook either type of shashlik because the grill is too cold.\n\nIn the fourth test case, it is advantageous to cook $ 8 $ portions of the first type of shashlik; after that, it will be possible to cook another $ 2 $ portions of the second type of shashlik.","locale":"en"},"zh-CN":{"name":"Shashliks","background":null,"description":"\u4f60\u662f\u4e00\u5bb6\u77e5\u540d\u70e4\u8089\u4e32\u9910\u5385\u7684\u8001\u677f\uff0c\u70e4\u67b6\u662f\u4f60\u53a8\u623f\u7684\u6838\u5fc3\u3002\u7136\u800c\uff0c\u8fd9\u4e2a\u70e4\u67b6\u6709\u4e00\u4e2a\u7279\u70b9\uff1a\u6bcf\u70e4\u5b8c\u4e00\u4e32\u8089\u4e32\uff0c\u6e29\u5ea6\u5c31\u4f1a\u4e0b\u964d\u3002\n\n\u4f60\u9700\u8981\u5c3d\u53ef\u80fd\u591a\u5730\u70e4\u51fa\u8089\u4e32\uff0c\u6bcf\u79cd\u8089\u4e32\u7684\u4efd\u6570\u90fd\u662f\u65e0\u9650\u7684\uff0c\u6709\u4e24\u79cd\u7c7b\u578b\u53ef\u4f9b\u9009\u62e9\uff1a\n\n- \u7b2c\u4e00\u79cd\u7c7b\u578b\u5728\u5f00\u59cb\u70f9\u996a\u65f6\u9700\u8981\u70e4\u67b6\u6e29\u5ea6\u81f3\u5c11\u4e3a $a$ \u5ea6\uff0c\u70f9\u996a\u540e\u70e4\u67b6\u6e29\u5ea6\u4e0b\u964d $x$ \u5ea6\u3002\n- \u7b2c\u4e8c\u79cd\u7c7b\u578b\u5728\u5f00\u59cb\u70f9\u996a\u65f6\u9700\u8981\u70e4\u67b6\u6e29\u5ea6\u81f3\u5c11\u4e3a $b$ \u5ea6\uff0c\u70f9\u996a\u540e\u70e4\u67b6\u6e29\u5ea6\u4e0b\u964d $y$ \u5ea6\u3002\n\n\u521d\u59cb\u65f6\uff0c\u70e4\u67b6\u7684\u6e29\u5ea6\u4e3a $k$ \u5ea6\u3002\u8bf7\u4f60\u8ba1\u7b97\u6700\u591a\u53ef\u4ee5\u70e4\u51fa\u591a\u5c11\u4efd\u8089\u4e32\u3002\n\n\u6ce8\u610f\uff0c\u70e4\u67b6\u7684\u6e29\u5ea6\u53ef\u4ee5\u4e3a\u8d1f\u6570\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u4e00\u884c\u5305\u542b\u4e94\u4e2a\u6574\u6570 $k$\u3001$a$\u3001$b$\u3001$x$ \u548c $y$\uff08$1 \\le k, a, b, x, y \\le 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a\u70e4\u67b6\u7684\u521d\u59cb\u6e29\u5ea6\u3001\u7b2c\u4e00\u79cd\u548c\u7b2c\u4e8c\u79cd\u8089\u4e32\u6240\u9700\u7684\u6e29\u5ea6\uff0c\u4ee5\u53ca\u70f9\u996a\u7b2c\u4e00\u79cd\u548c\u7b2c\u4e8c\u79cd\u8089\u4e32\u540e\u6e29\u5ea6\u7684\u4e0b\u964d\u503c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u6700\u591a\u53ef\u4ee5\u70e4\u51fa\u7684\u8089\u4e32\u603b\u4efd\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u4f18\u7b56\u7565\u662f\u5148\u70e4 $7$ \u4efd\u7b2c\u4e8c\u79cd\u8089\u4e32\uff0c\u6b64\u65f6\u70e4\u67b6\u6e29\u5ea6\u4e3a $3$ \u5ea6\uff0c\u7136\u540e\u8fd8\u80fd\u518d\u70e4\u4e00\u4efd\u7b2c\u4e00\u79cd\u8089\u4e32\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u70e4\u67b6\u6e29\u5ea6\u592a\u4f4e\uff0c\u65e0\u6cd5\u70e4\u5236\u4efb\u4f55\u4e00\u79cd\u8089\u4e32\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u4f18\u7b56\u7565\u662f\u5148\u70e4 $8$ \u4efd\u7b2c\u4e00\u79cd\u8089\u4e32\uff0c\u7136\u540e\u8fd8\u80fd\u518d\u70e4 $2$ \u4efd\u7b2c\u4e8c\u79cd\u8089\u4e32\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2113A Shashliks","type":2,"slug":"CF2113A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.797957,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2113A Shashliks","description":"\u4f60\u662f\u4e00\u5bb6\u77e5\u540d\u70e4\u8089\u4e32\u9910\u5385\u7684\u8001\u677f\uff0c\u70e4\u67b6\u662f\u4f60\u53a8\u623f\u7684\u6838\u5fc3\u3002\u7136\u800c\uff0c\u8fd9\u4e2a\u70e4\u67b6\u6709\u4e00\u4e2a\u7279\u70b9\uff1a\u6bcf\u70e4\u5b8c\u4e00\u4e32\u8089\u4e32\uff0c\u6e29\u5ea6\u5c31\u4f1a\u4e0b\u964d\u3002\n\u4f60\u9700\u8981\u5c3d\u53ef\u80fd\u591a\u5730\u70e4\u51fa\u8089\u4e32\uff0c\u6bcf\u79cd\u8089\u4e32\u7684\u4efd\u6570\u90fd\u662f\u65e0\u9650\u7684\uff0c\u6709\u4e24\u79cd\u7c7b\u578b\u53ef\u4f9b\u9009\u62e9\uff1a\n\n\u7b2c\u4e00\u79cd\u7c7b\u578b\u5728\u5f00\u59cb\u70f9\u996a\u65f6\u9700\u8981\u70e4\u67b6\u6e29\u5ea6\u81f3\u5c11\u4e3a a \u5ea6\uff0c\u70f9\u996a\u540e\u70e4\u67b6\u6e29\u5ea6\u4e0b\u964d\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2113A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2113A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2113A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2113A Shashliks" />
+    <meta property="og:description" content="你是一家知名烤肉串餐厅的老板，烤架是你厨房的核心。然而，这个烤架有一个特点：每烤完一串肉串，温度就会下降。
+你需要尽可能多地烤出肉串，每种肉串的份数都是无限的，有两种类型可供选择：
+
+第一种类型在开始烹饪时需要烤架温度至少为 a 度，烹饪后烤架温度下降…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2113A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2113A Shashliks</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你是一家知名烤肉串餐厅的老板，烤架是你厨房的核心。然而，这个烤架有一个特点：每烤完一串肉串，温度就会下降。
+
+你需要尽可能多地烤出肉串，每种肉串的份数都是无限的，有两种类型可供选择：
+
+- 第一种类型在开始烹饪时需要烤架温度至少为 $a$ 度，烹饪后烤架温度下降 $x$ 度。
+- 第二种类型在开始烹饪时需要烤架温度至少为 $b$ 度，烹饪后烤架温度下降 $y$ 度。
+
+初始时，烤架的温度为 $k$ 度。请你计算最多可以烤出多少份肉串。
+
+注意，烤架的温度可以为负数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每组测试数据包含多组测试用例。第一行包含一个整数 $t$（$1 \le t \le 10^4$），表示测试用例的数量。
+
+每组测试用例的一行包含五个整数 $k$、$a$、$b$、$x$ 和 $y$（$1 \le k, a, b, x, y \le 10^9$），分别表示烤架的初始温度、第一种和第二种肉串所需的温度，以及烹饪第一种和第二种肉串后温度的下降值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试用例，输出一个整数，表示最多可以烤出的肉串总份数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，最优策略是先烤 $7$ 份第二种肉串，此时烤架温度为 $3$ 度，然后还能再烤一份第一种肉串。
+
+在第二个测试用例中，烤架温度太低，无法烤制任何一种肉串。
+
+在第四个测试用例中，最优策略是先烤 $8$ 份第一种肉串，然后还能再烤 $2$ 份第二种肉串。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

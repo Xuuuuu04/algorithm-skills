@@ -1,0 +1,36 @@
+{
+  "id": "CF-819B",
+  "contest_id": 819,
+  "index": "B",
+  "name": "Mister B and PR Shifts",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/819/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/819/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/819/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=819B%20Mister B and PR Shifts%20tutorial",
+  "solved_count": 1783,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P819B",
+  "hydro_meta": {
+    "page_title": "Mister B and PR Shifts - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

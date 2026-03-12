@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773314064:5HOFWTgz6RNvnp8aNqzGs52T8Hlztf0qeglgVsZsVfU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '3164600a60a16357'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031118'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2066C Bitwise Slides - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2066C","type":"CF","title":"Bitwise Slides","difficulty":5,"tags":[3,314],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Bitwise Slides","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6570\u7ec4 $a_1, a_2, \\ldots, a_n$\uff0c\u4ee5\u53ca\u4e09\u4e2a\u521d\u59cb\u503c\u4e3a\u96f6\u7684\u53d8\u91cf $P, Q, R$\u3002\n\n\u4f60\u9700\u8981\u6309\u4ece $1$ \u5230 $n$ \u7684\u987a\u5e8f\u4f9d\u6b21\u5904\u7406\u6240\u6709\u6570\u5b57 $a_1, a_2, \\ldots, a_n$\u3002\u5f53\u5904\u7406\u5f53\u524d\u5143\u7d20 $a_i$ \u65f6\uff0c\u4f60\u5fc5\u987b\u4ece\u4ee5\u4e0b\u4e09\u4e2a\u64cd\u4f5c\u4e2d\u4efb\u9009\u4e00\u4e2a\u6267\u884c\uff1a\n1. $P := P \\oplus a_i$\n2. $Q := Q \\oplus a_i$\n3. $R := R \\oplus a_i$\n\n\u5176\u4e2d $\\oplus$ \u8868\u793a\u6309\u4f4d\u5f02\u6216\u64cd\u4f5c\u3002\n\n\u6267\u884c\u64cd\u4f5c\u65f6\u5fc5\u987b\u9075\u5b88\u6838\u5fc3\u89c4\u5219\uff1a\u6bcf\u6b21\u64cd\u4f5c\u540e\uff0c\u4e09\u4e2a\u6570 $P, Q, R$ \u5fc5\u987b\u6ee1\u8db3\u5176\u4e2d\u81f3\u5c11\u5b58\u5728\u4e24\u4e2a\u6570\u76f8\u7b49\u3002\n\n\u6240\u6709 $n$ \u4e2a\u64cd\u4f5c\u5171\u6709 $3^n$ \u79cd\u53ef\u80fd\u7684\u6267\u884c\u65b9\u5f0f\u3002\u6c42\u5176\u4e2d\u4e0d\u8fdd\u53cd\u6838\u5fc3\u89c4\u5219\u7684\u65b9\u5f0f\u6570\u91cf\u3002\u7531\u4e8e\u7b54\u6848\u53ef\u80fd\u5f88\u5927\uff0c\u8bf7\u8f93\u51fa\u5176\u5bf9 $10^9 + 7$ \u53d6\u6a21\u7684\u7ed3\u679c\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u8f93\u5165\u6d4b\u8bd5\u7528\u4f8b\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\u3002\u968f\u540e\u4e3a\u5404\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 2 \\cdot 10^5$\uff09\u2014\u2014\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\le a_i \\le 10^9$\uff09\u2014\u2014\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e0d\u8fdd\u53cd\u6838\u5fc3\u89c4\u5219\u7684\u64cd\u4f5c\u65b9\u5f0f\u6570\u91cf\u5bf9 $10^9 + 7$ \u53d6\u6a21\u540e\u7684\u7ed3\u679c\u3002","hint":"\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b58\u5728 3 \u79cd\u5408\u6cd5\u64cd\u4f5c\u5e8f\u5217\uff1aPPP\u3001QQQ\u3001RRR\u3002\n\n\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b58\u5728 9 \u79cd\u5408\u6cd5\u64cd\u4f5c\u5e8f\u5217\uff1aPPPP\u3001PPPQ\u3001PPPR\u3001QQQP\u3001QQQQ\u3001QQQR\u3001RRRP\u3001RRRQ\u3001RRRR\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"},"content":{"name":"Bitwise Slides","background":"","description":"You are given an array $ a_1, a_2, \\ldots, a_n $ . Also, you are given three variables $ P,Q,R $ , initially equal to zero.\n\nYou need to process all the numbers $ a_1, a_2, \\ldots, a_n $ , in the order from $ 1 $ to $ n $ . When processing the next $ a_i $ , you must perform exactly one of the three actions of your choice:\n\n1. $ P := P \\oplus a_i $\n2. $ Q := Q \\oplus a_i $\n3. $ R := R \\oplus a_i $\n\n $ \\oplus $ denotes the \u003Ca\u003Ebitwise XOR operation\u003C\/a\u003E.\n\nWhen performing actions, you must follow the main rule: it is necessary that after each action, all three numbers $ P,Q,R $ are not pairwise distinct.\n\nThere are a total of $ 3^n $ ways to perform all $ n $ actions. How many of them do not violate the main rule? Since the answer can be quite large, find it modulo $ 10^9 + 7 $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains an integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the length of the array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^9 $ ) \u2014 the elements of the array $ a $ .\n\nIt is guaranteed that the sum of the values of $ n $ for all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output the number of ways to perform all $ n $ actions without violating the main rule, modulo $ 10^9 + 7 $ .","hint":"In the first test case, there are 3 valid sequences of operations: PPP, QQQ, RRR.\n\nIn the second test case, there are 9 valid sequences of operations: PPPP, PPPQ, PPPR, QQQP, QQQQ, QQQR, RRRP, RRRQ, RRRR.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n3\n1 7 9\n4\n179 1 1 179\n5\n1 2 3 3 2\n12\n8 2 5 3 9 1 8 12 9 9 9 4\n1\n1000000000","3\n9\n39\n123\n3"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2066C","link":"https:\/\/codeforces.com\/problemset\/problem\/2066\/C"},"translation":""},"translations":{"en":{"name":"Bitwise Slides","background":"","description":"You are given an array $ a_1, a_2, \\ldots, a_n $ . Also, you are given three variables $ P,Q,R $ , initially equal to zero.\n\nYou need to process all the numbers $ a_1, a_2, \\ldots, a_n $ , in the order from $ 1 $ to $ n $ . When processing the next $ a_i $ , you must perform exactly one of the three actions of your choice:\n\n1. $ P := P \\oplus a_i $\n2. $ Q := Q \\oplus a_i $\n3. $ R := R \\oplus a_i $\n\n $ \\oplus $ denotes the \u003Ca\u003Ebitwise XOR operation\u003C\/a\u003E.\n\nWhen performing actions, you must follow the main rule: it is necessary that after each action, all three numbers $ P,Q,R $ are not pairwise distinct.\n\nThere are a total of $ 3^n $ ways to perform all $ n $ actions. How many of them do not violate the main rule? Since the answer can be quite large, find it modulo $ 10^9 + 7 $ .","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains an integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the length of the array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\le a_i \\le 10^9 $ ) \u2014 the elements of the array $ a $ .\n\nIt is guaranteed that the sum of the values of $ n $ for all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output the number of ways to perform all $ n $ actions without violating the main rule, modulo $ 10^9 + 7 $ .","hint":"In the first test case, there are 3 valid sequences of operations: PPP, QQQ, RRR.\n\nIn the second test case, there are 9 valid sequences of operations: PPPP, PPPQ, PPPR, QQQP, QQQQ, QQQR, RRRP, RRRQ, RRRR.","locale":"en"},"zh-CN":{"name":"Bitwise Slides","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6570\u7ec4 $a_1, a_2, \\ldots, a_n$\uff0c\u4ee5\u53ca\u4e09\u4e2a\u521d\u59cb\u503c\u4e3a\u96f6\u7684\u53d8\u91cf $P, Q, R$\u3002\n\n\u4f60\u9700\u8981\u6309\u4ece $1$ \u5230 $n$ \u7684\u987a\u5e8f\u4f9d\u6b21\u5904\u7406\u6240\u6709\u6570\u5b57 $a_1, a_2, \\ldots, a_n$\u3002\u5f53\u5904\u7406\u5f53\u524d\u5143\u7d20 $a_i$ \u65f6\uff0c\u4f60\u5fc5\u987b\u4ece\u4ee5\u4e0b\u4e09\u4e2a\u64cd\u4f5c\u4e2d\u4efb\u9009\u4e00\u4e2a\u6267\u884c\uff1a\n1. $P := P \\oplus a_i$\n2. $Q := Q \\oplus a_i$\n3. $R := R \\oplus a_i$\n\n\u5176\u4e2d $\\oplus$ \u8868\u793a\u6309\u4f4d\u5f02\u6216\u64cd\u4f5c\u3002\n\n\u6267\u884c\u64cd\u4f5c\u65f6\u5fc5\u987b\u9075\u5b88\u6838\u5fc3\u89c4\u5219\uff1a\u6bcf\u6b21\u64cd\u4f5c\u540e\uff0c\u4e09\u4e2a\u6570 $P, Q, R$ \u5fc5\u987b\u6ee1\u8db3\u5176\u4e2d\u81f3\u5c11\u5b58\u5728\u4e24\u4e2a\u6570\u76f8\u7b49\u3002\n\n\u6240\u6709 $n$ \u4e2a\u64cd\u4f5c\u5171\u6709 $3^n$ \u79cd\u53ef\u80fd\u7684\u6267\u884c\u65b9\u5f0f\u3002\u6c42\u5176\u4e2d\u4e0d\u8fdd\u53cd\u6838\u5fc3\u89c4\u5219\u7684\u65b9\u5f0f\u6570\u91cf\u3002\u7531\u4e8e\u7b54\u6848\u53ef\u80fd\u5f88\u5927\uff0c\u8bf7\u8f93\u51fa\u5176\u5bf9 $10^9 + 7$ \u53d6\u6a21\u7684\u7ed3\u679c\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u8f93\u5165\u6d4b\u8bd5\u7528\u4f8b\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\u3002\u968f\u540e\u4e3a\u5404\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 2 \\cdot 10^5$\uff09\u2014\u2014\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\le a_i \\le 10^9$\uff09\u2014\u2014\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e0d\u8fdd\u53cd\u6838\u5fc3\u89c4\u5219\u7684\u64cd\u4f5c\u65b9\u5f0f\u6570\u91cf\u5bf9 $10^9 + 7$ \u53d6\u6a21\u540e\u7684\u7ed3\u679c\u3002","hint":"\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b58\u5728 3 \u79cd\u5408\u6cd5\u64cd\u4f5c\u5e8f\u5217\uff1aPPP\u3001QQQ\u3001RRR\u3002\n\n\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b58\u5728 9 \u79cd\u5408\u6cd5\u64cd\u4f5c\u5e8f\u5217\uff1aPPPP\u3001PPPQ\u3001PPPR\u3001QQQP\u3001QQQQ\u3001QQQR\u3001RRRP\u3001RRRQ\u3001RRRR\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2066C Bitwise Slides","type":2,"slug":"CF2066C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773227663.993593,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2066C Bitwise Slides","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6570\u7ec4 a_1, a_2, \\ldots, a_n\uff0c\u4ee5\u53ca\u4e09\u4e2a\u521d\u59cb\u503c\u4e3a\u96f6\u7684\u53d8\u91cf P, Q, R\u3002\n\u4f60\u9700\u8981\u6309\u4ece 1 \u5230 n \u7684\u987a\u5e8f\u4f9d\u6b21\u5904\u7406\u6240\u6709\u6570\u5b57 a_1, a_2, \\ldots, a_n\u3002\u5f53\u5904\u7406\u5f53\u524d\u5143\u7d20 a_i \u65f6\uff0c\u4f60\u5fc5\u987b\u4ece\u4ee5\u4e0b\u4e09\u4e2a\u64cd\u4f5c\u4e2d\u4efb\u9009\u4e00\u4e2a\u6267\u884c\uff1a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2066C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2066C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2066C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2066C Bitwise Slides" />
+    <meta property="og:description" content="给定一个数组 a_1, a_2, \ldots, a_n，以及三个初始值为零的变量 P, Q, R。
+你需要按从 1 到 n 的顺序依次处理所有数字 a_1, a_2, \ldots, a_n。当处理当前元素 a_i 时，你必须从以下三个操作中任选一个执行：…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2066C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2066C Bitwise Slides</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个数组 $a_1, a_2, \ldots, a_n$，以及三个初始值为零的变量 $P, Q, R$。
+
+你需要按从 $1$ 到 $n$ 的顺序依次处理所有数字 $a_1, a_2, \ldots, a_n$。当处理当前元素 $a_i$ 时，你必须从以下三个操作中任选一个执行：
+1. $P := P \oplus a_i$
+2. $Q := Q \oplus a_i$
+3. $R := R \oplus a_i$
+
+其中 $\oplus$ 表示按位异或操作。
+
+执行操作时必须遵守核心规则：每次操作后，三个数 $P, Q, R$ 必须满足其中至少存在两个数相等。
+
+所有 $n$ 个操作共有 $3^n$ 种可能的执行方式。求其中不违反核心规则的方式数量。由于答案可能很大，请输出其对 $10^9 + 7$ 取模的结果。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试包含多个测试用例。第一行输入测试用例数 $t$（$1 \le t \le 10^4$）。随后为各测试用例的描述。
+
+每个测试用例的第一行包含一个整数 $n$（$1 \le n \le 2 \cdot 10^5$）——数组 $a$ 的长度。
+
+每个测试用例的第二行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$1 \le a_i \le 10^9$）——数组 $a$ 的元素。
+
+保证所有测试用例的 $n$ 之和不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出不违反核心规则的操作方式数量对 $10^9 + 7$ 取模后的结果。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一个测试用例中，存在 3 种合法操作序列：PPP、QQQ、RRR。
+
+第二个测试用例中，存在 9 种合法操作序列：PPPP、PPPQ、PPPR、QQQP、QQQQ、QQQR、RRRP、RRRQ、RRRR。
+
+翻译由 DeepSeek R1 完成
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

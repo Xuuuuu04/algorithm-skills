@@ -1,0 +1,40 @@
+{
+  "id": "CF-1705D",
+  "contest_id": 1705,
+  "index": "D",
+  "name": "Mark and Lightbulbs",
+  "rating": 1800,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1705/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1705/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1705/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1705D%20Mark and Lightbulbs%20tutorial",
+  "solved_count": 7103,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1705D",
+  "hydro_meta": {
+    "page_title": "Mark and Lightbulbs - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

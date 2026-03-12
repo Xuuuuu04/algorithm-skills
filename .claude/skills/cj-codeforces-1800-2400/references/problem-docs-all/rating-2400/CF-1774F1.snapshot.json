@@ -1,0 +1,32 @@
+{
+  "id": "CF-1774F1",
+  "contest_id": 1774,
+  "index": "F1",
+  "name": "Magician and Pigs (Easy Version)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 1219,
+  "problem_url": "https://codeforces.com/problemset/problem/1774/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1774/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1774/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1774F1%20Magician%20and%20Pigs%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1774F1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Magician and Pigs (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

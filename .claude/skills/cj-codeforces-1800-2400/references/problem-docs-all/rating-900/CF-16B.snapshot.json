@@ -1,0 +1,29 @@
+{
+  "id": "CF-16B",
+  "contest_id": 16,
+  "index": "B",
+  "name": "Burglar and Matches",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 20525,
+  "problem_url": "https://codeforces.com/problemset/problem/16/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/16/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/16/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=16B%20Burglar%20and%20Matches%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/16/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 16B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "0.5 second",
+    "memory_limit": "64 megabytes"
+  }
+}

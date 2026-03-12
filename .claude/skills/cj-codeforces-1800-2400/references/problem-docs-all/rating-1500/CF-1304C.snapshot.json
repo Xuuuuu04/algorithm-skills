@@ -1,0 +1,31 @@
+{
+  "id": "CF-1304C",
+  "contest_id": 1304,
+  "index": "C",
+  "name": "Air Conditioner",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 17646,
+  "problem_url": "https://codeforces.com/problemset/problem/1304/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1304/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1304/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1304C%20Air%20Conditioner%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1304C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1304C Air Conditioner - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1733,
+    "mirror_attempt": 3433,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

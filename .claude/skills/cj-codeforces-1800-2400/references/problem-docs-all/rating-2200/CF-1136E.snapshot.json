@@ -1,0 +1,32 @@
+{
+  "id": "CF-1136E",
+  "contest_id": 1136,
+  "index": "E",
+  "name": "Nastya Hasn't Written a Legend",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "data structures"
+  ],
+  "solved_count": 1171,
+  "problem_url": "https://codeforces.com/problemset/problem/1136/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1136/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1136/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1136E%20Nastya%20Hasn%27t%20Written%20a%20Legend%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1136E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nastya Hasn't Written a Legend - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

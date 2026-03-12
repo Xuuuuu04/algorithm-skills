@@ -1,0 +1,35 @@
+{
+  "id": "CF-1039B",
+  "contest_id": 1039,
+  "index": "B",
+  "name": "Subway Pursuit",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "interactive",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1039/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1039/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1039/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1039B%20Subway Pursuit%20tutorial",
+  "solved_count": 2574,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1039B",
+  "hydro_meta": {
+    "page_title": "Subway Pursuit - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "interactive",
+      "probabilities",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

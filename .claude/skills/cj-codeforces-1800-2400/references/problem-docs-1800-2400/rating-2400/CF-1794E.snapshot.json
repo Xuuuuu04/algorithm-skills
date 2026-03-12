@@ -1,0 +1,42 @@
+{
+  "id": "CF-1794E",
+  "contest_id": 1794,
+  "index": "E",
+  "name": "Labeling the Tree with Distances",
+  "rating": 2400,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "hashing",
+    "implementation",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1794/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1794/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1794/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1794E%20Labeling the Tree with Distances%20tutorial",
+  "solved_count": 1510,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1794E",
+  "hydro_meta": {
+    "page_title": "Labeling the Tree with Distances - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "hashing",
+      "implementation",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

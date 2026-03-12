@@ -1,0 +1,36 @@
+{
+  "id": "CF-590B",
+  "contest_id": 590,
+  "index": "B",
+  "name": "Chip 'n Dale Rescue Rangers",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "geometry",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/590/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/590/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/590/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=590B%20Chip 'n Dale Rescue Rangers%20tutorial",
+  "solved_count": 2011,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P590B",
+  "hydro_meta": {
+    "page_title": "Chip 'n Dale Rescue Rangers - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "geometry",
+      "math",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1910D",
+  "contest_id": 1910,
+  "index": "D",
+  "name": "Remove and Add",
+  "rating": 1800,
+  "tags": [
+    "*special",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1910/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1910/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1910/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1910D%20Remove and Add%20tutorial",
+  "solved_count": 403,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1910D",
+  "hydro_meta": {
+    "page_title": "Remove and Add - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "greedy",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-431D",
+  "contest_id": 431,
+  "index": "D",
+  "name": "Random Task",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 2861,
+  "problem_url": "https://codeforces.com/problemset/problem/431/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/431/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/431/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=431D%20Random%20Task%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P431D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Random Task - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

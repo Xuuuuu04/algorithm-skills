@@ -1,0 +1,31 @@
+{
+  "id": "CF-703C",
+  "contest_id": 703,
+  "index": "C",
+  "name": "Chris and Road",
+  "rating": 2100,
+  "tags": [
+    "geometry",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/703/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/703/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/703/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=703C%20Chris and Road%20tutorial",
+  "solved_count": 1962,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P703C",
+  "hydro_meta": {
+    "page_title": "Chris and Road - 题目详情 - Hydro",
+    "hydro_tags": [
+      "geometry",
+      "implementation",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

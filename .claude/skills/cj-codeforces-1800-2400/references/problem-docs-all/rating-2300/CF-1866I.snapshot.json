@@ -1,0 +1,29 @@
+{
+  "id": "CF-1866I",
+  "contest_id": 1866,
+  "index": "I",
+  "name": "Imagination Castle",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "games",
+    "two pointers"
+  ],
+  "solved_count": 919,
+  "problem_url": "https://codeforces.com/problemset/problem/1866/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1866/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1866/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1866I%20Imagination%20Castle%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1866/I",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1866I - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

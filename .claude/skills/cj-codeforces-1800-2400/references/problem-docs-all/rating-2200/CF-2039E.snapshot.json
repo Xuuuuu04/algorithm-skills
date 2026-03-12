@@ -1,0 +1,30 @@
+{
+  "id": "CF-2039E",
+  "contest_id": 2039,
+  "index": "E",
+  "name": "Shohag Loves Inversions",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 2343,
+  "problem_url": "https://codeforces.com/problemset/problem/2039/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2039/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2039/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2039E%20Shohag%20Loves%20Inversions%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2039E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2039E Shohag Loves Inversions - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

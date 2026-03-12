@@ -1,0 +1,30 @@
+{
+  "id": "CF-2131D",
+  "contest_id": 2131,
+  "index": "D",
+  "name": "Arboris Contractio",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 13878,
+  "problem_url": "https://codeforces.com/problemset/problem/2131/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2131/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2131/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2131D%20Arboris%20Contractio%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2131/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2131D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

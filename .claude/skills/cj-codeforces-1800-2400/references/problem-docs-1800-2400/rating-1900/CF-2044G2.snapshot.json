@@ -1,0 +1,43 @@
+{
+  "id": "CF-2044G2",
+  "contest_id": 2044,
+  "index": "G2",
+  "name": "Medium Demon Problem (hard version)",
+  "rating": 1900,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "dsu",
+    "graphs",
+    "implementation",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2044/G2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2044/problem/G2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2044/problem/G2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2044G2%20Medium Demon Problem (hard version)%20tutorial",
+  "solved_count": 3726,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2044G2",
+  "hydro_meta": {
+    "page_title": "Medium Demon Problem (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "graphs",
+      "implementation",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

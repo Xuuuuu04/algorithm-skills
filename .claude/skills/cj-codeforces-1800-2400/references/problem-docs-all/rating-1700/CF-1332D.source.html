@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415133:77WrpHPfNc3E5px/xwMen+dHnuF7f+g4qSA0C+DV6Fo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1332D Walk on Matrix - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1332D","type":"CF","title":"Walk on Matrix","difficulty":4,"tags":[314,318],"wantsTranslation":false,"totalSubmit":443,"totalAccepted":248,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Walk on Matrix","background":null,"description":"Bob \u6b63\u5728\u73a9\u4e00\u4e2a\u540d\u4e3a\u300cWalk on Matrix\u300d\u7684\u6e38\u620f\u3002\n\n\u5728\u8fd9\u4e2a\u6e38\u620f\u4e2d\uff0c\u73a9\u5bb6\u4f1a\u5f97\u5230\u4e00\u4e2a $n \\times m$ \u7684\u77e9\u9635 $A=(a_{i,j})$\uff0c\u5373\u7b2c $i$ \u884c\u7b2c $j$ \u5217\u7684\u5143\u7d20\u4e3a $a_{i,j}$\u3002\u6700\u521d\uff0c\u73a9\u5bb6\u4f4d\u4e8e\u4f4d\u7f6e $(1,1)$\uff0c\u5f97\u5206\u4e3a $a_{1,1}$\u3002\n\n\u4e3a\u4e86\u5230\u8fbe\u7ec8\u70b9 $(n,m)$\uff0c\u73a9\u5bb6\u6bcf\u6b21\u53ef\u4ee5\u5411\u53f3\u6216\u5411\u4e0b\u79fb\u52a8\uff0c\u5373\u4ece $(x,y)$ \u79fb\u52a8\u5230 $(x,y+1)$ \u6216 $(x+1,y)$\uff0c\u53ea\u8981\u73a9\u5bb6\u4ecd\u5728\u77e9\u9635\u5185\u3002\n\n\u7136\u800c\uff0c\u6bcf\u6b21\u79fb\u52a8\u540e\uff0c\u73a9\u5bb6\u7684\u5f97\u5206\u4f1a\u53d8\u4e3a\u5f53\u524d\u5f97\u5206\u4e0e\u6240\u79fb\u52a8\u5230\u4f4d\u7f6e\u7684\u503c\u7684\u6309\u4f4d\u4e0e\uff08bitwise AND\uff09\u3002\n\nBob \u8feb\u4e0d\u53ca\u5f85\u5730\u60f3\u7528\u4ed6\u6700\u8fd1\u5b66\u5230\u7684\u5de5\u5177\u2014\u2014\u52a8\u6001\u89c4\u5212\uff0c\u6765\u6c42\u51fa\u4ed6\u80fd\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u3002\u4ee5\u4e0b\u662f\u4ed6\u4e3a\u8fd9\u4e2a\u95ee\u9898\u8bbe\u8ba1\u7684\u7b97\u6cd5\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1332D\/f77be4abbc0e4a1768015d201a26d68f6c552a32.png)\n\n\u7136\u800c\uff0c\u4ed6\u7a81\u7136\u53d1\u73b0\u4e0a\u8ff0\u7b97\u6cd5\u5728\u67d0\u4e9b\u77e9\u9635 $A$ \u4e0a\u65e0\u6cd5\u8f93\u51fa\u6700\u5927\u5f97\u5206\u3002\u56e0\u6b64\uff0c\u5bf9\u4e8e\u4efb\u610f\u7ed9\u5b9a\u7684\u975e\u8d1f\u6574\u6570 $k$\uff0c\u4ed6\u60f3\u6784\u9020\u4e00\u4e2a $n \\times m$ \u7684\u77e9\u9635 $A=(a_{i,j})$\uff0c\u4f7f\u5f97\n\n- $1 \\le n,m \\le 500$\uff08\u56e0\u4e3a Bob \u4e0d\u559c\u6b22\u5927\u77e9\u9635\uff09\uff1b\n- $0 \\le a_{i,j} \\le 3 \\cdot 10^5$\uff0c\u5bf9\u4e8e\u6240\u6709 $1 \\le i \\le n, 1 \\le j \\le m$\uff08\u56e0\u4e3a Bob \u4e0d\u559c\u6b22\u5927\u6570\uff09\uff1b\n- \u4ed6\u80fd\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u4e0e\u4ed6\u7684\u7b97\u6cd5\u8f93\u51fa\u7684\u5f97\u5206\u4e4b\u5dee\u6070\u597d\u4e3a $k$\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u5bf9\u4e8e\u4efb\u610f $0 \\le k \\le 10^5$ \u7684\u6574\u6570\uff0c\u90fd\u5b58\u5728\u6ee1\u8db3\u4e0a\u8ff0\u6761\u4ef6\u7684\u77e9\u9635\u3002\n\n\u8bf7\u4f60\u5e2e\u52a9\u4ed6\u5b8c\u6210\u8fd9\u4e2a\u4efb\u52a1\uff01","formatI":"\u8f93\u5165\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $k$\uff08$0 \\le k \\le 10^5$\uff09\u3002","formatO":"\u8f93\u51fa\u7b2c\u4e00\u884c\u4e3a\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\le n,m \\le 500$\uff09\uff0c\u8868\u793a\u77e9\u9635\u7684\u5927\u5c0f\u3002\n\n\u63a5\u4e0b\u6765\u8f93\u51fa $n$ \u884c\uff0c\u6bcf\u884c $m$ \u4e2a\u6574\u6570\uff0c\u7b2c $i$ \u884c\u7b2c $j$ \u5217\u4e3a $a_{i,j}$\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0cBob \u80fd\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u662f $300000$\uff0c\u800c\u4ed6\u7684\u7b97\u6cd5\u8f93\u51fa\u4e5f\u662f $300000$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0cBob \u80fd\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u662f $7\\\u00263\\\u00263\\\u00263\\\u00267\\\u00263=3$\uff0c\u800c\u4ed6\u7684\u7b97\u6cd5\u8f93\u51fa\u4e3a $2$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Walk on Matrix","background":"","description":"Bob is playing a game named \u0022Walk on Matrix\u0022.\n\nIn this game, player is given an $ n \\times m $ matrix $ A=(a_{i,j}) $ , i.e. the element in the $ i $ -th row in the $ j $ -th column is $ a_{i,j} $ . Initially, player is located at position $ (1,1) $ with score $ a_{1,1} $ .\n\nTo reach the goal, position $ (n,m) $ , player can move right or down, i.e. move from $ (x,y) $ to $ (x,y+1) $ or $ (x+1,y) $ , as long as player is still on the matrix.\n\nHowever, each move changes player\u0027s score to the [bitwise AND](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#AND) of the current score and the value at the position he moves to.\n\nBob can\u0027t wait to find out the maximum score he can get using the tool he recently learnt \u2014 dynamic programming. Here is his algorithm for this problem.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1332D\/f77be4abbc0e4a1768015d201a26d68f6c552a32.png)However, he suddenly realize that the algorithm above fails to output the maximum score for some matrix $ A $ . Thus, for any given non-negative integer $ k $ , he wants to find out an $ n \\times m $ matrix $ A=(a_{i,j}) $ such that\n\n- $ 1 \\le n,m \\le 500 $ (as Bob hates large matrix);\n- $ 0 \\le a_{i,j} \\le 3 \\cdot 10^5 $ for all $ 1 \\le i\\le n,1 \\le j\\le m $ (as Bob hates large numbers);\n- the difference between the maximum score he can get and the output of his algorithm is exactly $ k $ .\n\nIt can be shown that for any given integer $ k $ such that $ 0 \\le k \\le 10^5 $ , there exists a matrix satisfying the above constraints.\n\nPlease help him with it!","formatI":"The only line of the input contains one single integer $ k $ ( $ 0 \\le k \\le 10^5 $ ).","formatO":"Output two integers $ n $ , $ m $ ( $ 1 \\le n,m \\le 500 $ ) in the first line, representing the size of the matrix.\n\nThen output $ n $ lines with $ m $ integers in each line, $ a_{i,j} $ in the $ (i+1) $ -th row, $ j $ -th column.","hint":"In the first example, the maximum score Bob can achieve is $ 300000 $ , while the output of his algorithm is $ 300000 $ .\n\nIn the second example, the maximum score Bob can achieve is $ 7\\\u00263\\\u00263\\\u00263\\\u00267\\\u00263=3 $ , while the output of his algorithm is $ 2 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["0","1 1\n300000"],["1","3 4\n7 3 3 1\n4 8 3 6\n7 7 7 3"]],"limits":{"time":[2000],"memory":[512000]},"vjudge":{"id":"1332D","link":"https:\/\/codeforces.com\/problemset\/problem\/1332\/D"},"translation":"\u6709\u8fd9\u4e48\u4e00\u4e2a\u95ee\u9898\uff1a\n\n\u003E \u6709\u4e00\u4e2a $n \\times m$ \u7684\u77e9\u9635 $a_{n, m}$\uff0c\u77e9\u9635\u7684\u6bcf\u4e2a\u4f4d\u7f6e\u90fd\u6709\u4e00\u4e2a\u6570\uff0c\u8981\u6c42\u5bfb\u627e\u4e00\u4e2a\u6bcf\u6b21\u53ea\u80fd\u5411\u53f3\u6216\u5411\u4e0b\u8d70\u7684\u4ece $(1, 1)$ \u81f3 $(n, m)$ \u7684\u8def\u5f84\uff0c\u6700\u5927\u5316\u8def\u5f84\u4e0a\u7684\u6570\u7684\u6309\u4f4d\u4e0e\u4e4b\u548c\u3002\n\u003E\n\u003E $1 \\leq n, m \\leq 500$\uff0c$0 \\leq a_{i, j} \\leq 3 \\times 10^5$\u3002\n\n\u73b0\u5728\u7ed9\u51fa\u89e3\u51b3\u8be5\u95ee\u9898\u7684\u4e00\u4e2a**\u9519\u8bef** dp \u7b97\u6cd5\uff08\u89c1\u9898\u9762\u56fe\u7247\uff09\uff0c\u8bf7\u6784\u9020\u4e00\u7ec4\u6570\u636e\uff0chack \u6389\u8fd9\u4e2a\u7b97\u6cd5\uff0c\u4f7f\u5f97\u6b63\u786e\u7b54\u6848\u6bd4\u9519\u8bef\u7684\u8f93\u51fa**\u6070\u597d**\u5927 $k$\u3002\n\n$0 \\leq k \\leq 10^5$\u3002"},"translations":{"en":{"name":"Walk on Matrix","background":"","description":"Bob is playing a game named \u0022Walk on Matrix\u0022.\n\nIn this game, player is given an $ n \\times m $ matrix $ A=(a_{i,j}) $ , i.e. the element in the $ i $ -th row in the $ j $ -th column is $ a_{i,j} $ . Initially, player is located at position $ (1,1) $ with score $ a_{1,1} $ .\n\nTo reach the goal, position $ (n,m) $ , player can move right or down, i.e. move from $ (x,y) $ to $ (x,y+1) $ or $ (x+1,y) $ , as long as player is still on the matrix.\n\nHowever, each move changes player\u0027s score to the [bitwise AND](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#AND) of the current score and the value at the position he moves to.\n\nBob can\u0027t wait to find out the maximum score he can get using the tool he recently learnt \u2014 dynamic programming. Here is his algorithm for this problem.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1332D\/f77be4abbc0e4a1768015d201a26d68f6c552a32.png)However, he suddenly realize that the algorithm above fails to output the maximum score for some matrix $ A $ . Thus, for any given non-negative integer $ k $ , he wants to find out an $ n \\times m $ matrix $ A=(a_{i,j}) $ such that\n\n- $ 1 \\le n,m \\le 500 $ (as Bob hates large matrix);\n- $ 0 \\le a_{i,j} \\le 3 \\cdot 10^5 $ for all $ 1 \\le i\\le n,1 \\le j\\le m $ (as Bob hates large numbers);\n- the difference between the maximum score he can get and the output of his algorithm is exactly $ k $ .\n\nIt can be shown that for any given integer $ k $ such that $ 0 \\le k \\le 10^5 $ , there exists a matrix satisfying the above constraints.\n\nPlease help him with it!","formatI":"The only line of the input contains one single integer $ k $ ( $ 0 \\le k \\le 10^5 $ ).","formatO":"Output two integers $ n $ , $ m $ ( $ 1 \\le n,m \\le 500 $ ) in the first line, representing the size of the matrix.\n\nThen output $ n $ lines with $ m $ integers in each line, $ a_{i,j} $ in the $ (i+1) $ -th row, $ j $ -th column.","hint":"In the first example, the maximum score Bob can achieve is $ 300000 $ , while the output of his algorithm is $ 300000 $ .\n\nIn the second example, the maximum score Bob can achieve is $ 7\\\u00263\\\u00263\\\u00263\\\u00267\\\u00263=3 $ , while the output of his algorithm is $ 2 $ .","locale":"en"},"zh-CN":{"name":"Walk on Matrix","background":null,"description":"Bob \u6b63\u5728\u73a9\u4e00\u4e2a\u540d\u4e3a\u300cWalk on Matrix\u300d\u7684\u6e38\u620f\u3002\n\n\u5728\u8fd9\u4e2a\u6e38\u620f\u4e2d\uff0c\u73a9\u5bb6\u4f1a\u5f97\u5230\u4e00\u4e2a $n \\times m$ \u7684\u77e9\u9635 $A=(a_{i,j})$\uff0c\u5373\u7b2c $i$ \u884c\u7b2c $j$ \u5217\u7684\u5143\u7d20\u4e3a $a_{i,j}$\u3002\u6700\u521d\uff0c\u73a9\u5bb6\u4f4d\u4e8e\u4f4d\u7f6e $(1,1)$\uff0c\u5f97\u5206\u4e3a $a_{1,1}$\u3002\n\n\u4e3a\u4e86\u5230\u8fbe\u7ec8\u70b9 $(n,m)$\uff0c\u73a9\u5bb6\u6bcf\u6b21\u53ef\u4ee5\u5411\u53f3\u6216\u5411\u4e0b\u79fb\u52a8\uff0c\u5373\u4ece $(x,y)$ \u79fb\u52a8\u5230 $(x,y+1)$ \u6216 $(x+1,y)$\uff0c\u53ea\u8981\u73a9\u5bb6\u4ecd\u5728\u77e9\u9635\u5185\u3002\n\n\u7136\u800c\uff0c\u6bcf\u6b21\u79fb\u52a8\u540e\uff0c\u73a9\u5bb6\u7684\u5f97\u5206\u4f1a\u53d8\u4e3a\u5f53\u524d\u5f97\u5206\u4e0e\u6240\u79fb\u52a8\u5230\u4f4d\u7f6e\u7684\u503c\u7684\u6309\u4f4d\u4e0e\uff08bitwise AND\uff09\u3002\n\nBob \u8feb\u4e0d\u53ca\u5f85\u5730\u60f3\u7528\u4ed6\u6700\u8fd1\u5b66\u5230\u7684\u5de5\u5177\u2014\u2014\u52a8\u6001\u89c4\u5212\uff0c\u6765\u6c42\u51fa\u4ed6\u80fd\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u3002\u4ee5\u4e0b\u662f\u4ed6\u4e3a\u8fd9\u4e2a\u95ee\u9898\u8bbe\u8ba1\u7684\u7b97\u6cd5\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1332D\/f77be4abbc0e4a1768015d201a26d68f6c552a32.png)\n\n\u7136\u800c\uff0c\u4ed6\u7a81\u7136\u53d1\u73b0\u4e0a\u8ff0\u7b97\u6cd5\u5728\u67d0\u4e9b\u77e9\u9635 $A$ \u4e0a\u65e0\u6cd5\u8f93\u51fa\u6700\u5927\u5f97\u5206\u3002\u56e0\u6b64\uff0c\u5bf9\u4e8e\u4efb\u610f\u7ed9\u5b9a\u7684\u975e\u8d1f\u6574\u6570 $k$\uff0c\u4ed6\u60f3\u6784\u9020\u4e00\u4e2a $n \\times m$ \u7684\u77e9\u9635 $A=(a_{i,j})$\uff0c\u4f7f\u5f97\n\n- $1 \\le n,m \\le 500$\uff08\u56e0\u4e3a Bob \u4e0d\u559c\u6b22\u5927\u77e9\u9635\uff09\uff1b\n- $0 \\le a_{i,j} \\le 3 \\cdot 10^5$\uff0c\u5bf9\u4e8e\u6240\u6709 $1 \\le i \\le n, 1 \\le j \\le m$\uff08\u56e0\u4e3a Bob \u4e0d\u559c\u6b22\u5927\u6570\uff09\uff1b\n- \u4ed6\u80fd\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u4e0e\u4ed6\u7684\u7b97\u6cd5\u8f93\u51fa\u7684\u5f97\u5206\u4e4b\u5dee\u6070\u597d\u4e3a $k$\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u5bf9\u4e8e\u4efb\u610f $0 \\le k \\le 10^5$ \u7684\u6574\u6570\uff0c\u90fd\u5b58\u5728\u6ee1\u8db3\u4e0a\u8ff0\u6761\u4ef6\u7684\u77e9\u9635\u3002\n\n\u8bf7\u4f60\u5e2e\u52a9\u4ed6\u5b8c\u6210\u8fd9\u4e2a\u4efb\u52a1\uff01","formatI":"\u8f93\u5165\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $k$\uff08$0 \\le k \\le 10^5$\uff09\u3002","formatO":"\u8f93\u51fa\u7b2c\u4e00\u884c\u4e3a\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$1 \\le n,m \\le 500$\uff09\uff0c\u8868\u793a\u77e9\u9635\u7684\u5927\u5c0f\u3002\n\n\u63a5\u4e0b\u6765\u8f93\u51fa $n$ \u884c\uff0c\u6bcf\u884c $m$ \u4e2a\u6574\u6570\uff0c\u7b2c $i$ \u884c\u7b2c $j$ \u5217\u4e3a $a_{i,j}$\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0cBob \u80fd\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u662f $300000$\uff0c\u800c\u4ed6\u7684\u7b97\u6cd5\u8f93\u51fa\u4e5f\u662f $300000$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0cBob \u80fd\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u662f $7\\\u00263\\\u00263\\\u00263\\\u00267\\\u00263=3$\uff0c\u800c\u4ed6\u7684\u7b97\u6cd5\u8f93\u51fa\u4e3a $2$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1332D Walk on Matrix","type":2,"slug":"CF1332D","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328733.556638,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1332D Walk on Matrix","description":"Bob \u6b63\u5728\u73a9\u4e00\u4e2a\u540d\u4e3a\u300cWalk on Matrix\u300d\u7684\u6e38\u620f\u3002\n\u5728\u8fd9\u4e2a\u6e38\u620f\u4e2d\uff0c\u73a9\u5bb6\u4f1a\u5f97\u5230\u4e00\u4e2a n \\times m \u7684\u77e9\u9635 A=(a_{i,j})\uff0c\u5373\u7b2c i \u884c\u7b2c j \u5217\u7684\u5143\u7d20\u4e3a a_{i,j}\u3002\u6700\u521d\uff0c\u73a9\u5bb6\u4f4d\u4e8e\u4f4d\u7f6e (1,1)\uff0c\u5f97\u5206\u4e3a a_{1,1}\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1332D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1332D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1332D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1332D Walk on Matrix" />
+    <meta property="og:description" content="Bob 正在玩一个名为「Walk on Matrix」的游戏。
+在这个游戏中，玩家会得到一个 n \times m 的矩阵 A=(a_{i,j})，即第 i 行第 j 列的元素为 a_{i,j}。最初，玩家位于位置 (1,1)，得分为 a_{1,1}。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1332D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1332D Walk on Matrix</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Bob 正在玩一个名为「Walk on Matrix」的游戏。
+
+在这个游戏中，玩家会得到一个 $n \times m$ 的矩阵 $A=(a_{i,j})$，即第 $i$ 行第 $j$ 列的元素为 $a_{i,j}$。最初，玩家位于位置 $(1,1)$，得分为 $a_{1,1}$。
+
+为了到达终点 $(n,m)$，玩家每次可以向右或向下移动，即从 $(x,y)$ 移动到 $(x,y+1)$ 或 $(x+1,y)$，只要玩家仍在矩阵内。
+
+然而，每次移动后，玩家的得分会变为当前得分与所移动到位置的值的按位与（bitwise AND）。
+
+Bob 迫不及待地想用他最近学到的工具——动态规划，来求出他能获得的最大得分。以下是他为这个问题设计的算法。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1332D/f77be4abbc0e4a1768015d201a26d68f6c552a32.png)
+
+然而，他突然发现上述算法在某些矩阵 $A$ 上无法输出最大得分。因此，对于任意给定的非负整数 $k$，他想构造一个 $n \times m$ 的矩阵 $A=(a_{i,j})$，使得
+
+- $1 \le n,m \le 500$（因为 Bob 不喜欢大矩阵）；
+- $0 \le a_{i,j} \le 3 \cdot 10^5$，对于所有 $1 \le i \le n, 1 \le j \le m$（因为 Bob 不喜欢大数）；
+- 他能获得的最大得分与他的算法输出的得分之差恰好为 $k$。
+
+可以证明，对于任意 $0 \le k \le 10^5$ 的整数，都存在满足上述条件的矩阵。
+
+请你帮助他完成这个任务！
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入仅一行，包含一个整数 $k$（$0 \le k \le 10^5$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出第一行为两个整数 $n$ 和 $m$（$1 \le n,m \le 500$），表示矩阵的大小。
+
+接下来输出 $n$ 行，每行 $m$ 个整数，第 $i$ 行第 $j$ 列为 $a_{i,j}$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，Bob 能获得的最大得分是 $300000$，而他的算法输出也是 $300000$。
+
+在第二个样例中，Bob 能获得的最大得分是 $7\&3\&3\&3\&7\&3=3$，而他的算法输出为 $2$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

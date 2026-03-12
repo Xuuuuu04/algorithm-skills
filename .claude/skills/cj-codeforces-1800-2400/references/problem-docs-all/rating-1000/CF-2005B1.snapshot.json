@@ -1,0 +1,34 @@
+{
+  "id": "CF-2005B1",
+  "contest_id": 2005,
+  "index": "B1",
+  "name": "The Strict Teacher (Easy Version)",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 24495,
+  "problem_url": "https://codeforces.com/problemset/problem/2005/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2005/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2005/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2005B1%20The%20Strict%20Teacher%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2005B1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Strict Teacher (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

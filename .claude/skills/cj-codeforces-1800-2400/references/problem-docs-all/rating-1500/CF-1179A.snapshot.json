@@ -1,0 +1,28 @@
+{
+  "id": "CF-1179A",
+  "contest_id": 1179,
+  "index": "A",
+  "name": "Valeriy and Deque",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 11678,
+  "problem_url": "https://codeforces.com/problemset/problem/1179/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1179/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1179/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1179A%20Valeriy%20and%20Deque%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1179/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1179A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "6 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

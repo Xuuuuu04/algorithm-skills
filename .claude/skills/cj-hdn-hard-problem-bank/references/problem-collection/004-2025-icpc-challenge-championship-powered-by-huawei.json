@@ -1,0 +1,49 @@
+{
+  "source": "public_slot_api",
+  "title": "2025 ICPC Challenge Championship ",
+  "url": "https://www.chaspark.com/#/s/2025-ICPC-Championship?multi=en",
+  "difficulty": "Hard",
+  "tags": [
+    "homeRaces"
+  ],
+  "core_idea": "待补充",
+  "pitfalls": "待补充",
+  "raw": {
+    "hwUsers": true,
+    "customCover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1204958339342254080.jpg?state=2",
+    "contentId": "1982552945059827725",
+    "creatorName": "周雨凡",
+    "isIntraLink": true,
+    "description": {
+      "en": "2025 ICPC Challenge Championship powered by Huawei will be held at the Lianqiu Lake Campus in Shanghai. Jointly initiated by Huawei and ICPC, the Championship aims to enhance collaborative talent development and jointly promote industrial advancement and technology progress. Under the theme \"Exploring Technology Foundation and Practice in the Era of Intelligence,\" this year's Championship will feature key segments such as the Challenge contest, Technology salons, and Previous Challenge Roadshows. Over 100 coaches, top programming contestants, academic professors, and industry experts from around the world will gather at the Lianqiu Lake Campus to collaboratively explore and solve challenging real-world industry problems, while also discussing future technology trends and key challenges.",
+      "zh": "2025 ICPC Challenge Championship powered by Huawei will be held at the Lianqiu Lake Campus in Shanghai. Jointly initiated by Huawei and ICPC, the Championship aims to enhance collaborative talent development and jointly promote industrial advancement and technology progress. Under the theme \"Exploring Technology Foundation and Practice in the Era of Intelligence,\" this year's Championship will feature key segments such as the Challenge contest, Technology salons, and Previous Challenge Roadshows. Over 100 coaches, top programming contestants, academic professors, and industry experts from around the world will gather at the Lianqiu Lake Campus to collaboratively explore and solve challenging real-world industry problems, while also discussing future technology trends and key challenges."
+    },
+    "pageUrlPid": "2025-ICPC-Championship",
+    "customTitle": {
+      "en": "2025 ICPC Challenge Championship powered by Huawei",
+      "zh": "2025 ICPC Challenge Championship powered by Huawei"
+    },
+    "videos": [],
+    "creatorNid": "916046393859158016",
+    "title": "2025 ICPC Challenge Championship ",
+    "auditState": 2,
+    "isEssence": 0,
+    "actualContentId": "1982552945059827725",
+    "columnRoute": "https://www.chaspark.com/#/s",
+    "columnTypeName": "通用模板页面",
+    "hasVoice": false,
+    "contentType": 16,
+    "publishTime": "1762418177",
+    "images": [],
+    "creatorType": "1",
+    "isShowEssence": 1,
+    "sort": 562,
+    "columnType": "subjectUniversal",
+    "showTable": [],
+    "slotContentUpdateTime": "1762418177",
+    "slotContentId": "1126592802649394239",
+    "detailUrl": "https://www.chaspark.com/#/s/2025-ICPC-Championship?multi=en",
+    "position": "",
+    "customLink": "https://www.chaspark.com/#/s/2025-ICPC-Championship?multi=en"
+  }
+}

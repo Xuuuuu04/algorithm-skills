@@ -1,0 +1,30 @@
+{
+  "id": "CF-1718B",
+  "contest_id": 1718,
+  "index": "B",
+  "name": "Fibonacci Strings",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 3405,
+  "problem_url": "https://codeforces.com/problemset/problem/1718/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1718/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1718/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1718B%20Fibonacci%20Strings%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1718/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1718B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

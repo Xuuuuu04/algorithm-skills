@@ -1,0 +1,33 @@
+{
+  "id": "CF-1615F",
+  "contest_id": 1615,
+  "index": "F",
+  "name": "LEGOndary Grandmaster",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 1135,
+  "problem_url": "https://codeforces.com/problemset/problem/1615/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1615/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1615/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1615F%20LEGOndary%20Grandmaster%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1615F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "LEGOndary Grandmaster - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

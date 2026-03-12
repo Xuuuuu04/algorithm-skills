@@ -1,0 +1,40 @@
+{
+  "id": "CF-1766E",
+  "contest_id": 1766,
+  "index": "E",
+  "name": "Decomposition",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "divide and conquer",
+    "dp",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1766/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1766/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1766/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1766E%20Decomposition%20tutorial",
+  "solved_count": 1455,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1766E",
+  "hydro_meta": {
+    "page_title": "Decomposition - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "divide and conquer",
+      "dp",
+      "matrices"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

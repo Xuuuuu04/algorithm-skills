@@ -1,0 +1,34 @@
+{
+  "id": "CF-346B",
+  "contest_id": 346,
+  "index": "B",
+  "name": "Lucky Common Subsequence",
+  "rating": 2000,
+  "tags": [
+    "dp",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/346/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/346/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/346/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=346B%20Lucky Common Subsequence%20tutorial",
+  "solved_count": 4196,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P346B",
+  "hydro_meta": {
+    "page_title": "Lucky Common Subsequence - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "strings",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

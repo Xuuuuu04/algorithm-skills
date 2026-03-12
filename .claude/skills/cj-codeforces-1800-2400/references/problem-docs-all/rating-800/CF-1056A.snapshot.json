@@ -1,0 +1,27 @@
+{
+  "id": "CF-1056A",
+  "contest_id": 1056,
+  "index": "A",
+  "name": "Determine Line",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 7267,
+  "problem_url": "https://codeforces.com/problemset/problem/1056/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1056/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1056/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1056A%20Determine%20Line%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1056A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1056A Determine Line - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 145,
+    "mirror_attempt": 236,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

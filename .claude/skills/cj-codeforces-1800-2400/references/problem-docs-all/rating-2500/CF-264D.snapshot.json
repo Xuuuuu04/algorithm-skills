@@ -1,0 +1,32 @@
+{
+  "id": "CF-264D",
+  "contest_id": 264,
+  "index": "D",
+  "name": "Colorful Stones",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "two pointers"
+  ],
+  "solved_count": 449,
+  "problem_url": "https://codeforces.com/problemset/problem/264/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/264/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/264/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=264D%20Colorful%20Stones%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P264D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Colorful Stones - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "two pointers",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

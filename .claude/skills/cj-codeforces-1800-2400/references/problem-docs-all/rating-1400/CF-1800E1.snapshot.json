@@ -1,0 +1,32 @@
+{
+  "id": "CF-1800E1",
+  "contest_id": 1800,
+  "index": "E1",
+  "name": "Unforgivable Curse (easy version)",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dsu",
+    "graphs",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 15299,
+  "problem_url": "https://codeforces.com/problemset/problem/1800/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1800/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1800/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1800E1%20Unforgivable%20Curse%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1800/E1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1800E1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

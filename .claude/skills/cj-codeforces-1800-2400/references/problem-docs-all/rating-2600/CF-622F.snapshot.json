@@ -1,0 +1,30 @@
+{
+  "id": "CF-622F",
+  "contest_id": 622,
+  "index": "F",
+  "name": "The Sum of the k-th Powers",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 4846,
+  "problem_url": "https://codeforces.com/problemset/problem/622/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/622/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/622/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=622F%20The%20Sum%20of%20the%20k-th%20Powers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P622F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Sum of the k-th Powers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*2600"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

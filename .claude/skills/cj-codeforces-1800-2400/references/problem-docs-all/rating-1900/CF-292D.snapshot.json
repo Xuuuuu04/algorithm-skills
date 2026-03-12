@@ -1,0 +1,36 @@
+{
+  "id": "CF-292D",
+  "contest_id": 292,
+  "index": "D",
+  "name": "Connected Components",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "dsu"
+  ],
+  "solved_count": 2708,
+  "problem_url": "https://codeforces.com/problemset/problem/292/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/292/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/292/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=292D%20Connected%20Components%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P292D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Connected Components - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "*1900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

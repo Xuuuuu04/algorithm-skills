@@ -1,0 +1,32 @@
+{
+  "id": "CF-1255B",
+  "contest_id": 1255,
+  "index": "B",
+  "name": "Fridge Lockers",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 12480,
+  "problem_url": "https://codeforces.com/problemset/problem/1255/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1255/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1255/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1255B%20Fridge%20Lockers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1255B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Fridge Lockers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graphs",
+      "implementation",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

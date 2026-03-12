@@ -1,0 +1,29 @@
+{
+  "id": "CF-212B",
+  "contest_id": 212,
+  "index": "B",
+  "name": "Polycarpus is Looking for Good Substrings",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "bitmasks",
+    "hashing",
+    "implementation"
+  ],
+  "solved_count": 361,
+  "problem_url": "https://codeforces.com/problemset/problem/212/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/212/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/212/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=212B%20Polycarpus%20is%20Looking%20for%20Good%20Substrings%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/212/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 212B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

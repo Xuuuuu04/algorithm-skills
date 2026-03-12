@@ -1,0 +1,35 @@
+{
+  "id": "CF-803F",
+  "contest_id": 803,
+  "index": "F",
+  "name": "Coprime Subsequences",
+  "rating": 2000,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/803/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/803/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/803/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=803F%20Coprime Subsequences%20tutorial",
+  "solved_count": 4502,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P803F",
+  "hydro_meta": {
+    "page_title": "Coprime Subsequences - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "combinatorics",
+      "number theory",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

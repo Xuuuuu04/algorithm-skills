@@ -1,0 +1,32 @@
+{
+  "id": "CF-1637D",
+  "contest_id": 1637,
+  "index": "D",
+  "name": "Yet Another Minimization Problem",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 8792,
+  "problem_url": "https://codeforces.com/problemset/problem/1637/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1637/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1637/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1637D%20Yet%20Another%20Minimization%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1637D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Yet Another Minimization Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

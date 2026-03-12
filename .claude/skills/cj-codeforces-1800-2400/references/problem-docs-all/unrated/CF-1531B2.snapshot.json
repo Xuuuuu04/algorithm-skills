@@ -1,0 +1,27 @@
+{
+  "id": "CF-1531B2",
+  "contest_id": 1531,
+  "index": "B2",
+  "name": "Мониторинг",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 793,
+  "problem_url": "https://codeforces.com/problemset/problem/1531/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1531/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1531/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1531B2%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1531/B2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1531B2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 секунды",
+    "memory_limit": "512 мегабайт"
+  }
+}

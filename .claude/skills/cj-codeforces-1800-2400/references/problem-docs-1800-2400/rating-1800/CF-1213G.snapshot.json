@@ -1,0 +1,40 @@
+{
+  "id": "CF-1213G",
+  "contest_id": 1213,
+  "index": "G",
+  "name": "Path Queries",
+  "rating": 1800,
+  "tags": [
+    "divide and conquer",
+    "dsu",
+    "graphs",
+    "sortings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1213/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1213/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1213/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1213G%20Path Queries%20tutorial",
+  "solved_count": 9244,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1213G",
+  "hydro_meta": {
+    "page_title": "Path Queries - 题目详情 - Hydro",
+    "hydro_tags": [
+      "divide and conquer",
+      "dsu",
+      "graphs",
+      "sortings",
+      "trees",
+      "*1800"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

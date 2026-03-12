@@ -1,0 +1,30 @@
+{
+  "id": "CF-731D",
+  "contest_id": 731,
+  "index": "D",
+  "name": "80-th Level Archeology",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 1265,
+  "problem_url": "https://codeforces.com/problemset/problem/731/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/731/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/731/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=731D%2080-th%20Level%20Archeology%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF731D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF731D 80-th Level Archeology - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 99,
+    "mirror_attempt": 212,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

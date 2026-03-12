@@ -1,0 +1,28 @@
+{
+  "id": "CF-1208E",
+  "contest_id": 1208,
+  "index": "E",
+  "name": "Let Them Slide",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 2175,
+  "problem_url": "https://codeforces.com/problemset/problem/1208/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1208/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1208/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1208E%20Let%20Them%20Slide%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1208E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1208E Let Them Slide - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 178,
+    "mirror_attempt": 489,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

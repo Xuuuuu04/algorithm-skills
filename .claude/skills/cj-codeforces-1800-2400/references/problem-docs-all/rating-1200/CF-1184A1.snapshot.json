@@ -1,0 +1,34 @@
+{
+  "id": "CF-1184A1",
+  "contest_id": 1184,
+  "index": "A1",
+  "name": "Heidi Learns Hashing (Easy)",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 6516,
+  "problem_url": "https://codeforces.com/problemset/problem/1184/A1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1184/problem/A1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1184/problem/A1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1184A1%20Heidi%20Learns%20Hashing%20%28Easy%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1184A1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Heidi Learns Hashing (Easy) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

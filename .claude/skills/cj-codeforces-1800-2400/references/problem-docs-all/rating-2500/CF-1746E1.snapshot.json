@@ -1,0 +1,30 @@
+{
+  "id": "CF-1746E1",
+  "contest_id": 1746,
+  "index": "E1",
+  "name": "Joking (Easy Version)",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "interactive",
+    "ternary search"
+  ],
+  "solved_count": 1660,
+  "problem_url": "https://codeforces.com/problemset/problem/1746/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1746/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1746/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1746E1%20Joking%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1746E1",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1746E1 Joking (Easy Version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 294,
+    "mirror_attempt": 616,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CF-1617E",
+  "contest_id": 1617,
+  "index": "E",
+  "name": "Christmas Chocolates",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "games",
+    "graphs",
+    "implementation",
+    "math",
+    "number theory",
+    "shortest paths",
+    "trees"
+  ],
+  "solved_count": 988,
+  "problem_url": "https://codeforces.com/problemset/problem/1617/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1617/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1617/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1617E%20Christmas%20Chocolates%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1617E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Christmas Chocolates - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "games",
+      "graphs",
+      "math",
+      "number theory",
+      "shortest paths",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

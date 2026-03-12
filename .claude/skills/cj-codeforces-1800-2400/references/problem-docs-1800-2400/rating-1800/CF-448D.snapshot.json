@@ -1,0 +1,33 @@
+{
+  "id": "CF-448D",
+  "contest_id": 448,
+  "index": "D",
+  "name": "Multiplication Table",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "brute force"
+  ],
+  "url": "https://codeforces.com/problemset/problem/448/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/448/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/448/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=448D%20Multiplication Table%20tutorial",
+  "solved_count": 16441,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P448D",
+  "hydro_meta": {
+    "page_title": "Multiplication Table - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

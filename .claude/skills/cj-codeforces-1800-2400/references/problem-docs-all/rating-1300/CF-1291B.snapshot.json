@@ -1,0 +1,28 @@
+{
+  "id": "CF-1291B",
+  "contest_id": 1291,
+  "index": "B",
+  "name": "Array Sharpening",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 15252,
+  "problem_url": "https://codeforces.com/problemset/problem/1291/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1291/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1291/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1291B%20Array%20Sharpening%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1291/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1291B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

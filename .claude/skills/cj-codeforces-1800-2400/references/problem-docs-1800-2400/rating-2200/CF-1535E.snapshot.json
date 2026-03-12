@@ -1,0 +1,45 @@
+{
+  "id": "CF-1535E",
+  "contest_id": 1535,
+  "index": "E",
+  "name": "Gold Transfer",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "greedy",
+    "interactive",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1535/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1535/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1535/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1535E%20Gold Transfer%20tutorial",
+  "solved_count": 3042,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1535E",
+  "hydro_meta": {
+    "page_title": "Gold Transfer - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "interactive",
+      "trees",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

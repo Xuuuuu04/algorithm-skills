@@ -1,0 +1,29 @@
+{
+  "id": "CF-2095B",
+  "contest_id": 2095,
+  "index": "B",
+  "name": "Plinko",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "games",
+    "interactive"
+  ],
+  "solved_count": 5555,
+  "problem_url": "https://codeforces.com/problemset/problem/2095/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2095/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2095/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2095B%20Plinko%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2095B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2095B Plinko - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1366F",
+  "contest_id": 1366,
+  "index": "F",
+  "name": "Jog Around The Graph",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "dp",
+    "geometry",
+    "graphs"
+  ],
+  "solved_count": 883,
+  "problem_url": "https://codeforces.com/problemset/problem/1366/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1366/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1366/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1366F%20Jog%20Around%20The%20Graph%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1366F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Jog Around The Graph - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dp",
+      "geometry",
+      "graphs",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

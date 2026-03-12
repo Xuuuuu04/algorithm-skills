@@ -1,0 +1,36 @@
+{
+  "id": "CF-1360C",
+  "contest_id": 1360,
+  "index": "C",
+  "name": "Similar Pairs",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "graph matchings",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 36361,
+  "problem_url": "https://codeforces.com/problemset/problem/1360/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1360/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1360/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1360C%20Similar%20Pairs%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1360C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Similar Pairs - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "graph matchings",
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

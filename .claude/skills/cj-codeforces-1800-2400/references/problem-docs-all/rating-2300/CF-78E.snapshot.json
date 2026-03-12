@@ -1,0 +1,34 @@
+{
+  "id": "CF-78E",
+  "contest_id": 78,
+  "index": "E",
+  "name": "Evacuation",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "flows",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 687,
+  "problem_url": "https://codeforces.com/problemset/problem/78/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/78/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/78/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=78E%20Evacuation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P78E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Evacuation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "flows",
+      "graphs",
+      "shortest paths",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

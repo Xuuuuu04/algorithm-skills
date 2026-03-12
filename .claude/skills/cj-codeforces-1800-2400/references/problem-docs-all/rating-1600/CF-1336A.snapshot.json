@@ -1,0 +1,38 @@
+{
+  "id": "CF-1336A",
+  "contest_id": 1336,
+  "index": "A",
+  "name": "Linova and Kingdom",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 24205,
+  "problem_url": "https://codeforces.com/problemset/problem/1336/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1336/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1336/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1336A%20Linova%20and%20Kingdom%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1336A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Linova and Kingdom - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "sortings",
+      "trees",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

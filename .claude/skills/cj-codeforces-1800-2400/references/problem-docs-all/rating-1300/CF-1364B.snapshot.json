@@ -1,0 +1,28 @@
+{
+  "id": "CF-1364B",
+  "contest_id": 1364,
+  "index": "B",
+  "name": "Most socially-distanced subsequence",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 25503,
+  "problem_url": "https://codeforces.com/problemset/problem/1364/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1364/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1364/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1364B%20Most%20socially-distanced%20subsequence%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1364/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1364B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

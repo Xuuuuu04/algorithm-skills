@@ -1,0 +1,30 @@
+{
+  "id": "CF-435C",
+  "contest_id": 435,
+  "index": "C",
+  "name": "Cardiogram",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 2715,
+  "problem_url": "https://codeforces.com/problemset/problem/435/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/435/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/435/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=435C%20Cardiogram%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P435C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Cardiogram - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "CF-1833G",
+  "contest_id": 1833,
+  "index": "G",
+  "name": "Ksyusha and Chinchilla",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dp",
+    "dsu",
+    "greedy",
+    "implementation",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1833/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1833/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1833/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1833G%20Ksyusha and Chinchilla%20tutorial",
+  "solved_count": 6303,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1833G",
+  "hydro_meta": {
+    "page_title": "Ksyusha and Chinchilla - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "greedy",
+      "implementation",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

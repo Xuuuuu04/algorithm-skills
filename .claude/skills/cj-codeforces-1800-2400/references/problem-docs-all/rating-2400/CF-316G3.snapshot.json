@@ -1,0 +1,30 @@
+{
+  "id": "CF-316G3",
+  "contest_id": 316,
+  "index": "G3",
+  "name": "Good Substrings",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 30.0,
+  "tags": [
+    "string suffix structures"
+  ],
+  "solved_count": 532,
+  "problem_url": "https://codeforces.com/problemset/problem/316/G3",
+  "answer_index_url": "https://codeforces.com/problemset/status/316/problem/G3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/316/problem/G3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=316G3%20Good%20Substrings%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P316G3",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Good Substrings - 题目详情 - Hydro",
+    "mirror_tags": [
+      "string suffix structures",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

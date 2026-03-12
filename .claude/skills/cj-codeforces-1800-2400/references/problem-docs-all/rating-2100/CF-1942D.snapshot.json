@@ -1,0 +1,41 @@
+{
+  "id": "CF-1942D",
+  "contest_id": 1942,
+  "index": "D",
+  "name": "Learning to Paint",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 3300,
+  "problem_url": "https://codeforces.com/problemset/problem/1942/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1942/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1942/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1942D%20Learning%20to%20Paint%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1942D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Learning to Paint - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-241F",
+  "contest_id": 241,
+  "index": "F",
+  "name": "Race",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/241/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/241/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/241/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=241F%20Race%20tutorial",
+  "solved_count": 283,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P241F",
+  "hydro_meta": {
+    "page_title": "Race - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "implementation",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

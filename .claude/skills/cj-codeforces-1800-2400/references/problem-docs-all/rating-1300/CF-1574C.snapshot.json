@@ -1,0 +1,34 @@
+{
+  "id": "CF-1574C",
+  "contest_id": 1574,
+  "index": "C",
+  "name": "Slay the Dragon",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy",
+    "sortings",
+    "ternary search"
+  ],
+  "solved_count": 18392,
+  "problem_url": "https://codeforces.com/problemset/problem/1574/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1574/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1574/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1574C%20Slay%20the%20Dragon%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1574C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Slay the Dragon - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "sortings"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

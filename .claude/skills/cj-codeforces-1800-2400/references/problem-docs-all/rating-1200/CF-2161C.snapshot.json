@@ -1,0 +1,36 @@
+{
+  "id": "CF-2161C",
+  "contest_id": 2161,
+  "index": "C",
+  "name": "Loyalty",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 11971,
+  "problem_url": "https://codeforces.com/problemset/problem/2161/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2161/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2161/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2161C%20Loyalty%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2161C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Loyalty - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

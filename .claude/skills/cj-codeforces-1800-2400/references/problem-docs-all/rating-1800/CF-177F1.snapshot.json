@@ -1,0 +1,27 @@
+{
+  "id": "CF-177F1",
+  "contest_id": 177,
+  "index": "F1",
+  "name": "Script Generation",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 30.0,
+  "tags": [],
+  "solved_count": 359,
+  "problem_url": "https://codeforces.com/problemset/problem/177/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/177/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/177/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=177F1%20Script%20Generation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P177F1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Script Generation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

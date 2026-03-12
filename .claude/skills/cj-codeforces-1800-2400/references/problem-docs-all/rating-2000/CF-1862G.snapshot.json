@@ -1,0 +1,30 @@
+{
+  "id": "CF-1862G",
+  "contest_id": 1862,
+  "index": "G",
+  "name": "The Great Equalizer",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 3386,
+  "problem_url": "https://codeforces.com/problemset/problem/1862/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1862/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1862/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1862G%20The%20Great%20Equalizer%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1862/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1862G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1674B",
+  "contest_id": 1674,
+  "index": "B",
+  "name": "Dictionary",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 28987,
+  "problem_url": "https://codeforces.com/problemset/problem/1674/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1674/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1674/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1674B%20Dictionary%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1674B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1674B Dictionary - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 321,
+    "mirror_attempt": 481,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

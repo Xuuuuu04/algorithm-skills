@@ -1,0 +1,29 @@
+{
+  "id": "CF-1616G",
+  "contest_id": 1616,
+  "index": "G",
+  "name": "Just Add an Edge",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "graphs"
+  ],
+  "solved_count": 420,
+  "problem_url": "https://codeforces.com/problemset/problem/1616/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1616/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1616/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1616G%20Just%20Add%20an%20Edge%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1616/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1616G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

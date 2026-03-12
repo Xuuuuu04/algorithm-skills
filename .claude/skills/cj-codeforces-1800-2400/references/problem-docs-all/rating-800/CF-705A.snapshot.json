@@ -1,0 +1,27 @@
+{
+  "id": "CF-705A",
+  "contest_id": 705,
+  "index": "A",
+  "name": "Hulk",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 129761,
+  "problem_url": "https://codeforces.com/problemset/problem/705/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/705/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/705/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=705A%20Hulk%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF705A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF705A Hulk - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 837,
+    "mirror_attempt": 1545,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

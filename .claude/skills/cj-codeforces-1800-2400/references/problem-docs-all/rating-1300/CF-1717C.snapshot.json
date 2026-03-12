@@ -1,0 +1,27 @@
+{
+  "id": "CF-1717C",
+  "contest_id": 1717,
+  "index": "C",
+  "name": "Madoka and Formal Statement",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 15793,
+  "problem_url": "https://codeforces.com/problemset/problem/1717/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1717/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1717/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1717C%20Madoka%20and%20Formal%20Statement%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1717C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1717C Madoka and Formal Statement - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 326,
+    "mirror_attempt": 628,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

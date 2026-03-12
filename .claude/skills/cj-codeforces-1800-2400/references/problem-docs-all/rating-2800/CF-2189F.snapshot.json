@@ -1,0 +1,42 @@
+{
+  "id": "CF-2189F",
+  "contest_id": 2189,
+  "index": "F",
+  "name": "Zhora the Vacuum Cleaner",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "implementation",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 196,
+  "problem_url": "https://codeforces.com/problemset/problem/2189/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2189/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2189/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2189F%20Zhora%20the%20Vacuum%20Cleaner%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2189F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Zhora the Vacuum Cleaner - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings",
+      "trees",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

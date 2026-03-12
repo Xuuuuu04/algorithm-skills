@@ -1,0 +1,28 @@
+{
+  "id": "CF-2121D",
+  "contest_id": 2121,
+  "index": "D",
+  "name": "1709",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 17890,
+  "problem_url": "https://codeforces.com/problemset/problem/2121/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2121/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2121/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2121D%201709%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2121/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2121D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

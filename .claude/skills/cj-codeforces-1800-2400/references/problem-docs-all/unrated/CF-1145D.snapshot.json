@@ -1,0 +1,28 @@
+{
+  "id": "CF-1145D",
+  "contest_id": 1145,
+  "index": "D",
+  "name": "Pigeon d'Or",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 1189,
+  "problem_url": "https://codeforces.com/problemset/problem/1145/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1145/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1145/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1145D%20Pigeon%20d%27Or%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1145/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1145D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

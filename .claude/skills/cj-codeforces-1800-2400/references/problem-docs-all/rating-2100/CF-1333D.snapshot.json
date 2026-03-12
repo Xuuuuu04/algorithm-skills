@@ -1,0 +1,42 @@
+{
+  "id": "CF-1333D",
+  "contest_id": 1333,
+  "index": "D",
+  "name": "Challenges in school №41",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "games",
+    "graphs",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 4117,
+  "problem_url": "https://codeforces.com/problemset/problem/1333/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1333/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1333/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1333D%20Challenges%20in%20school%20%E2%84%9641%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1333D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Challenges in school №41 - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "games",
+      "graphs",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

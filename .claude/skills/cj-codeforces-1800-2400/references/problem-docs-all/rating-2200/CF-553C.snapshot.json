@@ -1,0 +1,34 @@
+{
+  "id": "CF-553C",
+  "contest_id": 553,
+  "index": "C",
+  "name": "Love Triangles",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs"
+  ],
+  "solved_count": 1953,
+  "problem_url": "https://codeforces.com/problemset/problem/553/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/553/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/553/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=553C%20Love%20Triangles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P553C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Love Triangles - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

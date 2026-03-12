@@ -1,0 +1,28 @@
+{
+  "id": "CF-1380A",
+  "contest_id": 1380,
+  "index": "A",
+  "name": "Three Indices",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures"
+  ],
+  "solved_count": 38586,
+  "problem_url": "https://codeforces.com/problemset/problem/1380/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1380/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1380/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1380A%20Three%20Indices%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1380A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1380A Three Indices - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 130,
+    "mirror_attempt": 278,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

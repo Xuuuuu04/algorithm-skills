@@ -1,0 +1,42 @@
+{
+  "id": "CF-1728E",
+  "contest_id": 1728,
+  "index": "E",
+  "name": "Red-Black Pepper",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1728/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1728/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1728/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1728E%20Red-Black Pepper%20tutorial",
+  "solved_count": 2006,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1728E",
+  "hydro_meta": {
+    "page_title": "Red-Black Pepper - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "number theory",
+      "sortings",
+      "ternary search"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

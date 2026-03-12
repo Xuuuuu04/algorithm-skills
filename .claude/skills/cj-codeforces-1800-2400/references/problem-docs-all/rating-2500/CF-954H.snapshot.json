@@ -1,0 +1,32 @@
+{
+  "id": "CF-954H",
+  "contest_id": 954,
+  "index": "H",
+  "name": "Path Counting",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "dp"
+  ],
+  "solved_count": 754,
+  "problem_url": "https://codeforces.com/problemset/problem/954/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/954/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/954/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=954H%20Path%20Counting%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P954H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Path Counting - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

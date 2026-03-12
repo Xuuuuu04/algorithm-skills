@@ -1,0 +1,32 @@
+{
+  "id": "CF-578A",
+  "contest_id": 578,
+  "index": "A",
+  "name": "A Problem about Polyline",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "geometry",
+    "math"
+  ],
+  "solved_count": 4932,
+  "problem_url": "https://codeforces.com/problemset/problem/578/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/578/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/578/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=578A%20A%20Problem%20about%20Polyline%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P578A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "A Problem about Polyline - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "math",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

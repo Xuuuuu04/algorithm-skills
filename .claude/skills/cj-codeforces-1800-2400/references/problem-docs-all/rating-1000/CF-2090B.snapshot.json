@@ -1,0 +1,29 @@
+{
+  "id": "CF-2090B",
+  "contest_id": 2090,
+  "index": "B",
+  "name": "Pushing Balls",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 16144,
+  "problem_url": "https://codeforces.com/problemset/problem/2090/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2090/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2090/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2090B%20Pushing%20Balls%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2090/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2090B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

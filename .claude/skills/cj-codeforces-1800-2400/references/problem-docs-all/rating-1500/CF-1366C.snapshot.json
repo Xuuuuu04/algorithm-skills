@@ -1,0 +1,32 @@
+{
+  "id": "CF-1366C",
+  "contest_id": 1366,
+  "index": "C",
+  "name": "Palindromic Paths",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 14205,
+  "problem_url": "https://codeforces.com/problemset/problem/1366/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1366/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1366/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1366C%20Palindromic%20Paths%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1366C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Palindromic Paths - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

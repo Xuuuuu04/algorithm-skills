@@ -1,0 +1,38 @@
+{
+  "id": "CF-899E",
+  "contest_id": 899,
+  "index": "E",
+  "name": "Segments Removal",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "data structures",
+    "dsu",
+    "flows",
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 3495,
+  "problem_url": "https://codeforces.com/problemset/problem/899/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/899/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/899/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=899E%20Segments%20Removal%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P899E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Segments Removal - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dsu",
+      "flows",
+      "implementation",
+      "two pointers",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

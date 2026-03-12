@@ -1,0 +1,29 @@
+{
+  "id": "CF-1810B",
+  "contest_id": 1810,
+  "index": "B",
+  "name": "Candies",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 18797,
+  "problem_url": "https://codeforces.com/problemset/problem/1810/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1810/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1810/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1810B%20Candies%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1810B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1810B Candies - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 163,
+    "mirror_attempt": 228,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

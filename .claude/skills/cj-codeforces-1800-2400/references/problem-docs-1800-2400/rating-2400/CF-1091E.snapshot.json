@@ -1,0 +1,47 @@
+{
+  "id": "CF-1091E",
+  "contest_id": 1091,
+  "index": "E",
+  "name": "New Year and the Acquaintance Estimation",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "data structures",
+    "graphs",
+    "greedy",
+    "implementation",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1091/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1091/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1091/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1091E%20New Year and the Acquaintance Estimation%20tutorial",
+  "solved_count": 1078,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1091E",
+  "hydro_meta": {
+    "page_title": "New Year and the Acquaintance Estimation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "graphs",
+      "greedy",
+      "implementation",
+      "math",
+      "sortings",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

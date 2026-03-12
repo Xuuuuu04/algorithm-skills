@@ -1,0 +1,43 @@
+{
+  "id": "CF-1392F",
+  "contest_id": 1392,
+  "index": "F",
+  "name": "Omkar and Landslide",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1392/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1392/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1392/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1392F%20Omkar and Landslide%20tutorial",
+  "solved_count": 2383,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1392F",
+  "hydro_meta": {
+    "page_title": "Omkar and Landslide - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "math",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-1761F2",
+  "contest_id": 1761,
+  "index": "F2",
+  "name": "Anti-median (Hard Version)",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 102,
+  "problem_url": "https://codeforces.com/problemset/problem/1761/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1761/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1761/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1761F2%20Anti-median%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1761F2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Anti-median (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-1533B",
+  "contest_id": 1533,
+  "index": "B",
+  "name": "Nearest Point Function",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 815,
+  "problem_url": "https://codeforces.com/problemset/problem/1533/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1533/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1533/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1533B%20Nearest%20Point%20Function%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1533B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nearest Point Function - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

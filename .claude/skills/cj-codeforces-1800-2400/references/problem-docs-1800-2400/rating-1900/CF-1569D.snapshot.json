@@ -1,0 +1,38 @@
+{
+  "id": "CF-1569D",
+  "contest_id": 1569,
+  "index": "D",
+  "name": "Inconvenient Pairs",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "data structures",
+    "implementation",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1569/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1569/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1569/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1569D%20Inconvenient Pairs%20tutorial",
+  "solved_count": 4584,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1569D",
+  "hydro_meta": {
+    "page_title": "Inconvenient Pairs - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "implementation",
+      "sortings",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

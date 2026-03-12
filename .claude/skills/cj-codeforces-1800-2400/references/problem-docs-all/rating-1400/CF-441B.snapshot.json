@@ -1,0 +1,28 @@
+{
+  "id": "CF-441B",
+  "contest_id": 441,
+  "index": "B",
+  "name": "Valera and Fruits",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 7469,
+  "problem_url": "https://codeforces.com/problemset/problem/441/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/441/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/441/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=441B%20Valera%20and%20Fruits%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/441/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 441B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

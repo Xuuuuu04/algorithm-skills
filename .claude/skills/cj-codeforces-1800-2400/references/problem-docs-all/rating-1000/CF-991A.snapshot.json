@@ -1,0 +1,27 @@
+{
+  "id": "CF-991A",
+  "contest_id": 991,
+  "index": "A",
+  "name": "If at first you don't succeed...",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 11183,
+  "problem_url": "https://codeforces.com/problemset/problem/991/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/991/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/991/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=991A%20If%20at%20first%20you%20don%27t%20succeed...%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/991/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 991A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

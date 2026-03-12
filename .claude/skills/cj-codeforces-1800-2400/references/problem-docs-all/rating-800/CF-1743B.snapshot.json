@@ -1,0 +1,28 @@
+{
+  "id": "CF-1743B",
+  "contest_id": 1743,
+  "index": "B",
+  "name": "Permutation Value",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 23142,
+  "problem_url": "https://codeforces.com/problemset/problem/1743/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1743/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1743/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1743B%20Permutation%20Value%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1743/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1743B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

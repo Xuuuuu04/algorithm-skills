@@ -1,0 +1,36 @@
+{
+  "id": "CF-1282E",
+  "contest_id": 1282,
+  "index": "E",
+  "name": "The Cake Is a Lie",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 1213,
+  "problem_url": "https://codeforces.com/problemset/problem/1282/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1282/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1282/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1282E%20The%20Cake%20Is%20a%20Lie%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1282E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Cake Is a Lie - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

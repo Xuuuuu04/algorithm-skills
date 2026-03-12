@@ -1,0 +1,34 @@
+{
+  "id": "CF-2072C",
+  "contest_id": 2072,
+  "index": "C",
+  "name": "Creating Keys for StORages Has Become My Main Skill",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 19274,
+  "problem_url": "https://codeforces.com/problemset/problem/2072/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2072/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2072/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2072C%20Creating%20Keys%20for%20StORages%20Has%20Become%20My%20Main%20Skill%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2072C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Creating Keys for StORages Has Become My Main Skill - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

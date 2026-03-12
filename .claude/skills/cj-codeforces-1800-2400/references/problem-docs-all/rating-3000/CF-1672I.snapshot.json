@@ -1,0 +1,28 @@
+{
+  "id": "CF-1672I",
+  "contest_id": 1672,
+  "index": "I",
+  "name": "PermutationForces",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 251,
+  "problem_url": "https://codeforces.com/problemset/problem/1672/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1672/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1672/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1672I%20PermutationForces%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1672I",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1672I PermutationForces - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 59,
+    "mirror_attempt": 134,
+    "time_limit": "5000 ms",
+    "memory_limit": "1024000 KB"
+  }
+}

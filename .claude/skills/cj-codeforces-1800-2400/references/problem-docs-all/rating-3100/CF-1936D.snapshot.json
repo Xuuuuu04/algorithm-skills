@@ -1,0 +1,36 @@
+{
+  "id": "CF-1936D",
+  "contest_id": 1936,
+  "index": "D",
+  "name": "Bitwise Paradox",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "data structures",
+    "greedy",
+    "two pointers"
+  ],
+  "solved_count": 601,
+  "problem_url": "https://codeforces.com/problemset/problem/1936/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1936/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1936/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1936D%20Bitwise%20Paradox%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1936D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bitwise Paradox - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "data structures",
+      "greedy",
+      "two pointers"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "5000ms",
+    "memory_limit": "1024MiB"
+  }
+}

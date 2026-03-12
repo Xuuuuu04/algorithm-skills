@@ -1,0 +1,40 @@
+{
+  "id": "CF-1204D2",
+  "contest_id": 1204,
+  "index": "D2",
+  "name": "Kirk and a Binary String (hard version)",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "greedy",
+    "math",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1204/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1204/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1204/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1204D2%20Kirk and a Binary String (hard version)%20tutorial",
+  "solved_count": 3370,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1204D2",
+  "hydro_meta": {
+    "page_title": "Kirk and a Binary String (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "strings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

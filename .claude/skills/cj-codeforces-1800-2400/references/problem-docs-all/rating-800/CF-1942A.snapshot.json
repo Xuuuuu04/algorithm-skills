@@ -1,0 +1,28 @@
+{
+  "id": "CF-1942A",
+  "contest_id": 1942,
+  "index": "A",
+  "name": "Farmer John's Challenge",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 18449,
+  "problem_url": "https://codeforces.com/problemset/problem/1942/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1942/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1942/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1942A%20Farmer%20John%27s%20Challenge%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1942A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1942A Farmer John's Challenge - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 120,
+    "mirror_attempt": 181,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

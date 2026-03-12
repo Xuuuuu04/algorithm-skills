@@ -1,0 +1,34 @@
+{
+  "id": "CF-1621B",
+  "contest_id": 1621,
+  "index": "B",
+  "name": "Integers Shop",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 14444,
+  "problem_url": "https://codeforces.com/problemset/problem/1621/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1621/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1621/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1621B%20Integers%20Shop%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1621B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Integers Shop - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414411:WhmISrPjxMhk5xXtuLX6Lua8AsEphdUa/isyqnQi83o=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF546A Soldier and Bananas - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF546A","type":"CF","title":"Soldier and Bananas","difficulty":1,"tags":[2,5,266],"wantsTranslation":false,"totalSubmit":2769,"totalAccepted":1339,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Soldier and Bananas","background":null,"description":"\u4e00\u540d\u58eb\u5175\u60f3\u8981\u5728\u5546\u5e97\u8d2d\u4e70 $w$ \u6839\u9999\u8549\u3002\u4ed6\u9700\u8981\u4e3a\u7b2c\u4e00\u6839\u9999\u8549\u652f\u4ed8 $k$ \u7f8e\u5143\uff0c\u4e3a\u7b2c\u4e8c\u6839\u9999\u8549\u652f\u4ed8 $2k$ \u7f8e\u5143\uff0c\u4ee5\u6b64\u7c7b\u63a8\uff08\u4e5f\u5c31\u662f\u8bf4\uff0c\u4ed6\u9700\u8981\u4e3a\u7b2c $i$ \u6839\u9999\u8549\u652f\u4ed8 $i\u00b7k$ \u7f8e\u5143\uff09\u3002\n\n\u4ed6\u624b\u4e0a\u6709 $n$ \u7f8e\u5143\u3002\u4ed6\u60f3\u77e5\u9053\uff0c\u4e3a\u4e86\u4e70\u5230 $w$ \u6839\u9999\u8549\uff0c\u4ed6\u8fd8\u9700\u8981\u5411\u4ed6\u7684\u6218\u53cb\u501f\u591a\u5c11\u94b1\uff1f","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e09\u4e2a\u6b63\u6574\u6570 $k, n, w$\uff08$1 \\leq k, w \\leq 1000$\uff0c$0 \\leq n \\leq 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a\u7b2c\u4e00\u6839\u9999\u8549\u7684\u4ef7\u683c\u3001\u58eb\u5175\u624b\u4e0a\u539f\u6709\u7684\u94b1\u6570\u548c\u60f3\u8981\u8d2d\u4e70\u7684\u9999\u8549\u6570\u91cf\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u58eb\u5175\u9700\u8981\u5411\u6218\u53cb\u501f\u7684\u94b1\u6570\u3002\u5982\u679c\u4ed6\u7684\u94b1\u5df2\u7ecf\u8db3\u591f\u8d2d\u4e70\u6240\u9700\u9999\u8549\uff0c\u5219\u8f93\u51fa $0$\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Soldier and Bananas","background":"","description":"A soldier wants to buy $ w $ bananas in the shop. He has to pay $ k $ dollars for the first banana, $ 2k $ dollars for the second one and so on (in other words, he has to pay $ i\u00b7k $ dollars for the $ i $ -th banana).\n\nHe has $ n $ dollars. How many dollars does he have to borrow from his friend soldier to buy $ w $ bananas?","formatI":"The first line contains three positive integers $ k,n,w $ ( $ 1\u003C=k,w\u003C=1000 $ , $ 0\u003C=n\u003C=10^{9} $ ), the cost of the first banana, initial number of dollars the soldier has and number of bananas he wants.","formatO":"Output one integer \u2014 the amount of dollars that the soldier must borrow from his friend. If he doesn\u0027t have to borrow money, output $ 0 $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3 17 4\n","13"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"546A","link":"https:\/\/codeforces.com\/problemset\/problem\/546\/A"},"translation":"\u6709\u4e2a\u58eb\u5175\u60f3\u4e70 $w$ \u4e2a\u9999\u8549\uff0c\u7b2c $i$ \u4e2a\u9999\u8549\u9700\u652f\u4ed8 $ki$ \u5143\u3002\n\n\u73b0\u5728\u4ed6\u624b\u91cc\u6709 $n$ \u5143\uff0c\u95ee\u4ed6\u81f3\u5c11\u8981\u501f\u591a\u5c11\u94b1\u624d\u80fd\u4e70\u5230 $w$ \u4e2a\u9999\u8549\uff1f\uff08\u4e0d\u9700\u8981\u501f\u94b1\u8f93\u51fa $0$\uff09\u3002\n\n\u8f93\u5165\u4e00\u884c\u4e09\u4e2a\u6574\u6570 $n$, $k$, $w$, \u542b\u4e49\u5982\u9898\u9762\u3002"},"translations":{"en":{"name":"Soldier and Bananas","background":"","description":"A soldier wants to buy $ w $ bananas in the shop. He has to pay $ k $ dollars for the first banana, $ 2k $ dollars for the second one and so on (in other words, he has to pay $ i\u00b7k $ dollars for the $ i $ -th banana).\n\nHe has $ n $ dollars. How many dollars does he have to borrow from his friend soldier to buy $ w $ bananas?","formatI":"The first line contains three positive integers $ k,n,w $ ( $ 1\u003C=k,w\u003C=1000 $ , $ 0\u003C=n\u003C=10^{9} $ ), the cost of the first banana, initial number of dollars the soldier has and number of bananas he wants.","formatO":"Output one integer \u2014 the amount of dollars that the soldier must borrow from his friend. If he doesn\u0027t have to borrow money, output $ 0 $ .","hint":"","locale":"en"},"zh-CN":{"name":"Soldier and Bananas","background":null,"description":"\u4e00\u540d\u58eb\u5175\u60f3\u8981\u5728\u5546\u5e97\u8d2d\u4e70 $w$ \u6839\u9999\u8549\u3002\u4ed6\u9700\u8981\u4e3a\u7b2c\u4e00\u6839\u9999\u8549\u652f\u4ed8 $k$ \u7f8e\u5143\uff0c\u4e3a\u7b2c\u4e8c\u6839\u9999\u8549\u652f\u4ed8 $2k$ \u7f8e\u5143\uff0c\u4ee5\u6b64\u7c7b\u63a8\uff08\u4e5f\u5c31\u662f\u8bf4\uff0c\u4ed6\u9700\u8981\u4e3a\u7b2c $i$ \u6839\u9999\u8549\u652f\u4ed8 $i\u00b7k$ \u7f8e\u5143\uff09\u3002\n\n\u4ed6\u624b\u4e0a\u6709 $n$ \u7f8e\u5143\u3002\u4ed6\u60f3\u77e5\u9053\uff0c\u4e3a\u4e86\u4e70\u5230 $w$ \u6839\u9999\u8549\uff0c\u4ed6\u8fd8\u9700\u8981\u5411\u4ed6\u7684\u6218\u53cb\u501f\u591a\u5c11\u94b1\uff1f","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e09\u4e2a\u6b63\u6574\u6570 $k, n, w$\uff08$1 \\leq k, w \\leq 1000$\uff0c$0 \\leq n \\leq 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a\u7b2c\u4e00\u6839\u9999\u8549\u7684\u4ef7\u683c\u3001\u58eb\u5175\u624b\u4e0a\u539f\u6709\u7684\u94b1\u6570\u548c\u60f3\u8981\u8d2d\u4e70\u7684\u9999\u8549\u6570\u91cf\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u58eb\u5175\u9700\u8981\u5411\u6218\u53cb\u501f\u7684\u94b1\u6570\u3002\u5982\u679c\u4ed6\u7684\u94b1\u5df2\u7ecf\u8db3\u591f\u8d2d\u4e70\u6240\u9700\u9999\u8549\uff0c\u5219\u8f93\u51fa $0$\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF546A Soldier and Bananas","type":2,"slug":"CF546A","color":"orange-3"},"discussions":[{"id":866275,"title":"\u7ffb\u8bd1\u597d\u50cf\u9519\u4e86","author":{"uid":1260496,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1260496.png","name":"orld","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1721804495},{"id":856491,"title":"\u7ffb\u8bd1\u9898\u9762\u6709\u8bef","author":{"uid":137387,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/137387.png","name":"\u98ce\u96f7\u5929\u751f","slogan":"\u8fd9\u4e2a\u5bb6\u4f19\u867d\u7136\u4e0d\u61d2\uff0c\u4f46\u4e5f\u4ec0\u4e48\u90fd\u6ca1\u6709\u7559\u4e0b","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1721175797},{"id":488471,"title":"\u7ffb\u8bd1","author":{"uid":758683,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/758683.png","name":"Actinium","slogan":"\u8fd9\u4e2a\u5bb6\u4f19\u5f88\u900a\uff0c\u4ec0\u4e48\u4e5f\u6ca1\u6709\u7559\u4e0b","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/kciplpky.png"},"time":1662198284},{"id":286161,"title":"\u8dea\u95ee\u5404\u4f4d\u5927\u4f6c","author":{"uid":309399,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/309399.png","name":"\u5c0f\u5362","slogan":"\u4efb\u4f55\u4e00\u4e2a\u5fae\u4e0d\u8db3\u9053\u7684\u76ee\u6807\uff0c\u90fd\u6709\u4e00\u4e2a\u4f1f\u5927\u7684\u5f00\u59cb","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1607942004},{"id":41602,"title":"\u7ffb\u8bd1","author":{"uid":84025,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/84025.png","name":"Kiel","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1525339349}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328011.636099,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF546A Soldier and Bananas","description":"\u4e00\u540d\u58eb\u5175\u60f3\u8981\u5728\u5546\u5e97\u8d2d\u4e70 w \u6839\u9999\u8549\u3002\u4ed6\u9700\u8981\u4e3a\u7b2c\u4e00\u6839\u9999\u8549\u652f\u4ed8 k \u7f8e\u5143\uff0c\u4e3a\u7b2c\u4e8c\u6839\u9999\u8549\u652f\u4ed8 2k \u7f8e\u5143\uff0c\u4ee5\u6b64\u7c7b\u63a8\uff08\u4e5f\u5c31\u662f\u8bf4\uff0c\u4ed6\u9700\u8981\u4e3a\u7b2c i \u6839\u9999\u8549\u652f\u4ed8 i\u00b7k \u7f8e\u5143\uff09\u3002\n\u4ed6\u624b\u4e0a\u6709 n \u7f8e\u5143\u3002\u4ed6\u60f3\u77e5\u9053\uff0c\u4e3a\u4e86\u4e70\u5230 w \u6839\u9999\u8549\uff0c\u4ed6\u8fd8\u9700\u8981\u5411\u4ed6\u7684\u6218\u53cb\u501f\u591a\u5c11\u94b1\uff1f"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF546A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF546A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF546A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF546A Soldier and Bananas" />
+    <meta property="og:description" content="一名士兵想要在商店购买 w 根香蕉。他需要为第一根香蕉支付 k 美元，为第二根香蕉支付 2k 美元，以此类推（也就是说，他需要为第 i 根香蕉支付 i·k 美元）。
+他手上有 n 美元。他想知道，为了买到 w 根香蕉，他还需要向他的战友借多少钱？" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF546A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF546A Soldier and Bananas</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    一名士兵想要在商店购买 $w$ 根香蕉。他需要为第一根香蕉支付 $k$ 美元，为第二根香蕉支付 $2k$ 美元，以此类推（也就是说，他需要为第 $i$ 根香蕉支付 $i·k$ 美元）。
+
+他手上有 $n$ 美元。他想知道，为了买到 $w$ 根香蕉，他还需要向他的战友借多少钱？
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含三个正整数 $k, n, w$（$1 \leq k, w \leq 1000$，$0 \leq n \leq 10^9$），分别表示第一根香蕉的价格、士兵手上原有的钱数和想要购买的香蕉数量。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示士兵需要向战友借的钱数。如果他的钱已经足够购买所需香蕉，则输出 $0$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

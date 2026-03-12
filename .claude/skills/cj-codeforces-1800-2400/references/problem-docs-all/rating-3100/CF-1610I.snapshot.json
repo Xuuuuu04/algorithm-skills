@@ -1,0 +1,32 @@
+{
+  "id": "CF-1610I",
+  "contest_id": 1610,
+  "index": "I",
+  "name": "Mashtali vs AtCoder",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "games",
+    "trees"
+  ],
+  "solved_count": 331,
+  "problem_url": "https://codeforces.com/problemset/problem/1610/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1610/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1610/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1610I%20Mashtali%20vs%20AtCoder%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1610I",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mashtali vs AtCoder - 题目详情 - Hydro",
+    "mirror_tags": [
+      "games",
+      "trees",
+      "*3100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

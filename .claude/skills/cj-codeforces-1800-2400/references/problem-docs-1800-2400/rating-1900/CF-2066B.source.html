@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773314019:FIUd6VQ+cdmRUS10PvVDpBjKEcrKkHnDOjy7b3WZ6aI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '3164600a60a16357'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031118'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2066B White Magic - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2066B","type":"CF","title":"White Magic","difficulty":4,"tags":[7],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"White Magic","background":"","description":"\u6211\u4eec\u79f0\u4e00\u4e2a\u5e8f\u5217 $a_1, a_2, \\ldots, a_n$ \u662f\u9b54\u6cd5\u7684\uff0c\u5982\u679c\u5bf9\u4e8e\u6240\u6709 $1 \\leq i \\leq n-1$ \u6ee1\u8db3\uff1a$\\operatorname{min}(a_1, \\ldots, a_i) \\geq \\operatorname{mex}(a_{i+1}, \\ldots, a_n)$\u3002\u7279\u522b\u5730\uff0c\u4efb\u610f\u957f\u5ea6\u4e3a $1$ \u7684\u5e8f\u5217\u90fd\u88ab\u89c6\u4e3a\u9b54\u6cd5\u5e8f\u5217\u3002\n\n\u4e00\u4e2a\u6574\u6570\u96c6\u5408 $a_1, a_2, \\ldots, a_k$ \u7684\u6700\u5c0f\u672a\u51fa\u73b0\u503c\uff08MEX\uff09\u88ab\u5b9a\u4e49\u4e3a\u672a\u51fa\u73b0\u5728\u8be5\u96c6\u5408\u4e2d\u7684\u6700\u5c0f\u975e\u8d1f\u6574\u6570 $t$\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u7531 $n$ \u4e2a\u975e\u8d1f\u6574\u6570\u6784\u6210\u7684\u5e8f\u5217 $a$\u3002\u8bf7\u627e\u5230\u8be5\u5e8f\u5217\u7684\u9b54\u6cd5\u5b50\u5e8f\u5217$^{\\text{\u2217}}$ \u7684\u6700\u5927\u53ef\u80fd\u957f\u5ea6\u3002\n\n$^{\\text{\u2217}}$ \u82e5\u5e8f\u5217 $a$ \u53ef\u4ee5\u901a\u8fc7\u4ece\u5e8f\u5217 $b$ \u4e2d\u5220\u9664\u4efb\u610f\u591a\u4e2a\uff08\u53ef\u4ee5\u662f\u96f6\u4e2a\u6216\u5168\u90e8\uff09\u5143\u7d20\u5f97\u5230\uff0c\u5219\u79f0 $a$ \u662f $b$ \u7684\u5b50\u5e8f\u5217\u3002\n","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u8f93\u5165\u6d4b\u8bd5\u7528\u4f8b\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\u3002\u968f\u540e\u4e3a\u5404\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2 \\cdot 10^5$\uff09\u2014\u2014\u5e8f\u5217 $a$ \u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\leq a_i \\leq 10^9$\uff09\u2014\u2014\u5e8f\u5217 $a$ \u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u5e8f\u5217 $a$ \u7684\u9b54\u6cd5\u5b50\u5e8f\u5217\u7684\u6700\u5927\u53ef\u80fd\u957f\u5ea6\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5e8f\u5217 $[4, 3, 2, 1, 0]$ \u662f\u9b54\u6cd5\u7684\uff0c\u56e0\u4e3a\uff1a\n- $\\operatorname{min}(4) = 4$\uff0c$\\operatorname{mex}(3, 2, 1, 0) = 4$\u3002\u6ee1\u8db3 $4 \\geq 4$\u3002\n- $\\operatorname{min}(4, 3) = 3$\uff0c$\\operatorname{mex}(2, 1, 0) = 3$\u3002\u6ee1\u8db3 $3 \\geq 3$\u3002\n- $\\operatorname{min}(4, 3, 2) = 2$\uff0c$\\operatorname{mex}(1, 0) = 2$\u3002\u6ee1\u8db3 $2 \\geq 2$\u3002\n- $\\operatorname{min}(4, 3, 2, 1) = 1$\uff0c$\\operatorname{mex}(0) = 1$\u3002\u6ee1\u8db3 $1 \\geq 1$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5e8f\u5217 $[4, 3, 3, 2, 1, 0]$ \u4e0d\u662f\u9b54\u6cd5\u7684\uff0c\u56e0\u4e3a $\\operatorname{min}(4, 3) = 3$\uff0c$\\operatorname{mex}(3, 2, 1, 0) = 4$\uff0c\u6b64\u65f6 $3 \u003C 4$\u3002\u7136\u800c\u8be5\u5e8f\u5217\u7684\u5b50\u5e8f\u5217 $[4, 3, 2, 1, 0]$ \u662f\u9b54\u6cd5\u7684\uff0c\u56e0\u6b64\u7b54\u6848\u4e3a $5$\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"},"content":{"name":"White Magic","background":"","description":"We call a sequence $ a_1, a_2, \\ldots, a_n $ magical if for all $ 1 \\leq i \\leq n-1 $ it holds that: $ \\operatorname{min}(a_1, \\ldots, a_i) \\geq \\operatorname{mex}(a_{i+1}, \\ldots, a_n) $ . In particular, any sequence of length $ 1 $ is considered magical.\n\nThe minimum excluded (MEX) of a collection of integers $ a_1, a_2, \\ldots, a_k $ is defined as the smallest non-negative integer $ t $ which does not occur in the collection $ a $ .\n\nYou are given a sequence $ a $ of $ n $ non-negative integers. Find the maximum possible length of a magical subsequence $ ^{\\text{\u2217}} $ of the sequence $ a $ .\n\n $ ^{\\text{\u2217}} $ A sequence $ a $ is a subsequence of a sequence $ b $ if $ a $ can be obtained from $ b $ by the deletion of several (possibly, zero or all) element from arbitrary positions.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains an integer $ n $ ( $ 1 \\leq n \\leq 2 \\cdot 10^5 $ ) \u2014 the length of the sequence $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\leq a_i \\leq 10^9 $ ) \u2014 the elements of the sequence $ a $ .\n\nIt is guaranteed that the sum of $ n $ across all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a single number \u2014 the maximum possible length of a magical subsequence of the sequence $ a $ .","hint":"In the first test case, the sequence $ [4, 3, 2, 1, 0] $ is magical, since:\n\n- $ \\operatorname{min}(4) = 4, \\operatorname{mex}(3, 2, 1, 0) = 4 $ . $ 4 \\geq 4 $\n- $ \\operatorname{min}(4, 3) = 3, \\operatorname{mex}(2, 1, 0) = 3 $ . $ 3 \\geq 3 $\n- $ \\operatorname{min}(4, 3, 2) = 2, \\operatorname{mex}(1, 0) = 2 $ . $ 2 \\geq 2 $\n- $ \\operatorname{min}(4, 3, 2, 1) = 1, \\operatorname{mex}(0) = 1 $ . $ 1 \\geq 1 $\n\nIn the second test case, the sequence $ [4, 3, 3, 2, 1, 0] $ is not magical, since $ \\operatorname{min}(4, 3) = 3, \\operatorname{mex}(3, 2, 1, 0) = 4 $ , $ 3 \u003C 4 $ . However, the subsequence $ [4, 3, 2, 1, 0] $ of this sequence is magical, so the answer is $ 5 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["8\n5\n4 3 2 1 0\n6\n4 3 3 2 1 0\n4\n2 0 1 2\n1\n777\n4\n1000000000 1 7 9\n2\n0 1\n2\n1 2\n4\n0 1 0 1","5\n5\n3\n1\n4\n2\n2\n3"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2066B","link":"https:\/\/codeforces.com\/problemset\/problem\/2066\/B"},"translation":""},"translations":{"en":{"name":"White Magic","background":"","description":"We call a sequence $ a_1, a_2, \\ldots, a_n $ magical if for all $ 1 \\leq i \\leq n-1 $ it holds that: $ \\operatorname{min}(a_1, \\ldots, a_i) \\geq \\operatorname{mex}(a_{i+1}, \\ldots, a_n) $ . In particular, any sequence of length $ 1 $ is considered magical.\n\nThe minimum excluded (MEX) of a collection of integers $ a_1, a_2, \\ldots, a_k $ is defined as the smallest non-negative integer $ t $ which does not occur in the collection $ a $ .\n\nYou are given a sequence $ a $ of $ n $ non-negative integers. Find the maximum possible length of a magical subsequence $ ^{\\text{\u2217}} $ of the sequence $ a $ .\n\n $ ^{\\text{\u2217}} $ A sequence $ a $ is a subsequence of a sequence $ b $ if $ a $ can be obtained from $ b $ by the deletion of several (possibly, zero or all) element from arbitrary positions.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains an integer $ n $ ( $ 1 \\leq n \\leq 2 \\cdot 10^5 $ ) \u2014 the length of the sequence $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 0 \\leq a_i \\leq 10^9 $ ) \u2014 the elements of the sequence $ a $ .\n\nIt is guaranteed that the sum of $ n $ across all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a single number \u2014 the maximum possible length of a magical subsequence of the sequence $ a $ .","hint":"In the first test case, the sequence $ [4, 3, 2, 1, 0] $ is magical, since:\n\n- $ \\operatorname{min}(4) = 4, \\operatorname{mex}(3, 2, 1, 0) = 4 $ . $ 4 \\geq 4 $\n- $ \\operatorname{min}(4, 3) = 3, \\operatorname{mex}(2, 1, 0) = 3 $ . $ 3 \\geq 3 $\n- $ \\operatorname{min}(4, 3, 2) = 2, \\operatorname{mex}(1, 0) = 2 $ . $ 2 \\geq 2 $\n- $ \\operatorname{min}(4, 3, 2, 1) = 1, \\operatorname{mex}(0) = 1 $ . $ 1 \\geq 1 $\n\nIn the second test case, the sequence $ [4, 3, 3, 2, 1, 0] $ is not magical, since $ \\operatorname{min}(4, 3) = 3, \\operatorname{mex}(3, 2, 1, 0) = 4 $ , $ 3 \u003C 4 $ . However, the subsequence $ [4, 3, 2, 1, 0] $ of this sequence is magical, so the answer is $ 5 $ .","locale":"en"},"zh-CN":{"name":"White Magic","background":"","description":"\u6211\u4eec\u79f0\u4e00\u4e2a\u5e8f\u5217 $a_1, a_2, \\ldots, a_n$ \u662f\u9b54\u6cd5\u7684\uff0c\u5982\u679c\u5bf9\u4e8e\u6240\u6709 $1 \\leq i \\leq n-1$ \u6ee1\u8db3\uff1a$\\operatorname{min}(a_1, \\ldots, a_i) \\geq \\operatorname{mex}(a_{i+1}, \\ldots, a_n)$\u3002\u7279\u522b\u5730\uff0c\u4efb\u610f\u957f\u5ea6\u4e3a $1$ \u7684\u5e8f\u5217\u90fd\u88ab\u89c6\u4e3a\u9b54\u6cd5\u5e8f\u5217\u3002\n\n\u4e00\u4e2a\u6574\u6570\u96c6\u5408 $a_1, a_2, \\ldots, a_k$ \u7684\u6700\u5c0f\u672a\u51fa\u73b0\u503c\uff08MEX\uff09\u88ab\u5b9a\u4e49\u4e3a\u672a\u51fa\u73b0\u5728\u8be5\u96c6\u5408\u4e2d\u7684\u6700\u5c0f\u975e\u8d1f\u6574\u6570 $t$\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u7531 $n$ \u4e2a\u975e\u8d1f\u6574\u6570\u6784\u6210\u7684\u5e8f\u5217 $a$\u3002\u8bf7\u627e\u5230\u8be5\u5e8f\u5217\u7684\u9b54\u6cd5\u5b50\u5e8f\u5217$^{\\text{\u2217}}$ \u7684\u6700\u5927\u53ef\u80fd\u957f\u5ea6\u3002\n\n$^{\\text{\u2217}}$ \u82e5\u5e8f\u5217 $a$ \u53ef\u4ee5\u901a\u8fc7\u4ece\u5e8f\u5217 $b$ \u4e2d\u5220\u9664\u4efb\u610f\u591a\u4e2a\uff08\u53ef\u4ee5\u662f\u96f6\u4e2a\u6216\u5168\u90e8\uff09\u5143\u7d20\u5f97\u5230\uff0c\u5219\u79f0 $a$ \u662f $b$ \u7684\u5b50\u5e8f\u5217\u3002\n","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u8f93\u5165\u6d4b\u8bd5\u7528\u4f8b\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\u3002\u968f\u540e\u4e3a\u5404\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2 \\cdot 10^5$\uff09\u2014\u2014\u5e8f\u5217 $a$ \u7684\u957f\u5ea6\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\leq a_i \\leq 10^9$\uff09\u2014\u2014\u5e8f\u5217 $a$ \u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u5e8f\u5217 $a$ \u7684\u9b54\u6cd5\u5b50\u5e8f\u5217\u7684\u6700\u5927\u53ef\u80fd\u957f\u5ea6\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5e8f\u5217 $[4, 3, 2, 1, 0]$ \u662f\u9b54\u6cd5\u7684\uff0c\u56e0\u4e3a\uff1a\n- $\\operatorname{min}(4) = 4$\uff0c$\\operatorname{mex}(3, 2, 1, 0) = 4$\u3002\u6ee1\u8db3 $4 \\geq 4$\u3002\n- $\\operatorname{min}(4, 3) = 3$\uff0c$\\operatorname{mex}(2, 1, 0) = 3$\u3002\u6ee1\u8db3 $3 \\geq 3$\u3002\n- $\\operatorname{min}(4, 3, 2) = 2$\uff0c$\\operatorname{mex}(1, 0) = 2$\u3002\u6ee1\u8db3 $2 \\geq 2$\u3002\n- $\\operatorname{min}(4, 3, 2, 1) = 1$\uff0c$\\operatorname{mex}(0) = 1$\u3002\u6ee1\u8db3 $1 \\geq 1$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5e8f\u5217 $[4, 3, 3, 2, 1, 0]$ \u4e0d\u662f\u9b54\u6cd5\u7684\uff0c\u56e0\u4e3a $\\operatorname{min}(4, 3) = 3$\uff0c$\\operatorname{mex}(3, 2, 1, 0) = 4$\uff0c\u6b64\u65f6 $3 \u003C 4$\u3002\u7136\u800c\u8be5\u5e8f\u5217\u7684\u5b50\u5e8f\u5217 $[4, 3, 2, 1, 0]$ \u662f\u9b54\u6cd5\u7684\uff0c\u56e0\u6b64\u7b54\u6848\u4e3a $5$\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek R1 \u5b8c\u6210","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2066B White Magic","type":2,"slug":"CF2066B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773227619.402904,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2066B White Magic","description":"\u6211\u4eec\u79f0\u4e00\u4e2a\u5e8f\u5217 a_1, a_2, \\ldots, a_n \u662f\u9b54\u6cd5\u7684\uff0c\u5982\u679c\u5bf9\u4e8e\u6240\u6709 1 \\leq i \\leq n-1 \u6ee1\u8db3\uff1a\\operatorname{min}(a_1, \\ldots, a_i) \\geq \\operatorname{mex}(a_{i+1},\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2066B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2066B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2066B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2066B White Magic" />
+    <meta property="og:description" content="我们称一个序列 a_1, a_2, \ldots, a_n 是魔法的，如果对于所有 1 \leq i \leq n-1 满足：\operatorname{min}(a_1, \ldots, a_i) \geq \operatorname{mex}(a_{i+1},…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2066B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2066B White Magic</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    我们称一个序列 $a_1, a_2, \ldots, a_n$ 是魔法的，如果对于所有 $1 \leq i \leq n-1$ 满足：$\operatorname{min}(a_1, \ldots, a_i) \geq \operatorname{mex}(a_{i+1}, \ldots, a_n)$。特别地，任意长度为 $1$ 的序列都被视为魔法序列。
+
+一个整数集合 $a_1, a_2, \ldots, a_k$ 的最小未出现值（MEX）被定义为未出现在该集合中的最小非负整数 $t$。
+
+给定一个由 $n$ 个非负整数构成的序列 $a$。请找到该序列的魔法子序列$^{\text{∗}}$ 的最大可能长度。
+
+$^{\text{∗}}$ 若序列 $a$ 可以通过从序列 $b$ 中删除任意多个（可以是零个或全部）元素得到，则称 $a$ 是 $b$ 的子序列。
+
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试包含多个测试用例。第一行输入测试用例数 $t$（$1 \le t \le 10^4$）。随后为各测试用例的描述。
+
+每个测试用例的第一行包含一个整数 $n$（$1 \leq n \leq 2 \cdot 10^5$）——序列 $a$ 的长度。
+
+每个测试用例的第二行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$0 \leq a_i \leq 10^9$）——序列 $a$ 的元素。
+
+保证所有测试用例的 $n$ 之和不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数——序列 $a$ 的魔法子序列的最大可能长度。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，序列 $[4, 3, 2, 1, 0]$ 是魔法的，因为：
+- $\operatorname{min}(4) = 4$，$\operatorname{mex}(3, 2, 1, 0) = 4$。满足 $4 \geq 4$。
+- $\operatorname{min}(4, 3) = 3$，$\operatorname{mex}(2, 1, 0) = 3$。满足 $3 \geq 3$。
+- $\operatorname{min}(4, 3, 2) = 2$，$\operatorname{mex}(1, 0) = 2$。满足 $2 \geq 2$。
+- $\operatorname{min}(4, 3, 2, 1) = 1$，$\operatorname{mex}(0) = 1$。满足 $1 \geq 1$。
+
+在第二个测试用例中，序列 $[4, 3, 3, 2, 1, 0]$ 不是魔法的，因为 $\operatorname{min}(4, 3) = 3$，$\operatorname{mex}(3, 2, 1, 0) = 4$，此时 $3 < 4$。然而该序列的子序列 $[4, 3, 2, 1, 0]$ 是魔法的，因此答案为 $5$。
+
+翻译由 DeepSeek R1 完成
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

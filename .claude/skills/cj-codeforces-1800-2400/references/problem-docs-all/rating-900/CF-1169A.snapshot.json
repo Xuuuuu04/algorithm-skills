@@ -1,0 +1,32 @@
+{
+  "id": "CF-1169A",
+  "contest_id": 1169,
+  "index": "A",
+  "name": "Circle Metro",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 12639,
+  "problem_url": "https://codeforces.com/problemset/problem/1169/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1169/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1169/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1169A%20Circle%20Metro%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1169A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Circle Metro - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

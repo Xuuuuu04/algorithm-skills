@@ -1,0 +1,30 @@
+{
+  "id": "CF-696D",
+  "contest_id": 696,
+  "index": "D",
+  "name": "Legen...",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "matrices",
+    "strings"
+  ],
+  "solved_count": 1582,
+  "problem_url": "https://codeforces.com/problemset/problem/696/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/696/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/696/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=696D%20Legen...%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF696D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF696D Legen... - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 383,
+    "mirror_attempt": 705,
+    "time_limit": "6000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

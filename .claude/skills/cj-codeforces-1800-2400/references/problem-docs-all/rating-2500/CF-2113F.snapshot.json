@@ -1,0 +1,30 @@
+{
+  "id": "CF-2113F",
+  "contest_id": 2113,
+  "index": "F",
+  "name": "Two Arrays",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "math"
+  ],
+  "solved_count": 922,
+  "problem_url": "https://codeforces.com/problemset/problem/2113/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2113/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2113/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2113F%20Two%20Arrays%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2113/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2113F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-600C",
+  "contest_id": 600,
+  "index": "C",
+  "name": "Make Palindrome",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 6997,
+  "problem_url": "https://codeforces.com/problemset/problem/600/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/600/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/600/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=600C%20Make%20Palindrome%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P600C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Make Palindrome - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

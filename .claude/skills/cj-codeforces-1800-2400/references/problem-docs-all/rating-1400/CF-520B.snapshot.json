@@ -1,0 +1,32 @@
+{
+  "id": "CF-520B",
+  "contest_id": 520,
+  "index": "B",
+  "name": "Two Buttons",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "implementation",
+    "math",
+    "shortest paths"
+  ],
+  "solved_count": 60871,
+  "problem_url": "https://codeforces.com/problemset/problem/520/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/520/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/520/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=520B%20Two%20Buttons%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/520/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 520B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

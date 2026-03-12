@@ -1,0 +1,37 @@
+{
+  "id": "CF-111B",
+  "contest_id": 111,
+  "index": "B",
+  "name": "Petya and Divisors",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "data structures",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/111/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/111/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/111/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=111B%20Petya and Divisors%20tutorial",
+  "solved_count": 4066,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P111B",
+  "hydro_meta": {
+    "page_title": "Petya and Divisors - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "number theory",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

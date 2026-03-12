@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414413:uDn7jOuARIZfiLARD/okZCwx+pVDpYPcJABXAm5+/Hk=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF705A Hulk - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF705A","type":"CF","title":"Hulk","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":1545,"totalAccepted":837,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Hulk","background":null,"description":"\u5e03\u9c81\u65af\u00b7\u73ed\u7eb3\u535a\u58eb\u975e\u5e38\u8ba8\u538c\u4ed6\u7684\u654c\u4eba\uff08\u5c31\u50cf\u5176\u4ed6\u4eba\u4e00\u6837\uff09\u3002\u4f17\u6240\u5468\u77e5\uff0c\u5f53\u4ed6\u53d8\u8eab\u4e3a\u4e0d\u53ef\u601d\u8bae\u7684\u6d69\u514b\u65f6\uff0c\u4ed6\u51e0\u4e4e\u65e0\u6cd5\u8bf4\u8bdd\u3002\u56e0\u6b64\uff0c\u4ed6\u8bf7\u4f60\u5e2e\u5fd9\u8868\u8fbe\u4ed6\u7684\u611f\u53d7\u3002\n\n\u6d69\u514b\u975e\u5e38\u559c\u6b22\u7535\u5f71\u300a\u76d7\u68a6\u7a7a\u95f4\u300b\uff08Inception\uff09\uff0c\u4ed6\u7684\u611f\u60c5\u4e5f\u5982\u540c\u7535\u5f71\u4e2d\u7684\u68a6\u5883\u4e00\u6837\u590d\u6742\u3002\u4e00\u5171\u6709 $n$ \u5c42\u3002\u7b2c\u4e00\u5c42\u662f hate\uff0c\u7b2c\u4e8c\u5c42\u662f love\uff0c\u7b2c\u4e09\u5c42\u53c8\u662f hate\uff0c\u4f9d\u6b64\u7c7b\u63a8\u2026\u2026\n\n\u4f8b\u5982\u5982\u679c $n=1$\uff0c\u90a3\u4e48\u4ed6\u7684\u611f\u53d7\u662f\u201cI hate it\u201d\uff1b\u5982\u679c $n=2$\uff0c\u5219\u662f\u201cI hate that I love it\u201d\uff1b\u5982\u679c $n=3$\uff0c\u5219\u662f\u201cI hate that I love that I hate it\u201d\uff0c\u4ee5\u6b64\u7c7b\u63a8\u3002\n\n\u8bf7\u4f60\u5e2e\u52a9\u73ed\u7eb3\u535a\u58eb\u3002","formatI":"\u8f93\u5165\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u7231\u4e0e\u6068\u7684\u5c42\u6570\u3002","formatO":"\u8f93\u51fa\u73ed\u7eb3\u535a\u58eb\u7684\u611f\u53d7\u5b57\u7b26\u4e32\uff0c\u5360\u4e00\u884c\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Hulk","background":"","description":"Dr. Bruce Banner hates his enemies (like others don\u0027t). As we all know, he can barely talk when he turns into the incredible Hulk. That\u0027s why he asked you to help him to express his feelings.\n\nHulk likes the Inception so much, and like that his feelings are complicated. They have $ n $ layers. The first layer is hate, second one is love, third one is hate and so on...\n\nFor example if $ n=1 $ , then his feeling is \u0022I hate it\u0022 or if $ n=2 $ it\u0027s \u0022I hate that I love it\u0022, and if $ n=3 $ it\u0027s \u0022I hate that I love that I hate it\u0022 and so on.\n\nPlease help Dr. Banner.","formatI":"The only line of the input contains a single integer $ n $ ( $ 1\u003C=n\u003C=100 $ ) \u2014 the number of layers of love and hate.","formatO":"Print Dr.Banner\u0027s feeling in one line.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1\n","I hate it\n"],["2\n","I hate that I love it\n"],["3\n","I hate that I love that I hate it\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"705A","link":"https:\/\/codeforces.com\/problemset\/problem\/705\/A"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u6574\u6570$n$ \uff08$1\\leq n\\leq 100$ \uff09\uff0c\u8f93\u51fa\u4e00\u6bb5\u5b57\u7b26\u4e32\u3002\u5982\u679c$n=1$ \u8f93\u51fa\u0022I hate it\u0022\uff0c\u5982\u679c$n=2$ \u8f93\u51fa\u0022I hate that I love it\u0022\uff0c\u5982\u679c$n=3$ \u8f93\u51fa\u0022I hate that I love that I hate it\u0022\uff0c\u4ee5\u6b64\u7c7b\u63a8\u3002"},"translations":{"en":{"name":"Hulk","background":"","description":"Dr. Bruce Banner hates his enemies (like others don\u0027t). As we all know, he can barely talk when he turns into the incredible Hulk. That\u0027s why he asked you to help him to express his feelings.\n\nHulk likes the Inception so much, and like that his feelings are complicated. They have $ n $ layers. The first layer is hate, second one is love, third one is hate and so on...\n\nFor example if $ n=1 $ , then his feeling is \u0022I hate it\u0022 or if $ n=2 $ it\u0027s \u0022I hate that I love it\u0022, and if $ n=3 $ it\u0027s \u0022I hate that I love that I hate it\u0022 and so on.\n\nPlease help Dr. Banner.","formatI":"The only line of the input contains a single integer $ n $ ( $ 1\u003C=n\u003C=100 $ ) \u2014 the number of layers of love and hate.","formatO":"Print Dr.Banner\u0027s feeling in one line.","hint":"","locale":"en"},"zh-CN":{"name":"Hulk","background":null,"description":"\u5e03\u9c81\u65af\u00b7\u73ed\u7eb3\u535a\u58eb\u975e\u5e38\u8ba8\u538c\u4ed6\u7684\u654c\u4eba\uff08\u5c31\u50cf\u5176\u4ed6\u4eba\u4e00\u6837\uff09\u3002\u4f17\u6240\u5468\u77e5\uff0c\u5f53\u4ed6\u53d8\u8eab\u4e3a\u4e0d\u53ef\u601d\u8bae\u7684\u6d69\u514b\u65f6\uff0c\u4ed6\u51e0\u4e4e\u65e0\u6cd5\u8bf4\u8bdd\u3002\u56e0\u6b64\uff0c\u4ed6\u8bf7\u4f60\u5e2e\u5fd9\u8868\u8fbe\u4ed6\u7684\u611f\u53d7\u3002\n\n\u6d69\u514b\u975e\u5e38\u559c\u6b22\u7535\u5f71\u300a\u76d7\u68a6\u7a7a\u95f4\u300b\uff08Inception\uff09\uff0c\u4ed6\u7684\u611f\u60c5\u4e5f\u5982\u540c\u7535\u5f71\u4e2d\u7684\u68a6\u5883\u4e00\u6837\u590d\u6742\u3002\u4e00\u5171\u6709 $n$ \u5c42\u3002\u7b2c\u4e00\u5c42\u662f hate\uff0c\u7b2c\u4e8c\u5c42\u662f love\uff0c\u7b2c\u4e09\u5c42\u53c8\u662f hate\uff0c\u4f9d\u6b64\u7c7b\u63a8\u2026\u2026\n\n\u4f8b\u5982\u5982\u679c $n=1$\uff0c\u90a3\u4e48\u4ed6\u7684\u611f\u53d7\u662f\u201cI hate it\u201d\uff1b\u5982\u679c $n=2$\uff0c\u5219\u662f\u201cI hate that I love it\u201d\uff1b\u5982\u679c $n=3$\uff0c\u5219\u662f\u201cI hate that I love that I hate it\u201d\uff0c\u4ee5\u6b64\u7c7b\u63a8\u3002\n\n\u8bf7\u4f60\u5e2e\u52a9\u73ed\u7eb3\u535a\u58eb\u3002","formatI":"\u8f93\u5165\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u7231\u4e0e\u6068\u7684\u5c42\u6570\u3002","formatO":"\u8f93\u51fa\u73ed\u7eb3\u535a\u58eb\u7684\u611f\u53d7\u5b57\u7b26\u4e32\uff0c\u5360\u4e00\u884c\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF705A Hulk","type":2,"slug":"CF705A","color":"orange-3"},"discussions":[{"id":72401,"title":"\u9898\u76ee\u548c\u6d69\u514b\uff08Hulk\uff09\u6709\u4ec0\u4e48\u5173\u7cfb\u5417","author":{"uid":54372,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/54372.png","name":"A_\u0110ark_Horcrux","slogan":"\u300e\u7b11\u3048\u3084\u7b11\u3048 \u8003\u3048\u3066\u3082\u7b54\u3048\u306d\u3047\u300f","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":5,"xcpcLevel":0,"background":""},"time":1539436204},{"id":34962,"title":"\u9898\u76ee\u5927\u610f","author":{"uid":35700,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/35700.png","name":"Khassar","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1519469464}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328012.956086,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF705A Hulk","description":"\u5e03\u9c81\u65af\u00b7\u73ed\u7eb3\u535a\u58eb\u975e\u5e38\u8ba8\u538c\u4ed6\u7684\u654c\u4eba\uff08\u5c31\u50cf\u5176\u4ed6\u4eba\u4e00\u6837\uff09\u3002\u4f17\u6240\u5468\u77e5\uff0c\u5f53\u4ed6\u53d8\u8eab\u4e3a\u4e0d\u53ef\u601d\u8bae\u7684\u6d69\u514b\u65f6\uff0c\u4ed6\u51e0\u4e4e\u65e0\u6cd5\u8bf4\u8bdd\u3002\u56e0\u6b64\uff0c\u4ed6\u8bf7\u4f60\u5e2e\u5fd9\u8868\u8fbe\u4ed6\u7684\u611f\u53d7\u3002\n\u6d69\u514b\u975e\u5e38\u559c\u6b22\u7535\u5f71\u300a\u76d7\u68a6\u7a7a\u95f4\u300b\uff08Inception\uff09\uff0c\u4ed6\u7684\u611f\u60c5\u4e5f\u5982\u540c\u7535\u5f71\u4e2d\u7684\u68a6\u5883\u4e00\u6837\u590d\u6742\u3002\u4e00\u5171\u6709 n \u5c42\u3002\u7b2c\u4e00\u5c42\u662f\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF705A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF705A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF705A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF705A Hulk" />
+    <meta property="og:description" content="布鲁斯·班纳博士非常讨厌他的敌人（就像其他人一样）。众所周知，当他变身为不可思议的浩克时，他几乎无法说话。因此，他请你帮忙表达他的感受。
+浩克非常喜欢电影《盗梦空间》（Inception），他的感情也如同电影中的梦境一样复杂。一共有 n 层。第一层是…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF705A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF705A Hulk</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    布鲁斯·班纳博士非常讨厌他的敌人（就像其他人一样）。众所周知，当他变身为不可思议的浩克时，他几乎无法说话。因此，他请你帮忙表达他的感受。
+
+浩克非常喜欢电影《盗梦空间》（Inception），他的感情也如同电影中的梦境一样复杂。一共有 $n$ 层。第一层是 hate，第二层是 love，第三层又是 hate，依此类推……
+
+例如如果 $n=1$，那么他的感受是“I hate it”；如果 $n=2$，则是“I hate that I love it”；如果 $n=3$，则是“I hate that I love that I hate it”，以此类推。
+
+请你帮助班纳博士。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入仅一行，包含一个整数 $n$（$1 \le n \le 100$），表示爱与恨的层数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出班纳博士的感受字符串，占一行。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

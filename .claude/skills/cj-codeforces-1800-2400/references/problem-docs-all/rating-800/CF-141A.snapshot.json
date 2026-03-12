@@ -1,0 +1,34 @@
+{
+  "id": "CF-141A",
+  "contest_id": 141,
+  "index": "A",
+  "name": "Amusing Joke",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "sortings",
+    "strings"
+  ],
+  "solved_count": 99566,
+  "problem_url": "https://codeforces.com/problemset/problem/141/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/141/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/141/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=141A%20Amusing%20Joke%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P141A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Amusing Joke - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "sortings",
+      "strings",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

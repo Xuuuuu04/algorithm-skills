@@ -1,0 +1,28 @@
+{
+  "id": "CF-173A",
+  "contest_id": 173,
+  "index": "A",
+  "name": "Rock-Paper-Scissors",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 2487,
+  "problem_url": "https://codeforces.com/problemset/problem/173/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/173/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/173/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=173A%20Rock-Paper-Scissors%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/173/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 173A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

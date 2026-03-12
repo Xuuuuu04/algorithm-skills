@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*~
+
+target/
+
+.claude/skills/cangjie-dev-harmonyos/scripts/.hvigor/

@@ -1,0 +1,37 @@
+{
+  "id": "CF-1626E",
+  "contest_id": 1626,
+  "index": "E",
+  "name": "Black and White Tree",
+  "rating": 2400,
+  "tags": [
+    "dfs and similar",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1626/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1626/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1626/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1626E%20Black and White Tree%20tutorial",
+  "solved_count": 1824,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1626E",
+  "hydro_meta": {
+    "page_title": "Black and White Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-29D",
+  "contest_id": 29,
+  "index": "D",
+  "name": "Ant on the Tree",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "trees"
+  ],
+  "solved_count": 2913,
+  "problem_url": "https://codeforces.com/problemset/problem/29/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/29/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/29/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=29D%20Ant%20on%20the%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P29D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ant on the Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "trees",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

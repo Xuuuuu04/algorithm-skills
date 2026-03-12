@@ -1,0 +1,28 @@
+{
+  "id": "CF-2155A",
+  "contest_id": 2155,
+  "index": "A",
+  "name": "El fucho",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 24515,
+  "problem_url": "https://codeforces.com/problemset/problem/2155/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2155/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2155/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2155A%20El%20fucho%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2155A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2155A El fucho - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

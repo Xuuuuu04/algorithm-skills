@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414411:WhmISrPjxMhk5xXtuLX6Lua8AsEphdUa/isyqnQi83o=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF791A Bear and Big Brother - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF791A","type":"CF","title":"Bear and Big Brother","difficulty":1,"tags":[1,111],"wantsTranslation":false,"totalSubmit":2244,"totalAccepted":1430,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Bear and Big Brother","background":"","description":"**\u9898\u610f\u7ffb\u8bd1**\n\n\u7ed9\u5b9a\u4e24\u4e2a\u6570 $a, b$\uff0c\u6bcf\u4e2a\u5355\u4f4d\u65f6\u95f4\u4e2d\uff0c$a \\leftarrow a \\times 3,b\\leftarrow b\\times 2$\uff0c\u6c42\u5728\u7b2c\u591a\u5c11\u4e2a\u5355\u4f4d\u65f6\u95f4\u65f6\uff0c$a\u003Eb$\u3002","formatI":"\u5171\u4e00\u884c\uff0c\u4e3a\u4e24\u4e2a\u6b63\u6574\u6570 $a,b$\uff0c\u8be6\u89c1\u9898\u9762\u3002","formatO":"\u5171\u4e00\u884c\uff0c\u4e3a\u5728\u7b2c\u591a\u5c11\u4e2a\u5355\u4f4d\u65f6\u95f4\u65f6\uff0c$a\u003Eb$\u3002","hint":"\u5bf9\u4e8e $100\\%$ \u7684\u6570\u636e\uff0c$1\\le a,b\\le 10$\u3002\n\n**\u6837\u4f8b\u4e00\u89e3\u91ca**\n\n\u7b2c\u4e00\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=4\\times 3=12,b=7\\times 2=14,a\u003Cb$\uff1b\n\n\u7b2c\u4e8c\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=12\\times 3=36,b=14\\times 2=28,a\u003Eb$\uff0c\u6b64\u65f6\uff0c\u5df2\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\uff0c\u8f93\u51fa $2$\u3002\n\n**\u6837\u4f8b\u4e8c\u89e3\u91ca**\n\n\u7b2c\u4e00\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=4\\times 3=12,b=9\\times 2=18, a\u003Cb$\uff1b\n\n\u7b2c\u4e8c\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=12\\times 3=36,b=18\\times 2=36,a=b$\uff1b\n\n\u7b2c\u4e09\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=36\\times 3=108,b=36\\times 2=72,a\u003Cb$\uff0c\u6b64\u65f6\uff0c\u5df2\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\uff0c\u8f93\u51fa $3$\u3002\n\n**\u6837\u4f8b\u4e09\u89e3\u91ca**\n\n\u7b2c\u4e00\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=1\\times3=3,b=1\\times2=2,a\u003Cb$\uff0c\u6b64\u65f6\uff0c\u5df2\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\uff0c\u8f93\u51fa $1$\u3002\n\nTranslate By @[159\u53f7\u7a0b\u5e8f\u5458](https:\/\/www.luogu.com.cn\/user\/334586)","locale":"zh-CN"},"content":{"name":"Bear and Big Brother","background":"","description":"Bear Limak wants to become the largest of bears, or at least to become larger than his brother Bob.\n\nRight now, Limak and Bob weigh $ a $ and $ b $ respectively. It\u0027s guaranteed that Limak\u0027s weight is smaller than or equal to his brother\u0027s weight.\n\nLimak eats a lot and his weight is tripled after every year, while Bob\u0027s weight is doubled after every year.\n\nAfter how many full years will Limak become strictly larger (strictly heavier) than Bob?","formatI":"The only line of the input contains two integers $ a $ and $ b $ ( $ 1\u003C=a\u003C=b\u003C=10 $ ) \u2014 the weight of Limak and the weight of Bob respectively.","formatO":"Print one integer, denoting the integer number of years after which Limak will become strictly larger than Bob.","hint":"In the first sample, Limak weighs $ 4 $ and Bob weighs $ 7 $ initially. After one year their weights are $ 4\u00b73=12 $ and $ 7\u00b72=14 $ respectively (one weight is tripled while the other one is doubled). Limak isn\u0027t larger than Bob yet. After the second year weights are $ 36 $ and $ 28 $ , so the first weight is greater than the second one. Limak became larger than Bob after two years so you should print $ 2 $ .\n\nIn the second sample, Limak\u0027s and Bob\u0027s weights in next years are: $ 12 $ and $ 18 $ , then $ 36 $ and $ 36 $ , and finally $ 108 $ and $ 72 $ (after three years). The answer is $ 3 $ . Remember that Limak wants to be larger than Bob and he won\u0027t be satisfied with equal weights.\n\nIn the third sample, Limak becomes larger than Bob after the first year. Their weights will be $ 3 $ and $ 2 $ then.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4 7\n","2\n"],["4 9\n","3\n"],["1 1\n","1\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"791A","link":"https:\/\/codeforces.com\/problemset\/problem\/791\/A"},"translation":"**\u9898\u610f\u7ffb\u8bd1**\n\n\u7ed9\u5b9a\u4e24\u4e2a\u6570 $a, b$\uff0c\u6bcf\u4e2a\u5355\u4f4d\u65f6\u95f4\u4e2d\uff0c$a \\leftarrow a \\times 3,b\\leftarrow b\\times 2$\uff0c\u6c42\u5728\u7b2c\u591a\u5c11\u4e2a\u5355\u4f4d\u65f6\u95f4\u65f6\uff0c$a\u003Eb$\u3002\n\n**\u8f93\u5165\u683c\u5f0f**\n\n\u5171\u4e00\u884c\uff0c\u4e3a\u4e24\u4e2a\u6b63\u6574\u6570 $a,b$\uff0c\u8be6\u89c1\u9898\u9762\u3002\n\n**\u8f93\u51fa\u683c\u5f0f**\n\n\u5171\u4e00\u884c\uff0c\u4e3a\u5728\u7b2c\u591a\u5c11\u4e2a\u5355\u4f4d\u65f6\u95f4\u65f6\uff0c$a\u003Eb$\u3002\n\n**\u6570\u636e\u8303\u56f4\u0026\u7ea6\u5b9a**\n\n\u5bf9\u4e8e $100\\%$ \u7684\u6570\u636e\uff0c$1\\le a,b\\le 10$\u3002\n\n**\u6837\u4f8b\u4e00\u89e3\u91ca**\n\n\u7b2c\u4e00\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=4\\times 3=12,b=7\\times 2=14,a\u003Cb$\uff1b\n\n\u7b2c\u4e8c\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=12\\times 3=36,b=14\\times 2=28,a\u003Eb$\uff0c\u6b64\u65f6\uff0c\u5df2\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\uff0c\u8f93\u51fa $2$\u3002\n\n**\u6837\u4f8b\u4e8c\u89e3\u91ca**\n\n\u7b2c\u4e00\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=4\\times 3=12,b=9\\times 2=18, a\u003Cb$\uff1b\n\n\u7b2c\u4e8c\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=12\\times 3=36,b=18\\times 2=36,a=b$\uff1b\n\n\u7b2c\u4e09\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=36\\times 3=108,b=36\\times 2=72,a\u003Cb$\uff0c\u6b64\u65f6\uff0c\u5df2\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\uff0c\u8f93\u51fa $3$\u3002\n\n**\u6837\u4f8b\u4e09\u89e3\u91ca**\n\n\u7b2c\u4e00\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=1\\times3=3,b=1\\times2=2,a\u003Cb$\uff0c\u6b64\u65f6\uff0c\u5df2\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\uff0c\u8f93\u51fa $1$\u3002\n\nTranslate By @[159\u53f7\u7a0b\u5e8f\u5458](https:\/\/www.luogu.com.cn\/user\/334586)"},"translations":{"en":{"name":"Bear and Big Brother","background":"","description":"Bear Limak wants to become the largest of bears, or at least to become larger than his brother Bob.\n\nRight now, Limak and Bob weigh $ a $ and $ b $ respectively. It\u0027s guaranteed that Limak\u0027s weight is smaller than or equal to his brother\u0027s weight.\n\nLimak eats a lot and his weight is tripled after every year, while Bob\u0027s weight is doubled after every year.\n\nAfter how many full years will Limak become strictly larger (strictly heavier) than Bob?","formatI":"The only line of the input contains two integers $ a $ and $ b $ ( $ 1\u003C=a\u003C=b\u003C=10 $ ) \u2014 the weight of Limak and the weight of Bob respectively.","formatO":"Print one integer, denoting the integer number of years after which Limak will become strictly larger than Bob.","hint":"In the first sample, Limak weighs $ 4 $ and Bob weighs $ 7 $ initially. After one year their weights are $ 4\u00b73=12 $ and $ 7\u00b72=14 $ respectively (one weight is tripled while the other one is doubled). Limak isn\u0027t larger than Bob yet. After the second year weights are $ 36 $ and $ 28 $ , so the first weight is greater than the second one. Limak became larger than Bob after two years so you should print $ 2 $ .\n\nIn the second sample, Limak\u0027s and Bob\u0027s weights in next years are: $ 12 $ and $ 18 $ , then $ 36 $ and $ 36 $ , and finally $ 108 $ and $ 72 $ (after three years). The answer is $ 3 $ . Remember that Limak wants to be larger than Bob and he won\u0027t be satisfied with equal weights.\n\nIn the third sample, Limak becomes larger than Bob after the first year. Their weights will be $ 3 $ and $ 2 $ then.","locale":"en"},"zh-CN":{"name":"Bear and Big Brother","background":"","description":"**\u9898\u610f\u7ffb\u8bd1**\n\n\u7ed9\u5b9a\u4e24\u4e2a\u6570 $a, b$\uff0c\u6bcf\u4e2a\u5355\u4f4d\u65f6\u95f4\u4e2d\uff0c$a \\leftarrow a \\times 3,b\\leftarrow b\\times 2$\uff0c\u6c42\u5728\u7b2c\u591a\u5c11\u4e2a\u5355\u4f4d\u65f6\u95f4\u65f6\uff0c$a\u003Eb$\u3002","formatI":"\u5171\u4e00\u884c\uff0c\u4e3a\u4e24\u4e2a\u6b63\u6574\u6570 $a,b$\uff0c\u8be6\u89c1\u9898\u9762\u3002","formatO":"\u5171\u4e00\u884c\uff0c\u4e3a\u5728\u7b2c\u591a\u5c11\u4e2a\u5355\u4f4d\u65f6\u95f4\u65f6\uff0c$a\u003Eb$\u3002","hint":"\u5bf9\u4e8e $100\\%$ \u7684\u6570\u636e\uff0c$1\\le a,b\\le 10$\u3002\n\n**\u6837\u4f8b\u4e00\u89e3\u91ca**\n\n\u7b2c\u4e00\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=4\\times 3=12,b=7\\times 2=14,a\u003Cb$\uff1b\n\n\u7b2c\u4e8c\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=12\\times 3=36,b=14\\times 2=28,a\u003Eb$\uff0c\u6b64\u65f6\uff0c\u5df2\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\uff0c\u8f93\u51fa $2$\u3002\n\n**\u6837\u4f8b\u4e8c\u89e3\u91ca**\n\n\u7b2c\u4e00\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=4\\times 3=12,b=9\\times 2=18, a\u003Cb$\uff1b\n\n\u7b2c\u4e8c\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=12\\times 3=36,b=18\\times 2=36,a=b$\uff1b\n\n\u7b2c\u4e09\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=36\\times 3=108,b=36\\times 2=72,a\u003Cb$\uff0c\u6b64\u65f6\uff0c\u5df2\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\uff0c\u8f93\u51fa $3$\u3002\n\n**\u6837\u4f8b\u4e09\u89e3\u91ca**\n\n\u7b2c\u4e00\u4e2a\u5355\u4f4d\u65f6\u95f4\u540e\uff0c$a=1\\times3=3,b=1\\times2=2,a\u003Cb$\uff0c\u6b64\u65f6\uff0c\u5df2\u6ee1\u8db3\u9898\u76ee\u8981\u6c42\uff0c\u8f93\u51fa $1$\u3002\n\nTranslate By @[159\u53f7\u7a0b\u5e8f\u5458](https:\/\/www.luogu.com.cn\/user\/334586)","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF791A Bear and Big Brother","type":2,"slug":"CF791A","color":"orange-3"},"discussions":[{"id":364765,"title":"\u7ffb\u8bd1\u7b80\u5316","author":{"uid":334586,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/334586.png","name":"159\u53f7\u7a0b\u5e8f\u5458","slogan":"\u8863\u5e26\u6e10\u5bbd\u7ec8\u4e0d\u6094\uff0c\u4e3a\u4f0a\u6d88\u5f97\u4eba\u6194\u60b4|\u4e0d\u62ff\u84dd\u52fe\u4e0d\u6539\u7b7e\u540d","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":5,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/n3y2uvhp.png"},"time":1633956200},{"id":116152,"title":"\u4e3a\u4ec0\u4e48UKE\u4e86","author":{"uid":181750,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/181750.png","name":"\u6253\u8868\u5927\u849f\u84bb","slogan":"\u4e7e\u5764\u672a\u5b9a\uff0c\u7ffb\u76d8\u4e43\u4f20\u7edf\u827a\u80fd.","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/ryo9k3iz.png"},"time":1558865792},{"id":53258,"title":"\u6d4b\u8bd5\u70b9AC\u4f46RE","author":{"uid":95569,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/95569.png","name":"Teddy\u00b7Bear","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1533214670},{"id":53086,"title":"\u7ffb\u8bd1","author":{"uid":95569,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/95569.png","name":"Teddy\u00b7Bear","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1533175802},{"id":52752,"title":"\u7ffb\u8bd1","author":{"uid":55206,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/55206.png","name":"ComeOver\u00b7","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1533034027}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328010.931502,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF791A Bear and Big Brother","description":"\u9898\u610f\u7ffb\u8bd1\n\u7ed9\u5b9a\u4e24\u4e2a\u6570 a, b\uff0c\u6bcf\u4e2a\u5355\u4f4d\u65f6\u95f4\u4e2d\uff0ca \\leftarrow a \\times 3,b\\leftarrow b\\times 2\uff0c\u6c42\u5728\u7b2c\u591a\u5c11\u4e2a\u5355\u4f4d\u65f6\u95f4\u65f6\uff0ca&gt;b\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF791A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF791A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF791A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF791A Bear and Big Brother" />
+    <meta property="og:description" content="题意翻译
+给定两个数 a, b，每个单位时间中，a \leftarrow a \times 3,b\leftarrow b\times 2，求在第多少个单位时间时，a&amp;gt;b。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF791A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF791A Bear and Big Brother</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    **题意翻译**
+
+给定两个数 $a, b$，每个单位时间中，$a \leftarrow a \times 3,b\leftarrow b\times 2$，求在第多少个单位时间时，$a>b$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    共一行，为两个正整数 $a,b$，详见题面。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    共一行，为在第多少个单位时间时，$a>b$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于 $100\%$ 的数据，$1\le a,b\le 10$。
+
+**样例一解释**
+
+第一个单位时间后，$a=4\times 3=12,b=7\times 2=14,ab$，此时，已满足题目要求，输出 $2$。
+
+**样例二解释**
+
+第一个单位时间后，$a=4\times 3=12,b=9\times 2=18, a
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

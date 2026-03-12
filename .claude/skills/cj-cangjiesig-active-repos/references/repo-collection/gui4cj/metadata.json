@@ -1,0 +1,14 @@
+{
+  "name": "gui4cj",
+  "full_name": "cangjielanguage-sig/gui4cj",
+  "html_url": "https://github.com/cangjielanguage-sig/gui4cj",
+  "description": "gui4cj 是一个用仓颉（Cangjie）语言编写的跨平台图形用户界面（GUI）库，使用 OpenGL 进行硬件加速渲染。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.3",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/gui4cj/main/cjpm.toml"
+}

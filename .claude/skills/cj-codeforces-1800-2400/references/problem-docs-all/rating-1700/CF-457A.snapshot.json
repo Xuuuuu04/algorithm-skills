@@ -1,0 +1,32 @@
+{
+  "id": "CF-457A",
+  "contest_id": 457,
+  "index": "A",
+  "name": "Golden System",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "math",
+    "meet-in-the-middle"
+  ],
+  "solved_count": 1364,
+  "problem_url": "https://codeforces.com/problemset/problem/457/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/457/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/457/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=457A%20Golden%20System%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P457A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Golden System - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "meet-in-the-middle",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

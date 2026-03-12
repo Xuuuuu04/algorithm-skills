@@ -1,0 +1,39 @@
+{
+  "id": "CF-1834D",
+  "contest_id": 1834,
+  "index": "D",
+  "name": "Survey in Class",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "data structures",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1834/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1834/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1834/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1834D%20Survey in Class%20tutorial",
+  "solved_count": 5502,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1834D",
+  "hydro_meta": {
+    "page_title": "Survey in Class - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-452B",
+  "contest_id": 452,
+  "index": "B",
+  "name": "4-point polyline",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "geometry",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/452/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/452/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/452/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=452B%204-point polyline%20tutorial",
+  "solved_count": 2094,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P452B",
+  "hydro_meta": {
+    "page_title": "4-point polyline - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "geometry",
+      "trees",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

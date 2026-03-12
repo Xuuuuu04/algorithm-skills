@@ -1,0 +1,29 @@
+{
+  "id": "CF-416E",
+  "contest_id": 416,
+  "index": "E",
+  "name": "President's Path",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dp",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 1786,
+  "problem_url": "https://codeforces.com/problemset/problem/416/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/416/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/416/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=416E%20President%27s%20Path%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF416E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF416E President's Path - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 236,
+    "mirror_attempt": 534,
+    "time_limit": "4000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

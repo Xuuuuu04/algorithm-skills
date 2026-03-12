@@ -1,0 +1,36 @@
+{
+  "id": "CF-442B",
+  "contest_id": 442,
+  "index": "B",
+  "name": "Andrey and Problem",
+  "rating": 1800,
+  "tags": [
+    "greedy",
+    "math",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/442/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/442/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/442/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=442B%20Andrey and Problem%20tutorial",
+  "solved_count": 6049,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P442B",
+  "hydro_meta": {
+    "page_title": "Andrey and Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "math",
+      "probabilities",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

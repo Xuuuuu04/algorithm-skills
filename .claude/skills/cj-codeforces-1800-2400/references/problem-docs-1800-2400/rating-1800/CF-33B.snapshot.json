@@ -1,0 +1,29 @@
+{
+  "id": "CF-33B",
+  "contest_id": 33,
+  "index": "B",
+  "name": "String Problem",
+  "rating": 1800,
+  "tags": [
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/33/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/33/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/33/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=33B%20String Problem%20tutorial",
+  "solved_count": 5628,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P33B",
+  "hydro_meta": {
+    "page_title": "String Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "shortest paths",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

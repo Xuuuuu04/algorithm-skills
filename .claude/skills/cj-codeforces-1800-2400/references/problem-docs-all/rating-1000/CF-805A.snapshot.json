@@ -1,0 +1,28 @@
+{
+  "id": "CF-805A",
+  "contest_id": 805,
+  "index": "A",
+  "name": "Fake NP",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 19096,
+  "problem_url": "https://codeforces.com/problemset/problem/805/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/805/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/805/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=805A%20Fake%20NP%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/805/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 805A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

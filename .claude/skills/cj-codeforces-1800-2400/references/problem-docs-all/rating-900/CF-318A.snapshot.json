@@ -1,0 +1,27 @@
+{
+  "id": "CF-318A",
+  "contest_id": 318,
+  "index": "A",
+  "name": "Even Odds",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 140337,
+  "problem_url": "https://codeforces.com/problemset/problem/318/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/318/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/318/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=318A%20Even%20Odds%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/318/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 318A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

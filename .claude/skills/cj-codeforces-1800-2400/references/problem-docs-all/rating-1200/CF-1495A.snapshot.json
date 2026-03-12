@@ -1,0 +1,36 @@
+{
+  "id": "CF-1495A",
+  "contest_id": 1495,
+  "index": "A",
+  "name": "Diamond Miner",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "geometry",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 17752,
+  "problem_url": "https://codeforces.com/problemset/problem/1495/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1495/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1495/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1495A%20Diamond%20Miner%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1495A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Diamond Miner - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "greedy",
+      "math",
+      "sortings",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

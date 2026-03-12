@@ -1,0 +1,29 @@
+{
+  "id": "CF-1948D",
+  "contest_id": 1948,
+  "index": "D",
+  "name": "Tandem Repeats?",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 11996,
+  "problem_url": "https://codeforces.com/problemset/problem/1948/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1948/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1948/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1948D%20Tandem%20Repeats%3F%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1948/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1948D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

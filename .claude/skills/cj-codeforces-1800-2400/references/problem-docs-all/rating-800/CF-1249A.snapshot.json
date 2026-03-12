@@ -1,0 +1,27 @@
+{
+  "id": "CF-1249A",
+  "contest_id": 1249,
+  "index": "A",
+  "name": "Yet Another Dividing into Teams",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 23588,
+  "problem_url": "https://codeforces.com/problemset/problem/1249/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1249/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1249/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1249A%20Yet%20Another%20Dividing%20into%20Teams%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1249/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1249A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

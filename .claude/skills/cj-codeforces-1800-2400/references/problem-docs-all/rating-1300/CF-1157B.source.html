@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415136:nzn7/C15sgvlj5nZyy61rJG7R3kntxiHvonsD8hzKAA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1157B Long Number - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1157B","type":"CF","title":"Long Number","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":680,"totalAccepted":266,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Long Number","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a\u4e00\u4e2an\u4f4d\u6570\uff0c\u4ee5\u53ca1~9\u6570\u5b57\u7684\u66ff\u6362\u6570\u3002\u73b0\u8bf7\u4f60\u5728\u8fd9\u4e2an\u4f4d\u6570\u4e0a\u9009\u4e00\u4e2a\u8fde\u7eed\u7684\u6570\u6bb5\uff0c\u5c06\u6bb5\u5185\u7684\u6bcf\u4e2a\u6570\u5b57\u66ff\u6362\u6210\u76f8\u5e94\u6570\u5b57\u7684\u66ff\u6362\u6570\u3002\u8981\u6c42\uff1a\u8f93\u51fa\u6309\u7167\u8981\u6c42\u66ff\u6362\u540e\u7684\u6700\u5927n\u4f4d\u6574\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570n$ ( 1 \\le n \\le 2 \\cdot 10^5 ) $\n\n\u7b2c\u4e8c\u884c\u4e00\u4e2an\u4f4d\u6574\u6570\n\n\u7b2c\u4e09\u884c\u4e3a9\u4e2a\u66ff\u6362\u6570(\u4e00\u4f4d\u6b63\u6574\u6570)\uff0c\u7b2ci\u4e2a\u4e3a\u6570\u5b57i\u7684\u66ff\u6362\u6570","formatO":"\u4e00\u4e2an\u4f4d\u6574\u6570\uff0c\u5373\u6309\u7167\u8981\u6c42\u66ff\u6362\u540e\u4f60\u7684\u6700\u5927\u7ed3\u679c","hint":"","locale":"zh-CN"},"content":{"name":"Long Number","background":"","description":"You are given a long decimal number $ a $ consisting of $ n $ digits from $ 1 $ to $ 9 $ . You also have a function $ f $ that maps every digit from $ 1 $ to $ 9 $ to some (possibly the same) digit from $ 1 $ to $ 9 $ .\n\nYou can perform the following operation no more than once: choose a non-empty contiguous subsegment of digits in $ a $ , and replace each digit $ x $ from this segment with $ f(x) $ . For example, if $ a = 1337 $ , $ f(1) = 1 $ , $ f(3) = 5 $ , $ f(7) = 3 $ , and you choose the segment consisting of three rightmost digits, you get $ 1553 $ as the result.\n\nWhat is the maximum possible number you can obtain applying this operation no more than once?","formatI":"The first line contains one integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of digits in $ a $ .\n\nThe second line contains a string of $ n $ characters, denoting the number $ a $ . Each character is a decimal digit from $ 1 $ to $ 9 $ .\n\nThe third line contains exactly $ 9 $ integers $ f(1) $ , $ f(2) $ , ..., $ f(9) $ ( $ 1 \\le f(i) \\le 9 $ ).","formatO":"Print the maximum number you can get after applying the operation described in the statement no more than once.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n1337\n1 2 5 4 6 6 3 1 9\n","1557\n"],["5\n11111\n9 8 7 6 5 4 3 2 1\n","99999\n"],["2\n33\n1 1 1 1 1 1 1 1 1\n","33\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1157B","link":"https:\/\/codeforces.com\/problemset\/problem\/1157\/B"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\u7ed9\u5b9a\u4e00\u4e2a\u4e00\u4e2an\u4f4d\u6570\uff0c\u4ee5\u53ca1~9\u6570\u5b57\u7684\u66ff\u6362\u6570\u3002\u73b0\u8bf7\u4f60\u5728\u8fd9\u4e2an\u4f4d\u6570\u4e0a\u9009\u4e00\u4e2a\u8fde\u7eed\u7684\u6570\u6bb5\uff0c\u5c06\u6bb5\u5185\u7684\u6bcf\u4e2a\u6570\u5b57\u66ff\u6362\u6210\u76f8\u5e94\u6570\u5b57\u7684\u66ff\u6362\u6570\u3002\u8981\u6c42\uff1a\u8f93\u51fa\u6309\u7167\u8981\u6c42\u66ff\u6362\u540e\u7684\u6700\u5927n\u4f4d\u6574\u6570\u3002\n\n## \u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n### \u8f93\u5165\u683c\u5f0f\uff1a\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570n$ ( 1 \\le n \\le 2 \\cdot 10^5 ) $\n\n\u7b2c\u4e8c\u884c\u4e00\u4e2an\u4f4d\u6574\u6570\n\n\u7b2c\u4e09\u884c\u4e3a9\u4e2a\u66ff\u6362\u6570(\u4e00\u4f4d\u6b63\u6574\u6570)\uff0c\u7b2ci\u4e2a\u4e3a\u6570\u5b57i\u7684\u66ff\u6362\u6570\n\n### \u8f93\u51fa\u683c\u5f0f\uff1a\n\u4e00\u4e2an\u4f4d\u6574\u6570\uff0c\u5373\u6309\u7167\u8981\u6c42\u66ff\u6362\u540e\u4f60\u7684\u6700\u5927\u7ed3\u679c"},"translations":{"en":{"name":"Long Number","background":"","description":"You are given a long decimal number $ a $ consisting of $ n $ digits from $ 1 $ to $ 9 $ . You also have a function $ f $ that maps every digit from $ 1 $ to $ 9 $ to some (possibly the same) digit from $ 1 $ to $ 9 $ .\n\nYou can perform the following operation no more than once: choose a non-empty contiguous subsegment of digits in $ a $ , and replace each digit $ x $ from this segment with $ f(x) $ . For example, if $ a = 1337 $ , $ f(1) = 1 $ , $ f(3) = 5 $ , $ f(7) = 3 $ , and you choose the segment consisting of three rightmost digits, you get $ 1553 $ as the result.\n\nWhat is the maximum possible number you can obtain applying this operation no more than once?","formatI":"The first line contains one integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of digits in $ a $ .\n\nThe second line contains a string of $ n $ characters, denoting the number $ a $ . Each character is a decimal digit from $ 1 $ to $ 9 $ .\n\nThe third line contains exactly $ 9 $ integers $ f(1) $ , $ f(2) $ , ..., $ f(9) $ ( $ 1 \\le f(i) \\le 9 $ ).","formatO":"Print the maximum number you can get after applying the operation described in the statement no more than once.","hint":"","locale":"en"},"zh-CN":{"name":"Long Number","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a\u4e00\u4e2an\u4f4d\u6570\uff0c\u4ee5\u53ca1~9\u6570\u5b57\u7684\u66ff\u6362\u6570\u3002\u73b0\u8bf7\u4f60\u5728\u8fd9\u4e2an\u4f4d\u6570\u4e0a\u9009\u4e00\u4e2a\u8fde\u7eed\u7684\u6570\u6bb5\uff0c\u5c06\u6bb5\u5185\u7684\u6bcf\u4e2a\u6570\u5b57\u66ff\u6362\u6210\u76f8\u5e94\u6570\u5b57\u7684\u66ff\u6362\u6570\u3002\u8981\u6c42\uff1a\u8f93\u51fa\u6309\u7167\u8981\u6c42\u66ff\u6362\u540e\u7684\u6700\u5927n\u4f4d\u6574\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570n$ ( 1 \\le n \\le 2 \\cdot 10^5 ) $\n\n\u7b2c\u4e8c\u884c\u4e00\u4e2an\u4f4d\u6574\u6570\n\n\u7b2c\u4e09\u884c\u4e3a9\u4e2a\u66ff\u6362\u6570(\u4e00\u4f4d\u6b63\u6574\u6570)\uff0c\u7b2ci\u4e2a\u4e3a\u6570\u5b57i\u7684\u66ff\u6362\u6570","formatO":"\u4e00\u4e2an\u4f4d\u6574\u6570\uff0c\u5373\u6309\u7167\u8981\u6c42\u66ff\u6362\u540e\u4f60\u7684\u6700\u5927\u7ed3\u679c","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1157B Long Number","type":2,"slug":"CF1157B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328736.269622,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1157B Long Number","description":"\u7ed9\u5b9a\u4e00\u4e2a\u4e00\u4e2an\u4f4d\u6570\uff0c\u4ee5\u53ca1~9\u6570\u5b57\u7684\u66ff\u6362\u6570\u3002\u73b0\u8bf7\u4f60\u5728\u8fd9\u4e2an\u4f4d\u6570\u4e0a\u9009\u4e00\u4e2a\u8fde\u7eed\u7684\u6570\u6bb5\uff0c\u5c06\u6bb5\u5185\u7684\u6bcf\u4e2a\u6570\u5b57\u66ff\u6362\u6210\u76f8\u5e94\u6570\u5b57\u7684\u66ff\u6362\u6570\u3002\u8981\u6c42\uff1a\u8f93\u51fa\u6309\u7167\u8981\u6c42\u66ff\u6362\u540e\u7684\u6700\u5927n\u4f4d\u6574\u6570\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1157B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1157B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1157B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1157B Long Number" />
+    <meta property="og:description" content="给定一个一个n位数，以及1~9数字的替换数。现请你在这个n位数上选一个连续的数段，将段内的每个数字替换成相应数字的替换数。要求：输出按照要求替换后的最大n位整数。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1157B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1157B Long Number</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个一个n位数，以及1~9数字的替换数。现请你在这个n位数上选一个连续的数段，将段内的每个数字替换成相应数字的替换数。要求：输出按照要求替换后的最大n位整数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个整数n$ ( 1 \le n \le 2 \cdot 10^5 ) $
+
+第二行一个n位整数
+
+第三行为9个替换数(一位正整数)，第i个为数字i的替换数
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    一个n位整数，即按照要求替换后你的最大结果
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

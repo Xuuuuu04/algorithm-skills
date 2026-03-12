@@ -1,0 +1,30 @@
+{
+  "id": "CF-1391C",
+  "contest_id": 1391,
+  "index": "C",
+  "name": "Cyclic Permutations ",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "graphs",
+    "math"
+  ],
+  "solved_count": 15939,
+  "problem_url": "https://codeforces.com/problemset/problem/1391/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1391/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1391/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1391C%20Cyclic%20Permutations%20%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1391C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1391C Cyclic Permutations - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 220,
+    "mirror_attempt": 308,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

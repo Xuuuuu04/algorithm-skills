@@ -1,0 +1,35 @@
+{
+  "id": "CF-1806D",
+  "contest_id": 1806,
+  "index": "D",
+  "name": "DSU Master",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "dsu",
+    "math"
+  ],
+  "solved_count": 1171,
+  "problem_url": "https://codeforces.com/problemset/problem/1806/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1806/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1806/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1806D%20DSU%20Master%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1806D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "DSU Master - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "dsu",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

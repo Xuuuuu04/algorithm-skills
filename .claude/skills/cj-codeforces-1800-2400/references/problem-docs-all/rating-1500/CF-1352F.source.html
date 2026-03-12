@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1352F Binary String Reconstruction - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1352F","type":"CF","title":"Binary String Reconstruction","difficulty":4,"tags":[],"wantsTranslation":false,"totalSubmit":629,"totalAccepted":323,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Binary String Reconstruction","background":null,"description":"\u5bf9\u4e8e\u67d0\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\uff08\u5373\u6bcf\u4e2a\u5b57\u7b26 $s_i$ \u53ea\u80fd\u662f \u00270\u0027 \u6216 \u00271\u0027\uff09\uff0c\u6211\u4eec\u8bb0\u5f55\u4e86\u6240\u6709\u76f8\u90bb\u5b57\u7b26\u5bf9\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u8bb0\u5f55\u4e86\u6240\u6709\u957f\u5ea6\u4e3a $2$ \u7684\u5b50\u4e32\u3002\u5bf9\u4e8e\u6bcf\u4e00\u5bf9\uff08\u957f\u5ea6\u4e3a $2$ \u7684\u5b50\u4e32\uff09\uff0c\u8ba1\u7b97\u5176\u4e2d \u00271\u0027 \u7684\u4e2a\u6570\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e09\u4e2a\u6570\u5b57\uff1a\n\n- $n_0$ \u2014\u2014 \u76f8\u90bb\u5b57\u7b26\u5bf9\uff08\u957f\u5ea6\u4e3a $2$ \u7684\u5b50\u4e32\uff09\u4e2d \u00271\u0027 \u7684\u4e2a\u6570\u4e3a $0$ \u7684\u5bf9\u6570\uff1b\n- $n_1$ \u2014\u2014 \u76f8\u90bb\u5b57\u7b26\u5bf9\u4e2d \u00271\u0027 \u7684\u4e2a\u6570\u4e3a $1$ \u7684\u5bf9\u6570\uff1b\n- $n_2$ \u2014\u2014 \u76f8\u90bb\u5b57\u7b26\u5bf9\u4e2d \u00271\u0027 \u7684\u4e2a\u6570\u4e3a $2$ \u7684\u5bf9\u6570\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e\u5b57\u7b26\u4e32 $s=$ \u00221110011110\u0022\uff0c\u6240\u6709\u957f\u5ea6\u4e3a $2$ \u7684\u5b50\u4e32\u4e3a\uff1a\u002211\u0022\u3001\u002211\u0022\u3001\u002210\u0022\u3001\u002200\u0022\u3001\u002201\u0022\u3001\u002211\u0022\u3001\u002211\u0022\u3001\u002211\u0022\u3001\u002210\u0022\u3002\u56e0\u6b64\uff0c$n_0=1$\uff0c$n_1=3$\uff0c$n_2=5$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6839\u636e\u7ed9\u5b9a\u7684 $n_0, n_1, n_2$ \u6062\u590d\u51fa\u4efb\u610f\u4e00\u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002\u4fdd\u8bc1\u81f3\u5c11\u6709\u4e00\u4e2a $n_0, n_1, n_2$ \u5927\u4e8e $0$\uff0c\u4e14\u4e00\u5b9a\u5b58\u5728\u89e3\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u662f $t$ \u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5360\u4e00\u884c\uff0c\u5305\u542b\u4e09\u4e2a\u6574\u6570 $n_0, n_1, n_2$\uff08$0 \\le n_0, n_1, n_2 \\le 100$\uff0c\u4e14 $n_0 + n_1 + n_2 \u003E 0$\uff09\u3002\u4fdd\u8bc1\u5bf9\u4e8e\u7ed9\u5b9a\u7684 $n_0, n_1, n_2$ \u4e00\u5b9a\u5b58\u5728\u89e3\u3002","formatO":"\u8f93\u51fa $t$ \u884c\uff0c\u6bcf\u884c\u5bf9\u5e94\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u3002\u5982\u679c\u6709\u591a\u79cd\u53ef\u80fd\u7684\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Binary String Reconstruction","background":"","description":"For some binary string $ s $ (i.e. each character $ s_i $ is either \u00270\u0027 or \u00271\u0027), all pairs of consecutive (adjacent) characters were written. In other words, all substrings of length $ 2 $ were written. For each pair (substring of length $ 2 $ ), the number of \u00271\u0027 (ones) in it was calculated.\n\nYou are given three numbers:\n\n- $ n_0 $ \u2014 the number of such pairs of consecutive characters (substrings) where the number of ones equals $ 0 $ ;\n- $ n_1 $ \u2014 the number of such pairs of consecutive characters (substrings) where the number of ones equals $ 1 $ ;\n- $ n_2 $ \u2014 the number of such pairs of consecutive characters (substrings) where the number of ones equals $ 2 $ .\n\nFor example, for the string $ s= $ \u00221110011110\u0022, the following substrings would be written: \u002211\u0022, \u002211\u0022, \u002210\u0022, \u002200\u0022, \u002201\u0022, \u002211\u0022, \u002211\u0022, \u002211\u0022, \u002210\u0022. Thus, $ n_0=1 $ , $ n_1=3 $ , $ n_2=5 $ .\n\nYour task is to restore any suitable binary string $ s $ from the given values $ n_0, n_1, n_2 $ . It is guaranteed that at least one of the numbers $ n_0, n_1, n_2 $ is greater than $ 0 $ . Also, it is guaranteed that a solution exists.","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases in the input. Then test cases follow.\n\nEach test case consists of one line which contains three integers $ n_0, n_1, n_2 $ ( $ 0 \\le n_0, n_1, n_2 \\le 100 $ ; $ n_0 +       n_1 + n_2 \u003E 0 $ ). It is guaranteed that the answer for given $ n_0, n_1, n_2 $ exists.","formatO":"Print $ t $ lines. Each of the lines should contain a binary string corresponding to a test case. If there are several possible solutions, print any of them.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\n1 3 5\n1 1 1\n3 9 3\n0 1 0\n3 1 2\n0 0 3\n2 0 0","1110011110\n0011\n0110001100101011\n10\n0000111\n1111\n000"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1352F","link":"https:\/\/codeforces.com\/problemset\/problem\/1352\/F"},"translation":"\u4e00\u5171\u6709 $t$ \u7ec4\u6570\u636e\u3002\r\n\r\n\u6bcf\u7ec4\u6570\u636e\u6709\u4e09\u4e2a\u6574\u6570 $n_0,n_1,n_2$\u3002\r\n\r\n\u4f60\u9700\u8981\u6784\u9020\u4e00\u4e2a $01$ \u4e32\uff0c\u957f\u5ea6\u4e3a $n_0+n_1+n_2+1$\uff0c\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u957f\u5ea6\u4e3a $2$ \u7684\u8fde\u7eed\u5b50\u4e32\uff0c\u603b\u5171\u6709 $n_0$ \u4e2a\u548c\u4e3a $0$\uff0c \u6709 $n_1$ \u4e2a\u548c\u4e3a $1$\uff0c\u6709 $n_2$ \u4e2a\u548c\u4e3a $2$\u3002\r\n\r\n\u4fdd\u8bc1\u8f93\u5165\u6709\u89e3\uff0c\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\uff0c\u4e3a\u4e00\u4e2a $01$ \u4e32\uff0c\u6ca1\u6709\u7a7a\u683c\uff0c\u5982\u679c\u6709\u591a\u7ec4\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u5373\u53ef\u3002"},"translations":{"en":{"name":"Binary String Reconstruction","background":"","description":"For some binary string $ s $ (i.e. each character $ s_i $ is either \u00270\u0027 or \u00271\u0027), all pairs of consecutive (adjacent) characters were written. In other words, all substrings of length $ 2 $ were written. For each pair (substring of length $ 2 $ ), the number of \u00271\u0027 (ones) in it was calculated.\n\nYou are given three numbers:\n\n- $ n_0 $ \u2014 the number of such pairs of consecutive characters (substrings) where the number of ones equals $ 0 $ ;\n- $ n_1 $ \u2014 the number of such pairs of consecutive characters (substrings) where the number of ones equals $ 1 $ ;\n- $ n_2 $ \u2014 the number of such pairs of consecutive characters (substrings) where the number of ones equals $ 2 $ .\n\nFor example, for the string $ s= $ \u00221110011110\u0022, the following substrings would be written: \u002211\u0022, \u002211\u0022, \u002210\u0022, \u002200\u0022, \u002201\u0022, \u002211\u0022, \u002211\u0022, \u002211\u0022, \u002210\u0022. Thus, $ n_0=1 $ , $ n_1=3 $ , $ n_2=5 $ .\n\nYour task is to restore any suitable binary string $ s $ from the given values $ n_0, n_1, n_2 $ . It is guaranteed that at least one of the numbers $ n_0, n_1, n_2 $ is greater than $ 0 $ . Also, it is guaranteed that a solution exists.","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le       1000 $ ) \u2014 the number of test cases in the input. Then test cases follow.\n\nEach test case consists of one line which contains three integers $ n_0, n_1, n_2 $ ( $ 0 \\le n_0, n_1, n_2 \\le 100 $ ; $ n_0 +       n_1 + n_2 \u003E 0 $ ). It is guaranteed that the answer for given $ n_0, n_1, n_2 $ exists.","formatO":"Print $ t $ lines. Each of the lines should contain a binary string corresponding to a test case. If there are several possible solutions, print any of them.","hint":"","locale":"en"},"zh-CN":{"name":"Binary String Reconstruction","background":null,"description":"\u5bf9\u4e8e\u67d0\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\uff08\u5373\u6bcf\u4e2a\u5b57\u7b26 $s_i$ \u53ea\u80fd\u662f \u00270\u0027 \u6216 \u00271\u0027\uff09\uff0c\u6211\u4eec\u8bb0\u5f55\u4e86\u6240\u6709\u76f8\u90bb\u5b57\u7b26\u5bf9\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u8bb0\u5f55\u4e86\u6240\u6709\u957f\u5ea6\u4e3a $2$ \u7684\u5b50\u4e32\u3002\u5bf9\u4e8e\u6bcf\u4e00\u5bf9\uff08\u957f\u5ea6\u4e3a $2$ \u7684\u5b50\u4e32\uff09\uff0c\u8ba1\u7b97\u5176\u4e2d \u00271\u0027 \u7684\u4e2a\u6570\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e09\u4e2a\u6570\u5b57\uff1a\n\n- $n_0$ \u2014\u2014 \u76f8\u90bb\u5b57\u7b26\u5bf9\uff08\u957f\u5ea6\u4e3a $2$ \u7684\u5b50\u4e32\uff09\u4e2d \u00271\u0027 \u7684\u4e2a\u6570\u4e3a $0$ \u7684\u5bf9\u6570\uff1b\n- $n_1$ \u2014\u2014 \u76f8\u90bb\u5b57\u7b26\u5bf9\u4e2d \u00271\u0027 \u7684\u4e2a\u6570\u4e3a $1$ \u7684\u5bf9\u6570\uff1b\n- $n_2$ \u2014\u2014 \u76f8\u90bb\u5b57\u7b26\u5bf9\u4e2d \u00271\u0027 \u7684\u4e2a\u6570\u4e3a $2$ \u7684\u5bf9\u6570\u3002\n\n\u4f8b\u5982\uff0c\u5bf9\u4e8e\u5b57\u7b26\u4e32 $s=$ \u00221110011110\u0022\uff0c\u6240\u6709\u957f\u5ea6\u4e3a $2$ \u7684\u5b50\u4e32\u4e3a\uff1a\u002211\u0022\u3001\u002211\u0022\u3001\u002210\u0022\u3001\u002200\u0022\u3001\u002201\u0022\u3001\u002211\u0022\u3001\u002211\u0022\u3001\u002211\u0022\u3001\u002210\u0022\u3002\u56e0\u6b64\uff0c$n_0=1$\uff0c$n_1=3$\uff0c$n_2=5$\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u6839\u636e\u7ed9\u5b9a\u7684 $n_0, n_1, n_2$ \u6062\u590d\u51fa\u4efb\u610f\u4e00\u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 $s$\u3002\u4fdd\u8bc1\u81f3\u5c11\u6709\u4e00\u4e2a $n_0, n_1, n_2$ \u5927\u4e8e $0$\uff0c\u4e14\u4e00\u5b9a\u5b58\u5728\u89e3\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u662f $t$ \u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5360\u4e00\u884c\uff0c\u5305\u542b\u4e09\u4e2a\u6574\u6570 $n_0, n_1, n_2$\uff08$0 \\le n_0, n_1, n_2 \\le 100$\uff0c\u4e14 $n_0 + n_1 + n_2 \u003E 0$\uff09\u3002\u4fdd\u8bc1\u5bf9\u4e8e\u7ed9\u5b9a\u7684 $n_0, n_1, n_2$ \u4e00\u5b9a\u5b58\u5728\u89e3\u3002","formatO":"\u8f93\u51fa $t$ \u884c\uff0c\u6bcf\u884c\u5bf9\u5e94\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u3002\u5982\u679c\u6709\u591a\u79cd\u53ef\u80fd\u7684\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5373\u53ef\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1352F Binary String Reconstruction","type":2,"slug":"CF1352F","color":"orange-3"},"discussions":[{"id":836341,"title":"\u5efa\u8bae\u964d\u9ec4","author":{"uid":947527,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/947527.png","name":"Gyf117","slogan":"\u7a7f\u68ad\u65f6\u95f4\u7684\u753b\u9762\u7684\u949f \u4ece\u53cd\u65b9\u5411 \u5f00\u59cb\u79fb\u52a8","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":5,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/5vb4d504.png"},"time":1718611912}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.715671,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1352F Binary String Reconstruction","description":"\u5bf9\u4e8e\u67d0\u4e2a\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32 s\uff08\u5373\u6bcf\u4e2a\u5b57\u7b26 s_i \u53ea\u80fd\u662f '0' \u6216 '1'\uff09\uff0c\u6211\u4eec\u8bb0\u5f55\u4e86\u6240\u6709\u76f8\u90bb\u5b57\u7b26\u5bf9\u3002\u6362\u53e5\u8bdd\u8bf4\uff0c\u8bb0\u5f55\u4e86\u6240\u6709\u957f\u5ea6\u4e3a 2 \u7684\u5b50\u4e32\u3002\u5bf9\u4e8e\u6bcf\u4e00\u5bf9\uff08\u957f\u5ea6\u4e3a 2 \u7684\u5b50\u4e32\uff09\uff0c\u8ba1\u7b97\u5176\u4e2d '1' \u7684\u4e2a\u6570\u3002\n\u73b0\u5728\u7ed9\u5b9a\u4e09\u4e2a\u6570\u5b57\uff1a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1352F" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1352F?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1352F?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1352F Binary String Reconstruction" />
+    <meta property="og:description" content="对于某个二进制字符串 s（即每个字符 s_i 只能是 &#039;0&#039; 或 &#039;1&#039;），我们记录了所有相邻字符对。换句话说，记录了所有长度为 2 的子串。对于每一对（长度为 2 的子串），计算其中 &#039;1&#039; 的个数。
+现在给定三个数字：…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1352F" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1352F Binary String Reconstruction</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    对于某个二进制字符串 $s$（即每个字符 $s_i$ 只能是 '0' 或 '1'），我们记录了所有相邻字符对。换句话说，记录了所有长度为 $2$ 的子串。对于每一对（长度为 $2$ 的子串），计算其中 '1' 的个数。
+
+现在给定三个数字：
+
+- $n_0$ —— 相邻字符对（长度为 $2$ 的子串）中 '1' 的个数为 $0$ 的对数；
+- $n_1$ —— 相邻字符对中 '1' 的个数为 $1$ 的对数；
+- $n_2$ —— 相邻字符对中 '1' 的个数为 $2$ 的对数。
+
+例如，对于字符串 $s=$ "1110011110"，所有长度为 $2$ 的子串为："11"、"11"、"10"、"00"、"01"、"11"、"11"、"11"、"10"。因此，$n_0=1$，$n_1=3$，$n_2=5$。
+
+你的任务是根据给定的 $n_0, n_1, n_2$ 恢复出任意一个符合条件的二进制字符串 $s$。保证至少有一个 $n_0, n_1, n_2$ 大于 $0$，且一定存在解。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 1000$），表示测试用例的数量。接下来是 $t$ 组测试数据。
+
+每组测试数据占一行，包含三个整数 $n_0, n_1, n_2$（$0 \le n_0, n_1, n_2 \le 100$，且 $n_0 + n_1 + n_2 > 0$）。保证对于给定的 $n_0, n_1, n_2$ 一定存在解。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出 $t$ 行，每行对应一个测试用例，输出一个符合条件的二进制字符串。如果有多种可能的答案，输出任意一种即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

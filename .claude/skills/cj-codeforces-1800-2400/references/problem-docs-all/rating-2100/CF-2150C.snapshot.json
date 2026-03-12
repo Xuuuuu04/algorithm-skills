@@ -1,0 +1,32 @@
+{
+  "id": "CF-2150C",
+  "contest_id": 2150,
+  "index": "C",
+  "name": "Limited Edition Shop",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 2476,
+  "problem_url": "https://codeforces.com/problemset/problem/2150/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2150/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2150/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2150C%20Limited%20Edition%20Shop%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2150C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Limited Edition Shop - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

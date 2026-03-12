@@ -1,0 +1,28 @@
+{
+  "id": "CF-1945B",
+  "contest_id": 1945,
+  "index": "B",
+  "name": "Fireworks",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 25997,
+  "problem_url": "https://codeforces.com/problemset/problem/1945/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1945/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1945/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1945B%20Fireworks%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1945/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1945B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

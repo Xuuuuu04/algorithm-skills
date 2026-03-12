@@ -1,0 +1,29 @@
+{
+  "id": "CF-1355A",
+  "contest_id": 1355,
+  "index": "A",
+  "name": "Sequence with Digits",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 28624,
+  "problem_url": "https://codeforces.com/problemset/problem/1355/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1355/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1355/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1355A%20Sequence%20with%20Digits%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1355/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1355A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

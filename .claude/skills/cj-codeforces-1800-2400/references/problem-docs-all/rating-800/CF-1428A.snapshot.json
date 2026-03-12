@@ -1,0 +1,30 @@
+{
+  "id": "CF-1428A",
+  "contest_id": 1428,
+  "index": "A",
+  "name": "Box is Pull",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 16969,
+  "problem_url": "https://codeforces.com/problemset/problem/1428/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1428/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1428/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1428A%20Box%20is%20Pull%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1428A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Box is Pull - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

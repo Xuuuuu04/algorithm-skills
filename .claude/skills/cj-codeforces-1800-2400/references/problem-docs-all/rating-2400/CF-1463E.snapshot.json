@@ -1,0 +1,42 @@
+{
+  "id": "CF-1463E",
+  "contest_id": 1463,
+  "index": "E",
+  "name": "Plan of Lectures",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "implementation",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 1711,
+  "problem_url": "https://codeforces.com/problemset/problem/1463/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1463/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1463/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1463E%20Plan%20of%20Lectures%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1463E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Plan of Lectures - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "implementation",
+      "sortings",
+      "trees",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

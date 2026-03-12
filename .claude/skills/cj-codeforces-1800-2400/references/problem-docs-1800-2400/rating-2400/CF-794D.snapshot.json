@@ -1,0 +1,35 @@
+{
+  "id": "CF-794D",
+  "contest_id": 794,
+  "index": "D",
+  "name": "Labelling Cities",
+  "rating": 2400,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "hashing"
+  ],
+  "url": "https://codeforces.com/problemset/problem/794/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/794/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/794/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=794D%20Labelling Cities%20tutorial",
+  "solved_count": 892,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P794D",
+  "hydro_meta": {
+    "page_title": "Labelling Cities - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "graphs",
+      "hashing",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

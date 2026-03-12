@@ -1,0 +1,38 @@
+{
+  "id": "CF-1806E",
+  "contest_id": 1806,
+  "index": "E",
+  "name": "Tree Master",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1806/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1806/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1806/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1806E%20Tree Master%20tutorial",
+  "solved_count": 3402,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1806E",
+  "hydro_meta": {
+    "page_title": "Tree Master - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "hashing",
+      "trees"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "1024MiB"
+  }
+}

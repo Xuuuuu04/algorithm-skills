@@ -1,0 +1,37 @@
+{
+  "id": "CF-487C",
+  "contest_id": 487,
+  "index": "C",
+  "name": "Prefix Product Sequence",
+  "rating": 2300,
+  "tags": [
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/487/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/487/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/487/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=487C%20Prefix Product Sequence%20tutorial",
+  "solved_count": 3062,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P487C",
+  "hydro_meta": {
+    "page_title": "Prefix Product Sequence - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

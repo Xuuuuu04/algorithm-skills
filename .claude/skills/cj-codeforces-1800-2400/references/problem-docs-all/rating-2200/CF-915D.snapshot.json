@@ -1,0 +1,32 @@
+{
+  "id": "CF-915D",
+  "contest_id": 915,
+  "index": "D",
+  "name": "Almost Acyclic Graph",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 4005,
+  "problem_url": "https://codeforces.com/problemset/problem/915/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/915/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/915/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=915D%20Almost%20Acyclic%20Graph%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P915D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Almost Acyclic Graph - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "graphs",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

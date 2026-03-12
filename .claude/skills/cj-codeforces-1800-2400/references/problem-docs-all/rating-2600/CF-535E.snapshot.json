@@ -1,0 +1,32 @@
+{
+  "id": "CF-535E",
+  "contest_id": 535,
+  "index": "E",
+  "name": "Tavas and Pashmaks",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "geometry",
+    "math"
+  ],
+  "solved_count": 856,
+  "problem_url": "https://codeforces.com/problemset/problem/535/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/535/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/535/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=535E%20Tavas%20and%20Pashmaks%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P535E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Tavas and Pashmaks - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "math",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

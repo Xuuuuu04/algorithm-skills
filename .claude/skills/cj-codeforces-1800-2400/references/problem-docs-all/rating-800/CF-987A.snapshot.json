@@ -1,0 +1,27 @@
+{
+  "id": "CF-987A",
+  "contest_id": 987,
+  "index": "A",
+  "name": "Infinity Gauntlet",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 17432,
+  "problem_url": "https://codeforces.com/problemset/problem/987/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/987/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/987/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=987A%20Infinity%20Gauntlet%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF987A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF987A Infinity Gauntlet - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 277,
+    "mirror_attempt": 526,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

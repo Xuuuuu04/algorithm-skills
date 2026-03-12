@@ -1,0 +1,32 @@
+{
+  "id": "CF-148C",
+  "contest_id": 148,
+  "index": "C",
+  "name": "Terse princess",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 3350,
+  "problem_url": "https://codeforces.com/problemset/problem/148/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/148/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/148/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=148C%20Terse%20princess%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P148C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Terse princess - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-1431F",
+  "contest_id": 1431,
+  "index": "F",
+  "name": "Neural Network Problem",
+  "rating": 2100,
+  "tags": [
+    "*special",
+    "binary search",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1431/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1431/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1431/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1431F%20Neural Network Problem%20tutorial",
+  "solved_count": 161,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1431F",
+  "hydro_meta": {
+    "page_title": "Neural Network Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "binary search",
+      "greedy",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

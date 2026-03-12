@@ -1,0 +1,27 @@
+{
+  "id": "CF-652B",
+  "contest_id": 652,
+  "index": "B",
+  "name": "z-sort",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "sortings"
+  ],
+  "solved_count": 11586,
+  "problem_url": "https://codeforces.com/problemset/problem/652/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/652/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/652/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=652B%20z-sort%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/652/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 652B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

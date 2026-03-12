@@ -1,0 +1,31 @@
+{
+  "id": "CF-1032D",
+  "contest_id": 1032,
+  "index": "D",
+  "name": "Barcelonian Distance",
+  "rating": 1900,
+  "tags": [
+    "geometry",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1032/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1032/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1032/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1032D%20Barcelonian Distance%20tutorial",
+  "solved_count": 2952,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1032D",
+  "hydro_meta": {
+    "page_title": "Barcelonian Distance - 题目详情 - Hydro",
+    "hydro_tags": [
+      "geometry",
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

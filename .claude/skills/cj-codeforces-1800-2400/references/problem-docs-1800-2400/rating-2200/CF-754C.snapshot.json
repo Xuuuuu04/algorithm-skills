@@ -1,0 +1,41 @@
+{
+  "id": "CF-754C",
+  "contest_id": 754,
+  "index": "C",
+  "name": "Vladik and chat",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "implementation",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/754/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/754/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/754/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=754C%20Vladik and chat%20tutorial",
+  "solved_count": 1071,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P754C",
+  "hydro_meta": {
+    "page_title": "Vladik and chat - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "implementation",
+      "strings",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

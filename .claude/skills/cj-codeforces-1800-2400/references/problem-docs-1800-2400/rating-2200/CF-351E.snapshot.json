@@ -1,0 +1,31 @@
+{
+  "id": "CF-351E",
+  "contest_id": 351,
+  "index": "E",
+  "name": "Jeff and Permutation",
+  "rating": 2200,
+  "tags": [
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/351/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/351/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/351/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=351E%20Jeff and Permutation%20tutorial",
+  "solved_count": 1780,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P351E",
+  "hydro_meta": {
+    "page_title": "Jeff and Permutation - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

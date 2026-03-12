@@ -1,0 +1,33 @@
+{
+  "id": "CF-1951G",
+  "contest_id": 1951,
+  "index": "G",
+  "name": "Clacking Balls",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "combinatorics",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 420,
+  "problem_url": "https://codeforces.com/problemset/problem/1951/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1951/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1951/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1951G%20Clacking%20Balls%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1951G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Clacking Balls - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "probabilities"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-2030A",
+  "contest_id": 2030,
+  "index": "A",
+  "name": "A Gift From Orangutan",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 27440,
+  "problem_url": "https://codeforces.com/problemset/problem/2030/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2030/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2030/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2030A%20A%20Gift%20From%20Orangutan%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2030A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2030A A Gift From Orangutan - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

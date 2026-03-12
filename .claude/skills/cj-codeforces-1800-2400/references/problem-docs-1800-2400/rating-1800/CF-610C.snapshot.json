@@ -1,0 +1,31 @@
+{
+  "id": "CF-610C",
+  "contest_id": 610,
+  "index": "C",
+  "name": "Harmony Analysis",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "url": "https://codeforces.com/problemset/problem/610/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/610/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/610/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=610C%20Harmony Analysis%20tutorial",
+  "solved_count": 2950,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P610C",
+  "hydro_meta": {
+    "page_title": "Harmony Analysis - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-666C",
+  "contest_id": 666,
+  "index": "C",
+  "name": "Codeword",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "strings"
+  ],
+  "solved_count": 899,
+  "problem_url": "https://codeforces.com/problemset/problem/666/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/666/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/666/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=666C%20Codeword%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/666/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 666C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "6 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

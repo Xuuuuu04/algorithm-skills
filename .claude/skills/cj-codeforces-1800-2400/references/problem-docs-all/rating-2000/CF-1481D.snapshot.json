@@ -1,0 +1,38 @@
+{
+  "id": "CF-1481D",
+  "contest_id": 1481,
+  "index": "D",
+  "name": "AB Graph",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "graphs",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 4828,
+  "problem_url": "https://codeforces.com/problemset/problem/1481/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1481/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1481/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1481D%20AB%20Graph%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1481D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "AB Graph - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

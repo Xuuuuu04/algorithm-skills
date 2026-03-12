@@ -1,0 +1,33 @@
+{
+  "id": "CF-1592D",
+  "contest_id": 1592,
+  "index": "D",
+  "name": "Hemose in ICPC ?",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "dfs and similar",
+    "implementation",
+    "interactive",
+    "math",
+    "number theory",
+    "trees"
+  ],
+  "solved_count": 2531,
+  "problem_url": "https://codeforces.com/problemset/problem/1592/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1592/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1592/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1592D%20Hemose%20in%20ICPC%20%3F%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1592D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1592D Hemose in ICPC ? - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 182,
+    "mirror_attempt": 430,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

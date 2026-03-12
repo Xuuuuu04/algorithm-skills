@@ -1,0 +1,34 @@
+{
+  "id": "CF-638B",
+  "contest_id": 638,
+  "index": "B",
+  "name": "Making Genome in Berland",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "*special",
+    "dfs and similar",
+    "strings"
+  ],
+  "solved_count": 2099,
+  "problem_url": "https://codeforces.com/problemset/problem/638/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/638/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/638/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=638B%20Making%20Genome%20in%20Berland%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P638B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Making Genome in Berland - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "dfs and similar",
+      "strings",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

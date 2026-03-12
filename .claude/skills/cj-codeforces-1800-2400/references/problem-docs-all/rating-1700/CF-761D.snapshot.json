@@ -1,0 +1,38 @@
+{
+  "id": "CF-761D",
+  "contest_id": 761,
+  "index": "D",
+  "name": "Dasha and Very Difficult Problem",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 4183,
+  "problem_url": "https://codeforces.com/problemset/problem/761/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/761/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/761/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=761D%20Dasha%20and%20Very%20Difficult%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P761D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Dasha and Very Difficult Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

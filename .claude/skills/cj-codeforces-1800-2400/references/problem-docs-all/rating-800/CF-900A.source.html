@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF900A Find Extra One - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF900A","type":"CF","title":"Find Extra One","difficulty":1,"tags":[266],"wantsTranslation":false,"totalSubmit":1773,"totalAccepted":920,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Find Extra One","background":"","description":"# \u9898\u76ee\u7b80\u8ff0\n\u5e73\u9762\u76f4\u89d2\u5750\u6807\u7cfb\u4e0a\u6709n\u4e2a\u70b9\uff0c\u5b83\u4eec\u90fd\u4e0d\u5728y\u8f74\u4e0a\u3002\u73b0\u5728\u8bf7\u4f60\u68c0\u67e5\u662f\u5426\u53ef\u4ee5\u53bb\u6389\u4e00\u4e2a\u70b9\uff0c\u4f7f\u6240\u6709\u70b9\u90fd\u4f4d\u4e8ey\u8f74\u7684\u540c\u4e00\u8fb9\u3002","formatI":"\u7b2c\u4e00\u884c\u4e3an\u3002\uff082\u003C=n\u003C=100000\uff09\n\n\u63a5\u4e0b\u6765\u4e3an\u884cXi\u548cYi(Xi,Yi\u7684\u7edd\u5bf9\u503c\u003C=1000000000,Xi!=0)\uff0c\u6ca1\u6709\u4efb\u610f\u4e24\u70b9\u91cd\u5408\u3002","formatO":"\u5982\u679c\u53ef\u4ee5\u53bb\u6389\u4e00\u4e2a\u70b9\u4f7f\u6240\u6709\u70b9\u4f4d\u4e8ey\u8f74\u540c\u4e00\u8fb9\uff0c\u8f93\u51fa\u201cYes\u201d\uff0c\u53cd\u4e4b\u8f93\u51fa\u201cNo\u201d\u3002\n\n\u5927\u5199\u5c0f\u5199\u90fd\u53ef\u4ee5\u3002","hint":"\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5220\u9664\u7b2c\u4e8c\u4e2a\u70b9\u3002\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u65e0\u6cd5\u8fbe\u5230\u76ee\u6807\u3002\n\n\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u968f\u4fbf\u5220\u9664\u4e00\u4e2a\u70b9\u90fd\u53ef\u4ee5\u3002","locale":"zh-CN"},"content":{"name":"Find Extra One","background":"","description":"You have $ n $ distinct points on a plane, none of them lie on $ OY $ axis. Check that there is a point after removal of which the remaining points are located on one side of the $ OY $ axis.","formatI":"The first line contains a single positive integer $ n $ ( $ 2\u003C=n\u003C=10^{5} $ ).\n\nThe following $ n $ lines contain coordinates of the points. The $ i $ -th of these lines contains two single integers $ x_{i} $ and $ y_{i} $ ( $ |x_{i}|,|y_{i}|\u003C=10^{9} $ , $ x_{i}\u22600 $ ). No two points coincide.","formatO":"Print \u0022Yes\u0022 if there is such a point, \u0022No\u0022 \u2014 otherwise.\n\nYou can print every letter in any case (upper or lower).","hint":"In the first example the second point can be removed.\n\nIn the second example there is no suitable for the condition point.\n\nIn the third example any point can be removed.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n1 1\n-1 -1\n2 -1\n","Yes"],["4\n1 1\n2 2\n-1 1\n-2 2\n","No"],["3\n1 2\n2 1\n4 60\n","Yes"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"900A","link":"https:\/\/codeforces.com\/problemset\/problem\/900\/A"},"translation":"# \u9898\u76ee\u7b80\u8ff0\n\u5e73\u9762\u76f4\u89d2\u5750\u6807\u7cfb\u4e0a\u6709n\u4e2a\u70b9\uff0c\u5b83\u4eec\u90fd\u4e0d\u5728y\u8f74\u4e0a\u3002\u73b0\u5728\u8bf7\u4f60\u68c0\u67e5\u662f\u5426\u53ef\u4ee5\u53bb\u6389\u4e00\u4e2a\u70b9\uff0c\u4f7f\u6240\u6709\u70b9\u90fd\u4f4d\u4e8ey\u8f74\u7684\u540c\u4e00\u8fb9\u3002\n\n# \u8f93\u5165\u683c\u5f0f\n\u7b2c\u4e00\u884c\u4e3an\u3002\uff082\u003C=n\u003C=100000\uff09\n\n\u63a5\u4e0b\u6765\u4e3an\u884cXi\u548cYi(Xi,Yi\u7684\u7edd\u5bf9\u503c\u003C=1000000000,Xi!=0)\uff0c\u6ca1\u6709\u4efb\u610f\u4e24\u70b9\u91cd\u5408\u3002\n\n# \u8f93\u51fa\u683c\u5f0f\n\u5982\u679c\u53ef\u4ee5\u53bb\u6389\u4e00\u4e2a\u70b9\u4f7f\u6240\u6709\u70b9\u4f4d\u4e8ey\u8f74\u540c\u4e00\u8fb9\uff0c\u8f93\u51fa\u201cYes\u201d\uff0c\u53cd\u4e4b\u8f93\u51fa\u201cNo\u201d\u3002\n\n\u5927\u5199\u5c0f\u5199\u90fd\u53ef\u4ee5\u3002\n\n# \u8bf4\u660e\n\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5220\u9664\u7b2c\u4e8c\u4e2a\u70b9\u3002\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u65e0\u6cd5\u8fbe\u5230\u76ee\u6807\u3002\n\n\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u968f\u4fbf\u5220\u9664\u4e00\u4e2a\u70b9\u90fd\u53ef\u4ee5\u3002"},"translations":{"en":{"name":"Find Extra One","background":"","description":"You have $ n $ distinct points on a plane, none of them lie on $ OY $ axis. Check that there is a point after removal of which the remaining points are located on one side of the $ OY $ axis.","formatI":"The first line contains a single positive integer $ n $ ( $ 2\u003C=n\u003C=10^{5} $ ).\n\nThe following $ n $ lines contain coordinates of the points. The $ i $ -th of these lines contains two single integers $ x_{i} $ and $ y_{i} $ ( $ |x_{i}|,|y_{i}|\u003C=10^{9} $ , $ x_{i}\u22600 $ ). No two points coincide.","formatO":"Print \u0022Yes\u0022 if there is such a point, \u0022No\u0022 \u2014 otherwise.\n\nYou can print every letter in any case (upper or lower).","hint":"In the first example the second point can be removed.\n\nIn the second example there is no suitable for the condition point.\n\nIn the third example any point can be removed.","locale":"en"},"zh-CN":{"name":"Find Extra One","background":"","description":"# \u9898\u76ee\u7b80\u8ff0\n\u5e73\u9762\u76f4\u89d2\u5750\u6807\u7cfb\u4e0a\u6709n\u4e2a\u70b9\uff0c\u5b83\u4eec\u90fd\u4e0d\u5728y\u8f74\u4e0a\u3002\u73b0\u5728\u8bf7\u4f60\u68c0\u67e5\u662f\u5426\u53ef\u4ee5\u53bb\u6389\u4e00\u4e2a\u70b9\uff0c\u4f7f\u6240\u6709\u70b9\u90fd\u4f4d\u4e8ey\u8f74\u7684\u540c\u4e00\u8fb9\u3002","formatI":"\u7b2c\u4e00\u884c\u4e3an\u3002\uff082\u003C=n\u003C=100000\uff09\n\n\u63a5\u4e0b\u6765\u4e3an\u884cXi\u548cYi(Xi,Yi\u7684\u7edd\u5bf9\u503c\u003C=1000000000,Xi!=0)\uff0c\u6ca1\u6709\u4efb\u610f\u4e24\u70b9\u91cd\u5408\u3002","formatO":"\u5982\u679c\u53ef\u4ee5\u53bb\u6389\u4e00\u4e2a\u70b9\u4f7f\u6240\u6709\u70b9\u4f4d\u4e8ey\u8f74\u540c\u4e00\u8fb9\uff0c\u8f93\u51fa\u201cYes\u201d\uff0c\u53cd\u4e4b\u8f93\u51fa\u201cNo\u201d\u3002\n\n\u5927\u5199\u5c0f\u5199\u90fd\u53ef\u4ee5\u3002","hint":"\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5220\u9664\u7b2c\u4e8c\u4e2a\u70b9\u3002\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u65e0\u6cd5\u8fbe\u5230\u76ee\u6807\u3002\n\n\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u968f\u4fbf\u5220\u9664\u4e00\u4e2a\u70b9\u90fd\u53ef\u4ee5\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF900A Find Extra One","type":2,"slug":"CF900A","color":"orange-3"},"discussions":[{"id":49513,"title":"\u7ffb\u8bd1","author":{"uid":59602,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/59602.png","name":"sophisticate","slogan":"If opportunity does not  knock, built a door.","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1531797769}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.641141,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF900A Find Extra One","description":"\u9898\u76ee\u7b80\u8ff0\n\u5e73\u9762\u76f4\u89d2\u5750\u6807\u7cfb\u4e0a\u6709n\u4e2a\u70b9\uff0c\u5b83\u4eec\u90fd\u4e0d\u5728y\u8f74\u4e0a\u3002\u73b0\u5728\u8bf7\u4f60\u68c0\u67e5\u662f\u5426\u53ef\u4ee5\u53bb\u6389\u4e00\u4e2a\u70b9\uff0c\u4f7f\u6240\u6709\u70b9\u90fd\u4f4d\u4e8ey\u8f74\u7684\u540c\u4e00\u8fb9\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF900A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF900A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF900A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF900A Find Extra One" />
+    <meta property="og:description" content="题目简述
+平面直角坐标系上有n个点，它们都不在y轴上。现在请你检查是否可以去掉一个点，使所有点都位于y轴的同一边。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF900A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF900A Find Extra One</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    # 题目简述
+平面直角坐标系上有n个点，它们都不在y轴上。现在请你检查是否可以去掉一个点，使所有点都位于y轴的同一边。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行为n。（2
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    如果可以去掉一个点使所有点位于y轴同一边，输出“Yes”，反之输出“No”。
+
+大写小写都可以。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一个样例中，删除第二个点。
+
+第二个样例中，无法达到目标。
+
+第三个样例中，随便删除一个点都可以。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

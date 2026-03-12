@@ -1,0 +1,32 @@
+{
+  "id": "CF-1620A",
+  "contest_id": 1620,
+  "index": "A",
+  "name": "Equal or Not Equal",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "dsu",
+    "implementation"
+  ],
+  "solved_count": 22966,
+  "problem_url": "https://codeforces.com/problemset/problem/1620/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1620/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1620/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1620A%20Equal%20or%20Not%20Equal%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1620A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Equal or Not Equal - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 5,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

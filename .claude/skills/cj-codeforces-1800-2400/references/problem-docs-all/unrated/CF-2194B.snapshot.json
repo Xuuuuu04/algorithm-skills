@@ -1,0 +1,29 @@
+{
+  "id": "CF-2194B",
+  "contest_id": 2194,
+  "index": "B",
+  "name": "Offshores",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 16485,
+  "problem_url": "https://codeforces.com/problemset/problem/2194/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2194/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2194/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2194B%20Offshores%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2194B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2194B Offshores - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1500 ms",
+    "memory_limit": "256000 KB"
+  }
+}

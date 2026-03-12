@@ -1,0 +1,42 @@
+{
+  "id": "CF-552D",
+  "contest_id": 552,
+  "index": "D",
+  "name": "Vanya and Triangles",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "data structures",
+    "geometry",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/552/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/552/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/552/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=552D%20Vanya and Triangles%20tutorial",
+  "solved_count": 4798,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P552D",
+  "hydro_meta": {
+    "page_title": "Vanya and Triangles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "combinatorics",
+      "data structures",
+      "geometry",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

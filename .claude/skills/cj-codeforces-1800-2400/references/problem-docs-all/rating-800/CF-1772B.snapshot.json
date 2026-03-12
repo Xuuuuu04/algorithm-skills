@@ -1,0 +1,28 @@
+{
+  "id": "CF-1772B",
+  "contest_id": 1772,
+  "index": "B",
+  "name": "Matrix Rotation",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 32857,
+  "problem_url": "https://codeforces.com/problemset/problem/1772/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1772/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1772/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1772B%20Matrix%20Rotation%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1772B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1772B Matrix Rotation - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 267,
+    "mirror_attempt": 365,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

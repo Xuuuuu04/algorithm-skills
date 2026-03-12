@@ -1,0 +1,32 @@
+{
+  "id": "CF-809B",
+  "contest_id": 809,
+  "index": "B",
+  "name": "Glad to see you!",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "interactive"
+  ],
+  "solved_count": 1760,
+  "problem_url": "https://codeforces.com/problemset/problem/809/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/809/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/809/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=809B%20Glad%20to%20see%20you%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P809B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Glad to see you! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "interactive",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

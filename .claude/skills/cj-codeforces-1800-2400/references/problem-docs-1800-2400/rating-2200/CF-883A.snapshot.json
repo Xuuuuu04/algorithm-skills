@@ -1,0 +1,29 @@
+{
+  "id": "CF-883A",
+  "contest_id": 883,
+  "index": "A",
+  "name": "Automatic Door",
+  "rating": 2200,
+  "tags": [
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/883/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/883/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/883/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=883A%20Automatic Door%20tutorial",
+  "solved_count": 644,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P883A",
+  "hydro_meta": {
+    "page_title": "Automatic Door - 题目详情 - Hydro",
+    "hydro_tags": [
+      "implementation",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

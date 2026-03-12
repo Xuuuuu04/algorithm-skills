@@ -1,0 +1,42 @@
+{
+  "id": "CF-1290B",
+  "contest_id": 1290,
+  "index": "B",
+  "name": "Irreducible Anagrams",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "strings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1290/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1290/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1290/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1290B%20Irreducible Anagrams%20tutorial",
+  "solved_count": 6981,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1290B",
+  "hydro_meta": {
+    "page_title": "Irreducible Anagrams - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "strings",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

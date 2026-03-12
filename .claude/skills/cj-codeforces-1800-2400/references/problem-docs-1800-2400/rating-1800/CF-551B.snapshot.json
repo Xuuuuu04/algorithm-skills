@@ -1,0 +1,38 @@
+{
+  "id": "CF-551B",
+  "contest_id": 551,
+  "index": "B",
+  "name": "ZgukistringZ",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "implementation",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/551/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/551/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/551/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=551B%20ZgukistringZ%20tutorial",
+  "solved_count": 4042,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P551B",
+  "hydro_meta": {
+    "page_title": "ZgukistringZ - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "strings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

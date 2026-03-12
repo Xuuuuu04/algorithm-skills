@@ -1,0 +1,30 @@
+{
+  "id": "CF-2031A",
+  "contest_id": 2031,
+  "index": "A",
+  "name": "Penchick and Modern Monument",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 20807,
+  "problem_url": "https://codeforces.com/problemset/problem/2031/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2031/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2031/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2031A%20Penchick%20and%20Modern%20Monument%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2031A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2031A Penchick and Modern Monument - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

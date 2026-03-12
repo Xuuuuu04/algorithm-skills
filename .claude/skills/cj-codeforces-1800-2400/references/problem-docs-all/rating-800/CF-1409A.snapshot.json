@@ -1,0 +1,28 @@
+{
+  "id": "CF-1409A",
+  "contest_id": 1409,
+  "index": "A",
+  "name": "Yet Another Two Integers Problem",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 79177,
+  "problem_url": "https://codeforces.com/problemset/problem/1409/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1409/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1409/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1409A%20Yet%20Another%20Two%20Integers%20Problem%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1409A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1409A Yet Another Two Integers Problem - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 517,
+    "mirror_attempt": 913,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

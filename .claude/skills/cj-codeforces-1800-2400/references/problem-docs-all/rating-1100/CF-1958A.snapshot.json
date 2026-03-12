@@ -1,0 +1,32 @@
+{
+  "id": "CF-1958A",
+  "contest_id": 1958,
+  "index": "A",
+  "name": "1-3-5",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "dp"
+  ],
+  "solved_count": 2492,
+  "problem_url": "https://codeforces.com/problemset/problem/1958/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1958/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1958/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1958A%201-3-5%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1958A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "1-3-5 - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "dp",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

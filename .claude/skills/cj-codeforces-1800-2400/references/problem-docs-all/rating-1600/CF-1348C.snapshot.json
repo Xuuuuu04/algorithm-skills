@@ -1,0 +1,30 @@
+{
+  "id": "CF-1348C",
+  "contest_id": 1348,
+  "index": "C",
+  "name": "Phoenix and Distribution",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "sortings",
+    "strings"
+  ],
+  "solved_count": 15423,
+  "problem_url": "https://codeforces.com/problemset/problem/1348/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1348/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1348/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1348C%20Phoenix%20and%20Distribution%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1348/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1348C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-1111D",
+  "contest_id": 1111,
+  "index": "D",
+  "name": "Destroy the Colony",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 1119,
+  "problem_url": "https://codeforces.com/problemset/problem/1111/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1111/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1111/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1111D%20Destroy%20the%20Colony%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1111D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Destroy the Colony - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

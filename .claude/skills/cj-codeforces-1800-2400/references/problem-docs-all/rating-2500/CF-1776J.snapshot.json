@@ -1,0 +1,32 @@
+{
+  "id": "CF-1776J",
+  "contest_id": 1776,
+  "index": "J",
+  "name": "Italian Data Centers",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 873,
+  "problem_url": "https://codeforces.com/problemset/problem/1776/J",
+  "answer_index_url": "https://codeforces.com/problemset/status/1776/problem/J",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1776/problem/J?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1776J%20Italian%20Data%20Centers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1776J",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Italian Data Centers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graphs",
+      "shortest paths",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

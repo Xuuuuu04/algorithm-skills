@@ -1,0 +1,33 @@
+{
+  "id": "CF-540D",
+  "contest_id": 540,
+  "index": "D",
+  "name": "Bad Luck Island",
+  "rating": 1900,
+  "tags": [
+    "dp",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/540/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/540/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/540/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=540D%20Bad Luck Island%20tutorial",
+  "solved_count": 6408,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P540D",
+  "hydro_meta": {
+    "page_title": "Bad Luck Island - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "probabilities",
+      "*1900"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

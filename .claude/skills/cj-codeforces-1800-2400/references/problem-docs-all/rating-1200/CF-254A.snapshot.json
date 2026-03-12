@@ -1,0 +1,28 @@
+{
+  "id": "CF-254A",
+  "contest_id": 254,
+  "index": "A",
+  "name": "Cards with Numbers",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "sortings"
+  ],
+  "solved_count": 7678,
+  "problem_url": "https://codeforces.com/problemset/problem/254/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/254/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/254/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=254A%20Cards%20with%20Numbers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/254/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 254A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

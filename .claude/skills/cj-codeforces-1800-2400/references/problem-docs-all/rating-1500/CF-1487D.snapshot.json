@@ -1,0 +1,30 @@
+{
+  "id": "CF-1487D",
+  "contest_id": 1487,
+  "index": "D",
+  "name": "Pythagorean Triples",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 20255,
+  "problem_url": "https://codeforces.com/problemset/problem/1487/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1487/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1487/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1487D%20Pythagorean%20Triples%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1487D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1487D Pythagorean Triples - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 362,
+    "mirror_attempt": 527,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

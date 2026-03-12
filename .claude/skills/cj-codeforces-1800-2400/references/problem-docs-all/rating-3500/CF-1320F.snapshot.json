@@ -1,0 +1,27 @@
+{
+  "id": "CF-1320F",
+  "contest_id": 1320,
+  "index": "F",
+  "name": "Blocks and Sensors",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 174,
+  "problem_url": "https://codeforces.com/problemset/problem/1320/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1320/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1320/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1320F%20Blocks%20and%20Sensors%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1320/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1320F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

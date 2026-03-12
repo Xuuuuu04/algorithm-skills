@@ -1,0 +1,35 @@
+{
+  "id": "CF-1981E",
+  "contest_id": 1981,
+  "index": "E",
+  "name": "Turtle and Intersected Segments",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "dsu",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 1204,
+  "problem_url": "https://codeforces.com/problemset/problem/1981/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1981/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1981/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1981E%20Turtle%20and%20Intersected%20Segments%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1981E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Turtle and Intersected Segments - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "greedy"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "5000ms",
+    "memory_limit": "512MiB"
+  }
+}

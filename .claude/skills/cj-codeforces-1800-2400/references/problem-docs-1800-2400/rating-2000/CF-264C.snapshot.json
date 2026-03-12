@@ -1,0 +1,31 @@
+{
+  "id": "CF-264C",
+  "contest_id": 264,
+  "index": "C",
+  "name": "Choosing Balls",
+  "rating": 2000,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/264/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/264/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/264/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=264C%20Choosing Balls%20tutorial",
+  "solved_count": 3250,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P264C",
+  "hydro_meta": {
+    "page_title": "Choosing Balls - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

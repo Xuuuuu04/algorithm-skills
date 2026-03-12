@@ -1,0 +1,38 @@
+{
+  "id": "CF-1336B",
+  "contest_id": 1336,
+  "index": "B",
+  "name": "Xenia and Colorful Gems",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "math",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 12054,
+  "problem_url": "https://codeforces.com/problemset/problem/1336/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1336/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1336/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1336B%20Xenia%20and%20Colorful%20Gems%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1336B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Xenia and Colorful Gems - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "sortings",
+      "two pointers",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-387D",
+  "contest_id": 387,
+  "index": "D",
+  "name": "George and Interesting Graph",
+  "rating": 2200,
+  "tags": [
+    "graph matchings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/387/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/387/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/387/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=387D%20George and Interesting Graph%20tutorial",
+  "solved_count": 1144,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P387D",
+  "hydro_meta": {
+    "page_title": "George and Interesting Graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graph matchings",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

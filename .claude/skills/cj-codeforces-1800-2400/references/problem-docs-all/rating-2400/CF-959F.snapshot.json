@@ -1,0 +1,30 @@
+{
+  "id": "CF-959F",
+  "contest_id": 959,
+  "index": "F",
+  "name": "Mahmoud and Ehab and yet another xor task",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "math",
+    "matrices"
+  ],
+  "solved_count": 2748,
+  "problem_url": "https://codeforces.com/problemset/problem/959/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/959/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/959/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=959F%20Mahmoud%20and%20Ehab%20and%20yet%20another%20xor%20task%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/959/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 959F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

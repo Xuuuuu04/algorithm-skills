@@ -1,0 +1,38 @@
+{
+  "id": "CF-1360H",
+  "contest_id": 1360,
+  "index": "H",
+  "name": "Binary Median",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "brute force",
+    "constructive algorithms"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1360/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1360/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1360/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1360H%20Binary Median%20tutorial",
+  "solved_count": 4827,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1360H",
+  "hydro_meta": {
+    "page_title": "Binary Median - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

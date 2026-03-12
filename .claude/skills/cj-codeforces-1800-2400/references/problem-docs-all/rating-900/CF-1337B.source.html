@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417191:NxWeAfsXscG95PAesLc8m0485ZeYX8wb0ANErixS7Ds=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1337B Kana and Dragon Quest game - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1337B","type":"CF","title":"Kana and Dragon Quest game","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":438,"totalAccepted":268,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Kana and Dragon Quest game","background":"","description":"\u73b0\u5728\u6211\u4eec\u6709\u4e00\u6761\u9f99\uff0c\u5b83\u7684\u8840\u91cf\u4e3a $x$ \u3002\n\n\u6211\u4eec\u6709\u4e24\u4e2a\u6280\u80fd\uff1a\u96f7\u51fb\u548c\u7a7a\u6d1e\u5438\u6536\u3002\n\n\u96f7\u51fb\uff1a\n\n\u653b\u51fb\u540e\u4f7f\u5f97\u9f99\u7684\u8840\u91cf\u51cf $10$ \uff0c\u4e5f\u5c31\u662f\u8bf4\uff0c\u539f\u6765 $h$ \u7684\u8840\u91cf\u53d8\u4e3a\u4e86 $h - 10$ \u3002\n\n\u7a7a\u6d1e\u5438\u6536\uff1a\n\n\u653b\u51fb\u540e\u4f7f\u5f97\u9f99\u7684\u8840\u91cf\u53d8\u4e3a\uff1a$[\\frac{h}{2}]+10$  \uff0c\u5176\u4e2d $[h]$ \u8868\u793a\u5411\u4e0b\u53d6\u6574\u3002\n\n\u73b0\u5728\u8981\u77e5\u9053\u662f\u5426\u53ef\u4ee5\u5728\u6280\u80fd\u6709\u4f7f\u7528\u6b21\u6570\u7684\u9650\u5236\u4e0b\u6253\u5012\u9f99\u3002","formatI":"**\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e**\n\n\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $T$,\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7684\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765\u7684 $T$ \u884c \u5206\u522b\u5305\u542b\u4e09\u4e2a\u6574\u6570\uff1a \u9f99\u7684\u8840\u91cf $x$ ,\n\u7a7a\u6d1e\u5438\u6536\u7684\u4f7f\u7528\u6b21\u6570 $n$ \uff0c\u96f7\u51fb\u7684\u4f7f\u7528\u6b21\u6570 $m$","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\uff0c\u5982\u679c\u53ef\u4ee5\u6253\u5012\u9f99\uff0c\u8f93\u51fa \u201c$YES$\u201d\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\uff0c\u5426\u5219\u8f93\u51fa \u0022$NO$\u0022\uff08\u4e0d\u5e26\u5f15\u53f7\uff09","hint":"$1 \\le T \\le 1000$\u3002\n\n$1 \\le x \\le 10^5$\u3002\n\n$0 \\le n,m \\le 30 $\u3002\n\n-----------\n\u4ee5\u4e0b\u662f\u6837\u4f8b $1$ \u7684\u6d4b\u8bd5\u6570\u636e $1$ \u7684\u89e3\u91ca\uff1a\n\n(\u4ee5 $L$ \u4ee3\u66ff \u96f7\u51fb, $V$ \u4ee3\u66ff \u7a7a\u6d1e\u5438\u6536)\n\n\u64cd\u4f5c    || \u8840\u91cf\u72b6\u6001\n\n$V \\ \\ \\ \\ \\ [\\frac{100}{2}]+10 =60$\n\n$L \\ \\ \\ \\ \\ 60-10=50$\n\n$V \\ \\ \\ \\ \\  [\\frac{50}{2}]+10=35$\n\n$V \\ \\ \\ \\ \\ [\\frac {35}{2}]+10=27$\n\n$L \\ \\ \\ \\ \\ 27-10=17$\n\n$L \\ \\ \\ \\ \\ 17-10=7$\n\n$L \\ \\ \\ \\ \\ 7-10=-3$\n\n\u00b7Translated by black_trees","locale":"zh-CN"},"content":{"name":"Kana and Dragon Quest game","background":"","description":"Kana was just an ordinary high school girl before a talent scout discovered her. Then, she became an idol. But different from the stereotype, she is also a gameholic.\n\nOne day Kana gets interested in a new adventure game called Dragon Quest. In this game, her quest is to beat a dragon.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1337B\/5e977b6bf2094913d091305ba37b808761238a2f.png)The dragon has a hit point of $ x $ initially. When its hit point goes to $ 0 $ or under $ 0 $ , it will be defeated. In order to defeat the dragon, Kana can cast the two following types of spells.\n\n- Void AbsorptionAssume that the dragon\u0027s current hit point is $ h $ , after casting this spell its hit point will become $ \\left\\lfloor \\frac{h}{2} \\right\\rfloor + 10 $ . Here $ \\left\\lfloor \\frac{h}{2} \\right\\rfloor $ denotes $ h $ divided by two, rounded down.\n- Lightning StrikeThis spell will decrease the dragon\u0027s hit point by $ 10 $ . Assume that the dragon\u0027s current hit point is $ h $ , after casting this spell its hit point will be lowered to $ h-10 $ .\n\nDue to some reasons Kana can only cast no more than $ n $ Void Absorptions and $ m $ Lightning Strikes. She can cast the spells in any order and doesn\u0027t have to cast all the spells. Kana isn\u0027t good at math, so you are going to help her to find out whether it is possible to defeat the dragon.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 1000 $ ) \u2014 the number of test cases.\n\nThe next $ t $ lines describe test cases. For each test case the only line contains three integers $ x $ , $ n $ , $ m $ ( $ 1\\le x \\le 10^5 $ , $ 0\\le n,m\\le30 $ ) \u2014 the dragon\u0027s intitial hit point, the maximum number of Void Absorptions and Lightning Strikes Kana can cast respectively.","formatO":"If it is possible to defeat the dragon, print \u0022YES\u0022 (without quotes). Otherwise, print \u0022NO\u0022 (without quotes).\n\nYou can print each letter in any case (upper or lower).","hint":"One possible casting sequence of the first test case is shown below:\n\n- Void Absorption $ \\left\\lfloor \\frac{100}{2} \\right\\rfloor + 10=60 $ .\n- Lightning Strike $ 60-10=50 $ .\n- Void Absorption $ \\left\\lfloor \\frac{50}{2} \\right\\rfloor + 10=35 $ .\n- Void Absorption $ \\left\\lfloor \\frac{35}{2} \\right\\rfloor + 10=27 $ .\n- Lightning Strike $ 27-10=17 $ .\n- Lightning Strike $ 17-10=7 $ .\n- Lightning Strike $ 7-10=-3 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\n100 3 4\n189 3 4\n64 2 3\n63 2 3\n30 27 7\n10 9 1\n69117 21 2","YES\nNO\nNO\nYES\nYES\nYES\nYES"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1337B","link":"https:\/\/codeforces.com\/problemset\/problem\/1337\/B"},"translation":"### \u9898\u76ee\u63cf\u8ff0\uff1a\n\n\u73b0\u5728\u6211\u4eec\u6709\u4e00\u6761\u9f99\uff0c\u5b83\u7684\u8840\u91cf\u4e3a $x$ \u3002\n\n\u6211\u4eec\u6709\u4e24\u4e2a\u6280\u80fd\uff1a\u96f7\u51fb\u548c\u7a7a\u6d1e\u5438\u6536\u3002\n\n\u96f7\u51fb\uff1a\n\n\u653b\u51fb\u540e\u4f7f\u5f97\u9f99\u7684\u8840\u91cf\u51cf $10$ \uff0c\u4e5f\u5c31\u662f\u8bf4\uff0c\u539f\u6765 $h$ \u7684\u8840\u91cf\u53d8\u4e3a\u4e86 $h - 10$ \u3002\n\n\u7a7a\u6d1e\u5438\u6536\uff1a\n\n\u653b\u51fb\u540e\u4f7f\u5f97\u9f99\u7684\u8840\u91cf\u53d8\u4e3a\uff1a$[\\frac{h}{2}]+10$  \uff0c\u5176\u4e2d $[h]$ \u8868\u793a\u5411\u4e0b\u53d6\u6574\u3002\n\n\u73b0\u5728\u8981\u77e5\u9053\u662f\u5426\u53ef\u4ee5\u5728\u6280\u80fd\u6709\u4f7f\u7528\u6b21\u6570\u7684\u9650\u5236\u4e0b\u6253\u5012\u9f99\u3002\n\n### \u8f93\u5165\u683c\u5f0f\uff1a\n\n**\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e**\n\n\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $T$,\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7684\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765\u7684 $T$ \u884c \u5206\u522b\u5305\u542b\u4e09\u4e2a\u6574\u6570\uff1a \u9f99\u7684\u8840\u91cf $x$ ,\n\u7a7a\u6d1e\u5438\u6536\u7684\u4f7f\u7528\u6b21\u6570 $n$ \uff0c\u96f7\u51fb\u7684\u4f7f\u7528\u6b21\u6570 $m$\n\n### \u8f93\u51fa\u683c\u5f0f\uff1a\n\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\uff0c\u5982\u679c\u53ef\u4ee5\u6253\u5012\u9f99\uff0c\u8f93\u51fa \u201c$YES$\u201d\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\uff0c\u5426\u5219\u8f93\u51fa \u0022$NO$\u0022\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\n\n### \u8bf4\u660e\/\u63d0\u793a\uff1a\n#### \u6570\u636e\u8303\u56f4\uff1a\n\n$1 \\le T \\le 1000$\u3002\n\n$1 \\le x \\le 10^5$\u3002\n\n$0 \\le n,m \\le 30 $\u3002\n\n-----------\n#### \u63d0\u793a\uff1a\n\u4ee5\u4e0b\u662f\u6837\u4f8b $1$ \u7684\u6d4b\u8bd5\u6570\u636e $1$ \u7684\u89e3\u91ca\uff1a\n\n(\u4ee5 $L$ \u4ee3\u66ff \u96f7\u51fb, $V$ \u4ee3\u66ff \u7a7a\u6d1e\u5438\u6536)\n\n\u64cd\u4f5c    || \u8840\u91cf\u72b6\u6001\n\n$V \\ \\ \\ \\ \\ [\\frac{100}{2}]+10 =60$\n\n$L \\ \\ \\ \\ \\ 60-10=50$\n\n$V \\ \\ \\ \\ \\  [\\frac{50}{2}]+10=35$\n\n$V \\ \\ \\ \\ \\ [\\frac {35}{2}]+10=27$\n\n$L \\ \\ \\ \\ \\ 27-10=17$\n\n$L \\ \\ \\ \\ \\ 17-10=7$\n\n$L \\ \\ \\ \\ \\ 7-10=-3$\n\n\u00b7Translated by black_trees"},"translations":{"en":{"name":"Kana and Dragon Quest game","background":"","description":"Kana was just an ordinary high school girl before a talent scout discovered her. Then, she became an idol. But different from the stereotype, she is also a gameholic.\n\nOne day Kana gets interested in a new adventure game called Dragon Quest. In this game, her quest is to beat a dragon.\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1337B\/5e977b6bf2094913d091305ba37b808761238a2f.png)The dragon has a hit point of $ x $ initially. When its hit point goes to $ 0 $ or under $ 0 $ , it will be defeated. In order to defeat the dragon, Kana can cast the two following types of spells.\n\n- Void AbsorptionAssume that the dragon\u0027s current hit point is $ h $ , after casting this spell its hit point will become $ \\left\\lfloor \\frac{h}{2} \\right\\rfloor + 10 $ . Here $ \\left\\lfloor \\frac{h}{2} \\right\\rfloor $ denotes $ h $ divided by two, rounded down.\n- Lightning StrikeThis spell will decrease the dragon\u0027s hit point by $ 10 $ . Assume that the dragon\u0027s current hit point is $ h $ , after casting this spell its hit point will be lowered to $ h-10 $ .\n\nDue to some reasons Kana can only cast no more than $ n $ Void Absorptions and $ m $ Lightning Strikes. She can cast the spells in any order and doesn\u0027t have to cast all the spells. Kana isn\u0027t good at math, so you are going to help her to find out whether it is possible to defeat the dragon.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 1000 $ ) \u2014 the number of test cases.\n\nThe next $ t $ lines describe test cases. For each test case the only line contains three integers $ x $ , $ n $ , $ m $ ( $ 1\\le x \\le 10^5 $ , $ 0\\le n,m\\le30 $ ) \u2014 the dragon\u0027s intitial hit point, the maximum number of Void Absorptions and Lightning Strikes Kana can cast respectively.","formatO":"If it is possible to defeat the dragon, print \u0022YES\u0022 (without quotes). Otherwise, print \u0022NO\u0022 (without quotes).\n\nYou can print each letter in any case (upper or lower).","hint":"One possible casting sequence of the first test case is shown below:\n\n- Void Absorption $ \\left\\lfloor \\frac{100}{2} \\right\\rfloor + 10=60 $ .\n- Lightning Strike $ 60-10=50 $ .\n- Void Absorption $ \\left\\lfloor \\frac{50}{2} \\right\\rfloor + 10=35 $ .\n- Void Absorption $ \\left\\lfloor \\frac{35}{2} \\right\\rfloor + 10=27 $ .\n- Lightning Strike $ 27-10=17 $ .\n- Lightning Strike $ 17-10=7 $ .\n- Lightning Strike $ 7-10=-3 $ .","locale":"en"},"zh-CN":{"name":"Kana and Dragon Quest game","background":"","description":"\u73b0\u5728\u6211\u4eec\u6709\u4e00\u6761\u9f99\uff0c\u5b83\u7684\u8840\u91cf\u4e3a $x$ \u3002\n\n\u6211\u4eec\u6709\u4e24\u4e2a\u6280\u80fd\uff1a\u96f7\u51fb\u548c\u7a7a\u6d1e\u5438\u6536\u3002\n\n\u96f7\u51fb\uff1a\n\n\u653b\u51fb\u540e\u4f7f\u5f97\u9f99\u7684\u8840\u91cf\u51cf $10$ \uff0c\u4e5f\u5c31\u662f\u8bf4\uff0c\u539f\u6765 $h$ \u7684\u8840\u91cf\u53d8\u4e3a\u4e86 $h - 10$ \u3002\n\n\u7a7a\u6d1e\u5438\u6536\uff1a\n\n\u653b\u51fb\u540e\u4f7f\u5f97\u9f99\u7684\u8840\u91cf\u53d8\u4e3a\uff1a$[\\frac{h}{2}]+10$  \uff0c\u5176\u4e2d $[h]$ \u8868\u793a\u5411\u4e0b\u53d6\u6574\u3002\n\n\u73b0\u5728\u8981\u77e5\u9053\u662f\u5426\u53ef\u4ee5\u5728\u6280\u80fd\u6709\u4f7f\u7528\u6b21\u6570\u7684\u9650\u5236\u4e0b\u6253\u5012\u9f99\u3002","formatI":"**\u672c\u9898\u6709\u591a\u7ec4\u6570\u636e**\n\n\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $T$,\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7684\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765\u7684 $T$ \u884c \u5206\u522b\u5305\u542b\u4e09\u4e2a\u6574\u6570\uff1a \u9f99\u7684\u8840\u91cf $x$ ,\n\u7a7a\u6d1e\u5438\u6536\u7684\u4f7f\u7528\u6b21\u6570 $n$ \uff0c\u96f7\u51fb\u7684\u4f7f\u7528\u6b21\u6570 $m$","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\uff0c\u5982\u679c\u53ef\u4ee5\u6253\u5012\u9f99\uff0c\u8f93\u51fa \u201c$YES$\u201d\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\uff0c\u5426\u5219\u8f93\u51fa \u0022$NO$\u0022\uff08\u4e0d\u5e26\u5f15\u53f7\uff09","hint":"$1 \\le T \\le 1000$\u3002\n\n$1 \\le x \\le 10^5$\u3002\n\n$0 \\le n,m \\le 30 $\u3002\n\n-----------\n\u4ee5\u4e0b\u662f\u6837\u4f8b $1$ \u7684\u6d4b\u8bd5\u6570\u636e $1$ \u7684\u89e3\u91ca\uff1a\n\n(\u4ee5 $L$ \u4ee3\u66ff \u96f7\u51fb, $V$ \u4ee3\u66ff \u7a7a\u6d1e\u5438\u6536)\n\n\u64cd\u4f5c    || \u8840\u91cf\u72b6\u6001\n\n$V \\ \\ \\ \\ \\ [\\frac{100}{2}]+10 =60$\n\n$L \\ \\ \\ \\ \\ 60-10=50$\n\n$V \\ \\ \\ \\ \\  [\\frac{50}{2}]+10=35$\n\n$V \\ \\ \\ \\ \\ [\\frac {35}{2}]+10=27$\n\n$L \\ \\ \\ \\ \\ 27-10=17$\n\n$L \\ \\ \\ \\ \\ 17-10=7$\n\n$L \\ \\ \\ \\ \\ 7-10=-3$\n\n\u00b7Translated by black_trees","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1337B Kana and Dragon Quest game","type":2,"slug":"CF1337B","color":"orange-3"},"discussions":[{"id":729674,"title":"???","author":{"uid":933643,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/933643.png","name":"dienter","slogan":"\u524d\u9762\u5fd8\u4e86\uff0c\u4e2d\u95f4\u5fd8\u4e86\uff0c\u540e\u9762\u5fd8\u4e86","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":4,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/o4weqwz8.png"},"time":1699708878},{"id":215783,"title":"\u6c42\u52a9\uff08WA#3\uff09","author":{"uid":338786,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/338786.png","name":"mushroom_knight","slogan":"Do not eat mushroom, enjoy mushroom.","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1587104395},{"id":215363,"title":"\u5173\u4e8e\u7ffb\u8bd1\u9519\u8bef","author":{"uid":338786,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/338786.png","name":"mushroom_knight","slogan":"Do not eat mushroom, enjoy mushroom.","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1587000347}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330791.239733,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1337B Kana and Dragon Quest game","description":"\u73b0\u5728\u6211\u4eec\u6709\u4e00\u6761\u9f99\uff0c\u5b83\u7684\u8840\u91cf\u4e3a x \u3002\n\u6211\u4eec\u6709\u4e24\u4e2a\u6280\u80fd\uff1a\u96f7\u51fb\u548c\u7a7a\u6d1e\u5438\u6536\u3002\n\u96f7\u51fb\uff1a\n\u653b\u51fb\u540e\u4f7f\u5f97\u9f99\u7684\u8840\u91cf\u51cf 10 \uff0c\u4e5f\u5c31\u662f\u8bf4\uff0c\u539f\u6765 h \u7684\u8840\u91cf\u53d8\u4e3a\u4e86 h - 10 \u3002\n\u7a7a\u6d1e\u5438\u6536\uff1a\n\u653b\u51fb\u540e\u4f7f\u5f97\u9f99\u7684\u8840\u91cf\u53d8\u4e3a\uff1a[\\frac{h}{2}]+10  \uff0c\u5176\u4e2d\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1337B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1337B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1337B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1337B Kana and Dragon Quest game" />
+    <meta property="og:description" content="现在我们有一条龙，它的血量为 x 。
+我们有两个技能：雷击和空洞吸收。
+雷击：
+攻击后使得龙的血量减 10 ，也就是说，原来 h 的血量变为了 h - 10 。
+空洞吸收：
+攻击后使得龙的血量变为：[\frac{h}{2}]+10  ，其中…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1337B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1337B Kana and Dragon Quest game</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    现在我们有一条龙，它的血量为 $x$ 。
+
+我们有两个技能：雷击和空洞吸收。
+
+雷击：
+
+攻击后使得龙的血量减 $10$ ，也就是说，原来 $h$ 的血量变为了 $h - 10$ 。
+
+空洞吸收：
+
+攻击后使得龙的血量变为：$[\frac{h}{2}]+10$  ，其中 $[h]$ 表示向下取整。
+
+现在要知道是否可以在技能有使用次数的限制下打倒龙。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    **本题有多组数据**
+
+第一行是一个整数 $T$,表示测试数据的组数。
+
+接下来的 $T$ 行 分别包含三个整数： 龙的血量 $x$ ,
+空洞吸收的使用次数 $n$ ，雷击的使用次数 $m$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每一组数据，如果可以打倒龙，输出 “$YES$”（不带引号），否则输出 "$NO$"（不带引号）
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                $1 \le T \le 1000$。
+
+$1 \le x \le 10^5$。
+
+$0 \le n,m \le 30 $。
+
+-----------
+以下是样例 $1$ 的测试数据 $1$ 的解释：
+
+(以 $L$ 代替 雷击, $V$ 代替 空洞吸收)
+
+操作    || 血量状态
+
+$V \ \ \ \ \ [\frac{100}{2}]+10 =60$
+
+$L \ \ \ \ \ 60-10=50$
+
+$V \ \ \ \ \  [\frac{50}{2}]+10=35$
+
+$V \ \ \ \ \ [\frac {35}{2}]+10=27$
+
+$L \ \ \ \ \ 27-10=17$
+
+$L \ \ \ \ \ 17-10=7$
+
+$L \ \ \ \ \ 7-10=-3$
+
+·Translated by black_trees
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

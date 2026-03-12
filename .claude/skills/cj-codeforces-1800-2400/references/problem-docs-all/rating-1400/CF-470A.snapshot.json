@@ -1,0 +1,28 @@
+{
+  "id": "CF-470A",
+  "contest_id": 470,
+  "index": "A",
+  "name": "Crystal Ball Sequence",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 694,
+  "problem_url": "https://codeforces.com/problemset/problem/470/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/470/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/470/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=470A%20Crystal%20Ball%20Sequence%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/470/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 470A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

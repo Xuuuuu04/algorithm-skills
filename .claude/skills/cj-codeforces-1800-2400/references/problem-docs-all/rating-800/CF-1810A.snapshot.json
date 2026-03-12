@@ -1,0 +1,32 @@
+{
+  "id": "CF-1810A",
+  "contest_id": 1810,
+  "index": "A",
+  "name": "Beautiful Sequence",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "greedy"
+  ],
+  "solved_count": 21815,
+  "problem_url": "https://codeforces.com/problemset/problem/1810/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1810/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1810/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1810A%20Beautiful%20Sequence%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1810A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Beautiful Sequence - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "greedy",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

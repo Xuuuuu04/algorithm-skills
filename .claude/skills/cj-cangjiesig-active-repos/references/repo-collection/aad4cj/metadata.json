@@ -1,0 +1,14 @@
+{
+  "name": "aad4cj",
+  "full_name": "cangjielanguage-sig/aad4cj",
+  "html_url": "https://github.com/cangjielanguage-sig/aad4cj",
+  "description": "aad4cj 是一个基于仓颉（Cangjie）语言实现的 AAC 音频码流解析与处理组件库。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/aad4cj/main/cjpm.toml"
+}

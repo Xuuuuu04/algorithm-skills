@@ -1,0 +1,29 @@
+{
+  "id": "CF-475D",
+  "contest_id": 475,
+  "index": "D",
+  "name": "CGCDSSQ",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "math"
+  ],
+  "solved_count": 6282,
+  "problem_url": "https://codeforces.com/problemset/problem/475/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/475/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/475/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=475D%20CGCDSSQ%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF475D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF475D CGCDSSQ - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 625,
+    "mirror_attempt": 1812,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

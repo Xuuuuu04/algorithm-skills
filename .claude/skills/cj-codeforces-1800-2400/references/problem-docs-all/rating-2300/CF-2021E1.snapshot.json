@@ -1,0 +1,50 @@
+{
+  "id": "CF-2021E1",
+  "contest_id": 2021,
+  "index": "E1",
+  "name": "Digital Village (Easy Version)",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "dsu",
+    "fft",
+    "graphs",
+    "greedy",
+    "implementation",
+    "math",
+    "trees"
+  ],
+  "solved_count": 1891,
+  "problem_url": "https://codeforces.com/problemset/problem/2021/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2021/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2021/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2021E1%20Digital%20Village%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2021E1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Digital Village (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "fft",
+      "graphs",
+      "greedy",
+      "implementation",
+      "math",
+      "trees",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

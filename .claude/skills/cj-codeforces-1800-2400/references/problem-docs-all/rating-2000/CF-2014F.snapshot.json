@@ -1,0 +1,36 @@
+{
+  "id": "CF-2014F",
+  "contest_id": 2014,
+  "index": "F",
+  "name": "Sheriff's Defense",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 4988,
+  "problem_url": "https://codeforces.com/problemset/problem/2014/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2014/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2014/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2014F%20Sheriff%27s%20Defense%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2014F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sheriff's Defense - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

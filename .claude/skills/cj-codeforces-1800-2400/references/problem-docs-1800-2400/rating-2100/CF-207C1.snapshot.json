@@ -1,0 +1,26 @@
+{
+  "id": "CF-207C1",
+  "contest_id": 207,
+  "index": "C1",
+  "name": "Game with Two Trees",
+  "rating": 2100,
+  "tags": [],
+  "url": "https://codeforces.com/problemset/problem/207/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/207/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/207/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=207C1%20Game with Two Trees%20tutorial",
+  "solved_count": 129,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P207C1",
+  "hydro_meta": {
+    "page_title": "Game with Two Trees - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

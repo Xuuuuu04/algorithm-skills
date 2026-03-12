@@ -1,0 +1,28 @@
+{
+  "id": "CF-1928A",
+  "contest_id": 1928,
+  "index": "A",
+  "name": "Rectangle Cutting",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "geometry",
+    "math"
+  ],
+  "solved_count": 24268,
+  "problem_url": "https://codeforces.com/problemset/problem/1928/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1928/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1928/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1928A%20Rectangle%20Cutting%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1928A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1928A Rectangle Cutting - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 213,
+    "mirror_attempt": 359,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

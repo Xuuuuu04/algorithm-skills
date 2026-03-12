@@ -1,0 +1,30 @@
+{
+  "id": "CF-2046F2",
+  "contest_id": 2046,
+  "index": "F2",
+  "name": "Yandex Cuneiform (Hard Version)",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 94,
+  "problem_url": "https://codeforces.com/problemset/problem/2046/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2046/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2046/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2046F2%20Yandex%20Cuneiform%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2046/F2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2046F2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-1786A1",
+  "contest_id": 1786,
+  "index": "A1",
+  "name": "Non-alternating Deck (easy version)",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 14760,
+  "problem_url": "https://codeforces.com/problemset/problem/1786/A1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1786/problem/A1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1786/problem/A1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1786A1%20Non-alternating%20Deck%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1786A1",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1786A1 Non-alternating Deck (easy version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 164,
+    "mirror_attempt": 225,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

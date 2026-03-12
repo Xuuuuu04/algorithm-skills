@@ -1,0 +1,38 @@
+{
+  "id": "CF-2084D",
+  "contest_id": 2084,
+  "index": "D",
+  "name": "Arcology On Permafrost",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 8599,
+  "problem_url": "https://codeforces.com/problemset/problem/2084/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2084/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2084/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2084D%20Arcology%20On%20Permafrost%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2084D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Arcology On Permafrost - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

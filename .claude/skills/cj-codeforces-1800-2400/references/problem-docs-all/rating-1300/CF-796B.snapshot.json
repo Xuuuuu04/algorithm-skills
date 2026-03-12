@@ -1,0 +1,30 @@
+{
+  "id": "CF-796B",
+  "contest_id": 796,
+  "index": "B",
+  "name": "Find The Bone",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 9649,
+  "problem_url": "https://codeforces.com/problemset/problem/796/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/796/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/796/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=796B%20Find%20The%20Bone%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P796B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Find The Bone - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

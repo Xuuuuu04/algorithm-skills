@@ -1,0 +1,27 @@
+{
+  "id": "CF-1196C",
+  "contest_id": 1196,
+  "index": "C",
+  "name": "Robot Breakout",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 9739,
+  "problem_url": "https://codeforces.com/problemset/problem/1196/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1196/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1196/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1196C%20Robot%20Breakout%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1196/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1196C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

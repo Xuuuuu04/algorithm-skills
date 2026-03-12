@@ -1,0 +1,29 @@
+{
+  "id": "CF-1373A",
+  "contest_id": 1373,
+  "index": "A",
+  "name": "Donut Shops",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 29273,
+  "problem_url": "https://codeforces.com/problemset/problem/1373/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1373/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1373/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1373A%20Donut%20Shops%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1373/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1373A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

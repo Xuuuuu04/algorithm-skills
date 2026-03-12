@@ -1,0 +1,34 @@
+{
+  "id": "CF-1925D",
+  "contest_id": 1925,
+  "index": "D",
+  "name": "Good Trip",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 4663,
+  "problem_url": "https://codeforces.com/problemset/problem/1925/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1925/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1925/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1925D%20Good%20Trip%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1925D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Good Trip - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "probabilities"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

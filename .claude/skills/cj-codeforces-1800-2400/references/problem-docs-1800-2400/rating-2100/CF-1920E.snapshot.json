@@ -1,0 +1,37 @@
+{
+  "id": "CF-1920E",
+  "contest_id": 1920,
+  "index": "E",
+  "name": "Counting Binary Strings",
+  "rating": 2100,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1920/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1920/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1920/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1920E%20Counting Binary Strings%20tutorial",
+  "solved_count": 3332,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1920E",
+  "hydro_meta": {
+    "page_title": "Counting Binary Strings - 题目详情 - Hydro",
+    "hydro_tags": [
+      "2-sat",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

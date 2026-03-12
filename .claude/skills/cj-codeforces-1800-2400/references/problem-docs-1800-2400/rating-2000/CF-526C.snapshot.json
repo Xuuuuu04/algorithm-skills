@@ -1,0 +1,36 @@
+{
+  "id": "CF-526C",
+  "contest_id": 526,
+  "index": "C",
+  "name": "Om Nom and Candies",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/526/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/526/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/526/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=526C%20Om Nom and Candies%20tutorial",
+  "solved_count": 2629,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P526C",
+  "hydro_meta": {
+    "page_title": "Om Nom and Candies - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

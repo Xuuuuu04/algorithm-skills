@@ -1,0 +1,32 @@
+{
+  "id": "CF-1186C",
+  "contest_id": 1186,
+  "index": "C",
+  "name": "Vus the Cossack and Strings",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 6506,
+  "problem_url": "https://codeforces.com/problemset/problem/1186/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1186/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1186/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1186C%20Vus%20the%20Cossack%20and%20Strings%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1186C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vus the Cossack and Strings - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

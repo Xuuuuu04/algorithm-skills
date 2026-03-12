@@ -1,0 +1,36 @@
+{
+  "id": "CF-1907C",
+  "contest_id": 1907,
+  "index": "C",
+  "name": "Removal of Unattractive Pairs",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "strings"
+  ],
+  "solved_count": 22887,
+  "problem_url": "https://codeforces.com/problemset/problem/1907/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1907/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1907/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1907C%20Removal%20of%20Unattractive%20Pairs%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1907C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Removal of Unattractive Pairs - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "strings",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

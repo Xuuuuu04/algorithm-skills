@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415130:lsoZs5YGB8q2T7h2YXC9tR/8+uOl1JXLph0Z5+9C9fg=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF844A Diversity - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF844A","type":"CF","title":"Diversity","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":398,"totalAccepted":202,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Diversity","background":null,"description":"\u8ba1\u7b97\u4f60\u9700\u8981\u5728\u5b57\u7b26\u4e32 $s$ \u4e2d\u6700\u5c11\u66f4\u6539\u591a\u5c11\u4e2a\u5b57\u7b26\uff0c\u4f7f\u5f97\u8be5\u5b57\u7b26\u4e32\u81f3\u5c11\u5305\u542b $k$ \u4e2a\u4e0d\u540c\u7684\u5b57\u6bcd\uff1b\u5982\u679c\u65e0\u6cd5\u5b9e\u73b0\uff0c\u5219\u8f93\u51fa\u201cimpossible\u201d\u3002\n\n\u5b57\u7b26\u4e32 $s$ \u53ea\u5305\u542b\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u5e76\u4e14\u53ea\u5141\u8bb8\u5c06\u5b57\u7b26\u66f4\u6539\u4e3a\u5176\u4ed6\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u5176\u4e2d $1 \\leq |s| \\leq 1000$\uff0c$|s|$ \u8868\u793a $s$ \u7684\u957f\u5ea6\u3002\n\n\u8f93\u5165\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $k$\uff0c\u5176\u4e2d $1 \\leq k \\leq 26$\u3002","formatO":"\u8f93\u51fa\u4e00\u884c\uff0c\u5305\u542b\u6240\u9700\u66f4\u6539\u7684\u6700\u5c0f\u6b21\u6570\u3002\u5982\u679c\u4e0d\u53ef\u80fd\uff0c\u5219\u8f93\u51fa\u201cimpossible\u201d\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32\u5305\u542b $6$ \u4e2a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u6240\u4ee5\u4e0d\u9700\u8981\u8fdb\u884c\u4efb\u4f55\u66f4\u6539\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32\u5305\u542b $4$ \u79cd\u4e0d\u540c\u7684\u5b57\u6bcd\uff1a$\\{\u0027a\u0027,\u0027h\u0027,\u0027o\u0027,\u0027y\u0027\\}$\u3002\u8981\u83b7\u5f97 $5$ \u4e2a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u9700\u8981\u5c06\u51fa\u73b0\u7684\u67d0\u4e00\u4e2a $\u0027o\u0027$ \u6539\u4e3a\u5b57\u7b26\u4e32\u4e2d\u4e0d\u5b58\u5728\u7684\u5b57\u6bcd\uff0c\u6bd4\u5982 $\\{\u0027b\u0027\\}$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e0d\u53ef\u80fd\u8ba9\u5b57\u7b26\u4e32\u5305\u542b $7$ \u4e2a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u56e0\u4e3a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u53ea\u6709 $6$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Diversity","background":"","description":"Calculate the minimum number of characters you need to change in the string $ s $ , so that it contains at least $ k $ different letters, or print that it is impossible.\n\nString $ s $ consists only of lowercase Latin letters, and it is allowed to change characters only to lowercase Latin letters too.","formatI":"First line of input contains string $ s $ , consisting only of lowercase Latin letters ( $ 1\u003C=|s|\u003C=1000 $ , $ |s| $ denotes the length of $ s $ ).\n\nSecond line of input contains integer $ k $ ( $ 1\u003C=k\u003C=26 $ ).","formatO":"Print single line with a minimum number of necessary changes, or the word \u00abimpossible\u00bb (without quotes) if it is impossible.","hint":"In the first test case string contains $ 6 $ different letters, so we don\u0027t need to change anything.\n\nIn the second test case string contains $ 4 $ different letters: $ {\u0027a\u0027,\u0027h\u0027,\u0027o\u0027,\u0027y\u0027} $ . To get $ 5 $ different letters it is necessary to change one occurrence of $ \u0027o\u0027 $ to some letter, which doesn\u0027t occur in the string, for example, $ {\u0027b\u0027} $ .\n\nIn the third test case, it is impossible to make $ 7 $ different letters because the length of the string is $ 6 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["yandex\n6\n","0\n"],["yahoo\n5\n","1\n"],["google\n7\n","impossible\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"844A","link":"https:\/\/codeforces.com\/problemset\/problem\/844\/A"},"translation":"\u7ed9\u51fa\u4e00\u4e2a\u5b57\u7b26\u4e32$S$\u4e0e\u4e00\u4e2a\u6574\u6570$k$\u3002\n\n\u4f60\u53ef\u4ee5\u66f4\u6539$S$\u4e2d\u7684\u4efb\u610f\u5b57\u7b26\uff0c\u4f7f\u5f97\u5b57\u7b26\u4e32$S$\u4e2d\u6709\u4e0d\u5c0f\u4e8e$k$\u4e2a\u4e0d\u540c\u7684\u5b57\u7b26\u3002\n\n\u6c42\u6700\u5c11\u7684\u66f4\u6539\u6b21\u6570\u3002\n\n$1\\le k \\le 26, 1\\le |S|\\le 1000.$"},"translations":{"en":{"name":"Diversity","background":"","description":"Calculate the minimum number of characters you need to change in the string $ s $ , so that it contains at least $ k $ different letters, or print that it is impossible.\n\nString $ s $ consists only of lowercase Latin letters, and it is allowed to change characters only to lowercase Latin letters too.","formatI":"First line of input contains string $ s $ , consisting only of lowercase Latin letters ( $ 1\u003C=|s|\u003C=1000 $ , $ |s| $ denotes the length of $ s $ ).\n\nSecond line of input contains integer $ k $ ( $ 1\u003C=k\u003C=26 $ ).","formatO":"Print single line with a minimum number of necessary changes, or the word \u00abimpossible\u00bb (without quotes) if it is impossible.","hint":"In the first test case string contains $ 6 $ different letters, so we don\u0027t need to change anything.\n\nIn the second test case string contains $ 4 $ different letters: $ {\u0027a\u0027,\u0027h\u0027,\u0027o\u0027,\u0027y\u0027} $ . To get $ 5 $ different letters it is necessary to change one occurrence of $ \u0027o\u0027 $ to some letter, which doesn\u0027t occur in the string, for example, $ {\u0027b\u0027} $ .\n\nIn the third test case, it is impossible to make $ 7 $ different letters because the length of the string is $ 6 $ .","locale":"en"},"zh-CN":{"name":"Diversity","background":null,"description":"\u8ba1\u7b97\u4f60\u9700\u8981\u5728\u5b57\u7b26\u4e32 $s$ \u4e2d\u6700\u5c11\u66f4\u6539\u591a\u5c11\u4e2a\u5b57\u7b26\uff0c\u4f7f\u5f97\u8be5\u5b57\u7b26\u4e32\u81f3\u5c11\u5305\u542b $k$ \u4e2a\u4e0d\u540c\u7684\u5b57\u6bcd\uff1b\u5982\u679c\u65e0\u6cd5\u5b9e\u73b0\uff0c\u5219\u8f93\u51fa\u201cimpossible\u201d\u3002\n\n\u5b57\u7b26\u4e32 $s$ \u53ea\u5305\u542b\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u5e76\u4e14\u53ea\u5141\u8bb8\u5c06\u5b57\u7b26\u66f4\u6539\u4e3a\u5176\u4ed6\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u4ec5\u7531\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5b57\u7b26\u4e32 $s$\uff0c\u5176\u4e2d $1 \\leq |s| \\leq 1000$\uff0c$|s|$ \u8868\u793a $s$ \u7684\u957f\u5ea6\u3002\n\n\u8f93\u5165\u7684\u7b2c\u4e8c\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $k$\uff0c\u5176\u4e2d $1 \\leq k \\leq 26$\u3002","formatO":"\u8f93\u51fa\u4e00\u884c\uff0c\u5305\u542b\u6240\u9700\u66f4\u6539\u7684\u6700\u5c0f\u6b21\u6570\u3002\u5982\u679c\u4e0d\u53ef\u80fd\uff0c\u5219\u8f93\u51fa\u201cimpossible\u201d\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32\u5305\u542b $6$ \u4e2a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u6240\u4ee5\u4e0d\u9700\u8981\u8fdb\u884c\u4efb\u4f55\u66f4\u6539\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u5b57\u7b26\u4e32\u5305\u542b $4$ \u79cd\u4e0d\u540c\u7684\u5b57\u6bcd\uff1a$\\{\u0027a\u0027,\u0027h\u0027,\u0027o\u0027,\u0027y\u0027\\}$\u3002\u8981\u83b7\u5f97 $5$ \u4e2a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u9700\u8981\u5c06\u51fa\u73b0\u7684\u67d0\u4e00\u4e2a $\u0027o\u0027$ \u6539\u4e3a\u5b57\u7b26\u4e32\u4e2d\u4e0d\u5b58\u5728\u7684\u5b57\u6bcd\uff0c\u6bd4\u5982 $\\{\u0027b\u0027\\}$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e0d\u53ef\u80fd\u8ba9\u5b57\u7b26\u4e32\u5305\u542b $7$ \u4e2a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u56e0\u4e3a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u53ea\u6709 $6$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF844A Diversity","type":2,"slug":"CF844A","color":"orange-3"},"discussions":[{"id":41700,"title":"\u9898\u76ee\u5927\u610f","author":{"uid":36080,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/36080.png","name":"\u51cc\u5e7d","slogan":"\u613f\u541b\u5f97\u507f\u6240\u613f\uff08\u987a\u4fbf\u51cc\u5e7d\u662f\u65e0\u5fe7\u7684\u540c\u97f3\u8bf6","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1525426783}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328730.269276,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF844A Diversity","description":"\u8ba1\u7b97\u4f60\u9700\u8981\u5728\u5b57\u7b26\u4e32 s \u4e2d\u6700\u5c11\u66f4\u6539\u591a\u5c11\u4e2a\u5b57\u7b26\uff0c\u4f7f\u5f97\u8be5\u5b57\u7b26\u4e32\u81f3\u5c11\u5305\u542b k \u4e2a\u4e0d\u540c\u7684\u5b57\u6bcd\uff1b\u5982\u679c\u65e0\u6cd5\u5b9e\u73b0\uff0c\u5219\u8f93\u51fa\u201cimpossible\u201d\u3002\n\u5b57\u7b26\u4e32 s \u53ea\u5305\u542b\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u5e76\u4e14\u53ea\u5141\u8bb8\u5c06\u5b57\u7b26\u66f4\u6539\u4e3a\u5176\u4ed6\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF844A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF844A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF844A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF844A Diversity" />
+    <meta property="og:description" content="计算你需要在字符串 s 中最少更改多少个字符，使得该字符串至少包含 k 个不同的字母；如果无法实现，则输出“impossible”。
+字符串 s 只包含小写拉丁字母，并且只允许将字符更改为其他小写拉丁字母。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF844A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF844A Diversity</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    计算你需要在字符串 $s$ 中最少更改多少个字符，使得该字符串至少包含 $k$ 个不同的字母；如果无法实现，则输出“impossible”。
+
+字符串 $s$ 只包含小写拉丁字母，并且只允许将字符更改为其他小写拉丁字母。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个仅由小写拉丁字母组成的字符串 $s$，其中 $1 \leq |s| \leq 1000$，$|s|$ 表示 $s$ 的长度。
+
+输入的第二行包含一个整数 $k$，其中 $1 \leq k \leq 26$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一行，包含所需更改的最小次数。如果不可能，则输出“impossible”。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，字符串包含 $6$ 个不同的字母，所以不需要进行任何更改。
+
+在第二个测试用例中，字符串包含 $4$ 种不同的字母：$\{'a','h','o','y'\}$。要获得 $5$ 个不同的字母，需要将出现的某一个 $'o'$ 改为字符串中不存在的字母，比如 $\{'b'\}$。
+
+在第三个测试用例中，不可能让字符串包含 $7$ 个不同的字母，因为字符串的长度只有 $6$。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

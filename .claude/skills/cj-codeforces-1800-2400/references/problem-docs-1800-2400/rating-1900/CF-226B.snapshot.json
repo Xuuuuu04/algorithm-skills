@@ -1,0 +1,31 @@
+{
+  "id": "CF-226B",
+  "contest_id": 226,
+  "index": "B",
+  "name": "Naughty Stone Piles",
+  "rating": 1900,
+  "tags": [
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/226/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/226/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/226/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=226B%20Naughty Stone Piles%20tutorial",
+  "solved_count": 1684,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P226B",
+  "hydro_meta": {
+    "page_title": "Naughty Stone Piles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

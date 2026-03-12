@@ -1,0 +1,29 @@
+{
+  "id": "CF-902B",
+  "contest_id": 902,
+  "index": "B",
+  "name": "Coloring a Tree",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "greedy"
+  ],
+  "solved_count": 11815,
+  "problem_url": "https://codeforces.com/problemset/problem/902/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/902/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/902/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=902B%20Coloring%20a%20Tree%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/902/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 902B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

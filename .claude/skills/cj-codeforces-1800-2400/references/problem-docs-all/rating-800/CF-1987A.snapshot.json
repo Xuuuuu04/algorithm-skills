@@ -1,0 +1,28 @@
+{
+  "id": "CF-1987A",
+  "contest_id": 1987,
+  "index": "A",
+  "name": "Upload More RAM",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 28813,
+  "problem_url": "https://codeforces.com/problemset/problem/1987/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1987/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1987/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1987A%20Upload%20More%20RAM%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1987A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1987A Upload More RAM - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 110,
+    "mirror_attempt": 166,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

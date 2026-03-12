@@ -1,0 +1,27 @@
+{
+  "id": "CF-1943F",
+  "contest_id": 1943,
+  "index": "F",
+  "name": "Minimum Hamming Distance",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4500.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 139,
+  "problem_url": "https://codeforces.com/problemset/problem/1943/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1943/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1943/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1943F%20Minimum%20Hamming%20Distance%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1943/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1943F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-2075E",
+  "contest_id": 2075,
+  "index": "E",
+  "name": "XOR Matrix",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "dp",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 1118,
+  "problem_url": "https://codeforces.com/problemset/problem/2075/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2075/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2075/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2075E%20XOR%20Matrix%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2075/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2075E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

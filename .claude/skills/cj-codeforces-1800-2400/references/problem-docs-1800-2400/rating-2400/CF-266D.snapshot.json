@@ -1,0 +1,36 @@
+{
+  "id": "CF-266D",
+  "contest_id": 266,
+  "index": "D",
+  "name": "BerDonalds",
+  "rating": 2400,
+  "tags": [
+    "graphs",
+    "math",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/266/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/266/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/266/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=266D%20BerDonalds%20tutorial",
+  "solved_count": 966,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P266D",
+  "hydro_meta": {
+    "page_title": "BerDonalds - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graphs",
+      "math",
+      "shortest paths",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}

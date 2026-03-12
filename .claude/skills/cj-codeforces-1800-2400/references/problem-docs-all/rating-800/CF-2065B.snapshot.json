@@ -1,0 +1,27 @@
+{
+  "id": "CF-2065B",
+  "contest_id": 2065,
+  "index": "B",
+  "name": "Skibidus and Ohio",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 41376,
+  "problem_url": "https://codeforces.com/problemset/problem/2065/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2065/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2065/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2065B%20Skibidus%20and%20Ohio%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2065B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2065B Skibidus and Ohio - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

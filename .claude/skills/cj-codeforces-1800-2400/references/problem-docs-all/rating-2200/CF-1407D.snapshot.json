@@ -1,0 +1,34 @@
+{
+  "id": "CF-1407D",
+  "contest_id": 1407,
+  "index": "D",
+  "name": "Discrete Centrifugal Jumps",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "graphs"
+  ],
+  "solved_count": 5651,
+  "problem_url": "https://codeforces.com/problemset/problem/1407/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1407/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1407/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1407D%20Discrete%20Centrifugal%20Jumps%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1407D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Discrete Centrifugal Jumps - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "*2200"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 5,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

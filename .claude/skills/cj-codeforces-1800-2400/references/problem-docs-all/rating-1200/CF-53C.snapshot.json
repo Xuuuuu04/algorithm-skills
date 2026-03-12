@@ -1,0 +1,30 @@
+{
+  "id": "CF-53C",
+  "contest_id": 53,
+  "index": "C",
+  "name": "Little Frog",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 7040,
+  "problem_url": "https://codeforces.com/problemset/problem/53/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/53/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/53/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=53C%20Little%20Frog%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P53C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Little Frog - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

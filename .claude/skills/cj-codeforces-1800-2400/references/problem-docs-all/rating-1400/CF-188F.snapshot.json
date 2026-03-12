@@ -1,0 +1,32 @@
+{
+  "id": "CF-188F",
+  "contest_id": 188,
+  "index": "F",
+  "name": "Binary Notation",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 344,
+  "problem_url": "https://codeforces.com/problemset/problem/188/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/188/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/188/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=188F%20Binary%20Notation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P188F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Binary Notation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "implementation",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

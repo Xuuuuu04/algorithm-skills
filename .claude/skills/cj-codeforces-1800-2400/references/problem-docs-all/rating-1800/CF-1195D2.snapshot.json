@@ -1,0 +1,34 @@
+{
+  "id": "CF-1195D2",
+  "contest_id": 1195,
+  "index": "D2",
+  "name": "Submarine in the Rybinsk Sea (hard edition)",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "combinatorics",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 4868,
+  "problem_url": "https://codeforces.com/problemset/problem/1195/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1195/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1195/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1195D2%20Submarine%20in%20the%20Rybinsk%20Sea%20%28hard%20edition%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1195D2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Submarine in the Rybinsk Sea (hard edition) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CF-1607F",
+  "contest_id": 1607,
+  "index": "F",
+  "name": "Robot on the Board 2",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 2103,
+  "problem_url": "https://codeforces.com/problemset/problem/1607/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1607/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1607/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1607F%20Robot%20on%20the%20Board%202%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1607F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Robot on the Board 2 - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "implementation",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

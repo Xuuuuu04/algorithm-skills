@@ -1,0 +1,28 @@
+{
+  "id": "CF-1612C",
+  "contest_id": 1612,
+  "index": "C",
+  "name": "Chat Ban",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "math"
+  ],
+  "solved_count": 24965,
+  "problem_url": "https://codeforces.com/problemset/problem/1612/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1612/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1612/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1612C%20Chat%20Ban%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1612/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1612C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

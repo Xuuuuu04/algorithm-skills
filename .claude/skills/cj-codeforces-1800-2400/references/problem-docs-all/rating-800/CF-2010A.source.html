@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2010A Alternating Sum of Numbers - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2010A","type":"CF","title":"Alternating Sum of Numbers","difficulty":1,"tags":[1],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Alternating Sum of Numbers","background":"","description":"","formatI":"","formatO":"**\u6570\u636e\u8303\u56f4\uff1a** $1 \\le t \\le 1000$\uff0c$1 \\le n \\le 50$\uff0c$1 \\le a_i \\le 100$\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Alternating Sum of Numbers","background":"","description":"You are given a sequence of integers. Output the alternating sum of this sequence. In other words, output $ a_1 - a_2 + a_3 - a_4 + a_5 - \\dots $ . That is, the signs of plus and minus alternate, starting with a plus.","formatI":"The first line of the test contains one integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases. Then follow $ t $ test cases.\n\nThe first line of each test case contains one integer $ n $ ( $ 1 \\le n \\le 50 $ ) \u2014 the length of the sequence. The second line of the test case contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ 1 \\le a_i \\le 100 $ ).","formatO":"Output $ t $ lines. For each test case, output the required alternating sum of the numbers.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n4\n1 2 3 17\n1\n100\n2\n100 100\n5\n3 1 4 1 5","-15\n100\n0\n10"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2010A","link":"https:\/\/codeforces.com\/problemset\/problem\/2010\/A"},"translation":"**\u9898\u76ee\u63cf\u8ff0\uff1a** \u7ed9\u5b9a $n$ \u548c $\\{a_n\\}$\uff0c\u8f93\u51fa $a_1-a_2+a_3-a_4+a_5-\\ldots$\u3002\n\n**\u8f93\u5165\u683c\u5f0f\uff1a** \u7b2c\u4e00\u884c\u6570\u636e\u7ec4\u6570 $t$\uff1b\u6bcf\u7ec4\u6570\u636e\u4e24\u884c\uff0c\u7b2c\u4e00\u884c $n$\uff0c\u7b2c\u4e8c\u884c $a_1 \\sim a_n$\u3002\n\n**\u8f93\u51fa\u683c\u5f0f\uff1a** \u5bf9\u6bcf\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u7b54\u6848\u3002\n\n**\u6570\u636e\u8303\u56f4\uff1a** $1 \\le t \\le 1000$\uff0c$1 \\le n \\le 50$\uff0c$1 \\le a_i \\le 100$\u3002"},"translations":{"en":{"name":"Alternating Sum of Numbers","background":"","description":"You are given a sequence of integers. Output the alternating sum of this sequence. In other words, output $ a_1 - a_2 + a_3 - a_4 + a_5 - \\dots $ . That is, the signs of plus and minus alternate, starting with a plus.","formatI":"The first line of the test contains one integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases. Then follow $ t $ test cases.\n\nThe first line of each test case contains one integer $ n $ ( $ 1 \\le n \\le 50 $ ) \u2014 the length of the sequence. The second line of the test case contains $ n $ integers $ a_1, a_2, \\dots, a_n $ ( $ 1 \\le a_i \\le 100 $ ).","formatO":"Output $ t $ lines. For each test case, output the required alternating sum of the numbers.","hint":"","locale":"en"},"zh-CN":{"name":"Alternating Sum of Numbers","background":"","description":"","formatI":"","formatO":"**\u6570\u636e\u8303\u56f4\uff1a** $1 \\le t \\le 1000$\uff0c$1 \\le n \\le 50$\uff0c$1 \\le a_i \\le 100$\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2010A Alternating Sum of Numbers","type":2,"slug":"CF2010A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.85114,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2010A Alternating Sum of Numbers","description":"You are given a sequence of integers. Output the alternating sum of this sequence. In other words, output  a_1 - a_2 + a_3\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2010A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2010A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2010A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2010A Alternating Sum of Numbers" />
+    <meta property="og:description" content="You are given a sequence of integers. Output the alternating sum of this sequence. In other words, output  a_1 - a_2 + a_3…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2010A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2010A Alternating Sum of Numbers</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    You are given a sequence of integers. Output the alternating sum of this sequence. In other words, output $ a_1 - a_2 + a_3 - a_4 + a_5 - \dots $ . That is, the signs of plus and minus alternate, starting with a plus.
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    The first line of the test contains one integer $ t $ ( $ 1 \le t \le 1000 $ ) — the number of test cases. Then follow $ t $ test cases.
+
+The first line of each test case contains one integer $ n $ ( $ 1 \le n \le 50 $ ) — the length of the sequence. The second line of the test case contains $ n $ integers $ a_1, a_2, \dots, a_n $ ( $ 1 \le a_i \le 100 $ ).
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    **数据范围：** $1 \le t \le 1000$，$1 \le n \le 50$，$1 \le a_i \le 100$。
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

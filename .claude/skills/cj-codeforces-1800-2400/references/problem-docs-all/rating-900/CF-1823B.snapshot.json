@@ -1,0 +1,34 @@
+{
+  "id": "CF-1823B",
+  "contest_id": 1823,
+  "index": "B",
+  "name": "Sort with Step",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 17929,
+  "problem_url": "https://codeforces.com/problemset/problem/1823/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1823/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1823/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1823B%20Sort%20with%20Step%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1823B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sort with Step - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "math",
+      "sortings",
+      "*900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

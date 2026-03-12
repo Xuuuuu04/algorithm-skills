@@ -1,0 +1,30 @@
+{
+  "id": "CF-1277A",
+  "contest_id": 1277,
+  "index": "A",
+  "name": "Happy Birthday, Polycarp!",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 14353,
+  "problem_url": "https://codeforces.com/problemset/problem/1277/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1277/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1277/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1277A%20Happy%20Birthday%2C%20Polycarp%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1277A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Happy Birthday, Polycarp! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

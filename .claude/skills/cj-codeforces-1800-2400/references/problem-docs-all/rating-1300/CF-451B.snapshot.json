@@ -1,0 +1,32 @@
+{
+  "id": "CF-451B",
+  "contest_id": 451,
+  "index": "B",
+  "name": "Sort the Array",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 51993,
+  "problem_url": "https://codeforces.com/problemset/problem/451/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/451/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/451/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=451B%20Sort%20the%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P451B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sort the Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415131:9/KlDoxIFEo27lca3Z/0zIUUHiWBlntj/O14A7ZdFp8=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1851D Prefix Permutation Sums - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1851D","type":"CF","title":"Prefix Permutation Sums","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":576,"totalAccepted":244,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Prefix Permutation Sums","background":null,"description":"\u4f60\u7684\u670b\u53cb\u6709\u4e00\u4e2a\u5305\u542b $n$ \u4e2a\u5143\u7d20\u7684\u6570\u7ec4\uff0c\u8ba1\u7b97\u4e86\u5b83\u7684\u524d\u7f00\u548c\u6570\u7ec4\u5e76\u4f20\u9012\u7ed9\u4f60\uff0c\u4f46\u5728\u4f20\u9012\u8fc7\u7a0b\u4e2d\u4e0d\u5c0f\u5fc3\u4e22\u5931\u4e86\u4e00\u4e2a\u5143\u7d20\u3002\u4f60\u7684\u4efb\u52a1\u662f\u5224\u65ad\u7ed9\u5b9a\u7684\u6570\u7ec4\u662f\u5426\u53ef\u80fd\u5bf9\u5e94\u67d0\u4e2a\u6392\u5217\u3002\n\n\u4e00\u4e2a $n$ \u5143\u7d20\u7684\u6392\u5217\u662f\u6307\u4e00\u4e2a\u5305\u542b $1$ \u5230 $n$ \u7684 $n$ \u4e2a\u6570\u7684\u6570\u7ec4\uff0c\u6bcf\u4e2a\u6570\u5b57\u6070\u597d\u51fa\u73b0\u4e00\u6b21\u3002\n\n\u6570\u7ec4 $a$ \u7684\u524d\u7f00\u548c\u6570\u7ec4 $b$ \u5b9a\u4e49\u4e3a $b_i = \\sum_{j=1}^i a_j, 1 \\le i \\le n$\u3002\n\n\u4f8b\u5982\uff0c\u539f\u59cb\u6392\u5217\u4e3a $[1, 5, 2, 4, 3]$\uff0c\u5176\u524d\u7f00\u548c\u6570\u7ec4\u4e3a $[1, 6, 8, 12, 15]$\u3002\u4e22\u5931\u4e00\u4e2a\u5143\u7d20\u540e\uff0c\u53ef\u80fd\u5f97\u5230 $[6, 8, 12, 15]$ \u6216 $[1, 6, 8, 15]$ \u7b49\u6570\u7ec4\u3002\n\n\u540c\u6837\u53ef\u4ee5\u8bc1\u660e\uff0c\u6570\u7ec4 $[1, 2, 100]$ \u4e0d\u5bf9\u5e94\u4efb\u4f55\u6392\u5217\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $n$\uff08$2 \\le n \\le 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u521d\u59cb\u6570\u7ec4\u7684\u5927\u5c0f\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n-1$ \u4e2a\u6b63\u6574\u6570 $a_i$\uff08$1 \\le a_i \\le 10^{18}$\uff09\uff0c$a_{i-1} \u003C a_i$\uff0c\u8868\u793a\u524d\u7f00\u548c\u6570\u7ec4\u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u5b58\u5728\u8fd9\u6837\u7684\u6392\u5217\uff0c\u8f93\u51fa \u0022YES\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002\n\n\u4f60\u53ef\u4ee5\u4ee5\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa \u0022YES\u0022 \u548c \u0022NO\u0022\uff08\u4f8b\u5982\uff0c\u0022yEs\u0022\u3001\u0022yes\u0022 \u548c \u0022Yes\u0022 \u90fd\u4f1a\u88ab\u8bc6\u522b\u4e3a\u80af\u5b9a\u56de\u7b54\uff09\u3002","hint":"\u5728\u7b2c\u56db\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f8b\u5982\uff0c\u6392\u5217 $[1, 2, 3, 4]$ \u662f\u5408\u9002\u7684\u3002\u5728\u7b2c\u4e94\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f8b\u5982\uff0c\u6392\u5217 $[2, 1]$ \u662f\u5408\u9002\u7684\u3002\u5728\u7b2c\u4e03\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f8b\u5982\uff0c\u6392\u5217 $[1, 2, 4, 3]$ \u662f\u5408\u9002\u7684\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Prefix Permutation Sums","background":"","description":"Your friends have an array of $ n $ elements, calculated its array of prefix sums and passed it to you, accidentally losing one element during the transfer. Your task is to find out if the given array can matches permutation.\n\nA permutation of $ n $ elements is an array of $ n $ numbers from $ 1 $ to $ n $ such that each number occurs exactly one times in it.\n\nThe array of prefix sums of the array $ a $ \u2014 is such an array $ b $ that $ b_i = \\sum_{j=1}^i a_j, 1 \\le i \\le n $ .\n\nFor example, the original permutation was $ [1, 5, 2, 4, 3] $ . Its array of prefix sums \u2014 $ [1, 6, 8, 12, 15] $ . Having lost one element, you can get, for example, arrays $ [6, 8, 12, 15] $ or $ [1, 6, 8, 15] $ .\n\nIt can also be shown that the array $ [1, 2, 100] $ does not correspond to any permutation.","formatI":"The first line contains a positive number $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. The description of the test cases follows.\n\nThe first line of the description of each test case contains a positive number $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the size of the initial array.\n\nThe second line of the description of each test case contains $ n - 1 $ positive number $ a_i $ ( $ 1 \\le a_i \\le 10^{18} $ ), $ a_{i-1} \u003C a_i $ \u2014 elements of the array of prefix sums.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output \u0022YES\u0022 if such a permutation exists, and \u0022NO\u0022 otherwise.\n\nYou can output \u0022YES\u0022 and \u0022NO\u0022 in any case (for example, the strings \u0022yEs\u0022, \u0022yes\u0022 and \u0022Yes\u0022 will be recognized as a positive response).","hint":"In the fourth example, for example, the permutation $ [1, 2, 3, 4] $ is suitable. In the fifth example, for example, the permutation $ [2, 1] $ is suitable. In the seventh example, for example, the permutation $ [1, 2, 4, 3] $ is suitable.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["12\n5\n6 8 12 15\n5\n1 6 8 15\n4\n1 2 100\n4\n1 3 6\n2\n2\n3\n1 2\n4\n3 7 10\n5\n5 44 46 50\n4\n1 9 10\n5\n13 21 36 42\n5\n1 2 3 1000000000000000000\n9\n9 11 12 20 25 28 30 33","YES\nYES\nNO\nYES\nYES\nNO\nYES\nNO\nNO\nNO\nNO\nNO"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"1851D","link":"https:\/\/codeforces.com\/problemset\/problem\/1851\/D"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u957f\u5ea6\u4e3a $n - 1$ \u7684\u6570\u7ec4\uff0c\u662f\u5426\u80fd\u627e\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217\uff0c\u6c42\u51fa\u8fd9\u4e2a\u6392\u5217\u7684\u524d\u7f00\u548c\uff0c\u53bb\u6389\u524d\u7f00\u548c\u6570\u7ec4\u7684\u4efb\u610f\u4e00\u4e2a\u5143\u7d20\u4e4b\u540e\u548c\u539f\u6765\u7684\u6570\u7ec4\u76f8\u7b49\u3002\n\n\u4f8b\u5982 $[6, 8, 12, 15]$\uff0c\u53ef\u4ee5\u662f\u6392\u5217 $[1, 5, 2, 4, 3]$ \u7684\u524d\u7f00\u548c $[1, 6, 8, 12, 15]$ \u53bb\u6389\u5143\u7d20 $1$\u3002"},"translations":{"en":{"name":"Prefix Permutation Sums","background":"","description":"Your friends have an array of $ n $ elements, calculated its array of prefix sums and passed it to you, accidentally losing one element during the transfer. Your task is to find out if the given array can matches permutation.\n\nA permutation of $ n $ elements is an array of $ n $ numbers from $ 1 $ to $ n $ such that each number occurs exactly one times in it.\n\nThe array of prefix sums of the array $ a $ \u2014 is such an array $ b $ that $ b_i = \\sum_{j=1}^i a_j, 1 \\le i \\le n $ .\n\nFor example, the original permutation was $ [1, 5, 2, 4, 3] $ . Its array of prefix sums \u2014 $ [1, 6, 8, 12, 15] $ . Having lost one element, you can get, for example, arrays $ [6, 8, 12, 15] $ or $ [1, 6, 8, 15] $ .\n\nIt can also be shown that the array $ [1, 2, 100] $ does not correspond to any permutation.","formatI":"The first line contains a positive number $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. The description of the test cases follows.\n\nThe first line of the description of each test case contains a positive number $ n $ ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the size of the initial array.\n\nThe second line of the description of each test case contains $ n - 1 $ positive number $ a_i $ ( $ 1 \\le a_i \\le 10^{18} $ ), $ a_{i-1} \u003C a_i $ \u2014 elements of the array of prefix sums.\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output \u0022YES\u0022 if such a permutation exists, and \u0022NO\u0022 otherwise.\n\nYou can output \u0022YES\u0022 and \u0022NO\u0022 in any case (for example, the strings \u0022yEs\u0022, \u0022yes\u0022 and \u0022Yes\u0022 will be recognized as a positive response).","hint":"In the fourth example, for example, the permutation $ [1, 2, 3, 4] $ is suitable. In the fifth example, for example, the permutation $ [2, 1] $ is suitable. In the seventh example, for example, the permutation $ [1, 2, 4, 3] $ is suitable.","locale":"en"},"zh-CN":{"name":"Prefix Permutation Sums","background":null,"description":"\u4f60\u7684\u670b\u53cb\u6709\u4e00\u4e2a\u5305\u542b $n$ \u4e2a\u5143\u7d20\u7684\u6570\u7ec4\uff0c\u8ba1\u7b97\u4e86\u5b83\u7684\u524d\u7f00\u548c\u6570\u7ec4\u5e76\u4f20\u9012\u7ed9\u4f60\uff0c\u4f46\u5728\u4f20\u9012\u8fc7\u7a0b\u4e2d\u4e0d\u5c0f\u5fc3\u4e22\u5931\u4e86\u4e00\u4e2a\u5143\u7d20\u3002\u4f60\u7684\u4efb\u52a1\u662f\u5224\u65ad\u7ed9\u5b9a\u7684\u6570\u7ec4\u662f\u5426\u53ef\u80fd\u5bf9\u5e94\u67d0\u4e2a\u6392\u5217\u3002\n\n\u4e00\u4e2a $n$ \u5143\u7d20\u7684\u6392\u5217\u662f\u6307\u4e00\u4e2a\u5305\u542b $1$ \u5230 $n$ \u7684 $n$ \u4e2a\u6570\u7684\u6570\u7ec4\uff0c\u6bcf\u4e2a\u6570\u5b57\u6070\u597d\u51fa\u73b0\u4e00\u6b21\u3002\n\n\u6570\u7ec4 $a$ \u7684\u524d\u7f00\u548c\u6570\u7ec4 $b$ \u5b9a\u4e49\u4e3a $b_i = \\sum_{j=1}^i a_j, 1 \\le i \\le n$\u3002\n\n\u4f8b\u5982\uff0c\u539f\u59cb\u6392\u5217\u4e3a $[1, 5, 2, 4, 3]$\uff0c\u5176\u524d\u7f00\u548c\u6570\u7ec4\u4e3a $[1, 6, 8, 12, 15]$\u3002\u4e22\u5931\u4e00\u4e2a\u5143\u7d20\u540e\uff0c\u53ef\u80fd\u5f97\u5230 $[6, 8, 12, 15]$ \u6216 $[1, 6, 8, 15]$ \u7b49\u6570\u7ec4\u3002\n\n\u540c\u6837\u53ef\u4ee5\u8bc1\u660e\uff0c\u6570\u7ec4 $[1, 2, 100]$ \u4e0d\u5bf9\u5e94\u4efb\u4f55\u6392\u5217\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6b63\u6574\u6570 $n$\uff08$2 \\le n \\le 2 \\cdot 10^5$\uff09\uff0c\u8868\u793a\u521d\u59cb\u6570\u7ec4\u7684\u5927\u5c0f\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n-1$ \u4e2a\u6b63\u6574\u6570 $a_i$\uff08$1 \\le a_i \\le 10^{18}$\uff09\uff0c$a_{i-1} \u003C a_i$\uff0c\u8868\u793a\u524d\u7f00\u548c\u6570\u7ec4\u7684\u5143\u7d20\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u5b58\u5728\u8fd9\u6837\u7684\u6392\u5217\uff0c\u8f93\u51fa \u0022YES\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022NO\u0022\u3002\n\n\u4f60\u53ef\u4ee5\u4ee5\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa \u0022YES\u0022 \u548c \u0022NO\u0022\uff08\u4f8b\u5982\uff0c\u0022yEs\u0022\u3001\u0022yes\u0022 \u548c \u0022Yes\u0022 \u90fd\u4f1a\u88ab\u8bc6\u522b\u4e3a\u80af\u5b9a\u56de\u7b54\uff09\u3002","hint":"\u5728\u7b2c\u56db\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f8b\u5982\uff0c\u6392\u5217 $[1, 2, 3, 4]$ \u662f\u5408\u9002\u7684\u3002\u5728\u7b2c\u4e94\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f8b\u5982\uff0c\u6392\u5217 $[2, 1]$ \u662f\u5408\u9002\u7684\u3002\u5728\u7b2c\u4e03\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f8b\u5982\uff0c\u6392\u5217 $[1, 2, 4, 3]$ \u662f\u5408\u9002\u7684\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1851D Prefix Permutation Sums","type":2,"slug":"CF1851D","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328731.330757,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1851D Prefix Permutation Sums","description":"\u4f60\u7684\u670b\u53cb\u6709\u4e00\u4e2a\u5305\u542b n \u4e2a\u5143\u7d20\u7684\u6570\u7ec4\uff0c\u8ba1\u7b97\u4e86\u5b83\u7684\u524d\u7f00\u548c\u6570\u7ec4\u5e76\u4f20\u9012\u7ed9\u4f60\uff0c\u4f46\u5728\u4f20\u9012\u8fc7\u7a0b\u4e2d\u4e0d\u5c0f\u5fc3\u4e22\u5931\u4e86\u4e00\u4e2a\u5143\u7d20\u3002\u4f60\u7684\u4efb\u52a1\u662f\u5224\u65ad\u7ed9\u5b9a\u7684\u6570\u7ec4\u662f\u5426\u53ef\u80fd\u5bf9\u5e94\u67d0\u4e2a\u6392\u5217\u3002\n\u4e00\u4e2a n \u5143\u7d20\u7684\u6392\u5217\u662f\u6307\u4e00\u4e2a\u5305\u542b 1 \u5230 n \u7684 n \u4e2a\u6570\u7684\u6570\u7ec4\uff0c\u6bcf\u4e2a\u6570\u5b57\u6070\u597d\u51fa\u73b0\u4e00\u6b21\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1851D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1851D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1851D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1851D Prefix Permutation Sums" />
+    <meta property="og:description" content="你的朋友有一个包含 n 个元素的数组，计算了它的前缀和数组并传递给你，但在传递过程中不小心丢失了一个元素。你的任务是判断给定的数组是否可能对应某个排列。
+一个 n 元素的排列是指一个包含 1 到 n 的 n 个数的数组，每个数字恰好出现一次。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1851D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1851D Prefix Permutation Sums</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你的朋友有一个包含 $n$ 个元素的数组，计算了它的前缀和数组并传递给你，但在传递过程中不小心丢失了一个元素。你的任务是判断给定的数组是否可能对应某个排列。
+
+一个 $n$ 元素的排列是指一个包含 $1$ 到 $n$ 的 $n$ 个数的数组，每个数字恰好出现一次。
+
+数组 $a$ 的前缀和数组 $b$ 定义为 $b_i = \sum_{j=1}^i a_j, 1 \le i \le n$。
+
+例如，原始排列为 $[1, 5, 2, 4, 3]$，其前缀和数组为 $[1, 6, 8, 12, 15]$。丢失一个元素后，可能得到 $[6, 8, 12, 15]$ 或 $[1, 6, 8, 15]$ 等数组。
+
+同样可以证明，数组 $[1, 2, 100]$ 不对应任何排列。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个正整数 $t$（$1 \le t \le 10^4$），表示测试用例的数量。接下来是每个测试用例的描述。
+
+每个测试用例的第一行包含一个正整数 $n$（$2 \le n \le 2 \cdot 10^5$），表示初始数组的大小。
+
+每个测试用例的第二行包含 $n-1$ 个正整数 $a_i$（$1 \le a_i \le 10^{18}$），$a_{i-1} < a_i$，表示前缀和数组的元素。
+
+保证所有测试用例中 $n$ 的总和不超过 $2 \cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果存在这样的排列，输出 "YES"；否则输出 "NO"。
+
+你可以以任意大小写输出 "YES" 和 "NO"（例如，"yEs"、"yes" 和 "Yes" 都会被识别为肯定回答）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第四个样例中，例如，排列 $[1, 2, 3, 4]$ 是合适的。在第五个样例中，例如，排列 $[2, 1]$ 是合适的。在第七个样例中，例如，排列 $[1, 2, 4, 3]$ 是合适的。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+[
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "839ce755e97e4f02d90bdf31ff6c5dc23e4003e5",
+    "size": 112,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/.gitignore?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/.gitignore",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/839ce755e97e4f02d90bdf31ff6c5dc23e4003e5",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cangjie-nacos-client/main/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/.gitignore?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/839ce755e97e4f02d90bdf31ff6c5dc23e4003e5",
+      "html": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/.gitignore"
+    }
+  },
+  {
+    "name": "CHANGELOG.md",
+    "path": "CHANGELOG.md",
+    "sha": "c4a80842bda15028bc41036a0128987c77279bc6",
+    "size": 279,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/CHANGELOG.md?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/CHANGELOG.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/c4a80842bda15028bc41036a0128987c77279bc6",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cangjie-nacos-client/main/CHANGELOG.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/CHANGELOG.md?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/c4a80842bda15028bc41036a0128987c77279bc6",
+      "html": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/CHANGELOG.md"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "0d6a9b8beb1521f5aecb56d8c8795a6f0f93b0a3",
+    "size": 11354,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/LICENSE?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/LICENSE",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/0d6a9b8beb1521f5aecb56d8c8795a6f0f93b0a3",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cangjie-nacos-client/main/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/LICENSE?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/0d6a9b8beb1521f5aecb56d8c8795a6f0f93b0a3",
+      "html": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/LICENSE"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "116509fd821620e2ab92bbedb841dd0c06b49a00",
+    "size": 7941,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/README.md?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/116509fd821620e2ab92bbedb841dd0c06b49a00",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cangjie-nacos-client/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/116509fd821620e2ab92bbedb841dd0c06b49a00",
+      "html": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/README.md"
+    }
+  },
+  {
+    "name": "cjpm.toml",
+    "path": "cjpm.toml",
+    "sha": "b7852c7d626542aa45b2d7e5d511b379cbe8311c",
+    "size": 2345,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/cjpm.toml?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/cjpm.toml",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/b7852c7d626542aa45b2d7e5d511b379cbe8311c",
+    "download_url": "https://raw.githubusercontent.com/cangjielanguage-sig/cangjie-nacos-client/main/cjpm.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/cjpm.toml?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/blobs/b7852c7d626542aa45b2d7e5d511b379cbe8311c",
+      "html": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/blob/main/cjpm.toml"
+    }
+  },
+  {
+    "name": "doc",
+    "path": "doc",
+    "sha": "a50ab607936c92447c3b4892833ea3a10abfd9c9",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/doc?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/tree/main/doc",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/trees/a50ab607936c92447c3b4892833ea3a10abfd9c9",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/doc?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/trees/a50ab607936c92447c3b4892833ea3a10abfd9c9",
+      "html": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/tree/main/doc"
+    }
+  },
+  {
+    "name": "src",
+    "path": "src",
+    "sha": "2e943b317ea361e2f20325b3a10867223a1dbd36",
+    "size": 0,
+    "url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/src?ref=main",
+    "html_url": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/tree/main/src",
+    "git_url": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/trees/2e943b317ea361e2f20325b3a10867223a1dbd36",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/contents/src?ref=main",
+      "git": "https://api.github.com/repos/cangjielanguage-sig/cangjie-nacos-client/git/trees/2e943b317ea361e2f20325b3a10867223a1dbd36",
+      "html": "https://github.com/cangjielanguage-sig/cangjie-nacos-client/tree/main/src"
+    }
+  }
+]

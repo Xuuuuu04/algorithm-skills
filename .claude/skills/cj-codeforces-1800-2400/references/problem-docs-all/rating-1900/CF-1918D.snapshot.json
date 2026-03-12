@@ -1,0 +1,37 @@
+{
+  "id": "CF-1918D",
+  "contest_id": 1918,
+  "index": "D",
+  "name": "Blocking Elements",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 6011,
+  "problem_url": "https://codeforces.com/problemset/problem/1918/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1918/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1918/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1918D%20Blocking%20Elements%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1918D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Blocking Elements - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "implementation",
+      "two pointers"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

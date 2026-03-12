@@ -1,0 +1,27 @@
+{
+  "id": "CF-820A",
+  "contest_id": 820,
+  "index": "A",
+  "name": "Mister B and Book Reading",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 8524,
+  "problem_url": "https://codeforces.com/problemset/problem/820/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/820/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/820/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=820A%20Mister%20B%20and%20Book%20Reading%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/820/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 820A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

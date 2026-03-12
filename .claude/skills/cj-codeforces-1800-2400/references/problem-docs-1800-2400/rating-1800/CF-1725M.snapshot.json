@@ -1,0 +1,35 @@
+{
+  "id": "CF-1725M",
+  "contest_id": 1725,
+  "index": "M",
+  "name": "Moving Both Hands",
+  "rating": 1800,
+  "tags": [
+    "dp",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1725/M",
+  "answer_index_url": "https://codeforces.com/problemset/status/1725/problem/M",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1725/problem/M?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1725M%20Moving Both Hands%20tutorial",
+  "solved_count": 4245,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1725M",
+  "hydro_meta": {
+    "page_title": "Moving Both Hands - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "graphs",
+      "shortest paths"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

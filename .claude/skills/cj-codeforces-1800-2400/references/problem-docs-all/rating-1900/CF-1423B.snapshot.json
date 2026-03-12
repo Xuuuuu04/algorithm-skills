@@ -1,0 +1,36 @@
+{
+  "id": "CF-1423B",
+  "contest_id": 1423,
+  "index": "B",
+  "name": "Valuable Paper",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "flows",
+    "graph matchings",
+    "graphs"
+  ],
+  "solved_count": 2062,
+  "problem_url": "https://codeforces.com/problemset/problem/1423/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1423/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1423/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1423B%20Valuable%20Paper%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1423B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Valuable Paper - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "flows",
+      "graph matchings",
+      "graphs",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

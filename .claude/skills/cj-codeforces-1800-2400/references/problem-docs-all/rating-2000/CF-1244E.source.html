@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1244E Minimizing Difference - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1244E","type":"CF","title":"Minimizing Difference","difficulty":4,"tags":[],"wantsTranslation":false,"totalSubmit":729,"totalAccepted":327,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Minimizing Difference","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u7531 $n$ \u4e2a\u6574\u6570\u6784\u6210\u7684\u5e8f\u5217 $a_1, a_2, \\dots, a_n$\u3002\n\n\u4f60\u53ef\u4ee5\u5bf9\u8be5\u5e8f\u5217\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4efb\u610f\u4e00\u4e2a\u5143\u7d20\uff0c\u5c06\u5176\u589e\u52a0\u6216\u51cf\u5c11 $1$\u3002\n\n\u8bf7\u8ba1\u7b97\u5728\u6700\u591a\u53ef\u4ee5\u8fdb\u884c\u4e0a\u8ff0\u64cd\u4f5c $k$ \u6b21\u7684\u60c5\u51b5\u4e0b\uff0c\u5e8f\u5217\u4e2d\u6700\u5927\u5143\u7d20\u4e0e\u6700\u5c0f\u5143\u7d20\u7684\u6700\u5c0f\u53ef\u80fd\u5dee\u503c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff0c\u8868\u793a\u5e8f\u5217\u7684\u5143\u7d20\u4e2a\u6570\u548c\u6700\u591a\u53ef\u4ee5\u8fdb\u884c\u64cd\u4f5c\u7684\u6b21\u6570\uff0c\u6ee1\u8db3 $2 \\le n \\le 10^{5},\\ 1 \\le k \\le 10^{14}$\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff0c\u6ee1\u8db3 $1 \\le a_i \\le 10^{9}$\u3002","formatO":"\u8f93\u51fa\u5728\u6700\u591a\u8fdb\u884c $k$ \u6b21\u64cd\u4f5c\u540e\uff0c\u5e8f\u5217\u4e2d\u6700\u5927\u5143\u7d20\u4e0e\u6700\u5c0f\u5143\u7d20\u7684\u6700\u5c0f\u53ef\u80fd\u5dee\u503c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u5c06\u7b2c\u4e00\u4e2a\u5143\u7d20\u589e\u52a0\u4e24\u6b21\uff0c\u5c06\u7b2c\u4e09\u4e2a\u5143\u7d20\u51cf\u5c11\u4e24\u6b21\uff0c\u4f7f\u5e8f\u5217\u53d8\u4e3a $[3, 3, 5, 5]$\uff0c\u6b64\u65f6\u6700\u5927\u503c\u4e0e\u6700\u5c0f\u503c\u7684\u5dee\u4e3a $2$\u3002\u4f60\u8fd8\u53ef\u4ee5\u518d\u8fdb\u884c\u4e00\u6b21\u64cd\u4f5c\uff0c\u4f46\u65e0\u6cd5\u4f7f\u7b54\u6848\u5c0f\u4e8e $2$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6240\u6709\u5143\u7d20\u5df2\u7ecf\u76f8\u7b49\uff0c\u56e0\u6b64\u5373\u4f7f\u4e0d\u8fdb\u884c\u4efb\u4f55\u64cd\u4f5c\uff0c\u7b54\u6848\u4e5f\u53ef\u4ee5\u662f $0$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Minimizing Difference","background":"","description":"You are given a sequence $ a_1, a_2, \\dots, a_n $ consisting of $ n $ integers.\n\nYou may perform the following operation on this sequence: choose any element and either increase or decrease it by one.\n\nCalculate the minimum possible difference between the maximum element and the minimum element in the sequence, if you can perform the aforementioned operation no more than $ k $ times.","formatI":"The first line contains two integers $ n $ and $ k $ $ (2 \\le n \\le 10^{5}, 1 \\le k \\le 10^{14}) $ \u2014 the number of elements in the sequence and the maximum number of times you can perform the operation, respectively.\n\nThe second line contains a sequence of integers $ a_1, a_2, \\dots, a_n $ $ (1 \\le a_i \\le 10^{9}) $ .","formatO":"Print the minimum possible difference between the maximum element and the minimum element in the sequence, if you can perform the aforementioned operation no more than $ k $ times.","hint":"In the first example you can increase the first element twice and decrease the third element twice, so the sequence becomes $ [3, 3, 5, 5] $ , and the difference between maximum and minimum is $ 2 $ . You still can perform one operation after that, but it\u0027s useless since you can\u0027t make the answer less than $ 2 $ .\n\nIn the second example all elements are already equal, so you may get $ 0 $ as the answer even without applying any operations.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4 5\n3 1 7 5\n","2\n"],["3 10\n100 100 100\n","0\n"],["10 9\n4 5 5 7 5 4 5 2 4 3\n","1\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1244E","link":"https:\/\/codeforces.com\/problemset\/problem\/1244\/E"},"translation":"\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u6709\u4e00\u4e2a\u957f\u5ea6\u4e3an\u7684\u5e8f\u5217\uff0c\u6bcf\u6b21\u64cd\u4f5c\u53ef\u4ee5\u4f7f\u5176\u4e2d\u7684\u4e00\u4e2a\u6570+1\u6216-1\u3002\n\n\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u64cd\u4f5c\u6b21\u6570\u4e0d\u5f97\u5927\u4e8ek\uff0c\u95eeMAX-MIN\u7684\u6700\u5c0f\u503c\u662f\u591a\u5c11\u3002"},"translations":{"en":{"name":"Minimizing Difference","background":"","description":"You are given a sequence $ a_1, a_2, \\dots, a_n $ consisting of $ n $ integers.\n\nYou may perform the following operation on this sequence: choose any element and either increase or decrease it by one.\n\nCalculate the minimum possible difference between the maximum element and the minimum element in the sequence, if you can perform the aforementioned operation no more than $ k $ times.","formatI":"The first line contains two integers $ n $ and $ k $ $ (2 \\le n \\le 10^{5}, 1 \\le k \\le 10^{14}) $ \u2014 the number of elements in the sequence and the maximum number of times you can perform the operation, respectively.\n\nThe second line contains a sequence of integers $ a_1, a_2, \\dots, a_n $ $ (1 \\le a_i \\le 10^{9}) $ .","formatO":"Print the minimum possible difference between the maximum element and the minimum element in the sequence, if you can perform the aforementioned operation no more than $ k $ times.","hint":"In the first example you can increase the first element twice and decrease the third element twice, so the sequence becomes $ [3, 3, 5, 5] $ , and the difference between maximum and minimum is $ 2 $ . You still can perform one operation after that, but it\u0027s useless since you can\u0027t make the answer less than $ 2 $ .\n\nIn the second example all elements are already equal, so you may get $ 0 $ as the answer even without applying any operations.","locale":"en"},"zh-CN":{"name":"Minimizing Difference","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u7531 $n$ \u4e2a\u6574\u6570\u6784\u6210\u7684\u5e8f\u5217 $a_1, a_2, \\dots, a_n$\u3002\n\n\u4f60\u53ef\u4ee5\u5bf9\u8be5\u5e8f\u5217\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4efb\u610f\u4e00\u4e2a\u5143\u7d20\uff0c\u5c06\u5176\u589e\u52a0\u6216\u51cf\u5c11 $1$\u3002\n\n\u8bf7\u8ba1\u7b97\u5728\u6700\u591a\u53ef\u4ee5\u8fdb\u884c\u4e0a\u8ff0\u64cd\u4f5c $k$ \u6b21\u7684\u60c5\u51b5\u4e0b\uff0c\u5e8f\u5217\u4e2d\u6700\u5927\u5143\u7d20\u4e0e\u6700\u5c0f\u5143\u7d20\u7684\u6700\u5c0f\u53ef\u80fd\u5dee\u503c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff0c\u8868\u793a\u5e8f\u5217\u7684\u5143\u7d20\u4e2a\u6570\u548c\u6700\u591a\u53ef\u4ee5\u8fdb\u884c\u64cd\u4f5c\u7684\u6b21\u6570\uff0c\u6ee1\u8db3 $2 \\le n \\le 10^{5},\\ 1 \\le k \\le 10^{14}$\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\dots, a_n$\uff0c\u6ee1\u8db3 $1 \\le a_i \\le 10^{9}$\u3002","formatO":"\u8f93\u51fa\u5728\u6700\u591a\u8fdb\u884c $k$ \u6b21\u64cd\u4f5c\u540e\uff0c\u5e8f\u5217\u4e2d\u6700\u5927\u5143\u7d20\u4e0e\u6700\u5c0f\u5143\u7d20\u7684\u6700\u5c0f\u53ef\u80fd\u5dee\u503c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u5c06\u7b2c\u4e00\u4e2a\u5143\u7d20\u589e\u52a0\u4e24\u6b21\uff0c\u5c06\u7b2c\u4e09\u4e2a\u5143\u7d20\u51cf\u5c11\u4e24\u6b21\uff0c\u4f7f\u5e8f\u5217\u53d8\u4e3a $[3, 3, 5, 5]$\uff0c\u6b64\u65f6\u6700\u5927\u503c\u4e0e\u6700\u5c0f\u503c\u7684\u5dee\u4e3a $2$\u3002\u4f60\u8fd8\u53ef\u4ee5\u518d\u8fdb\u884c\u4e00\u6b21\u64cd\u4f5c\uff0c\u4f46\u65e0\u6cd5\u4f7f\u7b54\u6848\u5c0f\u4e8e $2$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6240\u6709\u5143\u7d20\u5df2\u7ecf\u76f8\u7b49\uff0c\u56e0\u6b64\u5373\u4f7f\u4e0d\u8fdb\u884c\u4efb\u4f55\u64cd\u4f5c\uff0c\u7b54\u6848\u4e5f\u53ef\u4ee5\u662f $0$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1244E Minimizing Difference","type":2,"slug":"CF1244E","color":"orange-3"},"discussions":[{"id":1121595,"title":"\u8fd9\u73a9\u610f\u662f\u84dd\uff1f\uff1f","author":{"uid":374769,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/374769.png","name":"pengwin","slogan":"No more slacking off, last chance to win","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/m70478zs.png"},"time":1754052858},{"id":1115543,"title":"WA on #8\u6c42debug","author":{"uid":797769,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/797769.png","name":"manbaOUT","slogan":"\u8fd9\u4e2a\u5bb6\u4f19\u5f88\u4e0d\u61d2\uff0c\u4ec0\u4e48\u90fd\u6ca1\u6709\u7559\u4e0b","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1753421576},{"id":837053,"title":"WA#5 \u6c42debug","author":{"uid":743373,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/743373.png","name":"Vitamin_B","slogan":"AFO\u6d88\u6101?|\u8bf7\u4e0d\u8981\u5411\u6211\u53d1\u9001\u63a5\u9f99\u79c1\u4fe1","badge":"","isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/76ah3flo.png"},"time":1718788902}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.698956,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1244E Minimizing Difference","description":"\u7ed9\u5b9a\u4e00\u4e2a\u7531 n \u4e2a\u6574\u6570\u6784\u6210\u7684\u5e8f\u5217 a_1, a_2, \\dots, a_n\u3002\n\u4f60\u53ef\u4ee5\u5bf9\u8be5\u5e8f\u5217\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\uff1a\u9009\u62e9\u4efb\u610f\u4e00\u4e2a\u5143\u7d20\uff0c\u5c06\u5176\u589e\u52a0\u6216\u51cf\u5c11 1\u3002\n\u8bf7\u8ba1\u7b97\u5728\u6700\u591a\u53ef\u4ee5\u8fdb\u884c\u4e0a\u8ff0\u64cd\u4f5c k \u6b21\u7684\u60c5\u51b5\u4e0b\uff0c\u5e8f\u5217\u4e2d\u6700\u5927\u5143\u7d20\u4e0e\u6700\u5c0f\u5143\u7d20\u7684\u6700\u5c0f\u53ef\u80fd\u5dee\u503c\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1244E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1244E?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1244E?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1244E Minimizing Difference" />
+    <meta property="og:description" content="给定一个由 n 个整数构成的序列 a_1, a_2, \dots, a_n。
+你可以对该序列进行如下操作：选择任意一个元素，将其增加或减少 1。
+请计算在最多可以进行上述操作 k 次的情况下，序列中最大元素与最小元素的最小可能差值。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1244E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1244E Minimizing Difference</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个由 $n$ 个整数构成的序列 $a_1, a_2, \dots, a_n$。
+
+你可以对该序列进行如下操作：选择任意一个元素，将其增加或减少 $1$。
+
+请计算在最多可以进行上述操作 $k$ 次的情况下，序列中最大元素与最小元素的最小可能差值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含两个整数 $n$ 和 $k$，表示序列的元素个数和最多可以进行操作的次数，满足 $2 \le n \le 10^{5},\ 1 \le k \le 10^{14}$。
+
+第二行包含 $n$ 个整数 $a_1, a_2, \dots, a_n$，满足 $1 \le a_i \le 10^{9}$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出在最多进行 $k$ 次操作后，序列中最大元素与最小元素的最小可能差值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，你可以将第一个元素增加两次，将第三个元素减少两次，使序列变为 $[3, 3, 5, 5]$，此时最大值与最小值的差为 $2$。你还可以再进行一次操作，但无法使答案小于 $2$。
+
+在第二个样例中，所有元素已经相等，因此即使不进行任何操作，答案也可以是 $0$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

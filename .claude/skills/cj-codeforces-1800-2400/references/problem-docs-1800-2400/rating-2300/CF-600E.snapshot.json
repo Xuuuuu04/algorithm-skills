@@ -1,0 +1,38 @@
+{
+  "id": "CF-600E",
+  "contest_id": 600,
+  "index": "E",
+  "name": "Lomsat gelral",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/600/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/600/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/600/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=600E%20Lomsat gelral%20tutorial",
+  "solved_count": 17882,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P600E",
+  "hydro_meta": {
+    "page_title": "Lomsat gelral - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 10,
+    "hydro_attempt": 31,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

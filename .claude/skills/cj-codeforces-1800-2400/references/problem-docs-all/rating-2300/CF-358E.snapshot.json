@@ -1,0 +1,36 @@
+{
+  "id": "CF-358E",
+  "contest_id": 358,
+  "index": "E",
+  "name": "Dima and Kicks",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "brute force",
+    "dsu",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 426,
+  "problem_url": "https://codeforces.com/problemset/problem/358/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/358/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/358/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=358E%20Dima%20and%20Kicks%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P358E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Dima and Kicks - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dsu",
+      "graphs",
+      "implementation",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

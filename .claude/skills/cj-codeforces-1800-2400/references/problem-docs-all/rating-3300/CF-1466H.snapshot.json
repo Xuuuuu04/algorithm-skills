@@ -1,0 +1,38 @@
+{
+  "id": "CF-1466H",
+  "contest_id": 1466,
+  "index": "H",
+  "name": "Finding satisfactory solutions",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "graphs",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 482,
+  "problem_url": "https://codeforces.com/problemset/problem/1466/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1466/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1466/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1466H%20Finding%20satisfactory%20solutions%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1466H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Finding satisfactory solutions - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "graphs",
+      "greedy",
+      "math",
+      "*3300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "1024MiB"
+  }
+}

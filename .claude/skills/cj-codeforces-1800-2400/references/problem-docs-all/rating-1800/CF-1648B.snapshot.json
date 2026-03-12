@@ -1,0 +1,35 @@
+{
+  "id": "CF-1648B",
+  "contest_id": 1648,
+  "index": "B",
+  "name": "Integral Array",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "data structures",
+    "math"
+  ],
+  "solved_count": 7190,
+  "problem_url": "https://codeforces.com/problemset/problem/1648/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1648/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1648/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1648B%20Integral%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1648B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Integral Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "data structures",
+      "math"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

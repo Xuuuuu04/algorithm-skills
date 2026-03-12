@@ -1,0 +1,28 @@
+{
+  "id": "CF-1194C",
+  "contest_id": 1194,
+  "index": "C",
+  "name": "From S To T",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 14523,
+  "problem_url": "https://codeforces.com/problemset/problem/1194/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1194/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1194/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1194C%20From%20S%20To%20T%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1194/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1194C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

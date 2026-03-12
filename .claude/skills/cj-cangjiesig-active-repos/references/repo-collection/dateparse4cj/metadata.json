@@ -1,0 +1,14 @@
+{
+  "name": "dateparse4cj",
+  "full_name": "cangjielanguage-sig/dateparse4cj",
+  "html_url": "https://github.com/cangjielanguage-sig/dateparse4cj",
+  "description": "dateparse4cj 是一个基于 cangjie 标准库实现的高性能、功能丰富的日期时间解析库。它能够自动识别并解析多种格式的日期字符串，支持全球各种常见日期格式，包括各种区域标准、时区处理以及多语言日期表示。该库适合需要处理各种不同格式日期输入的应用程序。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "master",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/dateparse4cj/master/cjpm.toml"
+}

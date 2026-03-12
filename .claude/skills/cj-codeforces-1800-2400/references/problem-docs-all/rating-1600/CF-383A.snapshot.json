@@ -1,0 +1,28 @@
+{
+  "id": "CF-383A",
+  "contest_id": 383,
+  "index": "A",
+  "name": "Milking cows",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 5523,
+  "problem_url": "https://codeforces.com/problemset/problem/383/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/383/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/383/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=383A%20Milking%20cows%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/383/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 383A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

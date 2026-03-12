@@ -1,0 +1,31 @@
+{
+  "id": "CF-1881F",
+  "contest_id": 1881,
+  "index": "F",
+  "name": "Minimum Maximum Distance",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "shortest paths",
+    "trees"
+  ],
+  "solved_count": 9263,
+  "problem_url": "https://codeforces.com/problemset/problem/1881/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1881/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1881/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1881F%20Minimum%20Maximum%20Distance%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1881F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1881F Minimum Maximum Distance - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 158,
+    "mirror_attempt": 326,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

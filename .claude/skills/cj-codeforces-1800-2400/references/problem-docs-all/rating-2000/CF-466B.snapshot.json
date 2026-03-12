@@ -1,0 +1,28 @@
+{
+  "id": "CF-466B",
+  "contest_id": 466,
+  "index": "B",
+  "name": "Wonder Room",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "math"
+  ],
+  "solved_count": 5236,
+  "problem_url": "https://codeforces.com/problemset/problem/466/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/466/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/466/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=466B%20Wonder%20Room%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF466B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF466B Wonder Room - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 47,
+    "mirror_attempt": 192,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

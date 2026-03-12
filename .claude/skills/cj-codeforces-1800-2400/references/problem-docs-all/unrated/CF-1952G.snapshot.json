@@ -1,0 +1,36 @@
+{
+  "id": "CF-1952G",
+  "contest_id": 1952,
+  "index": "G",
+  "name": "Mathematician Takeover",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "binary search",
+    "dfs and similar",
+    "math"
+  ],
+  "solved_count": 1179,
+  "problem_url": "https://codeforces.com/problemset/problem/1952/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1952/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1952/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1952G%20Mathematician%20Takeover%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1952G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Mathematician Takeover - 题目详情 - Hydro",
+    "mirror_tags": [
+      "2-sat",
+      "chinese remainder theorem",
+      "math",
+      "strings",
+      "ternary search"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

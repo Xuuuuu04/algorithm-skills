@@ -1,0 +1,29 @@
+{
+  "id": "CF-1285B",
+  "contest_id": 1285,
+  "index": "B",
+  "name": "Just Eat It!",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 29863,
+  "problem_url": "https://codeforces.com/problemset/problem/1285/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1285/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1285/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1285B%20Just%20Eat%20It%21%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1285/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1285B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1561C",
+  "contest_id": 1561,
+  "index": "C",
+  "name": "Deep Down Below",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 20645,
+  "problem_url": "https://codeforces.com/problemset/problem/1561/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1561/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1561/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1561C%20Deep%20Down%20Below%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1561/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1561C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

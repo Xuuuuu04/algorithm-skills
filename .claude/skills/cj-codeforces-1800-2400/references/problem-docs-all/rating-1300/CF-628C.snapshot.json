@@ -1,0 +1,28 @@
+{
+  "id": "CF-628C",
+  "contest_id": 628,
+  "index": "C",
+  "name": "Bear and String Distance",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 6457,
+  "problem_url": "https://codeforces.com/problemset/problem/628/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/628/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/628/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=628C%20Bear%20and%20String%20Distance%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/628/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 628C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

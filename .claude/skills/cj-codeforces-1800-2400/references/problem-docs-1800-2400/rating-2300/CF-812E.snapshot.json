@@ -1,0 +1,33 @@
+{
+  "id": "CF-812E",
+  "contest_id": 812,
+  "index": "E",
+  "name": "Sagheer and Apple Tree",
+  "rating": 2300,
+  "tags": [
+    "games",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/812/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/812/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/812/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=812E%20Sagheer and Apple Tree%20tutorial",
+  "solved_count": 1294,
+  "suggested_patterns": [
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P812E",
+  "hydro_meta": {
+    "page_title": "Sagheer and Apple Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "games",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

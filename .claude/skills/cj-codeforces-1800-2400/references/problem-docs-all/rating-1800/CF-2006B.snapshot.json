@@ -1,0 +1,39 @@
+{
+  "id": "CF-2006B",
+  "contest_id": 2006,
+  "index": "B",
+  "name": "Iris and the Tree",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "dsu",
+    "math",
+    "trees"
+  ],
+  "solved_count": 4271,
+  "problem_url": "https://codeforces.com/problemset/problem/2006/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2006/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2006/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2006B%20Iris%20and%20the%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2006B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Iris and the Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "math",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

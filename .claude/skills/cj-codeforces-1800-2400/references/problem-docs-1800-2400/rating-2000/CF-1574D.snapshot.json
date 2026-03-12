@@ -1,0 +1,46 @@
+{
+  "id": "CF-1574D",
+  "contest_id": 1574,
+  "index": "D",
+  "name": "The Strongest Build",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "hashing",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1574/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1574/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1574/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1574D%20The Strongest Build%20tutorial",
+  "solved_count": 4804,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1574D",
+  "hydro_meta": {
+    "page_title": "The Strongest Build - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "hashing",
+      "implementation",
+      "shortest paths"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 11,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1987A Upload More RAM - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1987A","type":"CF","title":"Upload More RAM","difficulty":1,"tags":[5],"wantsTranslation":false,"totalSubmit":166,"totalAccepted":110,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Upload More RAM","background":"","description":"\u54e6\u4e0d\uff0c$ForceCodes$ \u670d\u52a1\u5668\u5185\u5b58\u4e0d\u8db3\uff01\u5e78\u8fd0\u7684\u662f\uff0c\u60a8\u53ef\u4ee5\u901a\u8fc7\u4e0a\u4f20\u4e00\u4e9b$ RAM$ \u6765\u5e2e\u52a9\u4ed6\u4eec\uff01\n\n\u60a8\u8981\u4e0a\u4f20\n$?GB$ \u7684 $RAM$\u3002\u6bcf\u79d2\uff0c\u60a8\u5c06\u4e0a\u4f20$0$\u6216$1GB$ \u5185\u5b58\u3002\u4f46\u662f\uff0c\u60a8\u7684\u7f51\u7edc\u901f\u5ea6\u662f\u6709\u9650\u5236\u7684\uff1a\u5728\u4efb\u4f55\u5bf9\u8fde\u7eed\u79d2\u6570\uff0c\u6700\u591a\u53ea\u80fd\u4e0a\u4f20\u603b\u5171 $1GB$ \u7684 $RAM$\u3002\n\n\u67e5\u627e\u4e0a\u4f20\u6240\u9700\u7684\u6700\u77ed\u79d2\u6570\n$nGB$ \u6216 $RAM$\uff01","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u90fd\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u5355\u4e2a\u6574\u6570$?$ ( $ 1\\le t \\le10^4$ \uff09 \u2014\u2014 \u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u5982\u4e0b\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u4e5f\u662f\u552f\u4e00\u7684\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570$n$\u548c$k$( $1\\le?,k\\le100 $\uff09 \u2014\u2014 \u8981\u4e0a\u4f20\u7684$GB$\u6570\u548c\u65f6\u95f4\u7a97\u53e3\u7684\u957f\u5ea6\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4e0a\u4f20\u6240\u9700\u7684\u6700\u5c0f\u79d2\u6570\n$nGB$ \u6216 $RAM$\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Upload More RAM","background":"","description":"Oh no, the ForceCodes servers are running out of memory! Luckily, you can help them out by uploading some of your RAM!\n\nYou want to upload $ n $ GBs of RAM. Every second, you will upload either $ 0 $ or $ 1 $ GB of RAM. However, there is a restriction on your network speed: in any $ k $ consecutive seconds, you can upload only at most $ 1 $ GB of RAM in total.\n\nFind the minimum number of seconds needed to upload $ n $ GBs of RAM!","formatI":"Each test contains multiple test cases. The first line of input contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. The description of the test cases follows.\n\nThe first and only line of each test case contains two integers $ n $ and $ k $ ( $ 1 \\le n, k \\le 100 $ ) \u2014 the number of GBs that you want to upload and the length of the time window respectively.","formatO":"For each test case, output a single integer \u2014 the minimum number of seconds needed to upload $ n $ GBs of RAM.","hint":"In the first test case, you can upload $ 1 $ GB of RAM per second, so to upload $ 5 $ GBs, you need $ 5 $ seconds.\n\nIn the second test case, you can upload $ 1 $ GB in the first second, $ 0 $ GBs in the second second, and $ 1 $ GB in the third second, which in total adds up to exactly $ 2 $ GBs of uploaded RAM.\n\nIn the third test case, you can upload $ 1 $ GB in the first second, $ 0 $ GBs in the second second, $ 0 $ GBs in the third second, and $ 1 $ GB in the fourth second, which in total adds up to exactly $ 2 $ GBs of uploaded RAM.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n5 1\n2 2\n2 3\n1 7\n11 5\n100 100","5\n3\n4\n1\n51\n9901"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1987A","link":"https:\/\/codeforces.com\/problemset\/problem\/1987\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\u54e6\u4e0d\uff0c$ForceCodes$ \u670d\u52a1\u5668\u5185\u5b58\u4e0d\u8db3\uff01\u5e78\u8fd0\u7684\u662f\uff0c\u60a8\u53ef\u4ee5\u901a\u8fc7\u4e0a\u4f20\u4e00\u4e9b$ RAM$ \u6765\u5e2e\u52a9\u4ed6\u4eec\uff01\n\n\u60a8\u8981\u4e0a\u4f20\n$?GB$ \u7684 $RAM$\u3002\u6bcf\u79d2\uff0c\u60a8\u5c06\u4e0a\u4f20$0$\u6216$1GB$ \u5185\u5b58\u3002\u4f46\u662f\uff0c\u60a8\u7684\u7f51\u7edc\u901f\u5ea6\u662f\u6709\u9650\u5236\u7684\uff1a\u5728\u4efb\u4f55\u5bf9\u8fde\u7eed\u79d2\u6570\uff0c\u6700\u591a\u53ea\u80fd\u4e0a\u4f20\u603b\u5171 $1GB$ \u7684 $RAM$\u3002\n\n\u67e5\u627e\u4e0a\u4f20\u6240\u9700\u7684\u6700\u77ed\u79d2\u6570\n$nGB$ \u6216 $RAM$\uff01\n\n### \u8f93\u5165\u683c\u5f0f\n\u6bcf\u4e2a\u6d4b\u8bd5\u90fd\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u5355\u4e2a\u6574\u6570$?$ ( $ 1\\le t \\le10^4$ \uff09 \u2014\u2014 \u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u5982\u4e0b\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u4e5f\u662f\u552f\u4e00\u7684\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570$n$\u548c$k$( $1\\le?,k\\le100 $\uff09 \u2014\u2014 \u8981\u4e0a\u4f20\u7684$GB$\u6570\u548c\u65f6\u95f4\u7a97\u53e3\u7684\u957f\u5ea6\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4e0a\u4f20\u6240\u9700\u7684\u6700\u5c0f\u79d2\u6570\n$nGB$ \u6216 $RAM$\u3002"},"translations":{"en":{"name":"Upload More RAM","background":"","description":"Oh no, the ForceCodes servers are running out of memory! Luckily, you can help them out by uploading some of your RAM!\n\nYou want to upload $ n $ GBs of RAM. Every second, you will upload either $ 0 $ or $ 1 $ GB of RAM. However, there is a restriction on your network speed: in any $ k $ consecutive seconds, you can upload only at most $ 1 $ GB of RAM in total.\n\nFind the minimum number of seconds needed to upload $ n $ GBs of RAM!","formatI":"Each test contains multiple test cases. The first line of input contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. The description of the test cases follows.\n\nThe first and only line of each test case contains two integers $ n $ and $ k $ ( $ 1 \\le n, k \\le 100 $ ) \u2014 the number of GBs that you want to upload and the length of the time window respectively.","formatO":"For each test case, output a single integer \u2014 the minimum number of seconds needed to upload $ n $ GBs of RAM.","hint":"In the first test case, you can upload $ 1 $ GB of RAM per second, so to upload $ 5 $ GBs, you need $ 5 $ seconds.\n\nIn the second test case, you can upload $ 1 $ GB in the first second, $ 0 $ GBs in the second second, and $ 1 $ GB in the third second, which in total adds up to exactly $ 2 $ GBs of uploaded RAM.\n\nIn the third test case, you can upload $ 1 $ GB in the first second, $ 0 $ GBs in the second second, $ 0 $ GBs in the third second, and $ 1 $ GB in the fourth second, which in total adds up to exactly $ 2 $ GBs of uploaded RAM.","locale":"en"},"zh-CN":{"name":"Upload More RAM","background":"","description":"\u54e6\u4e0d\uff0c$ForceCodes$ \u670d\u52a1\u5668\u5185\u5b58\u4e0d\u8db3\uff01\u5e78\u8fd0\u7684\u662f\uff0c\u60a8\u53ef\u4ee5\u901a\u8fc7\u4e0a\u4f20\u4e00\u4e9b$ RAM$ \u6765\u5e2e\u52a9\u4ed6\u4eec\uff01\n\n\u60a8\u8981\u4e0a\u4f20\n$?GB$ \u7684 $RAM$\u3002\u6bcf\u79d2\uff0c\u60a8\u5c06\u4e0a\u4f20$0$\u6216$1GB$ \u5185\u5b58\u3002\u4f46\u662f\uff0c\u60a8\u7684\u7f51\u7edc\u901f\u5ea6\u662f\u6709\u9650\u5236\u7684\uff1a\u5728\u4efb\u4f55\u5bf9\u8fde\u7eed\u79d2\u6570\uff0c\u6700\u591a\u53ea\u80fd\u4e0a\u4f20\u603b\u5171 $1GB$ \u7684 $RAM$\u3002\n\n\u67e5\u627e\u4e0a\u4f20\u6240\u9700\u7684\u6700\u77ed\u79d2\u6570\n$nGB$ \u6216 $RAM$\uff01","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u90fd\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u5355\u4e2a\u6574\u6570$?$ ( $ 1\\le t \\le10^4$ \uff09 \u2014\u2014 \u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u5982\u4e0b\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u4e5f\u662f\u552f\u4e00\u7684\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570$n$\u548c$k$( $1\\le?,k\\le100 $\uff09 \u2014\u2014 \u8981\u4e0a\u4f20\u7684$GB$\u6570\u548c\u65f6\u95f4\u7a97\u53e3\u7684\u957f\u5ea6\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4e0a\u4f20\u6240\u9700\u7684\u6700\u5c0f\u79d2\u6570\n$nGB$ \u6216 $RAM$\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1987A Upload More RAM","type":2,"slug":"CF1987A","color":"orange-3"},"discussions":[{"id":847613,"title":"\u9898\u610f","author":{"uid":602833,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/602833.png","name":"_qhbd_","slogan":"\u8eab\u5728\u4e95\u9685    \u5fc3\u5411\u7480\u74a8","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/asutipo2.png"},"time":1720507761},{"id":847604,"title":"\u9898\u76ee\u7ffb\u8bd1\u6709\u8bef\uff1f","author":{"uid":602833,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/602833.png","name":"_qhbd_","slogan":"\u8eab\u5728\u4e95\u9685    \u5fc3\u5411\u7480\u74a8","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/asutipo2.png"},"time":1720507465}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.717982,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1987A Upload More RAM","description":"\u54e6\u4e0d\uff0cForceCodes \u670d\u52a1\u5668\u5185\u5b58\u4e0d\u8db3\uff01\u5e78\u8fd0\u7684\u662f\uff0c\u60a8\u53ef\u4ee5\u901a\u8fc7\u4e0a\u4f20\u4e00\u4e9b RAM \u6765\u5e2e\u52a9\u4ed6\u4eec\uff01\n\u60a8\u8981\u4e0a\u4f20\n\n\n\u67e5\u627e\u4e0a\u4f20\u6240\u9700\u7684\u6700\u77ed\u79d2\u6570\n$nGB$ \u6216 $RAM$\uff01"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1987A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1987A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1987A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1987A Upload More RAM" />
+    <meta property="og:description" content="哦不，ForceCodes 服务器内存不足！幸运的是，您可以通过上传一些 RAM 来帮助他们！
+您要上传
+
+
+查找上传所需的最短秒数
+$nGB$ 或 $RAM$！" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1987A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1987A Upload More RAM</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    哦不，$ForceCodes$ 服务器内存不足！幸运的是，您可以通过上传一些$ RAM$ 来帮助他们！
+
+您要上传
+$?GB$ 的 $RAM$。每秒，您将上传$0$或$1GB$ 内存。但是，您的网络速度是有限制的：在任何对连续秒数，最多只能上传总共 $1GB$ 的 $RAM$。
+
+查找上传所需的最短秒数
+$nGB$ 或 $RAM$！
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试都包含多个测试用例。输入的第一行包含单个整数$?$ ( $ 1\le t \le10^4$ ） —— 测试用例的数量。测试用例的描述如下。
+
+每个测试用例的第一行也是唯一的一行包含两个整数$n$和$k$( $1\le?,k\le100 $） —— 要上传的$GB$数和时间窗口的长度。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个整数——上传所需的最小秒数
+$nGB$ 或 $RAM$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case, you can upload $ 1 $ GB of RAM per second, so to upload $ 5 $ GBs, you need $ 5 $ seconds.
+
+In the second test case, you can upload $ 1 $ GB in the first second, $ 0 $ GBs in the second second, and $ 1 $ GB in the third second, which in total adds up to exactly $ 2 $ GBs of uploaded RAM.
+
+In the third test case, you can upload $ 1 $ GB in the first second, $ 0 $ GBs in the second second, $ 0 $ GBs in the third second, and $ 1 $ GB in the fourth second, which in total adds up to exactly $ 2 $ GBs of uploaded RAM.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

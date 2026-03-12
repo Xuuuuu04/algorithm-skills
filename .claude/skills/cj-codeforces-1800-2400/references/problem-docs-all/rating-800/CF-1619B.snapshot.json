@@ -1,0 +1,28 @@
+{
+  "id": "CF-1619B",
+  "contest_id": 1619,
+  "index": "B",
+  "name": "Squares and Cubes",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 32726,
+  "problem_url": "https://codeforces.com/problemset/problem/1619/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1619/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1619/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1619B%20Squares%20and%20Cubes%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1619B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1619B Squares and Cubes - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 421,
+    "mirror_attempt": 823,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

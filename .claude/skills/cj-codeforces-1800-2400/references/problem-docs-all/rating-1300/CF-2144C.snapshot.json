@@ -1,0 +1,33 @@
+{
+  "id": "CF-2144C",
+  "contest_id": 2144,
+  "index": "C",
+  "name": "Non-Descending Arrays",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 14462,
+  "problem_url": "https://codeforces.com/problemset/problem/2144/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2144/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2144/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2144C%20Non-Descending%20Arrays%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2144C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Non-Descending Arrays - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

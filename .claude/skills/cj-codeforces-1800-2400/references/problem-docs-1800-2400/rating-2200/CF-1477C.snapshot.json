@@ -1,0 +1,41 @@
+{
+  "id": "CF-1477C",
+  "contest_id": 1477,
+  "index": "C",
+  "name": "Nezzar and Nice Beatmap",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "geometry",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1477/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1477/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1477/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1477C%20Nezzar and Nice Beatmap%20tutorial",
+  "solved_count": 2564,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1477C",
+  "hydro_meta": {
+    "page_title": "Nezzar and Nice Beatmap - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "geometry",
+      "greedy",
+      "math",
+      "sortings",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

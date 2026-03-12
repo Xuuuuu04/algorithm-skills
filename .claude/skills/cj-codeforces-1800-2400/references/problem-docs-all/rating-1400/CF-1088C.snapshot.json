@@ -1,0 +1,29 @@
+{
+  "id": "CF-1088C",
+  "contest_id": 1088,
+  "index": "C",
+  "name": "Ehab and a 2-operation task",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 8482,
+  "problem_url": "https://codeforces.com/problemset/problem/1088/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1088/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1088/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1088C%20Ehab%20and%20a%202-operation%20task%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1088/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1088C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-38D",
+  "contest_id": 38,
+  "index": "D",
+  "name": "Vasya the Architect",
+  "rating": 1900,
+  "tags": [
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/38/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/38/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/38/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=38D%20Vasya the Architect%20tutorial",
+  "solved_count": 1000,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P38D",
+  "hydro_meta": {
+    "page_title": "Vasya the Architect - 题目详情 - Hydro",
+    "hydro_tags": [
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

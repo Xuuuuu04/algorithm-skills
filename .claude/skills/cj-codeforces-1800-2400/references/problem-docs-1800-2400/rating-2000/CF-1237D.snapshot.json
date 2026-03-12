@@ -1,0 +1,36 @@
+{
+  "id": "CF-1237D",
+  "contest_id": 1237,
+  "index": "D",
+  "name": "Balanced Playlist",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "data structures",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1237/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1237/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1237/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1237D%20Balanced Playlist%20tutorial",
+  "solved_count": 4699,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1237D",
+  "hydro_meta": {
+    "page_title": "Balanced Playlist - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

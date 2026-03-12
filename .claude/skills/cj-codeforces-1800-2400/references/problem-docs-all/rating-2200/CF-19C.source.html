@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417793:5bmvwLWN/xjRPY2IfEDt75LKh2DoYTRO4wYFuP+Ed5g=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF19C Deletion of Repeats - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF19C","type":"CF","title":"Deletion of Repeats","difficulty":5,"tags":[],"wantsTranslation":false,"totalSubmit":484,"totalAccepted":176,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Deletion of Repeats","background":null,"description":"\u6709\u4e00\u5929\uff0cBob \u770b\u5230\u4e86\u4e00\u4e2a\u5b57\u7b26\u4e32\u3002\u8be5\u5b57\u7b26\u4e32\u5305\u542b\u4e86\u8bb8\u591a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u4f46\u8fd9\u4e9b\u5b57\u6bcd\u90fd\u7528\u6570\u5b57\u6765\u8868\u793a\uff0c\u5e76\u4e14\u6bcf\u79cd\u5b57\u6bcd\u5728\u5b57\u7b26\u4e32\u4e2d\u6700\u591a\u51fa\u73b0 10 \u6b21\u3002Bob \u4e0d\u559c\u6b22\u8fd9\u4e2a\u5b57\u7b26\u4e32\uff0c\u56e0\u4e3a\u91cc\u9762\u6709\u201c\u91cd\u590d\u6bb5\u201d\uff1a\u957f\u5ea6\u4e3a $x$ \u7684\u91cd\u590d\u6bb5\u662f\u6307\u4e00\u4e2a\u957f\u5ea6\u4e3a $2x$ \u7684\u5b50\u4e32\uff0c\u5176\u524d\u4e00\u534a\u548c\u540e\u4e00\u534a\u5b57\u7b26\u4e00\u4e00\u5bf9\u5e94\u5b8c\u5168\u76f8\u540c\u3002Bob \u51b3\u5b9a\u5220\u6389\u6240\u6709\u7684\u91cd\u590d\u6bb5\u3002\u4ed6\u7684\u64cd\u4f5c\u65b9\u5f0f\u5982\u4e0b\uff1a\u53ea\u8981\u4ecd\u6709\u91cd\u590d\u6bb5\u5b58\u5728\uff0cBob \u5c31\u9009\u62e9\u6700\u77ed\u7684\u91cd\u590d\u6bb5\uff1b\u5982\u679c\u6709\u591a\u4e2a\u6700\u77ed\u7684\uff0c\u4ed6\u9009\u62e9\u6700\u5de6\u8fb9\u7684\u4e00\u4e2a\uff0c\u7136\u540e\u5220\u9664\u8fd9\u4e2a\u91cd\u590d\u6bb5\u7684\u5de6\u534a\u90e8\u5206\u53ca\u5176\u5de6\u8fb9\u7684\u6240\u6709\u5185\u5bb9\u3002\n\n\u7ed9\u5b9a Bob \u770b\u5230\u7684\u5b57\u7b26\u4e32\uff0c\u8bf7\u4f60\u627e\u51fa\u5728\u6309\u7167\u4e0a\u8ff0\u89c4\u5219\u5220\u9664\u6240\u6709\u91cd\u590d\u6bb5\u540e\uff0c\u5b57\u7b26\u4e32\u4f1a\u53d8\u6210\u4ec0\u4e48\u6837\u5b50\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 10^5$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002  \n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570\uff0c\u6bcf\u4e2a\u6574\u6570\u5728 $0$ \u5230 $10^9$ \u4e4b\u95f4\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u4e2d\u7684\u5b57\u6bcd\u3002\u4fdd\u8bc1\u6bcf\u79cd\u5b57\u6bcd\u5728\u5b57\u7b26\u4e32\u4e2d\u6700\u591a\u51fa\u73b0 10 \u6b21\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u7ecf\u8fc7\u5220\u9664\u64cd\u4f5c\u540e\u5269\u4f59\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002  \n\u7b2c\u4e8c\u884c\u8f93\u51fa\u5269\u4f59\u5b57\u7b26\u4e32\u4e2d\u7684\u6240\u6709\u5b57\u6bcd\uff08\u6570\u5b57\uff09\uff0c\u7528\u7a7a\u683c\u9694\u5f00\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Deletion of Repeats","background":"","description":"Once Bob saw a string. It contained so many different letters, that the letters were marked by numbers, but at the same time each letter could be met in the string at most 10 times. Bob didn\u0027t like that string, because it contained repeats: a repeat of length $ x $ is such a substring of length $ 2x $ , that its first half coincides character by character with its second half. Bob started deleting all the repeats from the string. He does it as follows: while it\u0027s possible, Bob takes the shortest repeat, if it is not unique, he takes the leftmost one, and deletes its left half and everything that is to the left of this repeat.\n\nYou\u0027re given the string seen by Bob. Find out, what it will look like after Bob deletes all the repeats in the way described above.","formatI":"The first input line contains integer $ n $ ( $ 1\u003C=n\u003C=10^{5} $ ) \u2014 length of the string. The following line contains $ n $ space-separated integer numbers from $ 0 $ to $ 10^{9} $ inclusive \u2014 numbers that stand for the letters of the string. It\u0027s guaranteed that each letter can be met in the string at most 10 times.","formatO":"In the first line output the length of the string\u0027s part, left after Bob\u0027s deletions. In the second line output all the letters (separated by a space) of the string, left after Bob deleted all the repeats in the described way.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n1 2 3 1 2 3\n","3\n1 2 3 \n"],["7\n4 5 6 5 6 7 7\n","1\n7 \n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"19C","link":"https:\/\/codeforces.com\/problemset\/problem\/19\/C"},"translation":"\u6709\u4e00\u4e2a\u5b57\u7b26\u4e32\u3002\u5b83\u91cc\u9762\u6709\u8bb8\u591a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u8fd9\u4e9b\u5b57\u6bcd\u7528\u6570\u5b57\u6765\u6807\u8bb0\uff0c\u800c\u4e14\u6bcf\u4e2a\u5b57\u6bcd\u6700\u591a\u51fa\u73b010\u6b21\u3002\u73b0\u5728\u8981\u6c42\u6309\u4e00\u5b9a\u7684\u89c4\u5219\u5220\u9664\u5b57\u7b26\u4e32\u4e2d\u7684\u91cd\u590d\u90e8\u5206\uff1a\u9996\u5148\u627e\u5230\u6700\u77ed\u7684\u91cd\u590d\u90e8\u5206\uff08\u5982\u679c\u6709\u591a\u4e2a\u5c31\u9009\u62e9\u6700\u5de6\u8fb9\u7684\uff09\uff0c\u7136\u540e\u5220\u6389\u5b83\u7684\u5de6\u534a\u90e8\u5206\u548c\u5de6\u8fb9\u7684\u5168\u90e8\u5b57\u6bcd"},"translations":{"en":{"name":"Deletion of Repeats","background":"","description":"Once Bob saw a string. It contained so many different letters, that the letters were marked by numbers, but at the same time each letter could be met in the string at most 10 times. Bob didn\u0027t like that string, because it contained repeats: a repeat of length $ x $ is such a substring of length $ 2x $ , that its first half coincides character by character with its second half. Bob started deleting all the repeats from the string. He does it as follows: while it\u0027s possible, Bob takes the shortest repeat, if it is not unique, he takes the leftmost one, and deletes its left half and everything that is to the left of this repeat.\n\nYou\u0027re given the string seen by Bob. Find out, what it will look like after Bob deletes all the repeats in the way described above.","formatI":"The first input line contains integer $ n $ ( $ 1\u003C=n\u003C=10^{5} $ ) \u2014 length of the string. The following line contains $ n $ space-separated integer numbers from $ 0 $ to $ 10^{9} $ inclusive \u2014 numbers that stand for the letters of the string. It\u0027s guaranteed that each letter can be met in the string at most 10 times.","formatO":"In the first line output the length of the string\u0027s part, left after Bob\u0027s deletions. In the second line output all the letters (separated by a space) of the string, left after Bob deleted all the repeats in the described way.","hint":"","locale":"en"},"zh-CN":{"name":"Deletion of Repeats","background":null,"description":"\u6709\u4e00\u5929\uff0cBob \u770b\u5230\u4e86\u4e00\u4e2a\u5b57\u7b26\u4e32\u3002\u8be5\u5b57\u7b26\u4e32\u5305\u542b\u4e86\u8bb8\u591a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u4f46\u8fd9\u4e9b\u5b57\u6bcd\u90fd\u7528\u6570\u5b57\u6765\u8868\u793a\uff0c\u5e76\u4e14\u6bcf\u79cd\u5b57\u6bcd\u5728\u5b57\u7b26\u4e32\u4e2d\u6700\u591a\u51fa\u73b0 10 \u6b21\u3002Bob \u4e0d\u559c\u6b22\u8fd9\u4e2a\u5b57\u7b26\u4e32\uff0c\u56e0\u4e3a\u91cc\u9762\u6709\u201c\u91cd\u590d\u6bb5\u201d\uff1a\u957f\u5ea6\u4e3a $x$ \u7684\u91cd\u590d\u6bb5\u662f\u6307\u4e00\u4e2a\u957f\u5ea6\u4e3a $2x$ \u7684\u5b50\u4e32\uff0c\u5176\u524d\u4e00\u534a\u548c\u540e\u4e00\u534a\u5b57\u7b26\u4e00\u4e00\u5bf9\u5e94\u5b8c\u5168\u76f8\u540c\u3002Bob \u51b3\u5b9a\u5220\u6389\u6240\u6709\u7684\u91cd\u590d\u6bb5\u3002\u4ed6\u7684\u64cd\u4f5c\u65b9\u5f0f\u5982\u4e0b\uff1a\u53ea\u8981\u4ecd\u6709\u91cd\u590d\u6bb5\u5b58\u5728\uff0cBob \u5c31\u9009\u62e9\u6700\u77ed\u7684\u91cd\u590d\u6bb5\uff1b\u5982\u679c\u6709\u591a\u4e2a\u6700\u77ed\u7684\uff0c\u4ed6\u9009\u62e9\u6700\u5de6\u8fb9\u7684\u4e00\u4e2a\uff0c\u7136\u540e\u5220\u9664\u8fd9\u4e2a\u91cd\u590d\u6bb5\u7684\u5de6\u534a\u90e8\u5206\u53ca\u5176\u5de6\u8fb9\u7684\u6240\u6709\u5185\u5bb9\u3002\n\n\u7ed9\u5b9a Bob \u770b\u5230\u7684\u5b57\u7b26\u4e32\uff0c\u8bf7\u4f60\u627e\u51fa\u5728\u6309\u7167\u4e0a\u8ff0\u89c4\u5219\u5220\u9664\u6240\u6709\u91cd\u590d\u6bb5\u540e\uff0c\u5b57\u7b26\u4e32\u4f1a\u53d8\u6210\u4ec0\u4e48\u6837\u5b50\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 10^5$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002  \n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570\uff0c\u6bcf\u4e2a\u6574\u6570\u5728 $0$ \u5230 $10^9$ \u4e4b\u95f4\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u4e2d\u7684\u5b57\u6bcd\u3002\u4fdd\u8bc1\u6bcf\u79cd\u5b57\u6bcd\u5728\u5b57\u7b26\u4e32\u4e2d\u6700\u591a\u51fa\u73b0 10 \u6b21\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u7ecf\u8fc7\u5220\u9664\u64cd\u4f5c\u540e\u5269\u4f59\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u3002  \n\u7b2c\u4e8c\u884c\u8f93\u51fa\u5269\u4f59\u5b57\u7b26\u4e32\u4e2d\u7684\u6240\u6709\u5b57\u6bcd\uff08\u6570\u5b57\uff09\uff0c\u7528\u7a7a\u683c\u9694\u5f00\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF19C Deletion of Repeats","type":2,"slug":"CF19C","color":"orange-3"},"discussions":[{"id":421481,"title":"\u6076\u8bc4","author":{"uid":125913,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/125913.png","name":"zztqwq","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":8,"xcpcLevel":8,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/thujwm76.png"},"time":1648204400},{"id":34341,"title":"\u7ffb\u8bd1","author":{"uid":49206,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/49206.png","name":"Dispwnl","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":7,"xcpcLevel":0,"background":""},"time":1518937115}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773331393.609369,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF19C Deletion of Repeats","description":"\u6709\u4e00\u5929\uff0cBob \u770b\u5230\u4e86\u4e00\u4e2a\u5b57\u7b26\u4e32\u3002\u8be5\u5b57\u7b26\u4e32\u5305\u542b\u4e86\u8bb8\u591a\u4e0d\u540c\u7684\u5b57\u6bcd\uff0c\u4f46\u8fd9\u4e9b\u5b57\u6bcd\u90fd\u7528\u6570\u5b57\u6765\u8868\u793a\uff0c\u5e76\u4e14\u6bcf\u79cd\u5b57\u6bcd\u5728\u5b57\u7b26\u4e32\u4e2d\u6700\u591a\u51fa\u73b0 10 \u6b21\u3002Bob \u4e0d\u559c\u6b22\u8fd9\u4e2a\u5b57\u7b26\u4e32\uff0c\u56e0\u4e3a\u91cc\u9762\u6709\u201c\u91cd\u590d\u6bb5\u201d\uff1a\u957f\u5ea6\u4e3a x \u7684\u91cd\u590d\u6bb5\u662f\u6307\u4e00\u4e2a\u957f\u5ea6\u4e3a 2x \u7684\u5b50\u4e32\uff0c\u5176\u524d\u4e00\u534a\u548c\u540e\u4e00\u534a\u5b57\u7b26\u4e00\u4e00\u5bf9\u5e94\u5b8c\u5168\u76f8\u540c\u3002Bob\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF19C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF19C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF19C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF19C Deletion of Repeats" />
+    <meta property="og:description" content="有一天，Bob 看到了一个字符串。该字符串包含了许多不同的字母，但这些字母都用数字来表示，并且每种字母在字符串中最多出现 10 次。Bob 不喜欢这个字符串，因为里面有“重复段”：长度为 x 的重复段是指一个长度为 2x 的子串，其前一半和后一半字符一一对应完全相同。Bob…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF19C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF19C Deletion of Repeats</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有一天，Bob 看到了一个字符串。该字符串包含了许多不同的字母，但这些字母都用数字来表示，并且每种字母在字符串中最多出现 10 次。Bob 不喜欢这个字符串，因为里面有“重复段”：长度为 $x$ 的重复段是指一个长度为 $2x$ 的子串，其前一半和后一半字符一一对应完全相同。Bob 决定删掉所有的重复段。他的操作方式如下：只要仍有重复段存在，Bob 就选择最短的重复段；如果有多个最短的，他选择最左边的一个，然后删除这个重复段的左半部分及其左边的所有内容。
+
+给定 Bob 看到的字符串，请你找出在按照上述规则删除所有重复段后，字符串会变成什么样子。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $n$（$1 \leq n \leq 10^5$），表示字符串的长度。  
+第二行包含 $n$ 个用空格分隔的整数，每个整数在 $0$ 到 $10^9$ 之间，表示字符串中的字母。保证每种字母在字符串中最多出现 10 次。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    第一行输出经过删除操作后剩余字符串的长度。  
+第二行输出剩余字符串中的所有字母（数字），用空格隔开。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

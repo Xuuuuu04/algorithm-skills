@@ -1,0 +1,27 @@
+{
+  "id": "CF-145E",
+  "contest_id": 145,
+  "index": "E",
+  "name": "Lucky Queries",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 3904,
+  "problem_url": "https://codeforces.com/problemset/problem/145/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/145/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/145/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=145E%20Lucky%20Queries%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/145/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 145E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

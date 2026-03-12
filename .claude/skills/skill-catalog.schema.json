@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://algorithm-skills.local/schema/skill-catalog.schema.json",
+  "title": "Skill Catalog",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "skills_root",
+    "skill_count",
+    "skills"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "skills_root": {
+      "type": "string"
+    },
+    "skill_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "path",
+          "entry",
+          "description",
+          "layer",
+          "owner",
+          "lifecycle",
+          "disable_model_invocation",
+          "dependencies"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]+$"
+          },
+          "path": {
+            "type": "string"
+          },
+          "entry": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "layer": {
+            "type": "string",
+            "enum": [
+              "core",
+              "maintenance",
+              "reference",
+              "extension"
+            ]
+          },
+          "owner": {
+            "type": "string"
+          },
+          "lifecycle": {
+            "type": "string",
+            "enum": [
+              "production",
+              "stable",
+              "experimental",
+              "deprecated"
+            ]
+          },
+          "disable_model_invocation": {
+            "type": "boolean"
+          },
+          "argument_hint": {
+            "type": "string"
+          },
+          "dependencies": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9-]+$"
+            },
+            "uniqueItems": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

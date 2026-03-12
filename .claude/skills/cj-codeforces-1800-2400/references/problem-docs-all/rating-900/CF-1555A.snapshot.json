@@ -1,0 +1,28 @@
+{
+  "id": "CF-1555A",
+  "contest_id": 1555,
+  "index": "A",
+  "name": "PizzaForces",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "math"
+  ],
+  "solved_count": 30179,
+  "problem_url": "https://codeforces.com/problemset/problem/1555/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1555/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1555/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1555A%20PizzaForces%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1555A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1555A PizzaForces - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 518,
+    "mirror_attempt": 1178,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

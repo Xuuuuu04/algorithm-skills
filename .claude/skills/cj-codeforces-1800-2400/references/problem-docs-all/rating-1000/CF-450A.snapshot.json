@@ -1,0 +1,27 @@
+{
+  "id": "CF-450A",
+  "contest_id": 450,
+  "index": "A",
+  "name": "Jzzhu and Children",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 42755,
+  "problem_url": "https://codeforces.com/problemset/problem/450/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/450/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/450/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=450A%20Jzzhu%20and%20Children%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/450/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 450A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

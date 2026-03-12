@@ -1,0 +1,36 @@
+{
+  "id": "CF-837E",
+  "contest_id": 837,
+  "index": "E",
+  "name": "Vasya's Function",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "implementation",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/837/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/837/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/837/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=837E%20Vasya's Function%20tutorial",
+  "solved_count": 2026,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P837E",
+  "hydro_meta": {
+    "page_title": "Vasya's Function - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "implementation",
+      "math",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-2165B",
+  "contest_id": 2165,
+  "index": "B",
+  "name": "Marble Council",
+  "rating": 1900,
+  "tags": [
+    "dp",
+    "math",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2165/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2165/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2165/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2165B%20Marble Council%20tutorial",
+  "solved_count": 4241,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2165B",
+  "hydro_meta": {
+    "page_title": "Marble Council - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

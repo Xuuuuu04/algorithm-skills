@@ -1,0 +1,28 @@
+{
+  "id": "CF-1976B",
+  "contest_id": 1976,
+  "index": "B",
+  "name": "Increase/Decrease/Copy",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 24917,
+  "problem_url": "https://codeforces.com/problemset/problem/1976/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1976/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1976/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1976B%20Increase/Decrease/Copy%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1976/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1976B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

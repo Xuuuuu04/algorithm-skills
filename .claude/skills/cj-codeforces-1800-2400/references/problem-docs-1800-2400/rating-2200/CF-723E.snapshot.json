@@ -1,0 +1,42 @@
+{
+  "id": "CF-723E",
+  "contest_id": 723,
+  "index": "E",
+  "name": "One-Way Reform",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "flows",
+    "graphs",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/723/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/723/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/723/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=723E%20One-Way Reform%20tutorial",
+  "solved_count": 2228,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "网络流（最大流/最小割）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P723E",
+  "hydro_meta": {
+    "page_title": "One-Way Reform - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "flows",
+      "graphs",
+      "greedy",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

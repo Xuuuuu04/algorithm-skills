@@ -1,0 +1,39 @@
+[dependencies]
+  [dependencies.multipart]
+    git = "https://gitcode.com/Cangjie-SIG/multipart"
+    output-type = "static"
+    tag = "0.1.3"
+  [dependencies.http_router]
+    git = "https://gitcode.com/Cangjie-SIG/http_router"
+    output-type = "static"
+    tag = "0.1.1"
+
+[package]
+  cjc-version = "1.0.0"
+  compile-option = ""
+  description = "轻量级Http服务框架"
+  link-option = ""
+  name = "easyapi"
+  output-type = "static"
+  override-compile-option = ""
+  src-dir = ""
+  target-dir = ""
+  version = "0.2.6"
+  [package.package-configuration]
+
+# 需要将stdx依赖路径添加到环境变量CANGJIE_STDX_PATH中
+
+[target.x86_64-w64-mingw32]                                                   
+  compile-option = "-Woff unused --diagnostic-format=noColor -Woff deprecated -lcrypt32"
+  [target.x86_64-w64-mingw32.bin-dependencies]
+    path-option = ["${CANGJIE_STDX_PATH}"]
+
+[target.x86_64-unknown-linux-gnu]
+  compile-option = "-Woff unused --diagnostic-format=noColor -Woff deprecated -ldl"
+  [target.x86_64-unknown-linux-gnu.bin-dependencies]
+    path-option = ["${CANGJIE_STDX_PATH}"]
+
+[target.aarch64-unknown-linux-gnu]
+  compile-option = "-Woff unused --diagnostic-format=noColor -Woff deprecated -ldl"
+  [target.aarch64-unknown-linux-gnu.bin-dependencies]
+    path-option = ["${CANGJIE_STDX_PATH}"]

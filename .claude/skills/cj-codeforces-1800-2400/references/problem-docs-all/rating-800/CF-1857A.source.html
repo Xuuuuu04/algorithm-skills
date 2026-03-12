@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414414:u8rO5ZSLB+Wz86zPLGTgcbGVXGU8/qDp+8AIijm4iX4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1857A Array Coloring - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1857A","type":"CF","title":"Array Coloring","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":807,"totalAccepted":429,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Array Coloring","background":"","description":"# Array Coloring\n\n\n\u7ed9\u4f60\u4e00\u4e2a\u7531 $n$ \u4e2a\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4\u3002\u6c42\u662f\u5426\u5b58\u5728\u4e00\u79cd\u65b9\u6848\u53ef\u4ee5\u7ed9\u8fd9\u4e2a\u6570\u7ec4\u67d3\u4e0a\u4e24\u79cd\u989c\u8272\uff0c\u6bcf\u4e2a\u5143\u7d20\u90fd\u9700\u8981\u67d3\u4e0a\u989c\u8272\uff0c\u4f7f\u5f97\u4e24\u79cd\u989c\u8272\u7684\u5143\u7d20\u4e4b\u548c\u6709\u76f8\u540c\u7684\u5947\u5076\u6027\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50\uff0c\u5982\u679c\u8fd9\u4e2a\u6570\u7ec4\u662f \\[ $ 1,2,4,3,2,3,5,4 $ \\]\uff0c\u6211\u4eec\u53ef\u4ee5\u6309\u5982\u4e0b\u65b9\u5f0f\u67d3\u8272\uff1a\\[ $ \\color{blue}{1},\\color{blue}{2},\\color{red}{4},\\color{blue}{3},\\color{red}{2},\\color{red}{3},\\color{red}{5},\\color{red}{4} $ \\]\uff0c\u84dd\u8272\u7684\u5143\u7d20\u4e4b\u548c\u4e3a $6$, \u800c\u7ea2\u8272\u7684\u5143\u7d20\u4e4b\u548c\u4e3a $18$\u3002\u4e24\u8005\u5747\u4e3a\u5076\u6570\u3002\n\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4ec5\u6709\u4e24\u79cd\u67d3\u8272\u65b9\u6848\uff1a$ [\\color{blue}{4},\\color{red}{7}] $ \u548c $ [\\color{red}{4},\\color{blue}{7}] $\uff0c\u4e0d\u8fc7\u5bf9\u4e8e\u8fd9\u4e24\u79cd\u65b9\u6848\uff0c\u4e24\u79cd\u989c\u8272\u7684\u5143\u7d20\u7684\u5947\u5076\u6027\u90fd\u662f\u4e0d\u76f8\u540c\u7684\u3002\n\n\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u8fd9\u6837\u67d3\u8272\uff1a $ [\\color{blue}{3},\\color{blue}{9},\\color{red}{8}] $ \u84dd\u8272\u5143\u7d20\u4e4b\u548c\u4e3a $12$\uff0c\u800c\u7ea2\u8272\u5143\u7d20\u4e4b\u548c\u4e3a $8$\uff0c\u4e24\u8005\u5747\u4e3a\u5076\u6570\uff0c\u7b26\u5408\u6761\u4ef6\u3002","formatI":"\u7b2c\u4e00\u884c\uff1a\u4e00\u4e2a\u6574\u6570 $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 \u8868\u793a\u6d4b\u8bd5\u6837\u4f8b\u7684\u6570\u91cf\u3002\n\n**\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\uff1a**\n\n\u7b2c\u4e00\u884c\uff1a\u4e00\u4e2a\u6574\u6570 $ n $ ( $ 2 \\le n \\le 50 $ ) \u2014 \u4ee3\u8868\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\uff1a\u6709 $n$ \u4e2a\u6574\u6570 $ a_1,a_2, \\dots, a_n $ ( $ 1 \\le a_i \\le 50 $ ) \u2014 \u4ee3\u8868 $ a $ \u7684\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\uff0c\u5982\u679c\u5b58\u5728\u4e00\u79cd\u67d3\u8272\u65b9\u6848\u7b26\u5408\u9898\u76ee\u8981\u6c42\uff0c\u5219\u8f93\u51fa `YES`\u3002\u53cd\u4e4b\u8f93\u51fa `NO`\u3002\n\n\u53e6\u5916\uff0c\u4f60\u53ef\u4ee5\u4ee5\u4efb\u610f\u65b9\u5f0f\u8f93\u51fa `YES` \u548c `NO`\uff0c\u50cf `yES`\uff0c`yes`\uff0c\u548c `Yes` \u90fd\u4f1a\u88ab\u89c6\u4f5c\u6b63\u786e\u7b54\u6848\u3002\n\n## \u6837\u4f8b #1\n\n### \u6837\u4f8b\u8f93\u5165 #1\n\n```\n7\n8\n1 2 4 3 2 3 5 4\n2\n4 7\n3\n3 9 8\n2\n1 7\n5\n5 4 3 2 1\n4\n4 3 4 5\n2\n50 48\n```\n\n### \u6837\u4f8b\u8f93\u51fa #1\n\n```\nYES\nNO\nYES\nYES\nNO\nYES\nYES\n```","hint":"","locale":"zh-CN"},"content":{"name":"Array Coloring","background":"","description":"You are given an array consisting of $ n $ integers. Your task is to determine whether it is possible to color all its elements in two colors in such a way that the sums of the elements of both colors have the same parity and each color has at least one element colored.\n\nFor example, if the array is \\[ $ 1,2,4,3,2,3,5,4 $ \\], we can color it as follows: \\[ $ \\color{blue}{1},\\color{blue}{2},\\color{red}{4},\\color{blue}{3},\\color{red}{2},\\color{red}{3},\\color{red}{5},\\color{red}{4} $ \\], where the sum of the blue elements is $ 6 $ and the sum of the red elements is $ 18 $ .","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case begins with a line containing an integer $ n $ ( $ 2 \\le n \\le 50 $ ) \u2014 the length of the array $ a $ .\n\nThe next line contains $ n $ integers $ a_1,a_2, \\dots, a_n $ ( $ 1 \\le a_i \\le 50 $ ) \u2014 the elements of the array $ a $ .","formatO":"For each test case, output \u0022YES\u0022 (without quotes) if it is possible to color the array in two colors in such a way that the sums of the elements of both colors have the same parity and each color has at least one element colored, and \u0022NO\u0022 otherwise.\n\nYou can output \u0022Yes\u0022 and \u0022No\u0022 in any case (for example, the strings \u0022yES\u0022, \u0022yes\u0022, and \u0022Yes\u0022 will be recognized as correct answers).","hint":"The first sample is described in the statement.\n\nIn the second sample, there are only two colorings $ [\\color{blue}{4},\\color{red}{7}] $ and $ [\\color{red}{4},\\color{blue}{7}] $ , but in both cases the parity of sums is different.\n\nIn the third sample, you can color $ [\\color{blue}{3},\\color{blue}{9},\\color{red}{8}] $ and $ 12 $ and $ 8 $ are both even.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["7\n8\n1 2 4 3 2 3 5 4\n2\n4 7\n3\n3 9 8\n2\n1 7\n5\n5 4 3 2 1\n4\n4 3 4 5\n2\n50 48","YES\nNO\nYES\nYES\nNO\nYES\nYES"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1857A","link":"https:\/\/codeforces.com\/problemset\/problem\/1857\/A"},"translation":"# Array Coloring\n\n## \u9898\u76ee\u63cf\u8ff0\n\n\u7ed9\u4f60\u4e00\u4e2a\u7531 $n$ \u4e2a\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4\u3002\u6c42\u662f\u5426\u5b58\u5728\u4e00\u79cd\u65b9\u6848\u53ef\u4ee5\u7ed9\u8fd9\u4e2a\u6570\u7ec4\u67d3\u4e0a\u4e24\u79cd\u989c\u8272\uff0c\u6bcf\u4e2a\u5143\u7d20\u90fd\u9700\u8981\u67d3\u4e0a\u989c\u8272\uff0c\u4f7f\u5f97\u4e24\u79cd\u989c\u8272\u7684\u5143\u7d20\u4e4b\u548c\u6709\u76f8\u540c\u7684\u5947\u5076\u6027\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50\uff0c\u5982\u679c\u8fd9\u4e2a\u6570\u7ec4\u662f \\[ $ 1,2,4,3,2,3,5,4 $ \\]\uff0c\u6211\u4eec\u53ef\u4ee5\u6309\u5982\u4e0b\u65b9\u5f0f\u67d3\u8272\uff1a\\[ $ \\color{blue}{1},\\color{blue}{2},\\color{red}{4},\\color{blue}{3},\\color{red}{2},\\color{red}{3},\\color{red}{5},\\color{red}{4} $ \\]\uff0c\u84dd\u8272\u7684\u5143\u7d20\u4e4b\u548c\u4e3a $6$, \u800c\u7ea2\u8272\u7684\u5143\u7d20\u4e4b\u548c\u4e3a $18$\u3002\u4e24\u8005\u5747\u4e3a\u5076\u6570\u3002\n\n## \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\uff1a\u4e00\u4e2a\u6574\u6570 $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 \u8868\u793a\u6d4b\u8bd5\u6837\u4f8b\u7684\u6570\u91cf\u3002\n\n**\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\uff1a**\n\n\u7b2c\u4e00\u884c\uff1a\u4e00\u4e2a\u6574\u6570 $ n $ ( $ 2 \\le n \\le 50 $ ) \u2014 \u4ee3\u8868\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\uff1a\u6709 $n$ \u4e2a\u6574\u6570 $ a_1,a_2, \\dots, a_n $ ( $ 1 \\le a_i \\le 50 $ ) \u2014 \u4ee3\u8868 $ a $ \u7684\u5143\u7d20\u3002\n\n## \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\uff0c\u5982\u679c\u5b58\u5728\u4e00\u79cd\u67d3\u8272\u65b9\u6848\u7b26\u5408\u9898\u76ee\u8981\u6c42\uff0c\u5219\u8f93\u51fa `YES`\u3002\u53cd\u4e4b\u8f93\u51fa `NO`\u3002\n\n\u53e6\u5916\uff0c\u4f60\u53ef\u4ee5\u4ee5\u4efb\u610f\u65b9\u5f0f\u8f93\u51fa `YES` \u548c `NO`\uff0c\u50cf `yES`\uff0c`yes`\uff0c\u548c `Yes` \u90fd\u4f1a\u88ab\u89c6\u4f5c\u6b63\u786e\u7b54\u6848\u3002\n\n## \u6837\u4f8b #1\n\n### \u6837\u4f8b\u8f93\u5165 #1\n\n```\n7\n8\n1 2 4 3 2 3 5 4\n2\n4 7\n3\n3 9 8\n2\n1 7\n5\n5 4 3 2 1\n4\n4 3 4 5\n2\n50 48\n```\n\n### \u6837\u4f8b\u8f93\u51fa #1\n\n```\nYES\nNO\nYES\nYES\nNO\nYES\nYES\n```\n\n## \u63d0\u793a\n\n\u9898\u76ee\u63cf\u8ff0\u4e2d\u5df2\u7ecf\u63cf\u8ff0\u4e86\u7b2c\u4e00\u4e2a\u793a\u4f8b\u3002\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4ec5\u6709\u4e24\u79cd\u67d3\u8272\u65b9\u6848\uff1a$ [\\color{blue}{4},\\color{red}{7}] $ \u548c $ [\\color{red}{4},\\color{blue}{7}] $\uff0c\u4e0d\u8fc7\u5bf9\u4e8e\u8fd9\u4e24\u79cd\u65b9\u6848\uff0c\u4e24\u79cd\u989c\u8272\u7684\u5143\u7d20\u7684\u5947\u5076\u6027\u90fd\u662f\u4e0d\u76f8\u540c\u7684\u3002\n\n\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u8fd9\u6837\u67d3\u8272\uff1a $ [\\color{blue}{3},\\color{blue}{9},\\color{red}{8}] $ \u84dd\u8272\u5143\u7d20\u4e4b\u548c\u4e3a $12$\uff0c\u800c\u7ea2\u8272\u5143\u7d20\u4e4b\u548c\u4e3a $8$\uff0c\u4e24\u8005\u5747\u4e3a\u5076\u6570\uff0c\u7b26\u5408\u6761\u4ef6\u3002"},"translations":{"en":{"name":"Array Coloring","background":"","description":"You are given an array consisting of $ n $ integers. Your task is to determine whether it is possible to color all its elements in two colors in such a way that the sums of the elements of both colors have the same parity and each color has at least one element colored.\n\nFor example, if the array is \\[ $ 1,2,4,3,2,3,5,4 $ \\], we can color it as follows: \\[ $ \\color{blue}{1},\\color{blue}{2},\\color{red}{4},\\color{blue}{3},\\color{red}{2},\\color{red}{3},\\color{red}{5},\\color{red}{4} $ \\], where the sum of the blue elements is $ 6 $ and the sum of the red elements is $ 18 $ .","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 the number of test cases.\n\nEach test case begins with a line containing an integer $ n $ ( $ 2 \\le n \\le 50 $ ) \u2014 the length of the array $ a $ .\n\nThe next line contains $ n $ integers $ a_1,a_2, \\dots, a_n $ ( $ 1 \\le a_i \\le 50 $ ) \u2014 the elements of the array $ a $ .","formatO":"For each test case, output \u0022YES\u0022 (without quotes) if it is possible to color the array in two colors in such a way that the sums of the elements of both colors have the same parity and each color has at least one element colored, and \u0022NO\u0022 otherwise.\n\nYou can output \u0022Yes\u0022 and \u0022No\u0022 in any case (for example, the strings \u0022yES\u0022, \u0022yes\u0022, and \u0022Yes\u0022 will be recognized as correct answers).","hint":"The first sample is described in the statement.\n\nIn the second sample, there are only two colorings $ [\\color{blue}{4},\\color{red}{7}] $ and $ [\\color{red}{4},\\color{blue}{7}] $ , but in both cases the parity of sums is different.\n\nIn the third sample, you can color $ [\\color{blue}{3},\\color{blue}{9},\\color{red}{8}] $ and $ 12 $ and $ 8 $ are both even.","locale":"en"},"zh-CN":{"name":"Array Coloring","background":"","description":"# Array Coloring\n\n\n\u7ed9\u4f60\u4e00\u4e2a\u7531 $n$ \u4e2a\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4\u3002\u6c42\u662f\u5426\u5b58\u5728\u4e00\u79cd\u65b9\u6848\u53ef\u4ee5\u7ed9\u8fd9\u4e2a\u6570\u7ec4\u67d3\u4e0a\u4e24\u79cd\u989c\u8272\uff0c\u6bcf\u4e2a\u5143\u7d20\u90fd\u9700\u8981\u67d3\u4e0a\u989c\u8272\uff0c\u4f7f\u5f97\u4e24\u79cd\u989c\u8272\u7684\u5143\u7d20\u4e4b\u548c\u6709\u76f8\u540c\u7684\u5947\u5076\u6027\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50\uff0c\u5982\u679c\u8fd9\u4e2a\u6570\u7ec4\u662f \\[ $ 1,2,4,3,2,3,5,4 $ \\]\uff0c\u6211\u4eec\u53ef\u4ee5\u6309\u5982\u4e0b\u65b9\u5f0f\u67d3\u8272\uff1a\\[ $ \\color{blue}{1},\\color{blue}{2},\\color{red}{4},\\color{blue}{3},\\color{red}{2},\\color{red}{3},\\color{red}{5},\\color{red}{4} $ \\]\uff0c\u84dd\u8272\u7684\u5143\u7d20\u4e4b\u548c\u4e3a $6$, \u800c\u7ea2\u8272\u7684\u5143\u7d20\u4e4b\u548c\u4e3a $18$\u3002\u4e24\u8005\u5747\u4e3a\u5076\u6570\u3002\n\n\n\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4ec5\u6709\u4e24\u79cd\u67d3\u8272\u65b9\u6848\uff1a$ [\\color{blue}{4},\\color{red}{7}] $ \u548c $ [\\color{red}{4},\\color{blue}{7}] $\uff0c\u4e0d\u8fc7\u5bf9\u4e8e\u8fd9\u4e24\u79cd\u65b9\u6848\uff0c\u4e24\u79cd\u989c\u8272\u7684\u5143\u7d20\u7684\u5947\u5076\u6027\u90fd\u662f\u4e0d\u76f8\u540c\u7684\u3002\n\n\u7b2c\u4e09\u4e2a\u6837\u4f8b\u4e2d\uff0c\u4f60\u53ef\u4ee5\u8fd9\u6837\u67d3\u8272\uff1a $ [\\color{blue}{3},\\color{blue}{9},\\color{red}{8}] $ \u84dd\u8272\u5143\u7d20\u4e4b\u548c\u4e3a $12$\uff0c\u800c\u7ea2\u8272\u5143\u7d20\u4e4b\u548c\u4e3a $8$\uff0c\u4e24\u8005\u5747\u4e3a\u5076\u6570\uff0c\u7b26\u5408\u6761\u4ef6\u3002","formatI":"\u7b2c\u4e00\u884c\uff1a\u4e00\u4e2a\u6574\u6570 $ t $ ( $ 1 \\le t \\le 1000 $ ) \u2014 \u8868\u793a\u6d4b\u8bd5\u6837\u4f8b\u7684\u6570\u91cf\u3002\n\n**\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\uff1a**\n\n\u7b2c\u4e00\u884c\uff1a\u4e00\u4e2a\u6574\u6570 $ n $ ( $ 2 \\le n \\le 50 $ ) \u2014 \u4ee3\u8868\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\uff1a\u6709 $n$ \u4e2a\u6574\u6570 $ a_1,a_2, \\dots, a_n $ ( $ 1 \\le a_i \\le 50 $ ) \u2014 \u4ee3\u8868 $ a $ \u7684\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u6837\u4f8b\uff0c\u5982\u679c\u5b58\u5728\u4e00\u79cd\u67d3\u8272\u65b9\u6848\u7b26\u5408\u9898\u76ee\u8981\u6c42\uff0c\u5219\u8f93\u51fa `YES`\u3002\u53cd\u4e4b\u8f93\u51fa `NO`\u3002\n\n\u53e6\u5916\uff0c\u4f60\u53ef\u4ee5\u4ee5\u4efb\u610f\u65b9\u5f0f\u8f93\u51fa `YES` \u548c `NO`\uff0c\u50cf `yES`\uff0c`yes`\uff0c\u548c `Yes` \u90fd\u4f1a\u88ab\u89c6\u4f5c\u6b63\u786e\u7b54\u6848\u3002\n\n## \u6837\u4f8b #1\n\n### \u6837\u4f8b\u8f93\u5165 #1\n\n```\n7\n8\n1 2 4 3 2 3 5 4\n2\n4 7\n3\n3 9 8\n2\n1 7\n5\n5 4 3 2 1\n4\n4 3 4 5\n2\n50 48\n```\n\n### \u6837\u4f8b\u8f93\u51fa #1\n\n```\nYES\nNO\nYES\nYES\nNO\nYES\nYES\n```","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1857A Array Coloring","type":2,"slug":"CF1857A","color":"orange-3"},"discussions":[{"id":653917,"title":"\u7ffb\u8bd1","author":{"uid":742907,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/742907.png","name":"Crepuscule","slogan":"\u201cGod helps those who help themselves.\u201d","badge":"","isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":5,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/pnba9q3v.png"},"time":1691454545}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328014.533929,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1857A Array Coloring","description":"Array Coloring\n\u7ed9\u4f60\u4e00\u4e2a\u7531 n \u4e2a\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4\u3002\u6c42\u662f\u5426\u5b58\u5728\u4e00\u79cd\u65b9\u6848\u53ef\u4ee5\u7ed9\u8fd9\u4e2a\u6570\u7ec4\u67d3\u4e0a\u4e24\u79cd\u989c\u8272\uff0c\u6bcf\u4e2a\u5143\u7d20\u90fd\u9700\u8981\u67d3\u4e0a\u989c\u8272\uff0c\u4f7f\u5f97\u4e24\u79cd\u989c\u8272\u7684\u5143\u7d20\u4e4b\u548c\u6709\u76f8\u540c\u7684\u5947\u5076\u6027\u3002\n\u4e3e\u4e2a\u4f8b\u5b50\uff0c\u5982\u679c\u8fd9\u4e2a\u6570\u7ec4\u662f [  1,2,4,3,2,3,5,4\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1857A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1857A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1857A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1857A Array Coloring" />
+    <meta property="og:description" content="Array Coloring
+给你一个由 n 个整数组成的数组。求是否存在一种方案可以给这个数组染上两种颜色，每个元素都需要染上颜色，使得两种颜色的元素之和有相同的奇偶性。
+举个例子，如果这个数组是 [  1,2,4,3,2,3,5,4…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1857A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1857A Array Coloring</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    # Array Coloring
+
+
+给你一个由 $n$ 个整数组成的数组。求是否存在一种方案可以给这个数组染上两种颜色，每个元素都需要染上颜色，使得两种颜色的元素之和有相同的奇偶性。
+
+举个例子，如果这个数组是 \[ $ 1,2,4,3,2,3,5,4 $ \]，我们可以按如下方式染色：\[ $ \color{blue}{1},\color{blue}{2},\color{red}{4},\color{blue}{3},\color{red}{2},\color{red}{3},\color{red}{5},\color{red}{4} $ \]，蓝色的元素之和为 $6$, 而红色的元素之和为 $18$。两者均为偶数。
+
+
+第二个样例中，仅有两种染色方案：$ [\color{blue}{4},\color{red}{7}] $ 和 $ [\color{red}{4},\color{blue}{7}] $，不过对于这两种方案，两种颜色的元素的奇偶性都是不相同的。
+
+第三个样例中，你可以这样染色： $ [\color{blue}{3},\color{blue}{9},\color{red}{8}] $ 蓝色元素之和为 $12$，而红色元素之和为 $8$，两者均为偶数，符合条件。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行：一个整数 $ t $ ( $ 1 \le t \le 1000 $ ) — 表示测试样例的数量。
+
+**对于每个测试样例：**
+
+第一行：一个整数 $ n $ ( $ 2 \le n \le 50 $ ) — 代表数组 $a$ 的长度。
+
+第二行：有 $n$ 个整数 $ a_1,a_2, \dots, a_n $ ( $ 1 \le a_i \le 50 $ ) — 代表 $ a $ 的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试样例，如果存在一种染色方案符合题目要求，则输出 `YES`。反之输出 `NO`。
+
+另外，你可以以任意方式输出 `YES` 和 `NO`，像 `yES`，`yes`，和 `Yes` 都会被视作正确答案。
+
+## 样例 #1
+
+### 样例输入 #1
+
+```
+7
+8
+1 2 4 3 2 3 5 4
+2
+4 7
+3
+3 9 8
+2
+1 7
+5
+5 4 3 2 1
+4
+4 3 4 5
+2
+50 48
+```
+
+### 样例输出 #1
+
+```
+YES
+NO
+YES
+YES
+NO
+YES
+YES
+```
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                The first sample is described in the statement.
+
+In the second sample, there are only two colorings $ [\color{blue}{4},\color{red}{7}] $ and $ [\color{red}{4},\color{blue}{7}] $ , but in both cases the parity of sums is different.
+
+In the third sample, you can color $ [\color{blue}{3},\color{blue}{9},\color{red}{8}] $ and $ 12 $ and $ 8 $ are both even.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "id": "CF-2093G",
+  "contest_id": 2093,
+  "index": "G",
+  "name": "Shorten the Array",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "data structures",
+    "dfs and similar",
+    "greedy",
+    "strings",
+    "trees",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2093/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2093/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2093/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2093G%20Shorten the Array%20tutorial",
+  "solved_count": 3700,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "字符串（KMP/哈希/自动机）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2093G",
+  "hydro_meta": {
+    "page_title": "Shorten the Array - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "dfs and similar",
+      "greedy",
+      "strings",
+      "trees",
+      "two pointers",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-1736C1",
+  "contest_id": 1736,
+  "index": "C1",
+  "name": "Good Subarrays (Easy Version)",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "schedules",
+    "two pointers"
+  ],
+  "solved_count": 16402,
+  "problem_url": "https://codeforces.com/problemset/problem/1736/C1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1736/problem/C1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1736/problem/C1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1736C1%20Good%20Subarrays%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1736C1",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1736C1 Good Subarrays (Easy Version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 261,
+    "mirror_attempt": 503,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-257E",
+  "contest_id": 257,
+  "index": "E",
+  "name": "Greedy Elevator",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 339,
+  "problem_url": "https://codeforces.com/problemset/problem/257/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/257/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/257/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=257E%20Greedy%20Elevator%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P257E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Greedy Elevator - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "implementation",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

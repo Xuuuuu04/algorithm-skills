@@ -1,0 +1,36 @@
+{
+  "id": "CF-2045H",
+  "contest_id": 2045,
+  "index": "H",
+  "name": "Missing Separators",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "sortings",
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 783,
+  "problem_url": "https://codeforces.com/problemset/problem/2045/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/2045/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2045/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2045H%20Missing%20Separators%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2045H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Missing Separators - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "sortings",
+      "string suffix structures",
+      "strings",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

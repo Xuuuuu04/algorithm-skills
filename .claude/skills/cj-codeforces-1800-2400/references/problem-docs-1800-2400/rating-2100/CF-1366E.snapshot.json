@@ -1,0 +1,43 @@
+{
+  "id": "CF-1366E",
+  "contest_id": 1366,
+  "index": "E",
+  "name": "Two Arrays",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "brute force",
+    "combinatorics",
+    "constructive algorithms",
+    "dp",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1366/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1366/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1366/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1366E%20Two Arrays%20tutorial",
+  "solved_count": 4590,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1366E",
+  "hydro_meta": {
+    "page_title": "Two Arrays - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "constructive algorithms",
+      "dp",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

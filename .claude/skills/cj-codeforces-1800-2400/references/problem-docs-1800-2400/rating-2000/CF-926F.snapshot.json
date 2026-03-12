@@ -1,0 +1,26 @@
+{
+  "id": "CF-926F",
+  "contest_id": 926,
+  "index": "F",
+  "name": "Mobile Communications",
+  "rating": 2000,
+  "tags": [],
+  "url": "https://codeforces.com/problemset/problem/926/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/926/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/926/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=926F%20Mobile Communications%20tutorial",
+  "solved_count": 306,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P926F",
+  "hydro_meta": {
+    "page_title": "Mobile Communications - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 5,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

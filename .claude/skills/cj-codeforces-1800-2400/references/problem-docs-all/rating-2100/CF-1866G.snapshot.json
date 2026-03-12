@@ -1,0 +1,37 @@
+{
+  "id": "CF-1866G",
+  "contest_id": 1866,
+  "index": "G",
+  "name": "Grouped Carriages",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "flows",
+    "greedy"
+  ],
+  "solved_count": 2124,
+  "problem_url": "https://codeforces.com/problemset/problem/1866/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1866/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1866/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1866G%20Grouped%20Carriages%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1866G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Grouped Carriages - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "flows",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-1004D",
+  "contest_id": 1004,
+  "index": "D",
+  "name": "Sonya and Matrix",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 1489,
+  "problem_url": "https://codeforces.com/problemset/problem/1004/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1004/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1004/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1004D%20Sonya%20and%20Matrix%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1004D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sonya and Matrix - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

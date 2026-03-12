@@ -1,0 +1,36 @@
+{
+  "id": "CF-811D",
+  "contest_id": 811,
+  "index": "D",
+  "name": "Vladik and Favorite Game",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "interactive"
+  ],
+  "solved_count": 1889,
+  "problem_url": "https://codeforces.com/problemset/problem/811/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/811/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/811/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=811D%20Vladik%20and%20Favorite%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P811D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vladik and Favorite Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "interactive",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

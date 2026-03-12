@@ -1,0 +1,36 @@
+{
+  "id": "CF-279B",
+  "contest_id": 279,
+  "index": "B",
+  "name": "Books",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "implementation",
+    "two pointers"
+  ],
+  "solved_count": 69923,
+  "problem_url": "https://codeforces.com/problemset/problem/279/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/279/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/279/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=279B%20Books%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P279B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Books - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "two pointers",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

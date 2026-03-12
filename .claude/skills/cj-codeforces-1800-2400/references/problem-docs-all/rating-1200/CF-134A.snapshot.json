@@ -1,0 +1,32 @@
+{
+  "id": "CF-134A",
+  "contest_id": 134,
+  "index": "A",
+  "name": "Average Numbers",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 4721,
+  "problem_url": "https://codeforces.com/problemset/problem/134/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/134/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/134/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=134A%20Average%20Numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P134A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Average Numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

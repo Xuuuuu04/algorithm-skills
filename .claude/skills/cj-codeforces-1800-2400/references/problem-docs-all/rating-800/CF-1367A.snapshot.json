@@ -1,0 +1,32 @@
+{
+  "id": "CF-1367A",
+  "contest_id": 1367,
+  "index": "A",
+  "name": "Short Substrings",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 65962,
+  "problem_url": "https://codeforces.com/problemset/problem/1367/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1367/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1367/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1367A%20Short%20Substrings%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1367A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Short Substrings - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

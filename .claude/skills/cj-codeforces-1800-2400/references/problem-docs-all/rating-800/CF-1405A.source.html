@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1405A Permutation Forgery - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1405A","type":"CF","title":"Permutation Forgery","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":214,"totalAccepted":134,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Permutation Forgery","background":null,"description":"\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217\u662f\u4e00\u4e2a\u7531 $1$ \u5230 $n$ \u7684 $n$ \u4e2a\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4\uff0c\u987a\u5e8f\u4efb\u610f\u3002\u4f8b\u5982\uff0c$[2,3,1,5,4]$ \u662f\u4e00\u4e2a\u6392\u5217\uff0c\u4f46 $[1,2,2]$ \u4e0d\u662f\u6392\u5217\uff08$2$ \u5728\u6570\u7ec4\u4e2d\u51fa\u73b0\u4e86\u4e24\u6b21\uff09\uff0c$[1,3,4]$ \u4e5f\u4e0d\u662f\u6392\u5217\uff08$n=3$ \u4f46\u6570\u7ec4\u4e2d\u6709 $4$\uff09\u3002\n\n\u8bbe $p$ \u662f\u4efb\u610f\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217\u3002\u6211\u4eec\u5b9a\u4e49\u6392\u5217 $p$ \u7684\u6307\u7eb9 $F(p)$ \u4e3a $p$ \u4e2d\u76f8\u90bb\u5143\u7d20\u4e4b\u548c\u7ec4\u6210\u7684\u6570\u7ec4\uff0c\u5e76\u5c06\u5176\u6392\u5e8f\u3002\u66f4\u6b63\u5f0f\u5730\uff0c\n\n$$\nF(p) = \\mathrm{sort}([p_1+p_2,\\, p_2+p_3,\\, \\ldots,\\, p_{n-1}+p_n])\u3002\n$$\n\n\u4f8b\u5982\uff0c\u5982\u679c $n=4$ \u4e14 $p=[1,4,2,3]$\uff0c\u5219\u6307\u7eb9\u4e3a $F(p)=\\mathrm{sort}([1+4,\\,4+2,\\,2+3])=\\mathrm{sort}([5,6,5])=[5,5,6]$\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217 $p$\uff0c\u4f60\u7684\u4efb\u52a1\u662f\u627e\u5230\u4e00\u4e2a**\u4e0d\u540c\u7684**\u6392\u5217 $p\u0027$\uff0c\u4f7f\u5f97 $F(p\u0027)=F(p)$\u3002\u5982\u679c\u5b58\u5728\u67d0\u4e2a\u4e0b\u6807 $i$ \u4f7f\u5f97 $p_i \\ne p\u0027_i$\uff0c\u5219\u8ba4\u4e3a $p$ \u548c $p\u0027$ \u4e0d\u540c\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7ec4\u6570 $t$\uff08$1 \\le t \\le 668$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u6392\u5217\u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $p_1, \\ldots, p_n$\uff08$1 \\le p_i \\le n$\uff09\u3002\u4fdd\u8bc1 $p$ \u662f\u4e00\u4e2a\u6392\u5217\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u8f93\u51fa $n$ \u4e2a\u6574\u6570 $p\u0027_1, \\ldots, p\u0027_n$\uff0c\u8868\u793a\u4e00\u4e2a\u6ee1\u8db3 $p\u0027 \\ne p$ \u4e14 $F(p\u0027)=F(p)$ \u7684\u6392\u5217\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u5bf9\u4e8e\u6bcf\u4e2a\u6ee1\u8db3\u8f93\u5165\u7ea6\u675f\u7684\u6392\u5217\uff0c\u89e3\u4e00\u5b9a\u5b58\u5728\u3002\n\n\u5982\u679c\u6709\u591a\u7ec4\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u7ec4\u5747\u53ef\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c$F(p)=\\mathrm{sort}([1+2])=[3]$\u3002\n\n\u800c $F(p\u0027)=\\mathrm{sort}([2+1])=[3]$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c$F(p)=\\mathrm{sort}([2+1,\\,1+6,\\,6+5,\\,5+4,\\,4+3])=\\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11]$\u3002\n\n\u800c $F(p\u0027)=\\mathrm{sort}([1+2,\\,2+5,\\,5+6,\\,6+3,\\,3+4])=\\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11]$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c$F(p)=\\mathrm{sort}([2+4,\\,4+3,\\,3+1,\\,1+5])=\\mathrm{sort}([6,7,4,6])=[4,6,6,7]$\u3002\n\n\u800c $F(p\u0027)=\\mathrm{sort}([3+1,\\,1+5,\\,5+2,\\,2+4])=\\mathrm{sort}([4,6,7,6])=[4,6,6,7]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Permutation Forgery","background":"","description":"A permutation of length $ n $ is an array consisting of $ n $ distinct integers from $ 1 $ to $ n $ in arbitrary order. For example, $ [2,3,1,5,4] $ is a permutation, but $ [1,2,2] $ is not a permutation ( $ 2 $ appears twice in the array) and $ [1,3,4] $ is also not a permutation ( $ n=3 $ but there is $ 4 $ in the array).\n\nLet $ p $ be any permutation of length $ n $ . We define the fingerprint $ F(p) $ of $ p $ as the sorted array of sums of adjacent elements in $ p $ . More formally,\n\n $ $$$F(p)=\\mathrm{sort}([p_1+p_2,p_2+p_3,\\ldots,p_{n-1}+p_n]). $ $ \u003C\/p\u003E\u003Cp\u003EFor example, if  $ n=4 $  and  $ p=\\[1,4,2,3\\], $  then the fingerprint is given by  $ F(p)=\\\\mathrm{sort}(\\[1+4,4+2,2+3\\])=\\\\mathrm{sort}(\\[5,6,5\\])=\\[5,5,6\\] $ .\u003C\/p\u003E\u003Cp\u003EYou are given a permutation  $ p $  of length  $ n $ . Your task is to find a \u003Cspan class=\u0022tex-font-style-bf\u0022\u003Edifferent\u003C\/span\u003E permutation  $ p\u0027 $  with the same fingerprint. Two permutations  $ p $  and  $ p\u0027 $  are considered different if there is some index  $ i $  such that  $ p\\_i \\\\ne p\u0027\\_i$$$.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 668 $ ). Description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2\\le n\\le 100 $ ) \u2014 the length of the permutation.\n\nThe second line of each test case contains $ n $ integers $ p_1,\\ldots,p_n $ ( $ 1\\le p_i\\le n $ ). It is guaranteed that $ p $ is a permutation.","formatO":"For each test case, output $ n $ integers $ p\u0027_1,\\ldots, p\u0027_n $ \u2014 a permutation such that $ p\u0027\\ne p $ and $ F(p\u0027)=F(p) $ .\n\nWe can prove that for every permutation satisfying the input constraints, a solution exists.\n\nIf there are multiple solutions, you may output any.","hint":"In the first test case, $ F(p)=\\mathrm{sort}([1+2])=[3] $ .\n\nAnd $ F(p\u0027)=\\mathrm{sort}([2+1])=[3] $ .\n\nIn the second test case, $ F(p)=\\mathrm{sort}([2+1,1+6,6+5,5+4,4+3])=\\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11] $ .\n\nAnd $ F(p\u0027)=\\mathrm{sort}([1+2,2+5,5+6,6+3,3+4])=\\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11] $ .\n\nIn the third test case, $ F(p)=\\mathrm{sort}([2+4,4+3,3+1,1+5])=\\mathrm{sort}([6,7,4,6])=[4,6,6,7] $ .\n\nAnd $ F(p\u0027)=\\mathrm{sort}([3+1,1+5,5+2,2+4])=\\mathrm{sort}([4,6,7,6])=[4,6,6,7] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n2\n1 2\n6\n2 1 6 5 4 3\n5\n2 4 3 1 5","2 1\n1 2 5 6 3 4\n3 1 5 2 4"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1405A","link":"https:\/\/codeforces.com\/problemset\/problem\/1405\/A"},"translation":"\u5bf9\u4e8e\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217 $p$\uff0c\u5b9a\u4e49\u5176 **fingerprint** $F(p)$ \u4e3a $p$ \u4e2d\u76f8\u90bb\u5143\u7d20\u548c\u6392\u5e8f\u540e\u5f97\u5230\u7684\u6570\u7ec4\u3002\u66f4\u5f62\u5f0f\u5316\u5730\uff0c\n\n$$F(p)=\\text{sort}([p_1+p_2,p_2+p_3,\\cdots,p_{n-1}+p_n])$$\n\n\u6bd4\u5982 $n=4$\uff0c$p=[1,4,2,3]$\uff0c\u5219 $F(p)=\\text{sort}([1+4,4+2,2+3])=\\text{sort}([5,6,5])=[5,5,6]$\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217 $p$\uff0c\u4f60\u9700\u8981\u627e\u5230\u4e00\u4e2a\u4e0e $p$ \u4e0d\u540c\u4f46 fingerprint \u76f8\u540c\u7684\u6392\u5217 $p\u0027$\u3002"},"translations":{"en":{"name":"Permutation Forgery","background":"","description":"A permutation of length $ n $ is an array consisting of $ n $ distinct integers from $ 1 $ to $ n $ in arbitrary order. For example, $ [2,3,1,5,4] $ is a permutation, but $ [1,2,2] $ is not a permutation ( $ 2 $ appears twice in the array) and $ [1,3,4] $ is also not a permutation ( $ n=3 $ but there is $ 4 $ in the array).\n\nLet $ p $ be any permutation of length $ n $ . We define the fingerprint $ F(p) $ of $ p $ as the sorted array of sums of adjacent elements in $ p $ . More formally,\n\n $ $$$F(p)=\\mathrm{sort}([p_1+p_2,p_2+p_3,\\ldots,p_{n-1}+p_n]). $ $ \u003C\/p\u003E\u003Cp\u003EFor example, if  $ n=4 $  and  $ p=\\[1,4,2,3\\], $  then the fingerprint is given by  $ F(p)=\\\\mathrm{sort}(\\[1+4,4+2,2+3\\])=\\\\mathrm{sort}(\\[5,6,5\\])=\\[5,5,6\\] $ .\u003C\/p\u003E\u003Cp\u003EYou are given a permutation  $ p $  of length  $ n $ . Your task is to find a \u003Cspan class=\u0022tex-font-style-bf\u0022\u003Edifferent\u003C\/span\u003E permutation  $ p\u0027 $  with the same fingerprint. Two permutations  $ p $  and  $ p\u0027 $  are considered different if there is some index  $ i $  such that  $ p\\_i \\\\ne p\u0027\\_i$$$.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 668 $ ). Description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 2\\le n\\le 100 $ ) \u2014 the length of the permutation.\n\nThe second line of each test case contains $ n $ integers $ p_1,\\ldots,p_n $ ( $ 1\\le p_i\\le n $ ). It is guaranteed that $ p $ is a permutation.","formatO":"For each test case, output $ n $ integers $ p\u0027_1,\\ldots, p\u0027_n $ \u2014 a permutation such that $ p\u0027\\ne p $ and $ F(p\u0027)=F(p) $ .\n\nWe can prove that for every permutation satisfying the input constraints, a solution exists.\n\nIf there are multiple solutions, you may output any.","hint":"In the first test case, $ F(p)=\\mathrm{sort}([1+2])=[3] $ .\n\nAnd $ F(p\u0027)=\\mathrm{sort}([2+1])=[3] $ .\n\nIn the second test case, $ F(p)=\\mathrm{sort}([2+1,1+6,6+5,5+4,4+3])=\\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11] $ .\n\nAnd $ F(p\u0027)=\\mathrm{sort}([1+2,2+5,5+6,6+3,3+4])=\\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11] $ .\n\nIn the third test case, $ F(p)=\\mathrm{sort}([2+4,4+3,3+1,1+5])=\\mathrm{sort}([6,7,4,6])=[4,6,6,7] $ .\n\nAnd $ F(p\u0027)=\\mathrm{sort}([3+1,1+5,5+2,2+4])=\\mathrm{sort}([4,6,7,6])=[4,6,6,7] $ .","locale":"en"},"zh-CN":{"name":"Permutation Forgery","background":null,"description":"\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217\u662f\u4e00\u4e2a\u7531 $1$ \u5230 $n$ \u7684 $n$ \u4e2a\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4\uff0c\u987a\u5e8f\u4efb\u610f\u3002\u4f8b\u5982\uff0c$[2,3,1,5,4]$ \u662f\u4e00\u4e2a\u6392\u5217\uff0c\u4f46 $[1,2,2]$ \u4e0d\u662f\u6392\u5217\uff08$2$ \u5728\u6570\u7ec4\u4e2d\u51fa\u73b0\u4e86\u4e24\u6b21\uff09\uff0c$[1,3,4]$ \u4e5f\u4e0d\u662f\u6392\u5217\uff08$n=3$ \u4f46\u6570\u7ec4\u4e2d\u6709 $4$\uff09\u3002\n\n\u8bbe $p$ \u662f\u4efb\u610f\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217\u3002\u6211\u4eec\u5b9a\u4e49\u6392\u5217 $p$ \u7684\u6307\u7eb9 $F(p)$ \u4e3a $p$ \u4e2d\u76f8\u90bb\u5143\u7d20\u4e4b\u548c\u7ec4\u6210\u7684\u6570\u7ec4\uff0c\u5e76\u5c06\u5176\u6392\u5e8f\u3002\u66f4\u6b63\u5f0f\u5730\uff0c\n\n$$\nF(p) = \\mathrm{sort}([p_1+p_2,\\, p_2+p_3,\\, \\ldots,\\, p_{n-1}+p_n])\u3002\n$$\n\n\u4f8b\u5982\uff0c\u5982\u679c $n=4$ \u4e14 $p=[1,4,2,3]$\uff0c\u5219\u6307\u7eb9\u4e3a $F(p)=\\mathrm{sort}([1+4,\\,4+2,\\,2+3])=\\mathrm{sort}([5,6,5])=[5,5,6]$\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217 $p$\uff0c\u4f60\u7684\u4efb\u52a1\u662f\u627e\u5230\u4e00\u4e2a**\u4e0d\u540c\u7684**\u6392\u5217 $p\u0027$\uff0c\u4f7f\u5f97 $F(p\u0027)=F(p)$\u3002\u5982\u679c\u5b58\u5728\u67d0\u4e2a\u4e0b\u6807 $i$ \u4f7f\u5f97 $p_i \\ne p\u0027_i$\uff0c\u5219\u8ba4\u4e3a $p$ \u548c $p\u0027$ \u4e0d\u540c\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7ec4\u6570 $t$\uff08$1 \\le t \\le 668$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u6392\u5217\u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $p_1, \\ldots, p_n$\uff08$1 \\le p_i \\le n$\uff09\u3002\u4fdd\u8bc1 $p$ \u662f\u4e00\u4e2a\u6392\u5217\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u8f93\u51fa $n$ \u4e2a\u6574\u6570 $p\u0027_1, \\ldots, p\u0027_n$\uff0c\u8868\u793a\u4e00\u4e2a\u6ee1\u8db3 $p\u0027 \\ne p$ \u4e14 $F(p\u0027)=F(p)$ \u7684\u6392\u5217\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\uff0c\u5bf9\u4e8e\u6bcf\u4e2a\u6ee1\u8db3\u8f93\u5165\u7ea6\u675f\u7684\u6392\u5217\uff0c\u89e3\u4e00\u5b9a\u5b58\u5728\u3002\n\n\u5982\u679c\u6709\u591a\u7ec4\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u7ec4\u5747\u53ef\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c$F(p)=\\mathrm{sort}([1+2])=[3]$\u3002\n\n\u800c $F(p\u0027)=\\mathrm{sort}([2+1])=[3]$\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c$F(p)=\\mathrm{sort}([2+1,\\,1+6,\\,6+5,\\,5+4,\\,4+3])=\\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11]$\u3002\n\n\u800c $F(p\u0027)=\\mathrm{sort}([1+2,\\,2+5,\\,5+6,\\,6+3,\\,3+4])=\\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11]$\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c$F(p)=\\mathrm{sort}([2+4,\\,4+3,\\,3+1,\\,1+5])=\\mathrm{sort}([6,7,4,6])=[4,6,6,7]$\u3002\n\n\u800c $F(p\u0027)=\\mathrm{sort}([3+1,\\,1+5,\\,5+2,\\,2+4])=\\mathrm{sort}([4,6,7,6])=[4,6,6,7]$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1405A Permutation Forgery","type":2,"slug":"CF1405A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.16211,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1405A Permutation Forgery","description":"\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6392\u5217\u662f\u4e00\u4e2a\u7531 1 \u5230 n \u7684 n \u4e2a\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u7ec4\u6210\u7684\u6570\u7ec4\uff0c\u987a\u5e8f\u4efb\u610f\u3002\u4f8b\u5982\uff0c[2,3,1,5,4] \u662f\u4e00\u4e2a\u6392\u5217\uff0c\u4f46 [1,2,2] \u4e0d\u662f\u6392\u5217\uff082 \u5728\u6570\u7ec4\u4e2d\u51fa\u73b0\u4e86\u4e24\u6b21\uff09\uff0c[1,3,4] \u4e5f\u4e0d\u662f\u6392\u5217\uff08n=3 \u4f46\u6570\u7ec4\u4e2d\u6709 4\uff09\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1405A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1405A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1405A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1405A Permutation Forgery" />
+    <meta property="og:description" content="一个长度为 n 的排列是一个由 1 到 n 的 n 个互不相同的整数组成的数组，顺序任意。例如，[2,3,1,5,4] 是一个排列，但 [1,2,2] 不是排列（2 在数组中出现了两次），[1,3,4] 也不是排列（n=3 但数组中有 4）。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1405A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1405A Permutation Forgery</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    一个长度为 $n$ 的排列是一个由 $1$ 到 $n$ 的 $n$ 个互不相同的整数组成的数组，顺序任意。例如，$[2,3,1,5,4]$ 是一个排列，但 $[1,2,2]$ 不是排列（$2$ 在数组中出现了两次），$[1,3,4]$ 也不是排列（$n=3$ 但数组中有 $4$）。
+
+设 $p$ 是任意一个长度为 $n$ 的排列。我们定义排列 $p$ 的指纹 $F(p)$ 为 $p$ 中相邻元素之和组成的数组，并将其排序。更正式地，
+
+$$
+F(p) = \mathrm{sort}([p_1+p_2,\, p_2+p_3,\, \ldots,\, p_{n-1}+p_n])。
+$$
+
+例如，如果 $n=4$ 且 $p=[1,4,2,3]$，则指纹为 $F(p)=\mathrm{sort}([1+4,\,4+2,\,2+3])=\mathrm{sort}([5,6,5])=[5,5,6]$。
+
+现在给定一个长度为 $n$ 的排列 $p$，你的任务是找到一个**不同的**排列 $p'$，使得 $F(p')=F(p)$。如果存在某个下标 $i$ 使得 $p_i \ne p'_i$，则认为 $p$ 和 $p'$ 不同。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试点包含多组测试数据。第一行包含测试组数 $t$（$1 \le t \le 668$）。接下来是每组测试数据的描述。
+
+每组测试数据的第一行包含一个整数 $n$（$2 \le n \le 100$），表示排列的长度。
+
+第二行包含 $n$ 个整数 $p_1, \ldots, p_n$（$1 \le p_i \le n$）。保证 $p$ 是一个排列。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试数据，输出 $n$ 个整数 $p'_1, \ldots, p'_n$，表示一个满足 $p' \ne p$ 且 $F(p')=F(p)$ 的排列。
+
+可以证明，对于每个满足输入约束的排列，解一定存在。
+
+如果有多组解，输出任意一组均可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，$F(p)=\mathrm{sort}([1+2])=[3]$。
+
+而 $F(p')=\mathrm{sort}([2+1])=[3]$。
+
+在第二个测试用例中，$F(p)=\mathrm{sort}([2+1,\,1+6,\,6+5,\,5+4,\,4+3])=\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11]$。
+
+而 $F(p')=\mathrm{sort}([1+2,\,2+5,\,5+6,\,6+3,\,3+4])=\mathrm{sort}([3,7,11,9,7])=[3,7,7,9,11]$。
+
+在第三个测试用例中，$F(p)=\mathrm{sort}([2+4,\,4+3,\,3+1,\,1+5])=\mathrm{sort}([6,7,4,6])=[4,6,6,7]$。
+
+而 $F(p')=\mathrm{sort}([3+1,\,1+5,\,5+2,\,2+4])=\mathrm{sort}([4,6,7,6])=[4,6,6,7]$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

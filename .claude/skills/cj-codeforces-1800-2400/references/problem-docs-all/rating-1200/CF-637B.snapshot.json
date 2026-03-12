@@ -1,0 +1,31 @@
+{
+  "id": "CF-637B",
+  "contest_id": 637,
+  "index": "B",
+  "name": "Chat Order",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "*special",
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "sortings"
+  ],
+  "solved_count": 22119,
+  "problem_url": "https://codeforces.com/problemset/problem/637/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/637/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/637/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=637B%20Chat%20Order%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/637/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 637B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

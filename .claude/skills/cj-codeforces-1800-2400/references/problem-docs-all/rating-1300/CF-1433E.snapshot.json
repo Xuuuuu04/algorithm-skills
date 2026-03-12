@@ -1,0 +1,32 @@
+{
+  "id": "CF-1433E",
+  "contest_id": 1433,
+  "index": "E",
+  "name": "Two Round Dances",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 19707,
+  "problem_url": "https://codeforces.com/problemset/problem/1433/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1433/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1433/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1433E%20Two%20Round%20Dances%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1433E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Round Dances - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

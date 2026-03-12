@@ -1,0 +1,28 @@
+{
+  "id": "CF-618C",
+  "contest_id": 618,
+  "index": "C",
+  "name": "Constellation",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "geometry",
+    "implementation"
+  ],
+  "solved_count": 4631,
+  "problem_url": "https://codeforces.com/problemset/problem/618/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/618/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/618/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=618C%20Constellation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/618/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 618C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CF-2053E",
+  "contest_id": 2053,
+  "index": "E",
+  "name": "Resourceful Caterpillar Sequence",
+  "rating": 1900,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "games",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2053/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2053/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2053/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2053E%20Resourceful Caterpillar Sequence%20tutorial",
+  "solved_count": 4452,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2053E",
+  "hydro_meta": {
+    "page_title": "Resourceful Caterpillar Sequence - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dp",
+      "games",
+      "graphs",
+      "greedy",
+      "trees",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

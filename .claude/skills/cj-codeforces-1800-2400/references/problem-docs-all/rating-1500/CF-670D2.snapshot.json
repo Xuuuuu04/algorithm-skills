@@ -1,0 +1,28 @@
+{
+  "id": "CF-670D2",
+  "contest_id": 670,
+  "index": "D2",
+  "name": "Magic Powder - 2",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "binary search",
+    "implementation"
+  ],
+  "solved_count": 18618,
+  "problem_url": "https://codeforces.com/problemset/problem/670/D2",
+  "answer_index_url": "https://codeforces.com/problemset/status/670/problem/D2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/670/problem/D2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=670D2%20Magic%20Powder%20-%202%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF670D2",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF670D2 Magic Powder - 2 - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 131,
+    "mirror_attempt": 358,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

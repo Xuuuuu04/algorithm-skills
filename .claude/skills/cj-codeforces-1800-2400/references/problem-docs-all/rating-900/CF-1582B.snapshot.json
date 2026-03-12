@@ -1,0 +1,31 @@
+{
+  "id": "CF-1582B",
+  "contest_id": 1582,
+  "index": "B",
+  "name": "Luntik and Subsequences",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 31870,
+  "problem_url": "https://codeforces.com/problemset/problem/1582/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1582/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1582/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1582B%20Luntik%20and%20Subsequences%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1582B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Luntik and Subsequences - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

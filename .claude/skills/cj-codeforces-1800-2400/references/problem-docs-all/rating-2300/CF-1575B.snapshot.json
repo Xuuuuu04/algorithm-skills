@@ -1,0 +1,28 @@
+{
+  "id": "CF-1575B",
+  "contest_id": 1575,
+  "index": "B",
+  "name": "Building an Amusement Park",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "geometry"
+  ],
+  "solved_count": 531,
+  "problem_url": "https://codeforces.com/problemset/problem/1575/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1575/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1575/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1575B%20Building%20an%20Amusement%20Park%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1575/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1575B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "5 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

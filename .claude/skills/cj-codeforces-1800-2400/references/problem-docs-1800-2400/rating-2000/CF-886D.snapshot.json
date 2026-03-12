@@ -1,0 +1,36 @@
+{
+  "id": "CF-886D",
+  "contest_id": 886,
+  "index": "D",
+  "name": "Restoration of string",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/886/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/886/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/886/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=886D%20Restoration of string%20tutorial",
+  "solved_count": 1889,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P886D",
+  "hydro_meta": {
+    "page_title": "Restoration of string - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

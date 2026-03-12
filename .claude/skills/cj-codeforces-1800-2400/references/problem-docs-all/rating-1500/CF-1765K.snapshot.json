@@ -1,0 +1,33 @@
+{
+  "id": "CF-1765K",
+  "contest_id": 1765,
+  "index": "K",
+  "name": "Torus Path",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 6711,
+  "problem_url": "https://codeforces.com/problemset/problem/1765/K",
+  "answer_index_url": "https://codeforces.com/problemset/status/1765/problem/K",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1765/problem/K?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1765K%20Torus%20Path%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1765K",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Torus Path - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

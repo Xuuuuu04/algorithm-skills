@@ -1,0 +1,28 @@
+{
+  "id": "CF-437E",
+  "contest_id": 437,
+  "index": "E",
+  "name": "The Child and Polygon",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dp",
+    "geometry"
+  ],
+  "solved_count": 775,
+  "problem_url": "https://codeforces.com/problemset/problem/437/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/437/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/437/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=437E%20The%20Child%20and%20Polygon%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/437/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 437E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-2154B",
+  "contest_id": 2154,
+  "index": "B",
+  "name": "Make it Zigzag",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 19185,
+  "problem_url": "https://codeforces.com/problemset/problem/2154/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2154/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2154/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2154B%20Make%20it%20Zigzag%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2154/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2154B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

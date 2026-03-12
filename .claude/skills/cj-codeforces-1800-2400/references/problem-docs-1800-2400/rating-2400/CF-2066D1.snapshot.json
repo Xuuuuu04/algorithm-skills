@@ -1,0 +1,32 @@
+{
+  "id": "CF-2066D1",
+  "contest_id": 2066,
+  "index": "D1",
+  "name": "Club of Young Aircraft Builders (easy version)",
+  "rating": 2400,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2066/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2066/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2066/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2066D1%20Club of Young Aircraft Builders (easy version)%20tutorial",
+  "solved_count": 1397,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2066D1",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2066D1 Club of Young Aircraft Builders (easy version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000 ms",
+    "memory_limit": "1024000 KB"
+  }
+}

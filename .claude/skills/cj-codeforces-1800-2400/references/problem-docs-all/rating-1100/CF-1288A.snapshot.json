@@ -1,0 +1,30 @@
+{
+  "id": "CF-1288A",
+  "contest_id": 1288,
+  "index": "A",
+  "name": "Deadline",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "math",
+    "ternary search"
+  ],
+  "solved_count": 19246,
+  "problem_url": "https://codeforces.com/problemset/problem/1288/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1288/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1288/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1288A%20Deadline%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1288/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1288A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

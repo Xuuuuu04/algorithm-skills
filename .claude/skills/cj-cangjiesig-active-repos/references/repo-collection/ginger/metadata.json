@@ -1,0 +1,14 @@
+{
+  "name": "ginger",
+  "full_name": "cangjielanguage-sig/ginger",
+  "html_url": "https://github.com/cangjielanguage-sig/ginger",
+  "description": "Ginger是一个轻量级的httpClient库，支持多种请求配置，及使用函数方式注册拦截器链。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.3",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/ginger/main/cjpm.toml"
+}

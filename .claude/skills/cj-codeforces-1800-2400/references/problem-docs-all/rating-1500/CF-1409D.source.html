@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414513:LdngN3njn65y/dA8vB8ef3hSuKpNzMUdKSUGkUsbFa4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1409D Decrease the Sum of Digits - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1409D","type":"CF","title":"Decrease the Sum of Digits","difficulty":3,"tags":[7],"wantsTranslation":false,"totalSubmit":498,"totalAccepted":301,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Decrease the Sum of Digits","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6b63\u6574\u6570 $n$\u3002\u6bcf\u6b21\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u5c06 $n$ \u589e\u52a0 $1$\uff08\u5373\u4ee4 $n := n + 1$\uff09\u3002\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u624d\u80fd\u4f7f $n$ \u7684\u5404\u4f4d\u6570\u5b57\u4e4b\u548c\u5c0f\u4e8e\u7b49\u4e8e $s$\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u4e2a\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 2 \\cdot 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $s$\uff08$1 \\le n \\le 10^{18}$\uff1b$1 \\le s \\le 162$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u7b54\u6848\uff1a\u4f7f $n$ \u7684\u5404\u4f4d\u6570\u5b57\u4e4b\u548c\u5c0f\u4e8e\u7b49\u4e8e $s$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Decrease the Sum of Digits","background":"","description":"You are given a positive integer $ n $ . In one move, you can increase $ n $ by one (i.e. make $ n := n + 1 $ ). Your task is to find the minimum number of moves you need to perform in order to make the sum of digits of $ n $ be less than or equal to $ s $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 2 \\cdot 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe only line of the test case contains two integers $ n $ and $ s $ ( $ 1 \\le n \\le 10^{18} $ ; $ 1 \\le s \\le 162 $ ).","formatO":"For each test case, print the answer: the minimum number of moves you need to perform in order to make the sum of digits of $ n $ be less than or equal to $ s $ .","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n2 1\n1 1\n500 4\n217871987498122 10\n100000000000000001 1","8\n0\n500\n2128012501878\n899999999999999999"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1409D","link":"https:\/\/codeforces.com\/problemset\/problem\/1409\/D"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u6570 $n$\uff0c\u5c06 $n$ \u52a0\u4e0a\u4e00\u4e2a\u6570 $k$\uff0c\u4f7f\u5f97\u548c\u7684**\u6570\u7801**\u548c\u4e0d\u5927\u4e8e $s$\uff0c\u6c42 $k$ \u7684\u6700\u5c0f\u503c\u3002\n\n\u8f93\u5165\u5305\u542b\u591a\u7ec4\u6570\u636e\u3002"},"translations":{"en":{"name":"Decrease the Sum of Digits","background":"","description":"You are given a positive integer $ n $ . In one move, you can increase $ n $ by one (i.e. make $ n := n + 1 $ ). Your task is to find the minimum number of moves you need to perform in order to make the sum of digits of $ n $ be less than or equal to $ s $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 2 \\cdot 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe only line of the test case contains two integers $ n $ and $ s $ ( $ 1 \\le n \\le 10^{18} $ ; $ 1 \\le s \\le 162 $ ).","formatO":"For each test case, print the answer: the minimum number of moves you need to perform in order to make the sum of digits of $ n $ be less than or equal to $ s $ .","hint":"","locale":"en"},"zh-CN":{"name":"Decrease the Sum of Digits","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6b63\u6574\u6570 $n$\u3002\u6bcf\u6b21\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u5c06 $n$ \u589e\u52a0 $1$\uff08\u5373\u4ee4 $n := n + 1$\uff09\u3002\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u624d\u80fd\u4f7f $n$ \u7684\u5404\u4f4d\u6570\u5b57\u4e4b\u548c\u5c0f\u4e8e\u7b49\u4e8e $s$\u3002\n\n\u4f60\u9700\u8981\u56de\u7b54 $t$ \u4e2a\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 2 \\cdot 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u7684 $t$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $s$\uff08$1 \\le n \\le 10^{18}$\uff1b$1 \\le s \\le 162$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u7b54\u6848\uff1a\u4f7f $n$ \u7684\u5404\u4f4d\u6570\u5b57\u4e4b\u548c\u5c0f\u4e8e\u7b49\u4e8e $s$ \u6240\u9700\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1409D Decrease the Sum of Digits","type":2,"slug":"CF1409D","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328113.916937,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1409D Decrease the Sum of Digits","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6b63\u6574\u6570 n\u3002\u6bcf\u6b21\u64cd\u4f5c\uff0c\u4f60\u53ef\u4ee5\u5c06 n \u589e\u52a0 1\uff08\u5373\u4ee4 n := n + 1\uff09\u3002\u4f60\u7684\u4efb\u52a1\u662f\u6c42\u51fa\u6700\u5c11\u9700\u8981\u591a\u5c11\u6b21\u64cd\u4f5c\uff0c\u624d\u80fd\u4f7f n \u7684\u5404\u4f4d\u6570\u5b57\u4e4b\u548c\u5c0f\u4e8e\u7b49\u4e8e s\u3002\n\u4f60\u9700\u8981\u56de\u7b54 t \u4e2a\u72ec\u7acb\u7684\u6d4b\u8bd5\u7528\u4f8b\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1409D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1409D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1409D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1409D Decrease the Sum of Digits" />
+    <meta property="og:description" content="给定一个正整数 n。每次操作，你可以将 n 增加 1（即令 n := n + 1）。你的任务是求出最少需要多少次操作，才能使 n 的各位数字之和小于等于 s。
+你需要回答 t 个独立的测试用例。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1409D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1409D Decrease the Sum of Digits</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个正整数 $n$。每次操作，你可以将 $n$ 增加 $1$（即令 $n := n + 1$）。你的任务是求出最少需要多少次操作，才能使 $n$ 的各位数字之和小于等于 $s$。
+
+你需要回答 $t$ 个独立的测试用例。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $t$（$1 \le t \le 2 \cdot 10^4$），表示测试用例的数量。接下来的 $t$ 行，每行包含两个整数 $n$ 和 $s$（$1 \le n \le 10^{18}$；$1 \le s \le 162$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个答案：使 $n$ 的各位数字之和小于等于 $s$ 所需的最少操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

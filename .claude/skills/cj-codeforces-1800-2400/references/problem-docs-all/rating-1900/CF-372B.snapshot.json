@@ -1,0 +1,34 @@
+{
+  "id": "CF-372B",
+  "contest_id": 372,
+  "index": "B",
+  "name": "Counting Rectangles is Fun",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "divide and conquer",
+    "dp"
+  ],
+  "solved_count": 2824,
+  "problem_url": "https://codeforces.com/problemset/problem/372/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/372/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/372/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=372B%20Counting%20Rectangles%20is%20Fun%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P372B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Counting Rectangles is Fun - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "divide and conquer",
+      "dp",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

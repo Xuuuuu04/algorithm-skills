@@ -1,0 +1,36 @@
+{
+  "id": "CF-258E",
+  "contest_id": 258,
+  "index": "E",
+  "name": "Little Elephant and Tree",
+  "rating": 2400,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/258/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/258/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/258/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=258E%20Little Elephant and Tree%20tutorial",
+  "solved_count": 1304,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P258E",
+  "hydro_meta": {
+    "page_title": "Little Elephant and Tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

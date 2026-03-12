@@ -1,0 +1,38 @@
+# CF-4D Mysterious Present
+
+## 基本信息
+
+| 字段 | 内容 |
+|---|---|
+| 来源 | Codeforces |
+| 编号 | CF-4D |
+| Contest | 4 |
+| Index | D |
+| Rating | 1700 |
+| Points | - |
+| 题型标签 | `dp`、`sortings` |
+| 通过次数 | 11957 |
+
+## 训练定位
+
+这题 rating 1700，已经进入典型竞赛题强度，适合做题型识别和标准套路提速。
+
+## 算法切入提示
+
+`dp`: 核心通常在状态设计、转移顺序和边界初始化。；`sortings`: 多半要先排序再讨论相对位置或贪心顺序。
+
+## 仓颉实现路由建议
+
+实现这题时，优先联动 `cj-algo-patterns`、`cj-language-core`、`cj-std-algo-toolkit`。
+
+## 参考入口
+
+- 官方题面：[problem](https://codeforces.com/problemset/problem/4/D)
+- 提交列表：[status](https://codeforces.com/problemset/status/4/problem/D)
+- OK 提交：[accepted](https://codeforces.com/problemset/status/4/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK)
+- 题解检索：[tutorial](https://codeforces.com/search?query=4D%20Mysterious%20Present%20tutorial)
+
+## 本地补充位
+
+这里预留给后续补写的解题思路、仓颉实现、边界样例和错题复盘。
+

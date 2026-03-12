@@ -1,0 +1,28 @@
+{
+  "id": "CF-1894A",
+  "contest_id": 1894,
+  "index": "A",
+  "name": "Secret Sport",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 20350,
+  "problem_url": "https://codeforces.com/problemset/problem/1894/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1894/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1894/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1894A%20Secret%20Sport%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1894A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1894A Secret Sport - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 192,
+    "mirror_attempt": 316,
+    "time_limit": "3000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

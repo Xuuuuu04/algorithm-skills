@@ -1,0 +1,36 @@
+{
+  "id": "CF-815C",
+  "contest_id": 815,
+  "index": "C",
+  "name": "Karen and Supermarket",
+  "rating": 2400,
+  "tags": [
+    "brute force",
+    "dp",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/815/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/815/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/815/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=815C%20Karen and Supermarket%20tutorial",
+  "solved_count": 3189,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P815C",
+  "hydro_meta": {
+    "page_title": "Karen and Supermarket - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dp",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

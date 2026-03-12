@@ -1,0 +1,39 @@
+{
+  "id": "CF-1211D",
+  "contest_id": 1211,
+  "index": "D",
+  "name": "Teams",
+  "rating": 2000,
+  "tags": [
+    "*special",
+    "binary search",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1211/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1211/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1211/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1211D%20Teams%20tutorial",
+  "solved_count": 252,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1211D",
+  "hydro_meta": {
+    "page_title": "Teams - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "binary search",
+      "greedy",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

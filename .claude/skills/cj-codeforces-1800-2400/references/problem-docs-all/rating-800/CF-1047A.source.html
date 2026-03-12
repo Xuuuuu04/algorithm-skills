@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1047A Little C Loves 3 I - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1047A","type":"CF","title":"Little C Loves 3 I","difficulty":1,"tags":[318],"wantsTranslation":false,"totalSubmit":1186,"totalAccepted":599,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Little C Loves 3 I","background":"","description":"**\u9898\u76ee\u5927\u610f\uff1a**\n\u627e\u4e09\u4e2a\u6570$a,b,c$\uff0c\u4f7f\u5f97$a+b+c==n$\u4e14$a,b,c$\u90fd\u4e0d\u80fd\u88ab$3$\u6574\u9664","formatI":"\u4e00\u884c\u4e00\u4e2a\u6b63\u6574\u6570$n$","formatO":"\u4e09\u4e2a\u6b63\u6574\u6570$a,b,c$\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u7ec4\u5373\u53ef","hint":"","locale":"zh-CN"},"content":{"name":"Little C Loves 3 I","background":"","description":"Little C loves number \u00ab3\u00bb very much. He loves all things about it.\n\nNow he has a positive integer $ n $ . He wants to split $ n $ into $ 3 $ positive integers $ a,b,c $ , such that $ a+b+c=n $ and none of the $ 3 $ integers is a multiple of $ 3 $ . Help him to find a solution.","formatI":"A single line containing one integer $ n $ ( $ 3 \\leq n \\leq 10^9 $ ) \u2014 the integer Little C has.","formatO":"Print $ 3 $ positive integers $ a,b,c $ in a single line, such that $ a+b+c=n $ and none of them is a multiple of $ 3 $ .\n\nIt can be proved that there is at least one solution. If there are multiple solutions, print any of them.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n","1 1 1"],["233","77 77 79\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1047A","link":"https:\/\/codeforces.com\/problemset\/problem\/1047\/A"},"translation":"**\u9898\u76ee\u5927\u610f\uff1a**\n\u627e\u4e09\u4e2a\u6570$a,b,c$\uff0c\u4f7f\u5f97$a+b+c==n$\u4e14$a,b,c$\u90fd\u4e0d\u80fd\u88ab$3$\u6574\u9664\n**\u8f93\u5165\u683c\u5f0f\uff1a**\n\u4e00\u884c\u4e00\u4e2a\u6b63\u6574\u6570$n$\n**\u8f93\u51fa\u683c\u5f0f\uff1a**\n\u4e09\u4e2a\u6b63\u6574\u6570$a,b,c$\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u7ec4\u5373\u53ef"},"translations":{"en":{"name":"Little C Loves 3 I","background":"","description":"Little C loves number \u00ab3\u00bb very much. He loves all things about it.\n\nNow he has a positive integer $ n $ . He wants to split $ n $ into $ 3 $ positive integers $ a,b,c $ , such that $ a+b+c=n $ and none of the $ 3 $ integers is a multiple of $ 3 $ . Help him to find a solution.","formatI":"A single line containing one integer $ n $ ( $ 3 \\leq n \\leq 10^9 $ ) \u2014 the integer Little C has.","formatO":"Print $ 3 $ positive integers $ a,b,c $ in a single line, such that $ a+b+c=n $ and none of them is a multiple of $ 3 $ .\n\nIt can be proved that there is at least one solution. If there are multiple solutions, print any of them.","hint":"","locale":"en"},"zh-CN":{"name":"Little C Loves 3 I","background":"","description":"**\u9898\u76ee\u5927\u610f\uff1a**\n\u627e\u4e09\u4e2a\u6570$a,b,c$\uff0c\u4f7f\u5f97$a+b+c==n$\u4e14$a,b,c$\u90fd\u4e0d\u80fd\u88ab$3$\u6574\u9664","formatI":"\u4e00\u884c\u4e00\u4e2a\u6b63\u6574\u6570$n$","formatO":"\u4e09\u4e2a\u6b63\u6574\u6570$a,b,c$\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u7ec4\u5373\u53ef","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1047A Little C Loves 3 I","type":2,"slug":"CF1047A","color":"orange-3"},"discussions":[{"id":275832,"title":"\u9898\u89e3(O(1))","author":{"uid":379331,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/379331.png","name":"zhi0mx","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1604822186},{"id":224638,"title":"CF\u53c8\u6302\u4e86\uff1f","author":{"uid":269059,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/269059.png","name":"Saihara_Syuichi","slogan":"\u6c34\u673a\uff0c\u6211\u7684\u6c34\u673a\uff08\u60b2","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1589554597},{"id":66599,"title":"\u7ffb\u8bd1","author":{"uid":49206,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/49206.png","name":"Dispwnl","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":7,"xcpcLevel":0,"background":""},"time":1537837361}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.161321,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1047A Little C Loves 3 I","description":"\u9898\u76ee\u5927\u610f\uff1a\n\u627e\u4e09\u4e2a\u6570a,b,c\uff0c\u4f7f\u5f97a+b+c==n\u4e14a,b,c\u90fd\u4e0d\u80fd\u88ab3\u6574\u9664"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1047A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1047A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1047A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1047A Little C Loves 3 I" />
+    <meta property="og:description" content="题目大意：
+找三个数a,b,c，使得a+b+c==n且a,b,c都不能被3整除" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1047A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1047A Little C Loves 3 I</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    **题目大意：**
+找三个数$a,b,c$，使得$a+b+c==n$且$a,b,c$都不能被$3$整除
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行一个正整数$n$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    三个正整数$a,b,c$，输出任意一组即可
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

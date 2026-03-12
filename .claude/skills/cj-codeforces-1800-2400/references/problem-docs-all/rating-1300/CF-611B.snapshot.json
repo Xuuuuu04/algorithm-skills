@@ -1,0 +1,34 @@
+{
+  "id": "CF-611B",
+  "contest_id": 611,
+  "index": "B",
+  "name": "New Year and Old Property",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 10977,
+  "problem_url": "https://codeforces.com/problemset/problem/611/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/611/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/611/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=611B%20New%20Year%20and%20Old%20Property%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P611B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "New Year and Old Property - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "implementation",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

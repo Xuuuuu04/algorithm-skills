@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF986C AND Graph - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF986C","type":"CF","title":"AND Graph","difficulty":6,"tags":[126,127,314],"wantsTranslation":false,"totalSubmit":1306,"totalAccepted":491,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"AND Graph","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a $m$ \u4e2a\u6574\u6570\u7684\u96c6\u5408\uff0c\u6bcf\u4e2a\u6574\u6570\u5728 $0$ \u5230 $2^n-1$ \u4e4b\u95f4\uff0c\u4ee5\u6bcf\u4e00\u4e2a\u6574\u6570\u4f5c\u4e3a\u9876\u70b9\u5efa\u65e0\u5411\u56fe\uff0c\u5f53\u4e24\u4e2a\u70b9 $x$ \u548c $y$ \u505a\u4e0e\u8fd0\u7b97\u503c\u4e3a $0$ \u65f6\uff0c\u5219\u8ba4\u4e3a $x$ \u548c $y$ \u662f\u8fde\u901a\u7684\uff0c\u5373 $x$ \u548c $y$ \u4e4b\u95f4\u6709\u4e00\u6761\u65e0\u5411\u8fb9\u3002\u8bf7\u6c42\u51fa\u56fe\u4e2d\u8fde\u901a\u5757\u7684\u4e2a\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$0 \\leq  n\\leq22$\uff0c$1 \\leq  m\\leq2^n$\uff09\u3002  \n\u7b2c\u4e8c\u884c\u8f93\u5165 $m$ \u4e2a\u6574\u6570\uff0c\u5373\u96c6\u5408\u91cc\u7684\u5143\u7d20\u3002","formatO":"\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u56fe\u4e2d\u8fde\u901a\u5757\u7684\u4e2a\u6570\u3002","hint":"","locale":"zh-CN"},"content":{"name":"AND Graph","background":"","description":"You are given a set of size $ m $ with integer elements between $ 0 $ and $ 2^{n}-1 $ inclusive. Let\u0027s build an undirected graph on these integers in the following way: connect two integers $ x $ and $ y $ with an edge if and only if $ x \\\u0026 y = 0 $ . Here $ \\\u0026 $ is the [bitwise AND operation](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#AND). Count the number of connected components in that graph.","formatI":"In the first line of input there are two integers $ n $ and $ m $ ( $ 0 \\le n \\le 22 $ , $ 1 \\le m \\le 2^{n} $ ).\n\nIn the second line there are $ m $ integers $ a_1, a_2, \\ldots, a_m $ ( $ 0 \\le a_{i} \u003C 2^{n} $ ) \u2014 the elements of the set. All $ a_{i} $ are distinct.","formatO":"Print the number of connected components.","hint":"Graph from first sample:\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF986C\/e7573a95a1389022471f615fc286ee6a456a86b7.png)\n\nGraph from second sample:\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF986C\/f997c124f5bc2f31b98c263f4d64a7c7ae66176f.png)","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2 3\n1 2 3\n","2\n"],["5 5\n5 19 10 20 12\n","2\n"]],"limits":{"time":[4000],"memory":[256000]},"vjudge":{"id":"986C","link":"https:\/\/codeforces.com\/problemset\/problem\/986\/C"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a $m$ \u4e2a\u6574\u6570\u7684\u96c6\u5408\uff0c\u6bcf\u4e2a\u6574\u6570\u5728 $0$ \u5230 $2^n-1$ \u4e4b\u95f4\uff0c\u4ee5\u6bcf\u4e00\u4e2a\u6574\u6570\u4f5c\u4e3a\u9876\u70b9\u5efa\u65e0\u5411\u56fe\uff0c\u5f53\u4e24\u4e2a\u70b9 $x$ \u548c $y$ \u505a\u4e0e\u8fd0\u7b97\u503c\u4e3a $0$ \u65f6\uff0c\u5219\u8ba4\u4e3a $x$ \u548c $y$ \u662f\u8fde\u901a\u7684\uff0c\u5373 $x$ \u548c $y$ \u4e4b\u95f4\u6709\u4e00\u6761\u65e0\u5411\u8fb9\u3002\u8bf7\u6c42\u51fa\u56fe\u4e2d\u8fde\u901a\u5757\u7684\u4e2a\u6570\u3002\n\n**\u3010\u8f93\u5165\u683c\u5f0f\u3011**\n\n\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$0 \\leq  n\\leq22$\uff0c$1 \\leq  m\\leq2^n$\uff09\u3002  \n\u7b2c\u4e8c\u884c\u8f93\u5165 $m$ \u4e2a\u6574\u6570\uff0c\u5373\u96c6\u5408\u91cc\u7684\u5143\u7d20\u3002\n\n**\u3010\u8f93\u51fa\u683c\u5f0f\u3011**\n\n\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u56fe\u4e2d\u8fde\u901a\u5757\u7684\u4e2a\u6570\u3002"},"translations":{"en":{"name":"AND Graph","background":"","description":"You are given a set of size $ m $ with integer elements between $ 0 $ and $ 2^{n}-1 $ inclusive. Let\u0027s build an undirected graph on these integers in the following way: connect two integers $ x $ and $ y $ with an edge if and only if $ x \\\u0026 y = 0 $ . Here $ \\\u0026 $ is the [bitwise AND operation](https:\/\/en.wikipedia.org\/wiki\/Bitwise_operation#AND). Count the number of connected components in that graph.","formatI":"In the first line of input there are two integers $ n $ and $ m $ ( $ 0 \\le n \\le 22 $ , $ 1 \\le m \\le 2^{n} $ ).\n\nIn the second line there are $ m $ integers $ a_1, a_2, \\ldots, a_m $ ( $ 0 \\le a_{i} \u003C 2^{n} $ ) \u2014 the elements of the set. All $ a_{i} $ are distinct.","formatO":"Print the number of connected components.","hint":"Graph from first sample:\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF986C\/e7573a95a1389022471f615fc286ee6a456a86b7.png)\n\nGraph from second sample:\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF986C\/f997c124f5bc2f31b98c263f4d64a7c7ae66176f.png)","locale":"en"},"zh-CN":{"name":"AND Graph","background":"","description":"\u7ed9\u5b9a\u4e00\u4e2a $m$ \u4e2a\u6574\u6570\u7684\u96c6\u5408\uff0c\u6bcf\u4e2a\u6574\u6570\u5728 $0$ \u5230 $2^n-1$ \u4e4b\u95f4\uff0c\u4ee5\u6bcf\u4e00\u4e2a\u6574\u6570\u4f5c\u4e3a\u9876\u70b9\u5efa\u65e0\u5411\u56fe\uff0c\u5f53\u4e24\u4e2a\u70b9 $x$ \u548c $y$ \u505a\u4e0e\u8fd0\u7b97\u503c\u4e3a $0$ \u65f6\uff0c\u5219\u8ba4\u4e3a $x$ \u548c $y$ \u662f\u8fde\u901a\u7684\uff0c\u5373 $x$ \u548c $y$ \u4e4b\u95f4\u6709\u4e00\u6761\u65e0\u5411\u8fb9\u3002\u8bf7\u6c42\u51fa\u56fe\u4e2d\u8fde\u901a\u5757\u7684\u4e2a\u6570\u3002","formatI":"\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6574\u6570 $n$ \u548c $m$\uff08$0 \\leq  n\\leq22$\uff0c$1 \\leq  m\\leq2^n$\uff09\u3002  \n\u7b2c\u4e8c\u884c\u8f93\u5165 $m$ \u4e2a\u6574\u6570\uff0c\u5373\u96c6\u5408\u91cc\u7684\u5143\u7d20\u3002","formatO":"\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u56fe\u4e2d\u8fde\u901a\u5757\u7684\u4e2a\u6570\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF986C AND Graph","type":2,"slug":"CF986C","color":"orange-3"},"discussions":[{"id":783488,"title":"\u5982\u679c\u4f60\u4f7f\u7528\u4e86vector\u5b58\u56fe","author":{"uid":743373,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/743373.png","name":"Vitamin_B","slogan":"AFO\u6d88\u6101?|\u8bf7\u4e0d\u8981\u5411\u6211\u53d1\u9001\u63a5\u9f99\u79c1\u4fe1","badge":"","isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/76ah3flo.png"},"time":1708867131},{"id":595410,"title":"UKE\u5982\u4f55\u89e3\u51b3","author":{"uid":565378,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/565378.png","name":"Orange1015","slogan":"AFO","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":3,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/q1973mgw.png"},"time":1681046197},{"id":481696,"title":"\u4fee\u6539\u7ffb\u8bd1+\u6dfb\u52a0LaTeX","author":{"uid":444195,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/444195.png","name":"caramel_qwq","slogan":"\u7ec8\u4e0d\u4f3c\uff0c\u5c11\u5e74\u6e38\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":3,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/rk33mnew.png"},"time":1660995607},{"id":91385,"title":"\u624b\u52a8\u7ffb\u8bd1","author":{"uid":26675,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/26675.png","name":"shi_shu_huan","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1545906227},{"id":48058,"title":"\u7ffb\u8bd1","author":{"uid":58469,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/58469.png","name":"Sparks_Pion","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1531097423}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.264678,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF986C AND Graph","description":"\u7ed9\u5b9a\u4e00\u4e2a m \u4e2a\u6574\u6570\u7684\u96c6\u5408\uff0c\u6bcf\u4e2a\u6574\u6570\u5728 0 \u5230 2^n-1 \u4e4b\u95f4\uff0c\u4ee5\u6bcf\u4e00\u4e2a\u6574\u6570\u4f5c\u4e3a\u9876\u70b9\u5efa\u65e0\u5411\u56fe\uff0c\u5f53\u4e24\u4e2a\u70b9 x \u548c y \u505a\u4e0e\u8fd0\u7b97\u503c\u4e3a 0 \u65f6\uff0c\u5219\u8ba4\u4e3a x \u548c y \u662f\u8fde\u901a\u7684\uff0c\u5373 x \u548c y \u4e4b\u95f4\u6709\u4e00\u6761\u65e0\u5411\u8fb9\u3002\u8bf7\u6c42\u51fa\u56fe\u4e2d\u8fde\u901a\u5757\u7684\u4e2a\u6570\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF986C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF986C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF986C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF986C AND Graph" />
+    <meta property="og:description" content="给定一个 m 个整数的集合，每个整数在 0 到 2^n-1 之间，以每一个整数作为顶点建无向图，当两个点 x 和 y 做与运算值为 0 时，则认为 x 和 y 是连通的，即 x 和 y 之间有一条无向边。请求出图中连通块的个数。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF986C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF986C AND Graph</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个 $m$ 个整数的集合，每个整数在 $0$ 到 $2^n-1$ 之间，以每一个整数作为顶点建无向图，当两个点 $x$ 和 $y$ 做与运算值为 $0$ 时，则认为 $x$ 和 $y$ 是连通的，即 $x$ 和 $y$ 之间有一条无向边。请求出图中连通块的个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行输入两个整数 $n$ 和 $m$（$0 \leq  n\leq22$，$1 \leq  m\leq2^n$）。  
+第二行输入 $m$ 个整数，即集合里的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    一个整数，表示图中连通块的个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                Graph from first sample:
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF986C/e7573a95a1389022471f615fc286ee6a456a86b7.png)
+
+Graph from second sample:
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF986C/f997c124f5bc2f31b98c263f4d64a7c7ae66176f.png)
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

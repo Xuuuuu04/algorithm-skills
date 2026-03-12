@@ -1,0 +1,40 @@
+{
+  "id": "CF-1446C",
+  "contest_id": 1446,
+  "index": "C",
+  "name": "Xor Tree",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "binary search",
+    "bitmasks",
+    "data structures",
+    "divide and conquer",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 4049,
+  "problem_url": "https://codeforces.com/problemset/problem/1446/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1446/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1446/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1446C%20Xor%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1446C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Xor Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "trees",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

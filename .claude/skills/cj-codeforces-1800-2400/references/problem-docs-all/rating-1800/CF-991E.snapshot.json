@@ -1,0 +1,34 @@
+{
+  "id": "CF-991E",
+  "contest_id": 991,
+  "index": "E",
+  "name": "Bus Number",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 3700,
+  "problem_url": "https://codeforces.com/problemset/problem/991/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/991/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/991/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=991E%20Bus%20Number%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P991E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bus Number - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "combinatorics",
+      "math",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

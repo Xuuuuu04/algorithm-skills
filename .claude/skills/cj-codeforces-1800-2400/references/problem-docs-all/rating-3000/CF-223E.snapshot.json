@@ -1,0 +1,29 @@
+{
+  "id": "CF-223E",
+  "contest_id": 223,
+  "index": "E",
+  "name": "Planar Graph",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "flows",
+    "geometry",
+    "graphs"
+  ],
+  "solved_count": 208,
+  "problem_url": "https://codeforces.com/problemset/problem/223/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/223/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/223/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=223E%20Planar%20Graph%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF223E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF223E Planar Graph - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 52,
+    "mirror_attempt": 91,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

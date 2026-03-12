@@ -1,0 +1,28 @@
+{
+  "id": "CF-1831B",
+  "contest_id": 1831,
+  "index": "B",
+  "name": "Array merging",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 33585,
+  "problem_url": "https://codeforces.com/problemset/problem/1831/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1831/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1831/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1831B%20Array%20merging%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1831/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1831B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

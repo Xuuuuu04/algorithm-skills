@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417191:NxWeAfsXscG95PAesLc8m0485ZeYX8wb0ANErixS7Ds=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1742C Stripes - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1742C","type":"CF","title":"Stripes","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":848,"totalAccepted":395,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Stripes","background":null,"description":"\u5728\u4e00\u4e2a $8 \\times 8$ \u7684\u7f51\u683c\u4e0a\uff0c\u67d0\u4e9b\u6c34\u5e73\u884c\u88ab\u6d82\u6210\u4e86\u7ea2\u8272\uff0c\u67d0\u4e9b\u7ad6\u76f4\u5217\u88ab\u6d82\u6210\u4e86\u84dd\u8272\uff0c\u6d82\u8272\u7684\u987a\u5e8f\u662f\u4f9d\u6b21\u8fdb\u884c\u7684\u3002\u5f53\u67d0\u4e00\u6761\u6761\u7eb9\u88ab\u6d82\u4e0a\u65f6\uff0c\u5b83\u4f1a\u91cd\u65b0\u6d82\u8986\u5176\u7ecf\u8fc7\u7684\u6240\u6709\u683c\u5b50\u3002\n\n\u8bf7\u5224\u65ad\u6700\u540e\u4e00\u6b21\u4f7f\u7528\u7684\u662f\u54ea\u79cd\u989c\u8272\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1742C\/6f423ce4b1dd07561098c185bf230d882c12b3e9.png) \u7ea2\u8272\u6761\u7eb9\u662f\u5728\u84dd\u8272\u6761\u7eb9\u4e4b\u540e\u6d82\u4e0a\u7684\uff0c\u6240\u4ee5\u7b54\u6848\u662f R\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 4000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u524d\u6709\u4e00\u4e2a\u7a7a\u884c\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b $8$ \u884c\uff0c\u6bcf\u884c\u5305\u542b $8$ \u4e2a\u5b57\u7b26\u3002\u6bcf\u4e2a\u5b57\u7b26\u4e3a \u0027R\u0027\u3001\u0027B\u0027 \u6216 \u0027.\u0027\uff0c\u5206\u522b\u8868\u793a\u7ea2\u8272\u683c\u5b50\u3001\u84dd\u8272\u683c\u5b50\u548c\u672a\u6d82\u8272\u683c\u5b50\u3002\n\n\u4fdd\u8bc1\u7ed9\u5b9a\u7684\u7f51\u683c\u662f\u901a\u8fc7\u5728\u4e00\u4e2a\u65e0\u8272\u7f51\u683c\u4e0a\u4f9d\u6b21\u7ed8\u5236\u6c34\u5e73\u7ea2\u8272\u884c\u548c\u7ad6\u76f4\u84dd\u8272\u5217\u5f97\u5230\u7684\u3002\n\n\u81f3\u5c11\u6709\u4e00\u6761\u6761\u7eb9\u88ab\u6d82\u4e0a\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u6700\u540e\u4e00\u6b21\u6d82\u7684\u662f\u7ea2\u8272\u6761\u7eb9\uff0c\u8f93\u51fa \u0027R\u0027\uff1b\u5982\u679c\u6700\u540e\u4e00\u6b21\u6d82\u7684\u662f\u84dd\u8272\u6761\u7eb9\uff0c\u8f93\u51fa \u0027B\u0027\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\u3002","hint":"\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5982\u9898\u9762\u6240\u793a\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9996\u5148\u6d82\u4e0a\u4e86\u7b2c\u4e00\u5217\u7684\u84dd\u8272\u6761\u7eb9\uff0c\u7136\u540e\u4f9d\u6b21\u6d82\u4e0a\u4e86\u7b2c\u4e00\u884c\u548c\u6700\u540e\u4e00\u884c\u7684\u7ea2\u8272\u6761\u7eb9\uff0c\u6700\u540e\u6d82\u4e0a\u4e86\u6700\u540e\u4e00\u5217\u7684\u84dd\u8272\u6761\u7eb9\u3002\u7531\u4e8e\u6700\u540e\u4e00\u6b21\u6d82\u7684\u662f\u84dd\u8272\u6761\u7eb9\uff0c\u6240\u4ee5\u7b54\u6848\u662f B\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Stripes","background":"","description":"On an $ 8 \\times 8 $ grid, some horizontal rows have been painted red, and some vertical columns have been painted blue, in some order. The stripes are drawn sequentially, one after the other. When the stripe is drawn, it repaints all the cells through which it passes.\n\nDetermine which color was used last.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1742C\/6f423ce4b1dd07561098c185bf230d882c12b3e9.png)The red stripe was painted after the blue one, so the answer is R.","formatI":"The first line of the input contains a single integer $ t $ ( $ 1 \\leq t \\leq 4000 $ ) \u2014 the number of test cases. The description of test cases follows. There is an empty line before each test case.\n\nEach test case consists of $ 8 $ lines, each containing $ 8 $ characters. Each of these characters is either \u0027R\u0027, \u0027B\u0027, or \u0027.\u0027, denoting a red square, a blue square, and an unpainted square, respectively.\n\nIt is guaranteed that the given field is obtained from a colorless one by drawing horizontal red rows and vertical blue columns.\n\nAt least one stripe is painted.","formatO":"For each test case, output \u0027R\u0027 if a red stripe was painted last, and \u0027B\u0027 if a blue stripe was painted last (without quotes).","hint":"The first test case is pictured in the statement.\n\nIn the second test case, the first blue column is painted first, then the first and last red rows, and finally the last blue column. Since a blue stripe is painted last, the answer is B.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n\n\n....B...\n....B...\n....B...\nRRRRRRRR\n....B...\n....B...\n....B...\n....B...\n\n\nRRRRRRRB\nB......B\nB......B\nB......B\nB......B\nB......B\nB......B\nRRRRRRRB\n\n\nRRRRRRBB\n.B.B..BB\nRRRRRRBB\n.B.B..BB\n.B.B..BB\nRRRRRRBB\n.B.B..BB\n.B.B..BB\n\n\n........\n........\n........\nRRRRRRRR\n........\n........\n........\n........","R\nB\nB\nR"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1742C","link":"https:\/\/codeforces.com\/problemset\/problem\/1742\/C"},"translation":"$8\\times8$ \u7684\u67d3\u8272\u5730\u56fe\uff0c\u521d\u59cb\u662f\u767d\u8272\uff0c\u7ed9\u4f60\u67d3\u5b8c\u8272\u7684\u5730\u56fe\uff0c`.` \u4ee3\u8868\u767d\u8272\uff0c`R` \u4ee3\u8868\u7ea2\u8272\uff0c`B` \u4ee3\u8868\u84dd\u8272\u3002\n\n\u5176\u4e2d\u67d3\u7ea2\u8272\u7684\u7b56\u7565\u5fc5\u5b9a\u662f\u6d82\u4e00\u884c\uff0c\u67d3\u84dd\u8272\u7684\u7b56\u7565\u5fc5\u5b9a\u662f\u6d82\u4e00\u5217\u3002\u989c\u8272\u4f1a\u8986\u76d6\u3002\n\n\u6c42\u6700\u540e\u6d82\u7684\u989c\u8272\u662f\u4ec0\u4e48\uff0c`R`\u4ee3\u8868\u7ea2\uff0c`B` \u4ee3\u8868\u84dd\u3002"},"translations":{"en":{"name":"Stripes","background":"","description":"On an $ 8 \\times 8 $ grid, some horizontal rows have been painted red, and some vertical columns have been painted blue, in some order. The stripes are drawn sequentially, one after the other. When the stripe is drawn, it repaints all the cells through which it passes.\n\nDetermine which color was used last.\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1742C\/6f423ce4b1dd07561098c185bf230d882c12b3e9.png)The red stripe was painted after the blue one, so the answer is R.","formatI":"The first line of the input contains a single integer $ t $ ( $ 1 \\leq t \\leq 4000 $ ) \u2014 the number of test cases. The description of test cases follows. There is an empty line before each test case.\n\nEach test case consists of $ 8 $ lines, each containing $ 8 $ characters. Each of these characters is either \u0027R\u0027, \u0027B\u0027, or \u0027.\u0027, denoting a red square, a blue square, and an unpainted square, respectively.\n\nIt is guaranteed that the given field is obtained from a colorless one by drawing horizontal red rows and vertical blue columns.\n\nAt least one stripe is painted.","formatO":"For each test case, output \u0027R\u0027 if a red stripe was painted last, and \u0027B\u0027 if a blue stripe was painted last (without quotes).","hint":"The first test case is pictured in the statement.\n\nIn the second test case, the first blue column is painted first, then the first and last red rows, and finally the last blue column. Since a blue stripe is painted last, the answer is B.","locale":"en"},"zh-CN":{"name":"Stripes","background":null,"description":"\u5728\u4e00\u4e2a $8 \\times 8$ \u7684\u7f51\u683c\u4e0a\uff0c\u67d0\u4e9b\u6c34\u5e73\u884c\u88ab\u6d82\u6210\u4e86\u7ea2\u8272\uff0c\u67d0\u4e9b\u7ad6\u76f4\u5217\u88ab\u6d82\u6210\u4e86\u84dd\u8272\uff0c\u6d82\u8272\u7684\u987a\u5e8f\u662f\u4f9d\u6b21\u8fdb\u884c\u7684\u3002\u5f53\u67d0\u4e00\u6761\u6761\u7eb9\u88ab\u6d82\u4e0a\u65f6\uff0c\u5b83\u4f1a\u91cd\u65b0\u6d82\u8986\u5176\u7ecf\u8fc7\u7684\u6240\u6709\u683c\u5b50\u3002\n\n\u8bf7\u5224\u65ad\u6700\u540e\u4e00\u6b21\u4f7f\u7528\u7684\u662f\u54ea\u79cd\u989c\u8272\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1742C\/6f423ce4b1dd07561098c185bf230d882c12b3e9.png) \u7ea2\u8272\u6761\u7eb9\u662f\u5728\u84dd\u8272\u6761\u7eb9\u4e4b\u540e\u6d82\u4e0a\u7684\uff0c\u6240\u4ee5\u7b54\u6848\u662f R\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 4000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u524d\u6709\u4e00\u4e2a\u7a7a\u884c\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b $8$ \u884c\uff0c\u6bcf\u884c\u5305\u542b $8$ \u4e2a\u5b57\u7b26\u3002\u6bcf\u4e2a\u5b57\u7b26\u4e3a \u0027R\u0027\u3001\u0027B\u0027 \u6216 \u0027.\u0027\uff0c\u5206\u522b\u8868\u793a\u7ea2\u8272\u683c\u5b50\u3001\u84dd\u8272\u683c\u5b50\u548c\u672a\u6d82\u8272\u683c\u5b50\u3002\n\n\u4fdd\u8bc1\u7ed9\u5b9a\u7684\u7f51\u683c\u662f\u901a\u8fc7\u5728\u4e00\u4e2a\u65e0\u8272\u7f51\u683c\u4e0a\u4f9d\u6b21\u7ed8\u5236\u6c34\u5e73\u7ea2\u8272\u884c\u548c\u7ad6\u76f4\u84dd\u8272\u5217\u5f97\u5230\u7684\u3002\n\n\u81f3\u5c11\u6709\u4e00\u6761\u6761\u7eb9\u88ab\u6d82\u4e0a\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u6700\u540e\u4e00\u6b21\u6d82\u7684\u662f\u7ea2\u8272\u6761\u7eb9\uff0c\u8f93\u51fa \u0027R\u0027\uff1b\u5982\u679c\u6700\u540e\u4e00\u6b21\u6d82\u7684\u662f\u84dd\u8272\u6761\u7eb9\uff0c\u8f93\u51fa \u0027B\u0027\uff08\u4e0d\u5e26\u5f15\u53f7\uff09\u3002","hint":"\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5982\u9898\u9762\u6240\u793a\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9996\u5148\u6d82\u4e0a\u4e86\u7b2c\u4e00\u5217\u7684\u84dd\u8272\u6761\u7eb9\uff0c\u7136\u540e\u4f9d\u6b21\u6d82\u4e0a\u4e86\u7b2c\u4e00\u884c\u548c\u6700\u540e\u4e00\u884c\u7684\u7ea2\u8272\u6761\u7eb9\uff0c\u6700\u540e\u6d82\u4e0a\u4e86\u6700\u540e\u4e00\u5217\u7684\u84dd\u8272\u6761\u7eb9\u3002\u7531\u4e8e\u6700\u540e\u4e00\u6b21\u6d82\u7684\u662f\u84dd\u8272\u6761\u7eb9\uff0c\u6240\u4ee5\u7b54\u6848\u662f B\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1742C Stripes","type":2,"slug":"CF1742C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330791.215764,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1742C Stripes","description":"\u5728\u4e00\u4e2a 8 \\times 8 \u7684\u7f51\u683c\u4e0a\uff0c\u67d0\u4e9b\u6c34\u5e73\u884c\u88ab\u6d82\u6210\u4e86\u7ea2\u8272\uff0c\u67d0\u4e9b\u7ad6\u76f4\u5217\u88ab\u6d82\u6210\u4e86\u84dd\u8272\uff0c\u6d82\u8272\u7684\u987a\u5e8f\u662f\u4f9d\u6b21\u8fdb\u884c\u7684\u3002\u5f53\u67d0\u4e00\u6761\u6761\u7eb9\u88ab\u6d82\u4e0a\u65f6\uff0c\u5b83\u4f1a\u91cd\u65b0\u6d82\u8986\u5176\u7ecf\u8fc7\u7684\u6240\u6709\u683c\u5b50\u3002\n\u8bf7\u5224\u65ad\u6700\u540e\u4e00\u6b21\u4f7f\u7528\u7684\u662f\u54ea\u79cd\u989c\u8272\u3002\n \u7ea2\u8272\u6761\u7eb9\u662f\u5728\u84dd\u8272\u6761\u7eb9\u4e4b\u540e\u6d82\u4e0a\u7684\uff0c\u6240\u4ee5\u7b54\u6848\u662f\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1742C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1742C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1742C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1742C Stripes" />
+    <meta property="og:description" content="在一个 8 \times 8 的网格上，某些水平行被涂成了红色，某些竖直列被涂成了蓝色，涂色的顺序是依次进行的。当某一条条纹被涂上时，它会重新涂覆其经过的所有格子。
+请判断最后一次使用的是哪种颜色。
+ 红色条纹是在蓝色条纹之后涂上的，所以答案是…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1742C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1742C Stripes</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    在一个 $8 \times 8$ 的网格上，某些水平行被涂成了红色，某些竖直列被涂成了蓝色，涂色的顺序是依次进行的。当某一条条纹被涂上时，它会重新涂覆其经过的所有格子。
+
+请判断最后一次使用的是哪种颜色。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1742C/6f423ce4b1dd07561098c185bf230d882c12b3e9.png) 红色条纹是在蓝色条纹之后涂上的，所以答案是 R。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $t$（$1 \leq t \leq 4000$），表示测试用例的数量。接下来是每个测试用例的描述。每个测试用例前有一个空行。
+
+每个测试用例包含 $8$ 行，每行包含 $8$ 个字符。每个字符为 'R'、'B' 或 '.'，分别表示红色格子、蓝色格子和未涂色格子。
+
+保证给定的网格是通过在一个无色网格上依次绘制水平红色行和竖直蓝色列得到的。
+
+至少有一条条纹被涂上。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果最后一次涂的是红色条纹，输出 'R'；如果最后一次涂的是蓝色条纹，输出 'B'（不带引号）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一个测试用例如题面所示。
+
+在第二个测试用例中，首先涂上了第一列的蓝色条纹，然后依次涂上了第一行和最后一行的红色条纹，最后涂上了最后一列的蓝色条纹。由于最后一次涂的是蓝色条纹，所以答案是 B。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

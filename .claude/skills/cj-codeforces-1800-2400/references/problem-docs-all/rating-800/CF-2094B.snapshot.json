@@ -1,0 +1,32 @@
+{
+  "id": "CF-2094B",
+  "contest_id": 2094,
+  "index": "B",
+  "name": "Bobritto Bandito",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "constructive algorithms"
+  ],
+  "solved_count": 32535,
+  "problem_url": "https://codeforces.com/problemset/problem/2094/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2094/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2094/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2094B%20Bobritto%20Bandito%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2094B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bobritto Bandito - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

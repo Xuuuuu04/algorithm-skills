@@ -1,0 +1,28 @@
+{
+  "id": "CF-1504A",
+  "contest_id": 1504,
+  "index": "A",
+  "name": " Déjà Vu",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "strings"
+  ],
+  "solved_count": 22669,
+  "problem_url": "https://codeforces.com/problemset/problem/1504/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1504/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1504/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1504A%20%20D%C3%A9j%C3%A0%20Vu%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1504A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1504A Déjà Vu - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 237,
+    "mirror_attempt": 534,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

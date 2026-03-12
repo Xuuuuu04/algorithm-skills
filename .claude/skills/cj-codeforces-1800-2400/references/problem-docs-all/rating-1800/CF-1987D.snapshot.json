@@ -1,0 +1,32 @@
+{
+  "id": "CF-1987D",
+  "contest_id": 1987,
+  "index": "D",
+  "name": "World is Mine",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dp",
+    "games"
+  ],
+  "solved_count": 8583,
+  "problem_url": "https://codeforces.com/problemset/problem/1987/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1987/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1987/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1987D%20World%20is%20Mine%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1987D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "World is Mine - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "games",
+      "greedy"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

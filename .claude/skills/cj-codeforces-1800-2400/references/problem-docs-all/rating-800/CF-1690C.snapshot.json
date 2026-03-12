@@ -1,0 +1,29 @@
+{
+  "id": "CF-1690C",
+  "contest_id": 1690,
+  "index": "C",
+  "name": "Restoring the Duration of Tasks",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 27949,
+  "problem_url": "https://codeforces.com/problemset/problem/1690/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1690/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1690/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1690C%20Restoring%20the%20Duration%20of%20Tasks%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1690C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1690C Restoring the Duration of Tasks - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 284,
+    "mirror_attempt": 466,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CF-1795F",
+  "contest_id": 1795,
+  "index": "F",
+  "name": "Blocking Chips",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "dfs and similar",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 1357,
+  "problem_url": "https://codeforces.com/problemset/problem/1795/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1795/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1795/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1795F%20Blocking%20Chips%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1795F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Blocking Chips - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

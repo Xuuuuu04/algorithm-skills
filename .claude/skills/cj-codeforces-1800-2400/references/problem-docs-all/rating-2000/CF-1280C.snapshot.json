@@ -1,0 +1,30 @@
+{
+  "id": "CF-1280C",
+  "contest_id": 1280,
+  "index": "C",
+  "name": "Jeremy Bearimy",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 3019,
+  "problem_url": "https://codeforces.com/problemset/problem/1280/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1280/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1280/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1280C%20Jeremy%20Bearimy%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1280/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1280C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

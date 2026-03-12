@@ -1,0 +1,36 @@
+{
+  "id": "CF-804B",
+  "contest_id": 804,
+  "index": "B",
+  "name": "Minimum number of steps",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "combinatorics",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 10107,
+  "problem_url": "https://codeforces.com/problemset/problem/804/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/804/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/804/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=804B%20Minimum%20number%20of%20steps%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P804B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Minimum number of steps - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "greedy",
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

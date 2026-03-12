@@ -1,0 +1,40 @@
+{
+  "id": "CF-1438C",
+  "contest_id": 1438,
+  "index": "C",
+  "name": "Engineer Artem",
+  "rating": 2000,
+  "tags": [
+    "2-sat",
+    "chinese remainder theorem",
+    "constructive algorithms",
+    "fft",
+    "flows"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1438/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1438/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1438/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1438C%20Engineer Artem%20tutorial",
+  "solved_count": 11493,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "网络流（最大流/最小割）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1438C",
+  "hydro_meta": {
+    "page_title": "Engineer Artem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "2-sat",
+      "chinese remainder theorem",
+      "constructive algorithms",
+      "fft",
+      "flows",
+      "*2000"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-678D",
+  "contest_id": 678,
+  "index": "D",
+  "name": "Iterated Linear Function",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 5289,
+  "problem_url": "https://codeforces.com/problemset/problem/678/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/678/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/678/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=678D%20Iterated%20Linear%20Function%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P678D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Iterated Linear Function - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

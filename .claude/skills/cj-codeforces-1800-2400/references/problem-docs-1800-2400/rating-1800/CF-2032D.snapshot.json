@@ -1,0 +1,49 @@
+{
+  "id": "CF-2032D",
+  "contest_id": 2032,
+  "index": "D",
+  "name": "Genokraken",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "graphs",
+    "greedy",
+    "implementation",
+    "interactive",
+    "trees",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2032/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2032/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2032/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2032D%20Genokraken%20tutorial",
+  "solved_count": 6113,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2032D",
+  "hydro_meta": {
+    "page_title": "Genokraken - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "data structures",
+      "graphs",
+      "greedy",
+      "implementation",
+      "interactive",
+      "trees",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

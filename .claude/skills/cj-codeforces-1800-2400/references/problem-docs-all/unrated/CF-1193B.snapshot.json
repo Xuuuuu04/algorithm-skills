@@ -1,0 +1,30 @@
+{
+  "id": "CF-1193B",
+  "contest_id": 1193,
+  "index": "B",
+  "name": "Magic Tree",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "data structures",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 503,
+  "problem_url": "https://codeforces.com/problemset/problem/1193/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1193/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1193/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1193B%20Magic%20Tree%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1193/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1193B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

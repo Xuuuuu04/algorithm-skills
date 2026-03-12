@@ -1,0 +1,29 @@
+{
+  "id": "CF-37D",
+  "contest_id": 37,
+  "index": "D",
+  "name": "Lesson Timetable",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math"
+  ],
+  "solved_count": 507,
+  "problem_url": "https://codeforces.com/problemset/problem/37/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/37/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/37/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=37D%20Lesson%20Timetable%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/37/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 37D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

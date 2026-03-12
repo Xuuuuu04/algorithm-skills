@@ -1,0 +1,29 @@
+{
+  "id": "CF-1812B",
+  "contest_id": 1812,
+  "index": "B",
+  "name": "Was it Rated?",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 6022,
+  "problem_url": "https://codeforces.com/problemset/problem/1812/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1812/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1812/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1812B%20Was%20it%20Rated%3F%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1812B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1812B Was it Rated? - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 130,
+    "mirror_attempt": 409,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

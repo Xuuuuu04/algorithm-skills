@@ -1,0 +1,34 @@
+{
+  "id": "CF-2161E",
+  "contest_id": 2161,
+  "index": "E",
+  "name": "Left is Always Right",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "combinatorics",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 749,
+  "problem_url": "https://codeforces.com/problemset/problem/2161/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2161/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2161/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2161E%20Left%20is%20Always%20Right%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2161E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Left is Always Right - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "implementation",
+      "math",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

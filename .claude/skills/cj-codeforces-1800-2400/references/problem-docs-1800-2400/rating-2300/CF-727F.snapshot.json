@@ -1,0 +1,37 @@
+{
+  "id": "CF-727F",
+  "contest_id": 727,
+  "index": "F",
+  "name": "Polycarp's problems",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/727/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/727/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/727/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=727F%20Polycarp's problems%20tutorial",
+  "solved_count": 946,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P727F",
+  "hydro_meta": {
+    "page_title": "Polycarp's problems - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

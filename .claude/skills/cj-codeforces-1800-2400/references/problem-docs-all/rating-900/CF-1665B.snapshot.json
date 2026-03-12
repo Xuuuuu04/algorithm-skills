@@ -1,0 +1,29 @@
+{
+  "id": "CF-1665B",
+  "contest_id": 1665,
+  "index": "B",
+  "name": "Array Cloning Technique",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 31625,
+  "problem_url": "https://codeforces.com/problemset/problem/1665/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1665/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1665/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1665B%20Array%20Cloning%20Technique%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1665/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1665B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

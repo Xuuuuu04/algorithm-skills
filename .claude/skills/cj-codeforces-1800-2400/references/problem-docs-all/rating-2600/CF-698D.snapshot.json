@@ -1,0 +1,34 @@
+{
+  "id": "CF-698D",
+  "contest_id": 698,
+  "index": "D",
+  "name": "Limak and Shooting Points",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "geometry",
+    "math"
+  ],
+  "solved_count": 577,
+  "problem_url": "https://codeforces.com/problemset/problem/698/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/698/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/698/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=698D%20Limak%20and%20Shooting%20Points%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P698D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Limak and Shooting Points - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "geometry",
+      "math",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

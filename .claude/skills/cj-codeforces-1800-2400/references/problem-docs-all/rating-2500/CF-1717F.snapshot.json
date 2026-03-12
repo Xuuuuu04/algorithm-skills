@@ -1,0 +1,31 @@
+{
+  "id": "CF-1717F",
+  "contest_id": 1717,
+  "index": "F",
+  "name": "Madoka and The First Session",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "constructive algorithms",
+    "flows",
+    "graph matchings",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 626,
+  "problem_url": "https://codeforces.com/problemset/problem/1717/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1717/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1717/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1717F%20Madoka%20and%20The%20First%20Session%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1717F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1717F Madoka and The First Session - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 101,
+    "mirror_attempt": 259,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

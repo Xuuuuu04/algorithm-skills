@@ -1,0 +1,38 @@
+{
+  "id": "CF-1689D",
+  "contest_id": 1689,
+  "index": "D",
+  "name": "Lena and Matrix",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "dp",
+    "geometry",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1689/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1689/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1689/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1689D%20Lena and Matrix%20tutorial",
+  "solved_count": 4706,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1689D",
+  "hydro_meta": {
+    "page_title": "Lena and Matrix - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "shortest paths",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

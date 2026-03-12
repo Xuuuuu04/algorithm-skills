@@ -1,0 +1,27 @@
+{
+  "id": "CF-814B",
+  "contest_id": 814,
+  "index": "B",
+  "name": "An express train to reveries",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 5870,
+  "problem_url": "https://codeforces.com/problemset/problem/814/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/814/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/814/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=814B%20An%20express%20train%20to%20reveries%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/814/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 814B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

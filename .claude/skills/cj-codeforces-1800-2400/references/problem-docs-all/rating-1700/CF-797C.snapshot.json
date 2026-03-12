@@ -1,0 +1,34 @@
+{
+  "id": "CF-797C",
+  "contest_id": 797,
+  "index": "C",
+  "name": "Minimal string",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 9464,
+  "problem_url": "https://codeforces.com/problemset/problem/797/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/797/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/797/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=797C%20Minimal%20string%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P797C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Minimal string - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "strings",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

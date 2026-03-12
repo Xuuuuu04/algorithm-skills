@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1513D GCD and MST - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1513D","type":"CF","title":"GCD and MST","difficulty":5,"tags":[],"wantsTranslation":false,"totalSubmit":647,"totalAccepted":256,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"GCD and MST","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$\uff08$n \\geq 2$\uff09\u7684\u6b63\u6574\u6570\u6570\u7ec4 $a$ \u548c\u4e00\u4e2a\u6574\u6570 $p$\u3002\u8003\u8651\u4e00\u4e2a\u6709 $n$ \u4e2a\u9876\u70b9\u7684\u65e0\u5411\u5e26\u6743\u56fe\uff0c\u9876\u70b9\u7f16\u53f7\u4ece $1$ \u5230 $n$\uff0c\u5bf9\u4e8e\u6bcf\u4e00\u5bf9\u9876\u70b9 $i$ \u548c $j$\uff08$i\u003Cj$\uff09\uff0c\u6309\u7167\u5982\u4e0b\u65b9\u5f0f\u6dfb\u52a0\u8fb9\uff1a\n\n- \u5982\u679c $gcd(a_i, a_{i+1}, a_{i+2}, \\dots, a_j) = min(a_i, a_{i+1}, a_{i+2}, \\dots, a_j)$\uff0c\u5219\u5728 $i$ \u548c $j$ \u4e4b\u95f4\u6dfb\u52a0\u4e00\u6761\u6743\u503c\u4e3a $min(a_i, a_{i+1}, a_{i+2}, \\dots, a_j)$ \u7684\u8fb9\u3002\n- \u5982\u679c $i+1=j$\uff0c\u5219\u5728 $i$ \u548c $j$ \u4e4b\u95f4\u6dfb\u52a0\u4e00\u6761\u6743\u503c\u4e3a $p$ \u7684\u8fb9\u3002\n\n\u8fd9\u91cc $gcd(x, y, \\ldots)$ \u8868\u793a\u6574\u6570 $x, y, \\ldots$ \u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\n\u6ce8\u610f\uff0c\u5982\u679c\u4e0a\u8ff0\u4e24\u79cd\u60c5\u51b5\u90fd\u6ee1\u8db3\uff0c\u5219 $i$ \u548c $j$ \u4e4b\u95f4\u4f1a\u6709\u591a\u6761\u8fb9\uff1b\u5982\u679c\u4e24\u79cd\u60c5\u51b5\u90fd\u4e0d\u6ee1\u8db3\uff0c\u5219 $i$ \u548c $j$ \u4e4b\u95f4\u6ca1\u6709\u8fb9\u3002\n\n\u4f60\u7684\u76ee\u6807\u662f\u6c42\u51fa\u8be5\u56fe\u7684\u6700\u5c0f\u751f\u6210\u6811\u7684\u6743\u503c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$\uff08$2 \\leq n \\leq 2 \\times 10^5$\uff09\u548c $p$\uff08$1 \\leq p \\leq 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a\u8282\u70b9\u6570\u548c\u53c2\u6570 $p$\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, a_3, \\dots, a_n$\uff08$1 \\leq a_i \\leq 10^9$\uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\times 10^5$\u3002","formatO":"\u8f93\u51fa $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5bf9\u5e94\u56fe\u7684\u6700\u5c0f\u751f\u6210\u6811\u7684\u6743\u503c\u3002","hint":"\u4ee5\u4e0b\u662f\u6837\u4f8b\u7684\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5bf9\u5e94\u7684\u56fe\uff08\u53ef\u80fd\u7684\u6700\u5c0f\u751f\u6210\u6811\u7684\u8fb9\u7528\u7c89\u8272\u6807\u8bb0\uff09\uff1a\n\n\u5bf9\u4e8e\u6d4b\u8bd5\u7528\u4f8b 1\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/73410493ea480145bcececd4920bc7b442158d5d.png)\n\n\u5bf9\u4e8e\u6d4b\u8bd5\u7528\u4f8b 2\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/244430036440b5951052685b881ac283e38569b1.png)\n\n\u5bf9\u4e8e\u6d4b\u8bd5\u7528\u4f8b 3\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/3b76480fd803697ef4eb1c8f9a262cb141140b6b.png)\n\n\u5bf9\u4e8e\u6d4b\u8bd5\u7528\u4f8b 4\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/2aa511e43d0533b40192099a2b9004202f659de5.png)\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"GCD and MST","background":"","description":"You are given an array $ a $ of $ n $ ( $ n \\geq 2 $ ) positive integers and an integer $ p $ . Consider an undirected weighted graph of $ n $ vertices numbered from $ 1 $ to $ n $ for which the edges between the vertices $ i $ and $ j $ ( $ i\u003Cj $ ) are added in the following manner:\n\n- If $ gcd(a_i, a_{i+1}, a_{i+2}, \\dots, a_{j}) = min(a_i, a_{i+1}, a_{i+2}, \\dots, a_j) $ , then there is an edge of weight $ min(a_i, a_{i+1}, a_{i+2}, \\dots, a_j) $ between $ i $ and $ j $ .\n- If $ i+1=j $ , then there is an edge of weight $ p $ between $ i $ and $ j $ .\n\nHere $ gcd(x, y, \\ldots) $ denotes the [greatest common divisor (GCD)](https:\/\/en.wikipedia.org\/wiki\/Greatest_common_divisor) of integers $ x $ , $ y $ , ....\n\nNote that there could be multiple edges between $ i $ and $ j $ if both of the above conditions are true, and if both the conditions fail for $ i $ and $ j $ , then there is no edge between these vertices.\n\nThe goal is to find the weight of the [minimum spanning tree](https:\/\/en.wikipedia.org\/wiki\/Minimum_spanning_tree) of this graph.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains two integers $ n $ ( $ 2 \\leq n \\leq 2 \\cdot 10^5 $ ) and $ p $ ( $ 1 \\leq p \\leq 10^9 $ ) \u2014 the number of nodes and the parameter $ p $ .\n\nThe second line contains $ n $ integers $ a_1, a_2, a_3, \\dots, a_n $ ( $ 1 \\leq a_i \\leq 10^9 $ ).\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"Output $ t $ lines. For each test case print the weight of the corresponding graph.","hint":"Here are the graphs for the four test cases of the example (the edges of a possible MST of the graphs are marked pink):\n\nFor test case 1\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/73410493ea480145bcececd4920bc7b442158d5d.png)For test case 2\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/244430036440b5951052685b881ac283e38569b1.png)For test case 3\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/3b76480fd803697ef4eb1c8f9a262cb141140b6b.png)For test case 4\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/2aa511e43d0533b40192099a2b9004202f659de5.png)","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n2 5\n10 10\n2 5\n3 3\n4 5\n5 2 4 9\n8 8\n5 3 3 6 10 100 9 15","5\n3\n12\n46"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1513D","link":"https:\/\/codeforces.com\/problemset\/problem\/1513\/D"},"translation":"\u5bf9\u4e8e\u4e00\u4e2a\u5e8f\u5217\uff0c\u82e5\u6709 $ (i,j)(i \u003C j) $\uff0c\u82e5 $ \\gcd_{k=i}^j a_k =\\min_{k=i}^j a_k $\uff0c\u5219\u8fde\u4e00\u6761\u65e0\u5411\u8fb9 $ (i,j) $\uff0c\u8fb9\u6743\u4e3a $ \\min_{k=i}^j a_k $\uff1b\u82e5\u6709 $ (i,j)(i+1=j) $\uff0c\u8fde\u4e00\u6761\u65e0\u5411\u8fb9 $ (i,j) $\uff0c\u8fb9\u6743\u4e3a $ p $\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $ n $ \u7684\u5e8f\u5217\uff0c\u6c42\u8fde\u8fb9\u6240\u6784\u6210\u56fe\u7684 MST \u7684\u8fb9\u6743\u4e4b\u548c\uff0c\u591a\u6d4b\u3002"},"translations":{"en":{"name":"GCD and MST","background":"","description":"You are given an array $ a $ of $ n $ ( $ n \\geq 2 $ ) positive integers and an integer $ p $ . Consider an undirected weighted graph of $ n $ vertices numbered from $ 1 $ to $ n $ for which the edges between the vertices $ i $ and $ j $ ( $ i\u003Cj $ ) are added in the following manner:\n\n- If $ gcd(a_i, a_{i+1}, a_{i+2}, \\dots, a_{j}) = min(a_i, a_{i+1}, a_{i+2}, \\dots, a_j) $ , then there is an edge of weight $ min(a_i, a_{i+1}, a_{i+2}, \\dots, a_j) $ between $ i $ and $ j $ .\n- If $ i+1=j $ , then there is an edge of weight $ p $ between $ i $ and $ j $ .\n\nHere $ gcd(x, y, \\ldots) $ denotes the [greatest common divisor (GCD)](https:\/\/en.wikipedia.org\/wiki\/Greatest_common_divisor) of integers $ x $ , $ y $ , ....\n\nNote that there could be multiple edges between $ i $ and $ j $ if both of the above conditions are true, and if both the conditions fail for $ i $ and $ j $ , then there is no edge between these vertices.\n\nThe goal is to find the weight of the [minimum spanning tree](https:\/\/en.wikipedia.org\/wiki\/Minimum_spanning_tree) of this graph.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of each test case contains two integers $ n $ ( $ 2 \\leq n \\leq 2 \\cdot 10^5 $ ) and $ p $ ( $ 1 \\leq p \\leq 10^9 $ ) \u2014 the number of nodes and the parameter $ p $ .\n\nThe second line contains $ n $ integers $ a_1, a_2, a_3, \\dots, a_n $ ( $ 1 \\leq a_i \\leq 10^9 $ ).\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2 \\cdot 10^5 $ .","formatO":"Output $ t $ lines. For each test case print the weight of the corresponding graph.","hint":"Here are the graphs for the four test cases of the example (the edges of a possible MST of the graphs are marked pink):\n\nFor test case 1\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/73410493ea480145bcececd4920bc7b442158d5d.png)For test case 2\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/244430036440b5951052685b881ac283e38569b1.png)For test case 3\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/3b76480fd803697ef4eb1c8f9a262cb141140b6b.png)For test case 4\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/2aa511e43d0533b40192099a2b9004202f659de5.png)","locale":"en"},"zh-CN":{"name":"GCD and MST","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$\uff08$n \\geq 2$\uff09\u7684\u6b63\u6574\u6570\u6570\u7ec4 $a$ \u548c\u4e00\u4e2a\u6574\u6570 $p$\u3002\u8003\u8651\u4e00\u4e2a\u6709 $n$ \u4e2a\u9876\u70b9\u7684\u65e0\u5411\u5e26\u6743\u56fe\uff0c\u9876\u70b9\u7f16\u53f7\u4ece $1$ \u5230 $n$\uff0c\u5bf9\u4e8e\u6bcf\u4e00\u5bf9\u9876\u70b9 $i$ \u548c $j$\uff08$i\u003Cj$\uff09\uff0c\u6309\u7167\u5982\u4e0b\u65b9\u5f0f\u6dfb\u52a0\u8fb9\uff1a\n\n- \u5982\u679c $gcd(a_i, a_{i+1}, a_{i+2}, \\dots, a_j) = min(a_i, a_{i+1}, a_{i+2}, \\dots, a_j)$\uff0c\u5219\u5728 $i$ \u548c $j$ \u4e4b\u95f4\u6dfb\u52a0\u4e00\u6761\u6743\u503c\u4e3a $min(a_i, a_{i+1}, a_{i+2}, \\dots, a_j)$ \u7684\u8fb9\u3002\n- \u5982\u679c $i+1=j$\uff0c\u5219\u5728 $i$ \u548c $j$ \u4e4b\u95f4\u6dfb\u52a0\u4e00\u6761\u6743\u503c\u4e3a $p$ \u7684\u8fb9\u3002\n\n\u8fd9\u91cc $gcd(x, y, \\ldots)$ \u8868\u793a\u6574\u6570 $x, y, \\ldots$ \u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\n\u6ce8\u610f\uff0c\u5982\u679c\u4e0a\u8ff0\u4e24\u79cd\u60c5\u51b5\u90fd\u6ee1\u8db3\uff0c\u5219 $i$ \u548c $j$ \u4e4b\u95f4\u4f1a\u6709\u591a\u6761\u8fb9\uff1b\u5982\u679c\u4e24\u79cd\u60c5\u51b5\u90fd\u4e0d\u6ee1\u8db3\uff0c\u5219 $i$ \u548c $j$ \u4e4b\u95f4\u6ca1\u6709\u8fb9\u3002\n\n\u4f60\u7684\u76ee\u6807\u662f\u6c42\u51fa\u8be5\u56fe\u7684\u6700\u5c0f\u751f\u6210\u6811\u7684\u6743\u503c\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$\uff08$2 \\leq n \\leq 2 \\times 10^5$\uff09\u548c $p$\uff08$1 \\leq p \\leq 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a\u8282\u70b9\u6570\u548c\u53c2\u6570 $p$\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, a_3, \\dots, a_n$\uff08$1 \\leq a_i \\leq 10^9$\uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d $n$ \u7684\u603b\u548c\u4e0d\u8d85\u8fc7 $2 \\times 10^5$\u3002","formatO":"\u8f93\u51fa $t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5bf9\u5e94\u56fe\u7684\u6700\u5c0f\u751f\u6210\u6811\u7684\u6743\u503c\u3002","hint":"\u4ee5\u4e0b\u662f\u6837\u4f8b\u7684\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5bf9\u5e94\u7684\u56fe\uff08\u53ef\u80fd\u7684\u6700\u5c0f\u751f\u6210\u6811\u7684\u8fb9\u7528\u7c89\u8272\u6807\u8bb0\uff09\uff1a\n\n\u5bf9\u4e8e\u6d4b\u8bd5\u7528\u4f8b 1\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/73410493ea480145bcececd4920bc7b442158d5d.png)\n\n\u5bf9\u4e8e\u6d4b\u8bd5\u7528\u4f8b 2\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/244430036440b5951052685b881ac283e38569b1.png)\n\n\u5bf9\u4e8e\u6d4b\u8bd5\u7528\u4f8b 3\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/3b76480fd803697ef4eb1c8f9a262cb141140b6b.png)\n\n\u5bf9\u4e8e\u6d4b\u8bd5\u7528\u4f8b 4\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1513D\/2aa511e43d0533b40192099a2b9004202f659de5.png)\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1513D GCD and MST","type":2,"slug":"CF1513D","color":"orange-3"},"discussions":[{"id":1136451,"title":"WA 3 \u6c42\u8c03","author":{"uid":794810,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/794810.png","name":"MagicalFlower","slogan":"AFO.","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":6,"xcpcLevel":0,"background":""},"time":1755570071},{"id":463088,"title":"\u7ffb\u8bd1\u6709\u8bef","author":{"uid":444235,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/444235.png","name":"Erinyes","slogan":"\u538b\u529b\u8bfa\uff1f","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/peyp9shj.png"},"time":1658374436},{"id":447101,"title":"\u6c42\u8bc1\u4f2a","author":{"uid":158400,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/158400.png","name":"\u6674\u7a7a\u4e00\u9e64","slogan":"\u6070\u4f3c\u4eba\u95f4\u60ca\u9e3f\u5ba2\uff0c\u58a8\u67d3\u661f\u8fb0\u4e91\u6c34\u95f4","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/u4no1l4g.png"},"time":1654936237}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.702193,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1513D GCD and MST","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a n\uff08n \\geq 2\uff09\u7684\u6b63\u6574\u6570\u6570\u7ec4 a \u548c\u4e00\u4e2a\u6574\u6570 p\u3002\u8003\u8651\u4e00\u4e2a\u6709 n \u4e2a\u9876\u70b9\u7684\u65e0\u5411\u5e26\u6743\u56fe\uff0c\u9876\u70b9\u7f16\u53f7\u4ece 1 \u5230 n\uff0c\u5bf9\u4e8e\u6bcf\u4e00\u5bf9\u9876\u70b9 i \u548c j\uff08i&lt;j\uff09\uff0c\u6309\u7167\u5982\u4e0b\u65b9\u5f0f\u6dfb\u52a0\u8fb9\uff1a\n\n\u5982\u679c gcd(a_i, a_{i+1},\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1513D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1513D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1513D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1513D GCD and MST" />
+    <meta property="og:description" content="给定一个长度为 n（n \geq 2）的正整数数组 a 和一个整数 p。考虑一个有 n 个顶点的无向带权图，顶点编号从 1 到 n，对于每一对顶点 i 和 j（i&amp;lt;j），按照如下方式添加边：
+
+如果 gcd(a_i, a_{i+1},…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1513D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1513D GCD and MST</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个长度为 $n$（$n \geq 2$）的正整数数组 $a$ 和一个整数 $p$。考虑一个有 $n$ 个顶点的无向带权图，顶点编号从 $1$ 到 $n$，对于每一对顶点 $i$ 和 $j$（$i
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 10^4$），表示测试用例的数量。
+
+每个测试用例的第一行包含两个整数 $n$（$2 \leq n \leq 2 \times 10^5$）和 $p$（$1 \leq p \leq 10^9$），分别表示节点数和参数 $p$。
+
+第二行包含 $n$ 个整数 $a_1, a_2, a_3, \dots, a_n$（$1 \leq a_i \leq 10^9$）。
+
+保证所有测试用例中 $n$ 的总和不超过 $2 \times 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出 $t$ 行，每行一个整数，表示对应图的最小生成树的权值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                以下是样例的四个测试用例对应的图（可能的最小生成树的边用粉色标记）：
+
+对于测试用例 1
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1513D/73410493ea480145bcececd4920bc7b442158d5d.png)
+
+对于测试用例 2
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1513D/244430036440b5951052685b881ac283e38569b1.png)
+
+对于测试用例 3
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1513D/3b76480fd803697ef4eb1c8f9a262cb141140b6b.png)
+
+对于测试用例 4
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1513D/2aa511e43d0533b40192099a2b9004202f659de5.png)
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

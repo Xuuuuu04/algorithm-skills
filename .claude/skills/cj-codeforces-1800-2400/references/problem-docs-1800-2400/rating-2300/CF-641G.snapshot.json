@@ -1,0 +1,26 @@
+{
+  "id": "CF-641G",
+  "contest_id": 641,
+  "index": "G",
+  "name": "Little Artem and Graph",
+  "rating": 2300,
+  "tags": [],
+  "url": "https://codeforces.com/problemset/problem/641/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/641/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/641/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=641G%20Little Artem and Graph%20tutorial",
+  "solved_count": 104,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P641G",
+  "hydro_meta": {
+    "page_title": "Little Artem and Graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "12000ms",
+    "memory_limit": "256MiB"
+  }
+}

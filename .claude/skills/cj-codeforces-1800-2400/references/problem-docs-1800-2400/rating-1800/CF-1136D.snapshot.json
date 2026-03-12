@@ -1,0 +1,31 @@
+{
+  "id": "CF-1136D",
+  "contest_id": 1136,
+  "index": "D",
+  "name": "Nastya Is Buying Lunch",
+  "rating": 1800,
+  "tags": [
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1136/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1136/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1136/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1136D%20Nastya Is Buying Lunch%20tutorial",
+  "solved_count": 3979,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1136D",
+  "hydro_meta": {
+    "page_title": "Nastya Is Buying Lunch - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

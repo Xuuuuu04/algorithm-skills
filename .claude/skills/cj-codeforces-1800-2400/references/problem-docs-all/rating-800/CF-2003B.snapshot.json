@@ -1,0 +1,29 @@
+{
+  "id": "CF-2003B",
+  "contest_id": 2003,
+  "index": "B",
+  "name": "Turtle and Piggy Are Playing a Game 2",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "games",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 27353,
+  "problem_url": "https://codeforces.com/problemset/problem/2003/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2003/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2003/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2003B%20Turtle%20and%20Piggy%20Are%20Playing%20a%20Game%202%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2003/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2003B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

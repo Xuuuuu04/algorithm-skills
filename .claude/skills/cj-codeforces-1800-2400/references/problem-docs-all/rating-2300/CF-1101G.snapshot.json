@@ -1,0 +1,32 @@
+{
+  "id": "CF-1101G",
+  "contest_id": 1101,
+  "index": "G",
+  "name": "(Zero XOR Subset)-less",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "matrices"
+  ],
+  "solved_count": 2151,
+  "problem_url": "https://codeforces.com/problemset/problem/1101/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1101/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1101/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1101G%20%28Zero%20XOR%20Subset%29-less%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1101G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "(Zero XOR Subset)-less - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "matrices",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2125A Difficult Contest - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2125A","type":"CF","title":"Difficult Contest","difficulty":2,"tags":[113,318],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Difficult Contest","background":null,"description":"\u4e00\u573a\u6bd4\u8d5b\u53ef\u4ee5\u7528\u8868\u793a\u5176\u9898\u76ee\u7684\u4e00\u4e9b\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u6784\u6210\u7684\u5b57\u7b26\u4e32 $s$ \u8868\u793a\u3002\u5f53\u5176\u4e2d\u542b\u6709\u201cFFT\u201d\u6216\u201cNTT\u201d\u4f5c\u4e3a\u5b83\u7684\u8fde\u7eed\u5b50\u4e32\u65f6\uff0c\u6211\u4eec\u79f0\u8fd9\u573a\u6bd4\u8d5b\u662f\u56f0\u96be\u7684\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u91cd\u6392 $s$ \u7684\u9898\u76ee\u4f7f\u5f97\u8fd9\u573a\u6bd4\u8d5b\u4e0d\u518d\u56f0\u96be\u3002\u5982\u679c\u521d\u59cb\u65f6\u8fd9\u573a\u6bd4\u8d5b\u5c31\u4e0d\u56f0\u96be\uff0c\u4f60\u53ef\u4ee5\u8ba9\u5b83\u4fdd\u6301\u539f\u6837\u3002","formatI":"\u591a\u7ec4\u6570\u636e\u3002\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t(1\\le t\\le 10^4)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u5165\u4e00\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32 $s(1\\le\\vert s\\vert\\le 2\\times 10^5)$\u3002\n\n\u4fdd\u8bc1\u5355\u4e2a\u6d4b\u8bd5\u70b9\u4e2d\u5b57\u7b26\u4e32\u957f\u5ea6\u7684\u548c\u4e0d\u8d85\u8fc7 $2\\times 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u4e3a\u91cd\u6392 $s$ \u7684\u5b57\u7b26\u5f97\u5230\u7684\u4e00\u573a\u4e0d\u56f0\u96be\u7684\u6bd4\u8d5b\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5747\u53ef\u3002\u53ef\u4ee5\u8bc1\u660e\u603b\u662f\u5b58\u5728\u81f3\u5c11\u4e00\u79cd\u89e3\u3002","hint":null,"locale":"zh-CN"},"content":{"name":"Difficult Contest","background":"","description":"It is known that a contest can be represented by a string $ s $ , consisting of uppercase Latin letters that denote problems. It is also known that a contest is difficult if it contains \u0022FFT\u0022 or \u0022NTT\u0022 as a contiguous substring.\n\nYour task is to rearrange the problem in contest $ s $ in such a way that this contest is not difficult. If the initial contest is not difficult, you may leave it as it is.","formatI":"Each test consists of several test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^{4} $ ) \u2014 the number of test cases. The description of the test cases follows.\n\nThe only line of each test case contains $ s $ ( $ 1 \\le |s| \\le 2 \\cdot 10^{5} $ ).\n\nAdditional constraints on the input data:\n\n- the total length of strings across all test cases does not exceed $ 2 \\cdot 10^{5} $ .","formatO":"For each test case, output a string \u2014 a non-difficult contest that was obtained from $ s $ by rearranging the letters.\n\nIf there are multiple correct answers, you may output any. It can be shown that at least one correct answer always exists.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\nFFT\nABFBANTTA\nFFTNTT\nFFTFFTFFTNNTNNT\nAFFTBFFNTTFTTZ","FTF\nABFBANATT\nNTFTFT\nTFFFFFFNTNTNTNT\nAFTFBTTFFNFTTZ"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2125A","link":"https:\/\/codeforces.com\/problemset\/problem\/2125\/A"},"translation":""},"translations":{"en":{"name":"Difficult Contest","background":"","description":"It is known that a contest can be represented by a string $ s $ , consisting of uppercase Latin letters that denote problems. It is also known that a contest is difficult if it contains \u0022FFT\u0022 or \u0022NTT\u0022 as a contiguous substring.\n\nYour task is to rearrange the problem in contest $ s $ in such a way that this contest is not difficult. If the initial contest is not difficult, you may leave it as it is.","formatI":"Each test consists of several test cases. The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^{4} $ ) \u2014 the number of test cases. The description of the test cases follows.\n\nThe only line of each test case contains $ s $ ( $ 1 \\le |s| \\le 2 \\cdot 10^{5} $ ).\n\nAdditional constraints on the input data:\n\n- the total length of strings across all test cases does not exceed $ 2 \\cdot 10^{5} $ .","formatO":"For each test case, output a string \u2014 a non-difficult contest that was obtained from $ s $ by rearranging the letters.\n\nIf there are multiple correct answers, you may output any. It can be shown that at least one correct answer always exists.","hint":"","locale":"en"},"zh-CN":{"name":"Difficult Contest","background":null,"description":"\u4e00\u573a\u6bd4\u8d5b\u53ef\u4ee5\u7528\u8868\u793a\u5176\u9898\u76ee\u7684\u4e00\u4e9b\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u6784\u6210\u7684\u5b57\u7b26\u4e32 $s$ \u8868\u793a\u3002\u5f53\u5176\u4e2d\u542b\u6709\u201cFFT\u201d\u6216\u201cNTT\u201d\u4f5c\u4e3a\u5b83\u7684\u8fde\u7eed\u5b50\u4e32\u65f6\uff0c\u6211\u4eec\u79f0\u8fd9\u573a\u6bd4\u8d5b\u662f\u56f0\u96be\u7684\u3002\n\n\u4f60\u7684\u4efb\u52a1\u662f\u91cd\u6392 $s$ \u7684\u9898\u76ee\u4f7f\u5f97\u8fd9\u573a\u6bd4\u8d5b\u4e0d\u518d\u56f0\u96be\u3002\u5982\u679c\u521d\u59cb\u65f6\u8fd9\u573a\u6bd4\u8d5b\u5c31\u4e0d\u56f0\u96be\uff0c\u4f60\u53ef\u4ee5\u8ba9\u5b83\u4fdd\u6301\u539f\u6837\u3002","formatI":"\u591a\u7ec4\u6570\u636e\u3002\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t(1\\le t\\le 10^4)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u5165\u4e00\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32 $s(1\\le\\vert s\\vert\\le 2\\times 10^5)$\u3002\n\n\u4fdd\u8bc1\u5355\u4e2a\u6d4b\u8bd5\u70b9\u4e2d\u5b57\u7b26\u4e32\u957f\u5ea6\u7684\u548c\u4e0d\u8d85\u8fc7 $2\\times 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u4e3a\u91cd\u6392 $s$ \u7684\u5b57\u7b26\u5f97\u5230\u7684\u4e00\u573a\u4e0d\u56f0\u96be\u7684\u6bd4\u8d5b\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u5747\u53ef\u3002\u53ef\u4ee5\u8bc1\u660e\u603b\u662f\u5b58\u5728\u81f3\u5c11\u4e00\u79cd\u89e3\u3002","hint":null,"locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2125A Difficult Contest","type":2,"slug":"CF2125A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.150531,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2125A Difficult Contest","description":"\u4e00\u573a\u6bd4\u8d5b\u53ef\u4ee5\u7528\u8868\u793a\u5176\u9898\u76ee\u7684\u4e00\u4e9b\u5927\u5199\u82f1\u6587\u5b57\u6bcd\u6784\u6210\u7684\u5b57\u7b26\u4e32 s \u8868\u793a\u3002\u5f53\u5176\u4e2d\u542b\u6709\u201cFFT\u201d\u6216\u201cNTT\u201d\u4f5c\u4e3a\u5b83\u7684\u8fde\u7eed\u5b50\u4e32\u65f6\uff0c\u6211\u4eec\u79f0\u8fd9\u573a\u6bd4\u8d5b\u662f\u56f0\u96be\u7684\u3002\n\u4f60\u7684\u4efb\u52a1\u662f\u91cd\u6392 s \u7684\u9898\u76ee\u4f7f\u5f97\u8fd9\u573a\u6bd4\u8d5b\u4e0d\u518d\u56f0\u96be\u3002\u5982\u679c\u521d\u59cb\u65f6\u8fd9\u573a\u6bd4\u8d5b\u5c31\u4e0d\u56f0\u96be\uff0c\u4f60\u53ef\u4ee5\u8ba9\u5b83\u4fdd\u6301\u539f\u6837\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2125A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2125A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2125A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2125A Difficult Contest" />
+    <meta property="og:description" content="一场比赛可以用表示其题目的一些大写英文字母构成的字符串 s 表示。当其中含有“FFT”或“NTT”作为它的连续子串时，我们称这场比赛是困难的。
+你的任务是重排 s 的题目使得这场比赛不再困难。如果初始时这场比赛就不困难，你可以让它保持原样。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2125A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2125A Difficult Contest</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    一场比赛可以用表示其题目的一些大写英文字母构成的字符串 $s$ 表示。当其中含有“FFT”或“NTT”作为它的连续子串时，我们称这场比赛是困难的。
+
+你的任务是重排 $s$ 的题目使得这场比赛不再困难。如果初始时这场比赛就不困难，你可以让它保持原样。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    多组数据。第一行一个整数 $t(1\le t\le 10^4)$，表示数据组数。
+
+对于每组数据，输入一行一个字符串 $s(1\le\vert s\vert\le 2\times 10^5)$。
+
+保证单个测试点中字符串长度的和不超过 $2\times 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组数据，输出一行一个字符串，为重排 $s$ 的字符得到的一场不困难的比赛。
+
+如果有多种解，输出任意一种均可。可以证明总是存在至少一种解。
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

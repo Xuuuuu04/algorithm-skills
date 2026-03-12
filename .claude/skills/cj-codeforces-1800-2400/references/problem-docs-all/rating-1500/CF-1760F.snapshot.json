@@ -1,0 +1,29 @@
+{
+  "id": "CF-1760F",
+  "contest_id": 1760,
+  "index": "F",
+  "name": "Quests",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 14532,
+  "problem_url": "https://codeforces.com/problemset/problem/1760/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1760/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1760/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1760F%20Quests%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1760/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1760F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

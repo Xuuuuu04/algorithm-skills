@@ -1,0 +1,32 @@
+{
+  "id": "CF-73A",
+  "contest_id": 73,
+  "index": "A",
+  "name": "The Elder Trolls IV: Oblivon",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 1620,
+  "problem_url": "https://codeforces.com/problemset/problem/73/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/73/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/73/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=73A%20The%20Elder%20Trolls%20IV%3A%20Oblivon%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P73A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Elder Trolls IV: Oblivon - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

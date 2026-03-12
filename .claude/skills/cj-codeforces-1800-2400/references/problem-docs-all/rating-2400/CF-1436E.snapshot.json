@@ -1,0 +1,34 @@
+{
+  "id": "CF-1436E",
+  "contest_id": 1436,
+  "index": "E",
+  "name": "Complicated Computations",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "two pointers"
+  ],
+  "solved_count": 2625,
+  "problem_url": "https://codeforces.com/problemset/problem/1436/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1436/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1436/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1436E%20Complicated%20Computations%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1436E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Complicated Computations - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "two pointers",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CF-1254B1",
+  "contest_id": 1254,
+  "index": "B1",
+  "name": "Send Boxes to Alice (Easy Version)",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "number theory",
+    "ternary search",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1254/B1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1254/problem/B1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1254/problem/B1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1254B1%20Send Boxes to Alice (Easy Version)%20tutorial",
+  "solved_count": 4959,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1254B1",
+  "hydro_meta": {
+    "page_title": "Send Boxes to Alice (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "ternary search",
+      "two pointers",
+      "*1800"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

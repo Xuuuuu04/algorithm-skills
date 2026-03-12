@@ -1,0 +1,35 @@
+{
+  "id": "CF-1475F",
+  "contest_id": 1475,
+  "index": "F",
+  "name": "Unusual Matrix",
+  "rating": 1900,
+  "tags": [
+    "2-sat",
+    "brute force",
+    "constructive algorithms"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1475/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1475/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1475/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1475F%20Unusual Matrix%20tutorial",
+  "solved_count": 5833,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1475F",
+  "hydro_meta": {
+    "page_title": "Unusual Matrix - 题目详情 - Hydro",
+    "hydro_tags": [
+      "2-sat",
+      "brute force",
+      "constructive algorithms",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

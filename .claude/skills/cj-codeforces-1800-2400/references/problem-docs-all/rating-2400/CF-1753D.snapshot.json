@@ -1,0 +1,30 @@
+{
+  "id": "CF-1753D",
+  "contest_id": 1753,
+  "index": "D",
+  "name": "The Beach",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "shortest paths"
+  ],
+  "solved_count": 2031,
+  "problem_url": "https://codeforces.com/problemset/problem/1753/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1753/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1753/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1753D%20The%20Beach%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1753/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1753D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

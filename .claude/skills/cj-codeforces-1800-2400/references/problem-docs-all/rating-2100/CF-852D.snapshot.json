@@ -1,0 +1,36 @@
+{
+  "id": "CF-852D",
+  "contest_id": 852,
+  "index": "D",
+  "name": "Exploration plan",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "flows",
+    "graph matchings",
+    "shortest paths"
+  ],
+  "solved_count": 1213,
+  "problem_url": "https://codeforces.com/problemset/problem/852/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/852/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/852/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=852D%20Exploration%20plan%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P852D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Exploration plan - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "flows",
+      "graph matchings",
+      "shortest paths",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

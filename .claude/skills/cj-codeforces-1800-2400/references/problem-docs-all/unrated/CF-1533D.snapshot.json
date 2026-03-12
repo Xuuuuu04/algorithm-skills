@@ -1,0 +1,28 @@
+{
+  "id": "CF-1533D",
+  "contest_id": 1533,
+  "index": "D",
+  "name": "String Searching",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "hashing"
+  ],
+  "solved_count": 514,
+  "problem_url": "https://codeforces.com/problemset/problem/1533/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1533/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1533/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1533D%20String%20Searching%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1533/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1533D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

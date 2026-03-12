@@ -1,0 +1,33 @@
+{
+  "id": "CF-340E",
+  "contest_id": 340,
+  "index": "E",
+  "name": "Iahub and Permutations",
+  "rating": 2000,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/340/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/340/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/340/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=340E%20Iahub and Permutations%20tutorial",
+  "solved_count": 2723,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P340E",
+  "hydro_meta": {
+    "page_title": "Iahub and Permutations - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "math",
+      "*2000"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

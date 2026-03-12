@@ -1,0 +1,40 @@
+{
+  "id": "CF-1712D",
+  "contest_id": 1712,
+  "index": "D",
+  "name": "Empty Graph",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1712/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1712/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1712/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1712D%20Empty Graph%20tutorial",
+  "solved_count": 5042,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1712D",
+  "hydro_meta": {
+    "page_title": "Empty Graph - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

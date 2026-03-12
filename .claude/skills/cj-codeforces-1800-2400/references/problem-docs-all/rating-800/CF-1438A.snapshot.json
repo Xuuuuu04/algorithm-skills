@@ -1,0 +1,28 @@
+{
+  "id": "CF-1438A",
+  "contest_id": 1438,
+  "index": "A",
+  "name": "Specific Tastes of Andre ",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 19715,
+  "problem_url": "https://codeforces.com/problemset/problem/1438/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1438/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1438/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1438A%20Specific%20Tastes%20of%20Andre%20%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1438A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1438A Specific Tastes of Andre - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 259,
+    "mirror_attempt": 341,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

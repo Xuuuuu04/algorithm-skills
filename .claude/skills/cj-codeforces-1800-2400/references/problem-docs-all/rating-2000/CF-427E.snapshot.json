@@ -1,0 +1,36 @@
+{
+  "id": "CF-427E",
+  "contest_id": 427,
+  "index": "E",
+  "name": "Police Patrol",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math",
+    "ternary search"
+  ],
+  "solved_count": 1592,
+  "problem_url": "https://codeforces.com/problemset/problem/427/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/427/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/427/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=427E%20Police%20Patrol%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P427E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Police Patrol - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "ternary search",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

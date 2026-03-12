@@ -1,0 +1,40 @@
+{
+  "id": "CF-1716C",
+  "contest_id": 1716,
+  "index": "C",
+  "name": "Robot in a Hallway",
+  "rating": 2000,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "implementation",
+    "ternary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1716/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1716/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1716/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1716C%20Robot in a Hallway%20tutorial",
+  "solved_count": 4544,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1716C",
+  "hydro_meta": {
+    "page_title": "Robot in a Hallway - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

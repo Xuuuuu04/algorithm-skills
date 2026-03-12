@@ -1,0 +1,14 @@
+{
+  "name": "cj2sql",
+  "full_name": "cangjielanguage-sig/cj2sql",
+  "html_url": "https://github.com/cangjielanguage-sig/cj2sql",
+  "description": "将仓颉代码转换成 SQL",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.4",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/cj2sql/main/cjpm.toml"
+}

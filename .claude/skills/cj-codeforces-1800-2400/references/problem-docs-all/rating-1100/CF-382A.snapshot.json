@@ -1,0 +1,28 @@
+{
+  "id": "CF-382A",
+  "contest_id": 382,
+  "index": "A",
+  "name": "Ksenia and Pan Scales",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 13564,
+  "problem_url": "https://codeforces.com/problemset/problem/382/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/382/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/382/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=382A%20Ksenia%20and%20Pan%20Scales%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/382/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 382A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

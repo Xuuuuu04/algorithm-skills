@@ -1,0 +1,30 @@
+{
+  "id": "CF-1363E",
+  "contest_id": 1363,
+  "index": "E",
+  "name": "Tree Shuffling",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 7448,
+  "problem_url": "https://codeforces.com/problemset/problem/1363/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1363/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1363/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1363E%20Tree%20Shuffling%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1363E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1363E Tree Shuffling - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 239,
+    "mirror_attempt": 426,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-2152H2",
+  "contest_id": 2152,
+  "index": "H2",
+  "name": "Victorious Coloring (Hard Version)",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "schedules"
+  ],
+  "solved_count": 184,
+  "problem_url": "https://codeforces.com/problemset/problem/2152/H2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2152/problem/H2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2152/problem/H2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2152H2%20Victorious%20Coloring%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2152/H2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2152H2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

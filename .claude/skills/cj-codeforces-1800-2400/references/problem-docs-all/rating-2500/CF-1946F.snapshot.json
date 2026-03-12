@@ -1,0 +1,37 @@
+{
+  "id": "CF-1946F",
+  "contest_id": 1946,
+  "index": "F",
+  "name": "Nobody is needed",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "2-sat",
+    "data structures",
+    "dfs and similar",
+    "dp"
+  ],
+  "solved_count": 1217,
+  "problem_url": "https://codeforces.com/problemset/problem/1946/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1946/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1946/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1946F%20Nobody%20is%20needed%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1946F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nobody is needed - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "math",
+      "number theory",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "6000ms",
+    "memory_limit": "512MiB"
+  }
+}

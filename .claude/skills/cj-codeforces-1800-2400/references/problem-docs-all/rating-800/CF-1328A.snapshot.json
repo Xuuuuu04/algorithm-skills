@@ -1,0 +1,27 @@
+{
+  "id": "CF-1328A",
+  "contest_id": 1328,
+  "index": "A",
+  "name": "Divisibility Problem",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 129362,
+  "problem_url": "https://codeforces.com/problemset/problem/1328/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1328/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1328/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1328A%20Divisibility%20Problem%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1328A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1328A Divisibility Problem - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 554,
+    "mirror_attempt": 1142,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

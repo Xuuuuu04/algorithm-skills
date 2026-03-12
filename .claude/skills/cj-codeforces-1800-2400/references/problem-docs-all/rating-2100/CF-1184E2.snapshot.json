@@ -1,0 +1,36 @@
+{
+  "id": "CF-1184E2",
+  "contest_id": 1184,
+  "index": "E2",
+  "name": "Daleks' Invasion (medium)",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "shortest paths",
+    "trees"
+  ],
+  "solved_count": 1047,
+  "problem_url": "https://codeforces.com/problemset/problem/1184/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1184/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1184/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1184E2%20Daleks%27%20Invasion%20%28medium%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1184E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Daleks' Invasion (medium) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "graphs",
+      "shortest paths",
+      "trees",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "15000ms",
+    "memory_limit": "256MiB"
+  }
+}

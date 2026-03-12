@@ -1,0 +1,33 @@
+{
+  "id": "CF-1533F",
+  "contest_id": 1533,
+  "index": "F",
+  "name": "Binary String Partition",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "binary search",
+    "greedy"
+  ],
+  "solved_count": 224,
+  "problem_url": "https://codeforces.com/problemset/problem/1533/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1533/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1533/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1533F%20Binary%20String%20Partition%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1533F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Binary String Partition - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "binary search",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CF-1777E",
+  "contest_id": 1777,
+  "index": "E",
+  "name": "Edge Reverse",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "binary search",
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 2306,
+  "problem_url": "https://codeforces.com/problemset/problem/1777/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1777/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1777/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1777E%20Edge%20Reverse%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1777E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Edge Reverse - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "sortings",
+      "trees"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

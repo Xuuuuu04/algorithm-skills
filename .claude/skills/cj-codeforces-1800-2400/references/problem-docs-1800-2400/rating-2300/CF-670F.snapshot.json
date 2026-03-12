@@ -1,0 +1,36 @@
+{
+  "id": "CF-670F",
+  "contest_id": 670,
+  "index": "F",
+  "name": "Restore a Number",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/670/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/670/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/670/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=670F%20Restore a Number%20tutorial",
+  "solved_count": 891,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P670F",
+  "hydro_meta": {
+    "page_title": "Restore a Number - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "strings",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

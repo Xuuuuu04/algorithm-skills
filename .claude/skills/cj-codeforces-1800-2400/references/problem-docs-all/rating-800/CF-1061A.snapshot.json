@@ -1,0 +1,29 @@
+{
+  "id": "CF-1061A",
+  "contest_id": 1061,
+  "index": "A",
+  "name": "Coins",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 23860,
+  "problem_url": "https://codeforces.com/problemset/problem/1061/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1061/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1061/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1061A%20Coins%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1061A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1061A Coins - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 142,
+    "mirror_attempt": 242,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CF-2101E",
+  "contest_id": 2101,
+  "index": "E",
+  "name": "Kia Bakes a Cake",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 265,
+  "problem_url": "https://codeforces.com/problemset/problem/2101/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2101/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2101/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2101E%20Kia%20Bakes%20a%20Cake%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2101E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Kia Bakes a Cake - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "6000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CF-2187B",
+  "contest_id": 2187,
+  "index": "B",
+  "name": "Shortest Statement Ever",
+  "rating": 1800,
+  "tags": [
+    "bitmasks",
+    "constructive algorithms",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2187/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2187/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2187/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2187B%20Shortest Statement Ever%20tutorial",
+  "solved_count": 4835,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2187B",
+  "hydro_meta": {
+    "page_title": "Shortest Statement Ever - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

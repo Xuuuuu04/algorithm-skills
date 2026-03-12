@@ -1,0 +1,29 @@
+{
+  "id": "CF-398D",
+  "contest_id": 398,
+  "index": "D",
+  "name": "Instant Messanger",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 1242,
+  "problem_url": "https://codeforces.com/problemset/problem/398/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/398/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/398/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=398D%20Instant%20Messanger%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P398D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Instant Messanger - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

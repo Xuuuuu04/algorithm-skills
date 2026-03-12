@@ -1,0 +1,33 @@
+{
+  "id": "CF-380C",
+  "contest_id": 380,
+  "index": "C",
+  "name": "Sereja and Brackets",
+  "rating": 2000,
+  "tags": [
+    "data structures",
+    "schedules"
+  ],
+  "url": "https://codeforces.com/problemset/problem/380/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/380/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/380/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=380C%20Sereja and Brackets%20tutorial",
+  "solved_count": 19173,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P380C",
+  "hydro_meta": {
+    "page_title": "Sereja and Brackets - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "schedules",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

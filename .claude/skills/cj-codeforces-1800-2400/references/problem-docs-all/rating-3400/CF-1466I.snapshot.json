@@ -1,0 +1,35 @@
+{
+  "id": "CF-1466I",
+  "contest_id": 1466,
+  "index": "I",
+  "name": "The Riddle of the Sphinx",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 4000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "interactive"
+  ],
+  "solved_count": 228,
+  "problem_url": "https://codeforces.com/problemset/problem/1466/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1466/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1466/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1466I%20The%20Riddle%20of%20the%20Sphinx%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1466I",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Riddle of the Sphinx - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "data structures",
+      "interactive",
+      "*3400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

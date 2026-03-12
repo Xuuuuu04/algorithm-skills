@@ -1,0 +1,35 @@
+{
+  "id": "CF-1607H",
+  "contest_id": 1607,
+  "index": "H",
+  "name": "Banquet Preparations 2",
+  "rating": 2200,
+  "tags": [
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1607/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1607/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1607/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1607H%20Banquet Preparations 2%20tutorial",
+  "solved_count": 1394,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1607H",
+  "hydro_meta": {
+    "page_title": "Banquet Preparations 2 - 题目详情 - Hydro",
+    "hydro_tags": [
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1644A Doors and Keys - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1644A","type":"CF","title":"Doors and Keys","difficulty":1,"tags":[1,2,287],"wantsTranslation":false,"totalSubmit":932,"totalAccepted":486,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Doors and Keys","background":null,"description":"\u9a91\u58eb\u6b63\u7ad9\u5728\u4e00\u6761\u53c8\u957f\u53c8\u7a84\u7684\u8d70\u5eca\u524d\u3002\u516c\u4e3b\u6b63\u5728\u8d70\u5eca\u7684\u5c3d\u5934\u7b49\u7740\u4ed6\u3002\n\n\u5728\u8d70\u5eca\u4e2d\u6709\u4e09\u6247\u95e8\uff1a\u4e00\u6247\u7ea2\u95e8\u3001\u4e00\u6247\u7eff\u95e8\u548c\u4e00\u6247\u84dd\u95e8\u3002\u8fd9\u4e9b\u95e8\u4f9d\u6b21\u6392\u5217\uff0c\u4f46\u987a\u5e8f\u53ef\u80fd\u4e0d\u540c\u3002\u8981\u524d\u5f80\u4e0b\u4e00\u6247\u95e8\uff0c\u9a91\u58eb\u5fc5\u987b\u5148\u6253\u5f00\u524d\u9762\u7684\u95e8\u3002\n\n\u6bcf\u6247\u95e8\u53ea\u80fd\u7528\u5bf9\u5e94\u989c\u8272\u7684\u94a5\u5319\u6253\u5f00\u3002\u56e0\u6b64\uff0c\u4e09\u628a\u94a5\u5319\uff1a\u7ea2\u94a5\u5319\u3001\u7eff\u94a5\u5319\u548c\u84dd\u94a5\u5319\uff0c\u4e5f\u88ab\u653e\u7f6e\u5728\u8d70\u5eca\u7684\u67d0\u5904\u3002\u8981\u6253\u5f00\u95e8\uff0c\u9a91\u58eb\u5fc5\u987b\u5148\u6361\u8d77\u4e0e\u95e8\u989c\u8272\u76f8\u540c\u7684\u94a5\u5319\u3002\n\n\u9a91\u58eb\u6709\u4e00\u5f20\u8d70\u5eca\u7684\u5730\u56fe\u3002\u5730\u56fe\u53ef\u4ee5\u8868\u793a\u4e3a\u4e00\u4e2a\u7531\u516d\u4e2a\u5b57\u7b26\u7ec4\u6210\u7684\u5b57\u7b26\u4e32\uff1a\n\n- R\u3001G\u3001B \u5206\u522b\u8868\u793a\u7ea2\u95e8\u3001\u7eff\u95e8\u548c\u84dd\u95e8\uff1b\n- r\u3001g\u3001b \u5206\u522b\u8868\u793a\u7ea2\u94a5\u5319\u3001\u7eff\u94a5\u5319\u548c\u84dd\u94a5\u5319\u3002\n\n\u8fd9\u516d\u4e2a\u5b57\u7b26\u5728\u5b57\u7b26\u4e32\u4e2d\u5404\u51fa\u73b0\u4e00\u6b21\u3002\n\n\u9a91\u58eb\u7ad9\u5728\u8d70\u5eca\u7684\u8d77\u70b9\u2014\u2014\u4e5f\u5c31\u662f\u5730\u56fe\u7684\u6700\u5de6\u7aef\u3002\n\n\u7ed9\u5b9a\u4e00\u5f20\u8d70\u5eca\u7684\u5730\u56fe\uff0c\u5224\u65ad\u9a91\u58eb\u662f\u5426\u80fd\u591f\u6253\u5f00\u6240\u6709\u7684\u95e8\uff0c\u5e76\u5728\u8d70\u5eca\u5c3d\u5934\u4e0e\u516c\u4e3b\u76f8\u89c1\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 720$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u884c\u5b57\u7b26\u4e32\u3002\u6bcf\u4e2a\u5b57\u7b26\u4e3a R\u3001G\u3001B\uff08\u8868\u793a\u95e8\uff09\uff0c\u6216 r\u3001g\u3001b\uff08\u8868\u793a\u94a5\u5319\uff09\uff0c\u4e14\u6bcf\u79cd\u5b57\u7b26\u5404\u51fa\u73b0\u4e00\u6b21\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u9a91\u58eb\u80fd\u591f\u6253\u5f00\u6240\u6709\u7684\u95e8\uff0c\u8f93\u51fa YES\uff1b\u5426\u5219\u8f93\u51fa NO\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9a91\u58eb\u5148\u6536\u96c6\u6240\u6709\u94a5\u5319\uff0c\u7136\u540e\u7528\u5b83\u4eec\u6253\u5f00\u6240\u6709\u7684\u95e8\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9a91\u58eb\u9762\u524d\u5c31\u662f\u7ea2\u95e8\uff0c\u4f46\u4ed6\u8fd8\u6ca1\u6709\u7ea2\u94a5\u5319\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6bcf\u6247\u95e8\u524d\u9762\u90fd\u653e\u7740\u5bf9\u5e94\u7684\u94a5\u5319\uff0c\u56e0\u6b64\u9a91\u58eb\u6bcf\u6b21\u90fd\u80fd\u7acb\u5373\u6361\u5230\u94a5\u5319\u5e76\u6253\u5f00\u95e8\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9a91\u58eb\u65e0\u6cd5\u6253\u5f00\u84dd\u95e8\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Doors and Keys","background":"","description":"The knight is standing in front of a long and narrow hallway. A princess is waiting at the end of it.\n\nIn a hallway there are three doors: a red door, a green door and a blue door. The doors are placed one after another, however, possibly in a different order. To proceed to the next door, the knight must first open the door before.\n\nEach door can be only opened with a key of the corresponding color. So three keys: a red key, a green key and a blue key \u2014 are also placed somewhere in the hallway. To open the door, the knight should first pick up the key of its color.\n\nThe knight has a map of the hallway. It can be transcribed as a string, consisting of six characters:\n\n- R, G, B \u2014 denoting red, green and blue doors, respectively;\n- r, g, b \u2014 denoting red, green and blue keys, respectively.\n\nEach of these six characters appears in the string exactly once.\n\nThe knight is standing at the beginning of the hallway \u2014 on the left on the map.\n\nGiven a map of the hallway, determine if the knight can open all doors and meet the princess at the end of the hallway.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 720 $ ) \u2014 the number of testcases.\n\nEach testcase consists of a single string. Each character is one of R, G, B (for the doors), r, g, b (for the keys), and each of them appears exactly once.","formatO":"For each testcase, print YES if the knight can open all doors. Otherwise, print NO.","hint":"In the first testcase, the knight first collects all keys, then opens all doors with them.\n\nIn the second testcase, there is a red door right in front of the knight, but he doesn\u0027t have a key for it.\n\nIn the third testcase, the key to each door is in front of each respective door, so the knight collects the key and uses it immediately three times.\n\nIn the fourth testcase, the knight can\u0027t open the blue door.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\nrgbBRG\nRgbrBG\nbBrRgG\nrgRGBb","YES\nNO\nYES\nNO"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1644A","link":"https:\/\/codeforces.com\/problemset\/problem\/1644\/A"},"translation":"\u6709\u4e00\u4e2a\u9a91\u58eb\u7ad9\u5728\u4e00\u6761\u8d70\u5eca\u7684\u5de6\u7aef\uff0c\u5728\u8d70\u5eca\u7684\u53f3\u7aef\uff0c\u4e00\u4f4d\u516c\u4e3b\u6b63\u5728\u7b49\u5f85\u4ed6\u7684\u5230\u6765\u3002\n\n\u5728\u6765\u5230\u8fd9\u91cc\u4e4b\u524d\uff0c\u9a91\u58eb\u5c31\u4e86\u89e3\u5230\uff0c\u8fd9\u6761\u8d70\u5eca\u4e00\u5171\u6709\u4e09\u6247\u95e8\uff1a\u7ea2\u95e8\u3001\u7eff\u95e8\u548c\u84dd\u95e8\u3002\u5206\u522b\u5bf9\u5e94\u8fd9\u4e09\u6247\u95e8\u7684\u94a5\u5319\u5206\u522b\u662f\u7ea2\u94a5\u5319\u3001\u7eff\u94a5\u5319\u548c\u84dd\u94a5\u5319\u3002\u4ed6\u8fd8\u62e5\u6709\u4e00\u5f20\u8fd9\u6761\u8d70\u5eca\u7684\u5730\u56fe\uff0c\u5176\u53ef\u4ee5\u8f6c\u5316\u6210\u4e00\u4e2a\u4ec5\u5305\u542b\u4ee5\u4e0b $6$ \u4e2a\u5b57\u7b26\u7684\u5b57\u7b26\u4e32\uff1a\n\n- `R`\u3001`G`\u3001`B`\uff1a\u5206\u522b\u8868\u793a\u7ea2\u95e8\u3001\u7eff\u95e8\u548c\u84dd\u95e8\u3002\n- `r`\u3001`g`\u3001`b`\uff1a\u5206\u522b\u8868\u793a\u7ea2\u94a5\u5319\u3001\u7eff\u94a5\u5319\u548c\u84dd\u94a5\u5319\u3002\n\n\u9a91\u58eb\u80fd\u591f\u7ecf\u8fc7\u4e00\u6247\u95e8\uff0c\u5f53\u4e14\u4ec5\u5f53\u9a91\u58eb\u62e5\u6709\u4e0e\u5176\u5bf9\u5e94\u7684\u94a5\u5319\u3002\u7531\u4e8e\u516c\u4e3b\u4e0d\u613f\u610f\u7b49\u592a\u4e45\uff0c\u56e0\u6b64\u9a91\u58eb**\u53ea\u80fd\u4e00\u76f4\u5411\u53f3\u7aef\u8d70\uff0c\u4e0d\u80fd\u56de\u5934**\u3002\n\n\u8bf7\u5224\u65ad\u9a91\u58eb\u80fd\u5426\u8d70\u5230\u8d70\u5eca\u7684\u53f3\u7aef\u548c\u516c\u4e3b\u4f1a\u5408\u3002\n\n\u6570\u636e\u8303\u56f4\uff1a$t$ \u7ec4\u6570\u636e\uff0c$1\\leqslant t\\leqslant 720$\u3002\n\nTranslated by Eason_AC"},"translations":{"en":{"name":"Doors and Keys","background":"","description":"The knight is standing in front of a long and narrow hallway. A princess is waiting at the end of it.\n\nIn a hallway there are three doors: a red door, a green door and a blue door. The doors are placed one after another, however, possibly in a different order. To proceed to the next door, the knight must first open the door before.\n\nEach door can be only opened with a key of the corresponding color. So three keys: a red key, a green key and a blue key \u2014 are also placed somewhere in the hallway. To open the door, the knight should first pick up the key of its color.\n\nThe knight has a map of the hallway. It can be transcribed as a string, consisting of six characters:\n\n- R, G, B \u2014 denoting red, green and blue doors, respectively;\n- r, g, b \u2014 denoting red, green and blue keys, respectively.\n\nEach of these six characters appears in the string exactly once.\n\nThe knight is standing at the beginning of the hallway \u2014 on the left on the map.\n\nGiven a map of the hallway, determine if the knight can open all doors and meet the princess at the end of the hallway.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 720 $ ) \u2014 the number of testcases.\n\nEach testcase consists of a single string. Each character is one of R, G, B (for the doors), r, g, b (for the keys), and each of them appears exactly once.","formatO":"For each testcase, print YES if the knight can open all doors. Otherwise, print NO.","hint":"In the first testcase, the knight first collects all keys, then opens all doors with them.\n\nIn the second testcase, there is a red door right in front of the knight, but he doesn\u0027t have a key for it.\n\nIn the third testcase, the key to each door is in front of each respective door, so the knight collects the key and uses it immediately three times.\n\nIn the fourth testcase, the knight can\u0027t open the blue door.","locale":"en"},"zh-CN":{"name":"Doors and Keys","background":null,"description":"\u9a91\u58eb\u6b63\u7ad9\u5728\u4e00\u6761\u53c8\u957f\u53c8\u7a84\u7684\u8d70\u5eca\u524d\u3002\u516c\u4e3b\u6b63\u5728\u8d70\u5eca\u7684\u5c3d\u5934\u7b49\u7740\u4ed6\u3002\n\n\u5728\u8d70\u5eca\u4e2d\u6709\u4e09\u6247\u95e8\uff1a\u4e00\u6247\u7ea2\u95e8\u3001\u4e00\u6247\u7eff\u95e8\u548c\u4e00\u6247\u84dd\u95e8\u3002\u8fd9\u4e9b\u95e8\u4f9d\u6b21\u6392\u5217\uff0c\u4f46\u987a\u5e8f\u53ef\u80fd\u4e0d\u540c\u3002\u8981\u524d\u5f80\u4e0b\u4e00\u6247\u95e8\uff0c\u9a91\u58eb\u5fc5\u987b\u5148\u6253\u5f00\u524d\u9762\u7684\u95e8\u3002\n\n\u6bcf\u6247\u95e8\u53ea\u80fd\u7528\u5bf9\u5e94\u989c\u8272\u7684\u94a5\u5319\u6253\u5f00\u3002\u56e0\u6b64\uff0c\u4e09\u628a\u94a5\u5319\uff1a\u7ea2\u94a5\u5319\u3001\u7eff\u94a5\u5319\u548c\u84dd\u94a5\u5319\uff0c\u4e5f\u88ab\u653e\u7f6e\u5728\u8d70\u5eca\u7684\u67d0\u5904\u3002\u8981\u6253\u5f00\u95e8\uff0c\u9a91\u58eb\u5fc5\u987b\u5148\u6361\u8d77\u4e0e\u95e8\u989c\u8272\u76f8\u540c\u7684\u94a5\u5319\u3002\n\n\u9a91\u58eb\u6709\u4e00\u5f20\u8d70\u5eca\u7684\u5730\u56fe\u3002\u5730\u56fe\u53ef\u4ee5\u8868\u793a\u4e3a\u4e00\u4e2a\u7531\u516d\u4e2a\u5b57\u7b26\u7ec4\u6210\u7684\u5b57\u7b26\u4e32\uff1a\n\n- R\u3001G\u3001B \u5206\u522b\u8868\u793a\u7ea2\u95e8\u3001\u7eff\u95e8\u548c\u84dd\u95e8\uff1b\n- r\u3001g\u3001b \u5206\u522b\u8868\u793a\u7ea2\u94a5\u5319\u3001\u7eff\u94a5\u5319\u548c\u84dd\u94a5\u5319\u3002\n\n\u8fd9\u516d\u4e2a\u5b57\u7b26\u5728\u5b57\u7b26\u4e32\u4e2d\u5404\u51fa\u73b0\u4e00\u6b21\u3002\n\n\u9a91\u58eb\u7ad9\u5728\u8d70\u5eca\u7684\u8d77\u70b9\u2014\u2014\u4e5f\u5c31\u662f\u5730\u56fe\u7684\u6700\u5de6\u7aef\u3002\n\n\u7ed9\u5b9a\u4e00\u5f20\u8d70\u5eca\u7684\u5730\u56fe\uff0c\u5224\u65ad\u9a91\u58eb\u662f\u5426\u80fd\u591f\u6253\u5f00\u6240\u6709\u7684\u95e8\uff0c\u5e76\u5728\u8d70\u5eca\u5c3d\u5934\u4e0e\u516c\u4e3b\u76f8\u89c1\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 720$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5305\u542b\u4e00\u884c\u5b57\u7b26\u4e32\u3002\u6bcf\u4e2a\u5b57\u7b26\u4e3a R\u3001G\u3001B\uff08\u8868\u793a\u95e8\uff09\uff0c\u6216 r\u3001g\u3001b\uff08\u8868\u793a\u94a5\u5319\uff09\uff0c\u4e14\u6bcf\u79cd\u5b57\u7b26\u5404\u51fa\u73b0\u4e00\u6b21\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u9a91\u58eb\u80fd\u591f\u6253\u5f00\u6240\u6709\u7684\u95e8\uff0c\u8f93\u51fa YES\uff1b\u5426\u5219\u8f93\u51fa NO\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9a91\u58eb\u5148\u6536\u96c6\u6240\u6709\u94a5\u5319\uff0c\u7136\u540e\u7528\u5b83\u4eec\u6253\u5f00\u6240\u6709\u7684\u95e8\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9a91\u58eb\u9762\u524d\u5c31\u662f\u7ea2\u95e8\uff0c\u4f46\u4ed6\u8fd8\u6ca1\u6709\u7ea2\u94a5\u5319\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6bcf\u6247\u95e8\u524d\u9762\u90fd\u653e\u7740\u5bf9\u5e94\u7684\u94a5\u5319\uff0c\u56e0\u6b64\u9a91\u58eb\u6bcf\u6b21\u90fd\u80fd\u7acb\u5373\u6361\u5230\u94a5\u5319\u5e76\u6253\u5f00\u95e8\u3002\n\n\u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u9a91\u58eb\u65e0\u6cd5\u6253\u5f00\u84dd\u95e8\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1644A Doors and Keys","type":2,"slug":"CF1644A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.352035,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1644A Doors and Keys","description":"\u9a91\u58eb\u6b63\u7ad9\u5728\u4e00\u6761\u53c8\u957f\u53c8\u7a84\u7684\u8d70\u5eca\u524d\u3002\u516c\u4e3b\u6b63\u5728\u8d70\u5eca\u7684\u5c3d\u5934\u7b49\u7740\u4ed6\u3002\n\u5728\u8d70\u5eca\u4e2d\u6709\u4e09\u6247\u95e8\uff1a\u4e00\u6247\u7ea2\u95e8\u3001\u4e00\u6247\u7eff\u95e8\u548c\u4e00\u6247\u84dd\u95e8\u3002\u8fd9\u4e9b\u95e8\u4f9d\u6b21\u6392\u5217\uff0c\u4f46\u987a\u5e8f\u53ef\u80fd\u4e0d\u540c\u3002\u8981\u524d\u5f80\u4e0b\u4e00\u6247\u95e8\uff0c\u9a91\u58eb\u5fc5\u987b\u5148\u6253\u5f00\u524d\u9762\u7684\u95e8\u3002\n\u6bcf\u6247\u95e8\u53ea\u80fd\u7528\u5bf9\u5e94\u989c\u8272\u7684\u94a5\u5319\u6253\u5f00\u3002\u56e0\u6b64\uff0c\u4e09\u628a\u94a5\u5319\uff1a\u7ea2\u94a5\u5319\u3001\u7eff\u94a5\u5319\u548c\u84dd\u94a5\u5319\uff0c\u4e5f\u88ab\u653e\u7f6e\u5728\u8d70\u5eca\u7684\u67d0\u5904\u3002\u8981\u6253\u5f00\u95e8\uff0c\u9a91\u58eb\u5fc5\u987b\u5148\u6361\u8d77\u4e0e\u95e8\u989c\u8272\u76f8\u540c\u7684\u94a5\u5319\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1644A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1644A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1644A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1644A Doors and Keys" />
+    <meta property="og:description" content="骑士正站在一条又长又窄的走廊前。公主正在走廊的尽头等着他。
+在走廊中有三扇门：一扇红门、一扇绿门和一扇蓝门。这些门依次排列，但顺序可能不同。要前往下一扇门，骑士必须先打开前面的门。
+每扇门只能用对应颜色的钥匙打开。因此，三把钥匙：红钥匙、绿钥匙和蓝钥匙，也被放置在走廊的某处。要打开门，骑士必须先捡起与门颜色相同的钥匙。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1644A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1644A Doors and Keys</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    骑士正站在一条又长又窄的走廊前。公主正在走廊的尽头等着他。
+
+在走廊中有三扇门：一扇红门、一扇绿门和一扇蓝门。这些门依次排列，但顺序可能不同。要前往下一扇门，骑士必须先打开前面的门。
+
+每扇门只能用对应颜色的钥匙打开。因此，三把钥匙：红钥匙、绿钥匙和蓝钥匙，也被放置在走廊的某处。要打开门，骑士必须先捡起与门颜色相同的钥匙。
+
+骑士有一张走廊的地图。地图可以表示为一个由六个字符组成的字符串：
+
+- R、G、B 分别表示红门、绿门和蓝门；
+- r、g、b 分别表示红钥匙、绿钥匙和蓝钥匙。
+
+这六个字符在字符串中各出现一次。
+
+骑士站在走廊的起点——也就是地图的最左端。
+
+给定一张走廊的地图，判断骑士是否能够打开所有的门，并在走廊尽头与公主相见。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 720$），表示测试用例的数量。
+
+每个测试用例包含一行字符串。每个字符为 R、G、B（表示门），或 r、g、b（表示钥匙），且每种字符各出现一次。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果骑士能够打开所有的门，输出 YES；否则输出 NO。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，骑士先收集所有钥匙，然后用它们打开所有的门。
+
+在第二个测试用例中，骑士面前就是红门，但他还没有红钥匙。
+
+在第三个测试用例中，每扇门前面都放着对应的钥匙，因此骑士每次都能立即捡到钥匙并打开门。
+
+在第四个测试用例中，骑士无法打开蓝门。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "id": "CF-2139A",
+  "contest_id": 2139,
+  "index": "A",
+  "name": "Maple and Multiplication",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 25232,
+  "problem_url": "https://codeforces.com/problemset/problem/2139/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2139/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2139/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2139A%20Maple%20and%20Multiplication%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2139/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2139A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

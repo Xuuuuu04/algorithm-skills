@@ -1,0 +1,44 @@
+{
+  "id": "CF-1371E2",
+  "contest_id": 1371,
+  "index": "E2",
+  "name": "Asterism (Hard Version)",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "combinatorics",
+    "dp",
+    "math",
+    "number theory",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1371/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1371/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1371/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1371E2%20Asterism (Hard Version)%20tutorial",
+  "solved_count": 2491,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1371E2",
+  "hydro_meta": {
+    "page_title": "Asterism (Hard Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "sortings",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CF-615C",
+  "contest_id": 615,
+  "index": "C",
+  "name": "Running Track",
+  "rating": 2000,
+  "tags": [
+    "dp",
+    "greedy",
+    "strings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/615/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/615/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/615/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=615C%20Running Track%20tutorial",
+  "solved_count": 2452,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "字符串（KMP/哈希/自动机）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P615C",
+  "hydro_meta": {
+    "page_title": "Running Track - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "trees",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

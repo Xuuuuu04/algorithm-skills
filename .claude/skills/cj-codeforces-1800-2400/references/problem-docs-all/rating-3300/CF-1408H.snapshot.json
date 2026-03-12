@@ -1,0 +1,36 @@
+{
+  "id": "CF-1408H",
+  "contest_id": 1408,
+  "index": "H",
+  "name": "Rainbow Triples",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 3750.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "flows",
+    "greedy"
+  ],
+  "solved_count": 504,
+  "problem_url": "https://codeforces.com/problemset/problem/1408/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1408/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1408/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1408H%20Rainbow%20Triples%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1408H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Rainbow Triples - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "flows",
+      "greedy",
+      "*3300"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

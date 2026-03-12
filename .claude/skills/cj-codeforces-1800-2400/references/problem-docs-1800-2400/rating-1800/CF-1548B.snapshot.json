@@ -1,0 +1,42 @@
+{
+  "id": "CF-1548B",
+  "contest_id": 1548,
+  "index": "B",
+  "name": "Integers Have Friends",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "data structures",
+    "divide and conquer",
+    "math",
+    "number theory",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1548/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1548/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1548/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1548B%20Integers Have Friends%20tutorial",
+  "solved_count": 11163,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1548B",
+  "hydro_meta": {
+    "page_title": "Integers Have Friends - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "math",
+      "number theory",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 4,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

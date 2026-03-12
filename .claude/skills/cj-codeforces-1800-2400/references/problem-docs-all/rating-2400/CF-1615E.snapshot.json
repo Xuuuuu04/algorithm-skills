@@ -1,0 +1,40 @@
+{
+  "id": "CF-1615E",
+  "contest_id": 1615,
+  "index": "E",
+  "name": "Purple Crayon",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "games",
+    "graphs",
+    "greedy",
+    "math",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 1663,
+  "problem_url": "https://codeforces.com/problemset/problem/1615/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1615/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1615/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1615E%20Purple%20Crayon%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1615E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Purple Crayon - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "games",
+      "greedy",
+      "math",
+      "trees"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

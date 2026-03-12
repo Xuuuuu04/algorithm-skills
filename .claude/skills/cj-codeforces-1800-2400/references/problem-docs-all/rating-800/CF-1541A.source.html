@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414513:LdngN3njn65y/dA8vB8ef3hSuKpNzMUdKSUGkUsbFa4=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1541A Pretty Permutations - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1541A","type":"CF","title":"Pretty Permutations","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":2272,"totalAccepted":853,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Pretty Permutations","background":null,"description":"\u6709 $n$ \u53ea\u732b\u6392\u6210\u4e00\u884c\uff0c\u7f16\u53f7\u4ece $1$ \u5230 $n$\uff0c\u7b2c $i$ \u53ea\u732b\u4f4d\u4e8e\u4f4d\u7f6e $i$\u3002\u5b83\u4eec\u538c\u5026\u4e86\u4e00\u6574\u5929\u90fd\u5728\u539f\u5730\u6253\u8f6c\uff0c\u6240\u4ee5\u5b83\u4eec\u60f3\u8981\u91cd\u65b0\u6392\u5217\u81ea\u5df1\uff0c\u4f7f\u5f97\u6ca1\u6709\u4e00\u53ea\u732b\u5728\u539f\u6765\u7684\u4f4d\u7f6e\u4e0a\u3002\u5b83\u4eec\u53c8\u5f88\u61d2\uff0c\u6240\u4ee5\u5e0c\u671b\u79fb\u52a8\u7684\u603b\u8ddd\u79bb\u6700\u5c0f\u3002\u8bf7\u5e2e\u52a9\u5b83\u4eec\u51b3\u5b9a\u91cd\u65b0\u6392\u5217\u540e\u6bcf\u4e2a\u4f4d\u7f6e\u5e94\u8be5\u662f\u54ea\u53ea\u732b\u3002\n\n\u4f8b\u5982\uff0c\u5982\u679c\u6709 $3$ \u53ea\u732b\uff0c$[3, 1, 2]$ \u662f\u4e00\u4e2a\u5408\u6cd5\u7684\u91cd\u65b0\u6392\u5217\u3002\u6ca1\u6709\u4e00\u53ea\u732b\u5728\u539f\u6765\u7684\u4f4d\u7f6e\u4e0a\u3002\u732b $1$ \u5411\u53f3\u79fb\u52a8\u4e86 $1$ \u4e2a\u4f4d\u7f6e\uff0c\u732b $2$ \u5411\u53f3\u79fb\u52a8\u4e86 $1$ \u4e2a\u4f4d\u7f6e\uff0c\u732b $3$ \u5411\u5de6\u79fb\u52a8\u4e86 $2$ \u4e2a\u4f4d\u7f6e\uff0c\u603b\u79fb\u52a8\u8ddd\u79bb\u4e3a $1 + 1 + 2 = 4$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 100$\uff09\u2014\u2014\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6709 $t$ \u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\leq n \\leq 100$\uff09\u2014\u2014\u8868\u793a\u732b\u7684\u6570\u91cf\u3002\n\n\u53ef\u4ee5\u4fdd\u8bc1\u5728\u9898\u76ee\u7ed9\u5b9a\u7684\u7ea6\u675f\u4e0b\uff0c\u603b\u662f\u5b58\u5728\u6ee1\u8db3\u6761\u4ef6\u7684\u7b54\u6848\u3002","formatO":"\u8f93\u51fa $t$ \u884c\uff0c\u6bcf\u884c\u5bf9\u5e94\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b54\u6848\u3002\u6bcf\u4e2a\u7b54\u6848\u5305\u542b $n$ \u4e2a\u6574\u6570\uff0c\u8868\u793a\u4e00\u4e2a\u6ee1\u8db3\u6761\u4ef6\u4e14\u603b\u79fb\u52a8\u8ddd\u79bb\u6700\u5c0f\u7684\u6392\u5217\u3002\u5982\u679c\u6709\u591a\u4e2a\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u5373\u53ef\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u53ea\u6709\u4e00\u79cd\u6ee1\u8db3\u6761\u4ef6\u7684\u6392\u5217\uff1a[2, 1]\u3002\n\n\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5728\u9898\u76ee\u63cf\u8ff0\u4e2d\u5df2\u7ecf\u7ed9\u51fa\u3002\u53e6\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f [2, 3, 1]\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Pretty Permutations","background":"","description":"There are $ n $ cats in a line, labeled from $ 1 $ to $ n $ , with the $ i $ -th cat at position $ i $ . They are bored of gyrating in the same spot all day, so they want to reorder themselves such that no cat is in the same place as before. They are also lazy, so they want to minimize the total distance they move. Help them decide what cat should be at each location after the reordering.\n\nFor example, if there are $ 3 $ cats, this is a valid reordering: $ [3, 1, 2] $ . No cat is in its original position. The total distance the cats move is $ 1 + 1 + 2 = 4 $ as cat $ 1 $ moves one place to the right, cat $ 2 $ moves one place to the right, and cat $ 3 $ moves two places to the left.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 100 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe first and only line of each test case contains one integer $ n $ ( $ 2 \\leq n \\leq 100 $ ) \u2014 the number of cats.\n\nIt can be proven that under the constraints of the problem, an answer always exist.","formatO":"Output $ t $ answers, one for each test case. Each answer consists of $ n $ integers \u2014 a permutation with the minimum total distance. If there are multiple answers, print any.","hint":"For the first test case, there is only one possible permutation that satisfies the conditions: $ [2, 1] $ .\n\nThe second test case was described in the statement. Another possible answer is $ [2, 3, 1] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n2\n3","2 1 \n3 1 2"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1541A","link":"https:\/\/codeforces.com\/problemset\/problem\/1541\/A"},"translation":"\u7ed9\u5b9a\u6574\u6570 $n$\uff0c\u4f60\u9700\u8981\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6392\u5217 $p$\uff0c\u4f7f\u5f97\uff1a\n\n- \u5bf9\u4e8e\u4efb\u610f\u6574\u6570 $i\\in[1,n]$ \u90fd\u6709 $p_i\\not=i$\u3002\n- \u6211\u4eec\u8bbe $pos_i$ \u4e3a $i$ \u5728\u6392\u5217 $p$ \u4e2d\u51fa\u73b0\u7684\u4f4d\u7f6e\uff0c\u5219 $\\sum\\limits_{i=1}^n|i-pos_i|$ \u6700\u5c0f\u3002\n\n\u53ef\u4ee5\u8bc1\u660e\u4e00\u5b9a\u6709\u89e3\uff0c\u6709\u591a\u91cd\u89e3\u65f6\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u5373\u53ef\u3002$T$ \u7ec4\u6570\u636e\u3002  \n$1\\leq T\\leq100;2\\leq n\\leq100;$"},"translations":{"en":{"name":"Pretty Permutations","background":"","description":"There are $ n $ cats in a line, labeled from $ 1 $ to $ n $ , with the $ i $ -th cat at position $ i $ . They are bored of gyrating in the same spot all day, so they want to reorder themselves such that no cat is in the same place as before. They are also lazy, so they want to minimize the total distance they move. Help them decide what cat should be at each location after the reordering.\n\nFor example, if there are $ 3 $ cats, this is a valid reordering: $ [3, 1, 2] $ . No cat is in its original position. The total distance the cats move is $ 1 + 1 + 2 = 4 $ as cat $ 1 $ moves one place to the right, cat $ 2 $ moves one place to the right, and cat $ 3 $ moves two places to the left.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\leq t \\leq 100 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe first and only line of each test case contains one integer $ n $ ( $ 2 \\leq n \\leq 100 $ ) \u2014 the number of cats.\n\nIt can be proven that under the constraints of the problem, an answer always exist.","formatO":"Output $ t $ answers, one for each test case. Each answer consists of $ n $ integers \u2014 a permutation with the minimum total distance. If there are multiple answers, print any.","hint":"For the first test case, there is only one possible permutation that satisfies the conditions: $ [2, 1] $ .\n\nThe second test case was described in the statement. Another possible answer is $ [2, 3, 1] $ .","locale":"en"},"zh-CN":{"name":"Pretty Permutations","background":null,"description":"\u6709 $n$ \u53ea\u732b\u6392\u6210\u4e00\u884c\uff0c\u7f16\u53f7\u4ece $1$ \u5230 $n$\uff0c\u7b2c $i$ \u53ea\u732b\u4f4d\u4e8e\u4f4d\u7f6e $i$\u3002\u5b83\u4eec\u538c\u5026\u4e86\u4e00\u6574\u5929\u90fd\u5728\u539f\u5730\u6253\u8f6c\uff0c\u6240\u4ee5\u5b83\u4eec\u60f3\u8981\u91cd\u65b0\u6392\u5217\u81ea\u5df1\uff0c\u4f7f\u5f97\u6ca1\u6709\u4e00\u53ea\u732b\u5728\u539f\u6765\u7684\u4f4d\u7f6e\u4e0a\u3002\u5b83\u4eec\u53c8\u5f88\u61d2\uff0c\u6240\u4ee5\u5e0c\u671b\u79fb\u52a8\u7684\u603b\u8ddd\u79bb\u6700\u5c0f\u3002\u8bf7\u5e2e\u52a9\u5b83\u4eec\u51b3\u5b9a\u91cd\u65b0\u6392\u5217\u540e\u6bcf\u4e2a\u4f4d\u7f6e\u5e94\u8be5\u662f\u54ea\u53ea\u732b\u3002\n\n\u4f8b\u5982\uff0c\u5982\u679c\u6709 $3$ \u53ea\u732b\uff0c$[3, 1, 2]$ \u662f\u4e00\u4e2a\u5408\u6cd5\u7684\u91cd\u65b0\u6392\u5217\u3002\u6ca1\u6709\u4e00\u53ea\u732b\u5728\u539f\u6765\u7684\u4f4d\u7f6e\u4e0a\u3002\u732b $1$ \u5411\u53f3\u79fb\u52a8\u4e86 $1$ \u4e2a\u4f4d\u7f6e\uff0c\u732b $2$ \u5411\u53f3\u79fb\u52a8\u4e86 $1$ \u4e2a\u4f4d\u7f6e\uff0c\u732b $3$ \u5411\u5de6\u79fb\u52a8\u4e86 $2$ \u4e2a\u4f4d\u7f6e\uff0c\u603b\u79fb\u52a8\u8ddd\u79bb\u4e3a $1 + 1 + 2 = 4$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\leq t \\leq 100$\uff09\u2014\u2014\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u6709 $t$ \u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$2 \\leq n \\leq 100$\uff09\u2014\u2014\u8868\u793a\u732b\u7684\u6570\u91cf\u3002\n\n\u53ef\u4ee5\u4fdd\u8bc1\u5728\u9898\u76ee\u7ed9\u5b9a\u7684\u7ea6\u675f\u4e0b\uff0c\u603b\u662f\u5b58\u5728\u6ee1\u8db3\u6761\u4ef6\u7684\u7b54\u6848\u3002","formatO":"\u8f93\u51fa $t$ \u884c\uff0c\u6bcf\u884c\u5bf9\u5e94\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b54\u6848\u3002\u6bcf\u4e2a\u7b54\u6848\u5305\u542b $n$ \u4e2a\u6574\u6570\uff0c\u8868\u793a\u4e00\u4e2a\u6ee1\u8db3\u6761\u4ef6\u4e14\u603b\u79fb\u52a8\u8ddd\u79bb\u6700\u5c0f\u7684\u6392\u5217\u3002\u5982\u679c\u6709\u591a\u4e2a\u7b54\u6848\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u5373\u53ef\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u53ea\u6709\u4e00\u79cd\u6ee1\u8db3\u6761\u4ef6\u7684\u6392\u5217\uff1a[2, 1]\u3002\n\n\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5728\u9898\u76ee\u63cf\u8ff0\u4e2d\u5df2\u7ecf\u7ed9\u51fa\u3002\u53e6\u4e00\u4e2a\u53ef\u80fd\u7684\u7b54\u6848\u662f [2, 3, 1]\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1541A Pretty Permutations","type":2,"slug":"CF1541A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328113.938169,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1541A Pretty Permutations","description":"\u6709 n \u53ea\u732b\u6392\u6210\u4e00\u884c\uff0c\u7f16\u53f7\u4ece 1 \u5230 n\uff0c\u7b2c i \u53ea\u732b\u4f4d\u4e8e\u4f4d\u7f6e i\u3002\u5b83\u4eec\u538c\u5026\u4e86\u4e00\u6574\u5929\u90fd\u5728\u539f\u5730\u6253\u8f6c\uff0c\u6240\u4ee5\u5b83\u4eec\u60f3\u8981\u91cd\u65b0\u6392\u5217\u81ea\u5df1\uff0c\u4f7f\u5f97\u6ca1\u6709\u4e00\u53ea\u732b\u5728\u539f\u6765\u7684\u4f4d\u7f6e\u4e0a\u3002\u5b83\u4eec\u53c8\u5f88\u61d2\uff0c\u6240\u4ee5\u5e0c\u671b\u79fb\u52a8\u7684\u603b\u8ddd\u79bb\u6700\u5c0f\u3002\u8bf7\u5e2e\u52a9\u5b83\u4eec\u51b3\u5b9a\u91cd\u65b0\u6392\u5217\u540e\u6bcf\u4e2a\u4f4d\u7f6e\u5e94\u8be5\u662f\u54ea\u53ea\u732b\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1541A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1541A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1541A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1541A Pretty Permutations" />
+    <meta property="og:description" content="有 n 只猫排成一行，编号从 1 到 n，第 i 只猫位于位置 i。它们厌倦了一整天都在原地打转，所以它们想要重新排列自己，使得没有一只猫在原来的位置上。它们又很懒，所以希望移动的总距离最小。请帮助它们决定重新排列后每个位置应该是哪只猫。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1541A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1541A Pretty Permutations</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有 $n$ 只猫排成一行，编号从 $1$ 到 $n$，第 $i$ 只猫位于位置 $i$。它们厌倦了一整天都在原地打转，所以它们想要重新排列自己，使得没有一只猫在原来的位置上。它们又很懒，所以希望移动的总距离最小。请帮助它们决定重新排列后每个位置应该是哪只猫。
+
+例如，如果有 $3$ 只猫，$[3, 1, 2]$ 是一个合法的重新排列。没有一只猫在原来的位置上。猫 $1$ 向右移动了 $1$ 个位置，猫 $2$ 向右移动了 $1$ 个位置，猫 $3$ 向左移动了 $2$ 个位置，总移动距离为 $1 + 1 + 2 = 4$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \leq t \leq 100$）——表示测试用例的数量。接下来有 $t$ 个测试用例。
+
+每个测试用例的第一行包含一个整数 $n$（$2 \leq n \leq 100$）——表示猫的数量。
+
+可以保证在题目给定的约束下，总是存在满足条件的答案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出 $t$ 行，每行对应一个测试用例的答案。每个答案包含 $n$ 个整数，表示一个满足条件且总移动距离最小的排列。如果有多个答案，输出任意一个即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于第一个测试用例，只有一种满足条件的排列：[2, 1]。
+
+第二个测试用例在题目描述中已经给出。另一个可能的答案是 [2, 3, 1]。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

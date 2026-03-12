@@ -1,0 +1,30 @@
+{
+  "id": "CF-1096E",
+  "contest_id": 1096,
+  "index": "E",
+  "name": "The Top Scorer",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 1259,
+  "problem_url": "https://codeforces.com/problemset/problem/1096/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1096/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1096/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1096E%20The%20Top%20Scorer%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1096/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1096E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

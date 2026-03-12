@@ -1,0 +1,38 @@
+{
+  "id": "CF-1316E",
+  "contest_id": 1316,
+  "index": "E",
+  "name": "Team Building",
+  "rating": 2300,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1316/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1316/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1316/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1316E%20Team Building%20tutorial",
+  "solved_count": 5242,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1316E",
+  "hydro_meta": {
+    "page_title": "Team Building - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "dp",
+      "greedy",
+      "sortings",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

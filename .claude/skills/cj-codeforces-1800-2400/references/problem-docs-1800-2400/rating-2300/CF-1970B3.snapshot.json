@@ -1,0 +1,30 @@
+{
+  "id": "CF-1970B3",
+  "contest_id": 1970,
+  "index": "B3",
+  "name": "Exact Neighbours (Hard)",
+  "rating": 2300,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1970/B3",
+  "answer_index_url": "https://codeforces.com/problemset/status/1970/problem/B3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1970/problem/B3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1970B3%20Exact Neighbours (Hard)%20tutorial",
+  "solved_count": 698,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1970B3",
+  "hydro_meta": {
+    "page_title": "Exact Neighbours (Hard) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

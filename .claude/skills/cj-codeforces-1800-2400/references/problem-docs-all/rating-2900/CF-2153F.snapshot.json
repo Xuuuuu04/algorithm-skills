@@ -1,0 +1,38 @@
+{
+  "id": "CF-2153F",
+  "contest_id": 2153,
+  "index": "F",
+  "name": "Odd Queries on Odd Array",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "data structures",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 310,
+  "problem_url": "https://codeforces.com/problemset/problem/2153/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2153/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2153/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2153F%20Odd%20Queries%20on%20Odd%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2153F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Odd Queries on Odd Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "data structures",
+      "implementation",
+      "trees",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "10000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-368B",
+  "contest_id": 368,
+  "index": "B",
+  "name": "Sereja and Suffixes",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 49128,
+  "problem_url": "https://codeforces.com/problemset/problem/368/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/368/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/368/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=368B%20Sereja%20and%20Suffixes%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/368/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 368B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

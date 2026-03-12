@@ -1,0 +1,34 @@
+{
+  "id": "CF-999D",
+  "contest_id": 999,
+  "index": "D",
+  "name": "Equalize the Remainders",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 4858,
+  "problem_url": "https://codeforces.com/problemset/problem/999/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/999/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/999/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=999D%20Equalize%20the%20Remainders%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P999D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Equalize the Remainders - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

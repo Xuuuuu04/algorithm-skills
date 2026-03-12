@@ -1,0 +1,40 @@
+{
+  "id": "CF-1292D",
+  "contest_id": 1292,
+  "index": "D",
+  "name": "Chaotic V.",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "dp",
+    "graphs",
+    "greedy",
+    "math",
+    "number theory",
+    "trees"
+  ],
+  "solved_count": 944,
+  "problem_url": "https://codeforces.com/problemset/problem/1292/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1292/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1292/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1292D%20Chaotic%20V.%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1292D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Chaotic V. - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "graphs",
+      "greedy",
+      "math",
+      "number theory",
+      "trees",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

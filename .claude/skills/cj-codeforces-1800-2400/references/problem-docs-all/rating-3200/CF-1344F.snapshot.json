@@ -1,0 +1,30 @@
+{
+  "id": "CF-1344F",
+  "contest_id": 1344,
+  "index": "F",
+  "name": "Piet's Palette",
+  "rating": 3200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "matrices"
+  ],
+  "solved_count": 502,
+  "problem_url": "https://codeforces.com/problemset/problem/1344/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1344/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1344/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1344F%20Piet%27s%20Palette%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1344F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Piet's Palette - 题目详情 - Hydro",
+    "mirror_tags": [
+      "matrices",
+      "*3200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

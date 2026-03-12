@@ -1,0 +1,14 @@
+{
+  "name": "simplekv",
+  "full_name": "cangjielanguage-sig/simplekv",
+  "html_url": "https://github.com/cangjielanguage-sig/simplekv",
+  "description": "simplekv是一个用Cangjie语言实现的高效、简洁的键值存储库，支持快速的数据查找、插入、删除，并具备排序数据获取、范围扫描、并发安全等高级功能，适用于需要高性能数据存储的场景。",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/simplekv/main/cjpm.toml"
+}

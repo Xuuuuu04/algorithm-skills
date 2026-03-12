@@ -1,0 +1,32 @@
+{
+  "id": "CF-68A",
+  "contest_id": 68,
+  "index": "A",
+  "name": "Irrational problem",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "number theory"
+  ],
+  "solved_count": 5308,
+  "problem_url": "https://codeforces.com/problemset/problem/68/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/68/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/68/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=68A%20Irrational%20problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P68A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Irrational problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "number theory",
+      "*1100"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

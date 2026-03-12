@@ -1,0 +1,38 @@
+{
+  "id": "CF-2004E",
+  "contest_id": 2004,
+  "index": "E",
+  "name": "Not a Nim Problem",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "games",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2004/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2004/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2004/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2004E%20Not a Nim Problem%20tutorial",
+  "solved_count": 4981,
+  "suggested_patterns": [
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2004E",
+  "hydro_meta": {
+    "page_title": "Not a Nim Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "games",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

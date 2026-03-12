@@ -1,0 +1,38 @@
+{
+  "id": "CF-1837F",
+  "contest_id": 1837,
+  "index": "F",
+  "name": "Editorial for Two",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1837/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1837/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1837/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1837F%20Editorial for Two%20tutorial",
+  "solved_count": 2617,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1837F",
+  "hydro_meta": {
+    "page_title": "Editorial for Two - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "implementation"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

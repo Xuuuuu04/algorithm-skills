@@ -1,0 +1,30 @@
+{
+  "id": "CF-1397B",
+  "contest_id": 1397,
+  "index": "B",
+  "name": "Power Sequence",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "math",
+    "number theory",
+    "sortings"
+  ],
+  "solved_count": 15404,
+  "problem_url": "https://codeforces.com/problemset/problem/1397/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1397/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1397/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1397B%20Power%20Sequence%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1397B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1397B Power Sequence - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 197,
+    "mirror_attempt": 387,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

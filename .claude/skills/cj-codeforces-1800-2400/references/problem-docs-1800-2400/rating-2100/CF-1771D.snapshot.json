@@ -1,0 +1,41 @@
+{
+  "id": "CF-1771D",
+  "contest_id": 1771,
+  "index": "D",
+  "name": "Hossam and (sub-)palindromic tree",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "strings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1771/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1771/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1771/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1771D%20Hossam and (sub-)palindromic tree%20tutorial",
+  "solved_count": 3165,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1771D",
+  "hydro_meta": {
+    "page_title": "Hossam and (sub-)palindromic tree - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

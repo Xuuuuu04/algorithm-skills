@@ -1,0 +1,28 @@
+{
+  "id": "CF-2095G",
+  "contest_id": 2095,
+  "index": "G",
+  "name": "Definitely a Geometry Problem",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "geometry"
+  ],
+  "solved_count": 922,
+  "problem_url": "https://codeforces.com/problemset/problem/2095/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2095/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2095/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2095G%20Definitely%20a%20Geometry%20Problem%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2095/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2095G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

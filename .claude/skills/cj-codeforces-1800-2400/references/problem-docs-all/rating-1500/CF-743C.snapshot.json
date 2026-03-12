@@ -1,0 +1,30 @@
+{
+  "id": "CF-743C",
+  "contest_id": 743,
+  "index": "C",
+  "name": "Vladik and fractions",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 13306,
+  "problem_url": "https://codeforces.com/problemset/problem/743/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/743/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/743/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=743C%20Vladik%20and%20fractions%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/743/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 743C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

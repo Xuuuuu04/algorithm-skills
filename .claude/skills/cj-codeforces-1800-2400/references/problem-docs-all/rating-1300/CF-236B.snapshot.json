@@ -1,0 +1,28 @@
+{
+  "id": "CF-236B",
+  "contest_id": 236,
+  "index": "B",
+  "name": "Easy Number Challenge",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "number theory"
+  ],
+  "solved_count": 16743,
+  "problem_url": "https://codeforces.com/problemset/problem/236/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/236/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/236/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=236B%20Easy%20Number%20Challenge%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF236B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF236B Easy Number Challenge - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 128,
+    "mirror_attempt": 248,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

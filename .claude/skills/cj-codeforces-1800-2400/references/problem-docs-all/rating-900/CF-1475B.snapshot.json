@@ -1,0 +1,29 @@
+{
+  "id": "CF-1475B",
+  "contest_id": 1475,
+  "index": "B",
+  "name": "New Year's Number",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp",
+    "math"
+  ],
+  "solved_count": 56609,
+  "problem_url": "https://codeforces.com/problemset/problem/1475/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1475/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1475/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1475B%20New%20Year%27s%20Number%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1475B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1475B New Year's Number - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 539,
+    "mirror_attempt": 1028,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

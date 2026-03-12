@@ -1,0 +1,32 @@
+{
+  "id": "CF-595B",
+  "contest_id": 595,
+  "index": "B",
+  "name": "Pasha and Phone",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "math"
+  ],
+  "solved_count": 3078,
+  "problem_url": "https://codeforces.com/problemset/problem/595/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/595/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/595/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=595B%20Pasha%20and%20Phone%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P595B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Pasha and Phone - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "math",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

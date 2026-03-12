@@ -1,0 +1,30 @@
+{
+  "id": "CF-1066A",
+  "contest_id": 1066,
+  "index": "A",
+  "name": "Vova and Train",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 15335,
+  "problem_url": "https://codeforces.com/problemset/problem/1066/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1066/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1066/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1066A%20Vova%20and%20Train%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1066A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vova and Train - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

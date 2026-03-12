@@ -1,0 +1,33 @@
+{
+  "id": "CF-279D",
+  "contest_id": 279,
+  "index": "D",
+  "name": "The Minimum Number of Variables",
+  "rating": 2200,
+  "tags": [
+    "bitmasks",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/279/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/279/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/279/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=279D%20The Minimum Number of Variables%20tutorial",
+  "solved_count": 841,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P279D",
+  "hydro_meta": {
+    "page_title": "The Minimum Number of Variables - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "dp",
+      "*2200"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

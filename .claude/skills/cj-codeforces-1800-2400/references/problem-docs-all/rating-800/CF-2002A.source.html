@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2002A Distanced Coloring - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2002A","type":"CF","title":"Distanced Coloring","difficulty":2,"tags":[5],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Distanced Coloring","background":null,"description":"\u4f60\u4ece\u4e00\u4e2a\u795e\u79d8\u7684\u6765\u6e90\u90a3\u91cc\u5f97\u5230\u4e86\u4e00\u4e2a $n\\times m$ \u7684\u7f51\u683c\u3002\u8fd9\u4e2a\u6765\u6e90\u8fd8\u7ed9\u4e86\u4f60\u4e00\u4e2a\u795e\u5947\u7684\u6b63\u6574\u6570\u5e38\u6570 $k$\u3002\n\n\u6765\u6e90\u8981\u6c42\u4f60\u7528\u4e00\u4e9b\u989c\u8272\u7ed9\u7f51\u683c\u67d3\u8272\uff0c\u9700\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff1a\n\n- \u5982\u679c $(x_1,y_1)$ \u548c $(x_2,y_2)$ \u662f\u4e24\u4e2a\u989c\u8272\u76f8\u540c\u4f46\u4f4d\u7f6e\u4e0d\u540c\u7684\u683c\u5b50\uff0c\u90a3\u4e48 $\\max(|x_1-x_2|,|y_1-y_2|)\\ge k$\u3002\n\n\u4f60\u4e0d\u559c\u6b22\u7528\u592a\u591a\u989c\u8272\u3002\u8bf7\u4f60\u6c42\u51fa\u67d3\u8272\u8fd9\u4e2a\u7f51\u683c\u6240\u9700\u7684\u6700\u5c11\u989c\u8272\u6570\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1\\le t\\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u4e09\u4e2a\u6b63\u6574\u6570 $n$\u3001$m$\u3001$k$\uff08$1\\le n,m,k\\le 10^4$\uff09\uff0c\u5206\u522b\u8868\u793a\u7f51\u683c\u7684\u884c\u6570\u3001\u5217\u6570\u548c\u795e\u5947\u5e38\u6570\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u67d3\u8272\u8be5\u7f51\u683c\u6240\u9700\u7684\u6700\u5c11\u989c\u8272\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e00\u79cd\u6700\u4f18\u7684\u67d3\u8272\u65b9\u6848\u5982\u4e0b\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2002A\/9ce95b69207ca02098572c656648bb834e503b1e.png)\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6240\u6709\u683c\u5b50\u7684\u989c\u8272\u90fd\u5fc5\u987b\u4e24\u4e24\u4e0d\u540c\uff0c\u6240\u4ee5\u7b54\u6848\u662f $5$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Distanced Coloring","background":"","description":"You received an $ n\\times m $ grid from a mysterious source. The source also gave you a magic positive integer constant $ k $ .\n\nThe source told you to color the grid with some colors, satisfying the following condition:\n\n- If $ (x_1,y_1) $ , $ (x_2,y_2) $ are two distinct cells with the same color, then $ \\max(|x_1-x_2|,|y_1-y_2|)\\ge k $ .\n\nYou don\u0027t like using too many colors. Please find the minimum number of colors needed to color the grid.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1\\le t\\le1000 $ ). The description of the test cases follows.\n\nThe only line of each test case consists of three positive integers $ n $ , $ m $ , $ k $ ( $ 1\\le n,m,k\\le10^4 $ ) \u2014 the dimensions of the grid and the magic constant.","formatO":"For each test case, print a single integer \u2014 the minimum number of colors needed to color the grid.","hint":"In the first test case, one of the optimal constructions is:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2002A\/9ce95b69207ca02098572c656648bb834e503b1e.png)In the second test case, the color of all cells must be pairwise different, so the answer is $ 5 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n3 3 2\n5 1 10000\n7 3 4\n3 2 7\n8 9 6\n2 5 4","4\n5\n12\n6\n36\n8"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2002A","link":"https:\/\/codeforces.com\/problemset\/problem\/2002\/A"},"translation":"\u4f60\u4ece\u4e00\u4e2a\u795e\u79d8\u7684\u6765\u6e90\u6536\u5230\u4e86\u4e00\u4e2a $n\\times m$ \u7f51\u683c\u3002\u8fd9\u4e2a\u6765\u6e90\u8fd8\u7ed9\u4e86\u4f60\u4e00\u4e2a\u795e\u5947\u7684\u6b63\u6574\u6570 $k$ \u3002\n\n\u6d88\u606f\u6765\u6e90\u544a\u8bc9\u4f60\u8981\u7528\u4e00\u4e9b\u989c\u8272\u7ed9\u7f51\u683c\u7740\u8272\uff0c\u5e76\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff1a\n\n- \u5982\u679c $(x_1,y_1)$ , $(x_2,y_2)$ \u662f\u4e24\u4e2a\u989c\u8272\u76f8\u540c\u7684\u5355\u5143\u683c\uff0c\u90a3\u4e48 $\\max(|x_1-x_2|,|y_1-y_2|)\\ge k$ \u3002\n\n\u60a8\u4e0d\u559c\u6b22\u4f7f\u7528\u8fc7\u591a\u7684\u989c\u8272\u3002\u8bf7\u627e\u51fa\u7ed9\u7f51\u683c\u7740\u8272\u5e76\u6ee1\u8db3\u6761\u4ef6\u7684\u6240\u9700\u7684\u6700\u5c11\u989c\u8272\u6570\u3002\n\n\u591a\u7ec4\u6570\u636e\uff0c$1\\le t\\le1000$\uff0c$1\\le n,m,k\\le10^4$\u3002\n\nby @wrkwrkwrk\u3002"},"translations":{"en":{"name":"Distanced Coloring","background":"","description":"You received an $ n\\times m $ grid from a mysterious source. The source also gave you a magic positive integer constant $ k $ .\n\nThe source told you to color the grid with some colors, satisfying the following condition:\n\n- If $ (x_1,y_1) $ , $ (x_2,y_2) $ are two distinct cells with the same color, then $ \\max(|x_1-x_2|,|y_1-y_2|)\\ge k $ .\n\nYou don\u0027t like using too many colors. Please find the minimum number of colors needed to color the grid.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1\\le t\\le1000 $ ). The description of the test cases follows.\n\nThe only line of each test case consists of three positive integers $ n $ , $ m $ , $ k $ ( $ 1\\le n,m,k\\le10^4 $ ) \u2014 the dimensions of the grid and the magic constant.","formatO":"For each test case, print a single integer \u2014 the minimum number of colors needed to color the grid.","hint":"In the first test case, one of the optimal constructions is:\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2002A\/9ce95b69207ca02098572c656648bb834e503b1e.png)In the second test case, the color of all cells must be pairwise different, so the answer is $ 5 $ .","locale":"en"},"zh-CN":{"name":"Distanced Coloring","background":null,"description":"\u4f60\u4ece\u4e00\u4e2a\u795e\u79d8\u7684\u6765\u6e90\u90a3\u91cc\u5f97\u5230\u4e86\u4e00\u4e2a $n\\times m$ \u7684\u7f51\u683c\u3002\u8fd9\u4e2a\u6765\u6e90\u8fd8\u7ed9\u4e86\u4f60\u4e00\u4e2a\u795e\u5947\u7684\u6b63\u6574\u6570\u5e38\u6570 $k$\u3002\n\n\u6765\u6e90\u8981\u6c42\u4f60\u7528\u4e00\u4e9b\u989c\u8272\u7ed9\u7f51\u683c\u67d3\u8272\uff0c\u9700\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff1a\n\n- \u5982\u679c $(x_1,y_1)$ \u548c $(x_2,y_2)$ \u662f\u4e24\u4e2a\u989c\u8272\u76f8\u540c\u4f46\u4f4d\u7f6e\u4e0d\u540c\u7684\u683c\u5b50\uff0c\u90a3\u4e48 $\\max(|x_1-x_2|,|y_1-y_2|)\\ge k$\u3002\n\n\u4f60\u4e0d\u559c\u6b22\u7528\u592a\u591a\u989c\u8272\u3002\u8bf7\u4f60\u6c42\u51fa\u67d3\u8272\u8fd9\u4e2a\u7f51\u683c\u6240\u9700\u7684\u6700\u5c11\u989c\u8272\u6570\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1\\le t\\le 1000$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u4e09\u4e2a\u6b63\u6574\u6570 $n$\u3001$m$\u3001$k$\uff08$1\\le n,m,k\\le 10^4$\uff09\uff0c\u5206\u522b\u8868\u793a\u7f51\u683c\u7684\u884c\u6570\u3001\u5217\u6570\u548c\u795e\u5947\u5e38\u6570\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u67d3\u8272\u8be5\u7f51\u683c\u6240\u9700\u7684\u6700\u5c11\u989c\u8272\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e00\u79cd\u6700\u4f18\u7684\u67d3\u8272\u65b9\u6848\u5982\u4e0b\uff1a\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF2002A\/9ce95b69207ca02098572c656648bb834e503b1e.png)\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6240\u6709\u683c\u5b50\u7684\u989c\u8272\u90fd\u5fc5\u987b\u4e24\u4e24\u4e0d\u540c\uff0c\u6240\u4ee5\u7b54\u6848\u662f $5$\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2002A Distanced Coloring","type":2,"slug":"CF2002A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.788317,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2002A Distanced Coloring","description":"\u4f60\u4ece\u4e00\u4e2a\u795e\u79d8\u7684\u6765\u6e90\u90a3\u91cc\u5f97\u5230\u4e86\u4e00\u4e2a n\\times m \u7684\u7f51\u683c\u3002\u8fd9\u4e2a\u6765\u6e90\u8fd8\u7ed9\u4e86\u4f60\u4e00\u4e2a\u795e\u5947\u7684\u6b63\u6574\u6570\u5e38\u6570 k\u3002\n\u6765\u6e90\u8981\u6c42\u4f60\u7528\u4e00\u4e9b\u989c\u8272\u7ed9\u7f51\u683c\u67d3\u8272\uff0c\u9700\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff1a\n\n\u5982\u679c (x_1,y_1) \u548c (x_2,y_2) \u662f\u4e24\u4e2a\u989c\u8272\u76f8\u540c\u4f46\u4f4d\u7f6e\u4e0d\u540c\u7684\u683c\u5b50\uff0c\u90a3\u4e48\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2002A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2002A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2002A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2002A Distanced Coloring" />
+    <meta property="og:description" content="你从一个神秘的来源那里得到了一个 n\times m 的网格。这个来源还给了你一个神奇的正整数常数 k。
+来源要求你用一些颜色给网格染色，需满足以下条件：
+
+如果 (x_1,y_1) 和 (x_2,y_2) 是两个颜色相同但位置不同的格子，那么…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2002A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2002A Distanced Coloring</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    你从一个神秘的来源那里得到了一个 $n\times m$ 的网格。这个来源还给了你一个神奇的正整数常数 $k$。
+
+来源要求你用一些颜色给网格染色，需满足以下条件：
+
+- 如果 $(x_1,y_1)$ 和 $(x_2,y_2)$ 是两个颜色相同但位置不同的格子，那么 $\max(|x_1-x_2|,|y_1-y_2|)\ge k$。
+
+你不喜欢用太多颜色。请你求出染色这个网格所需的最少颜色数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每组测试数据包含多组测试用例。第一行包含一个整数 $t$（$1\le t\le 1000$），表示测试用例的数量。
+
+每组测试用例仅一行，包含三个正整数 $n$、$m$、$k$（$1\le n,m,k\le 10^4$），分别表示网格的行数、列数和神奇常数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试用例，输出一个整数，表示染色该网格所需的最少颜色数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，一种最优的染色方案如下：
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF2002A/9ce95b69207ca02098572c656648bb834e503b1e.png)
+
+在第二个测试用例中，所有格子的颜色都必须两两不同，所以答案是 $5$。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

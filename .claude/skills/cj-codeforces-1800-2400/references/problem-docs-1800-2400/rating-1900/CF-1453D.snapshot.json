@@ -1,0 +1,41 @@
+{
+  "id": "CF-1453D",
+  "contest_id": 1453,
+  "index": "D",
+  "name": "Checkpoints",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1453/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1453/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1453/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1453D%20Checkpoints%20tutorial",
+  "solved_count": 4425,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1453D",
+  "hydro_meta": {
+    "page_title": "Checkpoints - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "probabilities",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

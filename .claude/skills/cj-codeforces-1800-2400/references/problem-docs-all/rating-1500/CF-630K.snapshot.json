@@ -1,0 +1,32 @@
+{
+  "id": "CF-630K",
+  "contest_id": 630,
+  "index": "K",
+  "name": "Indivisibility",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 6260,
+  "problem_url": "https://codeforces.com/problemset/problem/630/K",
+  "answer_index_url": "https://codeforces.com/problemset/status/630/problem/K",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/630/problem/K?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=630K%20Indivisibility%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P630K",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Indivisibility - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "64MiB"
+  }
+}

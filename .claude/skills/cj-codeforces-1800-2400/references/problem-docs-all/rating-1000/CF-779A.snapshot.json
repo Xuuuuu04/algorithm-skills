@@ -1,0 +1,32 @@
+{
+  "id": "CF-779A",
+  "contest_id": 779,
+  "index": "A",
+  "name": "Pupils Redistribution",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 9656,
+  "problem_url": "https://codeforces.com/problemset/problem/779/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/779/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/779/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=779A%20Pupils%20Redistribution%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P779A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Pupils Redistribution - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

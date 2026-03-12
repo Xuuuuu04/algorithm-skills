@@ -1,0 +1,32 @@
+{
+  "id": "CF-196A",
+  "contest_id": 196,
+  "index": "A",
+  "name": "Lexicographically Maximum Subsequence",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 5808,
+  "problem_url": "https://codeforces.com/problemset/problem/196/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/196/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/196/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=196A%20Lexicographically%20Maximum%20Subsequence%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P196A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Lexicographically Maximum Subsequence - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "strings",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

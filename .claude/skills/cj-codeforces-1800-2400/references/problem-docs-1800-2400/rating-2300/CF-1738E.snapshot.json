@@ -1,0 +1,37 @@
+{
+  "id": "CF-1738E",
+  "contest_id": 1738,
+  "index": "E",
+  "name": "Balance Addicts",
+  "rating": 2300,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1738/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1738/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1738/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1738E%20Balance Addicts%20tutorial",
+  "solved_count": 1782,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1738E",
+  "hydro_meta": {
+    "page_title": "Balance Addicts - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

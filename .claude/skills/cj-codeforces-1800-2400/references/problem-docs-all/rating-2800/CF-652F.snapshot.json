@@ -1,0 +1,32 @@
+{
+  "id": "CF-652F",
+  "contest_id": 652,
+  "index": "F",
+  "name": "Ants on a Circle",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 631,
+  "problem_url": "https://codeforces.com/problemset/problem/652/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/652/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/652/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=652F%20Ants%20on%20a%20Circle%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P652F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ants on a Circle - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

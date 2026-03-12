@@ -1,0 +1,34 @@
+{
+  "id": "CF-895D",
+  "contest_id": 895,
+  "index": "D",
+  "name": "String Mark",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "math",
+    "strings"
+  ],
+  "solved_count": 1217,
+  "problem_url": "https://codeforces.com/problemset/problem/895/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/895/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/895/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=895D%20String%20Mark%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P895D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "String Mark - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "strings",
+      "*2100"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 5,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

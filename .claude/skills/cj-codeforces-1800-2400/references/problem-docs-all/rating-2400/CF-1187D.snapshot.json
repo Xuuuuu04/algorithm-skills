@@ -1,0 +1,28 @@
+{
+  "id": "CF-1187D",
+  "contest_id": 1187,
+  "index": "D",
+  "name": "Subarray Sorting",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "sortings"
+  ],
+  "solved_count": 2968,
+  "problem_url": "https://codeforces.com/problemset/problem/1187/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1187/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1187/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1187D%20Subarray%20Sorting%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1187/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1187D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

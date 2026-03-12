@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1180A Alex and a Rhombus - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1180A","type":"CF","title":"Alex and a Rhombus","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":884,"totalAccepted":532,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Alex and a Rhombus","background":null,"description":"\u5728\u73a9\u51e0\u4f55\u56fe\u5f62\u65f6\uff0cAlex \u5076\u7136\u53d1\u660e\u4e86\u4e00\u4e2a\u5173\u4e8e\u7f51\u683c\u4e2d $n$ \u9636\u83f1\u5f62\u7684\u6982\u5ff5\u3002\n\n\u4e00\u4e2a $1$ \u9636\u83f1\u5f62\u5c31\u662f\u4e00\u4e2a $1 \\times 1$ \u7684\u6b63\u65b9\u5f62\uff08\u5373\u4e00\u4e2a\u5355\u5143\u683c\uff09\u3002\n\n\u5bf9\u4e8e\u6240\u6709 $n \\geq 2$\uff0c\u4e00\u4e2a $n$ \u9636\u83f1\u5f62\u662f\u901a\u8fc7\u5728 $n-1$ \u9636\u83f1\u5f62\u7684\u57fa\u7840\u4e0a\uff0c\u6dfb\u52a0\u6240\u6709\u4e0e\u5176\u6709\u516c\u5171\u8fb9\u7684\u5355\u5143\u683c\u5f97\u5230\u7684\uff08\u53ef\u4ee5\u53c2\u8003\u56fe\u7247\u66f4\u597d\u5730\u7406\u89e3\uff09\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1180A\/ccf29660dcd8bd16597fff06e6153caa2bd347a9.png)Alex \u60f3\u8ba9\u4f60\u8ba1\u7b97\u4e00\u4e2a $n$ \u9636\u83f1\u5f62\u4e2d\u5305\u542b\u7684\u5355\u5143\u683c\u6570\u91cf\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 100$\uff09\uff0c\u8868\u793a\u9700\u8981\u8ba1\u7b97\u5355\u5143\u683c\u6570\u91cf\u7684\u83f1\u5f62\u7684\u9636\u6570\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a $n$ \u9636\u83f1\u5f62\u4e2d\u5305\u542b\u7684\u5355\u5143\u683c\u6570\u91cf\u3002","hint":"\u4e0e\u6837\u4f8b\u5bf9\u5e94\u7684\u83f1\u5f62\u56fe\u7247\u5df2\u5728\u9898\u76ee\u63cf\u8ff0\u4e2d\u7ed9\u51fa\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Alex and a Rhombus","background":"","description":"While playing with geometric figures Alex has accidentally invented a concept of a  $ n $ -th order rhombus in a cell grid.\n\nA $ 1 $ -st order rhombus is just a square $ 1 \\times 1 $ (i.e just a cell).\n\nA $ n $ -th order rhombus for all $ n \\geq 2 $ one obtains from a  $ n-1 $ -th order rhombus adding all cells which have a common side with it to it (look at the picture to understand it better).\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1180A\/ccf29660dcd8bd16597fff06e6153caa2bd347a9.png)Alex asks you to compute the number of cells in a  $ n $ -th order rhombus.","formatI":"The first and only input line contains integer $ n $ ( $ 1 \\leq n \\leq 100 $ ) \u2014 order of a rhombus whose numbers of cells should be computed.","formatO":"Print exactly one integer \u2014 the number of cells in a  $ n $ -th order rhombus.","hint":"Images of rhombus corresponding to the examples are given in the statement.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1\n","1"],["2\n","5"],["3\n","13"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1180A","link":"https:\/\/codeforces.com\/problemset\/problem\/1180\/A"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u6574\u6570$n$\uff0c\u4f60\u9700\u8981\u6c42\u51fa\u4ece$1\\times 1$\u5f00\u59cb\u6269\u5c55$n-1$\u6b21\u7684\u683c\u5b50\u6570\u91cf\u3002\n\n\u6bcf\u4e00\u6b21\u6269\u5c55\uff0c\u6240\u6709\u4e0e\u5f53\u524d\u683c\u5b50\u6709\u8fb9\u76f8\u90bb\u7684\u683c\u5b50\u90fd\u4f1a\u88ab\u6269\u5c55\u8fdb\u7b54\u6848\u91cc\u3002\u6bd4\u5982$n\\le 3$\u7684\u60c5\u5f62\u5982\u4e0b\u9762\u8fd9\u5f20\u56fe\uff1a\n\n![](https:\/\/cdn.luogu.org\/upload\/vjudge_pic\/CF1180A\/ccf29660dcd8bd16597fff06e6153caa2bd347a9.png)"},"translations":{"en":{"name":"Alex and a Rhombus","background":"","description":"While playing with geometric figures Alex has accidentally invented a concept of a  $ n $ -th order rhombus in a cell grid.\n\nA $ 1 $ -st order rhombus is just a square $ 1 \\times 1 $ (i.e just a cell).\n\nA $ n $ -th order rhombus for all $ n \\geq 2 $ one obtains from a  $ n-1 $ -th order rhombus adding all cells which have a common side with it to it (look at the picture to understand it better).\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1180A\/ccf29660dcd8bd16597fff06e6153caa2bd347a9.png)Alex asks you to compute the number of cells in a  $ n $ -th order rhombus.","formatI":"The first and only input line contains integer $ n $ ( $ 1 \\leq n \\leq 100 $ ) \u2014 order of a rhombus whose numbers of cells should be computed.","formatO":"Print exactly one integer \u2014 the number of cells in a  $ n $ -th order rhombus.","hint":"Images of rhombus corresponding to the examples are given in the statement.","locale":"en"},"zh-CN":{"name":"Alex and a Rhombus","background":null,"description":"\u5728\u73a9\u51e0\u4f55\u56fe\u5f62\u65f6\uff0cAlex \u5076\u7136\u53d1\u660e\u4e86\u4e00\u4e2a\u5173\u4e8e\u7f51\u683c\u4e2d $n$ \u9636\u83f1\u5f62\u7684\u6982\u5ff5\u3002\n\n\u4e00\u4e2a $1$ \u9636\u83f1\u5f62\u5c31\u662f\u4e00\u4e2a $1 \\times 1$ \u7684\u6b63\u65b9\u5f62\uff08\u5373\u4e00\u4e2a\u5355\u5143\u683c\uff09\u3002\n\n\u5bf9\u4e8e\u6240\u6709 $n \\geq 2$\uff0c\u4e00\u4e2a $n$ \u9636\u83f1\u5f62\u662f\u901a\u8fc7\u5728 $n-1$ \u9636\u83f1\u5f62\u7684\u57fa\u7840\u4e0a\uff0c\u6dfb\u52a0\u6240\u6709\u4e0e\u5176\u6709\u516c\u5171\u8fb9\u7684\u5355\u5143\u683c\u5f97\u5230\u7684\uff08\u53ef\u4ee5\u53c2\u8003\u56fe\u7247\u66f4\u597d\u5730\u7406\u89e3\uff09\u3002\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1180A\/ccf29660dcd8bd16597fff06e6153caa2bd347a9.png)Alex \u60f3\u8ba9\u4f60\u8ba1\u7b97\u4e00\u4e2a $n$ \u9636\u83f1\u5f62\u4e2d\u5305\u542b\u7684\u5355\u5143\u683c\u6570\u91cf\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 100$\uff09\uff0c\u8868\u793a\u9700\u8981\u8ba1\u7b97\u5355\u5143\u683c\u6570\u91cf\u7684\u83f1\u5f62\u7684\u9636\u6570\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a $n$ \u9636\u83f1\u5f62\u4e2d\u5305\u542b\u7684\u5355\u5143\u683c\u6570\u91cf\u3002","hint":"\u4e0e\u6837\u4f8b\u5bf9\u5e94\u7684\u83f1\u5f62\u56fe\u7247\u5df2\u5728\u9898\u76ee\u63cf\u8ff0\u4e2d\u7ed9\u51fa\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1180A Alex and a Rhombus","type":2,"slug":"CF1180A","color":"orange-3"},"discussions":[{"id":122111,"title":"\u6211\u6000\u7591\u8fd9\u662f\u4e00\u9053\u6570\u5b66\u9898\u3002","author":{"uid":100151,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/100151.png","name":"yazzkl","slogan":"\u5076\u4e70\u5676\u7684","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/cfjekws8.png"},"time":1562680613}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.140497,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1180A Alex and a Rhombus","description":"\u5728\u73a9\u51e0\u4f55\u56fe\u5f62\u65f6\uff0cAlex \u5076\u7136\u53d1\u660e\u4e86\u4e00\u4e2a\u5173\u4e8e\u7f51\u683c\u4e2d n \u9636\u83f1\u5f62\u7684\u6982\u5ff5\u3002\n\u4e00\u4e2a 1 \u9636\u83f1\u5f62\u5c31\u662f\u4e00\u4e2a 1 \\times 1 \u7684\u6b63\u65b9\u5f62\uff08\u5373\u4e00\u4e2a\u5355\u5143\u683c\uff09\u3002\n\u5bf9\u4e8e\u6240\u6709 n \\geq 2\uff0c\u4e00\u4e2a n \u9636\u83f1\u5f62\u662f\u901a\u8fc7\u5728 n-1 \u9636\u83f1\u5f62\u7684\u57fa\u7840\u4e0a\uff0c\u6dfb\u52a0\u6240\u6709\u4e0e\u5176\u6709\u516c\u5171\u8fb9\u7684\u5355\u5143\u683c\u5f97\u5230\u7684\uff08\u53ef\u4ee5\u53c2\u8003\u56fe\u7247\u66f4\u597d\u5730\u7406\u89e3\uff09\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1180A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1180A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1180A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1180A Alex and a Rhombus" />
+    <meta property="og:description" content="在玩几何图形时，Alex 偶然发明了一个关于网格中 n 阶菱形的概念。
+一个 1 阶菱形就是一个 1 \times 1 的正方形（即一个单元格）。
+对于所有 n \geq 2，一个 n 阶菱形是通过在 n-1 阶菱形的基础上，添加所有与其有公共边的单元格得到的（可以参考图片更好地理解）。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1180A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1180A Alex and a Rhombus</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    在玩几何图形时，Alex 偶然发明了一个关于网格中 $n$ 阶菱形的概念。
+
+一个 $1$ 阶菱形就是一个 $1 \times 1$ 的正方形（即一个单元格）。
+
+对于所有 $n \geq 2$，一个 $n$ 阶菱形是通过在 $n-1$ 阶菱形的基础上，添加所有与其有公共边的单元格得到的（可以参考图片更好地理解）。
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1180A/ccf29660dcd8bd16597fff06e6153caa2bd347a9.png)Alex 想让你计算一个 $n$ 阶菱形中包含的单元格数量。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$（$1 \leq n \leq 100$），表示需要计算单元格数量的菱形的阶数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示 $n$ 阶菱形中包含的单元格数量。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                与样例对应的菱形图片已在题目描述中给出。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

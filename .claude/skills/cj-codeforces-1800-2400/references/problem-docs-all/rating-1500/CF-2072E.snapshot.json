@@ -1,0 +1,33 @@
+{
+  "id": "CF-2072E",
+  "contest_id": 2072,
+  "index": "E",
+  "name": "Do You Love Your Hero and His Two-Hit Multi-Target Attacks?",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "brute force",
+    "constructive algorithms",
+    "dp",
+    "geometry",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 12051,
+  "problem_url": "https://codeforces.com/problemset/problem/2072/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2072/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2072/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2072E%20Do%20You%20Love%20Your%20Hero%20and%20His%20Two-Hit%20Multi-Target%20Attacks%3F%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2072/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2072E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

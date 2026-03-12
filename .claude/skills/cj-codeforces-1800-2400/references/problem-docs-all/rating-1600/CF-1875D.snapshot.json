@@ -1,0 +1,29 @@
+{
+  "id": "CF-1875D",
+  "contest_id": 1875,
+  "index": "D",
+  "name": "Jellyfish and Mex",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 11231,
+  "problem_url": "https://codeforces.com/problemset/problem/1875/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1875/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1875/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1875D%20Jellyfish%20and%20Mex%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1875D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Jellyfish and Mex - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

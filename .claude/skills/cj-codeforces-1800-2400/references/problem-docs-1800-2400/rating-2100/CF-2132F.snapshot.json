@@ -1,0 +1,35 @@
+{
+  "id": "CF-2132F",
+  "contest_id": 2132,
+  "index": "F",
+  "name": "Rada and the Chamomile Valley",
+  "rating": 2100,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2132/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2132/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2132/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2132F%20Rada and the Chamomile Valley%20tutorial",
+  "solved_count": 2636,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2132F",
+  "hydro_meta": {
+    "page_title": "Rada and the Chamomile Valley - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "graphs",
+      "shortest paths",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

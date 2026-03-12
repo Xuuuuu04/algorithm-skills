@@ -1,0 +1,31 @@
+{
+  "id": "CF-276D",
+  "contest_id": 276,
+  "index": "D",
+  "name": "Little Girl and Maximum XOR",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "bitmasks",
+    "dp",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 15894,
+  "problem_url": "https://codeforces.com/problemset/problem/276/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/276/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/276/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=276D%20Little%20Girl%20and%20Maximum%20XOR%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/276/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 276D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

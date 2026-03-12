@@ -1,0 +1,30 @@
+{
+  "id": "CF-2022A",
+  "contest_id": 2022,
+  "index": "A",
+  "name": "Bus to Pénjamo",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 17080,
+  "problem_url": "https://codeforces.com/problemset/problem/2022/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2022/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2022/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2022A%20Bus%20to%20P%C3%A9njamo%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2022/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2022A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-2039A",
+  "contest_id": 2039,
+  "index": "A",
+  "name": "Shohag Loves Mod",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "number theory"
+  ],
+  "solved_count": 17966,
+  "problem_url": "https://codeforces.com/problemset/problem/2039/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2039/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2039/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2039A%20Shohag%20Loves%20Mod%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2039A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Shohag Loves Mod - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "number theory",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

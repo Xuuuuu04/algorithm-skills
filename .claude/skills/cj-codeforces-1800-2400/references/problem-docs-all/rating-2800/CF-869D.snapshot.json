@@ -1,0 +1,34 @@
+{
+  "id": "CF-869D",
+  "contest_id": 869,
+  "index": "D",
+  "name": "The Overdosing Ubiquity",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "brute force",
+    "dfs and similar",
+    "graphs"
+  ],
+  "solved_count": 273,
+  "problem_url": "https://codeforces.com/problemset/problem/869/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/869/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/869/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=869D%20The%20Overdosing%20Ubiquity%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P869D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Overdosing Ubiquity - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dfs and similar",
+      "graphs",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

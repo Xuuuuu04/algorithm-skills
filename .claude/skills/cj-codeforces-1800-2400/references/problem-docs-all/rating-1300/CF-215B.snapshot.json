@@ -1,0 +1,32 @@
+{
+  "id": "CF-215B",
+  "contest_id": 215,
+  "index": "B",
+  "name": "Olympic Medal",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 5937,
+  "problem_url": "https://codeforces.com/problemset/problem/215/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/215/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/215/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=215B%20Olympic%20Medal%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P215B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Olympic Medal - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

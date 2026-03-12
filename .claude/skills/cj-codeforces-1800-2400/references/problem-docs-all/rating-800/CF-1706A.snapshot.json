@@ -1,0 +1,31 @@
+{
+  "id": "CF-1706A",
+  "contest_id": 1706,
+  "index": "A",
+  "name": "Another String Minimization Problem",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "2-sat",
+    "constructive algorithms",
+    "greedy",
+    "string suffix structures",
+    "strings"
+  ],
+  "solved_count": 24082,
+  "problem_url": "https://codeforces.com/problemset/problem/1706/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1706/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1706/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1706A%20Another%20String%20Minimization%20Problem%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1706/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1706A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

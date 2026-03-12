@@ -1,0 +1,37 @@
+{
+  "id": "CF-748D",
+  "contest_id": 748,
+  "index": "D",
+  "name": "Santa Claus and a Palindrome",
+  "rating": 2100,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/748/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/748/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/748/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=748D%20Santa Claus and a Palindrome%20tutorial",
+  "solved_count": 2024,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P748D",
+  "hydro_meta": {
+    "page_title": "Santa Claus and a Palindrome - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

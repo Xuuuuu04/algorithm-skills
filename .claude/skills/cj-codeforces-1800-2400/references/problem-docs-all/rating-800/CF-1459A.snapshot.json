@@ -1,0 +1,28 @@
+{
+  "id": "CF-1459A",
+  "contest_id": 1459,
+  "index": "A",
+  "name": "Red-Blue Shuffle",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 17603,
+  "problem_url": "https://codeforces.com/problemset/problem/1459/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1459/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1459/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1459A%20Red-Blue%20Shuffle%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1459A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1459A Red-Blue Shuffle - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 155,
+    "mirror_attempt": 246,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

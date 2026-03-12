@@ -1,0 +1,27 @@
+{
+  "id": "CF-1523B",
+  "contest_id": 1523,
+  "index": "B",
+  "name": "Lord of the Values",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 12477,
+  "problem_url": "https://codeforces.com/problemset/problem/1523/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1523/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1523/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1523B%20Lord%20of%20the%20Values%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1523/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1523B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

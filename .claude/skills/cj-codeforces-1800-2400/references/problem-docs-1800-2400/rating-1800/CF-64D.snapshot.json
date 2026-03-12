@@ -1,0 +1,33 @@
+{
+  "id": "CF-64D",
+  "contest_id": 64,
+  "index": "D",
+  "name": "Presents",
+  "rating": 1800,
+  "tags": [
+    "*special",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/64/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/64/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/64/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=64D%20Presents%20tutorial",
+  "solved_count": 298,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P64D",
+  "hydro_meta": {
+    "page_title": "Presents - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "greedy",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-797E",
+  "contest_id": 797,
+  "index": "E",
+  "name": "Array Queries",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 5504,
+  "problem_url": "https://codeforces.com/problemset/problem/797/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/797/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/797/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=797E%20Array%20Queries%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF797E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF797E Array Queries - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 1266,
+    "mirror_attempt": 3105,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1211B",
+  "contest_id": 1211,
+  "index": "B",
+  "name": "Traveling Around the Golden Ring of Berland",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "implementation"
+  ],
+  "solved_count": 793,
+  "problem_url": "https://codeforces.com/problemset/problem/1211/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1211/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1211/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1211B%20Traveling%20Around%20the%20Golden%20Ring%20of%20Berland%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1211/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1211B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

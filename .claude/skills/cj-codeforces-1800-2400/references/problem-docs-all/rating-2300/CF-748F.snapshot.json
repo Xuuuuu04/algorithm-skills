@@ -1,0 +1,30 @@
+{
+  "id": "CF-748F",
+  "contest_id": 748,
+  "index": "F",
+  "name": "Santa Clauses and a Soccer Championship",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 703,
+  "problem_url": "https://codeforces.com/problemset/problem/748/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/748/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/748/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=748F%20Santa%20Clauses%20and%20a%20Soccer%20Championship%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/748/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 748F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

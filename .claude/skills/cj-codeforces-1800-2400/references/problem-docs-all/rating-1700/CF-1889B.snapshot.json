@@ -1,0 +1,30 @@
+{
+  "id": "CF-1889B",
+  "contest_id": 1889,
+  "index": "B",
+  "name": "Doremy's Connecting Plan",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 8529,
+  "problem_url": "https://codeforces.com/problemset/problem/1889/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1889/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1889/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1889B%20Doremy%27s%20Connecting%20Plan%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1889B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1889B Doremy's Connecting Plan - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 231,
+    "mirror_attempt": 397,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

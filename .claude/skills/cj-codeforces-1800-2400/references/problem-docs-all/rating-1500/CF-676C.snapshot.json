@@ -1,0 +1,30 @@
+{
+  "id": "CF-676C",
+  "contest_id": 676,
+  "index": "C",
+  "name": "Vasya and String",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "binary search",
+    "dp",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 22067,
+  "problem_url": "https://codeforces.com/problemset/problem/676/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/676/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/676/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=676C%20Vasya%20and%20String%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF676C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF676C Vasya and String - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 438,
+    "mirror_attempt": 1100,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

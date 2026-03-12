@@ -1,0 +1,38 @@
+{
+  "id": "CF-1996G",
+  "contest_id": 1996,
+  "index": "G",
+  "name": "Penacony",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "data structures",
+    "graphs",
+    "greedy",
+    "hashing"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1996/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1996/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1996/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1996G%20Penacony%20tutorial",
+  "solved_count": 2228,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1996G",
+  "hydro_meta": {
+    "page_title": "Penacony - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "hashing"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

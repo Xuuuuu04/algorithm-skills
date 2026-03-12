@@ -1,0 +1,40 @@
+{
+  "id": "CF-1654E",
+  "contest_id": 1654,
+  "index": "E",
+  "name": "Arithmetic Operations",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "data structures",
+    "graphs",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1654/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1654/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1654/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1654E%20Arithmetic Operations%20tutorial",
+  "solved_count": 2346,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1654E",
+  "hydro_meta": {
+    "page_title": "Arithmetic Operations - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "divide and conquer",
+      "graphs",
+      "math",
+      "*2300"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "5000ms",
+    "memory_limit": "1024MiB"
+  }
+}

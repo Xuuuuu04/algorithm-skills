@@ -1,0 +1,36 @@
+{
+  "id": "CF-802J3",
+  "contest_id": 802,
+  "index": "J3",
+  "name": "Send the Fool Further! (hard)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "math",
+    "trees"
+  ],
+  "solved_count": 365,
+  "problem_url": "https://codeforces.com/problemset/problem/802/J3",
+  "answer_index_url": "https://codeforces.com/problemset/status/802/problem/J3",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/802/problem/J3?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=802J3%20Send%20the%20Fool%20Further%21%20%28hard%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P802J3",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Send the Fool Further! (hard) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dp",
+      "math",
+      "trees",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

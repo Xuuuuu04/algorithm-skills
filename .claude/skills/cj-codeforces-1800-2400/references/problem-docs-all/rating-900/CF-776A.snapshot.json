@@ -1,0 +1,34 @@
+{
+  "id": "CF-776A",
+  "contest_id": 776,
+  "index": "A",
+  "name": "A Serial Killer",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 12839,
+  "problem_url": "https://codeforces.com/problemset/problem/776/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/776/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/776/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=776A%20A%20Serial%20Killer%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P776A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "A Serial Killer - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

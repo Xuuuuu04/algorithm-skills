@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2194B Offshores - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2194B","type":"CF","title":"Offshores","difficulty":2,"tags":[5,7,111],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":null,"background":null,"description":"Mark \u975e\u5e38\u7231\u94b1\uff0c\u4ed6\u628a\u5927\u90e8\u5206\u94b1\u5b58\u5728\u94f6\u884c\u91cc\u3002\u4ed6\u5c06\u81ea\u5df1\u7684\u94b1\u5b58\u653e\u5728 $ n $ \u5bb6\u4e0d\u540c\u7684\u94f6\u884c\u4e2d\u3002\u5728\u7b2c $ i $ \u5bb6\u94f6\u884c\uff0c\u4ed6\u6709 $ a_i $ \u5362\u5e03\u3002\n\n\u6709\u4e00\u5929\uff0cMark \u51b3\u5b9a\u5c06\u4ed6\u6240\u6709\u7684\u94b1\u96c6\u4e2d\u5230\u4e00\u5bb6\u94f6\u884c\uff0c\u56e0\u6b64\u4ed6\u9700\u8981\u5c06\u94b1\u4ece\u4e00\u4e2a\u94f6\u884c\u8d26\u6237\u8f6c\u79fb\u5230\u53e6\u4e00\u4e2a\u8d26\u6237\u3002\u6240\u6709\u94f6\u884c\u95f4\u8f6c\u8d26\u90fd\u4ee5\u76f8\u540c\u7684\u65b9\u5f0f\u8fdb\u884c\uff1a\u4ed6\u4e00\u6b21\u53ea\u80fd\u8f6c\u8d26 $ x $ \u5362\u5e03\uff0c\u5e76\u4e14\u8003\u8651\u5230\u6240\u6709\u624b\u7eed\u8d39\uff0c\u53e6\u4e00\u8d26\u6237\u5b9e\u9645\u5230\u8d26 $ y $ \u5362\u5e03\uff08\u56e0\u4e3a\u94f6\u884c\u8981\u76c8\u5229\uff0c\u6240\u4ee5\u6709 $ y \\leq x $ \uff09\u3002\n\nMark \u53ef\u80fd\u65e0\u6cd5\u5c06\u6240\u6709\u94b1\u8f6c\u79fb\u5230\u4e00\u5bb6\u94f6\u884c\uff0c\u4f46\u4ed6\u5e0c\u671b\u627e\u5230\u6700\u7ec8\u4efb\u610f\u4e00\u5bb6\u94f6\u884c\u4e2d\u53ef\u80fd\u62e5\u6709\u7684\u6700\u5927\u5362\u5e03\u6570\u91cf\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $ t $\uff08 $ 1 \\le t \\le 10^4 $ \uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e09\u4e2a\u6574\u6570 $ n $\u3001$ x $ \u548c $ y $\uff08 $ 2 \\le n \\le 2 \\cdot 10^5 $\uff0c $ 1 \\le y \\le x \\le 10^9 $ \uff09\u2014\u2014\u5206\u522b\u8868\u793a\u94f6\u884c\u6570\u91cf\u3001\u8f6c\u8d26\u91d1\u989d\u548c\u5230\u8d26\u91d1\u989d\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $ n $ \u4e2a\u6574\u6570 $ a_1, a_2, \\ldots, a_n $\uff08 $ 1 \\le a_i \\le 10^9 $ \uff09\u2014\u2014\u6bcf\u5bb6\u94f6\u884c\u4e2d\u521d\u59cb\u7684\u5362\u5e03\u91d1\u989d\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $ n $ \u503c\u4e4b\u548c\u4e0d\u8d85\u8fc7 $ 2 \\cdot 10^5 $\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6570\u5b57\u2014\u2014\u4efb\u610f\u4e00\u5bb6\u94f6\u884c\u4e2d\u53ef\u4ee5\u83b7\u5f97\u7684\u6700\u5927\u5362\u5e03\u6570\u91cf\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u4f18\u7684\u8f6c\u8d26\u5e8f\u5217\u53ef\u80fd\u5982\u4e0b\u6240\u793a\uff1a\n\n$\n 1\\to4,\\; 1\\to4,\\; 4\\to3,\\; 4\\to3,\\; 4\\to3,\\; 3\\to2,\\; 3\\to2,\\; 3\\to2,\\; 3\\to2. \n$ \n\n\u8ba9\u6211\u4eec\u5c55\u793a\u6bcf\u4e00\u6b65\u540e\u91d1\u989d\u7684\u53d8\u5316\uff1a\n\n$\n(10,9,8,7)\n\\xrightarrow{1\\to4} (5,9,8,11)\n\\xrightarrow{1\\to4} (0,9,8,15)\n\\xrightarrow{4\\to3} (0,9,12,10)\n\\xrightarrow{4\\to3} (0,9,16,5)\n\\xrightarrow{4\\to3} (0,9,20,0)\n\\xrightarrow{3\\to2} (0,13,15,0)\n\\xrightarrow{3\\to2} (0,17,10,0)\n\\xrightarrow{3\\to2} (0,21,5,0)\n\\xrightarrow{3\\to2} (0,25,0,0).\n$\n\n\u7ed3\u679c\uff0c\u5728\u4e00\u5bb6\u94f6\u884c\uff08\u7279\u522b\u662f\u7b2c\u4e8c\u5bb6\u94f6\u884c\uff09\u4e2d\uff0c\u53ef\u4ee5\u83b7\u5f97 $ 25 $ \u5362\u5e03\uff0c\u8fd9\u4e2a\u503c\u5c31\u662f\u8be5\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b54\u6848\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u4ece\u7b2c\u4e00\u5bb6\u94f6\u884c\u5411\u7b2c\u4e8c\u5bb6\u94f6\u884c\u8f6c\u8d26 $ 1 $ \u5362\u5e03\uff0c\u91cd\u590d $ 1000 $ \u6b21\uff0c\u4ece\u800c\u5728\u7b2c\u4e8c\u5bb6\u94f6\u884c\u83b7\u5f97 $ 2000 $ \u5362\u5e03\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek \u751f\u6210\u3002","locale":"zh-CN"},"content":{"name":"Offshores","background":null,"description":"Mark loves money very much, and he keeps most of it in the bank. He stores his money in  $ n $  different banks. In the  $ i $ -th bank, he has  $ a_i $  rubles.\n\nOne day, Mark decided to gather all his money in one bank, so he will be transferring money from one bank account to another. All interbank transfers are arranged the same way: he can transfer only  $ x $  rubles in one transfer, and considering all fees,  $ y $  rubles will be credited to the other account (since banks want to make a profit, it holds that  $ y \\leq x $ ).\n\nIt is possible that Mark will not be able to transfer all his money to one bank, but he wants to find the maximum number of rubles that can end up in any bank.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains three integers  $ n $ ,  $ x $ , and  $ y $  ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ,  $ 1 \\le y \\le x \\le 10^9 $ ) \u2014 the number of banks, the transfer amount, and the credited amount.\n\nThe second line of each test case contains  $ n $  integers  $ a_1, a_2, \\ldots, a_n $  ( $ 1 \\le a_i \\le 10^9 $ ) \u2014 the initial amount of rubles in each bank.\n\nIt is guaranteed that the sum of the values of  $ n $  across all test cases does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a single number \u2014 the maximum number of rubles that can be obtained in any bank.","hint":"In the first test case, the optimal sequence of transfers may look as follows: $$$\n 1\\to4,\\; 1\\to4,\\; 4\\to3,\\; 4\\to3,\\; 4\\to3,\\; 3\\to2,\\; 3\\to2,\\; 3\\to2,\\; 3\\to2. \n$$$ Let\u0027s show the changes in sums after each step: $$$\n (10,9,8,7) \n$$$ $$$\n \\xrightarrow{1\\to4} (5,9,8,11) \\xrightarrow{1\\to4} (0,9,8,15) \n$$$ $$$\n \\xrightarrow{4\\to3} (0,9,12,10) \\xrightarrow{4\\to3} (0,9,16,5) \\xrightarrow{4\\to3} (0,9,20,0) \n$$$ $$$\n \\xrightarrow{3\\to2} (0,13,15,0) \\xrightarrow{3\\to2} (0,17,10,0) \\xrightarrow{3\\to2} (0,21,5,0) \\xrightarrow{3\\to2} (0,25,0,0). \n$$$\n\nAs a result, in one bank (specifically the second one), it is possible to obtain  $ 25 $  rubles, and this value is the answer for this test case.\n\nIn the third test case, it is possible to transfer one ruble from the first bank to the second bank  $ 1000 $  times and obtain  $ 2000 $  rubles in the second bank.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n4 5 4\n10 9 8 7\n5 13 11\n47 52 64 13 91\n2 1 1\n1000 1000\n3 15 14\n34 43 52\n6 7 6\n15 17 14 15 12 16\n2 15 10\n45 44","25\n229\n2000\n113\n72\n74"]],"limits":{"time":[1500],"memory":[256000]},"vjudge":{"id":"2194B","link":"https:\/\/codeforces.com\/problemset\/problem\/2194\/B"},"translation":null},"translations":{"en":{"name":"Offshores","background":null,"description":"Mark loves money very much, and he keeps most of it in the bank. He stores his money in  $ n $  different banks. In the  $ i $ -th bank, he has  $ a_i $  rubles.\n\nOne day, Mark decided to gather all his money in one bank, so he will be transferring money from one bank account to another. All interbank transfers are arranged the same way: he can transfer only  $ x $  rubles in one transfer, and considering all fees,  $ y $  rubles will be credited to the other account (since banks want to make a profit, it holds that  $ y \\leq x $ ).\n\nIt is possible that Mark will not be able to transfer all his money to one bank, but he wants to find the maximum number of rubles that can end up in any bank.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains three integers  $ n $ ,  $ x $ , and  $ y $  ( $ 2 \\le n \\le 2 \\cdot 10^5 $ ,  $ 1 \\le y \\le x \\le 10^9 $ ) \u2014 the number of banks, the transfer amount, and the credited amount.\n\nThe second line of each test case contains  $ n $  integers  $ a_1, a_2, \\ldots, a_n $  ( $ 1 \\le a_i \\le 10^9 $ ) \u2014 the initial amount of rubles in each bank.\n\nIt is guaranteed that the sum of the values of  $ n $  across all test cases does not exceed  $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a single number \u2014 the maximum number of rubles that can be obtained in any bank.","hint":"In the first test case, the optimal sequence of transfers may look as follows: $$$\n 1\\to4,\\; 1\\to4,\\; 4\\to3,\\; 4\\to3,\\; 4\\to3,\\; 3\\to2,\\; 3\\to2,\\; 3\\to2,\\; 3\\to2. \n$$$ Let\u0027s show the changes in sums after each step: $$$\n (10,9,8,7) \n$$$ $$$\n \\xrightarrow{1\\to4} (5,9,8,11) \\xrightarrow{1\\to4} (0,9,8,15) \n$$$ $$$\n \\xrightarrow{4\\to3} (0,9,12,10) \\xrightarrow{4\\to3} (0,9,16,5) \\xrightarrow{4\\to3} (0,9,20,0) \n$$$ $$$\n \\xrightarrow{3\\to2} (0,13,15,0) \\xrightarrow{3\\to2} (0,17,10,0) \\xrightarrow{3\\to2} (0,21,5,0) \\xrightarrow{3\\to2} (0,25,0,0). \n$$$\n\nAs a result, in one bank (specifically the second one), it is possible to obtain  $ 25 $  rubles, and this value is the answer for this test case.\n\nIn the third test case, it is possible to transfer one ruble from the first bank to the second bank  $ 1000 $  times and obtain  $ 2000 $  rubles in the second bank.","locale":"en"},"zh-CN":{"name":null,"background":null,"description":"Mark \u975e\u5e38\u7231\u94b1\uff0c\u4ed6\u628a\u5927\u90e8\u5206\u94b1\u5b58\u5728\u94f6\u884c\u91cc\u3002\u4ed6\u5c06\u81ea\u5df1\u7684\u94b1\u5b58\u653e\u5728 $ n $ \u5bb6\u4e0d\u540c\u7684\u94f6\u884c\u4e2d\u3002\u5728\u7b2c $ i $ \u5bb6\u94f6\u884c\uff0c\u4ed6\u6709 $ a_i $ \u5362\u5e03\u3002\n\n\u6709\u4e00\u5929\uff0cMark \u51b3\u5b9a\u5c06\u4ed6\u6240\u6709\u7684\u94b1\u96c6\u4e2d\u5230\u4e00\u5bb6\u94f6\u884c\uff0c\u56e0\u6b64\u4ed6\u9700\u8981\u5c06\u94b1\u4ece\u4e00\u4e2a\u94f6\u884c\u8d26\u6237\u8f6c\u79fb\u5230\u53e6\u4e00\u4e2a\u8d26\u6237\u3002\u6240\u6709\u94f6\u884c\u95f4\u8f6c\u8d26\u90fd\u4ee5\u76f8\u540c\u7684\u65b9\u5f0f\u8fdb\u884c\uff1a\u4ed6\u4e00\u6b21\u53ea\u80fd\u8f6c\u8d26 $ x $ \u5362\u5e03\uff0c\u5e76\u4e14\u8003\u8651\u5230\u6240\u6709\u624b\u7eed\u8d39\uff0c\u53e6\u4e00\u8d26\u6237\u5b9e\u9645\u5230\u8d26 $ y $ \u5362\u5e03\uff08\u56e0\u4e3a\u94f6\u884c\u8981\u76c8\u5229\uff0c\u6240\u4ee5\u6709 $ y \\leq x $ \uff09\u3002\n\nMark \u53ef\u80fd\u65e0\u6cd5\u5c06\u6240\u6709\u94b1\u8f6c\u79fb\u5230\u4e00\u5bb6\u94f6\u884c\uff0c\u4f46\u4ed6\u5e0c\u671b\u627e\u5230\u6700\u7ec8\u4efb\u610f\u4e00\u5bb6\u94f6\u884c\u4e2d\u53ef\u80fd\u62e5\u6709\u7684\u6700\u5927\u5362\u5e03\u6570\u91cf\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $ t $\uff08 $ 1 \\le t \\le 10^4 $ \uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e09\u4e2a\u6574\u6570 $ n $\u3001$ x $ \u548c $ y $\uff08 $ 2 \\le n \\le 2 \\cdot 10^5 $\uff0c $ 1 \\le y \\le x \\le 10^9 $ \uff09\u2014\u2014\u5206\u522b\u8868\u793a\u94f6\u884c\u6570\u91cf\u3001\u8f6c\u8d26\u91d1\u989d\u548c\u5230\u8d26\u91d1\u989d\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $ n $ \u4e2a\u6574\u6570 $ a_1, a_2, \\ldots, a_n $\uff08 $ 1 \\le a_i \\le 10^9 $ \uff09\u2014\u2014\u6bcf\u5bb6\u94f6\u884c\u4e2d\u521d\u59cb\u7684\u5362\u5e03\u91d1\u989d\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $ n $ \u503c\u4e4b\u548c\u4e0d\u8d85\u8fc7 $ 2 \\cdot 10^5 $\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6570\u5b57\u2014\u2014\u4efb\u610f\u4e00\u5bb6\u94f6\u884c\u4e2d\u53ef\u4ee5\u83b7\u5f97\u7684\u6700\u5927\u5362\u5e03\u6570\u91cf\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u4f18\u7684\u8f6c\u8d26\u5e8f\u5217\u53ef\u80fd\u5982\u4e0b\u6240\u793a\uff1a\n\n$\n 1\\to4,\\; 1\\to4,\\; 4\\to3,\\; 4\\to3,\\; 4\\to3,\\; 3\\to2,\\; 3\\to2,\\; 3\\to2,\\; 3\\to2. \n$ \n\n\u8ba9\u6211\u4eec\u5c55\u793a\u6bcf\u4e00\u6b65\u540e\u91d1\u989d\u7684\u53d8\u5316\uff1a\n\n$\n(10,9,8,7)\n\\xrightarrow{1\\to4} (5,9,8,11)\n\\xrightarrow{1\\to4} (0,9,8,15)\n\\xrightarrow{4\\to3} (0,9,12,10)\n\\xrightarrow{4\\to3} (0,9,16,5)\n\\xrightarrow{4\\to3} (0,9,20,0)\n\\xrightarrow{3\\to2} (0,13,15,0)\n\\xrightarrow{3\\to2} (0,17,10,0)\n\\xrightarrow{3\\to2} (0,21,5,0)\n\\xrightarrow{3\\to2} (0,25,0,0).\n$\n\n\u7ed3\u679c\uff0c\u5728\u4e00\u5bb6\u94f6\u884c\uff08\u7279\u522b\u662f\u7b2c\u4e8c\u5bb6\u94f6\u884c\uff09\u4e2d\uff0c\u53ef\u4ee5\u83b7\u5f97 $ 25 $ \u5362\u5e03\uff0c\u8fd9\u4e2a\u503c\u5c31\u662f\u8be5\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b54\u6848\u3002\n\n\u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u53ef\u4ee5\u4ece\u7b2c\u4e00\u5bb6\u94f6\u884c\u5411\u7b2c\u4e8c\u5bb6\u94f6\u884c\u8f6c\u8d26 $ 1 $ \u5362\u5e03\uff0c\u91cd\u590d $ 1000 $ \u6b21\uff0c\u4ece\u800c\u5728\u7b2c\u4e8c\u5bb6\u94f6\u884c\u83b7\u5f97 $ 2000 $ \u5362\u5e03\u3002\n\n\u7ffb\u8bd1\u7531 DeepSeek \u751f\u6210\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2194B ","type":2,"slug":"CF2194B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.179461,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2194B Offshores","description":"Mark \u975e\u5e38\u7231\u94b1\uff0c\u4ed6\u628a\u5927\u90e8\u5206\u94b1\u5b58\u5728\u94f6\u884c\u91cc\u3002\u4ed6\u5c06\u81ea\u5df1\u7684\u94b1\u5b58\u653e\u5728  n  \u5bb6\u4e0d\u540c\u7684\u94f6\u884c\u4e2d\u3002\u5728\u7b2c  i  \u5bb6\u94f6\u884c\uff0c\u4ed6\u6709  a_i  \u5362\u5e03\u3002\n\u6709\u4e00\u5929\uff0cMark \u51b3\u5b9a\u5c06\u4ed6\u6240\u6709\u7684\u94b1\u96c6\u4e2d\u5230\u4e00\u5bb6\u94f6\u884c\uff0c\u56e0\u6b64\u4ed6\u9700\u8981\u5c06\u94b1\u4ece\u4e00\u4e2a\u94f6\u884c\u8d26\u6237\u8f6c\u79fb\u5230\u53e6\u4e00\u4e2a\u8d26\u6237\u3002\u6240\u6709\u94f6\u884c\u95f4\u8f6c\u8d26\u90fd\u4ee5\u76f8\u540c\u7684\u65b9\u5f0f\u8fdb\u884c\uff1a\u4ed6\u4e00\u6b21\u53ea\u80fd\u8f6c\u8d26\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2194B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2194B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2194B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2194B Offshores" />
+    <meta property="og:description" content="Mark 非常爱钱，他把大部分钱存在银行里。他将自己的钱存放在  n  家不同的银行中。在第  i  家银行，他有  a_i  卢布。
+有一天，Mark 决定将他所有的钱集中到一家银行，因此他需要将钱从一个银行账户转移到另一个账户。所有银行间转账都以相同的方式进行：他一次只能转账…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2194B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2194B Offshores</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Mark 非常爱钱，他把大部分钱存在银行里。他将自己的钱存放在 $ n $ 家不同的银行中。在第 $ i $ 家银行，他有 $ a_i $ 卢布。
+
+有一天，Mark 决定将他所有的钱集中到一家银行，因此他需要将钱从一个银行账户转移到另一个账户。所有银行间转账都以相同的方式进行：他一次只能转账 $ x $ 卢布，并且考虑到所有手续费，另一账户实际到账 $ y $ 卢布（因为银行要盈利，所以有 $ y \leq x $ ）。
+
+Mark 可能无法将所有钱转移到一家银行，但他希望找到最终任意一家银行中可能拥有的最大卢布数量。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试包含多个测试用例。第一行包含测试用例的数量 $ t $（ $ 1 \le t \le 10^4 $ ）。接下来是每个测试用例的描述。
+
+每个测试用例的第一行包含三个整数 $ n $、$ x $ 和 $ y $（ $ 2 \le n \le 2 \cdot 10^5 $， $ 1 \le y \le x \le 10^9 $ ）——分别表示银行数量、转账金额和到账金额。
+
+每个测试用例的第二行包含 $ n $ 个整数 $ a_1, a_2, \ldots, a_n $（ $ 1 \le a_i \le 10^9 $ ）——每家银行中初始的卢布金额。
+
+保证所有测试用例的 $ n $ 值之和不超过 $ 2 \cdot 10^5 $。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一个数字——任意一家银行中可以获得的最大卢布数量。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，最优的转账序列可能如下所示：
+
+$
+ 1\to4,\; 1\to4,\; 4\to3,\; 4\to3,\; 4\to3,\; 3\to2,\; 3\to2,\; 3\to2,\; 3\to2. 
+$ 
+
+让我们展示每一步后金额的变化：
+
+$
+(10,9,8,7)
+\xrightarrow{1\to4} (5,9,8,11)
+\xrightarrow{1\to4} (0,9,8,15)
+\xrightarrow{4\to3} (0,9,12,10)
+\xrightarrow{4\to3} (0,9,16,5)
+\xrightarrow{4\to3} (0,9,20,0)
+\xrightarrow{3\to2} (0,13,15,0)
+\xrightarrow{3\to2} (0,17,10,0)
+\xrightarrow{3\to2} (0,21,5,0)
+\xrightarrow{3\to2} (0,25,0,0).
+$
+
+结果，在一家银行（特别是第二家银行）中，可以获得 $ 25 $ 卢布，这个值就是该测试用例的答案。
+
+在第三个测试用例中，可以从第一家银行向第二家银行转账 $ 1 $ 卢布，重复 $ 1000 $ 次，从而在第二家银行获得 $ 2000 $ 卢布。
+
+翻译由 DeepSeek 生成。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

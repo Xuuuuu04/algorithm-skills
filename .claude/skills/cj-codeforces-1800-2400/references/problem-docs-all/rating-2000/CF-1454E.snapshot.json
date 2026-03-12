@@ -1,0 +1,30 @@
+{
+  "id": "CF-1454E",
+  "contest_id": 1454,
+  "index": "E",
+  "name": "Number of Simple Paths",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 6533,
+  "problem_url": "https://codeforces.com/problemset/problem/1454/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1454/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1454/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1454E%20Number%20of%20Simple%20Paths%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1454E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1454E Number of Simple Paths - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 235,
+    "mirror_attempt": 483,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

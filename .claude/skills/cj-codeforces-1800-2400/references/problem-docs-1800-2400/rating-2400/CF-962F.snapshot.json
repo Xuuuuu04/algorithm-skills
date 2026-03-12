@@ -1,0 +1,36 @@
+{
+  "id": "CF-962F",
+  "contest_id": 962,
+  "index": "F",
+  "name": "Simple Cycles Edges",
+  "rating": 2400,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/962/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/962/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/962/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=962F%20Simple Cycles Edges%20tutorial",
+  "solved_count": 1559,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P962F",
+  "hydro_meta": {
+    "page_title": "Simple Cycles Edges - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

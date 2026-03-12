@@ -1,0 +1,27 @@
+{
+  "id": "CF-887A",
+  "contest_id": 887,
+  "index": "A",
+  "name": "Div. 64",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 11879,
+  "problem_url": "https://codeforces.com/problemset/problem/887/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/887/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/887/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=887A%20Div.%2064%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF887A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF887A Div. 64 - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 488,
+    "mirror_attempt": 1405,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-1511A",
+  "contest_id": 1511,
+  "index": "A",
+  "name": "Review Site",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 28744,
+  "problem_url": "https://codeforces.com/problemset/problem/1511/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1511/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1511/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1511A%20Review%20Site%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1511A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1511A Review Site - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 215,
+    "mirror_attempt": 291,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

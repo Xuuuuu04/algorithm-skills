@@ -1,0 +1,29 @@
+{
+  "id": "CF-505D",
+  "contest_id": 505,
+  "index": "D",
+  "name": "Mr. Kitayuta's Technology",
+  "rating": 2200,
+  "tags": [
+    "dfs and similar"
+  ],
+  "url": "https://codeforces.com/problemset/problem/505/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/505/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/505/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=505D%20Mr. Kitayuta's Technology%20tutorial",
+  "solved_count": 2899,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P505D",
+  "hydro_meta": {
+    "page_title": "Mr - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "*2200"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 14,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

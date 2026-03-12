@@ -1,0 +1,42 @@
+{
+  "id": "CF-1712E1",
+  "contest_id": 1712,
+  "index": "E1",
+  "name": "LCM Sum (easy version)",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "brute force",
+    "combinatorics",
+    "math",
+    "number theory",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1712/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1712/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1712/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1712E1%20LCM Sum (easy version)%20tutorial",
+  "solved_count": 2437,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1712E1",
+  "hydro_meta": {
+    "page_title": "LCM Sum (easy version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "math",
+      "number theory",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

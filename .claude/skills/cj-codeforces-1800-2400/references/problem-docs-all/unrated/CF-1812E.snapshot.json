@@ -1,0 +1,30 @@
+{
+  "id": "CF-1812E",
+  "contest_id": 1812,
+  "index": "E",
+  "name": "Not a Geometry Problem",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "constructive algorithms",
+    "geometry",
+    "math"
+  ],
+  "solved_count": 4254,
+  "problem_url": "https://codeforces.com/problemset/problem/1812/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1812/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1812/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1812E%20Not%20a%20Geometry%20Problem%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1812E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1812E Not a Geometry Problem - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 62,
+    "mirror_attempt": 75,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

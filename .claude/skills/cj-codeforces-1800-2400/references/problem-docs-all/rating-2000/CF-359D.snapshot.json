@@ -1,0 +1,31 @@
+{
+  "id": "CF-359D",
+  "contest_id": 359,
+  "index": "D",
+  "name": "Pair of Numbers",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "math",
+    "two pointers"
+  ],
+  "solved_count": 5647,
+  "problem_url": "https://codeforces.com/problemset/problem/359/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/359/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/359/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=359D%20Pair%20of%20Numbers%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF359D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF359D Pair of Numbers - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 606,
+    "mirror_attempt": 1544,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

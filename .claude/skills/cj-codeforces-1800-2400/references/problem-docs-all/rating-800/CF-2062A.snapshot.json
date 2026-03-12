@@ -1,0 +1,30 @@
+{
+  "id": "CF-2062A",
+  "contest_id": 2062,
+  "index": "A",
+  "name": "String",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "strings"
+  ],
+  "solved_count": 28085,
+  "problem_url": "https://codeforces.com/problemset/problem/2062/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2062/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2062/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2062A%20String%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2062/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2062A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

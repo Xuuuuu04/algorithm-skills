@@ -1,0 +1,34 @@
+{
+  "id": "CF-1176F",
+  "contest_id": 1176,
+  "index": "F",
+  "name": "Destroy it!",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 2285,
+  "problem_url": "https://codeforces.com/problemset/problem/1176/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1176/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1176/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1176F%20Destroy%20it%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1176F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Destroy it! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "implementation",
+      "sortings",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-2148B",
+  "contest_id": 2148,
+  "index": "B",
+  "name": "Lasers",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "geometry"
+  ],
+  "solved_count": 32279,
+  "problem_url": "https://codeforces.com/problemset/problem/2148/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2148/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2148/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2148B%20Lasers%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2148B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2148B Lasers - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "failed_urls_file": "cj-doc-indexer/references/docs/user_manual/_failed_urls.json",
+  "fetched_at": "2026-02-27T17:29:24.666332+00:00",
+  "items": [
+    {
+      "url": "https://cangjie-lang.cn/docs?url=/1.0.0/user_manual/source_zh_cn/Appendix/Chapter_15_Macro.html",
+      "path": "cj-doc-indexer/references/docs/recovered/user_manual/1.0.0/user_manual/source_zh_cn/Appendix/Chapter_15_Macro.html",
+      "status": "ok",
+      "bytes": 24474,
+      "iframe_url": "https://docs.cangjie-lang.cn/docs/1.0.0/user_manual/source_zh_cn/Appendix/Chapter_15_Macro.html",
+      "saved_at": "2026-02-27T17:29:25.021413+00:00"
+    },
+    {
+      "url": "https://cangjie-lang.cn/docs?url=/1.0.0/user_manual/source_zh_cn/first_understanding/install.html",
+      "path": "cj-doc-indexer/references/docs/recovered/user_manual/1.0.0/user_manual/source_zh_cn/first_understanding/install.html",
+      "status": "ok",
+      "bytes": 24482,
+      "iframe_url": "https://docs.cangjie-lang.cn/docs/1.0.0/user_manual/source_zh_cn/first_understanding/install.html",
+      "saved_at": "2026-02-27T17:29:25.393812+00:00"
+    }
+  ]
+}

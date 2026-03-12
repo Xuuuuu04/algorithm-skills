@@ -1,0 +1,35 @@
+{
+  "id": "CF-498B",
+  "contest_id": 498,
+  "index": "B",
+  "name": "Name That Tune",
+  "rating": 2400,
+  "tags": [
+    "dp",
+    "probabilities",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/498/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/498/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/498/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=498B%20Name That Tune%20tutorial",
+  "solved_count": 1283,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P498B",
+  "hydro_meta": {
+    "page_title": "Name That Tune - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "probabilities",
+      "two pointers",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

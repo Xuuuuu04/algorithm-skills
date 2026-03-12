@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF442C Artem and Array  - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF442C","type":"CF","title":"Artem and Array ","difficulty":6,"tags":[],"wantsTranslation":false,"totalSubmit":1413,"totalAccepted":536,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Artem and Array ","background":"","description":"\u7ed9\u5b9a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$ \uff0c\u4f60\u9700\u8981\u8fdb\u884c $n$ \u6b21\u64cd\u4f5c\uff1a\u5220\u53bb\u67d0\u4e00\u5143\u7d20 $a_i$ \uff0c\u5e76\u83b7\u5f97 $\\min\\{a_{i-1}, a_{i+1}\\}$ \u7684\u5206\u6570\u3002\u82e5\u4e0d\u5b58\u5728 $a_{i-1}$ \u6216 $a_{i+1}$\uff0c\u5219\u6b64\u6b21\u64cd\u4f5c\u4e0d\u5f97\u5206\u3002\n\n\u8bf7\u4f60\u8ba1\u7b97\u81f3\u591a\u80fd\u5f97\u5230\u591a\u5c11\u5206\u3002","formatI":"\u4e24\u884c\uff1a\u7b2c\u4e00\u884c\u4e00\u4e2a\u6570 $n$ \uff1b\u7b2c\u4e8c\u884c $n$ \u4e2a\u6570\uff0c\u7b2c $i$ \u4e2a\u6570\u4e3a $a_i$","formatO":"\u4e00\u884c\u5171\u4e00\u4e2a\u6570\uff0c\u8868\u793a\u6700\u5927\u5f97\u5206\u3002\n\n\u3010\u6570\u636e\u89c4\u6a21\u3011\n\n$1\\leq n \\leq 5*10^5$\n\n$1 \\leq a_i \\leq 10^6$","hint":"","locale":"zh-CN"},"content":{"name":"Artem and Array ","background":"","description":"Artem has an array of $ n $ positive integers. Artem decided to play with it. The game consists of $ n $ moves. Each move goes like this. Artem chooses some element of the array and removes it. For that, he gets $ min(a,b) $ points, where $ a $ and $ b $ are numbers that were adjacent with the removed number. If the number doesn\u0027t have an adjacent number to the left or right, Artem doesn\u0027t get any points.\n\nAfter the element is removed, the two parts of the array glue together resulting in the new array that Artem continues playing with. Borya wondered what maximum total number of points Artem can get as he plays this game.","formatI":"The first line contains a single integer $ n $ $ (1\u003C=n\u003C=5\u00b710^{5}) $ \u2014 the number of elements in the array. The next line contains $ n $ integers $ a_{i} $ $ (1\u003C=a_{i}\u003C=10^{6}) $ \u2014 the values of the array elements.","formatO":"In a single line print a single integer \u2014 the maximum number of points Artem can get.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n3 1 5 2 6\n","11\n"],["5\n1 2 3 4 5\n","6\n"],["5\n1 100 101 100 1\n","102\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"442C","link":"https:\/\/codeforces.com\/problemset\/problem\/442\/C"},"translation":"\u3010\u9898\u76ee\u63cf\u8ff0\u3011\n\n\u7ed9\u5b9a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$ \uff0c\u4f60\u9700\u8981\u8fdb\u884c $n$ \u6b21\u64cd\u4f5c\uff1a\u5220\u53bb\u67d0\u4e00\u5143\u7d20 $a_i$ \uff0c\u5e76\u83b7\u5f97 $\\min\\{a_{i-1}, a_{i+1}\\}$ \u7684\u5206\u6570\u3002\u82e5\u4e0d\u5b58\u5728 $a_{i-1}$ \u6216 $a_{i+1}$\uff0c\u5219\u6b64\u6b21\u64cd\u4f5c\u4e0d\u5f97\u5206\u3002\n\n\u8bf7\u4f60\u8ba1\u7b97\u81f3\u591a\u80fd\u5f97\u5230\u591a\u5c11\u5206\u3002\n\n\u3010\u8f93\u5165\u683c\u5f0f\u3011\n\n\u4e24\u884c\uff1a\u7b2c\u4e00\u884c\u4e00\u4e2a\u6570 $n$ \uff1b\u7b2c\u4e8c\u884c $n$ \u4e2a\u6570\uff0c\u7b2c $i$ \u4e2a\u6570\u4e3a $a_i$\n\n\u3010\u8f93\u51fa\u683c\u5f0f\u3011\n\n\u4e00\u884c\u5171\u4e00\u4e2a\u6570\uff0c\u8868\u793a\u6700\u5927\u5f97\u5206\u3002\n\n\u3010\u6570\u636e\u89c4\u6a21\u3011\n\n$1\\leq n \\leq 5*10^5$\n\n$1 \\leq a_i \\leq 10^6$"},"translations":{"en":{"name":"Artem and Array ","background":"","description":"Artem has an array of $ n $ positive integers. Artem decided to play with it. The game consists of $ n $ moves. Each move goes like this. Artem chooses some element of the array and removes it. For that, he gets $ min(a,b) $ points, where $ a $ and $ b $ are numbers that were adjacent with the removed number. If the number doesn\u0027t have an adjacent number to the left or right, Artem doesn\u0027t get any points.\n\nAfter the element is removed, the two parts of the array glue together resulting in the new array that Artem continues playing with. Borya wondered what maximum total number of points Artem can get as he plays this game.","formatI":"The first line contains a single integer $ n $ $ (1\u003C=n\u003C=5\u00b710^{5}) $ \u2014 the number of elements in the array. The next line contains $ n $ integers $ a_{i} $ $ (1\u003C=a_{i}\u003C=10^{6}) $ \u2014 the values of the array elements.","formatO":"In a single line print a single integer \u2014 the maximum number of points Artem can get.","hint":"","locale":"en"},"zh-CN":{"name":"Artem and Array ","background":"","description":"\u7ed9\u5b9a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$ \uff0c\u4f60\u9700\u8981\u8fdb\u884c $n$ \u6b21\u64cd\u4f5c\uff1a\u5220\u53bb\u67d0\u4e00\u5143\u7d20 $a_i$ \uff0c\u5e76\u83b7\u5f97 $\\min\\{a_{i-1}, a_{i+1}\\}$ \u7684\u5206\u6570\u3002\u82e5\u4e0d\u5b58\u5728 $a_{i-1}$ \u6216 $a_{i+1}$\uff0c\u5219\u6b64\u6b21\u64cd\u4f5c\u4e0d\u5f97\u5206\u3002\n\n\u8bf7\u4f60\u8ba1\u7b97\u81f3\u591a\u80fd\u5f97\u5230\u591a\u5c11\u5206\u3002","formatI":"\u4e24\u884c\uff1a\u7b2c\u4e00\u884c\u4e00\u4e2a\u6570 $n$ \uff1b\u7b2c\u4e8c\u884c $n$ \u4e2a\u6570\uff0c\u7b2c $i$ \u4e2a\u6570\u4e3a $a_i$","formatO":"\u4e00\u884c\u5171\u4e00\u4e2a\u6570\uff0c\u8868\u793a\u6700\u5927\u5f97\u5206\u3002\n\n\u3010\u6570\u636e\u89c4\u6a21\u3011\n\n$1\\leq n \\leq 5*10^5$\n\n$1 \\leq a_i \\leq 10^6$","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF442C Artem and Array ","type":2,"slug":"CF442C","color":"orange-3"},"discussions":[{"id":554938,"title":"\u4e3a\u4ec0\u4e48\u4f1aUKE\uff1f","author":{"uid":709380,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/709380.png","name":"ttltony","slogan":"\u4e00\u5207\u90fd\u5c06\u901d\u53bb\uff0c\u53ea\u6709\u6b7b\u795e\u6c38\u751f","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/6zwz8nuf.png"},"time":1673233575},{"id":381388,"title":"\u5173\u4e8e\u672c\u9898","author":{"uid":161577,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/161577.png","name":"psoet","slogan":".","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/mdxj6eix.png"},"time":1637221764},{"id":369356,"title":"\u6c42\u52a9","author":{"uid":223298,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/223298.png","name":"do_while_true","slogan":"\u6c34","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":9,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/6z2zcjds.png"},"time":1634823520},{"id":260707,"title":"\u672c\u9898\u5982\u4f55\u6784\u9020\u65b9\u6848\uff1f","author":{"uid":56724,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/56724.png","name":"_LiM","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":9,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/ug7wz60o.png"},"time":1601597214}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.708892,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF442C Artem and Array ","description":"\u7ed9\u5b9a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a \uff0c\u4f60\u9700\u8981\u8fdb\u884c n \u6b21\u64cd\u4f5c\uff1a\u5220\u53bb\u67d0\u4e00\u5143\u7d20 a_i \uff0c\u5e76\u83b7\u5f97 \\min\\{a_{i-1}, a_{i+1}\\} \u7684\u5206\u6570\u3002\u82e5\u4e0d\u5b58\u5728 a_{i-1} \u6216 a_{i+1}\uff0c\u5219\u6b64\u6b21\u64cd\u4f5c\u4e0d\u5f97\u5206\u3002\n\u8bf7\u4f60\u8ba1\u7b97\u81f3\u591a\u80fd\u5f97\u5230\u591a\u5c11\u5206\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF442C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF442C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF442C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF442C Artem and Array " />
+    <meta property="og:description" content="给定长度为 n 的数组 a ，你需要进行 n 次操作：删去某一元素 a_i ，并获得 \min\{a_{i-1}, a_{i+1}\} 的分数。若不存在 a_{i-1} 或 a_{i+1}，则此次操作不得分。
+请你计算至多能得到多少分。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF442C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF442C Artem and Array </h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定长度为 $n$ 的数组 $a$ ，你需要进行 $n$ 次操作：删去某一元素 $a_i$ ，并获得 $\min\{a_{i-1}, a_{i+1}\}$ 的分数。若不存在 $a_{i-1}$ 或 $a_{i+1}$，则此次操作不得分。
+
+请你计算至多能得到多少分。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    两行：第一行一个数 $n$ ；第二行 $n$ 个数，第 $i$ 个数为 $a_i$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    一行共一个数，表示最大得分。
+
+【数据规模】
+
+$1\leq n \leq 5*10^5$
+
+$1 \leq a_i \leq 10^6$
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

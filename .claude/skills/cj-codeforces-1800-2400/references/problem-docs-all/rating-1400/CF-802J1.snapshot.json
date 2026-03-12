@@ -1,0 +1,29 @@
+{
+  "id": "CF-802J1",
+  "contest_id": 802,
+  "index": "J1",
+  "name": "Send the Fool Further! (easy)",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 6449,
+  "problem_url": "https://codeforces.com/problemset/problem/802/J1",
+  "answer_index_url": "https://codeforces.com/problemset/status/802/problem/J1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/802/problem/J1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=802J1%20Send%20the%20Fool%20Further%21%20%28easy%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/802/J1",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 802J1 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

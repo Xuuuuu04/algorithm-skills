@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414525:AsMMK3CvmPuascBxOT1G0q+VzOVHboeMJ1a6lQflhVU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2114F Small Operations - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2114F","type":"CF","title":"Small Operations","difficulty":4,"tags":[3,4,5,129,241],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Small Operations","background":null,"description":"\u7ed9\u4f60\u4e24\u4e2a\u6b63\u6574\u6570 $x,k$\u3002\u8fdb\u884c\u4ee5\u4e0b\u4e24\u79cd\u53d8\u6362\u4e4b\u4e00\u79f0\u4e3a\u4e00\u6b21\u64cd\u4f5c\uff1a\n- \u9009\u62e9\u4e00\u4e2a\u6ee1\u8db3 $1 \\le a \\le k$ \u7684\u6b63\u6574\u6570 $a$\uff0c\u4f7f $x$ \u53d8\u4e3a $x\\cdot a$\uff1b\n- \u9009\u62e9\u4e00\u4e2a\u6ee1\u8db3 $1 \\le a \\le k$ \u7684\u6b63\u6574\u6570 $a$\uff0c\u4f7f $x$ \u53d8\u4e3a $\\frac{x}{a}$\uff0c\u8981\u6c42\u64cd\u4f5c\u5b8c\u540e $x$ \u503c\u662f\u6574\u6570\u3002\n\n\u4f60\u9700\u8981\u627e\u51fa\u4f7f $x$ \u53d8\u4e3a\u7ed9\u5b9a\u6b63\u6574\u6570 $y$ \u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\uff0c\u6216\u5224\u65ad\u65e0\u89e3\u3002","formatI":"\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6b63\u6574\u6570 $t\\ (1 \\le t \\le {10}^4)$\uff0c\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u4e00\u884c\u4e09\u4e2a\u6b63\u6574\u6570 $x,y,k\\ (1 \\le x,y,k \\le {10}^6)$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u6570\u636e\u4e2d $x$ \u7684\u603b\u548c\u4e0e $y$ \u7684\u603b\u548c\u5747\u4e0d\u8d85\u8fc7 ${10}^8$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u5982\u679c\u65e0\u89e3\u8f93\u51fa $-1$\uff0c\u5426\u5219\u8f93\u51fa\u4f7f $x$ \u53d8\u4e3a $y$ \u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u6211\u4eec\u53ef\u4ee5\u9009\u62e9 $a=2$\uff0c\u5c06 $x$ \u9664\u4ee5 $2$\uff0c\u7136\u540e\u9009\u62e9 $a=3$\uff0c\u5c06 $x$ \u4e58\u4e0a $3$\uff0c\u6b64\u65f6 $x$ \u5c06\u53d8\u4e3a $6$\uff0c\u7b49\u4e8e $y$\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u53ef\u4ee5\u8bc1\u660e\u5176\u4e0d\u53ef\u80fd\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e03\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u6211\u4eec\u53ef\u4ee5\u5206\u522b\u9009\u62e9 $a=7,9,10,10,12,13$\uff0c\u8fde\u7eed\u505a $6$ \u6b21\u4e58\u6cd5\u3002\u53ef\u4ee5\u8bc1\u660e\u6ca1\u6709\u6bd4\u8fd9\u66f4\u5c11\u7684\u64cd\u4f5c\u6b21\u6570\u4e86\u3002","locale":"zh-CN"},"content":{"name":"Small Operations","background":"","description":"Given an integer $ x $ and an integer $ k $ . In one operation, you can perform one of two actions:\n\n- choose an integer $ 1 \\le a \\le k $ and assign $ x = x \\cdot a $ ;\n- choose an integer $ 1 \\le a \\le k $ and assign $ x = \\frac{x}{a} $ , where the value of $ \\frac{x}{a} $ must be an integer.\n\nFind the minimum number of operations required to make the number $ x $ equal to $ y $ , or determine that it is impossible.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains three integers $ x $ , $ y $ and $ k $ ( $ 1 \\le x, y, k \\le 10^6 $ ).\n\nIt is guaranteed that the sum of $ x $ and the sum of $ y $ across all test cases does not exceed $ 10^8 $ .","formatO":"For each test case, output $ -1 $ if it is impossible to achieve $ x=y $ using the given operations, and the minimum number of required operations otherwise.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["8\n4 6 3\n4 5 3\n4 6 2\n10 45 3\n780 23 42\n11 270 23\n1 982800 13\n1 6 2","2\n-1\n-1\n3\n3\n3\n6\n-1"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"2114F","link":"https:\/\/codeforces.com\/problemset\/problem\/2114\/F"},"translation":""},"translations":{"en":{"name":"Small Operations","background":"","description":"Given an integer $ x $ and an integer $ k $ . In one operation, you can perform one of two actions:\n\n- choose an integer $ 1 \\le a \\le k $ and assign $ x = x \\cdot a $ ;\n- choose an integer $ 1 \\le a \\le k $ and assign $ x = \\frac{x}{a} $ , where the value of $ \\frac{x}{a} $ must be an integer.\n\nFind the minimum number of operations required to make the number $ x $ equal to $ y $ , or determine that it is impossible.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe only line of each test case contains three integers $ x $ , $ y $ and $ k $ ( $ 1 \\le x, y, k \\le 10^6 $ ).\n\nIt is guaranteed that the sum of $ x $ and the sum of $ y $ across all test cases does not exceed $ 10^8 $ .","formatO":"For each test case, output $ -1 $ if it is impossible to achieve $ x=y $ using the given operations, and the minimum number of required operations otherwise.","hint":"","locale":"en"},"zh-CN":{"name":"Small Operations","background":null,"description":"\u7ed9\u4f60\u4e24\u4e2a\u6b63\u6574\u6570 $x,k$\u3002\u8fdb\u884c\u4ee5\u4e0b\u4e24\u79cd\u53d8\u6362\u4e4b\u4e00\u79f0\u4e3a\u4e00\u6b21\u64cd\u4f5c\uff1a\n- \u9009\u62e9\u4e00\u4e2a\u6ee1\u8db3 $1 \\le a \\le k$ \u7684\u6b63\u6574\u6570 $a$\uff0c\u4f7f $x$ \u53d8\u4e3a $x\\cdot a$\uff1b\n- \u9009\u62e9\u4e00\u4e2a\u6ee1\u8db3 $1 \\le a \\le k$ \u7684\u6b63\u6574\u6570 $a$\uff0c\u4f7f $x$ \u53d8\u4e3a $\\frac{x}{a}$\uff0c\u8981\u6c42\u64cd\u4f5c\u5b8c\u540e $x$ \u503c\u662f\u6574\u6570\u3002\n\n\u4f60\u9700\u8981\u627e\u51fa\u4f7f $x$ \u53d8\u4e3a\u7ed9\u5b9a\u6b63\u6574\u6570 $y$ \u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\uff0c\u6216\u5224\u65ad\u65e0\u89e3\u3002","formatI":"\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6b63\u6574\u6570 $t\\ (1 \\le t \\le {10}^4)$\uff0c\u8868\u793a\u6d4b\u8bd5\u6570\u636e\u7ec4\u6570\u3002\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u4e00\u884c\u4e09\u4e2a\u6b63\u6574\u6570 $x,y,k\\ (1 \\le x,y,k \\le {10}^6)$\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u6570\u636e\u4e2d $x$ \u7684\u603b\u548c\u4e0e $y$ \u7684\u603b\u548c\u5747\u4e0d\u8d85\u8fc7 ${10}^8$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u5982\u679c\u65e0\u89e3\u8f93\u51fa $-1$\uff0c\u5426\u5219\u8f93\u51fa\u4f7f $x$ \u53d8\u4e3a $y$ \u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570\u3002","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u6211\u4eec\u53ef\u4ee5\u9009\u62e9 $a=2$\uff0c\u5c06 $x$ \u9664\u4ee5 $2$\uff0c\u7136\u540e\u9009\u62e9 $a=3$\uff0c\u5c06 $x$ \u4e58\u4e0a $3$\uff0c\u6b64\u65f6 $x$ \u5c06\u53d8\u4e3a $6$\uff0c\u7b49\u4e8e $y$\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e8c\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u53ef\u4ee5\u8bc1\u660e\u5176\u4e0d\u53ef\u80fd\u3002\n\n\u5bf9\u4e8e\u7b2c\u4e03\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u6211\u4eec\u53ef\u4ee5\u5206\u522b\u9009\u62e9 $a=7,9,10,10,12,13$\uff0c\u8fde\u7eed\u505a $6$ \u6b21\u4e58\u6cd5\u3002\u53ef\u4ee5\u8bc1\u660e\u6ca1\u6709\u6bd4\u8fd9\u66f4\u5c11\u7684\u64cd\u4f5c\u6b21\u6570\u4e86\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2114F Small Operations","type":2,"slug":"CF2114F","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328125.117959,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2114F Small Operations","description":"\u7ed9\u4f60\u4e24\u4e2a\u6b63\u6574\u6570 x,k\u3002\u8fdb\u884c\u4ee5\u4e0b\u4e24\u79cd\u53d8\u6362\u4e4b\u4e00\u79f0\u4e3a\u4e00\u6b21\u64cd\u4f5c\uff1a\n\n\u9009\u62e9\u4e00\u4e2a\u6ee1\u8db3 1 \\le a \\le k \u7684\u6b63\u6574\u6570 a\uff0c\u4f7f x \u53d8\u4e3a x\\cdot a\uff1b\n\u9009\u62e9\u4e00\u4e2a\u6ee1\u8db3 1 \\le a \\le k \u7684\u6b63\u6574\u6570 a\uff0c\u4f7f x \u53d8\u4e3a \\frac{x}{a}\uff0c\u8981\u6c42\u64cd\u4f5c\u5b8c\u540e\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2114F" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2114F?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2114F?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2114F Small Operations" />
+    <meta property="og:description" content="给你两个正整数 x,k。进行以下两种变换之一称为一次操作：
+
+选择一个满足 1 \le a \le k 的正整数 a，使 x 变为 x\cdot a；
+选择一个满足 1 \le a \le k 的正整数 a，使 x 变为 \frac{x}{a}，要求操作完后…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2114F" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2114F Small Operations</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给你两个正整数 $x,k$。进行以下两种变换之一称为一次操作：
+- 选择一个满足 $1 \le a \le k$ 的正整数 $a$，使 $x$ 变为 $x\cdot a$；
+- 选择一个满足 $1 \le a \le k$ 的正整数 $a$，使 $x$ 变为 $\frac{x}{a}$，要求操作完后 $x$ 值是整数。
+
+你需要找出使 $x$ 变为给定正整数 $y$ 的最小操作次数，或判断无解。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行，一个正整数 $t\ (1 \le t \le {10}^4)$，表示测试数据组数。
+
+对于每组测试数据，一行三个正整数 $x,y,k\ (1 \le x,y,k \le {10}^6)$。
+
+保证所有测试数据中 $x$ 的总和与 $y$ 的总和均不超过 ${10}^8$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试数据，如果无解输出 $-1$，否则输出使 $x$ 变为 $y$ 的最小操作次数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于第一组测试数据，我们可以选择 $a=2$，将 $x$ 除以 $2$，然后选择 $a=3$，将 $x$ 乘上 $3$，此时 $x$ 将变为 $6$，等于 $y$。
+
+对于第二组测试数据，可以证明其不可能。
+
+对于第七组测试数据，我们可以分别选择 $a=7,9,10,10,12,13$，连续做 $6$ 次乘法。可以证明没有比这更少的操作次数了。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

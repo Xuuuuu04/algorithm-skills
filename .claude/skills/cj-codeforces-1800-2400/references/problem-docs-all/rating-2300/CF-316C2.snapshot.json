@@ -1,0 +1,28 @@
+{
+  "id": "CF-316C2",
+  "contest_id": 316,
+  "index": "C2",
+  "name": "Tidying Up",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 70.0,
+  "tags": [
+    "flows",
+    "graph matchings"
+  ],
+  "solved_count": 664,
+  "problem_url": "https://codeforces.com/problemset/problem/316/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/316/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/316/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=316C2%20Tidying%20Up%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/316/C2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 316C2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

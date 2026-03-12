@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1792C Min Max Sort - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1792C","type":"CF","title":"Min Max Sort","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":601,"totalAccepted":361,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Min Max Sort","background":"","description":"\u5bf9\u4e8e\u4e00\u4e2a\u6392\u5217\uff0c\u5b9a\u4e49\u4e00\u6b21\u64cd\u4f5c\u4e3a\uff1a\u5728\u6392\u5217\u4e2d\u4efb\u9009\u4e24\u4e2a\u6570\u5b57\uff0c\u5c06\u5b83\u4eec\u4e2d\u7684\u6700\u5927\u503c\u63d2\u5165\u81f3\u961f\u5c3e\uff0c\u6700\u5c0f\u503c\u63d2\u5165\u81f3\u961f\u9996\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u591a\u4e2a\u6392\u5217\uff0c\u95ee\u6bcf\u4e2a\u6392\u5217\u6700\u5c11\u5404\u9700\u591a\u5c11\u6b21\u64cd\u4f5c\u624d\u80fd\u53d8\u5f97\u4e25\u683c\u9012\u589e\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t(1 \\le t \\le 10^4)$\uff0c\u8868\u793a\u5c06\u8981\u7ed9\u51fa\u7684\u6392\u5217\u6570\u3002\n\n\u63a5\u4e0b\u6765 $2t$ \u884c\uff0c\u6bcf\u4e24\u884c\u63cf\u8ff0\u4e00\u4e2a\u6392\u5217\uff1a\u9996\u884c\u4e00\u4e2a\u6574\u6570 $n(1 \\le n \\le 2 \\times 10^5)$\uff0c\u8868\u793a\u6392\u5217\u7684\u957f\u5ea6\uff1b\u4e0b\u4e00\u884c $n$ \u4e2a\u6574\u6570\uff0c\u63cf\u8ff0\u6392\u5217 $p$\u3002\n\n\u4fdd\u8bc1 $\\sum n \\le 2 \\times 10^5$\u3002","formatO":"$t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f\u7b2c $i$ \u4e2a\u6392\u5217\u53d8\u5f97\u4e25\u683c\u9012\u589e\u6240\u9700\u8981\u7684\u64cd\u4f5c\u6570\u3002","hint":"","locale":"zh-CN"},"content":{"name":"Min Max Sort","background":"","description":"You are given a permutation $ p $ of length $ n $ (a permutation of length $ n $ is an array of length $ n $ in which each integer from $ 1 $ to $ n $ occurs exactly once).\n\nYou can perform the following operation any number of times (possibly zero):\n\n1. choose two different elements $ x $ and $ y $ and erase them from the permutation;\n2. insert the minimum of $ x $ and $ y $ into the permutation in such a way that it becomes the first element;\n3. insert the maximum of $ x $ and $ y $ into the permutation in such a way that it becomes the last element.\n\nFor example, if $ p = [1, 5, 4, 2, 3] $ and we want to apply the operation to the elements $ 3 $ and $ 5 $ , then after the first step of the operation, the permutation becomes $ p = [1, 4, 2] $ ; and after we insert the elements, it becomes $ p = [3, 1, 4, 2, 5] $ .\n\nYour task is to calculate the minimum number of operations described above to sort the permutation $ p $ in ascending order (i. e. transform $ p $ so that $ p_1 \u003C p_2 \u003C \\dots \u003C p_n $ ).","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of the test case contains a single integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of elements in the permutation.\n\nThe second line of the test case contains $ n $ distinct integers from $ 1 $ to $ n $ \u2014 the given permutation $ p $ .\n\nThe sum of $ n $ over all test cases doesn\u0027t exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a single integer \u2014 the minimum number of operations described above to sort the array $ p $ in ascending order.","hint":"In the first example, you can proceed as follows:\n\n1. in the permutation $ p = [1, 5, 4, 2, 3] $ , let\u0027s choose the elements $ 4 $ and $ 2 $ , then, after applying the operation, the permutation becomes $ p = [2, 1, 5, 3, 4] $ ;\n2. in the permutation $ p = [2, 1, 5, 3, 4] $ , let\u0027s choose the elements $ 1 $ and $ 5 $ , then, after applying operation, the permutation becomes $ p = [1, 2, 3, 4, 5] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n5\n1 5 4 2 3\n3\n1 2 3\n4\n2 1 4 3\n6\n5 2 4 1 6 3","2\n0\n1\n3"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1792C","link":"https:\/\/codeforces.com\/problemset\/problem\/1792\/C"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\n\u5bf9\u4e8e\u4e00\u4e2a\u6392\u5217\uff0c\u5b9a\u4e49\u4e00\u6b21\u64cd\u4f5c\u4e3a\uff1a\u5728\u6392\u5217\u4e2d\u4efb\u9009\u4e24\u4e2a\u6570\u5b57\uff0c\u5c06\u5b83\u4eec\u4e2d\u7684\u6700\u5927\u503c\u63d2\u5165\u81f3\u961f\u5c3e\uff0c\u6700\u5c0f\u503c\u63d2\u5165\u81f3\u961f\u9996\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u591a\u4e2a\u6392\u5217\uff0c\u95ee\u6bcf\u4e2a\u6392\u5217\u6700\u5c11\u5404\u9700\u591a\u5c11\u6b21\u64cd\u4f5c\u624d\u80fd\u53d8\u5f97\u4e25\u683c\u9012\u589e\u3002\n\n## \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t(1 \\le t \\le 10^4)$\uff0c\u8868\u793a\u5c06\u8981\u7ed9\u51fa\u7684\u6392\u5217\u6570\u3002\n\n\u63a5\u4e0b\u6765 $2t$ \u884c\uff0c\u6bcf\u4e24\u884c\u63cf\u8ff0\u4e00\u4e2a\u6392\u5217\uff1a\u9996\u884c\u4e00\u4e2a\u6574\u6570 $n(1 \\le n \\le 2 \\times 10^5)$\uff0c\u8868\u793a\u6392\u5217\u7684\u957f\u5ea6\uff1b\u4e0b\u4e00\u884c $n$ \u4e2a\u6574\u6570\uff0c\u63cf\u8ff0\u6392\u5217 $p$\u3002\n\n\u4fdd\u8bc1 $\\sum n \\le 2 \\times 10^5$\u3002\n\n## \u8f93\u51fa\u683c\u5f0f\n\n$t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f\u7b2c $i$ \u4e2a\u6392\u5217\u53d8\u5f97\u4e25\u683c\u9012\u589e\u6240\u9700\u8981\u7684\u64cd\u4f5c\u6570\u3002"},"translations":{"en":{"name":"Min Max Sort","background":"","description":"You are given a permutation $ p $ of length $ n $ (a permutation of length $ n $ is an array of length $ n $ in which each integer from $ 1 $ to $ n $ occurs exactly once).\n\nYou can perform the following operation any number of times (possibly zero):\n\n1. choose two different elements $ x $ and $ y $ and erase them from the permutation;\n2. insert the minimum of $ x $ and $ y $ into the permutation in such a way that it becomes the first element;\n3. insert the maximum of $ x $ and $ y $ into the permutation in such a way that it becomes the last element.\n\nFor example, if $ p = [1, 5, 4, 2, 3] $ and we want to apply the operation to the elements $ 3 $ and $ 5 $ , then after the first step of the operation, the permutation becomes $ p = [1, 4, 2] $ ; and after we insert the elements, it becomes $ p = [3, 1, 4, 2, 5] $ .\n\nYour task is to calculate the minimum number of operations described above to sort the permutation $ p $ in ascending order (i. e. transform $ p $ so that $ p_1 \u003C p_2 \u003C \\dots \u003C p_n $ ).","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first line of the test case contains a single integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of elements in the permutation.\n\nThe second line of the test case contains $ n $ distinct integers from $ 1 $ to $ n $ \u2014 the given permutation $ p $ .\n\nThe sum of $ n $ over all test cases doesn\u0027t exceed $ 2 \\cdot 10^5 $ .","formatO":"For each test case, output a single integer \u2014 the minimum number of operations described above to sort the array $ p $ in ascending order.","hint":"In the first example, you can proceed as follows:\n\n1. in the permutation $ p = [1, 5, 4, 2, 3] $ , let\u0027s choose the elements $ 4 $ and $ 2 $ , then, after applying the operation, the permutation becomes $ p = [2, 1, 5, 3, 4] $ ;\n2. in the permutation $ p = [2, 1, 5, 3, 4] $ , let\u0027s choose the elements $ 1 $ and $ 5 $ , then, after applying operation, the permutation becomes $ p = [1, 2, 3, 4, 5] $ .","locale":"en"},"zh-CN":{"name":"Min Max Sort","background":"","description":"\u5bf9\u4e8e\u4e00\u4e2a\u6392\u5217\uff0c\u5b9a\u4e49\u4e00\u6b21\u64cd\u4f5c\u4e3a\uff1a\u5728\u6392\u5217\u4e2d\u4efb\u9009\u4e24\u4e2a\u6570\u5b57\uff0c\u5c06\u5b83\u4eec\u4e2d\u7684\u6700\u5927\u503c\u63d2\u5165\u81f3\u961f\u5c3e\uff0c\u6700\u5c0f\u503c\u63d2\u5165\u81f3\u961f\u9996\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u591a\u4e2a\u6392\u5217\uff0c\u95ee\u6bcf\u4e2a\u6392\u5217\u6700\u5c11\u5404\u9700\u591a\u5c11\u6b21\u64cd\u4f5c\u624d\u80fd\u53d8\u5f97\u4e25\u683c\u9012\u589e\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t(1 \\le t \\le 10^4)$\uff0c\u8868\u793a\u5c06\u8981\u7ed9\u51fa\u7684\u6392\u5217\u6570\u3002\n\n\u63a5\u4e0b\u6765 $2t$ \u884c\uff0c\u6bcf\u4e24\u884c\u63cf\u8ff0\u4e00\u4e2a\u6392\u5217\uff1a\u9996\u884c\u4e00\u4e2a\u6574\u6570 $n(1 \\le n \\le 2 \\times 10^5)$\uff0c\u8868\u793a\u6392\u5217\u7684\u957f\u5ea6\uff1b\u4e0b\u4e00\u884c $n$ \u4e2a\u6574\u6570\uff0c\u63cf\u8ff0\u6392\u5217 $p$\u3002\n\n\u4fdd\u8bc1 $\\sum n \\le 2 \\times 10^5$\u3002","formatO":"$t$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4f7f\u7b2c $i$ \u4e2a\u6392\u5217\u53d8\u5f97\u4e25\u683c\u9012\u589e\u6240\u9700\u8981\u7684\u64cd\u4f5c\u6570\u3002","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1792C Min Max Sort","type":2,"slug":"CF1792C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.56818,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1792C Min Max Sort","description":"\u5bf9\u4e8e\u4e00\u4e2a\u6392\u5217\uff0c\u5b9a\u4e49\u4e00\u6b21\u64cd\u4f5c\u4e3a\uff1a\u5728\u6392\u5217\u4e2d\u4efb\u9009\u4e24\u4e2a\u6570\u5b57\uff0c\u5c06\u5b83\u4eec\u4e2d\u7684\u6700\u5927\u503c\u63d2\u5165\u81f3\u961f\u5c3e\uff0c\u6700\u5c0f\u503c\u63d2\u5165\u81f3\u961f\u9996\u3002\n\u73b0\u5728\u7ed9\u5b9a\u591a\u4e2a\u6392\u5217\uff0c\u95ee\u6bcf\u4e2a\u6392\u5217\u6700\u5c11\u5404\u9700\u591a\u5c11\u6b21\u64cd\u4f5c\u624d\u80fd\u53d8\u5f97\u4e25\u683c\u9012\u589e\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1792C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1792C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1792C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1792C Min Max Sort" />
+    <meta property="og:description" content="对于一个排列，定义一次操作为：在排列中任选两个数字，将它们中的最大值插入至队尾，最小值插入至队首。
+现在给定多个排列，问每个排列最少各需多少次操作才能变得严格递增。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1792C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1792C Min Max Sort</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    对于一个排列，定义一次操作为：在排列中任选两个数字，将它们中的最大值插入至队尾，最小值插入至队首。
+
+现在给定多个排列，问每个排列最少各需多少次操作才能变得严格递增。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个整数 $t(1 \le t \le 10^4)$，表示将要给出的排列数。
+
+接下来 $2t$ 行，每两行描述一个排列：首行一个整数 $n(1 \le n \le 2 \times 10^5)$，表示排列的长度；下一行 $n$ 个整数，描述排列 $p$。
+
+保证 $\sum n \le 2 \times 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    $t$ 行，每行一个整数，表示使第 $i$ 个排列变得严格递增所需要的操作数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first example, you can proceed as follows:
+
+1. in the permutation $ p = [1, 5, 4, 2, 3] $ , let's choose the elements $ 4 $ and $ 2 $ , then, after applying the operation, the permutation becomes $ p = [2, 1, 5, 3, 4] $ ;
+2. in the permutation $ p = [2, 1, 5, 3, 4] $ , let's choose the elements $ 1 $ and $ 5 $ , then, after applying operation, the permutation becomes $ p = [1, 2, 3, 4, 5] $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "id": "CF-641C",
+  "contest_id": 641,
+  "index": "C",
+  "name": "Little Artem and Dance",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 3166,
+  "problem_url": "https://codeforces.com/problemset/problem/641/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/641/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/641/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=641C%20Little%20Artem%20and%20Dance%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P641C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Little Artem and Dance - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

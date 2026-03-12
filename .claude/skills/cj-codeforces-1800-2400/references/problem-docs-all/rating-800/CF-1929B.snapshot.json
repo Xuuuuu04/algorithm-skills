@@ -1,0 +1,29 @@
+{
+  "id": "CF-1929B",
+  "contest_id": 1929,
+  "index": "B",
+  "name": "Sasha and the Drawing",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 26627,
+  "problem_url": "https://codeforces.com/problemset/problem/1929/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1929/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1929/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1929B%20Sasha%20and%20the%20Drawing%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1929B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1929B Sasha and the Drawing - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 215,
+    "mirror_attempt": 290,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

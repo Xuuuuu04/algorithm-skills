@@ -1,0 +1,34 @@
+{
+  "id": "CF-1773A",
+  "contest_id": 1773,
+  "index": "A",
+  "name": "Amazing Trick",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "graph matchings",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 1862,
+  "problem_url": "https://codeforces.com/problemset/problem/1773/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1773/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1773/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1773A%20Amazing%20Trick%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1773A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Amazing Trick - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "probabilities",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "1024MiB"
+  }
+}

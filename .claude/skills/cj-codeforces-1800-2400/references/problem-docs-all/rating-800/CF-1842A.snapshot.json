@@ -1,0 +1,28 @@
+{
+  "id": "CF-1842A",
+  "contest_id": 1842,
+  "index": "A",
+  "name": "Tenzing and Tsondu",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "games",
+    "math"
+  ],
+  "solved_count": 20731,
+  "problem_url": "https://codeforces.com/problemset/problem/1842/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1842/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1842/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1842A%20Tenzing%20and%20Tsondu%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1842A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1842A Tenzing and Tsondu - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 133,
+    "mirror_attempt": 237,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

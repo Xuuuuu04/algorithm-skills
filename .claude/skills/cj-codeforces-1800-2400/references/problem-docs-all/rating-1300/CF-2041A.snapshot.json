@@ -1,0 +1,32 @@
+{
+  "id": "CF-2041A",
+  "contest_id": 2041,
+  "index": "A",
+  "name": "The Bento Box Adventure",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 11112,
+  "problem_url": "https://codeforces.com/problemset/problem/2041/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2041/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2041/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2041A%20The%20Bento%20Box%20Adventure%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2041A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Bento Box Adventure - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CF-1765F",
+  "contest_id": 1765,
+  "index": "F",
+  "name": "Chemistry Lab",
+  "rating": 2200,
+  "tags": [
+    "dp",
+    "geometry",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1765/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1765/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1765/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1765F%20Chemistry Lab%20tutorial",
+  "solved_count": 748,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1765F",
+  "hydro_meta": {
+    "page_title": "Chemistry Lab - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "geometry",
+      "probabilities",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

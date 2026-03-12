@@ -1,0 +1,42 @@
+{
+  "id": "CF-1479B2",
+  "contest_id": 1479,
+  "index": "B2",
+  "name": "Painting the Array II",
+  "rating": 2100,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1479/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1479/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1479/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1479B2%20Painting the Array II%20tutorial",
+  "solved_count": 4393,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1479B2",
+  "hydro_meta": {
+    "page_title": "Painting the Array II - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

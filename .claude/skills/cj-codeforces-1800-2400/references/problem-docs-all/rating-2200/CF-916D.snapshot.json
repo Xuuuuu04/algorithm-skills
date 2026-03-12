@@ -1,0 +1,29 @@
+{
+  "id": "CF-916D",
+  "contest_id": 916,
+  "index": "D",
+  "name": "Jamie and To-do List",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "data structures",
+    "interactive",
+    "trees"
+  ],
+  "solved_count": 558,
+  "problem_url": "https://codeforces.com/problemset/problem/916/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/916/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/916/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=916D%20Jamie%20and%20To-do%20List%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF916D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF916D Jamie and To-do List - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 151,
+    "mirror_attempt": 566,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

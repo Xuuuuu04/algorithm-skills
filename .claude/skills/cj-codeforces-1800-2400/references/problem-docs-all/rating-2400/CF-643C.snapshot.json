@@ -1,0 +1,30 @@
+{
+  "id": "CF-643C",
+  "contest_id": 643,
+  "index": "C",
+  "name": "Levels and Regions",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 1659,
+  "problem_url": "https://codeforces.com/problemset/problem/643/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/643/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/643/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=643C%20Levels%20and%20Regions%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P643C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Levels and Regions - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "*2400"
+    ],
+    "mirror_accepted": 3,
+    "mirror_attempt": 5,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

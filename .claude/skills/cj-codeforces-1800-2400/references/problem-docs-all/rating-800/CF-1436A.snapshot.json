@@ -1,0 +1,27 @@
+{
+  "id": "CF-1436A",
+  "contest_id": 1436,
+  "index": "A",
+  "name": "Reorder",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 23408,
+  "problem_url": "https://codeforces.com/problemset/problem/1436/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1436/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1436/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1436A%20Reorder%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1436/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1436A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

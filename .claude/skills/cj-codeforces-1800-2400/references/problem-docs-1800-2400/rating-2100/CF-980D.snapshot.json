@@ -1,0 +1,37 @@
+{
+  "id": "CF-980D",
+  "contest_id": 980,
+  "index": "D",
+  "name": "Perfect Groups",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/980/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/980/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/980/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=980D%20Perfect Groups%20tutorial",
+  "solved_count": 2984,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P980D",
+  "hydro_meta": {
+    "page_title": "Perfect Groups - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

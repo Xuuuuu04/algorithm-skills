@@ -1,0 +1,29 @@
+{
+  "id": "CF-1951D",
+  "contest_id": 1951,
+  "index": "D",
+  "name": "Buying Jewels",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 6233,
+  "problem_url": "https://codeforces.com/problemset/problem/1951/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1951/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1951/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1951D%20Buying%20Jewels%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1951D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1951D Buying Jewels - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 160,
+    "mirror_attempt": 347,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

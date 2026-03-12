@@ -1,0 +1,28 @@
+{
+  "id": "CF-810A",
+  "contest_id": 810,
+  "index": "A",
+  "name": "Straight <<A>>",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 9195,
+  "problem_url": "https://codeforces.com/problemset/problem/810/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/810/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/810/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=810A%20Straight%20%3C%3CA%3E%3E%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/810/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 810A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

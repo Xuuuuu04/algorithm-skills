@@ -1,0 +1,40 @@
+{
+  "id": "CF-1788D",
+  "contest_id": 1788,
+  "index": "D",
+  "name": "Moving Dots",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "brute force",
+    "combinatorics",
+    "math",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1788/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1788/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1788/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1788D%20Moving Dots%20tutorial",
+  "solved_count": 4569,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1788D",
+  "hydro_meta": {
+    "page_title": "Moving Dots - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "math",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

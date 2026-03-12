@@ -1,0 +1,30 @@
+{
+  "id": "CF-1933C",
+  "contest_id": 1933,
+  "index": "C",
+  "name": "Turtle Fingers: Count the Values of k",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 25161,
+  "problem_url": "https://codeforces.com/problemset/problem/1933/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1933/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1933/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1933C%20Turtle%20Fingers%3A%20Count%20the%20Values%20of%20k%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1933/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1933C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

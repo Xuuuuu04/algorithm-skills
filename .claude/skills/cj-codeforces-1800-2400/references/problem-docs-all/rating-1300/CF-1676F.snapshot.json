@@ -1,0 +1,37 @@
+{
+  "id": "CF-1676F",
+  "contest_id": 1676,
+  "index": "F",
+  "name": "Longest Strike",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "greedy",
+    "implementation",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 19793,
+  "problem_url": "https://codeforces.com/problemset/problem/1676/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1676/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1676/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1676F%20Longest%20Strike%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1676F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Longest Strike - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

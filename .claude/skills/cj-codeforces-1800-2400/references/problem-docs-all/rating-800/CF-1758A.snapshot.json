@@ -1,0 +1,28 @@
+{
+  "id": "CF-1758A",
+  "contest_id": 1758,
+  "index": "A",
+  "name": "SSeeeeiinngg DDoouubbllee",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "strings"
+  ],
+  "solved_count": 26869,
+  "problem_url": "https://codeforces.com/problemset/problem/1758/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1758/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1758/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1758A%20SSeeeeiinngg%20DDoouubbllee%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1758/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1758A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

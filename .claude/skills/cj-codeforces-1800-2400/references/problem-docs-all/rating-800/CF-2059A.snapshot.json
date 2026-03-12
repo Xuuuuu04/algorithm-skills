@@ -1,0 +1,29 @@
+{
+  "id": "CF-2059A",
+  "contest_id": 2059,
+  "index": "A",
+  "name": "Milya and Two Arrays",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 28974,
+  "problem_url": "https://codeforces.com/problemset/problem/2059/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2059/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2059/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2059A%20Milya%20and%20Two%20Arrays%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2059A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2059A Milya and Two Arrays - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

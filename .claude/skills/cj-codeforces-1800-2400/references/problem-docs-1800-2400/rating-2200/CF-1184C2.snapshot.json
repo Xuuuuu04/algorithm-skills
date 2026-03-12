@@ -1,0 +1,31 @@
+{
+  "id": "CF-1184C2",
+  "contest_id": 1184,
+  "index": "C2",
+  "name": "Heidi and the Turing Test (Medium)",
+  "rating": 2200,
+  "tags": [
+    "data structures"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1184/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1184/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1184/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1184C2%20Heidi and the Turing Test (Medium)%20tutorial",
+  "solved_count": 676,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1184C2",
+  "hydro_meta": {
+    "page_title": "Heidi and the Turing Test (Medium) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

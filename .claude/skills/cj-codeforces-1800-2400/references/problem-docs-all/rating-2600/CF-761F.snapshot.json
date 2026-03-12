@@ -1,0 +1,36 @@
+{
+  "id": "CF-761F",
+  "contest_id": 761,
+  "index": "F",
+  "name": "Dasha and Photos",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "implementation"
+  ],
+  "solved_count": 516,
+  "problem_url": "https://codeforces.com/problemset/problem/761/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/761/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/761/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=761F%20Dasha%20and%20Photos%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P761F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Dasha and Photos - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "implementation",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

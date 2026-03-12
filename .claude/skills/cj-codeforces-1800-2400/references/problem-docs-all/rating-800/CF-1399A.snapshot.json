@@ -1,0 +1,28 @@
+{
+  "id": "CF-1399A",
+  "contest_id": 1399,
+  "index": "A",
+  "name": "Remove Smallest",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 79013,
+  "problem_url": "https://codeforces.com/problemset/problem/1399/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1399/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1399/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1399A%20Remove%20Smallest%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1399A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1399A Remove Smallest - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 449,
+    "mirror_attempt": 841,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

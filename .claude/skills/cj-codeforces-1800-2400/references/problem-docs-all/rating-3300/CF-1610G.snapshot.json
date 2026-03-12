@@ -1,0 +1,33 @@
+{
+  "id": "CF-1610G",
+  "contest_id": 1610,
+  "index": "G",
+  "name": "AmShZ Wins a Bet",
+  "rating": 3300,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "hashing"
+  ],
+  "solved_count": 646,
+  "problem_url": "https://codeforces.com/problemset/problem/1610/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1610/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1610/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1610G%20AmShZ%20Wins%20a%20Bet%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1610G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "AmShZ Wins a Bet - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "hashing",
+      "*3300"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1608E",
+  "contest_id": 1608,
+  "index": "E",
+  "name": "The Cells on the Paper",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 478,
+  "problem_url": "https://codeforces.com/problemset/problem/1608/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1608/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1608/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1608E%20The%20Cells%20on%20the%20Paper%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1608E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Cells on the Paper - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

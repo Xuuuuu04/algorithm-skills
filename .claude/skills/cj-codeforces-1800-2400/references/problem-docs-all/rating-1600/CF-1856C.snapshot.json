@@ -1,0 +1,35 @@
+{
+  "id": "CF-1856C",
+  "contest_id": 1856,
+  "index": "C",
+  "name": "To Become Max",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 17439,
+  "problem_url": "https://codeforces.com/problemset/problem/1856/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1856/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1856/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1856C%20To%20Become%20Max%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1856C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "To Become Max - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "dp"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

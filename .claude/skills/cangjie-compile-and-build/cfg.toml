@@ -1,0 +1,5 @@
+[profile]
+name = "default"
+
+[flags]
+opt-level = 2

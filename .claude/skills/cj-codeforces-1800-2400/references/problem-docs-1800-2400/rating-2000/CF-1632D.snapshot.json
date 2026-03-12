@@ -1,0 +1,45 @@
+{
+  "id": "CF-1632D",
+  "contest_id": 1632,
+  "index": "D",
+  "name": "New Year Concert",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "data structures",
+    "greedy",
+    "math",
+    "number theory",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1632/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1632/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1632/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1632D%20New Year Concert%20tutorial",
+  "solved_count": 5245,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1632D",
+  "hydro_meta": {
+    "page_title": "New Year Concert - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "math",
+      "number theory",
+      "two pointers"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CF-1384B2",
+  "contest_id": 1384,
+  "index": "B2",
+  "name": "Koa and the Beach (Hard Version)",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1384/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1384/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1384/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1384B2%20Koa and the Beach (Hard Version)%20tutorial",
+  "solved_count": 2580,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1384B2",
+  "hydro_meta": {
+    "page_title": "Koa and the Beach (Hard Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

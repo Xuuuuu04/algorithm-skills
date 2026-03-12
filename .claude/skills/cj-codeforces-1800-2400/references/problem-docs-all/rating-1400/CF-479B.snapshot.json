@@ -1,0 +1,31 @@
+{
+  "id": "CF-479B",
+  "contest_id": 479,
+  "index": "B",
+  "name": "Towers",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 8375,
+  "problem_url": "https://codeforces.com/problemset/problem/479/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/479/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/479/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=479B%20Towers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/479/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 479B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

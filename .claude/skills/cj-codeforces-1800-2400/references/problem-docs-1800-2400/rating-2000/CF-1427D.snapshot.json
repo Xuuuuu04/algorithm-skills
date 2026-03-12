@@ -1,0 +1,33 @@
+{
+  "id": "CF-1427D",
+  "contest_id": 1427,
+  "index": "D",
+  "name": "Unshuffling a Deck",
+  "rating": 2000,
+  "tags": [
+    "constructive algorithms",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1427/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1427/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1427/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1427D%20Unshuffling a Deck%20tutorial",
+  "solved_count": 3681,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1427D",
+  "hydro_meta": {
+    "page_title": "Unshuffling a Deck - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "implementation",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

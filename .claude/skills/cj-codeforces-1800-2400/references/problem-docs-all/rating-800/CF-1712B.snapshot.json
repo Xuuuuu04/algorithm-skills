@@ -1,0 +1,29 @@
+{
+  "id": "CF-1712B",
+  "contest_id": 1712,
+  "index": "B",
+  "name": "Woeful Permutation",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "number theory"
+  ],
+  "solved_count": 22327,
+  "problem_url": "https://codeforces.com/problemset/problem/1712/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1712/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1712/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1712B%20Woeful%20Permutation%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1712B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1712B Woeful Permutation - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 312,
+    "mirror_attempt": 544,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

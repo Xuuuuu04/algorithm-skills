@@ -1,0 +1,37 @@
+{
+  "id": "CF-600C",
+  "contest_id": 600,
+  "index": "C",
+  "name": "Make Palindrome",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/600/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/600/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/600/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=600C%20Make Palindrome%20tutorial",
+  "solved_count": 6997,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P600C",
+  "hydro_meta": {
+    "page_title": "Make Palindrome - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

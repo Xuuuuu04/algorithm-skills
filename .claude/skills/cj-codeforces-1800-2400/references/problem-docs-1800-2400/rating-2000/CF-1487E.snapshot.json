@@ -1,0 +1,45 @@
+{
+  "id": "CF-1487E",
+  "contest_id": 1487,
+  "index": "E",
+  "name": "Cheap Dinner",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "data structures",
+    "graphs",
+    "greedy",
+    "implementation",
+    "sortings",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1487/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1487/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1487/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1487E%20Cheap Dinner%20tutorial",
+  "solved_count": 5091,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1487E",
+  "hydro_meta": {
+    "page_title": "Cheap Dinner - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "graphs",
+      "greedy",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

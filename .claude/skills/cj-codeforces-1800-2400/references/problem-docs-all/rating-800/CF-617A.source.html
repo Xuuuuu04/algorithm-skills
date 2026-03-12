@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414411:WhmISrPjxMhk5xXtuLX6Lua8AsEphdUa/isyqnQi83o=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF617A Elephant - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF617A","type":"CF","title":"Elephant","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":1029,"totalAccepted":649,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Elephant","background":"","description":"## \u9898\u610f\u7b80\u8ff0\n\u6570\u8f74\u8d77\u70b9\u5750\u6807\u4e3a0\uff0c\u7ec8\u70b9\u5750\u6807\u4e3ax\uff0c\u53ef\u4ee5\u5411\u524d\u79fb\u52a81\/2\/3\/4\/5\u4e2a\u5355\u4f4d\u957f\u5ea6\uff0c\u95ee\u6700\u5c11\u51e0\u6b65\u53ef\u4ee5\u4ece\u8d77\u70b9\u5230\u7ec8\u70b9\u3002\n\u4e00\u53ea\u5927\u8c61\u51b3\u5b9a\u53bb\u62dc\u8bbf\u4ed6\u7684\u670b\u53cb\u3002\u7ed3\u679c\uff0c\u5927\u8c61\u7684\u623f\u5b50\u4f4d\u4e8e0\u70b90\uff0c\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u4f4d\u4e8e\u70b9X\u3002\u6bcf\u4e00\u6b65\u5927\u8c61\u53ef\u4ee5\u5411\u524d\u79fb\u52a81\u30012\u30013\u30014\u62165\u4e2a\u4f4d\u7f6e\u3002\u95ee\uff1a\u4ed6\u6700\u5c11\u8d70\u591a\u5c11\u6b65\u624d\u80fd\u5230\u8fbe\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u3002","formatI":"\u8f93\u5165\u5171\u4e00\u884c\uff0c\u53ea\u6709\u4e00\u4e2a\u6574\u6570x\uff08$ 1\u003C=x\u003C=1000000 $\uff09\u8868\u793a\u670b\u53cb\u5bb6\u7684\u5750\u6807\u3002","formatO":"\u8f93\u51fa\u5171\u4e00\u884c\uff0c\u53ea\u6709\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5927\u8c61\u5230\u8fbe\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u7684\u6700\u5c11\u6b65\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5927\u8c61\u9700\u8981\u8d70\u4e00\u6b65\u957f\u5ea6\u4e3a5\uff0c\u4ee5\u5230\u8fbeX\u70b9\u3002  \n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5982\u679c\u5927\u8c61\u79fb\u52a83\uff0c5\u548c4\u6b65\uff0c\u53ef\u4ee5\u5230\u8fbeX\u70b9\u3002\u8fd8\u6709\u5176\u4ed6\u65b9\u6cd5\u4e09\u6b65\u5230\u8fbe\uff0c\u4f46\u5927\u8c61\u4e0d\u80fd\u4ee5\u5c11\u4e8e\u4e09\u6b65\u7684\u65b9\u6cd5\u5230\u8fbeX\u70b9\u3002\n\n\u611f\u8c22@\u4ec1\u548c_\u7ae5\u535a\u626c \u63d0\u4f9b\u7684\u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Elephant","background":"","description":"An elephant decided to visit his friend. It turned out that the elephant\u0027s house is located at point $ 0 $ and his friend\u0027s house is located at point $ x(x\u0026gt;0) $ of the coordinate line. In one step the elephant can move $ 1 $ , $ 2 $ , $ 3 $ , $ 4 $ or $ 5 $ positions forward. Determine, what is the minimum number of steps he need to make in order to get to his friend\u0027s house.","formatI":"The first line of the input contains an integer $ x $ ( $ 1\u003C=x\u003C=1000000 $ ) \u2014 The coordinate of the friend\u0027s house.","formatO":"Print the minimum number of steps that elephant needs to make to get from point $ 0 $ to point $ x $ .","hint":"In the first sample the elephant needs to make one step of length $ 5 $ to reach the point $ x $ .\n\nIn the second sample the elephant can get to point $ x $ if he moves by $ 3 $ , $ 5 $ and $ 4 $ . There are other ways to get the optimal answer but the elephant cannot reach $ x $ in less than three moves.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n","1\n"],["12\n","3\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"617A","link":"https:\/\/codeforces.com\/problemset\/problem\/617\/A"},"translation":"## \u9898\u610f\u7b80\u8ff0\n\u6570\u8f74\u8d77\u70b9\u5750\u6807\u4e3a0\uff0c\u7ec8\u70b9\u5750\u6807\u4e3ax\uff0c\u53ef\u4ee5\u5411\u524d\u79fb\u52a81\/2\/3\/4\/5\u4e2a\u5355\u4f4d\u957f\u5ea6\uff0c\u95ee\u6700\u5c11\u51e0\u6b65\u53ef\u4ee5\u4ece\u8d77\u70b9\u5230\u7ec8\u70b9\u3002\n## \u9898\u76ee\u63cf\u8ff0\n\u4e00\u53ea\u5927\u8c61\u51b3\u5b9a\u53bb\u62dc\u8bbf\u4ed6\u7684\u670b\u53cb\u3002\u7ed3\u679c\uff0c\u5927\u8c61\u7684\u623f\u5b50\u4f4d\u4e8e0\u70b90\uff0c\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u4f4d\u4e8e\u70b9X\u3002\u6bcf\u4e00\u6b65\u5927\u8c61\u53ef\u4ee5\u5411\u524d\u79fb\u52a81\u30012\u30013\u30014\u62165\u4e2a\u4f4d\u7f6e\u3002\u95ee\uff1a\u4ed6\u6700\u5c11\u8d70\u591a\u5c11\u6b65\u624d\u80fd\u5230\u8fbe\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u3002\n## \u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n### \u8f93\u5165\u683c\u5f0f\uff1a\n\u8f93\u5165\u5171\u4e00\u884c\uff0c\u53ea\u6709\u4e00\u4e2a\u6574\u6570x\uff08$ 1\u003C=x\u003C=1000000 $\uff09\u8868\u793a\u670b\u53cb\u5bb6\u7684\u5750\u6807\u3002\n### \u8f93\u51fa\u683c\u5f0f\uff1a\n\u8f93\u51fa\u5171\u4e00\u884c\uff0c\u53ea\u6709\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5927\u8c61\u5230\u8fbe\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u7684\u6700\u5c11\u6b65\u6570\u3002\n## \u6837\u4f8b\u8bf4\u660e\n\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5927\u8c61\u9700\u8981\u8d70\u4e00\u6b65\u957f\u5ea6\u4e3a5\uff0c\u4ee5\u5230\u8fbeX\u70b9\u3002  \n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5982\u679c\u5927\u8c61\u79fb\u52a83\uff0c5\u548c4\u6b65\uff0c\u53ef\u4ee5\u5230\u8fbeX\u70b9\u3002\u8fd8\u6709\u5176\u4ed6\u65b9\u6cd5\u4e09\u6b65\u5230\u8fbe\uff0c\u4f46\u5927\u8c61\u4e0d\u80fd\u4ee5\u5c11\u4e8e\u4e09\u6b65\u7684\u65b9\u6cd5\u5230\u8fbeX\u70b9\u3002\n\n\u611f\u8c22@\u4ec1\u548c_\u7ae5\u535a\u626c \u63d0\u4f9b\u7684\u7ffb\u8bd1"},"translations":{"en":{"name":"Elephant","background":"","description":"An elephant decided to visit his friend. It turned out that the elephant\u0027s house is located at point $ 0 $ and his friend\u0027s house is located at point $ x(x\u0026gt;0) $ of the coordinate line. In one step the elephant can move $ 1 $ , $ 2 $ , $ 3 $ , $ 4 $ or $ 5 $ positions forward. Determine, what is the minimum number of steps he need to make in order to get to his friend\u0027s house.","formatI":"The first line of the input contains an integer $ x $ ( $ 1\u003C=x\u003C=1000000 $ ) \u2014 The coordinate of the friend\u0027s house.","formatO":"Print the minimum number of steps that elephant needs to make to get from point $ 0 $ to point $ x $ .","hint":"In the first sample the elephant needs to make one step of length $ 5 $ to reach the point $ x $ .\n\nIn the second sample the elephant can get to point $ x $ if he moves by $ 3 $ , $ 5 $ and $ 4 $ . There are other ways to get the optimal answer but the elephant cannot reach $ x $ in less than three moves.","locale":"en"},"zh-CN":{"name":"Elephant","background":"","description":"## \u9898\u610f\u7b80\u8ff0\n\u6570\u8f74\u8d77\u70b9\u5750\u6807\u4e3a0\uff0c\u7ec8\u70b9\u5750\u6807\u4e3ax\uff0c\u53ef\u4ee5\u5411\u524d\u79fb\u52a81\/2\/3\/4\/5\u4e2a\u5355\u4f4d\u957f\u5ea6\uff0c\u95ee\u6700\u5c11\u51e0\u6b65\u53ef\u4ee5\u4ece\u8d77\u70b9\u5230\u7ec8\u70b9\u3002\n\u4e00\u53ea\u5927\u8c61\u51b3\u5b9a\u53bb\u62dc\u8bbf\u4ed6\u7684\u670b\u53cb\u3002\u7ed3\u679c\uff0c\u5927\u8c61\u7684\u623f\u5b50\u4f4d\u4e8e0\u70b90\uff0c\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u4f4d\u4e8e\u70b9X\u3002\u6bcf\u4e00\u6b65\u5927\u8c61\u53ef\u4ee5\u5411\u524d\u79fb\u52a81\u30012\u30013\u30014\u62165\u4e2a\u4f4d\u7f6e\u3002\u95ee\uff1a\u4ed6\u6700\u5c11\u8d70\u591a\u5c11\u6b65\u624d\u80fd\u5230\u8fbe\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u3002","formatI":"\u8f93\u5165\u5171\u4e00\u884c\uff0c\u53ea\u6709\u4e00\u4e2a\u6574\u6570x\uff08$ 1\u003C=x\u003C=1000000 $\uff09\u8868\u793a\u670b\u53cb\u5bb6\u7684\u5750\u6807\u3002","formatO":"\u8f93\u51fa\u5171\u4e00\u884c\uff0c\u53ea\u6709\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5927\u8c61\u5230\u8fbe\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u7684\u6700\u5c11\u6b65\u6570\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5927\u8c61\u9700\u8981\u8d70\u4e00\u6b65\u957f\u5ea6\u4e3a5\uff0c\u4ee5\u5230\u8fbeX\u70b9\u3002  \n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u5982\u679c\u5927\u8c61\u79fb\u52a83\uff0c5\u548c4\u6b65\uff0c\u53ef\u4ee5\u5230\u8fbeX\u70b9\u3002\u8fd8\u6709\u5176\u4ed6\u65b9\u6cd5\u4e09\u6b65\u5230\u8fbe\uff0c\u4f46\u5927\u8c61\u4e0d\u80fd\u4ee5\u5c11\u4e8e\u4e09\u6b65\u7684\u65b9\u6cd5\u5230\u8fbeX\u70b9\u3002\n\n\u611f\u8c22@\u4ec1\u548c_\u7ae5\u535a\u626c \u63d0\u4f9b\u7684\u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF617A Elephant","type":2,"slug":"CF617A","color":"orange-3"},"discussions":[{"id":60329,"title":"\u8fd9\u9898\u7adf\u7136\u662f\u9ec4\u9898\u3002\u3002","author":{"uid":90593,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/90593.png","name":"\u8001y\u4e07\u4eba\u656c\u4ef0\u3002","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1535281977},{"id":50824,"title":"\u9898\u76ee\u7ffb\u8bd1","author":{"uid":48970,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/48970.png","name":"\u4ec1\u548c_\u7ae5\u535a\u626c","slogan":"\u800c\u4eca\u66f4\u7b03\u51cc\u4e91\u5fd7\uff0c\u83ab\u6559\u51b0\u9274\u8d1f\u521d\u5fc3","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/qlg5cft5.png"},"time":1532265902}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328011.647847,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF617A Elephant","description":"\u9898\u610f\u7b80\u8ff0\n\u6570\u8f74\u8d77\u70b9\u5750\u6807\u4e3a0\uff0c\u7ec8\u70b9\u5750\u6807\u4e3ax\uff0c\u53ef\u4ee5\u5411\u524d\u79fb\u52a81\/2\/3\/4\/5\u4e2a\u5355\u4f4d\u957f\u5ea6\uff0c\u95ee\u6700\u5c11\u51e0\u6b65\u53ef\u4ee5\u4ece\u8d77\u70b9\u5230\u7ec8\u70b9\u3002\n\u4e00\u53ea\u5927\u8c61\u51b3\u5b9a\u53bb\u62dc\u8bbf\u4ed6\u7684\u670b\u53cb\u3002\u7ed3\u679c\uff0c\u5927\u8c61\u7684\u623f\u5b50\u4f4d\u4e8e0\u70b90\uff0c\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u4f4d\u4e8e\u70b9X\u3002\u6bcf\u4e00\u6b65\u5927\u8c61\u53ef\u4ee5\u5411\u524d\u79fb\u52a81\u30012\u30013\u30014\u62165\u4e2a\u4f4d\u7f6e\u3002\u95ee\uff1a\u4ed6\u6700\u5c11\u8d70\u591a\u5c11\u6b65\u624d\u80fd\u5230\u8fbe\u4ed6\u7684\u670b\u53cb\u7684\u623f\u5b50\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF617A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF617A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF617A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF617A Elephant" />
+    <meta property="og:description" content="题意简述
+数轴起点坐标为0，终点坐标为x，可以向前移动1/2/3/4/5个单位长度，问最少几步可以从起点到终点。
+一只大象决定去拜访他的朋友。结果，大象的房子位于0点0，他的朋友的房子位于点X。每一步大象可以向前移动1、2、3、4或5个位置。问：他最少走多少步才能到达他的朋友的房子。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF617A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF617A Elephant</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    ## 题意简述
+数轴起点坐标为0，终点坐标为x，可以向前移动1/2/3/4/5个单位长度，问最少几步可以从起点到终点。
+一只大象决定去拜访他的朋友。结果，大象的房子位于0点0，他的朋友的房子位于点X。每一步大象可以向前移动1、2、3、4或5个位置。问：他最少走多少步才能到达他的朋友的房子。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入共一行，只有一个整数x（$ 1
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出共一行，只有一个整数，表示大象到达他的朋友的房子的最少步数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，大象需要走一步长度为5，以到达X点。  
+在第二个样例中，如果大象移动3，5和4步，可以到达X点。还有其他方法三步到达，但大象不能以少于三步的方法到达X点。
+
+感谢@仁和_童博扬 提供的翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

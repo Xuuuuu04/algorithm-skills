@@ -1,0 +1,36 @@
+{
+  "id": "CF-452B",
+  "contest_id": 452,
+  "index": "B",
+  "name": "4-point polyline",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "geometry",
+    "trees"
+  ],
+  "solved_count": 2094,
+  "problem_url": "https://codeforces.com/problemset/problem/452/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/452/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/452/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=452B%204-point%20polyline%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P452B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "4-point polyline - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "geometry",
+      "trees",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

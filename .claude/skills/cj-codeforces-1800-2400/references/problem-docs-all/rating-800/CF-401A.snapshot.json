@@ -1,0 +1,28 @@
+{
+  "id": "CF-401A",
+  "contest_id": 401,
+  "index": "A",
+  "name": "Vanya and Cards",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "solved_count": 17338,
+  "problem_url": "https://codeforces.com/problemset/problem/401/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/401/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/401/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=401A%20Vanya%20and%20Cards%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF401A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF401A Vanya and Cards - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 154,
+    "mirror_attempt": 235,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

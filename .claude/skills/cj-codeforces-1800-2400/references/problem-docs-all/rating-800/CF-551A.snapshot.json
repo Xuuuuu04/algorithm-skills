@@ -1,0 +1,29 @@
+{
+  "id": "CF-551A",
+  "contest_id": 551,
+  "index": "A",
+  "name": "GukiZ and Contest",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 17763,
+  "problem_url": "https://codeforces.com/problemset/problem/551/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/551/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/551/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=551A%20GukiZ%20and%20Contest%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF551A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF551A GukiZ and Contest - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 107,
+    "mirror_attempt": 161,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

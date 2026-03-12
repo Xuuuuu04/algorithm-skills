@@ -1,0 +1,32 @@
+{
+  "id": "CF-2144E1",
+  "contest_id": 2144,
+  "index": "E1",
+  "name": "Looking at Towers (easy version)",
+  "rating": 2200,
+  "tags": [
+    "combinatorics",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2144/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2144/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2144/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2144E1%20Looking at Towers (easy version)%20tutorial",
+  "solved_count": 2439,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2144E1",
+  "hydro_meta": {
+    "page_title": "Looking at Towers (easy version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

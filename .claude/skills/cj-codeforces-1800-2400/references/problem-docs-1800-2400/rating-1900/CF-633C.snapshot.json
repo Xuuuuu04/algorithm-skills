@@ -1,0 +1,45 @@
+{
+  "id": "CF-633C",
+  "contest_id": 633,
+  "index": "C",
+  "name": "Spy Syndrome 2",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "dp",
+    "hashing",
+    "implementation",
+    "sortings",
+    "string suffix structures",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/633/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/633/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/633/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=633C%20Spy Syndrome 2%20tutorial",
+  "solved_count": 3321,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P633C",
+  "hydro_meta": {
+    "page_title": "Spy Syndrome 2 - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "hashing",
+      "implementation",
+      "sortings",
+      "string suffix structures",
+      "strings",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

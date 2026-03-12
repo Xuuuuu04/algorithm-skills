@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1144A Diverse Strings - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1144A","type":"CF","title":"Diverse Strings","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":399,"totalAccepted":230,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Diverse Strings","background":null,"description":"\u5982\u679c\u4e00\u4e2a\u5b57\u7b26\u4e32\u5305\u542b\u62c9\u4e01\u5b57\u6bcd\u8868\u4e2d\u8fde\u7eed\uff08\u76f8\u90bb\uff09\u7684\u5b57\u6bcd\uff0c\u5e76\u4e14\u6bcf\u4e2a\u5b57\u6bcd\u53ea\u51fa\u73b0\u4e00\u6b21\uff0c\u5219\u79f0\u8be5\u5b57\u7b26\u4e32\u4e3a\u201c\u591a\u6837\u7684\u201d\u3002\u4f8b\u5982\uff0c\u4ee5\u4e0b\u5b57\u7b26\u4e32\u662f\u591a\u6837\u7684\uff1a\u0022fced\u0022\u3001\u0022xyz\u0022\u3001\u0022r\u0022 \u548c \u0022dabcef\u0022\u3002\u4ee5\u4e0b\u5b57\u7b26\u4e32\u4e0d\u662f\u591a\u6837\u7684\uff1a\u0022az\u0022\u3001\u0022aa\u0022\u3001\u0022bad\u0022 \u548c \u0022babc\u0022\u3002\u6ce8\u610f\uff0c\u5b57\u6bcd \u0027a\u0027 \u548c \u0027z\u0027 \u5e76\u4e0d\u662f\u76f8\u90bb\u7684\u3002\n\n\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u8003\u8651\u5b57\u7b26\u4e32\u4e2d\u6240\u6709\u5b57\u6bcd\u5728\u5b57\u6bcd\u8868\u4e2d\u7684\u4f4d\u7f6e\uff0c\u8fd9\u4e9b\u4f4d\u7f6e\u5e94\u8be5\u5f62\u6210\u4e00\u4e2a\u8fde\u7eed\u7684\u533a\u95f4\uff0c\u4e5f\u5c31\u662f\u8bf4\uff0c\u5b83\u4eec\u5e94\u8be5\u4f9d\u6b21\u6392\u5217\uff0c\u4e2d\u95f4\u6ca1\u6709\u95f4\u9694\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u7ec4\u5b57\u7b26\u4e32\uff0c\u5bf9\u4e8e\u6bcf\u4e2a\u5b57\u7b26\u4e32\uff0c\u5982\u679c\u5b83\u662f\u591a\u6837\u7684\uff0c\u8f93\u51fa \u0022Yes\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022No\u0022\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u9700\u8981\u5904\u7406\u7684\u5b57\u7b26\u4e32\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u7684 $n$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e00\u4e2a\u5b57\u7b26\u4e32\u3002\u6bcf\u4e2a\u5b57\u7b26\u4e32\u53ea\u5305\u542b\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u957f\u5ea6\u5728 $1$ \u5230 $100$ \u4e4b\u95f4\uff08\u5305\u542b $1$ \u548c $100$\uff09\u3002","formatO":"\u8f93\u51fa $n$ \u884c\uff0c\u6bcf\u884c\u5bf9\u5e94\u8f93\u5165\u7684\u4e00\u4e2a\u5b57\u7b26\u4e32\u3002\u5982\u679c\u8be5\u5b57\u7b26\u4e32\u662f\u591a\u6837\u7684\uff0c\u8f93\u51fa \u0022Yes\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022No\u0022\u3002\u4f60\u53ef\u4ee5\u7528\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa\uff0c\u4f8b\u5982 \u0022YeS\u0022\u3001\u0022no\u0022 \u548c \u0022yES\u0022 \u90fd\u662f\u53ef\u4ee5\u63a5\u53d7\u7684\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Diverse Strings","background":"","description":"A string is called diverse if it contains consecutive (adjacent) letters of the Latin alphabet and each letter occurs exactly once. For example, the following strings are diverse: \u0022fced\u0022, \u0022xyz\u0022, \u0022r\u0022 and \u0022dabcef\u0022. The following string are not diverse: \u0022az\u0022, \u0022aa\u0022, \u0022bad\u0022 and \u0022babc\u0022. Note that the letters \u0027a\u0027 and \u0027z\u0027 are not adjacent.\n\nFormally, consider positions of all letters in the string in the alphabet. These positions should form contiguous segment, i.e. they should come one by one without any gaps.\n\nYou are given a sequence of strings. For each string, if it is diverse, print \u0022Yes\u0022. Otherwise, print \u0022No\u0022.","formatI":"The first line contains integer $ n $ ( $ 1 \\le n \\le 100 $ ), denoting the number of strings to process. The following $ n $ lines contains strings, one string per line. Each string contains only lowercase Latin letters, its length is between $ 1 $ and $ 100 $ , inclusive.","formatO":"Print $ n $ lines, one line per a string in the input. The line should contain \u0022Yes\u0022 if the corresponding string is diverse and \u0022No\u0022 if the corresponding string is not diverse. You can print each letter in any case (upper or lower). For example, \u0022YeS\u0022, \u0022no\u0022 and \u0022yES\u0022 are all acceptable.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["8\nfced\nxyz\nr\ndabcef\naz\naa\nbad\nbabc\n","Yes\nYes\nYes\nYes\nNo\nNo\nNo\nNo\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1144A","link":"https:\/\/codeforces.com\/problemset\/problem\/1144\/A"},"translation":"### \u9898\u76ee\u7b80\u8ff0\n\n\u6709$n$\u6b21\u8be2\u95ee\uff0c\u6bcf\u6b21\u8be2\u95ee\u4e00\u4e2a\u5b57\u7b26\u4e32$st$\u662f\u5426\u5408\u6cd5\u3002\u5408\u6cd5\u8f93\u51fa\u0022Yes\u0022\uff0c\u5426\u5219\u8f93\u51fa\u0022No\u0022\u3002\u6bcf\u6b21\u8be2\u95ee\u4ee5\u53ca\u56de\u7b54\u90fd\u8981\u6362\u4e00\u884c\u3002\n\n\u201c\u5408\u6cd5\u201d\uff1a\u6240\u6709\u5355\u4e2a\u5b57\u6bcd\u90fd\u662f\u8fde\u7eed\u6392\u5217\uff0c\u4f46\u8fd9\u5e76\u4e0d\u610f\u5473\u7740\u5fc5\u987b\u8981\u4e25\u683c\u76f8\u90bb\u8fde\u7eed\uff0c\u5982$\\mathrm{fced}$\u548c$\\mathrm{r}$\u662f\u5408\u6cd5\u7684\u3002\n\n\u201c\u4e0d\u5408\u6cd5\u201d\uff1a\u5b57\u6bcd\u4e0d\u8fde\u7eed\u6392\u5217\u7684\u4ee5\u53ca\u91cd\u590d\u51fa\u73b0\u540c\u4e00\u4e2a\u5b57\u6bcd\u3002\u5982$\\mathrm{az}$\u548c$\\mathrm{babc}$\n\n\u201c\u8fde\u7eed\u6392\u5217\u201d\uff1a\u5373\u6309\u7167\u5b57\u6bcd\u8868\u987a\u5e8f\u3002\u6ce8\u610f\u0027A\u0027\u548c\u0027Z\u0027\u4e0d\u662f\u76f8\u90bb\u7684\u3002"},"translations":{"en":{"name":"Diverse Strings","background":"","description":"A string is called diverse if it contains consecutive (adjacent) letters of the Latin alphabet and each letter occurs exactly once. For example, the following strings are diverse: \u0022fced\u0022, \u0022xyz\u0022, \u0022r\u0022 and \u0022dabcef\u0022. The following string are not diverse: \u0022az\u0022, \u0022aa\u0022, \u0022bad\u0022 and \u0022babc\u0022. Note that the letters \u0027a\u0027 and \u0027z\u0027 are not adjacent.\n\nFormally, consider positions of all letters in the string in the alphabet. These positions should form contiguous segment, i.e. they should come one by one without any gaps.\n\nYou are given a sequence of strings. For each string, if it is diverse, print \u0022Yes\u0022. Otherwise, print \u0022No\u0022.","formatI":"The first line contains integer $ n $ ( $ 1 \\le n \\le 100 $ ), denoting the number of strings to process. The following $ n $ lines contains strings, one string per line. Each string contains only lowercase Latin letters, its length is between $ 1 $ and $ 100 $ , inclusive.","formatO":"Print $ n $ lines, one line per a string in the input. The line should contain \u0022Yes\u0022 if the corresponding string is diverse and \u0022No\u0022 if the corresponding string is not diverse. You can print each letter in any case (upper or lower). For example, \u0022YeS\u0022, \u0022no\u0022 and \u0022yES\u0022 are all acceptable.","hint":"","locale":"en"},"zh-CN":{"name":"Diverse Strings","background":null,"description":"\u5982\u679c\u4e00\u4e2a\u5b57\u7b26\u4e32\u5305\u542b\u62c9\u4e01\u5b57\u6bcd\u8868\u4e2d\u8fde\u7eed\uff08\u76f8\u90bb\uff09\u7684\u5b57\u6bcd\uff0c\u5e76\u4e14\u6bcf\u4e2a\u5b57\u6bcd\u53ea\u51fa\u73b0\u4e00\u6b21\uff0c\u5219\u79f0\u8be5\u5b57\u7b26\u4e32\u4e3a\u201c\u591a\u6837\u7684\u201d\u3002\u4f8b\u5982\uff0c\u4ee5\u4e0b\u5b57\u7b26\u4e32\u662f\u591a\u6837\u7684\uff1a\u0022fced\u0022\u3001\u0022xyz\u0022\u3001\u0022r\u0022 \u548c \u0022dabcef\u0022\u3002\u4ee5\u4e0b\u5b57\u7b26\u4e32\u4e0d\u662f\u591a\u6837\u7684\uff1a\u0022az\u0022\u3001\u0022aa\u0022\u3001\u0022bad\u0022 \u548c \u0022babc\u0022\u3002\u6ce8\u610f\uff0c\u5b57\u6bcd \u0027a\u0027 \u548c \u0027z\u0027 \u5e76\u4e0d\u662f\u76f8\u90bb\u7684\u3002\n\n\u5f62\u5f0f\u5316\u5730\u8bf4\uff0c\u8003\u8651\u5b57\u7b26\u4e32\u4e2d\u6240\u6709\u5b57\u6bcd\u5728\u5b57\u6bcd\u8868\u4e2d\u7684\u4f4d\u7f6e\uff0c\u8fd9\u4e9b\u4f4d\u7f6e\u5e94\u8be5\u5f62\u6210\u4e00\u4e2a\u8fde\u7eed\u7684\u533a\u95f4\uff0c\u4e5f\u5c31\u662f\u8bf4\uff0c\u5b83\u4eec\u5e94\u8be5\u4f9d\u6b21\u6392\u5217\uff0c\u4e2d\u95f4\u6ca1\u6709\u95f4\u9694\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u7ec4\u5b57\u7b26\u4e32\uff0c\u5bf9\u4e8e\u6bcf\u4e2a\u5b57\u7b26\u4e32\uff0c\u5982\u679c\u5b83\u662f\u591a\u6837\u7684\uff0c\u8f93\u51fa \u0022Yes\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022No\u0022\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 100$\uff09\uff0c\u8868\u793a\u9700\u8981\u5904\u7406\u7684\u5b57\u7b26\u4e32\u6570\u91cf\u3002\u63a5\u4e0b\u6765\u7684 $n$ \u884c\uff0c\u6bcf\u884c\u5305\u542b\u4e00\u4e2a\u5b57\u7b26\u4e32\u3002\u6bcf\u4e2a\u5b57\u7b26\u4e32\u53ea\u5305\u542b\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\uff0c\u957f\u5ea6\u5728 $1$ \u5230 $100$ \u4e4b\u95f4\uff08\u5305\u542b $1$ \u548c $100$\uff09\u3002","formatO":"\u8f93\u51fa $n$ \u884c\uff0c\u6bcf\u884c\u5bf9\u5e94\u8f93\u5165\u7684\u4e00\u4e2a\u5b57\u7b26\u4e32\u3002\u5982\u679c\u8be5\u5b57\u7b26\u4e32\u662f\u591a\u6837\u7684\uff0c\u8f93\u51fa \u0022Yes\u0022\uff1b\u5426\u5219\u8f93\u51fa \u0022No\u0022\u3002\u4f60\u53ef\u4ee5\u7528\u4efb\u610f\u5927\u5c0f\u5199\u8f93\u51fa\uff0c\u4f8b\u5982 \u0022YeS\u0022\u3001\u0022no\u0022 \u548c \u0022yES\u0022 \u90fd\u662f\u53ef\u4ee5\u63a5\u53d7\u7684\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1144A Diverse Strings","type":2,"slug":"CF1144A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.917704,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1144A Diverse Strings","description":"\u5982\u679c\u4e00\u4e2a\u5b57\u7b26\u4e32\u5305\u542b\u62c9\u4e01\u5b57\u6bcd\u8868\u4e2d\u8fde\u7eed\uff08\u76f8\u90bb\uff09\u7684\u5b57\u6bcd\uff0c\u5e76\u4e14\u6bcf\u4e2a\u5b57\u6bcd\u53ea\u51fa\u73b0\u4e00\u6b21\uff0c\u5219\u79f0\u8be5\u5b57\u7b26\u4e32\u4e3a\u201c\u591a\u6837\u7684\u201d\u3002\u4f8b\u5982\uff0c\u4ee5\u4e0b\u5b57\u7b26\u4e32\u662f\u591a\u6837\u7684\uff1a&quot;fced&quot;\u3001&quot;xyz&quot;\u3001&quot;r&quot; \u548c &quot;dabcef&quot;\u3002\u4ee5\u4e0b\u5b57\u7b26\u4e32\u4e0d\u662f\u591a\u6837\u7684\uff1a&quot;az&quot;\u3001&quot;aa&quot;\u3001&quot;bad&quot;\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1144A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1144A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1144A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1144A Diverse Strings" />
+    <meta property="og:description" content="如果一个字符串包含拉丁字母表中连续（相邻）的字母，并且每个字母只出现一次，则称该字符串为“多样的”。例如，以下字符串是多样的：&amp;quot;fced&amp;quot;、&amp;quot;xyz&amp;quot;、&amp;quot;r&amp;quot; 和 &amp;quot;dabcef&amp;quot;。以下字符串不是多样的：&amp;quot;az&amp;quot;、&amp;quot;aa&amp;quot;、&amp;quot;bad&amp;quot;…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1144A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1144A Diverse Strings</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    如果一个字符串包含拉丁字母表中连续（相邻）的字母，并且每个字母只出现一次，则称该字符串为“多样的”。例如，以下字符串是多样的："fced"、"xyz"、"r" 和 "dabcef"。以下字符串不是多样的："az"、"aa"、"bad" 和 "babc"。注意，字母 'a' 和 'z' 并不是相邻的。
+
+形式化地说，考虑字符串中所有字母在字母表中的位置，这些位置应该形成一个连续的区间，也就是说，它们应该依次排列，中间没有间隔。
+
+现在给定一组字符串，对于每个字符串，如果它是多样的，输出 "Yes"；否则输出 "No"。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $n$（$1 \le n \le 100$），表示需要处理的字符串数量。接下来的 $n$ 行，每行包含一个字符串。每个字符串只包含小写拉丁字母，长度在 $1$ 到 $100$ 之间（包含 $1$ 和 $100$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出 $n$ 行，每行对应输入的一个字符串。如果该字符串是多样的，输出 "Yes"；否则输出 "No"。你可以用任意大小写输出，例如 "YeS"、"no" 和 "yES" 都是可以接受的。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

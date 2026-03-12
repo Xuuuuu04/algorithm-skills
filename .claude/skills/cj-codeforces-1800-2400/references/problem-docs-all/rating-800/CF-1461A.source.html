@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1461A String Generation - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1461A","type":"CF","title":"String Generation","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":260,"totalAccepted":186,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"String Generation","background":"","description":"\u751f\u6210\u4e00\u6bb5\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32\uff0c\u8be5\u5b57\u7b26\u4e32\u5fc5\u987b\u6ee1\u8db3\u4ee5\u4e0b\u8981\u6c42\uff1a\n- **\u53ea\u5305\u542b**\u5b57\u7b26 \u0022a\u0022\uff0c\u0022b\u0022 \u548c \u0022c\u0022\uff1b\n- \u6b64\u5b57\u7b26\u4e32\u7684\u56de\u6587\u5b50\u4e32\u6700\u5927\u957f\u5ea6**\u4e0d\u8d85\u8fc7** $k$\u3002\n\n\u5b50\u4e32\u7684\u5b9a\u4e49\uff1a\u5982\u679c\u5b57\u7b26\u4e32 $A$ \u53ef\u4ee5\u901a\u8fc7\u4ece\u5f00\u5934\u5220\u9664\u591a\u4e2a\uff08**\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8**\uff09\u5b57\u7b26\uff0c\u4ee5\u53ca\u4ece\u672b\u5c3e\u5220\u9664\u591a\u4e2a\uff08**\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8**\uff09\u5b57\u7b26\u6210\u4e3a\u5b57\u7b26\u4e32 $B$\uff0c\u6211\u4eec\u5c31\u79f0 $B$ \u4e3a $A$ \u7684\u5b50\u4e32\u3002\n\n\u56de\u6587\u7684\u5b9a\u4e49\uff1a\u5982\u679c\u5b57\u7b26\u4e32\u4ece\u5de6\u5230\u53f3\u548c\u4ece\u53f3\u5230\u5de6\u8bfb\u76f8\u540c\uff0c\u6211\u4eec\u5c31\u79f0\u8fd9\u4e2a\u5b57\u7b26\u4e32\u662f\u56de\u6587\u7684\u3002\n\n\u8bf7\u4f60\u6c42\u51fa\u4efb\u610f\u4e00\u79cd\u7b26\u5408\u6761\u4ef6\u7684\u5b57\u7b26\u4e32\u3002\n\n**\u4fdd\u8bc1\u6570\u636e\u4e00\u5b9a\u6709\u89e3\u3002**","formatI":"\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $t(1\\le t \\le10)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\uff1b\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u4e00\u884c\u4e24\u4e2a\u6b63\u6574\u6570 $n$ \u548c $k$ $(1\\le k \\le n \\le 1000)$\uff0c\u8868\u793a\u6240\u9700\u7684\u5b57\u7b26\u4e32\u957f\u5ea6\u548c\u56de\u6587\u5b50\u4e32\u7684\u6700\u5927\u957f\u5ea6\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u7b26\u5408\u6761\u4ef6\u7684\u5b57\u7b26\u4e32\uff0c\u5982\u679c\u6709\u591a\u4e2a\u6b63\u786e\u7b54\u6848\uff0c\u60a8\u53ef\u4ee5\u8f93\u51fa\u5176\u4e2d\u4efb\u4f55\u4e00\u4e2a\u7b54\u6848\u3002\n\nTranslated by 0p9o8i7u","hint":"","locale":"zh-CN"},"content":{"name":"String Generation","background":"","description":"One fall day Joe got bored because he couldn\u0027t find himself something interesting to do. Marty suggested Joe to generate a string of length $ n $ to entertain him somehow. It didn\u0027t seem particularly difficult, but Joe\u0027s generated string had to follow these rules:\n\n- the string may only contain characters \u0027a\u0027, \u0027b\u0027, or \u0027c\u0027;\n- the maximum length of a substring of this string that is a palindrome does not exceed $ k $ .\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1461A\/2b43ab62c784e8a49a08a77a21b9dfeb26df6e43.png)A string $ a $ is a substring of a string $ b $ if $ a $ can be obtained from $ b $ by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end. For example, strings \u0022a\u0022, \u0022bc\u0022, \u0022abc\u0022 are substrings of a string \u0022abc\u0022, while strings \u0022ac\u0022, \u0022ba\u0022, \u0022cba\u0022 are not.\n\nA string is a palindrome if it reads the same from the left to the right and from the right to the left. For example, strings \u0022abccba\u0022, \u0022abbba\u0022, \u0022aba\u0022, \u0022abacaba\u0022, \u0022a\u0022, and \u0022bacab\u0022 are palindromes, while strings \u0022abcbba\u0022, \u0022abb\u0022, and \u0022ab\u0022 are not.\n\nNow Joe wants to find any correct string. Help him! It can be proven that the answer always exists under the given constraints.","formatI":"Each test contains one or more test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10 $ ).\n\nThe only line of each test case contains two integers $ n $ and $ k $ ( $ 1 \\le k \\le n \\le 1\\,000 $ ) \u2014 the required string length and the maximum length of a palindrome substring, respectively.","formatO":"For each test case, print any string that satisfies the conditions from the problem statement. If there are multiple correct answers, you can print any one of them. It can be proven that the answer always exists under the given constraints.","hint":"In the first test case of the example, the palindrome substring with the maximum length is \u0022aa\u0022. Its length does not exceed $ 2 $ , so it fits.\n\nIn the second test case all palindrome substrings have the length one.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n3 2\n4 1","aab\nacba"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1461A","link":"https:\/\/codeforces.com\/problemset\/problem\/1461\/A"},"translation":"### \u9898\u76ee\u63cf\u8ff0\n\n\u751f\u6210\u4e00\u6bb5\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32\uff0c\u8be5\u5b57\u7b26\u4e32\u5fc5\u987b\u6ee1\u8db3\u4ee5\u4e0b\u8981\u6c42\uff1a\n- **\u53ea\u5305\u542b**\u5b57\u7b26 \u0022a\u0022\uff0c\u0022b\u0022 \u548c \u0022c\u0022\uff1b\n- \u6b64\u5b57\u7b26\u4e32\u7684\u56de\u6587\u5b50\u4e32\u6700\u5927\u957f\u5ea6**\u4e0d\u8d85\u8fc7** $k$\u3002\n\n\u5b50\u4e32\u7684\u5b9a\u4e49\uff1a\u5982\u679c\u5b57\u7b26\u4e32 $A$ \u53ef\u4ee5\u901a\u8fc7\u4ece\u5f00\u5934\u5220\u9664\u591a\u4e2a\uff08**\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8**\uff09\u5b57\u7b26\uff0c\u4ee5\u53ca\u4ece\u672b\u5c3e\u5220\u9664\u591a\u4e2a\uff08**\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8**\uff09\u5b57\u7b26\u6210\u4e3a\u5b57\u7b26\u4e32 $B$\uff0c\u6211\u4eec\u5c31\u79f0 $B$ \u4e3a $A$ \u7684\u5b50\u4e32\u3002\n\n\u56de\u6587\u7684\u5b9a\u4e49\uff1a\u5982\u679c\u5b57\u7b26\u4e32\u4ece\u5de6\u5230\u53f3\u548c\u4ece\u53f3\u5230\u5de6\u8bfb\u76f8\u540c\uff0c\u6211\u4eec\u5c31\u79f0\u8fd9\u4e2a\u5b57\u7b26\u4e32\u662f\u56de\u6587\u7684\u3002\n\n\u8bf7\u4f60\u6c42\u51fa\u4efb\u610f\u4e00\u79cd\u7b26\u5408\u6761\u4ef6\u7684\u5b57\u7b26\u4e32\u3002\n\n**\u4fdd\u8bc1\u6570\u636e\u4e00\u5b9a\u6709\u89e3\u3002**\n\n### \u8f93\u5165\u683c\u5f0f\n\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $t(1\\le t \\le10)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\uff1b\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u4e00\u884c\u4e24\u4e2a\u6b63\u6574\u6570 $n$ \u548c $k$ $(1\\le k \\le n \\le 1000)$\uff0c\u8868\u793a\u6240\u9700\u7684\u5b57\u7b26\u4e32\u957f\u5ea6\u548c\u56de\u6587\u5b50\u4e32\u7684\u6700\u5927\u957f\u5ea6\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u7b26\u5408\u6761\u4ef6\u7684\u5b57\u7b26\u4e32\uff0c\u5982\u679c\u6709\u591a\u4e2a\u6b63\u786e\u7b54\u6848\uff0c\u60a8\u53ef\u4ee5\u8f93\u51fa\u5176\u4e2d\u4efb\u4f55\u4e00\u4e2a\u7b54\u6848\u3002\n\nTranslated by 0p9o8i7u"},"translations":{"en":{"name":"String Generation","background":"","description":"One fall day Joe got bored because he couldn\u0027t find himself something interesting to do. Marty suggested Joe to generate a string of length $ n $ to entertain him somehow. It didn\u0027t seem particularly difficult, but Joe\u0027s generated string had to follow these rules:\n\n- the string may only contain characters \u0027a\u0027, \u0027b\u0027, or \u0027c\u0027;\n- the maximum length of a substring of this string that is a palindrome does not exceed $ k $ .\n\n ![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1461A\/2b43ab62c784e8a49a08a77a21b9dfeb26df6e43.png)A string $ a $ is a substring of a string $ b $ if $ a $ can be obtained from $ b $ by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end. For example, strings \u0022a\u0022, \u0022bc\u0022, \u0022abc\u0022 are substrings of a string \u0022abc\u0022, while strings \u0022ac\u0022, \u0022ba\u0022, \u0022cba\u0022 are not.\n\nA string is a palindrome if it reads the same from the left to the right and from the right to the left. For example, strings \u0022abccba\u0022, \u0022abbba\u0022, \u0022aba\u0022, \u0022abacaba\u0022, \u0022a\u0022, and \u0022bacab\u0022 are palindromes, while strings \u0022abcbba\u0022, \u0022abb\u0022, and \u0022ab\u0022 are not.\n\nNow Joe wants to find any correct string. Help him! It can be proven that the answer always exists under the given constraints.","formatI":"Each test contains one or more test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10 $ ).\n\nThe only line of each test case contains two integers $ n $ and $ k $ ( $ 1 \\le k \\le n \\le 1\\,000 $ ) \u2014 the required string length and the maximum length of a palindrome substring, respectively.","formatO":"For each test case, print any string that satisfies the conditions from the problem statement. If there are multiple correct answers, you can print any one of them. It can be proven that the answer always exists under the given constraints.","hint":"In the first test case of the example, the palindrome substring with the maximum length is \u0022aa\u0022. Its length does not exceed $ 2 $ , so it fits.\n\nIn the second test case all palindrome substrings have the length one.","locale":"en"},"zh-CN":{"name":"String Generation","background":"","description":"\u751f\u6210\u4e00\u6bb5\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32\uff0c\u8be5\u5b57\u7b26\u4e32\u5fc5\u987b\u6ee1\u8db3\u4ee5\u4e0b\u8981\u6c42\uff1a\n- **\u53ea\u5305\u542b**\u5b57\u7b26 \u0022a\u0022\uff0c\u0022b\u0022 \u548c \u0022c\u0022\uff1b\n- \u6b64\u5b57\u7b26\u4e32\u7684\u56de\u6587\u5b50\u4e32\u6700\u5927\u957f\u5ea6**\u4e0d\u8d85\u8fc7** $k$\u3002\n\n\u5b50\u4e32\u7684\u5b9a\u4e49\uff1a\u5982\u679c\u5b57\u7b26\u4e32 $A$ \u53ef\u4ee5\u901a\u8fc7\u4ece\u5f00\u5934\u5220\u9664\u591a\u4e2a\uff08**\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8**\uff09\u5b57\u7b26\uff0c\u4ee5\u53ca\u4ece\u672b\u5c3e\u5220\u9664\u591a\u4e2a\uff08**\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8**\uff09\u5b57\u7b26\u6210\u4e3a\u5b57\u7b26\u4e32 $B$\uff0c\u6211\u4eec\u5c31\u79f0 $B$ \u4e3a $A$ \u7684\u5b50\u4e32\u3002\n\n\u56de\u6587\u7684\u5b9a\u4e49\uff1a\u5982\u679c\u5b57\u7b26\u4e32\u4ece\u5de6\u5230\u53f3\u548c\u4ece\u53f3\u5230\u5de6\u8bfb\u76f8\u540c\uff0c\u6211\u4eec\u5c31\u79f0\u8fd9\u4e2a\u5b57\u7b26\u4e32\u662f\u56de\u6587\u7684\u3002\n\n\u8bf7\u4f60\u6c42\u51fa\u4efb\u610f\u4e00\u79cd\u7b26\u5408\u6761\u4ef6\u7684\u5b57\u7b26\u4e32\u3002\n\n**\u4fdd\u8bc1\u6570\u636e\u4e00\u5b9a\u6709\u89e3\u3002**","formatI":"\u7b2c\u4e00\u884c\uff0c\u4e00\u4e2a\u6574\u6570 $t(1\\le t \\le10)$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\uff1b\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u4e00\u884c\u4e24\u4e2a\u6b63\u6574\u6570 $n$ \u548c $k$ $(1\\le k \\le n \\le 1000)$\uff0c\u8868\u793a\u6240\u9700\u7684\u5b57\u7b26\u4e32\u957f\u5ea6\u548c\u56de\u6587\u5b50\u4e32\u7684\u6700\u5927\u957f\u5ea6\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u7b26\u5408\u6761\u4ef6\u7684\u5b57\u7b26\u4e32\uff0c\u5982\u679c\u6709\u591a\u4e2a\u6b63\u786e\u7b54\u6848\uff0c\u60a8\u53ef\u4ee5\u8f93\u51fa\u5176\u4e2d\u4efb\u4f55\u4e00\u4e2a\u7b54\u6848\u3002\n\nTranslated by 0p9o8i7u","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1461A String Generation","type":2,"slug":"CF1461A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.394715,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1461A String Generation","description":"\u751f\u6210\u4e00\u6bb5\u957f\u5ea6\u4e3a n \u7684\u5b57\u7b26\u4e32\uff0c\u8be5\u5b57\u7b26\u4e32\u5fc5\u987b\u6ee1\u8db3\u4ee5\u4e0b\u8981\u6c42\uff1a\n\n\u53ea\u5305\u542b\u5b57\u7b26 &quot;a&quot;\uff0c&quot;b&quot; \u548c &quot;c&quot;\uff1b\n\u6b64\u5b57\u7b26\u4e32\u7684\u56de\u6587\u5b50\u4e32\u6700\u5927\u957f\u5ea6\u4e0d\u8d85\u8fc7 k\u3002\n\n\u5b50\u4e32\u7684\u5b9a\u4e49\uff1a\u5982\u679c\u5b57\u7b26\u4e32 A \u53ef\u4ee5\u901a\u8fc7\u4ece\u5f00\u5934\u5220\u9664\u591a\u4e2a\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5b57\u7b26\uff0c\u4ee5\u53ca\u4ece\u672b\u5c3e\u5220\u9664\u591a\u4e2a\uff08\u53ef\u80fd\u4e3a\u96f6\u6216\u5168\u90e8\uff09\u5b57\u7b26\u6210\u4e3a\u5b57\u7b26\u4e32\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1461A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1461A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1461A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1461A String Generation" />
+    <meta property="og:description" content="生成一段长度为 n 的字符串，该字符串必须满足以下要求：
+
+只包含字符 &amp;quot;a&amp;quot;，&amp;quot;b&amp;quot; 和 &amp;quot;c&amp;quot;；
+此字符串的回文子串最大长度不超过 k。
+
+子串的定义：如果字符串 A 可以通过从开头删除多个（可能为零或全部）字符，以及从末尾删除多个（可能为零或全部）字符成为字符串…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1461A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1461A String Generation</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    生成一段长度为 $n$ 的字符串，该字符串必须满足以下要求：
+- **只包含**字符 "a"，"b" 和 "c"；
+- 此字符串的回文子串最大长度**不超过** $k$。
+
+子串的定义：如果字符串 $A$ 可以通过从开头删除多个（**可能为零或全部**）字符，以及从末尾删除多个（**可能为零或全部**）字符成为字符串 $B$，我们就称 $B$ 为 $A$ 的子串。
+
+回文的定义：如果字符串从左到右和从右到左读相同，我们就称这个字符串是回文的。
+
+请你求出任意一种符合条件的字符串。
+
+**保证数据一定有解。**
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行，一个整数 $t(1\le t \le10)$，表示数据组数；
+
+对于每组数据，一行两个正整数 $n$ 和 $k$ $(1\le k \le n \le 1000)$，表示所需的字符串长度和回文子串的最大长度。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组数据，输出任意一种符合条件的字符串，如果有多个正确答案，您可以输出其中任何一个答案。
+
+Translated by 0p9o8i7u
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first test case of the example, the palindrome substring with the maximum length is "aa". Its length does not exceed $ 2 $ , so it fits.
+
+In the second test case all palindrome substrings have the length one.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

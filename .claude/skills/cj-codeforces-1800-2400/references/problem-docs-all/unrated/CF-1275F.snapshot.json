@@ -1,0 +1,33 @@
+{
+  "id": "CF-1275F",
+  "contest_id": 1275,
+  "index": "F",
+  "name": "Шардирование постов",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "*special",
+    "binary search",
+    "interactive"
+  ],
+  "solved_count": 92,
+  "problem_url": "https://codeforces.com/problemset/problem/1275/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1275/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1275/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1275F%20%D0%A8%D0%B0%D1%80%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%D1%81%D1%82%D0%BE%D0%B2%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1275F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Шардирование постов - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "binary search",
+      "interactive"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "ms",
+    "memory_limit": "MiB"
+  }
+}

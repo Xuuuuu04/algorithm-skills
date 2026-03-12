@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414524:atscE+j5UYcFcmUfQZYMKwPqorNdVspinzuZupo5UjE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2130A Submission is All You Need - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2130A","type":"CF","title":"Submission is All You Need","difficulty":1,"tags":[5,7],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Submission is All You Need","background":null,"description":"\u5bf9\u4e8e\u4e00\u4e2a\u7531\u975e\u8d1f\u6574\u6570\u7ec4\u6210\u7684\u591a\u91cd\u96c6 $T$\uff0c\u6211\u4eec\u5b9a\u4e49\uff1a\n\n- $\\text{sum}(T)$ \u8868\u793a $T$ \u4e2d\u6240\u6709\u5143\u7d20\u7684\u548c\u3002\u4f8b\u5982\uff0c\u5982\u679c $T = \\{0,1,1,3\\}$\uff0c\u90a3\u4e48 $\\text{sum}(T)=0+1+1+3=5$\u3002\n- $\\text{mex}(T)$ \u8868\u793a\u4e0d\u5728 $T$ \u4e2d\u7684\u6700\u5c0f\u975e\u8d1f\u6574\u6570\u3002\u4f8b\u5982\uff0c\u5982\u679c $T = \\{0,1,1,3\\}$\uff0c\u90a3\u4e48 $\\text{mex}(T)=2$\uff0c\u56e0\u4e3a $2$ \u662f\u6700\u5c0f\u7684\u4e0d\u5728 $T$ \u4e2d\u7684\u975e\u8d1f\u6574\u6570\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u5927\u5c0f\u4e3a $n$ \u7684\u591a\u91cd\u96c6 $S$\uff0c\u5176\u4e2d\u5305\u542b\u975e\u8d1f\u6574\u6570\u3002\u521d\u59cb\u65f6\uff0c\u4f60\u7684\u5f97\u5206\u4e3a $0$\u3002\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u4efb\u610f\u6b21\uff08\u53ef\u4ee5\u4e3a\u96f6\u6b21\uff0c\u987a\u5e8f\u4e0d\u9650\uff09\uff1a\n\n- \u9009\u62e9 $S$ \u7684\u4e00\u4e2a\u5b50\u96c6 $S\u0027 \\subseteq S$\uff08\u5373 $S\u0027$ \u5305\u542b $S$ \u5f53\u524d\u7684\u90e8\u5206\u5143\u7d20\uff09\uff0c\u5c06 $\\text{sum}(S\u0027)$ \u52a0\u5230\u4f60\u7684\u5f97\u5206\u4e0a\uff0c\u7136\u540e\u4ece $S$ \u4e2d\u79fb\u9664 $S\u0027$\u3002\n- \u9009\u62e9 $S$ \u7684\u4e00\u4e2a\u5b50\u96c6 $S\u0027 \\subseteq S$\uff0c\u5c06 $\\text{mex}(S\u0027)$ \u52a0\u5230\u4f60\u7684\u5f97\u5206\u4e0a\uff0c\u7136\u540e\u4ece $S$ \u4e2d\u79fb\u9664 $S\u0027$\u3002\n\n\u8bf7\u4f60\u6c42\u51fa\u80fd\u591f\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^3$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 50$\uff09\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $S_1, S_2, \\ldots, S_n$\uff08$0 \\le S_i \\le 50$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u80fd\u591f\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e00\u79cd\u53ef\u80fd\u7684\u6700\u4f18\u7b56\u7565\u5982\u4e0b\uff1a\n\n- \u9009\u62e9 $S\u0027=\\{0,1\\}$\uff0c\u5c06 $\\text{mex}(S\u0027)=\\text{mex}(\\{0,1\\})=2$ \u52a0\u5230\u4f60\u7684\u5f97\u5206\u4e0a\uff0c\u7136\u540e\u4ece $S$ \u4e2d\u79fb\u9664 $S\u0027$\u3002\u6b64\u65f6\u4f60\u7684\u5f97\u5206\u4e3a $2$\uff0c$S=\\{1\\}$\u3002\n- \u9009\u62e9 $S\u0027=\\{1\\}$\uff0c\u5c06 $\\text{sum}(S\u0027)=\\text{sum}(\\{1\\})=1$ \u52a0\u5230\u4f60\u7684\u5f97\u5206\u4e0a\uff0c\u7136\u540e\u4ece $S$ \u4e2d\u79fb\u9664 $S\u0027$\u3002\u6b64\u65f6\u4f60\u7684\u5f97\u5206\u4e3a $3$\uff0c$S=\\varnothing$\u3002\n\n\u4e4b\u540e\u65e0\u6cd5\u518d\u8fdb\u884c\u64cd\u4f5c\u3002\u53ef\u4ee5\u8bc1\u660e $3$ \u662f\u80fd\u591f\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Submission is All You Need","background":"","description":"For a multiset $ T $ consisting of non-negative integers, we define:\n\n- $ \\text{sum}(T) $ is the sum of all elements in $ T $ . For example, if $ T = \\{0,1, 1, 3\\} $ , then $ \\text{sum}(T)= 0+1+1+3=5 $ .\n- $ \\text{mex}(T) $ is the smallest non-negative integer not in $ T $ . For example, if $ T = \\{0,1, 1, 3\\} $ , then $ \\text{mex}(T) = 2 $ because $ 2 $ is the smallest non-negative integer not present in $ T $ .\n\n You are given a multiset $ S $ of size $ n $ consisting of non-negative integers. At first, your score is $ 0 $ . You can perform the following operations any number of times in any order (possibly zero):- Select a subset $ S\u0027 \\subseteq S $ (i.e., $ S\u0027 $ contains some of the elements currently in $ S $ ), add $ \\text{sum}(S\u0027) $ to your score, and then remove $ S\u0027 $ from $ S $ .\n- Select a subset $ S\u0027 \\subseteq S $ , add $ \\text{mex}(S\u0027) $ to your score, and then remove $ S\u0027 $ from $ S $ .\n\nFind the maximum possible score that can be obtained.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^3 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 1 \\le n \\le 50 $ ).\n\nThe second line of each test case contains $ n $ integers $ S_1, S_2, \\ldots, S_n $ ( $ 0 \\le S_i \\le 50 $ ).","formatO":"For each test case, print a single integer \u2014 the maximum possible score that can be obtained.","hint":"In the first test case, a possible optimal strategy is as follows:\n\n- Select $ S\u0027=\\{0,1\\} $ , add $ \\text{mex}(S\u0027)=\\text{mex}(\\{0,1\\})=2 $ to your score, and then remove $ S\u0027 $ from $ S $ . Currently, your score is $ 2 $ and $ S=\\{1\\} $ .\n- Select $ S\u0027=\\{1\\} $ , add $ \\text{sum}(S\u0027)=\\text{sum}(\\{1\\})=1 $ to your score, and then remove $ S\u0027 $ from $ S $ . Currently, your score is $ 3 $ and $ S=\\varnothing $ .\n\nAfter that, you cannot do any further operations. It can be proven that $ 3 $ is the maximum possible score that can be obtained.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n3\n0 1 1\n3\n1 2 3","3\n6"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2130A","link":"https:\/\/codeforces.com\/problemset\/problem\/2130\/A"},"translation":""},"translations":{"en":{"name":"Submission is All You Need","background":"","description":"For a multiset $ T $ consisting of non-negative integers, we define:\n\n- $ \\text{sum}(T) $ is the sum of all elements in $ T $ . For example, if $ T = \\{0,1, 1, 3\\} $ , then $ \\text{sum}(T)= 0+1+1+3=5 $ .\n- $ \\text{mex}(T) $ is the smallest non-negative integer not in $ T $ . For example, if $ T = \\{0,1, 1, 3\\} $ , then $ \\text{mex}(T) = 2 $ because $ 2 $ is the smallest non-negative integer not present in $ T $ .\n\n You are given a multiset $ S $ of size $ n $ consisting of non-negative integers. At first, your score is $ 0 $ . You can perform the following operations any number of times in any order (possibly zero):- Select a subset $ S\u0027 \\subseteq S $ (i.e., $ S\u0027 $ contains some of the elements currently in $ S $ ), add $ \\text{sum}(S\u0027) $ to your score, and then remove $ S\u0027 $ from $ S $ .\n- Select a subset $ S\u0027 \\subseteq S $ , add $ \\text{mex}(S\u0027) $ to your score, and then remove $ S\u0027 $ from $ S $ .\n\nFind the maximum possible score that can be obtained.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 10^3 $ ). The description of the test cases follows.\n\nThe first line of each test case contains a single integer $ n $ ( $ 1 \\le n \\le 50 $ ).\n\nThe second line of each test case contains $ n $ integers $ S_1, S_2, \\ldots, S_n $ ( $ 0 \\le S_i \\le 50 $ ).","formatO":"For each test case, print a single integer \u2014 the maximum possible score that can be obtained.","hint":"In the first test case, a possible optimal strategy is as follows:\n\n- Select $ S\u0027=\\{0,1\\} $ , add $ \\text{mex}(S\u0027)=\\text{mex}(\\{0,1\\})=2 $ to your score, and then remove $ S\u0027 $ from $ S $ . Currently, your score is $ 2 $ and $ S=\\{1\\} $ .\n- Select $ S\u0027=\\{1\\} $ , add $ \\text{sum}(S\u0027)=\\text{sum}(\\{1\\})=1 $ to your score, and then remove $ S\u0027 $ from $ S $ . Currently, your score is $ 3 $ and $ S=\\varnothing $ .\n\nAfter that, you cannot do any further operations. It can be proven that $ 3 $ is the maximum possible score that can be obtained.","locale":"en"},"zh-CN":{"name":"Submission is All You Need","background":null,"description":"\u5bf9\u4e8e\u4e00\u4e2a\u7531\u975e\u8d1f\u6574\u6570\u7ec4\u6210\u7684\u591a\u91cd\u96c6 $T$\uff0c\u6211\u4eec\u5b9a\u4e49\uff1a\n\n- $\\text{sum}(T)$ \u8868\u793a $T$ \u4e2d\u6240\u6709\u5143\u7d20\u7684\u548c\u3002\u4f8b\u5982\uff0c\u5982\u679c $T = \\{0,1,1,3\\}$\uff0c\u90a3\u4e48 $\\text{sum}(T)=0+1+1+3=5$\u3002\n- $\\text{mex}(T)$ \u8868\u793a\u4e0d\u5728 $T$ \u4e2d\u7684\u6700\u5c0f\u975e\u8d1f\u6574\u6570\u3002\u4f8b\u5982\uff0c\u5982\u679c $T = \\{0,1,1,3\\}$\uff0c\u90a3\u4e48 $\\text{mex}(T)=2$\uff0c\u56e0\u4e3a $2$ \u662f\u6700\u5c0f\u7684\u4e0d\u5728 $T$ \u4e2d\u7684\u975e\u8d1f\u6574\u6570\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u5927\u5c0f\u4e3a $n$ \u7684\u591a\u91cd\u96c6 $S$\uff0c\u5176\u4e2d\u5305\u542b\u975e\u8d1f\u6574\u6570\u3002\u521d\u59cb\u65f6\uff0c\u4f60\u7684\u5f97\u5206\u4e3a $0$\u3002\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u4efb\u610f\u6b21\uff08\u53ef\u4ee5\u4e3a\u96f6\u6b21\uff0c\u987a\u5e8f\u4e0d\u9650\uff09\uff1a\n\n- \u9009\u62e9 $S$ \u7684\u4e00\u4e2a\u5b50\u96c6 $S\u0027 \\subseteq S$\uff08\u5373 $S\u0027$ \u5305\u542b $S$ \u5f53\u524d\u7684\u90e8\u5206\u5143\u7d20\uff09\uff0c\u5c06 $\\text{sum}(S\u0027)$ \u52a0\u5230\u4f60\u7684\u5f97\u5206\u4e0a\uff0c\u7136\u540e\u4ece $S$ \u4e2d\u79fb\u9664 $S\u0027$\u3002\n- \u9009\u62e9 $S$ \u7684\u4e00\u4e2a\u5b50\u96c6 $S\u0027 \\subseteq S$\uff0c\u5c06 $\\text{mex}(S\u0027)$ \u52a0\u5230\u4f60\u7684\u5f97\u5206\u4e0a\uff0c\u7136\u540e\u4ece $S$ \u4e2d\u79fb\u9664 $S\u0027$\u3002\n\n\u8bf7\u4f60\u6c42\u51fa\u80fd\u591f\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^3$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\le n \\le 50$\uff09\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $S_1, S_2, \\ldots, S_n$\uff08$0 \\le S_i \\le 50$\uff09\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u80fd\u591f\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u4e00\u79cd\u53ef\u80fd\u7684\u6700\u4f18\u7b56\u7565\u5982\u4e0b\uff1a\n\n- \u9009\u62e9 $S\u0027=\\{0,1\\}$\uff0c\u5c06 $\\text{mex}(S\u0027)=\\text{mex}(\\{0,1\\})=2$ \u52a0\u5230\u4f60\u7684\u5f97\u5206\u4e0a\uff0c\u7136\u540e\u4ece $S$ \u4e2d\u79fb\u9664 $S\u0027$\u3002\u6b64\u65f6\u4f60\u7684\u5f97\u5206\u4e3a $2$\uff0c$S=\\{1\\}$\u3002\n- \u9009\u62e9 $S\u0027=\\{1\\}$\uff0c\u5c06 $\\text{sum}(S\u0027)=\\text{sum}(\\{1\\})=1$ \u52a0\u5230\u4f60\u7684\u5f97\u5206\u4e0a\uff0c\u7136\u540e\u4ece $S$ \u4e2d\u79fb\u9664 $S\u0027$\u3002\u6b64\u65f6\u4f60\u7684\u5f97\u5206\u4e3a $3$\uff0c$S=\\varnothing$\u3002\n\n\u4e4b\u540e\u65e0\u6cd5\u518d\u8fdb\u884c\u64cd\u4f5c\u3002\u53ef\u4ee5\u8bc1\u660e $3$ \u662f\u80fd\u591f\u83b7\u5f97\u7684\u6700\u5927\u5f97\u5206\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2130A Submission is All You Need","type":2,"slug":"CF2130A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328124.10891,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2130A Submission is All You Need","description":"\u5bf9\u4e8e\u4e00\u4e2a\u7531\u975e\u8d1f\u6574\u6570\u7ec4\u6210\u7684\u591a\u91cd\u96c6 T\uff0c\u6211\u4eec\u5b9a\u4e49\uff1a\n\n\n\n\n\n\n\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u5927\u5c0f\u4e3a n \u7684\u591a\u91cd\u96c6 S\uff0c\u5176\u4e2d\u5305\u542b\u975e\u8d1f\u6574\u6570\u3002\u521d\u59cb\u65f6\uff0c\u4f60\u7684\u5f97\u5206\u4e3a 0\u3002\u4f60\u53ef\u4ee5\u8fdb\u884c\u5982\u4e0b\u64cd\u4f5c\u4efb\u610f\u6b21\uff08\u53ef\u4ee5\u4e3a\u96f6\u6b21\uff0c\u987a\u5e8f\u4e0d\u9650\uff09\uff1a\n\n\u9009\u62e9 S \u7684\u4e00\u4e2a\u5b50\u96c6 S' \\subseteq\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2130A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2130A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2130A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2130A Submission is All You Need" />
+    <meta property="og:description" content="对于一个由非负整数组成的多重集 T，我们定义：
+
+
+
+
+
+
+
+
+现在给定一个大小为 n 的多重集 S，其中包含非负整数。初始时，你的得分为 0。你可以进行如下操作任意次（可以为零次，顺序不限）：
+
+选择 S 的一个子集 S&#039; \subseteq…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2130A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2130A Submission is All You Need</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    对于一个由非负整数组成的多重集 $T$，我们定义：
+
+- $\text{sum}(T)$ 表示 $T$ 中所有元素的和。例如，如果 $T = \{0,1,1,3\}$，那么 $\text{sum}(T)=0+1+1+3=5$。
+- $\text{mex}(T)$ 表示不在 $T$ 中的最小非负整数。例如，如果 $T = \{0,1,1,3\}$，那么 $\text{mex}(T)=2$，因为 $2$ 是最小的不在 $T$ 中的非负整数。
+
+现在给定一个大小为 $n$ 的多重集 $S$，其中包含非负整数。初始时，你的得分为 $0$。你可以进行如下操作任意次（可以为零次，顺序不限）：
+
+- 选择 $S$ 的一个子集 $S' \subseteq S$（即 $S'$ 包含 $S$ 当前的部分元素），将 $\text{sum}(S')$ 加到你的得分上，然后从 $S$ 中移除 $S'$。
+- 选择 $S$ 的一个子集 $S' \subseteq S$，将 $\text{mex}(S')$ 加到你的得分上，然后从 $S$ 中移除 $S'$。
+
+请你求出能够获得的最大得分。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每组测试数据包含多组测试用例。第一行包含一个整数 $t$（$1 \le t \le 10^3$），表示测试用例的组数。
+
+每组测试用例的第一行包含一个整数 $n$（$1 \le n \le 50$）。
+
+第二行包含 $n$ 个整数 $S_1, S_2, \ldots, S_n$（$0 \le S_i \le 50$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试用例，输出一个整数，表示能够获得的最大得分。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个测试用例中，一种可能的最优策略如下：
+
+- 选择 $S'=\{0,1\}$，将 $\text{mex}(S')=\text{mex}(\{0,1\})=2$ 加到你的得分上，然后从 $S$ 中移除 $S'$。此时你的得分为 $2$，$S=\{1\}$。
+- 选择 $S'=\{1\}$，将 $\text{sum}(S')=\text{sum}(\{1\})=1$ 加到你的得分上，然后从 $S$ 中移除 $S'$。此时你的得分为 $3$，$S=\varnothing$。
+
+之后无法再进行操作。可以证明 $3$ 是能够获得的最大得分。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

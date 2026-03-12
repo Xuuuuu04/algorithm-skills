@@ -1,0 +1,28 @@
+{
+  "id": "CF-713C",
+  "contest_id": 713,
+  "index": "C",
+  "name": "Sonya and Problem Wihtout a Legend",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dp",
+    "sortings"
+  ],
+  "solved_count": 6414,
+  "problem_url": "https://codeforces.com/problemset/problem/713/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/713/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/713/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=713C%20Sonya%20and%20Problem%20Wihtout%20a%20Legend%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF713C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF713C Sonya and Problem Without a Legend - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 2225,
+    "mirror_attempt": 4431,
+    "time_limit": "5000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

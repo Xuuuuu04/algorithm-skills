@@ -1,0 +1,32 @@
+{
+  "id": "CF-566B",
+  "contest_id": 566,
+  "index": "B",
+  "name": "Replicating Processes",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 361,
+  "problem_url": "https://codeforces.com/problemset/problem/566/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/566/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/566/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=566B%20Replicating%20Processes%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P566B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Replicating Processes - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

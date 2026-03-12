@@ -1,0 +1,29 @@
+{
+  "id": "CF-467E",
+  "contest_id": 467,
+  "index": "E",
+  "name": "Alex and Complicated Task",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 850,
+  "problem_url": "https://codeforces.com/problemset/problem/467/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/467/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/467/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=467E%20Alex%20and%20Complicated%20Task%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/467/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 467E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

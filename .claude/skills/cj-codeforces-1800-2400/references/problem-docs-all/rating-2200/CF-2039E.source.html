@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415131:9/KlDoxIFEo27lca3Z/0zIUUHiWBlntj/O14A7ZdFp8=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2039E Shohag Loves Inversions - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2039E","type":"CF","title":"Shohag Loves Inversions","difficulty":5,"tags":[3],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Shohag Loves Inversions","background":"","description":"# Shohag Loves Inversions\n\n\n\u7ed9\u4f60\u4e00\u4e2a\u6570\u5217\uff0c\u521d\u59cb\u6570\u5217\u4e3a $ a = [0, 1] $ \uff0c\u73b0\u5728\u91cd\u590d\u8fdb\u884c\u4ee5\u4e0b\u64cd\u4f5c\u82e5\u5e72\u6b21:\n- \u5c06\u5f53\u524d\u6570\u7ec4\u4e2d\u9006\u5e8f\u5bf9\u4e2a\u6570k\u63d2\u5165\u5f53\u524d\u6570\u7ec4\u4e2d\u4efb\u610f\u4e00\u4e2a\u4f4d\u7f6e\uff0c\u5305\u62ec\u5f00\u5934\u6216\u8005\u7ed3\u5c3e\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50, \u5982\u679c $ a = [4, 6, 2, 4] $ , \u5219\u9006\u5e8f\u5bf9\u4e2a\u6570\u662f $ k = 3 $ . \u6240\u4ee5\u53ef\u4ee5\u901a\u8fc7\u64cd\u4f5c\uff0c\u5f97\u5230\u4ee5\u4e0b\u6570\u7ec4: $ [\\textbf{3}, 4, 6, 2, 4] $ , $ [4, \\textbf{3}, 6, 2, 4] $ , $ [4, 6, \\textbf{3}, 2, 4] $ , $ [4, 6, 2, \\textbf{3}, 4] $ , \u548c$ [4, 6, 2, 4, \\textbf{3}] $ \u3002\n\n\u7ed9\u4e00\u4e2a\u6574\u6570 $ n $\uff0c\u6c42\u901a\u8fc7\u64cd\u4f5c\u53ef\u4ee5\u5f97\u5230\u591a\u5c11\u79cd\u957f\u5ea6\u4e3a$ n $\u7684\u4e0d\u540c\u6570\u5217\uff0c\u65b9\u6848\u6570\u5bf9\u5bf9 $ 998\\,244\\,353 $ \u53d6\u6a21\u3002\n\n\u9006\u5e8f\u5bf9\u7684\u5bf9\u6570\u5c31\u662f\u6709\u591a\u5c11\u4e2a\u4e8c\u5143\u7ec4\uff0c\u6ee1\u8db3  $ i \u003C j $ \u5e76\u4e14 $ a_i \u003E a_j $ \u3002","formatI":"\u7b2c\u4e00\u884c\u7ed9\u51fa\u4e00\u4e2a\u6574\u6570$ t $ ( $ 1 \\le t \\le 10^4 $ )\uff0c\u8868\u793a\u6709\u591a\u5c11\u7ec4\u6570\u636e\u3002\n\n\u6bcf\u884c\u7ed9\u51fa\u4e00\u4e2a\u6574\u6570 $ n $ ( $ 2 \\le n \\le 10^6 $ )\n\n\u53ef\u4ee5\u4fdd\u8bc1n\u7684\u548c\u5728\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d\u4e0d\u8d85\u8fc7$ 10^6 $ \u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6d4b\u8bd5\u70b9, \u8f93\u51fa\u4e00\u4e2a\u6574\u6570 \u2014 \u5bf9 $ 998\\,244\\,353 $ \u53d6\u6a21\u3002\n\n## \u6837\u4f8b #1\n\n### \u6837\u4f8b\u8f93\u5165 #1\n\n```\n4\n4\n2\n7\n69\n```\n\n### \u6837\u4f8b\u8f93\u51fa #1\n\n```\n5\n1\n682\n325188814\n```","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6837\u4f8b, \u4ee5\u4e0b$ 5 $\u79cd\u6570\u5217\u53ef\u4ee5\u901a\u8fc7\u64cd\u4f5c\u5f97\u5230  \n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, 1, \\textbf{0}] $ ,\n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, \\textbf{0}, 1] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, 0, \\textbf{1}] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, \\textbf{1}, 0] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [\\textbf{1}, 0, 1, 0] $ .","locale":"zh-CN"},"content":{"name":"Shohag Loves Inversions","background":"","description":"Shohag has an array $ a $ of integers. Initially $ a = [0, 1] $ . He can repeatedly perform the following operation any number of times:\n\n- Let $ k $ be the number of inversions $ ^{\\text{\u2217}} $ in the current array $ a $ .\n- Insert $ k $ at any position in $ a $ , including the beginning or the end.\n\nFor example, if $ a = [4, 6, 2, 4] $ , then the number of inversions is $ k = 3 $ . So Shohag can obtain the following arrays after the operation: $ [\\textbf{3}, 4, 6, 2, 4] $ , $ [4, \\textbf{3}, 6, 2, 4] $ , $ [4, 6, \\textbf{3}, 2, 4] $ , $ [4, 6, 2, \\textbf{3}, 4] $ , and $ [4, 6, 2, 4, \\textbf{3}] $ .\n\nGiven an integer $ n $ , help Shohag count, modulo $ 998\\,244\\,353 $ , the number of distinct arrays of length $ n $ that can be obtained after performing the operations.\n\n $ ^{\\text{\u2217}} $ The number of inversions in an array $ a $ is the number of pairs of indices ( $ i $ , $ j $ ) such that $ i \u003C j $ and $ a_i \u003E a_j $ .","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first and only line of each test case contains an integer $ n $ ( $ 2 \\le n \\le 10^6 $ ).\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 10^6 $ .","formatO":"For each test case, output an integer \u2014 the number of possible arrays modulo $ 998\\,244\\,353 $ .","hint":"In the first test case, the following $ 5 $ arrays can be obtained (the inserted inversion count is shown in bold):\n\n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, 1, \\textbf{0}] $ ,\n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, \\textbf{0}, 1] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, 0, \\textbf{1}] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, \\textbf{1}, 0] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [\\textbf{1}, 0, 1, 0] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n4\n2\n7\n69","5\n1\n682\n325188814"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2039E","link":"https:\/\/codeforces.com\/problemset\/problem\/2039\/E"},"translation":"# Shohag Loves Inversions\n\n## \u9898\u76ee\u63cf\u8ff0\n\n\u7ed9\u4f60\u4e00\u4e2a\u6570\u5217\uff0c\u521d\u59cb\u6570\u5217\u4e3a $ a = [0, 1] $ \uff0c\u73b0\u5728\u91cd\u590d\u8fdb\u884c\u4ee5\u4e0b\u64cd\u4f5c\u82e5\u5e72\u6b21:\n- \u5c06\u5f53\u524d\u6570\u7ec4\u4e2d\u9006\u5e8f\u5bf9\u4e2a\u6570k\u63d2\u5165\u5f53\u524d\u6570\u7ec4\u4e2d\u4efb\u610f\u4e00\u4e2a\u4f4d\u7f6e\uff0c\u5305\u62ec\u5f00\u5934\u6216\u8005\u7ed3\u5c3e\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50, \u5982\u679c $ a = [4, 6, 2, 4] $ , \u5219\u9006\u5e8f\u5bf9\u4e2a\u6570\u662f $ k = 3 $ . \u6240\u4ee5\u53ef\u4ee5\u901a\u8fc7\u64cd\u4f5c\uff0c\u5f97\u5230\u4ee5\u4e0b\u6570\u7ec4: $ [\\textbf{3}, 4, 6, 2, 4] $ , $ [4, \\textbf{3}, 6, 2, 4] $ , $ [4, 6, \\textbf{3}, 2, 4] $ , $ [4, 6, 2, \\textbf{3}, 4] $ , \u548c$ [4, 6, 2, 4, \\textbf{3}] $ \u3002\n\n\u7ed9\u4e00\u4e2a\u6574\u6570 $ n $\uff0c\u6c42\u901a\u8fc7\u64cd\u4f5c\u53ef\u4ee5\u5f97\u5230\u591a\u5c11\u79cd\u957f\u5ea6\u4e3a$ n $\u7684\u4e0d\u540c\u6570\u5217\uff0c\u65b9\u6848\u6570\u5bf9\u5bf9 $ 998\\,244\\,353 $ \u53d6\u6a21\u3002\n\n\u9006\u5e8f\u5bf9\u7684\u5bf9\u6570\u5c31\u662f\u6709\u591a\u5c11\u4e2a\u4e8c\u5143\u7ec4\uff0c\u6ee1\u8db3  $ i \u003C j $ \u5e76\u4e14 $ a_i \u003E a_j $ \u3002\n\n## \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u7ed9\u51fa\u4e00\u4e2a\u6574\u6570$ t $ ( $ 1 \\le t \\le 10^4 $ )\uff0c\u8868\u793a\u6709\u591a\u5c11\u7ec4\u6570\u636e\u3002\n\n\u6bcf\u884c\u7ed9\u51fa\u4e00\u4e2a\u6574\u6570 $ n $ ( $ 2 \\le n \\le 10^6 $ )\n\n\u53ef\u4ee5\u4fdd\u8bc1n\u7684\u548c\u5728\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d\u4e0d\u8d85\u8fc7$ 10^6 $ \u3002\n\n## \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6d4b\u8bd5\u70b9, \u8f93\u51fa\u4e00\u4e2a\u6574\u6570 \u2014 \u5bf9 $ 998\\,244\\,353 $ \u53d6\u6a21\u3002\n\n## \u6837\u4f8b #1\n\n### \u6837\u4f8b\u8f93\u5165 #1\n\n```\n4\n4\n2\n7\n69\n```\n\n### \u6837\u4f8b\u8f93\u51fa #1\n\n```\n5\n1\n682\n325188814\n```\n\n## \u63d0\u793a\n\n\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6837\u4f8b, \u4ee5\u4e0b$ 5 $\u79cd\u6570\u5217\u53ef\u4ee5\u901a\u8fc7\u64cd\u4f5c\u5f97\u5230  \n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, 1, \\textbf{0}] $ ,\n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, \\textbf{0}, 1] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, 0, \\textbf{1}] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, \\textbf{1}, 0] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [\\textbf{1}, 0, 1, 0] $ ."},"translations":{"en":{"name":"Shohag Loves Inversions","background":"","description":"Shohag has an array $ a $ of integers. Initially $ a = [0, 1] $ . He can repeatedly perform the following operation any number of times:\n\n- Let $ k $ be the number of inversions $ ^{\\text{\u2217}} $ in the current array $ a $ .\n- Insert $ k $ at any position in $ a $ , including the beginning or the end.\n\nFor example, if $ a = [4, 6, 2, 4] $ , then the number of inversions is $ k = 3 $ . So Shohag can obtain the following arrays after the operation: $ [\\textbf{3}, 4, 6, 2, 4] $ , $ [4, \\textbf{3}, 6, 2, 4] $ , $ [4, 6, \\textbf{3}, 2, 4] $ , $ [4, 6, 2, \\textbf{3}, 4] $ , and $ [4, 6, 2, 4, \\textbf{3}] $ .\n\nGiven an integer $ n $ , help Shohag count, modulo $ 998\\,244\\,353 $ , the number of distinct arrays of length $ n $ that can be obtained after performing the operations.\n\n $ ^{\\text{\u2217}} $ The number of inversions in an array $ a $ is the number of pairs of indices ( $ i $ , $ j $ ) such that $ i \u003C j $ and $ a_i \u003E a_j $ .","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nThe first and only line of each test case contains an integer $ n $ ( $ 2 \\le n \\le 10^6 $ ).\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 10^6 $ .","formatO":"For each test case, output an integer \u2014 the number of possible arrays modulo $ 998\\,244\\,353 $ .","hint":"In the first test case, the following $ 5 $ arrays can be obtained (the inserted inversion count is shown in bold):\n\n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, 1, \\textbf{0}] $ ,\n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, \\textbf{0}, 1] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, 0, \\textbf{1}] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, \\textbf{1}, 0] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [\\textbf{1}, 0, 1, 0] $ .","locale":"en"},"zh-CN":{"name":"Shohag Loves Inversions","background":"","description":"# Shohag Loves Inversions\n\n\n\u7ed9\u4f60\u4e00\u4e2a\u6570\u5217\uff0c\u521d\u59cb\u6570\u5217\u4e3a $ a = [0, 1] $ \uff0c\u73b0\u5728\u91cd\u590d\u8fdb\u884c\u4ee5\u4e0b\u64cd\u4f5c\u82e5\u5e72\u6b21:\n- \u5c06\u5f53\u524d\u6570\u7ec4\u4e2d\u9006\u5e8f\u5bf9\u4e2a\u6570k\u63d2\u5165\u5f53\u524d\u6570\u7ec4\u4e2d\u4efb\u610f\u4e00\u4e2a\u4f4d\u7f6e\uff0c\u5305\u62ec\u5f00\u5934\u6216\u8005\u7ed3\u5c3e\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50, \u5982\u679c $ a = [4, 6, 2, 4] $ , \u5219\u9006\u5e8f\u5bf9\u4e2a\u6570\u662f $ k = 3 $ . \u6240\u4ee5\u53ef\u4ee5\u901a\u8fc7\u64cd\u4f5c\uff0c\u5f97\u5230\u4ee5\u4e0b\u6570\u7ec4: $ [\\textbf{3}, 4, 6, 2, 4] $ , $ [4, \\textbf{3}, 6, 2, 4] $ , $ [4, 6, \\textbf{3}, 2, 4] $ , $ [4, 6, 2, \\textbf{3}, 4] $ , \u548c$ [4, 6, 2, 4, \\textbf{3}] $ \u3002\n\n\u7ed9\u4e00\u4e2a\u6574\u6570 $ n $\uff0c\u6c42\u901a\u8fc7\u64cd\u4f5c\u53ef\u4ee5\u5f97\u5230\u591a\u5c11\u79cd\u957f\u5ea6\u4e3a$ n $\u7684\u4e0d\u540c\u6570\u5217\uff0c\u65b9\u6848\u6570\u5bf9\u5bf9 $ 998\\,244\\,353 $ \u53d6\u6a21\u3002\n\n\u9006\u5e8f\u5bf9\u7684\u5bf9\u6570\u5c31\u662f\u6709\u591a\u5c11\u4e2a\u4e8c\u5143\u7ec4\uff0c\u6ee1\u8db3  $ i \u003C j $ \u5e76\u4e14 $ a_i \u003E a_j $ \u3002","formatI":"\u7b2c\u4e00\u884c\u7ed9\u51fa\u4e00\u4e2a\u6574\u6570$ t $ ( $ 1 \\le t \\le 10^4 $ )\uff0c\u8868\u793a\u6709\u591a\u5c11\u7ec4\u6570\u636e\u3002\n\n\u6bcf\u884c\u7ed9\u51fa\u4e00\u4e2a\u6574\u6570 $ n $ ( $ 2 \\le n \\le 10^6 $ )\n\n\u53ef\u4ee5\u4fdd\u8bc1n\u7684\u548c\u5728\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u4e2d\u4e0d\u8d85\u8fc7$ 10^6 $ \u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e00\u4e2a\u6d4b\u8bd5\u70b9, \u8f93\u51fa\u4e00\u4e2a\u6574\u6570 \u2014 \u5bf9 $ 998\\,244\\,353 $ \u53d6\u6a21\u3002\n\n## \u6837\u4f8b #1\n\n### \u6837\u4f8b\u8f93\u5165 #1\n\n```\n4\n4\n2\n7\n69\n```\n\n### \u6837\u4f8b\u8f93\u51fa #1\n\n```\n5\n1\n682\n325188814\n```","hint":"\u5bf9\u4e8e\u7b2c\u4e00\u4e2a\u6837\u4f8b, \u4ee5\u4e0b$ 5 $\u79cd\u6570\u5217\u53ef\u4ee5\u901a\u8fc7\u64cd\u4f5c\u5f97\u5230  \n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, 1, \\textbf{0}] $ ,\n- $ [0, 1] \\rightarrow [0, \\textbf{0}, 1] \\rightarrow [0, 0, \\textbf{0}, 1] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, 0, \\textbf{1}] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [0, 1, \\textbf{1}, 0] $ ,\n- $ [0, 1] \\rightarrow [0, 1, \\textbf{0}] \\rightarrow [\\textbf{1}, 0, 1, 0] $ .","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2039E Shohag Loves Inversions","type":2,"slug":"CF2039E","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328731.653764,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2039E Shohag Loves Inversions","description":"Shohag Loves Inversions\n\u7ed9\u4f60\u4e00\u4e2a\u6570\u5217\uff0c\u521d\u59cb\u6570\u5217\u4e3a  a = [0, 1]  \uff0c\u73b0\u5728\u91cd\u590d\u8fdb\u884c\u4ee5\u4e0b\u64cd\u4f5c\u82e5\u5e72\u6b21:\n\n\u5c06\u5f53\u524d\u6570\u7ec4\u4e2d\u9006\u5e8f\u5bf9\u4e2a\u6570k\u63d2\u5165\u5f53\u524d\u6570\u7ec4\u4e2d\u4efb\u610f\u4e00\u4e2a\u4f4d\u7f6e\uff0c\u5305\u62ec\u5f00\u5934\u6216\u8005\u7ed3\u5c3e\u3002\n\n\u4e3e\u4e2a\u4f8b\u5b50, \u5982\u679c  a = [4,\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2039E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2039E?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2039E?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2039E Shohag Loves Inversions" />
+    <meta property="og:description" content="Shohag Loves Inversions
+给你一个数列，初始数列为  a = [0, 1]  ，现在重复进行以下操作若干次:
+
+将当前数组中逆序对个数k插入当前数组中任意一个位置，包括开头或者结尾。
+
+举个例子, 如果  a = [4,…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2039E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2039E Shohag Loves Inversions</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    # Shohag Loves Inversions
+
+
+给你一个数列，初始数列为 $ a = [0, 1] $ ，现在重复进行以下操作若干次:
+- 将当前数组中逆序对个数k插入当前数组中任意一个位置，包括开头或者结尾。
+
+举个例子, 如果 $ a = [4, 6, 2, 4] $ , 则逆序对个数是 $ k = 3 $ . 所以可以通过操作，得到以下数组: $ [\textbf{3}, 4, 6, 2, 4] $ , $ [4, \textbf{3}, 6, 2, 4] $ , $ [4, 6, \textbf{3}, 2, 4] $ , $ [4, 6, 2, \textbf{3}, 4] $ , 和$ [4, 6, 2, 4, \textbf{3}] $ 。
+
+给一个整数 $ n $，求通过操作可以得到多少种长度为$ n $的不同数列，方案数对对 $ 998\,244\,353 $ 取模。
+
+逆序对的对数就是有多少个二元组，满足  $ i < j $ 并且 $ a_i > a_j $ 。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行给出一个整数$ t $ ( $ 1 \le t \le 10^4 $ )，表示有多少组数据。
+
+每行给出一个整数 $ n $ ( $ 2 \le n \le 10^6 $ )
+
+可以保证n的和在所有测试用例中不超过$ 10^6 $ 。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每一个测试点, 输出一个整数 — 对 $ 998\,244\,353 $ 取模。
+
+## 样例 #1
+
+### 样例输入 #1
+
+```
+4
+4
+2
+7
+69
+```
+
+### 样例输出 #1
+
+```
+5
+1
+682
+325188814
+```
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                对于第一个样例, 以下$ 5 $种数列可以通过操作得到  
+- $ [0, 1] \rightarrow [0, \textbf{0}, 1] \rightarrow [0, 0, 1, \textbf{0}] $ ,
+- $ [0, 1] \rightarrow [0, \textbf{0}, 1] \rightarrow [0, 0, \textbf{0}, 1] $ ,
+- $ [0, 1] \rightarrow [0, 1, \textbf{0}] \rightarrow [0, 1, 0, \textbf{1}] $ ,
+- $ [0, 1] \rightarrow [0, 1, \textbf{0}] \rightarrow [0, 1, \textbf{1}, 0] $ ,
+- $ [0, 1] \rightarrow [0, 1, \textbf{0}] \rightarrow [\textbf{1}, 0, 1, 0] $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

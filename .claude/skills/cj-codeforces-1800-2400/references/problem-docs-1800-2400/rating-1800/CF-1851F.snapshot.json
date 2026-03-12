@@ -1,0 +1,42 @@
+{
+  "id": "CF-1851F",
+  "contest_id": 1851,
+  "index": "F",
+  "name": "Lisa and the Martians",
+  "rating": 1800,
+  "tags": [
+    "bitmasks",
+    "greedy",
+    "math",
+    "strings",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1851/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1851/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1851/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1851F%20Lisa and the Martians%20tutorial",
+  "solved_count": 7269,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "字符串（KMP/哈希/自动机）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1851F",
+  "hydro_meta": {
+    "page_title": "Lisa and the Martians - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "data structures",
+      "greedy",
+      "sortings",
+      "strings",
+      "trees"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF119A Epic Game - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF119A","type":"CF","title":"Epic Game","difficulty":1,"tags":[1,241],"wantsTranslation":false,"totalSubmit":1979,"totalAccepted":901,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Epic Game","background":"","description":"Simon\u548cAntisimon\u5728\u73a9\u77f3\u5b50\u6e38\u620f\u3002\n\n\u5171\u6709n\u9897\u77f3\u5b50\uff0cSimon\u5148\u62ff\u3002\n\nSimon\u80fd\u62ff\u5f53\u524dn\u548ca\u7684\u6700\u5927\u516c\u7ea6\u6570\uff0cAntisimon\u80fd\u62ff\u5f53\u524dn\u548cb\u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\n\u5f53\u6709\u4e00\u4e2a\u4eba\u4e0d\u80fd\u62ff\u65f6\uff08n=0\uff09\u90a3\u4e2a\u4eba\u5c31\u8f93\u4e86\u3002\n\n\u6c42\u8c01\u8d62\u4e86\u3002","formatI":"\u4e00\u884c\uff0ca\uff0cb\uff0cn\uff081\u003C=a,b,n\u003C=100\uff09","formatO":"\u4e00\u884c\uff0c\u5982\u679cSimon\u8d62\u4e86\uff0c\u8f93\u51fa0\uff1bAntisimon\u8d62\u4e86\uff0c\u8f93\u51fa1.","hint":"gcd(0,x)=gcd(x,0)=x;\n\n\u5bf9\u4e8e\u6837\u4f8b1\uff1a\n\nSimon\u62ffgcd(3,9)=3\u9897\n\nAntisimon\u62ffgcd(5,6)=1\u9897\n\nSimon\u62ffgcd(3,5)=1\u9897\n\nAntisimon\u62ffgcd(5,4)=1\u9897\n\nSimon\u62ffgcd(3,3)=3\u9897\n\nAntisimon\u8f93\u4e86\n\n\u611f\u8c22@\u5f15\u9886\u5929\u4e0b \u63d0\u4f9b\u7684\u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Epic Game","background":"","description":"Simon and Antisimon play a game. Initially each player receives one fixed positive integer that doesn\u0027t change throughout the game. Simon receives number $ a $ and Antisimon receives number $ b $ . They also have a heap of $ n $ stones. The players take turns to make a move and Simon starts. During a move a player should take from the heap the number of stones equal to the greatest common divisor of the fixed number he has received and the number of stones left in the heap. A player loses when he cannot take the required number of stones (i. e. the heap has strictly less stones left than one needs to take).\n\nYour task is to determine by the given $ a $ , $ b $ and $ n $ who wins the game.","formatI":"The only string contains space-separated integers $ a $ , $ b $ and $ n $ ( $ 1\u003C=a,b,n\u003C=100 $ ) \u2014 the fixed numbers Simon and Antisimon have received correspondingly and the initial number of stones in the pile.","formatO":"If Simon wins, print \u00220\u0022 (without the quotes), otherwise print \u00221\u0022 (without the quotes).","hint":"The greatest common divisor of two non-negative integers $ a $ and $ b $ is such maximum positive integer $ k $ , that $ a $ is divisible by $ k $ without remainder and similarly, $ b $ is divisible by $ k $ without remainder. Let $ gcd(a,b) $ represent the operation of calculating the greatest common divisor of numbers $ a $ and $ b $ . Specifically, $ gcd(x,0)=gcd(0,x)=x $ .\n\nIn the first sample the game will go like that:\n\n- Simon should take $ gcd(3,9)=3 $ stones from the heap. After his move the heap has $ 6 $ stones left.\n- Antisimon should take $ gcd(5,6)=1 $ stone from the heap. After his move the heap has $ 5 $ stones left.\n- Simon should take $ gcd(3,5)=1 $ stone from the heap. After his move the heap has $ 4 $ stones left.\n- Antisimon should take $ gcd(5,4)=1 $ stone from the heap. After his move the heap has $ 3 $ stones left.\n- Simon should take $ gcd(3,3)=3 $ stones from the heap. After his move the heap has $ 0 $ stones left.\n- Antisimon should take $ gcd(5,0)=5 $ stones from the heap. As $ 0\u0026lt;5 $ , it is impossible and Antisimon loses.\n\nIn the second sample each player during each move takes one stone from the heap. As $ n $ is even, Antisimon takes the last stone and Simon can\u0027t make a move after that.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3 5 9\n","0"],["1 1 100\n","1"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"119A","link":"https:\/\/codeforces.com\/problemset\/problem\/119\/A"},"translation":"# \u9898\u76ee\u63cf\u8ff0\n\nSimon\u548cAntisimon\u5728\u73a9\u77f3\u5b50\u6e38\u620f\u3002\n\n\u5171\u6709n\u9897\u77f3\u5b50\uff0cSimon\u5148\u62ff\u3002\n\nSimon\u80fd\u62ff\u5f53\u524dn\u548ca\u7684\u6700\u5927\u516c\u7ea6\u6570\uff0cAntisimon\u80fd\u62ff\u5f53\u524dn\u548cb\u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\n\u5f53\u6709\u4e00\u4e2a\u4eba\u4e0d\u80fd\u62ff\u65f6\uff08n=0\uff09\u90a3\u4e2a\u4eba\u5c31\u8f93\u4e86\u3002\n\n\u6c42\u8c01\u8d62\u4e86\u3002\n\n# \u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n\n**\u8f93\u5165\u683c\u5f0f** \n\n\u4e00\u884c\uff0ca\uff0cb\uff0cn\uff081\u003C=a,b,n\u003C=100\uff09\n\n**\u8f93\u51fa\u683c\u5f0f**\n\n\u4e00\u884c\uff0c\u5982\u679cSimon\u8d62\u4e86\uff0c\u8f93\u51fa0\uff1bAntisimon\u8d62\u4e86\uff0c\u8f93\u51fa1.\n\n# \u8bf4\u660e\n\ngcd(0,x)=gcd(x,0)=x;\n\n\u5bf9\u4e8e\u6837\u4f8b1\uff1a\n\nSimon\u62ffgcd(3,9)=3\u9897\n\nAntisimon\u62ffgcd(5,6)=1\u9897\n\nSimon\u62ffgcd(3,5)=1\u9897\n\nAntisimon\u62ffgcd(5,4)=1\u9897\n\nSimon\u62ffgcd(3,3)=3\u9897\n\nAntisimon\u8f93\u4e86\n\n\u611f\u8c22@\u5f15\u9886\u5929\u4e0b \u63d0\u4f9b\u7684\u7ffb\u8bd1"},"translations":{"en":{"name":"Epic Game","background":"","description":"Simon and Antisimon play a game. Initially each player receives one fixed positive integer that doesn\u0027t change throughout the game. Simon receives number $ a $ and Antisimon receives number $ b $ . They also have a heap of $ n $ stones. The players take turns to make a move and Simon starts. During a move a player should take from the heap the number of stones equal to the greatest common divisor of the fixed number he has received and the number of stones left in the heap. A player loses when he cannot take the required number of stones (i. e. the heap has strictly less stones left than one needs to take).\n\nYour task is to determine by the given $ a $ , $ b $ and $ n $ who wins the game.","formatI":"The only string contains space-separated integers $ a $ , $ b $ and $ n $ ( $ 1\u003C=a,b,n\u003C=100 $ ) \u2014 the fixed numbers Simon and Antisimon have received correspondingly and the initial number of stones in the pile.","formatO":"If Simon wins, print \u00220\u0022 (without the quotes), otherwise print \u00221\u0022 (without the quotes).","hint":"The greatest common divisor of two non-negative integers $ a $ and $ b $ is such maximum positive integer $ k $ , that $ a $ is divisible by $ k $ without remainder and similarly, $ b $ is divisible by $ k $ without remainder. Let $ gcd(a,b) $ represent the operation of calculating the greatest common divisor of numbers $ a $ and $ b $ . Specifically, $ gcd(x,0)=gcd(0,x)=x $ .\n\nIn the first sample the game will go like that:\n\n- Simon should take $ gcd(3,9)=3 $ stones from the heap. After his move the heap has $ 6 $ stones left.\n- Antisimon should take $ gcd(5,6)=1 $ stone from the heap. After his move the heap has $ 5 $ stones left.\n- Simon should take $ gcd(3,5)=1 $ stone from the heap. After his move the heap has $ 4 $ stones left.\n- Antisimon should take $ gcd(5,4)=1 $ stone from the heap. After his move the heap has $ 3 $ stones left.\n- Simon should take $ gcd(3,3)=3 $ stones from the heap. After his move the heap has $ 0 $ stones left.\n- Antisimon should take $ gcd(5,0)=5 $ stones from the heap. As $ 0\u0026lt;5 $ , it is impossible and Antisimon loses.\n\nIn the second sample each player during each move takes one stone from the heap. As $ n $ is even, Antisimon takes the last stone and Simon can\u0027t make a move after that.","locale":"en"},"zh-CN":{"name":"Epic Game","background":"","description":"Simon\u548cAntisimon\u5728\u73a9\u77f3\u5b50\u6e38\u620f\u3002\n\n\u5171\u6709n\u9897\u77f3\u5b50\uff0cSimon\u5148\u62ff\u3002\n\nSimon\u80fd\u62ff\u5f53\u524dn\u548ca\u7684\u6700\u5927\u516c\u7ea6\u6570\uff0cAntisimon\u80fd\u62ff\u5f53\u524dn\u548cb\u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\n\u5f53\u6709\u4e00\u4e2a\u4eba\u4e0d\u80fd\u62ff\u65f6\uff08n=0\uff09\u90a3\u4e2a\u4eba\u5c31\u8f93\u4e86\u3002\n\n\u6c42\u8c01\u8d62\u4e86\u3002","formatI":"\u4e00\u884c\uff0ca\uff0cb\uff0cn\uff081\u003C=a,b,n\u003C=100\uff09","formatO":"\u4e00\u884c\uff0c\u5982\u679cSimon\u8d62\u4e86\uff0c\u8f93\u51fa0\uff1bAntisimon\u8d62\u4e86\uff0c\u8f93\u51fa1.","hint":"gcd(0,x)=gcd(x,0)=x;\n\n\u5bf9\u4e8e\u6837\u4f8b1\uff1a\n\nSimon\u62ffgcd(3,9)=3\u9897\n\nAntisimon\u62ffgcd(5,6)=1\u9897\n\nSimon\u62ffgcd(3,5)=1\u9897\n\nAntisimon\u62ffgcd(5,4)=1\u9897\n\nSimon\u62ffgcd(3,3)=3\u9897\n\nAntisimon\u8f93\u4e86\n\n\u611f\u8c22@\u5f15\u9886\u5929\u4e0b \u63d0\u4f9b\u7684\u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF119A Epic Game","type":2,"slug":"CF119A","color":"orange-3"},"discussions":[{"id":848072,"title":"\u7ffb\u8bd1\u683c\u5f0f\u6709\u8bef","author":{"uid":1034295,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/1034295.png","name":"QuaternaryTree","slogan":"\u6211\u5e38\u5e38\u8ffd\u5fc6\u8fc7\u53bb\uff0c\u4f46\u5982\u4eca\u518d\u600e\u4e48\u8ffd\u5fc6\u4e5f\u65e0\u6cd5\u633d\u56de\u4e86\uff0c\u518d\u89c1OI(2023.6.1 ~2025.11.1 )","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":4,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/k3my4b1c.png"},"time":1720527614},{"id":40513,"title":"\u7ffb\u8bd1","author":{"uid":39863,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/39863.png","name":"\u5f15\u9886\u5929\u4e0b","slogan":"\u75286\u5e74\u65f6\u95f4\uff0c\u8bb2\u597d\u4e00\u4e2a\u7b11\u8bdd\u3002","badge":"\u9b54\u9178","isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/swwvbxdm.png"},"time":1524387273}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.650531,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF119A Epic Game","description":"Simon\u548cAntisimon\u5728\u73a9\u77f3\u5b50\u6e38\u620f\u3002\n\u5171\u6709n\u9897\u77f3\u5b50\uff0cSimon\u5148\u62ff\u3002\nSimon\u80fd\u62ff\u5f53\u524dn\u548ca\u7684\u6700\u5927\u516c\u7ea6\u6570\uff0cAntisimon\u80fd\u62ff\u5f53\u524dn\u548cb\u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\u5f53\u6709\u4e00\u4e2a\u4eba\u4e0d\u80fd\u62ff\u65f6\uff08n=0\uff09\u90a3\u4e2a\u4eba\u5c31\u8f93\u4e86\u3002\n\u6c42\u8c01\u8d62\u4e86\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF119A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF119A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF119A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF119A Epic Game" />
+    <meta property="og:description" content="Simon和Antisimon在玩石子游戏。
+共有n颗石子，Simon先拿。
+Simon能拿当前n和a的最大公约数，Antisimon能拿当前n和b的最大公约数。
+当有一个人不能拿时（n=0）那个人就输了。
+求谁赢了。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF119A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF119A Epic Game</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Simon和Antisimon在玩石子游戏。
+
+共有n颗石子，Simon先拿。
+
+Simon能拿当前n和a的最大公约数，Antisimon能拿当前n和b的最大公约数。
+
+当有一个人不能拿时（n=0）那个人就输了。
+
+求谁赢了。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行，a，b，n（1
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    一行，如果Simon赢了，输出0；Antisimon赢了，输出1.
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                gcd(0,x)=gcd(x,0)=x;
+
+对于样例1：
+
+Simon拿gcd(3,9)=3颗
+
+Antisimon拿gcd(5,6)=1颗
+
+Simon拿gcd(3,5)=1颗
+
+Antisimon拿gcd(5,4)=1颗
+
+Simon拿gcd(3,3)=3颗
+
+Antisimon输了
+
+感谢@引领天下 提供的翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

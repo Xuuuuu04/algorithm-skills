@@ -1,0 +1,31 @@
+{
+  "id": "CF-1891C",
+  "contest_id": 1891,
+  "index": "C",
+  "name": "Smilo and Monsters",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 19657,
+  "problem_url": "https://codeforces.com/problemset/problem/1891/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1891/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1891/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1891C%20Smilo%20and%20Monsters%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1891C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1891C Smilo and Monsters - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 275,
+    "mirror_attempt": 672,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

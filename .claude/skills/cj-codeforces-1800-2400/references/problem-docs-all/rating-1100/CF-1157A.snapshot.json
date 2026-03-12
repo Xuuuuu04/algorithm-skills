@@ -1,0 +1,30 @@
+{
+  "id": "CF-1157A",
+  "contest_id": 1157,
+  "index": "A",
+  "name": "Reachable Numbers",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 16510,
+  "problem_url": "https://codeforces.com/problemset/problem/1157/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1157/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1157/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1157A%20Reachable%20Numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1157A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Reachable Numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

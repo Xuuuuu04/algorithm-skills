@@ -1,0 +1,27 @@
+{
+  "id": "CF-2094C",
+  "contest_id": 2094,
+  "index": "C",
+  "name": "Brr Brrr Patapim",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 29937,
+  "problem_url": "https://codeforces.com/problemset/problem/2094/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2094/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2094/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2094C%20Brr%20Brrr%20Patapim%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2094/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2094C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

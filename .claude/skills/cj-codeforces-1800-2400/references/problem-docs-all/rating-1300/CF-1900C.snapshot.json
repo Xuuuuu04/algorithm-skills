@@ -1,0 +1,29 @@
+{
+  "id": "CF-1900C",
+  "contest_id": 1900,
+  "index": "C",
+  "name": "Anji's Binary Tree",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 14598,
+  "problem_url": "https://codeforces.com/problemset/problem/1900/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1900/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1900/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1900C%20Anji%27s%20Binary%20Tree%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1900/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1900C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

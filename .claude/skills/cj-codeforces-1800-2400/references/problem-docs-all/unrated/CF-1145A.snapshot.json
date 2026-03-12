@@ -1,0 +1,27 @@
+{
+  "id": "CF-1145A",
+  "contest_id": 1145,
+  "index": "A",
+  "name": "Thanos Sort",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 9190,
+  "problem_url": "https://codeforces.com/problemset/problem/1145/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1145/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1145/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1145A%20Thanos%20Sort%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1145A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1145A Thanos Sort - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 323,
+    "mirror_attempt": 643,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

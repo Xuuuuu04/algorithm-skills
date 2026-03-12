@@ -1,0 +1,30 @@
+{
+  "id": "CF-833C",
+  "contest_id": 833,
+  "index": "C",
+  "name": "Ever-Hungry Krakozyabra",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 502,
+  "problem_url": "https://codeforces.com/problemset/problem/833/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/833/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/833/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=833C%20Ever-Hungry%20Krakozyabra%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF833C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF833C Ever-Hungry Krakozyabra - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 86,
+    "mirror_attempt": 202,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

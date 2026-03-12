@@ -1,0 +1,31 @@
+{
+  "id": "CF-1699A",
+  "contest_id": 1699,
+  "index": "A",
+  "name": "The Third Three Number Problem",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 24721,
+  "problem_url": "https://codeforces.com/problemset/problem/1699/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1699/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1699/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1699A%20The%20Third%20Three%20Number%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1699A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Third Three Number Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

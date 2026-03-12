@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417190:u6SQtRFFsqMJGuZseV8Bl8vnMoGRm9x7OxAvmk2JA1M=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1130A Be Positive - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1130A","type":"CF","title":"Be Positive","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":285,"totalAccepted":117,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Be Positive","background":"","description":"\u6709\u4e00\u4e2a\u5305\u542bnnn\u4e2a\u6574\u6570\u7684\u6570\u7ec4,\u4f60\u9700\u8981\u627e\u5230\u4e00\u4e2a\u975e\u96f6\u6574\u6570$d(-10^3\\leq d \\leq 10^3)$\uff0c\u4f7f\u6570\u7ec4\u4e2d\u7684\u6bcf\u4e00\u4e2a\u6570\u7ec4\u9664\u4ee5d\u7684\u5546\u4e2d\u81f3\u5c11\u6709\u4e00\u534a\u4e3a\u6b63\u6570(\u5373\u81f3\u5c11\u6709$\\frac{n}{2}$\u4e2a)\u6ce8\u610f:\u0022\u6b63\u6570\u0022\u53ea\u8981\u6c42\u5546\u5927\u4e8e0,\u4e0d\u8981\u6c42\u4e00\u5b9a\u662f\u6574\u6570\u3002\u5982\u679c\u6709\u591a\u4e2a$d$\u6ee1\u8db3\u6761\u4ef6\uff0c\u8f93\u51fa\u5176\u4e2d\u7684\u4efb\u610f\u4e00\u4e2a,\u5982\u679c\u6ca1\u6709\u8fd9\u6837\u7684$d$\u5219\u8f93\u51fa$0$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570$n$,\u8868\u793a\u6570\u7ec4\u4e2d\u5143\u7d20\u7684\u6570\u91cf\n\u7b2c\u4e8c\u884c\u5305\u542b\u7531$n$\u4e2a\u6574\u6570,\u6570\u4e4b\u95f4\u7531\u4e00\u4e2a\u7a7a\u683c\u9694\u5f00\u3002$a_1,a_2,a_3,...,a_n(-10^3\\leq a_i \\leq 10^3)$","formatO":"","hint":"","locale":"zh-CN"},"content":{"name":"Be Positive","background":"","description":"You are given an array of $ n $ integers: $ a_1, a_2, \\ldots, a_n $ . Your task is to find some non-zero integer $ d $ ( $ -10^3 \\leq d \\leq 10^3 $ ) such that, after each number in the array is divided by $ d $ , the number of positive numbers that are presented in the array is greater than or equal to half of the array size (i.e., at least $ \\lceil\\frac{n}{2}\\rceil $ ). Note that those positive numbers do not need to be an integer (e.g., a $ 2.5 $ counts as a positive number). If there are multiple values of $ d $ that satisfy the condition, you may print any of them. In case that there is no such $ d $ , print a single integer $ 0 $ .\n\nRecall that $ \\lceil x \\rceil $ represents the smallest integer that is not less than $ x $ and that zero ( $ 0 $ ) is neither positive nor negative.","formatI":"The first line contains one integer $ n $ ( $ 1 \\le n \\le 100 $ ) \u2014 the number of elements in the array.\n\nThe second line contains $ n $ space-separated integers $ a_1, a_2, \\ldots, a_n $ ( $ -10^3 \\le a_i \\le 10^3 $ ).","formatO":"Print one integer $ d $ ( $ -10^3 \\leq d \\leq 10^3 $ and $ d \\neq 0 $ ) that satisfies the given condition. If there are multiple values of $ d $ that satisfy the condition, you may print any of them. In case that there is no such $ d $ , print a single integer $ 0 $ .","hint":"In the first sample, $ n = 5 $ , so we need at least $ \\lceil\\frac{5}{2}\\rceil = 3 $ positive numbers after division. If $ d = 4 $ , the array after division is $ [2.5, 0, -1.75, 0.5, 1.5] $ , in which there are $ 3 $ positive numbers (namely: $ 2.5 $ , $ 0.5 $ , and $ 1.5 $ ).\n\nIn the second sample, there is no valid $ d $ , so $ 0 $ should be printed.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5\n10 0 -7 2 6","4"],["7\n0 0 1 -1 0 0 2\n","0"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1130A","link":"https:\/\/codeforces.com\/problemset\/problem\/1130\/A"},"translation":"## \u9898\u76ee\u63cf\u8ff0\n\u6709\u4e00\u4e2a\u5305\u542bnnn\u4e2a\u6574\u6570\u7684\u6570\u7ec4,\u4f60\u9700\u8981\u627e\u5230\u4e00\u4e2a\u975e\u96f6\u6574\u6570$d(-10^3\\leq d \\leq 10^3)$\uff0c\u4f7f\u6570\u7ec4\u4e2d\u7684\u6bcf\u4e00\u4e2a\u6570\u7ec4\u9664\u4ee5d\u7684\u5546\u4e2d\u81f3\u5c11\u6709\u4e00\u534a\u4e3a\u6b63\u6570(\u5373\u81f3\u5c11\u6709$\\frac{n}{2}$\u4e2a)\u6ce8\u610f:\u0022\u6b63\u6570\u0022\u53ea\u8981\u6c42\u5546\u5927\u4e8e0,\u4e0d\u8981\u6c42\u4e00\u5b9a\u662f\u6574\u6570\u3002\u5982\u679c\u6709\u591a\u4e2a$d$\u6ee1\u8db3\u6761\u4ef6\uff0c\u8f93\u51fa\u5176\u4e2d\u7684\u4efb\u610f\u4e00\u4e2a,\u5982\u679c\u6ca1\u6709\u8fd9\u6837\u7684$d$\u5219\u8f93\u51fa$0$\u3002\n## \u8f93\u5165\u8f93\u51fa\u683c\u5f0f\n### \u8f93\u5165\u683c\u5f0f:\n\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570$n$,\u8868\u793a\u6570\u7ec4\u4e2d\u5143\u7d20\u7684\u6570\u91cf\n\u7b2c\u4e8c\u884c\u5305\u542b\u7531$n$\u4e2a\u6574\u6570,\u6570\u4e4b\u95f4\u7531\u4e00\u4e2a\u7a7a\u683c\u9694\u5f00\u3002$a_1,a_2,a_3,...,a_n(-10^3\\leq a_i \\leq 10^3)$\n### \u8f93\u51fa\u683c\u5f0f:\n\u4e00\u4e2a\u6ee1\u8db3\u9898\u76ee\u63cf\u8ff0\u7684\u6574\u6570$d(-10^3\\leq d \\leq 10^3,d \\neq 0)$,\u5982\u679c\u6709\u591a\u4e2a$d$\u6ee1\u8db3\u6761\u4ef6,\u4f60\u53ef\u4ee5\u6253\u5370\u5176\u4e2d\u4efb\u4f55\u4e00\u4e2a\u3002\u5982\u679c\u6ca1\u6709\u6ee1\u8db3\u6761\u4ef6\u7684\u6574\u6570$d$,\u8f93\u51fa0"},"translations":{"en":{"name":"Be Positive","background":"","description":"You are given an array of $ n $ integers: $ a_1, a_2, \\ldots, a_n $ . Your task is to find some non-zero integer $ d $ ( $ -10^3 \\leq d \\leq 10^3 $ ) such that, after each number in the array is divided by $ d $ , the number of positive numbers that are presented in the array is greater than or equal to half of the array size (i.e., at least $ \\lceil\\frac{n}{2}\\rceil $ ). Note that those positive numbers do not need to be an integer (e.g., a $ 2.5 $ counts as a positive number). If there are multiple values of $ d $ that satisfy the condition, you may print any of them. In case that there is no such $ d $ , print a single integer $ 0 $ .\n\nRecall that $ \\lceil x \\rceil $ represents the smallest integer that is not less than $ x $ and that zero ( $ 0 $ ) is neither positive nor negative.","formatI":"The first line contains one integer $ n $ ( $ 1 \\le n \\le 100 $ ) \u2014 the number of elements in the array.\n\nThe second line contains $ n $ space-separated integers $ a_1, a_2, \\ldots, a_n $ ( $ -10^3 \\le a_i \\le 10^3 $ ).","formatO":"Print one integer $ d $ ( $ -10^3 \\leq d \\leq 10^3 $ and $ d \\neq 0 $ ) that satisfies the given condition. If there are multiple values of $ d $ that satisfy the condition, you may print any of them. In case that there is no such $ d $ , print a single integer $ 0 $ .","hint":"In the first sample, $ n = 5 $ , so we need at least $ \\lceil\\frac{5}{2}\\rceil = 3 $ positive numbers after division. If $ d = 4 $ , the array after division is $ [2.5, 0, -1.75, 0.5, 1.5] $ , in which there are $ 3 $ positive numbers (namely: $ 2.5 $ , $ 0.5 $ , and $ 1.5 $ ).\n\nIn the second sample, there is no valid $ d $ , so $ 0 $ should be printed.","locale":"en"},"zh-CN":{"name":"Be Positive","background":"","description":"\u6709\u4e00\u4e2a\u5305\u542bnnn\u4e2a\u6574\u6570\u7684\u6570\u7ec4,\u4f60\u9700\u8981\u627e\u5230\u4e00\u4e2a\u975e\u96f6\u6574\u6570$d(-10^3\\leq d \\leq 10^3)$\uff0c\u4f7f\u6570\u7ec4\u4e2d\u7684\u6bcf\u4e00\u4e2a\u6570\u7ec4\u9664\u4ee5d\u7684\u5546\u4e2d\u81f3\u5c11\u6709\u4e00\u534a\u4e3a\u6b63\u6570(\u5373\u81f3\u5c11\u6709$\\frac{n}{2}$\u4e2a)\u6ce8\u610f:\u0022\u6b63\u6570\u0022\u53ea\u8981\u6c42\u5546\u5927\u4e8e0,\u4e0d\u8981\u6c42\u4e00\u5b9a\u662f\u6574\u6570\u3002\u5982\u679c\u6709\u591a\u4e2a$d$\u6ee1\u8db3\u6761\u4ef6\uff0c\u8f93\u51fa\u5176\u4e2d\u7684\u4efb\u610f\u4e00\u4e2a,\u5982\u679c\u6ca1\u6709\u8fd9\u6837\u7684$d$\u5219\u8f93\u51fa$0$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570$n$,\u8868\u793a\u6570\u7ec4\u4e2d\u5143\u7d20\u7684\u6570\u91cf\n\u7b2c\u4e8c\u884c\u5305\u542b\u7531$n$\u4e2a\u6574\u6570,\u6570\u4e4b\u95f4\u7531\u4e00\u4e2a\u7a7a\u683c\u9694\u5f00\u3002$a_1,a_2,a_3,...,a_n(-10^3\\leq a_i \\leq 10^3)$","formatO":"","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1130A Be Positive","type":2,"slug":"CF1130A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330790.106815,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1130A Be Positive","description":"\u6709\u4e00\u4e2a\u5305\u542bnnn\u4e2a\u6574\u6570\u7684\u6570\u7ec4,\u4f60\u9700\u8981\u627e\u5230\u4e00\u4e2a\u975e\u96f6\u6574\u6570d(-10^3\\leq d \\leq 10^3)\uff0c\u4f7f\u6570\u7ec4\u4e2d\u7684\u6bcf\u4e00\u4e2a\u6570\u7ec4\u9664\u4ee5d\u7684\u5546\u4e2d\u81f3\u5c11\u6709\u4e00\u534a\u4e3a\u6b63\u6570(\u5373\u81f3\u5c11\u6709\\frac{n}{2}\u4e2a)\u6ce8\u610f:&quot;\u6b63\u6570&quot;\u53ea\u8981\u6c42\u5546\u5927\u4e8e0,\u4e0d\u8981\u6c42\u4e00\u5b9a\u662f\u6574\u6570\u3002\u5982\u679c\u6709\u591a\u4e2ad\u6ee1\u8db3\u6761\u4ef6\uff0c\u8f93\u51fa\u5176\u4e2d\u7684\u4efb\u610f\u4e00\u4e2a,\u5982\u679c\u6ca1\u6709\u8fd9\u6837\u7684d\u5219\u8f93\u51fa0\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1130A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1130A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1130A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1130A Be Positive" />
+    <meta property="og:description" content="有一个包含nnn个整数的数组,你需要找到一个非零整数d(-10^3\leq d \leq 10^3)，使数组中的每一个数组除以d的商中至少有一半为正数(即至少有\frac{n}{2}个)注意:&amp;quot;正数&amp;quot;只要求商大于0,不要求一定是整数。如果有多个d满足条件，输出其中的任意一个,如果没有这样的d则输出0。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1130A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1130A Be Positive</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有一个包含nnn个整数的数组,你需要找到一个非零整数$d(-10^3\leq d \leq 10^3)$，使数组中的每一个数组除以d的商中至少有一半为正数(即至少有$\frac{n}{2}$个)注意:"正数"只要求商大于0,不要求一定是整数。如果有多个$d$满足条件，输出其中的任意一个,如果没有这样的$d$则输出$0$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数$n$,表示数组中元素的数量
+第二行包含由$n$个整数,数之间由一个空格隔开。$a_1,a_2,a_3,...,a_n(-10^3\leq a_i \leq 10^3)$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    Print one integer $ d $ ( $ -10^3 \leq d \leq 10^3 $ and $ d \neq 0 $ ) that satisfies the given condition. If there are multiple values of $ d $ that satisfy the condition, you may print any of them. In case that there is no such $ d $ , print a single integer $ 0 $ .
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                In the first sample, $ n = 5 $ , so we need at least $ \lceil\frac{5}{2}\rceil = 3 $ positive numbers after division. If $ d = 4 $ , the array after division is $ [2.5, 0, -1.75, 0.5, 1.5] $ , in which there are $ 3 $ positive numbers (namely: $ 2.5 $ , $ 0.5 $ , and $ 1.5 $ ).
+
+In the second sample, there is no valid $ d $ , so $ 0 $ should be printed.
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

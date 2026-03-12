@@ -1,0 +1,28 @@
+{
+  "id": "CF-1575M",
+  "contest_id": 1575,
+  "index": "M",
+  "name": "Managing Telephone Poles",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "geometry"
+  ],
+  "solved_count": 333,
+  "problem_url": "https://codeforces.com/problemset/problem/1575/M",
+  "answer_index_url": "https://codeforces.com/problemset/status/1575/problem/M",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1575/problem/M?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1575M%20Managing%20Telephone%20Poles%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1575M",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Managing Telephone Poles - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

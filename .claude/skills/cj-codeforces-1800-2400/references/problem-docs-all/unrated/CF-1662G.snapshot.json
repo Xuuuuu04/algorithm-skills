@@ -1,0 +1,29 @@
+{
+  "id": "CF-1662G",
+  "contest_id": 1662,
+  "index": "G",
+  "name": "Gastronomic Event",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 543,
+  "problem_url": "https://codeforces.com/problemset/problem/1662/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1662/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1662/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1662G%20Gastronomic%20Event%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1662/G",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1662G - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

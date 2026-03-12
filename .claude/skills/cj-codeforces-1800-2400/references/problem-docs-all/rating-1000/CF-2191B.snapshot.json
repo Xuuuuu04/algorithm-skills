@@ -1,0 +1,28 @@
+{
+  "id": "CF-2191B",
+  "contest_id": 2191,
+  "index": "B",
+  "name": "MEX Reordering",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "sortings"
+  ],
+  "solved_count": 18828,
+  "problem_url": "https://codeforces.com/problemset/problem/2191/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2191/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2191/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2191B%20MEX%20Reordering%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2191/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2191B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

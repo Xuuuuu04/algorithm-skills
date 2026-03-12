@@ -1,0 +1,36 @@
+{
+  "id": "CF-1305D",
+  "contest_id": 1305,
+  "index": "D",
+  "name": "Kuroni and the Celebration",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "interactive",
+    "trees"
+  ],
+  "solved_count": 5345,
+  "problem_url": "https://codeforces.com/problemset/problem/1305/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1305/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1305/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1305D%20Kuroni%20and%20the%20Celebration%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1305D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Kuroni and the Celebration - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "interactive",
+      "trees",
+      "*1900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

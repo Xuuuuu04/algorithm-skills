@@ -1,0 +1,28 @@
+{
+  "id": "CF-2123F",
+  "contest_id": 2123,
+  "index": "F",
+  "name": "Minimize Fixed Points",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "number theory"
+  ],
+  "solved_count": 9551,
+  "problem_url": "https://codeforces.com/problemset/problem/2123/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2123/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2123/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2123F%20Minimize%20Fixed%20Points%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2123/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2123F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

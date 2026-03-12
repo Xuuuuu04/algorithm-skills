@@ -1,0 +1,35 @@
+{
+  "id": "CF-1466E",
+  "contest_id": 1466,
+  "index": "E",
+  "name": "Apollo versus Pan",
+  "rating": 1800,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1466/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1466/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1466/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1466E%20Apollo versus Pan%20tutorial",
+  "solved_count": 8248,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1466E",
+  "hydro_meta": {
+    "page_title": "Apollo versus Pan - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "brute force",
+      "math",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

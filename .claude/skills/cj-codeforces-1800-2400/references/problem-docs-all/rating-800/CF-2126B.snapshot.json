@@ -1,0 +1,32 @@
+{
+  "id": "CF-2126B",
+  "contest_id": 2126,
+  "index": "B",
+  "name": "No Casino in the Mountains",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 37076,
+  "problem_url": "https://codeforces.com/problemset/problem/2126/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2126/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2126/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2126B%20No%20Casino%20in%20the%20Mountains%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2126B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "No Casino in the Mountains - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

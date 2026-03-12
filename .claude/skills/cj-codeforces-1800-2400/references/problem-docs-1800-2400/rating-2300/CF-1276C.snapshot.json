@@ -1,0 +1,44 @@
+{
+  "id": "CF-1276C",
+  "contest_id": 1276,
+  "index": "C",
+  "name": "Beautiful Rectangle",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "constructive algorithms",
+    "data structures",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1276/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1276/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1276/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1276C%20Beautiful Rectangle%20tutorial",
+  "solved_count": 1758,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1276C",
+  "hydro_meta": {
+    "page_title": "Beautiful Rectangle - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "combinatorics",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "math",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

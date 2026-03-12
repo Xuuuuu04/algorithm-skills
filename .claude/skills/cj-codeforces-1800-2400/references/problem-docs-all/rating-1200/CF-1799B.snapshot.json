@@ -1,0 +1,30 @@
+{
+  "id": "CF-1799B",
+  "contest_id": 1799,
+  "index": "B",
+  "name": "Equalize by Divide",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 12651,
+  "problem_url": "https://codeforces.com/problemset/problem/1799/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1799/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1799/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1799B%20Equalize%20by%20Divide%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1799/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1799B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

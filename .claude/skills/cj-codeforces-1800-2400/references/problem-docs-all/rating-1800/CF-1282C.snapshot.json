@@ -1,0 +1,34 @@
+{
+  "id": "CF-1282C",
+  "contest_id": 1282,
+  "index": "C",
+  "name": "Petya and Exam",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "greedy",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 4549,
+  "problem_url": "https://codeforces.com/problemset/problem/1282/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1282/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1282/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1282C%20Petya%20and%20Exam%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1282C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Petya and Exam - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

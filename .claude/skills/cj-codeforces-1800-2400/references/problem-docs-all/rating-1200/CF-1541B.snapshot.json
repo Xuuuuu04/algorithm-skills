@@ -1,0 +1,30 @@
+{
+  "id": "CF-1541B",
+  "contest_id": 1541,
+  "index": "B",
+  "name": "Pleasant Pairs",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 37431,
+  "problem_url": "https://codeforces.com/problemset/problem/1541/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1541/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1541/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1541B%20Pleasant%20Pairs%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1541/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1541B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

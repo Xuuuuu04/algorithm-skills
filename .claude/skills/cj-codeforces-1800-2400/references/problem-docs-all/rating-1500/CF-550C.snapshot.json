@@ -1,0 +1,29 @@
+{
+  "id": "CF-550C",
+  "contest_id": 550,
+  "index": "C",
+  "name": "Divisibility by Eight",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "math"
+  ],
+  "solved_count": 31860,
+  "problem_url": "https://codeforces.com/problemset/problem/550/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/550/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/550/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=550C%20Divisibility%20by%20Eight%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF550C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF550C Divisibility by Eight - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 626,
+    "mirror_attempt": 1957,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-32B",
+  "contest_id": 32,
+  "index": "B",
+  "name": "Borze",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "expression parsing",
+    "implementation"
+  ],
+  "solved_count": 78244,
+  "problem_url": "https://codeforces.com/problemset/problem/32/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/32/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/32/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=32B%20Borze%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P32B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Borze - 题目详情 - Hydro",
+    "mirror_tags": [
+      "expression parsing",
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 3,
+    "mirror_attempt": 4,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

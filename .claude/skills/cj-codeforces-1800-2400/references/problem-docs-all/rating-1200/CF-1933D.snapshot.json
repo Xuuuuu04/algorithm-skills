@@ -1,0 +1,37 @@
+{
+  "id": "CF-1933D",
+  "contest_id": 1933,
+  "index": "D",
+  "name": "Turtle Tenacity: Continual Mods",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "number theory",
+    "sortings"
+  ],
+  "solved_count": 23260,
+  "problem_url": "https://codeforces.com/problemset/problem/1933/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1933/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1933/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1933D%20Turtle%20Tenacity%3A%20Continual%20Mods%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1933D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Turtle Tenacity: Continual Mods - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

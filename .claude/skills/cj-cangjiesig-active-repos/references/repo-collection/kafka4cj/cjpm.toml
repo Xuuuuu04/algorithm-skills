@@ -1,0 +1,50 @@
+[package]
+name = "kafka"
+version = "0.1.0"
+description = "Kafka client library for Cangjie language"
+cjc-version = "1.0.0"
+output-type = "dynamic"
+compile-option = "-Woff unused -Woff package-import -Woff parser"
+
+[dependencies]
+# 仓颉标准库模块通过bin-dependencies方式引入
+
+
+[target.aarch64-apple-darwin]
+compile-option = "--cfg \"ohos=false\""
+link-option = "-L/opt/homebrew/opt/openssl@3/lib -lssl -lcrypto"
+[target.aarch64-apple-darwin.bin-dependencies]
+path-option = [ "/Users/louloulin/Documents/linchong/cj/CangjieSDK-Darwin/darwin_aarch64_llvm/static/stdx" ]
+
+
+
+[target.x86_64-unknown-linux-gnu]
+compile-option = "--cfg \"ohos=false\""
+
+[target.x86_64-unknown-windows-gnu]
+compile-option = "--cfg \"ohos=false\""
+
+[package.package-configuration."kafka.examples.simple_client"]
+output-type = "executable"
+
+[package.package-configuration."kafka.examples.producer"]
+output-type = "executable"
+
+[package.package-configuration."kafka.examples.consumer"]
+output-type = "executable"
+
+[package.package-configuration."kafka.tests"]
+output-type = "executable"
+
+[package.package-configuration."kafka.examples.simple_consumer_group"]
+output-type = "executable"
+
+# 功能特性（类似Cargo features）
+# 默认启用gzip、snappy、tls
+# 可通过编译选项控制启用/禁用
+
+
+[package.package-configuration."kafka.examples.connection_test"]
+output-type = "executable"
+
+# 综合演示程序已移除，使用现有的测试程序

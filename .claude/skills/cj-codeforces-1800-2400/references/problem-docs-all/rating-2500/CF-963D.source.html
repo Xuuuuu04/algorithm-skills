@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF963D Frequency of String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF963D","type":"CF","title":"Frequency of String","difficulty":6,"tags":[],"wantsTranslation":false,"totalSubmit":623,"totalAccepted":264,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Frequency of String","background":null,"description":"\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\uff0c\u4f60\u8981\u56de\u7b54 $n$ \u4e2a\u95ee\u9898\uff0c\u7b2c $i$ \u4e2a\u8be2\u95ee\u5305\u542b\u4e24\u4e2a\u53c2\u6570\uff0c\u4e00\u4e2a\u6574\u6570 $k_i$ \u548c\u4e00\u4e2a\u5b57\u7b26\u4e32 $m_i$\uff0c\u4f60\u9700\u8981\u56de\u7b54\u4ece $s$ \u4e2d\u9009\u51fa\u4e00\u4e2a\u5b83\u7684\u8fde\u7eed\u5b50\u4e32 $t$ \u4f7f\u5f97 $m_i$ \u4f5c\u4e3a $t$ \u7684\u5b50\u4e32\u51fa\u73b0\u4e86\u81f3\u5c11 $k_i$ \u6b21\uff0c$t$ \u7684\u957f\u5ea6\u7684\u6700\u5c0f\u503c\u3002\n\n\u4fdd\u8bc1\u4e24\u4e2a\u8be2\u95ee\u7684 $m_i$ \u4e0d\u540c\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32 $s(1\\le \\vert s\\vert\\le 10^5)$\u3002\\\n\u7b2c\u4e8c\u884c\u4e00\u4e2a\u6574\u6570 $n(1\\le n\\le 10^5)$\u3002\\\n\u63a5\u4e0b\u6765 $n$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570 $k_i(1\\le k_i\\le\\vert s\\vert)$ \u548c\u4e00\u4e2a\u975e\u7a7a\u5b57\u7b26\u4e32 $m_i$\u3002\n\n\u4fdd\u8bc1\u8f93\u5165\u5b57\u7b26\u4e32\u5747\u7531\u5c0f\u5199\u5b57\u6bcd\u7ec4\u6210\u3002\n\n\u4fdd\u8bc1\u5355\u4e2a\u6d4b\u8bd5\u70b9\u5185\u8f93\u5165\u7684\u6240\u6709\u5b57\u7b26\u4e32\u957f\u5ea6\u4e4b\u548c\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u8f93\u51fa $n$ \u884c\uff0c\u7b2c $i$ \u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u8868\u793a\u7b2c $i$ \u4e2a\u8be2\u95ee\u7684\u7b54\u6848\u3002\n\n\u7279\u522b\u5730\uff0c\u82e5 $m_i$ \u4f5c\u4e3a $s$ \u7684\u5b50\u4e32\u51fa\u73b0\u6b21\u6570\u5c11\u4e8e $k_i$\uff0c\u5728\u7b2c $i$ \u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $-1$\u3002","hint":null,"locale":"zh-CN"},"content":{"name":"Frequency of String","background":"","description":"You are given a string $ s $ . You should answer $ n $ queries. The $ i $ -th query consists of integer $ k_i $ and string $ m_i $ . The answer for this query is the minimum length of such a string $ t $ that $ t $ is a substring of $ s $ and $ m_i $ has at least $ k_i $ occurrences as a substring in $ t $ .\n\nA substring of a string is a continuous segment of characters of the string.\n\nIt is guaranteed that for any two queries the strings $ m_i $ from these queries are different.","formatI":"The first line contains string $ s $ ($1 \\leq \\left | s \\right | \\leq 10^{5}$).\n\nThe second line contains an integer $ n $ ($ 1 \\leq n \\leq 10^5 $).\n\nEach of next $ n $ lines contains an integer $ k_i $ ($1 \\leq k_i \\leq |s|$) and a non-empty string $ m_i $ \u2014 parameters of the query with number $ i $, in this order.\n\nAll strings in input consists of lowercase English letters. Sum of length of all strings in input doesn\u0027t exceed $ 10^5 $. All $ m_i $ are distinct.","formatO":"For each query output the answer for it in a separate line.\n\nIf a string $ m_{i} $ occurs in $ s $ less that $ k_{i} $ times, output $-1$.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["aaaaa\n5\n3 a\n3 aa\n2 aaa\n3 aaaa\n1 aaaaa\n","3\n4\n4\n-1\n5\n"],["abbb\n7\n4 b\n1 ab\n3 bb\n1 abb\n2 bbb\n1 a\n2 abbb\n","-1\n2\n-1\n3\n-1\n1\n-1\n"]],"limits":{"time":[1500],"memory":[512000]},"vjudge":{"id":"963D","link":"https:\/\/codeforces.com\/problemset\/problem\/963\/D"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32  $s \\pod {|S| \\le 10^5}$ \uff0c\u6709  $n \\pod {n \\le 10^5}$  \u4e2a\u8be2\u95ee\uff0c\u7b2c  $i$  \u4e2a\u8be2\u95ee\u5305\u542b\u4e00\u4e2a\u6574\u6570  $k_i$  \u548c\u4e00\u4e2a\u5b57\u7b26\u4e32  $m_i \\pod {\\sum_i |m_i| \\le 10^5}$ \u3002\u8981\u6c42\u627e\u5230\u4e00\u4e2a\u5b57\u7b26\u4e32  $t$ \uff0c\u4f7f\u5f97  $t$  \u662f  $s$  \u7684\u5b50\u4e32\u5e76\u4e14  $m_i$  \u81f3\u5c11\u5728  $t$  \u4e2d\u51fa\u73b0\u4e86  $k_i$  \u6b21\u3002\u4f60\u53ea\u9700\u8981\u6c42\u51fa  $t$  \u7684\u6700\u77ed\u957f\u5ea6\u3002\n\n\u4fdd\u8bc1  $m_i$  \u4e92\u4e0d\u76f8\u540c\u3002\n\n\u611f\u8c22@OrangeLee \u63d0\u4f9b\u7684\u7ffb\u8bd1"},"translations":{"en":{"name":"Frequency of String","background":"","description":"You are given a string $ s $ . You should answer $ n $ queries. The $ i $ -th query consists of integer $ k_i $ and string $ m_i $ . The answer for this query is the minimum length of such a string $ t $ that $ t $ is a substring of $ s $ and $ m_i $ has at least $ k_i $ occurrences as a substring in $ t $ .\n\nA substring of a string is a continuous segment of characters of the string.\n\nIt is guaranteed that for any two queries the strings $ m_i $ from these queries are different.","formatI":"The first line contains string $ s $ ($1 \\leq \\left | s \\right | \\leq 10^{5}$).\n\nThe second line contains an integer $ n $ ($ 1 \\leq n \\leq 10^5 $).\n\nEach of next $ n $ lines contains an integer $ k_i $ ($1 \\leq k_i \\leq |s|$) and a non-empty string $ m_i $ \u2014 parameters of the query with number $ i $, in this order.\n\nAll strings in input consists of lowercase English letters. Sum of length of all strings in input doesn\u0027t exceed $ 10^5 $. All $ m_i $ are distinct.","formatO":"For each query output the answer for it in a separate line.\n\nIf a string $ m_{i} $ occurs in $ s $ less that $ k_{i} $ times, output $-1$.","hint":"","locale":"en"},"zh-CN":{"name":"Frequency of String","background":null,"description":"\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32 $s$\uff0c\u4f60\u8981\u56de\u7b54 $n$ \u4e2a\u95ee\u9898\uff0c\u7b2c $i$ \u4e2a\u8be2\u95ee\u5305\u542b\u4e24\u4e2a\u53c2\u6570\uff0c\u4e00\u4e2a\u6574\u6570 $k_i$ \u548c\u4e00\u4e2a\u5b57\u7b26\u4e32 $m_i$\uff0c\u4f60\u9700\u8981\u56de\u7b54\u4ece $s$ \u4e2d\u9009\u51fa\u4e00\u4e2a\u5b83\u7684\u8fde\u7eed\u5b50\u4e32 $t$ \u4f7f\u5f97 $m_i$ \u4f5c\u4e3a $t$ \u7684\u5b50\u4e32\u51fa\u73b0\u4e86\u81f3\u5c11 $k_i$ \u6b21\uff0c$t$ \u7684\u957f\u5ea6\u7684\u6700\u5c0f\u503c\u3002\n\n\u4fdd\u8bc1\u4e24\u4e2a\u8be2\u95ee\u7684 $m_i$ \u4e0d\u540c\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u5b57\u7b26\u4e32 $s(1\\le \\vert s\\vert\\le 10^5)$\u3002\\\n\u7b2c\u4e8c\u884c\u4e00\u4e2a\u6574\u6570 $n(1\\le n\\le 10^5)$\u3002\\\n\u63a5\u4e0b\u6765 $n$ \u884c\uff0c\u6bcf\u884c\u4e00\u4e2a\u6574\u6570 $k_i(1\\le k_i\\le\\vert s\\vert)$ \u548c\u4e00\u4e2a\u975e\u7a7a\u5b57\u7b26\u4e32 $m_i$\u3002\n\n\u4fdd\u8bc1\u8f93\u5165\u5b57\u7b26\u4e32\u5747\u7531\u5c0f\u5199\u5b57\u6bcd\u7ec4\u6210\u3002\n\n\u4fdd\u8bc1\u5355\u4e2a\u6d4b\u8bd5\u70b9\u5185\u8f93\u5165\u7684\u6240\u6709\u5b57\u7b26\u4e32\u957f\u5ea6\u4e4b\u548c\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u8f93\u51fa $n$ \u884c\uff0c\u7b2c $i$ \u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u8868\u793a\u7b2c $i$ \u4e2a\u8be2\u95ee\u7684\u7b54\u6848\u3002\n\n\u7279\u522b\u5730\uff0c\u82e5 $m_i$ \u4f5c\u4e3a $s$ \u7684\u5b50\u4e32\u51fa\u73b0\u6b21\u6570\u5c11\u4e8e $k_i$\uff0c\u5728\u7b2c $i$ \u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $-1$\u3002","hint":null,"locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF963D Frequency of String","type":2,"slug":"CF963D","color":"orange-3"},"discussions":[{"id":597041,"title":"WA \u7a76\u7adf\u662f\u4eba\u6027\u7684\u6cef\u706d\uff0c\u8fd8\u662f\u4ee3\u7801\u7684\u6ca6\u4e27\uff1f","author":{"uid":651786,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/651786.png","name":"yyc_","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1681529586},{"id":595227,"title":"\u54ed\u4e86","author":{"uid":651786,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/651786.png","name":"yyc_","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1681023808},{"id":447781,"title":"\u5982\u679c RE \u4e86\u5e76\u4e14\u4ee3\u7801\u4e2d\u4f7f\u7528\u4e86 size \u51fd\u6570","author":{"uid":353688,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/353688.png","name":"\u738b\u7199\u6587","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":9,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/uscsnmlg.png"},"time":1655116634},{"id":393654,"title":"\u7403\u5e2e\u5fd9\u5361\u5e38\/\u8bc1\u660e\u6211\u590d\u6742\u5ea6\u5047\u4e86","author":{"uid":121275,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/121275.png","name":"Silviasylvia","slogan":"\u6570\u58f0\u98ce\u7b1b\u79bb\u4ead\u665a\uff0c\u541b\u5411\u6f47\u6e58\u6211\u5411\u79e6\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1640780570},{"id":41618,"title":"\u9898\u76ee\u5927\u610f","author":{"uid":37029,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/37029.png","name":"UnnamedOrange","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":9,"xcpcLevel":0,"background":""},"time":1525349275}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.21833,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF963D Frequency of String","description":"\u7ed9\u4f60\u4e00\u4e2a\u5b57\u7b26\u4e32 s\uff0c\u4f60\u8981\u56de\u7b54 n \u4e2a\u95ee\u9898\uff0c\u7b2c i \u4e2a\u8be2\u95ee\u5305\u542b\u4e24\u4e2a\u53c2\u6570\uff0c\u4e00\u4e2a\u6574\u6570 k_i \u548c\u4e00\u4e2a\u5b57\u7b26\u4e32 m_i\uff0c\u4f60\u9700\u8981\u56de\u7b54\u4ece s \u4e2d\u9009\u51fa\u4e00\u4e2a\u5b83\u7684\u8fde\u7eed\u5b50\u4e32 t \u4f7f\u5f97 m_i \u4f5c\u4e3a t \u7684\u5b50\u4e32\u51fa\u73b0\u4e86\u81f3\u5c11 k_i \u6b21\uff0ct \u7684\u957f\u5ea6\u7684\u6700\u5c0f\u503c\u3002\n\u4fdd\u8bc1\u4e24\u4e2a\u8be2\u95ee\u7684\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF963D" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF963D?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF963D?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF963D Frequency of String" />
+    <meta property="og:description" content="给你一个字符串 s，你要回答 n 个问题，第 i 个询问包含两个参数，一个整数 k_i 和一个字符串 m_i，你需要回答从 s 中选出一个它的连续子串 t 使得 m_i 作为 t 的子串出现了至少 k_i 次，t 的长度的最小值。
+保证两个询问的…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF963D" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF963D Frequency of String</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给你一个字符串 $s$，你要回答 $n$ 个问题，第 $i$ 个询问包含两个参数，一个整数 $k_i$ 和一个字符串 $m_i$，你需要回答从 $s$ 中选出一个它的连续子串 $t$ 使得 $m_i$ 作为 $t$ 的子串出现了至少 $k_i$ 次，$t$ 的长度的最小值。
+
+保证两个询问的 $m_i$ 不同。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个字符串 $s(1\le \vert s\vert\le 10^5)$。\
+第二行一个整数 $n(1\le n\le 10^5)$。\
+接下来 $n$ 行，每行一个整数 $k_i(1\le k_i\le\vert s\vert)$ 和一个非空字符串 $m_i$。
+
+保证输入字符串均由小写字母组成。
+
+保证单个测试点内输入的所有字符串长度之和不超过 $10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出 $n$ 行，第 $i$ 行输出一个整数表示第 $i$ 个询问的答案。
+
+特别地，若 $m_i$ 作为 $s$ 的子串出现次数少于 $k_i$，在第 $i$ 行输出一个整数 $-1$。
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

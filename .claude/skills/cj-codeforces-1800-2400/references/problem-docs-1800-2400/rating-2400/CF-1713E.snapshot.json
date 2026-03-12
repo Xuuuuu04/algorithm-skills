@@ -1,0 +1,38 @@
+{
+  "id": "CF-1713E",
+  "contest_id": 1713,
+  "index": "E",
+  "name": "Cross Swapping",
+  "rating": 2400,
+  "tags": [
+    "2-sat",
+    "data structures",
+    "dsu",
+    "greedy",
+    "matrices"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1713/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1713/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1713/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1713E%20Cross Swapping%20tutorial",
+  "solved_count": 1927,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1713E",
+  "hydro_meta": {
+    "page_title": "Cross Swapping - 题目详情 - Hydro",
+    "hydro_tags": [
+      "2-sat",
+      "dsu",
+      "greedy",
+      "matrices"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

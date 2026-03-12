@@ -1,0 +1,28 @@
+{
+  "id": "CF-735D",
+  "contest_id": 735,
+  "index": "D",
+  "name": "Taxes",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 15550,
+  "problem_url": "https://codeforces.com/problemset/problem/735/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/735/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/735/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=735D%20Taxes%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/735/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 735D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,115 @@
+# CF-81E Pairs
+
+## 题面快照
+
+## Description
+
+There are n students in Polycarp's class (including himself). A few days ago all students wrote an essay "My best friend". Each student's essay was dedicated to one of the students of class, to his/her best friend. Note that student b's best friend is not necessarily student a, if a's best friend is b.
+
+And now the teacher leads the whole class to the museum of the history of sports programming. Exciting stories of legendary heroes await the students: tourist, Petr, tomek, SnapDragon — that's who they will hear about!
+
+The teacher decided to divide students into pairs so that each pair consisted of a student and his best friend. She may not be able to split all the students into pairs, it's not a problem — she wants to pick out the maximum number of such pairs. If there is more than one variant of doing so, she wants to pick out the pairs so that there were as much boy-girl pairs as possible. Of course, each student must not be included in more than one pair.
+
+The first line contains an integer n (2 ≤ n ≤ 105), n is the number of students per class. Next, n lines contain information about the students, one per line. Each line contains two integers fi, si (1 ≤ fi ≤ n, fi ≠ i, 1 ≤ si ≤ 2), where fi is the number of i-th student's best friend and si denotes the i-th pupil's sex (si = 1 for a boy and si = 2 for a girl).
+
+Print on the first line two numbers t, e, where t is the maximum number of formed pairs, and e is the maximum number of boy-girl type pairs among them. Then print t lines, each line must contain a pair ai, bi (1 ≤ ai, bi ≤ n), they are numbers of pupils in the i-th pair. Print the pairs in any order. Print the numbers in pairs in any order. If there are several solutions, output any of them.
+
+## Input
+
+The first line contains an integer n (2 ≤ n ≤ 105), n is the number of students per class. Next, n lines contain information about the students, one per line. Each line contains two integers fi, si (1 ≤ fi ≤ n, fi ≠ i, 1 ≤ si ≤ 2), where fi is the number of i-th student's best friend and si denotes the i-th pupil's sex (si = 1 for a boy and si = 2 for a girl).
+
+## Output
+
+Print on the first line two numbers t, e, where t is the maximum number of formed pairs, and e is the maximum number of boy-girl type pairs among them. Then print t lines, each line must contain a pair ai, bi (1 ≤ ai, bi ≤ n), they are numbers of pupils in the i-th pair. Print the pairs in any order. Print the numbers in pairs in any order. If there are several solutions, output any of them.
+
+## Samples
+
+```
+5
+5 2
+3 2
+5 1
+2 1
+4 2
+
+```
+
+```
+2 2
+5 3
+4 2
+
+```
+
+```
+6
+5 2
+3 2
+5 1
+2 1
+4 2
+3 1
+
+```
+
+```
+3 1
+4 2
+5 1
+3 6
+
+```
+
+```
+8
+2 2
+3 2
+5 1
+3 1
+6 1
+5 1
+8 2
+7 1
+
+```
+
+```
+4 1
+5 6
+3 4
+2 1
+7 8
+
+```
+
+## Note
+
+The picture corresponds to the first sample. On the picture rhomb stand for boys, squares stand for girls, arrows lead from a pupil to his/her best friend. Bold non-dashed arrows stand for pairs in the answer.
+
+## 元信息
+
+| 字段 | 内容 |
+|---|---|
+| 来源 | Codeforces / Hydro 镜像 |
+| 编号 | CF-81E |
+| Contest | 81 |
+| Index | E |
+| Rating | 2700 |
+| Points | 2500.0 |
+| Codeforces 标签 | `dfs and similar`、`dp`、`dsu`、`graphs`、`implementation`、`trees` |
+| 镜像标签 | `dfs and similar`、`dp`、`dsu`、`graphs`、`implementation`、`trees`、`*2700` |
+| Codeforces 通过次数 | 388 |
+| 镜像尝试 / 通过 | 0 / 0 |
+| 时限 | 1000ms |
+| 内存限制 | 256MiB |
+
+## 远端入口
+
+- Codeforces 题面：[problem](https://codeforces.com/problemset/problem/81/E)
+- Codeforces 提交列表：[status](https://codeforces.com/problemset/status/81/problem/E)
+- Hydro 镜像：[mirror](https://hydro.ac/p/codeforces-P81E)
+
+## 本地补充位
+
+这里继续补写解题思路、仓颉实现、边界样例和错题复盘。
+

@@ -1,0 +1,37 @@
+{
+  "id": "CF-2138D",
+  "contest_id": 2138,
+  "index": "D",
+  "name": "Antiamuny and Slider Movement",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "implementation",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 606,
+  "problem_url": "https://codeforces.com/problemset/problem/2138/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2138/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2138/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2138D%20Antiamuny%20and%20Slider%20Movement%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2138D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Antiamuny and Slider Movement - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "512MiB"
+  }
+}

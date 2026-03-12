@@ -1,0 +1,37 @@
+{
+  "id": "CF-1935E",
+  "contest_id": 1935,
+  "index": "E",
+  "name": "Distance Learning Courses in MAC",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "data structures",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 1630,
+  "problem_url": "https://codeforces.com/problemset/problem/1935/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1935/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1935/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1935E%20Distance%20Learning%20Courses%20in%20MAC%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1935E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Distance Learning Courses in MAC - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

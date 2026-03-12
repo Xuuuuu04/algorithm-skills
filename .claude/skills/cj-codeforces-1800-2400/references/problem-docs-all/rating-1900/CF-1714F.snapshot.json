@@ -1,0 +1,33 @@
+{
+  "id": "CF-1714F",
+  "contest_id": 1714,
+  "index": "F",
+  "name": "Build a Tree and That Is It",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 3632,
+  "problem_url": "https://codeforces.com/problemset/problem/1714/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1714/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1714/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1714F%20Build%20a%20Tree%20and%20That%20Is%20It%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1714F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Build a Tree and That Is It - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "implementation",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1622A",
+  "contest_id": 1622,
+  "index": "A",
+  "name": "Construct a Rectangle",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "geometry",
+    "math"
+  ],
+  "solved_count": 31838,
+  "problem_url": "https://codeforces.com/problemset/problem/1622/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1622/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1622/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1622A%20Construct%20a%20Rectangle%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1622A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1622A Construct a Rectangle - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 326,
+    "mirror_attempt": 559,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

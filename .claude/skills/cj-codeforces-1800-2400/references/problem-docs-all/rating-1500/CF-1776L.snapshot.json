@@ -1,0 +1,32 @@
+{
+  "id": "CF-1776L",
+  "contest_id": 1776,
+  "index": "L",
+  "name": "Controllers",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "math"
+  ],
+  "solved_count": 10800,
+  "problem_url": "https://codeforces.com/problemset/problem/1776/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1776/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1776/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1776L%20Controllers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1776L",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Controllers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "math",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

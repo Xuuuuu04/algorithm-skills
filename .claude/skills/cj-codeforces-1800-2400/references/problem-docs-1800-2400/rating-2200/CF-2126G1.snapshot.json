@@ -1,0 +1,41 @@
+{
+  "id": "CF-2126G1",
+  "contest_id": 2126,
+  "index": "G1",
+  "name": "Big Wins! (easy version)",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "dsu",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2126/G1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2126/problem/G1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2126/problem/G1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2126G1%20Big Wins! (easy version)%20tutorial",
+  "solved_count": 2400,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2126G1",
+  "hydro_meta": {
+    "page_title": "Big Wins! (easy version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "dsu",
+      "two pointers",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

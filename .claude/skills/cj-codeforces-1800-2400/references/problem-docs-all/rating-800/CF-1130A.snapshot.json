@@ -1,0 +1,27 @@
+{
+  "id": "CF-1130A",
+  "contest_id": 1130,
+  "index": "A",
+  "name": "Be Positive",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 12176,
+  "problem_url": "https://codeforces.com/problemset/problem/1130/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1130/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1130/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1130A%20Be%20Positive%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1130A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1130A Be Positive - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 117,
+    "mirror_attempt": 285,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-248D",
+  "contest_id": 248,
+  "index": "D",
+  "name": "Sweets for Everyone!",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 527,
+  "problem_url": "https://codeforces.com/problemset/problem/248/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/248/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/248/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=248D%20Sweets%20for%20Everyone%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P248D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sweets for Everyone! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "*2300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

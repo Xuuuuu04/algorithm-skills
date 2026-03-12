@@ -1,0 +1,32 @@
+{
+  "id": "CF-952B",
+  "contest_id": 952,
+  "index": "B",
+  "name": "A Map of the Cat",
+  "rating": 1900,
+  "tags": [
+    "*special",
+    "brute force",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/952/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/952/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/952/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=952B%20A Map of the Cat%20tutorial",
+  "solved_count": 2109,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P952B",
+  "hydro_meta": {
+    "page_title": "A Map of the Cat - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "interactive",
+      "*1900"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

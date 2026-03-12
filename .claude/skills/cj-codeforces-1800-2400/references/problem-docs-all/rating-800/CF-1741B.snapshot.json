@@ -1,0 +1,31 @@
+{
+  "id": "CF-1741B",
+  "contest_id": 1741,
+  "index": "B",
+  "name": "Funny Permutation",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 26700,
+  "problem_url": "https://codeforces.com/problemset/problem/1741/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1741/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1741/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1741B%20Funny%20Permutation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1741B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Funny Permutation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math"
+    ],
+    "mirror_accepted": 3,
+    "mirror_attempt": 3,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CF-1272F",
+  "contest_id": 1272,
+  "index": "F",
+  "name": "Two Bracket Sequences",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 2297,
+  "problem_url": "https://codeforces.com/problemset/problem/1272/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1272/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1272/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1272F%20Two%20Bracket%20Sequences%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1272F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Bracket Sequences - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "strings",
+      "two pointers",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

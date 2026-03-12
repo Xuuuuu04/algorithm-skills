@@ -1,0 +1,29 @@
+{
+  "id": "CF-656D",
+  "contest_id": 656,
+  "index": "D",
+  "name": "Rosetta Problem",
+  "rating": 2100,
+  "tags": [
+    "*special"
+  ],
+  "url": "https://codeforces.com/problemset/problem/656/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/656/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/656/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=656D%20Rosetta Problem%20tutorial",
+  "solved_count": 988,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P656D",
+  "hydro_meta": {
+    "page_title": "Rosetta Problem - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "*2100"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-981B",
+  "contest_id": 981,
+  "index": "B",
+  "name": "Businessmen Problems",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "sortings"
+  ],
+  "solved_count": 7905,
+  "problem_url": "https://codeforces.com/problemset/problem/981/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/981/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/981/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=981B%20Businessmen%20Problems%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P981B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Businessmen Problems - 题目详情 - Hydro",
+    "mirror_tags": [
+      "sortings",
+      "*1000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

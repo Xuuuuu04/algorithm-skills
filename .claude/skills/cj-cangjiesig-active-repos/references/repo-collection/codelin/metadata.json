@@ -1,0 +1,14 @@
+{
+  "name": "codelin",
+  "full_name": "cangjielanguage-sig/codelin",
+  "html_url": "https://github.com/cangjielanguage-sig/codelin",
+  "description": "",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "main",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/codelin/main/cjpm.toml"
+}

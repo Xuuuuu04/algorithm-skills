@@ -1,0 +1,29 @@
+{
+  "id": "CF-115A",
+  "contest_id": 115,
+  "index": "A",
+  "name": "Party",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 42163,
+  "problem_url": "https://codeforces.com/problemset/problem/115/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/115/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/115/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=115A%20Party%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/115/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 115A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

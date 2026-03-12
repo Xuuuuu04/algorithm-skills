@@ -1,0 +1,29 @@
+{
+  "id": "CF-2194D",
+  "contest_id": 2194,
+  "index": "D",
+  "name": "Table Cut",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 6762,
+  "problem_url": "https://codeforces.com/problemset/problem/2194/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2194/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2194/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2194D%20Table%20Cut%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2194D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2194D Table Cut - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

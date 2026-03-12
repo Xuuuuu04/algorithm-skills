@@ -1,0 +1,31 @@
+{
+  "id": "CF-292E",
+  "contest_id": 292,
+  "index": "E",
+  "name": "Copying Data",
+  "rating": 1900,
+  "tags": [
+    "data structures"
+  ],
+  "url": "https://codeforces.com/problemset/problem/292/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/292/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/292/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=292E%20Copying Data%20tutorial",
+  "solved_count": 4809,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P292E",
+  "hydro_meta": {
+    "page_title": "Copying Data - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "*1900"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 8,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

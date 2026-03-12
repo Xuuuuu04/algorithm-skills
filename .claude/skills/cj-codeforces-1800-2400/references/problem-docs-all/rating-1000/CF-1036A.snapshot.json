@@ -1,0 +1,27 @@
+{
+  "id": "CF-1036A",
+  "contest_id": 1036,
+  "index": "A",
+  "name": "Function Height",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 10550,
+  "problem_url": "https://codeforces.com/problemset/problem/1036/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1036/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1036/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1036A%20Function%20Height%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1036A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1036A Function Height - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 131,
+    "mirror_attempt": 208,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

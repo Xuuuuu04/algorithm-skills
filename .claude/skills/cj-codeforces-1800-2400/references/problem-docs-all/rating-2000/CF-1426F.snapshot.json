@@ -1,0 +1,29 @@
+{
+  "id": "CF-1426F",
+  "contest_id": 1426,
+  "index": "F",
+  "name": "Number of Subsequences",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "strings"
+  ],
+  "solved_count": 6086,
+  "problem_url": "https://codeforces.com/problemset/problem/1426/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1426/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1426/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1426F%20Number%20of%20Subsequences%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1426F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1426F Number of Subsequences - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 394,
+    "mirror_attempt": 711,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

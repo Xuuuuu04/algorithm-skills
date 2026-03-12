@@ -1,0 +1,36 @@
+{
+  "id": "CF-435D",
+  "contest_id": 435,
+  "index": "D",
+  "name": "Special Grid",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/435/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/435/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/435/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=435D%20Special Grid%20tutorial",
+  "solved_count": 781,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P435D",
+  "hydro_meta": {
+    "page_title": "Special Grid - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

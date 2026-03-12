@@ -1,0 +1,30 @@
+{
+  "id": "CF-1338E",
+  "contest_id": 1338,
+  "index": "E",
+  "name": "JYPnation",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "graphs"
+  ],
+  "solved_count": 385,
+  "problem_url": "https://codeforces.com/problemset/problem/1338/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1338/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1338/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1338E%20JYPnation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1338E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "JYPnation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graphs",
+      "*3500"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 6,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

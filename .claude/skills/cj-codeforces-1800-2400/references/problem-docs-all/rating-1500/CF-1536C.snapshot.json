@@ -1,0 +1,30 @@
+{
+  "id": "CF-1536C",
+  "contest_id": 1536,
+  "index": "C",
+  "name": "Diluc and Kaeya",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "hashing",
+    "number theory"
+  ],
+  "solved_count": 15911,
+  "problem_url": "https://codeforces.com/problemset/problem/1536/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1536/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1536/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1536C%20Diluc%20and%20Kaeya%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1536C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1536C Diluc and Kaeya - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 275,
+    "mirror_attempt": 450,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

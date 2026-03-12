@@ -1,0 +1,36 @@
+{
+  "id": "CF-768C",
+  "contest_id": 768,
+  "index": "C",
+  "name": "Jon Snow and his Favourite Number",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 3960,
+  "problem_url": "https://codeforces.com/problemset/problem/768/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/768/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/768/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=768C%20Jon%20Snow%20and%20his%20Favourite%20Number%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P768C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Jon Snow and his Favourite Number - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "sortings",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

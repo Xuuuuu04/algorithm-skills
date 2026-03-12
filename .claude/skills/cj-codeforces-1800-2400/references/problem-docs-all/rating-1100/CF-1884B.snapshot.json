@@ -1,0 +1,35 @@
+{
+  "id": "CF-1884B",
+  "contest_id": 1884,
+  "index": "B",
+  "name": "Haunted House",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "greedy",
+    "math",
+    "two pointers"
+  ],
+  "solved_count": 14459,
+  "problem_url": "https://codeforces.com/problemset/problem/1884/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1884/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1884/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1884B%20Haunted%20House%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1884B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Haunted House - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF23C Oranges and Apples - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF23C","type":"CF","title":"Oranges and Apples","difficulty":5,"tags":[],"wantsTranslation":false,"totalSubmit":999,"totalAccepted":294,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Oranges and Apples","background":null,"description":"\u5df2\u77e5\u6709 $2N-1$ \u4e2a\u7bb1\u5b50\uff0c\u6bcf\u4e2a\u7bb1\u5b50\u91cc\u6709\u4e00\u4e9b\u82f9\u679c\u548c\u6a58\u5b50\u3002\u4f60\u7684\u4efb\u52a1\u662f\u4ece\u4e2d\u9009\u62e9 $N$ \u4e2a\u7bb1\u5b50\u4f7f\u5f97\u8fd9 $N$ \u4e2a\u7bb1\u5b50\u4e2d\u7684\u82f9\u679c\u6570\u76ee\u4e0d\u5c0f\u4e8e\u6240\u6709\u7bb1\u5b50\u91cc\u82f9\u679c\u603b\u6570\u7684\u4e00\u534a\uff0c\u8fd9 $N$ \u4e2a\u7bb1\u5b50\u4e2d\u7684\u6a58\u5b50\u6570\u76ee\u4e5f\u4e0d\u5c0f\u4e8e\u6240\u6709\u7bb1\u5b50\u91cc\u6a58\u5b50\u603b\u6570\u7684\u4e00\u534a\u3002","formatI":"\u591a\u6d4b\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\uff0c\u5148\u8f93\u5165\u4e00\u4e2a\u6574\u6570 $N$\uff0c\u542b\u4e49\u89c1\u9898\u9762\u3002\n\n\u63a5\u4e0b\u6765\u7684 $2N-1$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6b63\u6574\u6570 $a_i,o_i$ \u8868\u793a\u82f9\u679c\u548c\u6a58\u5b50\u5728\u8fd9\u4e2a\u7bb1\u5b50\u91cc\u9762\u7684\u4e2a\u6570\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u5982\u679c\u53ef\u4ee5\u9009\u51fa $n$ \u4e2a\u7bb1\u5b50\uff0c\u5219\u8f93\u51fa `YES`\uff0c\u5426\u5219\u8f93\u51fa `NO`\u3002\n\n\u5982\u679c\u53ef\u4ee5\u9009\u51fa $n$ \u4e2a\u7bb1\u5b50\uff0c\u5219\u5728\u7b2c\u4e8c\u884c\u4ece\u5c0f\u5230\u5927\u8f93\u51fa\u4f60\u6240\u9009\u7684 $n$ \u4e2a\u7bb1\u5b50\u7684\u7f16\u53f7\uff08\u7bb1\u5b50\u7f16\u53f7\u4ece $1$ \u5f00\u59cb\uff09\uff0c\u5426\u5219\u76f4\u63a5\u8fdb\u5165\u4e0b\u4e00\u7ec4\u7684\u6570\u636e\u7684\u8f93\u51fa\u3002","hint":"$1 \\leq \\sum n \\leq 10^5$\uff0c$0 \\leq a_i,o_i \\leq 10^9$\u3002\n\nTranslated by \u7a00\u795e\u63a2\u5973\n\nDeveloped by luogu_gza","locale":"zh-CN"},"content":{"name":"Oranges and Apples","background":"","description":"In $ 2N-1 $ boxes there are apples and oranges. Your task is to choose $ N $ boxes so, that they will contain not less than half of all the apples and not less than half of all the oranges.","formatI":"The first input line contains one number $ T $ \u2014 amount of tests. The description of each test starts with a natural number $ N $ \u2014 amount of boxes. Each of the following $ 2N-1 $ lines contains numbers $ a_{i} $ and $ o_{i} $ \u2014 amount of apples and oranges in the $ i $ -th box ( $ 0\u003C=a_{i},o_{i}\u003C=10^{9} $ ). The sum of $ N $ in all the tests in the input doesn\u0027t exceed $ 10^{5} $ . All the input numbers are integer.","formatO":"For each test output two lines. In the first line output YES, if it\u0027s possible to choose $ N $ boxes, or NO otherwise. If the answer is positive output in the second line $ N $ numbers \u2014 indexes of the chosen boxes. Boxes are numbered from 1 in the input order. Otherwise leave the second line empty. Separate the numbers with one space.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n2\n10 15\n5 7\n20 18\n1\n0 0\n","YES\n1 3\nYES\n1\n"]],"limits":{"time":[1500],"memory":[256000]},"vjudge":{"id":"23C","link":"https:\/\/codeforces.com\/problemset\/problem\/23\/C"},"translation":"\u5df2\u77e5\u6709 $2N-1$ \u4e2a\u7bb1\u5b50\uff0c\u6bcf\u4e2a\u7bb1\u5b50\u91cc\u6709\u4e00\u4e9b\u82f9\u679c\u548c\u6a58\u5b50\u3002\u4f60\u7684\u4efb\u52a1\u662f\u4ece\u4e2d\u9009\u62e9 $N$ \u4e2a\u7bb1\u5b50\u4f7f\u5f97\u8fd9 $N$ \u4e2a\u7bb1\u5b50\u4e2d\u7684\u82f9\u679c\u6570\u76ee\u4e0d\u5c0f\u4e8e\u6240\u6709\u7bb1\u5b50\u91cc\u82f9\u679c\u603b\u6570\u7684\u4e00\u534a\uff0c\u8fd9 $N$ \u4e2a\u7bb1\u5b50\u4e2d\u7684\u6a58\u5b50\u6570\u76ee\u4e5f\u4e0d\u5c0f\u4e8e\u6240\u6709\u7bb1\u5b50\u91cc\u6a58\u5b50\u603b\u6570\u7684\u4e00\u534a\u3002\n\n\u8f93\u5165\u683c\u5f0f\uff1a\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\uff0c\u4e4b\u540e\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\u5148\u6709\u4e00\u4e2a\u6574\u6570 $N$\uff0c\u540e $2N-1$ \u884c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570\u4ee3\u8868\u8be5\u7bb1\u5b50\u4e2d\u82f9\u679c\u548c\u6a58\u5b50\u7684\u6570\u91cf\u3002\n\n\u8f93\u51fa\u683c\u5f0f\uff1a\u5bf9\u4e8e\u6bcf\u7ec4\u6570\u636e\uff0c\u82e5\u4e0d\u5b58\u5728\u5408\u6cd5\u65b9\u6848\u5219\u8f93\u51fa `NO`\uff0c\u5426\u5219\u8f93\u51fa `YES`\uff0c\u5e76\u5728\u4e0b\u9762\u7684 $N$ \u884c\u8f93\u51fa\u9009\u62e9\u7bb1\u5b50\u7684\u7f16\u53f7\uff08\u7f16\u53f7\u4ece $1$ \u5f00\u59cb\uff09\n\nTranslated by \u7a00\u795e\u63a2\u5973"},"translations":{"en":{"name":"Oranges and Apples","background":"","description":"In $ 2N-1 $ boxes there are apples and oranges. Your task is to choose $ N $ boxes so, that they will contain not less than half of all the apples and not less than half of all the oranges.","formatI":"The first input line contains one number $ T $ \u2014 amount of tests. The description of each test starts with a natural number $ N $ \u2014 amount of boxes. Each of the following $ 2N-1 $ lines contains numbers $ a_{i} $ and $ o_{i} $ \u2014 amount of apples and oranges in the $ i $ -th box ( $ 0\u003C=a_{i},o_{i}\u003C=10^{9} $ ). The sum of $ N $ in all the tests in the input doesn\u0027t exceed $ 10^{5} $ . All the input numbers are integer.","formatO":"For each test output two lines. In the first line output YES, if it\u0027s possible to choose $ N $ boxes, or NO otherwise. If the answer is positive output in the second line $ N $ numbers \u2014 indexes of the chosen boxes. Boxes are numbered from 1 in the input order. Otherwise leave the second line empty. Separate the numbers with one space.","hint":"","locale":"en"},"zh-CN":{"name":"Oranges and Apples","background":null,"description":"\u5df2\u77e5\u6709 $2N-1$ \u4e2a\u7bb1\u5b50\uff0c\u6bcf\u4e2a\u7bb1\u5b50\u91cc\u6709\u4e00\u4e9b\u82f9\u679c\u548c\u6a58\u5b50\u3002\u4f60\u7684\u4efb\u52a1\u662f\u4ece\u4e2d\u9009\u62e9 $N$ \u4e2a\u7bb1\u5b50\u4f7f\u5f97\u8fd9 $N$ \u4e2a\u7bb1\u5b50\u4e2d\u7684\u82f9\u679c\u6570\u76ee\u4e0d\u5c0f\u4e8e\u6240\u6709\u7bb1\u5b50\u91cc\u82f9\u679c\u603b\u6570\u7684\u4e00\u534a\uff0c\u8fd9 $N$ \u4e2a\u7bb1\u5b50\u4e2d\u7684\u6a58\u5b50\u6570\u76ee\u4e5f\u4e0d\u5c0f\u4e8e\u6240\u6709\u7bb1\u5b50\u91cc\u6a58\u5b50\u603b\u6570\u7684\u4e00\u534a\u3002","formatI":"\u591a\u6d4b\u3002\n\n\u5bf9\u4e8e\u6bcf\u4e00\u7ec4\u6570\u636e\uff0c\u5148\u8f93\u5165\u4e00\u4e2a\u6574\u6570 $N$\uff0c\u542b\u4e49\u89c1\u9898\u9762\u3002\n\n\u63a5\u4e0b\u6765\u7684 $2N-1$ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6b63\u6574\u6570 $a_i,o_i$ \u8868\u793a\u82f9\u679c\u548c\u6a58\u5b50\u5728\u8fd9\u4e2a\u7bb1\u5b50\u91cc\u9762\u7684\u4e2a\u6570\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u5b57\u7b26\u4e32\uff0c\u5982\u679c\u53ef\u4ee5\u9009\u51fa $n$ \u4e2a\u7bb1\u5b50\uff0c\u5219\u8f93\u51fa `YES`\uff0c\u5426\u5219\u8f93\u51fa `NO`\u3002\n\n\u5982\u679c\u53ef\u4ee5\u9009\u51fa $n$ \u4e2a\u7bb1\u5b50\uff0c\u5219\u5728\u7b2c\u4e8c\u884c\u4ece\u5c0f\u5230\u5927\u8f93\u51fa\u4f60\u6240\u9009\u7684 $n$ \u4e2a\u7bb1\u5b50\u7684\u7f16\u53f7\uff08\u7bb1\u5b50\u7f16\u53f7\u4ece $1$ \u5f00\u59cb\uff09\uff0c\u5426\u5219\u76f4\u63a5\u8fdb\u5165\u4e0b\u4e00\u7ec4\u7684\u6570\u636e\u7684\u8f93\u51fa\u3002","hint":"$1 \\leq \\sum n \\leq 10^5$\uff0c$0 \\leq a_i,o_i \\leq 10^9$\u3002\n\nTranslated by \u7a00\u795e\u63a2\u5973\n\nDeveloped by luogu_gza","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF23C Oranges and Apples","type":2,"slug":"CF23C","color":"orange-3"},"discussions":[{"id":787347,"title":"\u968f\u673a\u5316\u6c42\u8c031\u5173","author":{"uid":578029,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/578029.png","name":"ivyjiao","slogan":"\u9000\u5f79","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/vrh6wtrk.png"},"time":1709641561},{"id":773767,"title":"\u8fd9\u600e\u4e48\u8d85\u65f6\u7684\/jk\/jk\/jk","author":{"uid":482610,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/482610.png","name":"Tiat_Siba_Ignareo","slogan":"\u50bb\u903c recollect \u51fa\u9898\u4eba\uff0c\u7b49\u7740\u548c\u6211\u5730\u72f1\u76f8\u89c1\u5427\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/39tpe2ei.png"},"time":1707230153},{"id":755611,"title":"\u9274\u5b9a\u4e3a\u5783\u573e\u7ffb\u8bd1","author":{"uid":482610,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/482610.png","name":"Tiat_Siba_Ignareo","slogan":"\u50bb\u903c recollect \u51fa\u9898\u4eba\uff0c\u7b49\u7740\u548c\u6211\u5730\u72f1\u76f8\u89c1\u5427\u3002","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/39tpe2ei.png"},"time":1704367015},{"id":674671,"title":"\u871c\u6c41 $\\purple{RuntimeError}$","author":{"uid":658786,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/658786.png","name":"STUDENT00","slogan":"\u6709\u8d70\u8fc7\u8bb8\u591a\u8def\u7684\u4eba\uff0c\u4e5f\u6709\u8d70\u8fc7\u8bb8\u591a\u4eba\u7684\u8def\u3002\u7136\u800c\u8fd9\u4e8c\u8005\uff0c\u7ec8\u7a76\u662f\u65e0\u6cd5\u6bd4\u62df\u7684\u3002 || \u8d76\u8d81\u98ce\u534e\u6b63\u8302\uff0c\u4e00\u5c55\u9752\u6625\u667a\u8c6a\uff0c\u83ab\u5f85\u5c81\u6708\u5df2\u8001\uff0c\u65b9\u6068\u4eba\u751f\u6f66\u8349\uff01 || \u9893\u9633\u6563\u6492\u5929\u98d8\u96e8\uff0c\u4e2d\u95f4\u591a\u5c11Oler\u6cea\u3002 || \u5bc4\uff01\u6211\u662f\u5927\u611a\u82e5\u667a\u8005\uff01","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/z4mxcc88.png"},"time":1693217017},{"id":161679,"title":"\u7ed9\u7684\u6837\u4f8b\u6709\u95ee\u9898\u5427\u3002\u3002\u3002\u3002","author":{"uid":126772,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/126772.png","name":"\u53f6\u67ab","slogan":"\u6211\u7684cnblogs\u4e5f\u8981\u6765\u770b\u54e6","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/8312hyih.png"},"time":1572508832},{"id":32540,"title":"\u3010\u7b2c\u4e09\u5341\u4e8c\u7bc7\u3011\u7ffb\u8bd1","author":{"uid":85216,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/85216.png","name":"\u7a00\u795e\u63a2\u5973","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1517455301}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.564965,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF23C Oranges and Apples","description":"\u5df2\u77e5\u6709 2N-1 \u4e2a\u7bb1\u5b50\uff0c\u6bcf\u4e2a\u7bb1\u5b50\u91cc\u6709\u4e00\u4e9b\u82f9\u679c\u548c\u6a58\u5b50\u3002\u4f60\u7684\u4efb\u52a1\u662f\u4ece\u4e2d\u9009\u62e9 N \u4e2a\u7bb1\u5b50\u4f7f\u5f97\u8fd9 N \u4e2a\u7bb1\u5b50\u4e2d\u7684\u82f9\u679c\u6570\u76ee\u4e0d\u5c0f\u4e8e\u6240\u6709\u7bb1\u5b50\u91cc\u82f9\u679c\u603b\u6570\u7684\u4e00\u534a\uff0c\u8fd9 N \u4e2a\u7bb1\u5b50\u4e2d\u7684\u6a58\u5b50\u6570\u76ee\u4e5f\u4e0d\u5c0f\u4e8e\u6240\u6709\u7bb1\u5b50\u91cc\u6a58\u5b50\u603b\u6570\u7684\u4e00\u534a\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF23C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF23C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF23C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF23C Oranges and Apples" />
+    <meta property="og:description" content="已知有 2N-1 个箱子，每个箱子里有一些苹果和橘子。你的任务是从中选择 N 个箱子使得这 N 个箱子中的苹果数目不小于所有箱子里苹果总数的一半，这 N 个箱子中的橘子数目也不小于所有箱子里橘子总数的一半。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF23C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF23C Oranges and Apples</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    已知有 $2N-1$ 个箱子，每个箱子里有一些苹果和橘子。你的任务是从中选择 $N$ 个箱子使得这 $N$ 个箱子中的苹果数目不小于所有箱子里苹果总数的一半，这 $N$ 个箱子中的橘子数目也不小于所有箱子里橘子总数的一半。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    多测。
+
+对于每一组数据，先输入一个整数 $N$，含义见题面。
+
+接下来的 $2N-1$ 行，每行两个正整数 $a_i,o_i$ 表示苹果和橘子在这个箱子里面的个数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    第一行输出一个字符串，如果可以选出 $n$ 个箱子，则输出 `YES`，否则输出 `NO`。
+
+如果可以选出 $n$ 个箱子，则在第二行从小到大输出你所选的 $n$ 个箱子的编号（箱子编号从 $1$ 开始），否则直接进入下一组的数据的输出。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                $1 \leq \sum n \leq 10^5$，$0 \leq a_i,o_i \leq 10^9$。
+
+Translated by 稀神探女
+
+Developed by luogu_gza
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

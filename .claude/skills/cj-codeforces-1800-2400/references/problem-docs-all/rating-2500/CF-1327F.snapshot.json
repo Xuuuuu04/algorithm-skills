@@ -1,0 +1,38 @@
+{
+  "id": "CF-1327F",
+  "contest_id": 1327,
+  "index": "F",
+  "name": "AND Segments",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "data structures",
+    "dp",
+    "two pointers"
+  ],
+  "solved_count": 1992,
+  "problem_url": "https://codeforces.com/problemset/problem/1327/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1327/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1327/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1327F%20AND%20Segments%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1327F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "AND Segments - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "combinatorics",
+      "data structures",
+      "dp",
+      "two pointers",
+      "*2500"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

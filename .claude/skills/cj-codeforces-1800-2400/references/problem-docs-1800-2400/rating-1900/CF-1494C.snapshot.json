@@ -1,0 +1,41 @@
+{
+  "id": "CF-1494C",
+  "contest_id": 1494,
+  "index": "C",
+  "name": "1D Sokoban",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy",
+    "implementation",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1494/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1494/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1494/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1494C%201D Sokoban%20tutorial",
+  "solved_count": 5704,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1494C",
+  "hydro_meta": {
+    "page_title": "1D Sokoban - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

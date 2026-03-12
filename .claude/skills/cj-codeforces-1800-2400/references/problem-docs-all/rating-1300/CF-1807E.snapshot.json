@@ -1,0 +1,29 @@
+{
+  "id": "CF-1807E",
+  "contest_id": 1807,
+  "index": "E",
+  "name": "Interview",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "implementation",
+    "interactive"
+  ],
+  "solved_count": 16333,
+  "problem_url": "https://codeforces.com/problemset/problem/1807/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1807/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1807/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1807E%20Interview%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1807E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1807E Interview - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 203,
+    "mirror_attempt": 598,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

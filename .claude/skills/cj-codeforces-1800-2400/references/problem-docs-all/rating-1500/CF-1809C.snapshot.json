@@ -1,0 +1,29 @@
+{
+  "id": "CF-1809C",
+  "contest_id": 1809,
+  "index": "C",
+  "name": "Sum on Subarrays",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 15006,
+  "problem_url": "https://codeforces.com/problemset/problem/1809/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1809/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1809/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1809C%20Sum%20on%20Subarrays%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1809/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1809C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

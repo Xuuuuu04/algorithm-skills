@@ -1,0 +1,31 @@
+{
+  "id": "CF-1698A",
+  "contest_id": 1698,
+  "index": "A",
+  "name": "XOR Mixup",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "bitmasks",
+    "brute force"
+  ],
+  "solved_count": 32563,
+  "problem_url": "https://codeforces.com/problemset/problem/1698/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1698/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1698/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1698A%20XOR%20Mixup%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1698A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "XOR Mixup - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

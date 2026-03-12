@@ -1,0 +1,29 @@
+{
+  "id": "CF-2176A",
+  "contest_id": 2176,
+  "index": "A",
+  "name": "Operations with Inversions",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 28146,
+  "problem_url": "https://codeforces.com/problemset/problem/2176/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2176/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2176/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2176A%20Operations%20with%20Inversions%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2176A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2176A Operations with Inversions - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

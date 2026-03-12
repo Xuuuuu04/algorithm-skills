@@ -1,0 +1,34 @@
+{
+  "id": "CF-1202F",
+  "contest_id": 1202,
+  "index": "F",
+  "name": "You Are Given Some Letters...",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 533,
+  "problem_url": "https://codeforces.com/problemset/problem/1202/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1202/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1202/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1202F%20You%20Are%20Given%20Some%20Letters...%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1202F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "You Are Given Some Letters... - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "implementation",
+      "math",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

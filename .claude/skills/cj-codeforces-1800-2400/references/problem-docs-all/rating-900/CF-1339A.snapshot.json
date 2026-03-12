@@ -1,0 +1,30 @@
+{
+  "id": "CF-1339A",
+  "contest_id": 1339,
+  "index": "A",
+  "name": "Filling Diamonds",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 33994,
+  "problem_url": "https://codeforces.com/problemset/problem/1339/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1339/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1339/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1339A%20Filling%20Diamonds%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1339A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1339A Filling Diamonds - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 287,
+    "mirror_attempt": 438,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

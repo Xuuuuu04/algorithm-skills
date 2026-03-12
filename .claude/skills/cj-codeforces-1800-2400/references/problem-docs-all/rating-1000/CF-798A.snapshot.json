@@ -1,0 +1,29 @@
+{
+  "id": "CF-798A",
+  "contest_id": 798,
+  "index": "A",
+  "name": "Mike and palindrome",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "strings"
+  ],
+  "solved_count": 23641,
+  "problem_url": "https://codeforces.com/problemset/problem/798/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/798/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/798/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=798A%20Mike%20and%20palindrome%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/798/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 798A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

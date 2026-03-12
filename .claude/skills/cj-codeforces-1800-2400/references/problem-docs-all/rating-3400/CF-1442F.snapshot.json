@@ -1,0 +1,32 @@
+{
+  "id": "CF-1442F",
+  "contest_id": 1442,
+  "index": "F",
+  "name": "Differentiating Games",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "games",
+    "interactive"
+  ],
+  "solved_count": 166,
+  "problem_url": "https://codeforces.com/problemset/problem/1442/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1442/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1442/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1442F%20Differentiating%20Games%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1442F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Differentiating Games - 题目详情 - Hydro",
+    "mirror_tags": [
+      "games",
+      "interactive",
+      "*3400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

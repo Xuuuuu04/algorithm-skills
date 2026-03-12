@@ -1,0 +1,28 @@
+{
+  "id": "CF-469A",
+  "contest_id": 469,
+  "index": "A",
+  "name": "I Wanna Be the Guy",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 118747,
+  "problem_url": "https://codeforces.com/problemset/problem/469/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/469/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/469/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=469A%20I%20Wanna%20Be%20the%20Guy%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF469A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF469A I Wanna Be the Guy - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 353,
+    "mirror_attempt": 800,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

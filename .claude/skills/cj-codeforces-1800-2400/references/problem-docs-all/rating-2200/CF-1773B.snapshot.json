@@ -1,0 +1,39 @@
+{
+  "id": "CF-1773B",
+  "contest_id": 1773,
+  "index": "B",
+  "name": "BinCoin",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "divide and conquer",
+    "hashing",
+    "implementation",
+    "probabilities",
+    "trees"
+  ],
+  "solved_count": 943,
+  "problem_url": "https://codeforces.com/problemset/problem/1773/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1773/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1773/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1773B%20BinCoin%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1773B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "BinCoin - 题目详情 - Hydro",
+    "mirror_tags": [
+      "divide and conquer",
+      "hashing",
+      "implementation",
+      "probabilities",
+      "trees",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "1024MiB"
+  }
+}

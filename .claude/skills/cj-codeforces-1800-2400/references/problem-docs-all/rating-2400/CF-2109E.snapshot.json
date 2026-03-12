@@ -1,0 +1,33 @@
+{
+  "id": "CF-2109E",
+  "contest_id": 2109,
+  "index": "E",
+  "name": "Binary String Wowee",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "strings"
+  ],
+  "solved_count": 1718,
+  "problem_url": "https://codeforces.com/problemset/problem/2109/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/2109/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2109/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2109E%20Binary%20String%20Wowee%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2109E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Binary String Wowee - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

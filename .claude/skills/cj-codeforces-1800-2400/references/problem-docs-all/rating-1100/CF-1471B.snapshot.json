@@ -1,0 +1,30 @@
+{
+  "id": "CF-1471B",
+  "contest_id": 1471,
+  "index": "B",
+  "name": "Strange List",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 19874,
+  "problem_url": "https://codeforces.com/problemset/problem/1471/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1471/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1471/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1471B%20Strange%20List%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1471/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1471B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-2134B",
+  "contest_id": 2134,
+  "index": "B",
+  "name": "Add 0 or K",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 20224,
+  "problem_url": "https://codeforces.com/problemset/problem/2134/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2134/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2134/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2134B%20Add%200%20or%20K%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2134/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2134B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1.5 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

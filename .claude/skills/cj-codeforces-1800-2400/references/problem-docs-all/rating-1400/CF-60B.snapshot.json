@@ -1,0 +1,32 @@
+{
+  "id": "CF-60B",
+  "contest_id": 60,
+  "index": "B",
+  "name": "Serial Time!",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dfs and similar",
+    "dsu"
+  ],
+  "solved_count": 5228,
+  "problem_url": "https://codeforces.com/problemset/problem/60/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/60/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/60/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=60B%20Serial%20Time%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P60B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Serial Time! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "dsu",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

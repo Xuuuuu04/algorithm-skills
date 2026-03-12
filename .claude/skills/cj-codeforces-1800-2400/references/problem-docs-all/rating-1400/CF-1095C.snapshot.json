@@ -1,0 +1,28 @@
+{
+  "id": "CF-1095C",
+  "contest_id": 1095,
+  "index": "C",
+  "name": "Powers Of Two",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "greedy"
+  ],
+  "solved_count": 19398,
+  "problem_url": "https://codeforces.com/problemset/problem/1095/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1095/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1095/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1095C%20Powers%20Of%20Two%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1095/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1095C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

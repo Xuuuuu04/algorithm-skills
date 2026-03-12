@@ -1,0 +1,29 @@
+{
+  "id": "CF-1870A",
+  "contest_id": 1870,
+  "index": "A",
+  "name": "MEXanized Array",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 20141,
+  "problem_url": "https://codeforces.com/problemset/problem/1870/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1870/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1870/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1870A%20MEXanized%20Array%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1870A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1870A MEXanized Array - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 179,
+    "mirror_attempt": 312,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

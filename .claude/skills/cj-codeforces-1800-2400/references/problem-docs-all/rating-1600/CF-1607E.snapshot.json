@@ -1,0 +1,27 @@
+{
+  "id": "CF-1607E",
+  "contest_id": 1607,
+  "index": "E",
+  "name": "Robot on the Board 1",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 9975,
+  "problem_url": "https://codeforces.com/problemset/problem/1607/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1607/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1607/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1607E%20Robot%20on%20the%20Board%201%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1607/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1607E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

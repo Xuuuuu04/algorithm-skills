@@ -1,0 +1,34 @@
+{
+  "id": "CF-24D",
+  "contest_id": 24,
+  "index": "D",
+  "name": "Broken robot",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 2598,
+  "problem_url": "https://codeforces.com/problemset/problem/24/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/24/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/24/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=24D%20Broken%20robot%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P24D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Broken robot - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*2400"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 4,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

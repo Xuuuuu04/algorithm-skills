@@ -1,0 +1,29 @@
+{
+  "id": "CF-1178C",
+  "contest_id": 1178,
+  "index": "C",
+  "name": "Tiles",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "combinatorics",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 13098,
+  "problem_url": "https://codeforces.com/problemset/problem/1178/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1178/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1178/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1178C%20Tiles%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1178/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1178C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

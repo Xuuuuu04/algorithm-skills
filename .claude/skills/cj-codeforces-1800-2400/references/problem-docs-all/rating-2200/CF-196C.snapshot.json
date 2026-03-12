@@ -1,0 +1,38 @@
+{
+  "id": "CF-196C",
+  "contest_id": 196,
+  "index": "C",
+  "name": "Paint Tree",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "divide and conquer",
+    "geometry",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 1032,
+  "problem_url": "https://codeforces.com/problemset/problem/196/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/196/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/196/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=196C%20Paint%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P196C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Paint Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "divide and conquer",
+      "geometry",
+      "sortings",
+      "trees",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

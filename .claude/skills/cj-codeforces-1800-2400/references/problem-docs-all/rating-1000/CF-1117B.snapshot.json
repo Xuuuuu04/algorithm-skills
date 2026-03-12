@@ -1,0 +1,29 @@
+{
+  "id": "CF-1117B",
+  "contest_id": 1117,
+  "index": "B",
+  "name": "Emotes",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 15634,
+  "problem_url": "https://codeforces.com/problemset/problem/1117/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1117/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1117/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1117B%20Emotes%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1117/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1117B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

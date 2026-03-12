@@ -1,0 +1,36 @@
+{
+  "id": "CF-478B",
+  "contest_id": 478,
+  "index": "B",
+  "name": "Random Teams",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 40790,
+  "problem_url": "https://codeforces.com/problemset/problem/478/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/478/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/478/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=478B%20Random%20Teams%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P478B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Random Teams - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

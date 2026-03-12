@@ -1,0 +1,35 @@
+{
+  "id": "CF-1660F2",
+  "contest_id": 1660,
+  "index": "F2",
+  "name": "Promising String (hard version)",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "implementation",
+    "math",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1660/F2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1660/problem/F2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1660/problem/F2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1660F2%20Promising String (hard version)%20tutorial",
+  "solved_count": 3111,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "数学（数论/组合计数）",
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1660F2",
+  "hydro_meta": {
+    "page_title": "Promising String (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

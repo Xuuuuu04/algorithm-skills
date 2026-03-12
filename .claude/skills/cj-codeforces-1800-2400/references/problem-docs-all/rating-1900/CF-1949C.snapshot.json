@@ -1,0 +1,34 @@
+{
+  "id": "CF-1949C",
+  "contest_id": 1949,
+  "index": "C",
+  "name": "Annual Ants' Gathering",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 2495,
+  "problem_url": "https://codeforces.com/problemset/problem/1949/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1949/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1949/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1949C%20Annual%20Ants%27%20Gathering%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1949C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Annual Ants' Gathering - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dfs and similar",
+      "greedy",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

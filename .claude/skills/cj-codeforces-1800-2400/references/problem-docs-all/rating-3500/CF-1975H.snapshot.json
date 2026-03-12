@@ -1,0 +1,31 @@
+{
+  "id": "CF-1975H",
+  "contest_id": 1975,
+  "index": "H",
+  "name": "378QAQ and Core",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4500.0,
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "solved_count": 214,
+  "problem_url": "https://codeforces.com/problemset/problem/1975/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1975/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1975/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1975H%20378QAQ%20and%20Core%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1975H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "378QAQ and Core - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

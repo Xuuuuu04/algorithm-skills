@@ -1,0 +1,32 @@
+{
+  "id": "CF-1167G",
+  "contest_id": 1167,
+  "index": "G",
+  "name": "Low Budget Inception",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "geometry"
+  ],
+  "solved_count": 166,
+  "problem_url": "https://codeforces.com/problemset/problem/1167/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1167/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1167/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1167G%20Low%20Budget%20Inception%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1167G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Low Budget Inception - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "geometry",
+      "*3100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

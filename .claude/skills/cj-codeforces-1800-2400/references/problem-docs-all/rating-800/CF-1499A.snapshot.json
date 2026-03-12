@@ -1,0 +1,34 @@
+{
+  "id": "CF-1499A",
+  "contest_id": 1499,
+  "index": "A",
+  "name": "Domino on Windowsill",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 21894,
+  "problem_url": "https://codeforces.com/problemset/problem/1499/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1499/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1499/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1499A%20Domino%20on%20Windowsill%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1499A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Domino on Windowsill - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

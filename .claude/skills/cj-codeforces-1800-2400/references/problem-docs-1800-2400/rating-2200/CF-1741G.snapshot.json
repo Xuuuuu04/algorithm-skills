@@ -1,0 +1,36 @@
+{
+  "id": "CF-1741G",
+  "contest_id": 1741,
+  "index": "G",
+  "name": "Kirill and Company",
+  "rating": 2200,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "dfs and similar",
+    "dp",
+    "flows",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1741/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1741/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1741/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1741G%20Kirill and Company%20tutorial",
+  "solved_count": 1897,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "网络流（最大流/最小割）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1741G",
+  "hydro_meta": {
+    "page_title": "Kirill and Company - 题目详情 - Hydro",
+    "hydro_tags": [],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CF-132A",
+  "contest_id": 132,
+  "index": "A",
+  "name": "Turing Tape",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 2942,
+  "problem_url": "https://codeforces.com/problemset/problem/132/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/132/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/132/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=132A%20Turing%20Tape%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P132A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Turing Tape - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

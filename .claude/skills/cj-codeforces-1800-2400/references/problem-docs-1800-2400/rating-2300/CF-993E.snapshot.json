@@ -1,0 +1,35 @@
+{
+  "id": "CF-993E",
+  "contest_id": 993,
+  "index": "E",
+  "name": "Nikita and Order Statistics",
+  "rating": 2300,
+  "tags": [
+    "chinese remainder theorem",
+    "fft",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/993/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/993/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/993/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=993E%20Nikita and Order Statistics%20tutorial",
+  "solved_count": 1739,
+  "suggested_patterns": [
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P993E",
+  "hydro_meta": {
+    "page_title": "Nikita and Order Statistics - 题目详情 - Hydro",
+    "hydro_tags": [
+      "chinese remainder theorem",
+      "fft",
+      "math",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

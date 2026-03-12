@@ -1,0 +1,14 @@
+[package]
+  cjc-version = "1.0.1"
+  name = "cangjiecallgraph"
+  description = "仓颉语言函数调用图生成器 - 专为仓颉语言设计的静态代码分析工具"
+  version = "1.3.1"
+  target-dir = ""
+  src-dir = ""
+  output-type = "executable"
+  compile-option = ""
+  override-compile-option = ""
+  link-option = ""
+  package-configuration = {}
+
+[dependencies]

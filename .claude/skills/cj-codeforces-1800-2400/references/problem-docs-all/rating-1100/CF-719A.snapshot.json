@@ -1,0 +1,30 @@
+{
+  "id": "CF-719A",
+  "contest_id": 719,
+  "index": "A",
+  "name": "Vitya in the Countryside",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 16334,
+  "problem_url": "https://codeforces.com/problemset/problem/719/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/719/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/719/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=719A%20Vitya%20in%20the%20Countryside%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P719A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vitya in the Countryside - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html data-page="problem_detail" data-layout="basic" class="layout--basic page--problem_detail theme--light nojs" data-mantine-color-scheme="light" lang="" data-app="Hydro">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.hydrooj.com/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="https://cdn.hydrooj.com/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://cdn.hydrooj.com/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="https://cdn.hydrooj.com/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="https://cdn.hydrooj.com/favicon-16x16.png" sizes="16x16">
+  <link rel="canonical" href="https://hydro.ac/p/codeforces-P830C">  <meta name="theme-color" content="#56758f">
+    <meta property="og:site_name" content="HydroOJ" />
+  <meta property="og:url" content="https://hydro.ac/p/codeforces-P830C" />
+  <meta property="og:image" content="https://cdn.hydrooj.com/favicon-96x96.png" />
+                        <meta property="og:title" content="codeforces-P830C. Bamboo Partition - HydroOJ" />
+    <meta property="og:description" content="DESCRIPTION
+Vladimir wants to modernize partitions in his office. To make the office more
+comfortabl..." />
+    <title>Bamboo Partition - 题目详情 - Hydro</title>
+  <style>
+    body {
+      --font-family: "Open Sans", "Open Sans", "Seravek", "Segoe UI", "Verdana", "PingFang SC", "Hiragino Sans GB", "Lantinghei SC", "Microsoft Yahei", "WenQuanYi Micro Hei", "sans";
+      --code-font-family: "Source Code Pro", "monaco", "Source Code Pro", "Consolas", "Lucida Console", "monospace";
+      --font-ligatures: none !important;
+    }
+          #panel { display: flex; flex-direction: column; }
+      </style>
+      <link rel="stylesheet" media="all" href="https://cdn.hydrooj.com/theme-4.58.0-beta.20.css">
+        <script>
+      var _htmlNode = document.documentElement;
+      _htmlNode.className = _htmlNode.className.replace(' nojs', ' hasjs');
+      window.UiContext = '{"cdn_prefix":"https://cdn.hydrooj.com/","url_prefix":"/","ws_prefix":"wss://cdn.hydrooj.com/","onlyofficeApi":"https://office.hydro.ac/web-apps/apps/api/documents/api.js","isHydroAC":"https://office.hydro.ac/web-apps/apps/api/documents/api.js","lspHost":"wss://cn-hz.hydrooj.com","aiFeatures":{"askai":false,"aiChat":false,"translate":true},"aiAssets":{"js":"index-zgeXkofv.js","css":"index-CWDHuGIF.css"},"aiChat":{"problem":{"prepend":"\u7528\u6237\u6B63\u5728\u9488\u5BF9\u8FD9\u9053\u9898\u76EE\u8FDB\u884C\u63D0\u95EE\uFF1A\\n{problem}","selectText":false,"choices":[{"title":"\u6211\u4E0D\u7406\u89E3\u8FD9\u9053\u9898\u76EE","label":"","action":"\u6211\u4E0D\u7406\u89E3\u8FD9\u9053\u9898\u76EE"}]},"solution":{"enabled":false}},"constantVersion":"0de293f8","domainId":"system","domain":{"_id":"system","owner":1,"name":"Hydro Online Judge","bulletin":"<div class=\\"row\\"><div class=\\"medium-6 columns\\">\\r\\n\\r\\n[\u60F3\u8981\u514D\u8D39\u521B\u5EFA\u4E00\u4E2A\u5C5E\u4E8E\u81EA\u5DF1\u7684 OJ \u5417\uFF1F](/discuss/6172ceeed850d38c79ae18f9)\\r\\n\\r\\n[\u65B0\u7528\u6237\u5FC5\u8BFB](/discuss/6080b1d93c27ccf0adb34216)\\r\\n\\r\\n[Hydro \u9879\u76EE\u7528\u6237\u7FA4](https://jq.qq.com/?_wv=1027&k=0LgdQeGR)\uFF081085853538\uFF09\\r\\n\\r\\n[hydro.ac \u7528\u6237\u7FA4](https://jq.qq.com/?_wv=1027&k=pKYrk4yp)\uFF081091497622\uFF09\\r\\n\\r\\n[\u7ED9\u6211\u4EEC\u6295\u98DF](https://pay.undefined.moe)\\r\\n\\r\\n[Github Repo (AGPL 3.0)](https://github.com/hydro-dev/Hydro)\\r\\n\\r\\n\x3C!-- ### \u6700\u65B0\u52A8\u6001 -->\\r\\n\\r\\n</div><div class=\\"medium-6 columns\\">\\r\\n\\r\\n## \u63A8\u8350\u9898\u5E93\u5217\u8868\\r\\n\\r\\n[\u6D74\u8C37 | \u8BA1\u7B97\u673A\u79D1\u5B66\u6559\u80B2\u65B0\u751F\u6001](/p?q=namespace%3Aluogu)\\r\\n\\r\\n<div class=\\"row\\"><div class=\\"medium-6 small-6 columns\\">\\r\\n\\r\\n[\u6DF1\u5165\u6D45\u51FA\u57FA\u7840\u7BC7](/d/srqc/)\\r\\n\\r\\n[\u6D4B\u8BD5\u9898\u57DF](/d/system_test/)\\r\\n\\r\\n[Codeforces](/p?q=namespace%3Acodeforces)\\r\\n\\r\\n[CCF \u771F\u9898](/p?q=namespace%3Accf)\\r\\n\\r\\n[USACO](/d/USACO/)\\r\\n\\r\\n[\u4E00\u672C\u901A\u542F\u8499\u7BC7](/d/ybtbas/)/[\u5165\u95E8/\u63D0\u9AD8](/d/ybttk/)\\r\\n\\r\\n\\r\\n</div><div class=\\"medium-6 small-6 columns\\">\\r\\n\\r\\n[BZOJ](/p?q=namespace%3Abzoj)\\r\\n\\r\\n[SPOJ](/p?q=namespace%3Aspoj)\\r\\n\\r\\n[UOJ](/p?q=namespace%3Auoj)\\r\\n\\r\\n[POJ](/d/poj/)\\r\\n\\r\\n[LOJ](/p?q=namespace%3Aloj)\\r\\n\\r\\n[AtCoder](/p?q=namespace%3Aatcoder)\\r\\n\\r\\n</div></div>\\r\\n\\r\\n</div></div>\\r\\n\\r\\n\x3C!-- <blockquote class=\\"note\\"></blockquote> -->\\r\\n\\r\\n","roles":{"guest":"10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831653805554995641330991233","default":"10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831654068424090010071564993","root":"-1","problem_provider":"10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831654068424116398350660305","problem_manager":"10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831654068425523773269080053","mute":"10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831654063809447857636803201","download":"10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831654068424090010071566017"},"gravatar":"","join":{"method":1,"role":"root","expire":null},"avatar":"gravatar:noreply@undefined.moe","share":"*","langs":"","lower":"system","union":["bzoj","uoj","luogu","poj","codeforces","spoj","ccf","loj"],"lastActive":"2026-03-11T08:33:12.248Z","swiper":"- title: Hello, Hydro!\\r\\n  image: /components/navigation/nav-logo-small_dark.png\\r\\n  url: /\\r\\n","config":{"swiper$data":"- title: \u4E91\u6597\\r\\n  image: https://s41.ax1x.com/2025/12/30/pZttzgs.png\\r\\n  url: https://yundouxueyuan.com/\\r\\n","limit$problem_files_max":1000,"limit$problem_files_max_size":536870912,"hydrooj$homepage":"- width: 9\\r\\n  bulletin: true\\r\\n  swiper: true\\r\\n  contest: 5\\r\\n  homework: 10\\r\\n  training: 10\\r\\n  ranking: 10\\r\\n  discussion: 20\\r\\n- width: 3\\r\\n  starred_problems: 50\\r\\n  recent_problems: 10\\r\\n  discussion_nodes: true\\r\\n  suggestion: true\\r\\n","server$name":"Hydro","ui-default$nav_logo_dark":"/components/navigation/nav-logo-small_dark.png","disableMessage":false,"ai$askai":false,"problem$categories":"\u7B97\u6CD5\u57FA\u7840: [\'\u66B4\u529B\', \'\u679A\u4E3E\', \'\u6A21\u62DF\', \'\u9012\u5F52 & \u5206\u6CBB\', \'\u8D2A\u5FC3\', \'\u6392\u5E8F\', \'\u524D\u7F00\u548C & \u5DEE\u5206\', \'\u4E8C\u5206\', \'\u500D\u589E\', \'\u6784\u9020\', \'\u6253\u8868\']\\r\\n\u641C\u7D22: [\'\u6DF1\u5EA6\u4F18\u5148\u641C\u7D22\', \'\u5E7F\u5EA6\u4F18\u5148\u641C\u7D22\', \'\u53CC\u5411\u641C\u7D22\', \'\u542F\u53D1\u5F0F\u641C\u7D22\', \'A*\', \'\u8FED\u4EE3\u52A0\u6DF1\u641C\u7D22\', \'IDA*\', \'\u56DE\u6EAF\u6CD5\', \'Dancing Links\']\\r\\n\u52A8\u6001\u89C4\u5212: [\'\u8BB0\u5FC6\u5316\u641C\u7D22\', \'\u7EBF\u6027 DP\', \'\u80CC\u5305 DP\', \'\u533A\u95F4 DP\', \'DAG \u4E0A DP\', \'\u6811\u5F62 DP\', \'\u72B6\u538B DP\', \'\u6570\u4F4D DP\', \'\u63D2\u5934 DP\', \'\u8BA1\u6570 DP\', \'\u52A8\u6001 DP\', \'\u6982\u7387 DP\', \'\u5355\u8C03\u961F\u5217\u4F18\u5316\', \'\u659C\u7387\u4F18\u5316\', \'\u56DB\u8FB9\u5F62\u4E0D\u7B49\u5F0F\u4F18\u5316\', \'\u72B6\u6001\u8BBE\u8BA1\u4F18\u5316\']\\r\\n\u8BA1\u7B97\u51E0\u4F55: [\'Pick \u5B9A\u7406\', \'\u4E09\u89D2\u5256\u5206\', \'\u51F8\u5305\', \'\u626B\u63CF\u7EBF\', \'\u65CB\u8F6C\u5361\u58F3\', \'\u534A\u5E73\u9762\u4EA4\', \'\u5E73\u9762\u6700\u8FD1\u70B9\u5BF9\', \'\u968F\u673A\u589E\u91CF\u6CD5\', \'\u53CD\u6F14\u53D8\u6362\']\\r\\n\u6570\u5B66: [\'\u4F4D\u8FD0\u7B97\', \'\u5FEB\u901F\u5E42\', \'\u9AD8\u7CBE\u5EA6\', \'\u666E\u901A\u751F\u6210\u51FD\u6570\', \'\u6307\u6570\u751F\u6210\u51FD\u6570\', \'\u5411\u91CF\', \'\u77E9\u9635\', \'\u9AD8\u65AF\u6D88\u5143\', \'\u7EBF\u6027\u57FA\', \'\u7EBF\u6027\u89C4\u5212\', \'\u5BB9\u65A5\', \'\u7EC4\u5408\u8BA1\u6570\', \'\u79BB\u6563\u5BF9\u6570\', \'\u5355\u7EAF\u5F62\u7B97\u6CD5\', \'\u6982\u7387\', \'\u7F6E\u6362\u7FA4\', \'\u6590\u6CE2\u90A3\u5951\u6570\u5217\', \'\u725B\u987F\u8FED\u4EE3\u6CD5\', \'\u6570\u503C\u79EF\u5206\', \'\u5206\u6BB5\u6253\u8868\']\\r\\n\u6570\u8BBA: [\'Meissel-Lehmer \u7B97\u6CD5\', \'\u6700\u5927\u516C\u7EA6\u6570\', \'\u6B27\u62C9\u51FD\u6570\', \'\u7B5B\u6CD5\', \'\u6B27\u62C9\u5B9A\u7406\', \'\u8D39\u9A6C\u5C0F\u5B9A\u7406\', \'\u7C7B\u6B27\u51E0\u91CC\u5F97\u7B97\u6CD5\', \'\u88F4\u8700\u5B9A\u7406\', \'\u4E58\u6CD5\u9006\u5143\', \'\u7EBF\u6027\u540C\u4F59\u65B9\u7A0B\', \'\u4E8C\u6B21\u5269\u4F59\', \'BSGS\', \'\u539F\u6839\', \'\u5362\u5361\u65AF\u5B9A\u7406\', \'\u83AB\u6BD4\u4E4C\u65AF\u53CD\u6F14\', \'\u62C9\u683C\u6717\u65E5\u53CD\u6F14\', \'\u675C\u6559\u7B5B\', \'Powerful Number \u7B5B\', \'Min_25 \u7B5B\', \'\u6D32\u9601\u7B5B\', \'\u5206\u89E3\u8D28\u56E0\u6570\', \'\u8FDE\u5206\u6570\', \'Stern-Brocot \u6811\u4E0E Farey \u5E8F\u5217\', \'Pell \u65B9\u7A0B\']\\r\\n\u5B57\u7B26\u4E32: [\'\u5B57\u7B26\u4E32\u54C8\u5E0C\', \'\u5B57\u5178\u6811\', \'KMP\', \'Boyer-Moore\', \'Z \u51FD\u6570\uFF08\u6269\u5C55 KMP\uFF09\', \'AC \u81EA\u52A8\u673A\', \'\u540E\u7F00\u6570\u7EC4\', \'\u540E\u7F00\u81EA\u52A8\u673A\', \'\u540E\u7F00\u5E73\u8861\u6811\', \'\u5E7F\u4E49\u540E\u7F00\u81EA\u52A8\u673A\', \'Manacher\', \'\u56DE\u6587\u6811\', \'\u5E8F\u5217\u81EA\u52A8\u673A\', \'\u6700\u5C0F\u8868\u793A\u6CD5\', \'Lyndon \u5206\u89E3\']\\r\\n\u56FE\u8BBA: [\'\u6811\u7684\u76F4\u5F84\', \'\u6811\u4E0A\u6700\u8FD1\u516C\u5171\u7956\u5148\', \'\u6811\u7684\u91CD\u5FC3\', \'\u6811\u94FE\u5256\u5206\', \'\u6811\u4E0A\u542F\u53D1\u5F0F\u5408\u5E76\', \'\u865A\u6811\', \'\u6811\u5206\u6CBB\', \'\u52A8\u6001\u6811\u5206\u6CBB\', \'AHU \u7B97\u6CD5\', \'\u6811\u54C8\u5E0C\', \'\u77E9\u9635\u6811\u5B9A\u7406\', \'\u62D3\u6251\u6392\u5E8F\', \'\u6700\u5C0F\u751F\u6210\u6811\', \'\u65AF\u5766\u7EB3\u6811\', \'\u6700\u5C0F\u6811\u5F62\u56FE\', \'\u6700\u5C0F\u76F4\u5F84\u751F\u6210\u6811\', \'\u6700\u77ED\u8DEF\', \'\u62C6\u70B9\', \'\u5DEE\u5206\u7EA6\u675F\', \'\u7B2C K \u77ED\u8DEF\', \'\u540C\u4F59\u6700\u77ED\u8DEF\', \'\u5F3A\u8FDE\u901A\u5206\u91CF\', \'\u53CC\u8FDE\u901A\u5206\u91CF\', \'\u5272\u70B9 & \u6865\', \'\u5706\u65B9\u6811\', \'2-SAT\', \'\u6B27\u62C9\u56FE\', \'\u54C8\u5BC6\u987F\u56FE\', \'\u4E8C\u5206\u56FE\', \'\u6700\u5C0F\u73AF\', \'\u5E73\u9762\u56FE\', \'\u7F51\u7EDC\u6D41\', \'\u6700\u5927\u6D41\', \'\u6700\u5C0F\u5272\', \'\u8D39\u7528\u6D41\', \'\u4E0A\u4E0B\u754C\u7F51\u7EDC\u6D41\', \'Stoer-Wagner \u7B97\u6CD5\', \'\u4E8C\u5206\u56FE\u6700\u5927\u5339\u914D\', \'\u4E8C\u5206\u56FE\u6700\u5927\u6743\u5339\u914D\', \'\u4E00\u822C\u56FE\u6700\u5927\u5339\u914D\', \'\u4E00\u822C\u56FE\u6700\u5927\u6743\u5339\u914D\', \'Prufer \u5E8F\u5217\', \'LGV \u5F15\u7406\', \'\u5F26\u56FE\']\\r\\n\u7EC4\u5408\u6570\u5B66: [\'\u6392\u5217\u7EC4\u5408\', \'\u5361\u7279\u5170\u6570\', \'\u65AF\u7279\u6797\u6570\', \'\u8D1D\u5C14\u6570\', \'\u4F2F\u52AA\u5229\u6570\', \'\u5EB7\u6258\u5C55\u5F00\', \'\u5BB9\u65A5\u539F\u7406\', \'\u62BD\u5C49\u539F\u7406\', \'\u6B27\u62C9\u6570\']\\r\\n\u6570\u636E\u7ED3\u6784: [\'\u6808\', \'\u961F\u5217\', \'\u94FE\u8868\', \'\u54C8\u5E0C\u8868\', \'\u5E76\u67E5\u96C6\', \'\u4E8C\u53C9\u5806\', \'\u914D\u5BF9\u5806\', \'\u5DE6\u504F\u6811\', \'\u5757\u72B6\u6570\u7EC4\', \'\u5757\u72B6\u94FE\u8868\', \'\u6811\u5206\u5757\', \'Sqrt Tree\', \'\u5355\u8C03\u6808\', \'\u5355\u8C03\u961F\u5217\', \'ST \u8868\', \'\u6811\u72B6\u6570\u7EC4\', \'\u7EBF\u6BB5\u6811\', \'\u674E\u8D85\u7EBF\u6BB5\u6811\', \'\u533A\u95F4\u6700\u503C\u64CD\u4F5C & \u533A\u95F4\u5386\u53F2\u6700\u503C\', \'\u5212\u5206\u6811\', \'\u5E73\u8861\u6811\', \'\u8DF3\u8868\', \'\u53EF\u6301\u4E45\u5316\u6570\u636E\u7ED3\u6784\', \'\u6811\u5957\u6811\', \'K-D Tree\', \'\u73C2\u6735\u8389\u6811\', \'\u52A8\u6001\u6811\', \'\u6790\u5408\u6811\']\\r\\n\u591A\u9879\u5F0F: [\'\u62C9\u683C\u6717\u65E5\u63D2\u503C\', \'\u5FEB\u901F\u5085\u91CC\u53F6\u53D8\u6362\', \'\u5FEB\u901F\u6570\u8BBA\u53D8\u6362\', \'\u5FEB\u901F\u6C83\u5C14\u4EC0\u53D8\u6362\', \'\u591A\u9879\u5F0F\u6C42\u9006\', \'\u591A\u9879\u5F0F\u5F00\u65B9\', \'\u591A\u9879\u5F0F\u9664\u6CD5/\u53D6\u6A21\', \'\u591A\u9879\u5F0F\u5BF9\u6570\u51FD\u6570/\u6307\u6570\u51FD\u6570\', \'\u591A\u9879\u5F0F\u725B\u987F\u8FED\u4EE3\', \'\u591A\u9879\u5F0F\u591A\u70B9\u6C42\u503C/\u5FEB\u901F\u63D2\u503C\', \'\u591A\u9879\u5F0F\u4E09\u89D2\u51FD\u6570\', \'\u591A\u9879\u5F0F\u53CD\u4E09\u89D2\u51FD\u6570\', \'\u5E38\u7CFB\u6570\u9F50\u6B21\u7EBF\u6027\u9012\u63A8\']\\r\\n\u6742\u9879: [\'\u79BB\u6563\u5316\', \'CDQ \u5206\u6CBB\', \'\u6574\u4F53\u4E8C\u5206\', \'\u83AB\u961F\', \'\u5206\u6570\u89C4\u5212\', \'\u968F\u673A\u5316\', \'\u722C\u5C71\u7B97\u6CD5\', \'\u6A21\u62DF\u9000\u706B\', \'\u60AC\u7EBF\u6CD5\']","problem$pinnedFilter":"","blockly$enable":true,"ai$features$askai":true},"namespaces":{"default":"000000","bzoj":"000010","ccf":"000020","loj":"000030","luogu":"000040","atcoder":"000050","codeforces":"000060","spoj":"000070","uoj":"000080"},"isTrusted":true,"trusted":true,"pro":"2026-12-21T00:49:09.228Z","loginWhitelist":[],"contact":"Email\uFF1Ai@undefined.moe  \\r\\nHydro \u7528\u6237\u7FA4\uFF1A1085853538  \\r\\nTelegram @undefinedmoe  ","downloadFirst":false,"icp":"","luogu":null,"registerRedirect":"","ui":{"hideNavDomain":false,"pureMode":false,"footer_extra_html":""}},"extraTitleContent":"Bamboo Partition","enableBlockly":true,"SWConfig":{"preload":"","hosts":["http://hydro.ac","https://hydro.ac","https://hydro.ac/","https://cdn.hydrooj.com/"],"assets":[],"domains":[]}}';
+      window.UserContext = '{"_id":0,"mail":"Guest@hydro.local","uname":"Guest","hashType":"hydro","priv":8,"regat":"1970-01-01T00:00:00.000Z","loginat":"2026-03-11T08:32:40.468Z","perm":"BigInt::10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831653805554995641330991233","role":"guest","scope":"BigInt::-1","tfa":false,"authn":false,"group":[],"domains":[],"timeZone":"Asia/Shanghai","codeLang":"cc.cc17o2","avatar":"gravatar:Guest@hydro.local","gender":2,"backgroundImage":"/components/profile/backgrounds/1.jpg","unreadMsg":95,"pinnedDomains":[],"balance":20000,"star":true,"showTimeAgo":true,"fontFamily":"Open Sans","codeFontFamily":"Source Code Pro","theme":"light","preferredEditorType":"sv","formatCode":true,"rpInfo":{},"nAccept":1200,"nSubmit":1155,"nLiked":0,"rp":0,"level":0,"join":true,"avatarUrl":"//cravatar.com/avatar/97119d3d15d5201ab506330ed4bab0f7?d=mm&s=128"}';
+    </script>
+      </head>
+<body>
+      <script type="text/javascript" src="/resource/0de293f8/entry.js"></script>
+    <script type="text/javascript" src="https://cdn.hydrooj.com/resource/4.58.0-beta.20/lang-zh.js"></script>
+    <script type="text/javascript" src="https://cdn.hydrooj.com/hydro-4.58.0-beta.20.js"></script>
+    <nav class="nav slideout-menu" id="menu">
+  <div class="row"><div class="columns clearfix">
+    <ol class="nav__list nav__list--main clearfix">
+      <li class="nav__list-item">
+        <a href="/"><img class="nav__logo" src="/components/navigation/nav-logo-small_dark.png"></a>
+      </li>        <li class="nav__list-item">
+  <a href="/" class="nav__item">
+    首页
+  </a>
+</li>
+              <li class="nav__list-item">
+  <a href="/p" class="nav__item nav--active">
+    题库
+  </a>
+</li>
+              <li class="nav__list-item">
+  <a href="/training" class="nav__item">
+    训练
+  </a>
+</li>
+              <li class="nav__list-item">
+  <a href="/contest" class="nav__item">
+    比赛
+  </a>
+</li>
+              <li class="nav__list-item">
+  <a href="/discuss" class="nav__item">
+    讨论
+  </a>
+</li>
+              <li class="nav__list-item">
+  <a href="/record" class="nav__item">
+    评测记录
+  </a>
+</li>
+              <li class="nav__list-item">
+  <a href="/ranking" class="nav__item">
+    排名
+  </a>
+</li>
+      </ol>
+    <ol class="nav__list nav__list--secondary clearfix">
+          <li class="nav__list-item"><a href="/login" class="nav__item" name="nav_login">登录</a></li>
+            <li class="nav__list-item"><a href="/register" class="nav__item--round">注册</a></li>
+            <li class="nav__list-item nojs--hide" data-dropdown-pos="bottom right" data-dropdown-custom-class="nav__dropdown" data-dropdown-target="#menu-nav-user" data-dropdown-disabledconstrainToWindow data-dropdown-trigger-desktop-only>
+        <a href="javascript:;" class="nav__item">
+          <span class="icon icon-global"></span>Language <span class="icon icon-expand_more"></span>
+        </a>
+        <ol class="dropdown-target menu" id="menu-nav-user"><li class="menu__item"><a class="menu__link" href="/language/en">English</a></li><li class="menu__item"><a class="menu__link" href="/language/ko">한국어</a></li><li class="menu__item"><a class="menu__link" href="/language/zh">简体中文</a></li><li class="menu__item"><a class="menu__link" href="/language/zh_TW">正體中文</a></li></ol>
+      </li>
+        </ol>
+  </div></div>
+</nav>
+<nav class="nav--shadow"></nav>
+<div class="slideout-panel" id="panel">
+    <div class="slideout-overlay"></div>
+  <div class="header--mobile">
+  <div class="row"><div class="columns clearfix">
+    <div class="float-left">
+      <a class="header--mobile__domain" href="/" target="_self">
+        <img src="/components/navigation/nav-logo-small_dark.png">
+      </a>
+    </div>
+    <div class="float-right">
+      <button type="button" class="header__hamburger">
+  <div class="hamburger hamburger--spin">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </div>
+</button>
+    </div>
+  </div></div>
+</div>
+  <div class="main">
+        <script>
+
+  
+  
+  
+  
+  
+</script>
+                      <meta property="og:title" content="codeforces-P830C. Bamboo Partition - HydroOJ" />
+    <meta property="og:description" content="DESCRIPTION
+Vladimir wants to modernize partitions in his office. To make the office more
+comfortabl..." />
+  <div class="row" data-sticky-parent>
+  <div class="medium-9 columns">
+    <div class="section">
+      <div class="section__header">
+        <h1 class="section__title">
+                    codeforces#P830C. Bamboo Partition
+        </h1>
+              </div>
+      <div class="section__body">
+        <ul class="problem__tags">
+                      <span class="problem__tag-item">ID: 28632</span>
+                    <span class="problem__tag-item icon icon-book">远端评测题</span>
+                                <span class="problem__tag-item icon icon-stopwatch">2000ms</span>
+            <span class="problem__tag-item icon icon-comparison">512MiB</span>
+                                <a class="problem__tag-item interactive" href="/record?pid=28632">尝试: 0</a>
+            <a class="problem__tag-item interactive" href="/record?pid=28632&amp;status=1">已通过: 0</a>
+            <span class="problem__tag-item">难度: 8</span>
+            <span class="problem__tag-item interactive">上传者: <span class="user-profile-link">
+      <img class="small user-profile-avatar v-center" loading="lazy" src="//cravatar.com/avatar/93dccfd2059789405993939fbe82175e?d=mm&amp;s=64" width="20" height="20">
+    <a class="user-profile-name uname--lv0" href="/user/1">
+          Hydro
+      </a>
+  </span>
+</span>
+                                <span name="show_tags" class="problem__tag-item interactive nojs--hide icon icon-tag">标签&gt;</span><span class="problem__tag-item tags hasjs--hide">brute force</span><span class="problem__tag-item tags hasjs--hide">data structures</span><span class="problem__tag-item tags hasjs--hide">implementation</span><span class="problem__tag-item tags hasjs--hide">math</span><span class="problem__tag-item tags hasjs--hide">number theory</span><span class="problem__tag-item tags hasjs--hide">sortings</span><span class="problem__tag-item tags hasjs--hide">two pointers</span><span class="problem__tag-item tags hasjs--hide">*2300</span>        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="problem-content-container"><div class="problem-content" data-marker-enabled>
+        <div class="section__header non-scratchpad--hide">
+          <h1 class="section__title">Bamboo Partition</h1>
+        </div>
+                <div class="section__body typo richmedia" data-fragment-id="problem-description">
+                      <h2 id="description" tabindex="-1">Description</h2>
+<div><p>Vladimir wants to modernize partitions in his office. To make the office more comfortable he decided to remove a partition and plant several bamboos in a row. He thinks it would be nice if there are <span class><i>n</i></span> bamboos in a row, and the <span class><i>i</i></span>-th from the left is <span class><i>a</i><sub><i>i</i></sub></span> meters high. </p><p>Vladimir has just planted <span class><i>n</i></span> bamboos in a row, each of which has height <span class>0</span> meters right now, but they grow <span class>1</span> meter each day. In order to make the partition nice Vladimir can cut each bamboo once at any height (no greater that the height of the bamboo), and then the bamboo will stop growing.</p><p>Vladimir wants to check the bamboos each <span class><i>d</i></span> days (i.e. <span class><i>d</i></span> days after he planted, then after <span class>2<i>d</i></span> days and so on), and cut the bamboos that reached the required height. Vladimir wants the total length of bamboo parts he will cut off to be no greater than <span class><i>k</i></span> meters.</p><p>What is the maximum value <span class><i>d</i></span> he can choose so that he can achieve what he wants without cutting off more than <span class><i>k</i></span> meters of bamboo?</p></div><div class><p>The first line contains two integers <span class><i>n</i></span> and <span class><i>k</i></span> (<span class>1 ≤ <i>n</i> ≤ 100</span>, <span class>1 ≤ <i>k</i> ≤ 10<sup>11</sup></span>)&nbsp;— the number of bamboos and the maximum total length of cut parts, in meters.</p><p>The second line contains <span class><i>n</i></span> integers <span class><i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, ..., <i>a</i><sub><i>n</i></sub></span> (<span class>1 ≤ <i>a</i><sub><i>i</i></sub> ≤ 10<sup>9</sup></span>)&nbsp;— the required heights of bamboos, in meters.</p></div><div class><p>Print a single integer&nbsp;— the maximum value of <span class><i>d</i></span> such that Vladimir can reach his goal.</p></div>
+<h2 id="input" tabindex="-1">Input</h2>
+<p>The first line contains two integers <span class><i>n</i></span> and <span class><i>k</i></span> (<span class>1 ≤ <i>n</i> ≤ 100</span>, <span class>1 ≤ <i>k</i> ≤ 10<sup>11</sup></span>)&nbsp;— the number of bamboos and the maximum total length of cut parts, in meters.</p><p>The second line contains <span class><i>n</i></span> integers <span class><i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, ..., <i>a</i><sub><i>n</i></sub></span> (<span class>1 ≤ <i>a</i><sub><i>i</i></sub> ≤ 10<sup>9</sup></span>)&nbsp;— the required heights of bamboos, in meters.</p>
+<h2 id="output" tabindex="-1">Output</h2>
+<p>Print a single integer&nbsp;— the maximum value of <span class><i>d</i></span> such that Vladimir can reach his goal.</p>
+<h2 id="samples" tabindex="-1">Samples</h2>
+<pre><code class="language-input1">3 4
+1 3 5
+
+</code></pre>
+<pre><code class="language-output1">3
+
+</code></pre>
+<pre><code class="language-input2">3 40
+10 30 50
+
+</code></pre>
+<pre><code class="language-output2">32
+
+</code></pre>
+<h2 id="note" tabindex="-1">Note</h2>
+<p>In the first example Vladimir can check bamboos each <span class>3</span> days. Then he will cut the first and the second bamboos after <span class>3</span> days, and the third bamboo after <span class>6</span> days. The total length of cut parts is <span class>2 + 0 + 1 = 3</span> meters.</p>
+
+</div>      </div></div>
+    </div>
+  </div>
+  <div class="medium-3 columns"><div data-sticky="large">
+        <div class="section side section--problem-sidebar">
+  <div>
+    <ol class="menu">
+                          <li class="menu__item scratchpad--hide"><a class="menu__link" href="javascript:showSignInDialog();">
+        <span class="icon icon-send"></span> 登录后递交
+      </a></li>
+                      <li class="menu__seperator"></li>
+              <li class="menu__item"><a class="menu__link" href="/discuss/problem/28632">
+        <span class="icon icon-comment--text"></span> 讨论 (0)      </a></li>
+              <li class="menu__item"><a class="menu__link" href="/p/codeforces-P830C/solution">
+        <span class="icon icon-comment--text"></span> 题解 (0)      </a></li>
+          <li class="menu__item"><a class="menu__link" href="/p/codeforces-P830C/files">
+        <span class="icon icon-file"></span> 文件
+      </a></li>
+      <li class="menu__item"><a class="menu__link" href="/p/codeforces-P830C/stat">
+        <span class="icon icon-statistics"></span> 统计
+      </a></li>
+              <li class="menu__seperator nojs--hide"></li>
+                    </ol>
+  </div>
+</div>
+  </div></div>
+</div>
+<div style="display:none" class="outer-loader-container"><div class="loader"></div></div>
+<div class="scratchpad-container" style="display:none">
+  <div style="display:none" class="loader-container"><div class="loader"></div></div>
+  <div id="scratchpad" style="opacity:0"></div>
+</div>
+  </div>
+  <div class="footer">
+  <div class="row"><div class="columns">
+      <div class="row footer__links">
+      <div class="medium-3 large-2 columns footer__category expandable">
+        <h1>
+          状态
+          <span class="expand-icon">
+            <span class="icon icon-expand_more"></span>
+          </span>
+        </h1>
+        <div class="footer__category__expander"><ul class="footer__category__list">
+          <li class="footer__category__item"><a href="/record">评测队列</a></li>
+          <li class="footer__category__item"><a href="/status">服务状态</a></li>
+        </ul></div>
+      </div>
+      <div class="medium-3 large-2 columns footer__category expandable">
+        <h1>
+          开发
+          <span class="expand-icon">
+            <span class="icon icon-expand_more"></span>
+          </span>
+        </h1>
+        <div class="footer__category__expander"><ul class="footer__category__list">
+          <li class="footer__category__item"><a href="https://github.com/hydro-dev/Hydro" target="_blank">开源</a></li>
+        </ul></div>
+      </div>
+      <div class="medium-3 large-2 columns footer__category expandable">
+        <h1>
+          支持
+          <span class="expand-icon">
+            <span class="icon icon-expand_more"></span>
+          </span>
+        </h1>
+        <div class="footer__category__expander"><ul class="footer__category__list">
+          <li class="footer__category__item"><a href="/wiki/help">帮助</a></li>
+          <li class="footer__category__item"><a href="/wiki/about#contact">联系我们</a></li>
+        </ul></div>
+      </div>
+      <div class="medium-3 large-2 columns footer__category expandable end">
+        <h1>
+          关于
+          <span class="expand-icon">
+            <span class="icon icon-expand_more"></span>
+          </span>
+        </h1>
+        <div class="footer__category__expander"><ul class="footer__category__list">
+          <li class="footer__category__item"><a href="/wiki/about">关于</a></li>
+          <li class="footer__category__item"><a href="/wiki/about#privacy">隐私</a></li>
+          <li class="footer__category__item"><a href="/wiki/about#tos">服务条款</a></li>
+          <li class="footer__category__item"><a href="https://hydro.js.org/#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC">版权申诉</a></li>
+        </ul></div>
+      </div>
+    </div>
+      <div class="footer__extra-link clearfix">
+      <div class="footer__extra-left">
+        <ol class="clearfix">
+                    <li class="footer__extra-link-item nojs--hide" data-dropdown-target="#menu-footer-lang">
+            <span><span class="icon icon-global"></span> Language <span class="icon icon-expand_less"></span></span>
+            <ol class="dropdown-target menu" id="menu-footer-lang"><li class="menu__item"><a class="menu__link" href="/language/en">English</a></li><li class="menu__item"><a class="menu__link" href="/language/ko">한국어</a></li><li class="menu__item"><a class="menu__link" href="/language/zh">简体中文</a></li><li class="menu__item"><a class="menu__link" href="/language/zh_TW">正體中文</a></li></ol>
+          </li>
+          <li class="footer__extra-link-item">
+                          <a href="/legacy?legacy=true">兼容模式</a>
+                      </li>
+          <li class="footer__extra-link-item nojs--hide" data-dropdown-target="#menu-footer-theme">
+            <span><span class="icon icon-global"></span> 主题 <span class="icon icon-expand_less"></span></span>
+            <ol class="dropdown-target menu" id="menu-footer-theme">
+              <li class="menu__item"><a class="menu__link" href="/set_theme/light">亮色</a></li>
+              <li class="menu__item"><a class="menu__link" href="/set_theme/dark">暗色</a></li>
+            </ol>
+          </li>
+        </ol>
+      </div>
+      <div class="footer__extra-right">
+        <ol class="clearfix"><li class="footer__extra-link-item"></li><li class="footer__extra-link-item">© 2021-2026 Hydro.ac</li><li class="footer__extra-link-item"><script defer src="//analytics.hydro.ac/script.js" data-website-id="e754ebca-826e-406f-92fa-def938a42b1e"></script></li><li class="footer__extra-link-item">Worker 1, 20ms</li>
+          <li class="footer__extra-link-item"><a href="https://hydro.js.org">Hydro v5.0.0-beta.18-f9f3fd7-dirty</a> Professional</li>
+        </ol>
+      </div>
+    </div>
+  </div></div>
+</div>
+</div>
+<div class="dialog dialog--signin" style="display:none">
+  <div class="dialog__content">
+        <div class="dialog--signin__bg">
+      <div class="dialog--signin__side">
+        <h1>还没有账户？</h1>
+        <p>注册一个 HydroOJ 通用账户，您就可以在我们提供的所有在线评测服务上提交代码、参与讨论。</p>
+        <div><a href="/register" class="inverse rounded button">现在注册</a></div>
+      </div>
+    </div>
+        <div class="dialog--signin__main">
+      <form action="/login" method="post">
+        <div class="dialog--signin__close-container supplementary">
+          <a name="dialog--signin__close" href="javascript:;">关闭</a>
+        </div>
+        <h1 class="dialog--signin__title">登录</h1>
+        <p class="dialog--signin__note">使用您的 HydroOJ 通用账户</p>
+                <div class="row"><div class="columns">
+          <label class="material textbox">
+            用户名
+            <input name="uname" type="text" data-autofocus autocomplete="username webauthn">
+          </label>
+        </div></div>
+        <div class="row"><div class="columns">
+          <label class="material textbox">
+            密码
+            <input name="password" type="password">
+          </label>
+        </div></div>
+        <div class="row"><div class="columns">
+          <label class="checkbox">
+            <input type="checkbox" name="rememberme" class="checkbox">记住我
+          </label>
+        </div></div>
+        <div class="row"><div class="columns">
+          <input type="hidden" name="tfa" value="">
+          <input type="hidden" name="authnChallenge" value="">
+          <input type="submit" value="登录" name="login_submit" class="expanded rounded primary button">
+        </div></div>
+        <div class="row"><div class="columns">
+          <a href="/oauth/github/login" class="expanded rounded button">Login with GitHub</a>
+        </div></div><div class="row"><div class="columns">
+          <a href="/oauth/telegram/login" class="expanded rounded button">Login with Telegram</a>
+        </div></div><div class="row"><div class="columns">
+          <a href="/oauth/wechat/login" class="expanded rounded button">Login with Wechat</a>
+        </div></div><div class="row"><div class="columns">
+          <div class="supplementary text-center">
+            <a href="/lostpass">忘记密码或者用户名？</a>
+          </div>
+        </div></div>
+      </form>
+    </div>
+  </div>
+</div>
+        <script>
+      window.UiContextNew = '{"problemId":"codeforces-P830C","problemNumId":28632,"codeLang":"cc.cc17o2","pdoc":{"_id":"60d09bf84c755276e2eae4d0","content":"## Description\\n\\n<div><p>Vladimir wants to modernize partitions in his office. To make the office more comfortable he decided to remove a partition and plant several bamboos in a row. He thinks it would be nice if there are <span class=\\"tex-span\\"><i>n</i></span> bamboos in a row, and the <span class=\\"tex-span\\"><i>i</i></span>-th from the left is <span class=\\"tex-span\\"><i>a</i><sub class=\\"lower-index\\"><i>i</i></sub></span> meters high. </p><p>Vladimir has just planted <span class=\\"tex-span\\"><i>n</i></span> bamboos in a row, each of which has height <span class=\\"tex-span\\">0</span> meters right now, but they grow <span class=\\"tex-span\\">1</span> meter each day. In order to make the partition nice Vladimir can cut each bamboo once at any height (no greater that the height of the bamboo), and then the bamboo will stop growing.</p><p>Vladimir wants to check the bamboos each <span class=\\"tex-span\\"><i>d</i></span> days (i.e. <span class=\\"tex-span\\"><i>d</i></span> days after he planted, then after <span class=\\"tex-span\\">2<i>d</i></span> days and so on), and cut the bamboos that reached the required height. Vladimir wants the total length of bamboo parts he will cut off to be no greater than <span class=\\"tex-span\\"><i>k</i></span> meters.</p><p>What is the maximum value <span class=\\"tex-span\\"><i>d</i></span> he can choose so that he can achieve what he wants without cutting off more than <span class=\\"tex-span\\"><i>k</i></span> meters of bamboo?</p></div><div class=\\"input-specification\\"><p>The first line contains two integers <span class=\\"tex-span\\"><i>n</i></span> and <span class=\\"tex-span\\"><i>k</i></span> (<span class=\\"tex-span\\">1\u2009\u2264\u2009<i>n</i>\u2009\u2264\u2009100</span>, <span class=\\"tex-span\\">1\u2009\u2264\u2009<i>k</i>\u2009\u2264\u200910<sup class=\\"upper-index\\">11</sup></span>)&nbsp;\u2014 the number of bamboos and the maximum total length of cut parts, in meters.</p><p>The second line contains <span class=\\"tex-span\\"><i>n</i></span> integers <span class=\\"tex-span\\"><i>a</i><sub class=\\"lower-index\\">1</sub>,\u2009<i>a</i><sub class=\\"lower-index\\">2</sub>,\u2009...,\u2009<i>a</i><sub class=\\"lower-index\\"><i>n</i></sub></span> (<span class=\\"tex-span\\">1\u2009\u2264\u2009<i>a</i><sub class=\\"lower-index\\"><i>i</i></sub>\u2009\u2264\u200910<sup class=\\"upper-index\\">9</sup></span>)&nbsp;\u2014 the required heights of bamboos, in meters.</p></div><div class=\\"output-specification\\"><p>Print a single integer&nbsp;\u2014 the maximum value of <span class=\\"tex-span\\"><i>d</i></span> such that Vladimir can reach his goal.</p></div>\\n\\n## Input\\n\\n<p>The first line contains two integers <span class=\\"tex-span\\"><i>n</i></span> and <span class=\\"tex-span\\"><i>k</i></span> (<span class=\\"tex-span\\">1\u2009\u2264\u2009<i>n</i>\u2009\u2264\u2009100</span>, <span class=\\"tex-span\\">1\u2009\u2264\u2009<i>k</i>\u2009\u2264\u200910<sup class=\\"upper-index\\">11</sup></span>)&nbsp;\u2014 the number of bamboos and the maximum total length of cut parts, in meters.</p><p>The second line contains <span class=\\"tex-span\\"><i>n</i></span> integers <span class=\\"tex-span\\"><i>a</i><sub class=\\"lower-index\\">1</sub>,\u2009<i>a</i><sub class=\\"lower-index\\">2</sub>,\u2009...,\u2009<i>a</i><sub class=\\"lower-index\\"><i>n</i></sub></span> (<span class=\\"tex-span\\">1\u2009\u2264\u2009<i>a</i><sub class=\\"lower-index\\"><i>i</i></sub>\u2009\u2264\u200910<sup class=\\"upper-index\\">9</sup></span>)&nbsp;\u2014 the required heights of bamboos, in meters.</p>\\n\\n## Output\\n\\n<p>Print a single integer&nbsp;\u2014 the maximum value of <span class=\\"tex-span\\"><i>d</i></span> such that Vladimir can reach his goal.</p>\\n\\n## Samples\\n\\n```input1\\n3 4\\n1 3 5\\n\\n```\\n\\n```output1\\n3\\n\\n```\\n\\n\\n\\n\\n\\n\\n```input2\\n3 40\\n10 30 50\\n\\n```\\n\\n```output2\\n32\\n\\n```\\n\\n\\n\\n\\n## Note\\n\\n<p>In the first example Vladimir can check bamboos each <span class=\\"tex-span\\">3</span> days. Then he will cut the first and the second bamboos after <span class=\\"tex-span\\">3</span> days, and the third bamboo after <span class=\\"tex-span\\">6</span> days. The total length of cut parts is <span class=\\"tex-span\\">2\u2009+\u20090\u2009+\u20091\u2009=\u20093</span> meters.</p>\\n","owner":1,"domainId":"system","docType":10,"docId":28632,"title":"Bamboo Partition","tag":["brute force","data structures","implementation","math","number theory","sortings","two pointers","*2300"],"hidden":false,"nSubmit":0,"nAccept":0,"pid":"codeforces-P830C","data":[{"_id":"config.yaml","name":"config.yaml","size":74,"lastModified":"2021-06-21T14:02:32.711Z","etag":"e125e73755411347da7517e491167eb1"}],"config":{"count":0,"memoryMin":512,"memoryMax":512,"timeMin":2000,"timeMax":2000,"type":"remote_judge","subType":"codeforces","target":"P830C","langs":["codeforces.43","codeforces.52","codeforces.50","codeforces.80","codeforces.54","codeforces.73","codeforces.89","codeforces.59","codeforces.61","codeforces.65","codeforces.79","codeforces.9","codeforces.28","codeforces.32","codeforces.12","codeforces.60","codeforces.87","codeforces.36","codeforces.83","codeforces.88","codeforces.48","codeforces.19","codeforces.3","codeforces.4","codeforces.51","codeforces.13","codeforces.6","codeforces.7","codeforces.31","codeforces.40","codeforces.41","codeforces.70","codeforces.67","codeforces.75","codeforces.49","codeforces.20","codeforces.34","codeforces.55","codeforces"]},"difficulty":8},"canViewRecord":true,"postSubmitUrl":"/p/28632/submit","getSubmissionsUrl":"/record?fullStatus=true&pid=28632","getRecordDetailUrl":"/record/%7Brid%7D","pretestConnUrl":"record-conn?pretest=1&uidOrName=0&pid=28632&domainId=system"}';
+      window.UserContextNew = '{}';
+    </script>
+  </body>
+</html>

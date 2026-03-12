@@ -1,0 +1,25 @@
+{
+  "id": "CF-207D8",
+  "contest_id": 207,
+  "index": "D8",
+  "name": "The Beaver's Problem - 3",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 10.0,
+  "tags": [],
+  "solved_count": 98,
+  "problem_url": "https://codeforces.com/problemset/problem/207/D8",
+  "answer_index_url": "https://codeforces.com/problemset/status/207/problem/D8",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/207/problem/D8?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=207D8%20The%20Beaver%27s%20Problem%20-%203%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/207/D8",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 207D8 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

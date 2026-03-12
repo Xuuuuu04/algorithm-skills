@@ -1,0 +1,38 @@
+{
+  "id": "CF-1879D",
+  "contest_id": 1879,
+  "index": "D",
+  "name": "Sum of XOR Functions",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "divide and conquer",
+    "dp",
+    "math"
+  ],
+  "solved_count": 10133,
+  "problem_url": "https://codeforces.com/problemset/problem/1879/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1879/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1879/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1879D%20Sum%20of%20XOR%20Functions%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1879D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sum of XOR Functions - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "combinatorics",
+      "divide and conquer",
+      "dp",
+      "math",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

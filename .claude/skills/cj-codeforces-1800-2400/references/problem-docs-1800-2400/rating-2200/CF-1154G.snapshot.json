@@ -1,0 +1,39 @@
+{
+  "id": "CF-1154G",
+  "contest_id": 1154,
+  "index": "G",
+  "name": "Minimum Possible LCM",
+  "rating": 2200,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1154/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1154/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1154/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1154G%20Minimum Possible LCM%20tutorial",
+  "solved_count": 3201,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1154G",
+  "hydro_meta": {
+    "page_title": "Minimum Possible LCM - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "1024MiB"
+  }
+}

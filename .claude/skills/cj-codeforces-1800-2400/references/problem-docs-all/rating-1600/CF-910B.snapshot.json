@@ -1,0 +1,28 @@
+{
+  "id": "CF-910B",
+  "contest_id": 910,
+  "index": "B",
+  "name": "Door Frames",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 1833,
+  "problem_url": "https://codeforces.com/problemset/problem/910/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/910/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/910/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=910B%20Door%20Frames%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/910/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 910B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

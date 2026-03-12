@@ -1,0 +1,30 @@
+{
+  "id": "CF-54E",
+  "contest_id": 54,
+  "index": "E",
+  "name": "Vacuum Сleaner",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "geometry"
+  ],
+  "solved_count": 213,
+  "problem_url": "https://codeforces.com/problemset/problem/54/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/54/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/54/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=54E%20Vacuum%20%D0%A1leaner%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P54E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vacuum Сleaner - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

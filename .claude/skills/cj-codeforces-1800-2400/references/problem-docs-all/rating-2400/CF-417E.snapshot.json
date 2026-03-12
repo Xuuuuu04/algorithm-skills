@@ -1,0 +1,34 @@
+{
+  "id": "CF-417E",
+  "contest_id": 417,
+  "index": "E",
+  "name": "Square Table",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 919,
+  "problem_url": "https://codeforces.com/problemset/problem/417/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/417/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/417/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=417E%20Square%20Table%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P417E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Square Table - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "math",
+      "probabilities",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

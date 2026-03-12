@@ -1,0 +1,35 @@
+{
+  "id": "CF-1889F",
+  "contest_id": 1889,
+  "index": "F",
+  "name": "Doremy's Average Tree",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 152,
+  "problem_url": "https://codeforces.com/problemset/problem/1889/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1889/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1889/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1889F%20Doremy%27s%20Average%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1889F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Doremy's Average Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "1024MiB"
+  }
+}

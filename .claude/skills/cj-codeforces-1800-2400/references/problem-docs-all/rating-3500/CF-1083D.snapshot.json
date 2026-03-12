@@ -1,0 +1,32 @@
+{
+  "id": "CF-1083D",
+  "contest_id": 1083,
+  "index": "D",
+  "name": "The Fair Nut's getting crazy",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 351,
+  "problem_url": "https://codeforces.com/problemset/problem/1083/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1083/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1083/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1083D%20The%20Fair%20Nut%27s%20getting%20crazy%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1083D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Fair Nut's getting crazy - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "implementation",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 2,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

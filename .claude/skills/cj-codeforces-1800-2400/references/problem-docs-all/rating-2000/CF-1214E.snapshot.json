@@ -1,0 +1,31 @@
+{
+  "id": "CF-1214E",
+  "contest_id": 1214,
+  "index": "E",
+  "name": "Petya and Construction Set",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "math",
+    "sortings",
+    "trees"
+  ],
+  "solved_count": 2849,
+  "problem_url": "https://codeforces.com/problemset/problem/1214/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1214/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1214/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1214E%20Petya%20and%20Construction%20Set%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1214/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1214E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "512 megabytes"
+  }
+}

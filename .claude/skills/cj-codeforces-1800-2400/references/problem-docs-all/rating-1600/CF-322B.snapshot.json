@@ -1,0 +1,32 @@
+{
+  "id": "CF-322B",
+  "contest_id": 322,
+  "index": "B",
+  "name": "Ciel and Flowers",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 13053,
+  "problem_url": "https://codeforces.com/problemset/problem/322/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/322/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/322/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=322B%20Ciel%20and%20Flowers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P322B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ciel and Flowers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

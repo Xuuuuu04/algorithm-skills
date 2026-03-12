@@ -1,0 +1,36 @@
+{
+  "id": "CF-2034F1",
+  "contest_id": 2034,
+  "index": "F1",
+  "name": "Khayyam's Royal Decree (Easy Version)",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 875,
+  "problem_url": "https://codeforces.com/problemset/problem/2034/F1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2034/problem/F1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2034/problem/F1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2034F1%20Khayyam%27s%20Royal%20Decree%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2034F1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Khayyam's Royal Decree (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "sortings",
+      "*2500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

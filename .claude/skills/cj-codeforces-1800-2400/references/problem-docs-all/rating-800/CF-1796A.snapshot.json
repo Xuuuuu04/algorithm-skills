@@ -1,0 +1,29 @@
+{
+  "id": "CF-1796A",
+  "contest_id": 1796,
+  "index": "A",
+  "name": "Typical Interview Problem",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 19607,
+  "problem_url": "https://codeforces.com/problemset/problem/1796/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1796/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1796/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1796A%20Typical%20Interview%20Problem%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1796A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1796A Typical Interview Problem - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 108,
+    "mirror_attempt": 204,
+    "time_limit": "2000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

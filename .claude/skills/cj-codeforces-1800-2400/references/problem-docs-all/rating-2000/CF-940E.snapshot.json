@@ -1,0 +1,30 @@
+{
+  "id": "CF-940E",
+  "contest_id": 940,
+  "index": "E",
+  "name": "Cashback",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 4345,
+  "problem_url": "https://codeforces.com/problemset/problem/940/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/940/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/940/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=940E%20Cashback%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/940/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 940E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1702G1",
+  "contest_id": 1702,
+  "index": "G1",
+  "name": "Passable Paths (easy version)",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dfs and similar",
+    "trees"
+  ],
+  "solved_count": 6222,
+  "problem_url": "https://codeforces.com/problemset/problem/1702/G1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1702/problem/G1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1702/problem/G1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1702G1%20Passable%20Paths%20%28easy%20version%29%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1702G1",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1702G1 Passable Paths (easy version) - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 287,
+    "mirror_attempt": 561,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

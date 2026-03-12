@@ -1,0 +1,32 @@
+{
+  "id": "CF-425A",
+  "contest_id": 425,
+  "index": "A",
+  "name": "Sereja and Swaps",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "sortings"
+  ],
+  "solved_count": 4127,
+  "problem_url": "https://codeforces.com/problemset/problem/425/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/425/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/425/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=425A%20Sereja%20and%20Swaps%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P425A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Sereja and Swaps - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "sortings",
+      "*1500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

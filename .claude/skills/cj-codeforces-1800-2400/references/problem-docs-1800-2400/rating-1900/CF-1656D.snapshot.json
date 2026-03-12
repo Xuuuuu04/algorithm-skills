@@ -1,0 +1,36 @@
+{
+  "id": "CF-1656D",
+  "contest_id": 1656,
+  "index": "D",
+  "name": "K-good",
+  "rating": 1900,
+  "tags": [
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1656/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1656/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1656/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1656D%20K-good%20tutorial",
+  "solved_count": 7506,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1656D",
+  "hydro_meta": {
+    "page_title": "K-good - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "math",
+      "number theory"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-813B",
+  "contest_id": 813,
+  "index": "B",
+  "name": "The Golden Age",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "math"
+  ],
+  "solved_count": 4401,
+  "problem_url": "https://codeforces.com/problemset/problem/813/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/813/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/813/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=813B%20The%20Golden%20Age%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P813B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Golden Age - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "math",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-2062H",
+  "contest_id": 2062,
+  "index": "H",
+  "name": "Galaxy Generator",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 4500.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "dp"
+  ],
+  "solved_count": 151,
+  "problem_url": "https://codeforces.com/problemset/problem/2062/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/2062/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2062/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2062H%20Galaxy%20Generator%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2062/H",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2062H - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

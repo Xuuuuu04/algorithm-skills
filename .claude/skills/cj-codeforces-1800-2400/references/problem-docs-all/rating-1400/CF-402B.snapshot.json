@@ -1,0 +1,28 @@
+{
+  "id": "CF-402B",
+  "contest_id": 402,
+  "index": "B",
+  "name": "Trees in a Row",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 3973,
+  "problem_url": "https://codeforces.com/problemset/problem/402/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/402/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/402/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=402B%20Trees%20in%20a%20Row%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/402/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 402B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

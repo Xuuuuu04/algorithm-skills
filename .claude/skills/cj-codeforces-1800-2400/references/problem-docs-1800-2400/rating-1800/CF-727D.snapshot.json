@@ -1,0 +1,37 @@
+{
+  "id": "CF-727D",
+  "contest_id": 727,
+  "index": "D",
+  "name": "T-shirts Distribution",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "flows",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/727/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/727/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/727/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=727D%20T-shirts Distribution%20tutorial",
+  "solved_count": 2055,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "网络流（最大流/最小割）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P727D",
+  "hydro_meta": {
+    "page_title": "T-shirts Distribution - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "flows",
+      "greedy",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

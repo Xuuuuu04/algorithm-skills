@@ -1,0 +1,30 @@
+{
+  "id": "CF-1311C",
+  "contest_id": 1311,
+  "index": "C",
+  "name": "Perform the Combo",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 16759,
+  "problem_url": "https://codeforces.com/problemset/problem/1311/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1311/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1311/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1311C%20Perform%20the%20Combo%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1311C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Perform the Combo - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

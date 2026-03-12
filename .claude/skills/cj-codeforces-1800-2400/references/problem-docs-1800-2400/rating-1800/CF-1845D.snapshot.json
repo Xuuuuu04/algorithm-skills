@@ -1,0 +1,47 @@
+{
+  "id": "CF-1845D",
+  "contest_id": 1845,
+  "index": "D",
+  "name": "Rating System",
+  "rating": 1800,
+  "tags": [
+    "binary search",
+    "brute force",
+    "data structures",
+    "dp",
+    "dsu",
+    "greedy",
+    "math",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1845/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1845/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1845/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1845D%20Rating System%20tutorial",
+  "solved_count": 8922,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1845D",
+  "hydro_meta": {
+    "page_title": "Rating System - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "dsu",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

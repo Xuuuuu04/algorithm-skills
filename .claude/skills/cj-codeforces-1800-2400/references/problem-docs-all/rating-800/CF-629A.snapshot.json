@@ -1,0 +1,30 @@
+{
+  "id": "CF-629A",
+  "contest_id": 629,
+  "index": "A",
+  "name": "Far Relative’s Birthday Cake",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "constructive algorithms",
+    "implementation"
+  ],
+  "solved_count": 14702,
+  "problem_url": "https://codeforces.com/problemset/problem/629/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/629/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/629/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=629A%20Far%20Relative%E2%80%99s%20Birthday%20Cake%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF629A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF629A Far Relative’s Birthday Cake - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 968,
+    "mirror_attempt": 2069,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

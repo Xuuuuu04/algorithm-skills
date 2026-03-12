@@ -1,0 +1,29 @@
+{
+  "id": "CF-1754B",
+  "contest_id": 1754,
+  "index": "B",
+  "name": "Kevin and Permutation",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 19673,
+  "problem_url": "https://codeforces.com/problemset/problem/1754/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1754/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1754/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1754B%20Kevin%20and%20Permutation%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1754B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1754B Kevin and Permutation - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 352,
+    "mirror_attempt": 567,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

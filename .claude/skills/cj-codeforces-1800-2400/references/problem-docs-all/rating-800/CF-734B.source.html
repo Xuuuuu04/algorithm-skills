@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF734B Anton and Digits - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF734B","type":"CF","title":"Anton and Digits","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":325,"totalAccepted":188,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Anton and Digits","background":null,"description":"\u6700\u8fd1 Anton \u5728\u4ed6\u7684\u623f\u95f4\u91cc\u53d1\u73b0\u4e86\u4e00\u4e2a\u88c5\u7740\u6570\u5b57\u7684\u76d2\u5b50\u3002\u76d2\u5b50\u91cc\u6709 $k_{2}$ \u4e2a\u6570\u5b57 $2$\uff0c$k_{3}$ \u4e2a\u6570\u5b57 $3$\uff0c$k_{5}$ \u4e2a\u6570\u5b57 $5$\uff0c$k_{6}$ \u4e2a\u6570\u5b57 $6$\u3002\n\nAnton \u6700\u559c\u6b22\u7684\u6574\u6570\u662f $32$ \u548c $256$\u3002\u4ed6\u6253\u7b97\u7528\u8fd9\u4e9b\u6570\u5b57\u6765\u7ec4\u6210\u8fd9\u4e24\u4e2a\u6570\u3002\u4ed6\u5e0c\u671b\u8fd9\u4e9b\u6574\u6570\u7684\u548c\u5c3d\u53ef\u80fd\u5927\u3002\u8bf7\u4f60\u5e2e\u4ed6\u5b8c\u6210\u8fd9\u4e2a\u4efb\u52a1\u3002\n\n\u6bcf\u4e2a\u6570\u5b57\u6700\u591a\u53ea\u80fd\u4f7f\u7528\u4e00\u6b21\uff0c\u5373\u7ec4\u6210\u7684\u6bcf\u4e2a\u6574\u6570\u4e2d\u6240\u5305\u542b\u7684\u5404\u4e2a\u6570\u5b57\u6570\u91cf\u4e0d\u5f97\u8d85\u8fc7\u76d2\u5b50\u4e2d\u5404\u81ea\u7684\u6570\u91cf\u3002\u5f53\u7136\uff0c\u672a\u4f7f\u7528\u7684\u6570\u5b57\u4e0d\u8ba1\u5165\u603b\u548c\u3002","formatI":"\u8f93\u5165\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u56db\u4e2a\u6574\u6570 $k_{2}$\u3001$k_{3}$\u3001$k_{5}$ \u548c $k_{6}$\uff0c\u5206\u522b\u8868\u793a\u6570\u5b57 $2$\u3001$3$\u3001$5$ \u548c $6$ \u7684\u6570\u91cf\uff08$0 \\leq k_{2}, k_{3}, k_{5}, k_{6} \\leq 5 \\times 10^{6}$\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a Anton \u80fd\u591f\u7528\u8fd9\u4e9b\u6570\u5b57\u7ec4\u6210\u4ed6\u6700\u559c\u6b22\u7684\u6574\u6570\u5e76\u83b7\u5f97\u7684\u6700\u5927\u53ef\u80fd\u7684\u603b\u548c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6709 $5$ \u4e2a\u6570\u5b57 $2$\uff0c$1$ \u4e2a\u6570\u5b57 $3$\uff0c$3$ \u4e2a\u6570\u5b57 $5$\uff0c\u548c $4$ \u4e2a\u6570\u5b57 $6$\u3002Anton \u53ef\u4ee5\u7ec4\u6210\u4e09\u4e2a $256$ \u548c\u4e00\u4e2a $32$\uff0c\u4ece\u800c\u5f97\u5230 $256+256+256+32=800$\u3002\u6ce8\u610f\uff0c\u8fd8\u6709\u4e00\u4e2a\u672a\u4f7f\u7528\u7684\u6570\u5b57 $2$ \u548c\u4e00\u4e2a\u672a\u4f7f\u7528\u7684\u6570\u5b57 $6$\uff0c\u5b83\u4eec\u4e0d\u8ba1\u5165\u7b54\u6848\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6700\u4f18\u65b9\u6848\u662f\u53ea\u7ec4\u6210\u4e00\u4e2a $256$\uff0c\u56e0\u6b64\u7b54\u6848\u4e3a $256$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Anton and Digits","background":"","description":"Recently Anton found a box with digits in his room. There are $ k_{2} $ digits $ 2 $ , $ k_{3} $ digits $ 3 $ , $ k_{5} $ digits $ 5 $ and $ k_{6} $ digits $ 6 $ .\n\nAnton\u0027s favorite integers are $ 32 $ and $ 256 $ . He decided to compose this integers from digits he has. He wants to make the sum of these integers as large as possible. Help him solve this task!\n\nEach digit can be used no more than once, i.e. the composed integers should contain no more than $ k_{2} $ digits $ 2 $ , $ k_{3} $ digits $ 3 $ and so on. Of course, unused digits are not counted in the sum.","formatI":"The only line of the input contains four integers $ k_{2} $ , $ k_{3} $ , $ k_{5} $ and $ k_{6} $ \u2014 the number of digits $ 2 $ , $ 3 $ , $ 5 $ and $ 6 $ respectively ( $ 0\u003C=k_{2},k_{3},k_{5},k_{6}\u003C=5\u00b710^{6} $ ).","formatO":"Print one integer \u2014 maximum possible sum of Anton\u0027s favorite integers that can be composed using digits from the box.","hint":"In the first sample, there are five digits $ 2 $ , one digit $ 3 $ , three digits $ 5 $ and four digits $ 6 $ . Anton can compose three integers $ 256 $ and one integer $ 32 $ to achieve the value $ 256+256+256+32=800 $ . Note, that there is one unused integer $ 2 $ and one unused integer $ 6 $ . They are not counted in the answer.\n\nIn the second sample, the optimal answer is to create on integer $ 256 $ , thus the answer is $ 256 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["5 1 3 4\n","800\n"],["1 1 1 1\n","256\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"734B","link":"https:\/\/codeforces.com\/problemset\/problem\/734\/B"},"translation":"Anton\u6700\u8fd1\u627e\u5230\u4e86\u4e00\u4e2a\u88c5\u7740\u4e00\u4e9b\u6570\u5b57\u7684\u76d2\u5b50\uff0c\u5176\u4e2d\u6709k2\u4e2a2\uff0ck3\u4e2a3\uff0ck5\u4e2a5,k6\u4e2a6\uff1b\n\nAnton\u6700\u559c\u6b22\u7684\u4e24\u4e2a\u6570\u5b57\u662f32\u548c256\uff0c\u4ed6\u60f3\u7528\u76d2\u5b50\u91cc\u7684\u6570\u5b57\u6765\u7ec4\u6210\u4ed6\u559c\u6b22\u7684\u6570\u5b57\uff0c\u5e76\u4e14\u4ed6\u60f3\u8ba9\u7ec4\u6210\u7684\u8fd9\u4e9b\u6570\u5b57\u4e4b\u548c\u6700\u5927\uff0c\u8bf7\u5e2e\u52a9\u4ed6\u5b8c\u6210\u8fd9\u4e2a\u95ee\u9898\n\n\u6bcf\u4e2a\u6570\u5b57\u90fd\u4e0d\u80fd\u91cd\u590d\u4f7f\u7528\uff0c\u610f\u601d\u5c31\u662f\u7ec4\u6210\u7684\u6570\u5b57\u6240\u5305\u542b\u76842\uff0c3\uff0c5\uff0c6\u6570\u91cf\u4e0d\u80fd\u591a\u4e8e\u603b\u51712\uff0c3\uff0c5\uff0c6\u6240\u6709\u7684\u6570\u91cf\uff0c\u5f53\u7136\u4e86\uff0c\u6ca1\u6709\u53c2\u4e0e\u7684\u6570\u5b57\u5e76\u4e0d\u7b97\u5165\u603b\u6570\u5185\n\n\u539f\u6587\uff1aRecently Anton found a box with digits in his room. There are k_{2} k \n2\n\u200b\t  digits 2 2 , k_{3} k \n3\n\u200b\t  digits 3 3 , k_{5} k \n5\n\u200b\t  digits 5 5 and k_{6} k \n6\n\u200b\t  digits 6 6 .\n\nAnton\u0027s favorite integers are 32 32 and 256 256 . He decided to compose this integers from digits he has. He wants to make the sum of these integers as large as possible. Help him solve this task!\n\nEach digit can be used no more than once, i.e. the composed integers should contain no more than k_{2} k \n2\n\u200b\t  digits 2 2 , k_{3} k \n3\n\u200b\t  digits 3 3 and so on. Of course, unused digits are not counted in the sum."},"translations":{"en":{"name":"Anton and Digits","background":"","description":"Recently Anton found a box with digits in his room. There are $ k_{2} $ digits $ 2 $ , $ k_{3} $ digits $ 3 $ , $ k_{5} $ digits $ 5 $ and $ k_{6} $ digits $ 6 $ .\n\nAnton\u0027s favorite integers are $ 32 $ and $ 256 $ . He decided to compose this integers from digits he has. He wants to make the sum of these integers as large as possible. Help him solve this task!\n\nEach digit can be used no more than once, i.e. the composed integers should contain no more than $ k_{2} $ digits $ 2 $ , $ k_{3} $ digits $ 3 $ and so on. Of course, unused digits are not counted in the sum.","formatI":"The only line of the input contains four integers $ k_{2} $ , $ k_{3} $ , $ k_{5} $ and $ k_{6} $ \u2014 the number of digits $ 2 $ , $ 3 $ , $ 5 $ and $ 6 $ respectively ( $ 0\u003C=k_{2},k_{3},k_{5},k_{6}\u003C=5\u00b710^{6} $ ).","formatO":"Print one integer \u2014 maximum possible sum of Anton\u0027s favorite integers that can be composed using digits from the box.","hint":"In the first sample, there are five digits $ 2 $ , one digit $ 3 $ , three digits $ 5 $ and four digits $ 6 $ . Anton can compose three integers $ 256 $ and one integer $ 32 $ to achieve the value $ 256+256+256+32=800 $ . Note, that there is one unused integer $ 2 $ and one unused integer $ 6 $ . They are not counted in the answer.\n\nIn the second sample, the optimal answer is to create on integer $ 256 $ , thus the answer is $ 256 $ .","locale":"en"},"zh-CN":{"name":"Anton and Digits","background":null,"description":"\u6700\u8fd1 Anton \u5728\u4ed6\u7684\u623f\u95f4\u91cc\u53d1\u73b0\u4e86\u4e00\u4e2a\u88c5\u7740\u6570\u5b57\u7684\u76d2\u5b50\u3002\u76d2\u5b50\u91cc\u6709 $k_{2}$ \u4e2a\u6570\u5b57 $2$\uff0c$k_{3}$ \u4e2a\u6570\u5b57 $3$\uff0c$k_{5}$ \u4e2a\u6570\u5b57 $5$\uff0c$k_{6}$ \u4e2a\u6570\u5b57 $6$\u3002\n\nAnton \u6700\u559c\u6b22\u7684\u6574\u6570\u662f $32$ \u548c $256$\u3002\u4ed6\u6253\u7b97\u7528\u8fd9\u4e9b\u6570\u5b57\u6765\u7ec4\u6210\u8fd9\u4e24\u4e2a\u6570\u3002\u4ed6\u5e0c\u671b\u8fd9\u4e9b\u6574\u6570\u7684\u548c\u5c3d\u53ef\u80fd\u5927\u3002\u8bf7\u4f60\u5e2e\u4ed6\u5b8c\u6210\u8fd9\u4e2a\u4efb\u52a1\u3002\n\n\u6bcf\u4e2a\u6570\u5b57\u6700\u591a\u53ea\u80fd\u4f7f\u7528\u4e00\u6b21\uff0c\u5373\u7ec4\u6210\u7684\u6bcf\u4e2a\u6574\u6570\u4e2d\u6240\u5305\u542b\u7684\u5404\u4e2a\u6570\u5b57\u6570\u91cf\u4e0d\u5f97\u8d85\u8fc7\u76d2\u5b50\u4e2d\u5404\u81ea\u7684\u6570\u91cf\u3002\u5f53\u7136\uff0c\u672a\u4f7f\u7528\u7684\u6570\u5b57\u4e0d\u8ba1\u5165\u603b\u548c\u3002","formatI":"\u8f93\u5165\u4ec5\u4e00\u884c\uff0c\u5305\u542b\u56db\u4e2a\u6574\u6570 $k_{2}$\u3001$k_{3}$\u3001$k_{5}$ \u548c $k_{6}$\uff0c\u5206\u522b\u8868\u793a\u6570\u5b57 $2$\u3001$3$\u3001$5$ \u548c $6$ \u7684\u6570\u91cf\uff08$0 \\leq k_{2}, k_{3}, k_{5}, k_{6} \\leq 5 \\times 10^{6}$\uff09\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a Anton \u80fd\u591f\u7528\u8fd9\u4e9b\u6570\u5b57\u7ec4\u6210\u4ed6\u6700\u559c\u6b22\u7684\u6574\u6570\u5e76\u83b7\u5f97\u7684\u6700\u5927\u53ef\u80fd\u7684\u603b\u548c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6709 $5$ \u4e2a\u6570\u5b57 $2$\uff0c$1$ \u4e2a\u6570\u5b57 $3$\uff0c$3$ \u4e2a\u6570\u5b57 $5$\uff0c\u548c $4$ \u4e2a\u6570\u5b57 $6$\u3002Anton \u53ef\u4ee5\u7ec4\u6210\u4e09\u4e2a $256$ \u548c\u4e00\u4e2a $32$\uff0c\u4ece\u800c\u5f97\u5230 $256+256+256+32=800$\u3002\u6ce8\u610f\uff0c\u8fd8\u6709\u4e00\u4e2a\u672a\u4f7f\u7528\u7684\u6570\u5b57 $2$ \u548c\u4e00\u4e2a\u672a\u4f7f\u7528\u7684\u6570\u5b57 $6$\uff0c\u5b83\u4eec\u4e0d\u8ba1\u5165\u7b54\u6848\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6700\u4f18\u65b9\u6848\u662f\u53ea\u7ec4\u6210\u4e00\u4e2a $256$\uff0c\u56e0\u6b64\u7b54\u6848\u4e3a $256$\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF734B Anton and Digits","type":2,"slug":"CF734B","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.331794,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF734B Anton and Digits","description":"\u6700\u8fd1 Anton \u5728\u4ed6\u7684\u623f\u95f4\u91cc\u53d1\u73b0\u4e86\u4e00\u4e2a\u88c5\u7740\u6570\u5b57\u7684\u76d2\u5b50\u3002\u76d2\u5b50\u91cc\u6709 k_{2} \u4e2a\u6570\u5b57 2\uff0ck_{3} \u4e2a\u6570\u5b57 3\uff0ck_{5} \u4e2a\u6570\u5b57 5\uff0ck_{6} \u4e2a\u6570\u5b57 6\u3002\nAnton \u6700\u559c\u6b22\u7684\u6574\u6570\u662f 32 \u548c 256\u3002\u4ed6\u6253\u7b97\u7528\u8fd9\u4e9b\u6570\u5b57\u6765\u7ec4\u6210\u8fd9\u4e24\u4e2a\u6570\u3002\u4ed6\u5e0c\u671b\u8fd9\u4e9b\u6574\u6570\u7684\u548c\u5c3d\u53ef\u80fd\u5927\u3002\u8bf7\u4f60\u5e2e\u4ed6\u5b8c\u6210\u8fd9\u4e2a\u4efb\u52a1\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF734B" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF734B?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF734B?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF734B Anton and Digits" />
+    <meta property="og:description" content="最近 Anton 在他的房间里发现了一个装着数字的盒子。盒子里有 k_{2} 个数字 2，k_{3} 个数字 3，k_{5} 个数字 5，k_{6} 个数字 6。
+Anton 最喜欢的整数是 32 和 256。他打算用这些数字来组成这两个数。他希望这些整数的和尽可能大。请你帮他完成这个任务。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF734B" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF734B Anton and Digits</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    最近 Anton 在他的房间里发现了一个装着数字的盒子。盒子里有 $k_{2}$ 个数字 $2$，$k_{3}$ 个数字 $3$，$k_{5}$ 个数字 $5$，$k_{6}$ 个数字 $6$。
+
+Anton 最喜欢的整数是 $32$ 和 $256$。他打算用这些数字来组成这两个数。他希望这些整数的和尽可能大。请你帮他完成这个任务。
+
+每个数字最多只能使用一次，即组成的每个整数中所包含的各个数字数量不得超过盒子中各自的数量。当然，未使用的数字不计入总和。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入仅一行，包含四个整数 $k_{2}$、$k_{3}$、$k_{5}$ 和 $k_{6}$，分别表示数字 $2$、$3$、$5$ 和 $6$ 的数量（$0 \leq k_{2}, k_{3}, k_{5}, k_{6} \leq 5 \times 10^{6}$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数，表示 Anton 能够用这些数字组成他最喜欢的整数并获得的最大可能的总和。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，有 $5$ 个数字 $2$，$1$ 个数字 $3$，$3$ 个数字 $5$，和 $4$ 个数字 $6$。Anton 可以组成三个 $256$ 和一个 $32$，从而得到 $256+256+256+32=800$。注意，还有一个未使用的数字 $2$ 和一个未使用的数字 $6$，它们不计入答案。
+
+在第二个样例中，最优方案是只组成一个 $256$，因此答案为 $256$。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

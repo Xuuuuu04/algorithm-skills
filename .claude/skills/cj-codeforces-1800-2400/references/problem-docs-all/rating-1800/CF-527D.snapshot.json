@@ -1,0 +1,38 @@
+{
+  "id": "CF-527D",
+  "contest_id": 527,
+  "index": "D",
+  "name": "Clique Problem",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 5050,
+  "problem_url": "https://codeforces.com/problemset/problem/527/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/527/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/527/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=527D%20Clique%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P527D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Clique Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1800"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "easyapi",
+  "full_name": "cangjielanguage-sig/easyapi",
+  "html_url": "https://github.com/cangjielanguage-sig/easyapi",
+  "description": "轻量级Http服务框架",
+  "stars": 0,
+  "forks": 0,
+  "language": "Cangjie",
+  "default_branch": "master",
+  "pushed_at": "2026-02-05T04:28:26Z",
+  "is_active": true,
+  "cjc_version": "1.0.0",
+  "raw_cjpm": "https://raw.githubusercontent.com/cangjielanguage-sig/easyapi/master/cjpm.toml"
+}

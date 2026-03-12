@@ -1,0 +1,41 @@
+{
+  "id": "CF-1887D",
+  "contest_id": 1887,
+  "index": "D",
+  "name": "Split",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "divide and conquer",
+    "dsu",
+    "math",
+    "trees",
+    "two pointers"
+  ],
+  "solved_count": 1249,
+  "problem_url": "https://codeforces.com/problemset/problem/1887/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1887/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1887/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1887D%20Split%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1887D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Split - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "divide and conquer",
+      "dsu",
+      "math",
+      "trees",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

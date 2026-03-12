@@ -1,0 +1,29 @@
+{
+  "id": "CF-1979A",
+  "contest_id": 1979,
+  "index": "A",
+  "name": "Guess the Maximum",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 31546,
+  "problem_url": "https://codeforces.com/problemset/problem/1979/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1979/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1979/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1979A%20Guess%20the%20Maximum%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1979A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1979A Guess the Maximum - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 169,
+    "mirror_attempt": 312,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

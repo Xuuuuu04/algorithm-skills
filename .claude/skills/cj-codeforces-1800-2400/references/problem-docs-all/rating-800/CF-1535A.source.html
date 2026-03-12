@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414419:kZo+cm1LppJb6aYrxXYbZSigASD3oznruD+JYe+WZpw=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1535A Fair Playoff - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1535A","type":"CF","title":"Fair Playoff","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":572,"totalAccepted":362,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Fair Playoff","background":null,"description":"\u6709\u56db\u540d\u9009\u624b\u53c2\u52a0\u5b63\u540e\u8d5b\u9526\u6807\u8d5b\u3002\u6bd4\u8d5b\u6309\u7167\u4ee5\u4e0b\u65b9\u5f0f\u8fdb\u884c\uff1a\u7b2c\u4e00\u540d\u9009\u624b\u4e0e\u7b2c\u4e8c\u540d\u9009\u624b\u6bd4\u8d5b\uff0c\u7b2c\u4e09\u540d\u9009\u624b\u4e0e\u7b2c\u56db\u540d\u9009\u624b\u6bd4\u8d5b\uff0c\u7136\u540e\u4e24\u7ec4\u7684\u83b7\u80dc\u8005\u5c06\u5728\u51b3\u8d5b\u4e2d\u5bf9\u51b3\u3002\n\n\u5df2\u77e5\u5728\u4e24\u540d\u9009\u624b\u7684\u6bd4\u8d5b\u4e2d\uff0c\u6280\u80fd\u503c\u66f4\u9ad8\u7684\u9009\u624b\u83b7\u80dc\u3002\u7b2c $i$ \u540d\u9009\u624b\u7684\u6280\u80fd\u503c\u4e3a $s_i$\uff0c\u5e76\u4e14\u6240\u6709\u6280\u80fd\u503c\u4e24\u4e24\u4e0d\u540c\uff08\u5373\u6570\u7ec4 $s$ \u4e2d\u6ca1\u6709\u4e24\u4e2a\u76f8\u540c\u7684\u503c\uff09\u3002\n\n\u5982\u679c\u6280\u80fd\u503c\u6700\u9ad8\u7684\u4e24\u540d\u9009\u624b\u5728\u51b3\u8d5b\u4e2d\u76f8\u9047\uff0c\u5219\u79f0\u8be5\u9526\u6807\u8d5b\u662f\u516c\u5e73\u7684\u3002\n\n\u8bf7\u5224\u65ad\u7ed9\u5b9a\u7684\u9526\u6807\u8d5b\u662f\u5426\u516c\u5e73\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5360\u4e00\u884c\uff0c\u5305\u542b\u56db\u4e2a\u6574\u6570 $s_1, s_2, s_3, s_4$\uff08$1 \\le s_i \\le 100$\uff09\uff0c\u8868\u793a\u56db\u540d\u9009\u624b\u7684\u6280\u80fd\u503c\u3002\u4fdd\u8bc1\u8fd9\u56db\u4e2a\u6570\u5404\u4e0d\u76f8\u540c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u9526\u6807\u8d5b\u516c\u5e73\uff0c\u8f93\u51fa YES\uff0c\u5426\u5219\u8f93\u51fa NO\u3002","hint":"\u4f8b\u5982\uff1a\n\n1. \u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6280\u80fd\u503c\u4e3a $7$ \u548c $9$ \u7684\u7b2c 2 \u540d\u548c\u7b2c 3 \u540d\u9009\u624b\u8fdb\u5165\u51b3\u8d5b\uff1b\n2. \u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6280\u80fd\u503c\u4e3a $5$ \u548c $9$ \u7684\u7b2c 2 \u540d\u548c\u7b2c 4 \u540d\u9009\u624b\u8fdb\u5165\u51b3\u8d5b\u3002\u6280\u80fd\u503c\u4e3a $6$ \u7684\u9009\u624b\u672a\u8fdb\u5165\u51b3\u8d5b\uff0c\u4f46\u6280\u80fd\u503c\u4e3a $5$ \u7684\u9009\u624b\u8fdb\u5165\u4e86\u51b3\u8d5b\uff0c\u56e0\u6b64\u8be5\u9526\u6807\u8d5b\u4e0d\u516c\u5e73\uff1b\n3. \u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6280\u80fd\u503c\u4e3a $5$ \u548c $8$ \u7684\u7b2c 1 \u540d\u548c\u7b2c 3 \u540d\u9009\u624b\u8fdb\u5165\u51b3\u8d5b\uff1b\n4. \u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6280\u80fd\u503c\u4e3a $6$ \u548c $3$ \u7684\u7b2c 1 \u540d\u548c\u7b2c 3 \u540d\u9009\u624b\u8fdb\u5165\u51b3\u8d5b\u3002\u6280\u80fd\u503c\u4e3a $5$ \u7684\u9009\u624b\u672a\u8fdb\u5165\u51b3\u8d5b\uff0c\u4f46\u6280\u80fd\u503c\u4e3a $3$ \u7684\u9009\u624b\u8fdb\u5165\u4e86\u51b3\u8d5b\uff0c\u56e0\u6b64\u8be5\u9526\u6807\u8d5b\u4e0d\u516c\u5e73\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Fair Playoff","background":"","description":"Four players participate in the playoff tournament. The tournament is held according to the following scheme: the first player will play with the second, and the third player with the fourth, then the winners of the pairs will play in the finals of the tournament.\n\nIt is known that in a match between two players, the one whose skill is greater will win. The skill of the $ i $ -th player is equal to $ s_i $ and all skill levels are pairwise different (i. e. there are no two identical values in the array $ s $ ).\n\nThe tournament is called fair if the two players with the highest skills meet in the finals.\n\nDetermine whether the given tournament is fair.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nA single line of test case contains four integers $ s_1, s_2, s_3, s_4 $ ( $ 1 \\le s_i \\le 100 $ ) \u2014 skill of the players. It is guaranteed that all the numbers in the array are different.","formatO":"For each testcase, output YES if the tournament is fair, or NO otherwise.","hint":"Consider the example:\n\n1. in the first test case, players $ 2 $ and $ 3 $ with skills $ 7 $ and $ 9 $ advance to the finals;\n2. in the second test case, players $ 2 $ and $ 4 $ with skills $ 5 $ and $ 9 $ advance to the finals. The player with skill $ 6 $ does not advance, but the player with skill $ 5 $ advances to the finals, so the tournament is not fair;\n3. in the third test case, players $ 1 $ and $ 3 $ with skills $ 5 $ and $ 8 $ advance to the finals;\n4. in the fourth test case, players $ 1 $ and $ 3 $ with skills $ 6 $ and $ 3 $ advance to the finals. The player with skill $ 5 $ does not advance, but the player with skill $ 3 $ advances to the finals, so the tournament is not fair.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4\n3 7 9 5\n4 5 6 9\n5 3 8 1\n6 5 3 2","YES\nNO\nYES\nNO"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1535A","link":"https:\/\/codeforces.com\/problemset\/problem\/1535\/A"},"translation":"\u7ed9\u5b9a $4$ \u4e2a\u4eba\u7684\u80fd\u529b\u503c\uff0c\u7b2c\u4e00\u4e2a\u4eba\u4e0e\u7b2c\u4e8c\u4e2a\u4eba\u6bd4\u8d5b\uff0c\u7b2c\u4e09\u4e2a\u4eba\u4e0e\u7b2c\u56db\u4e2a\u4eba\u6bd4\u8d5b\uff0c\u4e24\u573a\u6bd4\u8d5b\u4e2d\u80fd\u529b\u503c\u9ad8\u7684\u4e24\u4eba\u5c06\u83b7\u80dc\u3002\u82e5\u83b7\u80dc\u7684\u4e24\u4e2a\u4eba\u662f $4$ \u4eba\u4e2d\u80fd\u529b\u503c\u6700\u9ad8\u7684\uff0c\u5219\u8be5\u6bd4\u8d5b\u516c\u5e73\uff0c\u8f93\u51fa `YES`\uff0c\u5426\u5219\u8f93\u51fa `NO`\u3002  \n\n**\u672c\u9898\u6709\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002**"},"translations":{"en":{"name":"Fair Playoff","background":"","description":"Four players participate in the playoff tournament. The tournament is held according to the following scheme: the first player will play with the second, and the third player with the fourth, then the winners of the pairs will play in the finals of the tournament.\n\nIt is known that in a match between two players, the one whose skill is greater will win. The skill of the $ i $ -th player is equal to $ s_i $ and all skill levels are pairwise different (i. e. there are no two identical values in the array $ s $ ).\n\nThe tournament is called fair if the two players with the highest skills meet in the finals.\n\nDetermine whether the given tournament is fair.","formatI":"The first line contains a single integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases.\n\nA single line of test case contains four integers $ s_1, s_2, s_3, s_4 $ ( $ 1 \\le s_i \\le 100 $ ) \u2014 skill of the players. It is guaranteed that all the numbers in the array are different.","formatO":"For each testcase, output YES if the tournament is fair, or NO otherwise.","hint":"Consider the example:\n\n1. in the first test case, players $ 2 $ and $ 3 $ with skills $ 7 $ and $ 9 $ advance to the finals;\n2. in the second test case, players $ 2 $ and $ 4 $ with skills $ 5 $ and $ 9 $ advance to the finals. The player with skill $ 6 $ does not advance, but the player with skill $ 5 $ advances to the finals, so the tournament is not fair;\n3. in the third test case, players $ 1 $ and $ 3 $ with skills $ 5 $ and $ 8 $ advance to the finals;\n4. in the fourth test case, players $ 1 $ and $ 3 $ with skills $ 6 $ and $ 3 $ advance to the finals. The player with skill $ 5 $ does not advance, but the player with skill $ 3 $ advances to the finals, so the tournament is not fair.","locale":"en"},"zh-CN":{"name":"Fair Playoff","background":null,"description":"\u6709\u56db\u540d\u9009\u624b\u53c2\u52a0\u5b63\u540e\u8d5b\u9526\u6807\u8d5b\u3002\u6bd4\u8d5b\u6309\u7167\u4ee5\u4e0b\u65b9\u5f0f\u8fdb\u884c\uff1a\u7b2c\u4e00\u540d\u9009\u624b\u4e0e\u7b2c\u4e8c\u540d\u9009\u624b\u6bd4\u8d5b\uff0c\u7b2c\u4e09\u540d\u9009\u624b\u4e0e\u7b2c\u56db\u540d\u9009\u624b\u6bd4\u8d5b\uff0c\u7136\u540e\u4e24\u7ec4\u7684\u83b7\u80dc\u8005\u5c06\u5728\u51b3\u8d5b\u4e2d\u5bf9\u51b3\u3002\n\n\u5df2\u77e5\u5728\u4e24\u540d\u9009\u624b\u7684\u6bd4\u8d5b\u4e2d\uff0c\u6280\u80fd\u503c\u66f4\u9ad8\u7684\u9009\u624b\u83b7\u80dc\u3002\u7b2c $i$ \u540d\u9009\u624b\u7684\u6280\u80fd\u503c\u4e3a $s_i$\uff0c\u5e76\u4e14\u6240\u6709\u6280\u80fd\u503c\u4e24\u4e24\u4e0d\u540c\uff08\u5373\u6570\u7ec4 $s$ \u4e2d\u6ca1\u6709\u4e24\u4e2a\u76f8\u540c\u7684\u503c\uff09\u3002\n\n\u5982\u679c\u6280\u80fd\u503c\u6700\u9ad8\u7684\u4e24\u540d\u9009\u624b\u5728\u51b3\u8d5b\u4e2d\u76f8\u9047\uff0c\u5219\u79f0\u8be5\u9526\u6807\u8d5b\u662f\u516c\u5e73\u7684\u3002\n\n\u8bf7\u5224\u65ad\u7ed9\u5b9a\u7684\u9526\u6807\u8d5b\u662f\u5426\u516c\u5e73\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 10^4$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u5360\u4e00\u884c\uff0c\u5305\u542b\u56db\u4e2a\u6574\u6570 $s_1, s_2, s_3, s_4$\uff08$1 \\le s_i \\le 100$\uff09\uff0c\u8868\u793a\u56db\u540d\u9009\u624b\u7684\u6280\u80fd\u503c\u3002\u4fdd\u8bc1\u8fd9\u56db\u4e2a\u6570\u5404\u4e0d\u76f8\u540c\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u5982\u679c\u9526\u6807\u8d5b\u516c\u5e73\uff0c\u8f93\u51fa YES\uff0c\u5426\u5219\u8f93\u51fa NO\u3002","hint":"\u4f8b\u5982\uff1a\n\n1. \u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6280\u80fd\u503c\u4e3a $7$ \u548c $9$ \u7684\u7b2c 2 \u540d\u548c\u7b2c 3 \u540d\u9009\u624b\u8fdb\u5165\u51b3\u8d5b\uff1b\n2. \u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6280\u80fd\u503c\u4e3a $5$ \u548c $9$ \u7684\u7b2c 2 \u540d\u548c\u7b2c 4 \u540d\u9009\u624b\u8fdb\u5165\u51b3\u8d5b\u3002\u6280\u80fd\u503c\u4e3a $6$ \u7684\u9009\u624b\u672a\u8fdb\u5165\u51b3\u8d5b\uff0c\u4f46\u6280\u80fd\u503c\u4e3a $5$ \u7684\u9009\u624b\u8fdb\u5165\u4e86\u51b3\u8d5b\uff0c\u56e0\u6b64\u8be5\u9526\u6807\u8d5b\u4e0d\u516c\u5e73\uff1b\n3. \u5728\u7b2c\u4e09\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6280\u80fd\u503c\u4e3a $5$ \u548c $8$ \u7684\u7b2c 1 \u540d\u548c\u7b2c 3 \u540d\u9009\u624b\u8fdb\u5165\u51b3\u8d5b\uff1b\n4. \u5728\u7b2c\u56db\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6280\u80fd\u503c\u4e3a $6$ \u548c $3$ \u7684\u7b2c 1 \u540d\u548c\u7b2c 3 \u540d\u9009\u624b\u8fdb\u5165\u51b3\u8d5b\u3002\u6280\u80fd\u503c\u4e3a $5$ \u7684\u9009\u624b\u672a\u8fdb\u5165\u51b3\u8d5b\uff0c\u4f46\u6280\u80fd\u503c\u4e3a $3$ \u7684\u9009\u624b\u8fdb\u5165\u4e86\u51b3\u8d5b\uff0c\u56e0\u6b64\u8be5\u9526\u6807\u8d5b\u4e0d\u516c\u5e73\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1535A Fair Playoff","type":2,"slug":"CF1535A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328019.881546,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1535A Fair Playoff","description":"\u6709\u56db\u540d\u9009\u624b\u53c2\u52a0\u5b63\u540e\u8d5b\u9526\u6807\u8d5b\u3002\u6bd4\u8d5b\u6309\u7167\u4ee5\u4e0b\u65b9\u5f0f\u8fdb\u884c\uff1a\u7b2c\u4e00\u540d\u9009\u624b\u4e0e\u7b2c\u4e8c\u540d\u9009\u624b\u6bd4\u8d5b\uff0c\u7b2c\u4e09\u540d\u9009\u624b\u4e0e\u7b2c\u56db\u540d\u9009\u624b\u6bd4\u8d5b\uff0c\u7136\u540e\u4e24\u7ec4\u7684\u83b7\u80dc\u8005\u5c06\u5728\u51b3\u8d5b\u4e2d\u5bf9\u51b3\u3002\n\u5df2\u77e5\u5728\u4e24\u540d\u9009\u624b\u7684\u6bd4\u8d5b\u4e2d\uff0c\u6280\u80fd\u503c\u66f4\u9ad8\u7684\u9009\u624b\u83b7\u80dc\u3002\u7b2c i \u540d\u9009\u624b\u7684\u6280\u80fd\u503c\u4e3a s_i\uff0c\u5e76\u4e14\u6240\u6709\u6280\u80fd\u503c\u4e24\u4e24\u4e0d\u540c\uff08\u5373\u6570\u7ec4\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1535A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1535A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1535A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1535A Fair Playoff" />
+    <meta property="og:description" content="有四名选手参加季后赛锦标赛。比赛按照以下方式进行：第一名选手与第二名选手比赛，第三名选手与第四名选手比赛，然后两组的获胜者将在决赛中对决。
+已知在两名选手的比赛中，技能值更高的选手获胜。第 i 名选手的技能值为 s_i，并且所有技能值两两不同（即数组…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1535A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1535A Fair Playoff</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    有四名选手参加季后赛锦标赛。比赛按照以下方式进行：第一名选手与第二名选手比赛，第三名选手与第四名选手比赛，然后两组的获胜者将在决赛中对决。
+
+已知在两名选手的比赛中，技能值更高的选手获胜。第 $i$ 名选手的技能值为 $s_i$，并且所有技能值两两不同（即数组 $s$ 中没有两个相同的值）。
+
+如果技能值最高的两名选手在决赛中相遇，则称该锦标赛是公平的。
+
+请判断给定的锦标赛是否公平。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 10^4$），表示测试用例的数量。
+
+每个测试用例占一行，包含四个整数 $s_1, s_2, s_3, s_4$（$1 \le s_i \le 100$），表示四名选手的技能值。保证这四个数各不相同。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，如果锦标赛公平，输出 YES，否则输出 NO。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                例如：
+
+1. 在第一个测试用例中，技能值为 $7$ 和 $9$ 的第 2 名和第 3 名选手进入决赛；
+2. 在第二个测试用例中，技能值为 $5$ 和 $9$ 的第 2 名和第 4 名选手进入决赛。技能值为 $6$ 的选手未进入决赛，但技能值为 $5$ 的选手进入了决赛，因此该锦标赛不公平；
+3. 在第三个测试用例中，技能值为 $5$ 和 $8$ 的第 1 名和第 3 名选手进入决赛；
+4. 在第四个测试用例中，技能值为 $6$ 和 $3$ 的第 1 名和第 3 名选手进入决赛。技能值为 $5$ 的选手未进入决赛，但技能值为 $3$ 的选手进入了决赛，因此该锦标赛不公平。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

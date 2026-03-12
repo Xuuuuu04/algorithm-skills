@@ -1,0 +1,31 @@
+{
+  "id": "CF-1758C",
+  "contest_id": 1758,
+  "index": "C",
+  "name": "Almost All Multiples",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "greedy",
+    "number theory"
+  ],
+  "solved_count": 15138,
+  "problem_url": "https://codeforces.com/problemset/problem/1758/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1758/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1758/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1758C%20Almost%20All%20Multiples%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1758C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Almost All Multiples - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "number theory"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

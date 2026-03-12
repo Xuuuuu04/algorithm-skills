@@ -1,0 +1,32 @@
+{
+  "id": "CF-1896E",
+  "contest_id": 1896,
+  "index": "E",
+  "name": "Permutation Sorting",
+  "rating": 2100,
+  "tags": [
+    "data structures",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1896/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1896/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1896/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1896E%20Permutation Sorting%20tutorial",
+  "solved_count": 2708,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1896E",
+  "hydro_meta": {
+    "page_title": "Permutation Sorting - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "sortings"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 8,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

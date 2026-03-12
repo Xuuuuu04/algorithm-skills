@@ -1,0 +1,36 @@
+{
+  "id": "CF-1609F",
+  "contest_id": 1609,
+  "index": "F",
+  "name": "Interesting Sections",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "meet-in-the-middle",
+    "two pointers"
+  ],
+  "solved_count": 943,
+  "problem_url": "https://codeforces.com/problemset/problem/1609/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1609/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1609/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1609F%20Interesting%20Sections%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1609F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Interesting Sections - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "divide and conquer",
+      "meet-in-the-middle",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

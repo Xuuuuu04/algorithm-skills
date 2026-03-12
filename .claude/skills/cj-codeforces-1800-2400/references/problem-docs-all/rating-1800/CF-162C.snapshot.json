@@ -1,0 +1,30 @@
+{
+  "id": "CF-162C",
+  "contest_id": 162,
+  "index": "C",
+  "name": "Prime factorization",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 1239,
+  "problem_url": "https://codeforces.com/problemset/problem/162/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/162/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/162/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=162C%20Prime%20factorization%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P162C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Prime factorization - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "*1800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

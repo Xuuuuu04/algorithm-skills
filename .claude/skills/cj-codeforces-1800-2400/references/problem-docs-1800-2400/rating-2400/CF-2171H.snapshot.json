@@ -1,0 +1,39 @@
+{
+  "id": "CF-2171H",
+  "contest_id": 2171,
+  "index": "H",
+  "name": "Shiori Miyagi and Maximum Array Score",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dp",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/2171/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/2171/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2171/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2171H%20Shiori Miyagi and Maximum Array Score%20tutorial",
+  "solved_count": 953,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P2171H",
+  "hydro_meta": {
+    "page_title": "Shiori Miyagi and Maximum Array Score - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "sortings",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

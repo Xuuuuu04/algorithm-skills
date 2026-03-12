@@ -1,0 +1,27 @@
+{
+  "id": "CF-278A",
+  "contest_id": 278,
+  "index": "A",
+  "name": "Circle Line",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 12724,
+  "problem_url": "https://codeforces.com/problemset/problem/278/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/278/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/278/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=278A%20Circle%20Line%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF278A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF278A Circle Line - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 66,
+    "mirror_attempt": 108,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

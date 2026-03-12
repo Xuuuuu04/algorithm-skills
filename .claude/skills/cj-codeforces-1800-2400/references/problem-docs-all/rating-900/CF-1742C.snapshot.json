@@ -1,0 +1,27 @@
+{
+  "id": "CF-1742C",
+  "contest_id": 1742,
+  "index": "C",
+  "name": "Stripes",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 39623,
+  "problem_url": "https://codeforces.com/problemset/problem/1742/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1742/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1742/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1742C%20Stripes%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1742C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1742C Stripes - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 395,
+    "mirror_attempt": 848,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

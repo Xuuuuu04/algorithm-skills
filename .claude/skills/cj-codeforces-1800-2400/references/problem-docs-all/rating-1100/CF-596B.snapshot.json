@@ -1,0 +1,32 @@
+{
+  "id": "CF-596B",
+  "contest_id": 596,
+  "index": "B",
+  "name": "Wilbur and Array",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 10846,
+  "problem_url": "https://codeforces.com/problemset/problem/596/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/596/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/596/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=596B%20Wilbur%20and%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P596B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Wilbur and Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

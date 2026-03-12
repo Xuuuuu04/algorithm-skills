@@ -1,0 +1,39 @@
+{
+  "id": "CF-1718C",
+  "contest_id": 1718,
+  "index": "C",
+  "name": "Tonya and Burenka-179",
+  "rating": 2400,
+  "tags": [
+    "data structures",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1718/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1718/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1718/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1718C%20Tonya and Burenka-179%20tutorial",
+  "solved_count": 1828,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1718C",
+  "hydro_meta": {
+    "page_title": "Tonya and Burenka-179 - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

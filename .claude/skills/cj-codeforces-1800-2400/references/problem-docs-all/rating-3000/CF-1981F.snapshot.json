@@ -1,0 +1,33 @@
+{
+  "id": "CF-1981F",
+  "contest_id": 1981,
+  "index": "F",
+  "name": "Turtle and Paths on a Tree",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 341,
+  "problem_url": "https://codeforces.com/problemset/problem/1981/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1981/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1981/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1981F%20Turtle%20and%20Paths%20on%20a%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1981F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Turtle and Paths on a Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "trees"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "4000ms",
+    "memory_limit": "1024MiB"
+  }
+}

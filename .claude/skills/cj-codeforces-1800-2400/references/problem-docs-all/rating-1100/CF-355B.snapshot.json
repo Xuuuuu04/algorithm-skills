@@ -1,0 +1,32 @@
+{
+  "id": "CF-355B",
+  "contest_id": 355,
+  "index": "B",
+  "name": "Vasya and Public Transport",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 4881,
+  "problem_url": "https://codeforces.com/problemset/problem/355/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/355/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/355/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=355B%20Vasya%20and%20Public%20Transport%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P355B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Vasya and Public Transport - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

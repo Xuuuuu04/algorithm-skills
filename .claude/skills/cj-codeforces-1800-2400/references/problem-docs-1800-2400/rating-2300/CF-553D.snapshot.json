@@ -1,0 +1,37 @@
+{
+  "id": "CF-553D",
+  "contest_id": 553,
+  "index": "D",
+  "name": "Nudist Beach",
+  "rating": 2300,
+  "tags": [
+    "binary search",
+    "graphs",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/553/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/553/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/553/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=553D%20Nudist Beach%20tutorial",
+  "solved_count": 1074,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P553D",
+  "hydro_meta": {
+    "page_title": "Nudist Beach - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "graphs",
+      "greedy",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

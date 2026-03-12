@@ -1,0 +1,22 @@
+[dependencies]
+
+[package]
+  cjc-version = "1.0.0"
+  name = "acnl"
+  description = "terminal ui library for cangjie"
+  version = "1.0.0"
+  target-dir = ""
+  src-dir = "src"
+  output-type = "static"
+  compile-option = ""
+  override-compile-option = ""
+  link-option = ""
+
+[package.package-configuration."acnl.terminal"]
+  output-type = "static"
+
+
+[package.package-configuration."acnl.examples.simple"]
+  output-type = "executable"
+
+

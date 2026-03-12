@@ -1,0 +1,30 @@
+{
+  "id": "CF-1400C",
+  "contest_id": 1400,
+  "index": "C",
+  "name": "Binary String Reconstruction",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "2-sat",
+    "brute force",
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 18378,
+  "problem_url": "https://codeforces.com/problemset/problem/1400/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1400/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1400/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1400C%20Binary%20String%20Reconstruction%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1400C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1400C Binary String Reconstruction - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 198,
+    "mirror_attempt": 376,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

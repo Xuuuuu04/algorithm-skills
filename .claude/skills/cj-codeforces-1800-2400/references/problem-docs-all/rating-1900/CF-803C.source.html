@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773415131:9/KlDoxIFEo27lca3Z/0zIUUHiWBlntj/O14A7ZdFp8=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF803C Maximal GCD - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF803C","type":"CF","title":"Maximal GCD","difficulty":4,"tags":[],"wantsTranslation":false,"totalSubmit":1511,"totalAccepted":374,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Maximal GCD","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6b63\u6574\u6570 $n$\u3002\u4f60\u9700\u8981\u6784\u9020\u4e00\u4e2a\u4e25\u683c\u9012\u589e\u7684 $k$ \u4e2a\u6b63\u6574\u6570\u5e8f\u5217 $a_1, a_2, \\ldots, a_k$\uff0c\u4f7f\u5f97\u5b83\u4eec\u7684\u548c\u7b49\u4e8e $n$\uff0c\u5e76\u4e14\u5b83\u4eec\u7684\u6700\u5927\u516c\u7ea6\u6570\u6700\u5927\u3002\n\n\u4e00\u4e2a\u5e8f\u5217\u7684\u6700\u5927\u516c\u7ea6\u6570\u662f\u6240\u6709\u5e8f\u5217\u5143\u7d20\u5747\u80fd\u6574\u9664\u7684\u6700\u5927\u6574\u6570\u3002\n\n\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u5e8f\u5217\uff0c\u8f93\u51fa $-1$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$1 \\leq n, k \\leq 10^{10}$\uff09\u3002","formatO":"\u5982\u679c\u5b58\u5728\u7b54\u6848\uff0c\u8f93\u51fa $k$ \u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u6240\u5f97\u5e8f\u5217\u3002\u5426\u5219\u8f93\u51fa $-1$\u3002\u82e5\u6709\u591a\u4e2a\u7b54\u6848\uff0c\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u4e2a\u5747\u53ef\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Maximal GCD","background":"","description":"You are given positive integer number $ n $ . You should create such strictly increasing sequence of $ k $ positive numbers $ a_{1},a_{2},...,a_{k} $ , that their sum is equal to $ n $ and greatest common divisor is maximal.\n\nGreatest common divisor of sequence is maximum of such numbers that every element of sequence is divisible by them.\n\nIf there is no possible sequence then output -1.","formatI":"The first line consists of two numbers $ n $ and $ k $ ( $ 1\u003C=n,k\u003C=10^{10} $ ).","formatO":"If the answer exists then output $ k $ numbers \u2014 resulting sequence. Otherwise output -1. If there are multiple answers, print any of them.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6 3\n","1 2 3\n"],["8 2\n","2 6\n"],["5 3\n","-1\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"803C","link":"https:\/\/codeforces.com\/problemset\/problem\/803\/C"},"translation":"\u8bf7\u4f60\u6784\u9020\u4e00\u4e2a\u957f\u5ea6\u4e3a $k$ \u7684\u4e25\u683c\u4e0a\u5347\u6b63\u6574\u6570\u5e8f\u5217\uff0c\u4f7f\u5f97\u6240\u6709\u6570\u7684\u548c\u6070\u597d\u4e3a $n$\uff0c\u5e76\u4e14\u6240\u6709\u6570\u7684\u6700\u5927\u516c\u7ea6\u6570\u6700\u5927\u3002\u8f93\u51fa\u8fd9\u4e2a\u5e8f\u5217\u3002\u5982\u679c\u6ca1\u6709\u5408\u6cd5\u7684\u5e8f\u5217\u8f93\u51fa $-1$\u3002\u5982\u679c\u6709\u591a\u4e2a\u5408\u6cd5\u7684\u5e8f\u5217\uff0c\u53ef\u4ee5\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u3002\n\n$1\\le n,k\\le 10^{10}$"},"translations":{"en":{"name":"Maximal GCD","background":"","description":"You are given positive integer number $ n $ . You should create such strictly increasing sequence of $ k $ positive numbers $ a_{1},a_{2},...,a_{k} $ , that their sum is equal to $ n $ and greatest common divisor is maximal.\n\nGreatest common divisor of sequence is maximum of such numbers that every element of sequence is divisible by them.\n\nIf there is no possible sequence then output -1.","formatI":"The first line consists of two numbers $ n $ and $ k $ ( $ 1\u003C=n,k\u003C=10^{10} $ ).","formatO":"If the answer exists then output $ k $ numbers \u2014 resulting sequence. Otherwise output -1. If there are multiple answers, print any of them.","hint":"","locale":"en"},"zh-CN":{"name":"Maximal GCD","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6b63\u6574\u6570 $n$\u3002\u4f60\u9700\u8981\u6784\u9020\u4e00\u4e2a\u4e25\u683c\u9012\u589e\u7684 $k$ \u4e2a\u6b63\u6574\u6570\u5e8f\u5217 $a_1, a_2, \\ldots, a_k$\uff0c\u4f7f\u5f97\u5b83\u4eec\u7684\u548c\u7b49\u4e8e $n$\uff0c\u5e76\u4e14\u5b83\u4eec\u7684\u6700\u5927\u516c\u7ea6\u6570\u6700\u5927\u3002\n\n\u4e00\u4e2a\u5e8f\u5217\u7684\u6700\u5927\u516c\u7ea6\u6570\u662f\u6240\u6709\u5e8f\u5217\u5143\u7d20\u5747\u80fd\u6574\u9664\u7684\u6700\u5927\u6574\u6570\u3002\n\n\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u5e8f\u5217\uff0c\u8f93\u51fa $-1$\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$1 \\leq n, k \\leq 10^{10}$\uff09\u3002","formatO":"\u5982\u679c\u5b58\u5728\u7b54\u6848\uff0c\u8f93\u51fa $k$ \u4e2a\u6b63\u6574\u6570\uff0c\u8868\u793a\u6240\u5f97\u5e8f\u5217\u3002\u5426\u5219\u8f93\u51fa $-1$\u3002\u82e5\u6709\u591a\u4e2a\u7b54\u6848\uff0c\u8f93\u51fa\u5176\u4e2d\u4efb\u610f\u4e00\u4e2a\u5747\u53ef\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF803C Maximal GCD","type":2,"slug":"CF803C","color":"orange-3"},"discussions":[{"id":591827,"title":"\u6c42\u52a9\u4f18\u5316","author":{"uid":561529,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/561529.png","name":"Infinite_Energy","slogan":"\u8749\u65f6\u96e8 \u5316\u6210\u6de1\u58a8\u6e32\u67d3\u66ae\u8272 \u6e17\u900f\u7740 \u52fe\u52d2\u51fa\u8db3\u8ff9\u4e0e\u8f66\u8f99","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":5,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/ihfd684j.png"},"time":1680349681}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328731.645574,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF803C Maximal GCD","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6b63\u6574\u6570 n\u3002\u4f60\u9700\u8981\u6784\u9020\u4e00\u4e2a\u4e25\u683c\u9012\u589e\u7684 k \u4e2a\u6b63\u6574\u6570\u5e8f\u5217 a_1, a_2, \\ldots, a_k\uff0c\u4f7f\u5f97\u5b83\u4eec\u7684\u548c\u7b49\u4e8e n\uff0c\u5e76\u4e14\u5b83\u4eec\u7684\u6700\u5927\u516c\u7ea6\u6570\u6700\u5927\u3002\n\u4e00\u4e2a\u5e8f\u5217\u7684\u6700\u5927\u516c\u7ea6\u6570\u662f\u6240\u6709\u5e8f\u5217\u5143\u7d20\u5747\u80fd\u6574\u9664\u7684\u6700\u5927\u6574\u6570\u3002\n\u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u5e8f\u5217\uff0c\u8f93\u51fa\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF803C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF803C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF803C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF803C Maximal GCD" />
+    <meta property="og:description" content="给定一个正整数 n。你需要构造一个严格递增的 k 个正整数序列 a_1, a_2, \ldots, a_k，使得它们的和等于 n，并且它们的最大公约数最大。
+一个序列的最大公约数是所有序列元素均能整除的最大整数。
+如果不存在这样的序列，输出…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF803C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF803C Maximal GCD</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个正整数 $n$。你需要构造一个严格递增的 $k$ 个正整数序列 $a_1, a_2, \ldots, a_k$，使得它们的和等于 $n$，并且它们的最大公约数最大。
+
+一个序列的最大公约数是所有序列元素均能整除的最大整数。
+
+如果不存在这样的序列，输出 $-1$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含两个整数 $n$ 和 $k$（$1 \leq n, k \leq 10^{10}$）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    如果存在答案，输出 $k$ 个正整数，表示所得序列。否则输出 $-1$。若有多个答案，输出其中任意一个均可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

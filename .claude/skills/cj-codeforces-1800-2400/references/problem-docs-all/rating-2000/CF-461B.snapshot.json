@@ -1,0 +1,29 @@
+{
+  "id": "CF-461B",
+  "contest_id": 461,
+  "index": "B",
+  "name": "Appleman and Tree",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "dfs and similar",
+    "dp",
+    "trees"
+  ],
+  "solved_count": 6909,
+  "problem_url": "https://codeforces.com/problemset/problem/461/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/461/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/461/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=461B%20Appleman%20and%20Tree%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF461B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF461B Appleman and Tree - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 683,
+    "mirror_attempt": 1258,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

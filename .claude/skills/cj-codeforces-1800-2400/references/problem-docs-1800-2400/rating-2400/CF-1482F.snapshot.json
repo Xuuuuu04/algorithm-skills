@@ -1,0 +1,33 @@
+{
+  "id": "CF-1482F",
+  "contest_id": 1482,
+  "index": "F",
+  "name": "Useful Edges",
+  "rating": 2400,
+  "tags": [
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1482/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1482/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1482/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1482F%20Useful Edges%20tutorial",
+  "solved_count": 1727,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1482F",
+  "hydro_meta": {
+    "page_title": "Useful Edges - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graphs",
+      "shortest paths",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "5000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-808G",
+  "contest_id": 808,
+  "index": "G",
+  "name": "Anthem of Berland",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "strings"
+  ],
+  "solved_count": 3606,
+  "problem_url": "https://codeforces.com/problemset/problem/808/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/808/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/808/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=808G%20Anthem%20of%20Berland%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P808G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Anthem of Berland - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "strings",
+      "*2300"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

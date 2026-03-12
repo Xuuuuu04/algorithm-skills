@@ -1,0 +1,30 @@
+{
+  "id": "CF-2135E2",
+  "contest_id": 2135,
+  "index": "E2",
+  "name": "Beyond the Palindrome (Hard Version)",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 143,
+  "problem_url": "https://codeforces.com/problemset/problem/2135/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2135/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2135/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2135E2%20Beyond%20the%20Palindrome%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2135/E2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2135E2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

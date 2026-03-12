@@ -1,0 +1,30 @@
+{
+  "id": "CF-607B",
+  "contest_id": 607,
+  "index": "B",
+  "name": "Zuma",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "dp"
+  ],
+  "solved_count": 15820,
+  "problem_url": "https://codeforces.com/problemset/problem/607/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/607/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/607/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=607B%20Zuma%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P607B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Zuma - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "*1900"
+    ],
+    "mirror_accepted": 6,
+    "mirror_attempt": 16,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

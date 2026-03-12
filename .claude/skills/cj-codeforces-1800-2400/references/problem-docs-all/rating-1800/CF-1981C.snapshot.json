@@ -1,0 +1,39 @@
+{
+  "id": "CF-1981C",
+  "contest_id": 1981,
+  "index": "C",
+  "name": "Turtle and an Incomplete Sequence",
+  "rating": 1800,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "constructive algorithms",
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 6293,
+  "problem_url": "https://codeforces.com/problemset/problem/1981/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1981/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1981/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1981C%20Turtle%20and%20an%20Incomplete%20Sequence%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1981C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Turtle and an Incomplete Sequence - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-893F",
+  "contest_id": 893,
+  "index": "F",
+  "name": "Subtree Minimum Query",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "trees"
+  ],
+  "solved_count": 2463,
+  "problem_url": "https://codeforces.com/problemset/problem/893/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/893/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/893/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=893F%20Subtree%20Minimum%20Query%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF893F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF893F Subtree Minimum Query - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 638,
+    "mirror_attempt": 1731,
+    "time_limit": "6000 ms",
+    "memory_limit": "512000 KB"
+  }
+}

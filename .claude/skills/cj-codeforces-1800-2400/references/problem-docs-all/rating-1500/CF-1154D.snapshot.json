@@ -1,0 +1,27 @@
+{
+  "id": "CF-1154D",
+  "contest_id": 1154,
+  "index": "D",
+  "name": "Walking Robot",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 10497,
+  "problem_url": "https://codeforces.com/problemset/problem/1154/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1154/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1154/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1154D%20Walking%20Robot%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1154/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1154D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

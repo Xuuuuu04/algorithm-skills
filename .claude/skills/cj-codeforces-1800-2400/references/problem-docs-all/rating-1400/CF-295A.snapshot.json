@@ -1,0 +1,32 @@
+{
+  "id": "CF-295A",
+  "contest_id": 295,
+  "index": "A",
+  "name": "Greg and Array",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 24916,
+  "problem_url": "https://codeforces.com/problemset/problem/295/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/295/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/295/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=295A%20Greg%20and%20Array%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P295A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Greg and Array - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "implementation",
+      "*1400"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

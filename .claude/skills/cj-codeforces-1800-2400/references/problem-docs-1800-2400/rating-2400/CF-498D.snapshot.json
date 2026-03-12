@@ -1,0 +1,37 @@
+{
+  "id": "CF-498D",
+  "contest_id": 498,
+  "index": "D",
+  "name": "Traffic Jams in the Land",
+  "rating": 2400,
+  "tags": [
+    "data structures",
+    "dp",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/498/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/498/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/498/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=498D%20Traffic Jams in the Land%20tutorial",
+  "solved_count": 1236,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P498D",
+  "hydro_meta": {
+    "page_title": "Traffic Jams in the Land - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "number theory",
+      "*2400"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1037A",
+  "contest_id": 1037,
+  "index": "A",
+  "name": "Packets",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 11783,
+  "problem_url": "https://codeforces.com/problemset/problem/1037/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1037/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1037/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1037A%20Packets%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1037/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1037A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

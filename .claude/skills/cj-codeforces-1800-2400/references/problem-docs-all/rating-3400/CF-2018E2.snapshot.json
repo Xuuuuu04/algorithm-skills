@@ -1,0 +1,42 @@
+{
+  "id": "CF-2018E2",
+  "contest_id": 2018,
+  "index": "E2",
+  "name": "Complex Segments (Hard Version)",
+  "rating": 3400,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "divide and conquer",
+    "dsu",
+    "greedy",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 194,
+  "problem_url": "https://codeforces.com/problemset/problem/2018/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2018/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2018/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2018E2%20Complex%20Segments%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2018E2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Complex Segments (Hard Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "divide and conquer",
+      "dsu",
+      "greedy",
+      "math",
+      "sortings",
+      "*3400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "13000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417191:NxWeAfsXscG95PAesLc8m0485ZeYX8wb0ANErixS7Ds=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1380A Three Indices - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1380A","type":"CF","title":"Three Indices","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":278,"totalAccepted":130,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Three Indices","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6392\u5217 $p_1, p_2, \\dots, p_n$\u3002\u56de\u5fc6\u4e00\u4e0b\uff0c\u5982\u679c\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6574\u6570\u5e8f\u5217\u6070\u597d\u5305\u542b $1$ \u5230 $n$ \u7684\u6240\u6709\u6574\u6570\u5404\u4e00\u6b21\uff0c\u5219\u79f0\u5176\u4e3a\u6392\u5217\u3002\n\n\u8bf7\u4f60\u627e\u5230\u4e09\u4e2a\u4e0b\u6807 $i$\u3001$j$ \u548c $k$\uff0c\u6ee1\u8db3\uff1a\n\n- $1 \\le i \u003C j \u003C k \\le n$\uff1b\n- $p_i \u003C p_j$ \u4e14 $p_j \u003E p_k$\u3002\n\n\u6216\u8005\u8bf4\u660e\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u4e0b\u6807\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $T$\uff08$1 \\le T \\le 200$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765 $2T$ \u884c\uff0c\u6bcf\u4e24\u884c\u4e3a\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 1000$\uff09\uff0c\u8868\u793a\u6392\u5217 $p$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $p_1, p_2, \\dots, p_n$\uff08$1 \\le p_i \\le n$\uff1b\u82e5 $i \\neq j$\uff0c\u5219 $p_i \\neq p_j$\uff09\uff0c\u8868\u793a\u6392\u5217 $p$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff1a\n\n- \u5982\u679c\u5b58\u5728\u6ee1\u8db3\u6761\u4ef6\u7684\u4e0b\u6807 $i$\u3001$j$ \u548c $k$\uff0c\u8f93\u51fa YES\uff08\u4e0d\u533a\u5206\u5927\u5c0f\u5199\uff09\u4ee5\u53ca\u8fd9\u4e09\u4e2a\u4e0b\u6807\uff1b\n- \u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u4e0b\u6807\uff0c\u8f93\u51fa NO\uff08\u4e0d\u533a\u5206\u5927\u5c0f\u5199\uff09\u3002\n\n\u5982\u679c\u5b58\u5728\u591a\u4e2a\u6ee1\u8db3\u6761\u4ef6\u7684\u4e0b\u6807\u4e09\u5143\u7ec4\uff0c\u53ef\u4ee5\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Three Indices","background":"","description":"You are given a permutation $ p_1, p_2, \\dots, p_n $ . Recall that sequence of $ n $ integers is called a permutation if it contains all integers from $ 1 $ to $ n $ exactly once.\n\nFind three indices $ i $ , $ j $ and $ k $ such that:\n\n- $ 1 \\le i \u003C j \u003C k \\le n $ ;\n- $ p_i \u003C p_j $ and $ p_j \u003E p_k $ .\n\n Or say that there are no such indices.","formatI":"The first line contains a single integer $ T $ ( $ 1 \\le T \\le       200 $ ) \u2014 the number of test cases.\n\nNext $ 2T $ lines contain test cases \u2014 two lines per test case. The first line of each test case contains the single integer $ n $ ( $ 3 \\le n \\le 1000 $ ) \u2014 the length of the permutation $ p $ .\n\nThe second line contains $ n $ integers $ p_1, p_2, \\dots,       p_n $ ( $ 1 \\le p_i \\le n $ ; $ p_i \\neq p_j $ if $ i \\neq       j $ ) \u2014 the permutation $ p $ .","formatO":"For each test case:\n\n- if there are such indices $ i $ , $ j $ and $ k $ , print YES (case insensitive) and the indices themselves;\n- if there are no such indices, print NO (case insensitive).\n\nIf there are multiple valid triples of indices, print any of them.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n4\n2 1 4 3\n6\n4 6 1 2 5 3\n5\n5 3 1 2 4","YES\n2 3 4\nYES\n3 5 6\nNO"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1380A","link":"https:\/\/codeforces.com\/problemset\/problem\/1380\/A"},"translation":"\u7ed9\u4f60\u4e00\u4e2a\u6392\u5217 $p$\uff0c\u627e\u5230\u4e09\u4e2a\u6570 $i,j,k$ \uff0c\u4f7f\n\n$1 \\leq i \u003C j \u003C k \\leq n$\uff1b\n\n$p_i \u003C p_j$ \u4e14 $p_j \u003E p_k$ \u3002\n\n\u82e5\u5b58\u5728\uff0c\u5219\u8f93\u51fa YES \u548c\u4f60\u7684\u65b9\u6848\uff1b\n\n\u53cd\u4e4b\uff0c\u8f93\u51fa NO \u3002"},"translations":{"en":{"name":"Three Indices","background":"","description":"You are given a permutation $ p_1, p_2, \\dots, p_n $ . Recall that sequence of $ n $ integers is called a permutation if it contains all integers from $ 1 $ to $ n $ exactly once.\n\nFind three indices $ i $ , $ j $ and $ k $ such that:\n\n- $ 1 \\le i \u003C j \u003C k \\le n $ ;\n- $ p_i \u003C p_j $ and $ p_j \u003E p_k $ .\n\n Or say that there are no such indices.","formatI":"The first line contains a single integer $ T $ ( $ 1 \\le T \\le       200 $ ) \u2014 the number of test cases.\n\nNext $ 2T $ lines contain test cases \u2014 two lines per test case. The first line of each test case contains the single integer $ n $ ( $ 3 \\le n \\le 1000 $ ) \u2014 the length of the permutation $ p $ .\n\nThe second line contains $ n $ integers $ p_1, p_2, \\dots,       p_n $ ( $ 1 \\le p_i \\le n $ ; $ p_i \\neq p_j $ if $ i \\neq       j $ ) \u2014 the permutation $ p $ .","formatO":"For each test case:\n\n- if there are such indices $ i $ , $ j $ and $ k $ , print YES (case insensitive) and the indices themselves;\n- if there are no such indices, print NO (case insensitive).\n\nIf there are multiple valid triples of indices, print any of them.","hint":"","locale":"en"},"zh-CN":{"name":"Three Indices","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u6392\u5217 $p_1, p_2, \\dots, p_n$\u3002\u56de\u5fc6\u4e00\u4e0b\uff0c\u5982\u679c\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6574\u6570\u5e8f\u5217\u6070\u597d\u5305\u542b $1$ \u5230 $n$ \u7684\u6240\u6709\u6574\u6570\u5404\u4e00\u6b21\uff0c\u5219\u79f0\u5176\u4e3a\u6392\u5217\u3002\n\n\u8bf7\u4f60\u627e\u5230\u4e09\u4e2a\u4e0b\u6807 $i$\u3001$j$ \u548c $k$\uff0c\u6ee1\u8db3\uff1a\n\n- $1 \\le i \u003C j \u003C k \\le n$\uff1b\n- $p_i \u003C p_j$ \u4e14 $p_j \u003E p_k$\u3002\n\n\u6216\u8005\u8bf4\u660e\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u4e0b\u6807\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $T$\uff08$1 \\le T \\le 200$\uff09\uff0c\u8868\u793a\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf\u3002\n\n\u63a5\u4e0b\u6765 $2T$ \u884c\uff0c\u6bcf\u4e24\u884c\u4e3a\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$3 \\le n \\le 1000$\uff09\uff0c\u8868\u793a\u6392\u5217 $p$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $p_1, p_2, \\dots, p_n$\uff08$1 \\le p_i \\le n$\uff1b\u82e5 $i \\neq j$\uff0c\u5219 $p_i \\neq p_j$\uff09\uff0c\u8868\u793a\u6392\u5217 $p$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff1a\n\n- \u5982\u679c\u5b58\u5728\u6ee1\u8db3\u6761\u4ef6\u7684\u4e0b\u6807 $i$\u3001$j$ \u548c $k$\uff0c\u8f93\u51fa YES\uff08\u4e0d\u533a\u5206\u5927\u5c0f\u5199\uff09\u4ee5\u53ca\u8fd9\u4e09\u4e2a\u4e0b\u6807\uff1b\n- \u5982\u679c\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u4e0b\u6807\uff0c\u8f93\u51fa NO\uff08\u4e0d\u533a\u5206\u5927\u5c0f\u5199\uff09\u3002\n\n\u5982\u679c\u5b58\u5728\u591a\u4e2a\u6ee1\u8db3\u6761\u4ef6\u7684\u4e0b\u6807\u4e09\u5143\u7ec4\uff0c\u53ef\u4ee5\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u3002","hint":"\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1380A Three Indices","type":2,"slug":"CF1380A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330791.601757,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1380A Three Indices","description":"\u7ed9\u5b9a\u4e00\u4e2a\u6392\u5217 p_1, p_2, \\dots, p_n\u3002\u56de\u5fc6\u4e00\u4e0b\uff0c\u5982\u679c\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6574\u6570\u5e8f\u5217\u6070\u597d\u5305\u542b 1 \u5230 n \u7684\u6240\u6709\u6574\u6570\u5404\u4e00\u6b21\uff0c\u5219\u79f0\u5176\u4e3a\u6392\u5217\u3002\n\u8bf7\u4f60\u627e\u5230\u4e09\u4e2a\u4e0b\u6807 i\u3001j \u548c k\uff0c\u6ee1\u8db3\uff1a\n\n\n\n\n\n\n\n\n\u6216\u8005\u8bf4\u660e\u4e0d\u5b58\u5728\u8fd9\u6837\u7684\u4e0b\u6807\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1380A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1380A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1380A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1380A Three Indices" />
+    <meta property="og:description" content="给定一个排列 p_1, p_2, \dots, p_n。回忆一下，如果一个长度为 n 的整数序列恰好包含 1 到 n 的所有整数各一次，则称其为排列。
+请你找到三个下标 i、j 和 k，满足：
+
+
+
+
+
+
+
+
+或者说明不存在这样的下标。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1380A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1380A Three Indices</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个排列 $p_1, p_2, \dots, p_n$。回忆一下，如果一个长度为 $n$ 的整数序列恰好包含 $1$ 到 $n$ 的所有整数各一次，则称其为排列。
+
+请你找到三个下标 $i$、$j$ 和 $k$，满足：
+
+- $1 \le i < j < k \le n$；
+- $p_i < p_j$ 且 $p_j > p_k$。
+
+或者说明不存在这样的下标。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $T$（$1 \le T \le 200$），表示测试用例的数量。
+
+接下来 $2T$ 行，每两行为一个测试用例。每个测试用例的第一行包含一个整数 $n$（$3 \le n \le 1000$），表示排列 $p$ 的长度。
+
+第二行包含 $n$ 个整数 $p_1, p_2, \dots, p_n$（$1 \le p_i \le n$；若 $i \neq j$，则 $p_i \neq p_j$），表示排列 $p$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例：
+
+- 如果存在满足条件的下标 $i$、$j$ 和 $k$，输出 YES（不区分大小写）以及这三个下标；
+- 如果不存在这样的下标，输出 NO（不区分大小写）。
+
+如果存在多个满足条件的下标三元组，可以输出任意一个。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

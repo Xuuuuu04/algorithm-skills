@@ -1,0 +1,32 @@
+{
+  "id": "CF-1205C",
+  "contest_id": 1205,
+  "index": "C",
+  "name": "Palindromic Paths",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "implementation",
+    "interactive"
+  ],
+  "solved_count": 1251,
+  "problem_url": "https://codeforces.com/problemset/problem/1205/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1205/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1205/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1205C%20Palindromic%20Paths%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1205C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Palindromic Paths - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "interactive",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

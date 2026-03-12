@@ -1,0 +1,28 @@
+{
+  "id": "CF-331A2",
+  "contest_id": 331,
+  "index": "A2",
+  "name": "Oh Sweet Beaverette",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 70.0,
+  "tags": [
+    "data structures",
+    "sortings"
+  ],
+  "solved_count": 1527,
+  "problem_url": "https://codeforces.com/problemset/problem/331/A2",
+  "answer_index_url": "https://codeforces.com/problemset/status/331/problem/A2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/331/problem/A2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=331A2%20Oh%20Sweet%20Beaverette%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/331/A2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 331A2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

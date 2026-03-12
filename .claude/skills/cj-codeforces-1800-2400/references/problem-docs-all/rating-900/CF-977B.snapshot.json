@@ -1,0 +1,28 @@
+{
+  "id": "CF-977B",
+  "contest_id": 977,
+  "index": "B",
+  "name": "Two-gram",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 48693,
+  "problem_url": "https://codeforces.com/problemset/problem/977/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/977/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/977/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=977B%20Two-gram%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF977B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF977B Two-gram - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 528,
+    "mirror_attempt": 1255,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

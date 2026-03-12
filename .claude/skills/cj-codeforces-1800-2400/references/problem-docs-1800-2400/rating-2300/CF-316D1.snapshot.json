@@ -1,0 +1,33 @@
+{
+  "id": "CF-316D1",
+  "contest_id": 316,
+  "index": "D1",
+  "name": "PE Lesson",
+  "rating": 2300,
+  "tags": [
+    "brute force",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/316/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/316/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/316/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=316D1%20PE Lesson%20tutorial",
+  "solved_count": 599,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P316D1",
+  "hydro_meta": {
+    "page_title": "PE Lesson - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dp",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

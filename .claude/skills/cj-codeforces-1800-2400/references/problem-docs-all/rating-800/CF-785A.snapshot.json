@@ -1,0 +1,28 @@
+{
+  "id": "CF-785A",
+  "contest_id": 785,
+  "index": "A",
+  "name": "Anton and Polyhedrons",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 109083,
+  "problem_url": "https://codeforces.com/problemset/problem/785/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/785/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/785/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=785A%20Anton%20and%20Polyhedrons%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF785A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF785A Anton and Polyhedrons - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 789,
+    "mirror_attempt": 1304,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

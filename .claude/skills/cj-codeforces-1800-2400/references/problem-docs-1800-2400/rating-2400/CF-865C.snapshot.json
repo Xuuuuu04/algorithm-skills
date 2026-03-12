@@ -1,0 +1,34 @@
+{
+  "id": "CF-865C",
+  "contest_id": 865,
+  "index": "C",
+  "name": "Gotta Go Fast",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/865/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/865/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/865/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=865C%20Gotta Go Fast%20tutorial",
+  "solved_count": 927,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P865C",
+  "hydro_meta": {
+    "page_title": "Gotta Go Fast - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

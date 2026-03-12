@@ -1,0 +1,33 @@
+{
+  "id": "CF-1624F",
+  "contest_id": 1624,
+  "index": "F",
+  "name": "Interacdive Problem",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "interactive"
+  ],
+  "solved_count": 3757,
+  "problem_url": "https://codeforces.com/problemset/problem/1624/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1624/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1624/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1624F%20Interacdive%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1624F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Interacdive Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "constructive algorithms",
+      "interactive"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

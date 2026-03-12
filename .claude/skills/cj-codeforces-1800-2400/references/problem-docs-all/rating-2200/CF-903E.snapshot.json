@@ -1,0 +1,36 @@
+{
+  "id": "CF-903E",
+  "contest_id": 903,
+  "index": "E",
+  "name": "Swapping Characters",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "hashing",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 1569,
+  "problem_url": "https://codeforces.com/problemset/problem/903/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/903/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/903/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=903E%20Swapping%20Characters%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P903E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Swapping Characters - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "hashing",
+      "implementation",
+      "strings",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1999F",
+  "contest_id": 1999,
+  "index": "F",
+  "name": "Expected Median",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 13722,
+  "problem_url": "https://codeforces.com/problemset/problem/1999/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1999/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1999/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1999F%20Expected%20Median%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1999/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1999F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

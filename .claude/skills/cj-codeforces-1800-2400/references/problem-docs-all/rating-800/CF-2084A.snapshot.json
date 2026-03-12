@@ -1,0 +1,28 @@
+{
+  "id": "CF-2084A",
+  "contest_id": 2084,
+  "index": "A",
+  "name": "Max and Mod",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 17277,
+  "problem_url": "https://codeforces.com/problemset/problem/2084/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2084/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2084/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2084A%20Max%20and%20Mod%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2084A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2084A Max and Mod - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-2041I",
+  "contest_id": 2041,
+  "index": "I",
+  "name": "Auto Complete",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "hashing",
+    "implementation",
+    "sortings",
+    "strings",
+    "trees"
+  ],
+  "solved_count": 660,
+  "problem_url": "https://codeforces.com/problemset/problem/2041/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/2041/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2041/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2041I%20Auto%20Complete%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2041/I",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2041I - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "4 seconds",
+    "memory_limit": "1024 megabytes"
+  }
+}

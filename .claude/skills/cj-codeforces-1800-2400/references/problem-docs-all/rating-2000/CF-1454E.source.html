@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414521:kSzfqARRvr+s+KaDgichNAYbgBUsAOlPefgw0VxnpGE=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1454E Number of Simple Paths - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1454E","type":"CF","title":"Number of Simple Paths","difficulty":4,"tags":[6,127,320],"wantsTranslation":false,"totalSubmit":483,"totalAccepted":235,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Number of Simple Paths","background":null,"description":"\u7ed9\u4f60\u4e00\u5f20 $ n $ \u4e2a\u8282\u70b9 $ n $ \u6761\u8fb9\u7684**\u65e0\u5411\u8fde\u901a\u7b80\u5355\u56fe**\uff0c\u8bf7\u4f60\u8ba1\u7b97\u51fa\u8fd9\u5f20\u56fe\u4e2d\u957f\u5ea6\u5927\u4e8e\u7b49\u4e8e $ 1 $ \u7684\u4e0d\u540c\u7684**\u7b80\u5355\u8def\u5f84**\u7684\u6570\u91cf\uff0c\u4fdd\u8bc1\u56fe\u4e2d\u6ca1\u6709\u81ea\u73af\u548c\u91cd\u8fb9\u3002\u5176\u4e2d\uff0c\u7b80\u5355\u8def\u5f84\u4e2d\u7684\u8282\u70b9\u5fc5\u987b\u4e92\u4e0d\u76f8\u540c\uff0c\u4e00\u6761\u8def\u5f84\u7684\u957f\u5ea6\u5b9a\u4e49\u4e3a\u5b83\u6240\u5305\u542b\u7684\u8fb9\u7684\u6570\u91cf\u3002\n\n\u4e24\u6761\u8def\u5f84\u4ec5\u6709\u65b9\u5411\u4e0d\u540c\u65f6\u88ab\u8ba4\u4e3a\u662f\u540c\u4e00\u6761\uff0c\u4f8b\u5982 $ 1 \\rightarrow 2 $ \u548c $ 2 \\rightarrow 1 $\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $ t ( 1 \\le t \\le 2 \\times 10^4 ) $\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u4e2d\uff0c\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $ n ( 3 \\le n \\le 2 \\times 10^5 ) $\uff0c\u8868\u793a\u56fe\u7684\u8282\u70b9\u6570\u548c\u8fb9\u6570\u3002\u63a5\u4e0b\u6765 $ n $ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570 $ u , v $\uff0c\u8868\u793a\u4e00\u6761\u65e0\u5411\u8fb9\u3002","formatO":"\u5bf9\u6bcf\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4e0d\u540c\u7684\u7b80\u5355\u8def\u5f84\u7684\u6570\u91cf\u3002\n\n\u6570\u636e\u4fdd\u8bc1\u6240\u6709\u7684 $ n $ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $ 2 \\times 10 ^ 5 $\u3002","hint":null,"locale":"zh-CN"},"content":{"name":"Number of Simple Paths","background":"","description":"You are given an undirected graph consisting of $ n $ vertices and $ n $ edges. It is guaranteed that the given graph is connected (i. e. it is possible to reach any vertex from any other vertex) and there are no self-loops and multiple edges in the graph.\n\nYour task is to calculate the number of simple paths of length at least $ 1 $ in the given graph. Note that paths that differ only by their direction are considered the same (i. e. you have to calculate the number of undirected paths). For example, paths $ [1, 2, 3] $ and $ [3, 2, 1] $ are considered the same.\n\nYou have to answer $ t $ independent test cases.\n\nRecall that a path in the graph is a sequence of vertices $ v_1, v_2, \\ldots, v_k $ such that each pair of adjacent (consecutive) vertices in this sequence is connected by an edge. The length of the path is the number of edges in it. A simple path is such a path that all vertices in it are distinct.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 2 \\cdot 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe first line of the test case contains one integer $ n $ ( $ 3 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of vertices (and the number of edges) in the graph.\n\nThe next $ n $ lines of the test case describe edges: edge $ i $ is given as a pair of vertices $ u_i $ , $ v_i $ ( $ 1 \\le u_i, v_i \\le n $ , $ u_i \\ne v_i $ ), where $ u_i $ and $ v_i $ are vertices the $ i $ -th edge connects. For each pair of vertices $ (u, v) $ , there is at most one edge between $ u $ and $ v $ . There are no edges from the vertex to itself. So, there are no self-loops and multiple edges in the graph. The graph is undirected, i. e. all its edges are bidirectional. The graph is connected, i. e. it is possible to reach any vertex from any other vertex by moving along the edges of the graph.\n\nIt is guaranteed that the sum of $ n $ does not exceed $ 2 \\cdot 10^5 $ ( $ \\sum n \\le 2 \\cdot 10^5 $ ).","formatO":"For each test case, print one integer: the number of simple paths of length at least $ 1 $ in the given graph. Note that paths that differ only by their direction are considered the same (i. e. you have to calculate the number of undirected paths).","hint":"Consider the second test case of the example. It looks like that:\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1454E\/15a8ceff907ea61845105fda5111732ae1c77867.png)\n\nThere are $ 11 $ different simple paths:\n\n1. $ [1, 2] $ ;\n2. $ [2, 3] $ ;\n3. $ [3, 4] $ ;\n4. $ [2, 4] $ ;\n5. $ [1, 2, 4] $ ;\n6. $ [1, 2, 3] $ ;\n7. $ [2, 3, 4] $ ;\n8. $ [2, 4, 3] $ ;\n9. $ [3, 2, 4] $ ;\n10. $ [1, 2, 3, 4] $ ;\n11. $ [1, 2, 4, 3] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3\n1 2\n2 3\n1 3\n4\n1 2\n2 3\n3 4\n4 2\n5\n1 2\n2 3\n1 3\n2 5\n4 3","6\n11\n18"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"1454E","link":"https:\/\/codeforces.com\/problemset\/problem\/1454\/E"},"translation":"\u7ed9\u4f60\u4e00\u5f20 $ n $ \u4e2a\u8282\u70b9 $ n $ \u6761\u8fb9\u7684**\u65e0\u5411\u8fde\u901a\u7b80\u5355\u56fe**\uff0c \u8bf7\u4f60\u8ba1\u7b97\u51fa\u8fd9\u5f20\u56fe\u4e2d\u957f\u5ea6\u5927\u4e8e\u7b49\u4e8e $ 1 $ \u7684\u4e0d\u540c\u7684**\u7b80\u5355\u8def\u5f84**\u7684\u6570\u91cf\uff0c \u4fdd\u8bc1\u56fe\u4e2d\u6ca1\u6709\u81ea\u73af\u548c\u91cd\u8fb9\u3002\u5176\u4e2d\uff0c \u7b80\u5355\u8def\u5f84\u4e2d\u7684\u8282\u70b9\u5fc5\u987b\u4e92\u4e0d\u76f8\u540c\uff0c \u4e00\u6761\u8def\u5f84\u7684\u957f\u5ea6\u5b9a\u4e49\u4e3a\u5b83\u6240\u5305\u542b\u7684\u8fb9\u7684\u6570\u91cf\u3002\n\n\u4e24\u6761\u8def\u5f84\u4ec5\u6709\u65b9\u5411\u4e0d\u540c\u65f6\u88ab\u8ba4\u4e3a\u662f\u540c\u4e00\u6761\uff0c \u4f8b\u5982 $ 1 -\u003E 2 $ \u548c $ 2 -\u003E 1 $\u3002\n\n### \u8f93\u5165\u683c\u5f0f\n\n\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $ t ( 1 \\le t \\le 2 * 10^4 ) $\uff0c \u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u4e2d\uff0c \u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $ n ( 3 \\le n \\le 2 * 10^5 ) $\uff0c \u8868\u793a\u56fe\u7684\u8282\u70b9\u6570\u548c\u8fb9\u6570\u3002\u63a5\u4e0b\u6765 $ n $ \u884c\uff0c \u6bcf\u884c\u4e24\u4e2a\u6574\u6570 $ u , v $ \uff0c \u8868\u793a\u4e00\u6761\u65e0\u5411\u8fb9\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u6bcf\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c \u8868\u793a\u4e0d\u540c\u7684\u7b80\u5355\u8def\u5f84\u7684\u6570\u91cf\u3002\n\n\u6570\u636e\u4fdd\u8bc1\u6240\u6709\u7684 $ n $ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $ 2 * 10 ^ 5 $\u3002"},"translations":{"en":{"name":"Number of Simple Paths","background":"","description":"You are given an undirected graph consisting of $ n $ vertices and $ n $ edges. It is guaranteed that the given graph is connected (i. e. it is possible to reach any vertex from any other vertex) and there are no self-loops and multiple edges in the graph.\n\nYour task is to calculate the number of simple paths of length at least $ 1 $ in the given graph. Note that paths that differ only by their direction are considered the same (i. e. you have to calculate the number of undirected paths). For example, paths $ [1, 2, 3] $ and $ [3, 2, 1] $ are considered the same.\n\nYou have to answer $ t $ independent test cases.\n\nRecall that a path in the graph is a sequence of vertices $ v_1, v_2, \\ldots, v_k $ such that each pair of adjacent (consecutive) vertices in this sequence is connected by an edge. The length of the path is the number of edges in it. A simple path is such a path that all vertices in it are distinct.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 2 \\cdot 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe first line of the test case contains one integer $ n $ ( $ 3 \\le n \\le 2 \\cdot 10^5 $ ) \u2014 the number of vertices (and the number of edges) in the graph.\n\nThe next $ n $ lines of the test case describe edges: edge $ i $ is given as a pair of vertices $ u_i $ , $ v_i $ ( $ 1 \\le u_i, v_i \\le n $ , $ u_i \\ne v_i $ ), where $ u_i $ and $ v_i $ are vertices the $ i $ -th edge connects. For each pair of vertices $ (u, v) $ , there is at most one edge between $ u $ and $ v $ . There are no edges from the vertex to itself. So, there are no self-loops and multiple edges in the graph. The graph is undirected, i. e. all its edges are bidirectional. The graph is connected, i. e. it is possible to reach any vertex from any other vertex by moving along the edges of the graph.\n\nIt is guaranteed that the sum of $ n $ does not exceed $ 2 \\cdot 10^5 $ ( $ \\sum n \\le 2 \\cdot 10^5 $ ).","formatO":"For each test case, print one integer: the number of simple paths of length at least $ 1 $ in the given graph. Note that paths that differ only by their direction are considered the same (i. e. you have to calculate the number of undirected paths).","hint":"Consider the second test case of the example. It looks like that:\n\n![](https:\/\/cdn.luogu.com.cn\/upload\/vjudge_pic\/CF1454E\/15a8ceff907ea61845105fda5111732ae1c77867.png)\n\nThere are $ 11 $ different simple paths:\n\n1. $ [1, 2] $ ;\n2. $ [2, 3] $ ;\n3. $ [3, 4] $ ;\n4. $ [2, 4] $ ;\n5. $ [1, 2, 4] $ ;\n6. $ [1, 2, 3] $ ;\n7. $ [2, 3, 4] $ ;\n8. $ [2, 4, 3] $ ;\n9. $ [3, 2, 4] $ ;\n10. $ [1, 2, 3, 4] $ ;\n11. $ [1, 2, 4, 3] $ .","locale":"en"},"zh-CN":{"name":"Number of Simple Paths","background":null,"description":"\u7ed9\u4f60\u4e00\u5f20 $ n $ \u4e2a\u8282\u70b9 $ n $ \u6761\u8fb9\u7684**\u65e0\u5411\u8fde\u901a\u7b80\u5355\u56fe**\uff0c\u8bf7\u4f60\u8ba1\u7b97\u51fa\u8fd9\u5f20\u56fe\u4e2d\u957f\u5ea6\u5927\u4e8e\u7b49\u4e8e $ 1 $ \u7684\u4e0d\u540c\u7684**\u7b80\u5355\u8def\u5f84**\u7684\u6570\u91cf\uff0c\u4fdd\u8bc1\u56fe\u4e2d\u6ca1\u6709\u81ea\u73af\u548c\u91cd\u8fb9\u3002\u5176\u4e2d\uff0c\u7b80\u5355\u8def\u5f84\u4e2d\u7684\u8282\u70b9\u5fc5\u987b\u4e92\u4e0d\u76f8\u540c\uff0c\u4e00\u6761\u8def\u5f84\u7684\u957f\u5ea6\u5b9a\u4e49\u4e3a\u5b83\u6240\u5305\u542b\u7684\u8fb9\u7684\u6570\u91cf\u3002\n\n\u4e24\u6761\u8def\u5f84\u4ec5\u6709\u65b9\u5411\u4e0d\u540c\u65f6\u88ab\u8ba4\u4e3a\u662f\u540c\u4e00\u6761\uff0c\u4f8b\u5982 $ 1 \\rightarrow 2 $ \u548c $ 2 \\rightarrow 1 $\u3002","formatI":"\u7b2c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $ t ( 1 \\le t \\le 2 \\times 10^4 ) $\uff0c\u8868\u793a\u6570\u636e\u7ec4\u6570\u3002\n\n\u6bcf\u7ec4\u6570\u636e\u4e2d\uff0c\u7b2c\u4e00\u884c\u662f\u4e00\u4e2a\u6574\u6570 $ n ( 3 \\le n \\le 2 \\times 10^5 ) $\uff0c\u8868\u793a\u56fe\u7684\u8282\u70b9\u6570\u548c\u8fb9\u6570\u3002\u63a5\u4e0b\u6765 $ n $ \u884c\uff0c\u6bcf\u884c\u4e24\u4e2a\u6574\u6570 $ u , v $\uff0c\u8868\u793a\u4e00\u6761\u65e0\u5411\u8fb9\u3002","formatO":"\u5bf9\u6bcf\u7ec4\u6570\u636e\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4e0d\u540c\u7684\u7b80\u5355\u8def\u5f84\u7684\u6570\u91cf\u3002\n\n\u6570\u636e\u4fdd\u8bc1\u6240\u6709\u7684 $ n $ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $ 2 \\times 10 ^ 5 $\u3002","hint":null,"locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1454E Number of Simple Paths","type":2,"slug":"CF1454E","color":"orange-3"},"discussions":[{"id":694016,"title":"\u8bf7\u6c42\u4fee\u6539\u7ffb\u8bd1","author":{"uid":486675,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/486675.png","name":"liaoyichen","slogan":"\u5316\u533a\u6210\u8776","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":9,"xcpcLevel":0,"background":""},"time":1695642097},{"id":282132,"title":"\u840c\u65b0\u521a\u5b66OI\uff0c\u6c42\u95ee\u8fd9\u4e2a\u4ee3\u7801\u4e3a\u5565\u4f1aTLE On #2","author":{"uid":39863,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/39863.png","name":"\u5f15\u9886\u5929\u4e0b","slogan":"\u75286\u5e74\u65f6\u95f4\uff0c\u8bb2\u597d\u4e00\u4e2a\u7b11\u8bdd\u3002","badge":"\u9b54\u9178","isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/swwvbxdm.png"},"time":1606734206}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328121.698056,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1454E Number of Simple Paths","description":"\u7ed9\u4f60\u4e00\u5f20  n  \u4e2a\u8282\u70b9  n  \u6761\u8fb9\u7684\u65e0\u5411\u8fde\u901a\u7b80\u5355\u56fe\uff0c\u8bf7\u4f60\u8ba1\u7b97\u51fa\u8fd9\u5f20\u56fe\u4e2d\u957f\u5ea6\u5927\u4e8e\u7b49\u4e8e  1  \u7684\u4e0d\u540c\u7684\u7b80\u5355\u8def\u5f84\u7684\u6570\u91cf\uff0c\u4fdd\u8bc1\u56fe\u4e2d\u6ca1\u6709\u81ea\u73af\u548c\u91cd\u8fb9\u3002\u5176\u4e2d\uff0c\u7b80\u5355\u8def\u5f84\u4e2d\u7684\u8282\u70b9\u5fc5\u987b\u4e92\u4e0d\u76f8\u540c\uff0c\u4e00\u6761\u8def\u5f84\u7684\u957f\u5ea6\u5b9a\u4e49\u4e3a\u5b83\u6240\u5305\u542b\u7684\u8fb9\u7684\u6570\u91cf\u3002\n\u4e24\u6761\u8def\u5f84\u4ec5\u6709\u65b9\u5411\u4e0d\u540c\u65f6\u88ab\u8ba4\u4e3a\u662f\u540c\u4e00\u6761\uff0c\u4f8b\u5982\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1454E" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1454E?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1454E?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1454E Number of Simple Paths" />
+    <meta property="og:description" content="给你一张  n  个节点  n  条边的无向连通简单图，请你计算出这张图中长度大于等于  1  的不同的简单路径的数量，保证图中没有自环和重边。其中，简单路径中的节点必须互不相同，一条路径的长度定义为它所包含的边的数量。
+两条路径仅有方向不同时被认为是同一条，例如…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1454E" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1454E Number of Simple Paths</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给你一张 $ n $ 个节点 $ n $ 条边的**无向连通简单图**，请你计算出这张图中长度大于等于 $ 1 $ 的不同的**简单路径**的数量，保证图中没有自环和重边。其中，简单路径中的节点必须互不相同，一条路径的长度定义为它所包含的边的数量。
+
+两条路径仅有方向不同时被认为是同一条，例如 $ 1 \rightarrow 2 $ 和 $ 2 \rightarrow 1 $。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行一个整数 $ t ( 1 \le t \le 2 \times 10^4 ) $，表示数据组数。
+
+每组数据中，第一行是一个整数 $ n ( 3 \le n \le 2 \times 10^5 ) $，表示图的节点数和边数。接下来 $ n $ 行，每行两个整数 $ u , v $，表示一条无向边。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对每组数据输出一个整数，表示不同的简单路径的数量。
+
+数据保证所有的 $ n $ 之和不超过 $ 2 \times 10 ^ 5 $。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                Consider the second test case of the example. It looks like that:
+
+![](https://cdn.luogu.com.cn/upload/vjudge_pic/CF1454E/15a8ceff907ea61845105fda5111732ae1c77867.png)
+
+There are $ 11 $ different simple paths:
+
+1. $ [1, 2] $ ;
+2. $ [2, 3] $ ;
+3. $ [3, 4] $ ;
+4. $ [2, 4] $ ;
+5. $ [1, 2, 4] $ ;
+6. $ [1, 2, 3] $ ;
+7. $ [2, 3, 4] $ ;
+8. $ [2, 4, 3] $ ;
+9. $ [3, 2, 4] $ ;
+10. $ [1, 2, 3, 4] $ ;
+11. $ [1, 2, 4, 3] $ .
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

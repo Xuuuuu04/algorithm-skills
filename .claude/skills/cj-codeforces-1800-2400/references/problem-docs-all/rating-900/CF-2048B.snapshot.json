@@ -1,0 +1,28 @@
+{
+  "id": "CF-2048B",
+  "contest_id": 2048,
+  "index": "B",
+  "name": "Kevin and Permutation",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 20456,
+  "problem_url": "https://codeforces.com/problemset/problem/2048/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2048/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2048/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2048B%20Kevin%20and%20Permutation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2048/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2048B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

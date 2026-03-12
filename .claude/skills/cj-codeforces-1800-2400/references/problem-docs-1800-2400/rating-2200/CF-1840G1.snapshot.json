@@ -1,0 +1,39 @@
+{
+  "id": "CF-1840G1",
+  "contest_id": 1840,
+  "index": "G1",
+  "name": "In Search of Truth (Easy Version)",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "interactive",
+    "math",
+    "meet-in-the-middle",
+    "probabilities"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1840/G1",
+  "answer_index_url": "https://codeforces.com/problemset/status/1840/problem/G1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1840/problem/G1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1840G1%20In Search of Truth (Easy Version)%20tutorial",
+  "solved_count": 2734,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1840G1",
+  "hydro_meta": {
+    "page_title": "In Search of Truth (Easy Version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "probabilities"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

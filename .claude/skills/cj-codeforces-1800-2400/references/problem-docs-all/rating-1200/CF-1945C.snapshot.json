@@ -1,0 +1,29 @@
+{
+  "id": "CF-1945C",
+  "contest_id": 1945,
+  "index": "C",
+  "name": "Left and Right Houses",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 17226,
+  "problem_url": "https://codeforces.com/problemset/problem/1945/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1945/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1945/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1945C%20Left%20and%20Right%20Houses%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1945C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Left and Right Houses - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

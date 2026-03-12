@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2124A Deranged Deletions - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2124A","type":"CF","title":"Deranged Deletions","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Deranged Deletions","background":null,"description":"\u5982\u679c\u4e00\u4e2a\u957f\u5ea6\u4e3a $m$ \u7684\u6570\u7ec4 $b$ \u6ee1\u8db3\u4ee5\u4e0b\u6027\u8d28\uff0c\u5219\u79f0\u5176\u4e3a\u201c\u9519\u4f4d\u6392\u5217\u201d\uff1a\n\n- \u4ee4 $c$ \u4e3a\u957f\u5ea6\u4e3a $m$ \u7684\u6570\u7ec4\uff0c\u4e14 $c_i = b_i$\uff0c\u5bf9\u4e8e\u6240\u6709 $1 \\leq i \\leq m$\u3002\n- \u5c06 $c$ \u6309\u975e\u9012\u51cf\u987a\u5e8f\u6392\u5e8f\u3002\n- \u5982\u679c\u5bf9\u4e8e\u6240\u6709 $1 \\leq i \\leq m$\uff0c\u90fd\u6709 $b_i \\neq c_i$\uff0c\u5219 $b$ \u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002\n\n\u4f8b\u5982\uff1a\n\n- \u5982\u679c $b = [4,8,3,1]$\uff0c\u5219\u6392\u5e8f\u540e $c = [1, 3, 4, 8]$\u3002\u7531\u4e8e\u6240\u6709\u4f4d\u7f6e\u4e0a $b_i \\neq c_i$\uff0c\u6240\u4ee5 $b$ \u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002\n- \u5982\u679c $b = [3,2,1]$\uff0c\u6392\u5e8f\u540e $c = [1, 2, 3]$\u3002\u7531\u4e8e $b_2 = c_2$\uff0c\u6240\u4ee5 $b$ \u4e0d\u662f\u9519\u4f4d\u6392\u5217\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\u3002\u6bcf\u6b21\u64cd\u4f5c\u4f60\u53ef\u4ee5\u4ece $a$ \u4e2d\u5220\u9664\u4e00\u4e2a\u5143\u7d20\uff0c\u5220\u9664\u540e\u5269\u4f59\u5143\u7d20\u7684\u987a\u5e8f\u4fdd\u6301\u4e0d\u53d8\u3002\n\n\u8bf7\u5224\u65ad\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\uff08\u53ef\u4ee5\u4e3a\u96f6\u6b21\uff09\u64cd\u4f5c\uff0c\u4f7f\u5f97\u5269\u4e0b\u7684\u6570\u7ec4\u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002\u5982\u679c\u53ef\u4ee5\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u53ef\u80fd\u7684\u5269\u4f59\u6570\u7ec4\u3002\u5269\u4f59\u6570\u7ec4\u5fc5\u987b\u975e\u7a7a\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u4e2a\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 100$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq n$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\uff0c\u5982\u679c\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\u64cd\u4f5c\u4f7f\u5269\u4f59\u6570\u7ec4\u4e3a\u9519\u4f4d\u6392\u5217\uff0c\u8f93\u51fa YES\uff0c\u5426\u5219\u8f93\u51fa NO\u3002\n\n\u8f93\u51fa\u4e0d\u533a\u5206\u5927\u5c0f\u5199\uff0c\u4f8b\u5982 \u0022yEs\u0022\u3001\u0022yes\u0022\u3001\u0022Yes\u0022 \u548c \u0022YES\u0022 \u90fd\u89c6\u4e3a\u80af\u5b9a\u56de\u7b54\u3002\n\n\u5982\u679c\u4f60\u7684\u56de\u7b54\u662f\u80af\u5b9a\u7684\uff0c\u8bf7\u518d\u8f93\u51fa\u4e24\u884c\uff0c\u683c\u5f0f\u5982\u4e0b\uff1a\n\n- \u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $k$\uff08$1 \\leq k \\leq n$\uff09\uff0c\u8868\u793a\u5269\u4f59\u6570\u7ec4\u7684\u5143\u7d20\u4e2a\u6570\u3002\n- \u7b2c\u4e8c\u884c\u8f93\u51fa $d_1, d_2, \\ldots, d_k$\uff0c\u8868\u793a\u5269\u4f59\u7684\u6570\u7ec4\u3002\u8be5\u6570\u7ec4\u5fc5\u987b\u53ef\u4ee5\u901a\u8fc7\u5bf9 $a$ \u8fdb\u884c\u82e5\u5e72\u6b21\u64cd\u4f5c\u5f97\u5230\uff0c\u5e76\u4e14\u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002","hint":"\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6211\u4eec\u53ef\u4ee5\u5220\u9664\u4e00\u4e2a $5$\uff0c\u4f7f\u6570\u7ec4\u53d8\u4e3a $[4,5,2,4]$\u3002\u53ef\u4ee5\u8bc1\u660e\u8be5\u6570\u7ec4\u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002\u8fd9\u4e0d\u662f\u552f\u4e00\u89e3\u2014\u2014\u539f\u6570\u7ec4 $[4,5,5,2,4]$ \u4e5f\u662f\u4e00\u4e2a\u5408\u6cd5\u89e3\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Deranged Deletions","background":"","description":"Call an array $ b $ of length $ m $ a derangement if the following property holds:\n\n- Let $ c $ be an array of length $ m $ such that $ c_i = b_i $ over all $ 1 \\leq i \\leq m $ .\n- Sort $ c $ in non-decreasing order.\n- If $ b_i\\neq c_i $ over all $ 1\\leq i \\leq m $ , then $ b $ is a derangement.\n\nFor example,\n\n- If $ b = [4,8,3,1] $ , then $ c = [1, 3, 4, 8] $ after getting sorted. Since $ b_i \\neq c_i $ in all positions, $ b $ is a derangement.\n- If $ b = [3,2,1] $ , then $ c = [1, 2, 3] $ after getting sorted. Since $ b_2 = c_2 $ , $ b $ is not a derangement.\n\nYou are given an array $ a $ of length $ n $ . In one operation, you can delete an element from $ a $ . The order of the remaining elements is preserved after each deletion.\n\nOutput whether it is possible to perform some (possibly none) operations such that the remaining elements form a derangement. If it is possible, output any possible remaining array. The remaining array must be non-empty.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). The description of the test cases follows.\n\nThe first line of each test case contains an integer $ n $ ( $ 1 \\leq n \\leq 100 $ ) \u2014 the length of array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\leq a_i \\leq n $ ) \u2014 denoting the array $ a $ .","formatO":"For each test case, on a new line, if it is possible to perform operations such that the remaining array is a derangement, output YES. Otherwise, output NO.\n\nYou can output in any case (upper or lower). For example, the strings \u0022yEs\u0022, \u0022yes\u0022, \u0022Yes\u0022, and \u0022YES\u0022 will be recognized as positive responses.\n\nIf your response was positive, output two more lines in the following format:\n\n- The first line should contain an integer $ k $ ( $ 1 \\leq k \\leq n $ ), the number of elements that remain in the array.\n- The second line should contain $ d_1, d_2 \\ldots, d_k $ , the elements that remain in the array. It must be possible to acquire array $ d $ after performing some operations on $ a $ . Array $ d $ must be a derangement.","hint":"In the second test case, we can delete one $ 5 $ from the array so that it becomes $ [4,5,2,4] $ . It can be shown this array is a derangement. This is not the only solution \u2013 it can be shown that the original array $ [4,5,5,2,4] $ is another valid solution.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3\n2 2 3\n5\n4 5 5 2 4\n1\n1","NO\nYES\n4\n4 5 2 4\nNO"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2124A","link":"https:\/\/codeforces.com\/problemset\/problem\/2124\/A"},"translation":""},"translations":{"en":{"name":"Deranged Deletions","background":"","description":"Call an array $ b $ of length $ m $ a derangement if the following property holds:\n\n- Let $ c $ be an array of length $ m $ such that $ c_i = b_i $ over all $ 1 \\leq i \\leq m $ .\n- Sort $ c $ in non-decreasing order.\n- If $ b_i\\neq c_i $ over all $ 1\\leq i \\leq m $ , then $ b $ is a derangement.\n\nFor example,\n\n- If $ b = [4,8,3,1] $ , then $ c = [1, 3, 4, 8] $ after getting sorted. Since $ b_i \\neq c_i $ in all positions, $ b $ is a derangement.\n- If $ b = [3,2,1] $ , then $ c = [1, 2, 3] $ after getting sorted. Since $ b_2 = c_2 $ , $ b $ is not a derangement.\n\nYou are given an array $ a $ of length $ n $ . In one operation, you can delete an element from $ a $ . The order of the remaining elements is preserved after each deletion.\n\nOutput whether it is possible to perform some (possibly none) operations such that the remaining elements form a derangement. If it is possible, output any possible remaining array. The remaining array must be non-empty.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1 \\le t \\le 100 $ ). The description of the test cases follows.\n\nThe first line of each test case contains an integer $ n $ ( $ 1 \\leq n \\leq 100 $ ) \u2014 the length of array $ a $ .\n\nThe second line of each test case contains $ n $ integers $ a_1, a_2, \\ldots, a_n $ ( $ 1 \\leq a_i \\leq n $ ) \u2014 denoting the array $ a $ .","formatO":"For each test case, on a new line, if it is possible to perform operations such that the remaining array is a derangement, output YES. Otherwise, output NO.\n\nYou can output in any case (upper or lower). For example, the strings \u0022yEs\u0022, \u0022yes\u0022, \u0022Yes\u0022, and \u0022YES\u0022 will be recognized as positive responses.\n\nIf your response was positive, output two more lines in the following format:\n\n- The first line should contain an integer $ k $ ( $ 1 \\leq k \\leq n $ ), the number of elements that remain in the array.\n- The second line should contain $ d_1, d_2 \\ldots, d_k $ , the elements that remain in the array. It must be possible to acquire array $ d $ after performing some operations on $ a $ . Array $ d $ must be a derangement.","hint":"In the second test case, we can delete one $ 5 $ from the array so that it becomes $ [4,5,2,4] $ . It can be shown this array is a derangement. This is not the only solution \u2013 it can be shown that the original array $ [4,5,5,2,4] $ is another valid solution.","locale":"en"},"zh-CN":{"name":"Deranged Deletions","background":null,"description":"\u5982\u679c\u4e00\u4e2a\u957f\u5ea6\u4e3a $m$ \u7684\u6570\u7ec4 $b$ \u6ee1\u8db3\u4ee5\u4e0b\u6027\u8d28\uff0c\u5219\u79f0\u5176\u4e3a\u201c\u9519\u4f4d\u6392\u5217\u201d\uff1a\n\n- \u4ee4 $c$ \u4e3a\u957f\u5ea6\u4e3a $m$ \u7684\u6570\u7ec4\uff0c\u4e14 $c_i = b_i$\uff0c\u5bf9\u4e8e\u6240\u6709 $1 \\leq i \\leq m$\u3002\n- \u5c06 $c$ \u6309\u975e\u9012\u51cf\u987a\u5e8f\u6392\u5e8f\u3002\n- \u5982\u679c\u5bf9\u4e8e\u6240\u6709 $1 \\leq i \\leq m$\uff0c\u90fd\u6709 $b_i \\neq c_i$\uff0c\u5219 $b$ \u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002\n\n\u4f8b\u5982\uff1a\n\n- \u5982\u679c $b = [4,8,3,1]$\uff0c\u5219\u6392\u5e8f\u540e $c = [1, 3, 4, 8]$\u3002\u7531\u4e8e\u6240\u6709\u4f4d\u7f6e\u4e0a $b_i \\neq c_i$\uff0c\u6240\u4ee5 $b$ \u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002\n- \u5982\u679c $b = [3,2,1]$\uff0c\u6392\u5e8f\u540e $c = [1, 2, 3]$\u3002\u7531\u4e8e $b_2 = c_2$\uff0c\u6240\u4ee5 $b$ \u4e0d\u662f\u9519\u4f4d\u6392\u5217\u3002\n\n\u73b0\u5728\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\u3002\u6bcf\u6b21\u64cd\u4f5c\u4f60\u53ef\u4ee5\u4ece $a$ \u4e2d\u5220\u9664\u4e00\u4e2a\u5143\u7d20\uff0c\u5220\u9664\u540e\u5269\u4f59\u5143\u7d20\u7684\u987a\u5e8f\u4fdd\u6301\u4e0d\u53d8\u3002\n\n\u8bf7\u5224\u65ad\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\uff08\u53ef\u4ee5\u4e3a\u96f6\u6b21\uff09\u64cd\u4f5c\uff0c\u4f7f\u5f97\u5269\u4e0b\u7684\u6570\u7ec4\u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002\u5982\u679c\u53ef\u4ee5\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u53ef\u80fd\u7684\u5269\u4f59\u6570\u7ec4\u3002\u5269\u4f59\u6570\u7ec4\u5fc5\u987b\u975e\u7a7a\u3002","formatI":"\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u4e2a\u6570 $t$\uff08$1 \\le t \\le 100$\uff09\u3002\u63a5\u4e0b\u6765\u662f\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff08$1 \\leq n \\leq 100$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u957f\u5ea6\u3002\n\n\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$1 \\leq a_i \\leq n$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u884c\uff0c\u5982\u679c\u53ef\u4ee5\u901a\u8fc7\u82e5\u5e72\u6b21\u64cd\u4f5c\u4f7f\u5269\u4f59\u6570\u7ec4\u4e3a\u9519\u4f4d\u6392\u5217\uff0c\u8f93\u51fa YES\uff0c\u5426\u5219\u8f93\u51fa NO\u3002\n\n\u8f93\u51fa\u4e0d\u533a\u5206\u5927\u5c0f\u5199\uff0c\u4f8b\u5982 \u0022yEs\u0022\u3001\u0022yes\u0022\u3001\u0022Yes\u0022 \u548c \u0022YES\u0022 \u90fd\u89c6\u4e3a\u80af\u5b9a\u56de\u7b54\u3002\n\n\u5982\u679c\u4f60\u7684\u56de\u7b54\u662f\u80af\u5b9a\u7684\uff0c\u8bf7\u518d\u8f93\u51fa\u4e24\u884c\uff0c\u683c\u5f0f\u5982\u4e0b\uff1a\n\n- \u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $k$\uff08$1 \\leq k \\leq n$\uff09\uff0c\u8868\u793a\u5269\u4f59\u6570\u7ec4\u7684\u5143\u7d20\u4e2a\u6570\u3002\n- \u7b2c\u4e8c\u884c\u8f93\u51fa $d_1, d_2, \\ldots, d_k$\uff0c\u8868\u793a\u5269\u4f59\u7684\u6570\u7ec4\u3002\u8be5\u6570\u7ec4\u5fc5\u987b\u53ef\u4ee5\u901a\u8fc7\u5bf9 $a$ \u8fdb\u884c\u82e5\u5e72\u6b21\u64cd\u4f5c\u5f97\u5230\uff0c\u5e76\u4e14\u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002","hint":"\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6211\u4eec\u53ef\u4ee5\u5220\u9664\u4e00\u4e2a $5$\uff0c\u4f7f\u6570\u7ec4\u53d8\u4e3a $[4,5,2,4]$\u3002\u53ef\u4ee5\u8bc1\u660e\u8be5\u6570\u7ec4\u662f\u4e00\u4e2a\u9519\u4f4d\u6392\u5217\u3002\u8fd9\u4e0d\u662f\u552f\u4e00\u89e3\u2014\u2014\u539f\u6570\u7ec4 $[4,5,5,2,4]$ \u4e5f\u662f\u4e00\u4e2a\u5408\u6cd5\u89e3\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2124A Deranged Deletions","type":2,"slug":"CF2124A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330788.933644,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2124A Deranged Deletions","description":"\u5982\u679c\u4e00\u4e2a\u957f\u5ea6\u4e3a m \u7684\u6570\u7ec4 b \u6ee1\u8db3\u4ee5\u4e0b\u6027\u8d28\uff0c\u5219\u79f0\u5176\u4e3a\u201c\u9519\u4f4d\u6392\u5217\u201d\uff1a\n\n\u4ee4 c \u4e3a\u957f\u5ea6\u4e3a m \u7684\u6570\u7ec4\uff0c\u4e14 c_i = b_i\uff0c\u5bf9\u4e8e\u6240\u6709 1 \\leq i \\leq m\u3002\n\u5c06 c \u6309\u975e\u9012\u51cf\u987a\u5e8f\u6392\u5e8f\u3002\n\u5982\u679c\u5bf9\u4e8e\u6240\u6709 1 \\leq i \\leq\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2124A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2124A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2124A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2124A Deranged Deletions" />
+    <meta property="og:description" content="如果一个长度为 m 的数组 b 满足以下性质，则称其为“错位排列”：
+
+令 c 为长度为 m 的数组，且 c_i = b_i，对于所有 1 \leq i \leq m。
+将 c 按非递减顺序排序。
+如果对于所有 1 \leq i \leq…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2124A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2124A Deranged Deletions</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    如果一个长度为 $m$ 的数组 $b$ 满足以下性质，则称其为“错位排列”：
+
+- 令 $c$ 为长度为 $m$ 的数组，且 $c_i = b_i$，对于所有 $1 \leq i \leq m$。
+- 将 $c$ 按非递减顺序排序。
+- 如果对于所有 $1 \leq i \leq m$，都有 $b_i \neq c_i$，则 $b$ 是一个错位排列。
+
+例如：
+
+- 如果 $b = [4,8,3,1]$，则排序后 $c = [1, 3, 4, 8]$。由于所有位置上 $b_i \neq c_i$，所以 $b$ 是一个错位排列。
+- 如果 $b = [3,2,1]$，排序后 $c = [1, 2, 3]$。由于 $b_2 = c_2$，所以 $b$ 不是错位排列。
+
+现在给定一个长度为 $n$ 的数组 $a$。每次操作你可以从 $a$ 中删除一个元素，删除后剩余元素的顺序保持不变。
+
+请判断是否可以通过若干次（可以为零次）操作，使得剩下的数组是一个错位排列。如果可以，输出任意一个可能的剩余数组。剩余数组必须非空。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每组测试数据包含多组测试用例。第一行包含测试用例个数 $t$（$1 \le t \le 100$）。接下来是每组测试用例的描述。
+
+每组测试用例的第一行包含一个整数 $n$（$1 \leq n \leq 100$），表示数组 $a$ 的长度。
+
+第二行包含 $n$ 个整数 $a_1, a_2, \ldots, a_n$（$1 \leq a_i \leq n$），表示数组 $a$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出一行，如果可以通过若干次操作使剩余数组为错位排列，输出 YES，否则输出 NO。
+
+输出不区分大小写，例如 "yEs"、"yes"、"Yes" 和 "YES" 都视为肯定回答。
+
+如果你的回答是肯定的，请再输出两行，格式如下：
+
+- 第一行输出一个整数 $k$（$1 \leq k \leq n$），表示剩余数组的元素个数。
+- 第二行输出 $d_1, d_2, \ldots, d_k$，表示剩余的数组。该数组必须可以通过对 $a$ 进行若干次操作得到，并且是一个错位排列。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第二个测试用例中，我们可以删除一个 $5$，使数组变为 $[4,5,2,4]$。可以证明该数组是一个错位排列。这不是唯一解——原数组 $[4,5,5,2,4]$ 也是一个合法解。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

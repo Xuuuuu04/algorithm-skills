@@ -1,0 +1,37 @@
+{
+  "id": "CF-467E",
+  "contest_id": 467,
+  "index": "E",
+  "name": "Alex and Complicated Task",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/467/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/467/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/467/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=467E%20Alex and Complicated Task%20tutorial",
+  "solved_count": 850,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P467E",
+  "hydro_meta": {
+    "page_title": "Alex and Complicated Task - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

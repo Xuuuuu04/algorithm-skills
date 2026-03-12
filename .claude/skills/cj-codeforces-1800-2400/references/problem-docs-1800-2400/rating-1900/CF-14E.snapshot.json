@@ -1,0 +1,31 @@
+{
+  "id": "CF-14E",
+  "contest_id": 14,
+  "index": "E",
+  "name": "Camels",
+  "rating": 1900,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/14/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/14/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/14/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=14E%20Camels%20tutorial",
+  "solved_count": 2037,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P14E",
+  "hydro_meta": {
+    "page_title": "Camels - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "64MiB"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CF-1761E",
+  "contest_id": 1761,
+  "index": "E",
+  "name": "Make It Connected",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "brute force",
+    "constructive algorithms",
+    "dsu",
+    "graphs",
+    "greedy",
+    "matrices",
+    "trees",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1761/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1761/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1761/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1761E%20Make It Connected%20tutorial",
+  "solved_count": 2134,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1761E",
+  "hydro_meta": {
+    "page_title": "Make It Connected - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "512MiB"
+  }
+}

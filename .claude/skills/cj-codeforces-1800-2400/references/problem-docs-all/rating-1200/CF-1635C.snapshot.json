@@ -1,0 +1,31 @@
+{
+  "id": "CF-1635C",
+  "contest_id": 1635,
+  "index": "C",
+  "name": "Differential Sorting",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 24287,
+  "problem_url": "https://codeforces.com/problemset/problem/1635/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1635/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1635/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1635C%20Differential%20Sorting%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1635C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Differential Sorting - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "greedy"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CF-2048A",
+  "contest_id": 2048,
+  "index": "A",
+  "name": "Kevin and Combination Lock",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "implementation",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 22683,
+  "problem_url": "https://codeforces.com/problemset/problem/2048/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2048/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2048/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2048A%20Kevin%20and%20Combination%20Lock%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2048A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2048A Kevin and Combination Lock - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

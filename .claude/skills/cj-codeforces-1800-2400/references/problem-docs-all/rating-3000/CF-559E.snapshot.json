@@ -1,0 +1,32 @@
+{
+  "id": "CF-559E",
+  "contest_id": 559,
+  "index": "E",
+  "name": "Gerald and Path",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 2250.0,
+  "tags": [
+    "dp",
+    "sortings"
+  ],
+  "solved_count": 1142,
+  "problem_url": "https://codeforces.com/problemset/problem/559/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/559/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/559/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=559E%20Gerald%20and%20Path%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P559E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Gerald and Path - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "sortings",
+      "*3000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

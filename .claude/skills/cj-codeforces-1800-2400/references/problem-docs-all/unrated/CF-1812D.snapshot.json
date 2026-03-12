@@ -1,0 +1,30 @@
+{
+  "id": "CF-1812D",
+  "contest_id": 1812,
+  "index": "D",
+  "name": "Trivial Conjecture",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "constructive algorithms",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 4865,
+  "problem_url": "https://codeforces.com/problemset/problem/1812/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1812/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1812/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1812D%20Trivial%20Conjecture%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1812D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1812D Trivial Conjecture - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 48,
+    "mirror_attempt": 72,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

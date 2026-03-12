@@ -1,0 +1,40 @@
+{
+  "id": "CF-1915G",
+  "contest_id": 1915,
+  "index": "G",
+  "name": "Bicycles",
+  "rating": 1800,
+  "tags": [
+    "graphs",
+    "greedy",
+    "implementation",
+    "shortest paths",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1915/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1915/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1915/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1915G%20Bicycles%20tutorial",
+  "solved_count": 9300,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1915G",
+  "hydro_meta": {
+    "page_title": "Bicycles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "graphs",
+      "greedy",
+      "implementation",
+      "shortest paths",
+      "sortings",
+      "*1800"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

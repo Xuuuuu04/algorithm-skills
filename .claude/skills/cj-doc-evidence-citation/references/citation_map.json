@@ -1,0 +1,31 @@
+{
+  "claim_type": {
+    "algorithm_complexity": [
+      "path",
+      "anchor",
+      "quote"
+    ],
+    "api_signature": [
+      "path",
+      "anchor",
+      "quote"
+    ],
+    "language_rule": [
+      "path",
+      "anchor",
+      "quote"
+    ],
+    "build_or_link_option": [
+      "path",
+      "anchor",
+      "quote"
+    ],
+    "edge_case_behavior": [
+      "path",
+      "anchor",
+      "quote"
+    ]
+  },
+  "format": "path | anchor | \"quote\"",
+  "strict": true
+}

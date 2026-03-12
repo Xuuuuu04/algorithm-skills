@@ -1,0 +1,38 @@
+{
+  "id": "CF-292D",
+  "contest_id": 292,
+  "index": "D",
+  "name": "Connected Components",
+  "rating": 1900,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "dsu"
+  ],
+  "url": "https://codeforces.com/problemset/problem/292/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/292/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/292/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=292D%20Connected Components%20tutorial",
+  "solved_count": 2708,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P292D",
+  "hydro_meta": {
+    "page_title": "Connected Components - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "*1900"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

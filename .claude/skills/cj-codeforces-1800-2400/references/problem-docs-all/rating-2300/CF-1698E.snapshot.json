@@ -1,0 +1,40 @@
+{
+  "id": "CF-1698E",
+  "contest_id": 1698,
+  "index": "E",
+  "name": "PermutationForces II",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "brute force",
+    "combinatorics",
+    "greedy",
+    "sortings",
+    "trees",
+    "two pointers"
+  ],
+  "solved_count": 1775,
+  "problem_url": "https://codeforces.com/problemset/problem/1698/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1698/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1698/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1698E%20PermutationForces%20II%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1698E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "PermutationForces II - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "combinatorics",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "sortings",
+      "two pointers"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

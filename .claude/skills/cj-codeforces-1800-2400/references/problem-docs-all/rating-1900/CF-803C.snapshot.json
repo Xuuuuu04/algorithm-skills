@@ -1,0 +1,29 @@
+{
+  "id": "CF-803C",
+  "contest_id": 803,
+  "index": "C",
+  "name": "Maximal GCD",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 5739,
+  "problem_url": "https://codeforces.com/problemset/problem/803/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/803/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/803/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=803C%20Maximal%20GCD%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF803C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF803C Maximal GCD - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 374,
+    "mirror_attempt": 1511,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

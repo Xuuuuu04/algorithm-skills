@@ -1,0 +1,29 @@
+{
+  "id": "CF-468A",
+  "contest_id": 468,
+  "index": "A",
+  "name": "24 Game",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 8373,
+  "problem_url": "https://codeforces.com/problemset/problem/468/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/468/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/468/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=468A%2024%20Game%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/468/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 468A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

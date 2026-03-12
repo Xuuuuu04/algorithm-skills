@@ -1,0 +1,34 @@
+{
+  "id": "CF-2045G",
+  "contest_id": 2045,
+  "index": "G",
+  "name": "X Aura",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "graphs",
+    "math",
+    "shortest paths"
+  ],
+  "solved_count": 909,
+  "problem_url": "https://codeforces.com/problemset/problem/2045/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/2045/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2045/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2045G%20X%20Aura%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2045G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "X Aura - 题目详情 - Hydro",
+    "mirror_tags": [
+      "graphs",
+      "math",
+      "shortest paths",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "1024MiB"
+  }
+}

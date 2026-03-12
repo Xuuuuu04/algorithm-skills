@@ -1,0 +1,31 @@
+{
+  "id": "CF-2074A",
+  "contest_id": 2074,
+  "index": "A",
+  "name": "Draw a Square",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "geometry",
+    "implementation"
+  ],
+  "solved_count": 43750,
+  "problem_url": "https://codeforces.com/problemset/problem/2074/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2074/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2074/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2074A%20Draw%20a%20Square%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2074A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Draw a Square - 题目详情 - Hydro",
+    "mirror_tags": [
+      "geometry",
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

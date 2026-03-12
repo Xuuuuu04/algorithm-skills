@@ -1,0 +1,40 @@
+{
+  "id": "CF-1535C",
+  "contest_id": 1535,
+  "index": "C",
+  "name": "Unstable String",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy",
+    "implementation",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 17627,
+  "problem_url": "https://codeforces.com/problemset/problem/1535/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1535/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1535/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1535C%20Unstable%20String%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1535C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Unstable String - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "implementation",
+      "strings",
+      "two pointers",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417189:CXGMLqFUAdKvRohTIa7drX1g+v8EMNauV8NZVMlfGuo=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2172A ASCII Art Contest - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2172A","type":"CF","title":"ASCII Art Contest","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"ASCII Art Contest","background":null,"description":"\u4e09\u4f4d\u9876\u5c16\u7684 AI \u521b\u610f\u52a9\u624b\u2014\u2014Gemini\u3001ChatGPT \u548c Claude\u2014\u2014\u53c2\u52a0\u4e86\u9996\u5c4a ASCII\u827a\u672f\u5927\u8d5b\uff0c\u4ed6\u4eec\u5fc5\u987b\u7528\u81ea\u5df1\u7684\u6587\u672c\u6770\u4f5c\u6253\u52a8\u7531\u4eba\u7c7b\u7ec4\u6210\u7684\u8bc4\u5ba1\u56e2\u3002\n\n\u6bcf\u4f4d\u53c2\u8d5b\u8005\u7684\u5f97\u5206\u90fd\u5728 $80$ \u5230 $100$\uff08\u5305\u542b\uff09\u4e4b\u95f4\u3002\u4e3b\u529e\u65b9\u53ea\u6709\u5728\u8bc4\u59d4\u7684\u8bc4\u5206\u201c\u8db3\u591f\u63a5\u8fd1\u201d\u65f6\u624d\u4f1a\u516c\u5e03\u6700\u7ec8\u6392\u540d\uff0c\u5426\u5219\u4f1a\u8981\u6c42\u8bc4\u59d4\u91cd\u65b0\u8bc4\u8bae\u3002\n\n\u73b0\u7ed9\u51fa Gemini\u3001ChatGPT \u548c Claude \u7684\u4e09\u9879\u5f97\u5206\uff0c\u8bf7\u5224\u65ad\u6bd4\u8d5b\u7ed3\u679c\uff1a\n\n- \u5982\u679c\u4e09\u4eba\u4e2d\u6700\u9ad8\u5206\u4e0e\u6700\u4f4e\u5206\u4e4b\u5dee\u4e0d\u5c11\u4e8e $10$ \u5206\uff0c\u8f93\u51fa check again\uff08\u8bf4\u660e\u8bc4\u5206\u504f\u5dee\u8f83\u5927\uff0c\u9700\u91cd\u65b0\u8bc4\u8bae\uff09\u3002\n- \u5426\u5219\uff0c\u8f93\u51fa final X\uff0c\u5176\u4e2d $X$ \u662f\u4e09\u4eba\u5206\u6570\u7684\u4e2d\u4f4d\u6570\uff08\u5373\u5c06\u4e09\u9879\u5206\u6570\u4ece\u5c0f\u5230\u5927\u6392\u5e8f\u540e\u6392\u5728\u4e2d\u95f4\u7684\u6570\uff09\u3002","formatI":"\u4e00\u884c\u8f93\u5165\u4e09\u4e2a\u6574\u6570 $g, c, \\ell$\uff0c\u5206\u522b\u8868\u793a Gemini\u3001ChatGPT \u548c Claude \u7684\u5206\u6570\u3002\n\n- $80\\le g, c, \\ell \\le 100$","formatO":"\u8bf7\u8f93\u51fa\u4e00\u884c\uff0c\u5185\u5bb9\u4e3a\u9898\u76ee\u8981\u6c42\u7684\u7b54\u6848\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"ASCII Art Contest","background":null,"description":"Three leading AI-powered creative assistants\u2014Gemini, ChatGPT, and Claude\u2014enter the first ever ASCII Art Contest, where they must impress a panel of human judges with their text-based masterpieces.\n\nEach participant receives a score between 80 and 100 (inclusive). The organizers want to announce the final standing only if the judges\u0027 opinions are \u0022close enough\u0022; otherwise, they will ask the judges to reconsider.\n\nGiven the three integer scores of Gemini, ChatGPT, and Claude, determine the contest result:\n\n- If the maximum score and the minimum score differ by at least 10 points, print check again (the judging seems inconsistent, so the panel must re-evaluate).\n- Otherwise, print final X, where X is the median of the three scores (the score that would be in the middle if all three were sorted in non-decreasing order).","formatI":"A single line contains three integers  $ g, c, \\ell $ , representing the scores of Gemini, ChatGPT, and Claude respectively.\n\n- $ 80\\le g, c, \\ell \\le 100 $","formatO":"Print the required answer in a line.","hint":null,"locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["88 94 95","final 94"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"2172A","link":"https:\/\/codeforces.com\/problemset\/problem\/2172\/A"},"translation":null},"translations":{"en":{"name":"ASCII Art Contest","background":null,"description":"Three leading AI-powered creative assistants\u2014Gemini, ChatGPT, and Claude\u2014enter the first ever ASCII Art Contest, where they must impress a panel of human judges with their text-based masterpieces.\n\nEach participant receives a score between 80 and 100 (inclusive). The organizers want to announce the final standing only if the judges\u0027 opinions are \u0022close enough\u0022; otherwise, they will ask the judges to reconsider.\n\nGiven the three integer scores of Gemini, ChatGPT, and Claude, determine the contest result:\n\n- If the maximum score and the minimum score differ by at least 10 points, print check again (the judging seems inconsistent, so the panel must re-evaluate).\n- Otherwise, print final X, where X is the median of the three scores (the score that would be in the middle if all three were sorted in non-decreasing order).","formatI":"A single line contains three integers  $ g, c, \\ell $ , representing the scores of Gemini, ChatGPT, and Claude respectively.\n\n- $ 80\\le g, c, \\ell \\le 100 $","formatO":"Print the required answer in a line.","hint":null,"locale":"en"},"zh-CN":{"name":"ASCII Art Contest","background":null,"description":"\u4e09\u4f4d\u9876\u5c16\u7684 AI \u521b\u610f\u52a9\u624b\u2014\u2014Gemini\u3001ChatGPT \u548c Claude\u2014\u2014\u53c2\u52a0\u4e86\u9996\u5c4a ASCII\u827a\u672f\u5927\u8d5b\uff0c\u4ed6\u4eec\u5fc5\u987b\u7528\u81ea\u5df1\u7684\u6587\u672c\u6770\u4f5c\u6253\u52a8\u7531\u4eba\u7c7b\u7ec4\u6210\u7684\u8bc4\u5ba1\u56e2\u3002\n\n\u6bcf\u4f4d\u53c2\u8d5b\u8005\u7684\u5f97\u5206\u90fd\u5728 $80$ \u5230 $100$\uff08\u5305\u542b\uff09\u4e4b\u95f4\u3002\u4e3b\u529e\u65b9\u53ea\u6709\u5728\u8bc4\u59d4\u7684\u8bc4\u5206\u201c\u8db3\u591f\u63a5\u8fd1\u201d\u65f6\u624d\u4f1a\u516c\u5e03\u6700\u7ec8\u6392\u540d\uff0c\u5426\u5219\u4f1a\u8981\u6c42\u8bc4\u59d4\u91cd\u65b0\u8bc4\u8bae\u3002\n\n\u73b0\u7ed9\u51fa Gemini\u3001ChatGPT \u548c Claude \u7684\u4e09\u9879\u5f97\u5206\uff0c\u8bf7\u5224\u65ad\u6bd4\u8d5b\u7ed3\u679c\uff1a\n\n- \u5982\u679c\u4e09\u4eba\u4e2d\u6700\u9ad8\u5206\u4e0e\u6700\u4f4e\u5206\u4e4b\u5dee\u4e0d\u5c11\u4e8e $10$ \u5206\uff0c\u8f93\u51fa check again\uff08\u8bf4\u660e\u8bc4\u5206\u504f\u5dee\u8f83\u5927\uff0c\u9700\u91cd\u65b0\u8bc4\u8bae\uff09\u3002\n- \u5426\u5219\uff0c\u8f93\u51fa final X\uff0c\u5176\u4e2d $X$ \u662f\u4e09\u4eba\u5206\u6570\u7684\u4e2d\u4f4d\u6570\uff08\u5373\u5c06\u4e09\u9879\u5206\u6570\u4ece\u5c0f\u5230\u5927\u6392\u5e8f\u540e\u6392\u5728\u4e2d\u95f4\u7684\u6570\uff09\u3002","formatI":"\u4e00\u884c\u8f93\u5165\u4e09\u4e2a\u6574\u6570 $g, c, \\ell$\uff0c\u5206\u522b\u8868\u793a Gemini\u3001ChatGPT \u548c Claude \u7684\u5206\u6570\u3002\n\n- $80\\le g, c, \\ell \\le 100$","formatO":"\u8bf7\u8f93\u51fa\u4e00\u884c\uff0c\u5185\u5bb9\u4e3a\u9898\u76ee\u8981\u6c42\u7684\u7b54\u6848\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2172A ASCII Art Contest","type":2,"slug":"CF2172A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330789.724528,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2172A ASCII Art Contest","description":"\u4e09\u4f4d\u9876\u5c16\u7684 AI \u521b\u610f\u52a9\u624b\u2014\u2014Gemini\u3001ChatGPT \u548c Claude\u2014\u2014\u53c2\u52a0\u4e86\u9996\u5c4a ASCII\u827a\u672f\u5927\u8d5b\uff0c\u4ed6\u4eec\u5fc5\u987b\u7528\u81ea\u5df1\u7684\u6587\u672c\u6770\u4f5c\u6253\u52a8\u7531\u4eba\u7c7b\u7ec4\u6210\u7684\u8bc4\u5ba1\u56e2\u3002\n\u6bcf\u4f4d\u53c2\u8d5b\u8005\u7684\u5f97\u5206\u90fd\u5728 80 \u5230 100\uff08\u5305\u542b\uff09\u4e4b\u95f4\u3002\u4e3b\u529e\u65b9\u53ea\u6709\u5728\u8bc4\u59d4\u7684\u8bc4\u5206\u201c\u8db3\u591f\u63a5\u8fd1\u201d\u65f6\u624d\u4f1a\u516c\u5e03\u6700\u7ec8\u6392\u540d\uff0c\u5426\u5219\u4f1a\u8981\u6c42\u8bc4\u59d4\u91cd\u65b0\u8bc4\u8bae\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2172A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2172A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2172A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2172A ASCII Art Contest" />
+    <meta property="og:description" content="三位顶尖的 AI 创意助手——Gemini、ChatGPT 和 Claude——参加了首届 ASCII艺术大赛，他们必须用自己的文本杰作打动由人类组成的评审团。
+每位参赛者的得分都在 80 到 100（包含）之间。主办方只有在评委的评分“足够接近”时才会公布最终排名，否则会要求评委重新评议。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2172A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2172A ASCII Art Contest</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    三位顶尖的 AI 创意助手——Gemini、ChatGPT 和 Claude——参加了首届 ASCII艺术大赛，他们必须用自己的文本杰作打动由人类组成的评审团。
+
+每位参赛者的得分都在 $80$ 到 $100$（包含）之间。主办方只有在评委的评分“足够接近”时才会公布最终排名，否则会要求评委重新评议。
+
+现给出 Gemini、ChatGPT 和 Claude 的三项得分，请判断比赛结果：
+
+- 如果三人中最高分与最低分之差不少于 $10$ 分，输出 check again（说明评分偏差较大，需重新评议）。
+- 否则，输出 final X，其中 $X$ 是三人分数的中位数（即将三项分数从小到大排序后排在中间的数）。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行输入三个整数 $g, c, \ell$，分别表示 Gemini、ChatGPT 和 Claude 的分数。
+
+- $80\le g, c, \ell \le 100$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    请输出一行，内容为题目要求的答案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

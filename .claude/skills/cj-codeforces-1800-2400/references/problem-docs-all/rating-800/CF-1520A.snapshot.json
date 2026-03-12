@@ -1,0 +1,32 @@
+{
+  "id": "CF-1520A",
+  "contest_id": 1520,
+  "index": "A",
+  "name": "Do Not Be Distracted!",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 57860,
+  "problem_url": "https://codeforces.com/problemset/problem/1520/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1520/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1520/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1520A%20Do%20Not%20Be%20Distracted%21%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1520A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Do Not Be Distracted! - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

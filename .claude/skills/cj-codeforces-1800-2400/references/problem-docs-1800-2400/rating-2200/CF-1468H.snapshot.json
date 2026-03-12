@@ -1,0 +1,37 @@
+{
+  "id": "CF-1468H",
+  "contest_id": 1468,
+  "index": "H",
+  "name": "K and Medians",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1468/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/1468/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1468/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1468H%20K and Medians%20tutorial",
+  "solved_count": 1981,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1468H",
+  "hydro_meta": {
+    "page_title": "K and Medians - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

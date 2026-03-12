@@ -1,0 +1,27 @@
+{
+  "id": "CF-710A",
+  "contest_id": 710,
+  "index": "A",
+  "name": "King Moves",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 14699,
+  "problem_url": "https://codeforces.com/problemset/problem/710/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/710/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/710/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=710A%20King%20Moves%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF710A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF710A King Moves - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 988,
+    "mirror_attempt": 2222,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

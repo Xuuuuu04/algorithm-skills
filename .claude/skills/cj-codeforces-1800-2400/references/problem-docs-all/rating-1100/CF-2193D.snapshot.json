@@ -1,0 +1,34 @@
+{
+  "id": "CF-2193D",
+  "contest_id": 2193,
+  "index": "D",
+  "name": "Monster Game",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 20203,
+  "problem_url": "https://codeforces.com/problemset/problem/2193/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/2193/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2193/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2193D%20Monster%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2193D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Monster Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "sortings",
+      "two pointers",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

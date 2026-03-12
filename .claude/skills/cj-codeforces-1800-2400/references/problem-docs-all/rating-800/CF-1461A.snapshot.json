@@ -1,0 +1,28 @@
+{
+  "id": "CF-1461A",
+  "contest_id": 1461,
+  "index": "A",
+  "name": "String Generation",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 18975,
+  "problem_url": "https://codeforces.com/problemset/problem/1461/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1461/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1461/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1461A%20String%20Generation%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1461A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1461A String Generation - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 186,
+    "mirror_attempt": 260,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

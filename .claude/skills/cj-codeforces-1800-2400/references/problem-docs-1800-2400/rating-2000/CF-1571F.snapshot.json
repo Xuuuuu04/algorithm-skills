@@ -1,0 +1,35 @@
+{
+  "id": "CF-1571F",
+  "contest_id": 1571,
+  "index": "F",
+  "name": "Kotlinforces",
+  "rating": 2000,
+  "tags": [
+    "*special",
+    "constructive algorithms",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1571/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1571/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1571/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1571F%20Kotlinforces%20tutorial",
+  "solved_count": 224,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1571F",
+  "hydro_meta": {
+    "page_title": "Kotlinforces - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "constructive algorithms",
+      "dp"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "512MiB"
+  }
+}

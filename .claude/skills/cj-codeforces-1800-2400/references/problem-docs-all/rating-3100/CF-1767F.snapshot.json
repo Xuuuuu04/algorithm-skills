@@ -1,0 +1,31 @@
+{
+  "id": "CF-1767F",
+  "contest_id": 1767,
+  "index": "F",
+  "name": "Two Subtrees",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "trees"
+  ],
+  "solved_count": 420,
+  "problem_url": "https://codeforces.com/problemset/problem/1767/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1767/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1767/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1767F%20Two%20Subtrees%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1767F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Subtrees - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "9000ms",
+    "memory_limit": "1024MiB"
+  }
+}

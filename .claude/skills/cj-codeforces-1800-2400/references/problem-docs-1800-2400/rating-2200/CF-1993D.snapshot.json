@@ -1,0 +1,36 @@
+{
+  "id": "CF-1993D",
+  "contest_id": 1993,
+  "index": "D",
+  "name": "Med-imize",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "dp",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1993/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1993/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1993/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1993D%20Med-imize%20tutorial",
+  "solved_count": 4428,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1993D",
+  "hydro_meta": {
+    "page_title": "Med-imize - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "greedy"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

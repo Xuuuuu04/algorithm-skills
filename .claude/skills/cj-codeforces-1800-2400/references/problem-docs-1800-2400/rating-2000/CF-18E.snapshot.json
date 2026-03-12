@@ -1,0 +1,31 @@
+{
+  "id": "CF-18E",
+  "contest_id": 18,
+  "index": "E",
+  "name": "Flag 2",
+  "rating": 2000,
+  "tags": [
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/18/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/18/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/18/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=18E%20Flag 2%20tutorial",
+  "solved_count": 1249,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P18E",
+  "hydro_meta": {
+    "page_title": "Flag 2 - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "128MiB"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CF-1647B",
+  "contest_id": 1647,
+  "index": "B",
+  "name": "Madoka and the Elegant Gift",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 16926,
+  "problem_url": "https://codeforces.com/problemset/problem/1647/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1647/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1647/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1647B%20Madoka%20and%20the%20Elegant%20Gift%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1647B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Madoka and the Elegant Gift - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "graphs",
+      "implementation"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

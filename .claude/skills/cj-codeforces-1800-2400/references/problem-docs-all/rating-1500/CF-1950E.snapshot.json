@@ -1,0 +1,35 @@
+{
+  "id": "CF-1950E",
+  "contest_id": 1950,
+  "index": "E",
+  "name": "Nearly Shortest Repeating Substring",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation",
+    "number theory",
+    "strings"
+  ],
+  "solved_count": 17200,
+  "problem_url": "https://codeforces.com/problemset/problem/1950/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1950/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1950/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1950E%20Nearly%20Shortest%20Repeating%20Substring%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1950E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nearly Shortest Repeating Substring - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "implementation",
+      "number theory",
+      "strings"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 8,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

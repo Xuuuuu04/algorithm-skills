@@ -1,0 +1,34 @@
+{
+  "id": "CF-1863G",
+  "contest_id": 1863,
+  "index": "G",
+  "name": "Swaps",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "graphs",
+    "math"
+  ],
+  "solved_count": 810,
+  "problem_url": "https://codeforces.com/problemset/problem/1863/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1863/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1863/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1863G%20Swaps%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1863G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Swaps - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "graphs"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

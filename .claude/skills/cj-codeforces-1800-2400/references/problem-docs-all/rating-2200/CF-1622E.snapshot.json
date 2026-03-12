@@ -1,0 +1,29 @@
+{
+  "id": "CF-1622E",
+  "contest_id": 1622,
+  "index": "E",
+  "name": "Math Test",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "greedy"
+  ],
+  "solved_count": 2157,
+  "problem_url": "https://codeforces.com/problemset/problem/1622/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1622/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1622/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1622E%20Math%20Test%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1622E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1622E Math Test - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 195,
+    "mirror_attempt": 470,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

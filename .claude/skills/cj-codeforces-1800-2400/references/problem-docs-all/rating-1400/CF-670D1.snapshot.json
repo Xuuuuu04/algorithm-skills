@@ -1,0 +1,34 @@
+{
+  "id": "CF-670D1",
+  "contest_id": 670,
+  "index": "D1",
+  "name": "Magic Powder - 1",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 23208,
+  "problem_url": "https://codeforces.com/problemset/problem/670/D1",
+  "answer_index_url": "https://codeforces.com/problemset/status/670/problem/D1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/670/problem/D1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=670D1%20Magic%20Powder%20-%201%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P670D1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Magic Powder - 1 - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "*1400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

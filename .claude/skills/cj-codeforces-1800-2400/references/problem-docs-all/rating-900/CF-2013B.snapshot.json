@@ -1,0 +1,29 @@
+{
+  "id": "CF-2013B",
+  "contest_id": 2013,
+  "index": "B",
+  "name": "Battle for Survive",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 27919,
+  "problem_url": "https://codeforces.com/problemset/problem/2013/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2013/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2013/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2013B%20Battle%20for%20Survive%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2013B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2013B Battle for Survive - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

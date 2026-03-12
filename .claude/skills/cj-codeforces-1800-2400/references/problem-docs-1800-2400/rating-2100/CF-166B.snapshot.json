@@ -1,0 +1,31 @@
+{
+  "id": "CF-166B",
+  "contest_id": 166,
+  "index": "B",
+  "name": "Polygons",
+  "rating": 2100,
+  "tags": [
+    "geometry",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/166/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/166/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/166/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=166B%20Polygons%20tutorial",
+  "solved_count": 2957,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P166B",
+  "hydro_meta": {
+    "page_title": "Polygons - 题目详情 - Hydro",
+    "hydro_tags": [
+      "geometry",
+      "sortings",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "source": "public_slot_api",
+  "title": "昇腾AI创新大赛-算子挑战赛",
+  "url": "https://www.chaspark.com/#/races/contests/1181774307502231552?multi=zh",
+  "difficulty": "Hard",
+  "tags": [
+    "homeRaces"
+  ],
+  "core_idea": "待补充",
+  "pitfalls": "待补充",
+  "raw": {
+    "hwUsers": true,
+    "customCover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1182023215089795072.jpg?state=2",
+    "contentId": "1181774307502231552",
+    "creatorName": "科技赛事",
+    "isIntraLink": true,
+    "description": {
+      "en": "Ascend AI Innovation Contest - Operator Challenge is a competition for AI developers. It aims to cultivate developers who are proficient in Ascend C operator development and encourage developers to perform in-depth innovation and practice based on Ascend AI cloud computing power and basic capabilities of CANN. Accelerate the integration of AI and the industry and improve developer capabilities.",
+      "zh": "昇腾AI创新大赛-算子挑战赛是面向AI开发者打造的赛事，旨在培养一批精通Ascend C算子开发的开发者，鼓励开发者基于昇腾AI云上算力、CANN的基础能力进行深度创新与实践，加速AI与行业融合，促进开发者能力提升。"
+    },
+    "customTitle": {
+      "en": "Ascend AI Innovation Contest - Operator Challenge",
+      "zh": "昇腾AI创新大赛-算子挑战赛"
+    },
+    "videos": [],
+    "creatorNid": "831602189204701185",
+    "title": "昇腾AI创新大赛-算子挑战赛",
+    "auditState": 2,
+    "isEssence": 0,
+    "actualContentId": "1181774307502231552",
+    "cover": "https://www.chaspark.com/chasiwu/media/v1/tinyimage/1181774554221068288.jpg?state=2",
+    "columnRoute": "https://www.chaspark.com/#/races/contests",
+    "startTime": "1753977600",
+    "columnTypeName": "最新赛事",
+    "hasVoice": false,
+    "contentType": 0,
+    "registrationDeadline": "1761926399",
+    "publishTime": "1756949700",
+    "images": [],
+    "creatorType": "2",
+    "isShowEssence": 1,
+    "domains": [
+      {
+        "isLabel": 0,
+        "domainName": "人工智能领域",
+        "channel": 0,
+        "domainId": "8"
+      },
+      {
+        "isLabel": 0,
+        "domainName": "计算与存储领域",
+        "channel": 0,
+        "domainId": "1141950491274665986"
+      }
+    ],
+    "sort": 558,
+    "columnType": "races",
+    "showTable": [
+      {
+        "showName": "CANN",
+        "showLink": ""
+      },
+      {
+        "showName": "算子",
+        "showLink": ""
+      },
+      {
+        "showName": "Ascend C",
+        "showLink": ""
+      }
+    ],
+    "slotContentUpdateTime": "1756950017",
+    "location": "线上",
+    "racesLink": "https://www.chaspark.com/#/races/contests/1181774307502231552?multi=zh",
+    "slotContentId": "1126592802649335381",
+    "detailUrl": "https://www.chaspark.com/#/races/contests/1181774307502231552?multi=zh",
+    "endTime": "1761926399",
+    "position": "",
+    "customLink": "https://www.chaspark.com/#/races/contests/1181774307502231552?multi=zh"
+  }
+}

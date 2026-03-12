@@ -1,0 +1,30 @@
+{
+  "id": "CF-2178B",
+  "contest_id": 2178,
+  "index": "B",
+  "name": "Impost or Sus",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 20758,
+  "problem_url": "https://codeforces.com/problemset/problem/2178/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2178/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2178/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2178B%20Impost%20or%20Sus%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2178/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2178B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

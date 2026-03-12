@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF676C Vasya and String - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF676C","type":"CF","title":"Vasya and String","difficulty":3,"tags":[],"wantsTranslation":false,"totalSubmit":1100,"totalAccepted":438,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Vasya and String","background":null,"description":"\u9ad8\u4e2d\u751f Vasya \u6536\u5230\u4e86\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32\u4f5c\u4e3a\u751f\u65e5\u793c\u7269\u3002\u8fd9\u4e2a\u5b57\u7b26\u4e32\u53ea\u5305\u542b\u5b57\u6bcd \u0027a\u0027 \u548c \u0027b\u0027\u3002Vasya \u5c06\u5b57\u7b26\u4e32\u7684\u7f8e\u5b9a\u4e49\u4e3a\u5176\u4e2d\u6240\u6709\u7531\u76f8\u540c\u5b57\u6bcd\u7ec4\u6210\u7684\u8fde\u7eed\u5b50\u4e32\uff08\u5373\u5b50\u5e8f\u5217\uff09\u7684\u6700\u5927\u957f\u5ea6\u3002\n\n\u73b0\u5728\uff0cVasya \u6700\u591a\u53ef\u4ee5\u5c06\u539f\u5b57\u7b26\u4e32\u4e2d\u7684 $k$ \u4e2a\u5b57\u7b26\u4fee\u6539\u4e3a\u5176\u4ed6\u5b57\u6bcd\u3002\u8bf7\u95ee\uff0cVasya \u901a\u8fc7\u6700\u591a\u4fee\u6539 $k$ \u4e2a\u5b57\u7b26\uff0c\u80fd\u83b7\u5f97\u7684\u5b57\u7b26\u4e32\u7f8e\u7684\u6700\u5927\u503c\u662f\u591a\u5c11\uff1f","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u4e3a\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$1 \\leq n \\leq 100000, 0 \\leq k \\leq n$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u548c\u6700\u591a\u53ef\u4fee\u6539\u7684\u5b57\u7b26\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u4e3a\u4ec5\u7531\u5b57\u6bcd \u0027a\u0027 \u548c \u0027b\u0027 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002","formatO":"\u8f93\u51fa\u4ec5\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a Vasya \u901a\u8fc7\u4e0d\u8d85\u8fc7 $k$ \u6b21\u4fee\u6539\u80fd\u83b7\u5f97\u7684\u5b57\u7b26\u4e32\u7f8e\u7684\u6700\u5927\u503c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0cVasya \u53ef\u4ee5\u5c06\u5b57\u7b26\u4e32\u53d8\u4e3a \u0022aaaa\u0022 \u6216 \u0022bbbb\u0022\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6700\u4f73\u7b54\u6848\u53ef\u4ee5\u901a\u8fc7\u5c06\u5b57\u7b26\u4e32\u53d8\u4e3a \u0022aaaaabaa\u0022 \u6216 \u0022aabaaaaa\u0022 \u83b7\u5f97\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Vasya and String","background":"","description":"High school student Vasya got a string of length $ n $ as a birthday present. This string consists of letters \u0027a\u0027 and \u0027b\u0027 only. Vasya denotes beauty of the string as the maximum length of a substring (consecutive subsequence) consisting of equal letters.\n\nVasya can change no more than $ k $ characters of the original string. What is the maximum beauty of the string he can achieve?","formatI":"The first line of the input contains two integers $ n $ and $ k $ ( $ 1\u003C=n\u003C=100000,0\u003C=k\u003C=n $ ) \u2014 the length of the string and the maximum number of characters to change.\n\nThe second line contains the string, consisting of letters \u0027a\u0027 and \u0027b\u0027 only.","formatO":"Print the only integer \u2014 the maximum beauty of the string Vasya can achieve by changing no more than $ k $ characters.","hint":"In the first sample, Vasya can obtain both strings \u0022aaaa\u0022 and \u0022bbbb\u0022.\n\nIn the second sample, the optimal answer is obtained with the string \u0022aaaaabaa\u0022 or with the string \u0022aabaaaaa\u0022.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["4 2\nabba\n","4\n"],["8 1\naabaabaa\n","5\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"676C","link":"https:\/\/codeforces.com\/problemset\/problem\/676\/C"},"translation":"\u7ed9\u4f60\u4e00\u4e2an\u4e2a\u5b57\u7b26a\u4e0eb\u7ec4\u6210\u7684\u5b57\u7b26\u4e32\uff0c\u6c42\u81f3\u591a\u6539\u52a8k\u4e2a\u5b57\u7b26\u540e\u8fde\u7eed\u76f8\u540c\u5b57\u7b26\u4e2a\u6570\u7684\u6700\u5927\u503c\u3002"},"translations":{"en":{"name":"Vasya and String","background":"","description":"High school student Vasya got a string of length $ n $ as a birthday present. This string consists of letters \u0027a\u0027 and \u0027b\u0027 only. Vasya denotes beauty of the string as the maximum length of a substring (consecutive subsequence) consisting of equal letters.\n\nVasya can change no more than $ k $ characters of the original string. What is the maximum beauty of the string he can achieve?","formatI":"The first line of the input contains two integers $ n $ and $ k $ ( $ 1\u003C=n\u003C=100000,0\u003C=k\u003C=n $ ) \u2014 the length of the string and the maximum number of characters to change.\n\nThe second line contains the string, consisting of letters \u0027a\u0027 and \u0027b\u0027 only.","formatO":"Print the only integer \u2014 the maximum beauty of the string Vasya can achieve by changing no more than $ k $ characters.","hint":"In the first sample, Vasya can obtain both strings \u0022aaaa\u0022 and \u0022bbbb\u0022.\n\nIn the second sample, the optimal answer is obtained with the string \u0022aaaaabaa\u0022 or with the string \u0022aabaaaaa\u0022.","locale":"en"},"zh-CN":{"name":"Vasya and String","background":null,"description":"\u9ad8\u4e2d\u751f Vasya \u6536\u5230\u4e86\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32\u4f5c\u4e3a\u751f\u65e5\u793c\u7269\u3002\u8fd9\u4e2a\u5b57\u7b26\u4e32\u53ea\u5305\u542b\u5b57\u6bcd \u0027a\u0027 \u548c \u0027b\u0027\u3002Vasya \u5c06\u5b57\u7b26\u4e32\u7684\u7f8e\u5b9a\u4e49\u4e3a\u5176\u4e2d\u6240\u6709\u7531\u76f8\u540c\u5b57\u6bcd\u7ec4\u6210\u7684\u8fde\u7eed\u5b50\u4e32\uff08\u5373\u5b50\u5e8f\u5217\uff09\u7684\u6700\u5927\u957f\u5ea6\u3002\n\n\u73b0\u5728\uff0cVasya \u6700\u591a\u53ef\u4ee5\u5c06\u539f\u5b57\u7b26\u4e32\u4e2d\u7684 $k$ \u4e2a\u5b57\u7b26\u4fee\u6539\u4e3a\u5176\u4ed6\u5b57\u6bcd\u3002\u8bf7\u95ee\uff0cVasya \u901a\u8fc7\u6700\u591a\u4fee\u6539 $k$ \u4e2a\u5b57\u7b26\uff0c\u80fd\u83b7\u5f97\u7684\u5b57\u7b26\u4e32\u7f8e\u7684\u6700\u5927\u503c\u662f\u591a\u5c11\uff1f","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u4e3a\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$1 \\leq n \\leq 100000, 0 \\leq k \\leq n$\uff09\uff0c\u8868\u793a\u5b57\u7b26\u4e32\u7684\u957f\u5ea6\u548c\u6700\u591a\u53ef\u4fee\u6539\u7684\u5b57\u7b26\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u4e3a\u4ec5\u7531\u5b57\u6bcd \u0027a\u0027 \u548c \u0027b\u0027 \u7ec4\u6210\u7684\u5b57\u7b26\u4e32\u3002","formatO":"\u8f93\u51fa\u4ec5\u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a Vasya \u901a\u8fc7\u4e0d\u8d85\u8fc7 $k$ \u6b21\u4fee\u6539\u80fd\u83b7\u5f97\u7684\u5b57\u7b26\u4e32\u7f8e\u7684\u6700\u5927\u503c\u3002","hint":"\u5728\u7b2c\u4e00\u4e2a\u6837\u4f8b\u4e2d\uff0cVasya \u53ef\u4ee5\u5c06\u5b57\u7b26\u4e32\u53d8\u4e3a \u0022aaaa\u0022 \u6216 \u0022bbbb\u0022\u3002\n\n\u5728\u7b2c\u4e8c\u4e2a\u6837\u4f8b\u4e2d\uff0c\u6700\u4f73\u7b54\u6848\u53ef\u4ee5\u901a\u8fc7\u5c06\u5b57\u7b26\u4e32\u53d8\u4e3a \u0022aaaaabaa\u0022 \u6216 \u0022aabaaaaa\u0022 \u83b7\u5f97\u3002\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF676C Vasya and String","type":2,"slug":"CF676C","color":"orange-3"},"discussions":[{"id":529259,"title":"\u5bb3\u4eba\u7684\u7ffb\u8bd1","author":{"uid":472950,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/472950.png","name":"Mr_Terminator","slogan":"Tell me where to go, what to do","badge":"","isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":8,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/a0urfi08.png"},"time":1668417484},{"id":102044,"title":"\u7edd\u4e16\u597d\u9898","author":{"uid":160701,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/160701.png","name":"Azaz\u0435l","slogan":"Just the smallest grain in the sands","badge":null,"isAdmin":false,"isBanned":false,"color":"Orange","ccfLevel":7,"xcpcLevel":6,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/vmq7zc0o.png"},"time":1551244539},{"id":34350,"title":"\u7ffb\u8bd1","author":{"uid":49371,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/49371.png","name":"Fuko_Ibuki","slogan":"Niconiconi!","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1518940753}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.341222,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF676C Vasya and String","description":"\u9ad8\u4e2d\u751f Vasya \u6536\u5230\u4e86\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u5b57\u7b26\u4e32\u4f5c\u4e3a\u751f\u65e5\u793c\u7269\u3002\u8fd9\u4e2a\u5b57\u7b26\u4e32\u53ea\u5305\u542b\u5b57\u6bcd 'a' \u548c 'b'\u3002Vasya \u5c06\u5b57\u7b26\u4e32\u7684\u7f8e\u5b9a\u4e49\u4e3a\u5176\u4e2d\u6240\u6709\u7531\u76f8\u540c\u5b57\u6bcd\u7ec4\u6210\u7684\u8fde\u7eed\u5b50\u4e32\uff08\u5373\u5b50\u5e8f\u5217\uff09\u7684\u6700\u5927\u957f\u5ea6\u3002\n\u73b0\u5728\uff0cVasya \u6700\u591a\u53ef\u4ee5\u5c06\u539f\u5b57\u7b26\u4e32\u4e2d\u7684 k\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF676C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF676C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF676C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF676C Vasya and String" />
+    <meta property="og:description" content="高中生 Vasya 收到了一个长度为 n 的字符串作为生日礼物。这个字符串只包含字母 &#039;a&#039; 和 &#039;b&#039;。Vasya 将字符串的美定义为其中所有由相同字母组成的连续子串（即子序列）的最大长度。
+现在，Vasya 最多可以将原字符串中的 k…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF676C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF676C Vasya and String</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    高中生 Vasya 收到了一个长度为 $n$ 的字符串作为生日礼物。这个字符串只包含字母 'a' 和 'b'。Vasya 将字符串的美定义为其中所有由相同字母组成的连续子串（即子序列）的最大长度。
+
+现在，Vasya 最多可以将原字符串中的 $k$ 个字符修改为其他字母。请问，Vasya 通过最多修改 $k$ 个字符，能获得的字符串美的最大值是多少？
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行为两个整数 $n$ 和 $k$（$1 \leq n \leq 100000, 0 \leq k \leq n$），表示字符串的长度和最多可修改的字符数。
+
+第二行为仅由字母 'a' 和 'b' 组成的字符串。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出仅一个整数，表示 Vasya 通过不超过 $k$ 次修改能获得的字符串美的最大值。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第一个样例中，Vasya 可以将字符串变为 "aaaa" 或 "bbbb"。
+
+在第二个样例中，最佳答案可以通过将字符串变为 "aaaaabaa" 或 "aabaaaaa" 获得。
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

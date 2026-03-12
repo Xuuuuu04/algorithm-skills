@@ -1,0 +1,28 @@
+{
+  "id": "CF-1567A",
+  "contest_id": 1567,
+  "index": "A",
+  "name": "Domino Disaster",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 31600,
+  "problem_url": "https://codeforces.com/problemset/problem/1567/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1567/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1567/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1567A%20Domino%20Disaster%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1567A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1567A Domino Disaster - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 339,
+    "mirror_attempt": 489,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

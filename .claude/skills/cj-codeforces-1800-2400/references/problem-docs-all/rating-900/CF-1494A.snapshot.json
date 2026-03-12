@@ -1,0 +1,34 @@
+{
+  "id": "CF-1494A",
+  "contest_id": 1494,
+  "index": "A",
+  "name": "ABC String",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 22378,
+  "problem_url": "https://codeforces.com/problemset/problem/1494/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1494/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1494/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1494A%20ABC%20String%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1494A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "ABC String - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "brute force",
+      "implementation",
+      "*900"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

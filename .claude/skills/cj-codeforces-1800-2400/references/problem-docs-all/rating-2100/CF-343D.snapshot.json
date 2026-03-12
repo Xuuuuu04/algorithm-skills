@@ -1,0 +1,36 @@
+{
+  "id": "CF-343D",
+  "contest_id": 343,
+  "index": "D",
+  "name": "Water Tree",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "graphs",
+    "trees"
+  ],
+  "solved_count": 6730,
+  "problem_url": "https://codeforces.com/problemset/problem/343/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/343/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/343/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=343D%20Water%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P343D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Water Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

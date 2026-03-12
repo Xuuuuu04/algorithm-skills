@@ -1,0 +1,34 @@
+{
+  "id": "CF-1809D",
+  "contest_id": 1809,
+  "index": "D",
+  "name": "Binary String Sorting",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1809/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1809/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1809/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1809D%20Binary String Sorting%20tutorial",
+  "solved_count": 7198,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1809D",
+  "hydro_meta": {
+    "page_title": "Binary String Sorting - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "dp",
+      "greedy"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

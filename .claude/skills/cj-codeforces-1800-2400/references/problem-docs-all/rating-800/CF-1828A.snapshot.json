@@ -1,0 +1,28 @@
+{
+  "id": "CF-1828A",
+  "contest_id": 1828,
+  "index": "A",
+  "name": "Divisible Array",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 25232,
+  "problem_url": "https://codeforces.com/problemset/problem/1828/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1828/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1828/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1828A%20Divisible%20Array%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1828/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1828A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

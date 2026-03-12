@@ -1,0 +1,36 @@
+{
+  "id": "CF-444D",
+  "contest_id": 444,
+  "index": "D",
+  "name": "DZY Loves Strings",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "hashing",
+    "strings",
+    "two pointers"
+  ],
+  "solved_count": 854,
+  "problem_url": "https://codeforces.com/problemset/problem/444/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/444/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/444/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=444D%20DZY%20Loves%20Strings%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P444D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "DZY Loves Strings - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "hashing",
+      "strings",
+      "two pointers",
+      "*2500"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 2,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

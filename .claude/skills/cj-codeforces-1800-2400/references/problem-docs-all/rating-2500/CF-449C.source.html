@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414511:kOLSX+yvbleBvIrq4wsEwoqp/ydUsVMZ1TvfcqgIeyI=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF449C Jzzhu and Apples - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF449C","type":"CF","title":"Jzzhu and Apples","difficulty":6,"tags":[111,239,287],"wantsTranslation":false,"totalSubmit":518,"totalAccepted":307,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Jzzhu and Apples","background":null,"description":"Jzzhu \u4ece\u4ed6\u7684\u5927\u82f9\u679c\u6811\u4e0a\u6458\u4e86 $n$ \u4e2a\u82f9\u679c\u3002\u6240\u6709\u82f9\u679c\u7f16\u53f7\u4ece $1$ \u5230 $n$\u3002\u73b0\u5728\u4ed6\u60f3\u628a\u8fd9\u4e9b\u82f9\u679c\u5356\u7ed9\u4e00\u5bb6\u82f9\u679c\u5546\u5e97\u3002\n\nJzzhu \u4f1a\u5c06\u82f9\u679c\u6253\u5305\u6210\u82e5\u5e72\u7ec4\u7136\u540e\u51fa\u552e\u3002\u6bcf\u4e00\u7ec4\u5fc5\u987b\u5305\u542b\u4e24\u4e2a\u82f9\u679c\uff0c\u5e76\u4e14\u6bcf\u7ec4\u4e2d\u4e24\u4e2a\u82f9\u679c\u7f16\u53f7\u7684\u6700\u5927\u516c\u7ea6\u6570\u5fc5\u987b\u5927\u4e8e $1$\u3002\u5f53\u7136\uff0c\u6bcf\u4e2a\u82f9\u679c\u6700\u591a\u53ea\u80fd\u5c5e\u4e8e\u4e00\u4e2a\u5206\u7ec4\u3002\n\nJzzhu \u60f3\u77e5\u9053\uff0c\u4ed6\u6700\u591a\u80fd\u5206\u6210\u591a\u5c11\u7ec4\u3002\u4f60\u80fd\u5e2e\u5e2e\u4ed6\u5417\uff1f","formatI":"\u4e00\u4e2a\u6574\u6570 $n$\uff0c\u8868\u793a\u82f9\u679c\u7684\u6570\u91cf\u3002$1 \\leq n \\leq 10^5$\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $m$\uff0c\u8868\u793a\u6700\u591a\u53ef\u4ee5\u5206\u6210\u7684\u5206\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u7684 $m$ \u884c\u4e2d\uff0c\u6bcf\u884c\u8f93\u51fa\u4e24\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5f53\u524d\u5206\u7ec4\u4e2d\u4e24\u4e2a\u82f9\u679c\u7684\u7f16\u53f7\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u6700\u4f18\u65b9\u6848\uff0c\u53ef\u4ee5\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Jzzhu and Apples","background":"","description":"Jzzhu has picked $ n $ apples from his big apple tree. All the apples are numbered from $ 1 $ to $ n $ . Now he wants to sell them to an apple store.\n\nJzzhu will pack his apples into groups and then sell them. Each group must contain two apples, and the greatest common divisor of numbers of the apples in each group must be greater than 1. Of course, each apple can be part of at most one group.\n\nJzzhu wonders how to get the maximum possible number of groups. Can you help him?","formatI":"A single integer $ n $ $ (1\u003C=n\u003C=10^{5}) $ , the number of the apples.","formatO":"The first line must contain a single integer $ m $ , representing the maximum number of groups he can get. Each of the next $ m $ lines must contain two integers \u2014 the numbers of apples in the current group.\n\nIf there are several optimal answers you can print any of them.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":true,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n","2\n6 3\n2 4\n"],["9\n","3\n9 3\n2 4\n6 8\n"],["2\n","0\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"449C","link":"https:\/\/codeforces.com\/problemset\/problem\/449\/C"},"translation":"\u7ed9\u51fa\u6b63\u6574\u6570n,\u4f60\u8981\u628a1-n\u4e4b\u95f4\u7684\u6b63\u6574\u6570\u5206\u6210\u5c3d\u53ef\u80fd\u591a\u7ec4,\u4f7f\u5f97\u6bcf\u4e00\u7ec4\u4e24\u4e2a\u6570\u7684\u6700\u5927\u516c\u7ea6\u6570\u5927\u4e8e1;\u8f93\u51fa\u80fd\u5206\u6210\u6700\u591a\u7ec4\u7684\u4e2a\u6570,\u5e76\u6309\u4efb\u610f\u987a\u5e8f\u8f93\u51fa\u6bcf\u7ec4\u7684\u4e24\u4e2a\u6570."},"translations":{"en":{"name":"Jzzhu and Apples","background":"","description":"Jzzhu has picked $ n $ apples from his big apple tree. All the apples are numbered from $ 1 $ to $ n $ . Now he wants to sell them to an apple store.\n\nJzzhu will pack his apples into groups and then sell them. Each group must contain two apples, and the greatest common divisor of numbers of the apples in each group must be greater than 1. Of course, each apple can be part of at most one group.\n\nJzzhu wonders how to get the maximum possible number of groups. Can you help him?","formatI":"A single integer $ n $ $ (1\u003C=n\u003C=10^{5}) $ , the number of the apples.","formatO":"The first line must contain a single integer $ m $ , representing the maximum number of groups he can get. Each of the next $ m $ lines must contain two integers \u2014 the numbers of apples in the current group.\n\nIf there are several optimal answers you can print any of them.","hint":"","locale":"en"},"zh-CN":{"name":"Jzzhu and Apples","background":null,"description":"Jzzhu \u4ece\u4ed6\u7684\u5927\u82f9\u679c\u6811\u4e0a\u6458\u4e86 $n$ \u4e2a\u82f9\u679c\u3002\u6240\u6709\u82f9\u679c\u7f16\u53f7\u4ece $1$ \u5230 $n$\u3002\u73b0\u5728\u4ed6\u60f3\u628a\u8fd9\u4e9b\u82f9\u679c\u5356\u7ed9\u4e00\u5bb6\u82f9\u679c\u5546\u5e97\u3002\n\nJzzhu \u4f1a\u5c06\u82f9\u679c\u6253\u5305\u6210\u82e5\u5e72\u7ec4\u7136\u540e\u51fa\u552e\u3002\u6bcf\u4e00\u7ec4\u5fc5\u987b\u5305\u542b\u4e24\u4e2a\u82f9\u679c\uff0c\u5e76\u4e14\u6bcf\u7ec4\u4e2d\u4e24\u4e2a\u82f9\u679c\u7f16\u53f7\u7684\u6700\u5927\u516c\u7ea6\u6570\u5fc5\u987b\u5927\u4e8e $1$\u3002\u5f53\u7136\uff0c\u6bcf\u4e2a\u82f9\u679c\u6700\u591a\u53ea\u80fd\u5c5e\u4e8e\u4e00\u4e2a\u5206\u7ec4\u3002\n\nJzzhu \u60f3\u77e5\u9053\uff0c\u4ed6\u6700\u591a\u80fd\u5206\u6210\u591a\u5c11\u7ec4\u3002\u4f60\u80fd\u5e2e\u5e2e\u4ed6\u5417\uff1f","formatI":"\u4e00\u4e2a\u6574\u6570 $n$\uff0c\u8868\u793a\u82f9\u679c\u7684\u6570\u91cf\u3002$1 \\leq n \\leq 10^5$\u3002","formatO":"\u7b2c\u4e00\u884c\u8f93\u51fa\u4e00\u4e2a\u6574\u6570 $m$\uff0c\u8868\u793a\u6700\u591a\u53ef\u4ee5\u5206\u6210\u7684\u5206\u7ec4\u6570\u3002\u63a5\u4e0b\u6765\u7684 $m$ \u884c\u4e2d\uff0c\u6bcf\u884c\u8f93\u51fa\u4e24\u4e2a\u6574\u6570\uff0c\u8868\u793a\u5f53\u524d\u5206\u7ec4\u4e2d\u4e24\u4e2a\u82f9\u679c\u7684\u7f16\u53f7\u3002\n\n\u5982\u679c\u6709\u591a\u79cd\u6700\u4f18\u65b9\u6848\uff0c\u53ef\u4ee5\u8f93\u51fa\u4efb\u610f\u4e00\u79cd\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF449C Jzzhu and Apples","type":2,"slug":"CF449C","color":"orange-3"},"discussions":[{"id":368991,"title":"\u840c\u65b0\u6c42\u95ee\u4e3a\u4f55\u4ee3\u7801TLE","author":{"uid":249785,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/249785.png","name":"SS_Chara","slogan":"\u8fd9\u4f19\u5f88\uff0c\u4ec0\u6ca1\u7559","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/96sy0u2w.png"},"time":1634793346},{"id":32814,"title":"\u7ffb\u8bd1","author":{"uid":49371,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/49371.png","name":"Fuko_Ibuki","slogan":"Niconiconi!","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1517618687}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328111.242106,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF449C Jzzhu and Apples","description":"Jzzhu \u4ece\u4ed6\u7684\u5927\u82f9\u679c\u6811\u4e0a\u6458\u4e86 n \u4e2a\u82f9\u679c\u3002\u6240\u6709\u82f9\u679c\u7f16\u53f7\u4ece 1 \u5230 n\u3002\u73b0\u5728\u4ed6\u60f3\u628a\u8fd9\u4e9b\u82f9\u679c\u5356\u7ed9\u4e00\u5bb6\u82f9\u679c\u5546\u5e97\u3002\nJzzhu \u4f1a\u5c06\u82f9\u679c\u6253\u5305\u6210\u82e5\u5e72\u7ec4\u7136\u540e\u51fa\u552e\u3002\u6bcf\u4e00\u7ec4\u5fc5\u987b\u5305\u542b\u4e24\u4e2a\u82f9\u679c\uff0c\u5e76\u4e14\u6bcf\u7ec4\u4e2d\u4e24\u4e2a\u82f9\u679c\u7f16\u53f7\u7684\u6700\u5927\u516c\u7ea6\u6570\u5fc5\u987b\u5927\u4e8e 1\u3002\u5f53\u7136\uff0c\u6bcf\u4e2a\u82f9\u679c\u6700\u591a\u53ea\u80fd\u5c5e\u4e8e\u4e00\u4e2a\u5206\u7ec4\u3002\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF449C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF449C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF449C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF449C Jzzhu and Apples" />
+    <meta property="og:description" content="Jzzhu 从他的大苹果树上摘了 n 个苹果。所有苹果编号从 1 到 n。现在他想把这些苹果卖给一家苹果商店。
+Jzzhu 会将苹果打包成若干组然后出售。每一组必须包含两个苹果，并且每组中两个苹果编号的最大公约数必须大于 1。当然，每个苹果最多只能属于一个分组。…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF449C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF449C Jzzhu and Apples</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    Jzzhu 从他的大苹果树上摘了 $n$ 个苹果。所有苹果编号从 $1$ 到 $n$。现在他想把这些苹果卖给一家苹果商店。
+
+Jzzhu 会将苹果打包成若干组然后出售。每一组必须包含两个苹果，并且每组中两个苹果编号的最大公约数必须大于 $1$。当然，每个苹果最多只能属于一个分组。
+
+Jzzhu 想知道，他最多能分成多少组。你能帮帮他吗？
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一个整数 $n$，表示苹果的数量。$1 \leq n \leq 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    第一行输出一个整数 $m$，表示最多可以分成的分组数。接下来的 $m$ 行中，每行输出两个整数，表示当前分组中两个苹果的编号。
+
+如果有多种最优方案，可以输出任意一种。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

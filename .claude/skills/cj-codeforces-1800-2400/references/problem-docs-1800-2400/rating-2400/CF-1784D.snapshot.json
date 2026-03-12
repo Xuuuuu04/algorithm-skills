@@ -1,0 +1,32 @@
+{
+  "id": "CF-1784D",
+  "contest_id": 1784,
+  "index": "D",
+  "name": "Wooden Spoon",
+  "rating": 2400,
+  "tags": [
+    "combinatorics",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1784/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1784/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1784/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1784D%20Wooden Spoon%20tutorial",
+  "solved_count": 1278,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1784D",
+  "hydro_meta": {
+    "page_title": "Wooden Spoon - 题目详情 - Hydro",
+    "hydro_tags": [
+      "combinatorics",
+      "dp"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

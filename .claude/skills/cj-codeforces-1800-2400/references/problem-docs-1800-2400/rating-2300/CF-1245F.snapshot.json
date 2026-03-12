@@ -1,0 +1,37 @@
+{
+  "id": "CF-1245F",
+  "contest_id": 1245,
+  "index": "F",
+  "name": "Daniel and Spring Cleaning",
+  "rating": 2300,
+  "tags": [
+    "bitmasks",
+    "brute force",
+    "combinatorics",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1245/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1245/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1245/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1245F%20Daniel and Spring Cleaning%20tutorial",
+  "solved_count": 2236,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1245F",
+  "hydro_meta": {
+    "page_title": "Daniel and Spring Cleaning - 题目详情 - Hydro",
+    "hydro_tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-1737A",
+  "contest_id": 1737,
+  "index": "A",
+  "name": "Ela Sorting Books",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 10772,
+  "problem_url": "https://codeforces.com/problemset/problem/1737/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1737/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1737/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1737A%20Ela%20Sorting%20Books%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1737A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ela Sorting Books - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "implementation",
+      "implementation",
+      "implementation",
+      "implementation",
+      "strings",
+      "strings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

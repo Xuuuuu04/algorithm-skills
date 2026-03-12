@@ -1,0 +1,30 @@
+{
+  "id": "CF-1211F",
+  "contest_id": 1211,
+  "index": "F",
+  "name": "kotlinkotlinkotlinkotlin...",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "graphs",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 149,
+  "problem_url": "https://codeforces.com/problemset/problem/1211/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1211/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1211/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1211F%20kotlinkotlinkotlinkotlin...%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1211/F",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1211F - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

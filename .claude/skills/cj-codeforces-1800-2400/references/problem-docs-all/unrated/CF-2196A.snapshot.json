@@ -1,0 +1,28 @@
+{
+  "id": "CF-2196A",
+  "contest_id": 2196,
+  "index": "A",
+  "name": "Game with a Fraction",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "games",
+    "math"
+  ],
+  "solved_count": 13920,
+  "problem_url": "https://codeforces.com/problemset/problem/2196/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2196/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2196/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2196A%20Game%20with%20a%20Fraction%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2196A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2196A Game with a Fraction - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

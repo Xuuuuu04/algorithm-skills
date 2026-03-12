@@ -1,0 +1,32 @@
+{
+  "id": "CF-1491I",
+  "contest_id": 1491,
+  "index": "I",
+  "name": "Ruler Of The Zoo",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 5000.0,
+  "tags": [
+    "brute force",
+    "data structures"
+  ],
+  "solved_count": 108,
+  "problem_url": "https://codeforces.com/problemset/problem/1491/I",
+  "answer_index_url": "https://codeforces.com/problemset/status/1491/problem/I",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1491/problem/I?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1491I%20Ruler%20Of%20The%20Zoo%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1491I",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ruler Of The Zoo - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "data structures",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

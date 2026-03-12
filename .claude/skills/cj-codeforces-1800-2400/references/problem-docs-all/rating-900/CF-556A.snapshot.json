@@ -1,0 +1,27 @@
+{
+  "id": "CF-556A",
+  "contest_id": 556,
+  "index": "A",
+  "name": "Case of the Zeros and Ones",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 250.0,
+  "tags": [
+    "greedy"
+  ],
+  "solved_count": 45833,
+  "problem_url": "https://codeforces.com/problemset/problem/556/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/556/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/556/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=556A%20Case%20of%20the%20Zeros%20and%20Ones%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF556A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF556A Case of the Zeros and Ones - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 186,
+    "mirror_attempt": 362,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

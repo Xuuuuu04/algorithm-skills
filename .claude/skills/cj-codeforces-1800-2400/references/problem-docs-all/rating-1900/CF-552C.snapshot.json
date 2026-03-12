@@ -1,0 +1,32 @@
+{
+  "id": "CF-552C",
+  "contest_id": 552,
+  "index": "C",
+  "name": "Vanya and Scales",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "brute force",
+    "dp",
+    "greedy",
+    "math",
+    "meet-in-the-middle",
+    "number theory"
+  ],
+  "solved_count": 5816,
+  "problem_url": "https://codeforces.com/problemset/problem/552/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/552/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/552/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=552C%20Vanya%20and%20Scales%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF552C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF552C Vanya and Scales - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 225,
+    "mirror_attempt": 489,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

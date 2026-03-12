@@ -1,0 +1,36 @@
+{
+  "id": "CF-253E",
+  "contest_id": 253,
+  "index": "E",
+  "name": "Printer",
+  "rating": 2200,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 580,
+  "problem_url": "https://codeforces.com/problemset/problem/253/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/253/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/253/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=253E%20Printer%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P253E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Printer - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "sortings",
+      "*2200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

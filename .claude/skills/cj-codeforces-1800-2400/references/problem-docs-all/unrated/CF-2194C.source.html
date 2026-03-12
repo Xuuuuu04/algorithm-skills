@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414523:jYoNasXb6Ls35ALYXt865h1HZazMVkHsO7ChARfjG6w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF2194C Secret message - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF2194C","type":"CF","title":"Secret message","difficulty":4,"tags":[2,5,111,314,465],"wantsTranslation":false,"totalSubmit":0,"totalAccepted":0,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Secret message","background":null,"description":"### \u9898\u76ee\u63cf\u8ff0\n\n\u5929\u624d\u95f4\u8c0d\u9c8d\u52c3\u622a\u83b7\u4e86\u4e00\u6761\u52a0\u5bc6\u4fe1\u606f\u3002\u4ed6\u63a8\u6d4b\u5176\u4e2d\u5305\u542b\u79d8\u5bc6\u60c5\u62a5\uff0c\u5e76\u6b63\u79ef\u6781\u81f4\u529b\u4e8e\u7834\u89e3\u5b83\u3002\n\n\u843d\u5165\u95f4\u8c0d\u624b\u4e2d\u7684\u7eb8\u6761\u7531 $k$ \u6761\u7ec4\u6210\uff0c\u6bcf\u6761\u957f\u5ea6\u4e3a $n$\uff0c\u5305\u542b\u4e25\u683c\u7684\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u3002\u51ed\u501f\u89e3\u5bc6\u6b64\u7c7b\u6587\u6863\u7684\u4e30\u5bcc\u7ecf\u9a8c\uff0c\u9c8d\u52c3\u731c\u6d4b\u4ed6\u611f\u5174\u8da3\u7684\u6d88\u606f\uff08\u5373\u7eb8\u6761\u7684\u89e3\u5bc6\uff09\u4e5f\u662f\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32\uff0c\u5e76\u4e14\u8be5\u6d88\u606f\u7684\u7b2c $i$ \u4e2a\u5b57\u6bcd\u5bf9\u5e94\u4e8e\u67d0\u6761\u7eb8\u6761\u7684\u7b2c $i$ \u4e2a\u5b57\u6bcd\u3002\n\n\u9c8d\u52c3\u5b9a\u4e49\u5b57\u7b26\u4e32 $s$ \u7684\u4fe1\u606f\u6027\u4e3a\u6700\u5c0f\u7684\u6b63\u6574\u6570 $d$\uff0c\u4f7f\u5f97\u5b58\u5728\u4e00\u4e2a\u957f\u5ea6\u4e3a $d$ \u7684\u5b57\u7b26\u4e32 $t$\uff0c\u5e76\u4e14 $s$ \u53ef\u4ee5\u901a\u8fc7\u91cd\u590d $t$ \u82e5\u5e72\u6b21\u6765\u5f62\u6210\u3002\u4f8b\u5982\uff0c\u5b57\u7b26\u4e32 \u0022aaaa\u0022 \u7684\u4fe1\u606f\u6027\u662f $1$\uff0c\u5b57\u7b26\u4e32 \u0022abab\u0022 \u7684\u4fe1\u606f\u6027\u662f $2$\uff0c\u5b57\u7b26\u4e32 \u0022abcd\u0022 \u7684\u4fe1\u606f\u6027\u662f $4$\u3002\n\n\u9c8d\u52c3\u63a8\u6d4b\uff0c\u7b14\u8bb0\u7684\u4f5c\u8005\u4e3a\u4e86\u786e\u4fdd\u4fe1\u606f\u53ef\u9760\u4f20\u8f93\uff0c\u5c06\u6d88\u606f\u4e2d\u7684\u6570\u636e\u91cd\u590d\u4e86\u591a\u6b21\u3002\u56e0\u6b64\uff0c\u4ed6\u8ba4\u4e3a\u66f4\u5408\u7406\u7684\u89e3\u5bc6\u5e94\u8be5\u662f\u5177\u6709\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u7684\u3002\n\n\u5e2e\u52a9\u95f4\u8c0d\uff1a\u627e\u5230\u4ee3\u8868\u7b14\u8bb0\u89e3\u5bc6\u7684\u6d88\u606f\uff0c\u4e14\u5177\u6709\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u3002","formatI":"\u8f93\u5165\u683c\u5f0f\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $t\uff081 \\le t \\le 10^4\uff09$\u3002\u968f\u540e\u662f\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u6709\u6570\u5b57 $n$ \u548c $k$  $(2 \\le n,k \\le 50000, 4 \\le n\u00b7k \\le 10^5)$\u2014\u2014 \u7eb8\u6761\u7684\u957f\u5ea6\u548c\u7eb8\u6761\u7684\u6570\u91cf\u3002\n\n\u5728\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63a5\u4e0b\u6765 $k$ \u884c\u4e2d\uff0c\u6bcf\u884c\u6709\u4e00\u4e2a\u7531 $n$ \u4e2a\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5e8f\u5217 \u2014\u2014 \u4e0b\u4e00\u4e2a\u7eb8\u6761\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n\u00b7k$ \u603b\u548c\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 \u2014\u2014 \u7b14\u8bb0\u7684\u89e3\u5bc6\uff0c\u5177\u6709\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u3002\u5982\u679c\u6709\u591a\u4e2a\u5408\u9002\u7684\u7b54\u6848\uff0c\u53ef\u4ee5\u8f93\u51fa\u5176\u4e2d\u4efb\u4f55\u4e00\u4e2a\u3002","hint":"\u8bf4\u660e\/\u63d0\u793a\n\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u662f 1\uff1a\n\nabc\n\nbaa\n\n\u89e3\u5bc6\u4e3aaaa\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u662f 3\uff1a\n\niiinnnfff\n\nnnfiffinn\n\n\u89e3\u5bc6\u4e3ainfinfinf","locale":"zh-CN"},"content":{"name":"Secret message","background":null,"description":"Bob, the genius spy, has intercepted an encrypted message. He assumes that it contains secret information and is actively engaged in deciphering it.\n\nThe note, which has fallen into the hands of the spy, consists of  $ k $  strips, each of length  $ n $  and containing strict lowercase Latin letters. With extensive experience in deciphering such documents, Bob guessed that the message he is interested in (the deciphering of the note) is also a string of length  $ n $ , and the  $ i $ -th letter of this message corresponds to the  $ i $ -th letter of one of the strips.\n\nAccording to Bob, the informativity of a string  $ s $  is defined as the minimum positive integer  $ d $  such that a string  $ t $  of length  $ d $  exists, and  $ s $  can be formed by repeating  $ t $  several times. For example, the informativity of the string \u0022aaaa\u0022 is 1, the informativity of the string \u0022abab\u0022 is 2, and the informativity of the string \u0022abcd\u0022 is 4.\n\nBob assumes that the note\u0027s author, to ensure reliable transmission of information, repeated the data in the message several times. Therefore, he believes that a more plausible decryption of the note would have the smallest possible informativity.\n\nHelp the spy: find the message that represents the decryption of the note and has the minimum possible informativity.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nIn the first line of each test case, there are numbers  $ n $  and  $ k $  ( $ 2 \\leq n, k \\leq 50\\,000, 4 \\leq n \\cdot k \\leq 10^5 $ ) \u2014 the length of the strips of paper and the number of strips.\n\nIn each of the following  $ k $  lines of each test case, there is a sequence of  $ n $  lowercase Latin letters \u2014 the next strip.\n\nIt is guaranteed that the sum  $ n \\cdot k $  across all test cases does not exceed  $ 10^5 $","formatO":"For each test case, output a string of length  $ n $  \u2014 the decryption of the note, which has the minimal possible informativity. If there are multiple suitable answers, any of them may be output.","hint":"In the first test case, the minimum possible informativity is  $ 1 $ :\n\nabc\n\nbaa\n\nIn the second test case, the minimum possible informativity is  $ 3 $ :\n\niiinnnfff\n\nnnfiffinn","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["3\n3 2\nabc\nbaa\n9 2\niiinnnfff\nnnfiffinn\n4 2\nacbd\nbdac","aaa\ninfinfinf\nacac"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"2194C","link":"https:\/\/codeforces.com\/problemset\/problem\/2194\/C"},"translation":null},"translations":{"en":{"name":"Secret message","background":null,"description":"Bob, the genius spy, has intercepted an encrypted message. He assumes that it contains secret information and is actively engaged in deciphering it.\n\nThe note, which has fallen into the hands of the spy, consists of  $ k $  strips, each of length  $ n $  and containing strict lowercase Latin letters. With extensive experience in deciphering such documents, Bob guessed that the message he is interested in (the deciphering of the note) is also a string of length  $ n $ , and the  $ i $ -th letter of this message corresponds to the  $ i $ -th letter of one of the strips.\n\nAccording to Bob, the informativity of a string  $ s $  is defined as the minimum positive integer  $ d $  such that a string  $ t $  of length  $ d $  exists, and  $ s $  can be formed by repeating  $ t $  several times. For example, the informativity of the string \u0022aaaa\u0022 is 1, the informativity of the string \u0022abab\u0022 is 2, and the informativity of the string \u0022abcd\u0022 is 4.\n\nBob assumes that the note\u0027s author, to ensure reliable transmission of information, repeated the data in the message several times. Therefore, he believes that a more plausible decryption of the note would have the smallest possible informativity.\n\nHelp the spy: find the message that represents the decryption of the note and has the minimum possible informativity.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases  $ t $  ( $ 1 \\le t \\le 10^4 $ ). The description of the test cases follows.\n\nIn the first line of each test case, there are numbers  $ n $  and  $ k $  ( $ 2 \\leq n, k \\leq 50\\,000, 4 \\leq n \\cdot k \\leq 10^5 $ ) \u2014 the length of the strips of paper and the number of strips.\n\nIn each of the following  $ k $  lines of each test case, there is a sequence of  $ n $  lowercase Latin letters \u2014 the next strip.\n\nIt is guaranteed that the sum  $ n \\cdot k $  across all test cases does not exceed  $ 10^5 $","formatO":"For each test case, output a string of length  $ n $  \u2014 the decryption of the note, which has the minimal possible informativity. If there are multiple suitable answers, any of them may be output.","hint":"In the first test case, the minimum possible informativity is  $ 1 $ :\n\nabc\n\nbaa\n\nIn the second test case, the minimum possible informativity is  $ 3 $ :\n\niiinnnfff\n\nnnfiffinn","locale":"en"},"zh-CN":{"name":"Secret message","background":null,"description":"### \u9898\u76ee\u63cf\u8ff0\n\n\u5929\u624d\u95f4\u8c0d\u9c8d\u52c3\u622a\u83b7\u4e86\u4e00\u6761\u52a0\u5bc6\u4fe1\u606f\u3002\u4ed6\u63a8\u6d4b\u5176\u4e2d\u5305\u542b\u79d8\u5bc6\u60c5\u62a5\uff0c\u5e76\u6b63\u79ef\u6781\u81f4\u529b\u4e8e\u7834\u89e3\u5b83\u3002\n\n\u843d\u5165\u95f4\u8c0d\u624b\u4e2d\u7684\u7eb8\u6761\u7531 $k$ \u6761\u7ec4\u6210\uff0c\u6bcf\u6761\u957f\u5ea6\u4e3a $n$\uff0c\u5305\u542b\u4e25\u683c\u7684\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u3002\u51ed\u501f\u89e3\u5bc6\u6b64\u7c7b\u6587\u6863\u7684\u4e30\u5bcc\u7ecf\u9a8c\uff0c\u9c8d\u52c3\u731c\u6d4b\u4ed6\u611f\u5174\u8da3\u7684\u6d88\u606f\uff08\u5373\u7eb8\u6761\u7684\u89e3\u5bc6\uff09\u4e5f\u662f\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32\uff0c\u5e76\u4e14\u8be5\u6d88\u606f\u7684\u7b2c $i$ \u4e2a\u5b57\u6bcd\u5bf9\u5e94\u4e8e\u67d0\u6761\u7eb8\u6761\u7684\u7b2c $i$ \u4e2a\u5b57\u6bcd\u3002\n\n\u9c8d\u52c3\u5b9a\u4e49\u5b57\u7b26\u4e32 $s$ \u7684\u4fe1\u606f\u6027\u4e3a\u6700\u5c0f\u7684\u6b63\u6574\u6570 $d$\uff0c\u4f7f\u5f97\u5b58\u5728\u4e00\u4e2a\u957f\u5ea6\u4e3a $d$ \u7684\u5b57\u7b26\u4e32 $t$\uff0c\u5e76\u4e14 $s$ \u53ef\u4ee5\u901a\u8fc7\u91cd\u590d $t$ \u82e5\u5e72\u6b21\u6765\u5f62\u6210\u3002\u4f8b\u5982\uff0c\u5b57\u7b26\u4e32 \u0022aaaa\u0022 \u7684\u4fe1\u606f\u6027\u662f $1$\uff0c\u5b57\u7b26\u4e32 \u0022abab\u0022 \u7684\u4fe1\u606f\u6027\u662f $2$\uff0c\u5b57\u7b26\u4e32 \u0022abcd\u0022 \u7684\u4fe1\u606f\u6027\u662f $4$\u3002\n\n\u9c8d\u52c3\u63a8\u6d4b\uff0c\u7b14\u8bb0\u7684\u4f5c\u8005\u4e3a\u4e86\u786e\u4fdd\u4fe1\u606f\u53ef\u9760\u4f20\u8f93\uff0c\u5c06\u6d88\u606f\u4e2d\u7684\u6570\u636e\u91cd\u590d\u4e86\u591a\u6b21\u3002\u56e0\u6b64\uff0c\u4ed6\u8ba4\u4e3a\u66f4\u5408\u7406\u7684\u89e3\u5bc6\u5e94\u8be5\u662f\u5177\u6709\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u7684\u3002\n\n\u5e2e\u52a9\u95f4\u8c0d\uff1a\u627e\u5230\u4ee3\u8868\u7b14\u8bb0\u89e3\u5bc6\u7684\u6d88\u606f\uff0c\u4e14\u5177\u6709\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u3002","formatI":"\u8f93\u5165\u683c\u5f0f\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u5305\u542b\u591a\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u3002\u7b2c\u4e00\u884c\u5305\u542b\u6d4b\u8bd5\u7528\u4f8b\u7684\u6570\u91cf $t\uff081 \\le t \\le 10^4\uff09$\u3002\u968f\u540e\u662f\u6d4b\u8bd5\u7528\u4f8b\u7684\u63cf\u8ff0\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u6709\u6570\u5b57 $n$ \u548c $k$  $(2 \\le n,k \\le 50000, 4 \\le n\u00b7k \\le 10^5)$\u2014\u2014 \u7eb8\u6761\u7684\u957f\u5ea6\u548c\u7eb8\u6761\u7684\u6570\u91cf\u3002\n\n\u5728\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u63a5\u4e0b\u6765 $k$ \u884c\u4e2d\uff0c\u6bcf\u884c\u6709\u4e00\u4e2a\u7531 $n$ \u4e2a\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u7ec4\u6210\u7684\u5e8f\u5217 \u2014\u2014 \u4e0b\u4e00\u4e2a\u7eb8\u6761\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u7528\u4f8b\u7684 $n\u00b7k$ \u603b\u548c\u4e0d\u8d85\u8fc7 $10^5$\u3002","formatO":"\u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u5b57\u7b26\u4e32 \u2014\u2014 \u7b14\u8bb0\u7684\u89e3\u5bc6\uff0c\u5177\u6709\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u3002\u5982\u679c\u6709\u591a\u4e2a\u5408\u9002\u7684\u7b54\u6848\uff0c\u53ef\u4ee5\u8f93\u51fa\u5176\u4e2d\u4efb\u4f55\u4e00\u4e2a\u3002","hint":"\u8bf4\u660e\/\u63d0\u793a\n\u5728\u7b2c\u4e00\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u662f 1\uff1a\n\nabc\n\nbaa\n\n\u89e3\u5bc6\u4e3aaaa\n\n\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6700\u5c0f\u53ef\u80fd\u4fe1\u606f\u6027\u662f 3\uff1a\n\niiinnnfff\n\nnnfiffinn\n\n\u89e3\u5bc6\u4e3ainfinfinf","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF2194C Secret message","type":2,"slug":"CF2194C","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328123.251588,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF2194C Secret message","description":"\u9898\u76ee\u63cf\u8ff0\n\u5929\u624d\u95f4\u8c0d\u9c8d\u52c3\u622a\u83b7\u4e86\u4e00\u6761\u52a0\u5bc6\u4fe1\u606f\u3002\u4ed6\u63a8\u6d4b\u5176\u4e2d\u5305\u542b\u79d8\u5bc6\u60c5\u62a5\uff0c\u5e76\u6b63\u79ef\u6781\u81f4\u529b\u4e8e\u7834\u89e3\u5b83\u3002\n\u843d\u5165\u95f4\u8c0d\u624b\u4e2d\u7684\u7eb8\u6761\u7531 k \u6761\u7ec4\u6210\uff0c\u6bcf\u6761\u957f\u5ea6\u4e3a n\uff0c\u5305\u542b\u4e25\u683c\u7684\u5c0f\u5199\u62c9\u4e01\u5b57\u6bcd\u3002\u51ed\u501f\u89e3\u5bc6\u6b64\u7c7b\u6587\u6863\u7684\u4e30\u5bcc\u7ecf\u9a8c\uff0c\u9c8d\u52c3\u731c\u6d4b\u4ed6\u611f\u5174\u8da3\u7684\u6d88\u606f\uff08\u5373\u7eb8\u6761\u7684\u89e3\u5bc6\uff09\u4e5f\u662f\u4e00\u4e2a\u957f\u5ea6\u4e3a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF2194C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF2194C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF2194C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF2194C Secret message" />
+    <meta property="og:description" content="题目描述
+天才间谍鲍勃截获了一条加密信息。他推测其中包含秘密情报，并正积极致力于破解它。
+落入间谍手中的纸条由 k 条组成，每条长度为 n，包含严格的小写拉丁字母。凭借解密此类文档的丰富经验，鲍勃猜测他感兴趣的消息（即纸条的解密）也是一个长度为…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF2194C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF2194C Secret message</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    ### 题目描述
+
+天才间谍鲍勃截获了一条加密信息。他推测其中包含秘密情报，并正积极致力于破解它。
+
+落入间谍手中的纸条由 $k$ 条组成，每条长度为 $n$，包含严格的小写拉丁字母。凭借解密此类文档的丰富经验，鲍勃猜测他感兴趣的消息（即纸条的解密）也是一个长度为 $n$ 的字符串，并且该消息的第 $i$ 个字母对应于某条纸条的第 $i$ 个字母。
+
+鲍勃定义字符串 $s$ 的信息性为最小的正整数 $d$，使得存在一个长度为 $d$ 的字符串 $t$，并且 $s$ 可以通过重复 $t$ 若干次来形成。例如，字符串 "aaaa" 的信息性是 $1$，字符串 "abab" 的信息性是 $2$，字符串 "abcd" 的信息性是 $4$。
+
+鲍勃推测，笔记的作者为了确保信息可靠传输，将消息中的数据重复了多次。因此，他认为更合理的解密应该是具有最小可能信息性的。
+
+帮助间谍：找到代表笔记解密的消息，且具有最小可能信息性。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入格式
+
+每个测试包含多个测试用例。第一行包含测试用例的数量 $t（1 \le t \le 10^4）$。随后是测试用例的描述。
+
+每个测试用例的第一行有数字 $n$ 和 $k$  $(2 \le n,k \le 50000, 4 \le n·k \le 10^5)$—— 纸条的长度和纸条的数量。
+
+在每个测试用例的接下来 $k$ 行中，每行有一个由 $n$ 个小写拉丁字母组成的序列 —— 下一个纸条。
+
+保证所有测试用例的 $n·k$ 总和不超过 $10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出格式
+
+对于每个测试用例，输出一个长度为 $n$ 的字符串 —— 笔记的解密，具有最小可能信息性。如果有多个合适的答案，可以输出其中任何一个。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                说明/提示
+在第一个测试用例中，最小可能信息性是 1：
+
+abc
+
+baa
+
+解密为aaa
+
+在第二个测试用例中，最小可能信息性是 3：
+
+iiinnnfff
+
+nnfiffinn
+
+解密为infinfinf
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

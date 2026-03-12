@@ -1,0 +1,28 @@
+{
+  "id": "CF-630C",
+  "contest_id": 630,
+  "index": "C",
+  "name": "Lucky Numbers",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 26496,
+  "problem_url": "https://codeforces.com/problemset/problem/630/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/630/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/630/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=630C%20Lucky%20Numbers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/630/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 630C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "0.5 seconds",
+    "memory_limit": "64 megabytes"
+  }
+}

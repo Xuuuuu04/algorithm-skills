@@ -1,0 +1,39 @@
+{
+  "id": "CF-663A",
+  "contest_id": 663,
+  "index": "A",
+  "name": "Rebus",
+  "rating": 1800,
+  "tags": [
+    "constructive algorithms",
+    "expression parsing",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/663/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/663/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/663/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=663A%20Rebus%20tutorial",
+  "solved_count": 3733,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P663A",
+  "hydro_meta": {
+    "page_title": "Rebus - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "expression parsing",
+      "greedy",
+      "math",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

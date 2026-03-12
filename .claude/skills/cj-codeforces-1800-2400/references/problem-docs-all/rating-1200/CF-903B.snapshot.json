@@ -1,0 +1,32 @@
+{
+  "id": "CF-903B",
+  "contest_id": 903,
+  "index": "B",
+  "name": "The Modcrab",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 8093,
+  "problem_url": "https://codeforces.com/problemset/problem/903/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/903/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/903/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=903B%20The%20Modcrab%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P903B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Modcrab - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

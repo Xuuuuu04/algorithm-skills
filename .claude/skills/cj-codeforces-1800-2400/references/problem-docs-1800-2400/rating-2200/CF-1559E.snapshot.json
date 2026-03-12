@@ -1,0 +1,40 @@
+{
+  "id": "CF-1559E",
+  "contest_id": 1559,
+  "index": "E",
+  "name": "Mocha and Stars",
+  "rating": 2200,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "fft",
+    "math",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1559/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1559/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1559/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1559E%20Mocha and Stars%20tutorial",
+  "solved_count": 2671,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "数学（数论/组合计数）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1559E",
+  "hydro_meta": {
+    "page_title": "Mocha and Stars - 题目详情 - Hydro",
+    "hydro_tags": [
+      "2-sat",
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

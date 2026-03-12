@@ -1,0 +1,40 @@
+{
+  "id": "CF-2126G2",
+  "contest_id": 2126,
+  "index": "G2",
+  "name": "Big Wins!  (hard version)",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "divide and conquer",
+    "dsu",
+    "trees",
+    "two pointers"
+  ],
+  "solved_count": 1110,
+  "problem_url": "https://codeforces.com/problemset/problem/2126/G2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2126/problem/G2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2126/problem/G2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2126G2%20Big%20Wins%21%20%20%28hard%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2126G2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Big Wins! (hard version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "divide and conquer",
+      "dsu",
+      "trees",
+      "two pointers",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

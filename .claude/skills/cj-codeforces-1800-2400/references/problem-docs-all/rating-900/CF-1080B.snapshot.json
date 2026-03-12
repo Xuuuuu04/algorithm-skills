@@ -1,0 +1,27 @@
+{
+  "id": "CF-1080B",
+  "contest_id": 1080,
+  "index": "B",
+  "name": "Margarite and the best present",
+  "rating": 900,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "math"
+  ],
+  "solved_count": 12550,
+  "problem_url": "https://codeforces.com/problemset/problem/1080/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1080/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1080/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1080B%20Margarite%20and%20the%20best%20present%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1080/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1080B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

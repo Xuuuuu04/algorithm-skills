@@ -1,0 +1,34 @@
+{
+  "id": "CF-331E1",
+  "contest_id": 331,
+  "index": "E1",
+  "name": "Deja Vu",
+  "rating": 2900,
+  "type": "PROGRAMMING",
+  "points": 50.0,
+  "tags": [
+    "constructive algorithms",
+    "graphs",
+    "implementation"
+  ],
+  "solved_count": 209,
+  "problem_url": "https://codeforces.com/problemset/problem/331/E1",
+  "answer_index_url": "https://codeforces.com/problemset/status/331/problem/E1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/331/problem/E1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=331E1%20Deja%20Vu%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P331E1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Deja Vu - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*2900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

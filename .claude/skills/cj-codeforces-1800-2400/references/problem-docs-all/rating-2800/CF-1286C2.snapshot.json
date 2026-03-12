@@ -1,0 +1,38 @@
+{
+  "id": "CF-1286C2",
+  "contest_id": 1286,
+  "index": "C2",
+  "name": "Madhouse (Hard version)",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "hashing",
+    "interactive",
+    "math"
+  ],
+  "solved_count": 742,
+  "problem_url": "https://codeforces.com/problemset/problem/1286/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1286/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1286/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1286C2%20Madhouse%20%28Hard%20version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1286C2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Madhouse (Hard version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "brute force",
+      "constructive algorithms",
+      "hashing",
+      "interactive",
+      "math",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CF-811C",
+  "contest_id": 811,
+  "index": "C",
+  "name": "Vladik and Memorable Trip",
+  "rating": 1900,
+  "tags": [
+    "dp",
+    "implementation"
+  ],
+  "url": "https://codeforces.com/problemset/problem/811/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/811/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/811/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=811C%20Vladik and Memorable Trip%20tutorial",
+  "solved_count": 3471,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P811C",
+  "hydro_meta": {
+    "page_title": "Vladik and Memorable Trip - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "implementation",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

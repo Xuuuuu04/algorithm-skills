@@ -1,0 +1,30 @@
+{
+  "id": "CF-351D",
+  "contest_id": 351,
+  "index": "D",
+  "name": "Jeff and Removing Periods",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 1327,
+  "problem_url": "https://codeforces.com/problemset/problem/351/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/351/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/351/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=351D%20Jeff%20and%20Removing%20Periods%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P351D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Jeff and Removing Periods - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

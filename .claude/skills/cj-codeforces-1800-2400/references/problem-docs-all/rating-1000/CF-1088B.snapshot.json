@@ -1,0 +1,28 @@
+{
+  "id": "CF-1088B",
+  "contest_id": 1088,
+  "index": "B",
+  "name": "Ehab and subtraction",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 13476,
+  "problem_url": "https://codeforces.com/problemset/problem/1088/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1088/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1088/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1088B%20Ehab%20and%20subtraction%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1088B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1088B Ehab and subtraction - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 262,
+    "mirror_attempt": 588,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-875F",
+  "contest_id": 875,
+  "index": "F",
+  "name": "Royal Questions",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dsu",
+    "graphs",
+    "greedy"
+  ],
+  "solved_count": 1556,
+  "problem_url": "https://codeforces.com/problemset/problem/875/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/875/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/875/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=875F%20Royal%20Questions%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF875F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF875F Royal Questions - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 526,
+    "mirror_attempt": 1118,
+    "time_limit": "1500 ms",
+    "memory_limit": "512000 KB"
+  }
+}

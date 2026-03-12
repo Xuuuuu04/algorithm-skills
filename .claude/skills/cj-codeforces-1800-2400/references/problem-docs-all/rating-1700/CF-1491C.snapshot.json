@@ -1,0 +1,31 @@
+{
+  "id": "CF-1491C",
+  "contest_id": 1491,
+  "index": "C",
+  "name": "Pekora and Trampoline",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "brute force",
+    "data structures",
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 8360,
+  "problem_url": "https://codeforces.com/problemset/problem/1491/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1491/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1491/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1491C%20Pekora%20and%20Trampoline%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1491C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1491C Pekora and Trampoline - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 174,
+    "mirror_attempt": 428,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

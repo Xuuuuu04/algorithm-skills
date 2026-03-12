@@ -1,0 +1,32 @@
+{
+  "id": "CF-374A",
+  "contest_id": 374,
+  "index": "A",
+  "name": "Inna and Pink Pony",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 3079,
+  "problem_url": "https://codeforces.com/problemset/problem/374/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/374/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/374/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=374A%20Inna%20and%20Pink%20Pony%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P374A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Inna and Pink Pony - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

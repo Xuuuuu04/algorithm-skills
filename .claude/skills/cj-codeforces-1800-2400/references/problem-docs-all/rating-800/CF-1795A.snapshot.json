@@ -1,0 +1,29 @@
+{
+  "id": "CF-1795A",
+  "contest_id": 1795,
+  "index": "A",
+  "name": "Two Towers",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation",
+    "strings"
+  ],
+  "solved_count": 24585,
+  "problem_url": "https://codeforces.com/problemset/problem/1795/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1795/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1795/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1795A%20Two%20Towers%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1795A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1795A Two Towers - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 259,
+    "mirror_attempt": 463,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-1338A",
+  "contest_id": 1338,
+  "index": "A",
+  "name": "Powered Addition",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 29712,
+  "problem_url": "https://codeforces.com/problemset/problem/1338/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1338/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1338/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1338A%20Powered%20Addition%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1338A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1338A Powered Addition - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 304,
+    "mirror_attempt": 621,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

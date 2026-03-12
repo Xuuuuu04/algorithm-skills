@@ -1,0 +1,40 @@
+{
+  "id": "CF-1119E",
+  "contest_id": 1119,
+  "index": "E",
+  "name": "Pavel and Triangles",
+  "rating": 1900,
+  "tags": [
+    "brute force",
+    "dp",
+    "fft",
+    "greedy",
+    "ternary search"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1119/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1119/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1119/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1119E%20Pavel and Triangles%20tutorial",
+  "solved_count": 5523,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1119E",
+  "hydro_meta": {
+    "page_title": "Pavel and Triangles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "dp",
+      "fft",
+      "greedy",
+      "ternary search",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

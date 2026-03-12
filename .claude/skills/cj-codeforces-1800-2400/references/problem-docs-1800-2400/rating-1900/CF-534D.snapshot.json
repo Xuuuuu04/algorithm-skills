@@ -1,0 +1,40 @@
+{
+  "id": "CF-534D",
+  "contest_id": 534,
+  "index": "D",
+  "name": "Handshakes",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "data structures",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/534/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/534/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/534/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=534D%20Handshakes%20tutorial",
+  "solved_count": 2566,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "构造（不变量与可行性）",
+    "数据结构（线段树/BIT/平衡树）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P534D",
+  "hydro_meta": {
+    "page_title": "Handshakes - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1725L",
+  "contest_id": 1725,
+  "index": "L",
+  "name": "Lemper Cooking Competition",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures"
+  ],
+  "solved_count": 1079,
+  "problem_url": "https://codeforces.com/problemset/problem/1725/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/1725/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1725/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1725L%20Lemper%20Cooking%20Competition%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1725L",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Lemper Cooking Competition - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

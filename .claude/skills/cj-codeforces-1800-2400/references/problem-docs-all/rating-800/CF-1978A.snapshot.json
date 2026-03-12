@@ -1,0 +1,29 @@
+{
+  "id": "CF-1978A",
+  "contest_id": 1978,
+  "index": "A",
+  "name": "Alice and Books",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 28349,
+  "problem_url": "https://codeforces.com/problemset/problem/1978/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1978/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1978/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1978A%20Alice%20and%20Books%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1978A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1978A Alice and Books - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 200,
+    "mirror_attempt": 340,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

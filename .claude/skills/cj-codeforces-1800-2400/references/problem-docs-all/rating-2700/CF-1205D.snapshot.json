@@ -1,0 +1,32 @@
+{
+  "id": "CF-1205D",
+  "contest_id": 1205,
+  "index": "D",
+  "name": "Almost All",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "trees"
+  ],
+  "solved_count": 754,
+  "problem_url": "https://codeforces.com/problemset/problem/1205/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1205/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1205/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1205D%20Almost%20All%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1205D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Almost All - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "trees",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

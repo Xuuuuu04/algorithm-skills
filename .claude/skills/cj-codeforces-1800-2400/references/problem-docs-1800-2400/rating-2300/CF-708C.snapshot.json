@@ -1,0 +1,45 @@
+{
+  "id": "CF-708C",
+  "contest_id": 708,
+  "index": "C",
+  "name": "Centroids",
+  "rating": 2300,
+  "tags": [
+    "data structures",
+    "dfs and similar",
+    "dp",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/708/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/708/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/708/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=708C%20Centroids%20tutorial",
+  "solved_count": 4265,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）",
+    "贪心（排序+局部最优证明）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P708C",
+  "hydro_meta": {
+    "page_title": "Centroids - 题目详情 - Hydro",
+    "hydro_tags": [
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "greedy",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 2,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

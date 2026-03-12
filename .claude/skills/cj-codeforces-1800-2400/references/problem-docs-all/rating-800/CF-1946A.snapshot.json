@@ -1,0 +1,29 @@
+{
+  "id": "CF-1946A",
+  "contest_id": 1946,
+  "index": "A",
+  "name": "Median of an Array",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 28440,
+  "problem_url": "https://codeforces.com/problemset/problem/1946/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1946/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1946/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1946A%20Median%20of%20an%20Array%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1946A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1946A Median of an Array - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 219,
+    "mirror_attempt": 415,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

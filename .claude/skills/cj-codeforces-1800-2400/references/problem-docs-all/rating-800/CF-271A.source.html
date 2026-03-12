@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414412:16gjYW8ZOviljQS19xNl+utc6MEu3ataero8cKFBy5w=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF271A Beautiful Year - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF271A","type":"CF","title":"Beautiful Year","difficulty":1,"tags":[1,2,111],"wantsTranslation":false,"totalSubmit":1805,"totalAccepted":1118,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Beautiful Year","background":null,"description":"\u4f3c\u4e4e 2013 \u5e74\u4eff\u4f5b\u5c31\u5728\u6628\u5929\u3002\u4f60\u77e5\u9053\u4e00\u4e2a\u6709\u8da3\u7684\u4e8b\u5b9e\u5417\uff1f2013 \u5e74\u662f\u81ea 1987 \u5e74\u4e4b\u540e\uff0c\u7b2c\u4e00\u4e2a\u6240\u6709\u6570\u5b57\u90fd\u4e92\u4e0d\u76f8\u540c\u7684\u5e74\u4efd\u3002\n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u95ee\u9898\uff1a\u7ed9\u5b9a\u4e00\u4e2a\u5e74\u4efd\uff0c\u627e\u5230\u6bd4\u5b83\u4e25\u683c\u5927\u4e14\u6240\u6709\u6570\u5b57\u90fd\u4e0d\u76f8\u540c\u7684\u6700\u5c0f\u5e74\u4efd\u3002","formatI":"\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $y$\uff08$1000 \\leq y \\leq 9000$\uff09\u2014\u2014\u5e74\u4efd\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4e25\u683c\u5927\u4e8e $y$ \u7684\u3001\u6240\u6709\u6570\u5b57\u4e92\u4e0d\u76f8\u540c\u7684\u6700\u5c0f\u5e74\u4efd\u3002\u4fdd\u8bc1\u4e00\u5b9a\u5b58\u5728\u7b54\u6848\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Beautiful Year","background":"","description":"It seems like the year of 2013 came only yesterday. Do you know a curious fact? The year of 2013 is the first year after the old 1987 with only distinct digits.\n\nNow you are suggested to solve the following problem: given a year number, find the minimum year number which is strictly larger than the given one and has only distinct digits.","formatI":"The single line contains integer $ y $ $ (1000\u003C=y\u003C=9000) $ \u2014 the year number.","formatO":"Print a single integer \u2014 the minimum year number that is strictly larger than $ y $ and all it\u0027s digits are distinct. It is guaranteed that the answer exists.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1987\n","2013\n"],["2013\n","2014\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"271A","link":"https:\/\/codeforces.com\/problemset\/problem\/271\/A"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a\u5e74\u4efdn\uff0c\u8f93\u51fa**\u5927\u4e8e**n\u7684\u7b2c\u4e00\u4e2a**\u56db\u4f4d\u6570\u5b57\u90fd\u4e0d\u76f8\u540c\u7684**\u5e74\u4efd\u3002\n\n\u611f\u8c22@\u5f15\u9886\u5929\u4e0b \u63d0\u4f9b\u7684\u7ffb\u8bd1"},"translations":{"en":{"name":"Beautiful Year","background":"","description":"It seems like the year of 2013 came only yesterday. Do you know a curious fact? The year of 2013 is the first year after the old 1987 with only distinct digits.\n\nNow you are suggested to solve the following problem: given a year number, find the minimum year number which is strictly larger than the given one and has only distinct digits.","formatI":"The single line contains integer $ y $ $ (1000\u003C=y\u003C=9000) $ \u2014 the year number.","formatO":"Print a single integer \u2014 the minimum year number that is strictly larger than $ y $ and all it\u0027s digits are distinct. It is guaranteed that the answer exists.","hint":"","locale":"en"},"zh-CN":{"name":"Beautiful Year","background":null,"description":"\u4f3c\u4e4e 2013 \u5e74\u4eff\u4f5b\u5c31\u5728\u6628\u5929\u3002\u4f60\u77e5\u9053\u4e00\u4e2a\u6709\u8da3\u7684\u4e8b\u5b9e\u5417\uff1f2013 \u5e74\u662f\u81ea 1987 \u5e74\u4e4b\u540e\uff0c\u7b2c\u4e00\u4e2a\u6240\u6709\u6570\u5b57\u90fd\u4e92\u4e0d\u76f8\u540c\u7684\u5e74\u4efd\u3002\n\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u95ee\u9898\uff1a\u7ed9\u5b9a\u4e00\u4e2a\u5e74\u4efd\uff0c\u627e\u5230\u6bd4\u5b83\u4e25\u683c\u5927\u4e14\u6240\u6709\u6570\u5b57\u90fd\u4e0d\u76f8\u540c\u7684\u6700\u5c0f\u5e74\u4efd\u3002","formatI":"\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $y$\uff08$1000 \\leq y \\leq 9000$\uff09\u2014\u2014\u5e74\u4efd\u3002","formatO":"\u8f93\u51fa\u4e00\u4e2a\u6574\u6570\u2014\u2014\u4e25\u683c\u5927\u4e8e $y$ \u7684\u3001\u6240\u6709\u6570\u5b57\u4e92\u4e0d\u76f8\u540c\u7684\u6700\u5c0f\u5e74\u4efd\u3002\u4fdd\u8bc1\u4e00\u5b9a\u5b58\u5728\u7b54\u6848\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF271A Beautiful Year","type":2,"slug":"CF271A","color":"orange-3"},"discussions":[{"id":53588,"title":"\u7ffb\u8bd1","author":{"uid":39863,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/39863.png","name":"\u5f15\u9886\u5929\u4e0b","slogan":"\u75286\u5e74\u65f6\u95f4\uff0c\u8bb2\u597d\u4e00\u4e2a\u7b11\u8bdd\u3002","badge":"\u9b54\u9178","isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/swwvbxdm.png"},"time":1533348831},{"id":50839,"title":"CF271A Beautiful Year","author":{"uid":46228,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/46228.png","name":"L_Bennett","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":5,"xcpcLevel":0,"background":""},"time":1532269074}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328012.926456,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF271A Beautiful Year","description":"\u4f3c\u4e4e 2013 \u5e74\u4eff\u4f5b\u5c31\u5728\u6628\u5929\u3002\u4f60\u77e5\u9053\u4e00\u4e2a\u6709\u8da3\u7684\u4e8b\u5b9e\u5417\uff1f2013 \u5e74\u662f\u81ea 1987 \u5e74\u4e4b\u540e\uff0c\u7b2c\u4e00\u4e2a\u6240\u6709\u6570\u5b57\u90fd\u4e92\u4e0d\u76f8\u540c\u7684\u5e74\u4efd\u3002\n\u73b0\u5728\u7ed9\u4f60\u4e00\u4e2a\u95ee\u9898\uff1a\u7ed9\u5b9a\u4e00\u4e2a\u5e74\u4efd\uff0c\u627e\u5230\u6bd4\u5b83\u4e25\u683c\u5927\u4e14\u6240\u6709\u6570\u5b57\u90fd\u4e0d\u76f8\u540c\u7684\u6700\u5c0f\u5e74\u4efd\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF271A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF271A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF271A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF271A Beautiful Year" />
+    <meta property="og:description" content="似乎 2013 年仿佛就在昨天。你知道一个有趣的事实吗？2013 年是自 1987 年之后，第一个所有数字都互不相同的年份。
+现在给你一个问题：给定一个年份，找到比它严格大且所有数字都不相同的最小年份。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF271A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF271A Beautiful Year</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    似乎 2013 年仿佛就在昨天。你知道一个有趣的事实吗？2013 年是自 1987 年之后，第一个所有数字都互不相同的年份。
+
+现在给你一个问题：给定一个年份，找到比它严格大且所有数字都不相同的最小年份。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    一行包含一个整数 $y$（$1000 \leq y \leq 9000$）——年份。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    输出一个整数——严格大于 $y$ 的、所有数字互不相同的最小年份。保证一定存在答案。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

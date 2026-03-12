@@ -1,0 +1,36 @@
+{
+  "id": "CF-1494E",
+  "contest_id": 1494,
+  "index": "E",
+  "name": "A-Z Graph",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "data structures",
+    "graphs",
+    "hashing"
+  ],
+  "solved_count": 2036,
+  "problem_url": "https://codeforces.com/problemset/problem/1494/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1494/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1494/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1494E%20A-Z%20Graph%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1494E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "A-Z Graph - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "data structures",
+      "graphs",
+      "hashing",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

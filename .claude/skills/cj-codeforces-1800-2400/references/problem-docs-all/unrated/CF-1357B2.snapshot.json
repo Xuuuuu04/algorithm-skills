@@ -1,0 +1,27 @@
+{
+  "id": "CF-1357B2",
+  "contest_id": 1357,
+  "index": "B2",
+  "name": "\"Is the number divisible by 3?\" oracle",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special"
+  ],
+  "solved_count": 216,
+  "problem_url": "https://codeforces.com/problemset/problem/1357/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1357/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1357/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1357B2%20%22Is%20the%20number%20divisible%20by%203%3F%22%20oracle%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1357B2",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "\"Is the number divisible by 3?\" oracle - 题目详情 - Hydro",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

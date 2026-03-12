@@ -1,0 +1,42 @@
+{
+  "id": "CF-1426E",
+  "contest_id": 1426,
+  "index": "E",
+  "name": "Rock, Paper, Scissors",
+  "rating": 1800,
+  "tags": [
+    "brute force",
+    "constructive algorithms",
+    "flows",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1426/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1426/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1426/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1426E%20Rock, Paper, Scissors%20tutorial",
+  "solved_count": 8048,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "网络流（最大流/最小割）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1426E",
+  "hydro_meta": {
+    "page_title": "Rock, Paper, Scissors - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "constructive algorithms",
+      "flows",
+      "greedy",
+      "math",
+      "*1800"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

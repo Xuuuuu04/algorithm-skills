@@ -1,0 +1,33 @@
+{
+  "id": "CF-1184A2",
+  "contest_id": 1184,
+  "index": "A2",
+  "name": "Heidi Learns Hashing (Medium)",
+  "rating": 2100,
+  "tags": [
+    "brute force",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1184/A2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1184/problem/A2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1184/problem/A2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1184A2%20Heidi Learns Hashing (Medium)%20tutorial",
+  "solved_count": 1070,
+  "suggested_patterns": [
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1184A2",
+  "hydro_meta": {
+    "page_title": "Heidi Learns Hashing (Medium) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "number theory",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

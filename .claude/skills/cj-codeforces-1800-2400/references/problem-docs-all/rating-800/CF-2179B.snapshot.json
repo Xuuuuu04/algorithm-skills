@@ -1,0 +1,29 @@
+{
+  "id": "CF-2179B",
+  "contest_id": 2179,
+  "index": "B",
+  "name": "Blackslex and Showering",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 27522,
+  "problem_url": "https://codeforces.com/problemset/problem/2179/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/2179/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2179/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2179B%20Blackslex%20and%20Showering%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2179B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2179B Blackslex and Showering - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

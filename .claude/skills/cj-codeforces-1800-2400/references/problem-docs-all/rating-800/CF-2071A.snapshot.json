@@ -1,0 +1,28 @@
+{
+  "id": "CF-2071A",
+  "contest_id": 2071,
+  "index": "A",
+  "name": "The Play Never Ends",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 27642,
+  "problem_url": "https://codeforces.com/problemset/problem/2071/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2071/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2071/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2071A%20The%20Play%20Never%20Ends%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF2071A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF2071A The Play Never Ends - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

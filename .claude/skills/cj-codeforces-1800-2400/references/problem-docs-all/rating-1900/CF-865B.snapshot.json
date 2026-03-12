@@ -1,0 +1,34 @@
+{
+  "id": "CF-865B",
+  "contest_id": 865,
+  "index": "B",
+  "name": "Ordering Pizza",
+  "rating": 1900,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "sortings",
+    "ternary search"
+  ],
+  "solved_count": 1919,
+  "problem_url": "https://codeforces.com/problemset/problem/865/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/865/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/865/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=865B%20Ordering%20Pizza%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P865B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ordering Pizza - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "sortings",
+      "ternary search",
+      "*1900"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

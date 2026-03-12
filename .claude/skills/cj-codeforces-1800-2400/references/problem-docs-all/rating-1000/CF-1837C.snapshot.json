@@ -1,0 +1,28 @@
+{
+  "id": "CF-1837C",
+  "contest_id": 1837,
+  "index": "C",
+  "name": "Best Binary String",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms",
+    "greedy"
+  ],
+  "solved_count": 24446,
+  "problem_url": "https://codeforces.com/problemset/problem/1837/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1837/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1837/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1837C%20Best%20Binary%20String%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1837/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1837C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

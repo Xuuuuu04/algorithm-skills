@@ -1,0 +1,28 @@
+{
+  "id": "CF-489E",
+  "contest_id": 489,
+  "index": "E",
+  "name": "Hiking",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "dp"
+  ],
+  "solved_count": 1139,
+  "problem_url": "https://codeforces.com/problemset/problem/489/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/489/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/489/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=489E%20Hiking%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF489E",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF489E Hiking - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 192,
+    "mirror_attempt": 488,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

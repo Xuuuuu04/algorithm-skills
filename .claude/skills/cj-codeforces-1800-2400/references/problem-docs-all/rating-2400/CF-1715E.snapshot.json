@@ -1,0 +1,33 @@
+{
+  "id": "CF-1715E",
+  "contest_id": 1715,
+  "index": "E",
+  "name": "Long Way Home",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "data structures",
+    "divide and conquer",
+    "dp",
+    "geometry",
+    "graphs",
+    "greedy",
+    "shortest paths"
+  ],
+  "solved_count": 2092,
+  "problem_url": "https://codeforces.com/problemset/problem/1715/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1715/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1715/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1715E%20Long%20Way%20Home%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1715/E",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1715E - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

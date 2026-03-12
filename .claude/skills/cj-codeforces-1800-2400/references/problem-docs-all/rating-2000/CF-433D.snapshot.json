@@ -1,0 +1,32 @@
+{
+  "id": "CF-433D",
+  "contest_id": 433,
+  "index": "D",
+  "name": "Nanami's Digital Board",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "dsu",
+    "implementation"
+  ],
+  "solved_count": 1305,
+  "problem_url": "https://codeforces.com/problemset/problem/433/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/433/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/433/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=433D%20Nanami%27s%20Digital%20Board%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P433D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Nanami's Digital Board - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dsu",
+      "implementation",
+      "*2000"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

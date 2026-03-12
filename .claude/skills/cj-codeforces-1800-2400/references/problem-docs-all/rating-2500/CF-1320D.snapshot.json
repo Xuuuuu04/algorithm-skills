@@ -1,0 +1,29 @@
+{
+  "id": "CF-1320D",
+  "contest_id": 1320,
+  "index": "D",
+  "name": "Reachable Strings",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "hashing",
+    "strings"
+  ],
+  "solved_count": 1670,
+  "problem_url": "https://codeforces.com/problemset/problem/1320/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1320/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1320/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1320D%20Reachable%20Strings%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1320D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1320D Reachable Strings - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 422,
+    "mirror_attempt": 1262,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

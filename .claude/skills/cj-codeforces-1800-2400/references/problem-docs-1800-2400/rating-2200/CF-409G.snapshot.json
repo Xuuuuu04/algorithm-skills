@@ -1,0 +1,31 @@
+{
+  "id": "CF-409G",
+  "contest_id": 409,
+  "index": "G",
+  "name": "On a plane",
+  "rating": 2200,
+  "tags": [
+    "*special",
+    "geometry"
+  ],
+  "url": "https://codeforces.com/problemset/problem/409/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/409/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/409/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=409G%20On a plane%20tutorial",
+  "solved_count": 544,
+  "suggested_patterns": [],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P409G",
+  "hydro_meta": {
+    "page_title": "On a plane - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "geometry",
+      "*2200"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

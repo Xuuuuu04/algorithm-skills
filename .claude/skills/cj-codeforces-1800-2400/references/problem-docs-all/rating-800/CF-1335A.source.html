@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773414411:WhmISrPjxMhk5xXtuLX6Lua8AsEphdUa/isyqnQi83o=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031222'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1335A Candies and Two Sisters - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1335A","type":"CF","title":"Candies and Two Sisters","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":690,"totalAccepted":404,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Candies and Two Sisters","background":"","description":"### \u9898\u9762\u7ffb\u8bd1\n\n\u7ed9\u4f60 $n$ \u4e2a\u7cd6\u679c\uff0c\u4f60\u9700\u8981\u5206\u7ed9 Alice \u548c Betty,\u6c42\u6709\u591a\u5c11\u79cd\u5206\u6cd5\u3002\n\n\u8bbe Alice \u5206\u5230 $a$ \u4e2a\uff0cBetty \u5206\u5230 $b$ \u4e2a\uff0c\u5219\u5206\u7cd6\u679c\u7684\u89c4\u5219\u4e3a\uff1a\n1. Alice \u548c Betty \u7684\u7cd6\u679c\u90fd\u5fc5\u987b\u5927\u4e8e $0$ $(a\u003E0,b\u003E0)$\n2. Alice \u548c Betty \u7684\u7cd6\u679c\u6570\u5747\u4e3a\u6574\u6570\n3. Alice \u5f97\u5230\u7684\u7cd6\u679c\u8981\u6bd4 Betty \u591a $(a\u003Eb)$\n4. \u6240\u6709\u7684\u7cd6\u679c\u90fd\u8981\u5206\u5b8c $(a+b=n)$","formatI":"#### \u672c\u9898\u6709\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\n\n\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u4ee3\u8868\u6d4b\u8bd5\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$ \u8868\u793a\u7cd6\u679c\u7684\u6570\u76ee\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u6709\u51e0\u79cd\u5206\u6cd5\u3002","hint":"$7$ \u4e2a\u7cd6\u679c\u7684\u5206\u7cd6\u679c\u65b9\u6cd5\u4e3a\uff1a\n- $a = 6, b = 1$\n- $a = 5, b = 2$\n- $a = 4, b = 3$\n\n\u5171\u6709 $3$ \u79cd\u65b9\u6cd5\u3002","locale":"zh-CN"},"content":{"name":"Candies and Two Sisters","background":"","description":"There are two sisters Alice and Betty. You have $ n $ candies. You want to distribute these $ n $ candies between two sisters in such a way that:\n\n- Alice will get $ a $ ( $ a \u003E 0 $ ) candies;\n- Betty will get $ b $ ( $ b \u003E 0 $ ) candies;\n- each sister will get some integer number of candies;\n- Alice will get a greater amount of candies than Betty (i.e. $ a \u003E b $ );\n- all the candies will be given to one of two sisters (i.e. $ a+b=n $ ).\n\nYour task is to calculate the number of ways to distribute exactly $ n $ candies between sisters in a way described above. Candies are indistinguishable.\n\nFormally, find the number of ways to represent $ n $ as the sum of $ n=a+b $ , where $ a $ and $ b $ are positive integers and $ a\u003Eb $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe only line of a test case contains one integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^9 $ ) \u2014 the number of candies you have.","formatO":"For each test case, print the answer \u2014 the number of ways to distribute exactly $ n $ candies between two sisters in a way described in the problem statement. If there is no way to satisfy all the conditions, print $ 0 $ .","hint":"For the test case of the example, the $ 3 $ possible ways to distribute candies are:\n\n- $ a=6 $ , $ b=1 $ ;\n- $ a=5 $ , $ b=2 $ ;\n- $ a=4 $ , $ b=3 $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["6\n7\n1\n2\n3\n2000000000\n763243547","3\n0\n0\n1\n999999999\n381621773"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1335A","link":"https:\/\/codeforces.com\/problemset\/problem\/1335\/A"},"translation":"### \u9898\u9762\u7ffb\u8bd1\n\n\u7ed9\u4f60 $n$ \u4e2a\u7cd6\u679c\uff0c\u4f60\u9700\u8981\u5206\u7ed9 Alice \u548c Betty,\u6c42\u6709\u591a\u5c11\u79cd\u5206\u6cd5\u3002\n\n\u8bbe Alice \u5206\u5230 $a$ \u4e2a\uff0cBetty \u5206\u5230 $b$ \u4e2a\uff0c\u5219\u5206\u7cd6\u679c\u7684\u89c4\u5219\u4e3a\uff1a\n1. Alice \u548c Betty \u7684\u7cd6\u679c\u90fd\u5fc5\u987b\u5927\u4e8e $0$ $(a\u003E0,b\u003E0)$\n2. Alice \u548c Betty \u7684\u7cd6\u679c\u6570\u5747\u4e3a\u6574\u6570\n3. Alice \u5f97\u5230\u7684\u7cd6\u679c\u8981\u6bd4 Betty \u591a $(a\u003Eb)$\n4. \u6240\u6709\u7684\u7cd6\u679c\u90fd\u8981\u5206\u5b8c $(a+b=n)$\n\n### \u8f93\u5165\u683c\u5f0f\n\n#### \u672c\u9898\u6709\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\n\n\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u4ee3\u8868\u6d4b\u8bd5\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$ \u8868\u793a\u7cd6\u679c\u7684\u6570\u76ee\u3002\n\n### \u8f93\u51fa\u683c\u5f0f\n\n\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u6709\u51e0\u79cd\u5206\u6cd5\u3002\n\n### \u8bf4\u660e\/\u63d0\u793a\n\n$7$ \u4e2a\u7cd6\u679c\u7684\u5206\u7cd6\u679c\u65b9\u6cd5\u4e3a\uff1a\n- $a = 6, b = 1$\n- $a = 5, b = 2$\n- $a = 4, b = 3$\n\n\u5171\u6709 $3$ \u79cd\u65b9\u6cd5\u3002"},"translations":{"en":{"name":"Candies and Two Sisters","background":"","description":"There are two sisters Alice and Betty. You have $ n $ candies. You want to distribute these $ n $ candies between two sisters in such a way that:\n\n- Alice will get $ a $ ( $ a \u003E 0 $ ) candies;\n- Betty will get $ b $ ( $ b \u003E 0 $ ) candies;\n- each sister will get some integer number of candies;\n- Alice will get a greater amount of candies than Betty (i.e. $ a \u003E b $ );\n- all the candies will be given to one of two sisters (i.e. $ a+b=n $ ).\n\nYour task is to calculate the number of ways to distribute exactly $ n $ candies between sisters in a way described above. Candies are indistinguishable.\n\nFormally, find the number of ways to represent $ n $ as the sum of $ n=a+b $ , where $ a $ and $ b $ are positive integers and $ a\u003Eb $ .\n\nYou have to answer $ t $ independent test cases.","formatI":"The first line of the input contains one integer $ t $ ( $ 1 \\le t \\le 10^4 $ ) \u2014 the number of test cases. Then $ t $ test cases follow.\n\nThe only line of a test case contains one integer $ n $ ( $ 1 \\le n \\le 2 \\cdot 10^9 $ ) \u2014 the number of candies you have.","formatO":"For each test case, print the answer \u2014 the number of ways to distribute exactly $ n $ candies between two sisters in a way described in the problem statement. If there is no way to satisfy all the conditions, print $ 0 $ .","hint":"For the test case of the example, the $ 3 $ possible ways to distribute candies are:\n\n- $ a=6 $ , $ b=1 $ ;\n- $ a=5 $ , $ b=2 $ ;\n- $ a=4 $ , $ b=3 $ .","locale":"en"},"zh-CN":{"name":"Candies and Two Sisters","background":"","description":"### \u9898\u9762\u7ffb\u8bd1\n\n\u7ed9\u4f60 $n$ \u4e2a\u7cd6\u679c\uff0c\u4f60\u9700\u8981\u5206\u7ed9 Alice \u548c Betty,\u6c42\u6709\u591a\u5c11\u79cd\u5206\u6cd5\u3002\n\n\u8bbe Alice \u5206\u5230 $a$ \u4e2a\uff0cBetty \u5206\u5230 $b$ \u4e2a\uff0c\u5219\u5206\u7cd6\u679c\u7684\u89c4\u5219\u4e3a\uff1a\n1. Alice \u548c Betty \u7684\u7cd6\u679c\u90fd\u5fc5\u987b\u5927\u4e8e $0$ $(a\u003E0,b\u003E0)$\n2. Alice \u548c Betty \u7684\u7cd6\u679c\u6570\u5747\u4e3a\u6574\u6570\n3. Alice \u5f97\u5230\u7684\u7cd6\u679c\u8981\u6bd4 Betty \u591a $(a\u003Eb)$\n4. \u6240\u6709\u7684\u7cd6\u679c\u90fd\u8981\u5206\u5b8c $(a+b=n)$","formatI":"#### \u672c\u9898\u6709\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\n\n\u7b2c\u4e00\u884c\u4e3a\u4e00\u4e2a\u6574\u6570 $t$\uff0c\u4ee3\u8868\u6d4b\u8bd5\u7ec4\u6570\u3002\n\n\u63a5\u4e0b\u6765 $t$ \u884c\uff0c\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u4e00\u884c\u4e00\u4e2a\u6574\u6570 $n$ \u8868\u793a\u7cd6\u679c\u7684\u6570\u76ee\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u4e00\u884c\u4e00\u4e2a\u6574\u6570\u8868\u793a\u6709\u51e0\u79cd\u5206\u6cd5\u3002","hint":"$7$ \u4e2a\u7cd6\u679c\u7684\u5206\u7cd6\u679c\u65b9\u6cd5\u4e3a\uff1a\n- $a = 6, b = 1$\n- $a = 5, b = 2$\n- $a = 4, b = 3$\n\n\u5171\u6709 $3$ \u79cd\u65b9\u6cd5\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1335A Candies and Two Sisters","type":2,"slug":"CF1335A","color":"orange-3"},"discussions":[{"id":481338,"title":"\u4fee\u6b63LATEX\u0026\u0026\u4fee\u6539\u7ffb\u8bd1","author":{"uid":578029,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/578029.png","name":"ivyjiao","slogan":"\u9000\u5f79","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":7,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/vrh6wtrk.png"},"time":1660956975}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773328011.656698,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1335A Candies and Two Sisters","description":"\u9898\u9762\u7ffb\u8bd1\n\u7ed9\u4f60 n \u4e2a\u7cd6\u679c\uff0c\u4f60\u9700\u8981\u5206\u7ed9 Alice \u548c Betty,\u6c42\u6709\u591a\u5c11\u79cd\u5206\u6cd5\u3002\n\u8bbe Alice \u5206\u5230 a \u4e2a\uff0cBetty \u5206\u5230 b \u4e2a\uff0c\u5219\u5206\u7cd6\u679c\u7684\u89c4\u5219\u4e3a\uff1a\n\nAlice \u548c Betty \u7684\u7cd6\u679c\u90fd\u5fc5\u987b\u5927\u4e8e 0 (a&gt;0,b&gt;0)\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1335A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1335A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1335A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1335A Candies and Two Sisters" />
+    <meta property="og:description" content="题面翻译
+给你 n 个糖果，你需要分给 Alice 和 Betty,求有多少种分法。
+设 Alice 分到 a 个，Betty 分到 b 个，则分糖果的规则为：
+
+Alice 和 Betty 的糖果都必须大于 0 (a&amp;gt;0,b&amp;gt;0)…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1335A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1335A Candies and Two Sisters</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    ### 题面翻译
+
+给你 $n$ 个糖果，你需要分给 Alice 和 Betty,求有多少种分法。
+
+设 Alice 分到 $a$ 个，Betty 分到 $b$ 个，则分糖果的规则为：
+1. Alice 和 Betty 的糖果都必须大于 $0$ $(a>0,b>0)$
+2. Alice 和 Betty 的糖果数均为整数
+3. Alice 得到的糖果要比 Betty 多 $(a>b)$
+4. 所有的糖果都要分完 $(a+b=n)$
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    #### 本题有多组测试数据
+
+第一行为一个整数 $t$，代表测试组数。
+
+接下来 $t$ 行，对于每组测试数据，一行一个整数 $n$ 表示糖果的数目。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试数据，一行一个整数表示有几种分法。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                $7$ 个糖果的分糖果方法为：
+- $a = 6, b = 1$
+- $a = 5, b = 2$
+- $a = 4, b = 3$
+
+共有 $3$ 种方法。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

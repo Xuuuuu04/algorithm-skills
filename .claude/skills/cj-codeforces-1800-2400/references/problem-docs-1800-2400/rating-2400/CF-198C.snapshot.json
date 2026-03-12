@@ -1,0 +1,33 @@
+{
+  "id": "CF-198C",
+  "contest_id": 198,
+  "index": "C",
+  "name": "Delivering Carcinogen",
+  "rating": 2400,
+  "tags": [
+    "binary search",
+    "geometry"
+  ],
+  "url": "https://codeforces.com/problemset/problem/198/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/198/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/198/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=198C%20Delivering Carcinogen%20tutorial",
+  "solved_count": 418,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P198C",
+  "hydro_meta": {
+    "page_title": "Delivering Carcinogen - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "geometry",
+      "*2400"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

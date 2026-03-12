@@ -1,0 +1,34 @@
+{
+  "id": "CF-1475E",
+  "contest_id": 1475,
+  "index": "E",
+  "name": "Advertising Agency",
+  "rating": 1600,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "combinatorics",
+    "math",
+    "sortings"
+  ],
+  "solved_count": 17233,
+  "problem_url": "https://codeforces.com/problemset/problem/1475/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1475/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1475/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1475E%20Advertising%20Agency%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1475E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Advertising Agency - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

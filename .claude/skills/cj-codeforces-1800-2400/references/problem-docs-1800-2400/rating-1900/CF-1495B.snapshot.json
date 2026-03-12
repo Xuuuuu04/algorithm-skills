@@ -1,0 +1,33 @@
+{
+  "id": "CF-1495B",
+  "contest_id": 1495,
+  "index": "B",
+  "name": "Let's Go Hiking",
+  "rating": 1900,
+  "tags": [
+    "games",
+    "greedy"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1495/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1495/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1495/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1495B%20Let's Go Hiking%20tutorial",
+  "solved_count": 6299,
+  "suggested_patterns": [
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1495B",
+  "hydro_meta": {
+    "page_title": "Let's Go Hiking - 题目详情 - Hydro",
+    "hydro_tags": [
+      "games",
+      "greedy",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-717B",
+  "contest_id": 717,
+  "index": "B",
+  "name": "R3D3’s Summer Adventure",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "solved_count": 178,
+  "problem_url": "https://codeforces.com/problemset/problem/717/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/717/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/717/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=717B%20R3D3%E2%80%99s%20Summer%20Adventure%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P717B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "R3D3’s Summer Adventure - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "greedy",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

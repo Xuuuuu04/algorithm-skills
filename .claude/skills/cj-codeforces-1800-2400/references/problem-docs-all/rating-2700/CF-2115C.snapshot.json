@@ -1,0 +1,37 @@
+{
+  "id": "CF-2115C",
+  "contest_id": 2115,
+  "index": "C",
+  "name": "Gellyfish and Eternal Violet",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 1750.0,
+  "tags": [
+    "combinatorics",
+    "dp",
+    "greedy",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 877,
+  "problem_url": "https://codeforces.com/problemset/problem/2115/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/2115/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2115/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2115C%20Gellyfish%20and%20Eternal%20Violet%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2115C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Gellyfish and Eternal Violet - 题目详情 - Hydro",
+    "mirror_tags": [
+      "combinatorics",
+      "dp",
+      "greedy",
+      "math",
+      "probabilities"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "1024MiB"
+  }
+}

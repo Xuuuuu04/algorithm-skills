@@ -1,0 +1,28 @@
+{
+  "id": "CF-1857A",
+  "contest_id": 1857,
+  "index": "A",
+  "name": "Array Coloring",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "greedy",
+    "math"
+  ],
+  "solved_count": 75619,
+  "problem_url": "https://codeforces.com/problemset/problem/1857/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1857/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1857/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1857A%20Array%20Coloring%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1857A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1857A Array Coloring - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 429,
+    "mirror_attempt": 807,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

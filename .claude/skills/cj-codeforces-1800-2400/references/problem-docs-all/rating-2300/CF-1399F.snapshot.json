@@ -1,0 +1,30 @@
+{
+  "id": "CF-1399F",
+  "contest_id": 1399,
+  "index": "F",
+  "name": "Yet Another Segments Subset",
+  "rating": 2300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "dp",
+    "graphs",
+    "sortings"
+  ],
+  "solved_count": 1839,
+  "problem_url": "https://codeforces.com/problemset/problem/1399/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1399/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1399/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1399F%20Yet%20Another%20Segments%20Subset%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1399F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1399F Yet Another Segments Subset - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 168,
+    "mirror_attempt": 383,
+    "time_limit": "3000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

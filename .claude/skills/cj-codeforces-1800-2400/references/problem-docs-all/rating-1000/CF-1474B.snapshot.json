@@ -1,0 +1,31 @@
+{
+  "id": "CF-1474B",
+  "contest_id": 1474,
+  "index": "B",
+  "name": "Different Divisors",
+  "rating": 1000,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "constructive algorithms",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 39072,
+  "problem_url": "https://codeforces.com/problemset/problem/1474/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1474/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1474/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1474B%20Different%20Divisors%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1474/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1474B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

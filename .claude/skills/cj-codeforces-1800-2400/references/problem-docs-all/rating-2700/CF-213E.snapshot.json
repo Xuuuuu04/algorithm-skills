@@ -1,0 +1,34 @@
+{
+  "id": "CF-213E",
+  "contest_id": 213,
+  "index": "E",
+  "name": "Two Permutations",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "data structures",
+    "hashing",
+    "strings"
+  ],
+  "solved_count": 940,
+  "problem_url": "https://codeforces.com/problemset/problem/213/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/213/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/213/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=213E%20Two%20Permutations%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P213E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Two Permutations - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "hashing",
+      "strings",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

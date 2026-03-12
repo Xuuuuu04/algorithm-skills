@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417793:5bmvwLWN/xjRPY2IfEDt75LKh2DoYTRO4wYFuP+Ed5g=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1967C Fenwick Tree - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1967C","type":"CF","title":"Fenwick Tree","difficulty":5,"tags":[3,252],"wantsTranslation":false,"totalSubmit":234,"totalAccepted":147,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Fenwick Tree","background":null,"description":"\u8bbe $\\operatorname{lowbit}(x)$ \u8868\u793a $x$ \u7684\u4e8c\u8fdb\u5236\u6700\u4f4e\u4f4d\u7684\u503c\uff0c\u4f8b\u5982 $\\operatorname{lowbit}(12)=4$\uff0c$\\operatorname{lowbit}(8)=8$\u3002\n\n\u5bf9\u4e8e\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u82e5\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $s$ \u6ee1\u8db3\u5bf9\u4e8e\u6240\u6709 $k$ \u5747\u6709 $s_k=\\left(\\sum\\limits_{i=k-\\operatorname{lowbit}(k)+1}^{k}a_i\\right)\\bmod 998\\,244\\,353$\uff0c\u5219\u79f0 $s$ \u4e3a $a$ \u7684 *\u6811\u72b6\u6570\u7ec4* \uff0c\u8bb0\u4e3a $s=f(a)$\u3002\n\n\u5bf9\u4e8e\u6b63\u6574\u6570 $k$ \u548c\u6570\u7ec4 $a$\uff0c\u5b9a\u4e49 $f^k(a)$ \u5982\u4e0b\uff1a\n\n$$\nf^k(a)=\n\\begin{cases}\nf(a)\u0026\\text{\u82e5 }k=1\\\\\nf(f^{k-1}(a))\u0026\\text{\u5426\u5219}\\\\\n\\end{cases}\n$$\n\n\u7ed9\u5b9a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $b$ \u548c\u6b63\u6574\u6570 $k$\uff0c\u8bf7\u6c42\u51fa\u4e00\u4e2a\u6570\u7ec4 $a$\uff0c\u6ee1\u8db3 $0\\le a_i \u003C 998\\,244\\,353$ \u4e14 $f^k(a)=b$\u3002\u53ef\u4ee5\u8bc1\u660e\u7b54\u6848\u4e00\u5b9a\u5b58\u5728\uff0c\u82e5\u6709\u591a\u4e2a\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u5373\u53ef\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\u7b2c\u4e00\u884c\u8f93\u5165\u6d4b\u8bd5\u6570\u636e\u7ec4\u6570 $t$\uff08$1\\le t\\le 10^4$\uff09\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6b63\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2\\cdot 10^5$\uff09\u548c $k$\uff08$1\\le k\\le 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a\u6570\u7ec4\u957f\u5ea6\u548c\u51fd\u6570 $f$ \u7684\u590d\u5408\u6b21\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u8f93\u5165\u6570\u7ec4 $b_1, b_2, \\ldots, b_n$\uff08$0\\le b_i \u003C 998\\,244\\,353$\uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u6570\u636e\u7684 $n$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $2\\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u5408\u6cd5\u7684\u6570\u7ec4 $a$\u3002","hint":"\u7b2c\u4e00\u7ec4\u6d4b\u8bd5\u6570\u636e\u4e2d\uff0c\u53ef\u4ee5\u9a8c\u8bc1 $f^1([1,1,1,1,1,1,1,1])=[1,2,1,4,1,2,1,8]$\u3002\n\n\u7b2c\u4e8c\u7ec4\u6d4b\u8bd5\u6570\u636e\u4e2d\uff0c\u53ef\u4ee5\u9a8c\u8bc1 $f^2([1,2,3,4,5,6])=f^1([1,3,3,10,5,11])=[1,4,3,17,5,16]$\u3002","locale":"zh-CN"},"content":{"name":"Fenwick Tree","background":"","description":"Let $ \\operatorname{lowbit}(x) $ denote the value of the lowest binary bit of $ x $ , e.g. $ \\operatorname{lowbit}(12)=4 $ , $ \\operatorname{lowbit}(8)=8 $ .\n\nFor an array $ a $ of length $ n $ , if an array $ s $ of length $ n $ satisfies $ s_k=\\left(\\sum\\limits_{i=k-\\operatorname{lowbit}(k)+1}^{k}a_i\\right)\\bmod 998\\,244\\,353 $ for all $ k $ , then $ s $ is called the Fenwick Tree of $ a $ . Let\u0027s denote it as $ s=f(a) $ .\n\nFor a positive integer $ k $ and an array $ a $ , $ f^k(a) $ is defined as follows:\n\n $$ f^k(a)= \\begin{cases} f(a)\u0026\\textrm{if }k=1\\\\ f(f^{k-1}(a))\u0026\\textrm{otherwise.}\\\\ \\end{cases}  $$\n \nYou are given an array  $ b $  of length  $ n $  and a positive integer  $ k $ . Find an array  $ a $  that satisfies  $ 0\\le a\\_i \\le998,244,353 $  and  $ f^k(a)=b$. It can be proved that an answer always exists. If there are multiple possible answers, you may print any of them.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1\\le t\\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains two positive integers $ n $ ( $ 1 \\leq n \\leq 2\\cdot 10^5 $ ) and $ k $ ( $ 1\\le k\\le 10^9 $ ), representing the length of the array and the number of times the function $ f $ is performed.\n\nThe second line of each test case contains an array $ b_1, b_2, \\ldots, b_n $ ( $ 0\\le b_i \u003C 998\\,244\\,353 $ ).\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2\\cdot 10^5 $ .","formatO":"For each test case, print a single line, containing a valid array $ a $ of length $ n $ .","hint":"In the first test case, it can be seen that $ f^1([1,1,1,1,1,1,1,1])=[1,2,1,4,1,2,1,8] $ .\n\nIn the second test case, it can be seen that $ f^2([1,2,3,4,5,6])=f^1([1,3,3,10,5,11])=[1,4,3,17,5,16] $ .","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n8 1\n1 2 1 4 1 2 1 8\n6 2\n1 4 3 17 5 16","1 1 1 1 1 1 1 1\n1 2 3 4 5 6"]],"limits":{"time":[3000],"memory":[256000]},"vjudge":{"id":"1967C","link":"https:\/\/codeforces.com\/problemset\/problem\/1967\/C"},"translation":"\u5bf9\u4e8e\u6570\u7ec4 $a$\uff0c\u6709\u51fd\u6570 $f(a)$\uff0c\u8bbe\u6570\u7ec4 $s = f(a)$\uff0c\u5219\u5bf9\u4e8e\u6bcf\u4e00\u4e2a $s_i$\uff0c\u90fd\u6709\uff1a\n\n$$s_i = \\left(\\sum^{i}_{j = (i \\operatorname{\\\u0026 } (i - 1)) + 1}{a_j}\\right)$$\n\n\u5176\u4e2d $\\\u0026$ \u8868\u793a\u6309\u4f4d\u4e0e\u8fd0\u7b97\u3002\n\n\u5bf9\u4e8e\u4e00\u4e2a\u6b63\u6574\u6570 $k$\uff0c\u51fd\u6570 $f^k(a)$ \u5b9a\u4e49\u5982\u4e0b\uff1a\n\n$$ f^k(a)=\n\\begin{cases}\n    f(a)\u0026k=1\\\\\\\\\n    f(f^{k-1}(a))\u0026k \u003E 1 \n\\end{cases}$$\n\n\u7ed9\u4f60\u6b63\u6574\u6570 $n, k$ \u548c\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $b$ \u8868\u793a $f^k(a)$\uff0c\u6c42\u4e00\u4e2a\u7b26\u5408\u9898\u610f\u7684\u6570\u7ec4 $a$\uff0c\u53ef\u4ee5\u8bc1\u660e\u7b54\u6848\u603b\u662f\u5b58\u5728\u7684\u3002"},"translations":{"en":{"name":"Fenwick Tree","background":"","description":"Let $ \\operatorname{lowbit}(x) $ denote the value of the lowest binary bit of $ x $ , e.g. $ \\operatorname{lowbit}(12)=4 $ , $ \\operatorname{lowbit}(8)=8 $ .\n\nFor an array $ a $ of length $ n $ , if an array $ s $ of length $ n $ satisfies $ s_k=\\left(\\sum\\limits_{i=k-\\operatorname{lowbit}(k)+1}^{k}a_i\\right)\\bmod 998\\,244\\,353 $ for all $ k $ , then $ s $ is called the Fenwick Tree of $ a $ . Let\u0027s denote it as $ s=f(a) $ .\n\nFor a positive integer $ k $ and an array $ a $ , $ f^k(a) $ is defined as follows:\n\n $$ f^k(a)= \\begin{cases} f(a)\u0026\\textrm{if }k=1\\\\ f(f^{k-1}(a))\u0026\\textrm{otherwise.}\\\\ \\end{cases}  $$\n \nYou are given an array  $ b $  of length  $ n $  and a positive integer  $ k $ . Find an array  $ a $  that satisfies  $ 0\\le a\\_i \\le998,244,353 $  and  $ f^k(a)=b$. It can be proved that an answer always exists. If there are multiple possible answers, you may print any of them.","formatI":"Each test contains multiple test cases. The first line contains the number of test cases $ t $ ( $ 1\\le t\\le 10^4 $ ). The description of the test cases follows.\n\nThe first line of each test case contains two positive integers $ n $ ( $ 1 \\leq n \\leq 2\\cdot 10^5 $ ) and $ k $ ( $ 1\\le k\\le 10^9 $ ), representing the length of the array and the number of times the function $ f $ is performed.\n\nThe second line of each test case contains an array $ b_1, b_2, \\ldots, b_n $ ( $ 0\\le b_i \u003C 998\\,244\\,353 $ ).\n\nIt is guaranteed that the sum of $ n $ over all test cases does not exceed $ 2\\cdot 10^5 $ .","formatO":"For each test case, print a single line, containing a valid array $ a $ of length $ n $ .","hint":"In the first test case, it can be seen that $ f^1([1,1,1,1,1,1,1,1])=[1,2,1,4,1,2,1,8] $ .\n\nIn the second test case, it can be seen that $ f^2([1,2,3,4,5,6])=f^1([1,3,3,10,5,11])=[1,4,3,17,5,16] $ .","locale":"en"},"zh-CN":{"name":"Fenwick Tree","background":null,"description":"\u8bbe $\\operatorname{lowbit}(x)$ \u8868\u793a $x$ \u7684\u4e8c\u8fdb\u5236\u6700\u4f4e\u4f4d\u7684\u503c\uff0c\u4f8b\u5982 $\\operatorname{lowbit}(12)=4$\uff0c$\\operatorname{lowbit}(8)=8$\u3002\n\n\u5bf9\u4e8e\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u82e5\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $s$ \u6ee1\u8db3\u5bf9\u4e8e\u6240\u6709 $k$ \u5747\u6709 $s_k=\\left(\\sum\\limits_{i=k-\\operatorname{lowbit}(k)+1}^{k}a_i\\right)\\bmod 998\\,244\\,353$\uff0c\u5219\u79f0 $s$ \u4e3a $a$ \u7684 *\u6811\u72b6\u6570\u7ec4* \uff0c\u8bb0\u4e3a $s=f(a)$\u3002\n\n\u5bf9\u4e8e\u6b63\u6574\u6570 $k$ \u548c\u6570\u7ec4 $a$\uff0c\u5b9a\u4e49 $f^k(a)$ \u5982\u4e0b\uff1a\n\n$$\nf^k(a)=\n\\begin{cases}\nf(a)\u0026\\text{\u82e5 }k=1\\\\\nf(f^{k-1}(a))\u0026\\text{\u5426\u5219}\\\\\n\\end{cases}\n$$\n\n\u7ed9\u5b9a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $b$ \u548c\u6b63\u6574\u6570 $k$\uff0c\u8bf7\u6c42\u51fa\u4e00\u4e2a\u6570\u7ec4 $a$\uff0c\u6ee1\u8db3 $0\\le a_i \u003C 998\\,244\\,353$ \u4e14 $f^k(a)=b$\u3002\u53ef\u4ee5\u8bc1\u660e\u7b54\u6848\u4e00\u5b9a\u5b58\u5728\uff0c\u82e5\u6709\u591a\u4e2a\u89e3\uff0c\u8f93\u51fa\u4efb\u610f\u4e00\u4e2a\u5373\u53ef\u3002","formatI":"\u6bcf\u4e2a\u6d4b\u8bd5\u70b9\u5305\u542b\u591a\u7ec4\u6d4b\u8bd5\u6570\u636e\u3002\u7b2c\u4e00\u884c\u8f93\u5165\u6d4b\u8bd5\u6570\u636e\u7ec4\u6570 $t$\uff08$1\\le t\\le 10^4$\uff09\u3002\n\n\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\u7684\u7b2c\u4e00\u884c\u8f93\u5165\u4e24\u4e2a\u6b63\u6574\u6570 $n$\uff08$1 \\leq n \\leq 2\\cdot 10^5$\uff09\u548c $k$\uff08$1\\le k\\le 10^9$\uff09\uff0c\u5206\u522b\u8868\u793a\u6570\u7ec4\u957f\u5ea6\u548c\u51fd\u6570 $f$ \u7684\u590d\u5408\u6b21\u6570\u3002\n\n\u7b2c\u4e8c\u884c\u8f93\u5165\u6570\u7ec4 $b_1, b_2, \\ldots, b_n$\uff08$0\\le b_i \u003C 998\\,244\\,353$\uff09\u3002\n\n\u4fdd\u8bc1\u6240\u6709\u6d4b\u8bd5\u6570\u636e\u7684 $n$ \u4e4b\u548c\u4e0d\u8d85\u8fc7 $2\\cdot 10^5$\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u7ec4\u6d4b\u8bd5\u6570\u636e\uff0c\u8f93\u51fa\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u5408\u6cd5\u7684\u6570\u7ec4 $a$\u3002","hint":"\u7b2c\u4e00\u7ec4\u6d4b\u8bd5\u6570\u636e\u4e2d\uff0c\u53ef\u4ee5\u9a8c\u8bc1 $f^1([1,1,1,1,1,1,1,1])=[1,2,1,4,1,2,1,8]$\u3002\n\n\u7b2c\u4e8c\u7ec4\u6d4b\u8bd5\u6570\u636e\u4e2d\uff0c\u53ef\u4ee5\u9a8c\u8bc1 $f^2([1,2,3,4,5,6])=f^1([1,3,3,10,5,11])=[1,4,3,17,5,16]$\u3002","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1967C Fenwick Tree","type":2,"slug":"CF1967C","color":"orange-3"},"discussions":[{"id":818813,"title":"\u9898\u9762latex\u6302\u4e86","author":{"uid":613082,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/613082.png","name":"qscisQJing","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":7,"xcpcLevel":0,"background":""},"time":1715176313}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773331393.671157,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1967C Fenwick Tree","description":"\u8bbe \\operatorname{lowbit}(x) \u8868\u793a x \u7684\u4e8c\u8fdb\u5236\u6700\u4f4e\u4f4d\u7684\u503c\uff0c\u4f8b\u5982 \\operatorname{lowbit}(12)=4\uff0c\\operatorname{lowbit}(8)=8\u3002\n\u5bf9\u4e8e\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a\uff0c\u82e5\u957f\u5ea6\u4e3a\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1967C" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1967C?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1967C?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1967C Fenwick Tree" />
+    <meta property="og:description" content="设 \operatorname{lowbit}(x) 表示 x 的二进制最低位的值，例如 \operatorname{lowbit}(12)=4，\operatorname{lowbit}(8)=8。
+对于长度为 n 的数组 a，若长度为…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1967C" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1967C Fenwick Tree</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    设 $\operatorname{lowbit}(x)$ 表示 $x$ 的二进制最低位的值，例如 $\operatorname{lowbit}(12)=4$，$\operatorname{lowbit}(8)=8$。
+
+对于长度为 $n$ 的数组 $a$，若长度为 $n$ 的数组 $s$ 满足对于所有 $k$ 均有 $s_k=\left(\sum\limits_{i=k-\operatorname{lowbit}(k)+1}^{k}a_i\right)\bmod 998\,244\,353$，则称 $s$ 为 $a$ 的 *树状数组* ，记为 $s=f(a)$。
+
+对于正整数 $k$ 和数组 $a$，定义 $f^k(a)$ 如下：
+
+$$
+f^k(a)=
+\begin{cases}
+f(a)&\text{若 }k=1\\
+f(f^{k-1}(a))&\text{否则}\\
+\end{cases}
+$$
+
+给定长度为 $n$ 的数组 $b$ 和正整数 $k$，请求出一个数组 $a$，满足 $0\le a_i < 998\,244\,353$ 且 $f^k(a)=b$。可以证明答案一定存在，若有多个解，输出任意一个即可。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    每个测试点包含多组测试数据。第一行输入测试数据组数 $t$（$1\le t\le 10^4$）。
+
+每组测试数据的第一行输入两个正整数 $n$（$1 \leq n \leq 2\cdot 10^5$）和 $k$（$1\le k\le 10^9$），分别表示数组长度和函数 $f$ 的复合次数。
+
+第二行输入数组 $b_1, b_2, \ldots, b_n$（$0\le b_i < 998\,244\,353$）。
+
+保证所有测试数据的 $n$ 之和不超过 $2\cdot 10^5$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每组测试数据，输出一行包含一个合法的数组 $a$。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                第一组测试数据中，可以验证 $f^1([1,1,1,1,1,1,1,1])=[1,2,1,4,1,2,1,8]$。
+
+第二组测试数据中，可以验证 $f^2([1,2,3,4,5,6])=f^1([1,3,3,10,5,11])=[1,4,3,17,5,16]$。
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

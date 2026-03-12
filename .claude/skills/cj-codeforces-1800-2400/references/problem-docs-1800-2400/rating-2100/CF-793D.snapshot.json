@@ -1,0 +1,36 @@
+{
+  "id": "CF-793D",
+  "contest_id": 793,
+  "index": "D",
+  "name": "Presents in Bankopolis",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "graphs",
+    "shortest paths"
+  ],
+  "url": "https://codeforces.com/problemset/problem/793/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/793/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/793/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=793D%20Presents in Bankopolis%20tutorial",
+  "solved_count": 1690,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "图论（最短路/连通性/拓扑）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P793D",
+  "hydro_meta": {
+    "page_title": "Presents in Bankopolis - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "graphs",
+      "shortest paths",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

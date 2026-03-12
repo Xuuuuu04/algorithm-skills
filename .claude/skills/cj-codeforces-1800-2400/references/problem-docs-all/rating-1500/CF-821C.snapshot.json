@@ -1,0 +1,29 @@
+{
+  "id": "CF-821C",
+  "contest_id": 821,
+  "index": "C",
+  "name": "Okabe and Boxes",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 7765,
+  "problem_url": "https://codeforces.com/problemset/problem/821/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/821/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/821/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=821C%20Okabe%20and%20Boxes%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/821/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 821C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "3 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CF-1297D",
+  "contest_id": 1297,
+  "index": "D",
+  "name": "Bonus Distribution ",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "*special",
+    "binary search",
+    "greedy",
+    "sortings"
+  ],
+  "solved_count": 273,
+  "problem_url": "https://codeforces.com/problemset/problem/1297/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1297/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1297/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1297D%20Bonus%20Distribution%20%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1297D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Bonus Distribution - 题目详情 - Hydro",
+    "mirror_tags": [
+      "*special problem",
+      "binary search",
+      "greedy",
+      "sortings"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "256MiB"
+  }
+}

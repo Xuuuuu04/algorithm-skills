@@ -1,0 +1,30 @@
+{
+  "id": "CF-600B",
+  "contest_id": 600,
+  "index": "B",
+  "name": "Queries about less or equal elements",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "binary search",
+    "data structures",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 38060,
+  "problem_url": "https://codeforces.com/problemset/problem/600/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/600/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/600/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=600B%20Queries%20about%20less%20or%20equal%20elements%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/600/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 600B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

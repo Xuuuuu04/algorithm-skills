@@ -1,0 +1,31 @@
+{
+  "id": "CF-2038L",
+  "contest_id": 2038,
+  "index": "L",
+  "name": "Bridge Renovation",
+  "rating": 1400,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp",
+    "greedy",
+    "math",
+    "two pointers"
+  ],
+  "solved_count": 7856,
+  "problem_url": "https://codeforces.com/problemset/problem/2038/L",
+  "answer_index_url": "https://codeforces.com/problemset/status/2038/problem/L",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2038/problem/L?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2038L%20Bridge%20Renovation%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2038/L",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2038L - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

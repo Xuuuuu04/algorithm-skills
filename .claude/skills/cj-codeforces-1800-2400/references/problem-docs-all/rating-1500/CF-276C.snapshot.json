@@ -1,0 +1,30 @@
+{
+  "id": "CF-276C",
+  "contest_id": 276,
+  "index": "C",
+  "name": "Little Girl and Maximum Sum",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "data structures",
+    "greedy",
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 38309,
+  "problem_url": "https://codeforces.com/problemset/problem/276/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/276/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/276/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=276C%20Little%20Girl%20and%20Maximum%20Sum%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF276C",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF276C Little Girl and Maximum Sum - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 313,
+    "mirror_attempt": 671,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

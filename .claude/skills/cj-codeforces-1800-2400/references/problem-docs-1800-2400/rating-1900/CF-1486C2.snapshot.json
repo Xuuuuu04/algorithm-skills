@@ -1,0 +1,33 @@
+{
+  "id": "CF-1486C2",
+  "contest_id": 1486,
+  "index": "C2",
+  "name": "Guessing the Greatest (hard version)",
+  "rating": 1900,
+  "tags": [
+    "binary search",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1486/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1486/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1486/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1486C2%20Guessing the Greatest (hard version)%20tutorial",
+  "solved_count": 9821,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1486C2",
+  "hydro_meta": {
+    "page_title": "Guessing the Greatest (hard version) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "interactive",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

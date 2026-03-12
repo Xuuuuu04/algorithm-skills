@@ -1,0 +1,34 @@
+{
+  "id": "CF-1329B",
+  "contest_id": 1329,
+  "index": "B",
+  "name": "Dreamoon Likes Sequences",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "math"
+  ],
+  "solved_count": 7027,
+  "problem_url": "https://codeforces.com/problemset/problem/1329/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1329/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1329/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1329B%20Dreamoon%20Likes%20Sequences%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1329B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Dreamoon Likes Sequences - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "combinatorics",
+      "math",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

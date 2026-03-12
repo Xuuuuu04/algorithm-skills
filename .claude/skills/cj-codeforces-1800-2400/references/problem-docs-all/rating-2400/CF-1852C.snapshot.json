@@ -1,0 +1,35 @@
+{
+  "id": "CF-1852C",
+  "contest_id": 1852,
+  "index": "C",
+  "name": "Ina of the Mountain",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "data structures",
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 2039,
+  "problem_url": "https://codeforces.com/problemset/problem/1852/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/1852/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1852/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1852C%20Ina%20of%20the%20Mountain%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1852C",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ina of the Mountain - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "math"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

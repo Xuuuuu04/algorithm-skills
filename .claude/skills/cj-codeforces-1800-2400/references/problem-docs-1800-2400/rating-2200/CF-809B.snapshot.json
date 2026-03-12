@@ -1,0 +1,33 @@
+{
+  "id": "CF-809B",
+  "contest_id": 809,
+  "index": "B",
+  "name": "Glad to see you!",
+  "rating": 2200,
+  "tags": [
+    "binary search",
+    "interactive"
+  ],
+  "url": "https://codeforces.com/problemset/problem/809/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/809/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/809/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=809B%20Glad to see you!%20tutorial",
+  "solved_count": 1760,
+  "suggested_patterns": [
+    "二分答案（单调性判定）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P809B",
+  "hydro_meta": {
+    "page_title": "Glad to see you! - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "interactive",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

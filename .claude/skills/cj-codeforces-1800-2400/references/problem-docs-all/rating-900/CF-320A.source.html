@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417191:NxWeAfsXscG95PAesLc8m0485ZeYX8wb0ANErixS7Ds=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF320A Magic Numbers - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF320A","type":"CF","title":"Magic Numbers","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":1085,"totalAccepted":430,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Magic Numbers","background":null,"description":"\u9b54\u6cd5\u6570\u662f\u901a\u8fc7\u5c06 $1$\u3001$14$ \u548c $144$ \u8fd9\u4e09\u4e2a\u6570\u5b57\u6309\u4efb\u610f\u987a\u5e8f\u62fc\u63a5\u800c\u6210\u7684\u6570\u5b57\u3002\u6bcf\u4e2a\u6570\u5b57\u53ef\u4ee5\u4f7f\u7528\u4efb\u610f\u6b21\u6570\u3002\u56e0\u6b64\uff0c$14144$\u3001$141414$ \u548c $1411$ \u662f\u9b54\u6cd5\u6570\uff0c\u800c $1444$\u3001$514$ \u548c $414$ \u4e0d\u662f\u9b54\u6cd5\u6570\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5b57\uff0c\u5224\u65ad\u5b83\u662f\u5426\u4e3a\u9b54\u6cd5\u6570\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff0c$(1 \\leq n \\leq 10^{9})$\u3002\u8be5\u6570\u5b57\u4e0d\u5305\u542b\u524d\u5bfc\u96f6\u3002","formatO":"\u5982\u679c $n$ \u662f\u9b54\u6cd5\u6570\uff0c\u5219\u8f93\u51fa \u201cYES\u201d\uff1b\u5426\u5219\u8f93\u51fa \u201cNO\u201d\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Magic Numbers","background":"","description":"A magic number is a number formed by concatenation of numbers $ 1 $ , $ 14 $ and $ 144 $ . We can use each of these numbers any number of times. Therefore $ 14144 $ , $ 141414 $ and $ 1411 $ are magic numbers but $ 1444 $ , $ 514 $ and $ 414 $ are not.\n\nYou\u0027re given a number. Determine if it is a magic number or not.","formatI":"The first line of input contains an integer $ n $ , $ (1\u003C=n\u003C=10^{9}) $ . This number doesn\u0027t contain leading zeros.","formatO":"Print \u0022YES\u0022 if $ n $ is a magic number or print \u0022NO\u0022 if it\u0027s not.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["114114\n","YES\n"],["1111\n","YES\n"],["441231\n","NO\n"]],"limits":{"time":[2000],"memory":[256000]},"vjudge":{"id":"320A","link":"https:\/\/codeforces.com\/problemset\/problem\/320\/A"},"translation":"\u9b54\u6570\u662f\u75311\uff0c14\uff0c144\u7ec4\u6210\u7684\uff0c\u6bcf\u4e2a\u6570\u5b57\u53ef\u4ee5\u91cd\u590d\u4f7f\u7528\uff0c\u4f8b\u5982\uff1a14144\uff0c141414\u548c1411\u5c31\u662f\u9b54\u6570\uff0c\u800c1444\uff0c514 \u548c414\u5c31\u4e0d\u662f\u9b54\u6570\u3002\u5224\u65ad\u4e00\u4e2a\u6570\u662f\u4e0d\u662f\u9b54\u6570\u3002"},"translations":{"en":{"name":"Magic Numbers","background":"","description":"A magic number is a number formed by concatenation of numbers $ 1 $ , $ 14 $ and $ 144 $ . We can use each of these numbers any number of times. Therefore $ 14144 $ , $ 141414 $ and $ 1411 $ are magic numbers but $ 1444 $ , $ 514 $ and $ 414 $ are not.\n\nYou\u0027re given a number. Determine if it is a magic number or not.","formatI":"The first line of input contains an integer $ n $ , $ (1\u003C=n\u003C=10^{9}) $ . This number doesn\u0027t contain leading zeros.","formatO":"Print \u0022YES\u0022 if $ n $ is a magic number or print \u0022NO\u0022 if it\u0027s not.","hint":"","locale":"en"},"zh-CN":{"name":"Magic Numbers","background":null,"description":"\u9b54\u6cd5\u6570\u662f\u901a\u8fc7\u5c06 $1$\u3001$14$ \u548c $144$ \u8fd9\u4e09\u4e2a\u6570\u5b57\u6309\u4efb\u610f\u987a\u5e8f\u62fc\u63a5\u800c\u6210\u7684\u6570\u5b57\u3002\u6bcf\u4e2a\u6570\u5b57\u53ef\u4ee5\u4f7f\u7528\u4efb\u610f\u6b21\u6570\u3002\u56e0\u6b64\uff0c$14144$\u3001$141414$ \u548c $1411$ \u662f\u9b54\u6cd5\u6570\uff0c\u800c $1444$\u3001$514$ \u548c $414$ \u4e0d\u662f\u9b54\u6cd5\u6570\u3002\n\n\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5b57\uff0c\u5224\u65ad\u5b83\u662f\u5426\u4e3a\u9b54\u6cd5\u6570\u3002","formatI":"\u8f93\u5165\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $n$\uff0c$(1 \\leq n \\leq 10^{9})$\u3002\u8be5\u6570\u5b57\u4e0d\u5305\u542b\u524d\u5bfc\u96f6\u3002","formatO":"\u5982\u679c $n$ \u662f\u9b54\u6cd5\u6570\uff0c\u5219\u8f93\u51fa \u201cYES\u201d\uff1b\u5426\u5219\u8f93\u51fa \u201cNO\u201d\u3002","hint":"\n\n\u7531 ChatGPT 5 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF320A Magic Numbers","type":2,"slug":"CF320A","color":"orange-3"},"discussions":[{"id":548755,"title":"\u5173\u4e8e\u96be\u5ea6\u8bc4\u7ea7\u3002\u3002\u3002","author":{"uid":749325,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/749325.png","name":"Sincerin","slogan":"\u8fd9\u4e2a\u5bb6\u4f19\u5f88\u83dc\uff0c\u4ec0\u4e48\u4e5f\u6ca1\u6709\u6d41\u4e0b\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":6,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/c73r8oq1.png"},"time":1672017321},{"id":337027,"title":"CF320A Magic Numbers \u6c42\u52a9\u554a\u554a\u554a\u554a\u554a\uff01","author":{"uid":532079,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/532079.png","name":"inary","slogan":"\u0e14\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49\u0e14\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49\u0e49\u0e49\u0e49\u0e49\u0e49\u0e47\u0e47\u0e47\u0e47\u0e47\u0e49","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1628220191}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330791.040733,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF320A Magic Numbers","description":"\u9b54\u6cd5\u6570\u662f\u901a\u8fc7\u5c06 1\u300114 \u548c 144 \u8fd9\u4e09\u4e2a\u6570\u5b57\u6309\u4efb\u610f\u987a\u5e8f\u62fc\u63a5\u800c\u6210\u7684\u6570\u5b57\u3002\u6bcf\u4e2a\u6570\u5b57\u53ef\u4ee5\u4f7f\u7528\u4efb\u610f\u6b21\u6570\u3002\u56e0\u6b64\uff0c14144\u3001141414 \u548c 1411 \u662f\u9b54\u6cd5\u6570\uff0c\u800c 1444\u3001514 \u548c 414 \u4e0d\u662f\u9b54\u6cd5\u6570\u3002\n\u7ed9\u5b9a\u4e00\u4e2a\u6570\u5b57\uff0c\u5224\u65ad\u5b83\u662f\u5426\u4e3a\u9b54\u6cd5\u6570\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF320A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF320A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF320A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF320A Magic Numbers" />
+    <meta property="og:description" content="魔法数是通过将 1、14 和 144 这三个数字按任意顺序拼接而成的数字。每个数字可以使用任意次数。因此，14144、141414 和 1411 是魔法数，而 1444、514 和 414 不是魔法数。
+给定一个数字，判断它是否为魔法数。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF320A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF320A Magic Numbers</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    魔法数是通过将 $1$、$14$ 和 $144$ 这三个数字按任意顺序拼接而成的数字。每个数字可以使用任意次数。因此，$14144$、$141414$ 和 $1411$ 是魔法数，而 $1444$、$514$ 和 $414$ 不是魔法数。
+
+给定一个数字，判断它是否为魔法数。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    输入的第一行包含一个整数 $n$，$(1 \leq n \leq 10^{9})$。该数字不包含前导零。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    如果 $n$ 是魔法数，则输出 “YES”；否则输出 “NO”。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                
+
+由 ChatGPT 5 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

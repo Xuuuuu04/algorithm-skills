@@ -1,0 +1,28 @@
+{
+  "id": "CF-1758F",
+  "contest_id": 1758,
+  "index": "F",
+  "name": "Decent Division",
+  "rating": 3000,
+  "type": "PROGRAMMING",
+  "points": 3000.0,
+  "tags": [
+    "constructive algorithms",
+    "data structures"
+  ],
+  "solved_count": 208,
+  "problem_url": "https://codeforces.com/problemset/problem/1758/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/1758/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1758/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1758F%20Decent%20Division%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1758F",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1758F Decent Division - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 26,
+    "mirror_attempt": 58,
+    "time_limit": "5000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

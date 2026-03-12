@@ -1,0 +1,36 @@
+{
+  "id": "CF-73B",
+  "contest_id": 73,
+  "index": "B",
+  "name": "Need For Brake",
+  "rating": 2000,
+  "tags": [
+    "binary search",
+    "greedy",
+    "sortings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/73/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/73/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/73/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=73B%20Need For Brake%20tutorial",
+  "solved_count": 540,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P73B",
+  "hydro_meta": {
+    "page_title": "Need For Brake - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*2000"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1068B",
+  "contest_id": 1068,
+  "index": "B",
+  "name": "LCM",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1250.0,
+  "tags": [
+    "math",
+    "number theory"
+  ],
+  "solved_count": 12874,
+  "problem_url": "https://codeforces.com/problemset/problem/1068/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1068/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1068/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1068B%20LCM%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1068B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "LCM - 题目详情 - Hydro",
+    "mirror_tags": [
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

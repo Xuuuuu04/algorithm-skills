@@ -1,0 +1,30 @@
+{
+  "id": "CF-1065G",
+  "contest_id": 1065,
+  "index": "G",
+  "name": "Fibonacci Suffix",
+  "rating": 2700,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "strings"
+  ],
+  "solved_count": 307,
+  "problem_url": "https://codeforces.com/problemset/problem/1065/G",
+  "answer_index_url": "https://codeforces.com/problemset/status/1065/problem/G",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1065/problem/G?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1065G%20Fibonacci%20Suffix%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1065G",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Fibonacci Suffix - 题目详情 - Hydro",
+    "mirror_tags": [
+      "strings",
+      "*2700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

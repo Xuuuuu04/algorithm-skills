@@ -1,0 +1,37 @@
+{
+  "id": "CF-1975E",
+  "contest_id": 1975,
+  "index": "E",
+  "name": "Chain Queries",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dfs and similar",
+    "implementation",
+    "trees"
+  ],
+  "solved_count": 2835,
+  "problem_url": "https://codeforces.com/problemset/problem/1975/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1975/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1975/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1975E%20Chain%20Queries%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1975E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Chain Queries - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "implementation",
+      "trees"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

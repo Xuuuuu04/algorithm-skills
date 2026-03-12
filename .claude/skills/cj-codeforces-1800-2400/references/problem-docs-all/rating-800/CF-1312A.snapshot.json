@@ -1,0 +1,30 @@
+{
+  "id": "CF-1312A",
+  "contest_id": 1312,
+  "index": "A",
+  "name": "Two Regular Polygons",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "geometry",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 27457,
+  "problem_url": "https://codeforces.com/problemset/problem/1312/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1312/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1312/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1312A%20Two%20Regular%20Polygons%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1312A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1312A Two Regular Polygons - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 202,
+    "mirror_attempt": 287,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

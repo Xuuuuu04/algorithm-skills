@@ -1,0 +1,30 @@
+{
+  "id": "CF-1970B2",
+  "contest_id": 1970,
+  "index": "B2",
+  "name": "Exact Neighbours (Medium)",
+  "rating": 2100,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1970/B2",
+  "answer_index_url": "https://codeforces.com/problemset/status/1970/problem/B2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1970/problem/B2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1970B2%20Exact Neighbours (Medium)%20tutorial",
+  "solved_count": 1185,
+  "suggested_patterns": [
+    "构造（不变量与可行性）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1970B2",
+  "hydro_meta": {
+    "page_title": "Exact Neighbours (Medium) - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 1,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

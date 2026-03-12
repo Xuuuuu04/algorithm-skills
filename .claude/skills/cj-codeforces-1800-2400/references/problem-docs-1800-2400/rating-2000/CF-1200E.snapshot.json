@@ -1,0 +1,39 @@
+{
+  "id": "CF-1200E",
+  "contest_id": 1200,
+  "index": "E",
+  "name": "Compress Words",
+  "rating": 2000,
+  "tags": [
+    "brute force",
+    "hashing",
+    "implementation",
+    "string suffix structures",
+    "strings"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1200/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1200/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1200/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1200E%20Compress Words%20tutorial",
+  "solved_count": 9170,
+  "suggested_patterns": [
+    "字符串（KMP/哈希/自动机）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1200E",
+  "hydro_meta": {
+    "page_title": "Compress Words - 题目详情 - Hydro",
+    "hydro_tags": [
+      "brute force",
+      "hashing",
+      "implementation",
+      "string suffix structures",
+      "strings",
+      "*2000"
+    ],
+    "hydro_accepted": 2,
+    "hydro_attempt": 8,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

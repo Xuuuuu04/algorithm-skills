@@ -1,0 +1,27 @@
+{
+  "id": "CF-1734B",
+  "contest_id": 1734,
+  "index": "B",
+  "name": "Bright, Nice, Brilliant",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 16357,
+  "problem_url": "https://codeforces.com/problemset/problem/1734/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1734/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1734/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1734B%20Bright%2C%20Nice%2C%20Brilliant%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1734B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1734B Bright, Nice, Brilliant - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 185,
+    "mirror_attempt": 273,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

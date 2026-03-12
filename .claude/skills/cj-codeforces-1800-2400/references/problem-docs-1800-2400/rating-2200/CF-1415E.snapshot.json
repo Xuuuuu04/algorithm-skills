@@ -1,0 +1,37 @@
+{
+  "id": "CF-1415E",
+  "contest_id": 1415,
+  "index": "E",
+  "name": "New Game Plus!",
+  "rating": 2200,
+  "tags": [
+    "constructive algorithms",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1415/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1415/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1415/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1415E%20New Game Plus!%20tutorial",
+  "solved_count": 2984,
+  "suggested_patterns": [
+    "构造（不变量与可行性）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1415E",
+  "hydro_meta": {
+    "page_title": "New Game Plus! - 题目详情 - Hydro",
+    "hydro_tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

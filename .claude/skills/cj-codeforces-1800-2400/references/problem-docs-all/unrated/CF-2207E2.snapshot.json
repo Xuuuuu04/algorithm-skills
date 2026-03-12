@@ -1,0 +1,29 @@
+{
+  "id": "CF-2207E2",
+  "contest_id": 2207,
+  "index": "E2",
+  "name": "N-MEX (Counting Version)",
+  "rating": null,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "combinatorics",
+    "constructive algorithms",
+    "math"
+  ],
+  "solved_count": 548,
+  "problem_url": "https://codeforces.com/problemset/problem/2207/E2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2207/problem/E2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2207/problem/E2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2207E2%20N-MEX%20%28Counting%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2207/E2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2207E2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

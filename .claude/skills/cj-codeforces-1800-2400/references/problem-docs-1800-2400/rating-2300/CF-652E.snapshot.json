@@ -1,0 +1,38 @@
+{
+  "id": "CF-652E",
+  "contest_id": 652,
+  "index": "E",
+  "name": "Pursuit For Artifacts",
+  "rating": 2300,
+  "tags": [
+    "dfs and similar",
+    "dsu",
+    "graphs",
+    "trees"
+  ],
+  "url": "https://codeforces.com/problemset/problem/652/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/652/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/652/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=652E%20Pursuit For Artifacts%20tutorial",
+  "solved_count": 2791,
+  "suggested_patterns": [
+    "图论（最短路/连通性/拓扑）",
+    "树算法（树形 DP/LCA/重链剖分）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P652E",
+  "hydro_meta": {
+    "page_title": "Pursuit For Artifacts - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2300"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-1191A",
+  "contest_id": 1191,
+  "index": "A",
+  "name": "Tokitsukaze and Enhancement",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "brute force"
+  ],
+  "solved_count": 18919,
+  "problem_url": "https://codeforces.com/problemset/problem/1191/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1191/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1191/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1191A%20Tokitsukaze%20and%20Enhancement%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1191A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1191A Tokitsukaze and Enhancement - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 293,
+    "mirror_attempt": 463,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

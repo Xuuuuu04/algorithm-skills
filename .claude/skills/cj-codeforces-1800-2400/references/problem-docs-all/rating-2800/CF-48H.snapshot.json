@@ -1,0 +1,30 @@
+{
+  "id": "CF-48H",
+  "contest_id": 48,
+  "index": "H",
+  "name": "Black and White",
+  "rating": 2800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "constructive algorithms"
+  ],
+  "solved_count": 184,
+  "problem_url": "https://codeforces.com/problemset/problem/48/H",
+  "answer_index_url": "https://codeforces.com/problemset/status/48/problem/H",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/48/problem/H?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=48H%20Black%20and%20White%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P48H",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Black and White - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "*2800"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

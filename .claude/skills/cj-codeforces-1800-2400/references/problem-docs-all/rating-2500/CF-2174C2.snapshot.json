@@ -1,0 +1,29 @@
+{
+  "id": "CF-2174C2",
+  "contest_id": 2174,
+  "index": "C2",
+  "name": "Beautiful Patterns (Hard Version)",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "combinatorics",
+    "math",
+    "probabilities"
+  ],
+  "solved_count": 892,
+  "problem_url": "https://codeforces.com/problemset/problem/2174/C2",
+  "answer_index_url": "https://codeforces.com/problemset/status/2174/problem/C2",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2174/problem/C2?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2174C2%20Beautiful%20Patterns%20%28Hard%20Version%29%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2174/C2",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2174C2 - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "512 megabytes"
+  }
+}

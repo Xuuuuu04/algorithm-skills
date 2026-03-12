@@ -1,0 +1,32 @@
+{
+  "id": "CF-2084G1",
+  "contest_id": 2084,
+  "index": "G1",
+  "name": "Wish Upon a Satellite (Easy Version)",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "dp",
+    "games"
+  ],
+  "solved_count": 700,
+  "problem_url": "https://codeforces.com/problemset/problem/2084/G1",
+  "answer_index_url": "https://codeforces.com/problemset/status/2084/problem/G1",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2084/problem/G1?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2084G1%20Wish%20Upon%20a%20Satellite%20%28Easy%20Version%29%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2084G1",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Wish Upon a Satellite (Easy Version) - 题目详情 - Hydro",
+    "mirror_tags": [
+      "dp",
+      "games",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "4000ms",
+    "memory_limit": "512MiB"
+  }
+}

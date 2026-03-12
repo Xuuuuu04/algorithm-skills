@@ -1,0 +1,32 @@
+{
+  "id": "CF-925F",
+  "contest_id": 925,
+  "index": "F",
+  "name": "Parametric Circulation",
+  "rating": 3100,
+  "type": "PROGRAMMING",
+  "points": 3250.0,
+  "tags": [
+    "binary search",
+    "flows"
+  ],
+  "solved_count": 160,
+  "problem_url": "https://codeforces.com/problemset/problem/925/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/925/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/925/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=925F%20Parametric%20Circulation%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P925F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Parametric Circulation - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "flows",
+      "*3100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

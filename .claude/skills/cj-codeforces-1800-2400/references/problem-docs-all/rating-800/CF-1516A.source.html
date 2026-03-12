@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417187:OVzOG8Nq6e3trk5U9g6TNdpe72Dt2LDsN3W49PX3NpM=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF1516A Tit for Tat - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF1516A","type":"CF","title":"Tit for Tat","difficulty":1,"tags":[],"wantsTranslation":false,"totalSubmit":532,"totalAccepted":266,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Tit for Tat","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4f60\u6700\u591a\u53ef\u4ee5\u5bf9\u5176\u8fdb\u884c $k$ \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9\u6570\u7ec4\u4e2d\u7684\u4e24\u4e2a\u4e0d\u540c\u5143\u7d20\uff0c\u5c06\u7b2c\u4e00\u4e2a\u5143\u7d20\u52a0 $1$\uff0c\u5e76\u5c06\u7b2c\u4e8c\u4e2a\u5143\u7d20\u51cf $1$\u3002\u4f46\u64cd\u4f5c\u540e\u6570\u7ec4\u7684\u6240\u6709\u5143\u7d20\u90fd\u5fc5\u987b\u4fdd\u6301\u975e\u8d1f\u3002\n\n\u4f60\u80fd\u5f97\u5230\u7684\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4\u662f\u4ec0\u4e48\uff1f\n\n\u5982\u679c\u5b58\u5728\u67d0\u4e2a\u4e0b\u6807 $i$ \u4f7f\u5f97 $x_i \u003C y_i$\uff0c\u4e14\u5bf9\u4e8e\u6240\u6709 $1 \\le j \u003C i$ \u90fd\u6709 $x_j = y_j$\uff0c\u5219\u6570\u7ec4 $x$ \u88ab\u8ba4\u4e3a\u6bd4\u6570\u7ec4 $y$ \u5b57\u5178\u5e8f\u66f4\u5c0f\u3002\u7b80\u5355\u6765\u8bf4\uff0c\u5728\u7b2c\u4e00\u4e2a\u4e0d\u540c\u7684\u4f4d\u7f6e\uff0c$x$ \u7684\u5143\u7d20\u6bd4 $y$ \u7684\u5143\u7d20\u5c0f\uff0c\u5219 $x$ \u5b57\u5178\u5e8f\u66f4\u5c0f\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 20$\uff09\uff0c\u8868\u793a\u9700\u8981\u89e3\u51b3\u7684\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$2 \\le n \\le 100$\uff0c$1 \\le k \\le 10000$\uff09\uff0c\u5206\u522b\u8868\u793a\u6570\u7ec4\u7684\u957f\u5ea6\u548c\u6700\u591a\u53ef\u4ee5\u8fdb\u884c\u7684\u64cd\u4f5c\u6b21\u6570\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\le a_i \\le 100$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u7ecf\u8fc7\u6700\u591a $k$ \u6b21\u64cd\u4f5c\u540e\u80fd\u5f97\u5230\u7684\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4\u3002","hint":"\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6211\u4eec\u9996\u5148\u5c06\u7b2c\u4e00\u4e2a\u5143\u7d20\u51cf $1$\uff0c\u5e76\u5c06\u7b2c\u4e8c\u4e2a\u5143\u7d20\u52a0 $1$\u3002\u7136\u540e\u65e0\u6cd5\u5f97\u5230\u66f4\u5c0f\u5b57\u5178\u5e8f\u7684\u6570\u7ec4\uff0c\u56e0\u4e3a\u4e0d\u80fd\u8ba9\u4efb\u4f55\u5143\u7d20\u53d8\u4e3a\u8d1f\u6570\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"},"content":{"name":"Tit for Tat","background":"","description":"Given an array $ a $ of length $ n $ , you can do at most $ k $ operations of the following type on it:\n\n- choose $ 2 $ different elements in the array, add $ 1 $ to the first, and subtract $ 1 $ from the second. However, all the elements of $ a $ have to remain non-negative after this operation.\n\nWhat is lexicographically the smallest array you can obtain?\n\nAn array $ x $ is [lexicographically smaller](https:\/\/en.wikipedia.org\/wiki\/Lexicographical_order) than an array $ y $ if there exists an index $ i $ such that $ x_i\u003Cy_i $ , and $ x_j=y_j $ for all $ 1 \\le j \u003C i $ . Less formally, at the first index $ i $ in which they differ, $ x_i\u003Cy_i $ .","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le 20 $ ) \u2013 the number of test cases you need to solve.\n\nThe first line of each test case contains $ 2 $ integers $ n $ and $ k $ ( $ 2 \\le n \\le 100 $ , $ 1 \\le k \\le 10000 $ ) \u2014 the number of elements in the array and the maximum number of operations you can make.\n\nThe second line contains $ n $ space-separated integers $ a_1 $ , $ a_2 $ , $ \\ldots $ , $ a_{n} $ ( $ 0 \\le a_i \\le 100 $ ) \u2014 the elements of the array $ a $ .","formatO":"For each test case, print the lexicographically smallest array you can obtain after at most $ k $ operations.","hint":"In the second test case, we start by subtracting $ 1 $ from the first element and adding $ 1 $ to the second. Then, we can\u0027t get any lexicographically smaller arrays, because we can\u0027t make any of the elements negative.","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["2\n3 1\n3 1 4\n2 10\n1 0","2 1 5 \n0 1"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"1516A","link":"https:\/\/codeforces.com\/problemset\/problem\/1516\/A"},"translation":"\u7ed9\u5b9a\u4e00\u4e2a $n$ \u957f\u5ea6\u7684\u6570\u7ec4 $a$ \u548c\u4e00\u4e2a\u6574\u6570 $k$\uff0c\u4f60\u53ef\u4ee5\u8fdb\u884c\u6700\u591a $k$ \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n\u9009\u5b9a\u4e24\u4e2a\u4e0b\u6807 $i$ \u548c $j$ $(i\\neq j)$\uff0c\u4f7f $a_i\\gets a_i+1,\\quad a_j\\gets a_j-1$\u3002\u5176\u4e2d $a_j$ \u5728\u6267\u884c\u64cd\u4f5c\u540e\u5fc5\u987b\u662f\u975e\u8d1f\u7684\u3002\n\n\u95ee\u80fd\u5f97\u5230\u7684\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4\u3002"},"translations":{"en":{"name":"Tit for Tat","background":"","description":"Given an array $ a $ of length $ n $ , you can do at most $ k $ operations of the following type on it:\n\n- choose $ 2 $ different elements in the array, add $ 1 $ to the first, and subtract $ 1 $ from the second. However, all the elements of $ a $ have to remain non-negative after this operation.\n\nWhat is lexicographically the smallest array you can obtain?\n\nAn array $ x $ is [lexicographically smaller](https:\/\/en.wikipedia.org\/wiki\/Lexicographical_order) than an array $ y $ if there exists an index $ i $ such that $ x_i\u003Cy_i $ , and $ x_j=y_j $ for all $ 1 \\le j \u003C i $ . Less formally, at the first index $ i $ in which they differ, $ x_i\u003Cy_i $ .","formatI":"The first line contains an integer $ t $ ( $ 1 \\le t \\le 20 $ ) \u2013 the number of test cases you need to solve.\n\nThe first line of each test case contains $ 2 $ integers $ n $ and $ k $ ( $ 2 \\le n \\le 100 $ , $ 1 \\le k \\le 10000 $ ) \u2014 the number of elements in the array and the maximum number of operations you can make.\n\nThe second line contains $ n $ space-separated integers $ a_1 $ , $ a_2 $ , $ \\ldots $ , $ a_{n} $ ( $ 0 \\le a_i \\le 100 $ ) \u2014 the elements of the array $ a $ .","formatO":"For each test case, print the lexicographically smallest array you can obtain after at most $ k $ operations.","hint":"In the second test case, we start by subtracting $ 1 $ from the first element and adding $ 1 $ to the second. Then, we can\u0027t get any lexicographically smaller arrays, because we can\u0027t make any of the elements negative.","locale":"en"},"zh-CN":{"name":"Tit for Tat","background":null,"description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a $n$ \u7684\u6570\u7ec4 $a$\uff0c\u4f60\u6700\u591a\u53ef\u4ee5\u5bf9\u5176\u8fdb\u884c $k$ \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n- \u9009\u62e9\u6570\u7ec4\u4e2d\u7684\u4e24\u4e2a\u4e0d\u540c\u5143\u7d20\uff0c\u5c06\u7b2c\u4e00\u4e2a\u5143\u7d20\u52a0 $1$\uff0c\u5e76\u5c06\u7b2c\u4e8c\u4e2a\u5143\u7d20\u51cf $1$\u3002\u4f46\u64cd\u4f5c\u540e\u6570\u7ec4\u7684\u6240\u6709\u5143\u7d20\u90fd\u5fc5\u987b\u4fdd\u6301\u975e\u8d1f\u3002\n\n\u4f60\u80fd\u5f97\u5230\u7684\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4\u662f\u4ec0\u4e48\uff1f\n\n\u5982\u679c\u5b58\u5728\u67d0\u4e2a\u4e0b\u6807 $i$ \u4f7f\u5f97 $x_i \u003C y_i$\uff0c\u4e14\u5bf9\u4e8e\u6240\u6709 $1 \\le j \u003C i$ \u90fd\u6709 $x_j = y_j$\uff0c\u5219\u6570\u7ec4 $x$ \u88ab\u8ba4\u4e3a\u6bd4\u6570\u7ec4 $y$ \u5b57\u5178\u5e8f\u66f4\u5c0f\u3002\u7b80\u5355\u6765\u8bf4\uff0c\u5728\u7b2c\u4e00\u4e2a\u4e0d\u540c\u7684\u4f4d\u7f6e\uff0c$x$ \u7684\u5143\u7d20\u6bd4 $y$ \u7684\u5143\u7d20\u5c0f\uff0c\u5219 $x$ \u5b57\u5178\u5e8f\u66f4\u5c0f\u3002","formatI":"\u7b2c\u4e00\u884c\u5305\u542b\u4e00\u4e2a\u6574\u6570 $t$\uff08$1 \\le t \\le 20$\uff09\uff0c\u8868\u793a\u9700\u8981\u89e3\u51b3\u7684\u6d4b\u8bd5\u7528\u4f8b\u6570\u91cf\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e00\u884c\u5305\u542b\u4e24\u4e2a\u6574\u6570 $n$ \u548c $k$\uff08$2 \\le n \\le 100$\uff0c$1 \\le k \\le 10000$\uff09\uff0c\u5206\u522b\u8868\u793a\u6570\u7ec4\u7684\u957f\u5ea6\u548c\u6700\u591a\u53ef\u4ee5\u8fdb\u884c\u7684\u64cd\u4f5c\u6b21\u6570\u3002\n\n\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u7684\u7b2c\u4e8c\u884c\u5305\u542b $n$ \u4e2a\u7528\u7a7a\u683c\u5206\u9694\u7684\u6574\u6570 $a_1, a_2, \\ldots, a_n$\uff08$0 \\le a_i \\le 100$\uff09\uff0c\u8868\u793a\u6570\u7ec4 $a$ \u7684\u5143\u7d20\u3002","formatO":"\u5bf9\u4e8e\u6bcf\u4e2a\u6d4b\u8bd5\u7528\u4f8b\uff0c\u8f93\u51fa\u7ecf\u8fc7\u6700\u591a $k$ \u6b21\u64cd\u4f5c\u540e\u80fd\u5f97\u5230\u7684\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4\u3002","hint":"\u5728\u7b2c\u4e8c\u4e2a\u6d4b\u8bd5\u7528\u4f8b\u4e2d\uff0c\u6211\u4eec\u9996\u5148\u5c06\u7b2c\u4e00\u4e2a\u5143\u7d20\u51cf $1$\uff0c\u5e76\u5c06\u7b2c\u4e8c\u4e2a\u5143\u7d20\u52a0 $1$\u3002\u7136\u540e\u65e0\u6cd5\u5f97\u5230\u66f4\u5c0f\u5b57\u5178\u5e8f\u7684\u6570\u7ec4\uff0c\u56e0\u4e3a\u4e0d\u80fd\u8ba9\u4efb\u4f55\u5143\u7d20\u53d8\u4e3a\u8d1f\u6570\u3002\n\n\u7531 ChatGPT 4.1 \u7ffb\u8bd1","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF1516A Tit for Tat","type":2,"slug":"CF1516A","color":"orange-3"},"discussions":[],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330787.104663,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF1516A Tit for Tat","description":"\u7ed9\u5b9a\u4e00\u4e2a\u957f\u5ea6\u4e3a n \u7684\u6570\u7ec4 a\uff0c\u4f60\u6700\u591a\u53ef\u4ee5\u5bf9\u5176\u8fdb\u884c k \u6b21\u5982\u4e0b\u64cd\u4f5c\uff1a\n\n\u9009\u62e9\u6570\u7ec4\u4e2d\u7684\u4e24\u4e2a\u4e0d\u540c\u5143\u7d20\uff0c\u5c06\u7b2c\u4e00\u4e2a\u5143\u7d20\u52a0 1\uff0c\u5e76\u5c06\u7b2c\u4e8c\u4e2a\u5143\u7d20\u51cf 1\u3002\u4f46\u64cd\u4f5c\u540e\u6570\u7ec4\u7684\u6240\u6709\u5143\u7d20\u90fd\u5fc5\u987b\u4fdd\u6301\u975e\u8d1f\u3002\n\n\u4f60\u80fd\u5f97\u5230\u7684\u5b57\u5178\u5e8f\u6700\u5c0f\u7684\u6570\u7ec4\u662f\u4ec0\u4e48\uff1f\n\u5982\u679c\u5b58\u5728\u67d0\u4e2a\u4e0b\u6807 i\u2026"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF1516A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF1516A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF1516A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF1516A Tit for Tat" />
+    <meta property="og:description" content="给定一个长度为 n 的数组 a，你最多可以对其进行 k 次如下操作：
+
+选择数组中的两个不同元素，将第一个元素加 1，并将第二个元素减 1。但操作后数组的所有元素都必须保持非负。
+
+你能得到的字典序最小的数组是什么？
+如果存在某个下标 i…" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF1516A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF1516A Tit for Tat</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    给定一个长度为 $n$ 的数组 $a$，你最多可以对其进行 $k$ 次如下操作：
+
+- 选择数组中的两个不同元素，将第一个元素加 $1$，并将第二个元素减 $1$。但操作后数组的所有元素都必须保持非负。
+
+你能得到的字典序最小的数组是什么？
+
+如果存在某个下标 $i$ 使得 $x_i < y_i$，且对于所有 $1 \le j < i$ 都有 $x_j = y_j$，则数组 $x$ 被认为比数组 $y$ 字典序更小。简单来说，在第一个不同的位置，$x$ 的元素比 $y$ 的元素小，则 $x$ 字典序更小。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    第一行包含一个整数 $t$（$1 \le t \le 20$），表示需要解决的测试用例数量。
+
+每个测试用例的第一行包含两个整数 $n$ 和 $k$（$2 \le n \le 100$，$1 \le k \le 10000$），分别表示数组的长度和最多可以进行的操作次数。
+
+每个测试用例的第二行包含 $n$ 个用空格分隔的整数 $a_1, a_2, \ldots, a_n$（$0 \le a_i \le 100$），表示数组 $a$ 的元素。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    对于每个测试用例，输出经过最多 $k$ 次操作后能得到的字典序最小的数组。
+                            </div>
+        </section>
+
+        <section>
+            <h2>说明/提示</h2>
+            <div>
+                在第二个测试用例中，我们首先将第一个元素减 $1$，并将第二个元素加 $1$。然后无法得到更小字典序的数组，因为不能让任何元素变为负数。
+
+由 ChatGPT 4.1 翻译
+            </div>
+        </section>    </article>
+</div>
+</body>
+</html>

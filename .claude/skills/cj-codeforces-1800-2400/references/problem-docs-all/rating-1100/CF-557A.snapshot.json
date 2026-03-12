@@ -1,0 +1,34 @@
+{
+  "id": "CF-557A",
+  "contest_id": 557,
+  "index": "A",
+  "name": "Ilya and Diplomas",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation",
+    "math"
+  ],
+  "solved_count": 8440,
+  "problem_url": "https://codeforces.com/problemset/problem/557/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/557/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/557/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=557A%20Ilya%20and%20Diplomas%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P557A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Ilya and Diplomas - 题目详情 - Hydro",
+    "mirror_tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

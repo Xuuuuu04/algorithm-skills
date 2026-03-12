@@ -1,0 +1,28 @@
+{
+  "id": "CF-1703B",
+  "contest_id": 1703,
+  "index": "B",
+  "name": "ICPC Balloons",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "data structures",
+    "implementation"
+  ],
+  "solved_count": 64596,
+  "problem_url": "https://codeforces.com/problemset/problem/1703/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1703/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1703/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1703B%20ICPC%20Balloons%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1703B",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1703B ICPC Balloons - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 419,
+    "mirror_attempt": 698,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-659B",
+  "contest_id": 659,
+  "index": "B",
+  "name": "Qualifying Contest",
+  "rating": 1300,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "constructive algorithms",
+    "sortings"
+  ],
+  "solved_count": 6601,
+  "problem_url": "https://codeforces.com/problemset/problem/659/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/659/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/659/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=659B%20Qualifying%20Contest%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P659B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Qualifying Contest - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "sortings",
+      "*1300"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

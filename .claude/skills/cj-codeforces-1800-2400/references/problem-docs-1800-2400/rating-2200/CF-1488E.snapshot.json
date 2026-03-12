@@ -1,0 +1,36 @@
+{
+  "id": "CF-1488E",
+  "contest_id": 1488,
+  "index": "E",
+  "name": "Palindromic Doubles",
+  "rating": 2200,
+  "tags": [
+    "*special",
+    "data structures",
+    "dp"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1488/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1488/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1488/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1488E%20Palindromic Doubles%20tutorial",
+  "solved_count": 231,
+  "suggested_patterns": [
+    "数据结构（线段树/BIT/平衡树）",
+    "动态规划（状态设计与转移方程）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1488E",
+  "hydro_meta": {
+    "page_title": "Palindromic Doubles - 题目详情 - Hydro",
+    "hydro_tags": [
+      "*special problem",
+      "data structures",
+      "dp",
+      "*2200"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

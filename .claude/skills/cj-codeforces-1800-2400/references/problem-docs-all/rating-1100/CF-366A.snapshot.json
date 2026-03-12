@@ -1,0 +1,30 @@
+{
+  "id": "CF-366A",
+  "contest_id": 366,
+  "index": "A",
+  "name": "Dima and Guards",
+  "rating": 1100,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "implementation"
+  ],
+  "solved_count": 4733,
+  "problem_url": "https://codeforces.com/problemset/problem/366/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/366/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/366/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=366A%20Dima%20and%20Guards%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P366A",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Dima and Guards - 题目详情 - Hydro",
+    "mirror_tags": [
+      "implementation",
+      "*1100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

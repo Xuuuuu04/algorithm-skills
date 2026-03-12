@@ -1,0 +1,28 @@
+{
+  "id": "CF-837C",
+  "contest_id": 837,
+  "index": "C",
+  "name": "Two Seals",
+  "rating": 1500,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "implementation"
+  ],
+  "solved_count": 4524,
+  "problem_url": "https://codeforces.com/problemset/problem/837/C",
+  "answer_index_url": "https://codeforces.com/problemset/status/837/problem/C",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/837/problem/C?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=837C%20Two%20Seals%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/837/C",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 837C - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CF-1685E",
+  "contest_id": 1685,
+  "index": "E",
+  "name": "The Ultimate LIS Problem",
+  "rating": 3500,
+  "type": "PROGRAMMING",
+  "points": 3500.0,
+  "tags": [
+    "data structures",
+    "greedy"
+  ],
+  "solved_count": 196,
+  "problem_url": "https://codeforces.com/problemset/problem/1685/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1685/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1685/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1685E%20The%20Ultimate%20LIS%20Problem%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1685E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "The Ultimate LIS Problem - 题目详情 - Hydro",
+    "mirror_tags": [
+      "data structures",
+      "greedy",
+      "*3500"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CF-1174B",
+  "contest_id": 1174,
+  "index": "B",
+  "name": "Ehab Is an Odd Person",
+  "rating": 1200,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "sortings"
+  ],
+  "solved_count": 16725,
+  "problem_url": "https://codeforces.com/problemset/problem/1174/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/1174/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1174/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1174B%20Ehab%20Is%20an%20Odd%20Person%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/1174/B",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 1174B - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

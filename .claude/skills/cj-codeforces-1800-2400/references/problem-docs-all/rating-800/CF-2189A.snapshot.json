@@ -1,0 +1,28 @@
+{
+  "id": "CF-2189A",
+  "contest_id": 2189,
+  "index": "A",
+  "name": "Table with Numbers",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 500.0,
+  "tags": [
+    "greedy",
+    "implementation"
+  ],
+  "solved_count": 23385,
+  "problem_url": "https://codeforces.com/problemset/problem/2189/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/2189/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2189/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2189A%20Table%20with%20Numbers%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/2189/A",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 2189A - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "1 second",
+    "memory_limit": "256 megabytes"
+  }
+}

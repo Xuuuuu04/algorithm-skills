@@ -1,0 +1,36 @@
+{
+  "id": "CF-1158D",
+  "contest_id": 1158,
+  "index": "D",
+  "name": "Winding polygonal line",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 1500.0,
+  "tags": [
+    "constructive algorithms",
+    "geometry",
+    "greedy",
+    "math"
+  ],
+  "solved_count": 922,
+  "problem_url": "https://codeforces.com/problemset/problem/1158/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1158/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1158/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1158D%20Winding%20polygonal%20line%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1158D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Winding polygonal line - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "geometry",
+      "greedy",
+      "math",
+      "*2600"
+    ],
+    "mirror_accepted": 1,
+    "mirror_attempt": 1,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1773417186:9Ld8DgQt/Sbs5dy+rX1t6f2VXk6Cu9AqSAZ4qLRk4LA=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '5119cdabf692e2a4'; window.__feConfigRequest = '\/_lfe\/config';
+        window.__luoguTagVersion = 'zh\u002DCN\/2026031223'; window.__luoguTagRequest = '\/_lfe\/tags\/zh\u002DCN';
+            </script>
+    <title>CF664A Complicated GCD - 洛谷</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">    <script id="lentille-context" type="application/json">{"instance":"main","template":"problem.show","status":200,"locale":"zh-CN","data":{"problem":{"pid":"CF664A","type":"CF","title":"Complicated GCD","difficulty":2,"tags":[],"wantsTranslation":false,"totalSubmit":1532,"totalAccepted":894,"flag":5,"provider":{"uid":3,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/3.png","name":"\u6d1b\u8c37","slogan":"","badge":null,"isAdmin":true,"isBanned":false,"color":"Purple","ccfLevel":0,"xcpcLevel":0,"background":""},"contenu":{"name":"Complicated GCD","background":"","description":"\u3010\u95ee\u9898\u63cf\u8ff0\u3011 \u7ed9\u4f60\u82e5\u5e72\u4e2a\u6574\u6570\uff0c\u5b83\u4eec\u662fa,a+1,a+2,\u2026,b\uff0c\u8bf7\u6c42\u51fa\u5b83\u4eec\u7684\u6700\u5927\u516c\u7ea6\u6570\uff0c\u5373 gcd(a, a+1, a+2, \u2026, b)\u3002","formatI":"","formatO":"\u3010\u8f93\u5165\u6837\u4f8b1\u3011 1 2\n\n\u3010\u8f93\u51fa\u6837\u4f8b1\u3011 1\n\n\u3010\u8f93\u5165\u6837\u4f8b2\u3011 61803398874989484820458683436563811772030917980576 \n\n61803398874989484820458683436563811772030917980576\n\n\u3010\u8f93\u51fa\u6837\u4f8b2\u3011 61803398874989484820458683436563811772030917980576","hint":"","locale":"zh-CN"},"content":{"name":"Complicated GCD","background":"","description":"Greatest common divisor $ GCD(a,b) $ of two positive integers $ a $ and $ b $ is equal to the biggest integer $ d $ such that both integers $ a $ and $ b $ are divisible by $ d $ . There are many efficient algorithms to find greatest common divisor $ GCD(a,b) $ , for example, Euclid algorithm.\n\nFormally, find the biggest integer $ d $ , such that all integers $ a,a+1,a+2,...,b $ are divisible by $ d $ . To make the problem even more complicated we allow $ a $ and $ b $ to be up to googol, $ 10^{100} $ \u2014 such number do not fit even in 64-bit integer type!","formatI":"The only line of the input contains two integers $ a $ and $ b $ ( $ 1\u003C=a\u003C=b\u003C=10^{100} $ ).","formatO":"Output one integer \u2014 greatest common divisor of all integers from $ a $ to $ b $ inclusive.","hint":"","locale":"en"},"attachments":[],"showScore":false,"acceptSolution":false,"acceptLanguages":[5,1,2,28,3,4,11,12,27,34,7,25,8,33,15,14,19,30,31,32,21,22,17,9,16,13,23],"samples":[["1 2\n","1\n"],["61803398874989484820458683436563811772030917980576 61803398874989484820458683436563811772030917980576\n","61803398874989484820458683436563811772030917980576\n"]],"limits":{"time":[1000],"memory":[256000]},"vjudge":{"id":"664A","link":"https:\/\/codeforces.com\/problemset\/problem\/664\/A"},"translation":"\u3010\u95ee\u9898\u63cf\u8ff0\u3011 \u7ed9\u4f60\u82e5\u5e72\u4e2a\u6574\u6570\uff0c\u5b83\u4eec\u662fa,a+1,a+2,\u2026,b\uff0c\u8bf7\u6c42\u51fa\u5b83\u4eec\u7684\u6700\u5927\u516c\u7ea6\u6570\uff0c\u5373 gcd(a, a+1, a+2, \u2026, b)\u3002\n\n\u3010\u8f93\u5165\u683c\u5f0f\u3011 \u4e00\u884c\uff0c\u5305\u542b\u4e24\u4e2a\u6574\u6570a\u548c b\uff081\u003C=a\u003C=b\u003C=10^100\uff09\u3002\n\n\u3010\u8f93\u51fa\u683c\u5f0f\u3011 \u4e00\u4e2a\u6574\u6570\uff0c\u8868\u793a\u4ecea\u5230b\u6240\u6709\u6574\u6570\u7684\u6700\u5927\u516c\u7ea6\u6570\u3002\n\n\u3010\u8f93\u5165\u6837\u4f8b1\u3011 1 2\n\n\u3010\u8f93\u51fa\u6837\u4f8b1\u3011 1\n\n\u3010\u8f93\u5165\u6837\u4f8b2\u3011 61803398874989484820458683436563811772030917980576 \n\n61803398874989484820458683436563811772030917980576\n\n\u3010\u8f93\u51fa\u6837\u4f8b2\u3011 61803398874989484820458683436563811772030917980576"},"translations":{"en":{"name":"Complicated GCD","background":"","description":"Greatest common divisor $ GCD(a,b) $ of two positive integers $ a $ and $ b $ is equal to the biggest integer $ d $ such that both integers $ a $ and $ b $ are divisible by $ d $ . There are many efficient algorithms to find greatest common divisor $ GCD(a,b) $ , for example, Euclid algorithm.\n\nFormally, find the biggest integer $ d $ , such that all integers $ a,a+1,a+2,...,b $ are divisible by $ d $ . To make the problem even more complicated we allow $ a $ and $ b $ to be up to googol, $ 10^{100} $ \u2014 such number do not fit even in 64-bit integer type!","formatI":"The only line of the input contains two integers $ a $ and $ b $ ( $ 1\u003C=a\u003C=b\u003C=10^{100} $ ).","formatO":"Output one integer \u2014 greatest common divisor of all integers from $ a $ to $ b $ inclusive.","hint":"","locale":"en"},"zh-CN":{"name":"Complicated GCD","background":"","description":"\u3010\u95ee\u9898\u63cf\u8ff0\u3011 \u7ed9\u4f60\u82e5\u5e72\u4e2a\u6574\u6570\uff0c\u5b83\u4eec\u662fa,a+1,a+2,\u2026,b\uff0c\u8bf7\u6c42\u51fa\u5b83\u4eec\u7684\u6700\u5927\u516c\u7ea6\u6570\uff0c\u5373 gcd(a, a+1, a+2, \u2026, b)\u3002","formatI":"","formatO":"\u3010\u8f93\u5165\u6837\u4f8b1\u3011 1 2\n\n\u3010\u8f93\u51fa\u6837\u4f8b1\u3011 1\n\n\u3010\u8f93\u5165\u6837\u4f8b2\u3011 61803398874989484820458683436563811772030917980576 \n\n61803398874989484820458683436563811772030917980576\n\n\u3010\u8f93\u51fa\u6837\u4f8b2\u3011 61803398874989484820458683436563811772030917980576","hint":"","locale":"zh-CN"}},"bookmarked":false,"contest":null,"vjudgeUsername":null,"lastLanguage":null,"lastCode":"","lastCodeAt":null,"recommendations":[],"forum":{"name":"CF664A Complicated GCD","type":2,"slug":"CF664A","color":"orange-3"},"discussions":[{"id":78033,"title":"\u8fd9\u662f\u9ad8\u7cbe\u5417\uff1f\u771f\u7684\u662f\u666e\u53ca\u8d1f\uff1f","author":{"uid":92805,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/92805.png","name":"_RedForest","slogan":"_@#","badge":null,"isAdmin":false,"isBanned":false,"color":"Green","ccfLevel":4,"xcpcLevel":0,"background":""},"time":1540888871},{"id":75702,"title":"\u849f\u84bb\u6c42\u52a9","author":{"uid":86284,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/86284.png","name":"Gamin","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Gray","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1540349279},{"id":63173,"title":"\u7ffb\u8bd1","author":{"uid":89037,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/89037.png","name":"Billy\u25cfHerrington","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1536458526},{"id":63172,"title":"\u7ffb\u8bd1","author":{"uid":89037,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/89037.png","name":"Billy\u25cfHerrington","slogan":"","badge":null,"isAdmin":false,"isBanned":false,"color":"Blue","ccfLevel":0,"xcpcLevel":0,"background":""},"time":1536458489}],"locale":"zh-CN","canEdit":false},"user":null,"time":1773330786.871222,"theme":null}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20260309-1622.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20260309-1622.js" charset="utf-8" defer></script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","name":"CF664A Complicated GCD","description":"\u3010\u95ee\u9898\u63cf\u8ff0\u3011 \u7ed9\u4f60\u82e5\u5e72\u4e2a\u6574\u6570\uff0c\u5b83\u4eec\u662fa,a+1,a+2,\u2026,b\uff0c\u8bf7\u6c42\u51fa\u5b83\u4eec\u7684\u6700\u5927\u516c\u7ea6\u6570\uff0c\u5373 gcd(a, a+1, a+2, \u2026, b)\u3002"}</script>
+    <link rel="canonical" href="https://www.luogu.com.cn/problem/CF664A" />
+            <link rel="alternate" hreflang="en" href="https://www.luogu.com.cn/problem/CF664A?lang=en" />
+        <meta property="og:locale:alternate" content="en" />
+            <link rel="alternate" hreflang="zh-CN" href="https://www.luogu.com.cn/problem/CF664A?lang=zh-CN" />
+        <meta property="og:locale" content="zh-CN" />
+        <meta property="og:site_name" content="洛谷" />
+    <meta property="og:title" content="CF664A Complicated GCD" />
+    <meta property="og:description" content="【问题描述】 给你若干个整数，它们是a,a+1,a+2,…,b，请求出它们的最大公约数，即 gcd(a, a+1, a+2, …, b)。" />
+    <meta property="og:url" content="https://www.luogu.com.cn/problem/CF664A" />
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article lang="zh-CN">
+        <h1>CF664A Complicated GCD</h1>
+
+        
+        <section>
+            <h2>题目描述</h2>
+            <div>
+                                    【问题描述】 给你若干个整数，它们是a,a+1,a+2,…,b，请求出它们的最大公约数，即 gcd(a, a+1, a+2, …, b)。
+                            </div>
+        </section>
+
+        <section>
+            <h2>输入格式</h2>
+            <div>
+                                    The only line of the input contains two integers $ a $ and $ b $ ( $ 1
+                            </div>
+        </section>
+
+        <section>
+            <h2>输出格式</h2>
+            <div>
+                                    【输入样例1】 1 2
+
+【输出样例1】 1
+
+【输入样例2】 61803398874989484820458683436563811772030917980576 
+
+61803398874989484820458683436563811772030917980576
+
+【输出样例2】 61803398874989484820458683436563811772030917980576
+                            </div>
+        </section>
+
+            </article>
+</div>
+</body>
+</html>

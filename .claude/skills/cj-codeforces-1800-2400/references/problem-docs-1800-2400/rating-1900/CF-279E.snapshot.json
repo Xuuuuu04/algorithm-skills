@@ -1,0 +1,39 @@
+{
+  "id": "CF-279E",
+  "contest_id": 279,
+  "index": "E",
+  "name": "Beautiful Decomposition",
+  "rating": 1900,
+  "tags": [
+    "dp",
+    "games",
+    "greedy",
+    "number theory"
+  ],
+  "url": "https://codeforces.com/problemset/problem/279/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/279/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/279/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=279E%20Beautiful Decomposition%20tutorial",
+  "solved_count": 1579,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）",
+    "数论（质因数/同余/逆元）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P279E",
+  "hydro_meta": {
+    "page_title": "Beautiful Decomposition - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "games",
+      "greedy",
+      "number theory",
+      "*1900"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CF-1716D",
+  "contest_id": 1716,
+  "index": "D",
+  "name": "Chip Move",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "brute force",
+    "dp",
+    "math"
+  ],
+  "solved_count": 6048,
+  "problem_url": "https://codeforces.com/problemset/problem/1716/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1716/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1716/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1716D%20Chip%20Move%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1716D",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1716D Chip Move - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 396,
+    "mirror_attempt": 979,
+    "time_limit": "2000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

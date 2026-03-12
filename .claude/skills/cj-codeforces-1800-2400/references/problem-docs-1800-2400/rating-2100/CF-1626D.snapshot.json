@@ -1,0 +1,38 @@
+{
+  "id": "CF-1626D",
+  "contest_id": 1626,
+  "index": "D",
+  "name": "Martial Arts Tournament",
+  "rating": 2100,
+  "tags": [
+    "binary search",
+    "brute force",
+    "greedy",
+    "math"
+  ],
+  "url": "https://codeforces.com/problemset/problem/1626/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/1626/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1626/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1626D%20Martial Arts Tournament%20tutorial",
+  "solved_count": 4305,
+  "suggested_patterns": [
+    "二分答案（单调性判定）",
+    "贪心（排序+局部最优证明）",
+    "数学（数论/组合计数）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P1626D",
+  "hydro_meta": {
+    "page_title": "Martial Arts Tournament - 题目详情 - Hydro",
+    "hydro_tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "*2100"
+    ],
+    "hydro_accepted": 0,
+    "hydro_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CF-229D",
+  "contest_id": 229,
+  "index": "D",
+  "name": "Towers",
+  "rating": 2100,
+  "tags": [
+    "dp",
+    "greedy",
+    "two pointers"
+  ],
+  "url": "https://codeforces.com/problemset/problem/229/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/229/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/229/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=229D%20Towers%20tutorial",
+  "solved_count": 2599,
+  "suggested_patterns": [
+    "动态规划（状态设计与转移方程）",
+    "贪心（排序+局部最优证明）"
+  ],
+  "note": "先按标签定位算法，再回到仓颉模板实现。",
+  "hydro_url": "https://hydro.ac/p/codeforces-P229D",
+  "hydro_meta": {
+    "page_title": "Towers - 题目详情 - Hydro",
+    "hydro_tags": [
+      "dp",
+      "greedy",
+      "two pointers",
+      "*2100"
+    ],
+    "hydro_accepted": 1,
+    "hydro_attempt": 3,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CF-374E",
+  "contest_id": 374,
+  "index": "E",
+  "name": "Inna and Babies",
+  "rating": 2600,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "binary search",
+    "data structures",
+    "dsu",
+    "geometry",
+    "implementation"
+  ],
+  "solved_count": 201,
+  "problem_url": "https://codeforces.com/problemset/problem/374/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/374/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/374/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=374E%20Inna%20and%20Babies%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P374E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Inna and Babies - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "data structures",
+      "dsu",
+      "geometry",
+      "implementation",
+      "*2600"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "6000ms",
+    "memory_limit": "256MiB"
+  }
+}

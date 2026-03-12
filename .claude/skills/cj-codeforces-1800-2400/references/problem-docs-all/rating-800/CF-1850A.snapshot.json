@@ -1,0 +1,28 @@
+{
+  "id": "CF-1850A",
+  "contest_id": 1850,
+  "index": "A",
+  "name": "To My Critics",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": null,
+  "tags": [
+    "implementation",
+    "sortings"
+  ],
+  "solved_count": 72804,
+  "problem_url": "https://codeforces.com/problemset/problem/1850/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1850/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1850/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1850A%20To%20My%20Critics%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1850A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1850A To My Critics - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 377,
+    "mirror_attempt": 596,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

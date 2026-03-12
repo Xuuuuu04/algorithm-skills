@@ -1,0 +1,30 @@
+{
+  "id": "CF-1388A",
+  "contest_id": 1388,
+  "index": "A",
+  "name": "Captain Flint and Crew Recruitment",
+  "rating": 800,
+  "type": "PROGRAMMING",
+  "points": 750.0,
+  "tags": [
+    "brute force",
+    "greedy",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 25871,
+  "problem_url": "https://codeforces.com/problemset/problem/1388/A",
+  "answer_index_url": "https://codeforces.com/problemset/status/1388/problem/A",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1388/problem/A?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1388A%20Captain%20Flint%20and%20Crew%20Recruitment%20tutorial",
+  "mirror_url": "https://www.luogu.com.cn/problem/CF1388A",
+  "mirror_name": "Luogu 镜像",
+  "mirror_meta": {
+    "page_title": "CF1388A Captain Flint and Crew Recruitment - 洛谷",
+    "mirror_tags": [],
+    "mirror_accepted": 200,
+    "mirror_attempt": 409,
+    "time_limit": "1000 ms",
+    "memory_limit": "256000 KB"
+  }
+}

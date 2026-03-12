@@ -1,0 +1,36 @@
+{
+  "id": "CF-895B",
+  "contest_id": 895,
+  "index": "B",
+  "name": "XK Segments",
+  "rating": 1700,
+  "type": "PROGRAMMING",
+  "points": 1000.0,
+  "tags": [
+    "binary search",
+    "math",
+    "sortings",
+    "two pointers"
+  ],
+  "solved_count": 3777,
+  "problem_url": "https://codeforces.com/problemset/problem/895/B",
+  "answer_index_url": "https://codeforces.com/problemset/status/895/problem/B",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/895/problem/B?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=895B%20XK%20Segments%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P895B",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "XK Segments - 题目详情 - Hydro",
+    "mirror_tags": [
+      "binary search",
+      "math",
+      "sortings",
+      "two pointers",
+      "*1700"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

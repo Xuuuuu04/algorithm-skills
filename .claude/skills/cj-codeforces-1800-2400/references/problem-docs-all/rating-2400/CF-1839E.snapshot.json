@@ -1,0 +1,37 @@
+{
+  "id": "CF-1839E",
+  "contest_id": 1839,
+  "index": "E",
+  "name": "Decreasing Game",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "constructive algorithms",
+    "dfs and similar",
+    "dp",
+    "greedy",
+    "interactive"
+  ],
+  "solved_count": 1476,
+  "problem_url": "https://codeforces.com/problemset/problem/1839/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/1839/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/1839/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=1839E%20Decreasing%20Game%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P1839E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Decreasing Game - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "interactive"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "2000ms",
+    "memory_limit": "256MiB"
+  }
+}

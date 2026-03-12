@@ -1,0 +1,38 @@
+{
+  "id": "CF-2176F",
+  "contest_id": 2176,
+  "index": "F",
+  "name": "Omega Numbers",
+  "rating": 2400,
+  "type": "PROGRAMMING",
+  "points": 2750.0,
+  "tags": [
+    "bitmasks",
+    "combinatorics",
+    "dp",
+    "math",
+    "number theory"
+  ],
+  "solved_count": 1380,
+  "problem_url": "https://codeforces.com/problemset/problem/2176/F",
+  "answer_index_url": "https://codeforces.com/problemset/status/2176/problem/F",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/2176/problem/F?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=2176F%20Omega%20Numbers%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P2176F",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Omega Numbers - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "*2400"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "3000ms",
+    "memory_limit": "512MiB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CF-629D",
+  "contest_id": 629,
+  "index": "D",
+  "name": "Babaei and Birthday Cake",
+  "rating": 2000,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "data structures",
+    "dp"
+  ],
+  "solved_count": 4454,
+  "problem_url": "https://codeforces.com/problemset/problem/629/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/629/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/629/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=629D%20Babaei%20and%20Birthday%20Cake%20tutorial",
+  "mirror_url": "https://mirror.codeforces.com/problemset/problem/629/D",
+  "mirror_name": "Codeforces 官方镜像",
+  "mirror_meta": {
+    "page_title": "Problem - 629D - Codeforces",
+    "mirror_tags": [],
+    "mirror_accepted": null,
+    "mirror_attempt": null,
+    "time_limit": "2 seconds",
+    "memory_limit": "256 megabytes"
+  }
+}

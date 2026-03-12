@@ -1,0 +1,38 @@
+{
+  "id": "CF-260D",
+  "contest_id": 260,
+  "index": "D",
+  "name": "Black and White Tree",
+  "rating": 2100,
+  "type": "PROGRAMMING",
+  "points": 2000.0,
+  "tags": [
+    "constructive algorithms",
+    "dsu",
+    "graphs",
+    "greedy",
+    "trees"
+  ],
+  "solved_count": 1651,
+  "problem_url": "https://codeforces.com/problemset/problem/260/D",
+  "answer_index_url": "https://codeforces.com/problemset/status/260/problem/D",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/260/problem/D?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=260D%20Black%20and%20White%20Tree%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P260D",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Black and White Tree - 题目详情 - Hydro",
+    "mirror_tags": [
+      "constructive algorithms",
+      "dsu",
+      "graphs",
+      "greedy",
+      "trees",
+      "*2100"
+    ],
+    "mirror_accepted": 0,
+    "mirror_attempt": 0,
+    "time_limit": "1000ms",
+    "memory_limit": "256MiB"
+  }
+}

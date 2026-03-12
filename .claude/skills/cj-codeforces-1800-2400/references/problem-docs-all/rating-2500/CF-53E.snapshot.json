@@ -1,0 +1,32 @@
+{
+  "id": "CF-53E",
+  "contest_id": 53,
+  "index": "E",
+  "name": "Dead Ends",
+  "rating": 2500,
+  "type": "PROGRAMMING",
+  "points": 2500.0,
+  "tags": [
+    "bitmasks",
+    "dp"
+  ],
+  "solved_count": 1243,
+  "problem_url": "https://codeforces.com/problemset/problem/53/E",
+  "answer_index_url": "https://codeforces.com/problemset/status/53/problem/E",
+  "ok_submissions_url": "https://codeforces.com/problemset/status/53/problem/E?order=BY_PROGRAM_LENGTH_ASC&status=OK",
+  "tutorial_search_url": "https://codeforces.com/search?query=53E%20Dead%20Ends%20tutorial",
+  "mirror_url": "https://hydro.ac/p/codeforces-P53E",
+  "mirror_name": "Hydro 镜像",
+  "mirror_meta": {
+    "page_title": "Dead Ends - 题目详情 - Hydro",
+    "mirror_tags": [
+      "bitmasks",
+      "dp",
+      "*2500"
+    ],
+    "mirror_accepted": 2,
+    "mirror_attempt": 2,
+    "time_limit": "5000ms",
+    "memory_limit": "256MiB"
+  }
+}
