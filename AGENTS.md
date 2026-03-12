@@ -440,21 +440,26 @@ projects/<slug>/
 
 ### 9.1 内置代理分工
 
-- `Sisyphus`：主编排代理，负责识别当前是 ACM、LeetCode 还是项目模式，并分派后续任务
+- `Sisyphus`：主工作代理，负责任务总控、模式识别后的主线推进
 - `Prometheus`：计划代理，用于高风险、大任务、需求不清或需要先做方案比较的场景
+- `Metis`：规划前顾问，负责提前识别歧义、遗漏约束、错误模式判断
+- `Momus`：计划审稿代理，负责否决含糊计划、缺少验证链的计划、缺少联网核验门槛的计划
 - `Oracle`：架构 / 调试 / 复核代理，偏只读审查，不应在没有必要时直接改文件
 - `Librarian`：文档和证据代理，负责查本地 Skill、仓库文档、官方文档、上游仓库
 - `Explore`：快速搜索代理，负责本地代码、目录、模式、线索的快速探索
-- `Hephaestus`：自治执行代理，适合在方案已经确定后承接端到端实现
+- `Atlas`：多代理编排器，适合更长流程、更大范围、更强验证闭环的任务
 
 ### 9.2 推荐调用规则
 
-- 先由 `Sisyphus` 做任务识别和总控
-- 任务不清、约束复杂、需要方案比较时，先调 `Prometheus`
+- 先由 `contest-mode-router` 或具备同等职责的代理做模式识别和路径判定
+- 任务不清、约束复杂、需要先问清边界时，先调 `Metis` 或 `Prometheus`
 - 需要本地快速定位文件、模式、符号时，先调 `Explore`
 - 需要正式文档、官方说明、上游样例、外部证据时，调 `Librarian`
-- 需要做正确性、架构、回归风险、隐藏边界复核时，调 `Oracle`
-- 在实现路径明确后，再让 `Hephaestus` 或主代理执行落地
+- 只要题面、版本、仓库状态、插件行为来自索引或链接集合，就优先调 `statement-verifier`
+- 只要是高难算法题，在真正实现前就优先调 `algorithm-adversary` 做对抗审查
+- 只要要写仓颉代码、改 `cjpm.toml`、改项目结构，就在落盘前后调 `cangjie-implementation-auditor`
+- 只要是项目模式、系统题、仓颉工程搭建，就优先调 `project-structure-scout`
+- 需要更长流程的多代理闭环时，再由 `Atlas` 编排
 
 ### 9.3 详细委派要求
 
@@ -472,6 +477,16 @@ projects/<slug>/
 - OpenCode 可直接发现 `.claude/skills/*/SKILL.md`，因此本仓库的 Skill 应被视为第一优先级的本地知识源
 - 若仓库中存在 `.opencode/oh-my-opencode.json` 或 `.opencode/oh-my-opencode.jsonc`，应优先使用项目级配置
 - 任何通过索引、镜像、快照、聚合页得到的事实，都必须继续 `fetch` / `search` 复核后再下结论
+
+### 9.5 项目级自定义代理
+
+本仓库额外提供以下项目级 `.claude/agents/*.md` 代理，供 OpenCode 自动装载后使用：
+
+- `contest-mode-router`：先判定 ACM / LeetCode / 项目开发 / 测试反馈，并给出目标路径与 Skill 清单
+- `statement-verifier`：把题库索引、镜像链接、摘要条目继续核成正文级事实
+- `algorithm-adversary`：主动构造反例和退化场景，挑战候选算法
+- `cangjie-implementation-auditor`：在写仓颉实现前后核对语法、API、import、构建依据
+- `project-structure-scout`：项目模式下先读 CangjieSIG 活跃仓库，再给目录结构建议
 
 ---
 
