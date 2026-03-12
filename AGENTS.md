@@ -478,8 +478,9 @@ projects/<slug>/
 
 ### 9.4 与本仓库的结合要求
 
-- OpenCode 可直接发现 `.claude/skills/*/SKILL.md`，因此本仓库的 Skill 应被视为第一优先级的本地知识源
+- OpenCode 可直接发现 `.claude/skills/*/SKILL.md`，因此本仓库的 Skill 应被视为第一优先级的本地知识源，但它们主要负责提供仓颉知识、历史题库和参考样本，不应替代外部题目的实时主源正文
 - 若仓库中存在 `.opencode/oh-my-opencode.json` 或 `.opencode/oh-my-opencode.jsonc`，应优先使用项目级配置
+- 只要题目、文档、仓库或版本来自外部站点，并且当前环境允许联网，就优先直接 `fetch/search` 主站、官方文档或上游仓库；本地题库、索引、镜像、快照只能作为加速器和候选线索
 - 任何通过索引、镜像、快照、聚合页得到的事实，都必须继续 `fetch` / `search` 复核后再下结论
 
 ### 9.5 项目级自定义代理
@@ -498,8 +499,8 @@ projects/<slug>/
 
 ### 9.6 模式专属推荐链路
 
-- `ACM`：`contest-mode-router` → `statement-verifier` → `algorithm-adversary` → `cangjie-implementation-auditor` → 实现 → `contest-final-gate`
-- `LeetCode`：`contest-mode-router` → `statement-verifier`（若题意来自外链）→ `algorithm-adversary` → `cangjie-implementation-auditor` → 实现 → `contest-final-gate`
+- `ACM`：`contest-mode-router` → `statement-verifier`（优先直抓主站正文，必要时再用本地题库补充）→ `algorithm-adversary` → `cangjie-implementation-auditor` → 实现 → `contest-final-gate`
+- `LeetCode`：`contest-mode-router` → `statement-verifier`（优先直抓主站正文与官方示例）→ `algorithm-adversary` → `cangjie-implementation-auditor` → 实现 → `contest-final-gate`
 - `项目开发`：`contest-mode-router` → `project-structure-scout` → `delegate-prompt-composer` → 实现/修改 → `cangjie-implementation-auditor` → `contest-final-gate`
 - `测试反馈`：`contest-mode-router` → `test-feedback-triage` → 必要时 `statement-verifier` / `algorithm-adversary` / `cangjie-implementation-auditor` → 修复 → `contest-final-gate`
 

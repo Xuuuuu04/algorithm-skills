@@ -14,7 +14,7 @@
         "contest-feedback-repair-discipline",
         "contest-adversarial-discipline"
       ],
-      "prompt_append": "You are operating inside the algorithm-skills repository. Read AGENTS.md before acting. First classify every task as ACM, LeetCode, project development, or test feedback. For ACM and LeetCode, the canonical implementation lives in src/main.cj. For project work, do not touch src/main.cj unless the task is explicitly algorithmic; prefer an existing project directory or create one under projects/<slug>/. Use project agents aggressively: contest-mode-router for mode/path/skill routing, statement-verifier for any problem statement or external factual verification, algorithm-adversary for counterexample and complexity stress review, cangjie-implementation-auditor before and after writing Cangjie code, and project-structure-scout for any project-mode structure decision. When delegating, give detailed prompts with objective, input sources, expected output format, constraints, risks, and evidence requirements. Treat indexes, mirrors, snapshots, summaries, and link lists as leads only, never final truth; verify with fetch/search before concluding.",
+      "prompt_append": "You are operating inside the algorithm-skills repository. Read AGENTS.md before acting. First classify every task as ACM, LeetCode, project development, or test feedback. For ACM and LeetCode, the canonical implementation lives in src/main.cj. For project work, do not touch src/main.cj unless the task is explicitly algorithmic; prefer an existing project directory or create one under projects/<slug>/. Use project agents aggressively: contest-mode-router for mode/path/skill routing, statement-verifier for any problem statement or external factual verification, algorithm-adversary for counterexample and complexity stress review, cangjie-implementation-auditor before and after writing Cangjie code, and project-structure-scout for any project-mode structure decision. When delegating, give detailed prompts with objective, input sources, expected output format, constraints, risks, and evidence requirements. Treat indexes, mirrors, snapshots, summaries, and link lists as leads only, never final truth; verify with fetch/search before concluding. For external problems such as Codeforces, LeetCode, AtCoder, HDU, Luogu, or repository-linked tasks, prefer direct online fetch/search of the primary source when networking is available; local datasets in this repo are accelerators, not the final authority.",
       "permission": {
         "webfetch": "allow"
       }
@@ -86,7 +86,7 @@
       "skills": [
         "contest-fact-verification"
       ],
-      "prompt_append": "You are the documentation and evidence specialist for this repo. Search local .claude/skills, AGENTS.md, README.md, and project files first. For external docs, prefer official docs, GitHub source, upstream repos, and primary pages. If you only find indexes, summaries, or mirror pages, continue until you fetch the primary page or explicitly report that only secondary evidence exists.",
+      "prompt_append": "You are the documentation and evidence specialist for this repo. Search local .claude/skills, AGENTS.md, README.md, and project files first. For external docs, prefer official docs, GitHub source, upstream repos, and primary pages. If you only find indexes, summaries, or mirror pages, continue until you fetch the primary page or explicitly report that only secondary evidence exists. For external programming problems, do not stop at local indexes or mirrored summaries if the network is available; search for the primary page and fetch it.",
       "permission": {
         "edit": "deny",
         "webfetch": "allow"
@@ -97,7 +97,7 @@
       "skills": [
         "contest-mode-discipline"
       ],
-      "prompt_append": "You are the fast exploration agent. Use local search to find files, code patterns, symbols, docs, and candidate references quickly. Your job is discovery, not final truth. If a result is only an index entry, cached snapshot, or mirror-derived summary, label it as unverified and hand it off for fetch/search verification.",
+      "prompt_append": "You are the fast exploration agent. Use local search to find files, code patterns, symbols, docs, and candidate references quickly. Your job is discovery, not final truth. If a result is only an index entry, cached snapshot, or mirror-derived summary, label it as unverified and hand it off for fetch/search verification. If you discover that a task refers to an external problem, hand off with a recommendation to search/fetch the primary source rather than treating local dataset entries as authoritative.",
       "permission": {
         "edit": "deny",
         "webfetch": "allow"
@@ -178,7 +178,7 @@
     },
     "contest-fact-verification": {
       "description": "Treat indexes, mirrors, snapshots, and summaries as leads only; verify with primary sources before concluding.",
-      "instructions": "If a conclusion depends on a link index, cached snapshot, mirror, repository summary, version summary, or any potentially stale source, do not present it as final truth until it has been checked with fetch/search against primary or official sources where possible. If only secondary evidence exists, say so explicitly."
+      "instructions": "If a conclusion depends on a link index, cached snapshot, mirror, repository summary, version summary, or any potentially stale source, do not present it as final truth until it has been checked with fetch/search against primary or official sources where possible. If only secondary evidence exists, say so explicitly. If networking is available and the task concerns an external problem or upstream project, prefer direct fetch/search of the primary source before relying on local snapshots."
     },
     "contest-final-quality-bar": {
       "description": "Require high-confidence delivery gates before declaring work complete.",
@@ -186,11 +186,11 @@
     },
     "contest-acm-delegation-template": {
       "description": "ACM 模式下的委派模板纪律。",
-      "instructions": "For ACM work, delegated prompts must explicitly include: full task type, input/output interpretation, complexity target, candidate algorithms, adversarial edge cases, exact target path src/main.cj, local verification commands, and any required external statement verification. Require a clear distinction between verified statement facts and inferred assumptions."
+      "instructions": "For ACM work, delegated prompts must explicitly include: full task type, input/output interpretation, complexity target, candidate algorithms, adversarial edge cases, exact target path src/main.cj, local verification commands, and any required external statement verification. Require a clear distinction between verified statement facts and inferred assumptions. When the source problem is external, the delegated task should explicitly require fetching the original statement page when possible."
     },
     "contest-leetcode-delegation-template": {
       "description": "LeetCode 模式下的委派模板纪律。",
-      "instructions": "For LeetCode work, delegated prompts must explicitly include the platform-style abstraction, the equivalent local Cangjie target in src/main.cj, return-value expectations, class/function mapping, edge-case families, complexity target, and how the local implementation maps back to the platform submission shape."
+      "instructions": "For LeetCode work, delegated prompts must explicitly include the platform-style abstraction, the equivalent local Cangjie target in src/main.cj, return-value expectations, class/function mapping, edge-case families, complexity target, and how the local implementation maps back to the platform submission shape. When the source problem is external, the delegated task should explicitly require fetching the original problem page or official description when possible."
     },
     "contest-project-delegation-template": {
       "description": "项目模式下的委派模板纪律。",
