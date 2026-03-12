@@ -448,6 +448,8 @@ projects/<slug>/
 - `Librarian`：文档和证据代理，负责查本地 Skill、仓库文档、官方文档、上游仓库
 - `Explore`：快速搜索代理，负责本地代码、目录、模式、线索的快速探索
 - `Atlas`：多代理编排器，适合更长流程、更大范围、更强验证闭环的任务
+- `delegate-prompt-composer`：把模糊任务改写成高质量 OpenCode 委派 prompt
+- `contest-final-gate`：交付前做最终门禁审查，防止错误模式、错误路径、未核验事实和验证不足
 
 ### 9.2 推荐调用规则
 
@@ -460,6 +462,8 @@ projects/<slug>/
 - 只要要写仓颉代码、改 `cjpm.toml`、改项目结构，就在落盘前后调 `cangjie-implementation-auditor`
 - 只要是项目模式、系统题、仓颉工程搭建，就优先调 `project-structure-scout`
 - 需要更长流程的多代理闭环时，再由 `Atlas` 编排
+- 当主代理准备委派但 prompt 还不够精确时，先调 `delegate-prompt-composer`
+- 在准备交付前，优先调 `contest-final-gate` 做最后门禁
 
 ### 9.3 详细委派要求
 
@@ -487,6 +491,8 @@ projects/<slug>/
 - `algorithm-adversary`：主动构造反例和退化场景，挑战候选算法
 - `cangjie-implementation-auditor`：在写仓颉实现前后核对语法、API、import、构建依据
 - `project-structure-scout`：项目模式下先读 CangjieSIG 活跃仓库，再给目录结构建议
+- `delegate-prompt-composer`：为任意子代理生成细粒度、高约束、可验证的委派 prompt
+- `contest-final-gate`：交付前统一审查模式、路径、验证、联网核验和越界修改
 
 ---
 
