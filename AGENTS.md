@@ -493,6 +493,29 @@ projects/<slug>/
 - `project-structure-scout`：项目模式下先读 CangjieSIG 活跃仓库，再给目录结构建议
 - `delegate-prompt-composer`：为任意子代理生成细粒度、高约束、可验证的委派 prompt
 - `contest-final-gate`：交付前统一审查模式、路径、验证、联网核验和越界修改
+- `test-feedback-triage`：在 WA/TLE/RE/MLE/CE 或项目报错后先做根因分诊，再决定修复顺序
+
+
+### 9.6 模式专属推荐链路
+
+- `ACM`：`contest-mode-router` → `statement-verifier` → `algorithm-adversary` → `cangjie-implementation-auditor` → 实现 → `contest-final-gate`
+- `LeetCode`：`contest-mode-router` → `statement-verifier`（若题意来自外链）→ `algorithm-adversary` → `cangjie-implementation-auditor` → 实现 → `contest-final-gate`
+- `项目开发`：`contest-mode-router` → `project-structure-scout` → `delegate-prompt-composer` → 实现/修改 → `cangjie-implementation-auditor` → `contest-final-gate`
+- `测试反馈`：`contest-mode-router` → `test-feedback-triage` → 必要时 `statement-verifier` / `algorithm-adversary` / `cangjie-implementation-auditor` → 修复 → `contest-final-gate`
+
+### 9.7 项目级 OpenCode 自定义 Skills
+
+项目级 `.opencode/oh-my-opencode.jsonc` 还定义了一组竞赛专用 custom skills，用于约束默认代理行为：
+
+- `contest-mode-discipline`：强制先判模式和目标路径
+- `contest-delegation-discipline`：强制把委派 prompt 写细
+- `contest-fact-verification`：强制索引/镜像/快照后续联网复核
+- `contest-final-quality-bar`：强制交付前做高标准完成度检查
+- `contest-acm-delegation-template`：ACM 委派模板纪律
+- `contest-leetcode-delegation-template`：LeetCode 委派模板纪律
+- `contest-project-delegation-template`：项目委派模板纪律
+- `contest-feedback-repair-discipline`：失败反馈后先分诊再修
+- `contest-adversarial-discipline`：高难题先做对抗审查
 
 ---
 
